@@ -1,0 +1,31 @@
+{
+  "FileName": "Amuna_V1_Developed_Historical_Support_Character_Authority.md",
+  "Version": "1.0.0",
+  "SHA256": "f1cac0b82a7ed5bcf7ed14a0ce43dc7ffbb4e2196ce336b932f0c8b4b426548c",
+  "Bytes": 11931,
+  "Lines": 256,
+  "Checks": {
+    "bytes": 11931,
+    "lines": 256,
+    "focused": true,
+    "opening_inactive": true,
+    "survival_unresolved": true,
+    "no_relationship_invention": true,
+    "repeated": {},
+    "escaped_underscore": 0,
+    "escaped_hyphen": 0,
+    "em_dash": 0,
+    "balanced": true
+  },
+  "AllChecksPass": true,
+  "MutationReceipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Relationships": 0,
+    "Household": 0,
+    "Property": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "NextFile": "Gonzalo_of_Sobrarbe_and_Ribagorza_V1_Developed_Historical_Support_Character_Authority.md"
+}

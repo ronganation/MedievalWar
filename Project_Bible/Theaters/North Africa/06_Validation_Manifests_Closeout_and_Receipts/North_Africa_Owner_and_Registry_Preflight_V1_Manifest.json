@@ -1,0 +1,41 @@
+{
+  "document_id": "mw.manifest.north-africa-owner-registry-preflight.v1",
+  "version": "1.0.0",
+  "revision_date": "2026-09-14",
+  "status": "STATIC_CHECKED_ARTIFACT_PACKAGE",
+  "project_bible": "2.4",
+  "design_expansion_checklist": "3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "visual_sources": [
+    "Screenshot 2026-09-11 190706.png",
+    "Screenshot 2026-09-11 190627.png"
+  ],
+  "files": [
+    {
+      "filename": "North_Africa_Registry_Candidate_and_Owner_Adjudication_Preflight_V1.md",
+      "sha256": "e2f7ca2dea1e737385e08ab4c87f97fc9ea910a304ef7871c332740e0cbca3b8",
+      "bytes": 19892,
+      "lines": 535
+    },
+    {
+      "filename": "North_Africa_Theater_Owner_and_Dependency_Preflight_V1.md",
+      "sha256": "8693a1cd9dc0fb713f667a8e73e4f459c06bf5865afd7c0c3ce0019b32ef114a",
+      "bytes": 16221,
+      "lines": 412
+    }
+  ],
+  "mutations": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "UnrealSource": 0,
+    "RuntimeState": 0
+  },
+  "validation": {
+    "static_content_checks": true,
+    "compile": false,
+    "runtime": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false
+  }
+}

@@ -1,0 +1,68 @@
+DocumentControl:
+  SchemaId: schema.france.temporal-tracks.v1
+  SchemaVersion: 1.0.0
+  PackageId: package.france.current-candidate.v1
+  RealmIdCandidate: realm.france
+  ScenarioId: mw.scenario.grand_campaign.1062
+  RevisionDate: '2026-09-03'
+  SourceAuthorities:
+  - Project Bible 2.4
+  - Design Expansion Checklist 3.7
+  CandidateOnly: true
+  OpeningStateActivation: false
+  RegistryPromotion: false
+  UnrealImport: false
+  RuntimeEligible: false
+Records:
+- RecordId: temporal.france.historical
+  RecordType: TemporalTrack
+  Disposition: FranceCanonicalCandidate
+  OwningAuthority: Project Bible 2.4
+  OwningRegistry: TemporalOwner
+  SourceAuthority: Project Bible 2.4
+  EvidenceDisposition: AuthoritySupportedCandidateNotProjectCanonical
+  ExternalOwnerLock: false
+  OpeningStateEligibility: CandidateReviewOnly
+  RuntimeEligibility: NotEligible
+  StateVersion: 1
+  BlockingReviews: []
+  ProgressionPerStrategicTurn: +21 months
+  ForcesHistoricalOutcomes: false
+- RecordId: temporal.france.biological
+  RecordType: TemporalTrack
+  Disposition: FranceCanonicalCandidate
+  OwningAuthority: Project Bible 2.4
+  OwningRegistry: TemporalOwner
+  SourceAuthority: Project Bible 2.4
+  EvidenceDisposition: AuthoritySupportedCandidateNotProjectCanonical
+  ExternalOwnerLock: false
+  OpeningStateEligibility: CandidateReviewOnly
+  RuntimeEligibility: NotEligible
+  StateVersion: 1
+  BlockingReviews: []
+  ProgressionPerStrategicTurn: +7 months
+  AutomaticallyGrantsAdultAgency: false
+- RecordId: temporal.france.campaign_season
+  RecordType: TemporalTrack
+  Disposition: FranceCanonicalCandidate
+  OwningAuthority: Project Bible 2.4
+  OwningRegistry: TemporalOwner
+  SourceAuthority: Project Bible 2.4
+  EvidenceDisposition: AuthoritySupportedCandidateNotProjectCanonical
+  ExternalOwnerLock: false
+  OpeningStateEligibility: CandidateReviewOnly
+  RuntimeEligibility: NotEligible
+  StateVersion: 1
+  BlockingReviews: []
+  ProgressionPerStrategicTurn: +1 ordered step
+  Order:
+  - Winter
+  - Spring
+  - Summer
+  - Autumn
+ReviewQueue: []
+Quarantine: []
+Validation:
+  ParseStatus: PendingFinalBundleValidation
+  SchemaStatus: CandidateSchema
+  OwnerStatus: PendingProjectAndExternalReceipts

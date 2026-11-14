@@ -1,0 +1,48 @@
+{
+  "document_id": "manifest.readme.characters.scotland.v2",
+  "version": "2.0.0",
+  "successor": {
+    "filename": "README_Characters_Scotland_V2.md",
+    "bytes": 22966,
+    "physical_lines": 658,
+    "sha256": "b1d826d73edd67189c5661348d4b42371d0a9e7abebe62d6b3140ab47f85ac9b"
+  },
+  "package": {
+    "realm_id": "Realm.Scotland",
+    "scenario_id": "Scenario.Scotland.Opening_1062_01_01",
+    "supported_character_count": 7,
+    "underage_companion_count": 1,
+    "quarantined_person_nodes": 1,
+    "deprecated_office_as_person_patterns": 1,
+    "replacement_people_created": 0
+  },
+  "supported_authorities": [
+    "Malcolm_III_V2_Current_Authority_Refinement.md",
+    "Ingibjorg_Finnsdottir_V2_Current_Authority_Refinement.md",
+    "Donald_III_V2_Current_Authority_Refinement.md",
+    "Duncan_II_of_Scotland_V2_Current_Authority_Refinement.md",
+    "Mael_Muire_mac_Donnchada_V2_Current_Authority_Refinement.md",
+    "Mael_Snechtai_mac_Lulaich_V2_Current_Authority_Refinement.md",
+    "Fothad_II_V2_Current_Authority_Refinement.md"
+  ],
+  "companion_authorities": [
+    "Duncan_II_Opening_Underage_Record_V2_Current_Authority_Refinement.md"
+  ],
+  "quarantined_provenance": [
+    "Gille_Coemgain_of_Moray_V2_Quarantined_Provenance_Refinement.md",
+    "Bishop_of_St_Andrews_Identity_Quarantined_Shell.md",
+    "Bishop_of_St_Andrews.md"
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "file_move_or_delete": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "README_Characters_Scotland_V2_Static_Check.json",
+    "passed": true
+  }
+}

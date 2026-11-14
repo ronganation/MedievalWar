@@ -1,0 +1,25 @@
+Norman Levy Spearmen
+
+Carry forward.
+
+Norman_Levy_Spearmen_V2_1_Master_Unit_Profile_FULL defines a rural and local emergency muster whose value is broad local response, short service, basic delaying frontage, and low expeditionary suitability. The profile already says the unit persists as an emergency levy without automatic militia conversion.
+
+NormanLevySpearmen:
+  HighEra_status: Persistent
+  ordinary_role:
+    - emergency local defense
+    - raid response
+    - temporary delaying frontage
+    - protection of villages roads stores and crossings
+  likely_changes_over_time:
+    - somewhat better equipment availability
+    - improved muster records
+    - better warning and route coordination
+    - veteran instruction where survivors exist
+  does_not_become:
+    - Norman Spearmen automatically
+    - Town Militia automatically
+    - Castle Sergeants automatically
+
+
+The High Era does not eliminate emergencies or rural communities. The unit remains useful precisely because professional soldiers are finite and cannot guard every location.

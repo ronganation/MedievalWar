@@ -1,0 +1,33 @@
+{
+  "FileName": "Sweden_Route_Transport_and_Access_Setup_V1_1_Current_Authority_Refinement_FULL.md",
+  "Version": "1.1.0",
+  "Status": "Static-Checked Current Authority Refinement with Controlled Dependencies",
+  "SHA256": "3A0E62E7A88D05AA3BCBD27BF5EF97596F90717068F80DF883D553716EB8A992",
+  "Bytes": 40991,
+  "Lines": 923,
+  "SourceFile": "Sweden_Route_Transport_and_Access_Setup_V1.md",
+  "SourceSHA256": "EC541D6D2C69D73F2D4FAB0AAE57C57CB01136E9ED96E57B3218D64B5106D770",
+  "SourceManifest": "Sweden_Route_Transport_and_Access_Setup_V1_Manifest.json",
+  "SourceManifestSHA256": "978DDBA25591B12FD06FD1BC44374A4B9D60164CD9F64E41BB3FE7FC5F7E3EAA",
+  "Checks": {
+    "copy_first": true,
+    "continuous_sections_1_64": true,
+    "priority_route_families_preserved": true,
+    "direction_and_purpose_specific": true,
+    "finite_recruitment": true,
+    "three_track": true,
+    "project_bible_2_4": true,
+    "design_expansion_checklist_3_7": true,
+    "full_Norse_Theater_wording": true,
+    "ue58": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "honest_validation": true,
+    "footer": true
+  },
+  "OpeningStateModified": false,
+  "RegistryModified": false,
+  "RuntimeStateCreated": false,
+  "PhysicalPromotionCompleted": false
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "static-check.wales.historical-suite-closeout.v1",
+  "version": "1.0.0",
+  "artifact": "Wales_Historical_Suite_Closeout_and_Readiness_V1.md",
+  "bytes": 15619,
+  "physical_lines": 456,
+  "sha256": "a9b438a7a7f79a491270b4b8452c1ccd04b9691bca1ca7335c0215f591272c82",
+  "checks": {
+    "file_nonempty": true,
+    "authority_chain_complete": true,
+    "opening_boundary_present": true,
+    "inventory_present": true,
+    "eight_owner_requests": true,
+    "three_track_temporal_model": true,
+    "typed_identity_gates": true,
+    "honest_status": true,
+    "closeout_classification": true,
+    "no_activation_authorized": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

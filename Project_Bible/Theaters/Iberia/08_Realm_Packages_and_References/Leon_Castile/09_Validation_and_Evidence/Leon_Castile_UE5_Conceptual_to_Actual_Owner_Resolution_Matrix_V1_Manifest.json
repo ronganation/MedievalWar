@@ -1,0 +1,36 @@
+{
+  "document_id": "Manifest.Matrix.LeonCastile.UE5ConceptualToActualOwnerResolution.V1",
+  "matrix_file": "Leon_Castile_UE5_Conceptual_to_Actual_Owner_Resolution_Matrix_V1.json",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 20250,
+  "physical_lines": 559,
+  "sha256": "C4EF14FB72AACEA3BA0374F8345D2CB324FA9853505D0E3587D993B2C71B0373",
+  "status": "STATIC_CHECKED_ALL_THIRTEEN_OWNERS_EXPLICITLY_GAPPED_PENDING_ACTIVE_ROOT_INSPECTION",
+  "checks": {
+    "JsonParsePass": true,
+    "ConceptualOwnerCountExact": true,
+    "ResolvedOwnerCountExact": true,
+    "ExplicitGapCountExact": true,
+    "AllActualSymbolsNull": true,
+    "AllPromotionFlagsFalse": true,
+    "NoDuplicateOwnerIds": true,
+    "PromotionBlockPresent": true
+  },
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Source": 0,
+    "Configuration": 0,
+    "Assets": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "next_file": "Leon_Castile_UE5_Implementation_Gap_and_Dependency_Ledger_V1.md",
+  "all_static_checks_pass": true
+}

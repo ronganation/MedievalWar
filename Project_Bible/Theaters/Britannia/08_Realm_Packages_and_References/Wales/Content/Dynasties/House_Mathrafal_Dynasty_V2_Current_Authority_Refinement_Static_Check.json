@@ -1,0 +1,33 @@
+{
+  "document": "House_Mathrafal_Dynasty_V2_Current_Authority_Refinement.md",
+  "source": {
+    "filename": "House_Mathrafal_Dynasty.md",
+    "bytes": 34441,
+    "physical_lines": 1150,
+    "sha256": "bd31a0c8f531467922ddeecb53a95ef8866e3b6d5ab66e9e0a6aed7b13ccb163"
+  },
+  "successor": {
+    "filename": "House_Mathrafal_Dynasty_V2_Current_Authority_Refinement.md",
+    "bytes": 56792,
+    "physical_lines": 1836,
+    "sha256": "e26fb71a8194adc084f34fc4a1f91fc15c6b725ce04b3a84fc45f14209c8599c"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger": true,
+    "all_source_headings_preserved": true,
+    "current_metadata": true,
+    "temporal_tracks": true,
+    "members_correct": true,
+    "network_six_edges": true,
+    "zero_dimensions": true,
+    "no_head": true,
+    "regional_separation": true,
+    "later_firewall": true,
+    "honest_validation": true,
+    "authorizations_false": true,
+    "no_removed_content": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

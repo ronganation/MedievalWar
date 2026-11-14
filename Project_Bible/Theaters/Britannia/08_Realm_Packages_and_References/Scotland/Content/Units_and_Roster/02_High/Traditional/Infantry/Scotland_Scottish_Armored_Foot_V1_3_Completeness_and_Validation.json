@@ -1,0 +1,500 @@
+{
+  "artifact": "Scotland_Scottish_Armored_Foot_V1_3_Complete_Source_High_Era_Iron_Shoulder_Master_Unit_Profile.md",
+  "version": "1.3.0",
+  "sha256": "52ae86ba5560a50f18648bc5e72fae6e7ca999ee56ba1553e9e26818369a2831",
+  "source": "Scotland_Scottish_Armored_Foot_V1_1_Unit_Profile.md",
+  "source_access": "Full document reader text; local attachment read failed",
+  "source_reader_reference": "turn87search17",
+  "source_comparison_basis": "Complete normalized reader transcription, not inaccessible binary bytes",
+  "source_transcription_words": 5757,
+  "successor_words": 7644,
+  "successor_lines": 1109,
+  "yaml_blocks": 37,
+  "source_sections_checked": 53,
+  "section_checks": [
+    {
+      "section": "## 0. Document Control and Consolidated Opening Boundary",
+      "source_nonblank_lines": 40,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 0A. Historical V1.1 Refinement Receipt",
+      "source_nonblank_lines": 37,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 1. Strong Unit Verdict",
+      "source_nonblank_lines": 21,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 2. One-Screen Player Card",
+      "source_nonblank_lines": 10,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 3. Player-Facing Description",
+      "source_nonblank_lines": 3,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 4. Naming Decision",
+      "source_nonblank_lines": 14,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 5. Scottish Faction Fit",
+      "source_nonblank_lines": 2,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 6. Evidence and Chronology Boundary",
+      "source_nonblank_lines": 17,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 7. Source and Service Constitution",
+      "source_nonblank_lines": 13,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 8. Recruitment and Finite Pools",
+      "source_nonblank_lines": 11,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 9. Formation Assembly and Opportunity Cost",
+      "source_nonblank_lines": 3,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 10. Equipment Constitution",
+      "source_nonblank_lines": 19,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 11. Spear and Close-Weapon Transition",
+      "source_nonblank_lines": 13,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 12. Formation Architecture",
+      "source_nonblank_lines": 19,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 13. Signature: Bear the Battle",
+      "source_nonblank_lines": 7,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 14. Power Contract",
+      "source_nonblank_lines": 15,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 15. Readiness and Remaining Depth",
+      "source_nonblank_lines": 17,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 16. Frontal Mounted Threat",
+      "source_nonblank_lines": 2,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 17. Offensive Use and Limits",
+      "source_nonblank_lines": 2,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 18. Relief Is a Physical Handoff",
+      "source_nonblank_lines": 11,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 19. Scottish Roster Separation",
+      "source_nonblank_lines": 9,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 20. Combined Arms and Independent Use",
+      "source_nonblank_lines": 2,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 21. Terrain, Weather, and Missiles",
+      "source_nonblank_lines": 2,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 22. Siege and Garrison Service",
+      "source_nonblank_lines": 2,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 23. Leadership, Signals, and Morale",
+      "source_nonblank_lines": 2,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 24. Campaign Support and Service Duration",
+      "source_nonblank_lines": 3,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 25. Casualties, Capture, and Material Recovery",
+      "source_nonblank_lines": 2,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 26. Veteran and Rebuilt Companies",
+      "source_nonblank_lines": 2,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 27. Development and High-Era Relationship",
+      "source_nonblank_lines": 20,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 28. Visual and Animation Direction",
+      "source_nonblank_lines": 3,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29. Audio and Player Feedback",
+      "source_nonblank_lines": 2,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30. AI and Autoresolve",
+      "source_nonblank_lines": 3,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31. Inherited Benchmark Use and Access Receipt",
+      "source_nonblank_lines": 4,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31A. V1.1 Mature Comparator Reconciliation",
+      "source_nonblank_lines": 13,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31B. Three Mission Postures",
+      "source_nonblank_lines": 31,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31C. Working-Front Architecture",
+      "source_nonblank_lines": 21,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31D. Hard Power and Endurance Contract",
+      "source_nonblank_lines": 24,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31E. The Pressure Ladder",
+      "source_nonblank_lines": 22,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31F. Ground Conversion",
+      "source_nonblank_lines": 15,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31G. Spear Continuity and Close-Work Ceiling",
+      "source_nonblank_lines": 20,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31H. Failure and Recovery Outcomes",
+      "source_nonblank_lines": 20,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31I. Command and File Leadership",
+      "source_nonblank_lines": 17,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31J. Whole-Battle Role",
+      "source_nonblank_lines": 19,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31K. Threat Ladder and Counterplay",
+      "source_nonblank_lines": 23,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31L. Thirty-Second Player Read",
+      "source_nonblank_lines": 28,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31M. Representative Deployments",
+      "source_nonblank_lines": 6,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31N. Campaign Formation, Closure, and Persistence",
+      "source_nonblank_lines": 19,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31O. High-Era Family Decision",
+      "source_nonblank_lines": 18,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31P. Integrated High-Era Mature Thesis",
+      "source_nonblank_lines": 8,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 32. Validation Fixtures",
+      "source_nonblank_lines": 17,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 33. Card Survival and Reconsideration",
+      "source_nonblank_lines": 3,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 34. Sources and Current Package Disposition",
+      "source_nonblank_lines": 20,
+      "missing_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## Stable Footer",
+      "source_nonblank_lines": 27,
+      "missing_lines": [],
+      "pass": true
+    }
+  ],
+  "bounded_replacement_ledger": [
+    {
+      "old": "# Scottish Armored Foot V1.1 | Double-Checked Mature-Faction Full-Spectrum Refinement Master Unit Profile",
+      "new": "# Scottish Armored Foot V1.3 | Complete-Source High-Era Iron Shoulder Master Unit Profile",
+      "reason": "Current successor title",
+      "occurrences": 1
+    },
+    {
+      "old": "mw.unit.scotland.scottish-armored-foot.v1_1",
+      "new": "mw.unit.scotland.scottish-armored-foot.v1_3",
+      "reason": "Document identifier only; no runtime ID created",
+      "occurrences": 1
+    },
+    {
+      "old": "UnitDefinition.Scotland.ScottishArmoredFoot.V1_1",
+      "new": "UnitDefinition.Scotland.ScottishArmoredFoot.V1_3",
+      "reason": "Candidate document reference only",
+      "occurrences": 1
+    },
+    {
+      "old": "Scotland_Scottish_Armored_Foot_V1_1_Double_Checked_Mature_Faction_Full_Spectrum_Refinement_Master_Unit_Profile.md",
+      "new": "Scotland_Scottish_Armored_Foot_V1_3_Complete_Source_High_Era_Iron_Shoulder_Master_Unit_Profile.md",
+      "reason": "Current filename and package metadata",
+      "occurrences": 3
+    },
+    {
+      "old": "version: 1.1.0",
+      "new": "version: 1.3.0",
+      "reason": "Current control and footer version",
+      "occurrences": 2
+    },
+    {
+      "old": "planning_concept: EarlyScottishProfessionalMenAtArms",
+      "new": "planning_concept: HighEraMaintainedArmoredFoot",
+      "reason": "User-set High placement",
+      "occurrences": 2
+    },
+    {
+      "old": "public_era: EarlyEraConditionalDevelopmentCandidate",
+      "new": "public_era: HighEraMaintainedArmoredFoot",
+      "reason": "User-set High placement",
+      "occurrences": 1
+    },
+    {
+      "old": "status: ReviewOnlyDoubleCheckedMatureFactionFullSpectrumCandidateNotOpeningBound",
+      "new": "status: ReviewOnlyCompleteSourceHighEraIronShoulderCandidateNotOpeningBound",
+      "reason": "Honest current review status",
+      "occurrences": 2
+    },
+    {
+      "old": "This is a new full unit profile for the missing professional armored-foot lane approved for development in the current conversation. It does not revise any existing Scottish profile or roster map. Early Era is a design-era position, not evidence of availability in January 1062.",
+      "new": "This is a complete-source successor to the existing Scottish Armored Foot V1.1 family. It updates this profile only, not another Scottish profile or roster map. High-era placement follows the settled user decision; it is not evidence of availability in January 1062.",
+      "reason": "Remove obsolete new-unit and Early claims while retaining opening boundary",
+      "occurrences": 1
+    },
+    {
+      "old": "## 0A. V1.1 Copy-First Refinement Receipt",
+      "new": "## 0A. Historical V1.1 Refinement Receipt",
+      "reason": "Historical provenance, not current execution receipt",
+      "occurrences": 1
+    },
+    {
+      "old": "**Scottish Armored Foot** is selected for the first master.",
+      "new": "**Scottish Armored Foot** remains the selected display name for the High-era family.",
+      "reason": "Current naming decision",
+      "occurrences": 1
+    },
+    {
+      "old": "SelectedClearEarlyGameplayName",
+      "new": "SelectedClearHighEraGameplayName",
+      "reason": "Remove obsolete Early label",
+      "occurrences": 1
+    },
+    {
+      "old": "ScottishMenAtArms: PreservedHighEraConceptPendingSubstantiveDevelopmentReview",
+      "new": "ScottishMenAtArms: ConditionalLaterSameFamilyMaturationOrDistinctSuccessorPendingSubstantiveReview",
+      "reason": "No duplicate automatic High card",
+      "occurrences": 1
+    },
+    {
+      "old": "Armored is a relative Early equipment promise",
+      "new": "Armored is a relative High-era equipment promise",
+      "reason": "Era consistency",
+      "occurrences": 1
+    },
+    {
+      "old": "Their Early placement remains conditional.",
+      "new": "Their former Early placement is superseded by the settled High-era design placement; exact historical emergence remains unresolved.",
+      "reason": "Era consistency without historical certification",
+      "occurrences": 1
+    },
+    {
+      "old": "if_opening_evidence_fails: KeepConditionalDevelopmentOrReclassifyDoNotBackdate",
+      "new": "if_opening_evidence_fails: RetainHighEraDevelopmentHoldDoNotBackdate",
+      "reason": "No reopening settled ownership or era",
+      "occurrences": 1
+    },
+    {
+      "old": "upkeep: HighForEarlyFoot",
+      "new": "upkeep: HighRelativeToCommonHighEraFoot",
+      "reason": "Era-consistent cost direction, no invented values",
+      "occurrences": 1
+    },
+    {
+      "old": "Early_family: ScottishArmoredFootCandidate",
+      "new": "current_High_family: ScottishArmoredFoot",
+      "reason": "Current family position",
+      "occurrences": 1
+    },
+    {
+      "old": "High_concept: ScottishMenAtArms",
+      "new": "conditional_later_concept: ScottishMenAtArms",
+      "reason": "Existing family already High",
+      "occurrences": 1
+    },
+    {
+      "old": "separate_High_card_requires:",
+      "new": "separate_later_card_requires:",
+      "reason": "Preserve all existing separate-card tests",
+      "occurrences": 1
+    },
+    {
+      "old": "## 31P. V1.1 Final Mature Thesis",
+      "new": "## 31P. Integrated High-Era Mature Thesis",
+      "reason": "Current thesis heading; full prose retained",
+      "occurrences": 1
+    },
+    {
+      "old": "new_unit_profiles: 1",
+      "new": "new_unit_profiles: 0",
+      "reason": "Successor, not new unit",
+      "occurrences": 1
+    },
+    {
+      "old": "following_sequence_candidate: TownWatchAfterCurrentProfileReview",
+      "new": "following_sequence_candidate: ScottishFeudalKnightsBoundedHighEraSyncAfterAcceptance",
+      "reason": "Town Watch rejected by user",
+      "occurrences": 1
+    },
+    {
+      "old": "static_structure_review: PassForCopyFirstDoubleCheckedMatureFactionFullSpectrumRefinement",
+      "new": "static_structure_review: SeeAccompanyingCompletenessAndSyntaxReportNotGameplayCertification",
+      "reason": "Replace self-certified broad pass",
+      "occurrences": 1
+    },
+    {
+      "old": "## 31. Benchmark Use and Access Receipt",
+      "new": "## 31. Inherited Benchmark Use and Access Receipt",
+      "reason": "Separate prior access history from current retrieval",
+      "occurrences": 1
+    },
+    {
+      "old": "## 34. Sources, Manifest, and Stable Footer",
+      "new": "## 34. Sources and Current Package Disposition",
+      "reason": "Current footer remains separate",
+      "occurrences": 1
+    }
+  ],
+  "all_transformed_source_nonblank_lines_retained": true,
+  "all_transformed_source_yaml_blocks_retained": true,
+  "unexplained_substantive_removals": [],
+  "source_attachment_overwritten": false,
+  "rejected_V1_2_used_as_source": false,
+  "historical_and_gameplay_validation": "Not performed",
+  "fresh_foreign_comparator_audit": false,
+  "document_checks_pass": true
+}

@@ -1,0 +1,219 @@
+{
+  "LedgerId": "ledger.seville_taifa.opening_state_1062.unreal_interface_disposition.v1",
+  "InternalVersion": "1.0.0",
+  "Status": "INTERFACE_DISPOSITION_LEDGER_READY_NOT_POPULATED",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.md",
+    "InternalVersion": "1.0.0",
+    "Bytes": 16122,
+    "SHA256": "efd4460c2b5a2e75ed09bc1cc1c241d8039dfb76296955af27cc9fcee28480bb",
+    "HashDisposition": "REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "AllowedDispositions": [
+    "REUSE",
+    "MERGE",
+    "REFACTOR",
+    "RELOCATE",
+    "IMPLEMENT_SHARED",
+    "REJECT",
+    "BLOCKED_UNOWNED"
+  ],
+  "ProhibitedDispositions": [
+    "IMPLEMENT_SEVILLE_LOCAL_REPLACEMENT",
+    "ASSUME_INTERFACE_EXISTS",
+    "INFER_OWNER_APPROVAL"
+  ],
+  "Entries": [
+    {
+      "InterfaceFamilyOrdinal": 1,
+      "InterfaceFamily": "Package identity and authority-manifest verification",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Campaign Data Architecture",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 2,
+      "InterfaceFamily": "Registry version and canonical-ID resolution",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Registry",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 3,
+      "InterfaceFamily": "Historical temporal state",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Temporal",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 4,
+      "InterfaceFamily": "Biological temporal state",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Temporal",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 5,
+      "InterfaceFamily": "Campaign Season temporal state",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Temporal",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 6,
+      "InterfaceFamily": "Opening State bindings and initialization",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Opening State",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 7,
+      "InterfaceFamily": "Unknown IntentionalEmpty ReviewOnly and quarantine types",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Campaign Data Architecture",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 8,
+      "InterfaceFamily": "Owner-request dispatch and stable ordering",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Campaign Data Architecture",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 9,
+      "InterfaceFamily": "Staged owner responses and atomic commit",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Runtime Data Architecture",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 10,
+      "InterfaceFamily": "Apply-once guard and deterministic receipt",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Opening State",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 11,
+      "InterfaceFamily": "Save load migration advanced-save firewall and replay",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Save and Migration",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    },
+    {
+      "InterfaceFamilyOrdinal": 12,
+      "InterfaceFamily": "Diagnostics fixture harness mutation counters and deterministic hashes",
+      "EvidenceRefs": [],
+      "CandidateProjectTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Validation",
+      "GapDescription": null,
+      "RequiredChange": null,
+      "AcceptanceEvidence": [],
+      "RollbackPlan": null,
+      "OwnerDisposition": "NOT_REVIEWED"
+    }
+  ],
+  "DependencyGraph": {
+    "Nodes": [],
+    "Edges": [],
+    "CyclesDetected": null,
+    "UnownedDependencies": [],
+    "GraphVerified": false
+  },
+  "Summary": {
+    "EntriesExpected": 12,
+    "EntriesDispositioned": 0,
+    "Reuse": 0,
+    "Merge": 0,
+    "Refactor": 0,
+    "Relocate": 0,
+    "ImplementShared": 0,
+    "Reject": 0,
+    "BlockedUnowned": 0,
+    "SevilleLocalReplacementFrameworks": 0,
+    "LedgerComplete": false
+  },
+  "PromotionBoundary": {
+    "Batch1Authorized": false,
+    "FeatureBranchWorkAuthorized": false,
+    "UnrealMutationAuthorized": false,
+    "ProductionPromotionAuthorized": false
+  },
+  "NextAction": "Populate only from verified Unreal project evidence after Batch 0 inspection."
+}

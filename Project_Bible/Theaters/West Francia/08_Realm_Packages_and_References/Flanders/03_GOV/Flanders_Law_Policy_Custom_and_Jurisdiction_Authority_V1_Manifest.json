@@ -1,0 +1,27 @@
+{
+  "artifact": "Flanders_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+  "version": "1.0.0",
+  "sha256": "7cba58940f691898da67ae0a65a4bb417ca48a2d84450a84e6977b0b625b2ad0",
+  "bytes": 71118,
+  "lines": 1140,
+  "immediate_substantive_source": "Flanders_Governance_Offices_Law_and_Delegation_Authority_V1.md",
+  "immediate_source_lines_reviewed": 1484,
+  "source_treatment": "CompleteSubjectPreservationWithIntegratedSpecialistExpansion",
+  "primary_benchmarks": [
+    "Normandy law authority",
+    "Burgundy law authority",
+    "France law authority"
+  ],
+  "operating_portfolios": 30,
+  "legal_source_classes": 14,
+  "substantive_source_content_removed": [],
+  "source_authorities_modified": 0,
+  "active_opening_records": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "runtime_mutations": 0,
+  "Unreal_mutations": 0,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "next_file": "Flanders_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md"
+}

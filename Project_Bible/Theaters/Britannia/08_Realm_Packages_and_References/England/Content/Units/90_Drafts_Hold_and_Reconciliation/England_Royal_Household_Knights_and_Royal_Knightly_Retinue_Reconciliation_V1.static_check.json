@@ -1,0 +1,19 @@
+{
+  "document": "England_Royal_Household_Knights_and_Royal_Knightly_Retinue_Reconciliation_V1.md",
+  "sha256": "f498dc5cf26059d224c61f4f1bd1198b984f80bcc80b13d6e0e473c3c217add4",
+  "checks": {
+    "size_over_30000": true,
+    "sections_at_least_65": true,
+    "sections_consecutive": true,
+    "terrain_25": true,
+    "no_parallel_unit": true,
+    "source_preserved": true,
+    "succession_depth": true,
+    "handoff": true,
+    "three_track": true,
+    "no_escaped_underscores": true,
+    "fences_balanced": true,
+    "footer_final": true,
+    "pass": true
+  }
+}

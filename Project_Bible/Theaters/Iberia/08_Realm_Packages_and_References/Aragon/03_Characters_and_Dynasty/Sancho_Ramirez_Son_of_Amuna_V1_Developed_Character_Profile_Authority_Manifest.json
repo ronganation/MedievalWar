@@ -1,0 +1,46 @@
+{
+  "FileName": "Sancho_Ramirez_Son_of_Amuna_V1_Developed_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "SourceAuthorities": [
+    "Aragon_Character_Authorities_V1.md",
+    "Aragon_Historical_Reconciliation_V1.md",
+    "Aragon_ID_Registry_V1.md",
+    "Aragon_Character_Network_V1.md",
+    "Aragon_Dynasty_Authority_V1.md",
+    "Aragon_Governance_Delegated_Authority_V1.md"
+  ],
+  "Benchmarks": [
+    "Robert of Mortain",
+    "Richard of Evreux",
+    "Sancho of Leon-Castile",
+    "Henry the Gallant"
+  ],
+  "SHA256": "cc97744d00e3aa0fcf866568d5094e81e86af6584d807bdf118c928e129d8a8c",
+  "Bytes": 35102,
+  "Lines": 654,
+  "Checks": {
+    "adult_not_underage_explicit": true,
+    "minimum_bytes": true,
+    "validation_50": true,
+    "repeated_headings": {},
+    "duplicate_long_paragraphs": [],
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "balanced_fences": true,
+    "footer": 1,
+    "end": 1,
+    "substantial_collateral_depth": true
+  },
+  "AllChecksPass": true,
+  "MutationReceipt": {
+    "SourceOverwritten": false,
+    "Registry": 0,
+    "OpeningState": 0,
+    "Relations": 0,
+    "Property": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "NextGate": "Bryan review of elder Sancho and Batch 1 completion"
+}

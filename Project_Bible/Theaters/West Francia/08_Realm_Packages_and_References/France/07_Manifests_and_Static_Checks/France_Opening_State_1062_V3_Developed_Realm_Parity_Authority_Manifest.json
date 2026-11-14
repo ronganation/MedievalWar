@@ -1,0 +1,30 @@
+{
+  "manifest_version": "1.0",
+  "method": "CompleteImmediateSubstantiveSourceCopyFirstIntegratedDevelopedRealmParityRebuild",
+  "source_file": "France_Opening_State_1062_V1.md",
+  "source_sha256": "92ed17c754efd6724a1c02b03f5d2d91e854d22e925fe9e8c67f31dea546f501",
+  "source_lines": 1296,
+  "source_bytes": 39694,
+  "successor_file": "France_Opening_State_1062_V3_Developed_Realm_Parity_Authority.md",
+  "successor_sha256": "919830b1a1b986a482ecb1d0054039e525a1a0499b88d0d5eac187e2cd4accfd",
+  "successor_lines": 1982,
+  "successor_bytes": 65550,
+  "static_check_file": "France_Opening_State_1062_V3_Developed_Realm_Parity_Authority_Static_Check.json",
+  "static_check_sha256": "f2ab52749dedb2b6aaecf9c63ab0644e410828d0c7a6d32a19eeb79d4f8e21c9",
+  "all_checks_passed": true,
+  "benchmarks": [
+    "England_Opening_State_V2.2_Current_Authority_Refinement.md",
+    "Ireland_Opening_State_V2.1_Current_Authority_Refinement.md",
+    "Wales_Opening_State_V2_Current_Authority_Refinement.md",
+    "Scotland_Opening_State_V2_Current_Authority_Rebuild.md",
+    "Western_Francia_Theater_Content_V2.1_Current_Authority_Correction.md"
+  ],
+  "removed_substantive_content": [],
+  "source_overwrites": 0,
+  "registry_mutations": 0,
+  "opening_state_activations": 0,
+  "migration_executions": 0,
+  "unreal_mutations": 0,
+  "runtime_mutations": 0,
+  "physical_promotions": 0
+}

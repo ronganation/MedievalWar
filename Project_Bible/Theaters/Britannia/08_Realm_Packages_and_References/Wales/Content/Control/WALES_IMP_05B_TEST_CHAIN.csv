@@ -1,0 +1,11 @@
+Order,Filter,Expected,Disposition
+1,MedievalWar.Scotland.AIPersonality.,DISCOVER,VerifyExactDiscoveryBeforeMutation
+2,MedievalWar.Wales.AIPersonality.,38,ExactNewTranche
+3,MedievalWar.Scotland.InformationIntelligence.,24,AcceptedRegression
+4,MedievalWar.Wales.InformationIntelligence.,30,AcceptedRegression
+5,MedievalWar.Wales.HistoricalEmergence.,28,AcceptedRegression
+6,MedievalWar.Wales.TransactionRecovery.,24,AcceptedRegression
+7,MedievalWar.Wales.CampaignInitialization.,24,AcceptedRegression
+8,MedievalWar.Wales.Preview.,10,AcceptedRegression
+9,MedievalWar.Scotland.HistoricalEmergence.,24,AcceptedRegression
+10,MedievalWar.Scotland.Preview.,5,AcceptedRegression

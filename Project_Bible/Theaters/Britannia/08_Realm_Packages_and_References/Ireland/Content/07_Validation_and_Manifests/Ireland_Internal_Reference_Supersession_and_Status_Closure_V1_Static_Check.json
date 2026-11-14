@@ -1,0 +1,22 @@
+{
+  "document": "Ireland_Internal_Reference_Supersession_and_Status_Closure_V1.md",
+  "passed": true,
+  "checks": {
+    "chains": true,
+    "registry_v23_current": true,
+    "v22_failed": true,
+    "opening_v21": true,
+    "historical_mismatch": true,
+    "owner_packet_zero": true,
+    "tadg_legacy": true,
+    "closeout_corrected": true,
+    "no_execution_claim": true,
+    "three_track": true,
+    "no_actions": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "removed_zero": true,
+    "stable_footer": true
+  },
+  "validation_scope": "static internal reference, supersession, and status closure for declared authority chains; no physical link rewrite, direct local scan, companion target scan, active Unreal scan, Registry mutation, migration, or runtime validation"
+}

@@ -1,0 +1,20 @@
+{
+  "FileName": "Britania_Canonical_Association_Decision_Record_V1.md",
+  "Version": "1.0.0",
+  "Status": "Static-Checked Decision Record",
+  "SHA256": "1F3E7AB9E8D0E4D1E7B5B29D6F107603AF7CEF5B3BA3FED0166655F486D9552B",
+  "Lines": 483,
+  "Bytes": 19085,
+  "Checks": {
+    "orkney_section": true,
+    "paul_erlend_separate": true,
+    "thorfinn_legacy_only": true,
+    "harald_boundary": true,
+    "ingibjorg_boundary": true,
+    "character_ids_not_realm": true,
+    "orkney_external_lock": true,
+    "no_runtime": true,
+    "balanced_fences": true,
+    "single_footer": true
+  }
+}

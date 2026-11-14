@@ -1,0 +1,25 @@
+{
+  "document": "Scotland_Supply_V1.md",
+  "bytes": 47692,
+  "physical_lines": 1516,
+  "sections": 57,
+  "sha256": "5dbc756cf44389018512db8d278788408ebd2199179708af9e1b05268d4e0184",
+  "checks": {
+    "large_enough": true,
+    "sections_at_least_50": true,
+    "intentional_empty_bundle": true,
+    "economy_separation": true,
+    "military_separation": true,
+    "moray_uncertainty": true,
+    "gille_quarantine": true,
+    "duncan_gate": true,
+    "external_locks": true,
+    "temporal_tracks": true,
+    "opening_zero": true,
+    "validations_false": true,
+    "authorizations_false": true,
+    "no_escaped_underscore": true
+  },
+  "static_check_passed": true,
+  "failed_checks": []
+}

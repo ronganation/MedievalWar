@@ -1,0 +1,33 @@
+{
+  "ManifestId": "manifest.aquitaine.ecclesiastical-content.v2",
+  "AuthorityFile": "Aquitaine_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+  "Version": "2.0.0",
+  "ImmediateSource": "Aquitaine_Ecclesiastical_Content_V1_1.md",
+  "Source": {
+    "LineCount": 855,
+    "ByteCount": 24520,
+    "SHA256": "01ce487a5b431c262f5844b3fd2f0aee2f3eadd40c1140e089891a491ae9e6b0"
+  },
+  "Successor": {
+    "LineCount": 1310,
+    "ByteCount": 42007,
+    "SHA256": "01d79559603a1b6196cdfed53b5f20479d58826ed37ed58632e88ef6da5773a6"
+  },
+  "SourceTreatment": "CompleteSubstantiveCarryForwardWithIntegratedExpansion",
+  "MissingSourceHeadings": [],
+  "RemovedSubstantiveContent": [],
+  "ValidationResult": "Pass",
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "InstitutionActivations": 0,
+    "OfficeholderActivations": 0,
+    "PapalSanctionExecutions": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "RenamedEquivalentHeadings": {
+    "1. Verdict": "1. Refined Verdict"
+  }
+}

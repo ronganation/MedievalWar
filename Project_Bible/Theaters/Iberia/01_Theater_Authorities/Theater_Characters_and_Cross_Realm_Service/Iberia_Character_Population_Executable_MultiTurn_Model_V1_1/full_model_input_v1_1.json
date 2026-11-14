@@ -1,0 +1,833 @@
+{
+  "seed": "iberia-full-model-v1",
+  "sources": {
+    "SRC-IB-HH-001": {
+      "capacity": 18,
+      "opening_consumed": 6
+    },
+    "SRC-IB-CT-001": {
+      "capacity": 52,
+      "opening_consumed": 6
+    },
+    "SRC-IB-IN-001": {
+      "capacity": 36,
+      "opening_consumed": 6
+    },
+    "SRC-IB-UR-001": {
+      "capacity": 88,
+      "opening_consumed": 6
+    },
+    "SRC-IB-MI-001": {
+      "capacity": 42,
+      "opening_consumed": 6
+    },
+    "SRC-IB-RG-001": {
+      "capacity": 74,
+      "opening_consumed": 6
+    }
+  },
+  "people": [
+    {
+      "id": "IBP-001",
+      "source": "SRC-IB-HH-001",
+      "layer": "L2_LightweightPerson",
+      "age_months": 420,
+      "routes": [
+        "Household",
+        "Court"
+      ],
+      "domains": {
+        "administration": 2,
+        "logistics": 3,
+        "mediation": 2
+      },
+      "evidence": 3,
+      "access": 3,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-002",
+      "source": "SRC-IB-HH-001",
+      "layer": "L1_LatentPerson",
+      "age_months": 330,
+      "routes": [
+        "Household"
+      ],
+      "domains": {
+        "administration": 3
+      },
+      "evidence": 4,
+      "access": 4,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-003",
+      "source": "SRC-IB-HH-001",
+      "layer": "L3_ActiveCharacter",
+      "age_months": 504,
+      "routes": [
+        "Household",
+        "Court"
+      ],
+      "domains": {
+        "security": 5,
+        "logistics": 2
+      },
+      "evidence": 2,
+      "access": 5,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-004",
+      "source": "SRC-IB-HH-001",
+      "layer": "L1_LatentPerson",
+      "age_months": 144,
+      "routes": [
+        "Household"
+      ],
+      "domains": {
+        "administration": 1
+      },
+      "evidence": 3,
+      "access": 2,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-005",
+      "source": "SRC-IB-CT-001",
+      "layer": "L2_LightweightPerson",
+      "age_months": 420,
+      "routes": [
+        "Court",
+        "Institution"
+      ],
+      "domains": {
+        "administration": 5,
+        "logistics": 1,
+        "mediation": 1
+      },
+      "evidence": 4,
+      "access": 3,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-006",
+      "source": "SRC-IB-CT-001",
+      "layer": "L3_ActiveCharacter",
+      "age_months": 366,
+      "routes": [
+        "Court",
+        "CrossRealm"
+      ],
+      "domains": {
+        "diplomacy": 5,
+        "administration": 3
+      },
+      "evidence": 2,
+      "access": 4,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-007",
+      "source": "SRC-IB-CT-001",
+      "layer": "L1_LatentPerson",
+      "age_months": 582,
+      "routes": [
+        "Court",
+        "Institution"
+      ],
+      "domains": {
+        "administration": 3
+      },
+      "evidence": 3,
+      "access": 5,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-008",
+      "source": "SRC-IB-CT-001",
+      "layer": "L1_LatentPerson",
+      "age_months": 444,
+      "routes": [
+        "Court"
+      ],
+      "domains": {
+        "administration": 1
+      },
+      "evidence": 4,
+      "access": 2,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-009",
+      "source": "SRC-IB-IN-001",
+      "layer": "L2_LightweightPerson",
+      "age_months": 486,
+      "routes": [
+        "Institution"
+      ],
+      "domains": {
+        "mediation": 5,
+        "law": 4
+      },
+      "evidence": 2,
+      "access": 3,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-010",
+      "source": "SRC-IB-IN-001",
+      "layer": "L1_LatentPerson",
+      "age_months": 270,
+      "routes": [
+        "Institution"
+      ],
+      "domains": {
+        "care": 2,
+        "administration": 2
+      },
+      "evidence": 3,
+      "access": 4,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-011",
+      "source": "SRC-IB-IN-001",
+      "layer": "L2_LightweightPerson",
+      "age_months": 558,
+      "routes": [
+        "Institution",
+        "Urban"
+      ],
+      "domains": {
+        "diplomacy": 3,
+        "law": 3,
+        "mediation": 3
+      },
+      "evidence": 4,
+      "access": 5,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-012",
+      "source": "SRC-IB-IN-001",
+      "layer": "L1_LatentPerson",
+      "age_months": 714,
+      "routes": [
+        "Institution"
+      ],
+      "domains": {
+        "administration": 2
+      },
+      "evidence": 2,
+      "access": 2,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-013",
+      "source": "SRC-IB-UR-001",
+      "layer": "L2_LightweightPerson",
+      "age_months": 408,
+      "routes": [
+        "Court",
+        "Urban"
+      ],
+      "domains": {
+        "logistics": 5,
+        "administration": 1
+      },
+      "evidence": 3,
+      "access": 3,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-014",
+      "source": "SRC-IB-UR-001",
+      "layer": "L2_LightweightPerson",
+      "age_months": 354,
+      "routes": [
+        "Urban",
+        "Court"
+      ],
+      "domains": {
+        "logistics": 3,
+        "administration": 3
+      },
+      "evidence": 4,
+      "access": 4,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-015",
+      "source": "SRC-IB-UR-001",
+      "layer": "L1_LatentPerson",
+      "age_months": 618,
+      "routes": [
+        "Urban"
+      ],
+      "domains": {
+        "logistics": 3,
+        "diplomacy": 2
+      },
+      "evidence": 2,
+      "access": 5,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-016",
+      "source": "SRC-IB-UR-001",
+      "layer": "L1_LatentPerson",
+      "age_months": 294,
+      "routes": [
+        "Urban"
+      ],
+      "domains": {
+        "logistics": 2
+      },
+      "evidence": 3,
+      "access": 2,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-017",
+      "source": "SRC-IB-MI-001",
+      "layer": "L3_ActiveCharacter",
+      "age_months": 456,
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "domains": {
+        "logistics": 5,
+        "security": 2
+      },
+      "evidence": 4,
+      "access": 3,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-018",
+      "source": "SRC-IB-MI-001",
+      "layer": "L2_LightweightPerson",
+      "age_months": 384,
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "domains": {
+        "frontier_reporting": 5,
+        "logistics": 2
+      },
+      "evidence": 2,
+      "access": 4,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-019",
+      "source": "SRC-IB-MI-001",
+      "layer": "L1_LatentPerson",
+      "age_months": 534,
+      "routes": [
+        "Frontier"
+      ],
+      "domains": {
+        "security": 2
+      },
+      "evidence": 3,
+      "access": 5,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-020",
+      "source": "SRC-IB-MI-001",
+      "layer": "L2_LightweightPerson",
+      "age_months": 318,
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "domains": {
+        "logistics": 3,
+        "mediation": 2
+      },
+      "evidence": 4,
+      "access": 2,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-021",
+      "source": "SRC-IB-RG-001",
+      "layer": "L2_LightweightPerson",
+      "age_months": 498,
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "domains": {
+        "frontier_reporting": 3,
+        "mediation": 4
+      },
+      "evidence": 2,
+      "access": 3,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-022",
+      "source": "SRC-IB-RG-001",
+      "layer": "L2_LightweightPerson",
+      "age_months": 432,
+      "routes": [
+        "Frontier"
+      ],
+      "domains": {
+        "frontier_reporting": 2,
+        "mediation": 5
+      },
+      "evidence": 3,
+      "access": 4,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-023",
+      "source": "SRC-IB-RG-001",
+      "layer": "L1_LatentPerson",
+      "age_months": 594,
+      "routes": [
+        "Frontier"
+      ],
+      "domains": {
+        "frontier_reporting": 2
+      },
+      "evidence": 4,
+      "access": 5,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBP-024",
+      "source": "SRC-IB-RG-001",
+      "layer": "L3_ActiveCharacter",
+      "age_months": 396,
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "domains": {
+        "mediation": 4,
+        "logistics": 3
+      },
+      "evidence": 2,
+      "access": 2,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    }
+  ],
+  "seeds": [
+    {
+      "id": "IBS-001",
+      "source": "SRC-IB-HH-001",
+      "age_months": 12,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Household",
+        "Court"
+      ],
+      "domains": {
+        "administration": 2,
+        "logistics": 2
+      },
+      "evidence": 0,
+      "access": 3,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-002",
+      "source": "SRC-IB-HH-001",
+      "age_months": 24,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Household",
+        "Court"
+      ],
+      "domains": {
+        "administration": 2,
+        "logistics": 2
+      },
+      "evidence": 0,
+      "access": 4,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-003",
+      "source": "SRC-IB-CT-001",
+      "age_months": 36,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Court"
+      ],
+      "domains": {
+        "administration": 4,
+        "logistics": 2
+      },
+      "evidence": 0,
+      "access": 2,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-004",
+      "source": "SRC-IB-CT-001",
+      "age_months": 48,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Court"
+      ],
+      "domains": {
+        "administration": 4,
+        "logistics": 2
+      },
+      "evidence": 0,
+      "access": 3,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-005",
+      "source": "SRC-IB-IN-001",
+      "age_months": 60,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Institution",
+        "Court"
+      ],
+      "domains": {
+        "law": 3,
+        "mediation": 3
+      },
+      "evidence": 0,
+      "access": 4,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-006",
+      "source": "SRC-IB-IN-001",
+      "age_months": 0,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Institution",
+        "Court"
+      ],
+      "domains": {
+        "law": 3,
+        "mediation": 3
+      },
+      "evidence": 0,
+      "access": 2,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-007",
+      "source": "SRC-IB-UR-001",
+      "age_months": 12,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Urban",
+        "Court"
+      ],
+      "domains": {
+        "logistics": 4,
+        "administration": 2
+      },
+      "evidence": 0,
+      "access": 3,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-008",
+      "source": "SRC-IB-UR-001",
+      "age_months": 24,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Urban",
+        "Court"
+      ],
+      "domains": {
+        "logistics": 4,
+        "administration": 2
+      },
+      "evidence": 0,
+      "access": 4,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-009",
+      "source": "SRC-IB-MI-001",
+      "age_months": 36,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "domains": {
+        "frontier_reporting": 3,
+        "logistics": 3,
+        "security": 2
+      },
+      "evidence": 0,
+      "access": 2,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-010",
+      "source": "SRC-IB-MI-001",
+      "age_months": 48,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "domains": {
+        "frontier_reporting": 3,
+        "logistics": 3,
+        "security": 2
+      },
+      "evidence": 0,
+      "access": 3,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-011",
+      "source": "SRC-IB-RG-001",
+      "age_months": 60,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Frontier"
+      ],
+      "domains": {
+        "mediation": 3,
+        "frontier_reporting": 3
+      },
+      "evidence": 0,
+      "access": 4,
+      "risk": 2,
+      "obligation": 1,
+      "max_mandates": 1
+    },
+    {
+      "id": "IBS-012",
+      "source": "SRC-IB-RG-001",
+      "age_months": 0,
+      "layer": "L1_LatentPerson",
+      "routes": [
+        "Frontier"
+      ],
+      "domains": {
+        "mediation": 3,
+        "frontier_reporting": 3
+      },
+      "evidence": 0,
+      "access": 2,
+      "risk": 1,
+      "obligation": 1,
+      "max_mandates": 1
+    }
+  ],
+  "needs": [
+    {
+      "id": "PetitionBacklog",
+      "turn": 5,
+      "branches": [
+        "BASE",
+        "A"
+      ],
+      "route": "Court",
+      "weights": {
+        "administration": 6,
+        "logistics": 1
+      },
+      "minimum": 35,
+      "trial_gain": 2,
+      "trial_required": 6,
+      "fallback": "Distributed clerks"
+    },
+    {
+      "id": "CourtLogistics",
+      "turn": 6,
+      "branches": [
+        "BASE",
+        "A"
+      ],
+      "route": "Court",
+      "weights": {
+        "logistics": 6,
+        "administration": 1
+      },
+      "minimum": 35,
+      "trial_gain": 2,
+      "trial_required": 6,
+      "fallback": "Collective service"
+    },
+    {
+      "id": "SeniorLegalOffice",
+      "turn": 8,
+      "branches": [
+        "BASE",
+        "A"
+      ],
+      "route": "Court",
+      "weights": {
+        "law": 6,
+        "mediation": 4
+      },
+      "minimum": 55,
+      "trial_gain": 1,
+      "trial_required": 7,
+      "fallback": "Vacant and distributed"
+    },
+    {
+      "id": "FrontierReporting",
+      "turn": 5,
+      "branches": [
+        "B"
+      ],
+      "route": "Frontier",
+      "weights": {
+        "frontier_reporting": 6,
+        "logistics": 2
+      },
+      "minimum": 38,
+      "trial_gain": 3,
+      "trial_required": 6,
+      "fallback": "Distributed network"
+    },
+    {
+      "id": "SettlementMediation",
+      "turn": 6,
+      "branches": [
+        "B"
+      ],
+      "route": "Frontier",
+      "weights": {
+        "mediation": 6,
+        "frontier_reporting": 2
+      },
+      "minimum": 38,
+      "trial_gain": 1,
+      "trial_required": 6,
+      "fallback": "Institutional mediation"
+    },
+    {
+      "id": "CrisisHighCommand",
+      "turn": 8,
+      "branches": [
+        "B"
+      ],
+      "route": "Frontier",
+      "weights": {
+        "security": 6,
+        "logistics": 2
+      },
+      "minimum": 55,
+      "trial_gain": 1,
+      "trial_required": 8,
+      "fallback": "Collective coordination"
+    }
+  ],
+  "materialization_schedule": {
+    "3": [
+      "SRC-IB-IN-001"
+    ],
+    "6": [
+      "SRC-IB-CT-001"
+    ],
+    "7": [
+      "SRC-IB-MI-001"
+    ]
+  },
+  "life_schedule": {
+    "4": {
+      "IBP-015": "Exited"
+    },
+    "7": {
+      "IBP-019": "Exited"
+    },
+    "8": {
+      "IBP-012": "Dead"
+    },
+    "9": {
+      "IBP-023": "Dead"
+    }
+  },
+  "demotion_schedule": {
+    "9": [
+      "IBP-024"
+    ],
+    "10": [
+      "IBP-017"
+    ]
+  }
+}

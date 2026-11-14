@@ -1,0 +1,552 @@
+{
+  "artifact": "Scotland_Scottish_Feudal_Knights_V1_5_Complete_High_Era_Integrated_Master_Unit_Profile.md",
+  "version": "1.5.0",
+  "sha256": "ecc9274951c89619c7537ba9df83fd1fd026ba5a613db6f604cf5cf6a7f3ce27",
+  "source_attachment": "Scotland_Scottish_Feudal_Knights_V1_3_Unit_Profile.md",
+  "source_bytes_read": 57181,
+  "source_sha256": "6043c483f18ea2f512fa68a91d720a371690333436e6024260be70e520ff6d08",
+  "source_words": 5524,
+  "successor_words": 7181,
+  "source_lines": 1332,
+  "successor_lines": 1568,
+  "yaml_blocks": 56,
+  "source_sections_checked": 63,
+  "section_preservation": [
+    {
+      "section": "## 0. Document Control and Consolidated Opening Boundary",
+      "source_nonblank_lines": 38,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 0A. Historical V1.3 Full-Spectrum Copy-First Receipt",
+      "source_nonblank_lines": 22,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 1. Strong Unit Verdict",
+      "source_nonblank_lines": 27,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 2. One-Screen Total War Card",
+      "source_nonblank_lines": 9,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 3. Player-Facing Description",
+      "source_nonblank_lines": 2,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 4. Why This Family Adds Something",
+      "source_nonblank_lines": 8,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 5. Naming Review",
+      "source_nonblank_lines": 15,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 6. Historical Context and Chronology",
+      "source_nonblank_lines": 17,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 7. Source and Political Access",
+      "source_nonblank_lines": 14,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 8. Recruitment and Campaign Bargain",
+      "source_nonblank_lines": 11,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 9. Equipment Constitution",
+      "source_nonblank_lines": 16,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 10. Rider, Horse, and Formation Qualification",
+      "source_nonblank_lines": 13,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 11. Horse and Sustainment Envelope",
+      "source_nonblank_lines": 3,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 12. Signature: Make the First Contact Count",
+      "source_nonblank_lines": 25,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 13. Battlefield Loop",
+      "source_nonblank_lines": 12,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 14. Impact Economy and Player Skill",
+      "source_nonblank_lines": 4,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 15. Formation Portfolio",
+      "source_nonblank_lines": 18,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 16. Matchups and Counterplay",
+      "source_nonblank_lines": 3,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 17. Combined Arms in Scotland",
+      "source_nonblank_lines": 13,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 18. Cavalry Collision Test",
+      "source_nonblank_lines": 13,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 19. Royal, Regional, and Foreign Boundaries",
+      "source_nonblank_lines": 3,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 20. Terrain, Weather, and Siege Use",
+      "source_nonblank_lines": 3,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 21. Losses, Weapons, and Recovery",
+      "source_nonblank_lines": 18,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 22. Veterans and Rebuilt Knights",
+      "source_nonblank_lines": 3,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 23. Development and Era Persistence",
+      "source_nonblank_lines": 17,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 24. Events, Objectives, and Political Service",
+      "source_nonblank_lines": 3,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 25. Visual, Animation, and Audio Identity",
+      "source_nonblank_lines": 4,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 26. UI and AI",
+      "source_nonblank_lines": 29,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 27. Battle and Campaign Fixtures",
+      "source_nonblank_lines": 21,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 28. Legacy Value Preservation and Disposition",
+      "source_nonblank_lines": 72,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29. Inherited Evidence, Access, and Honest Review Receipt",
+      "source_nonblank_lines": 6,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29A. V1.2 Integrated Scottish Identity Strengthening",
+      "source_nonblank_lines": 15,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29B. Army-Composition Bargain",
+      "source_nonblank_lines": 19,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29C. Charge Opportunity Quality",
+      "source_nonblank_lines": 15,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29D. Command and Banner Cohesion",
+      "source_nonblank_lines": 12,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29E. Dismount and Siege Boundary",
+      "source_nonblank_lines": 12,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29F. Final Integrated Development Decision",
+      "source_nonblank_lines": 15,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29G. V1.3 Mature Comparator Reconciliation",
+      "source_nonblank_lines": 18,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29H. Emergence Ladder and Failure to Emerge",
+      "source_nonblank_lines": 18,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29I. Formation Transaction and No Partial Commit",
+      "source_nonblank_lines": 14,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29J. Company, Horse, Pairing, and Equipment States",
+      "source_nonblank_lines": 28,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29K. Formation Footprint, Wheels, and Density",
+      "source_nonblank_lines": 16,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29L. Expanded Impact Outcomes",
+      "source_nonblank_lines": 14,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29M. Failed Charge and Recovery Story",
+      "source_nonblank_lines": 18,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29N. Countercharge Contract",
+      "source_nonblank_lines": 14,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29O. Service Cycle, Capture, Ransom, and Demobilization",
+      "source_nonblank_lines": 20,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29P. Whole-Battle Role",
+      "source_nonblank_lines": 18,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29Q. Player Feedback and Warnings",
+      "source_nonblank_lines": 23,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29R. Strengthened AI and Autoresolve Contract",
+      "source_nonblank_lines": 27,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29S. Integrated High-Era Power Contract",
+      "source_nonblank_lines": 17,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30A. Integrated Full-Spectrum Verdict",
+      "source_nonblank_lines": 19,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30B. Broad Naming Review and Final Decision",
+      "source_nonblank_lines": 21,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30C. Historical Development Gate",
+      "source_nonblank_lines": 21,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30D. Stronger Family Boundary",
+      "source_nonblank_lines": 15,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30E. Lance Impact and Follow-Through Refinement",
+      "source_nonblank_lines": 24,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30F. First Impact, Second Action, and Lance Loss",
+      "source_nonblank_lines": 15,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30G. Political and Recruitment Identity",
+      "source_nonblank_lines": 18,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30H. Veteran and Rebuilt Knight Behavior",
+      "source_nonblank_lines": 21,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30I. Development and Persistence Refinement",
+      "source_nonblank_lines": 16,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30J. Practical Player Order Package",
+      "source_nonblank_lines": 6,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30K. Additional Validation Fixtures",
+      "source_nonblank_lines": 17,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30L. Final Mature Thesis",
+      "source_nonblank_lines": 13,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30. Verdict, Manifest, and Stable Footer",
+      "source_nonblank_lines": 35,
+      "missing_or_reordered_lines": [],
+      "pass": true
+    }
+  ],
+  "bounded_replacement_ledger": [
+    {
+      "old": "# Scottish Feudal Knights V1.3 | Full-Spectrum Mature-Faction Refinement Master Unit Profile",
+      "new": "# Scottish Feudal Knights V1.5 | Complete High-Era Integrated Master Unit Profile",
+      "reason": "Current complete successor, not an addendum",
+      "occurrences": 1
+    },
+    {
+      "old": "mw.unit.scotland.scottish-feudal-knights.v1_3",
+      "new": "mw.unit.scotland.scottish-feudal-knights.v1_5",
+      "reason": "Document identifier only",
+      "occurrences": 1
+    },
+    {
+      "old": "UnitDefinition.Scotland.ScottishFeudalKnights.V1_3",
+      "new": "UnitDefinition.Scotland.ScottishFeudalKnights.V1_5",
+      "reason": "Candidate document identifier only",
+      "occurrences": 1
+    },
+    {
+      "old": "Scotland_Scottish_Feudal_Knights_V1_3_Full_Spectrum_Mature_Faction_Refinement_Master_Unit_Profile.md",
+      "new": "Scotland_Scottish_Feudal_Knights_V1_5_Complete_High_Era_Integrated_Master_Unit_Profile.md",
+      "reason": "Current file control and package record",
+      "occurrences": 2
+    },
+    {
+      "old": "version: 1.3.0",
+      "new": "version: 1.5.0",
+      "reason": "Current version",
+      "occurrences": 1
+    },
+    {
+      "old": "status: ReviewOnlyFullSpectrumMatureFactionRefinedCandidateNotOpeningBound",
+      "new": "status: ReviewOnlyCompleteHighEraIntegratedMasterCandidateNotOpeningBound",
+      "reason": "Current review-only status",
+      "occurrences": 2
+    },
+    {
+      "old": "era_position: ConditionalLaterEarlyOrHighPendingEraAuthorityReview",
+      "new": "era_position: HighEraConditionalKnightlyDevelopment",
+      "reason": "Settled High-era placement",
+      "occurrences": 1
+    },
+    {
+      "old": "era_assignment: RequiresCurrentEraAuthority",
+      "new": "era_assignment: HighEraDesignPlacementSettledExactEmergenceUnresolved",
+      "reason": "Separate design era from historical availability",
+      "occurrences": 1
+    },
+    {
+      "old": "canonical_owner_candidate: ScotlandMilitaryPortfolio",
+      "new": "canonical_owner_candidate: ScotlandRealmMilitaryPortfolio",
+      "reason": "Consistent Scotland owner vocabulary",
+      "occurrences": 1
+    },
+    {
+      "old": "family_owner: ScotlandMilitaryPortfolioCandidate",
+      "new": "family_owner: ScotlandRealmMilitaryPortfolio",
+      "reason": "Consistent Scotland owner vocabulary",
+      "occurrences": 1
+    },
+    {
+      "old": "This new candidate develops the recovered Mailed_Knight.md concept.",
+      "new": "This complete successor preserves the developed Scottish Feudal Knights family, whose design provenance includes the recovered Mailed_Knight.md concept.",
+      "reason": "Existing unit, not a new first draft",
+      "occurrences": 1
+    },
+    {
+      "old": "The current complete Scotland progression map remains unrecovered. The older Scots_Early_Era_Index.md lists Mailed Knight as early heavy cavalry; that is design provenance, not proof of opening availability or the current production sequence. This is a selected next development step, not an assertion that a verified modern index mandates it.",
+      "new": "The settled current design places this existing family in High-era Scotland. The older Scots_Early_Era_Index.md lists Mailed Knight as early heavy cavalry; that remains legacy provenance, not proof of opening availability or current era placement. Current High-era decisions are carried from the approved conversation; a fresh full repository-wide progression-map audit is not claimed.",
+      "reason": "Remove obsolete current-era uncertainty while retaining legacy provenance and access limits",
+      "occurrences": 1
+    },
+    {
+      "old": "## 0A. V1.3 Full-Spectrum Copy-First Receipt",
+      "new": "## 0A. Historical V1.3 Full-Spectrum Copy-First Receipt",
+      "reason": "Retain historical receipt without claiming fresh predecessor inspection",
+      "occurrences": 1
+    },
+    {
+      "old": "current_file_status: FullSpectrumV1_3StaticMasterCandidate",
+      "new": "current_file_status: CompleteHighEraV1_5StaticMasterCandidate",
+      "reason": "Current master version",
+      "occurrences": 1
+    },
+    {
+      "old": "likely_position: ConditionalLaterDevelopment",
+      "new": "likely_position: HighEraConditionalKnightlyDevelopment",
+      "reason": "Current High-era placement",
+      "occurrences": 1
+    },
+    {
+      "old": "roster_position: ConditionalLaterKnightlyShockCavalry",
+      "new": "roster_position: HighEraConditionalKnightlyShockCavalry",
+      "reason": "Current High-era placement",
+      "occurrences": 1
+    },
+    {
+      "old": "later_development_status: Conditional",
+      "new": "later_development_status: HighEraConditionalSourceAndChronology",
+      "reason": "Current development position",
+      "occurrences": 1
+    },
+    {
+      "old": "## 29. Evidence, Access, and Honest Review Receipt",
+      "new": "## 29. Inherited Evidence, Access, and Honest Review Receipt",
+      "reason": "Prior source inspection claims remain attributed provenance",
+      "occurrences": 1
+    },
+    {
+      "old": "## 29S. V1.3 Final Power Contract",
+      "new": "## 29S. Integrated High-Era Power Contract",
+      "reason": "Current heading, all power statements preserved",
+      "occurrences": 1
+    },
+    {
+      "old": "## 30A. V1.3 Full-Spectrum Verdict",
+      "new": "## 30A. Integrated Full-Spectrum Verdict",
+      "reason": "Current heading, complete verdict retained",
+      "occurrences": 1
+    },
+    {
+      "old": "design_verdict: FullSpectrumV1_3RetainAndStrengthen",
+      "new": "design_verdict: CompleteHighEraV1_5RetainAndStrengthen",
+      "reason": "Current verdict",
+      "occurrences": 1
+    },
+    {
+      "old": "file_rename_required: true",
+      "new": "file_rename_required: false",
+      "reason": "Selected name already adopted; new successor filename supplied",
+      "occurrences": 1
+    },
+    {
+      "old": "old_file_disposition: PreserveV1_0AsSupersededWorkingDraftOutsideCurrentMasterSet",
+      "new": "old_file_disposition: PreserveV1_3UnmodifiedAsImmediateSubstantivePredecessorAndV1_0AsLegacyDraft",
+      "reason": "Correct immediate predecessor disposition",
+      "occurrences": 1
+    },
+    {
+      "old": "static_content_review: PassForFullSpectrumComparatorCoverageIdentityAndSubmissionHygieneReview",
+      "new": "static_content_review: SeeCompletenessAndValidationReportDocumentChecksOnly",
+      "reason": "Do not imply new comparator or gameplay certification",
+      "occurrences": 1
+    },
+    {
+      "old": "sequence_verification: Incomplete",
+      "new": "sequence_verification: CurrentHighEraPlacementFromApprovedConversationRepositoryWideSequenceNotReaudited",
+      "reason": "Honest sequence scope",
+      "occurrences": 1
+    }
+  ],
+  "legacy_numeric_yaml_byte_identical": true,
+  "unexplained_source_removals": [],
+  "source_overwritten": false,
+  "addendum_required": false,
+  "document_checks_pass": true,
+  "validation_scope": "Complete-source ordered-line preservation after explicit replacements; YAML parsing; legacy numeric preservation; metadata and nonactivation consistency. Not historical, battle, balance, campaign, AI, art, or implementation validation."
+}

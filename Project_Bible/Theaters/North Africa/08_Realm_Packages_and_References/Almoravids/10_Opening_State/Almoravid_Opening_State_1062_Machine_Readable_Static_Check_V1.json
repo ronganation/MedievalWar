@@ -1,0 +1,76 @@
+{
+  "reportId": "validation.almoravid.opening_state.machine_readable.static.v1",
+  "reportVersion": "1.0.0",
+  "status": "PASS_STATIC_CHECKED",
+  "files": {
+    "Almoravid_Opening_State_1062_V1.json": {
+      "bytes": 23861,
+      "sha256": "211b1a6936f3f801454690d4d0a2b3c234d5c45f7bf929aeee56ff310056e3a3",
+      "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97"
+    },
+    "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json": {
+      "bytes": 794,
+      "sha256": "9acdecd47bab2c7d3b78c44137edc9c4c6ebc231382d426c51a21c2bd06ba8fb",
+      "overlayHash": "1df2f98c26cc486da6af19abfdd8d9c4b92df320025494cdf87057d9022f0795"
+    },
+    "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json": {
+      "bytes": 788,
+      "sha256": "74658fa9da9b27fa93131e9eb1f85789d2f4a3a080a6a08fe8f5a3a39f652b99",
+      "overlayHash": "4bbd1371a078f1eace0c6c05aeb6c6b2cf59a1b46bbcb6117b9ec5d5b573338c"
+    }
+  },
+  "counts": {
+    "canonicalPayloads": 1,
+    "perspectiveDefinitions": 2,
+    "livingCharacters": 2,
+    "definitionOnlyReviewCharacters": 1,
+    "historicalNonRuntimeCharacters": 3,
+    "principalBaseBindings": 1,
+    "explicitEmptyCollections": 66,
+    "openingArmies": 0,
+    "openingCommands": 0,
+    "openingCampaignInstances": 0,
+    "openingPoliticalEdges": 0,
+    "openingEconomicInstances": 0,
+    "openingCapitalProjectInstances": 0,
+    "openingCapitalPhases": 0
+  },
+  "checks": {
+    "payloadParses": true,
+    "abuOverlayParses": true,
+    "yusufOverlayParses": true,
+    "payloadHashStable": true,
+    "overlayHashesStable": true,
+    "sourceHashesMatch": true,
+    "registryVersion": true,
+    "twoLivingCharacters": true,
+    "twoPerspectives": true,
+    "pairingsCorrect": true,
+    "zaynabPolicyB": true,
+    "aghmatPrincipalBase": true,
+    "marrakeshNoInstance": true,
+    "exact66Empties": true,
+    "allEmptiesEmpty": true,
+    "zeroUnsupportedCounts": true,
+    "temporalIndependent": true,
+    "advancedSaveBlocked": true,
+    "payloadHasNoSelection": true,
+    "overlaysSelectionOnly": true,
+    "overlayPayloadBinding": true,
+    "noRuntimeOverclaim": true
+  },
+  "checksPassed": 22,
+  "checksTotal": 22,
+  "allChecksPass": true,
+  "evidenceBoundary": {
+    "jsonFilesCreated": true,
+    "staticConsistencyChecked": true,
+    "jsonSchemaCreated": false,
+    "schemaValidated": false,
+    "importerValidated": false,
+    "compileValidated": false,
+    "runtimeValidated": false,
+    "saveLoadValidated": false,
+    "replayValidated": false
+  }
+}

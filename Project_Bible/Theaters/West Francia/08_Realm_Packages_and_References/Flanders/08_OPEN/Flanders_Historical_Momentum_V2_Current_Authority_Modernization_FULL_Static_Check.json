@@ -1,0 +1,22 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "source_hash_recorded": true,
+    "families_12": true,
+    "reason_codes_28": true,
+    "signal_classes_19": true,
+    "child_signal_subjects_2": true,
+    "underage_firewall": true,
+    "succession_child_refs": true,
+    "Hainaut_child_refs": true,
+    "opening_zero": true,
+    "child_opening_zero": true,
+    "substantive_removals_zero": true,
+    "three_tracks": true,
+    "stable_footer_once": true
+  },
+  "SHA256": "a13025ef982885afd41845512b95a0360e65a29736127916e302645f3a6efaba",
+  "Bytes": 86532,
+  "Lines": 2346,
+  "Scope": "Copy-first child Momentum reconciliation and nonmutation"
+}

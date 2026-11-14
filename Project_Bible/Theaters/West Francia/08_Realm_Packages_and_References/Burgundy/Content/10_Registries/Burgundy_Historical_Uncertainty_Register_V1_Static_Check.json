@@ -1,0 +1,110 @@
+{
+  "DocumentId": "static-check.historical-uncertainty.realm.burgundy.v1",
+  "AuthorityFile": "Burgundy_Historical_Uncertainty_Register_V1.md",
+  "AuthoritySHA256": "d04fd2bd42dca11753114f2d5b0a26e1492491883c49657ed5fe69539955a718",
+  "Checks": [
+    {
+      "Name": "FilenameCorrect",
+      "Result": "Pass"
+    },
+    {
+      "Name": "RecordCount32",
+      "Result": "Pass"
+    },
+    {
+      "Name": "AlternativesPerRecord",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FallbackPerRecord",
+      "Result": "Pass"
+    },
+    {
+      "Name": "SaveRulePerRecord",
+      "Result": "Pass"
+    },
+    {
+      "Name": "OpeningSelectionsZero",
+      "Result": "Pass"
+    },
+    {
+      "Name": "HenrySpouseUnknown",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRandomHighImpact",
+      "Result": "Pass"
+    },
+    {
+      "Name": "DuchyCountySeparate",
+      "Result": "Pass"
+    },
+    {
+      "Name": "DijonNotSole",
+      "Result": "Pass"
+    },
+    {
+      "Name": "AdvancedSaveProtected",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ModernVisionPresent",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ThreeTrackTime",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NextRegistry",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRegistryMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoOpeningActivation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoUnrealMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FencesBalanced",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEscapedUnderscores",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEmDash",
+      "Result": "Pass"
+    },
+    {
+      "Name": "StableFooterOnce",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FinalMarkerCorrect",
+      "Result": "Pass"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 22,
+    "Passes": 22,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "HistoricalFactsPromoted": 0,
+    "UncertaintySelectionsApplied": 0,
+    "RegistryMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

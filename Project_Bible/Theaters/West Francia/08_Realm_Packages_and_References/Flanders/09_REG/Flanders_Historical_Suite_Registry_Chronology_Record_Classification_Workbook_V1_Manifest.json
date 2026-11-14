@@ -1,0 +1,20 @@
+{
+  "FileName": "Flanders_Historical_Suite_Registry_Chronology_Record_Classification_Workbook_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "864da19174471beceefd3933b66a7e325395aa559300642427c238128a3652da",
+  "Bytes": 30470,
+  "Lines": 937,
+  "SourceRegister": "Flanders_Historical_Evidence_and_Chronology_Register_V1.md",
+  "SourceDeclaredChronologyRecords": 30,
+  "ClassifiedSourceRecordCandidates": 30,
+  "RegistryAcceptedRecords": 0,
+  "PriorExpectedCount": 25,
+  "CorrectedDisposition": "SourceAuthorityExplicitlyDefinesThirtyRecords",
+  "DestructiveChangesAuthorized": 0,
+  "Result": "Pass",
+  "RegistryMutations": 0,
+  "OpeningStateMutations": 0,
+  "RuntimeEventsScheduled": 0,
+  "UnrealMutations": 0,
+  "NextFile": "Flanders_Historical_Suite_Registry_Wrap_Up_and_Historical_Handoff_V1.md"
+}

@@ -1,0 +1,50 @@
+{
+  "document_id": "manifest.wales.title-office-claim-succession.v1",
+  "version": "1.0.0",
+  "immediate_source": {
+    "filename": "Wales_Realm_and_Political_Order_Authority_V1.md",
+    "role": "current Wales political constitution"
+  },
+  "supporting_sources": [
+    "Wales_Opening_State_V2_Current_Authority_Refinement.md",
+    "Wales_ID_Migration_Registry_V2_Current_Authority_Refinement.md",
+    "Wales_Ecclesiastical_Content_V1.md",
+    "Wales historical suite",
+    "current Wales character and dynasty authorities",
+    "Wales_Character_Network_V2_Current_Authority_Refinement.md"
+  ],
+  "successor": {
+    "filename": "Wales_Title_Office_Claim_and_Succession_Authority_V1.md",
+    "bytes": 43081,
+    "physical_lines": 1421,
+    "sha256": "feb306150db5267e5469c5267850dcc2498c7aa88bdb43a5fd7b5fc01d2b7353"
+  },
+  "content_inventory": {
+    "title_definition_candidates": 1,
+    "opening_title_possession_candidates": 1,
+    "secular_office_definition_candidates": 1,
+    "ecclesiastical_office_interfaces": 1,
+    "claim_lifecycle_states": 16,
+    "succession_lifecycle_states": 16,
+    "recognition_layers": 12,
+    "validation_cases": 25,
+    "active_opening_claims": 0,
+    "active_opening_candidates": 0,
+    "active_opening_regencies": 0
+  },
+  "preservation": {
+    "removed_content": [],
+    "source_overwrite": false
+  },
+  "authorizations": {
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "real_payload_import": false
+  },
+  "static_check": {
+    "filename": "Wales_Title_Office_Claim_and_Succession_Authority_V1_Static_Check.json",
+    "passed": true
+  }
+}

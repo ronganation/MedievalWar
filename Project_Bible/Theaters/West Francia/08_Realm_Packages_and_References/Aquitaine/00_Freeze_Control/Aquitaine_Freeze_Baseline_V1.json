@@ -1,0 +1,130 @@
+{
+  "document_id": "mw.realm.aquitaine.freeze-baseline.v1",
+  "date": "2026-08-12",
+  "realm": "Aquitaine",
+  "status": "FROZEN_STATIC_CHECKED_BASELINE",
+  "compile_validated": false,
+  "runtime_validated": false,
+  "importer_ready": false,
+  "broad_redesign_permitted": false,
+  "baseline_files": {
+    "Aquitaine_Historical_Reconciliation_V1.md": {
+      "sha256": "9367ea2a78611f2b12171dddb5597f10c37b4af2de79fba3e3c83f9b90183f03",
+      "bytes": 35308,
+      "lines": 1123
+    },
+    "Aquitaine_ID_Registry_V1.md": {
+      "sha256": "c347546e053e76059fd5dff05afed376e08945fff0c87d41f18ac4ca945f344f",
+      "bytes": 59348,
+      "lines": 1851
+    },
+    "Aquitaine_Opening_State_1062_V1.md": {
+      "sha256": "0b6bc3e095d8a496d47e7515b3636820f0b9926d4791bdfcbeefc51bfc4aa676",
+      "bytes": 42453,
+      "lines": 1565
+    },
+    "Aquitaine_Character_Authorities_V1.md": {
+      "sha256": "454131ec733d3516ebdc303b7382dbe23f1c5f84049979db2a37ba164c3663fb",
+      "bytes": 41443,
+      "lines": 1477
+    },
+    "Aquitaine_Dynasty_Authority_V1.md": {
+      "sha256": "39ab5d44d54f88b68fddb27c38ed3f8191ca3be7ab86ac67b5594361e4ef198c",
+      "bytes": 28561,
+      "lines": 1046
+    },
+    "Aquitaine_Character_Network_V1.md": {
+      "sha256": "54cb0c6265d6e55d01ee1804a29a4521fb007c4740154fb1df7bd839969a515c",
+      "bytes": 36151,
+      "lines": 1237
+    },
+    "Aquitaine_Governance_Delegated_Authority_V1.md": {
+      "sha256": "0eedf743dd3bf21497085402f80aea26f6b58bbdcddea1c88cc0563c7768da00",
+      "bytes": 27085,
+      "lines": 1060
+    },
+    "Aquitaine_Realm_Personality_AI_V1.md": {
+      "sha256": "11d8bb5cc177aa1f39848a5e8b840dfcac21d9e08b28bdfa660e3dd789a278c4",
+      "bytes": 21259,
+      "lines": 891
+    },
+    "Aquitaine_Historical_Memory_V1.md": {
+      "sha256": "5e25cc276b5848904ca5698133ec30cd92e865c280fb537c2ae8ea53ed0de2e4",
+      "bytes": 25542,
+      "lines": 856
+    },
+    "Aquitaine_Ecclesiastical_Content_V1.md": {
+      "sha256": "648dde3cc44c4b8d4c7f144b90d0b5bce59bc9d7dbdbf1acff91bd6d86c3c7b0",
+      "bytes": 22837,
+      "lines": 825
+    },
+    "Aquitaine_Historical_Momentum_V1.md": {
+      "sha256": "9dcf44adac8f86dbd6525d9e2c350383bf7df4402746795baea3ccdb44c570d0",
+      "bytes": 31835,
+      "lines": 672
+    },
+    "Aquitaine_Historical_Emergence_V1.md": {
+      "sha256": "9f99de199e2891294423cbcc6164b9cd0588d4da189bd2b56afa2ce12396acea",
+      "bytes": 26436,
+      "lines": 560
+    },
+    "Aquitaine_Ecclesiastical_Preflight_V1.md": {
+      "sha256": "f3be17997f9513f5a7635cfbefcdae2914b7dc223be9b31f1f25cf0cb3ebecff",
+      "bytes": 2966,
+      "lines": 67
+    },
+    "Aquitaine_Historical_Momentum_Preflight_V1.md": {
+      "sha256": "a1422d4f56cef7e42ee460817f62f6a33f0880c27dbc5b81af0e4b672f52a69c",
+      "bytes": 4447,
+      "lines": 83
+    },
+    "Aquitaine_Historical_Emergence_Preflight_V1.md": {
+      "sha256": "6a16c279d748ee0550c90138f11e5d5ed52150159ca24b2b7e4f6c79758dcd46",
+      "bytes": 2843,
+      "lines": 60
+    },
+    "Aquitaine_Package_Preflight_V1.md": {
+      "sha256": "f6e5324aedc27078936e9e8cd4689f5c64edad4ac119ddef8217e5db653acab0",
+      "bytes": 10588,
+      "lines": 253
+    }
+  },
+  "permitted_changes": [
+    "compatibility corrections",
+    "importer corrections",
+    "migration corrections",
+    "validation corrections",
+    "compile corrections",
+    "runtime corrections",
+    "save-load corrections",
+    "determinism corrections",
+    "constitutional or canonical corrections supported by stronger authority"
+  ],
+  "prohibited_without_unfreeze": [
+    "broad realm redesign",
+    "new opening runtime Momentum instances",
+    "new opening runtime Emergence instances",
+    "later outcomes added to Opening State",
+    "duplicate external-owner content",
+    "geography economy population recruitment army fleet supply map battle siege or port expansion"
+  ],
+  "runtime_locks": {
+    "active_memory_instances": 0,
+    "active_momentum_instances": 0,
+    "active_emergence_instances": 0,
+    "active_delegations": 0,
+    "active_officers": 0,
+    "active_assemblies": 0,
+    "static_pass_runtime_mutations": 0
+  },
+  "unfreeze_gate": [
+    "named correction or bounded task",
+    "identified owning authority",
+    "smallest safe patch",
+    "migration and save impact reviewed",
+    "Opening State impact reviewed",
+    "determinism impact reviewed",
+    "package preflight rerun"
+  ],
+  "next_program_priority": "Character Foundation readiness and Character System migration, followed by roadmap runtime validation work; Scotland remains the next realm modernization."
+}

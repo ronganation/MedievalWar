@@ -1,0 +1,31 @@
+{
+  "file": "Scotland_Routes_Maritime_Access_and_Communication_V1.md",
+  "bytes": 69448,
+  "lines": 1787,
+  "sha256": "2232379e43bde5e14be4b27d547aab77ee82f6898e4ec53ebf69524d23de976a",
+  "sections": 60,
+  "checks": {
+    "large_enough": true,
+    "sections_at_least_58": true,
+    "route_definition_present": true,
+    "route_runtime_state_present": true,
+    "access_schema_present": true,
+    "maritime_schema_present": true,
+    "crossing_schema_present": true,
+    "message_lifecycle_present": true,
+    "moray_uncertainty_present": true,
+    "gille_quarantine_present": true,
+    "underage_gate_present": true,
+    "external_locks_present": true,
+    "intentional_empty_present": true,
+    "temporal_tracks_present": true,
+    "validation_status_false": true,
+    "authorizations_false": true,
+    "no_active_opening_routes": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true
+  },
+  "passed": true,
+  "failed": []
+}

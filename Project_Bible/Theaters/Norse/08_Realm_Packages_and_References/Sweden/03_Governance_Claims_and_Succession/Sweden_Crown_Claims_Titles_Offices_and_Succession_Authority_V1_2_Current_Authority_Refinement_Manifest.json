@@ -1,0 +1,31 @@
+{
+  "FileName": "Sweden_Crown_Claims_Titles_Offices_and_Succession_Authority_V1_2_Current_Authority_Refinement_FULL.md",
+  "Version": "1.2.0",
+  "Status": "Static-Checked Combined Current Authority Refinement with Controlled Dependencies",
+  "SHA256": "825CF40279ED09EBD30B41368FFB1CD98D0CC471CF97B5296588DCD8887858C5",
+  "Bytes": 69906,
+  "Lines": 1322,
+  "SourceFile": "Sweden_Crown_Claims_Titles_Offices_and_Succession_Authority_V1_1_FULL.md",
+  "SourceSHA256": "6E10B5398B9C6A983B294783C9CA6D8B2BDD613A8FEAC1D6753DC5604E26945D",
+  "SourceManifest": "Sweden_Crown_Claims_Titles_Offices_and_Succession_Authority_V1_1_Manifest.json",
+  "SourceManifestSHA256": "A800FDD4843F033ED00A56CB28A25CD5C60959A893506B5689C29544134E708F",
+  "SpecialistAuthority": "Sweden_Claims_Titles_and_Offices_Setup_V1_2_Current_Authority_Refinement_FULL.md",
+  "SpecialistAuthoritySHA256": "7581BFE44FEB410E1A965FB18147499FF67355A371C369B21BC61CAAC212EDCB",
+  "Checks": {
+    "copy_first": true,
+    "continuous_sections_1_117": true,
+    "specialist_coordination": true,
+    "opening_state_safe": true,
+    "independent_candidates": true,
+    "three_track": true,
+    "ue58": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "balanced_fences": true,
+    "honest_validation": true
+  },
+  "OpeningStateModified": false,
+  "RegistryModified": false,
+  "SourceFilesModified": false,
+  "PhysicalPromotionCompleted": false
+}

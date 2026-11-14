@@ -1,0 +1,28 @@
+{
+  "document_id": "StaticCheck.IDRegistryOwnerDecisionReconciliationReleaseGate.Realm.SevilleTaifa.V2",
+  "subject": "Seville_Taifa_ID_Registry_V2_Owner_Decision_Reconciliation_and_Release_Gate.md",
+  "subject_sha256": "BAD91D0AE350990A2DEF6FC5950FEAC9F7AE0F082A7D809CA0C930D38864D98D",
+  "status": "PASS_HUMAN_AUTHORITY_RETAINED_MACHINE_HOLD",
+  "checks": {
+    "successor_bytes": 28540,
+    "successor_lines": 571,
+    "successor_sha256": "BAD91D0AE350990A2DEF6FC5950FEAC9F7AE0F082A7D809CA0C930D38864D98D",
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "identity_rows": 16,
+    "ReviewOnly_without_ID": 1,
+    "shared_owner_requests": 2,
+    "external_subjects": 10,
+    "approved_external_locks": 0,
+    "inherited_quarantines": 18,
+    "registry_envelope_quarantines": 1,
+    "owner_receipts_fabricated": 0,
+    "identity_rows_changed": 0,
+    "registry_commits": 0,
+    "adapter_executions": 0,
+    "all_critical_checks_pass": true
+  },
+  "result": "Sixteen V1 identities retained; missing earlier receipts not fabricated; later V1 release reconciled; envelope conflict keeps machine promotion on hold."
+}

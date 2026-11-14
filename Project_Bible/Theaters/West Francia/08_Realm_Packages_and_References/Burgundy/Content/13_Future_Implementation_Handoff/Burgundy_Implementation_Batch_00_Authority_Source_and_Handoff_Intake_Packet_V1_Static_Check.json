@@ -1,0 +1,21 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "prepared_not_executed": true,
+    "acceptance_15": true,
+    "negative_12": true,
+    "deliverables_9": true,
+    "three_tracks": true,
+    "source_verification_false": true,
+    "next_stop": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "9fd0100a6418ed148e0c7423aa684972f93fb2f6a7ca2a0278600e86942abd4b",
+  "Bytes": 16233,
+  "Lines": 500,
+  "Scope": "Static prepared Batch 00 packet checks only"
+}

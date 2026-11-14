@@ -1,0 +1,29 @@
+{
+  "document_id": "static-check.scotland.source_inventory.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "inventory_scope": "supplied local Scotland working set",
+  "literal_file_count": 39,
+  "output_file": "Scotland_Source_Inventory_V1.1_Current_Authority_Refinement.md",
+  "output_sha256": "fb9f3813ce3acc0846e393f26ec2e3772639ce8a6b167718fc68d036f424d120",
+  "output_bytes": 33411,
+  "checks": {
+    "new_file_created": true,
+    "literal_file_count_matches": true,
+    "all_filenames_present": true,
+    "all_hashes_present": true,
+    "all_sizes_present": true,
+    "authority_family_summary_present": true,
+    "duplicate_groups_present": true,
+    "current_chain_present": true,
+    "missing_inventory_present": true,
+    "three_track_model": true,
+    "ingibjorg_not_duplicated": true,
+    "supply_not_reowned": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

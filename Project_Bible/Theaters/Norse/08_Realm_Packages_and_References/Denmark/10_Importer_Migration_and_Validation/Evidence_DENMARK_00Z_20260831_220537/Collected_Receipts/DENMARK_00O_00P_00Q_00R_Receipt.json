@@ -1,0 +1,22 @@
+﻿{
+    "TaskBundle":  "DENMARK-00O through DENMARK-00R",
+    "Status":  "InstalledAdditiveSourceBoundNetworkProjection",
+    "FilesAdded":  3,
+    "ExistingFilesReplaced":  0,
+    "ExpectedRecords":  20,
+    "ExpectedDenmarkOwned":  12,
+    "ExpectedConditionalExternal":  4,
+    "ExpectedExternalDeclarations":  4,
+    "ExpectedOwnerCommands":  13,
+    "ExpectedControlledNonCreation":  3,
+    "LegacyIdsRetained":  true,
+    "NumericMappingAttempted":  false,
+    "OwnerSubmissionEligible":  false,
+    "OwnerCommitted":  false,
+    "RuntimeEnvelopeEligible":  false,
+    "ApplyCalled":  false,
+    "SaveWritten":  false,
+    "RegistryRuntimeStateMutated":  false,
+    "RealmPayloadApplied":  false,
+    "TheaterActivated":  false
+}

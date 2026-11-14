@@ -1,0 +1,27 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N01_alan_iv_opening",
+  "mutated_candidate": {
+    "activation_state": "Inactive",
+    "candidate_or_published_status": "Candidate",
+    "disposition": "FuturePersonCandidateNotYetBorn",
+    "first_turn_autofire": false,
+    "historical_date_autofire": false,
+    "opening_character_instance": true,
+    "opening_claim": false,
+    "opening_network_node": false,
+    "opening_successor": false,
+    "opening_title": false,
+    "owner_authority": "Alan_IV_of_Brittany_Future_Birth_and_Identity_Authority_V1.md",
+    "realm_scope": "realm.brittany",
+    "record_kind": "FuturePersonCandidate",
+    "scenario_scope": [
+      "Scenario.Brittany.1062January"
+    ],
+    "stable_id": "person.alan_iv_brittany",
+    "validation_state": "UnvalidatedCandidate"
+  },
+  "result": "PASS",
+  "rule": "FuturePersonOpeningFirewall"
+}

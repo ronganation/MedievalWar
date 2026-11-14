@@ -1,0 +1,21 @@
+{
+  "file": "Teutonic_Sergeant_Brothers_V1_1_Mature_Faction_Benchmark_Parity_Full_Master_Unit_Profile.md",
+  "sha256": "057681b5cacccc3284befdaa568ae887db95f22f1fd06cd9f74e545323747b2a",
+  "immediate_source": "Teutonic_Sergeant_Brothers_V1_Admission_and_Role_Decision_FULL.md",
+  "immediate_source_sha256": "4ff2bc1ba16d6b4aa370b4a2f955d357757f6c86241364669a71d141c0eefc1e",
+  "source_bytes": 24381,
+  "successor_bytes": 50338,
+  "growth_bytes": 25957,
+  "word_count": 4155,
+  "h2_sections": 45,
+  "all_48_scenarios_present": true,
+  "yaml_fences_balanced": true,
+  "one_screen_card_present": true,
+  "stable_footer_present": true,
+  "opening_not_activated": true,
+  "implementation_not_authorized": true,
+  "escaped_underscore_absent": true,
+  "escaped_hyphen_absent": true,
+  "battle_tests_executed": false,
+  "unreal_runtime_validated": false
+}

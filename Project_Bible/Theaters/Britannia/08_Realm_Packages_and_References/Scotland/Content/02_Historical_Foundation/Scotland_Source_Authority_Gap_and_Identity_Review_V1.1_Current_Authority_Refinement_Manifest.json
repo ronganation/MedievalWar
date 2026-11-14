@@ -1,0 +1,34 @@
+{
+  "document_id": "manifest.scotland.source_authority_gap_identity.v1_1.current_authority_refinement",
+  "version": "2.0.2",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "Scotland_Source_Authority_Gap_and_Identity_Review.md",
+    "version": "1.0 intake review",
+    "sha256": "f9096f74e92e3a8e09ade035121bd91ff0471354a40f6b5d049cf0055a242a23",
+    "bytes": 37517,
+    "copy_based_rebuild": true
+  },
+  "files": [
+    {
+      "filename": "Scotland_Source_Authority_Gap_and_Identity_Review_V1.1_Current_Authority_Refinement.md",
+      "sha256": "46fb7ef02ad40bef749b2566095ef4d1d367551c53e158f6dc82e5fc85284d3c",
+      "bytes": 66263
+    },
+    {
+      "filename": "Scotland_Source_Authority_Gap_and_Identity_Review_V1.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "b2776af6c619044290a81cc697f3b19a38b80b410e8071a8b4520c2074777cf5",
+      "bytes": 967
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "document_id": "manifest.england.harold_godwinson.v4_1.v3_targeted_conformance",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "Harold_Godwinson_V4.1_Current_Authority_Reconciliation.md",
+      "sha256": "48C6D7F49015FC4D4C061B6FC219E21B071228CD03243E04DF71EFFE283C0721",
+      "bytes": 72350,
+      "lines": 2989
+    },
+    {
+      "filename": "Harold_Godwinson_V4.1_Current_Authority_Reconciliation_PRE_V3_FULL.md",
+      "sha256": "4AF28E2FFA39541CB7273767829B553B769E29247B0CA22150E51B30B60D17E2",
+      "bytes": 56893,
+      "lines": 2644
+    },
+    {
+      "filename": "Harold_Godwinson_V4.1_Current_Authority_Reconciliation_PRE_REPAIR_SNAPSHOT.json",
+      "sha256": "3AA741DEE859709DBD5860510F861DCC3C86FFFD97D451A34F49E894E3A6CC19",
+      "bytes": 600,
+      "lines": 12
+    },
+    {
+      "filename": "Harold_Godwinson_V4.1_Current_Authority_Reconciliation_SOURCE_TO_FINAL_MAP.json",
+      "sha256": "3E0A4CDA18998F03046DAC1D6B3DF781D3A11FA738FC4627473A9A3C454CEB46",
+      "bytes": 65152,
+      "lines": 1221
+    },
+    {
+      "filename": "Harold_Godwinson_V4.1_Current_Authority_Reconciliation_VALIDATION.json",
+      "sha256": "F6AEA31A6F76FDC2F3C37495EA31ADD4ED299754346F82A77595284B2EDEC920",
+      "bytes": 2107,
+      "lines": 48
+    },
+    {
+      "filename": "Harold_Godwinson_V4.1_Current_Authority_Reconciliation_Static_Check.json",
+      "sha256": "BCA07B3D74985014CAC4B62A35CC0E159F7E97CDE3D58F2B1AA09EE47667E559",
+      "bytes": 996,
+      "lines": 29
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "canonical_promotion": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false
+  },
+  "application_history": {
+    "application_sequence": "ThirdBoundedV3CharacterApplication",
+    "predecessors": [
+      "Harald_Sweynson_Refined_V1_1_FULL.md",
+      "Canute_Sweynson_Refined_V1_1_FULL.md"
+    ],
+    "global_V3_adoption_created": false
+  },
+  "result": "PASS_HAROLD_GODWINSON_V3_TARGETED_CONFORMANCE_PACKAGE_STATIC_CHECK"
+}

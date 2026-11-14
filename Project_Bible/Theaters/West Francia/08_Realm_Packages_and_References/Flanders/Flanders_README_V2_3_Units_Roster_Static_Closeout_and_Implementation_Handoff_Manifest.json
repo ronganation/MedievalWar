@@ -1,0 +1,32 @@
+{
+  "manifest_version": "1.0.0",
+  "document_type": "FlandersRealmPackageREADMEManifest",
+  "readme_file": "Flanders_README_V2_3_Units_Roster_Static_Closeout_and_Implementation_Handoff.md",
+  "version": "2.3.0",
+  "revision_date": "2026-10-16",
+  "readme_sha256": "565ef2bcc53a8350233657442a6dfa55fd7f30620746922fc4885e21dafb944b",
+  "readme_bytes": 37224,
+  "readme_physical_lines": 778,
+  "placement": "FlandersPackageRoot",
+  "immediate_substantive_source": "Flanders_README_V2_2_Military_Consolidation_Current_Authority_Additive_Update.md",
+  "immediate_source_sha256": "83460c651d9e7db590d4be09f8854bcf7bdb42fc95759b8f78e8c7bbd9edc99b",
+  "current_general_military_authority": "Flanders_Military_Capability_Command_Recruitment_and_Force_Authority_V1.md",
+  "current_general_military_version": "1.2.1",
+  "current_military_identity_authority": "Flanders_Military_Faction_Identity_Gameplay_Doctrine_and_Unit_Development_Authority_V1.md",
+  "current_units_and_roster_readme": "README_Flanders_Units_and_Roster_V1_0_Current_Static_Design_Portfolio_FULL.md",
+  "current_high_era_roster_index": "Flanders_High_Era_Core_Land_Roster_Index_V1_1_Current_Portfolio_Double_Checked_FULL.md",
+  "current_branch_maps": 3,
+  "portfolio_counts": {
+    "infantry": 12,
+    "missile_and_light_foot": 6,
+    "cavalry": 5,
+    "total": 23,
+    "attached_high_or_late_high_profiles": 10
+  },
+  "CanonicalMutations": 0,
+  "OpeningSeedsPromoted": 0,
+  "RuntimeRecordsCreated": 0,
+  "ExternalStateMutations": 0,
+  "UnrealMutations": 0,
+  "status": "StaticCheckedPackageNavigationDiplomacyMilitaryConsolidationAndUnitsRosterCloseoutCandidate"
+}

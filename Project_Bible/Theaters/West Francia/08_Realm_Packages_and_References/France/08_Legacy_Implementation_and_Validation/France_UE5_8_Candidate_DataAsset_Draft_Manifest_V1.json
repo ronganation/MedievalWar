@@ -1,0 +1,186 @@
+{
+  "DocumentId": "France.UE5.8.CandidateDataAssetDraftManifest.V1",
+  "Archive": "France_UE5_8_Candidate_DataAsset_Drafts_V1.zip",
+  "ArchiveBytes": 16709,
+  "ArchiveSHA256": "48a890ea8266a8f81719eb9de6d3e1ca924bedd4f4ec0e05fef1e3f65bb0b98c",
+  "ArchiveEntries": 26,
+  "JSONDrafts": 24,
+  "READMEFiles": 1,
+  "IndexFiles": 1,
+  "LongestArchivePathCharacters": 23,
+  "ZIPCRCError": null,
+  "Files": [
+    {
+      "File": "README.md",
+      "Bytes": 548,
+      "Lines": 9,
+      "SHA256": "6a1512cfced0b47962e8e4f6ef6f7d03ab9dc040a5927d4378d9cdbe6693ca0b"
+    },
+    {
+      "File": "ai.json",
+      "Bytes": 951,
+      "Lines": 27,
+      "SHA256": "5f2a4a6a17b01d55591452108257ed1def90fdc5a388f9e408011c74ac0e183a"
+    },
+    {
+      "File": "aliases.json",
+      "Bytes": 946,
+      "Lines": 27,
+      "SHA256": "713b85805f2eb93a3f520f2e4ddbc2d91419b55217884b6a788734011e978491"
+    },
+    {
+      "File": "characters.json",
+      "Bytes": 936,
+      "Lines": 27,
+      "SHA256": "350ec0779862ffa319ae526efcb183ac8a9d552688e7ebfc0bc1cc08d4dd162d"
+    },
+    {
+      "File": "church.json",
+      "Bytes": 956,
+      "Lines": 27,
+      "SHA256": "2c2e2e6e24677f4c476b1b0ae47ec37d14ba49c2c7fcab705f25a744a3a87a9a"
+    },
+    {
+      "File": "communities.json",
+      "Bytes": 985,
+      "Lines": 27,
+      "SHA256": "5640e22cdea9021af841805c8fd15348fef515791ce3467f83cd5d706d97bb9e"
+    },
+    {
+      "File": "dynasty.json",
+      "Bytes": 927,
+      "Lines": 27,
+      "SHA256": "ebf808bf3bd3b5ecdfae6c534b4ca49f2257d2b8e70ff8d110d270e3bb16f641"
+    },
+    {
+      "File": "economy.json",
+      "Bytes": 976,
+      "Lines": 27,
+      "SHA256": "d7bd3b4a13e550a6c0c319a979228f161dc62e6ab94d944b7dc9cf6f822d5162"
+    },
+    {
+      "File": "emergence.json",
+      "Bytes": 964,
+      "Lines": 27,
+      "SHA256": "753b1366e307525682f24c4ff50f90e1856b1cfff267d4374649357b94f0740f"
+    },
+    {
+      "File": "geography.json",
+      "Bytes": 967,
+      "Lines": 27,
+      "SHA256": "763d6f7ed8401652bb8929d9d0b35ea44b399ec571ee5d29681128bf727d9414"
+    },
+    {
+      "File": "governance.json",
+      "Bytes": 956,
+      "Lines": 27,
+      "SHA256": "f84ebbb315372decee5e341f5724ac2e253c5819c1dec5eb461ec3c0f0a0890e"
+    },
+    {
+      "File": "index.json",
+      "Bytes": 4545,
+      "Lines": 169,
+      "SHA256": "c33283d75351b8bc8c97e9cc8083e6ea80b2f027b46995dca4a04aa5c3a79ed4"
+    },
+    {
+      "File": "law.json",
+      "Bytes": 972,
+      "Lines": 27,
+      "SHA256": "0579eb90e9502125043f8f0e5b8ca7a61a8896e4a9c1f4b5625d2d8abb25f288"
+    },
+    {
+      "File": "memory.json",
+      "Bytes": 955,
+      "Lines": 27,
+      "SHA256": "472d3ab8068fdda0f1a807f48bfa649f0b61e1795612f012c1c15c33e63dc04e"
+    },
+    {
+      "File": "military.json",
+      "Bytes": 962,
+      "Lines": 27,
+      "SHA256": "0643ec9ede7d93b0e4b4e81fb96ecd9f13944bd96772a409ffc9667249274955"
+    },
+    {
+      "File": "momentum.json",
+      "Bytes": 961,
+      "Lines": 27,
+      "SHA256": "abe102450fd3b22b3891680ae6554bac33ccd02ac2f7c9a4837f93d2c31f78cb"
+    },
+    {
+      "File": "network.json",
+      "Bytes": 937,
+      "Lines": 27,
+      "SHA256": "013b2523d06d096d315492b78c864b6d9730061f8d13e683312c2f321fdfdf37"
+    },
+    {
+      "File": "opening.json",
+      "Bytes": 957,
+      "Lines": 27,
+      "SHA256": "9b5774aa16b128fe0ed03722c36773502f2b8c54744a17152f870dee9f44224f"
+    },
+    {
+      "File": "package.json",
+      "Bytes": 936,
+      "Lines": 27,
+      "SHA256": "491466b4b637a8039164189a76210dfe9a7db9ae49a62588a6b8c4fa40b320db"
+    },
+    {
+      "File": "recruitment.json",
+      "Bytes": 977,
+      "Lines": 27,
+      "SHA256": "b0c1078243687a275383621d7c8ef6b06fb9117a31cc8e1f14f4b69bfb686423"
+    },
+    {
+      "File": "registry.json",
+      "Bytes": 941,
+      "Lines": 27,
+      "SHA256": "d8b382bf1e9bb05fbcd01cef0981306be96756579f001d2e20eda06116be5aa7"
+    },
+    {
+      "File": "review.json",
+      "Bytes": 955,
+      "Lines": 27,
+      "SHA256": "bf3c97b73c20519655c7bdeb88b067efcf4b5ec1626b8522738eaaf43c59bbe4"
+    },
+    {
+      "File": "routes.json",
+      "Bytes": 970,
+      "Lines": 27,
+      "SHA256": "9f75e81eb425ab3fc5ffa79f245cc2bdb3e6ce2183504c6f6a1d72568b1e353d"
+    },
+    {
+      "File": "supply.json",
+      "Bytes": 960,
+      "Lines": 27,
+      "SHA256": "bac4b2576755c7b82a9671de6bd7968529eab8eebca9c4f7062aed728f8338a6"
+    },
+    {
+      "File": "time.json",
+      "Bytes": 949,
+      "Lines": 27,
+      "SHA256": "3a897cdda8cd2e1adf36d9524323497c3cd192eb7b8cc0c50da13e095ae6274e"
+    },
+    {
+      "File": "titles.json",
+      "Bytes": 974,
+      "Lines": 27,
+      "SHA256": "1032e99240635a9db5746fd38b3311c3d9ef172e233c37aaaaaaa91fb2c8e23c"
+    }
+  ],
+  "Validation": {
+    "JSONParseFailures": 0,
+    "BinaryUAssetsCreated": 0,
+    "UnrealImportPerformed": false,
+    "CompileValidated": false,
+    "EditorValidated": false,
+    "RuntimeValidated": false
+  },
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

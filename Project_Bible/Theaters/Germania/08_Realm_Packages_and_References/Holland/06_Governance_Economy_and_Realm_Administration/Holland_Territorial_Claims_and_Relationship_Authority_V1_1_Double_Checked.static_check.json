@@ -1,0 +1,29 @@
+{
+  "document": "Holland_Territorial_Claims_and_Relationship_Authority_V1_1_Double_Checked.md",
+  "sha256": "501e5aed6e958a47c61f769caa98fe2eb2362858e31bbb5c9ea8ab6bb8415216",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_40": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_manifest_hash_matches": true,
+    "predecessor_static_passed": true,
+    "uncertainty_register": true,
+    "zone_profile": true,
+    "claim_protocol": true,
+    "route_nodes": true,
+    "access_separation": true,
+    "controller_lifecycle": true,
+    "occupation": true,
+    "recovery": true,
+    "protector_terms": true,
+    "ai_scoring": true,
+    "exploit_firewalls": true,
+    "active_no_citation_tokens": true,
+    "next_authority": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true
+  },
+  "pass": true
+}

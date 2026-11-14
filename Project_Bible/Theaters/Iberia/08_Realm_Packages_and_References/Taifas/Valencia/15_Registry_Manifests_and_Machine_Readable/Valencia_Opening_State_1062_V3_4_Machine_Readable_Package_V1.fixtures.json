@@ -1,0 +1,111 @@
+{
+  "fixture_set_id": "fixtures.opening_state.valencia.1062.v3_4.package_v1.copy_first_rebuild",
+  "version": "1.1.0",
+  "package_id": "opening_state.valencia.1062.v3_4.package_v1",
+  "fixture_type": "SyntheticMutatedPayloads",
+  "fixtures": [
+    {
+      "fixture_id": "POS_V34_001",
+      "class": "positive",
+      "mutation": null,
+      "expected_status": "PASS",
+      "expected_error_codes": [],
+      "expected_quarantine_records": [],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_V34_001",
+      "class": "negative",
+      "mutation": {
+        "op": "replace_or_add",
+        "path": "/package/source_authority_version",
+        "value": "3.3.0"
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "SRC_V34_VERSION_MISMATCH"
+      ],
+      "expected_quarantine_records": [],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_V34_002",
+      "class": "negative",
+      "mutation": {
+        "op": "replace_or_add",
+        "path": "/economy_resources_and_stocks/exact_treasury_value",
+        "value": 100000
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "ECO_BAND_TO_QUANTITY"
+      ],
+      "expected_quarantine_records": [],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_V34_003",
+      "class": "negative",
+      "mutation": {
+        "op": "replace_or_add",
+        "path": "/diplomacy_knowledge_and_external_locks/active_agreement_ids",
+        "value": [
+          "agreement.valencia.toledo.autocreated"
+        ]
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "DIP_MISSING_OWNER_RECEIPTS"
+      ],
+      "expected_quarantine_records": [
+        "agreement.valencia.toledo.autocreated"
+      ],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_V34_004",
+      "class": "negative",
+      "mutation": {
+        "op": "replace_or_add",
+        "path": "/realm_personality_ai_and_explanation/executes_owner_action",
+        "value": true
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "AIX_PROPOSAL_TO_EXECUTION"
+      ],
+      "expected_quarantine_records": [],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_V34_005",
+      "class": "negative",
+      "mutation": {
+        "op": "replace_or_add",
+        "path": "/presentation_localization_and_accessibility/creates_or_persists_world_truth",
+        "value": true
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "PRE_PRESENTATION_TO_WORLD_STATE"
+      ],
+      "expected_quarantine_records": [],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "BND_V34_001",
+      "class": "boundary",
+      "mutation": {
+        "op": "replace_or_add",
+        "path": "/package/package_id",
+        "value": "opening_state.valencia.1062.v3_3.package_v1"
+      },
+      "expected_status": "PASS_NOT_APPLY_ELIGIBLE",
+      "expected_error_codes": [
+        "SRC_HISTORICAL_FAMILY_NOT_CURRENT"
+      ],
+      "expected_quarantine_records": [],
+      "expected_mutation_count": 0
+    }
+  ]
+}

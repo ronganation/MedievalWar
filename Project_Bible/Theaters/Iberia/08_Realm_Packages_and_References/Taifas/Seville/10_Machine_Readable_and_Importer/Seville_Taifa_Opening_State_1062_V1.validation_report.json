@@ -1,0 +1,159 @@
+{
+  "ReportId": "validation_report.seville_taifa.opening_state.1062.v1",
+  "ReportVersion": "1.2.0",
+  "PayloadFile": "Seville_Taifa_Opening_State_1062_V1.json",
+  "SchemaFile": "Seville_Taifa_Opening_State_1062_V1.schema.json",
+  "ValidationProfileFile": "Seville_Taifa_Opening_State_1062_V1.validation.json",
+  "OwnerRoutingFile": "Seville_Taifa_Opening_State_1062_V1.owner_routing.json",
+  "FixtureFile": "Seville_Taifa_Opening_State_1062_V1.fixtures.json",
+  "ContractFile": "Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md",
+  "Status": "RECONCILED_TO_SUPPLIED_DEVELOPED_OPENING_AUTHORITY_1_3_0_SCHEMA_PASS_39_FIXTURE_RERUN_REQUIRED",
+  "MaintenanceAuthority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "RuntimePromotionAuthorized": false
+  },
+  "PriorValidatedArtifactSet": {
+    "ReportVersion": "1.0.0",
+    "EvidenceDate": "2026-08-18",
+    "JSONParsed": true,
+    "Draft202012SchemaSyntaxValidated": true,
+    "CanonicalPayloadSchemaValidated": true,
+    "SemanticAssertionsValidated": true,
+    "OwnerRoutingStaticChecked": true,
+    "FixturesExecuted": 22,
+    "FixturesPassed": 22,
+    "FixturesFailed": 0,
+    "AllFatalMutationCountsZero": true,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false,
+    "Hashes": {
+      "PayloadSHA256": "f2b17f51da52ac28ea2bafc1c37357bcf2645afec52ca90ce7555556cacb5812",
+      "SchemaSHA256": "63af4a7d1482931021333818cd35a8e122ac003565bf672be51dd7fd88a76d99",
+      "ValidationProfileSHA256": "e853302f96aec97dd79faa17117b20cbad4f1d569c3920e55dd6ddc35a531d73",
+      "OwnerRoutingSHA256": "0a3b88280ce45ab202ab5f561d97c314398095612da20158ac8d62b4b94cb1ae",
+      "FixturesSHA256": "6dc4bac876fc0195f0fd878c6aa943395c1844382f3ca25c0a2e6aac7dccc831"
+    },
+    "FinalStatus": "STATIC_AND_SCHEMA_VALIDATED_IMPORTER_READY"
+  },
+  "CurrentArtifactDisposition": {
+    "ContractInternalVersion": "1.2.0",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "SchemaStrengthenedAndCorrected": true,
+    "ValidationProfileStrengthenedAndCorrected": true,
+    "OwnerRoutingManifestStrengthened": true,
+    "FixturePackageStrengthened": true,
+    "CorrectOwnerRoutingRequestCount": 18,
+    "PriorFixtureResultsPreserved": 22,
+    "AddedFixtureDefinitions": 17,
+    "TotalFixtureDefinitions": 39,
+    "OpeningAuthorityInternalVersion": "1.3.0",
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11,
+    "ExplicitEmptyCollections": 70
+  },
+  "CurrentValidationResults": {
+    "ValidationReportJSONParsed": true,
+    "Draft202012SchemaMetaschemaValidated": true,
+    "CanonicalPayloadValidatedAgainstCorrectedStrengthenedSchema": true,
+    "CanonicalPayloadSchemaErrorCount": 0,
+    "OwnerRoutingCountValidated": 18,
+    "OwnerRoutingRequestIdParityValidated": true,
+    "OwnerRoutingStableOrderKeyParityValidated": true,
+    "StrengthenedFixtureDefinitionsExecuted": 0,
+    "StrengthenedFixtureDefinitionsPassed": 0,
+    "StrengthenedFixtureDefinitionsFailed": 0,
+    "CurrentFullPackagePassClaimed": false
+  },
+  "CurrentKnownArtifactHashes": {
+    "PayloadSHA256": "e2d838912012c094cf542a3e9bba717145f7faa70653779f14ddfebf32137096",
+    "SchemaSHA256": "e506a753940d042d252b2efdd4d6da597347418edaa7d05d894472f5091d12a7",
+    "ValidationProfileSHA256": "ff8461b7687340555a42b8073342fe39c0cf0e0d31b000b3496ef428f1ab00c3",
+    "OwnerRoutingSHA256": "1333d1cf806fe860a09cc41e6495d894cd27ea98e1ec25af0d5b73fce3b4fa87",
+    "FixturesSHA256": "b93a62ec16e1de5c636cf589de56710c7d1b1338c525fc33c60ae55070fcae8e",
+    "ContractSHA256": "eef4cf2bb081bbf99119f39186e5a668df5e2063a93b722d59575a6eb6cab2a5"
+  },
+  "CrossFileAlignment": {
+    "PayloadOwnerRoutes": 18,
+    "SchemaRequiredOwnerRoutes": 18,
+    "ValidationRequiredOwnerRoutes": 18,
+    "RoutingManifestDeclaredOwnerRoutes": 18,
+    "RoutingManifestActualOwnerRoutes": 18,
+    "AllOwnerRouteCountsAligned": true,
+    "PayloadAndRoutingRequestIdSetsAligned": true,
+    "PayloadAndRoutingStableOrderKeySetsAligned": true
+  },
+  "ValidationClaims": {
+    "ReportJSONSyntaxValidated": true,
+    "PriorV1_0_0EvidencePreserved": true,
+    "CurrentPayloadHashVerified": true,
+    "CurrentSchemaHashVerified": true,
+    "CurrentValidationProfileHashVerified": true,
+    "CurrentOwnerRoutingHashVerified": true,
+    "CurrentFixtureHashVerifiedFromDeliveredArtifact": true,
+    "CurrentContractHashVerified": true,
+    "CurrentStrengthenedFixturesExecuted": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "EvidenceRules": {
+    "PriorHashesMustNotValidateModifiedFiles": true,
+    "NullHashMustNotBeTreatedAsMatch": true,
+    "AllRequiredCurrentHashesMustBeCapturedBeforePromotion": true,
+    "All39FixtureDefinitionsMustBeExecutedBeforeCurrentFixturePassClaim": true,
+    "AnyFatalFixtureMustProduceZeroAuthoritativeMutations": true,
+    "ImporterReadyDoesNotMeanImporterExecuted": true,
+    "SchemaPassDoesNotMeanRuntimePass": true
+  },
+  "RequiredNextValidationBatch": {
+    "Dependencies": [
+      "Final contract internal 1.2.0 in the same immutable workspace",
+      "Corrected schema requiring 18 owner routes",
+      "Corrected validation profile requiring 18 owner routes",
+      "Canonical payload",
+      "Owner-routing manifest internal 1.2.0",
+      "Fixture package internal 1.2.0"
+    ],
+    "Actions": [
+      "Verify all six current artifact hashes from one immutable workspace",
+      "Run all 39 fixture definitions against read-only copies",
+      "Confirm zero authoritative mutations for every fatal result",
+      "Confirm repeated application returns AlreadyApplied with zero mutations",
+      "Confirm conflicting receipt and advanced-save paths fail closed",
+      "Capture deterministic trace and result hashes"
+    ],
+    "AcceptanceCriteria": {
+      "RequiredArtifactHashesPresent": 6,
+      "SchemaErrors": 0,
+      "SemanticAssertionFailures": 0,
+      "FixtureDefinitionsExecuted": 39,
+      "FixtureDefinitionsPassed": 39,
+      "FixtureDefinitionsFailed": 0,
+      "FatalFixtureMutationCount": 0,
+      "DeterminismMismatches": 0
+    },
+    "RollbackPlan": "Use an isolated immutable-copy workspace. Discard staged responses on any fatal result. If any mutation, hash mismatch, or nondeterministic output occurs, invalidate the run, retain evidence, restore the pristine snapshot, and do not promote.",
+    "OwnerGate": "Validation owner review before importer or Unreal promotion."
+  },
+  "CopyFirstLedger": {
+    "ImmediateSourceReportVersion": "1.1.0",
+    "OriginalPriorEvidenceCarriedForward": true,
+    "OriginalHistoricalHashesCarriedForwardAsPriorEvidence": true,
+    "RemovedOriginalEvidence": 0,
+    "ChangedHistoricalEvidence": 0,
+    "CorrectedCurrentSchemaHashAdded": true,
+    "CorrectedCurrentValidationProfileHashAdded": true,
+    "OwnerRouteAlignmentEvidenceAdded": true,
+    "StrengthenedFixtureExecutionOverclaimed": false
+  },
+  "FinalStatus": "CURRENT_FAMILY_STATIC_RECONCILED_39_FIXTURE_RERUN_REQUIRED_BEFORE_IMPORTER_PROMOTION"
+}

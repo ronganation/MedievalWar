@@ -1,0 +1,39 @@
+{
+  "ManifestId": "Manifest.Aquitaine.DynastyAuthority.V2",
+  "AuthorityFile": "Aquitaine_Dynasty_Authority_V2_Developed_Realm_Parity_Authority.md",
+  "Version": "2.0.0",
+  "GeneratedDate": "2026-09-03",
+  "ImmediateSource": "Aquitaine_Dynasty_Authority_V1_1.md",
+  "SourceSHA256": "0c13106bc2b89ad20a10672c9d1a9ac77c177cfb0a659a736e35c00cf41ed353",
+  "SourceByteCount": 30462,
+  "SourceLineCount": 1083,
+  "SuccessorSHA256": "5d2b42be92ce7247fec3f3877b313a65109434ce86eb7928c2145b2721ba1f2b",
+  "SuccessorByteCount": 56192,
+  "SuccessorLineCount": 1786,
+  "SourceTreatment": "CompleteLiteralSourceBodyPreservedBeforeDevelopedV2Refinement",
+  "MissingSourceHeadings": [],
+  "RemovedSubstantiveContent": [],
+  "ValidationChecks": {
+    "source_literal_body_present": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_retained": true,
+    "current_authority_chain_present": true,
+    "three_track_time_present": true,
+    "future_people_quarantined": true,
+    "separate_title_successions": true,
+    "removed_substantive_content_empty": true,
+    "markdown_fences_balanced": true,
+    "em_dashes_absent": true,
+    "stable_footer_once": true,
+    "final_marker_correct": true
+  },
+  "MutationStatus": {
+    "SourceOverwrite": false,
+    "RegistryMutation": false,
+    "OpeningStateMutation": false,
+    "MigrationExecution": false,
+    "UnrealMutation": false,
+    "RuntimeMutation": false,
+    "RealPayloadImport": false
+  }
+}

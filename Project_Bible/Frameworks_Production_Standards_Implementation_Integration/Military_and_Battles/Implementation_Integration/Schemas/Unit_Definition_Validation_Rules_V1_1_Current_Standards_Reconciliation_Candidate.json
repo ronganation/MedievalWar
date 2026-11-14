@@ -1,0 +1,650 @@
+{
+  "document_id": "mw.rules.unit-definition-validation.v1.1.current-standards-reconciliation-candidate",
+  "version": "1.1.1",
+  "date": "2026-10-19",
+  "status": "StaticCheckedValidationRulesSuccessorCandidate",
+  "schema_ref": "Unit_Definition_Schema_V1_1_Current_Standards_Reconciliation_Candidate.json",
+  "source_files": [
+    "Unit_Definition_Validation_Rules_V1.json"
+  ],
+  "source_disposition": {
+    "Unit_Definition_Validation_Rules_V1.json": "RetainAsLegacyValidationCompanionAndCopyFirstDonor"
+  },
+  "companion_schema_disposition": {
+    "Unit_Definition_Schema_V1.json": "RetainAsLegacyStaticDefinitionSchemaAndCopyFirstDonor",
+    "Unit_Definition_Schema_V1_1_Current_Standards_Reconciliation_Candidate.json": "CurrentNoncanonicalSuccessorCandidate"
+  },
+  "authority_refs": [
+    "Project Bible 2.4",
+    "Design Expansion Checklist 3.7",
+    "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.md",
+    "Master_Unit_Profile_Foundation_V1.md",
+    "Military_Unit_Master_Profile_Authoring_Implementation_Maturity_and_Game_Card_Handoff_Standard_V1.md",
+    "Military_Qualitative_Semantic_Vocabulary_Faction_Expression_and_Unit_Specialization_Standard_V1.md",
+    "Formation_and_Battlefield_Capability_Definition_Standard_V1.md",
+    "Faction_Roster_Manual_Review_Progression_and_Visual_Mapping_Standard_V1.md",
+    "Military_Unit_Naming_Source_Obligation_and_Social_Layer_Standard_V1.md",
+    "Unit_Definition_and_Card_Authoring_Standard_V1_2.md",
+    "Military_Recruitment_Pool_Constitution_V1_2_Current_Authority_Refinement_FULL.md",
+    "Military_Assignment_and_Reservation_Constitution_V1_1_Current_Framework_Reconciliation.md",
+    "Military_Muster_Concentration_and_Mobilization_Framework_V1.md",
+    "Military_Animal_Custody_and_Post_Battle_Recovery_Constitution_V1_1_Current_Framework_Reconciliation.md",
+    "Military_Shared_Progression_Vocabulary_Constitution_V1_1_Current_Framework_Reconciliation.md"
+  ],
+  "scope": "Noncanonical static Unit Definition Candidate validation only",
+  "maturity_scope": [
+    "MasterProfile",
+    "QualitativeImplementationReady",
+    "CrossFactionBalanceReady",
+    "NumericalDefinitionCandidate"
+  ],
+  "external_later_contracts": [
+    "GameFacingUnitCardReady",
+    "CanonicalImplementationReady"
+  ],
+  "does_not_prove": [
+    "Registry allocation",
+    "Canonical path approval",
+    "Scenario availability",
+    "Opening State inclusion",
+    "Active unit existence",
+    "Force or army state",
+    "Importer success",
+    "Compilation",
+    "Runtime behavior",
+    "Save/load",
+    "Migration",
+    "Replay",
+    "Performance",
+    "Numerical balance",
+    "Tactical balance",
+    "Historical validation",
+    "Art validation",
+    "Battle validation"
+  ],
+  "severity_order": [
+    "BLOCKER",
+    "ERROR",
+    "WARNING",
+    "REVIEW",
+    "INFO"
+  ],
+  "severity_semantics": {
+    "BLOCKER": "Static content may exist, but promotion cannot proceed until the named prerequisite is resolved.",
+    "ERROR": "The record contradicts or violates the schema, authority, source evidence, or ownership boundary.",
+    "WARNING": "The record may pass static checks with explicit risk or incompleteness.",
+    "REVIEW": "Owner judgment is required without automatic rejection when no material contradiction exists.",
+    "INFO": "Evidence or explanatory result with no blocking effect."
+  },
+  "rules": [
+    {
+      "rule_id": "UDV11-001",
+      "severity": "ERROR",
+      "title": "Schema conformance",
+      "applies_to": "All",
+      "test": "Record must validate against Unit_Definition_Schema_V1_1_Current_Standards_Reconciliation_Candidate.json.",
+      "failure_code": "INVALID_SCHEMA"
+    },
+    {
+      "rule_id": "UDV11-002",
+      "severity": "ERROR",
+      "title": "Document status and maturity separation",
+      "applies_to": "All",
+      "test": "document_control.status must describe document evaluation state only. maturity_and_promotion.maturity_stage is the sole unit-maturity field, and the two fields must not be treated as interchangeable.",
+      "failure_code": "DOCUMENT_STATUS_MATURITY_COLLAPSE"
+    },
+    {
+      "rule_id": "UDV11-003",
+      "severity": "BLOCKER",
+      "title": "Candidate and canonical identity separation",
+      "applies_to": "All",
+      "test": "Every record requires a nonempty unit_definition_candidate_id. unit_family_id, authority_candidate_id, unit_definition_candidate_id, and stable_unit_id must retain distinct declared purposes. stable_unit_id and Registry evidence are required only for Registered records or a separately authorized canonical successor contract.",
+      "failure_code": "IDENTITY_PROMOTION_BLOCKED"
+    },
+    {
+      "rule_id": "UDV11-004",
+      "severity": "BLOCKER",
+      "title": "Registered identity and canonical path verification",
+      "applies_to": "Registered",
+      "test": "Registered records require nonempty string values for stable_unit_id and canonical_path plus current Registry and repository-ownership evidence. Null, empty, placeholder, or candidate-only values fail.",
+      "failure_code": "BLOCKED_CANONICAL_IDENTITY_OR_PATH"
+    },
+    {
+      "rule_id": "UDV11-005",
+      "severity": "ERROR",
+      "title": "No active state",
+      "applies_to": "All",
+      "test": "Definition must not contain current personnel, location, commander assignment, morale, fatigue, ammunition remaining, equipment fill, supply quantity, readiness, current formation state, active assignment, or active force state.",
+      "failure_code": "ACTIVE_STATE_IN_DEFINITION"
+    },
+    {
+      "rule_id": "UDV11-006",
+      "severity": "ERROR",
+      "title": "Source binding",
+      "applies_to": "All",
+      "test": "Master Unit Profile path, source SHA-256, source evidence receipts, immediate substantive source, and source-preservation declaration are required.",
+      "failure_code": "INVALID_SOURCE_BINDING"
+    },
+    {
+      "rule_id": "UDV11-007",
+      "severity": "ERROR",
+      "title": "Realm and roster ownership",
+      "applies_to": "All",
+      "test": "Realm eligibility, roster, unit family, definition owner, and state owner must be explicit. Folder placement or cultural similarity grants nothing.",
+      "failure_code": "AMBIGUOUS_OWNERSHIP"
+    },
+    {
+      "rule_id": "UDV11-008",
+      "severity": "ERROR",
+      "title": "Distinct gameplay value",
+      "applies_to": "All",
+      "test": "Unit must differ materially through provider, institution, region, equipment, formation, training, role, campaign burden, opportunity cost, lineage, AI use, or counterplay.",
+      "failure_code": "COSMETIC_DUPLICATE"
+    },
+    {
+      "rule_id": "UDV11-009",
+      "severity": "ERROR",
+      "title": "Semantic classification evidence",
+      "applies_to": "All",
+      "test": "Every shared semantic classification must preserve implementation_key, authored_description, classification_state, and at least one evidence receipt.",
+      "failure_code": "UNSUPPORTED_SEMANTIC_CLASS"
+    },
+    {
+      "rule_id": "UDV11-010",
+      "severity": "ERROR",
+      "title": "Classification-state evidence semantics",
+      "applies_to": "All",
+      "test": "Explicit and normalized classifications require positive source evidence; InheritedFromFactionExpression requires a verified expression binding; UnitSpecialized requires unit-specific evidence; NotApplicable requires evidence of non-applicability; UnresolvedFromCurrentProfile requires evidence that the source was checked but does not resolve the value; Unknown requires evidence that neither applicability nor a safe value is established.",
+      "failure_code": "INVALID_CLASSIFICATION_STATE_EVIDENCE"
+    },
+    {
+      "rule_id": "UDV11-011",
+      "severity": "ERROR",
+      "title": "Required semantic axes",
+      "applies_to": "All",
+      "test": "The record must address troop weight, training character, provider family, protection family, shield family, primary and secondary weapon families, missile family, formation family, battlefield role, cavalry service, mount service, availability, recovery, campaign-cost character, command character, and terrain relationship using honest classification states.",
+      "failure_code": "INCOMPLETE_SEMANTIC_AXES"
+    },
+    {
+      "rule_id": "UDV11-012",
+      "severity": "ERROR",
+      "title": "Faction expression boundary",
+      "applies_to": "All",
+      "test": "Faction Military Expression may supply inherited meaning but must not create active units, universal loadouts, exact values, or erase unit exceptions.",
+      "failure_code": "FACTION_EXPRESSION_OVERREACH"
+    },
+    {
+      "rule_id": "UDV11-013",
+      "severity": "ERROR",
+      "title": "Unit specialization completeness",
+      "applies_to": "All",
+      "test": "Unit specialization must state authored identity, provider subset, equipment, formation, cavalry or mount treatment where applicable, visual, campaign, and adjacent-family distinctions.",
+      "failure_code": "INCOMPLETE_UNIT_SPECIALIZATION"
+    },
+    {
+      "rule_id": "UDV11-014",
+      "severity": "ERROR",
+      "title": "Recruitment source separation",
+      "applies_to": "All",
+      "test": "Population, provider, building, region, culture, law, contract, equipment, horse, or date must not be treated as a recruited unit, full pool, reservation, assignment, muster, or field-ready force.",
+      "failure_code": "RECRUITMENT_ENTITY_COLLAPSE"
+    },
+    {
+      "rule_id": "UDV11-015",
+      "severity": "ERROR",
+      "title": "Recruitment owner routing",
+      "applies_to": "All",
+      "test": "Pool capacity, availability, reservation, assignment, muster, equipment, training, supply, recovery, legal service, animal custody, and strongest-blocker interfaces must remain owner-routed.",
+      "failure_code": "RECRUITMENT_OWNER_COLLAPSE"
+    },
+    {
+      "rule_id": "UDV11-016",
+      "severity": "ERROR",
+      "title": "Equipment evidence",
+      "applies_to": "All",
+      "test": "Equipment and protection claims require source evidence; generic cultural appearance or display name does not prove exact equipment or distribution.",
+      "failure_code": "UNSUPPORTED_EQUIPMENT"
+    },
+    {
+      "rule_id": "UDV11-017",
+      "severity": "ERROR",
+      "title": "Mount noncreation",
+      "applies_to": "All",
+      "test": "Knightly or mounted naming must not infer mount class, breed, protection, statistics, custody, or availability without source evidence.",
+      "failure_code": "UNSUPPORTED_MOUNT"
+    },
+    {
+      "rule_id": "UDV11-018",
+      "severity": "ERROR",
+      "title": "Formation layer separation",
+      "applies_to": "All",
+      "test": "Formation definition, eligibility, proficiency, readiness, and current runtime state must remain separate. Eligibility does not prove proficiency, readiness, or current use.",
+      "failure_code": "FORMATION_LAYER_COLLAPSE"
+    },
+    {
+      "rule_id": "UDV11-019",
+      "severity": "ERROR",
+      "title": "Conditional counterplay",
+      "applies_to": "All",
+      "test": "Strengths must remain conditional; immunity and deterministic victory claims are prohibited.",
+      "failure_code": "DETERMINISTIC_COMBAT_CLAIM"
+    },
+    {
+      "rule_id": "UDV11-020",
+      "severity": "BLOCKER",
+      "title": "Numerical balance gate",
+      "applies_to": "All",
+      "test": "Exact or provisional tactical values require separately authorized cross-faction and cross-tier comparison, scale ownership, comparator evidence, and applicable battle validation.",
+      "failure_code": "BLOCKED_NUMERICAL_BALANCE"
+    },
+    {
+      "rule_id": "UDV11-021",
+      "severity": "ERROR",
+      "title": "Tactical-balance evidence preservation",
+      "applies_to": "All",
+      "test": "Legacy or proposed tactical values, comparator evidence, scale owner, and battle-validation references must be preserved or explicitly ledgered even when numerical values remain unauthorized.",
+      "failure_code": "TACTICAL_EVIDENCE_LOSS"
+    },
+    {
+      "rule_id": "UDV11-022",
+      "severity": "ERROR",
+      "title": "Lineage substance",
+      "applies_to": "All",
+      "test": "Lineage must describe meaningful recruitment, equipment, training, role, availability, cost, region, institution, coexistence, persistence, or obsolescence change. Rename-only lineage fails.",
+      "failure_code": "EMPTY_LINEAGE"
+    },
+    {
+      "rule_id": "UDV11-023",
+      "severity": "ERROR",
+      "title": "Shared progression ownership",
+      "applies_to": "All",
+      "test": "Progression, persistence, replacement, specialization, coexistence, assignment, and obsolescence relationships must use the controlling shared progression vocabulary and must not manufacture people, equipment, pools, or automatic upgrades.",
+      "failure_code": "PROGRESSION_OWNERSHIP_VIOLATION"
+    },
+    {
+      "rule_id": "UDV11-024",
+      "severity": "ERROR",
+      "title": "Era and history",
+      "applies_to": "All",
+      "test": "Era constrains plausibility but must not automatically unlock, replace, upgrade, spawn, or guarantee historical outcomes.",
+      "failure_code": "DETERMINISTIC_ERA_OR_HISTORY"
+    },
+    {
+      "rule_id": "UDV11-025",
+      "severity": "ERROR",
+      "title": "Historical classification",
+      "applies_to": "All",
+      "test": "Terminology, chronology, equipment, organization, composites, and counterfactual claims require explicit classification and sources.",
+      "failure_code": "UNCLASSIFIED_HISTORICAL_CLAIM"
+    },
+    {
+      "rule_id": "UDV11-026",
+      "severity": "ERROR",
+      "title": "Selective inheritance",
+      "applies_to": "All",
+      "test": "Imported mechanics or mod-derived ideas require selective_inheritance_records preserving source, adopted element, adaptation, rejected elements, project fit, and evidence limitations. Source names or synopses alone are insufficient.",
+      "failure_code": "UNRECORDED_SELECTIVE_INHERITANCE"
+    },
+    {
+      "rule_id": "UDV11-027",
+      "severity": "ERROR",
+      "title": "AI transparency",
+      "applies_to": "All",
+      "test": "AI guidance requires recruitment priorities, avoidance, support, supply awareness, political or cultural sensitivity where applicable, decisive reasons, and blockers. Hidden bonuses are prohibited.",
+      "failure_code": "INCOMPLETE_AI_GUIDANCE"
+    },
+    {
+      "rule_id": "UDV11-028",
+      "severity": "ERROR",
+      "title": "Operating-environment completeness",
+      "applies_to": "All",
+      "test": "Terrain, crossings, settlement or fortification use, concealment, scouting relationship, maritime suitability where applicable, and explicit unresolved conditions must remain source-bound.",
+      "failure_code": "INCOMPLETE_OPERATING_ENVIRONMENT"
+    },
+    {
+      "rule_id": "UDV11-029",
+      "severity": "ERROR",
+      "title": "Master Profile and Game Card separation",
+      "applies_to": "All",
+      "test": "Unit Definition must retain presentation handoff and cultural-path explanation while final Game-Facing Unit Card art, finalized values, concise card copy, costs, pools, UI, accessibility, and localization remain a separate derivative.",
+      "failure_code": "CARD_DEFINITION_COLLAPSE"
+    },
+    {
+      "rule_id": "UDV11-030",
+      "severity": "ERROR",
+      "title": "Presentation dependency preservation",
+      "applies_to": "All",
+      "test": "Animation, sound, model, material, variation, generated-evidence, event, objective, related-unit, visual-note, and designer-note dependencies must be present, referenced, or explicitly ledgered as not applicable or deferred.",
+      "failure_code": "PRESENTATION_DEPENDENCY_LOSS"
+    },
+    {
+      "rule_id": "UDV11-031",
+      "severity": "ERROR",
+      "title": "Review marker and material blocker separation",
+      "applies_to": "All",
+      "test": "review_markers may contain only FutureRefinement items; material_blockers may contain only MaterialBlocker items. FutureRefinement does not block qualitative implementation.",
+      "failure_code": "REVIEW_BLOCKER_MISCLASSIFICATION"
+    },
+    {
+      "rule_id": "UDV11-032",
+      "severity": "ERROR",
+      "title": "Visual evidence boundary",
+      "applies_to": "All",
+      "test": "Visual notes or images must not prove ownership, equipment inventory, historical fact, availability, or tactical values.",
+      "failure_code": "VISUAL_EVIDENCE_OVERREACH"
+    },
+    {
+      "rule_id": "UDV11-033",
+      "severity": "ERROR",
+      "title": "Legacy preservation",
+      "applies_to": "All",
+      "test": "Modernization must preserve or ledger legacy statistics, flavor, references, variants, AI notes, events, objectives, visual notes, selective-inheritance records, and implementation dependencies.",
+      "failure_code": "SOURCE_CONTENT_LOSS"
+    },
+    {
+      "rule_id": "UDV11-034",
+      "severity": "ERROR",
+      "title": "Duplicate comparison",
+      "applies_to": "All",
+      "test": "Same-name, same-role, same-Realm, same-lineage, and adjacent-family candidates require direct comparison before merge, split, deprecation, or replacement.",
+      "failure_code": "UNRESOLVED_DUPLICATE"
+    },
+    {
+      "rule_id": "UDV11-035",
+      "severity": "ERROR",
+      "title": "Modern Medieval II acceptance",
+      "applies_to": "All",
+      "test": "Unit must have readable battlefield and campaign roles, faction value, strategic recruitment, strengths, weaknesses, misuse, counterplay, and controlled player workload.",
+      "failure_code": "MODERN_MEDIEVAL_II_TEST_FAILED"
+    },
+    {
+      "rule_id": "UDV11-036",
+      "severity": "BLOCKER",
+      "title": "Implementation gate",
+      "applies_to": "All",
+      "test": "Production writes require approved roster, definition, nonempty stable ID, canonical path, Registry evidence, approved production schema, asset inventory, deterministic import plan, rollback, owner authorization, and separately validated save or migration handling.",
+      "failure_code": "IMPLEMENTATION_GATE_CLOSED"
+    },
+    {
+      "rule_id": "UDV11-037",
+      "severity": "ERROR",
+      "title": "Validation claim discipline",
+      "applies_to": "All",
+      "test": "Static checks cannot be labeled importer, compile, runtime, save/load, migration, replay, performance, balance, historical, art, or battle validation unless those validations were actually performed.",
+      "failure_code": "UNSUPPORTED_VALIDATION_STATUS"
+    },
+    {
+      "rule_id": "UDV11-038",
+      "severity": "ERROR",
+      "title": "Opening State separation",
+      "applies_to": "All",
+      "test": "Static Unit Definition must not embed or recreate scenario active state; Opening State may only reference an approved definition through its separately owned contract.",
+      "failure_code": "OPENING_STATE_IN_DEFINITION"
+    },
+    {
+      "rule_id": "UDV11-039",
+      "severity": "ERROR",
+      "title": "Runtime and force separation",
+      "applies_to": "All",
+      "test": "Unit Definition must not embed active Unit, army, force, assignment, readiness, supply, command, casualty, prisoner, mount-custody, or recovery state.",
+      "failure_code": "RUNTIME_STATE_IN_DEFINITION"
+    },
+    {
+      "rule_id": "UDV11-040",
+      "severity": "ERROR",
+      "title": "Unresolved classification honesty",
+      "applies_to": "All",
+      "test": "NotApplicable, UnresolvedFromCurrentProfile, and Unknown must retain distinct meanings and evidence. Unresolved evidence must not be silently normalized or fabricated.",
+      "failure_code": "DISHONEST_UNRESOLVED_CLASSIFICATION"
+    },
+    {
+      "rule_id": "UDV11-041",
+      "severity": "ERROR",
+      "title": "Three-track time separation",
+      "applies_to": "All",
+      "test": "Historical progression, biological progression, and Campaign Season must remain independent and must not substitute for one another.",
+      "failure_code": "TEMPORAL_TRACK_COLLAPSE"
+    },
+    {
+      "rule_id": "UDV11-042",
+      "severity": "ERROR",
+      "title": "Definition-candidate scope",
+      "applies_to": "All",
+      "test": "This schema may represent MasterProfile, QualitativeImplementationReady, CrossFactionBalanceReady, or NumericalDefinitionCandidate. Concept, GameFacingUnitCardReady, and CanonicalImplementationReady belong to other or later separately authorized contracts.",
+      "failure_code": "SCHEMA_MATURITY_SCOPE_VIOLATION"
+    },
+    {
+      "rule_id": "UDV11-043",
+      "severity": "REVIEW",
+      "title": "Owner review",
+      "applies_to": "All",
+      "test": "Owner judgment may be required without converting the record into an error or blocker when no material contradiction exists.",
+      "failure_code": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "rule_id": "UDV11-044",
+      "severity": "INFO",
+      "title": "Evidence receipt",
+      "applies_to": "All",
+      "test": "Report source, hash, authority, comparator, normalization, and validation receipts used by the static evaluation.",
+      "failure_code": "EVIDENCE_RECEIPT"
+    },
+    {
+      "rule_id": "UDV11-045",
+      "severity": "BLOCKER",
+      "title": "Master Profile classification maturity gate",
+      "applies_to": "QualitativeImplementationReady",
+      "test": "Stage 3 requires a Stage 3 Master Unit Profile source with StaticClassificationComplete, QualitativeClassificationHandoffReady, an eligible recruitable combat-family scope, and no open classification MaterialBlocker affecting the handoff.",
+      "failure_code": "MASTER_PROFILE_CLASSIFICATION_GATE_NOT_MET"
+    },
+    {
+      "rule_id": "UDV11-046",
+      "severity": "ERROR",
+      "title": "Classification transfer receipt integrity",
+      "applies_to": "ClassificationHandoff",
+      "test": "The receipt source profile reference and hash, source classification record reference and hash, applicability scope, transferred sections, evidence receipts, and preserved content must match the bound source. A mismatch or missing receipt fails validation.",
+      "failure_code": "CLASSIFICATION_TRANSFER_RECEIPT_MISMATCH"
+    },
+    {
+      "rule_id": "UDV11-047",
+      "severity": "ERROR",
+      "title": "Non-card capability rejection",
+      "applies_to": "Applicability",
+      "test": "Transport capacity or campaign support without a distinct recruitable combat card is rejected before candidate classification and receives no recruitable-unit classification record, military quality, provider classification, pool class, pool axes, or battle role.",
+      "failure_code": "NON_CARD_CLASSIFICATION_RECORD"
+    },
+    {
+      "rule_id": "UDV11-048",
+      "severity": "ERROR",
+      "title": "Specialist source distinction",
+      "applies_to": "SpecialistSources",
+      "test": "Where applicable, mercenaries require an identifiable contract or market source, separately evidenced contract or market access, finite-market behavior, canonical market or pool ownership, overlap handling, and hired-service identity without a mini-faction. Regional families retain canonical Theater or regional ownership and a separate Realm access mapping without duplicated canonical profiles. Allied contingents retain an external source, negotiated access, source ownership, and withdrawal or persistence treatment. Military orders retain an institutional provider, service conditions, and separate access; religion or a building alone does not create recruitment. Naval combat requires distinct combat-card evidence and separate crew, vessel, maritime-provider, availability, and recovery sources; transport remains separate. Mounted families retain separate rider, mount, custody, pairing, remount, and recovery evidence; a mounted name never proves horse supply. Across all routes, provider class, named source, access channel, pool owner, controller or recruiter, and settlement host remain distinct.",
+      "failure_code": "SPECIALIST_SOURCE_COLLAPSE"
+    },
+    {
+      "rule_id": "UDV11-049",
+      "severity": "ERROR",
+      "title": "Classification cross-field consistency",
+      "applies_to": "ClassificationHandoff",
+      "test": "The classification summary and full transferred record must agree with source evidence, semantic classifications, faction expression, specialization, role, formation, recruitment, and recovery fields. Conflicts are surfaced and are not silently normalized.",
+      "failure_code": "CLASSIFICATION_CROSS_FIELD_INCONSISTENCY"
+    },
+    {
+      "rule_id": "UDV11-050",
+      "severity": "REVIEW",
+      "title": "Stage 3 comparison scope",
+      "applies_to": "QualitativeImplementationReady",
+      "test": "Cross-faction comparison is not a prerequisite for the Stage 3 qualitative handoff. Record comparison dependencies as review information without promoting Stage 4 or implying numerical parity.",
+      "failure_code": "CLASSIFICATION_STAGE_SCOPE_REVIEW"
+    },
+    {
+      "rule_id": "UDV11-051",
+      "severity": "WARNING",
+      "title": "Classification anti-churn",
+      "applies_to": "ClassificationHandoff",
+      "test": "When source evidence and hashes are unchanged, preserve the existing classification transfer and receipt. When a source changes, refresh only affected mappings and record a bounded difference.",
+      "failure_code": "UNNECESSARY_CLASSIFICATION_REWRITE"
+    },
+    {
+      "rule_id": "UDV11-052",
+      "severity": "ERROR",
+      "title": "Independent classification axes",
+      "applies_to": "ClassificationHandoff",
+      "test": "Military quality, provider, development, qualifiers, pool class, capacity depth, recruitment access, recovery, era, battle role, and recruitment duration remain distinct fields and must not be derived from one another by assumption.",
+      "failure_code": "CLASSIFICATION_AXIS_COLLAPSE"
+    },
+    {
+      "rule_id": "UDV11-053",
+      "severity": "ERROR",
+      "title": "Candidate and canonical identity separation",
+      "applies_to": "ClassificationHandoff",
+      "test": "Unit-family identity, candidate identity, originating Unit Definition Candidate identity, and stable canonical identity remain distinct. Classification transfer must not allocate or imply a stable runtime ID.",
+      "failure_code": "CANDIDATE_CANONICAL_IDENTITY_COLLAPSE"
+    },
+    {
+      "rule_id": "UDV11-054",
+      "severity": "ERROR",
+      "title": "Nonactivation and later-stage boundary",
+      "applies_to": "ClassificationHandoff",
+      "test": "A qualitative classification handoff does not authorize exact values, Game-Facing Unit Card content, schema activation, payload, importer, Registry, Opening State, runtime, save or migration, or Unreal effects. All applicable effect permissions remain false.",
+      "failure_code": "CLASSIFICATION_HANDOFF_EFFECT_BOUNDARY"
+    },
+    {
+      "rule_id": "UDV11-055",
+      "severity": "ERROR",
+      "title": "Classification registry and pool-axis integrity",
+      "applies_to": "ClassificationHandoff",
+      "test": "Resolve each transferred quality group and subgroup, provider class, development state, qualifier, pool class, capacity depth, recruitment access state, recovery condition, overlap group, era, emergence mode, applicability scope, and battle-role identifier against its owning Step 1 or Step 2 registry. A quality subgroup's parent_group_id must equal the selected group_id. MPS.NoKnownOverlap is valid only as an overlap sentinel and never as a capacity, recruitment-access, or recovery axis value.",
+      "failure_code": "CLASSIFICATION_REGISTRY_OR_AXIS_REFERENCE_INVALID"
+    }
+  ],
+  "required_validation_output": {
+    "record_id": "required",
+    "schema_result": "required",
+    "rule_results": "required",
+    "errors": "required",
+    "blockers": "required",
+    "warnings": "required",
+    "reviews": "required",
+    "information": "required",
+    "evidence_refs": "required",
+    "classification_transfer_receipt": "required_when_classification_handoff_present",
+    "classification_maturity_gate": "required",
+    "validation_performed": "required",
+    "validation_not_performed": "required",
+    "overall_result": {
+      "enum": [
+        "PassedStaticChecks",
+        "PassedWithWarnings",
+        "ReviewRequired",
+        "Blocked",
+        "Failed"
+      ]
+    },
+    "production_authorized": {
+      "const": false
+    }
+  },
+  "representative_behavior_tests": [
+    {
+      "case": "valid_qualitative_candidate",
+      "expected": "PassedStaticChecksOrReviewRequired"
+    },
+    {
+      "case": "registered_record_with_null_stable_id",
+      "expected": "FailedOrBlocked"
+    },
+    {
+      "case": "registered_record_with_empty_canonical_path",
+      "expected": "FailedOrBlocked"
+    },
+    {
+      "case": "document_status_used_as_maturity",
+      "expected": "Failed"
+    },
+    {
+      "case": "future_refinement_in_material_blockers",
+      "expected": "Failed"
+    },
+    {
+      "case": "material_blocker_in_review_markers",
+      "expected": "Failed"
+    },
+    {
+      "case": "active_state_inserted",
+      "expected": "Failed"
+    },
+    {
+      "case": "invented_mount_class_without_evidence",
+      "expected": "Failed"
+    },
+    {
+      "case": "valid_unresolved_classification_with_negative_evidence",
+      "expected": "PassedStaticChecksOrReviewRequired"
+    },
+    {
+      "case": "game_facing_card_embedded",
+      "expected": "Failed"
+    },
+    {
+      "case": "production_authorized_true",
+      "expected": "Failed"
+    },
+    {
+      "case": "selective_inheritance_without_record",
+      "expected": "Failed"
+    },
+    {
+      "case": "valid_stage_3_classification_transfer_without_comparison",
+      "expected": "PassedStaticChecksOrReviewRequired"
+    },
+    {
+      "case": "stage_3_from_incomplete_master_profile",
+      "expected": "Blocked"
+    },
+    {
+      "case": "stage_3_with_classification_material_blocker",
+      "expected": "Blocked"
+    },
+    {
+      "case": "transport_capacity_without_distinct_combat_card",
+      "expected": "RejectedBeforeCandidateClassification"
+    },
+    {
+      "case": "classification_summary_disagrees_with_transferred_record",
+      "expected": "Failed"
+    },
+    {
+      "case": "unchanged_classification_source_preserves_receipt",
+      "expected": "PassedStaticChecksOrReviewRequired"
+    },
+    {
+      "case": "changed_classification_source_with_bounded_receipt_refresh",
+      "expected": "PassedStaticChecksOrReviewRequired"
+    }
+  ],
+  "zero_effect_boundary": {
+    "registry_mutation": false,
+    "registry_mutation_authorized": false,
+    "opening_state_mutation": false,
+    "opening_state_mutation_authorized": false,
+    "importer_execution": false,
+    "importer_authorized": false,
+    "schema_activation_authorized": false,
+    "payload_authorized": false,
+    "runtime_binding": false,
+    "runtime_mutation_authorized": false,
+    "save_or_migration_change": false,
+    "unreal_asset_creation": false,
+    "unreal_mutation_authorized": false,
+    "production_authorized": false
+  },
+  "copy_first_disposition": {
+    "V1_rules_preserved_or_successor_mapped": true,
+    "selective_inheritance_restored": true,
+    "presentation_card_rule_split": true,
+    "candidate_vs_canonical_identity_split": true,
+    "removed_rules": [],
+    "production_promotion_claimed": false
+  }
+}

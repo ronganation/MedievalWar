@@ -1,0 +1,39 @@
+{
+  "ManifestId": "manifest.aquitaine.current-machine-readable-candidate-bundle.v1.1",
+  "AuthorityFile": "Aquitaine_Current_Machine_Readable_Candidate_Bundle_V1.md",
+  "Version": "1.1.0",
+  "RevisionDate": "2026-09-05",
+  "SHA256": "dcb44470ac93d1bb7f99e67f1b1c77bb15b41b7f1d65f2ed48320681d4a8f17b",
+  "ByteCount": 25461,
+  "LineCount": 908,
+  "ImmediateSubstantiveSource": "Aquitaine_Current_Machine_Readable_Candidate_Bundle_V1Old.md",
+  "PreservedOriginalPortfolioFiles": 28,
+  "AddedFiles": [
+    "evidence_chronology.yaml",
+    "uncertainty.yaml"
+  ],
+  "PlannedBundlePortfolio": {
+    "TotalFiles": 30,
+    "MarkdownFiles": 1,
+    "JSONFiles": 1,
+    "YAMLFiles": 28
+  },
+  "HistoricalCoverage": {
+    "EvidenceChronologyIncluded": true,
+    "UncertaintyIncluded": true,
+    "CandidateUncertaintyRecords": 30,
+    "OpeningScenarioSelectionsApplied": 0
+  },
+  "Status": "Pass",
+  "MutationStatus": {
+    "SourceFilesModified": 0,
+    "RegistryMutations": 0,
+    "CanonicalPromotions": 0,
+    "AliasExecutions": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

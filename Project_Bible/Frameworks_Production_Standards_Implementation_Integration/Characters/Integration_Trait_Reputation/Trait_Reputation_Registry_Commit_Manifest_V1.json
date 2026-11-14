@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationRegistryCommitManifest",
+    "name": "Trait Reputation Registry Commit Manifest V1",
+    "version": "1.0",
+    "status": "AuthoritativeRegistryCommitComplete_MigrationExecutionLocked",
+    "authority_class": "Registry Commit Manifest"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Registry_Commit_Manifest_V1.json"
+  },
+  "outputs": [
+    {
+      "file": "Trait_Canonical_Registry_V1_1.json",
+      "record_count": 37
+    },
+    {
+      "file": "Reputation_Dimension_Registry_V1_1.json",
+      "record_count": 9
+    },
+    {
+      "file": "Trait_Reputation_Direct_Migration_Map_V1.json",
+      "mapping_count": 46
+    }
+  ],
+  "preserved_inputs": [
+    "Trait_Canonical_Registry_V1.json",
+    "Reputation_Dimension_Registry_V1.json",
+    "Trait_Canonical_Registry_V1_1.staging.json",
+    "Reputation_Dimension_Registry_V1_1.staging.json",
+    "Trait_Reputation_Direct_Migration_Map_V1.staging.json"
+  ],
+  "count_contract": {
+    "canonical_registry_records": 46,
+    "approved_direct_mappings": 46,
+    "executed_mappings": 0,
+    "excluded_quirks": 5,
+    "reconciliation": "Pass"
+  },
+  "run": {
+    "mode": "RegistryCommitManifest",
+    "verdict": "PassRegistryCommitComplete",
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "smallest_useful_next_action": "Create a content and save migration dry-run contract using the committed registries and direct migration map. Inventory exact legacy Trait/Reputation readers and writes first; do not execute migration or create runtime state until compile, runtime, save, determinism, and rollback gates exist."
+}

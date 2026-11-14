@@ -1,0 +1,40 @@
+{
+  "document_identity": {
+    "document_id": "mw.campaign_theater.owner_receipt_intake.v1",
+    "filename": "Campaign_Theater_Owner_Receipt_Intake_V1_PENDING.json",
+    "version": "1.0.0",
+    "date": "2026-08-23",
+    "status": "PENDING_NO_OWNER_RECEIPT"
+  },
+  "authority_boundary": {
+    "constitutional_authority": "Project Bible V2.4",
+    "operational_authority": "Design Expansion Checklist V3.7",
+    "owner_response_ledger": "Campaign_Theater_Owner_Response_Ledger_V1.json",
+    "decision_request_packet": "Campaign_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md",
+    "blocked_registry_index": "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT.json"
+  },
+  "intake_state": {
+    "receipt_submitted": false,
+    "receipt_validated": false,
+    "ledger_update_authorized": false,
+    "blocked_index_promotion_authorized": false
+  },
+  "receipt": {
+    "request_id": null,
+    "owner_authority_ref": null,
+    "owner_receipt_id": null,
+    "disposition": null,
+    "authority_or_evidence_refs": [],
+    "approval_scope": null,
+    "response_status": "PENDING_NO_OWNER_RECEIPT"
+  },
+  "authorization": {
+    "registry_mutation_authorized": false,
+    "new_activation_authorized": false,
+    "scenario_execution_authorized": false,
+    "importer_consumption_authorized": false,
+    "runtime_mutation_authorized": false,
+    "save_persistence_authorized": false,
+    "migration_execution_authorized": false
+  }
+}

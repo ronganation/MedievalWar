@@ -1,0 +1,17 @@
+{
+  "manifest_version": "1.1",
+  "document_type": "RealmClaimsSuccessionInstallationAuthorityFullRefinement",
+  "file": "Ireland_Claims_Succession_Installation_Recognition_and_Government_Conversion_Authority_V1_1_FULL.md",
+  "bytes": 43100,
+  "lines": 865,
+  "sha256": "04d622ce0aac3eac3c88e56af9a181a2e97ea662acc5481564533b13585a1364",
+  "direct_substantive_source": "Ireland_Claims_Succession_Installation_Recognition_and_Government_Conversion_Authority_V1.md",
+  "source_treatment": "PreserveAndEnrich",
+  "substantive_sections": 37,
+  "validation_cases": 40,
+  "source_authorities_modified": 0,
+  "records_activated": 0,
+  "static_check_file": "Ireland_Claims_Succession_Installation_Recognition_and_Government_Conversion_Authority_V1_1_FULL_Static_Check.json",
+  "static_check_sha256": "96b73e592645fba7c4b570b80f680fc86cfec2bedc753ed5f5c0a46a3882fd9f",
+  "validation_scope": "content static and source-successor completeness checks only; no owner promotion, Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, or payload validation"
+}

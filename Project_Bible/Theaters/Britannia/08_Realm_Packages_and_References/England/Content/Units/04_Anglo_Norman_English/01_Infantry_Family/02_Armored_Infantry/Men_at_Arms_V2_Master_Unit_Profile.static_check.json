@@ -1,0 +1,20 @@
+{
+  "document": "Men_at_Arms_V2_Master_Unit_Profile.md",
+  "sha256": "63b0da0abca5dc4ac9982f04b1525fd84093204fe68af57f8cd318791a48bcff",
+  "checks": {
+    "hash_matches_manifest": true,
+    "larger_than_source": true,
+    "minimum_depth": true,
+    "sections_unique": true,
+    "sections_0_78": true,
+    "terrain_25": true,
+    "unit_specific_terrain": true,
+    "V1_sha_recorded": true,
+    "no_loss": true,
+    "strong_benchmark_named": true,
+    "three_track": true,
+    "no_runtime_promotion": true,
+    "final_footer": true
+  },
+  "pass": true
+}

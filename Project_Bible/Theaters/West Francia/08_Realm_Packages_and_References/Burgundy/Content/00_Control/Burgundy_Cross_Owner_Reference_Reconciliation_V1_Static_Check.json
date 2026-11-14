@@ -1,0 +1,20 @@
+{
+  "artifact": "Burgundy_Cross_Owner_Reference_Reconciliation_V1.md",
+  "status": "PASS_STATIC_DOCUMENT_CHECKS",
+  "sha256": "508cc58b4ac3c74b785f06436a3820dfc95019468936bea345982dfcb7393dff",
+  "checks": {
+    "nonempty": true,
+    "yamlFencesBalanced": true,
+    "scenarioOpeningPresent": true,
+    "winterPresent": true,
+    "temporalTracksPresent": true,
+    "ownerBoundaryPresent": true,
+    "nonmutationPresent": true,
+    "stableFooterPresent": true,
+    "nextFilePresent": true
+  },
+  "limitations": [
+    "Static document checks only",
+    "No Registry, Opening State, Unreal, importer, compile, runtime, save/load, replay, battle, balance, migration, or performance validation performed"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "artifact": "Baldwin_V_of_Flanders_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.1.0",
+  "sha256": "b44ebc2d6381b367dc55569e040d2370df492c2c6015f66c0d4f3928410252f4",
+  "bytes": 63532,
+  "lines": 1559,
+  "redo_reason": "Prior701LineDraftRejectedAsBelowLeadCharacterStandard",
+  "benchmark_scope": "FullCrossTheaterDevelopedCharacterLibrary",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "stable_footer_count": 1,
+    "required_developed_modules_missing": [],
+    "benchmark_profile_families": 11,
+    "AI_reason_codes": 40,
+    "validation_fixtures": 15,
+    "nonmutation": true
+  },
+  "all_critical_checks_pass": true,
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Person": 0,
+    "TitleOffice": 0,
+    "Command": 0,
+    "Relationships": 0,
+    "Schema": 0,
+    "Save": 0,
+    "Unreal": 0,
+    "Runtime": 0
+  },
+  "next_file": "Adela_of_France_Countess_of_Flanders_V1_Developed_Character_Profile_Authority.md"
+}

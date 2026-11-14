@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "source_snapshot": "Ui_Ceinnselaig_Dynasty_Refined_Source_Snapshot.md",
+  "target": "Ui_Ceinnselaig_Dynasty_V2.1_Current_Authority_Refinement.md",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_longer_than_source": true,
+    "all_source_headings_preserved": true,
+    "source_heading_count_preserved": true,
+    "canonical_dynasty_present": true,
+    "Murchad_active": true,
+    "Dublin_separation": true,
+    "three_track": true,
+    "authority_controls": true,
+    "honest_validation": true,
+    "substantive_removals_empty": true,
+    "no_escaped_underscores_in_addendum": true,
+    "all_pass": true
+  }
+}

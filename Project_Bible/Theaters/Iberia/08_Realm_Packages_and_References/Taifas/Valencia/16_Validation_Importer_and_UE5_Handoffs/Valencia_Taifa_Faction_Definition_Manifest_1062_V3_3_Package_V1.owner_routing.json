@@ -1,0 +1,266 @@
+{
+  "routing_id": "owner_routing.definition_manifest.valencia.1062.v3_3.package_v1",
+  "version": "1.0.0",
+  "manifest_id": "definition_manifest.valencia.1062.v3_3.package_v1",
+  "routes": [
+    {
+      "route_id": "OWNER_001",
+      "authoritative_owner": "CharacterRegistryOwner",
+      "definition_ids": [
+        "person.valencia.abd_al_malik_ibn_abd_al_aziz_al_muzaffar",
+        "person.valencia.abd_al_aziz_al_mansur",
+        "personref.valencia.toledan_consort_of_abd_al_malik",
+        "personref.valencia.ibn_rawbash"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_002",
+      "authoritative_owner": "CommunitiesAndPopulationOwner",
+      "definition_ids": [
+        "community.valencia.muslim_urban",
+        "community.valencia.huerta",
+        "community.valencia.merchants",
+        "community.valencia.artisans",
+        "community.valencia.christian",
+        "community.valencia.jewish"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_003",
+      "authoritative_owner": "DynastyAndHouseholdOwner",
+      "definition_ids": [
+        "household.valencia.rulers_chamber",
+        "household.valencia.toledan_consort",
+        "household.valencia.inherited_amirid_clients",
+        "household.valencia.military_household",
+        "household.valencia.scribal_household"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_004",
+      "authoritative_owner": "DynastyRegistryOwner",
+      "definition_ids": [
+        "dynasty.valencia.amirid"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_005",
+      "authoritative_owner": "EconomyAndResourceOwner",
+      "definition_ids": [
+        "resourceband.valencia.grain",
+        "resourceband.valencia.military_stores",
+        "resourceband.valencia.fodder",
+        "resourceband.valencia.timber_and_repair_material",
+        "resourceband.valencia.bullion",
+        "resourceband.valencia.pack_animals",
+        "resourceband.valencia.siege_equipment",
+        "resourceband.valencia.ships"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_006",
+      "authoritative_owner": "GovernmentAndTitleOwners",
+      "definition_ids": [
+        "title.valencia.sovereign"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_007",
+      "authoritative_owner": "GovernmentOwner",
+      "definition_ids": [
+        "office.valencia.senior_administrator",
+        "office.valencia.qadi_of_balansiya",
+        "office.valencia.preacher",
+        "office.valencia.market_inspector",
+        "office.valencia.palace_guard_commander",
+        "office.valencia.huerta_administrator",
+        "office.valencia.standing_field_commander",
+        "office.valencia.northern_approach_commander",
+        "office.valencia.southern_crossing_commander"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_008",
+      "authoritative_owner": "GrandCampaignScenarioOwner",
+      "definition_ids": [
+        "mw.scenario.grand_campaign.1062"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_009",
+      "authoritative_owner": "HistoricalSystemsOwner",
+      "definition_ids": [
+        "memory.valencia",
+        "momentum.valencia",
+        "emergence.valencia"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_010",
+      "authoritative_owner": "MilitaryDefinitionOwner",
+      "definition_ids": [
+        "forcefamily.valencia.palace_guard",
+        "forcefamily.valencia.paid_field_core",
+        "forcefamily.valencia.capital_garrison",
+        "forcefamily.valencia.urban_militia",
+        "forcefamily.valencia.huerta_levies_and_support",
+        "forcefamily.valencia.outer_garrisons",
+        "forcefamily.valencia.mercenaries_and_allies",
+        "forcefamily.valencia.coastal_force"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_011",
+      "authoritative_owner": "OpeningStateOwner",
+      "definition_ids": [
+        "problem.valencia.confirm_inherited_government",
+        "problem.valencia.settle_guard_and_garrison_obligations",
+        "problem.valencia.water_before_ceremony",
+        "problem.valencia.define_family_road_to_toledo",
+        "problem.valencia.establish_field_command",
+        "problem.valencia.coin_grain_and_credit",
+        "problem.valencia.continuity_without_documented_heir",
+        "problem.valencia.choose_first_strategic_axis",
+        "problem.valencia.renew_civic_and_commununal_protection"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_012",
+      "authoritative_owner": "RelevantInstitutionOwner",
+      "definition_ids": [
+        "institution.valencia.congregational_mosque",
+        "institution.valencia.qadi_court",
+        "institution.valencia.awqaf",
+        "institution.valencia.irrigation_communities",
+        "institution.valencia.markets_and_craft_quarters",
+        "institution.valencia.mint_function"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_013",
+      "authoritative_owner": "TerritoryAndMapOwners",
+      "definition_ids": [
+        "site.valencia.balansiya",
+        "region.valencia.huerta_and_lower_turia",
+        "site.valencia.capital_coastal_access",
+        "site.valencia.murviedro",
+        "site.valencia.alzira",
+        "site.valencia.cullera",
+        "site.valencia.lliria",
+        "site.valencia.xativa_shatiba"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_014",
+      "authoritative_owner": "TerritoryLogisticsAndMapOwners",
+      "definition_ids": [
+        "route.valencia.northern_coastal_axis",
+        "route.valencia.southern_jucar_axis",
+        "route.valencia.western_turia_axis",
+        "route.valencia.maritime_axis"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_015",
+      "authoritative_owner": "ValenciaDiplomacyOwner",
+      "definition_ids": [
+        "relation.valencia.toledo",
+        "relation.valencia.denia",
+        "relation.valencia.alpuente",
+        "relation.valencia.tortosa",
+        "relation.valencia.zaragoza",
+        "relation.valencia.christian_powers"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    },
+    {
+      "route_id": "OWNER_016",
+      "authoritative_owner": "ValenciaRealmAndFactionOwner",
+      "definition_ids": [
+        "realm.valencia",
+        "faction.valencia.grand_campaign_1062"
+      ],
+      "request_type": "DefinitionIdentityAndOwnershipDisposition",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectRequiredOrQuarantineOptional",
+      "fallback_behavior": "PreserveDefinitionUnknownReviewOnlyExternalLockOrQuarantine",
+      "runtime_write_authorized": false
+    }
+  ],
+  "external_owner_rule": "LocalManifestCannotWriteExternalIdentityDispositionConsentAgreementAccessForceKnowledgeOrResponse",
+  "execution_status": "StaticRoutingDefinedNotExecuted"
+}

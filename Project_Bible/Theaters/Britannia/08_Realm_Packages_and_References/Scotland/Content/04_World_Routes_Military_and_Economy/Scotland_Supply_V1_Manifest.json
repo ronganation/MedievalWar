@@ -1,0 +1,45 @@
+{
+  "document": "Scotland_Supply_V1.md",
+  "version": "1.0.0",
+  "status": "Static-Checked Draft",
+  "bytes": 47691,
+  "physical_lines": 1516,
+  "sections": 57,
+  "sha256": "7474173ccb270d8340c56a316ebf8a80230d316d4d15f95b9e566245bb7c01c5",
+  "immediate_source": "Scotland_Economy_and_Property_V1.md",
+  "supporting_inputs": [
+    "Scotland_Routes_Maritime_Access_and_Communication_V1.md",
+    "Scotland_Settlements_Ports_Islands_and_Strategic_Sites_V1.md",
+    "Scotland_Army_Fleet_and_Military_Capability_V1.md",
+    "Scotland_Law_and_Policy_V1_Corrected.md",
+    "Scotland_Opening_State.md",
+    "England_Supply_Package.md"
+  ],
+  "content_inventory": {
+    "supply_entity_classes": 30,
+    "source_classes": 9,
+    "demand_classes": 14,
+    "flow_lifecycle_states": 22,
+    "transport_classes": 10,
+    "portfolio_groups": 6,
+    "registry_namespace_candidates": 19,
+    "validation_cases": 24,
+    "issue_codes": 24
+  },
+  "opening_records_created": 0,
+  "authorizations": {
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "implementation_validation": {
+    "compile": false,
+    "runtime": false,
+    "importer": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "performance": false
+  }
+}

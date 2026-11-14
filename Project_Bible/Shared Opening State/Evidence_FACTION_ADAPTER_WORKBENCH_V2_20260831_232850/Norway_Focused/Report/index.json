@@ -1,0 +1,252 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "BABBAKANOOSH",
+			"instance": "AF40C8B742BA1C598A4710AE3ABAFA7E",
+			"instanceName": "BABBAKANOOSH-49064",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (25H2) [10.0.26200.9168] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 3060",
+			"cPUModel": "AMD Ryzen 5 5600X 6-Core Processor             ",
+			"rAMInGB": 16,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.09.01-03.29.20",
+	"succeeded": 10,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.081001006066799164,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "CoreTagsRegistered",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.CharacterFoundation.CoreTagsRegistered",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"AF40C8B742BA1C598A4710AE3ABAFA7E"
+			],
+			"duration": 0.0074706003069877625,
+			"dateTime": "2026.09.01-03.29.20",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PartialProjection",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.CharacterFoundation.PartialProjection",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"AF40C8B742BA1C598A4710AE3ABAFA7E"
+			],
+			"duration": 0.0082243978977203369,
+			"dateTime": "2026.09.01-03.29.20",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: character_attributes_and_state_tags_unresolved",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.20"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: character_biological_ages_unresolved",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.20"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: character_birth_dates_unresolved",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.20"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: character_realm_and_location_unresolved",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.20"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: character_titles_roles_and_eligibility_unresolved",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.20"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: characterfoundation_owner_not_committed",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.20"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PartialProjectionDeterminism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.CharacterFoundation.PartialProjectionDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"AF40C8B742BA1C598A4710AE3ABAFA7E"
+			],
+			"duration": 0.0083564035594463348,
+			"dateTime": "2026.09.01-03.29.20",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "KingTagRegistered",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.Title.KingTagRegistered",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"AF40C8B742BA1C598A4710AE3ABAFA7E"
+			],
+			"duration": 0.0081015005707740784,
+			"dateTime": "2026.09.01-03.29.20",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PartialProjection",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.Title.PartialProjection",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"AF40C8B742BA1C598A4710AE3ABAFA7E"
+			],
+			"duration": 0.0085343010723590851,
+			"dateTime": "2026.09.01-03.29.20",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PartialProjectionDeterminism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.Title.PartialProjectionDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"AF40C8B742BA1C598A4710AE3ABAFA7E"
+			],
+			"duration": 0.0081386975944042206,
+			"dateTime": "2026.09.01-03.29.20",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "BlockedContract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.BlockedContract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"AF40C8B742BA1C598A4710AE3ABAFA7E"
+			],
+			"duration": 0.0077720992267131805,
+			"dateTime": "2026.09.01-03.29.20",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"AF40C8B742BA1C598A4710AE3ABAFA7E"
+			],
+			"duration": 0.0083495005965232849,
+			"dateTime": "2026.09.01-03.29.20",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SourceBoundAccounting",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.SourceBoundAccounting",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"AF40C8B742BA1C598A4710AE3ABAFA7E"
+			],
+			"duration": 0.008136700838804245,
+			"dateTime": "2026.09.01-03.29.20",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SourceBoundDeterminism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.SourceBoundDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"AF40C8B742BA1C598A4710AE3ABAFA7E"
+			],
+			"duration": 0.0079168006777763367,
+			"dateTime": "2026.09.01-03.29.20",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

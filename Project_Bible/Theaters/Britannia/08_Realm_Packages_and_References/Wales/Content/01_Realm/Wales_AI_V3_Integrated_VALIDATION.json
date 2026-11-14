@@ -1,0 +1,21 @@
+{
+  "filename": "Wales_AI_V3_Integrated.md",
+  "status": "PASS_COPY_FIRST_EXACT_BYTE_INTEGRATION",
+  "source_filename": "Wales_AI.md",
+  "source_bytes": 42159,
+  "source_sha256": "cd486af41675569c0a015545017ef2fdd40f63c06d85fdc316254d7226dff015",
+  "source_prefix_exact": true,
+  "separator_bytes": 72,
+  "v3_layer_bytes": 47545,
+  "v3_layer_sha256": "bd8cb052a5224f2295af8adc571df033777a2f59f3a107711252f2627b89cd28",
+  "v3_suffix_exact": true,
+  "final_bytes": 89776,
+  "final_sha256": "6b7f7b591ef9f2b6bbb7954e8211b31f2be2facfaee434345a50e13c5670fe66",
+  "source_overwrite_performed": false,
+  "physical_promotion_performed": false,
+  "runtime_mutation_performed": false,
+  "registry_mutation_performed": false,
+  "exact_source_bytes_included": true,
+  "removed_source_bytes": 0,
+  "passed": true
+}

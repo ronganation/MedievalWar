@@ -1,0 +1,19 @@
+{
+  "document": "Elite_Royal_Spearmen_V1_Master_Unit_Profile.md",
+  "sha256": "5c773383b741a0107e69827dea6a239e097b130d4218fa4065094f4d08d79f55",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "size_strong": true,
+    "terrain_25": true,
+    "parent_persists": true,
+    "grandparent_persists": true,
+    "S04": true,
+    "progression": true,
+    "elite_depth": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

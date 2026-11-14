@@ -1,0 +1,48 @@
+{
+  "document_id": "Manifest.Validation.LeonCastile.LiteralReferenceDependencyClosure.V1",
+  "report_file": "Leon_Castile_Literal_Reference_and_Dependency_Closure_Report_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 20439,
+  "physical_lines": 463,
+  "sha256": "7460F3967A016331D451C8E89C04DBCBBE45C0E29C73F3AC68C7538CC8C63D29",
+  "status": "StaticCheckedLiteralReferenceClosureWithPhysicalScanGate",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "classification_vocabulary_present": true,
+    "literal_scan_set_present": true,
+    "current_control_map_present": true,
+    "seven_profile_closure_present": true,
+    "historical_suite_closure_present": true,
+    "placement_closure_present": true,
+    "obsolete_status_closure_present": true,
+    "physical_scan_gate_preserved": true,
+    "promotion_block_present": true
+  },
+  "closure_disposition": "PASS_AT_INTERPRETATION_LEVEL_BLOCKED_AT_PHYSICAL_LITERAL_SCAN",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "MachineReadable": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "validation_boundary": {
+    "PhysicalCorpusScan": "NOT_RUN",
+    "LineLevelLedger": "NOT_GENERATED",
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "Importer": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "Promotion": "PROHIBITED"
+  },
+  "next_file": "Leon_Castile_Machine_Readable_V2_Source_and_Hash_Reconciliation_Report_V1.md",
+  "all_report_static_checks_pass": true
+}

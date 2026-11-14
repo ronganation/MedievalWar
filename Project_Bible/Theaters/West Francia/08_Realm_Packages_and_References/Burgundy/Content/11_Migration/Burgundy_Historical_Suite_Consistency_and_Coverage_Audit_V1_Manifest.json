@@ -1,0 +1,27 @@
+{
+  "FileName": "Burgundy_Historical_Suite_Consistency_and_Coverage_Audit_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "7a56b9f13a3689d7e0cbfde22b8b6d209e9e4aef79438c2bfefe0ad290307208",
+  "Bytes": 28819,
+  "Lines": 791,
+  "Verdict": "PASS_AT_DESIGN_SCOPE_WITH_REQUIRED_RECONCILIATION_AND_BINDING_DEPENDENCIES",
+  "FullyInspectedAuthorities": 4,
+  "RegistryCountDrift": {
+    "Memory": {
+      "Registry": 8,
+      "Current": 15
+    },
+    "Momentum": {
+      "Registry": 10,
+      "Current": 14
+    },
+    "Emergence": {
+      "Registry": 9,
+      "Current": 15
+    }
+  },
+  "ClosedDesignBlockers": 8,
+  "OpenBlockers": 12,
+  "RequiredNextArtifact": "Burgundy_Historical_Suite_Registry_Preflight_V1.md",
+  "Mutations": 0
+}

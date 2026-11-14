@@ -1,0 +1,46 @@
+{
+  "document_id": "static-check.scotland.id-migration-registry.v2.current-authority-refinement",
+  "version": "2.0.0",
+  "output_file": "Scotland_ID_Migration_Registry_V2_Current_Authority_Refinement.md",
+  "output_bytes": 57382,
+  "output_physical_lines": 1696,
+  "output_sha256": "6260eb99e1cae2b457e44286212461d19e9ec93c83cc53b03e67e04ea6b3282f",
+  "checks": {
+    "row_corrected": true,
+    "active_row_absent": true,
+    "direct_absent": true,
+    "legacy_read_only": true,
+    "display_contextual": true,
+    "network_current": true,
+    "receipt": true,
+    "no_write": true,
+    "legacy_read": true,
+    "no_replacement": true,
+    "audit": true,
+    "consumers": true,
+    "no_execution": true,
+    "next": true,
+    "balanced": true
+  },
+  "observed": {
+    "supported_opening_people": 7,
+    "current_person_registry_entries_including_quarantined": 8,
+    "Gille_project_node_status": "QuarantinedDeprecatedHistoricalMisidentification",
+    "Gille_active_row_present": false,
+    "Gille_unqualified_direct_alias_present": false,
+    "Gille_legacy_read_allowed": true,
+    "Gille_new_write_allowed": false,
+    "replacement_person_created": false
+  },
+  "regression_guards": [
+    "Fail if Gille canonical-person row is Active.",
+    "Fail if any alias uses an unqualified Direct rule to the deprecated Gille Character ID.",
+    "Fail if legacy-read permission is treated as write permission.",
+    "Fail if historical person or replacement receives transferred runtime state."
+  ],
+  "limitations": [
+    "No Registry mutation, migration, save rewrite, importer execution, Opening State activation, runtime mutation, or Unreal mutation executed."
+  ],
+  "passed": true,
+  "failed_checks": []
+}

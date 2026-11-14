@@ -1,0 +1,14 @@
+{
+  "document": "England_Mounted_Unit_Era_and_Horse_Pool_Progression_Map_V3.md",
+  "sha256": "45bbc31c0465592101f51425861eecc1088a6f7584ee2f442064f6f17b6e23e5",
+  "pass": true,
+  "checks": {
+    "larger_than_v2": true,
+    "core_sections_preserved": true,
+    "profiles_integrated": true,
+    "implementation_update": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer": true
+  }
+}

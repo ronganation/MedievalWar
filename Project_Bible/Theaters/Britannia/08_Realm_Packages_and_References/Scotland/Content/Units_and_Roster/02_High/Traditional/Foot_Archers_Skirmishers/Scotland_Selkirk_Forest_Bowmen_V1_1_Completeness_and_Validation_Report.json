@@ -1,0 +1,29 @@
+{
+  "artifact": "Scotland_Selkirk_Forest_Bowmen_V1_1_Double_Checked_Mature_Faction_Refinement_Full_Master_Unit_Profile.md",
+  "version": "1.1.0",
+  "immediate_substantive_predecessor": "Scotland_Selkirk_Forest_Bowmen_V1_0_High_Era_Full_Master_Unit_Profile.md",
+  "sha256": "848c9c16ea43ace92a58b314fc99bfba15deb527368cb918c2b7a2a3cd76c529",
+  "source_lines": 622,
+  "output_lines": 944,
+  "source_words": 5536,
+  "output_words": 6581,
+  "source_numbered_sections": 45,
+  "output_numbered_sections": 45,
+  "parsed_yaml_blocks": 24,
+  "checks": {
+    "source_read_and_preserved": true,
+    "output_larger_than_source": true,
+    "all_source_section_numbers_present": true,
+    "yaml_valid": true,
+    "balanced_fences": true,
+    "distinct_high_name": true,
+    "separate_card_gate": true,
+    "shooting_front_integrity": true,
+    "recruitment_atomic": true,
+    "capability_recovery": true,
+    "ai_strengthened": true,
+    "opening_quarantine": true
+  },
+  "pass": true,
+  "validation_scope": "Copy-first preservation, structural consistency, mature-unit coverage, source boundaries, and nonactivation. Historical, gameplay, balance, and implementation validation not performed."
+}

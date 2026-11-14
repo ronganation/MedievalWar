@@ -1,0 +1,26 @@
+﻿{
+    "document_id":  "mw.shared-opening-state.sequence-item-4.progress-v4-work-split-v1.manifest",
+    "generated_utc":  "2026-08-26T18:06:20.2308793Z",
+    "status":  "DisposableReconciledCandidateValidatedPromotionAuthorizationPending",
+    "files":  [
+                  {
+                      "File":  "Shared_Opening_State_Sequence_Item_4_Progress_Checkpoint_V4.md",
+                      "Bytes":  6525,
+                      "SHA256":  "723094E7F0B373A9157FD6160DED2CC61D7E5C42E34ACEEFA870B4E4A899F203",
+                      "AuthorityPath":  "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Shared_Runtime\\Opening_State_Importer_and_Owner_Adapters\\Shared_Opening_State_Sequence_Item_4_Progress_Checkpoint_V4.md",
+                      "ProgressPath":  "C:\\temp2\\Shared_Opening_State_Reconciliation_V1\\Progress_Checkpoint_V4\\Shared_Opening_State_Sequence_Item_4_Progress_Checkpoint_V4.md"
+                  },
+                  {
+                      "File":  "Shared_Opening_State_Sequence_Item_4_Work_Split_V1.md",
+                      "Bytes":  4001,
+                      "SHA256":  "9F3F3A4148DA6F45A6C675647AAAC9CDA0EE0662137DBCDF36FA963067D2F5F7",
+                      "AuthorityPath":  "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Shared_Runtime\\Opening_State_Importer_and_Owner_Adapters\\Shared_Opening_State_Sequence_Item_4_Work_Split_V1.md",
+                      "ProgressPath":  "C:\\temp2\\Shared_Opening_State_Reconciliation_V1\\Progress_Checkpoint_V4\\Shared_Opening_State_Sequence_Item_4_Work_Split_V1.md"
+                  }
+              ],
+    "active_source_mutation_performed":  false,
+    "active_source_promotion_authorized":  false,
+    "real_Realm_payload_application_performed":  false,
+    "item_4_complete":  false,
+    "next_gate":  "ExplicitActiveSourcePromotionAuthorization"
+}

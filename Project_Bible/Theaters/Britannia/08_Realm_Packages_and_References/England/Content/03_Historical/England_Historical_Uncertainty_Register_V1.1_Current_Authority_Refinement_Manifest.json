@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.england.historical_uncertainty_register.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "England_Historical_Uncertainty_Register.md",
+    "version": "1.0",
+    "sha256": "2da87a393b4b0679e2804b59a0d990a0c8254b532e0a8220b0226bc4288c3ca9",
+    "bytes": 32000,
+    "copy_based_rebuild": true
+  },
+  "files": [
+    {
+      "filename": "England_Historical_Uncertainty_Register_V1.1_Current_Authority_Refinement.md",
+      "sha256": "b926b7a8c76bb98f62f88a4ffbd4c35e39c69dedefbfc8cbb28712b9f329682a",
+      "bytes": 49276
+    },
+    {
+      "filename": "England_Historical_Uncertainty_Register_V1.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "b6292ad5169ae1a3886264809be3c9a0dd2d08cb3770a3a9e75d9e0d9e70cd14",
+      "bytes": 976
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "Uncertainty_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

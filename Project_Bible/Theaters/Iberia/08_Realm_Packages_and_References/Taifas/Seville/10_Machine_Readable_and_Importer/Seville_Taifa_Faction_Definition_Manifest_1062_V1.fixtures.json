@@ -1,0 +1,222 @@
+{
+  "FixturePackageId": "fixtures.seville_taifa.faction_definition_manifest.1062.v1",
+  "InternalVersion": "1.1.0",
+  "ManifestRef": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.json",
+  "ValidationProfileRef": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.validation.json",
+  "FixtureCount": 29,
+  "Fixtures": [
+    {
+      "FixtureId": "FX00_CANONICAL_ACCEPT",
+      "Description": "Canonical manifest accepted",
+      "MutationTarget": "manifest",
+      "Expected": "ACCEPT"
+    },
+    {
+      "FixtureId": "FX01_PROFILE_MISSING",
+      "Description": "Profile missing",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX02_PROFILE_DUPLICATE",
+      "Description": "Profile duplicate",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX03_PROFILE_TYPE_WRONG",
+      "Description": "Profile type wrong",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX04_PROFILE_ORDER_DUPLICATE",
+      "Description": "Profile stable order duplicated",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX05_RUNTIME_FIELD",
+      "Description": "ActiveArmy injected",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX06_OPENING_SCOPE_LEAK",
+      "Description": "TreasuryBalance injected",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX07_ALIAS_CHAIN",
+      "Description": "Alias chains enabled",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX08_DEPRECATED_IDS",
+      "Description": "Deprecated IDs enabled",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX09_HISTORICAL_CADENCE",
+      "Description": "Historical changed",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX10_BIOLOGICAL_CADENCE",
+      "Description": "Biological changed",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX11_SEASON_ORDER",
+      "Description": "Season order changed",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX12_ASSESSMENT_ADVANCES_TIME",
+      "Description": "Assessment advances time",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX13_OBSERVATION_MUTATION",
+      "Description": "Observation mutation enabled",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX14_OBSERVATION_TIME",
+      "Description": "Observation advances time",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX15_ACTION_MUTATION",
+      "Description": "Action direct mutation enabled",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX16_ACTION_TIME",
+      "Description": "Action advances time",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX17_UNRESOLVED_OBSERVATION",
+      "Description": "Missing observation reference",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX18_EXTERNAL_LOCK_AT_CREATION",
+      "Description": "External lock required",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX19_EXTERNAL_DUPLICATE_ALLOWED",
+      "Description": "Local external duplicates allowed",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX20_RUNTIME_INSTANCE_COUNT",
+      "Description": "Runtime count nonzero",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX21_OPENING_STATE_MUTATION",
+      "Description": "Opening mutation enabled",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX22_SHARED_REF_INVALID",
+      "Description": "Shared reference invalid",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX23_PARTIAL_COMMIT",
+      "Description": "Partial commit enabled",
+      "MutationTarget": "owner_routing",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX24_MUTATION_ON_FAILURE",
+      "Description": "Mutation on failure enabled",
+      "MutationTarget": "owner_routing",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX25_ROUTING_MUTATION",
+      "Description": "Routing mutation enabled",
+      "MutationTarget": "owner_routing",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX26_WESTERN_MERGE",
+      "Description": "Western targets merged",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX27_FORMAL_HEIR",
+      "Description": "FormalHeir injected",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    },
+    {
+      "FixtureId": "FX28_TURN_LENGTH",
+      "Description": "TurnLengthMonths injected",
+      "MutationTarget": "manifest",
+      "Expected": "REJECT"
+    }
+  ],
+  "Coverage": [
+    "canonical acceptance",
+    "exact profile type and owner",
+    "profile presence and order",
+    "runtime leakage",
+    "Opening State scope",
+    "ID policy",
+    "temporal cadence",
+    "observation immutability",
+    "first-turn action immutability",
+    "external isolation",
+    "shared references",
+    "atomic owner routing",
+    "western settlement separation",
+    "superseded turn field"
+  ],
+  "MaintenanceAuthority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8"
+  },
+  "EvidenceBoundary": {
+    "Prior29FixtureResultsRecordedInValidationReport": true,
+    "PriorResultsApplyOnlyToPriorManifestHash": true,
+    "CurrentFixtureRerunExecuted": false,
+    "AuthoritativeMutationAllowed": false
+  },
+  "AcceptanceCriteria": {
+    "FixturesRequired": 29,
+    "AllMustPass": true,
+    "FatalMutationCount": 0,
+    "CanonicalAcceptRequired": true
+  },
+  "OpeningStateCompatibility": {
+    "OpeningAuthorityInternalVersion": "1.3.0",
+    "OpeningPackageContractInternalVersion": "1.2.0",
+    "DefinitionFamilyBindingsReferenced": 11,
+    "OpeningRuntimeMutationAllowed": false
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationDirectMigrationMapProposal",
+    "name": "Trait Reputation Direct Migration Map Proposal V1",
+    "version": "1.0",
+    "status": "All46MappingsProposed_NoneApproved",
+    "authority_class": "Migration Mapping Proposal"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Direct_Migration_Map_Proposal_V1.json"
+  },
+  "mappings": [
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.001",
+      "source_legacy_label": "Brave",
+      "target_proposed_canonical_id": "Trait.Character.CourageDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.002",
+      "source_legacy_label": "Cowardly",
+      "target_proposed_canonical_id": "Trait.Character.CowardiceDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.003",
+      "source_legacy_label": "Honest",
+      "target_proposed_canonical_id": "Trait.Character.HonestyDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.004",
+      "source_legacy_label": "Deceitful",
+      "target_proposed_canonical_id": "Trait.Character.DeceitDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.005",
+      "source_legacy_label": "Just",
+      "target_proposed_canonical_id": "Trait.Character.JusticeDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.006",
+      "source_legacy_label": "Cruel",
+      "target_proposed_canonical_id": "Trait.Character.CrueltyDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.007",
+      "source_legacy_label": "Patient",
+      "target_proposed_canonical_id": "Trait.Character.PatienceDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.008",
+      "source_legacy_label": "Impulsive",
+      "target_proposed_canonical_id": "Trait.Character.ImpulsivenessDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.009",
+      "source_legacy_label": "Merciful",
+      "target_proposed_canonical_id": "Trait.Character.MercyDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.010",
+      "source_legacy_label": "Vengeful",
+      "target_proposed_canonical_id": "Trait.Character.VengeanceDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.011",
+      "source_legacy_label": "Ambitious",
+      "target_proposed_canonical_id": "Trait.Character.AmbitionDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.012",
+      "source_legacy_label": "Content",
+      "target_proposed_canonical_id": "Trait.Character.ContentmentDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.018",
+      "source_legacy_label": "Inspiring Commander",
+      "target_proposed_canonical_id": "Trait.Character.InspirationalDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.019",
+      "source_legacy_label": "Reckless Commander",
+      "target_proposed_canonical_id": "Trait.Character.RecklessnessDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.021",
+      "source_legacy_label": "Builder",
+      "target_proposed_canonical_id": "Trait.Character.ConstructiveDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.022",
+      "source_legacy_label": "Organizer",
+      "target_proposed_canonical_id": "Trait.Character.OrganizationDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.023",
+      "source_legacy_label": "Efficient",
+      "target_proposed_canonical_id": "Trait.Character.EfficiencyHabit",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.025",
+      "source_legacy_label": "Wasteful",
+      "target_proposed_canonical_id": "Trait.Character.WastefulnessDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.026",
+      "source_legacy_label": "Corrupt",
+      "target_proposed_canonical_id": "Trait.Character.CorruptPracticeDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.027",
+      "source_legacy_label": "Neglectful",
+      "target_proposed_canonical_id": "Trait.Character.NeglectDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.028",
+      "source_legacy_label": "Pious",
+      "target_proposed_canonical_id": "Trait.Character.PietyDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.029",
+      "source_legacy_label": "Zealous",
+      "target_proposed_canonical_id": "Trait.Character.ZealDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.032",
+      "source_legacy_label": "Tolerant",
+      "target_proposed_canonical_id": "Trait.Character.ToleranceDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.033",
+      "source_legacy_label": "Cynical",
+      "target_proposed_canonical_id": "Trait.Character.CynicismDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.034",
+      "source_legacy_label": "Fanatic",
+      "target_proposed_canonical_id": "Trait.Character.FanaticalCommitmentDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.038",
+      "source_legacy_label": "Schemer",
+      "target_proposed_canonical_id": "Trait.Character.StrategicDeceptionDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.039",
+      "source_legacy_label": "Manipulator",
+      "target_proposed_canonical_id": "Trait.Character.ManipulationDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.040",
+      "source_legacy_label": "Opportunist",
+      "target_proposed_canonical_id": "Trait.Character.OpportunismDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.042",
+      "source_legacy_label": "Merchant Minded",
+      "target_proposed_canonical_id": "Trait.Character.CommercialDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.044",
+      "source_legacy_label": "Frugal",
+      "target_proposed_canonical_id": "Trait.Character.FrugalityDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.045",
+      "source_legacy_label": "Greedy",
+      "target_proposed_canonical_id": "Trait.Character.GreedDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.047",
+      "source_legacy_label": "Hunter",
+      "target_proposed_canonical_id": "Trait.Character.HuntingDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.048",
+      "source_legacy_label": "Falconer",
+      "target_proposed_canonical_id": "Trait.Character.FalconryDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.049",
+      "source_legacy_label": "Heavy Drinker",
+      "target_proposed_canonical_id": "Trait.Character.HeavyDrinkingHabit",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.050",
+      "source_legacy_label": "Gambler",
+      "target_proposed_canonical_id": "Trait.Character.GamblingDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.051",
+      "source_legacy_label": "Glutton",
+      "target_proposed_canonical_id": "Trait.Character.GluttonyHabit",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.052",
+      "source_legacy_label": "Poet",
+      "target_proposed_canonical_id": "Trait.Character.LiteraryDisposition",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.078",
+      "source_legacy_label": "The Lion",
+      "target_proposed_canonical_id": "Reputation.CharacterAudience.LionlikeValorReception",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.079",
+      "source_legacy_label": "The Conqueror",
+      "target_proposed_canonical_id": "Reputation.CharacterAudience.ConquestReception",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.080",
+      "source_legacy_label": "The Peacemaker",
+      "target_proposed_canonical_id": "Reputation.CharacterAudience.PeacemakingReception",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.081",
+      "source_legacy_label": "The Saintly",
+      "target_proposed_canonical_id": "Reputation.CharacterAudience.SaintlinessReception",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.082",
+      "source_legacy_label": "The Builder",
+      "target_proposed_canonical_id": "Reputation.CharacterAudience.ConstructionAchievementReception",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.083",
+      "source_legacy_label": "The Wise",
+      "target_proposed_canonical_id": "Reputation.CharacterAudience.WisdomReception",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.084",
+      "source_legacy_label": "The Butcher",
+      "target_proposed_canonical_id": "Reputation.CharacterAudience.ViolenceInfamyReception",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.085",
+      "source_legacy_label": "The Cruel",
+      "target_proposed_canonical_id": "Reputation.CharacterAudience.CruelConductReception",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.086",
+      "source_legacy_label": "The Usurper",
+      "target_proposed_canonical_id": "Reputation.CharacterAudience.UsurpationReception",
+      "mapping_type": "DirectTypedOneStep",
+      "status": "ProposedNotApproved",
+      "alias_chain_length": 1,
+      "write_permitted": false
+    }
+  ],
+  "excluded_quirks": [
+    "legacy.character_trait_library.entry.070",
+    "legacy.character_trait_library.entry.066",
+    "legacy.character_trait_library.entry.065",
+    "legacy.character_trait_library.entry.068",
+    "legacy.character_trait_library.entry.067"
+  ],
+  "count_contract": {
+    "direct_mappings": 46,
+    "excluded_unmapped_quirks": 5,
+    "alias_chains": 0,
+    "approved_mappings": 0,
+    "reconciliation": "Pass"
+  },
+  "migration_rules": {
+    "direct_typed_one_step_only": true,
+    "alias_chains_prohibited": true,
+    "source_provenance_retained": true,
+    "unknown_ids_quarantined": true,
+    "source_save_unchanged": true,
+    "advanced_state_preserved": true,
+    "opening_state_reapplication_prohibited": true,
+    "idempotence_required": true
+  },
+  "run": {
+    "mode": "DirectMigrationMapProposal",
+    "verdict": "PassProposal_AllMappingsPending",
+    "migration_writes": 0,
+    "registry_mutations": 0,
+    "save_mutations": 0
+  },
+  "smallest_useful_next_action": "Review the 46 proposed IDs individually. Record approve, replacement, merge, rejection, or more-evidence decisions. Do not write approved records into either registry until the decision pass and direct migration-map preflight both pass."
+}

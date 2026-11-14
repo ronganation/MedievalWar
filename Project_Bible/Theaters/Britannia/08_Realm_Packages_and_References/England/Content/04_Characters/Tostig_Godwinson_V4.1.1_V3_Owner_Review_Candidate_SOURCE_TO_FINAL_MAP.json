@@ -1,0 +1,954 @@
+{
+  "filename": "Tostig_Godwinson_V4.1.1_V3_Owner_Review_Candidate_SOURCE_TO_FINAL_MAP.json",
+  "source_file": "Tostig_Godwinson_V4.1_Current_Authority_Reconciliation.md",
+  "source_sha256": "e70bd351e8257fc5ee0fbddaf93db960b02905eb3b31afc5d70cc7d7229414b5",
+  "revised_file": "Tostig_Godwinson_V4.1.1_V3_Owner_Review_Candidate.md",
+  "preservation_status": "BestEffortSemanticPreservationWithExactHeadingRetention",
+  "literal_text_preservation_claimed": false,
+  "zero_removal_mechanically_proven": false,
+  "source_heading_count": 118,
+  "final_heading_count": 134,
+  "all_source_headings_preserved": true,
+  "entries": [
+    {
+      "source_heading": "# Tostig Godwinson",
+      "disposition": "PreserveAndEnrich",
+      "destination": "# Tostig Godwinson",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Document Status",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Document Status",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Version 4.1 Current Authority Reconciliation",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Version 4.1 Current Authority Reconciliation",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Reconciliation Rules Applied",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Reconciliation Rules Applied",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Basic Information",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Basic Information",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Historical Uncertainty",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Historical Uncertainty",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Character Classification",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Character Classification",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Character Archetypes",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Character Archetypes",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Character Role",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Character Role",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Current Historical Position",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Current Historical Position",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Historical Background",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Historical Background",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Realm Function",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Realm Function",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Core Traits",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Core Traits",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Character Attributes",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Character Attributes",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Attribute Interpretation",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Attribute Interpretation",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Martial",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Martial",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Administration",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Administration",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Diplomacy",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Diplomacy",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Intrigue",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Intrigue",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Learning",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Learning",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Logistics",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Logistics",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Authority",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Authority",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Legitimacy",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Legitimacy",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Strategic Initiative",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Strategic Initiative",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Court Influence",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Court Influence",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Dynastic Reach",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Dynastic Reach",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Regional Authority",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Regional Authority",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Local Acceptance",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Local Acceptance",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Personality and Decision Profile",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Personality and Decision Profile",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Family Relationships",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Family Relationships",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Relationship With Edward the Confessor",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Relationship With Edward the Confessor",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Relationship With Harold Godwinson",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Relationship With Harold Godwinson",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Relationship With Judith of Flanders",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Relationship With Judith of Flanders",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Relationship With Gyrth and Leofwine",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Relationship With Gyrth and Leofwine",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Relationship With Edwin",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Relationship With Edwin",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Relationship With Morcar",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Relationship With Morcar",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Relationship With Ealdred of York",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Relationship With Ealdred of York",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Relationship With Malcolm III of Scotland",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Relationship With Malcolm III of Scotland",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Northumbrian Governance System",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Northumbrian Governance System",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Local Elite Compact System",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Local Elite Compact System",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Enforcement and Severity System",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Enforcement and Severity System",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Rome Mission System",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Rome Mission System",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Frontier and Scottish System",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Frontier and Scottish System",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Uprising System",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Uprising System",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Exile and Restoration System",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Exile and Restoration System",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Character Development Paths",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Character Development Paths",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Northern Reconciler Path",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Northern Reconciler Path",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Frontier Guardian Path",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Frontier Guardian Path",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Royal Enforcer Path",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Royal Enforcer Path",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Papal Diplomat Path",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Papal Diplomat Path",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Reformed Earl Path",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Reformed Earl Path",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Restored Earl Path",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Restored Earl Path",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Foreign Coalition Leader Path",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Foreign Coalition Leader Path",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Failure Path: Hated Earl",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Failure Path: Hated Earl",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Failure Path: Vengeful Exile",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Failure Path: Vengeful Exile",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Succession Role",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Succession Role",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## AI Behavior",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## AI Behavior",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## AI Utility Models",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## AI Utility Models",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Event Chains",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Event Chains",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Rome and the North",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Rome and the North",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### The Heavy Yoke",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### The Heavy Yoke",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### The Northumbrian Rising",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### The Northumbrian Rising",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### The Exile Seeks a Patron",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### The Exile Seeks a Patron",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Historical Momentum Participation",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Historical Momentum Participation",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Narrative Arc Participation",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Narrative Arc Participation",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Death and Divergence",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Death and Divergence",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Unreal Engine 5 Implementation",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Unreal Engine 5 Implementation",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Recommended Character Data Row",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Recommended Character Data Row",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Attribute Row",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Attribute Row",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Required Gameplay Tags",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Required Gameplay Tags",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Starting Simulation Variables",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Starting Simulation Variables",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Character-Specific Components",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Character-Specific Components",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Runtime Validation Rules",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Runtime Validation Rules",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Event IDs",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Event IDs",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Save and Simulation Dependencies",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Save and Simulation Dependencies",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Designer Checklist Validation",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Designer Checklist Validation",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Phase 1: Historical Identity",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Phase 1: Historical Identity",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Phase 2: Era and Start Date",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Phase 2: Era and Start Date",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Phase 3: Dynasty and Family",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Phase 3: Dynasty and Family",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Phase 4: Political Role",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Phase 4: Political Role",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Phase 5: Military and Frontier Role",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Phase 5: Military and Frontier Role",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Phase 6: Governance",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Phase 6: Governance",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Phase 7: Religion and Diplomacy",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Phase 7: Religion and Diplomacy",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Phase 8: AI Behavior",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Phase 8: AI Behavior",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Phase 9: Succession and Divergence",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Phase 9: Succession and Divergence",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Phase 10: Unreal Engine 5 Readiness",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Phase 10: Unreal Engine 5 Readiness",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Contradictions Corrected",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Contradictions Corrected",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "## Final Design Summary",
+      "disposition": "PreserveAndEnrich",
+      "destination": "## Final Design Summary",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### V4 Character Authority Integration",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### V4 Character Authority Integration",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Northumbrian Political Geography",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Northumbrian Political Geography",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Office Versus Acceptance Matrix",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Office Versus Acceptance Matrix",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Household and Officer Discipline",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Household and Officer Discipline",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Petition and Grievance Evidence",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Petition and Grievance Evidence",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Local Compact Architecture",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Local Compact Architecture",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Enforcement Proportionality",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Enforcement Proportionality",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Presence, Absence, and Rome",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Presence, Absence, and Rome",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Edward Patronage Relationship",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Edward Patronage Relationship",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Harold Mediation Relationship",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Harold Mediation Relationship",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Judith and Flemish Access",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Judith and Flemish Access",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Scottish Frontier Doctrine",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Scottish Frontier Doctrine",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Uprising Escalation Model",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Uprising Escalation Model",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Removal, Exile, and Restoration Ladder",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Removal, Exile, and Restoration Ladder",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Foreign Patron Contract",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Foreign Patron Contract",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Succession Alignment",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Succession Alignment",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Character AI Reasoning V4",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Character AI Reasoning V4",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "#### Governance Utility",
+      "disposition": "PreserveAndEnrich",
+      "destination": "#### Governance Utility",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "#### Reconciliation Utility",
+      "disposition": "PreserveAndEnrich",
+      "destination": "#### Reconciliation Utility",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "#### Enforcement Utility",
+      "disposition": "PreserveAndEnrich",
+      "destination": "#### Enforcement Utility",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "#### Exile Alliance Utility",
+      "disposition": "PreserveAndEnrich",
+      "destination": "#### Exile Alliance Utility",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "#### Reform Utility",
+      "disposition": "PreserveAndEnrich",
+      "destination": "#### Reform Utility",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Knowledge Boundary",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Knowledge Boundary",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Expanded Event Chains V4",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Expanded Event Chains V4",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "#### The Earl Hears the Petition",
+      "disposition": "PreserveAndEnrich",
+      "destination": "#### The Earl Hears the Petition",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "#### Authority With Conditions",
+      "disposition": "PreserveAndEnrich",
+      "destination": "#### Authority With Conditions",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "#### Brother or Mediator",
+      "disposition": "PreserveAndEnrich",
+      "destination": "#### Brother or Mediator",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "#### The Exile Prices Every Patron",
+      "disposition": "PreserveAndEnrich",
+      "destination": "#### The Exile Prices Every Patron",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Modern UE5 Ownership Addendum",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Modern UE5 Ownership Addendum",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "### Version 4.1 Literal Completeness and Validation Scan",
+      "disposition": "PreserveAndEnrich",
+      "destination": "### Version 4.1 Literal Completeness and Validation Scan",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "### Version 4.1.1 V3 Conformance and Owner-Review Boundary",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "### Controlling Opening and Temporal Boundary",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V3 Core Separations",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V3 Administrator, Officeholder, and Delegate Module",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V3 Commander and Frontier-Executor Module",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V3 Regional Acceptance and Compact Module",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V3 Exile, Patronage, and Cross-Realm Module",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V3 Directed Relationship Boundary",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V3 Evidence, Memory, Trait, and Reputation Boundary",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V3 Opening and Runtime Boundary",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V3 File, Theater, Save, and Migration Boundary",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V4.1.1 Formula Repair Record",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V4.1.1 Source-Preservation Reconciliation",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V4.1.1 Owner-Review Checklist",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V4.1.1 Implementation Evidence Boundary",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    },
+    {
+      "source_heading": "Character_Profile_Authoring_Standard_V3.md",
+      "disposition": "AdditiveV3Conformance",
+      "destination": "#### V4.1.1 Revision Status Footer",
+      "present_in_final": true,
+      "substantive_content_removed": []
+    }
+  ],
+  "result": "Passed",
+  "revised_sha256": "d8bd0506e93b2d4b08ccaef5822a4872486b33bdcb957bde549fbf5343baf55d"
+}

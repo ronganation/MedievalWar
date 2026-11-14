@@ -1,0 +1,394 @@
+{
+  "DocumentControl": {
+    "DocumentId": "PackageFinalStaticCheck.Realm.Aquitaine.V1",
+    "StableDocumentId": "PackageFinalStaticCheck.Realm.Aquitaine",
+    "StaticCheckId": "static-check.package-final.realm.aquitaine.v1",
+    "Filename": "Aquitaine_Package_Final_Static_Check_V1.json",
+    "Version": "1.0.0",
+    "RevisionDate": "2026-09-05",
+    "RealmLabel": "Duchy of Aquitaine",
+    "RealmIdCandidate": "realm.aquitaine.duchy",
+    "ScenarioId": "mw.scenario.grand_campaign.1062",
+    "ScenarioOpening": "1062-01-01",
+    "OpeningCampaignSeason": "Winter",
+    "OwningTheater": "West Francia",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "Status": "PassCurrentPackageReviewClosure"
+  },
+  "CheckedManifest": {
+    "Filename": "Aquitaine_Package_Final_Manifest_V1.json",
+    "RecordedByteCount": 18997,
+    "RecordedLineCount": 451,
+    "RecordedSHA256": "8d2fe5f171d951587d51a2498aa25ece610004fc664ec3c6e276e9e54c9174b5",
+    "JSONParseStatus": "PassAtManifestCreation",
+    "FullOneDriveRecursiveRevalidationDuringThisCheck": false
+  },
+  "Scope": {
+    "CheckType": "RoutedPortfolioSemanticAndClosureValidation",
+    "PhysicalDirectoryDumpValidation": false,
+    "Claim": "The current routed Aquitaine package portfolio is internally coherent and may close at ReviewOnly documentation scope.",
+    "NotClaimed": [
+      "Fresh recursive physical inventory of every OneDrive object",
+      "Physical hash verification of every routed source authority",
+      "Project-wide Registry adoption",
+      "External-owner approval",
+      "Opening State activation",
+      "Production visual approval",
+      "Unreal import or runtime validation"
+    ]
+  },
+  "Checks": [
+    {
+      "CheckId": "AQ-FINAL-001",
+      "Subject": "ManifestFilenameCorrect",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-002",
+      "Subject": "ManifestReceiptRecorded",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-003",
+      "Subject": "ManifestJSONParseRecordedPass",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-004",
+      "Subject": "CurrentAuthorityIndexRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-005",
+      "Subject": "ActualAquitaineRootUsed",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-006",
+      "Subject": "SixDevelopedCharacterProfilesRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-007",
+      "Subject": "TenSpecialistAuthoritiesRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-008",
+      "Subject": "HistoricalReconciliationRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-009",
+      "Subject": "HistoricalEvidenceAndChronologyRegisterRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-010",
+      "Subject": "HistoricalUncertaintyRegisterRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-011",
+      "Subject": "HistoricalMemoryRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-012",
+      "Subject": "HistoricalMomentumRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-013",
+      "Subject": "HistoricalEmergenceRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-014",
+      "Subject": "EcclesiasticalAuthorityRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-015",
+      "Subject": "RegistryCandidateAdjudicationRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-016",
+      "Subject": "OpeningStateAndOpportunityRemainDistinct",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-017",
+      "Subject": "ThirtyFileCandidateScaffoldRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-018",
+      "Subject": "CandidateBundleValidationReportRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-019",
+      "Subject": "CandidateBundleStaticCheckRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-020",
+      "Subject": "VisualCulminationAuthorityRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-021",
+      "Subject": "DesignerInputPacketRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-022",
+      "Subject": "InternalAuthorityOneSheetRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-023",
+      "Subject": "PlayerFacingFactionSheetRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-024",
+      "Subject": "VisualAssetManifestRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-025",
+      "Subject": "VisualStaticCheckRouted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-026",
+      "Subject": "VisualWorkstreamReviewOnly",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-027",
+      "Subject": "OldAndLegacyMaterialExcluded",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-028",
+      "Subject": "HistoricalTrack21Months",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-029",
+      "Subject": "BiologicalTrack7Months",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-030",
+      "Subject": "CampaignSeasonOneOrderedStep",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-031",
+      "Subject": "CampaignSeasonOrderCorrect",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-032",
+      "Subject": "CasusBelliGateFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-033",
+      "Subject": "ClaimGateFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-034",
+      "Subject": "PapalPermissionGateFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-035",
+      "Subject": "PapalStandingSeparateFromDiplomaticReliability",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-036",
+      "Subject": "WilliamIXOpeningAliveFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-037",
+      "Subject": "MatoedaAutomaticRegencyFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-038",
+      "Subject": "AgnesAdultAgencyFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-039",
+      "Subject": "BernardIIOpeningRebellionFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-040",
+      "Subject": "ForcedMay1063GasconRisingFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-041",
+      "Subject": "BarbastroOpeningCommitmentFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-042",
+      "Subject": "OpeningStateApplicationCountZero",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-043",
+      "Subject": "CandidateEvidencePortfolios18",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-044",
+      "Subject": "CandidateUncertaintyRecords30",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-045",
+      "Subject": "OpeningScenarioSelectionsZero",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-046",
+      "Subject": "PrimarySourcePopulationGapExplicit",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-047",
+      "Subject": "FullRecursivePhysicalInventoryNotClaimed",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-048",
+      "Subject": "EveryRoutedFileRehashNotClaimed",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-049",
+      "Subject": "ProjectRegistryPromotionFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-050",
+      "Subject": "AliasExecutionFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-051",
+      "Subject": "OpeningStateActivationFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-052",
+      "Subject": "MigrationExecutionFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-053",
+      "Subject": "ProductionVisualApprovalFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-054",
+      "Subject": "UnrealImportFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-055",
+      "Subject": "RuntimeActivationFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-056",
+      "Subject": "RealPayloadImportFalse",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "AQ-FINAL-057",
+      "Subject": "CurrentAquitainePackagePassClosableAtReviewScope",
+      "Result": "Pass"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 57,
+    "Passes": 57,
+    "Failures": 0,
+    "Result": "Pass",
+    "CurrentAquitainePackagePassClosed": true,
+    "PackageFreezeAuthorized": false,
+    "ProductionPromotionApproved": false,
+    "UnrealExecutionAuthorized": false
+  },
+  "FinalDisposition": {
+    "CoreModernization": "CompleteAtCurrentReviewScope",
+    "CharacterPortfolio": "CompleteCurrentSixProfilePortfolio",
+    "SpecialistMarkdownSuite": "CompleteAtFirstPass",
+    "HistoricalSuite": "CompleteAtDocumentationScopeWithExplicitEvidenceAndResolutionGaps",
+    "RegistryCandidateAdjudication": "CompleteWithinAquitainePackagePendingProjectOwner",
+    "MachineReadableCandidateBundle": "CompleteCandidateOnly30FileScaffold",
+    "VisualWorkstream": "ClosedReviewOnly",
+    "CurrentPackagePass": "ClosedAtReviewOnlyDocumentationScope",
+    "FutureWorkstream": "DedicatedAuthorizedUnrealAndOwnerAdjudicationWork"
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "OpeningCampaignSeason": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ]
+  },
+  "MutationReceipt": {
+    "SourceFilesModified": 0,
+    "SourceFilesOverwritten": 0,
+    "FilesMovedOrDeleted": 0,
+    "RegistryMutations": 0,
+    "CanonicalPromotions": 0,
+    "AliasExecutions": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "HistoricalUncertaintySelectionsApplied": 0,
+    "CharacterActivations": 0,
+    "RelationshipActivations": 0,
+    "MemoryActivations": 0,
+    "MomentumActivations": 0,
+    "EmergenceActivations": 0,
+    "OpportunityInstancesCreated": 0,
+    "WarActivations": 0,
+    "PapalActions": 0,
+    "MigrationExecutions": 0,
+    "ProductionVisualApprovals": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "RemainingDeferredWork": [
+    "Fresh recursive physical package inventory and per-file hash verification",
+    "Project-wide Registry collision review and canonical promotion",
+    "External-owner receipts",
+    "Exact Opening State specialist bindings",
+    "Population of claim-level primary historical source records",
+    "Owner-applied uncertainty selections when exact values become necessary",
+    "Production visual, localization, and accessibility approval",
+    "Project-native schema, importer, compile, editor, runtime, persistence, migration, replay, performance, battle, and balance validation"
+  ]
+}

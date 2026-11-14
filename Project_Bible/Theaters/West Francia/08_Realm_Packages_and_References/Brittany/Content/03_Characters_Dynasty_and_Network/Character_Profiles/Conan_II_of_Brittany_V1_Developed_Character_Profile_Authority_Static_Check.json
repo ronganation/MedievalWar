@@ -1,0 +1,22 @@
+{
+  "StaticCheckId": "StaticCheck.ConanII.Brittany.V1",
+  "Document": "Conan_II_of_Brittany_V1_Developed_Character_Profile_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "required_numbered_sections_present": true,
+    "three_tracks_present": true,
+    "current_Brittany_chain_present": true,
+    "West_Francia_benchmarks_present": true,
+    "Normandy_Britannia_Norse_benchmarks_present": true,
+    "no_numeric_attribute_sheet": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "Lines": 471,
+  "Bytes": 24690,
+  "SHA256": "467C2A33DE607AA1DE7715F9A9D1E314EC6CFEAA31C10BE71EA12ACDDF74285A",
+  "ValidationScope": "Static design-authority checks only. No Registry, Opening State, relationship, title, office, household, command, Unreal, runtime, save, migration, replay, performance, battle, or real-payload validation."
+}

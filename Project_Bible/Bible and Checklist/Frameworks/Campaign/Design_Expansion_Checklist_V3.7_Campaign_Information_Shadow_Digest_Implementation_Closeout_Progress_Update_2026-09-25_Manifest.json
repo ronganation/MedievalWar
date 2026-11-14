@@ -1,0 +1,29 @@
+{
+  "document_id": "mw.design-expansion-checklist.3.7.campaign-information-shadow-digest-closeout.2026-09-25",
+  "stable_document_id": "ChecklistUpdate.Campaign.InformationShadowDigest.ImplementationCloseout",
+  "status": "ReadyForPlacement",
+  "date": "2026-09-25",
+  "placement": "Project_Bible/Bible and Checklist/Post_08_26 Design_Checklist_Updates",
+  "files": [
+    {
+      "filename": "Design_Expansion_Checklist_V3.7_Campaign_Information_Shadow_Digest_Implementation_Closeout_Progress_Update_2026-09-25.md",
+      "sha256": "943FB5484778D1F05B12884BFE596219EF3D09C8B77BB4120895B9A2EB93E636",
+      "bytes": 18541,
+      "lines": 444
+    }
+  ],
+  "controlling_evidence": {
+    "Campaign_synthetic_playback": "7 passed",
+    "Campaign_shadow_digest": "7 passed",
+    "Scotland_compatibility": "12 substantive passed, 1 module-access blocker",
+    "Scotland_regressions": "24 passed",
+    "France_private_compatibility": "20 passed",
+    "France_projection_regressions": "20 passed",
+    "France_preflight_regressions": "8 passed",
+    "build_target": "MedievalWarEditor Win64 Development",
+    "engine": "Unreal Engine 5.8"
+  },
+  "final_decision": "CampaignInformationPrivateCompatibilitySequenceClosed_HoldAtAcceptedCampaignInformationCompatibilityCloseout",
+  "stable_checklist_modified": false,
+  "production_authority": false
+}

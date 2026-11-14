@@ -1,0 +1,33 @@
+{
+  "manifest_version": "1.0",
+  "method": "ReadOnlyIrelandSpecialistSourceAndOpeningBindingInventory",
+  "authority_file": "Ireland_Specialist_Source_and_Opening_Binding_Inventory_V1.md",
+  "authority_bytes": 42409,
+  "authority_lines": 1332,
+  "authority_sections": 15,
+  "candidate_count": 65,
+  "disposition_counts": {
+    "ExternalOwnerDecisionRequired": 2,
+    "HistoricalReferenceOnly": 2,
+    "IntentionalEmpty": 10,
+    "LaterHistoryExcluded": 1,
+    "OwnerDecisionRequired": 4,
+    "QualitativeOnly": 3,
+    "QuarantinedAmbiguous": 1,
+    "RegistryReviewRequired": 1,
+    "Rejected": 3,
+    "SupportedDefinition": 10,
+    "SupportedOpeningBinding": 28
+  },
+  "authority_sha256": "a64ef0caebb81232e944d23e48cd268d9820f2fe14d42d43f643f4b23dc5213f",
+  "source_files_modified": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "migration_executions": 0,
+  "Unreal_mutations": 0,
+  "runtime_mutations": 0,
+  "static_check_file": "Ireland_Specialist_Source_and_Opening_Binding_Inventory_V1_Static_Check.json",
+  "static_check_sha256": "3355b2fe0e0377ab0cc0175ca73ac1d3c4771a7d0d467ea3fb33dfc804cbfe09",
+  "all_checks_passed": true,
+  "validation_scope": "read-only static specialist source and opening-binding inventory; no full repository scan, Registry mutation, owner decision fabrication, Opening State modification or activation, migration execution, importer, Unreal, runtime, save/load, replay, performance, battle, or payload validation"
+}

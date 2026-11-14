@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_file": "Murchad_mac_Diarmata_Refined.md",
+  "source_reference": "turn11search85",
+  "source_bytes": 32400,
+  "source_sha256": "3dd423fdea9625a37179f46a18c9a087ef6b5686732eff1ef79b388f61ccddf0",
+  "source_heading_count": 83,
+  "authority_file": "Murchad_mac_Diarmata_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 53786,
+  "authority_sha256": "92e546e92f8351328878f6dddcd79e6afdd8c4de3b0c8ec220e125bb3d98e760",
+  "additive_bytes": 21386,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "static_check_file": "Murchad_mac_Diarmata_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "eaacaff5f19cc37ded0d835369224a0a0b9645f24c904d8611598e9b26a842dd",
+  "validation_scope": "content static checks only; no compile runtime migration opening-state or payload validation"
+}

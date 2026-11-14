@@ -1,0 +1,77 @@
+{
+  "manifest_id": "mw.manifest.military_and_battles_root_navigation.v2",
+  "document": "README_Military_and_Battles_Current_Authority_and_Folder_Map_V1.md",
+  "document_id": "mw.readme.military_and_battles.current_authority_and_folder_map.v1",
+  "authority_id": "navigation.military_and_battles.current_authority_and_folder_map.v1",
+  "version": "2.0.0",
+  "status": "CurrentRootNavigationCandidate",
+  "revision_date": "2026-10-21",
+  "byte_count": 25686,
+  "line_count": 318,
+  "sha256": "71ccaa82d355959a7678b5daa7b8a2a8b86d178c806d73ea8750511740aeefcb",
+  "source": {
+    "former_filename": "README_Military_Content.md",
+    "former_version": "1.1.0",
+    "former_byte_count": 28457,
+    "former_line_count": 653,
+    "former_sha256": "82f84d2f63d7f5c96a14d77f61854922334969b2b59fb7ee30a1142c2191ce31",
+    "rename_relationship": "NoOverwriteRenameToCanonicalFilename",
+    "copy_first_preservation": "Complete source read; enduring design and workflow guidance retained; obsolete current routing removed or historicized.",
+    "rollback_command": "Rename-Item -LiteralPath 'README_Military_and_Battles_Current_Authority_and_Folder_Map_V1.md' -NewName 'README_Military_Content.md'"
+  },
+  "removed_or_historicized_obsolete_routing_categories": [
+    "Former distributed Military_Content folder structure",
+    "Former Authorities and Standards subfolders",
+    "Former implementation schema, review, and validation paths",
+    "Military Content V1 and V1.0.1 as current parent",
+    "Naming and Path Standard as the next unfinished gate",
+    "England reconciliation pilot as the next universal gate",
+    "Normandy Early Era README as the next universal gate",
+    "Allied Contingent V1 as the current specialist interface"
+  ],
+  "current_folder_architecture": {
+    "Framework_Authorities": {
+      "file_count": 31,
+      "local_navigation": "Framework_Authorities/README_Military_Framework_Authorities_Current_Folder_Map_V1.md",
+      "owns": "Shared military meaning, constitutions, specialist frameworks, campaign operation, recruitment and force-generation ownership."
+    },
+    "Standards_Production": {
+      "file_count": 14,
+      "local_navigation": "Standards_Production/README_Military_Content_Standards_and_Production.md",
+      "owns": "Authoring, maturity, naming, semantics, formations, rosters, Unit Definition Candidates, Game-Facing Unit Cards, and production handoff standards."
+    },
+    "Implementation_Integration": {
+      "file_count": 7,
+      "local_navigation": null,
+      "owns": "Strategic decision inputs, typed integration contracts, candidate schemas, validation rules, and gated implementation handoffs."
+    },
+    "Reviews": {
+      "file_count": 27,
+      "local_navigation": null,
+      "owns": "Audits, inventories, currentness checks, benchmarks, receipts, validation reruns, and closure evidence."
+    }
+  },
+  "root_currentness": {
+    "root_file_count": 4,
+    "currentness_closure": "BoundedStaticRoutingLevel",
+    "next_gate": "OwnerSelectedMilitaryAndBattlesWorkstreamEntry",
+    "unreal_engine_5_8_is_target_only": true,
+    "framework_authorities_local_map_parent_status_and_next_gate_are_creation_time_snapshots": true
+  },
+  "effect_permissions": {
+    "owner_adoption_authorized": false,
+    "authority_promotion_authorized": false,
+    "promotion_authorized": false,
+    "Registry_mutation_authorized": false,
+    "Opening_State_mutation_authorized": false,
+    "schema_activation_authorized": false,
+    "schema_mutation_authorized": false,
+    "save_format_mutation_authorized": false,
+    "importer_execution_authorized": false,
+    "payload_mutation_authorized": false,
+    "runtime_mutation_authorized": false,
+    "Unreal_activity_authorized": false,
+    "compile_validated": false,
+    "runtime_validated": false
+  }
+}

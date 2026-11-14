@@ -1,0 +1,11 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N16_roster_unit",
+  "mutated_candidate": {
+    "opening_unit": "unit.fake",
+    "unit_family": "unit.family.fake"
+  },
+  "result": "PASS",
+  "rule": "DefinitionDoesNotCreateInstance"
+}

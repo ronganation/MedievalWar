@@ -1,0 +1,6 @@
+﻿"GapId","Classification","UnrealSourceHitCount","ProjectBibleHitCount","MutationRequiredForAudit","RecommendedDisposition","PresentationExposureAuthorized"
+"unknown_records","SOURCE_MATCHES_REQUIRE_SEMANTIC_REVIEW","338","16625","False","Do not infer a count; identify explicit per-record disposition contract before exposure","False"
+"intentional_empty_records","SOURCE_MATCHES_REQUIRE_SEMANTIC_REVIEW","8","1207","False","Do not derive from zero payload counts; require explicit marker in verified source contract","False"
+"external_locks","SOURCE_MATCHES_REQUIRE_SEMANTIC_REVIEW","52","3251","False","Authority review only until a current candidate-bound read-only API is verified","False"
+"asset_map_bindings","SOURCE_MATCHES_REQUIRE_SEMANTIC_REVIEW","5","62","False","Requires active Unreal asset/map scan or verified binding report; do not infer from authority prose","False"
+"active_unit_inventory","SOURCE_MATCHES_REQUIRE_SEMANTIC_REVIEW","4","1","False","Inventory status must control; AuthorityMappedPendingActiveUnrealAssetScan is not active asset validation","False"

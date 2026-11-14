@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Economy_Property_Treasury_Production_and_Trade_Authority_V1.md",
+  "bytes": 40485,
+  "lines": 904,
+  "sections": 43,
+  "validation_cases": 44,
+  "checks": {
+    "depth": true,
+    "sections": true,
+    "validations": true,
+    "gap": true,
+    "integration": true,
+    "regions": true,
+    "implementation": true,
+    "unknown": true,
+    "three": true,
+    "honest": true,
+    "no_mut": true,
+    "format": true,
+    "all_pass": true
+  }
+}

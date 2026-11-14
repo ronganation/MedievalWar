@@ -1,0 +1,64 @@
+{
+  "ArtifactId": "Seville_Taifa_Domestic_Order_Legitimacy_Grievance_and_Restoration_Authority_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_DEVELOPED_REALM_DOMESTIC_ORDER_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "c39f5bac0a1c44513eb5a148e6f0c6ca35d0b7ae73a374e76b89d8b36244e908",
+  "SourceBytes": 34080,
+  "Counts": {
+    "DomesticOrderFrameworks": 1,
+    "LegitimacyFrameworks": 1,
+    "GrievanceFrameworks": 1,
+    "RestorationFrameworks": 1,
+    "SettlementDomesticSurfaces": 7,
+    "LegitimacyChannels": 12,
+    "GrievanceFamilies": 14,
+    "OrderStateDimensions": 12,
+    "OpeningActiveAttitudeRecords": 0,
+    "OpeningActiveGrievanceRecords": 0,
+    "OpeningActiveFactions": 0,
+    "OpeningActiveUnrestEvents": 0,
+    "OpeningActiveRebellions": 0,
+    "OpeningActiveRestorationProjects": 0,
+    "OpeningMutations": 0
+  },
+  "Protections": {
+    "AuthorityEqualsLegitimacy": false,
+    "RecognitionEqualsCompliance": false,
+    "GrievanceEqualsUnrest": false,
+    "UnrestEqualsRebellion": false,
+    "CoercionEqualsDurableOrder": false,
+    "RestorationEqualsReversion": false,
+    "UniversalAttitudesAssigned": false,
+    "AIProposalOnly": true
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryMutated": false,
+    "OpeningStateMutated": false,
+    "AttitudesActivated": false,
+    "FactionsActivated": false,
+    "UnrestActivated": false,
+    "RebellionsActivated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Campaign_Objectives_Opening_Pressures_and_Player_Progression_Authority_V1.md."
+}

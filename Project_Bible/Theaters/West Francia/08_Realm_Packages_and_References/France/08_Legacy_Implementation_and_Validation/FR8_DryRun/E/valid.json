@@ -1,0 +1,40 @@
+{
+  "Results": [
+    {
+      "Fixture": "valid_candidate_document.yaml",
+      "ExpectedResult": "Pass",
+      "ReasonCodes": [],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "valid_character_candidates.yaml",
+      "ExpectedResult": "Pass",
+      "ReasonCodes": [],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "valid_external_owner_reference.yaml",
+      "ExpectedResult": "Pass",
+      "ReasonCodes": [],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "valid_direct_aliases.yaml",
+      "ExpectedResult": "Pass",
+      "ReasonCodes": [],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "valid_three_track_time.yaml",
+      "ExpectedResult": "Pass",
+      "ReasonCodes": [],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "valid_intentional_empty_opening_bundle.yaml",
+      "ExpectedResult": "Pass",
+      "ReasonCodes": [],
+      "MutationPerformed": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Gate,RequiredResult,FailureDisposition
+Entrance,Three prior France lanes accepted,BlockedBeforeMutation
+AuthorityFingerprint,Three current authorities readable controlled and hash locked,BlockedBeforeMutation
+OwnershipMap,Every projected field assigned an owner or explicit hold,BlockedBeforeMutation
+ComparatorDiscovery,At least one verified nonzero developed-Realm comparator surface,BlockedBeforeMutation
+Collision,All six targets absent,BlockedBeforeMutation
+Build,MedievalWarEditor Win64 Development succeeded,RollbackSixAddedFiles
+FranceAutomation,34 of 34 succeeded with zero warnings,RollbackSixAddedFiles
+ComparatorRegression,Every verified comparator count preserved,RollbackSixAddedFiles
+FranceRegression,HistoricalEmergence 28 TransactionRecovery 24 CampaignInitialization 24,RollbackSixAddedFiles
+TheaterRegression,Definition 4 of 4,RollbackSixAddedFiles
+RollbackVerification,All six new targets absent,RejectedWithRollbackCompleted

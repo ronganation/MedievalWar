@@ -1,0 +1,70 @@
+{
+  "ArtifactId": "Seville_Taifa_Character_Network_Household_and_Relationship_Authority_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_DEVELOPED_REALM_CHARACTER_NETWORK_HOUSEHOLD_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "77fc913604bd71600d7f3fe8c13c8c3839a1b193cfa471e78672803543be5868",
+  "SourceBytes": 33140,
+  "CreationMethod": "NewAuthorityRequiredByConfirmedNetworkHouseholdRelationshipCoverageGap",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8"
+  },
+  "Counts": {
+    "CharacterNetworkProfiles": 1,
+    "HouseholdFrameworks": 1,
+    "RelationshipFrameworks": 1,
+    "RelationshipTypeDefinitions": 18,
+    "HouseholdTypeDefinitions": 9,
+    "OpeningActivePersons": 2,
+    "OpeningAcceptedKinshipEdges": 2,
+    "OpeningNonKinshipEdges": 0,
+    "OpeningHouseholdRecords": 0,
+    "OpeningSpouseEdges": 0,
+    "OpeningAdditionalChildEdges": 0,
+    "OpeningPatronageEdges": 0,
+    "OpeningSupportOrRivalryEdges": 0,
+    "OpeningFactionsOrCoalitions": 0,
+    "OpeningNetworkMutations": 0
+  },
+  "Protections": {
+    "KinshipCreatesLoyalty": false,
+    "DynastyEqualsHousehold": false,
+    "HouseholdEqualsResidence": false,
+    "PatronageCreatesLoyalty": false,
+    "RumorCreatesRelationship": false,
+    "PrivateEmotionInferenceAllowed": false,
+    "AlMutamidFormalHeir": false,
+    "IbnAmmar": "ResearchCandidateOnly",
+    "AlRumaikiyya": "ResearchCandidateOnly",
+    "AIProposalOnly": true
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryMutated": false,
+    "OpeningStateMutated": false,
+    "HouseholdEvidenceValidated": false,
+    "RelationshipEdgesValidatedBeyondKinship": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Infrastructure_Routes_Ports_and_Logistics_V1.md."
+}

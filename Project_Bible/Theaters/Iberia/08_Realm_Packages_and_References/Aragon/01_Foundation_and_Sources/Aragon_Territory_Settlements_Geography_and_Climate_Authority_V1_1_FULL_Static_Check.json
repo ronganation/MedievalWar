@@ -1,0 +1,39 @@
+{
+  "Result": "Pass",
+  "FileName": "Aragon_Territory_Settlements_Geography_and_Climate_Authority_V1_1_FULL.md",
+  "Version": "1.1.0",
+  "AuthorityCreationMethod": "FullIntegratedRebuildFromVerifiedV1ContentLedgerAndCrossFactionBenchmarkAudit",
+  "PhysicalImmediateSourceAvailableDuringFinalExecution": false,
+  "LiteralCopyFirstCompletenessClaimed": false,
+  "SHA256": "77efb986ba276baff757bc9235902909d9b0df16f72c8919316ba67fb1e65e6f",
+  "Bytes": 54087,
+  "Lines": 1076,
+  "Checks": {
+    "bytes": 54087,
+    "lines": 1076,
+    "self_contained_control": true,
+    "portfolio_count": 21,
+    "record_contracts_present": true,
+    "selective_inheritance": true,
+    "save_migration_determinism": true,
+    "UE5_handoff": true,
+    "diagnostic_001_031": true,
+    "repeated_headings": {},
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "balanced_fences": true,
+    "stable_footer_count": 1
+  },
+  "AllCriticalChecksPass": true,
+  "MutationReceipt": {
+    "ExistingAragonFilesOverwritten": 0,
+    "Registry": 0,
+    "OpeningState": 0,
+    "GeographyEntities": 0,
+    "MapAssets": 0,
+    "Unreal": 0,
+    "Runtime": 0
+  },
+  "NextCandidate": "Aragon_Economy_Property_Population_and_Military_Supply_Authority_V1.md"
+}

@@ -1,0 +1,2725 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medieval-war:schema:seville-taifa-opening-state-1062-v1",
+  "title": "Seville Taifa Opening State 1062 V1",
+  "description": "Strict canonical package schema for the Seville taifa January 1062 new-campaign Opening State, aligned to human-readable internal 1.3.0 and contract internal 1.2.0 while preserving package compatibility 1.0.0.",
+  "$comment": "Maintenance: Project Bible 2.4; Design Expansion Checklist 3.7; Unreal Engine 5.8. Static schema and validate-only artifact work; no importer, compile, runtime, save/load, migration, replay, performance, Registry mutation, or real-payload claim.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "PackageIdentity",
+    "AuthorityManifest",
+    "RegistryBinding",
+    "TemporalState",
+    "ApplicationGuard",
+    "RealmRecords",
+    "CharacterRecords",
+    "DynastyDefinitionBindings",
+    "DirectedKinshipBindings",
+    "CapitalBindings",
+    "AuthorityBindings",
+    "DefinitionOnlyReferences",
+    "DefinitionFamilyBindings",
+    "StrategicCondition",
+    "ExplicitEmptyCollections",
+    "ReviewOnlyExclusions",
+    "QuarantineExclusions",
+    "LaterHistoryExclusions",
+    "ExternalReferenceRequirements",
+    "DeclaredCounts",
+    "OwnerRouting",
+    "Determinism",
+    "ReceiptContract"
+  ],
+  "properties": {
+    "PackageIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ContractId",
+        "ContractVersion",
+        "PackageId",
+        "PackageVersion",
+        "OpeningStateId",
+        "OpeningStateVersion",
+        "ScenarioId",
+        "EffectiveDate",
+        "RealmRef",
+        "NewCampaignOnly",
+        "ApplyAtMostOnce"
+      ],
+      "properties": {
+        "ContractId": {
+          "const": "contract.seville_taifa.opening_state.1062.v1"
+        },
+        "ContractVersion": {
+          "const": "1.2.0"
+        },
+        "PackageId": {
+          "const": "package.seville_taifa.opening_state.1062.v1"
+        },
+        "PackageVersion": {
+          "const": "1.0.0"
+        },
+        "OpeningStateId": {
+          "const": "opening.seville_taifa.1062.v1"
+        },
+        "OpeningStateVersion": {
+          "const": "1.3.0"
+        },
+        "ScenarioId": {
+          "const": "scenario.grand_campaign.1062"
+        },
+        "EffectiveDate": {
+          "const": "1062-01-01"
+        },
+        "RealmRef": {
+          "const": "realm.seville"
+        },
+        "NewCampaignOnly": {
+          "const": true
+        },
+        "ApplyAtMostOnce": {
+          "const": true
+        }
+      }
+    },
+    "AuthorityManifest": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/AuthorityEntry"
+      },
+      "minItems": 6,
+      "maxItems": 6,
+      "uniqueItems": true
+    },
+    "RegistryBinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "RegistryId",
+        "RegistryVersion",
+        "RequiredCanonicalIds",
+        "AllowDeprecatedIds",
+        "AllowAliasChains",
+        "AllowDisplayNamesAsKeys",
+        "AllowCrossTypeResolution"
+      ],
+      "properties": {
+        "RegistryId": {
+          "const": "registry.seville.taifa.v1"
+        },
+        "RegistryVersion": {
+          "const": "1.0.0-locked"
+        },
+        "RequiredCanonicalIds": {
+          "const": 16
+        },
+        "AllowDeprecatedIds": {
+          "const": false
+        },
+        "AllowAliasChains": {
+          "const": false
+        },
+        "AllowDisplayNamesAsKeys": {
+          "const": false
+        },
+        "AllowCrossTypeResolution": {
+          "const": false
+        }
+      }
+    },
+    "TemporalState": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "HistoricalDateState",
+        "HistoricalProgressionState",
+        "BiologicalProgressionState",
+        "CampaignSeasonState"
+      ],
+      "properties": {
+        "HistoricalDateState": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "CurrentDate",
+            "PreviousDate",
+            "AdvancesDuringOpeningApplication"
+          ],
+          "properties": {
+            "CurrentDate": {
+              "const": "1062-01-01"
+            },
+            "PreviousDate": {
+              "type": "null"
+            },
+            "AdvancesDuringOpeningApplication": {
+              "const": false
+            }
+          }
+        },
+        "HistoricalProgressionState": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "StepDurationMonths",
+            "StepIndex",
+            "ElapsedMonthsWithinStep",
+            "AdvancesDuringOpeningApplication"
+          ],
+          "properties": {
+            "StepDurationMonths": {
+              "const": 21
+            },
+            "StepIndex": {
+              "const": 0
+            },
+            "ElapsedMonthsWithinStep": {
+              "const": 0
+            },
+            "AdvancesDuringOpeningApplication": {
+              "const": false
+            }
+          }
+        },
+        "BiologicalProgressionState": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "StepDurationMonths",
+            "StepIndex",
+            "ElapsedMonthsWithinStep",
+            "AdvancesDuringOpeningApplication"
+          ],
+          "properties": {
+            "StepDurationMonths": {
+              "const": 7
+            },
+            "StepIndex": {
+              "const": 0
+            },
+            "ElapsedMonthsWithinStep": {
+              "const": 0
+            },
+            "AdvancesDuringOpeningApplication": {
+              "const": false
+            }
+          }
+        },
+        "CampaignSeasonState": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "CurrentSeason",
+            "SeasonIndex",
+            "SeasonOrder",
+            "AdvancesOneSeasonPerStrategicTurn",
+            "AdvancesDuringOpeningApplication"
+          ],
+          "properties": {
+            "CurrentSeason": {
+              "const": "Winter"
+            },
+            "SeasonIndex": {
+              "const": 0
+            },
+            "SeasonOrder": {
+              "const": [
+                "Winter",
+                "Spring",
+                "Summer",
+                "Autumn"
+              ]
+            },
+            "AdvancesOneSeasonPerStrategicTurn": {
+              "const": true
+            },
+            "AdvancesDuringOpeningApplication": {
+              "const": false
+            }
+          }
+        }
+      }
+    },
+    "ApplicationGuard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "RequiredCampaignState",
+        "ApplyAtMostOnce",
+        "RejectIfOpeningReceiptExists",
+        "RejectIfHistoricalDateAdvanced",
+        "RejectIfHistoricalProgressionAdvanced",
+        "RejectIfBiologicalProgressionAdvanced",
+        "RejectIfCampaignSeasonAdvanced",
+        "RejectIfRuntimeDivergenceExists",
+        "ReapplyOnLoad",
+        "ReapplyAfterMigration",
+        "ReapplyToAdvancedSave",
+        "AtomicCommitRequired",
+        "ApplicationReceiptRequired"
+      ],
+      "properties": {
+        "RequiredCampaignState": {
+          "const": "NewCampaignUninitialized"
+        },
+        "ApplyAtMostOnce": {
+          "const": true
+        },
+        "RejectIfOpeningReceiptExists": {
+          "const": true
+        },
+        "RejectIfHistoricalDateAdvanced": {
+          "const": true
+        },
+        "RejectIfHistoricalProgressionAdvanced": {
+          "const": true
+        },
+        "RejectIfBiologicalProgressionAdvanced": {
+          "const": true
+        },
+        "RejectIfCampaignSeasonAdvanced": {
+          "const": true
+        },
+        "RejectIfRuntimeDivergenceExists": {
+          "const": true
+        },
+        "ReapplyOnLoad": {
+          "const": false
+        },
+        "ReapplyAfterMigration": {
+          "const": false
+        },
+        "ReapplyToAdvancedSave": {
+          "const": false
+        },
+        "AtomicCommitRequired": {
+          "const": true
+        },
+        "ApplicationReceiptRequired": {
+          "const": true
+        }
+      }
+    },
+    "RealmRecords": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/RealmRecord"
+      },
+      "minItems": 1,
+      "maxItems": 1,
+      "uniqueItems": true
+    },
+    "CharacterRecords": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/CharacterRecord"
+      },
+      "minItems": 2,
+      "maxItems": 2,
+      "uniqueItems": true
+    },
+    "DynastyDefinitionBindings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/DynastyBinding"
+      },
+      "minItems": 1,
+      "maxItems": 1,
+      "uniqueItems": true
+    },
+    "CapitalBindings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/CapitalBinding"
+      },
+      "minItems": 1,
+      "maxItems": 1,
+      "uniqueItems": true
+    },
+    "AuthorityBindings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/AuthorityBinding"
+      },
+      "minItems": 7,
+      "maxItems": 7,
+      "uniqueItems": true
+    },
+    "DefinitionOnlyReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/DefinitionOnlyReference"
+      },
+      "minItems": 5,
+      "maxItems": 5,
+      "uniqueItems": true
+    },
+    "ExplicitEmptyCollections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ExplicitEmpty"
+      },
+      "minItems": 70,
+      "maxItems": 70,
+      "uniqueItems": true
+    },
+    "ReviewOnlyExclusions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Exclusion"
+      },
+      "minItems": 1,
+      "maxItems": 1,
+      "uniqueItems": true
+    },
+    "QuarantineExclusions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Exclusion"
+      },
+      "minItems": 18,
+      "maxItems": 18,
+      "uniqueItems": true
+    },
+    "LaterHistoryExclusions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Exclusion"
+      },
+      "minItems": 13,
+      "maxItems": 13,
+      "uniqueItems": true
+    },
+    "ExternalReferenceRequirements": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "Subject",
+          "ResolutionState",
+          "BlocksLocalShell",
+          "MayCreateLocalDuplicate",
+          "StableOrderKey"
+        ],
+        "properties": {
+          "Subject": {
+            "enum": [
+              "León-Castile",
+              "Badajoz",
+              "Granada",
+              "Córdoba",
+              "Carmona",
+              "Morón",
+              "Ronda",
+              "Arcos",
+              "Silves",
+              "Almoravids"
+            ]
+          },
+          "ResolutionState": {
+            "enum": [
+              "Unresolved",
+              "ReferenceOnly"
+            ]
+          },
+          "BlocksLocalShell": {
+            "const": false
+          },
+          "MayCreateLocalDuplicate": {
+            "const": false
+          },
+          "StableOrderKey": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "allOf": [
+        {
+          "contains": {
+            "properties": {
+              "Subject": {
+                "const": "León-Castile"
+              }
+            },
+            "required": [
+              "Subject"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "Subject": {
+                "const": "Badajoz"
+              }
+            },
+            "required": [
+              "Subject"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "Subject": {
+                "const": "Granada"
+              }
+            },
+            "required": [
+              "Subject"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "Subject": {
+                "const": "Córdoba"
+              }
+            },
+            "required": [
+              "Subject"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "Subject": {
+                "const": "Carmona"
+              }
+            },
+            "required": [
+              "Subject"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "Subject": {
+                "const": "Morón"
+              }
+            },
+            "required": [
+              "Subject"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "Subject": {
+                "const": "Ronda"
+              }
+            },
+            "required": [
+              "Subject"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "Subject": {
+                "const": "Arcos"
+              }
+            },
+            "required": [
+              "Subject"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "Subject": {
+                "const": "Silves"
+              }
+            },
+            "required": [
+              "Subject"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "Subject": {
+                "const": "Almoravids"
+              }
+            },
+            "required": [
+              "Subject"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      ]
+    },
+    "DeclaredCounts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "RealmRecords",
+        "CharacterRecords",
+        "DynastyDefinitionBindings",
+        "CapitalBindings",
+        "AuthorityBindings",
+        "DefinitionOnlyReferences",
+        "ReviewOnlyExclusions",
+        "QuarantineExclusions",
+        "ActiveArmies",
+        "ActiveTreasuries",
+        "ActiveAgreements",
+        "ActivePoliticalEdges",
+        "DirectedKinshipBindings",
+        "DefinitionFamilyBindings",
+        "ExplicitEmptyCollections"
+      ],
+      "properties": {
+        "RealmRecords": {
+          "const": 1
+        },
+        "CharacterRecords": {
+          "const": 2
+        },
+        "DynastyDefinitionBindings": {
+          "const": 1
+        },
+        "CapitalBindings": {
+          "const": 1
+        },
+        "AuthorityBindings": {
+          "const": 7
+        },
+        "DefinitionOnlyReferences": {
+          "const": 5
+        },
+        "ReviewOnlyExclusions": {
+          "const": 1
+        },
+        "QuarantineExclusions": {
+          "const": 18
+        },
+        "ActiveArmies": {
+          "const": 0
+        },
+        "ActiveTreasuries": {
+          "const": 0
+        },
+        "ActiveAgreements": {
+          "const": 0
+        },
+        "ActivePoliticalEdges": {
+          "const": 0
+        },
+        "DirectedKinshipBindings": {
+          "const": 2
+        },
+        "DefinitionFamilyBindings": {
+          "const": 11
+        },
+        "ExplicitEmptyCollections": {
+          "const": 70
+        }
+      }
+    },
+    "OwnerRouting": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/OwnerRoute"
+      },
+      "minItems": 18,
+      "maxItems": 18,
+      "uniqueItems": true
+    },
+    "Determinism": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "Ordering",
+        "HashExclusions",
+        "EqualInputsProduceEqualResults"
+      ],
+      "properties": {
+        "Ordering": {
+          "const": [
+            "ValidationPhase",
+            "OwnerOrdinal",
+            "RecordTypeOrdinal",
+            "CanonicalTargetRef",
+            "RequestId"
+          ]
+        },
+        "HashExclusions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "EqualInputsProduceEqualResults": {
+          "const": true
+        }
+      }
+    },
+    "ReceiptContract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ReceiptFields",
+        "AlreadyAppliedDisposition",
+        "AlreadyAppliedMutationCount",
+        "ConflictingReceiptFailsClosed"
+      ],
+      "properties": {
+        "ReceiptFields": {
+          "const": [
+            "ReceiptRef",
+            "TransactionRef",
+            "OpeningStateId",
+            "ScenarioId",
+            "PackageVersion",
+            "SchemaVersion",
+            "ValidationProfileVersion",
+            "RegistryId",
+            "RegistryVersion",
+            "AuthorityManifestHash",
+            "CanonicalPayloadHash",
+            "TemporalStateHash",
+            "ExplicitEmptyHash",
+            "OwnerRoutingHash",
+            "CreatedOrBoundRecordRefs",
+            "OwnerStateHashes",
+            "ApplicationDisposition",
+            "ReceiptHash"
+          ]
+        },
+        "AlreadyAppliedDisposition": {
+          "const": "AlreadyApplied"
+        },
+        "AlreadyAppliedMutationCount": {
+          "const": 0
+        },
+        "ConflictingReceiptFailsClosed": {
+          "const": true
+        }
+      }
+    },
+    "DirectedKinshipBindings": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "SourcePersonRef",
+          "TargetPersonRef",
+          "RelationshipType",
+          "OpeningStatus",
+          "CreatesPoliticalEdge",
+          "StableOrderKey"
+        ],
+        "properties": {
+          "SourcePersonRef": {
+            "enum": [
+              "person.abbad_ibn_muhammad_al_mutadid",
+              "person.muhammad_ibn_abbad_al_mutamid"
+            ]
+          },
+          "TargetPersonRef": {
+            "enum": [
+              "person.abbad_ibn_muhammad_al_mutadid",
+              "person.muhammad_ibn_abbad_al_mutamid"
+            ]
+          },
+          "RelationshipType": {
+            "enum": [
+              "ParentOf",
+              "ChildOf"
+            ]
+          },
+          "OpeningStatus": {
+            "const": "AcceptedDirectedKinship"
+          },
+          "CreatesPoliticalEdge": {
+            "const": false
+          },
+          "StableOrderKey": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "DefinitionFamilyBindings": {
+      "type": "array",
+      "minItems": 11,
+      "maxItems": 11,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "FamilyId",
+          "DefinitionAvailable",
+          "OpeningRuntimeInstancesCreated",
+          "StableOrderKey"
+        ],
+        "properties": {
+          "FamilyId": {
+            "enum": [
+              "PopulationCommunitiesSocialStructure",
+              "ReligionLawInstitutions",
+              "CourtCulturePatronageKnowledge",
+              "CharacterNetworkHouseholdRelationship",
+              "InfrastructureRoutesPortsLogistics",
+              "PropertyLandholdingBuildingsProductiveInfrastructure",
+              "HistoricalMemoryMomentumConditionalEmergence",
+              "HistoricalUncertaintyEvidenceChronology",
+              "DomesticOrderLegitimacyGrievanceRestoration",
+              "CampaignObjectivesOpeningPressuresPlayerProgression",
+              "DevelopedUnitRosterPlanning"
+            ]
+          },
+          "DefinitionAvailable": {
+            "const": true
+          },
+          "OpeningRuntimeInstancesCreated": {
+            "const": 0
+          },
+          "StableOrderKey": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "StrategicCondition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "CoreIdentity",
+        "PoliticalCenter",
+        "SovereignContinuity",
+        "SuccessionRelevance",
+        "TerritorialAuthority",
+        "LocalAdministration",
+        "FiscalReach",
+        "RouteAndPortCapacity",
+        "MilitaryReadiness",
+        "ExternalPressure",
+        "HistoricalOutcomePolicy",
+        "UniversalNumericScoreCreated"
+      ],
+      "properties": {
+        "CoreIdentity": {
+          "const": "expanding_urban_dynastic_taifa"
+        },
+        "PoliticalCenter": {
+          "const": "settlement.seville"
+        },
+        "SovereignContinuity": {
+          "const": "active_but_person_dependent"
+        },
+        "SuccessionRelevance": {
+          "const": "present_without_formal_heir_office"
+        },
+        "TerritorialAuthority": {
+          "const": "broad_but_operationally_uneven"
+        },
+        "LocalAdministration": {
+          "const": "unresolved_by_settlement"
+        },
+        "FiscalReach": {
+          "const": "unresolved"
+        },
+        "RouteAndPortCapacity": {
+          "const": "unresolved"
+        },
+        "MilitaryReadiness": {
+          "const": "uninstantiated_not_zero"
+        },
+        "ExternalPressure": {
+          "const": "present_without_active_agreement"
+        },
+        "HistoricalOutcomePolicy": {
+          "const": "conditional_not_scripted"
+        },
+        "UniversalNumericScoreCreated": {
+          "const": false
+        }
+      }
+    }
+  },
+  "$defs": {
+    "CanonicalRef": {
+      "type": "string",
+      "pattern": "^(realm|dynasty|person|settlement|historical_polity)\\.[a-z0-9_]+$"
+    },
+    "UnknownValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "State",
+        "ReasonCode",
+        "SourceRefs"
+      ],
+      "properties": {
+        "State": {
+          "const": "Unknown"
+        },
+        "ReasonCode": {
+          "type": "string",
+          "minLength": 1
+        },
+        "SourceRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "AuthorityEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "AuthorityId",
+        "AuthorityType",
+        "Filename",
+        "InternalVersion",
+        "ContentHash",
+        "Required",
+        "StableOrder"
+      ],
+      "properties": {
+        "AuthorityId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "AuthorityType": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Filename": {
+          "type": "string",
+          "minLength": 1
+        },
+        "InternalVersion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ContentHash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "Required": {
+          "type": "boolean"
+        },
+        "StableOrder": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "RealmRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "RecordId",
+        "RealmRef",
+        "LifecycleState",
+        "PlayableState",
+        "EffectiveDate",
+        "OpeningSovereignRef",
+        "CapitalSettlementRef",
+        "DynastyDefinitionRef",
+        "PoliticalForm",
+        "UniformAdministrationAssumed",
+        "CompleteTerritorialPolygonAvailable",
+        "StableOrderKey",
+        "OwnerSubsystem"
+      ],
+      "properties": {
+        "RecordId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "RealmRef": {
+          "const": "realm.seville"
+        },
+        "LifecycleState": {
+          "const": "Active"
+        },
+        "PlayableState": {
+          "const": "Active"
+        },
+        "EffectiveDate": {
+          "const": "1062-01-01"
+        },
+        "OpeningSovereignRef": {
+          "const": "person.abbad_ibn_muhammad_al_mutadid"
+        },
+        "CapitalSettlementRef": {
+          "const": "settlement.seville"
+        },
+        "DynastyDefinitionRef": {
+          "const": "dynasty.abbadid"
+        },
+        "PoliticalForm": {
+          "const": "UrbanDynasticTaifa"
+        },
+        "UniformAdministrationAssumed": {
+          "const": false
+        },
+        "CompleteTerritorialPolygonAvailable": {
+          "const": false
+        },
+        "StableOrderKey": {
+          "type": "string",
+          "minLength": 1
+        },
+        "OwnerSubsystem": {
+          "const": "Realm"
+        }
+      }
+    },
+    "CharacterRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "RecordId",
+        "PersonRef",
+        "Alive",
+        "ActiveAtOpening",
+        "SimulationTier",
+        "OpeningRole",
+        "RealmRef",
+        "DynastyDefinitionRef",
+        "FormalHeirOfficeRef",
+        "GuaranteedAccession",
+        "ExactAgeYears",
+        "AgeResidualMonths",
+        "CurrentLocationRef",
+        "HouseholdRef",
+        "OfficeRef",
+        "CommandRef",
+        "PropertyRefs",
+        "StableOrderKey",
+        "OwnerSubsystem"
+      ],
+      "properties": {
+        "RecordId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "PersonRef": {
+          "enum": [
+            "person.abbad_ibn_muhammad_al_mutadid",
+            "person.muhammad_ibn_abbad_al_mutamid"
+          ]
+        },
+        "Alive": {
+          "const": true
+        },
+        "ActiveAtOpening": {
+          "const": true
+        },
+        "SimulationTier": {
+          "const": "TierA"
+        },
+        "OpeningRole": {
+          "enum": [
+            "Sovereign",
+            "SuccessionRelevantDynast"
+          ]
+        },
+        "RealmRef": {
+          "const": "realm.seville"
+        },
+        "DynastyDefinitionRef": {
+          "const": "dynasty.abbadid"
+        },
+        "FormalHeirOfficeRef": {
+          "type": "null"
+        },
+        "GuaranteedAccession": {
+          "const": false
+        },
+        "ExactAgeYears": {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        "AgeResidualMonths": {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        "CurrentLocationRef": {
+          "type": "null"
+        },
+        "HouseholdRef": {
+          "type": "null"
+        },
+        "OfficeRef": {
+          "type": "null"
+        },
+        "CommandRef": {
+          "type": "null"
+        },
+        "PropertyRefs": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "StableOrderKey": {
+          "type": "string",
+          "minLength": 1
+        },
+        "OwnerSubsystem": {
+          "const": "CharacterFoundation"
+        }
+      }
+    },
+    "DynastyBinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "BindingId",
+        "DynastyRef",
+        "RealmRef",
+        "DefinitionAvailable",
+        "OpeningRuntimeDynastyStateCreated",
+        "OpeningHeadRecordCreated",
+        "SuccessionRuleCreated",
+        "HouseholdCreated",
+        "PropertyCreated",
+        "StableOrderKey",
+        "OwnerSubsystem"
+      ],
+      "properties": {
+        "BindingId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "DynastyRef": {
+          "const": "dynasty.abbadid"
+        },
+        "RealmRef": {
+          "const": "realm.seville"
+        },
+        "DefinitionAvailable": {
+          "const": true
+        },
+        "OpeningRuntimeDynastyStateCreated": {
+          "const": false
+        },
+        "OpeningHeadRecordCreated": {
+          "const": false
+        },
+        "SuccessionRuleCreated": {
+          "const": false
+        },
+        "HouseholdCreated": {
+          "const": false
+        },
+        "PropertyCreated": {
+          "const": false
+        },
+        "StableOrderKey": {
+          "type": "string",
+          "minLength": 1
+        },
+        "OwnerSubsystem": {
+          "const": "Dynasty"
+        }
+      }
+    },
+    "CapitalBinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "BindingId",
+        "RealmRef",
+        "SettlementRef",
+        "BindingType",
+        "EffectiveDate",
+        "StableOrderKey",
+        "OwnerSubsystem"
+      ],
+      "properties": {
+        "BindingId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "RealmRef": {
+          "const": "realm.seville"
+        },
+        "SettlementRef": {
+          "const": "settlement.seville"
+        },
+        "BindingType": {
+          "const": "CapitalAndPrincipalPoliticalCenter"
+        },
+        "EffectiveDate": {
+          "const": "1062-01-01"
+        },
+        "StableOrderKey": {
+          "type": "string",
+          "minLength": 1
+        },
+        "OwnerSubsystem": {
+          "const": "Realm"
+        }
+      }
+    },
+    "AuthorityBinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "BindingId",
+        "SettlementRef",
+        "SuperiorRealmRef",
+        "EffectiveDate",
+        "AuthorityClass",
+        "LocalControllerRef",
+        "LocalAdministratorRef",
+        "FortressControllerRef",
+        "FiscalReach",
+        "GarrisonRef",
+        "RouteOperationRefs",
+        "PortOperationRef",
+        "CustomsOperationRef",
+        "StraitRouteRef",
+        "StableOrderKey",
+        "OwnerSubsystem"
+      ],
+      "properties": {
+        "BindingId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "SettlementRef": {
+          "enum": [
+            "settlement.seville",
+            "settlement.mertola",
+            "settlement.niebla",
+            "settlement.huelva",
+            "settlement.saltes",
+            "settlement.santa_maria_algarve",
+            "settlement.algeciras"
+          ]
+        },
+        "SuperiorRealmRef": {
+          "const": "realm.seville"
+        },
+        "EffectiveDate": {
+          "const": "1062-01-01"
+        },
+        "AuthorityClass": {
+          "enum": [
+            "CoreCapitalAuthority",
+            "AbsorbedSettlementSuperiorAuthority"
+          ]
+        },
+        "LocalControllerRef": {
+          "type": "null"
+        },
+        "LocalAdministratorRef": {
+          "type": "null"
+        },
+        "FortressControllerRef": {
+          "type": "null"
+        },
+        "FiscalReach": {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        "GarrisonRef": {
+          "type": "null"
+        },
+        "RouteOperationRefs": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "PortOperationRef": {
+          "type": "null"
+        },
+        "CustomsOperationRef": {
+          "type": "null"
+        },
+        "StraitRouteRef": {
+          "type": "null"
+        },
+        "StableOrderKey": {
+          "type": "string",
+          "minLength": 1
+        },
+        "OwnerSubsystem": {
+          "const": "Governance"
+        }
+      }
+    },
+    "DefinitionOnlyReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "CanonicalRef",
+        "DefinitionOnly",
+        "OpeningActive",
+        "MayCreateController",
+        "MayCreateRuler",
+        "MayCreateGovernment",
+        "MayCreateArmy",
+        "MayCreateRevolt",
+        "MayCreateRestorationPath",
+        "StableOrderKey"
+      ],
+      "properties": {
+        "CanonicalRef": {
+          "enum": [
+            "historical_polity.taifa_mertola_first",
+            "historical_polity.taifa_niebla_first",
+            "historical_polity.taifa_saltes_huelva",
+            "historical_polity.taifa_santa_maria_algarve",
+            "historical_polity.taifa_algeciras"
+          ]
+        },
+        "DefinitionOnly": {
+          "const": true
+        },
+        "OpeningActive": {
+          "const": false
+        },
+        "MayCreateController": {
+          "const": false
+        },
+        "MayCreateRuler": {
+          "const": false
+        },
+        "MayCreateGovernment": {
+          "const": false
+        },
+        "MayCreateArmy": {
+          "const": false
+        },
+        "MayCreateRevolt": {
+          "const": false
+        },
+        "MayCreateRestorationPath": {
+          "const": false
+        },
+        "StableOrderKey": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "ExplicitEmpty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "CollectionName",
+        "State",
+        "ReasonCode",
+        "OwnerSubsystem",
+        "StableOrderKey"
+      ],
+      "properties": {
+        "CollectionName": {
+          "enum": [
+            "ActiveOffices",
+            "ActiveLocalAdministrators",
+            "ActiveCharacterNetworkEdges",
+            "ActiveExternalNetworkEdges",
+            "ActiveKnowledgeEdges",
+            "ActiveSuccessionSupportEdges",
+            "ActiveArmies",
+            "ActiveCommands",
+            "ActiveGarrisons",
+            "ActiveFleets",
+            "ActiveCampaigns",
+            "ActiveMusters",
+            "ActiveRecruitmentAuthorities",
+            "ActiveMilitaryAccessAgreements",
+            "ActiveSieges",
+            "ActiveOccupations",
+            "ActiveAccounts",
+            "ActiveTreasuries",
+            "ActiveProperties",
+            "ActiveTaxRates",
+            "ActiveRevenueReceipts",
+            "ActiveMarketOperations",
+            "ActiveMintOperations",
+            "ActiveCoinIssueInstances",
+            "ActiveShipments",
+            "ActiveStockpiles",
+            "ActiveSupplyContracts",
+            "ActiveRouteOperations",
+            "ActivePortOperations",
+            "ActiveLandings",
+            "ActiveCrossings",
+            "ActiveBlockades",
+            "ActiveCustomsOperations",
+            "ActivePariaAgreements",
+            "ActiveProtectionAgreements",
+            "ActiveWars",
+            "ActiveTruces",
+            "ActiveAlliances",
+            "ActiveAccessAgreements",
+            "ActiveHostageAgreements",
+            "ActiveInvitations",
+            "ActiveInterventions",
+            "ActiveHistoricalMemoryInstances",
+            "ActiveHistoricalMomentumInstances",
+            "ActiveHistoricalEmergenceInstances",
+            "ScheduledHistoricalDeaths",
+            "ScheduledHistoricalIllnesses",
+            "PredeterminedSuccessionTransfers",
+            "PredeterminedConquests",
+            "PredeterminedWars",
+            "PredeterminedAlmoravidInterventions",
+            "ActivePopulationRuntimeProfiles",
+            "ActiveCommunityAttitudeRecords",
+            "ActiveInstitutionRuntimeRecords",
+            "ActiveHouseholdRuntimeRecords",
+            "ActiveNonKinshipRelationshipRecords",
+            "ActiveBuildingInstances",
+            "ActiveProductiveSiteInstances",
+            "ActiveDomesticOrderRecords",
+            "ActiveLegitimacyValues",
+            "ActiveGrievanceRecords",
+            "ActiveDomesticFactions",
+            "ActiveUnrestEvents",
+            "ActiveRebellions",
+            "ActiveRemedies",
+            "ActiveRestorationProjects",
+            "ActiveCampaignObjectives",
+            "ActiveOpeningRecommendations",
+            "ActiveObjectiveRewards",
+            "ActiveVictoryConditions"
+          ]
+        },
+        "State": {
+          "const": "IntentionalEmpty"
+        },
+        "ReasonCode": {
+          "const": "NoSupportedOpeningInstance"
+        },
+        "OwnerSubsystem": {
+          "type": "string",
+          "minLength": 1
+        },
+        "StableOrderKey": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "Exclusion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ExclusionId",
+        "Category",
+        "Subject",
+        "ReasonCode",
+        "StableOrderKey"
+      ],
+      "properties": {
+        "ExclusionId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Subject": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ReasonCode": {
+          "type": "string",
+          "minLength": 1
+        },
+        "StableOrderKey": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "OwnerRoute": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "RequestId",
+        "OpeningStateId",
+        "OwnerSubsystem",
+        "RecordType",
+        "CanonicalTargetRef",
+        "InitialStatePayload",
+        "PrerequisiteRefs",
+        "AuthorityRefs",
+        "StableOrderKey"
+      ],
+      "properties": {
+        "RequestId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "OpeningStateId": {
+          "const": "opening.seville_taifa.1062.v1"
+        },
+        "OwnerSubsystem": {
+          "enum": [
+            "Temporal",
+            "Realm",
+            "CharacterFoundation",
+            "Dynasty",
+            "SettlementRegistry",
+            "Governance"
+          ]
+        },
+        "RecordType": {
+          "enum": [
+            "TemporalState",
+            "RealmRecord",
+            "CharacterRecord",
+            "DefinitionBinding",
+            "CapitalBinding",
+            "AuthorityBinding",
+            "DefinitionOnlyReference"
+          ]
+        },
+        "CanonicalTargetRef": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "InitialStatePayload": {
+          "type": "object"
+        },
+        "PrerequisiteRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "AuthorityRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "StableOrderKey": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "properties": {
+        "CharacterRecords": {
+          "contains": {
+            "properties": {
+              "PersonRef": {
+                "const": "person.abbad_ibn_muhammad_al_mutadid"
+              }
+            },
+            "required": [
+              "PersonRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "CharacterRecords": {
+          "contains": {
+            "properties": {
+              "PersonRef": {
+                "const": "person.muhammad_ibn_abbad_al_mutamid"
+              }
+            },
+            "required": [
+              "PersonRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "AuthorityBindings": {
+          "contains": {
+            "properties": {
+              "SettlementRef": {
+                "const": "settlement.seville"
+              }
+            },
+            "required": [
+              "SettlementRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "AuthorityBindings": {
+          "contains": {
+            "properties": {
+              "SettlementRef": {
+                "const": "settlement.mertola"
+              }
+            },
+            "required": [
+              "SettlementRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "AuthorityBindings": {
+          "contains": {
+            "properties": {
+              "SettlementRef": {
+                "const": "settlement.niebla"
+              }
+            },
+            "required": [
+              "SettlementRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "AuthorityBindings": {
+          "contains": {
+            "properties": {
+              "SettlementRef": {
+                "const": "settlement.huelva"
+              }
+            },
+            "required": [
+              "SettlementRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "AuthorityBindings": {
+          "contains": {
+            "properties": {
+              "SettlementRef": {
+                "const": "settlement.saltes"
+              }
+            },
+            "required": [
+              "SettlementRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "AuthorityBindings": {
+          "contains": {
+            "properties": {
+              "SettlementRef": {
+                "const": "settlement.santa_maria_algarve"
+              }
+            },
+            "required": [
+              "SettlementRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "AuthorityBindings": {
+          "contains": {
+            "properties": {
+              "SettlementRef": {
+                "const": "settlement.algeciras"
+              }
+            },
+            "required": [
+              "SettlementRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "DefinitionOnlyReferences": {
+          "contains": {
+            "properties": {
+              "CanonicalRef": {
+                "const": "historical_polity.taifa_mertola_first"
+              }
+            },
+            "required": [
+              "CanonicalRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "DefinitionOnlyReferences": {
+          "contains": {
+            "properties": {
+              "CanonicalRef": {
+                "const": "historical_polity.taifa_niebla_first"
+              }
+            },
+            "required": [
+              "CanonicalRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "DefinitionOnlyReferences": {
+          "contains": {
+            "properties": {
+              "CanonicalRef": {
+                "const": "historical_polity.taifa_saltes_huelva"
+              }
+            },
+            "required": [
+              "CanonicalRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "DefinitionOnlyReferences": {
+          "contains": {
+            "properties": {
+              "CanonicalRef": {
+                "const": "historical_polity.taifa_santa_maria_algarve"
+              }
+            },
+            "required": [
+              "CanonicalRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "DefinitionOnlyReferences": {
+          "contains": {
+            "properties": {
+              "CanonicalRef": {
+                "const": "historical_polity.taifa_algeciras"
+              }
+            },
+            "required": [
+              "CanonicalRef"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveOffices"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveLocalAdministrators"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveCharacterNetworkEdges"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveExternalNetworkEdges"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveKnowledgeEdges"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveSuccessionSupportEdges"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveArmies"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveCommands"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveGarrisons"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveFleets"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveCampaigns"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveMusters"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveRecruitmentAuthorities"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveMilitaryAccessAgreements"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveSieges"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveOccupations"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveAccounts"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveTreasuries"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveProperties"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveTaxRates"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveRevenueReceipts"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveMarketOperations"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveMintOperations"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveCoinIssueInstances"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveShipments"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveStockpiles"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveSupplyContracts"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveRouteOperations"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActivePortOperations"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveLandings"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveCrossings"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveBlockades"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveCustomsOperations"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActivePariaAgreements"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveProtectionAgreements"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveWars"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveTruces"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveAlliances"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveAccessAgreements"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveHostageAgreements"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveInvitations"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveInterventions"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveHistoricalMemoryInstances"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveHistoricalMomentumInstances"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ActiveHistoricalEmergenceInstances"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ScheduledHistoricalDeaths"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "ScheduledHistoricalIllnesses"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "PredeterminedSuccessionTransfers"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "PredeterminedConquests"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "PredeterminedWars"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    },
+    {
+      "properties": {
+        "ExplicitEmptyCollections": {
+          "contains": {
+            "properties": {
+              "CollectionName": {
+                "const": "PredeterminedAlmoravidInterventions"
+              }
+            },
+            "required": [
+              "CollectionName"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "TaskId": "WALES-IMP-00B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "EntranceGate": "WALES-IMP-00A-R2",
+  "EntranceDecision": "WalesRequiresPhasedImplementationPlanningAfterEvidenceReconciliation",
+  "AuthorityRecords": 130,
+  "WalesSourceFiles": 23,
+  "AcceptedEvidenceRecords": 70,
+  "FamiliesAssessed": 9,
+  "GapCandidates": 5,
+  "ImplementedEvidenceReviewFamilies": 3,
+  "AcceptedReadOnlySlices": 1,
+  "SelectedFirstLane": "CampaignInitialization",
+  "EligibleForImplementation": false,
+  "EligibleForApplication": false,
+  "ProductionAuthority": false,
+  "PlanSHA256": "5ED12644E70A6657CEC8F0576FDFD0ACB4CE556F0990B0C7D7D2CA9582BEDD17",
+  "PlanBytes": 7339,
+  "PlanLines": 233,
+  "NextGate": "WALES-IMP-01A"
+}

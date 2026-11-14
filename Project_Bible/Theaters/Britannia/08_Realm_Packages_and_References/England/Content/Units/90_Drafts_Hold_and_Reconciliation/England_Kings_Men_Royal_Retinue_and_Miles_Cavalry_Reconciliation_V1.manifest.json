@@ -1,0 +1,32 @@
+{
+  "document": "England_Kings_Men_Royal_Retinue_and_Miles_Cavalry_Reconciliation_V1.md",
+  "version": "1.0.0",
+  "status": "ReviewOnlyIntegratedDecisionPreparationCandidate",
+  "size_bytes": 25333,
+  "line_count": 524,
+  "word_count": 2773,
+  "numbered_sections": 49,
+  "sha256": "3196b9f186a61d67702157801a5b52c87499066fcfcddfeb6ca655198fca9398",
+  "enterprise_sources": [
+    "Miles.md",
+    "Mounted_Sergeants_V2_Master_Unit_Profile.md",
+    "Mounted_Thegns_V1_Master_Unit_Profile.md",
+    "Earls_Horsemen_V2_Master_Unit_Profile.md",
+    "Hobilars_V1_Master_Unit_Profile.md",
+    "English_Foot_Knights_V1_Master_Unit_Profile.md"
+  ],
+  "external_source": "Stainless Steel Miles England page",
+  "unretrieved_required_sources": [
+    "Royal_Knightly_Retinue_V1_Master_Unit_Profile.md",
+    "Norman_Knightly_Cavalry.md",
+    "Feudal_Knights controlling profile"
+  ],
+  "new_Miles_card_created": false,
+  "source_files_modified": [],
+  "source_files_deleted": [],
+  "stable_IDs_allocated": [],
+  "Registry_changes": [],
+  "Opening_State_changes": [],
+  "runtime_changes": [],
+  "Unreal_changes": []
+}

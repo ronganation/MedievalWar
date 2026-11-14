@@ -1,0 +1,29 @@
+﻿{
+    "receipt_id":  "candidate.shared-save.transient-disposition.hybrid.v1",
+    "decision_date_utc":  null,
+    "controlling_owner":  null,
+    "decision_status":  "CandidatePendingControllingOwner",
+    "campaign_save_owner_candidate":  "UMWCampaignSaveSubsystem",
+    "campaign_turn_owner_candidate":  "UMWCampaignTurnSubsystem",
+    "selected_transient_disposition_candidate":  "D_hybrid",
+    "persisted_state_inventory_candidate":  [
+                                                "FMWCampaignState",
+                                                "SaveFormatVersion",
+                                                "CampaignSchemaVersion",
+                                                "SavedStateHash",
+                                                "authoritative receipts and owner versions as approved",
+                                                "migration mapping version as approved"
+                                            ],
+    "reconstructible_definition_inventory_candidate":  [
+                                                           "DatedFactDefinitions",
+                                                           "RegionalClimateProfiles",
+                                                           "RegionClimateAssignments",
+                                                           "HistoricalMomentumEvidenceDefinitions",
+                                                           "HistoricalEmergenceRules"
+                                                       ],
+    "ephemeral_trace_inventory_candidate":  "LastCommitted trace arrays unless a controlling owner proves continuation authority",
+    "isolated_patch_authorized":  false,
+    "active_source_promotion_authorized":  false,
+    "compile_execution_authorized":  false,
+    "runtime_execution_authorized":  false
+}

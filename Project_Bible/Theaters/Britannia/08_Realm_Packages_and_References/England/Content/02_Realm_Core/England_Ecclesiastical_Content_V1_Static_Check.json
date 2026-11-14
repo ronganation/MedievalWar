@@ -1,0 +1,24 @@
+{
+  "document_id": "static-check.england.ecclesiastical_content.v1_1.rebuild",
+  "version": "1.0.0",
+  "output_file": "England_Ecclesiastical_Content_V1.md",
+  "source_bytes": 34168,
+  "output_bytes": 54598,
+  "checks": {
+    "created": true,
+    "additive": true,
+    "sections": true,
+    "opening_once": true,
+    "temporal": true,
+    "people": true,
+    "institutions": true,
+    "operational_depth": true,
+    "source_preserved": true,
+    "no_auto": true,
+    "no_activation": true,
+    "validation_false": true,
+    "no_escapes": true,
+    "stable_footer": true
+  },
+  "passed": true
+}

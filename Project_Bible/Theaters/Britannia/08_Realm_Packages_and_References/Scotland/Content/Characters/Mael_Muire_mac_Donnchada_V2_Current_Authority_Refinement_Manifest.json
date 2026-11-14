@@ -1,0 +1,46 @@
+{
+  "document_id": "manifest.scotland.character.mael-muire.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Mael_Muire_mac_Donnchada.md",
+    "bytes": 32688,
+    "physical_lines": 638,
+    "sha256": "b2e06c68341cba34e939f9bb9ee889982c44fc458975b4f7334a67327e233b57",
+    "complete_source_verified": true,
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Mael_Muire_mac_Donnchada_V2_Current_Authority_Refinement.md",
+    "bytes": 47943,
+    "physical_lines": 1113,
+    "sha256": "45483fcf29655c16d7d84773923305a3509b275dccfbde4848fbbfab7c76afe7"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_fidelity_result": "pass",
+    "source_headings_preserved": 90,
+    "removed_content": []
+  },
+  "additions": {
+    "current_metadata": true,
+    "three_track_temporal_model": true,
+    "Opening_State_V2_handoff": true,
+    "Registry_V2_handoff": true,
+    "Moray_uncertainty": true,
+    "Gille_adjudication_reconciliation": true,
+    "specialist_owner_boundaries": true,
+    "validation_cases": 12
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Mael_Muire_mac_Donnchada_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "definitions_15": true,
+    "operating_records_15": true,
+    "candidate_records_30": true,
+    "competition_groups_8": true,
+    "reasons_30": true,
+    "diagnostics_26": true,
+    "positive_25": true,
+    "negative_32": true,
+    "three_tracks": true,
+    "opening_zero": true,
+    "balanced_fences": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker": true,
+    "honest_validation": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "document_id": "Manifest.EcclesiasticalAuthority.Realm.Flanders.V2.FullCopyFirstRedo",
+  "authority_file": "Flanders_Ecclesiastical_Institutions_Jurisdiction_Patronage_Advocacy_and_Reform_Authority_V2.md",
+  "version": "2.0.0",
+  "revision_date": "2026-09-09",
+  "bytes": 77559,
+  "physical_lines": 1936,
+  "sha256": "1ca4db68abb8c726c3c162b8b4c36a73132e4b030655549b79e56ee73f70044b",
+  "immediate_substantive_source": "Flanders_Ecclesiastical_Authority_V1copy.md",
+  "source_physical_lines_reviewed": 1212,
+  "source_treatment": "FullCopyFirstIntegratedSuccessorWithSectionDispositionAndNoSubstantiveRemovals",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "stable_footer_count": 1,
+    "source_portfolio_headings_expected": 36,
+    "source_portfolio_headings_missing": [],
+    "source_portfolio_heading_coverage": 36,
+    "substantive_removals": [],
+    "three_track_temporal_contract": true,
+    "nonmutation": true
+  },
+  "all_critical_checks_pass": true,
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "InstitutionActivations": 0,
+    "OfficeholderActivations": 0,
+    "Schema": 0,
+    "Save": 0,
+    "Importer": 0,
+    "Unreal": 0,
+    "Runtime": 0,
+    "RealPayloadImports": 0
+  },
+  "supersedes_rejected_draft_sha256": "1743b6e6475f14ba361676d236654188a88e6c5874b9d2b410a6d14f7f0069e3",
+  "next_file": "Flanders_Ecclesiastical_Character_Profile_Admission_and_Officeholder_Reconciliation_V1.md"
+}

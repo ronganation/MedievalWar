@@ -1,0 +1,23 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "inputs_4": true,
+    "chronology_rows": true,
+    "observed_chronology_nonzero": true,
+    "receipt_groups_10": true,
+    "received_zero": true,
+    "owner_zero": true,
+    "batch_null": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "feefaa6f40e24bf1d9fd9dd88a48b7a8c11684c5402011a747c5c56dd17e6271",
+  "Bytes": 19065,
+  "Lines": 604,
+  "Scope": "Nonmutating owner receipt requests and chronology classification scaffolding with zero inferred decisions"
+}

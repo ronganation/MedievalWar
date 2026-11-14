@@ -1,0 +1,43 @@
+{
+  "static_check_version": "1.0.0",
+  "checked_file": "Burgundy_Current_Authority_Package_Manifest_V1_1_Diplomacy_Additive_Update.json",
+  "checked_sha256": "11b39c391821c09c8579674617a20a8c497c645e5bed4515a41f3810a6592250",
+  "checked_bytes": 6854,
+  "checked_physical_lines": 144,
+  "checks": {
+    "json_parse_valid": true,
+    "version_1_1_0": true,
+    "manifest_mode_honest": true,
+    "no_exact_source_manifest_claimed": true,
+    "index_exact_hash_bound_from_current_index_manifest": true,
+    "five_diplomacy_membership_records": true,
+    "one_general_authority": true,
+    "authority_hash_bound": true,
+    "authority_dimensions_bound": true,
+    "closure_hash_bound": true,
+    "evidence_hashes_bound": true,
+    "anti_churn": true,
+    "routing_complete": true,
+    "zero_mutations": true
+  },
+  "failed_checks": [],
+  "all_checks_passed": true,
+  "validation_scope": "JSON parse, exact current-index binding, diplomacy membership and evidence hashes, README and index navigation hashes, source limitation honesty, anti-churn, routing closure, and zero-mutation boundary only.",
+  "excluded_validation": [
+    "exact predecessor package-manifest byte retrieval",
+    "fresh recursive Burgundy package inventory",
+    "fresh package-wide hash scan",
+    "project Registry",
+    "Opening State activation",
+    "external owner state",
+    "importer",
+    "compile",
+    "runtime",
+    "save/load",
+    "migration execution",
+    "replay",
+    "performance",
+    "production assets",
+    "Unreal project"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "document_id": "manifest.wales.network-candidate-manifest.v2.addendum",
+  "version": "2.0.0",
+  "source_reference": "turn193search41",
+  "source_filename": "Wales_Network_Opening_Fixture_Candidate_Manifest.md",
+  "source_verified_through_microsoft_365": true,
+  "source_reported_bytes": 27022,
+  "local_source_materialized": false,
+  "literal_source_prefix": false,
+  "artifact": {
+    "filename": "Wales_Network_Opening_Fixture_Candidate_Manifest_V2_Current_Authority_Addendum.md",
+    "bytes": 18103,
+    "physical_lines": 541,
+    "sha256": "c12eb59547f0b24752383faa5be737fd0512032ac4bd0193ae9bd64c69471422"
+  },
+  "candidate_contract": {
+    "candidate_count": 8,
+    "BasisOnly_count": 8,
+    "mutable_dimension_count": 0,
+    "participation_gate_count": 2,
+    "reverse_pair_count": 4
+  },
+  "delivery_class": "AddendumOnlyNotCopyFirstSuccessor",
+  "promotion_authorized": false
+}

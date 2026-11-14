@@ -1,0 +1,250 @@
+{
+  "document_id": "mw.rules.unit-definition-validation.v1",
+  "version": "1.0.0",
+  "date": "2026-08-28",
+  "status": "StaticCheckedValidationRulesCandidate",
+  "schema_ref": "Unit_Definition_Schema_V1.json",
+  "authority_refs": [
+    "Project Bible 2.4",
+    "Military Content, Roster, Recruitment, and Development Authority V1.0.1",
+    "Military Roster Authoring Standard V1.0.0",
+    "Unit Definition and Card Authoring Standard V1.0.0"
+  ],
+  "scope": "Static unit-definition validation only",
+  "does_not_prove": [
+    "Registry allocation",
+    "Scenario availability",
+    "Opening State inclusion",
+    "Active unit existence",
+    "Importer success",
+    "Compilation",
+    "Runtime behavior",
+    "Save/load",
+    "Migration",
+    "Replay",
+    "Performance",
+    "Tactical balance",
+    "Battle validation"
+  ],
+  "severity_order": [
+    "ERROR",
+    "BLOCKER",
+    "WARNING",
+    "INFO"
+  ],
+  "rules": [
+    {
+      "rule_id": "UDV-001",
+      "severity": "ERROR",
+      "title": "Schema conformance",
+      "test": "Record must validate against Unit_Definition_Schema_V1.json.",
+      "failure_code": "INVALID_SCHEMA"
+    },
+    {
+      "rule_id": "UDV-002",
+      "severity": "BLOCKER",
+      "title": "Stable ID verification",
+      "test": "Implementation-targeted records require a non-empty stable_unit_id and Registry evidence. Candidate examples are insufficient.",
+      "failure_code": "BLOCKED_REGISTRY_ID"
+    },
+    {
+      "rule_id": "UDV-003",
+      "severity": "BLOCKER",
+      "title": "Canonical path verification",
+      "test": "Any requested write requires a verified canonical_path owned by the current repository architecture.",
+      "failure_code": "BLOCKED_CANONICAL_PATH"
+    },
+    {
+      "rule_id": "UDV-004",
+      "severity": "ERROR",
+      "title": "No active state",
+      "test": "Definition must not contain current personnel, location, commander assignment, morale, fatigue, ammunition, equipment fill, supply quantity, readiness, or current formation state.",
+      "failure_code": "ACTIVE_STATE_IN_DEFINITION"
+    },
+    {
+      "rule_id": "UDV-005",
+      "severity": "ERROR",
+      "title": "Realm ownership",
+      "test": "Realm eligibility must be explicit. Theater placement or cultural similarity must not grant cross-realm ownership.",
+      "failure_code": "AMBIGUOUS_REALM_OWNER"
+    },
+    {
+      "rule_id": "UDV-006",
+      "severity": "ERROR",
+      "title": "Roster slot",
+      "test": "Unit must point to an approved roster and family. A missing role cannot justify invention.",
+      "failure_code": "NO_APPROVED_ROSTER_SLOT"
+    },
+    {
+      "rule_id": "UDV-007",
+      "severity": "ERROR",
+      "title": "Distinct gameplay value",
+      "test": "Unit must differ materially through recruitment, institution, region, equipment, training, role, campaign burden, politics, AI use, lineage, or opportunity cost.",
+      "failure_code": "COSMETIC_DUPLICATE"
+    },
+    {
+      "rule_id": "UDV-008",
+      "severity": "ERROR",
+      "title": "Recruitment source separation",
+      "test": "A building, culture value, population record, obligation, region, port, order, or equipment profile must not be treated as a recruited unit or complete recruitment pool.",
+      "failure_code": "RECRUITMENT_ENTITY_COLLAPSE"
+    },
+    {
+      "rule_id": "UDV-009",
+      "severity": "ERROR",
+      "title": "Equipment authority",
+      "test": "Exact equipment must reference an approved profile. Generic cultural aesthetics do not prove equipment.",
+      "failure_code": "UNSUPPORTED_EQUIPMENT"
+    },
+    {
+      "rule_id": "UDV-010",
+      "severity": "ERROR",
+      "title": "Formation boundary",
+      "test": "Formation eligibility may be defined, but runtime formation state and bespoke formation engines are prohibited.",
+      "failure_code": "FORMATION_OWNERSHIP_VIOLATION"
+    },
+    {
+      "rule_id": "UDV-011",
+      "severity": "ERROR",
+      "title": "Conditional counterplay",
+      "test": "Anti-class roles must not claim immunity or deterministic victory. Strength depends on supported conditions and counterplay.",
+      "failure_code": "DETERMINISTIC_COMBAT_CLAIM"
+    },
+    {
+      "rule_id": "UDV-012",
+      "severity": "BLOCKER",
+      "title": "Tactical values",
+      "test": "New or promoted tactical statistics require current scale ownership, comparator evidence, and applicable battle validation.",
+      "failure_code": "BLOCKED_TACTICAL_SCALE"
+    },
+    {
+      "rule_id": "UDV-013",
+      "severity": "ERROR",
+      "title": "Lineage substance",
+      "test": "Lineage must describe meaningful recruitment, equipment, training, role, availability, cost, regional, or institutional change. Rename-only lineage fails.",
+      "failure_code": "EMPTY_LINEAGE"
+    },
+    {
+      "rule_id": "UDV-014",
+      "severity": "ERROR",
+      "title": "Era and history",
+      "test": "Era scope constrains plausibility but must not automatically unlock, replace, or upgrade a unit. Historical outcomes cannot be mandatory.",
+      "failure_code": "DETERMINISTIC_ERA_OR_HISTORY"
+    },
+    {
+      "rule_id": "UDV-015",
+      "severity": "ERROR",
+      "title": "Late Era authorization",
+      "test": "Late Era production requires explicit authorization. Retained source references alone are insufficient.",
+      "failure_code": "UNAUTHORIZED_LATE_ERA"
+    },
+    {
+      "rule_id": "UDV-016",
+      "severity": "ERROR",
+      "title": "Historical classification",
+      "test": "Terminology, chronology, equipment, organization, and counterfactual claims require an explicit claim status and source references.",
+      "failure_code": "UNCLASSIFIED_HISTORICAL_CLAIM"
+    },
+    {
+      "rule_id": "UDV-017",
+      "severity": "ERROR",
+      "title": "Selective inheritance",
+      "test": "Imported mechanics or mod-derived ideas require a selective_inheritance_record. Source names and synopses are not proof and are not exhaustive limits.",
+      "failure_code": "UNRECORDED_SELECTIVE_INHERITANCE"
+    },
+    {
+      "rule_id": "UDV-018",
+      "severity": "ERROR",
+      "title": "AI transparency",
+      "test": "AI guidance must include recruitment priorities, avoidance conditions, support, supply awareness, decisive reasons, and blockers. Hidden bonuses are prohibited.",
+      "failure_code": "INCOMPLETE_AI_GUIDANCE"
+    },
+    {
+      "rule_id": "UDV-019",
+      "severity": "ERROR",
+      "title": "Full presentation card",
+      "test": "Description, availability, recruitment, lineage, cultural path, player use, historical flavor, visual brief, related units, and designer notes must be present or explicitly classified.",
+      "failure_code": "INCOMPLETE_PRESENTATION"
+    },
+    {
+      "rule_id": "UDV-020",
+      "severity": "ERROR",
+      "title": "Visual evidence boundary",
+      "test": "Visual notes or images must not prove ownership, equipment inventory, culture state, active availability, or tactical values.",
+      "failure_code": "VISUAL_EVIDENCE_OVERREACH"
+    },
+    {
+      "rule_id": "UDV-021",
+      "severity": "ERROR",
+      "title": "Legacy preservation",
+      "test": "Modernization must preserve or ledger legacy statistics, flavor, references, events, objectives, variants, AI notes, and visual notes.",
+      "failure_code": "SOURCE_CONTENT_LOSS"
+    },
+    {
+      "rule_id": "UDV-022",
+      "severity": "ERROR",
+      "title": "Duplicate comparison",
+      "test": "Same-name, same-role, same-realm, or same-lineage candidates require direct comparison before merge, split, deprecation, or replacement.",
+      "failure_code": "UNRESOLVED_DUPLICATE"
+    },
+    {
+      "rule_id": "UDV-023",
+      "severity": "ERROR",
+      "title": "Modern Medieval II acceptance",
+      "test": "Unit must have readable role, campaign consequence, faction value, strategic recruitment, strengths, weaknesses, credible counterplay, and manageable player workload.",
+      "failure_code": "MODERN_MEDIEVAL_II_TEST_FAILED"
+    },
+    {
+      "rule_id": "UDV-024",
+      "severity": "BLOCKER",
+      "title": "Implementation gate",
+      "test": "Production writes require approved roster, definition, ID, path, schema, Registry evidence, asset inventory, deterministic import plan, rollback, and authorization.",
+      "failure_code": "IMPLEMENTATION_GATE_CLOSED"
+    },
+    {
+      "rule_id": "UDV-025",
+      "severity": "ERROR",
+      "title": "Validation claim discipline",
+      "test": "Static checks cannot be labeled importer, compile, runtime, save/load, migration, replay, performance, balance, or battle validation.",
+      "failure_code": "UNSUPPORTED_VALIDATION_STATUS"
+    }
+  ],
+  "required_validation_output": {
+    "record_id": "required",
+    "schema_result": "required",
+    "rule_results": "required",
+    "errors": "required",
+    "blockers": "required",
+    "warnings": "required",
+    "evidence_refs": "required",
+    "validation_performed": "required",
+    "validation_not_performed": "required",
+    "overall_result": {
+      "enum": [
+        "PassedStaticChecks",
+        "PassedWithWarnings",
+        "Blocked",
+        "Failed"
+      ]
+    },
+    "production_authorized": {
+      "const": false
+    }
+  },
+  "modern_medieval_ii_acceptance_questions": [
+    "Is the battlefield role clear?",
+    "Is the campaign role clear?",
+    "Does the unit strengthen realm or regional identity?",
+    "Does recruitment create strategic meaning?",
+    "Are costs and requirements meaningful?",
+    "Are strengths and weaknesses readable?",
+    "Is counterplay credible?",
+    "Is the unit more than a cosmetic duplicate?",
+    "Are hidden bonuses absent?",
+    "Is history emergent rather than forced?",
+    "Is player micromanagement controlled?",
+    "Can AI explain use and avoidance?",
+    "Can the definition be represented as stable data?",
+    "Are selectively inherited elements adapted rather than copied wholesale?"
+  ]
+}

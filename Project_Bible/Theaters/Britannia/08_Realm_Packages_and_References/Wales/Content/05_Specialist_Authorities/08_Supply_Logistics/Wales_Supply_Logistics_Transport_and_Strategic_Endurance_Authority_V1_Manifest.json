@@ -1,0 +1,24 @@
+{
+  "filename": "Wales_Supply_Logistics_Transport_and_Strategic_Endurance_Authority_V1.md",
+  "bytes": 53319,
+  "lines": 1315,
+  "sections": 50,
+  "sha256": "e4ce1ce0d755ae42ed3f8b8db1a1cab8675e9333f529218cf0d5c2422184d5d6",
+  "checks": {
+    "filename": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "yaml_present": true,
+    "text_separations": true,
+    "modern_medieval_ii": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_em_dash": true,
+    "no_opening_activation": true,
+    "advanced_save_protected": true
+  },
+  "all_checks_passed": true
+}

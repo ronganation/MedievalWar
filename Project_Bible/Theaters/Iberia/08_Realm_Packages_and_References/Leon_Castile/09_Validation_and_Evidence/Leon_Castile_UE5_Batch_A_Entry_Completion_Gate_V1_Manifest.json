@@ -1,0 +1,42 @@
+{
+  "document_id": "Manifest.Gate.LeonCastile.UE5BatchAEntryCompletion.V1",
+  "gate_file": "Leon_Castile_UE5_Batch_A_Entry_Completion_Gate_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 11264,
+  "physical_lines": 297,
+  "sha256": "7295DC2818D92A2AC3666CD42BC94F072D24727A512398CABBFF28421627E34C",
+  "status": "DocumentationPreparationCompleteBatchAEntryBlocked",
+  "entry_disposition": "BLOCKED",
+  "allowed_label": "BatchADocumentationPackagePreparedPauseMaintained",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "prepared_artifact_count": 6,
+    "owner_count": 13,
+    "resolved_owner_count": 0,
+    "offline_output_count": 6,
+    "documentation_pass": true,
+    "entry_block": true,
+    "no_mutation": true
+  },
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Source": 0,
+    "Configuration": 0,
+    "Assets": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "next_authorized_work": "OfflineEvidenceClosureThenAuthorizedActiveRootInspection",
+  "all_static_checks_pass": true
+}

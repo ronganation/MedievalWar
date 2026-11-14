@@ -1,0 +1,22 @@
+{
+  "document": "Ireland_README_V1_Current_Authority_Refinement.md",
+  "passed": true,
+  "checks": {
+    "existing_folders": true,
+    "no_new_folders": true,
+    "authority_chain": true,
+    "registry_chain": true,
+    "character_portfolio": true,
+    "dynasty_portfolio": true,
+    "specialist_coverage": true,
+    "finite_sequence": true,
+    "three_track": true,
+    "honest_status": true,
+    "no_registry_mutation": true,
+    "no_em_dash": true,
+    "balanced_fences": true,
+    "removal_zero": true,
+    "stable_footer": true
+  },
+  "validation_scope": "static package-control and navigation authority only; physical inventory, reference closure, owner decisions, deferred-scope disposition, and implementation evidence remain pending"
+}

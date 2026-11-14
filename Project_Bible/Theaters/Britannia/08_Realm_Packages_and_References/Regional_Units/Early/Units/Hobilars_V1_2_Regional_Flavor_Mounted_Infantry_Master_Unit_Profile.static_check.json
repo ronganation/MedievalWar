@@ -1,0 +1,17 @@
+{
+  "document": "Hobilars_V1_2_Regional_Flavor_Mounted_Infantry_Master_Unit_Profile.md",
+  "sha256": "7850c34bf457d27f33f4c21c482b067b281da87f288c41af19e838d5d67ac9ad",
+  "checks": {
+    "hash_matches": true,
+    "appendix_present": true,
+    "complete_v1_1_appended": true,
+    "complete_v1_chain_present": true,
+    "regional_expressions_5": true,
+    "regional_flavor_constitution": true,
+    "opening_false": true,
+    "fences_balanced": true,
+    "no_em_dash": true,
+    "nonmutation": true
+  },
+  "pass": true
+}

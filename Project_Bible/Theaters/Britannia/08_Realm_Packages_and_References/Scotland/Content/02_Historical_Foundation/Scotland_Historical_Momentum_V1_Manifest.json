@@ -1,0 +1,63 @@
+{
+  "document_id": "manifest.scotland.historical-momentum.v1",
+  "version": "1.0.0",
+  "immediate_source": {
+    "filename": "Scotland_Historical_Memory_V1.md",
+    "bytes": 50848,
+    "lines": 1271,
+    "sha256": "421bedb98a3058b41250133c039605c4a945d11b372f0bf7b1c764950c36f98e",
+    "complete_source_verified": true
+  },
+  "upstream_authorities": [
+    {
+      "filename": "Scotland_Historical_Timeline_and_Chronology_V1.1_Detailed_Expansion.md",
+      "sha256": "719e386cb1ec2a27401588d2cc4acbee64e044ef2cff8c878ce715e155d58ebf"
+    },
+    {
+      "filename": "Scotland_Historical_Evidence_Register_V1.md",
+      "sha256": "3e17f7c70d9c0d629ce5605538156019ee83175e945659ba9fe02f4c28f4b2d1"
+    },
+    {
+      "filename": "Scotland_Historical_Reconciliation_V1.2_Benchmark_Expansion.md",
+      "sha256": "747fb0c7b0d47325c4fa043bafc59b9f20b1df69a0d5aeeb138a9c4163a2ad7d"
+    }
+  ],
+  "successor": {
+    "filename": "Scotland_Historical_Momentum_V1.md",
+    "bytes": 52531,
+    "lines": 1336,
+    "sha256": "4b79fb089d5bb05dcbb796e5255fdcd6d858452e61083dfb83eddb80721cba42"
+  },
+  "content_inventory": {
+    "momentum_families": 10,
+    "candidate_momentum_records": 18,
+    "collision_records": 12,
+    "source_contribution_types": 8,
+    "resistance_types": 10,
+    "reinforcement_types": 8,
+    "decay_rules": 10,
+    "validation_cases": 14,
+    "issue_codes": 15
+  },
+  "preservation": {
+    "memory_family_inputs_covered": true,
+    "legacy_severity_labels_preserved_as_provenance": true,
+    "later_history_firewall_preserved": true,
+    "Gille_identity_collision_preserved": true,
+    "Underage_boundary_preserved": true
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "source_deletion": false,
+    "source_archival": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Scotland_Historical_Momentum_V1_Static_Check.json",
+    "sha256": "2c10a8287ab7ecf721d1fa1258b946f9d63a4bf0951dba90937ee1604fbd7610",
+    "passed": true
+  }
+}

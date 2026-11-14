@@ -1,0 +1,17 @@
+{
+  "file": "Teutonic_Sergeant_Brothers_V1_Admission_and_Role_Decision_FULL.md",
+  "sha256": "4ff2bc1ba16d6b4aa370b4a2f955d357757f6c86241364669a71d141c0eefc1e",
+  "bytes": 24381,
+  "words": 2132,
+  "h2_sections": 22,
+  "all_32_fixtures_present": true,
+  "fences_balanced": true,
+  "one_screen_card_present": true,
+  "admission_decision_present": true,
+  "opening_not_activated": true,
+  "implementation_not_authorized": true,
+  "escaped_underscore_absent": true,
+  "escaped_hyphen_absent": true,
+  "battle_tests_executed": false,
+  "unreal_runtime_validated": false
+}

@@ -1,0 +1,17 @@
+{
+  "document": "README_England_Units_Current_Work_Index_V1_3_FULL.md",
+  "sha256": "5ebe10ad2729946b6593684485f2eef66067c1b36568860aebbf591a02ecb8f0",
+  "pass": true,
+  "checks": {
+    "larger_than_source": true,
+    "all_v12_numbered_sections_preserved": true,
+    "organization_evidence_preserved": true,
+    "complete_folder_model_preserved": true,
+    "implementation_handoff_preserved": true,
+    "path_indexes_added": true,
+    "mounted_profiles_added": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer": true
+  }
+}

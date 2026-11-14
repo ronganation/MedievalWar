@@ -1,0 +1,7 @@
+Order,RelativePath,Action,ExistingModificationAllowed,Purpose
+1,Public/MWFranceTransactionRecovery.h,Add,false,Review-only request recovery and receipt contracts
+2,Public/MWFranceTransactionRecoveryPreflight.h,Add,false,Fail-closed validation contract
+3,Private/MWFranceTransactionRecovery.cpp,Add,false,Deterministic staging recovery and receipt implementation
+4,Private/MWFranceTransactionRecoveryPreflight.cpp,Add,false,Transaction preflight evaluation
+5,Private/Tests/MWFranceTransactionRecoveryTests.cpp,Add,false,16 direct tests
+6,Private/Tests/MWFranceTransactionRecoveryPreflightTests.cpp,Add,false,8 preflight tests

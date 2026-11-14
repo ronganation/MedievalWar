@@ -1,0 +1,20 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "preferences_14": true,
+    "postures_8": true,
+    "reason_codes_26": true,
+    "three_tracks": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "opening_zero": true,
+    "honest_validation": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "4e6988859fc9e80a7591fdfd6abe9b60a93e55eabfd9d8de4e395d1003a5efc8",
+  "Bytes": 59130,
+  "Lines": 1371,
+  "Scope": "Static content and authority-boundary checks only"
+}

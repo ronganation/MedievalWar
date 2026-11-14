@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0",
+  "document_type": "RealmEconomyPropertyTreasuryProductionTradeAuthority",
+  "file": "Ireland_Economy_Property_Treasury_Production_and_Trade_Authority_V1.md",
+  "bytes": 40485,
+  "lines": 904,
+  "sha256": "5c88c3c861c324658e16f5fa5bcc764b1993115d1c35d9b869d9c865fe8db440",
+  "authority_origin": "SourceFirstSpecialistGapDevelopment",
+  "gap_decision_source": "Ireland_Specialist_Authority_Inventory_and_Gap_Decision_V1.md",
+  "integration_source": "Economic_Geography_Settlement_Value_and_Diplomatic_Exchange_V1.md",
+  "substantive_sections": 43,
+  "validation_cases": 44,
+  "opening_numeric_values_created": 0,
+  "source_authorities_modified": 0,
+  "records_activated": 0,
+  "static_check_file": "Ireland_Economy_Property_Treasury_Production_and_Trade_Authority_V1_Static_Check.json",
+  "static_check_sha256": "cec8b8bcc29b1ab21dd015c9807dfc37dd4c14f67ea4c81cd5a7db26d12af50d",
+  "validation_scope": "content static checks only; no owner promotion, Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, or payload validation"
+}

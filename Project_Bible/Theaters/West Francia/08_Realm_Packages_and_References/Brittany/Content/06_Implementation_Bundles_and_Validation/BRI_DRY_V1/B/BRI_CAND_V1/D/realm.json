@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "disposition": "Candidate",
+      "owner_authority": "Brittany_Opening_State_1062_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "realm_scope": "realm.brittany",
+      "record_kind": "RealmDefinition",
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "stable_id": "realm.brittany",
+      "temporal_model": {
+        "biological_months": 7,
+        "campaign_season_steps": 1,
+        "historical_months": 21,
+        "season_order": [
+          "Winter",
+          "Spring",
+          "Summer",
+          "Autumn"
+        ]
+      },
+      "validation_state": "UnvalidatedCandidate"
+    }
+  ]
+}

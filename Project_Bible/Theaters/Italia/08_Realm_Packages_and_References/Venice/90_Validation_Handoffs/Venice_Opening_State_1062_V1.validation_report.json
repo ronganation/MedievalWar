@@ -1,0 +1,46 @@
+{
+  "reportId": "VEN_OPENING_STATE_1062_VALIDATION_REPORT_V1",
+  "generatedAtUtc": "2026-09-22T23:04:41.540141+00:00",
+  "mode": "staticCandidateValidationOnly",
+  "artifactHashes": {
+    "Venice_Opening_State_1062_V1.json": "9b33751c472c07ee9e7fbbc1bc5647960a3f007477c9ff3412d9518d08337b2b",
+    "Venice_Opening_State_1062_V1.schema.json": "90fa6adc3c5383fee57b9d31e07faa7118cf760a1ad313856f30f341d7a8d763",
+    "Venice_Opening_State_1062_V1.validation.json": "f325abfb5a318137d222bed655544777af7fec4b0513f374d6e9dc5072baf02a",
+    "Venice_Opening_State_1062_V1.owner_routing.json": "a3378969916931cbdb1f15c98f0dc6cf081d691313386b086cd247782f5591fd",
+    "Venice_Opening_State_1062_V1.fixtures.json": "34981c7476057946719d9bd7e5429875693ffe7e498c36826bfcf20f284ff840"
+  },
+  "parserResult": "pass",
+  "schemaResult": "pass",
+  "schemaErrors": [],
+  "policyResults": {
+    "schemaValidation": "pass",
+    "uniqueSectionIds": "pass",
+    "allSectionsReviewOnly": "pass",
+    "acceptedSetEmpty": "pass",
+    "applicationUnauthorized": "pass",
+    "authoritativeMutationCount": "pass"
+  },
+  "ownerRoutingResult": "structural-pass",
+  "registryReferenceResult": "blocked-unpublished",
+  "externalLockResult": "structural-pass-no-active-bindings",
+  "fixtureResults": {
+    "syntheticPackagePresent": true,
+    "fixturesExecuted": false
+  },
+  "deterministicRepeatResult": "not-run",
+  "authoritativeMutationCount": 0,
+  "rollbackResult": "not-run-contract-only",
+  "blockers": [
+    "D3 current authority not accepted",
+    "Registry identities unpublished",
+    "Owner and external receipt sets unavailable",
+    "Explicit E2 promotion authorization not recorded"
+  ],
+  "promotionDecision": "blocked",
+  "honestLimitations": [
+    "No importer execution",
+    "No runtime validation",
+    "No save or migration validation",
+    "No Unreal validation"
+  ]
+}

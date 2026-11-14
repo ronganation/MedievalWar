@@ -1,0 +1,23 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N09_opening_war_default",
+  "mutated_candidate": {
+    "active_civil_wars": [],
+    "active_rebellions": [],
+    "active_sieges": [],
+    "active_wars": [
+      "war.fabricated"
+    ],
+    "applied": false,
+    "campaign_season": "Winter",
+    "future_person_candidates": [
+      "person.alan_iv_brittany"
+    ],
+    "historical_date": "1062-01-01",
+    "scenario_id": "Scenario.Brittany.1062January",
+    "static_successor_id": null
+  },
+  "result": "PASS",
+  "rule": "IntentionalEmptyNoDefault"
+}

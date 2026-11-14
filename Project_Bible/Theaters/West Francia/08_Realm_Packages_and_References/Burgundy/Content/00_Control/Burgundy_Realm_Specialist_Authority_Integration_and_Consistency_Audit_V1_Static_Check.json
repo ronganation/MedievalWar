@@ -1,0 +1,24 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "register_7": true,
+    "blockers_10": true,
+    "sequence_9": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "opening_blocked": true,
+    "registry_blocked": true,
+    "roster_23": true,
+    "no_mutation": true,
+    "honest": true,
+    "local_rehash_honest": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "AuthoritySHA256": "1e8112c0d5f966e53fe049107c8e6077e50e3cb8f2cd1712f059762e2720f418",
+  "AuthorityBytes": 28691,
+  "AuthorityLines": 574,
+  "Scope": "Static cross-authority dependency, identity, ownership, opening-state, Registry, state-safety, implementation-readiness, and hygiene audit"
+}

@@ -1,0 +1,23 @@
+{
+  "document": "Holland_House_of_Holland_Dynasty_Authority_V1_1_Mature_Double_Checked.md",
+  "version": "1.1.0",
+  "bytes": 32937,
+  "lines": 1062,
+  "sha256": "541fcd6be6142c15a0bdd38355f305a89b0b9e28a47999d3694482e94a75e92b",
+  "utf8_valid": true,
+  "balanced_fences": true,
+  "source_preserved": true,
+  "opening_living_members_candidate": 3,
+  "deceased_predecessor_members_candidate": 1,
+  "affinity_interfaces_candidate": 1,
+  "opening_branches": 0,
+  "implementation_validation": {
+    "compile": false,
+    "runtime": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "unreal": false
+  },
+  "result": "PASS_AT_STATIC_AUTHORING_SCOPE"
+}

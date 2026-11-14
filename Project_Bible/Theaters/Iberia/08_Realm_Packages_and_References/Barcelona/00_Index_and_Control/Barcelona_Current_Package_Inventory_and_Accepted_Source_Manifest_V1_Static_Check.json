@@ -1,0 +1,24 @@
+{
+  "FileName": "Barcelona_Current_Package_Inventory_and_Accepted_Source_Manifest_V1.json",
+  "Version": "1.0.0",
+  "SHA256": "a24e12282502b1325b60763c66db4cec036a66656086c8fb895e5044ebbfba2e",
+  "Bytes": 15961,
+  "VerifiedRecordCount": 22,
+  "AttachedFullTextReviewedCount": 9,
+  "CompleteLocalHashCount": 9,
+  "UnavailableHashCount": 13,
+  "PhysicalPackageInventoryComplete": false,
+  "ValidationResult": "PASS",
+  "Checks": {
+    "json_parse": true,
+    "record_count": true,
+    "attached_full_text_count": true,
+    "physical_inventory_honest": true,
+    "no_inferred_hashes": true,
+    "three_tracks": true,
+    "opening_source_present": true,
+    "unreal_handoff_present": true,
+    "zero_mutations": true,
+    "next_gap_audit": true
+  }
+}

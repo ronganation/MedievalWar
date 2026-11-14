@@ -1,0 +1,19 @@
+{
+  "document_id": "static-check.england.settlements_ports_sites.v1",
+  "version": "1.0.0",
+  "output_file": "England_Settlements_Ports_and_Strategic_Sites_V1.md",
+  "checks": {
+    "created": true,
+    "depth": true,
+    "sections": true,
+    "opening_once": true,
+    "temporal": true,
+    "candidate_bundles": true,
+    "owners": true,
+    "no_escapes": true,
+    "no_activation": true,
+    "validation_false": true,
+    "single_footer": true
+  },
+  "passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "document": "Mounted_Sergeants_V2_Master_Unit_Profile.md",
+  "sha256": "a99e9a602ce09d109a9f3d5f68c0d58d6d92f2acd31f8723fa4be07a01d1822a",
+  "checks": {
+    "fixed_ultra_withdrawn": true,
+    "cavalry_scale_curve": true,
+    "unit_depth": true,
+    "1100_claim_honest": true,
+    "terrain": true,
+    "footer_final": true,
+    "size_over_30kb": true
+  },
+  "pass": true
+}

@@ -1,0 +1,268 @@
+{
+  "documentControl": {
+    "documentId": "manifest.shared.military-battles.authority-family.source-static-check.v1",
+    "stableDocumentId": "Manifest.MilitaryBattles.AuthorityFamily.SourceStaticCheck",
+    "filename": "Military_and_Battles_Authority_Family_Source_Manifest_and_Static_Check_V1.json",
+    "version": "1.0.0",
+    "revisionDate": "2026-09-20",
+    "documentType": [
+      "AuthorityFamilySourceManifest",
+      "MachineReadableStaticCheck",
+      "EvidenceBoundaryAndNonmutationReceipt"
+    ],
+    "constitutionalAuthority": "Project Bible 2.4",
+    "operationalAuthority": "Design Expansion Checklist 3.7",
+    "architectureAuthority": "Framework Architecture Map V2",
+    "implementationTarget": "Unreal Engine 5.8",
+    "status": "PASS_STATIC_FAMILY_MANIFEST_WITH_OWNER_ADOPTION_AND_REPOSITORY_EVIDENCE_LIMITATIONS"
+  },
+  "temporalConstitution": {
+    "historicalProgression": "21 months per strategic turn",
+    "biologicalProgression": "7 months per strategic turn",
+    "campaignSeasonProgression": "1 ordered Winter, Spring, Summer, Autumn step per strategic turn",
+    "tracksIndependent": true
+  },
+  "familyReadingOrder": [
+    {
+      "order": 1,
+      "filename": "Military_Battle_Unit_Content_UI_and_Production_Cross_Folder_Source_Inventory_and_Authority_Disposition_V1.md",
+      "role": "CrossFolderDiscoveryAndArtifactClassPreflight",
+      "sha256": "6d41b8754f37ca1c81e0694e3079772e86c5ffa152801a033b8d384757eb0ac3",
+      "hashEvidence": "CreatedAndValidatedInCurrentWorkstream"
+    },
+    {
+      "order": 2,
+      "filename": "Military_Battle_Unit_Content_UI_and_Production_Exact_Physical_Path_Hash_Metadata_and_Companion_Inventory_V1.json",
+      "role": "ExactKnownPhysicalEvidenceInventory",
+      "sha256": "7ec20574f0cb7295d7780586e2b7a2b7bd556533a02fe5d26f584e0bb39171a7",
+      "hashEvidence": "CreatedAndValidatedInCurrentWorkstream"
+    },
+    {
+      "order": 3,
+      "filename": "Military_Battle_Unit_Content_UI_and_Production_Currentness_Duplicate_Lineage_and_Placement_Disposition_Ledger_V1.md",
+      "role": "CurrentnessDuplicateLineageAndPlacementDisposition",
+      "sha256": "77b303fc5781f989bbade84cba37199fb5a5053b460682f54355c0a7462df718",
+      "hashEvidence": "CreatedAndValidatedInCurrentWorkstream"
+    },
+    {
+      "order": 4,
+      "filename": "Military_and_Battles_Authority_Family_Bounded_Assessment_Ownership_Gap_and_Development_Disposition_V1.md",
+      "role": "OwnershipGapAndDevelopmentDecision",
+      "sha256": "8e4c7785b2098323078f31f237d7d71247541c470678bb1d342f2dfcddff91e3",
+      "hashEvidence": "CreatedAndValidatedInCurrentWorkstream"
+    },
+    {
+      "order": 5,
+      "filename": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.md",
+      "role": "StrongestSharedMilitaryContentParentCandidate",
+      "sha256": "e35589993c0a3a54de3ccd8b93ea9e542f0c5f0663e062e59cded1b8295930bc",
+      "hashEvidence": "ExistingManifestAndStaticCheck"
+    },
+    {
+      "order": 6,
+      "filename": "Military_Battle_Preview_UI_and_Player_Explanation_Interface_Review_V1.md",
+      "role": "BattlePreviewAndPreBattleExplanationInterface",
+      "sha256": "48bffe11c45c1cc7ae9111a873859874c41d52117bd25f8a3c1f351317ca2545",
+      "hashEvidence": "CreatedAndValidatedInCurrentWorkstream"
+    },
+    {
+      "order": 7,
+      "filename": "Developed_Realm_Military_Content_Recruitment_Campaign_Operations_and_Battle_Compatibility_Review_V1.md",
+      "role": "DevelopedRealmAndTheaterCompatibilityDisposition",
+      "sha256": "a9a181d422199e9784dcdf41fe3a5afa9e151f292a9c1ae2d92eaeb85595f22f",
+      "hashEvidence": "CreatedAndValidatedInCurrentWorkstream"
+    },
+    {
+      "order": 8,
+      "filename": "Military_and_Battles_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "role": "CurrentNavigationLineageLegacyAndAntiChurnControl",
+      "sha256": "3a450ea03bb90a040f440ba3382fd8b54842c2ddeaa0b753e9a510ead4163e59",
+      "hashEvidence": "CreatedAndValidatedInCurrentWorkstream"
+    }
+  ],
+  "parentLineage": {
+    "strongestCurrentCandidate": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.md",
+    "candidateVersion": "1.2.0",
+    "candidateSha256": "e35589993c0a3a54de3ccd8b93ea9e542f0c5f0663e062e59cded1b8295930bc",
+    "immediateSubstantiveSource": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_1.md",
+    "immediateSourceSha256": "68d4f098aef265a2e053e7c13e65b0c08adf0a92d2bb46f62962dcd77ab1a2fe",
+    "historicalSubstantiveSource": "Military_Content_Roster_Recruitment_and_Development_Authority_V1.md",
+    "historicalSourceSha256": "fe5561c874820a0466ecab090ee29d8052014ae3053ba8e4f29a0a36a806835f",
+    "coverageIntegrationSource": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_1_Coverage_Integration.md",
+    "coverageIntegrationSha256": "1e8e1961203661280e158b568f729230c0c0cf94b9a6e0824063385e8f9a1f46",
+    "completeImmediateSourcePreserved": true,
+    "completeCoverageIntegrationPreserved": true,
+    "ownerAdoptionComplete": false,
+    "sourceDeletionAuthorized": false
+  },
+  "knownPhysicalEvidence": {
+    "inventoryFilename": "Military_Battle_Unit_Content_UI_and_Production_Exact_Physical_Path_Hash_Metadata_and_Companion_Inventory_V1.json",
+    "recordCount": 42,
+    "recordsHaveExactPhysicalPathSizeAndSha256": true,
+    "sourceInventories": [
+      "NOR_MIL_01_Authority_Inventory.csv",
+      "DENMARK_00A_Source_Fingerprints.csv"
+    ],
+    "freshRecursiveRepositoryEnumerationPerformed": false,
+    "freshByteRehashPerformed": false,
+    "completeCurrentRepositoryClaimed": false
+  },
+  "authorityRouting": {
+    "sharedMilitaryAuthorities": "KeepInMilitaryContentAuthorities",
+    "militaryLocalStandards": "KeepInMilitaryContentStandards",
+    "projectWideStandardsAndProduction": "KeepWithOwningAreaAndCrossReference",
+    "strategicIntegration": "KeepInIntegrationAuthoritiesAndCrossReference",
+    "implementationSchemasAndRules": "KeepInImplementationAndCrossReference",
+    "realmAndTheaterMilitaryContent": "KeepInOwningRealmAndTheaterPackages",
+    "evidenceAndCompanions": "KeepAdjacentToOwnerOrInOwningEvidenceArea",
+    "immediateSourcesAndLegacyVersions": "RetainInArchiveOrExplicitProvenanceLocation",
+    "malformedOrAmbiguousArtifacts": "QuarantinePendingReview",
+    "rootMilitaryFamilyNavigation": "UseCurrentAuthorityIndexAsUnifiedCrossFolderRouter"
+  },
+  "companionSets": [
+    {
+      "owner": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.md",
+      "companions": [
+        "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.manifest.json",
+        "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.static_check.json"
+      ]
+    },
+    {
+      "owner": "README_Military_Content.md",
+      "companions": [
+        "README_Military_Content.manifest.json",
+        "README_Military_Content.static_check.json"
+      ]
+    },
+    {
+      "owner": "Unit_Definition_and_Card_Authoring_Standard_V1_2.md",
+      "companions": [
+        "Unit_Definition_and_Card_Authoring_Standard_V1_2.manifest.json",
+        "Unit_Definition_and_Card_Authoring_Standard_V1_2.static_check.json"
+      ]
+    },
+    {
+      "owner": "Formation_and_Battlefield_Capability_Definition_Standard_V1.md",
+      "companions": [
+        "Formation_and_Battlefield_Capability_Definition_Standard_V1.manifest.json"
+      ]
+    }
+  ],
+  "battlePreviewDisposition": {
+    "staticSharedInterfaceGap": "ClosedByStaticReview",
+    "newGameplayStateOwnerCreated": false,
+    "runtimeWidgetCreated": false,
+    "finalVisualUiApproved": false,
+    "syntheticPrototypeRequired": true,
+    "hiddenTruthExposureAuthorized": false,
+    "deterministicOutcomePredictionAuthorized": false
+  },
+  "developedRealmDisposition": {
+    "theaterGroupCount": 6,
+    "developedRealmCount": 21,
+    "barcelonaIncluded": true,
+    "sharedArchitectureStatus": "Compatible",
+    "exactRealmOpeningPortfoliosComplete": false,
+    "realmPackageMappingActionsRemaining": true,
+    "oneMilitaryFilePerRealmRequired": false,
+    "massRealmRewriteRequired": false
+  },
+  "staticChecks": {
+    "jsonParse": true,
+    "familyReadingOrderCount": 8,
+    "familyReadingOrderSequential": true,
+    "everyReadingOrderRecordHasSha256": true,
+    "constitutionalAuthorityPresent": true,
+    "operationalAuthorityPresent": true,
+    "implementationTargetUE58": true,
+    "threeTrackTemporalConstitutionPresent": true,
+    "historicalProgression21Months": true,
+    "biologicalProgression7Months": true,
+    "orderedCampaignSeasonsPresent": true,
+    "strongestParentCandidateIdentified": true,
+    "immediateParentSourcePreserved": true,
+    "historicalParentSourcePreserved": true,
+    "parentSourceFilesDeletedZero": true,
+    "knownSpecialistPortfolioRouted": true,
+    "crossFolderArtifactClassesRouted": true,
+    "standardsAndProductionKeptWithOwner": true,
+    "strategicIntegrationKeptWithOwner": true,
+    "implementationSchemasKeptWithOwner": true,
+    "realmAuthoritiesKeptWithRealmOwner": true,
+    "companionFilesNotClassifiedAsDuplicates": true,
+    "legacySourcesDeletionAuthorized": false,
+    "malformedVariantsRoutedToQuarantineReview": true,
+    "battlePreviewSharedInterfaceGapClosedStaticOnly": true,
+    "battlePreviewFinalVisualApprovalComplete": false,
+    "battlePreviewRuntimeWidgetCreated": false,
+    "developedRealmCompatibilityComplete": true,
+    "theaterGroupCount": 6,
+    "developedRealmCount": 21,
+    "barcelonaIncluded": true,
+    "allDeclaredRealmsReviewed": true,
+    "broadSharedFrameworkGapRemaining": false,
+    "oneMilitaryFilePerRealmRequired": false,
+    "massRealmRewriteRequired": false,
+    "physicalFolderConsolidationRequired": false,
+    "freshRecursiveRepositoryEnumerationComplete": false,
+    "freshRepositoryRehashComplete": false,
+    "exactRealmPackageInventoryComplete": false,
+    "ownerAdoptionComplete": false,
+    "registryValidated": false,
+    "openingStateValidated": false,
+    "compileValidated": false,
+    "runtimeValidated": false,
+    "saveLoadValidated": false,
+    "migrationValidated": false,
+    "replayValidated": false,
+    "rollbackExecuted": false,
+    "performanceValidated": false,
+    "accessibilityValidated": false,
+    "localizationValidated": false,
+    "balanceValidated": false,
+    "fileMovesAuthorized": false,
+    "fileMergesAuthorized": false,
+    "fileDeletionsAuthorized": false,
+    "registryMutationAuthorized": false,
+    "openingStateMutationAuthorized": false,
+    "runtimeMutationAuthorized": false,
+    "unrealProjectMutationAuthorized": false,
+    "implementationPromotionAuthorized": false
+  },
+  "nonmutationReceipt": {
+    "filesMoved": 0,
+    "filesRenamed": 0,
+    "filesMerged": 0,
+    "filesDeleted": 0,
+    "foldersCreated": 0,
+    "sharedAuthoritiesModified": 0,
+    "standardsModified": 0,
+    "realmAuthoritiesModified": 0,
+    "implementationSchemasModified": 0,
+    "unitDefinitionsCreatedOrModified": 0,
+    "recruitmentPoolsCreatedOrModified": 0,
+    "armiesCreatedOrModified": 0,
+    "battleInstancesCreated": 0,
+    "uiWidgetsCreated": 0,
+    "registryEntriesCreatedOrModified": 0,
+    "openingStateRecordsCreatedOrModified": 0,
+    "unrealFilesModified": 0,
+    "compileExecuted": false,
+    "runtimeExecuted": false
+  },
+  "limitations": [
+    "Owner adoption of parent and specialist candidates remains incomplete",
+    "Fresh recursive repository enumeration remains incomplete",
+    "Fresh byte rehash of all family files remains incomplete",
+    "Exact Realm Folder 11, 15, 16, 17, and 18 inventories remain incomplete",
+    "Final Battle Preview visual and runtime validation remains incomplete",
+    "No implementation validation is claimed"
+  ],
+  "nextRequiredFile": "Military_and_Battles_Authority_Family_Independent_Static_Closure_Review_V1.md",
+  "manifestReceipt": {
+    "canonicalPayloadSha256BeforeReceipt": "8e298171b3741cf9ebfa9f71d947fa8aa295ac4ff08a134ac5ea57e0500e871e",
+    "jsonIndent": 2,
+    "encoding": "UTF-8",
+    "lineEndings": "LF"
+  }
+}

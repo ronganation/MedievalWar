@@ -1,0 +1,31 @@
+{
+  "Result": "Pass",
+  "FileName": "Sancha_of_Aibar_V1_Developed_Historical_Support_Character_Authority.md",
+  "Version": "1.0.0",
+  "SHA256": "261130684f32cf96d3ef27120ff0551d4a20e782aa5984a411f12fed8070fe15",
+  "Bytes": 10731,
+  "Lines": 243,
+  "Checks": {
+    "bytes": 10731,
+    "lines": 243,
+    "focused_not_general": true,
+    "opening_inactive": true,
+    "survival_unresolved": true,
+    "name_collision_control": true,
+    "repeated": {},
+    "escaped_underscore": 0,
+    "escaped_hyphen": 0,
+    "em_dash": 0,
+    "balanced": true
+  },
+  "AllChecksPass": true,
+  "MutationReceipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Property": 0,
+    "Relationships": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "NextFile": "Amuna_V1_Developed_Historical_Support_Character_Authority.md"
+}

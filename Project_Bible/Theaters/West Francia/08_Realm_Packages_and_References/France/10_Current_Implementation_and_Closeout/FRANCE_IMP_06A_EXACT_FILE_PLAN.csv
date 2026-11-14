@@ -1,0 +1,7 @@
+Order,RelativePath,Action,ExistingModificationAllowed,Purpose
+1,Public/MWFranceTerritoryCommunityEconomyProjection.h,Add,false,Immutable review contracts and result types
+2,Public/MWFranceTerritoryCommunityEconomyPreflight.h,Add,false,Fail-closed provenance and boundary preflight
+3,Private/MWFranceTerritoryCommunityEconomyProjection.cpp,Add,false,Deterministic caller-supplied review projection
+4,Private/MWFranceTerritoryCommunityEconomyPreflight.cpp,Add,false,Dependency and unresolved-state validation
+5,Private/Tests/MWFranceTerritoryCommunityEconomyProjectionTests.cpp,Add,false,Direct deterministic projection tests
+6,Private/Tests/MWFranceTerritoryCommunityEconomyPreflightTests.cpp,Add,false,Direct fail-closed boundary tests

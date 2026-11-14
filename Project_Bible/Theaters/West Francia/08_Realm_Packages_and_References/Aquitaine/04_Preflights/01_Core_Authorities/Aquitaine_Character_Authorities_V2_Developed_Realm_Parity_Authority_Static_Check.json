@@ -1,0 +1,22 @@
+{
+  "Target": "Aquitaine_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "source_literal_body_present": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_present": true,
+    "project_bible_2_4_present": true,
+    "checklist_3_7_present": true,
+    "ue5_8_present": true,
+    "three_track_time_present": true,
+    "barbastro_optional": true,
+    "stable_footer_once": true,
+    "final_marker_correct": true,
+    "markdown_fences_balanced": true,
+    "no_em_dash": true
+  },
+  "MissingSourceHeadings": [],
+  "SHA256": "bc15368aa37873cdf90ede2a01707820c52a14e82e4cdaf76cb4b832074d6879",
+  "Bytes": 67279,
+  "Lines": 2263
+}

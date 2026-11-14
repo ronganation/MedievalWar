@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Strategic_Geography_Regions_Settlements_Routes_Ports_and_Control_Authority_V1_1_FULL.md",
+  "bytes": 43336,
+  "lines": 944,
+  "sections": 39,
+  "validation_cases": 36,
+  "checks": {
+    "large_successor": true,
+    "sections_at_least_33": true,
+    "source_named": true,
+    "preserve_enrich": true,
+    "validations_36": true,
+    "portfolios": true,
+    "developed_candidate_portfolio": true,
+    "cartographic_standard": true,
+    "expanded": true,
+    "preserved": true,
+    "three_track": true,
+    "honest": true,
+    "no_mutation": true,
+    "no_escaped": true,
+    "no_em_dash": true,
+    "all_pass": true
+  }
+}

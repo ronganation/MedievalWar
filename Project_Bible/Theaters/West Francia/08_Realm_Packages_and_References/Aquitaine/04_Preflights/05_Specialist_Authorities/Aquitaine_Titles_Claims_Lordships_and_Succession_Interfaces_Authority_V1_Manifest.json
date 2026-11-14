@@ -1,0 +1,34 @@
+{
+  "DocumentType": "AuthorityManifest",
+  "ManifestVersion": "1.0.0",
+  "AuthorityFile": "Aquitaine_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+  "AuthorityVersion": "1.0.0",
+  "GeneratedDate": "2026-09-05",
+  "SHA256": "5abfded290b48f992a07112b2606c597957e8b9593c399fa6458908e8232cf37",
+  "ByteCount": 40819,
+  "LineCount": 1215,
+  "MarkdownHeadingCount": 58,
+  "MarkdownFenceCount": 120,
+  "ReviewTarget": "Aquitaine",
+  "ImmediateSource": null,
+  "SourceTreatment": "NewSpecialistAuthorityFromCurrentAquitaineAuthoritySuite",
+  "PrimaryBenchmark": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+  "ForeignStateTransferred": false,
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "TitleActivations": 0,
+    "ClaimActivations": 0,
+    "LordshipActivations": 0,
+    "SuccessionActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "ValidationSummary": {
+    "Checks": 15,
+    "Passes": 15,
+    "Failures": 0,
+    "Result": "Pass"
+  }
+}

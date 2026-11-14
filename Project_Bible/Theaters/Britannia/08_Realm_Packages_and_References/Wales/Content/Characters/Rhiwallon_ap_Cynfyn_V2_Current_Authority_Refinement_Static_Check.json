@@ -1,0 +1,43 @@
+{
+  "document_id": "static-check.wales.rhiwallon-ap-cynfyn.v2.current-authority-refinement",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Rhiwallon_ap_Cynfyn.md",
+    "bytes": 38170,
+    "physical_lines": 992,
+    "sha256": "ae19b911c3fd29c03e2ff4656516f7dde5867729ee3945a5c4126579b8235abb"
+  },
+  "successor": {
+    "filename": "Rhiwallon_ap_Cynfyn_V2_Current_Authority_Refinement.md",
+    "bytes": 62960,
+    "physical_lines": 1688,
+    "sha256": "f608cbe183f80af60c20c40b2c06e9c0dc30261edeebefdaeefa10dc253bad27"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "current_opening_date": true,
+    "canonical_person_id": true,
+    "active_opening_participation": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "character_standard_3_0": true,
+    "UE_5_8_target": true,
+    "historical_21_months": true,
+    "biological_7_months": true,
+    "campaign_season_order": true,
+    "four_BasisOnly_edges": true,
+    "zero_relationship_dimensions": true,
+    "no_opening_title": true,
+    "no_opening_claim": true,
+    "no_opening_command": true,
+    "later_history_firewall": true,
+    "save_protection": true,
+    "honest_validations": true,
+    "authorizations_false": true,
+    "removed_content_empty": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

@@ -1,0 +1,83 @@
+{
+  "StaticCheckType": "AquitaineRouteAuthorityStaticCheck",
+  "AuthorityFile": "Aquitaine_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+  "AuthoritySHA256": "37a52007bfc61f4a3b197694d91f048b2fdc8820993466c8081364e3dd2b2c13",
+  "Checks": [
+    {
+      "Name": "AquitaineReviewTargetPresent",
+      "Passed": true
+    },
+    {
+      "Name": "FranceBenchmarkOnlyPresent",
+      "Passed": true
+    },
+    {
+      "Name": "ThreeTrackTimePresent",
+      "Passed": true
+    },
+    {
+      "Name": "PoitersBordeauxAxisPresent",
+      "Passed": true
+    },
+    {
+      "Name": "GasconRoutePortfolioPresent",
+      "Passed": true
+    },
+    {
+      "Name": "PyreneanBoundaryPresent",
+      "Passed": true
+    },
+    {
+      "Name": "MaritimeFleetConflationRejected",
+      "Passed": true
+    },
+    {
+      "Name": "BarbastroInactive",
+      "Passed": true
+    },
+    {
+      "Name": "PermissionGateRejected",
+      "Passed": true
+    },
+    {
+      "Name": "OpeningActivationsZero",
+      "Passed": true
+    },
+    {
+      "Name": "MarkdownFencesBalanced",
+      "Passed": true
+    },
+    {
+      "Name": "EmDashesAbsent",
+      "Passed": true
+    },
+    {
+      "Name": "EscapedUnderscoresAbsent",
+      "Passed": true
+    },
+    {
+      "Name": "StableFooterOnce",
+      "Passed": true
+    },
+    {
+      "Name": "FinalMarkerCorrect",
+      "Passed": true
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 15,
+    "Passes": 15,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "RouteActivations": 0,
+    "CrossingActivations": 0,
+    "MaritimeLaneActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

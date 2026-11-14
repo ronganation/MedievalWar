@@ -1,0 +1,625 @@
+# Prisoner & Captive System
+Medieval War — Systems/Prisoner_Captive_System.md
+
+---
+
+# Overview
+
+The Prisoner & Captive System governs the capture, imprisonment, ransom, release, exchange, recruitment, execution, and political use of captives.
+
+Captives are a strategic resource.
+
+Every prisoner represents a meaningful decision.
+
+The system integrates with:
+
+- Character System
+- Dynasty System
+- Court Politics System
+- Diplomacy & Trade System
+- Religious System
+- Cultural Geography System
+- War Weariness System
+- Loyalty & Public Order System
+- Vassalage System
+- Recruitment System
+- Event System
+- AI Master Template
+
+---
+
+# Core Philosophy
+
+Captives should rarely be disposable.
+
+Historically:
+
+- Nobles were ransomed
+- Kings were exchanged
+- Heirs were protected
+- Religious leaders were politically valuable
+- Skilled soldiers were often recruited
+
+The player should ask:
+
+"What is this captive worth alive?"
+
+not:
+
+"Should I execute them for free bonuses?"
+
+---
+
+# Captive Categories
+
+---
+
+## Common Prisoners
+
+Examples:
+
+- Levy Infantry
+- Militia
+- Raiders
+- Rebels
+
+Value:
+
+Low
+
+---
+
+## Professional Soldiers
+
+Examples:
+
+- Men-at-Arms
+- Sergeants
+- Retainers
+- Mercenaries
+
+Value:
+
+Moderate
+
+---
+
+## Noble Prisoners
+
+Examples:
+
+- Barons
+- Counts
+- Earls
+- Dukes
+- Princes
+
+Value:
+
+High
+
+---
+
+## Dynasty Prisoners
+
+Examples:
+
+- Heirs
+- Claimants
+- Pretenders
+- Royal Family Members
+
+Value:
+
+Very High
+
+---
+
+## Religious Prisoners
+
+Examples:
+
+- Priests
+- Bishops
+- Cardinals
+- Imams
+- Metropolitans
+- High Shamans
+
+Value:
+
+Political and Religious
+
+---
+
+## Military Leaders
+
+Examples:
+
+- Captains
+- Marshals
+- Generals
+- Field Marshals
+
+Value:
+
+Military and Political
+
+---
+
+## Vassal Leaders
+
+Examples:
+
+- Vassal Rulers
+- Clan Chiefs
+- Marcher Lords
+
+Value:
+
+Diplomatic
+
+---
+
+# Sources Of Captives
+
+Captives may be gained through:
+
+- Field Battles
+- Ambushes
+- Siege Victories
+- Rebellions
+- Civil Wars
+- Agent Actions
+- Events
+
+---
+
+# Captive Actions
+
+The player may choose one of several actions.
+
+---
+
+# Release
+
+Captive returns freely.
+
+Effects:
+
+- Honor
+- Reputation
+- Religious Approval
+- Diplomatic Improvement
+
+Possible Traits:
+
+- Merciful
+- Chivalrous
+- Magnanimous
+
+---
+
+# Ransom
+
+Captive returns for payment.
+
+Effects:
+
+- Gold
+- Diplomatic Influence
+- Treasury Gain
+
+Examples:
+
+Common Prisoner:
+Small Payment
+
+Noble:
+Major Payment
+
+Royal Prisoner:
+Exceptional Payment
+
+---
+
+# Exchange
+
+Exchange prisoners for:
+
+- Nobles
+- Heirs
+- Relatives
+- Religious Leaders
+- Generals
+
+Improves diplomatic relations.
+
+---
+
+# Recruit
+
+Only available for eligible captives.
+
+Requirements:
+
+- Loyalty
+- Cultural Similarity
+- Religious Similarity
+
+Examples:
+
+- Raiders
+- Mercenaries
+- Professional Soldiers
+
+Successful recruitment creates veteran troops.
+
+---
+
+# Imprison
+
+Retain captive indefinitely.
+
+Benefits:
+
+- Political leverage
+- Diplomatic leverage
+- Hostages
+
+Risks:
+
+- Escape
+- Rescue attempts
+- Court events
+
+---
+
+# Execute
+
+Permanent removal.
+
+Effects depend heavily on circumstances.
+
+Execution should rarely be a simple decision.
+
+---
+
+# Noble Prisoners
+
+Nobles are extremely valuable.
+
+Possible Uses:
+
+- Ransom
+- Hostage
+- Release
+- Exchange
+- Political Leverage
+
+Executing nobles generates major consequences.
+
+---
+
+# Dynasty Prisoners
+
+Connected directly to the Dynasty System.
+
+Examples:
+
+- Prince
+- Heir
+- Pretender
+
+Effects:
+
+- Succession disruption
+- Dynasty instability
+- Court crises
+- Civil War risk
+
+---
+
+# Hostage System
+
+Special form of imprisonment.
+
+Hostages may:
+
+- Improve peace treaties
+- Improve vassal loyalty
+- Improve diplomatic relations
+
+Hostages are not treated as ordinary prisoners.
+
+---
+
+# Religious Consequences
+
+Religion heavily influences prisoner treatment.
+
+Examples:
+
+Catholic ruler executes Cardinal:
+
+- Religious Loyalty -
+- Papal Approval -
+- Diplomatic Reputation -
+
+Islamic ruler executes respected Imam:
+
+- Religious Stability -
+- Religious Loyalty -
+
+Religious prisoners often generate event chains.
+
+---
+
+# Cultural Consequences
+
+Culture influences reactions.
+
+Examples:
+
+Anglo-Saxon ruler executes Anglo-Saxon Earl:
+
+- Cultural Loyalty -
+- Noble Loyalty -
+- Provincial Stability -
+
+Executing foreign prisoners creates fewer penalties.
+
+---
+
+# Diplomatic Consequences
+
+Captured leaders affect diplomacy.
+
+Examples:
+
+Duke captured:
+
+- Enemy seeks peace
+
+King captured:
+
+- Major diplomatic crisis
+
+Heir captured:
+
+- Succession crisis
+
+Potential diplomatic actions:
+
+- Peace treaty
+- Tribute
+- Land concessions
+- Marriage agreements
+
+---
+
+# Character Reputation Effects
+
+Connected to the Character System.
+
+---
+
+## Positive Reputation
+
+Generated by:
+
+- Release
+- Fair Treatment
+- Honorable Ransoms
+
+Titles:
+
+- The Merciful
+- The Chivalrous
+- The Just
+
+Effects:
+
+- Diplomacy +
+- Loyalty +
+- Prestige +
+
+---
+
+## Negative Reputation
+
+Generated by:
+
+- Executions
+- Torture
+- Mass Prisoner Killings
+
+Titles:
+
+- The Butcher
+- The Cruel
+- The Executioner
+
+Effects:
+
+- Fear +
+- Loyalty -
+- Diplomacy -
+
+---
+
+# Court Politics Integration
+
+Political factions react differently.
+
+Military Bloc:
+
+- Prefers execution
+
+Religious Bloc:
+
+- Prefers mercy
+
+Merchant Bloc:
+
+- Prefers ransom
+
+Noble Bloc:
+
+- Protects noble prisoners
+
+Court conflicts may emerge from prisoner treatment.
+
+---
+
+# Dynasty Integration
+
+Captives influence dynastic politics.
+
+Examples:
+
+- Hostage heirs
+- Captured claimants
+- Imprisoned pretenders
+
+Effects:
+
+- Legitimacy
+- Succession
+- Civil Wars
+
+---
+
+# Vassalage Integration
+
+Captured vassals may:
+
+- Swear loyalty
+- Become hostages
+- Be restored
+- Be replaced
+
+Captive rulers can dramatically affect vassal networks.
+
+---
+
+# War Weariness Integration
+
+Mass executions increase:
+
+- War Weariness
+- Public dissatisfaction
+- Religious unrest
+
+Large prisoner releases may reduce:
+
+- War Weariness
+- Diplomatic tension
+
+---
+
+# Prisoner Escape System
+
+Captives may escape.
+
+Chance affected by:
+
+- Character traits
+- Prison quality
+- Agent actions
+- Court intrigue
+
+Escapes trigger event chains.
+
+---
+
+# Battle Captives
+
+Post-battle prisoners are generated based on:
+
+- Casualties
+- Morale collapse
+- Encirclement
+- Pursuit
+
+Higher-quality victories produce more prisoners.
+
+---
+
+# Siege Captives
+
+Sieges generate additional captives.
+
+Examples:
+
+- Nobles
+- Governors
+- Religious leaders
+- Civilian hostages
+
+Sieges often produce the most politically significant prisoners.
+
+---
+
+# AI Prisoner Logic
+
+AI evaluates:
+
+- Religion
+- Culture
+- Dynasty importance
+- Diplomatic value
+- Military value
+- Personality
+
+AI Personalities:
+
+Merciful Ruler:
+Prefers release
+
+Merchant Ruler:
+Prefers ransom
+
+Cruel Tyrant:
+Prefers execution
+
+Diplomatic Ruler:
+Prefers exchange
+
+Pragmatic Ruler:
+Evaluates value individually
+
+---
+
+# Event Integration
+
+Captives can trigger events.
+
+Examples:
+
+- Escape Attempt
+- Ransom Negotiation
+- Hostage Crisis
+- Execution Scandal
+- Religious Outrage
+- Pretender Rescue
+- Noble Revolt
+
+---
+
+# Notes
+
+The Prisoner & Captive System transforms captives from disposable battle outcomes into strategic political assets.
+
+Captives connect:
+
+Characters
+Dynasties
+Religion
+Culture
+Diplomacy
+War Weariness
+Court Politics
+Vassalage
+
+and should create meaningful decisions rather than obvious optimal choices.

@@ -1,0 +1,28 @@
+﻿{
+    "TaskId":  "DENMARK-00F",
+    "Status":  "InstalledCopyFirstCharacterTagPromotion",
+    "ConfigPath":  "C:\\UnrealProjects\\MedievalWar\\Config\\DefaultGameplayTags.ini",
+    "ConfigSHA256Before":  "0F4ED16139007BB25946B4BD6AD2BAA1CE679B31963FB80E873EE7F5F1C0757A",
+    "ConfigSHA256After":  "02E75D073526757342A4633FFC26B810F183ED9573B6491EC169574A1BA3DF2B",
+    "TestPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\DenmarkNetworkIntegration\\Source\\DenmarkNetworkIntegration\\Private\\Tests\\DenmarkCharacterNetworkGameplayTagTests.cpp",
+    "TestSHA256":  "3B07C4C43A162F018320888688E5AEDF118E13589DE58CC2A43C95226239CFA9",
+    "TagsAdded":  [
+                      "Character.Denmark.SweynEstridsen",
+                      "Character.Denmark.HaraldSweynson",
+                      "Character.Denmark.CanuteSweynson",
+                      "Character.Denmark.EricSweynson",
+                      "Character.Denmark.SigridSweynsdaughter",
+                      "Character.Denmark.WilliamOfRoskilde"
+                  ],
+    "RejectedAlternate":  "Character.Denmark.WilliamRoskilde",
+    "FilesChanged":  1,
+    "FilesAdded":  1,
+    "RollbackConfig":  "C:\\temp2\\DENMARK_00F_Copy_First_Character_Tag_Promotion\\Evidence_DENMARK_00F_20260831_192708\\Rollback\\DefaultGameplayTags.ini",
+    "OwnerCommitted":  false,
+    "RuntimeEnvelopeEligible":  false,
+    "ApplyCalled":  false,
+    "SaveWritten":  false,
+    "RegistryRuntimeStateMutated":  false,
+    "RealmPayloadApplied":  false,
+    "TheaterActivated":  false
+}

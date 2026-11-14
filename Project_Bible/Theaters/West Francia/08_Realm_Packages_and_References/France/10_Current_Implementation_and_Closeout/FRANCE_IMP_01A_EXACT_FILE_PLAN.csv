@@ -1,0 +1,7 @@
+Order,RelativePath,Action,ExistingModificationAllowed,Purpose
+1,Public/MWFranceCampaignInitialization.h,Add,false,Opening context and projection contracts
+2,Public/MWFranceCampaignInitializationPreflight.h,Add,false,Fail-closed preflight contract
+3,Private/MWFranceCampaignInitialization.cpp,Add,false,Deterministic review projection
+4,Private/MWFranceCampaignInitializationPreflight.cpp,Add,false,Preflight evaluation
+5,Private/Tests/MWFranceCampaignInitializationTests.cpp,Add,false,16 direct tests
+6,Private/Tests/MWFranceCampaignInitializationPreflightTests.cpp,Add,false,8 preflight tests

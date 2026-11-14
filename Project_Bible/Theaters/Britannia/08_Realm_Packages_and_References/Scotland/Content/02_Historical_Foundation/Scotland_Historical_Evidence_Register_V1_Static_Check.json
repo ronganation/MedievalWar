@@ -1,0 +1,32 @@
+{
+  "document_id": "static-check.scotland.historical-evidence-register.v1",
+  "version": "1.0.0",
+  "immediate_source": "Scotland_Historical_Reconciliation_V1.2_Benchmark_Expansion.md",
+  "source_bytes": 73769,
+  "source_lines": 1784,
+  "source_sha256": "747fb0c7b0d47325c4fa043bafc59b9f20b1df69a0d5aeeb138a9c4163a2ad7d",
+  "successor": "Scotland_Historical_Evidence_Register_V1.md",
+  "successor_bytes": 39094,
+  "successor_lines": 867,
+  "successor_sha256": "3e17f7c70d9c0d629ce5605538156019ee83175e945659ba9fe02f4c28f4b2d1",
+  "checks": {
+    "immediate_source_recorded": true,
+    "source_hash_available": true,
+    "source_taxonomy": true,
+    "consulted_external_sources": true,
+    "uninspected_sources_labeled": true,
+    "detailed_records": true,
+    "structural_records": true,
+    "exclusions": true,
+    "contradictions": true,
+    "dependencies": true,
+    "validation_matrix": true,
+    "current_baseline": true,
+    "honest_validation": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "stable_footer": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

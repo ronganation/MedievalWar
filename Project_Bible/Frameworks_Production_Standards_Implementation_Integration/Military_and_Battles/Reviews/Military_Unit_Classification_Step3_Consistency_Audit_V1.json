@@ -1,0 +1,953 @@
+{
+  "audit_id": "mw.audit.military-unit-classification-step3-consistency.v1",
+  "file_name": "Military_Unit_Classification_Step3_Consistency_Audit_V1.json",
+  "version": "1.0.0",
+  "revision_date": "2026-10-22",
+  "status": "CompleteForOwnerReviewAfterPostAuditSynchronization",
+  "scope": "Static consistency audit of the Project Bible Step 1 through Step 3C military-unit classification chain, including final Step 3 status and fingerprint synchronization.",
+  "authority": {
+    "project": "Medieval War",
+    "controlling_framework": "Project Bible 2.4",
+    "process_framework": "Design Expansion Checklist 3.7",
+    "implementation_target": "Unreal Engine 5.8",
+    "audit_receipt_only_new_deliverable": true
+  },
+  "audit_disposition": {
+    "result": "PASS_WITH_RESOLVED_FINDINGS",
+    "step_3_status": "CompleteForOwnerReviewAndStep4AuthorizationDecision",
+    "step_3a_status": "Complete",
+    "step_3b_status": "Complete",
+    "step_3c_status": "Complete",
+    "step_3d_status": "Complete",
+    "owner_acceptance": "Pending",
+    "step_4_authorized": false,
+    "scotland_mapping_authorized": false,
+    "live_schema_adoption": false,
+    "next_eligible_gate": "OwnerDecisionOnStep4CrossFactionPilot"
+  },
+  "authority_crosswalk": [
+    {
+      "layer": "Shared classification meaning and implementation grammar",
+      "document_id": "mw.standard.military-unit-quality-provider-development-recruitment-pool-implementation.v1_1",
+      "version": "1.1.0",
+      "file": "Military_Unit_Quality_Provider_Development_and_Recruitment_Pool_Implementation_Standard_V1_1.md",
+      "role": "Controlling shared static meanings for military quality, providers, development, pools, applicability, and the nonactivation boundary.",
+      "relationship": "Feeds the Step 2 static schema and the Step 3A profile integration.",
+      "result": "PASS"
+    },
+    {
+      "layer": "Static classification schema",
+      "document_id": "mw.schema.military-unit-recruitment-classification-static-data.v1.1",
+      "version": "1.1.0",
+      "file": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml",
+      "role": "Review-only static classification schema candidate; not an activated or runtime schema.",
+      "relationship": "Implements the Step 1 vocabulary and is recorded by its validation companion.",
+      "result": "PASS"
+    },
+    {
+      "layer": "Master profile integration",
+      "document_id": "mw.standard.military.master_unit_profile.foundation.v1",
+      "version": "1.1.0",
+      "file": "Master_Unit_Profile_Foundation_V1.md",
+      "role": "Static placement and nonactivating classification integration for Master Unit Profiles.",
+      "relationship": "Consumes Step 1 meanings and Step 2 static schema without creating profiles, runtime bindings, or Opening State records.",
+      "result": "PASS"
+    },
+    {
+      "layer": "Maturity and handoff",
+      "document_id": "mw.standard.military_unit_master_profile_authoring_maturity_game_card_handoff.v1",
+      "version": "1.0.0",
+      "file": "Military_Unit_Master_Profile_Authoring_Implementation_Maturity_and_Game_Card_Handoff_Standard_V1.md",
+      "role": "Separates profile maturity, implementation handoff, and game-card readiness.",
+      "relationship": "Consumes the profile integration and keeps lifecycle promotion gated.",
+      "result": "PASS"
+    },
+    {
+      "layer": "Unit Definition Candidate interface",
+      "document_id": "mw.standard.unit_definition_card_authoring.v1_2",
+      "version": "1.2.1",
+      "file": "Unit_Definition_and_Card_Authoring_Standard_V1_2.md",
+      "role": "Static candidate-transfer interface with explicit separation among profile, candidate, game card, Opening State, and runtime state.",
+      "relationship": "Consumes Step 3A and Step 3B contracts; remains noncanonical and inactive.",
+      "result": "PASS"
+    },
+    {
+      "layer": "Candidate schema",
+      "document_id": "urn:medieval-war:schema:unit-definition:v1.1-current-standards-reconciliation-candidate",
+      "version": "1.1 candidate; version is encoded in the schema identifier",
+      "file": "Unit_Definition_Schema_V1_1_Current_Standards_Reconciliation_Candidate.json",
+      "role": "Draft 2020-12 static candidate schema; not activated.",
+      "relationship": "Implements the Step 3C candidate interface and is covered by its validation rules.",
+      "result": "PASS"
+    },
+    {
+      "layer": "Candidate validation rules",
+      "document_id": "mw.rules.unit-definition-validation.v1.1.current-standards-reconciliation-candidate",
+      "version": "1.1.1",
+      "file": "Unit_Definition_Validation_Rules_V1_1_Current_Standards_Reconciliation_Candidate.json",
+      "role": "Static validation contract for noncanonical Unit Definition Candidates.",
+      "relationship": "Validates the candidate schema, registry resolution, pool-axis integrity, source evidence, lifecycle, and nonactivation constraints.",
+      "result": "PASS"
+    },
+    {
+      "layer": "Fingerprint and static-check evidence",
+      "document_id": "mw.manifest.unit_definition_card_authoring.v1_2",
+      "version": "1.2.1",
+      "file": "Unit_Definition_and_Card_Authoring_Standard_V1_2.manifest.json",
+      "role": "Current standard fingerprint, status, next-gate, and authorization evidence.",
+      "relationship": "Paired with the static-check companion and current Markdown standard.",
+      "result": "PASS"
+    },
+    {
+      "layer": "Next owner-gated action",
+      "document_id": "OwnerDecisionOnStep4CrossFactionPilot",
+      "version": "Not applicable; no Step 4 pilot artifact authorized",
+      "file": null,
+      "role": "Owner decision gate only; not an authorization to execute Step 4 or Scotland mapping.",
+      "relationship": "May proceed only after explicit owner authorization.",
+      "result": "PASS_OWNER_GATE_REMAINS_CLOSED"
+    }
+  ],
+  "consistency_results": [
+    {
+      "check": "Source identity and physical path resolution",
+      "result": "PASS",
+      "evidence": "All 23 audited Project Bible source artifacts are inventoried below with document identifiers where declared, versions, and physical paths."
+    },
+    {
+      "check": "Authority ownership and source relationships",
+      "result": "PASS",
+      "evidence": "Step 1 owns shared static meanings; Step 2 is a review-only schema; Step 3A and Step 3B integrate profile and maturity boundaries; Step 3C defines the noncanonical candidate interface and its validation contract."
+    },
+    {
+      "check": "Classification meaning and independent dimensions",
+      "result": "PASS",
+      "evidence": "Military quality, provider, development, applicability, recruitment access, capacity depth, recovery condition, and pool classification remain distinct concepts; no audit correction collapses these dimensions."
+    },
+    {
+      "check": "Pool-axis integrity and ownership",
+      "result": "PASS",
+      "evidence": "The Step 3C rules require registry resolution, subgroup-parent integrity, and separate pool-axis values; ownership and source evidence remain independent from classification."
+    },
+    {
+      "check": "Applicability and overlap sentinel",
+      "result": "PASS",
+      "evidence": "The MPS.NoKnownOverlap sentinel is constrained to overlap-sentinel use and is not treated as an ordinary pool value."
+    },
+    {
+      "check": "Specialist-source requirements",
+      "result": "PASS",
+      "evidence": "UDV11-048 explicitly states specialist-source requirements for classifications that require them."
+    },
+    {
+      "check": "Lifecycle and maturity gates",
+      "result": "PASS",
+      "evidence": "Stage 3/Stage 4 promotion conditions and the profile-to-candidate maturity boundary remain aligned between the Step 3C schema, rules, and standard."
+    },
+    {
+      "check": "Schema and validation-rule consistency",
+      "result": "PASS",
+      "evidence": "The Draft 2020-12 schema passes metaschema validation; all 157 internal references resolve; 55 rules are unique, ordered, and have the six required fields."
+    },
+    {
+      "check": "Nonactivation and permission boundaries",
+      "result": "PASS",
+      "evidence": "All seven Step 3 effect permissions are false; Step 4, Scotland mapping, and live schema adoption remain unauthorized."
+    },
+    {
+      "check": "Fingerprints and companion synchronization",
+      "result": "PASS",
+      "evidence": "Step 2 schema fingerprint matches its validation companion. Step 3C Markdown, manifest, and static-check fingerprints, sizes, line counts, and statuses match."
+    },
+    {
+      "check": "Representative synthetic behavior cases",
+      "result": "PASS",
+      "evidence": "20 of 20 requested static synthetic cases passed their expected outcomes."
+    }
+  ],
+  "resolved_findings": [
+    {
+      "finding": "Stale Step 1 filename references",
+      "severity": "ERROR",
+      "status": "Resolved",
+      "files": [
+        "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml",
+        "Master_Unit_Profile_Foundation_V1.md"
+      ],
+      "resolution": "Updated the Step 2 controlling-standard reference and both Step 3A references to the current physical Step 1 filename."
+    },
+    {
+      "finding": "Malformed UDV11-004 registered identity rule",
+      "severity": "ERROR",
+      "status": "Resolved",
+      "files": [
+        "Unit_Definition_Validation_Rules_V1_1_Current_Standards_Reconciliation_Candidate.json"
+      ],
+      "resolution": "Restored the intended applies_to and test fields and added the required failure_code field."
+    },
+    {
+      "finding": "Missing explicit validation coverage for registry and pool-axis integrity",
+      "severity": "ERROR",
+      "status": "Resolved",
+      "files": [
+        "Unit_Definition_Validation_Rules_V1_1_Current_Standards_Reconciliation_Candidate.json"
+      ],
+      "resolution": "Made specialist-source requirements explicit in UDV11-048 and added UDV11-055 for registry resolution, subgroup-parent integrity, and the MPS.NoKnownOverlap sentinel boundary."
+    }
+  ],
+  "open_blockers": [],
+  "open_errors": [],
+  "warnings": [],
+  "synthetic_behavior_validation": {
+    "case_count": 20,
+    "passed": 20,
+    "failed": 0,
+    "result": "PASS",
+    "coverage_areas": [
+      "Stage 3 and Stage 4 lifecycle gates",
+      "Transport-only non-card rejection",
+      "Subgroup-parent mismatch",
+      "Provider and access-channel separation",
+      "Independent pool axes",
+      "MPS.NoKnownOverlap sentinel misuse",
+      "Nonactivation",
+      "Source-receipt integrity",
+      "Regional and mercenary routing",
+      "Naval transport",
+      "Mount evidence"
+    ],
+    "test_records": "Temporary test records were created outside the Project Bible and removed after execution."
+  },
+  "source_inventory": [
+    {
+      "role": "Step 1 controlling shared implementation grammar",
+      "document_id": "mw.standard.military-unit-quality-provider-development-recruitment-pool-implementation.v1_1",
+      "version": "1.1.0",
+      "file": "Military_Unit_Quality_Provider_Development_and_Recruitment_Pool_Implementation_Standard_V1_1.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Military_Unit_Quality_Provider_Development_and_Recruitment_Pool_Implementation_Standard_V1_1.md",
+      "pre_edit": {
+        "sha256": "2243174b724d8c0c6c394442d34d28625fd8c7ae4f078f1009dd6dd480855aa3",
+        "bytes": 53848,
+        "lines": 1159
+      },
+      "post_edit": {
+        "sha256": "0faeb4176e2eff6366f8eb5ab5af85dc97ceb069b057f199ad6b3cf62eb713cd",
+        "bytes": 53909,
+        "lines": 1316
+      },
+      "changed": true
+    },
+    {
+      "role": "Step 2 review-only static classification schema",
+      "document_id": "mw.schema.military-unit-recruitment-classification-static-data.v1.1",
+      "version": "1.1.0",
+      "file": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml",
+      "pre_edit": {
+        "sha256": "50596709f95210612e5dffcacbb5c47849919c34b10458a9dde9c080a12074a4",
+        "bytes": 56859,
+        "lines": 1654
+      },
+      "post_edit": {
+        "sha256": "22f05dfc982252917088a4b2eebbf0265b95a5c7478f43791990a98841a5ee80",
+        "bytes": 56836,
+        "lines": 1657
+      },
+      "changed": true
+    },
+    {
+      "role": "Step 2 static schema validation companion",
+      "document_id": "mw.validation.military-unit-recruitment-classification-static-data-schema.v1_1",
+      "version": "1.1.0",
+      "file": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1.validation.json",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1.validation.json",
+      "pre_edit": {
+        "sha256": "85ac26ef33d2fc2ed3b8ed743f40ce0932506c338249b911ea2df98fe55464f0",
+        "bytes": 15133,
+        "lines": 396
+      },
+      "post_edit": {
+        "sha256": "2a1f8a2e0f1883e5628863b757a87d4ccc6b439653d2d69c1439780bdb5ad659",
+        "bytes": 15133,
+        "lines": 396
+      },
+      "changed": true
+    },
+    {
+      "role": "Step 3A master profile integration",
+      "document_id": "mw.standard.military.master_unit_profile.foundation.v1",
+      "version": "1.1.0",
+      "file": "Master_Unit_Profile_Foundation_V1.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Master_Unit_Profile_Foundation_V1.md",
+      "pre_edit": {
+        "sha256": "4b9f43f06dd8a32e0a7ab5eb372fbc16941c60fc5d502bba048feb39c24264dc",
+        "bytes": 38185,
+        "lines": 784
+      },
+      "post_edit": {
+        "sha256": "785465ac076f6e545a3ca81f45e9956084c09fa973f957b58202568ca367a568",
+        "bytes": 38249,
+        "lines": 862
+      },
+      "changed": true
+    },
+    {
+      "role": "Step 3B maturity and handoff standard",
+      "document_id": "mw.standard.military_unit_master_profile_authoring_maturity_game_card_handoff.v1",
+      "version": "1.0.0",
+      "file": "Military_Unit_Master_Profile_Authoring_Implementation_Maturity_and_Game_Card_Handoff_Standard_V1.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Military_Unit_Master_Profile_Authoring_Implementation_Maturity_and_Game_Card_Handoff_Standard_V1.md",
+      "pre_edit": {
+        "sha256": "b570971d3816c9d71630e227d7fc96f90c9144b0b8340b5ece6d7892ca3a2598",
+        "bytes": 65037,
+        "lines": 844
+      },
+      "post_edit": {
+        "sha256": "0cef74e013b9ecf2f7d59c7900424cbb5f0cfd680e9620887bd70dddd58c8450",
+        "bytes": 65054,
+        "lines": 988
+      },
+      "changed": true
+    },
+    {
+      "role": "Step 3C candidate authoring and handoff standard",
+      "document_id": "mw.standard.unit_definition_card_authoring.v1_2",
+      "version": "1.2.1",
+      "file": "Unit_Definition_and_Card_Authoring_Standard_V1_2.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Unit_Definition_and_Card_Authoring_Standard_V1_2.md",
+      "pre_edit": {
+        "sha256": "cea40225639b6b883b0ec4b0a9a70b5e1802acb7a738ebf6eb14d5ad2cf20e67",
+        "bytes": 110495,
+        "lines": 2559
+      },
+      "post_edit": {
+        "sha256": "5581b08cef26dc3d0d519e953b80f1e6d6d1706eb2c71de2e8e8027650a84b9e",
+        "bytes": 110561,
+        "lines": 2560
+      },
+      "changed": true
+    },
+    {
+      "role": "Step 3C candidate schema",
+      "document_id": "urn:medieval-war:schema:unit-definition:v1.1-current-standards-reconciliation-candidate",
+      "version": "1.1 candidate; version is encoded in the schema identifier",
+      "file": "Unit_Definition_Schema_V1_1_Current_Standards_Reconciliation_Candidate.json",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Implementation_Integration\\Schemas\\Unit_Definition_Schema_V1_1_Current_Standards_Reconciliation_Candidate.json",
+      "pre_edit": {
+        "sha256": "a65469ec46da345583cabbe45aa51520ebad9747e25abe948537cf6d16481348",
+        "bytes": 58635,
+        "lines": 2175
+      },
+      "post_edit": {
+        "sha256": "a65469ec46da345583cabbe45aa51520ebad9747e25abe948537cf6d16481348",
+        "bytes": 58635,
+        "lines": 2175
+      },
+      "changed": false
+    },
+    {
+      "role": "Step 3C candidate validation rules",
+      "document_id": "mw.rules.unit-definition-validation.v1.1.current-standards-reconciliation-candidate",
+      "version": "1.1.1",
+      "file": "Unit_Definition_Validation_Rules_V1_1_Current_Standards_Reconciliation_Candidate.json",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Implementation_Integration\\Schemas\\Unit_Definition_Validation_Rules_V1_1_Current_Standards_Reconciliation_Candidate.json",
+      "pre_edit": {
+        "sha256": "956746967ac6662d154a4f9279999cb93b04e7a6dfee9b65e76919ce97a6c96f",
+        "bytes": 29485,
+        "lines": 641
+      },
+      "post_edit": {
+        "sha256": "9468725f1a2edf57c821e2d7ca0643f86bc0f8bc3075df6abb26787cb56cc138",
+        "bytes": 31112,
+        "lines": 650
+      },
+      "changed": true
+    },
+    {
+      "role": "Step 3C fingerprint and status manifest",
+      "document_id": "mw.manifest.unit_definition_card_authoring.v1_2",
+      "version": "1.2.1",
+      "file": "Unit_Definition_and_Card_Authoring_Standard_V1_2.manifest.json",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Unit_Definition_and_Card_Authoring_Standard_V1_2.manifest.json",
+      "pre_edit": {
+        "sha256": "ab5586c9655e1daf69561af93a4ead36dd99053e1e98f25dbe6034ef7c0b90fb",
+        "bytes": 6532,
+        "lines": 145
+      },
+      "post_edit": {
+        "sha256": "b4f721544fbcaede51f87bd44f233ddbe114b6ea497736fb84ce7dddb176f428",
+        "bytes": 6552,
+        "lines": 145
+      },
+      "changed": true
+    },
+    {
+      "role": "Step 3C static-check companion",
+      "document_id": "mw.static_check.unit_definition_card_authoring.v1_2",
+      "version": "1.2.1",
+      "file": "Unit_Definition_and_Card_Authoring_Standard_V1_2.static_check.json",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Unit_Definition_and_Card_Authoring_Standard_V1_2.static_check.json",
+      "pre_edit": {
+        "sha256": "2b450a83d0ead8989fef50234a5ad4cf55e5efb0d1ce8292289f48779ec7b705",
+        "bytes": 5575,
+        "lines": 124
+      },
+      "post_edit": {
+        "sha256": "3753d575ada0de215f39c420a38b581fa0a768a4166369123ec6ee36be692edf",
+        "bytes": 5581,
+        "lines": 124
+      },
+      "changed": true
+    },
+    {
+      "role": "Shared military content roster and development authority",
+      "document_id": "mw.authority.military_content_roster_recruitment_development.v1_2",
+      "version": "1.2.0",
+      "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Framework_Authorities\\Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.md",
+      "pre_edit": {
+        "sha256": "52279012535a3da8963061bae63ae25c2ef9c8bc41991f59bc37093ab6a168ed",
+        "bytes": 104358,
+        "lines": 2794
+      },
+      "post_edit": {
+        "sha256": "52279012535a3da8963061bae63ae25c2ef9c8bc41991f59bc37093ab6a168ed",
+        "bytes": 104358,
+        "lines": 2794
+      },
+      "changed": false
+    },
+    {
+      "role": "Qualitative vocabulary and unit specialization",
+      "document_id": "mw.standard.military_qualitative_semantic_vocabulary_faction_expression_unit_specialization.v1",
+      "version": "1.0.0",
+      "file": "Military_Qualitative_Semantic_Vocabulary_Faction_Expression_and_Unit_Specialization_Standard_V1.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Military_Qualitative_Semantic_Vocabulary_Faction_Expression_and_Unit_Specialization_Standard_V1.md",
+      "pre_edit": {
+        "sha256": "65e43b8104250eeb43477a35b879b7f0b495e466d975d112660bfce5633bc61c",
+        "bytes": 60816,
+        "lines": 1000
+      },
+      "post_edit": {
+        "sha256": "65e43b8104250eeb43477a35b879b7f0b495e466d975d112660bfce5633bc61c",
+        "bytes": 60816,
+        "lines": 1000
+      },
+      "changed": false
+    },
+    {
+      "role": "Formation and battlefield capability",
+      "document_id": "mw.standard.military.formation_battlefield_capability.v1",
+      "version": "1.1.0",
+      "file": "Formation_and_Battlefield_Capability_Definition_Standard_V1.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Formation_and_Battlefield_Capability_Definition_Standard_V1.md",
+      "pre_edit": {
+        "sha256": "c1a467a05f17915807b7bc9584e0640533145a410c37d2deaffdb2c80390344e",
+        "bytes": 40559,
+        "lines": 1130
+      },
+      "post_edit": {
+        "sha256": "c1a467a05f17915807b7bc9584e0640533145a410c37d2deaffdb2c80390344e",
+        "bytes": 40559,
+        "lines": 1130
+      },
+      "changed": false
+    },
+    {
+      "role": "Military roster authoring",
+      "document_id": "mw.standard.military_roster_authoring.v1",
+      "version": "1.1.1",
+      "file": "Military_Roster_Authoring_Standard_V1.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Military_Roster_Authoring_Standard_V1.md",
+      "pre_edit": {
+        "sha256": "3474b08583b5673cdb7d79ab6dd753b4fa0484cc3f83ab5f90445736ce1f36a4",
+        "bytes": 35920,
+        "lines": 767
+      },
+      "post_edit": {
+        "sha256": "3474b08583b5673cdb7d79ab6dd753b4fa0484cc3f83ab5f90445736ce1f36a4",
+        "bytes": 35920,
+        "lines": 767
+      },
+      "changed": false
+    },
+    {
+      "role": "Faction roster manual review and mapping",
+      "document_id": "mw.standard.faction_roster_manual_review_progression_visual_mapping.v1",
+      "version": "1.1.0",
+      "file": "Faction_Roster_Manual_Review_Progression_and_Visual_Mapping_Standard_V1.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Faction_Roster_Manual_Review_Progression_and_Visual_Mapping_Standard_V1.md",
+      "pre_edit": {
+        "sha256": "581732bd113566d1ef4def415df8e8321c024fffe1e6b3c44848b0f23f6a654a",
+        "bytes": 20652,
+        "lines": 554
+      },
+      "post_edit": {
+        "sha256": "581732bd113566d1ef4def415df8e8321c024fffe1e6b3c44848b0f23f6a654a",
+        "bytes": 20652,
+        "lines": 554
+      },
+      "changed": false
+    },
+    {
+      "role": "Naming source obligation and social layer",
+      "document_id": "mw.standard.military-unit-naming-source-obligation-social-layer.v1_1",
+      "version": "1.1.0",
+      "file": "Military_Unit_Naming_Source_Obligation_and_Social_Layer_Standard_V1_1_Current_Standards_Reconciliation_FULL.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Military_Unit_Naming_Source_Obligation_and_Social_Layer_Standard_V1_1_Current_Standards_Reconciliation_FULL.md",
+      "pre_edit": {
+        "sha256": "27dd3866f06d88e0880afa611fd9847598c4552c2ff0644fb080fad13de5aafd",
+        "bytes": 40593,
+        "lines": 1239
+      },
+      "post_edit": {
+        "sha256": "27dd3866f06d88e0880afa611fd9847598c4552c2ff0644fb080fad13de5aafd",
+        "bytes": 40593,
+        "lines": 1239
+      },
+      "changed": false
+    },
+    {
+      "role": "Military content naming and path",
+      "document_id": "mw.standard.military_content.naming_path.v1",
+      "version": "1.1.0",
+      "file": "Military_Content_Naming_and_Path_Standard_V1.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Military_Content_Naming_and_Path_Standard_V1.md",
+      "pre_edit": {
+        "sha256": "d4c6ae611f34ebc70a0c091c559ffba0b3fae30e3c26c20263ac6b05bb1500b8",
+        "bytes": 34823,
+        "lines": 835
+      },
+      "post_edit": {
+        "sha256": "d4c6ae611f34ebc70a0c091c559ffba0b3fae30e3c26c20263ac6b05bb1500b8",
+        "bytes": 34823,
+        "lines": 835
+      },
+      "changed": false
+    },
+    {
+      "role": "Recruitment pool constitution",
+      "document_id": "mw.framework.military_recruitment_pool_constitution.v1_2",
+      "version": "1.2.0",
+      "file": "Military_Recruitment_Pool_Constitution_V1_2_Current_Authority_Refinement_FULL.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Framework_Authorities\\Military_Recruitment_Pool_Constitution_V1_2_Current_Authority_Refinement_FULL.md",
+      "pre_edit": {
+        "sha256": "5a5cd7e64861eb91e081eb5672de291b84cc16572d04718a430f10b487ab333e",
+        "bytes": 47530,
+        "lines": 1058
+      },
+      "post_edit": {
+        "sha256": "5a5cd7e64861eb91e081eb5672de291b84cc16572d04718a430f10b487ab333e",
+        "bytes": 47530,
+        "lines": 1058
+      },
+      "changed": false
+    },
+    {
+      "role": "Assignment and reservation constitution",
+      "document_id": "mw.framework.military_assignment_and_reservation_constitution.v1_1",
+      "version": "1.1.0",
+      "file": "Military_Assignment_and_Reservation_Constitution_V1_1_Current_Framework_Reconciliation.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Framework_Authorities\\Military_Assignment_and_Reservation_Constitution_V1_1_Current_Framework_Reconciliation.md",
+      "pre_edit": {
+        "sha256": "689a3074e5006b57a9a67d0e42a68c6f76592cba38d0f7de649a8f822ab12047",
+        "bytes": 32727,
+        "lines": 781
+      },
+      "post_edit": {
+        "sha256": "689a3074e5006b57a9a67d0e42a68c6f76592cba38d0f7de649a8f822ab12047",
+        "bytes": 32727,
+        "lines": 781
+      },
+      "changed": false
+    },
+    {
+      "role": "Muster concentration and mobilization framework",
+      "document_id": "mw.framework.military_muster_concentration_mobilization.v1",
+      "version": "1.0.0",
+      "file": "Military_Muster_Concentration_and_Mobilization_Framework_V1.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Framework_Authorities\\Military_Muster_Concentration_and_Mobilization_Framework_V1.md",
+      "pre_edit": {
+        "sha256": "3a14f8d8165f02201dd477e9dfd588cc753293778b47833239006f416f7278c1",
+        "bytes": 32556,
+        "lines": 842
+      },
+      "post_edit": {
+        "sha256": "3a14f8d8165f02201dd477e9dfd588cc753293778b47833239006f416f7278c1",
+        "bytes": 32556,
+        "lines": 842
+      },
+      "changed": false
+    },
+    {
+      "role": "Animal custody and post-battle recovery",
+      "document_id": "mw.framework.military_animal_custody_post_battle_recovery.v1_1",
+      "version": "1.1.0",
+      "file": "Military_Animal_Custody_and_Post_Battle_Recovery_Constitution_V1_1_Current_Framework_Reconciliation.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Framework_Authorities\\Military_Animal_Custody_and_Post_Battle_Recovery_Constitution_V1_1_Current_Framework_Reconciliation.md",
+      "pre_edit": {
+        "sha256": "00b21e729488b2055df33a1625b05633c573ea26a5872c9acfb68432ebc98b6c",
+        "bytes": 49601,
+        "lines": 1073
+      },
+      "post_edit": {
+        "sha256": "00b21e729488b2055df33a1625b05633c573ea26a5872c9acfb68432ebc98b6c",
+        "bytes": 49601,
+        "lines": 1073
+      },
+      "changed": false
+    },
+    {
+      "role": "Shared progression vocabulary",
+      "document_id": "mw.framework.military_shared_progression_vocabulary.v1_1",
+      "version": "1.1.0",
+      "file": "Military_Shared_Progression_Vocabulary_Constitution_V1_1_Current_Framework_Reconciliation.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Framework_Authorities\\Military_Shared_Progression_Vocabulary_Constitution_V1_1_Current_Framework_Reconciliation.md",
+      "pre_edit": {
+        "sha256": "0551671e60ca83f18cbe76dd0f57959ef0da7c45d9c6b238f1fd64c40b58bc86",
+        "bytes": 42112,
+        "lines": 924
+      },
+      "post_edit": {
+        "sha256": "0551671e60ca83f18cbe76dd0f57959ef0da7c45d9c6b238f1fd64c40b58bc86",
+        "bytes": 42112,
+        "lines": 924
+      },
+      "changed": false
+    },
+    {
+      "role": "Standards and production index",
+      "document_id": "mw.readme.military_content_standards_and_production.v1",
+      "version": "1.1.0",
+      "file": "README_Military_Content_Standards_and_Production.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\README_Military_Content_Standards_and_Production.md",
+      "pre_edit": {
+        "sha256": "c54e904956f62266cb9c394bc93e4805e8f4da578ebd267e6e40b08caf8ea01e",
+        "bytes": 12379,
+        "lines": 185
+      },
+      "post_edit": {
+        "sha256": "c54e904956f62266cb9c394bc93e4805e8f4da578ebd267e6e40b08caf8ea01e",
+        "bytes": 12379,
+        "lines": 185
+      },
+      "changed": false
+    }
+  ],
+  "excluded_mirror_locations": [
+    {
+      "physical_path": "C:\\Users\\thetr\\OneDrive - CUNY\\Microsoft Copilot Chat Files",
+      "matching_source_copies": 10,
+      "verification": "All ten copies match their Project Bible pre-edit SHA-256 fingerprints and remain unchanged.",
+      "used_as_authority": false,
+      "modified": false
+    },
+    {
+      "physical_path": "C:\\Users\\thetr\\OneDrive - Hunter College\\Microsoft Copilot Chat Files",
+      "matching_source_copies": 0,
+      "verification": "The expected mirror directory is absent; no matching copies were present.",
+      "used_as_authority": false,
+      "modified": false
+    }
+  ],
+  "modified_project_bible_files": [
+    "Military_Unit_Quality_Provider_Development_and_Recruitment_Pool_Implementation_Standard_V1_1.md",
+    "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml",
+    "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1.validation.json",
+    "Master_Unit_Profile_Foundation_V1.md",
+    "Military_Unit_Master_Profile_Authoring_Implementation_Maturity_and_Game_Card_Handoff_Standard_V1.md",
+    "Unit_Definition_and_Card_Authoring_Standard_V1_2.md",
+    "Unit_Definition_Validation_Rules_V1_1_Current_Standards_Reconciliation_Candidate.json",
+    "Unit_Definition_and_Card_Authoring_Standard_V1_2.manifest.json",
+    "Unit_Definition_and_Card_Authoring_Standard_V1_2.static_check.json"
+  ],
+  "new_file": "Military_Unit_Classification_Step3_Consistency_Audit_V1.json",
+  "no_other_files_modified": true,
+  "nonactivation_permissions": {
+    "registry_mutation_authorized": false,
+    "opening_state_mutation_authorized": false,
+    "schema_activation_authorized": false,
+    "payload_authorized": false,
+    "importer_authorized": false,
+    "runtime_mutation_authorized": false,
+    "unreal_mutation_authorized": false,
+    "step_4_authorized": false,
+    "scotland_mapping_authorized": false,
+    "live_schema_adoption": false
+  },
+  "validation_performed": [
+    {
+      "check": "Markdown fenced YAML parsing",
+      "result": "PASS",
+      "detail": "612 YAML fences across 17 Markdown sources parsed with duplicate-key rejection."
+    },
+    {
+      "check": "Step 2 YAML parsing",
+      "result": "PASS",
+      "detail": "Schema parsed with duplicate-key rejection; controlling_standard resolves to the current physical Step 1 filename."
+    },
+    {
+      "check": "JSON syntax and duplicate keys",
+      "result": "PASS",
+      "detail": "All five Step 1-Step 3C JSON source artifacts parsed with duplicate-key rejection."
+    },
+    {
+      "check": "Draft 2020-12 candidate schema",
+      "result": "PASS",
+      "detail": "Metaschema validation passed and all 157 internal $ref values resolved."
+    },
+    {
+      "check": "Step 2 schema fingerprint companion",
+      "result": "PASS",
+      "detail": "SHA-256 22f05dfc982252917088a4b2eebbf0265b95a5c7478f43791990a98841a5ee80; 56836 bytes; 1657 lines."
+    },
+    {
+      "check": "Step 3C rule set",
+      "result": "PASS",
+      "detail": "55 unique ordered rules, UDV11-001 through UDV11-055; every rule has rule_id, severity, title, applies_to, test, and failure_code."
+    },
+    {
+      "check": "Step 3C fingerprint synchronization",
+      "result": "PASS",
+      "detail": "Standard, manifest, and static-check subject fingerprints, sizes, line counts, and manifest fingerprint match."
+    },
+    {
+      "check": "Current status, authorization, and next gate",
+      "result": "PASS",
+      "detail": "Step 3 and subgates are complete for owner review; Step 4 and Scotland mapping remain unauthorized; next gate is OwnerDecisionOnStep4CrossFactionPilot; all seven Step 3 permissions remain false."
+    },
+    {
+      "check": "Excluded mirror preservation",
+      "result": "PASS",
+      "detail": "All ten CUNY mirror copies match their pre-edit fingerprints; no matching Hunter mirror folder was present."
+    },
+    {
+      "check": "Temporary test record cleanup",
+      "result": "PASS",
+      "detail": "Synthetic test records were removed after execution; no test records were retained in the Project Bible."
+    }
+  ],
+  "validation_not_performed": [
+    "Owner acceptance or Step 4 authorization",
+    "Cross-faction pilot execution",
+    "Scotland mapping",
+    "Historical research validation",
+    "Profile, Registry, or Opening State record creation",
+    "Schema activation or importer execution",
+    "Compile, runtime, save/load, migration, replay, performance, numerical-balance, or battle validation"
+  ],
+  "substantive_removals": [],
+  "removal_ledger_status": "NoSubstantiveRemovals",
+  "completion_boundary": "Stop after this Step 3D audit receipt and the bounded post-audit synchronization. No Step 4, Scotland mapping, or implementation work is authorized.",
+  "post_audit_synchronization": {
+    "status": "Complete",
+    "correction_scope": "Bounded synchronization of stale active-status and evidence assertions discovered after the initial Step 3D audit; not a new Step 3 subgate.",
+    "original_step3d_disposition_preserved": "Complete",
+    "step_3_status": "CompleteForOwnerReviewAndStep4AuthorizationDecision",
+    "step_3d_status": "Complete",
+    "step_4_cross_faction_pilot": "UnauthorizedPendingOwnerGate",
+    "scotland_mapping": "Unauthorized",
+    "owner_acceptance": "Pending",
+    "live_schema_adoption": false,
+    "next_eligible_gate": "OwnerDecisionOnStep4CrossFactionPilot",
+    "stale_assertions_discovered": [
+      "The Step 3C static-check artifact still described its original five-file scope as the complete current Project Bible modification boundary.",
+      "The static-check and manifest validation evidence stopped at UDV11-054 and did not account for the repaired UDV11-004 or Step 3D addition UDV11-055.",
+      "The Step 1 active program sequence still marked Step 3 pending and unauthorized and did not distinguish completed Step 3 authorization from unauthorized Step 4 and Scotland mapping.",
+      "The Step 2 handoff still marked Step 3 pending and unauthorized and retained an obsolete next-authorized-gate value.",
+      "The Master Unit Profile Foundation prose still described Step 3A as the only authorized work and later subgates as unauthorized.",
+      "The Step 2 validation companion exposed its historical Step 2 completion rule as if it were current program status."
+    ],
+    "affected_files": [
+      {
+        "file": "Unit_Definition_and_Card_Authoring_Standard_V1_2.static_check.json",
+        "corrections": [
+          "Replaced the active five-file modification-scope assertion with distinct historical Step 3C, Step 3D audit, single-receipt, bounded post-audit, and no-out-of-boundary assertions.",
+          "Updated current rule evidence to 55 unique rules UDV11-001 through UDV11-055, recording UDV11-004 repaired, UDV11-055 added during Step 3D, all required fields present, and no duplicate IDs."
+        ]
+      },
+      {
+        "file": "Unit_Definition_and_Card_Authoring_Standard_V1_2.manifest.json",
+        "corrections": [
+          "Retained the earlier UDV11-001 through UDV11-054 statement as an explicitly historical Step 3C baseline.",
+          "Added current Step 3D rule-count and post-audit synchronization evidence; preserved current Step 3, Step 4, Scotland, owner-acceptance, and next-gate status."
+        ]
+      },
+      {
+        "file": "Military_Unit_Quality_Provider_Development_and_Recruitment_Pool_Implementation_Standard_V1_1.md",
+        "corrections": [
+          "Updated the active Nine-Step Program Sequence for completed Step 3 static integration, Step 4 unauthorized pending owner gate, and Scotland mapping unauthorized.",
+          "Updated the adjacent explanation to state the current completion, nonactivation boundaries, and exact next eligible gate."
+        ]
+      },
+      {
+        "file": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml",
+        "corrections": [
+          "Synchronized step2_handoff to completed Step 3 static integration, Step 4 UnauthorizedPendingOwnerGate, Scotland Unauthorized, live schema adoption false, and the current next eligible gate."
+        ]
+      },
+      {
+        "file": "Master_Unit_Profile_Foundation_V1.md",
+        "corrections": [
+          "Replaced only the stale post-receipt status paragraph with the completed Step 3A-3D status and current nonactivation and authorization boundaries."
+        ]
+      },
+      {
+        "file": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1.validation.json",
+        "corrections": [
+          "Labeled the original Step 2 completion rule as historical evidence and added a distinct current program status block."
+        ]
+      },
+      {
+        "file": "Military_Unit_Classification_Step3_Consistency_Audit_V1.json",
+        "corrections": [
+          "Preserved the original authority crosswalk, source inventory, pre-edit fingerprints, findings, 20 synthetic-case results, validation results, nonactivation boundary, and Step 3D completion disposition.",
+          "Added this post-audit synchronization record; no second audit receipt was created."
+        ]
+      }
+    ],
+    "post_correction_fingerprints": [
+      {
+        "file": "Military_Unit_Quality_Provider_Development_and_Recruitment_Pool_Implementation_Standard_V1_1.md",
+        "sha256": "8fc504345135ef4cecc517fe52ed844dce774a57adea1597c5cee627715fa0ac",
+        "bytes": 54331,
+        "lines": 1317
+      },
+      {
+        "file": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml",
+        "sha256": "be635c28b243e0091d8fdeb33af95dacbe38722b4ce048575c37f0795ef61883",
+        "bytes": 56892,
+        "lines": 1658
+      },
+      {
+        "file": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1.validation.json",
+        "sha256": "00ed94ef257f429e0edf4ae2f8382a78d7cc8966fe881bd59f5346152a252068",
+        "bytes": 15591,
+        "lines": 406
+      },
+      {
+        "file": "Master_Unit_Profile_Foundation_V1.md",
+        "sha256": "4c4a9505ba22f61ba0070009e0126de56cb656339388c42491bc334007de69a1",
+        "bytes": 38601,
+        "lines": 862
+      },
+      {
+        "file": "Unit_Definition_and_Card_Authoring_Standard_V1_2.manifest.json",
+        "sha256": "a23726868265e6662215342e5e4fb58e8ff2f463bf7244932eea16177672d28a",
+        "bytes": 7468,
+        "lines": 158
+      },
+      {
+        "file": "Unit_Definition_and_Card_Authoring_Standard_V1_2.static_check.json",
+        "sha256": "9a124b96439af0e6259e369ca7b0795742999a86753965789c5b2bda1d0886d9",
+        "bytes": 6683,
+        "lines": 136
+      }
+    ],
+    "substantive_classification_meaning_changed": false,
+    "step_3_complete_for_owner_review": true,
+    "step_4_remains_unauthorized": true,
+    "scotland_mapping_remains_unauthorized": true,
+    "owner_acceptance_remains_pending": true,
+    "new_file_created_during_post_audit_synchronization": false,
+    "post_correction_validation": {
+      "result": "PASS",
+      "all_modified_files_reopened_from_project_bible": true,
+      "modified_files_outside_project_bible": false,
+      "strict_json_files_parsed": 4,
+      "json_duplicate_keys": 0,
+      "step2_yaml_parsed": true,
+      "step2_yaml_duplicate_keys": 0,
+      "modified_markdown_yaml_fences_parsed": 73,
+      "markdown_yaml_duplicate_keys": 0,
+      "active_step3_pending_or_unauthorized_assertion": false,
+      "historical_step2_authorization_is_explicitly_labeled": true,
+      "step4_status": "UnauthorizedPendingOwnerGate",
+      "scotland_mapping_status": "Unauthorized",
+      "owner_acceptance": "Pending",
+      "live_schema_adoption": false,
+      "all_seven_permissions_false": true,
+      "validation_rule_count": 55,
+      "validation_rule_ids": "UDV11-001 through UDV11-055, unique and ordered",
+      "udv11_004_repaired": true,
+      "udv11_055_added_during_step3d": true,
+      "all_required_rule_fields_present": true,
+      "static_check_no_active_step3c_five_file_boundary_claim": true,
+      "step2_schema_companion_fingerprint_matches": true,
+      "step3c_manifest_and_static_check_fingerprints_match": true,
+      "microsoft_copilot_chat_files_copies_unchanged": {
+        "location": "C:\\Users\\thetr\\OneDrive - CUNY\\Microsoft Copilot Chat Files",
+        "matching_copies": 10,
+        "verified_against": "Pre-post-audit-synchronization fingerprints",
+        "unchanged": true
+      },
+      "new_file_created": false,
+      "realm_or_unit_profile_changes": false,
+      "step4_pilot_records_created": false,
+      "scotland_mapping_created": false,
+      "temporary_test_artifacts_retained": false,
+      "next_eligible_gate": "OwnerDecisionOnStep4CrossFactionPilot"
+    },
+    "audit_receipt_self_fingerprint": "Not embedded to avoid a self-referential hash; externally hashed after final save."
+  },
+  "final_step3_closure_synchronization": {
+    "status": "Complete",
+    "scope": "Final bounded Step 3 closure synchronization; not a new subgate and not a repeat of the Step 3D audit.",
+    "remaining_contradiction": "The Step 1 standard retained unqualified Step 2-era step3_authorized false values in Sections 0B and 0B.1, while its active next_action and stable footer did not fully express current Step 3 completion and the owner decision gate.",
+    "corrections": {
+      "section_0b_historical_label": "Moved the prior Step 2 authorization and validation values under historical_step2_program_state with evidence_scope HistoricalStep2ValidationMoment; added a separate current_program_state.",
+      "section_0b_1_historical_label": "Scoped step3_authorized_at_that_time and next_authorized_gate_at_that_time under historical_step2_program_state; added a separate current_step3_program_state.",
+      "active_stable_footer": "Set step3_authorized true and step3_execution_complete true; preserved Step 3 completion, Step 4/Scotland unauthorized states, owner acceptance Pending, live schema adoption false, and the next gate; made step4_authorized and scotland_mapping_authorized explicitly false.",
+      "current_next_action": "Changed next_action to OwnerDecisionOnStep4CrossFactionPilot; this is an owner decision gate only and does not authorize Step 4 execution."
+    },
+    "historical_step2_values_preserved": true,
+    "substantive_classification_meaning_changed": false,
+    "final_step1_fingerprint": {
+      "file": "Military_Unit_Quality_Provider_Development_and_Recruitment_Pool_Implementation_Standard_V1_1.md",
+      "physical_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Military_Unit_Quality_Provider_Development_and_Recruitment_Pool_Implementation_Standard_V1_1.md",
+      "sha256": "a7e243dc3e21f00a1b4a0e4c13d329dfb0fc32bcefb3c7878bc4911bb772ca5a",
+      "bytes": 56353,
+      "lines": 1349,
+      "headings": 52,
+      "pre_correction_sha256": "8fc504345135ef4cecc517fe52ed844dce774a57adea1597c5cee627715fa0ac",
+      "pre_correction_bytes": 54331,
+      "pre_correction_lines": 1317,
+      "pre_correction_headings": 52
+    },
+    "step3_status": "CompleteForOwnerReviewAndStep4AuthorizationDecision",
+    "step3d_status": "Complete",
+    "post_audit_synchronization": "Complete",
+    "step4_cross_faction_pilot": "UnauthorizedPendingOwnerGate",
+    "scotland_mapping": "Unauthorized",
+    "owner_acceptance": "Pending",
+    "live_schema_adoption": false,
+    "next_eligible_gate": "OwnerDecisionOnStep4CrossFactionPilot",
+    "all_seven_effect_permissions_false": true,
+    "manifest_modified": false,
+    "static_check_modified": false,
+    "new_file_created": false,
+    "microsoft_copilot_chat_files_copy_changed": false,
+    "post_correction_validation": {
+      "result": "PASS",
+      "step1_markdown_yaml_fences_parsed": 49,
+      "step1_yaml_duplicate_keys": 0,
+      "receipt_json_duplicate_keys": 0,
+      "step1_heading_count_preserved": true,
+      "active_step3_authorized_false_assertions": 0,
+      "historical_step3_authorized_false_assertions_explicitly_scoped": 2,
+      "active_next_action": "OwnerDecisionOnStep4CrossFactionPilot",
+      "stable_footer_step3_authorized": true,
+      "stable_footer_step3_execution_complete": true,
+      "step4_unauthorized": true,
+      "scotland_mapping_unauthorized": true,
+      "owner_acceptance_pending": true,
+      "live_schema_adoption_false": true,
+      "all_seven_permissions_false": true,
+      "stable_runtime_ids_allocated": [],
+      "exact_values_promoted": [],
+      "no_new_file_created": true,
+      "no_realm_or_unit_profile_changed": true,
+      "step4_not_started": true
+    }
+  }
+}

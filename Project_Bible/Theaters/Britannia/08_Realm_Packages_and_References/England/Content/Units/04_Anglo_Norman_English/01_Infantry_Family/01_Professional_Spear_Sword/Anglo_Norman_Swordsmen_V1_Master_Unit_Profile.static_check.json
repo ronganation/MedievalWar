@@ -1,0 +1,17 @@
+{
+  "document": "Anglo_Norman_Swordsmen_V1_Master_Unit_Profile.md",
+  "sha256": "8b62ceaafb2fd342aa17d78663f6ba317b5ed46dc3717c66b5692f4f6025b072",
+  "checks": {
+    "hash_matches_manifest": true,
+    "minimum_depth": true,
+    "sections_0_86": true,
+    "terrain_25": true,
+    "parent_persists": true,
+    "MenAtArms_firewall": true,
+    "no_loss": true,
+    "three_track": true,
+    "nonmutation": true,
+    "final_footer": true
+  },
+  "pass": true
+}

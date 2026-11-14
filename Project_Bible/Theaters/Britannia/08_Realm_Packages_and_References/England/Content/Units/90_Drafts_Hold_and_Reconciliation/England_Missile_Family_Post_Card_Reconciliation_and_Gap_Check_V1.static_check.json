@@ -1,0 +1,18 @@
+{
+  "document": "England_Missile_Family_Post_Card_Reconciliation_and_Gap_Check_V1.md",
+  "sha256": "5d6fb66e410cb6de06d2fecaf1742c675f09db2be09b77932a34655c7069e14f",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "inventory_10": true,
+    "six_current": true,
+    "stake_control": true,
+    "ammo_control": true,
+    "no_uncontrolled_generation": true,
+    "next_mounted": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

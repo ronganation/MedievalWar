@@ -1,0 +1,25 @@
+{
+  "package_id": "FRANCE-IMP-06A",
+  "title": "France Territory, Communities, and Economy Projection",
+  "revision_date": "2026-09-24",
+  "realm_id": "Realm.France",
+  "scenario_id": "mw.scenario.grand_campaign.1062",
+  "implementation_target": "Unreal Engine 5.8",
+  "predecessor_gate": "FRANCE-IMP-05A",
+  "status": "ReadyForOwnerReview",
+  "implementation_eligible": false,
+  "unreal_project_mutation_authorized": false,
+  "registry_mutation_authorized": false,
+  "opening_state_mutation_authorized": false,
+  "real_payload_import_authorized": false,
+  "files": [
+    "FRANCE_IMP_06A_TERRITORY_COMMUNITIES_ECONOMY_PROJECTION_BOUNDED_CONTRACT_2026-09-24.md",
+    "FRANCE_IMP_06A_EXACT_FILE_PLAN.csv",
+    "FRANCE_IMP_06A_DEPENDENCY_AND_BOUNDARY_MATRIX.csv",
+    "FRANCE_IMP_06A_ACCEPTANCE_AND_ROLLBACK_MATRIX.csv",
+    "FRANCE_IMP_06A_AUTHORITY_FINGERPRINT_PLAN.csv",
+    "FRANCE_IMP_06A_TEST_AND_REGRESSION_PLAN.csv",
+    "README_FIRST_FRANCE_IMP_06A.txt",
+    "FRANCE_IMP_06A_PACKAGE_MANIFEST.json"
+  ]
+}

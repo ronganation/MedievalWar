@@ -1,0 +1,129 @@
+{
+  "routing_id": "owner_routing.definition_manifest.valencia.1062.v3_4.package_v1",
+  "version": "1.0.0",
+  "manifest_id": "definition_manifest.valencia.1062.v3_4.package_v1",
+  "routes": [
+    {
+      "route_id": "MANOWN_001",
+      "definition_section": "communities",
+      "authoritative_owners": [
+        "CommunitiesAndPopulationOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_002",
+      "definition_section": "core_realm_faction_dynasty_title",
+      "authoritative_owners": [
+        "DynastyOwner",
+        "FactionRegistryOwner",
+        "RealmRegistryOwner",
+        "ScenarioRegistryOwner",
+        "TitleAndGovernmentOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_003",
+      "definition_section": "force_families",
+      "authoritative_owners": [
+        "MilitaryDefinitionOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_004",
+      "definition_section": "historical_system_namespaces",
+      "authoritative_owners": [
+        "HistoricalSystemsOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_005",
+      "definition_section": "households",
+      "authoritative_owners": [
+        "RelevantDefinitionOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_006",
+      "definition_section": "institutions",
+      "authoritative_owners": [
+        "RelevantInstitutionOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_007",
+      "definition_section": "offices",
+      "authoritative_owners": [
+        "GovernmentOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_008",
+      "definition_section": "opening_problems",
+      "authoritative_owners": [
+        "OpeningStateOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_009",
+      "definition_section": "people_and_references",
+      "authoritative_owners": [
+        "CharacterRegistryOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_010",
+      "definition_section": "relation_surfaces",
+      "authoritative_owners": [
+        "ValenciaDiplomacyOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_011",
+      "definition_section": "resource_bands",
+      "authoritative_owners": [
+        "ValenciaEconomyOwner"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_012",
+      "definition_section": "routes",
+      "authoritative_owners": [
+        "TerritoryLogisticsAndMapOwners"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "MANOWN_013",
+      "definition_section": "sites_and_regions",
+      "authoritative_owners": [
+        "TerritoryAndMapOwners"
+      ],
+      "required_receipt": "DefinitionOwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineWithoutInvention"
+    }
+  ],
+  "registry_mutation_authorized": false
+}

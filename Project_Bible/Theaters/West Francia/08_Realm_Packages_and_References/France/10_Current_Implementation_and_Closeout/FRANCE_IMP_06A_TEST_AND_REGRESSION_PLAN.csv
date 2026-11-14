@@ -1,0 +1,14 @@
+Order,FilterOrCheck,ExpectedResult,Phase
+1,MedievalWar.France.TerritoryCommunityEconomy.,DISCOVER,PreMutation
+2,MedievalWar.France.GovernanceInterface.,DISCOVER,PreMutation
+3,MedievalWar.France.CharacterDynastyNetwork.,DISCOVER,PreMutation
+4,MedievalWar.France.HistoricalEmergence.,DISCOVER,PreMutation
+5,MedievalWar.France.TransactionRecovery.,DISCOVER,PreMutation
+6,MedievalWar.France.CampaignInitialization.,DISCOVER,PreMutation
+7,Relevant shared geography province route community economy filters,DISCOVER,PreMutation
+8,Changed-file boundary scan,ONLY_APPROVED_SIX_SOURCE_FILES,PostMutationPreBuild
+9,MedievalWar.France.TerritoryCommunityEconomy.,ALL_DISCOVERED_PASS,PostBuild
+10,All discovered France predecessor filters,PRESERVE_COUNTS_AND_PASS,PostBuild
+11,All discovered relevant shared-framework filters,PRESERVE_COUNTS_AND_PASS,PostBuild
+12,Registry Opening State and predecessor diff scan,NO_CHANGES,Closeout
+13,Rollback rehearsal,EXACT_BASELINE_RESTORED,Closeout

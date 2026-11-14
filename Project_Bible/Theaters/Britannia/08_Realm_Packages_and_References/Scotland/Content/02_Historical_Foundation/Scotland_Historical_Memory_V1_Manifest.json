@@ -1,0 +1,57 @@
+{
+  "document_id": "manifest.scotland.historical-memory.v1",
+  "version": "1.0.0",
+  "immediate_source": {
+    "filename": "Scotland_Historical_Timeline_and_Chronology_V1.1_Detailed_Expansion.md",
+    "bytes": 55153,
+    "lines": 1150,
+    "sha256": "719e386cb1ec2a27401588d2cc4acbee64e044ef2cff8c878ce715e155d58ebf",
+    "complete_source_verified": true
+  },
+  "upstream_authorities": [
+    {
+      "filename": "Scotland_Historical_Evidence_Register_V1.md",
+      "sha256": "3e17f7c70d9c0d629ce5605538156019ee83175e945659ba9fe02f4c28f4b2d1"
+    },
+    {
+      "filename": "Scotland_Historical_Reconciliation_V1.2_Benchmark_Expansion.md",
+      "sha256": "747fb0c7b0d47325c4fa043bafc59b9f20b1df69a0d5aeeb138a9c4163a2ad7d"
+    }
+  ],
+  "successor": {
+    "filename": "Scotland_Historical_Memory_V1.md",
+    "bytes": 50848,
+    "lines": 1271,
+    "sha256": "421bedb98a3058b41250133c039605c4a945d11b372f0bf7b1c764950c36f98e"
+  },
+  "content_inventory": {
+    "memory_families": 8,
+    "candidate_memory_records": 24,
+    "audience_scopes": 10,
+    "transmission_channels": 8,
+    "interpretation_groups": 12,
+    "identity_collision_gates": 1,
+    "validation_cases": 12,
+    "issue_codes": 16
+  },
+  "preservation": {
+    "chronology_memory_families_covered": true,
+    "later_history_firewall_preserved": true,
+    "identity_collision_preserved": true,
+    "Underage_boundary_preserved": true
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "source_deletion": false,
+    "source_archival": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Scotland_Historical_Memory_V1_Static_Check.json",
+    "sha256": "6672591a0620d4c0df5e192741e0d736f9ce724dde9da165363642c0159fbf33",
+    "passed": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "DocumentId": "manifest.readme.realm.aquitaine.current.v1",
+  "FileName": "README.md",
+  "Package": "Aquitaine",
+  "Version": "Current2026-09-05",
+  "ImmediateSource": "README.md former Frozen V1.1 navigation",
+  "SHA256": "666d3004171dc30ae1321b444ef06b19517575a5f2ed49d6b522bd24c0f0ab82",
+  "ByteCount": 16018,
+  "LineCount": 498,
+  "Status": "StaticCheckedCurrentPackageREADME",
+  "SubstantiveCurrentPackageCoverage": [
+    "CurrentAuthorityRouter",
+    "SixCharacterProfiles",
+    "TenSpecialistAuthorities",
+    "HistoricalEvidenceAndUncertainty",
+    "ThirtyFileCandidateBundle",
+    "ReviewOnlyVisualClosure",
+    "FinalManifestAndStaticCheck"
+  ],
+  "MutationStatus": {
+    "SourceAuthoritiesModified": 0,
+    "RegistryMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

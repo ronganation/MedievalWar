@@ -1,0 +1,58 @@
+{
+  "ManifestId": "France.OpeningState.V3.1.CurrentAuthorityRefinement.Full.Manifest",
+  "ManifestVersion": "1.1.0",
+  "AuthorityFile": "France_Opening_State_1062_V3_1_Current_Authority_Refinement_FULL.md",
+  "SHA256": "f0303dd507d5edc5de686d1631633ef2a4d9a7dbe142491d56cb058f167639e8",
+  "ByteCount": 97347,
+  "LineCount": 2837,
+  "SourceFile": "France_Opening_State_1062_V3 Merged.md",
+  "SourceSHA256": "96ca2450e7f29daedb212efebf1405bdf3ea19f8107ea3da56ff1a0fd4da9b1d",
+  "SourceByteCount": 97760,
+  "SourceLineCount": 2852,
+  "SourceTreatment": "CompleteMergedSourceCopyFirstIntegratedCurrentAuthorityRefinement",
+  "ValidationChecks": {
+    "json_manifest_valid": true,
+    "markdown_fences_balanced": true,
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "embedded_tool_artifacts": false,
+    "final_marker_correct": true,
+    "one_stable_footer": true,
+    "one_final_marker": true,
+    "placeholder_validation_entries": false,
+    "all_required_source_literals_present": true,
+    "complete_V1_heading_present": true,
+    "V3_section_55_present": true,
+    "V3_1_section_91_present": true,
+    "removed_substantive_content_count": 0,
+    "source_object_mutated": false,
+    "Registry_mutation": false,
+    "Opening_State_activation": false,
+    "alias_execution": false,
+    "migration_execution": false,
+    "Unreal_mutation": false,
+    "runtime_mutation": false,
+    "real_payload_import": false
+  },
+  "MutationStatus": {
+    "source_object_mutated": false,
+    "Registry_mutation": false,
+    "Opening_State_activation": false,
+    "alias_execution": false,
+    "migration_execution": false,
+    "Unreal_mutation": false,
+    "runtime_mutation": false,
+    "real_payload_import": false
+  },
+  "RemovalLedger": {
+    "RemovedSubstantiveContent": [],
+    "RemovedNonSubstantiveDuplicateWrappers": [
+      "superseded V3 control values",
+      "intermediate V3 footer and end marker",
+      "duplicate V3.1 companion control block",
+      "duplicate V3.1 companion footer and end marker"
+    ]
+  },
+  "GeneratedAt": "2026-09-02"
+}

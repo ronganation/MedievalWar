@@ -1,0 +1,262 @@
+{
+  "ManifestId": "manifest.aragon.current_package.inventory_delta.v2",
+  "Version": "2.0.0",
+  "RevisionDate": "2026-09-09",
+  "Status": "STATIC_CHECKED_ADDITIVE_INVENTORY_DELTA_WITH_PHYSICAL_FINGERPRINT_GATE",
+  "Baseline": "Aragon_Current_Package_Inventory_and_Accepted_Source_Manifest_V1",
+  "BaselineAcceptedEntryCount": 52,
+  "FolderCount": 11,
+  "DeltaEntryCount": 27,
+  "Entries": [
+    {
+      "RelativePath": "00_README_and_Indexes/Aragon_Current_Authority_Index_V2.md",
+      "FileName": "Aragon_Current_Authority_Index_V2.md",
+      "Role": "CurrentAuthorityIndex",
+      "Disposition": "CURRENT",
+      "Sha256": "9DA4D6E54B1BC9A3E1F1B4327744EC42D5B19B7FAFCB2A220A76C0FFBCBCB3FD",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "00_README_and_Indexes/Aragon_Current_Authority_Index_V2_Manifest.json",
+      "FileName": "Aragon_Current_Authority_Index_V2_Manifest.json",
+      "Role": "CurrentAuthorityIndexManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "00_README_and_Indexes/Aragon_README_V2.md",
+      "FileName": "Aragon_README_V2.md",
+      "Role": "CurrentPackageREADME",
+      "Disposition": "CURRENT",
+      "Sha256": "0450E0908CD1905A84F51895E93EE0254FD7C39966272C4B905FB1E374711A5C",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "00_README_and_Indexes/Aragon_README_V2_Manifest.json",
+      "FileName": "Aragon_README_V2_Manifest.json",
+      "Role": "CurrentPackageREADMEManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "00_README_and_Indexes/Aragon_Package_Completion_and_Implementation_Handoff_Index_V2.md",
+      "FileName": "Aragon_Package_Completion_and_Implementation_Handoff_Index_V2.md",
+      "Role": "CurrentCompletionHandoffIndex",
+      "Disposition": "CURRENT",
+      "Sha256": "0004079858A3830F5E982958568C66912DC47D49D7CBD83879E1C09546308C09",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "00_README_and_Indexes/Aragon_Package_Completion_and_Implementation_Handoff_Index_V2_Manifest.json",
+      "FileName": "Aragon_Package_Completion_and_Implementation_Handoff_Index_V2_Manifest.json",
+      "Role": "CurrentCompletionHandoffManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "02_Identity_and_Registry/Aragon_ID_Registry_V2_Current_Authority_Modernization.md",
+      "FileName": "Aragon_ID_Registry_V2_Current_Authority_Modernization.md",
+      "Role": "CurrentRegistryAuthority",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "02_Identity_and_Registry/Aragon_ID_Registry_V2_Current_Authority_Modernization_Manifest.json",
+      "FileName": "Aragon_ID_Registry_V2_Current_Authority_Modernization_Manifest.json",
+      "Role": "CurrentRegistryManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "02_Identity_and_Registry/Aragon_Registry_Preflight_V2_Current_Authority_Revalidation.md",
+      "FileName": "Aragon_Registry_Preflight_V2_Current_Authority_Revalidation.md",
+      "Role": "CurrentRegistryPreflight",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "02_Identity_and_Registry/Aragon_Registry_Preflight_V2_Current_Authority_Revalidation_Manifest.json",
+      "FileName": "Aragon_Registry_Preflight_V2_Current_Authority_Revalidation_Manifest.json",
+      "Role": "CurrentRegistryPreflightManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "06_Historical_Systems/Aragon_Historical_Memory_V2_Developed_Realm_Parity_Authority.md",
+      "FileName": "Aragon_Historical_Memory_V2_Developed_Realm_Parity_Authority.md",
+      "Role": "CurrentHistoricalMemory",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "06_Historical_Systems/Aragon_Historical_Memory_V2_Developed_Realm_Parity_Authority_Manifest.json",
+      "FileName": "Aragon_Historical_Memory_V2_Developed_Realm_Parity_Authority_Manifest.json",
+      "Role": "CurrentHistoricalMemoryManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "06_Historical_Systems/Aragon_Historical_Momentum_V2_Developed_Realm_Parity_Authority.md",
+      "FileName": "Aragon_Historical_Momentum_V2_Developed_Realm_Parity_Authority.md",
+      "Role": "CurrentHistoricalMomentum",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "06_Historical_Systems/Aragon_Historical_Momentum_V2_Developed_Realm_Parity_Authority_Manifest.json",
+      "FileName": "Aragon_Historical_Momentum_V2_Developed_Realm_Parity_Authority_Manifest.json",
+      "Role": "CurrentHistoricalMomentumManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "06_Historical_Systems/Aragon_Historical_Emergence_V2_Developed_Realm_Parity_Authority.md",
+      "FileName": "Aragon_Historical_Emergence_V2_Developed_Realm_Parity_Authority.md",
+      "Role": "CurrentHistoricalEmergence",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "06_Historical_Systems/Aragon_Historical_Emergence_V2_Developed_Realm_Parity_Authority_Manifest.json",
+      "FileName": "Aragon_Historical_Emergence_V2_Developed_Realm_Parity_Authority_Manifest.json",
+      "Role": "CurrentHistoricalEmergenceManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "07_Opening_State/Aragon_Opening_State_1062_V2_1_Strong_Integrated_Developed_Realm_Parity_Authority.md",
+      "FileName": "Aragon_Opening_State_1062_V2_1_Strong_Integrated_Developed_Realm_Parity_Authority.md",
+      "Role": "CurrentOpeningState",
+      "Disposition": "CURRENT",
+      "Sha256": "C4BAEA3E85A88973E80A41D8E2AAB5919C143E90EF41841EB1C3BF68D7DDCC1F",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "07_Opening_State/Aragon_Opening_State_1062_V2_1_Strong_Integrated_Developed_Realm_Parity_Authority_Manifest.json",
+      "FileName": "Aragon_Opening_State_1062_V2_1_Strong_Integrated_Developed_Realm_Parity_Authority_Manifest.json",
+      "Role": "CurrentOpeningStateManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "08_Importer_Migration_and_Validation/Aragon_Registry_and_Opening_State_Exact_Audit_V2_1.md",
+      "FileName": "Aragon_Registry_and_Opening_State_Exact_Audit_V2_1.md",
+      "Role": "CurrentExactAudit",
+      "Disposition": "CURRENT",
+      "Sha256": "038131427C924890F311304E1070C878ACD0CDCAFEF5797814DE000AB7697705",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "08_Importer_Migration_and_Validation/Aragon_Registry_and_Opening_State_Exact_Audit_V2_1.json",
+      "FileName": "Aragon_Registry_and_Opening_State_Exact_Audit_V2_1.json",
+      "Role": "CurrentExactAuditData",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "08_Importer_Migration_and_Validation/Aragon_Registry_and_Opening_State_Exact_Audit_V2_1_Manifest.json",
+      "FileName": "Aragon_Registry_and_Opening_State_Exact_Audit_V2_1_Manifest.json",
+      "Role": "CurrentExactAuditManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "08_Importer_Migration_and_Validation/Aragon_Opening_State_V2_1_Owner_Record_Validation_and_Disposition_Authority.md",
+      "FileName": "Aragon_Opening_State_V2_1_Owner_Record_Validation_and_Disposition_Authority.md",
+      "Role": "CurrentOwnerRoutingAuthority",
+      "Disposition": "CURRENT",
+      "Sha256": "ED3B5F26186124445A9AACD1ABE128002DD9277E439BC700F9056DA28725D9AA",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "08_Importer_Migration_and_Validation/Aragon_Opening_State_V2_1_Owner_Record_Validation_and_Disposition_Authority_Manifest.json",
+      "FileName": "Aragon_Opening_State_V2_1_Owner_Record_Validation_and_Disposition_Authority_Manifest.json",
+      "Role": "CurrentOwnerRoutingManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "08_Importer_Migration_and_Validation/Aragon_Importer_Migration_Validation_Supersession_and_Retention_Ledger_V1.md",
+      "FileName": "Aragon_Importer_Migration_Validation_Supersession_and_Retention_Ledger_V1.md",
+      "Role": "CurrentRetentionLedger",
+      "Disposition": "CURRENT",
+      "Sha256": "F32EA6D851D0FD07422E55FC72426B76B3F43C0702545BF8140EB770020FB248",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "08_Importer_Migration_and_Validation/Aragon_Importer_Migration_Validation_Supersession_and_Retention_Ledger_V1_Manifest.json",
+      "FileName": "Aragon_Importer_Migration_Validation_Supersession_and_Retention_Ledger_V1_Manifest.json",
+      "Role": "CurrentRetentionLedgerManifest",
+      "Disposition": "CURRENT",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "08_Importer_Migration_and_Validation/Aragon_Opening_State_V2_1_Owner_Review_Checklist_and_Receipt_Template.md",
+      "FileName": "Aragon_Opening_State_V2_1_Owner_Review_Checklist_and_Receipt_Template.md",
+      "Role": "UnexecutedOwnerReviewTemplate",
+      "Disposition": "CURRENT_TEMPLATE",
+      "Sha256": "F8E83677CCF178CA544D9AB7806F7C0B4E8D6753CEB58A82D54017014F906A34",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    },
+    {
+      "RelativePath": "08_Importer_Migration_and_Validation/Aragon_Opening_State_V2_1_Owner_Review_Checklist_and_Receipt_Template_Manifest.json",
+      "FileName": "Aragon_Opening_State_V2_1_Owner_Review_Checklist_and_Receipt_Template_Manifest.json",
+      "Role": "UnexecutedOwnerReviewTemplateManifest",
+      "Disposition": "CURRENT_TEMPLATE",
+      "Sha256": "PENDING_PHYSICAL_RECALCULATION",
+      "CompileValidated": false,
+      "RuntimeValidated": false
+    }
+  ],
+  "Warning": "This additive delta does not claim a complete physical re-inventory. Pending hashes require recalculation from the organized package.",
+  "Promotion": {
+    "CandidateJson": false,
+    "ImporterSuccessor": false,
+    "Runtime": false,
+    "Unreal": false
+  }
+}

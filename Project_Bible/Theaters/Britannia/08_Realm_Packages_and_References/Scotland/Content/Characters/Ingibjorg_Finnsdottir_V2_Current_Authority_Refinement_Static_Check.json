@@ -1,0 +1,33 @@
+{
+  "document_id": "static-check.character.scotland.ingibjorg_finnsdottir.v2",
+  "version": "2.0.0",
+  "source": "Ingibjorg_Finnsdottir.md",
+  "successor": "Ingibjorg_Finnsdottir_V2_Current_Authority_Refinement.md",
+  "source_meta": {
+    "bytes": 50052,
+    "physical_lines": 981,
+    "sha256": "069695acb01ccc8811129e4f21dd0b8dca18365534b444d735dd5f3196a81a75"
+  },
+  "successor_meta": {
+    "bytes": 65383,
+    "physical_lines": 1418,
+    "sha256": "10706abfed201b4bf5b4d5180bfd85e9f27d596829c240069751633b1ee18909"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "protected_source_content_preserved": true,
+    "current_metadata_present": true,
+    "three_track_model_present": true,
+    "opening_bounded": true,
+    "consort_not_activated": true,
+    "underage_roles_unassigned": true,
+    "external_locks": true,
+    "honest_validation_status": true,
+    "authorizations_false": true
+  },
+  "missing_source_headings": [],
+  "passed": true,
+  "failed_checks": []
+}

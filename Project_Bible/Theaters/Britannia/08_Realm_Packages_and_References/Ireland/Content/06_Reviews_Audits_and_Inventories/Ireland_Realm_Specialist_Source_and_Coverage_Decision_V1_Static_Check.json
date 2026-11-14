@@ -1,0 +1,18 @@
+{
+  "target": "Ireland_Realm_Specialist_Source_and_Coverage_Decision_V1.md",
+  "status": "PASS",
+  "checks": {
+    "controls": true,
+    "pause": true,
+    "coverage_15": true,
+    "source": true,
+    "next": true,
+    "military_boundary": true,
+    "wales_boundary": true,
+    "three_tracks": true,
+    "honest": true,
+    "zero": true,
+    "format": true,
+    "all_pass": true
+  }
+}

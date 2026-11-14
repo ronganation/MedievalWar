@@ -1,0 +1,350 @@
+{
+  "ValidationReportId": "report.seville_taifa.faction_definition_manifest.1062.v1",
+  "InternalVersion": "1.2.0",
+  "SchemaDraft": "2020-12",
+  "SchemaSyntax": "PASS",
+  "CanonicalManifestSchema": "PASS",
+  "CanonicalSemanticValidation": "PASS",
+  "FixtureCount": 29,
+  "FixturesPassed": 29,
+  "FixturesFailed": 0,
+  "AllFixturesPassed": true,
+  "RuntimeInstances": 0,
+  "OpeningStateMutationAllowed": false,
+  "CanonicalManifestSHA256": "e4bdabcb9b35733502da5569196a96eefc15a98b5e2c6dcd90128931b4b8a7da",
+  "Results": [
+    {
+      "FixtureId": "FX00_CANONICAL_ACCEPT",
+      "Expected": "ACCEPT",
+      "Actual": "ACCEPT",
+      "Passed": true,
+      "SchemaErrors": [],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX01_PROFILE_MISSING",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "[{'CanonicalId': 'realm_personality.seville.expanding_urban_taifa.1062', 'EntityType': 'RealmPersonalityDefinition', 'DefinitionOwner': 'RealmPersonality', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '010'}, {'CanonicalId': 'ai_profile.realm.seville.1062', 'EntityType': 'RealmAIProfileDefinition', 'DefinitionOwner': 'RealmAI', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '020'}, {'CanonicalId': 'risk_policy.seville.multi_front.v1', 'EntityType': 'RealmRiskPolicyConfiguration', 'DefinitionOwner': 'RealmAI', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '030'}, {'CanonicalId': 'pressure.seville.abbadid_transition.1062', 'EntityType': 'SuccessionPressureDefinition', 'DefinitionOwner': 'Succession', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '040'}, {'CanonicalId': 'geography_profile.realm.seville.1062', 'EntityType': 'RealmStrategicGeographyProfileDefinition', 'DefinitionOwner': 'StrategicGeography', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '050'}, {'CanonicalId': 'economy_profile.realm.seville.1062', 'EntityType': 'RealmEconomyProfileDefinition', 'DefinitionOwner': 'Economy', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '060'}, {'CanonicalId': 'military_profile.realm.seville.1062', 'EntityType': 'RealmMilitaryProfileDefinition', 'DefinitionOwner': 'Military', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '070'}, {'CanonicalId': 'roster_profile.realm.seville.1062', 'EntityType': 'RealmRosterDirectionProfileDefinition', 'DefinitionOwner': 'MilitaryRosterDefinitions', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '080'}, {'CanonicalId': 'diplomacy_profile.realm.seville.1062', 'EntityType': 'RealmDiplomacyProfileDefinition', 'DefinitionOwner': 'Diplomacy', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '090'}, {'CanonicalId': 'external_pressure_profile.realm.seville.1062', 'EntityType': 'ExternalPressureEvaluationProfileDefinition', 'DefinitionOwner': 'Diplomacy', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '100'}, {'CanonicalId': 'visual_identity_profile.realm.seville.1062', 'EntityType': 'RealmVisualIdentityProfileDefinition', 'DefinitionOwner': 'VisualIdentity', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '110'}, {'CanonicalId': 'faction_selection_profile.realm.seville.1062', 'EntityType': 'FactionSelectionProfileDefinition', 'DefinitionOwner': 'FactionPresentation', 'RealmRef': 'realm.seville', 'LifecycleState': 'ActiveDefinition', 'ImporterEligibility': 'DefinitionPackageOnly', 'RuntimeInstantiationPolicy': 'NoAutomaticRuntimeInstance', 'MigrationState': 'NoPriorCanonicalId', 'StableOrderKey': '120'}] is too short"
+      ],
+      "SemanticErrors": [
+        "PROFILE_SET_OR_ORDER_MISMATCH",
+        "DECLARED_PROFILE_COUNT_MISMATCH"
+      ]
+    },
+    {
+      "FixtureId": "FX02_PROFILE_DUPLICATE",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [],
+      "SemanticErrors": [
+        "PROFILE_SET_OR_ORDER_MISMATCH",
+        "PROFILE_STABLE_ORDER_DUPLICATE"
+      ]
+    },
+    {
+      "FixtureId": "FX03_PROFILE_TYPE_WRONG",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [],
+      "SemanticErrors": [
+        "PROFILE_TYPE_OR_OWNER_MISMATCH:realm_personality.seville.expanding_urban_taifa.1062"
+      ]
+    },
+    {
+      "FixtureId": "FX04_PROFILE_ORDER_DUPLICATE",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [],
+      "SemanticErrors": [
+        "PROFILE_STABLE_ORDER_DUPLICATE"
+      ]
+    },
+    {
+      "FixtureId": "FX05_RUNTIME_FIELD",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "Additional properties are not allowed ('ActiveArmy' was unexpected)"
+      ],
+      "SemanticErrors": [
+        "FORBIDDEN:ActiveArmy"
+      ]
+    },
+    {
+      "FixtureId": "FX06_OPENING_SCOPE_LEAK",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "Additional properties are not allowed ('TreasuryBalance' was unexpected)"
+      ],
+      "SemanticErrors": [
+        "FORBIDDEN:TreasuryBalance"
+      ]
+    },
+    {
+      "FixtureId": "FX07_ALIAS_CHAIN",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "False was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX08_DEPRECATED_IDS",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "False was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX09_HISTORICAL_CADENCE",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "21 was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX10_BIOLOGICAL_CADENCE",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "7 was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX11_SEASON_ORDER",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "['Winter', 'Spring', 'Summer', 'Autumn'] was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX12_ASSESSMENT_ADVANCES_TIME",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "False was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX13_OBSERVATION_MUTATION",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "False was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX14_OBSERVATION_TIME",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "False was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX15_ACTION_MUTATION",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "False was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX16_ACTION_TIME",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "False was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX17_UNRESOLVED_OBSERVATION",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [],
+      "SemanticErrors": [
+        "ACTION_OBSERVATION_REF_UNRESOLVED:observation_contract.missing.v1"
+      ]
+    },
+    {
+      "FixtureId": "FX18_EXTERNAL_LOCK_AT_CREATION",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "0 was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX19_EXTERNAL_DUPLICATE_ALLOWED",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "False was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX20_RUNTIME_INSTANCE_COUNT",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "0 was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX21_OPENING_STATE_MUTATION",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "False was expected"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX22_SHARED_REF_INVALID",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "'local.temporal.bad' does not match '^shared\\\\.'"
+      ],
+      "SemanticErrors": []
+    },
+    {
+      "FixtureId": "FX23_PARTIAL_COMMIT",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [],
+      "SemanticErrors": [
+        "PARTIAL_COMMIT_ALLOWED"
+      ]
+    },
+    {
+      "FixtureId": "FX24_MUTATION_ON_FAILURE",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [],
+      "SemanticErrors": [
+        "MUTATION_ON_FAILURE_NONZERO"
+      ]
+    },
+    {
+      "FixtureId": "FX25_ROUTING_MUTATION",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [],
+      "SemanticErrors": [
+        "ROUTING_DIRECT_MUTATION_ALLOWED"
+      ]
+    },
+    {
+      "FixtureId": "FX26_WESTERN_MERGE",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "['settlement.niebla', 'settlement.huelva', 'settlement.huelva'] has non-unique elements"
+      ],
+      "SemanticErrors": [
+        "WESTERN_TARGET_SET_MISMATCH"
+      ]
+    },
+    {
+      "FixtureId": "FX27_FORMAL_HEIR",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "Additional properties are not allowed ('FormalHeir' was unexpected)"
+      ],
+      "SemanticErrors": [
+        "FORBIDDEN:FormalHeir"
+      ]
+    },
+    {
+      "FixtureId": "FX28_TURN_LENGTH",
+      "Expected": "REJECT",
+      "Actual": "REJECT",
+      "Passed": true,
+      "SchemaErrors": [
+        "Additional properties are not allowed ('TurnLengthMonths' was unexpected)"
+      ],
+      "SemanticErrors": [
+        "FORBIDDEN:TurnLengthMonths"
+      ]
+    }
+  ],
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "SchemaValidated": true,
+    "MutationFixturesExecuted": false,
+    "RegistryInsertionExecuted": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false,
+    "BalanceValidated": false,
+    "PriorMutationFixtureEvidencePreserved": true
+  },
+  "PriorExecutedEvidence": {
+    "ExecutedAtUtc": "2026-08-19T01:45:00Z",
+    "FixtureCount": 29,
+    "FixturesPassed": 29,
+    "FixturesFailed": 0,
+    "ManifestSHA256": "35ebc926c73aa9f56a443341e200ebec7f3d9f4d040b927a642d412dea82fcc6"
+  },
+  "CurrentArtifactSet": {
+    "ManifestSHA256": "e4bdabcb9b35733502da5569196a96eefc15a98b5e2c6dcd90128931b4b8a7da",
+    "SchemaSHA256": "8384af5aca0ae76abf0d9aa1bba443385f7b08e27c9053655801cdba15a66921",
+    "ValidationSHA256": "7014b610e7899f0124892f5db2e8edc2d0ed869226db3a293e9a7169616ffa1f",
+    "OwnerRoutingSHA256": "477daaddbc976ea86816956f80c3960766c900799b452fc4b7a881449c954633",
+    "FixturesSHA256": "c5d9dc95f9bc100d13932a5e03be9dab1a5abc30024b29507c8db6c6dbb4d474",
+    "SchemaMetaschema": "PASS",
+    "CanonicalManifestSchema": "PASS",
+    "SemanticStaticChecks": "PASS",
+    "FixtureRerun": "NOT_RUN"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "TaskId": "FRANCE-IMP-03A",
+  "Status": "ReadyForOwnerReview",
+  "Lane": "HistoricalEmergence",
+  "EntranceGate": "FRANCE-IMP-02B",
+  "EntranceStatus": "TransactionRecoveryAccepted",
+  "AcceptedPriorRegression": "92_of_92",
+  "PlannedFilesAdded": 6,
+  "ExistingFilesModified": 0,
+  "DirectFranceTests": 28,
+  "ExecutionAuthorized": false,
+  "NextGate": "FRANCE-IMP-03B",
+  "ProductionAuthority": false,
+  "Files": [
+    {
+      "Name": "FRANCE_IMP_03A_ACCEPTANCE_AND_ROLLBACK_MATRIX.csv",
+      "Bytes": 636,
+      "SHA256": "B917DFC47D4F56E7CFC46A90CAF627099EC3030F5FF0C99E1AD727927B28EA92"
+    },
+    {
+      "Name": "FRANCE_IMP_03A_DEPENDENCY_AND_BOUNDARY_MATRIX.csv",
+      "Bytes": 659,
+      "SHA256": "8F2AD3C73B54FAAF24C29AC88292CDCEFA1C9DC5D1D9DBB4FECF56012708CEE1"
+    },
+    {
+      "Name": "FRANCE_IMP_03A_EXACT_FILE_PLAN.csv",
+      "Bytes": 614,
+      "SHA256": "8C247B3F1D989E4A9C4146C4A61B0B3FC24967279E04B82156410B44CDD99187"
+    },
+    {
+      "Name": "FRANCE_IMP_03A_HISTORICAL_EMERGENCE_BOUNDED_CONTRACT_2026-09-23.md",
+      "Bytes": 8636,
+      "SHA256": "FB398991656EE46C647E77EF064BF0522F0E4FAB7916D5D1A3AB8FB93E4511DF"
+    },
+    {
+      "Name": "FRANCE_IMP_03A_TEST_AND_REGRESSION_PLAN.csv",
+      "Bytes": 562,
+      "SHA256": "1A3FA95436AAEA8E5293B7893DF120D2803660F97BDA89E6FED57C3986FEE7B6"
+    },
+    {
+      "Name": "README_FIRST_FRANCE_IMP_03A.txt",
+      "Bytes": 208,
+      "SHA256": "74A1F7FB5EE64533D6C04DBB564F28BABC1AC772914D59823ED1410ED56FBF41"
+    }
+  ]
+}

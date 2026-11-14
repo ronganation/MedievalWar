@@ -1,0 +1,11 @@
+Order,Filter,Expectation,Phase
+1,MedievalWar.Wales.CharacterNetwork.,DISCOVER_AND_RECORD,PreMutation
+2,MedievalWar.Wales.PersonDynasty.,DISCOVER_AND_RECORD,PreMutation
+3,MedievalWar.Scotland.CharacterNetwork.,DISCOVER_AND_RECORD,PreMutation
+4,MedievalWar.Scotland.PersonDynasty.,DISCOVER_AND_RECORD,PreMutation
+5,MedievalWar.France.CharacterDynastyNetwork.,34,PostBuild
+6,VERIFIED_NONZERO_COMPARATOR_FILTERS,PRESERVE_LOCKED_COUNTS,PostBuild
+7,MedievalWar.France.HistoricalEmergence.,28,PostBuild
+8,MedievalWar.France.TransactionRecovery.,24,PostBuild
+9,MedievalWar.France.CampaignInitialization.,24,PostBuild
+10,MedievalWar.Campaign.Theater.Definition.,4,PostBuild

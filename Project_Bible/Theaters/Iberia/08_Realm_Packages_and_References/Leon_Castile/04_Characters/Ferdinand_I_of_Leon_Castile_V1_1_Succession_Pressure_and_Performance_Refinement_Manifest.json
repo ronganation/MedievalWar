@@ -1,0 +1,31 @@
+{
+  "authority_file": "Ferdinand_I_of_Leon_Castile_V1_1_Succession_Pressure_and_Performance_Refinement.md",
+  "version": "1.1.0",
+  "bytes": 14958,
+  "physical_lines": 418,
+  "sha256": "30A39B39364AA8A9882F7DEC5102708540F7DB36D6976A40EB60FB8FEE55ECD8",
+  "status": "StaticCheckedDesignRefinementReviewOnly",
+  "immediate_profile": "Ferdinand_I_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md",
+  "source_treatment": "StandaloneAdditiveRefinementForLaterFullIntegration",
+  "recommended_tuning_not_runtime_approved": {
+    "ordinary_natural_mortality_protection": "first_2_strategic_turns",
+    "succession_resonance_review": "strategic_turn_3"
+  },
+  "checks": {
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "historical_anchor": true,
+    "performance_portfolio": true,
+    "comparative_model": true,
+    "outcome_families": true,
+    "stable_footer_count": 1
+  },
+  "all_checks_pass": true,
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  }
+}

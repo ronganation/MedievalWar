@@ -1,0 +1,35 @@
+{
+  "document_id": "static-check.wales.character-network.v2.current-authority-refinement",
+  "version": "2.0.0",
+  "source": {
+    "filename": "Wales_Character_Network_v1_1_ID_Readiness_Additive.md",
+    "bytes": 40378,
+    "physical_lines": 1334,
+    "sha256": "e927170c372bf50623036e6d72b19f9b69a61b6c16cc5769af335db6528c0505"
+  },
+  "successor": {
+    "filename": "Wales_Character_Network_V2_Current_Authority_Refinement.md",
+    "bytes": 66001,
+    "physical_lines": 2051,
+    "sha256": "2333449acaf6164e7e9e8a50997ba0bcfbc5399b46dd2faa902f823e0367a426"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "nine_nodes_present": true,
+    "eight_edges_present": true,
+    "zero_dimensions": true,
+    "dinefwr_guards": true,
+    "underage_gate": true,
+    "ecclesiastical_separation": true,
+    "temporal_tracks": true,
+    "honest_status": true,
+    "authorizations_false": true,
+    "removal_ledger_present": true,
+    "all_required_literals": true
+  },
+  "missing_source_headings": [],
+  "passed": true,
+  "failed_checks": []
+}

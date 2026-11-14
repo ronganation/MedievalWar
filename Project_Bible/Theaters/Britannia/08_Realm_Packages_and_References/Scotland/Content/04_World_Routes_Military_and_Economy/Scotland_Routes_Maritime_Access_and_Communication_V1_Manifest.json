@@ -1,0 +1,59 @@
+{
+  "document_id": "mw.realm.scotland.routes-maritime-access-communication.v1",
+  "authority_id": "authority.scotland.routes-maritime-access-communication.v1",
+  "stable_document_id": "RoutesCommunication.Realm.Scotland",
+  "filename": "Scotland_Routes_Maritime_Access_and_Communication_V1.md",
+  "version": "1.0.0",
+  "status": "Static-Checked Draft",
+  "immediate_source": "Scotland_Settlements_Ports_Islands_and_Strategic_Sites_V1.md",
+  "sha256": "2232379e43bde5e14be4b27d547aab77ee82f6898e4ec53ebf69524d23de976a",
+  "bytes": 69448,
+  "lines": 1787,
+  "sections": 60,
+  "opening_routes_created": 0,
+  "opening_crossings_created": 0,
+  "opening_maritime_lanes_created": 0,
+  "opening_access_rights_created": 0,
+  "opening_messages_created": 0,
+  "opening_messengers_created": 0,
+  "opening_external_consent_created": 0,
+  "Registry_mutation_performed": false,
+  "Opening_State_activation_performed": false,
+  "runtime_mutation_performed": false,
+  "migration_executed": false,
+  "validation": {
+    "compile": false,
+    "runtime": false,
+    "importer": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "performance": false
+  },
+  "portfolio_summary": {
+    "project_supported_endpoint_candidates": [
+      "Site.Scotland.St_Andrews"
+    ],
+    "review_only_endpoints": [
+      "Site.Scotland.Scone",
+      "Site.Scotland.Dunfermline"
+    ],
+    "regional_requirement_portfolios": [
+      "Region.Scotland.Moray",
+      "Portfolio.Scotland.SouthernFrontier",
+      "Portfolio.Scotland.WesternCoastalIslandFacing"
+    ],
+    "external_or_unresolved_connections": [
+      "Orkney",
+      "Hebrides",
+      "Shetland",
+      "Man",
+      "Norway",
+      "England",
+      "Northumbria",
+      "IrelandFacingInterfaces"
+    ],
+    "active_opening_routes": 0
+  },
+  "next_file": "Scotland_Economy_and_Property_V1.md"
+}

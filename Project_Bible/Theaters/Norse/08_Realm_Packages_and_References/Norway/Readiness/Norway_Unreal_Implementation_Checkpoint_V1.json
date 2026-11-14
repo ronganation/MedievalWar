@@ -1,0 +1,89 @@
+{
+  "document_id": "mw.realm.norway.unreal-implementation-checkpoint.v1",
+  "version": "1.1.0",
+  "realm_id": "Realm.Norway",
+  "scenario_id": "Scenario.Norway.1062Opening",
+  "manifest_record_count": 88,
+  "translation_record_count": 62,
+  "direct_alias_count": 18,
+  "protected_disposition_count": 6,
+  "shared_importer_test_count": 49,
+  "norway_filtered_test_count": 50,
+  "campaign_regression_test_count": 360,
+  "compile_validated": true,
+  "commandlet_validated": true,
+  "non_mutating_pipeline_validated_through": "TRANSACTION_CONFLICT_PREFLIGHT",
+  "operations_executed": false,
+  "adapters_instantiated": false,
+  "owner_subsystems_resolved": false,
+  "owner_subsystems_invoked": false,
+  "campaign_mutation_attempted": false,
+  "runtime_creation_permitted": false,
+  "importer_commit_authorized": false,
+  "save_load_validated": false,
+  "migration_execution_validated": false,
+  "replay_validated": false,
+  "performance_profiling_validated": false,
+  "operations_planned": true,
+  "transaction_conflict_preflight": {
+    "test_count": 7,
+    "passed": 7,
+    "failures": 0,
+    "skips": 0,
+    "tests": [
+      "TransactionConflictPreflight.CleanPlan",
+      "TransactionConflictPreflight.Determinism",
+      "TransactionConflictPreflight.DuplicateTargetRejected",
+      "TransactionConflictPreflight.MissingPrerequisiteRejected",
+      "TransactionConflictPreflight.NoExecution",
+      "TransactionConflictPreflight.OwnerCollisionRejected",
+      "TransactionConflictPreflight.ProtectedIdRejected"
+    ]
+  },
+  "norway_filtered_composition": {
+    "shared_importer_tests": 49,
+    "campaign_theater_boundary_tests": 1,
+    "campaign_theater_boundary_test": "MedievalWar.Campaign.Theater.Britania.NorwayMaritimeDoesNotGrantShips"
+  },
+  "campaign_regression": {
+    "passed": 360,
+    "failures": 0,
+    "skips": 0
+  },
+  "completed_non_mutating_layers": [
+    "LOADER_CONTRACT",
+    "MANIFEST_SUBSET",
+    "CANDIDATE_CONTRACT",
+    "OWNER_ROUTING",
+    "DRY_RUN_NO_MUTATION",
+    "OWNER_BATCH_PLANNING",
+    "OWNER_HANDOFF_ENVELOPES",
+    "OWNER_CAPABILITY_PREFLIGHT",
+    "OWNER_RESOLUTION_PLAN",
+    "OWNER_ADAPTER_BINDING_REGISTRY",
+    "TRANSACTION_STAGING_PLAN",
+    "TRANSACTION_CONFLICT_PREFLIGHT"
+  ],
+  "next_approved_batches": [
+    "ROLLBACK_JOURNAL_PLAN",
+    "IMPORT_RECEIPT_PLAN"
+  ],
+  "known_warnings": [
+    "STRUCTUTILS_DEPRECATION_NON_BLOCKING"
+  ],
+  "known_fixture_corrections": [
+    "TSET_GETKEYS_REPLACED_BY_EXPLICIT_ITERATION_INTO_TARRAY",
+    "DECLARATIONS_SELF_REFERENCE_ADD_REPLACED_BY_STANDALONE_COPY_BEFORE_TARRAY_ADD"
+  ],
+  "fixture_corrections_changed_owner_capability_contract": false,
+  "denmark_network_parent_test_count": 14,
+  "denmark_network_parent_is_norway_suite": false,
+  "evidence_verification": {
+    "preexisting_88_62_360_and_boundary_evidence_found": true,
+    "new_49_50_and_transaction_conflict_counts_supplied_by_user_task": true,
+    "new_49_50_and_transaction_conflict_reports_independently_found_in_enterprise_search": false
+  },
+  "faction_authorities_modified": false,
+  "sweden_files_modified": false,
+  "realm_package_moved_or_duplicated": false
+}

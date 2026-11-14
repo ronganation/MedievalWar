@@ -1,0 +1,154 @@
+{
+  "document_id": "manifest.realm.wales.package.v2.2.diplomacy-cross-reference-refresh",
+  "stable_document_id": "Manifest.Realm.Wales.Package",
+  "version": "2.2.0",
+  "realm_id": "Realm.Wales",
+  "owning_theater": "Britannia",
+  "scenario_id": "Scenario.Wales.Opening_1062_01_01",
+  "scenario_opening": "1062-01-01",
+  "opening_campaign_season": "Winter",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "scope": "Diplomacy authority family plus refreshed README and integrated-index references",
+  "scope_is_complete_repository_manifest": false,
+  "owner_selected_diplomacy_folder": "PendingOwnerPlacementDecision",
+  "entries": [
+    {
+      "filename": "Wales_Diplomacy_External_Relations_War_and_Peace_Authority_V1.md",
+      "classification": "RetainedImmediateSubstantiveSource",
+      "bytes": 44749,
+      "physical_lines": 1092,
+      "sha256": "2c46fb2b3cdfd022f5fc6065bfe66363cec36dc45797102488d8f2558b74ea3d",
+      "evidence_status": "VerifiedFromAcceptedSource",
+      "relative_path": "PendingOwnerPlacementDecision"
+    },
+    {
+      "filename": "Wales_Diplomacy_External_Relations_War_and_Peace_Authority_V1_Manifest.json",
+      "classification": "ProvenanceManifest",
+      "bytes": 698,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_status": "PresentInPriorWorkingSetHashNotRetainedInCurrentEvidence",
+      "relative_path": "PendingOwnerPlacementDecision"
+    },
+    {
+      "filename": "Wales_Diplomacy_Current_Authority_Full_Coverage_Ownership_and_Improvement_Decision_V1.md",
+      "classification": "ReviewOnlyDecisionRecord",
+      "bytes": 27831,
+      "physical_lines": 564,
+      "sha256": "2fb43cbc2f446f0ff2dca17ec3788b5cf2ea297df28f9f16bf079de325866716",
+      "evidence_status": "VerifiedFromGeneratedArtifact",
+      "relative_path": "PendingOwnerPlacementDecision"
+    },
+    {
+      "filename": "Wales_Diplomacy_External_Relations_War_and_Peace_Authority_V1_1_Current_Authority_Additive_Rebuild_FULL.md",
+      "classification": "CurrentRefinement",
+      "bytes": 97879,
+      "physical_lines": 2258,
+      "sha256": "98b94383dde75a10a8db05a30e733b3322cf0581d8bfaba5dad8881b7d190bfe",
+      "evidence_status": "VerifiedFromCurrentManifest",
+      "relative_path": "PendingOwnerPlacementDecision"
+    },
+    {
+      "filename": "Wales_Diplomacy_External_Relations_War_and_Peace_Authority_V1_1_Current_Authority_Additive_Rebuild_FULL_Manifest.json",
+      "classification": "CurrentAuthorityManifest",
+      "bytes": 2867,
+      "physical_lines": null,
+      "sha256": "634aca34f41b80d1c09e3a3b3477e93ca889860f20bfd73ea38f212911d5918f",
+      "evidence_status": "VerifiedFromGeneratedArtifact",
+      "relative_path": "PendingOwnerPlacementDecision"
+    },
+    {
+      "filename": "Wales_Diplomacy_External_Relations_War_and_Peace_Authority_V1_1_Current_Authority_Additive_Rebuild_FULL_Static_Check.json",
+      "classification": "MechanicalStaticValidation",
+      "bytes": 2891,
+      "physical_lines": null,
+      "sha256": "011ad34045f5be929db63dcc73cf7dc6910fb3a64911ce24f82f063579aad6fa",
+      "evidence_status": "VerifiedFromGeneratedArtifact",
+      "relative_path": "PendingOwnerPlacementDecision"
+    },
+    {
+      "filename": "Wales_Diplomacy_V1_1_Independent_Static_Coverage_Ownership_and_Stop_Gate_Review_V1.md",
+      "classification": "ReviewOnlyStaticClosure",
+      "bytes": 21269,
+      "physical_lines": 439,
+      "sha256": "0506381556fce5a5584ac7b77f54f55425e88fedb360e667ffc5dd355ce33bb5",
+      "evidence_status": "VerifiedFromGeneratedArtifact",
+      "relative_path": "PendingOwnerPlacementDecision"
+    },
+    {
+      "filename": "Wales_Diplomacy_Package_Index_Owner_Routing_and_Implementation_Handoff_Map_V1.md",
+      "classification": "PlanningOnlyRoutingAndHandoff",
+      "bytes": 37756,
+      "physical_lines": 805,
+      "sha256": "fdd24fa76f7c0d5c4fa771350d7f7e5cb60521a1f644fd5dea4bdf357669a5a0",
+      "evidence_status": "VerifiedFromGeneratedArtifact",
+      "relative_path": "PendingOwnerPlacementDecision"
+    },
+    {
+      "filename": "Wales_README_V2_1_Diplomacy_Current_Authority_Additive_Update.md",
+      "classification": "CurrentPackageNavigationAdditiveUpdate",
+      "bytes": 44086,
+      "physical_lines": 1042,
+      "sha256": "56e6a36aaf558dee1359a56de0842c3090774f08b9e9aa3eb2624a29c7461e14",
+      "evidence_status": "VerifiedFromGeneratedArtifact",
+      "relative_path": "PackageRootOrOwnerSelectedControlFolderPendingVerification"
+    },
+    {
+      "filename": "Wales_Realm_Package_Integrated_Authority_Index_V2_1_Diplomacy_Current_Authority_Additive_Update.md",
+      "classification": "CurrentIntegratedIndexAdditiveUpdate",
+      "bytes": 48121,
+      "physical_lines": 1205,
+      "sha256": "497ef69c76adbe5ab5fd4b4ae8c8f0a39340ff68598e15abc4514ec5a7ebcc91",
+      "evidence_status": "VerifiedFromGeneratedArtifact",
+      "relative_path": "PackageRootOrOwnerSelectedControlFolderPendingVerification"
+    }
+  ],
+  "summary": {
+    "entries": 10,
+    "entries_with_verified_sha256": 9,
+    "entries_without_verified_sha256": 1,
+    "current_general_diplomacy_authorities": 1,
+    "preserved_substantive_sources": 1,
+    "exact_opening_instances_created": 0,
+    "registry_rows_created": 0,
+    "external_reverse_state_created": 0,
+    "runtime_or_save_schema_created": 0,
+    "real_payloads_created": 0,
+    "unreal_assets_or_code_created": 0
+  },
+  "cross_reference_refresh": {
+    "current_diplomacy_authority": "Wales_Diplomacy_External_Relations_War_and_Peace_Authority_V1_1_Current_Authority_Additive_Rebuild_FULL.md",
+    "prior_V1_disposition": "RetainedImmediateSubstantiveSource",
+    "README_current_reference": "Wales_README_V2_1_Diplomacy_Current_Authority_Additive_Update.md",
+    "integrated_index_current_reference": "Wales_Realm_Package_Integrated_Authority_Index_V2_1_Diplomacy_Current_Authority_Additive_Update.md",
+    "stable_document_id_continuity": true,
+    "specialist_domain_count": 12,
+    "folder_reference_status": "PendingOwnerPlacementDecision",
+    "complete_repository_path_validation": false
+  },
+  "blockers": [
+    "owner-selected diplomacy folder not verified",
+    "complete recursive repository enumeration not performed",
+    "V1 provenance manifest SHA256 unavailable in retained current evidence",
+    "complete package-wide cross-reference validation not performed",
+    "St Davids canonical forms and Bleiddud occupancy unresolved",
+    "Mercian support and reciprocal England state unresolved",
+    "Registry Opening State external-owner importer runtime save migration replay performance payload and Unreal validation not performed"
+  ],
+  "validation_scope": "Static diplomacy-family manifest and reference refresh only. Not a complete recursive Wales package manifest and not implementation validation.",
+  "authorizations": {
+    "source_overwrite": false,
+    "file_move": false,
+    "folder_creation": false,
+    "registry_mutation": false,
+    "opening_state_mutation": false,
+    "external_owner_state_mutation": false,
+    "diplomatic_instance_activation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "real_payload_import": false,
+    "unreal_modification": false
+  }
+}

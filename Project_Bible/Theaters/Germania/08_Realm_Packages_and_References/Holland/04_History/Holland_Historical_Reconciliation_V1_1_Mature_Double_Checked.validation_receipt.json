@@ -1,0 +1,29 @@
+{
+  "document": "Holland_Historical_Reconciliation_V1_1_Mature_Double_Checked.md",
+  "validation_scope": "Static internal-authority historical reconciliation, literal completeness, and consistency only",
+  "result": "Pass",
+  "checks": {
+    "filename": "Holland_Historical_Reconciliation_V1_1_Mature_Double_Checked.md",
+    "version": "1.1.0",
+    "bytes": 44832,
+    "lines": 1236,
+    "sha256": "f057930ef59e09a96b6ac2b9d83818e117835d030d81b18b7426b87de79fa4aa",
+    "fences_balanced": true,
+    "escaped_underscores": 0,
+    "numbered_sections": 52,
+    "substantive_removals": 0,
+    "opening_state_mutations": 0,
+    "runtime_mutations": 0,
+    "required_anchors": true,
+    "result": "Pass"
+  },
+  "external_primary_source_certification": "Incomplete",
+  "compile_validation": "NotPerformed",
+  "runtime_validation": "NotPerformed",
+  "save_load_validation": "NotPerformed",
+  "migration_validation": "NotPerformed",
+  "replay_validation": "NotPerformed",
+  "performance_validation": "NotPerformed",
+  "unreal_validation": "NotPerformed",
+  "owner_review_required": true
+}

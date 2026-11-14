@@ -1,0 +1,37 @@
+{
+  "document_id": "Manifest.Inventory.CurrentPackage.Realm.SevilleTaifa.V1",
+  "version": "1.0.0",
+  "revision_date": "2026-09-09",
+  "status": "PASS_PROVISIONAL_SEARCH_VISIBLE",
+  "files": [
+    {
+      "filename": "Seville_Taifa_Current_Package_Inventory_and_Accepted_Source_Manifest_V1.md",
+      "sha256": "0B7D868101F907A5DFD5214CCB098B4EF3AEE3D1C4C7FCAD2A10D6558804BF42",
+      "bytes": 15644
+    },
+    {
+      "filename": "Seville_Taifa_Current_Package_Inventory_and_Accepted_Source_Manifest_V1.json",
+      "sha256": "DCC19283629B8AD83A4580C4873C614C6E38C812A5F79507B752A650BF0FDCF4",
+      "bytes": 42221
+    }
+  ],
+  "record_count": 47,
+  "disposition_counts": {
+    "RETAINED_PREDECESSOR": 8,
+    "CURRENT_INPUT": 15,
+    "CURRENT_MACHINE_EVIDENCE": 18,
+    "SUPPORTING_WORKFLOW": 2,
+    "ARCHIVE": 4
+  },
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "physical_completeness_not_claimed": true,
+    "null_physical_hashes_preserved": true,
+    "legacy_validation_not_promoted": true,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "next_gate": "Seville_Taifa_January_1062_Historical_Reconciliation_and_Source_Inventory_V2.md"
+}

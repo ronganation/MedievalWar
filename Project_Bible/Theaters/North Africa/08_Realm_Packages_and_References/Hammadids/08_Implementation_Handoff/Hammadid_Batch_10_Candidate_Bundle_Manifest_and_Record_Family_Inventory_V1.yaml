@@ -1,0 +1,718 @@
+manifest_control:
+  document_id: manifest.realm.hammadid.batch-10.candidate-bundle-record-family-inventory.v1
+  stable_document_id: CandidateBundleManifestRecordFamilyInventory.Hammadids
+  file_name: Hammadid_Batch_10_Candidate_Bundle_Manifest_and_Record_Family_Inventory_V1.yaml
+  version: 1.0.0
+  revision_date: 2026-09-22
+  manifest_class:
+    - CandidateBundlePlanningManifest
+    - RecordFamilyInventory
+    - DependencyAndOwnerRoutingControl
+    - HeldBlockedAndRejectedStateRegister
+    - ZeroMutationPlanningArtifact
+  constitutional_authority: Project Bible 2.4
+  operational_authority: Design Expansion Checklist 3.7
+  implementation_target: Unreal Engine 5.8
+  controlling_handoff: Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+  controlling_gate: Hammadid_Unreal_Engine_5_8_Batch_10_Candidate_Bundle_Importer_and_Unreal_Authorization_Gate_V1.md
+  controlling_validation_authority: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+  controlling_readiness_audit: Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+  status: DraftCandidateBundleManifestPlanningOnlyNoMaterializedBundleNoPayloadNoMutation
+
+scenario_scope:
+  scenario_id: mw.scenario.grand_campaign.1062
+  global_scenario_anchor: 1062-01-01
+  opening_campaign_season: Winter
+  candidate_realm_label: Hammadids
+  candidate_realm_ref: cand.realm.hammadid
+  owning_theater_label: North Africa
+  theater_ref: cand.theater.north_africa
+  package_root: Project_Bible/Theaters/North Africa/08_Realm_Packages_and_References/Hammadids
+  organized_folder: 08_Implementation_Handoff
+  january_variant:
+    variant_ref_candidate: hmd.opening.variant.1062_01_01
+    effective_date: 1062-01-01
+    state: ConstitutionalBaselinePlanningVariant
+  post_assassination_variant:
+    variant_ref_candidate: hmd.opening.variant.post_1062_07_11
+    earliest_effective_date: post_1062-07-11
+    state: HeldPendingHMD_DATE_001
+  selected_production_variant: null
+  variant_selection_state: BlockedPendingScenarioOwnerDecision
+  no_cross_variant_fact_leak: required
+
+bundle_identity:
+  bundle_ref: cand.bundle.realm.hammadid.batch10.v1
+  bundle_version: 1.0.0-planning
+  schema_version: PendingVerifiedProjectNativeSchema
+  publication_status: CandidateValidationPlanningOnly
+  bundle_materialization_state: NotCreated
+  bundle_hash: null
+  bundle_hash_state: NotRun
+  runtime_activation_authorized: false
+  registry_publication_authorized: false
+  opening_state_population_authorized: false
+  real_payload_generation_authorized: false
+  importer_dry_run_authorized: false
+  importer_execution_authorized: false
+  unreal_project_mutation_authorized: false
+
+strong_manifest_verdict:
+  design_authority_coverage: SufficientForCandidateBundlePlanning
+  candidate_bundle_contract: CompleteAtPlanningLevel
+  record_family_inventory: CompleteAtPlanningLevel
+  source_authority_recursive_manifest: NotRun
+  cryptographic_hash_manifest: NotRun
+  header_identity_reconciliation: Pending
+  source_successor_completeness_review: Pending
+  boundary_identity_ownership_and_binding_closure: Pending
+  project_native_schema_and_importer_discovery: Pending
+  candidate_bundle_materialization: Blocked
+  importer_or_unreal_intake: NotAuthorized
+  verdict: StrongPlanningManifestNoMaterializedBundleExecutionBlocked
+
+constitutional_separations:
+  - AuthorityFileDoesNotEqualCandidateBundle
+  - CandidateBundleDoesNotEqualGameplayPayload
+  - CandidateRecordDoesNotEqualCanonicalRegistryRow
+  - CandidateReferenceDoesNotEqualPublishedID
+  - DefinitionDoesNotEqualRuntimeInstance
+  - SchemaValidDoesNotEqualSemanticallyCorrect
+  - ParserPassDoesNotEqualOwnerApproval
+  - DryRunDoesNotEqualImport
+  - StageDoesNotEqualCommit
+  - CompilePassDoesNotEqualRuntimePass
+  - RuntimePassDoesNotEqualHistoricalValidation
+  - FreezeDoesNotEqualPermanentAuthorization
+  - PlanningApprovalDoesNotEqualExecutionApproval
+  - OwnerSilenceDoesNotEqualConsent
+
+current_readiness:
+  implementation_planning: Authorized
+  implementation_execution: NotAuthorized
+  registry_readiness: Hold
+  opening_state_readiness: Hold
+  candidate_bundle_readiness: Hold
+  importer_readiness: Hold
+  unreal_intake_readiness: Hold
+  exact_recursive_file_count: UnknownPendingRecursiveManifest
+  recursive_manifest_status: NotRun
+  package_hash_manifest_status: NotRun
+  full_header_validation_status: NotRun
+  full_section_inventory_status: NotRun
+  source_successor_comparison_status: NotRun
+  literal_alias_scan_status: NotRun
+  candidate_reference_freeze_status: NotApproved
+
+source_authority_manifests:
+  recursive_source_manifest_ref: null
+  recursive_source_manifest_state: NotGenerated
+  source_hash_manifest_ref: null
+  source_hash_manifest_state: NotGenerated
+  header_identity_ledger_ref: null
+  header_identity_ledger_state: NotGenerated
+  section_inventory_ref: null
+  section_inventory_state: NotGenerated
+  source_successor_comparison_pack_ref: null
+  source_successor_comparison_state: NotGenerated
+  removal_ledger_ref: null
+  removal_ledger_state: NotGenerated
+  alias_collision_external_lock_ledger_ref: Hammadid_Batch_10_Identity_Dependency_Owner_External_Lock_and_Quarantine_Validation_Report_V1.yaml
+  alias_collision_external_lock_ledger_state: PlannedNotGenerated
+  authority_currentness_rule: OnlyRecursivelyInventoriedHashedAndOwnerAcceptedSourcesMayEnterAMaterializedBundle
+
+record_family_inventory:
+  RegistryCandidateAndTypedReference:
+    record_family_ref: hmd.bundle.family.registry_typed_reference
+    source_gate: Batch02
+    controlling_gate_file: Hammadid_Unreal_Engine_5_8_Batch_02_Registry_and_Typed_Reference_Gate_V1.md
+    definition_owner: RegistryOwner
+    state_owner: RegistryOwner
+    candidate_record_classes:
+      - RealmReferenceCandidate
+      - FactionReferenceCandidate
+      - DynastyReferenceCandidate
+      - CharacterReferenceCandidate
+      - PlaceSettlementFortressRouteReferenceCandidate
+      - InstitutionOfficeCommunityLanguageReferenceCandidate
+      - UnitEquipmentHorseOfficerRecruitmentSourceReferenceCandidate
+      - HistoricalMemoryMomentumEmergenceEventReferenceCandidate
+      - ScenarioTheaterAndExternalLockReference
+      - AliasCollisionQuarantineAndMigrationMetadata
+    admission_state: HeldPendingBatch02AcceptanceAndRegistryOwnerDecision
+    activation_permitted: false
+
+  StaticDefinitions:
+    record_family_ref: hmd.bundle.family.static_definitions
+    source_gate: Batch03
+    controlling_gate_file: Hammadid_Unreal_Engine_5_8_Batch_03_Static_Definition_Gate_V1.md
+    definition_owner: SpecialistDefinitionOwners
+    state_owner: NotApplicableForDefinitionOnlyRecords
+    candidate_record_classes:
+      - RealmAndFactionDefinitionCandidate
+      - DynastyDefinitionCandidate
+      - CharacterDefinitionAndReviewOnlyMetadata
+      - GovernmentOfficeInstitutionCommunityAndLanguageDefinition
+      - PlaceSettlementFortressRoutePropertyAndBuildingDefinition
+      - RealmPersonalityDecisionCrisisAndHistoricalDefinition
+    admission_state: HeldPendingBatch03AcceptanceAndTypedReferenceClosure
+    activation_permitted: false
+
+  UnitDefinitionAndFiniteRecruitmentCandidate:
+    record_family_ref: hmd.bundle.family.unit_definition_finite_recruitment
+    source_gate: Batch04
+    controlling_gate_file: Hammadid_Unreal_Engine_5_8_Batch_04_Unit_Definition_and_Finite_Recruitment_Gate_V1.md
+    definition_owner: UnitRosterAndFiniteRecruitmentOwner
+    state_owner: MilitaryPopulationEquipmentHorseOfficerTrainingEconomyAndLogisticsOwners
+    candidate_record_classes:
+      - UnitDefinitionCandidate
+      - RecruitmentSourceCandidate
+      - FiniteRecruitmentPoolCandidate
+      - EquipmentHorseOfficerTrainingAndSupplyDependency
+      - AssetRequirementAndVisualEvidenceDisposition
+      - CampaignBattlePersistenceRule
+    admission_state: HeldNoNamedUnitDefinitionsOrPoolsAdmitted
+    activation_permitted: false
+
+  OpeningStateSchemaAndHeldRecord:
+    record_family_ref: hmd.bundle.family.opening_state_schema_held_record
+    source_gate: Batch05
+    controlling_gate_file: Hammadid_Unreal_Engine_5_8_Batch_05_Opening_State_Schema_and_Evidence_Contract_Gate_V1.md
+    definition_owner: OpeningStateOwner
+    state_owner: SpecialistOpeningValueOwners
+    candidate_record_classes:
+      - OpeningStateRecordEnvelope
+      - January1062ConstitutionalBaselineRecord
+      - PostAssassination1062HeldOverlayRecord
+      - ActiveOwnerApprovedRecord
+      - CandidateUnpublishedRecord
+      - ReviewOnlyRecord
+      - UnknownRecord
+      - IntentionalEmptyRecord
+      - NotCreatedRecord
+      - ExternalLockRecord
+      - HistoricalOnlyRecord
+      - HeldScenarioBoundaryRecord
+      - HeldConflictRecord
+      - RejectedRecord
+    admission_state: HeldPendingHMD_DATE_001CanonicalReferencesAndOpeningOwnerReceipts
+    activation_permitted: false
+
+  CampaignSystemTransactionAndOwnerRoute:
+    record_family_ref: hmd.bundle.family.campaign_transaction_owner_route
+    source_gate: Batch06
+    controlling_gate_file: Hammadid_Unreal_Engine_5_8_Batch_06_Campaign_Systems_Integration_Gate_V1.md
+    definition_owner: CampaignSystemsSpecialistOwners
+    state_owner: ExecutingSpecialistOwner
+    candidate_record_classes:
+      - OwnerRoutedTransactionDefinition
+      - OwnerRoutingMatrix
+      - CrossDomainDependencyDefinition
+      - FailureDelayAbstentionAndCompensationDefinition
+      - PersistenceSaveMigrationReplayAndRollbackDefinition
+      - ObservabilityAndEvidenceDefinition
+    admission_state: HeldPendingBatch06AcceptanceAndNativeAdapterDiscovery
+    activation_permitted: false
+
+  HistoricalMemoryMomentumEmergenceEventAndRealmAI:
+    record_family_ref: hmd.bundle.family.historical_event_realm_ai
+    source_gate: Batch07
+    controlling_gate_file: Hammadid_Unreal_Engine_5_8_Batch_07_Historical_Systems_Events_and_Realm_AI_Integration_Gate_V1.md
+    definition_owner: HistoricalEventAndRealmAIOwners
+    state_owner: HistoricalInstanceEventInstanceAndSpecialistConsequenceOwners
+    candidate_record_classes:
+      - HistoricalMemoryDefinitionCandidate
+      - HistoricalMomentumDefinitionCandidate
+      - HistoricalEmergenceDefinitionCandidate
+      - EventDecisionDilemmaPetitionCrisisAndOpportunityDefinition
+      - RealmPersonalityAndPriorityDefinition
+      - RealmAIProposalTraceDefinition
+      - AlternativeDelayFailureRecoveryAbstentionAndNonoccurrenceDefinition
+    admission_state: HeldNoHistoricalEventOrAIInstancesAuthorized
+    activation_permitted: false
+
+  BattleSiegeAndPersistence:
+    record_family_ref: hmd.bundle.family.battle_siege_persistence
+    source_gate: Batch08
+    controlling_gate_file: Hammadid_Unreal_Engine_5_8_Batch_08_Battle_Siege_and_Persistence_Gate_V1.md
+    definition_owner: CampaignBattleSiegeAndPersistenceOwners
+    state_owner: SpecialistConsequenceOwners
+    candidate_record_classes:
+      - CampaignToBattleRequestDefinition
+      - ForceUnitContingentCommandAndOwnershipDefinition
+      - PersonnelMaterialLogisticsTerrainAndKnowledgeInputDefinition
+      - SiegeFortificationEngineeringCivilianAndAftermathDefinition
+      - BattleResultAndCampaignReturnDefinition
+      - CasualtyCaptivityEquipmentHorsePoolAndRecoveryDefinition
+      - ReplayIdempotencyRejectionAndRollbackDefinition
+    admission_state: HeldNoBattleSiegeOrCampaignReturnExecutionAuthorized
+    activation_permitted: false
+
+  CampaignExperienceLocalizationAccessibilityAndAssetRequirement:
+    record_family_ref: hmd.bundle.family.presentation_localization_asset_requirement
+    source_gate: Batch09
+    controlling_gate_file: Hammadid_Unreal_Engine_5_8_Batch_09_Campaign_Experience_and_Presentation_Gate_V1.md
+    definition_owner: CampaignExperiencePresentationLocalizationAccessibilityArtAndAudioOwners
+    state_owner: ReadOnlySpecialistViewModelOwners
+    candidate_record_classes:
+      - CampaignExperienceSurfaceDefinition
+      - FactionSelectionAndOpeningPreviewDefinition
+      - StateUncertaintyConfidenceOwnershipAndExplanationDefinition
+      - LocalizationTransliterationTerminologyAndAliasDefinition
+      - AccessibilityInteractionAndReadabilityDefinition
+      - VisualAudioNarrativeEvidenceRightsAndAssetRequirement
+      - ScreenshotAndVisualValidationDefinition
+    admission_state: HeldNoProductionAssetsLocalizationPublicationOrRuntimeBindingsAuthorized
+    activation_permitted: false
+
+record_family_counts:
+  declared_record_families: 8
+  materialized_record_count: 0
+  accepted_record_count: 0
+  active_record_count: 0
+  rejected_record_count: 0
+  held_record_count: UnknownUntilMaterializationAndValidation
+  warning_record_count: UnknownUntilMaterializationAndValidation
+  count_source: DeclaredPlanningInventoryNotImporterOutput
+
+candidate_record_envelope:
+  required_fields:
+    - CandidateRecordRef
+    - RecordFamily
+    - EntityOrStateType
+    - CandidateSubjectRef
+    - ScenarioVariantAndTemporalScope
+    - DefinitionOwnerRef
+    - OwningAuthorityRefs
+    - EvidenceRefs
+    - Confidence
+    - Disposition
+    - DependencyRefs
+    - ValidationFixtureRefs
+    - RollbackRef
+    - RecordHash
+  conditional_fields:
+    CanonicalSubjectRef: RequiredOnlyAfterRegistryApproval
+    StateOwnerRef: RequiredForStatefulRecords
+    ExternalLockRefs: RequiredForSharedOrForeignOwnedReferences
+    OwnerReceiptRefs: RequiredBeforeAnyPromotionOrActivation
+    MigrationRefs: RequiredWhenIdentitySchemaPathOrVersionChanges
+  required_state_arrays:
+    - UnknownFields
+    - IntentionalEmptyFields
+    - HeldFields
+    - ReviewOnlyFields
+    - RejectedFields
+    - ExternalLockRefs
+    - AliasCollisionAndQuarantineRefs
+  runtime_activation_authorized: false
+
+bundle_dependency_order:
+  - order: 1
+    family: RegistryCandidateAndTypedReference
+    state: BlockedPendingBatch02AndRegistryOwner
+  - order: 2
+    family: StaticDefinitions
+    state: BlockedPendingRegistryTypedReferenceAcceptance
+  - order: 3
+    family: UnitDefinitionAndFiniteRecruitmentCandidate
+    state: BlockedPendingBatches01Through04AndMilitaryOwnerApproval
+  - order: 4
+    family: OpeningStateSchemaAndHeldRecord
+    state: BlockedPendingHMD_DATE_001CanonicalReferencesAndOpeningReceipts
+  - order: 5
+    family: CampaignSystemTransactionAndOwnerRoute
+    state: BlockedPendingApprovedRuntimeContractsAndNativeAdapters
+  - order: 6
+    family: HistoricalMemoryMomentumEmergenceEventAndRealmAI
+    state: BlockedPendingHistoricalEventAIOwnerAndVariantApproval
+  - order: 7
+    family: BattleSiegeAndPersistence
+    state: BlockedPendingMilitaryRuntimeAndBattlePersistenceOwners
+  - order: 8
+    family: CampaignExperienceLocalizationAccessibilityAndAssetRequirement
+    state: BlockedPendingApprovedVisibilityContractsAndNativePresentationOwners
+
+dependency_rules:
+  - LaterRecordCannotSatisfyMissingEarlierOwnerApproval
+  - MissingDependencyBlocksDependentPromotion
+  - HeldDependencyKeepsDependentRecordHeld
+  - QuarantinedDependencyKeepsDependentRecordQuarantinedOrRejected
+  - RejectedDependencyPropagatesAccordingToOwnerApprovedRule
+  - DependencyCycleFailsValidation
+  - CycleCannotBeBrokenBySilentDefault
+
+owner_routing_matrix:
+  PackageIntegrationOwner:
+    controls:
+      - AuthorityCurrentness
+      - RecursiveManifestAndHashes
+      - BatchOrdering
+      - CandidateBundleFreezeAndPromotion
+  RegistryOwner:
+    controls:
+      - EntityKinds
+      - CanonicalIDs
+      - Aliases
+      - Collisions
+      - Quarantines
+      - ExternalLocks
+      - CandidateToCanonicalMigration
+  ScenarioAndOpeningStateOwners:
+    controls:
+      - HMD_DATE_001
+      - VariantSelection
+      - OpeningExistenceValuesBindingsAndApplyOnceState
+  CharacterDynastyHouseholdAndNetworkOwner:
+    controls:
+      - CharacterIdentityLifecycleHouseholdCourtKinshipAndDirectedRelationships
+  GovernmentLawReligionPopulationCommunityEconomyPropertyHealthPublicOrderDiplomacyInformationGeographyOwners:
+    controls:
+      - RespectiveDefinitionsOpeningValuesTransactionsAndConsequences
+  MilitaryUnitRecruitmentSiegeAndBattleOwners:
+    controls:
+      - UnitDefinitionsPoolsCommandForcesEquipmentHorsesSupplySiegeBattleAndPersistence
+  HistoricalEventAndRealmAIOwners:
+    controls:
+      - MemoryMomentumEmergenceEventsCrisesPrioritiesProposalTraceAndAbstention
+  PresentationLocalizationAccessibilityArtAudioAndRightsOwners:
+    controls:
+      - ReadOnlySurfacesTermsInteractionAssetRequirementsRightsAndProduction
+  ImporterSchemaValidationBuildPersistenceAndEvidenceOwners:
+    controls:
+      - NativeSchemasPreflightDryRunWriteSetImporterCompileSaveReplayRollbackAndEvidence
+  UnrealImplementationOwner:
+    controls:
+      - ProjectNativeTargetsScopeBoundExecutionAuthorizationMutationAndPromotion
+  owner_silence_equals_approval: false
+
+external_lock_and_private_state_boundary:
+  external_or_shared_owners:
+    - ScenarioOwner
+    - NorthAfricaTheaterOwner
+    - ZiridPackageOwner
+    - AlmoravidPackageOwner
+    - BanuHilalActorOwners
+    - SharedReligionAndGeographyOwners
+  rules:
+    - HammadidBundleMayReferenceButNotAuthorExternalPrivateState
+    - CounterpartyAcceptanceKnowledgeForcesIntentionsAndAgreementsRequireExternalReceipt
+    - SilenceIsNotConsent
+    - ExternalLockCannotResolveThroughLocalFallback
+    - CoalitionContractOrServiceDoesNotTransferOwnership
+
+priority_blockers:
+  HMD_BOUNDARY_001:
+    finding: January1062BaselineVersusPostJuly1062VariantNotDisposed
+    severity: FatalForFreeze
+    owner: HistoricalResearchScenarioOpeningState
+    closure_evidence: BoundaryAndVariantDecisionReceipt
+  HMD_BOUNDARY_002:
+    finding: JanuaryLeadershipIdentityPresenceOfficeAndCommandNotApproved
+    severity: FatalForActiveLeadership
+    owner: HistoricalResearchCharacterOpeningState
+    closure_evidence: LifecyclePresenceIdentityOfficeAndCommandReceipt
+  HMD_BOUNDARY_003:
+    finding: PostJulyAlNasirCandidateCannotEnterJanuaryBaseline
+    severity: FatalIfBlended
+    owner: HistoricalResearchCharacterOpeningState
+    closure_evidence: VariantAdmissionAndDuplicateProfileDisposition
+  HMD_BOUNDARY_004:
+    finding: AssassinationConsequencesNotJanuaryBaselineApproved
+    severity: FatalIfBackProjected
+    owner: HistoricalMemoryOpeningState
+    closure_evidence: BoundaryScopedMemoryMomentumEventReceipt
+  HMD_ID_001:
+    finding: RealmFactionDynastyScenarioAndTheaterReferencesRemainCandidateOrExternal
+    severity: FatalForProductionSerialization
+    owner: RegistryAndExternalOwners
+    closure_evidence: CanonicalMappingAndOwnerReceipts
+  HMD_ID_002:
+    finding: AlNasirIdentityQuarantinedPendingDuplicateProfileDisposition
+    severity: FatalForActiveBinding
+    owner: CharacterRegistryPackageIntegration
+    closure_evidence: CollisionDispositionAndCanonicalPersonReceipt
+  HMD_ID_003:
+    finding: DomainReferencesRequireEntityKindValidation
+    severity: FatalForMachineReadableCandidate
+    owner: RegistryAndDefinitionOwners
+    closure_evidence: TypedCanonicalReferenceManifest
+  HMD_ID_004:
+    finding: ExternalOwnerReferencesRemainUnapproved
+    severity: FatalForReciprocalOrPrivateState
+    owner: ExternalAndDiplomacyOwners
+    closure_evidence: VersionedExternalLockAndReceiptMatrix
+  HMD_AUD_006:
+    finding: ProjectNativeSchemaCompatibilityUnmapped
+    severity: BlockingForMachineReadableMaterialization
+    owner: SharedSystemsImporterAndUnrealImplementationOwners
+    closure_evidence: ReadOnlySchemaCompatibilityManifest
+  HMD_AUD_008:
+    finding: PhysicalInventoryHashesDuplicatesAndStaleReferencesUnverified
+    severity: BlockingForRepositoryPromotion
+    owner: PackageControlAndValidation
+    closure_evidence: RecursiveManifestHashDuplicateAndStalePointerLedgers
+
+protected_unknowns:
+  - ExactJanuary1062Population
+  - PopulationPercentages
+  - CompleteOpeningOfficeRoster
+  - CompleteCourtAndJuristicRoster
+  - ExactAssassinOrCulprit
+  - CompleteResourceMap
+  - OpeningWorkshopAndInventoryState
+  - OpeningHealthCasesAndMedicalInstitutions
+  - OpeningCommunityRepresentatives
+  - CompleteForeignPrivateIntent
+  - OpeningEventDocket
+  - ExactOpeningMilitaryForcesPoolsGarrisonsEquipmentHorsesOfficersAndSupply
+  - ExactOpeningTreasuryRevenueTaxCreditStocksPricesAndProduction
+protected_unknown_rules:
+  - UnknownDoesNotBecomeZero
+  - UnknownDoesNotBecomeFalse
+  - UnknownDoesNotBecomeAbsent
+  - UnknownDoesNotBecomeNeutral
+  - UnknownDoesNotBecomeSafeAvailableLoyalOrResolved
+  - MissingOptionalRecordCreatesNoPlaceholder
+  - MissingFatalRecordBlocksPromotion
+
+validation_result_model:
+  permitted_states:
+    - NotRun
+    - Incomplete
+    - Blocked
+    - Warning
+    - Pass
+    - Fail
+    - Superseded
+    - NotApplicable
+  rules:
+    - NotRunMustNeverBeRenderedAsPass
+    - WarningMustNameRiskAndOwner
+    - BlockedMustNameDependency
+    - PassMustReferenceEvidence
+    - FailMustNameRepairAndRollback
+
+validation_fixture_manifest:
+  fixture_manifest_ref: Hammadid_Batch_10_Candidate_Bundle_Validation_Fixture_Manifest_V1.yaml
+  state: PlannedNotGenerated
+  synthetic_fixture_data_permitted: false
+  fixture_families:
+    positive:
+      - CandidateReferenceResolvesToCorrectTypedOwner
+      - UnknownRemainsUnknown
+      - HeldAndExternalRecordsRemainNonactive
+      - DefinitionLoadsWithoutInstance
+      - EventRoutesConsequenceToOwner
+      - RecruitmentRequiresFiniteInputs
+      - ForeignConsentRemainsExternal
+      - JanuaryAndPostJulyVariantsRemainSeparated
+      - PresentationRemainsReadOnly
+    negative:
+      - AliasCreatesDuplicateEntity
+      - CandidateSerializesAsCanonical
+      - DateCreatesEventOrHistoricalOutcome
+      - BuildingCreatesPeopleGoodsKnowledgeOrCapacity
+      - PopulationBecomesManpowerCurrency
+      - ImporterSilentlyResolvesCollision
+      - QuarantinedAlNasirBindsActive
+      - QalatTypedFunctionsFlatten
+      - BejaiaBackfillsOpening
+      - ExternalPrivateStateMaterializesLocally
+      - PartialCommitOccurs
+      - AdvancedSaveIsReinitialized
+
+rejected_and_held_record_manifest:
+  manifest_ref: Hammadid_Batch_10_Rejected_Held_Quarantined_and_External_Record_Manifest_V1.yaml
+  state: PlannedNotGenerated
+  required_fields:
+    - CandidateRecordRef
+    - RecordFamily
+    - Disposition
+    - Reason
+    - EvidenceRefs
+    - OwnerRef
+    - DependencyRefs
+    - RepairOrClosureAction
+    - RollbackRef
+  rule: RejectedHeldQuarantinedAndExternalRecordsRemainVisibleButCannotEnterActiveState
+
+proposed_write_set:
+  write_set_ref: Hammadid_Batch_10_Proposed_Write_Set_V1
+  state: EmptyPlanningPlaceholder
+  project_root_ref: PendingVerifiedLiveProjectRoot
+  target_branch_and_commit: Pending
+  create_paths: []
+  modify_paths: []
+  move_paths: []
+  delete_paths: []
+  registry_rows: []
+  opening_state_rows: []
+  assets_configs_tables_schemas_and_code_refs: []
+  execution_authorized: false
+  rules:
+    - WildcardUnboundedUnownedOrStaleWriteSetsFail
+    - DeleteMoveOverwriteRequireExplicitSeparateApproval
+    - UnlistedWriteIsFatal
+    - UnchangedFilesRemainByteIdentical
+
+preflight_and_dry_run:
+  preflight_receipt_ref: Hammadid_Batch_10_Preflight_Receipt_V1
+  dry_run_receipt_ref: Hammadid_Batch_10_Importer_Dry_Run_Zero_Mutation_Receipt_V1
+  preflight_state: NotRun
+  dry_run_state: NotRun
+  importer_owner: PendingVerifiedProjectNativeOwner
+  importer_version: Pending
+  project_commit: Pending
+  proposed_write_set_state: EmptyPlanningPlaceholder
+  mutation_permitted: false
+  dry_run_required_outputs:
+    - ParsedRecordInventory
+    - ToolReportedAcceptedRejectedHeldWarningAndSkippedCounts
+    - PerRecordDispositionAndOwnerRoute
+    - ExactProposedCreateModifyMoveDeleteSet
+    - ReferenceResolutionAndCollisionReport
+    - DependencyAndExternalLockReport
+    - PredictedCompileRuntimeSaveAndPresentationImpact
+    - ZeroMutationReceipt
+    - DryRunOutputHash
+  rule: DryRunPassDoesNotAuthorizeExecution
+
+rollback_and_freeze:
+  rollback_package_ref: Hammadid_Batch_10_Rollback_Freeze_and_Recovery_Package_V1.yaml
+  rollback_package_state: PlannedNotGenerated
+  candidate_freeze_ref: null
+  candidate_freeze_state: NotFrozen
+  rollback_requirements:
+    - PreActionProjectManifestAndHashes
+    - BackupOrSourceCopies
+    - ReverseCreateModifyMoveDeleteOperations
+    - RegistryAndOpeningStateReverseOperationsWhereApplicable
+    - OwnerSpecificCompensationWhereExternalEffectExists
+    - VerificationCommandsAndExpectedHashes
+    - EvidenceRetentionPath
+    - OwnerApprovalRefs
+  freeze_requirements:
+    - CompleteManifestAndHash
+    - ValidationPassesWithEvidence
+    - OwnerApprovals
+    - NoFatalBlockers
+    - ExactSchemaRuleFixtureWriteSetAndRollbackVersions
+  rule: FreezeDoesNotAuthorizePublicationActivationImporterOrUnrealExecution
+
+explicit_execution_authorization:
+  authorization_receipt_ref: Hammadid_Batch_10_Explicit_Unreal_Execution_Authorization_Receipt_V1.yaml
+  authorization_state: NotIssued
+  required_scope_fields:
+    - AuthorizedBatchAndScope
+    - BundleRefAndHash
+    - ProjectRootBranchCommitAndTargetRefs
+    - ExactWriteSetRef
+    - DryRunReceiptRef
+    - PreActionFingerprintRef
+    - RollbackPackageRef
+    - RequiredOwnerApprovals
+    - AuthorizedActions
+    - ProhibitedActions
+    - ExpirationOrSupersessionCondition
+    - ExecutionOperatorOrOwnerRef
+    - EvidenceRetentionPath
+  invalidation_conditions:
+    - BundleChanged
+    - BundleHashChanged
+    - ProjectCommitChanged
+    - WriteSetChanged
+    - OwnerStateChanged
+    - RequiredEvidenceSuperseded
+  rule: NoExecutionWithoutIssuedScopeBoundReceipt
+
+required_follow_on_outputs:
+  - Hammadid_Batch_10_Source_Authority_Recursive_Manifest_and_SHA256_Ledger_V1.yaml
+  - Hammadid_Batch_10_Identity_Dependency_Owner_External_Lock_and_Quarantine_Validation_Report_V1.yaml
+  - Hammadid_Batch_10_Preflight_Dry_Run_Exact_Write_Set_and_Zero_Mutation_Receipt_V1.yaml
+  - Hammadid_Batch_10_Compile_Runtime_Save_Migration_Replay_Performance_and_Visual_Evidence_Matrix_V1.yaml
+  - Hammadid_Batch_10_Rollback_Freeze_and_Recovery_Package_V1.yaml
+  - Hammadid_Batch_10_Explicit_Unreal_Execution_Authorization_Receipt_V1.yaml
+  - Hammadid_Batch_10_Final_Acceptance_and_Production_Intake_Disposition_V1.md
+
+acceptance_criteria:
+  planning_manifest_structure_complete: Pass
+  record_family_inventory_complete_at_planning_level: Pass
+  owner_routing_and_dependency_order_defined: Pass
+  protected_unknown_external_lock_and_quarantine_boundaries_defined: Pass
+  manifest_hash_and_fixture_requirements_defined: Pass
+  proposed_write_set_empty_and_execution_blocked: Pass
+  recursive_source_manifest: NotRun
+  cryptographic_hash_manifest: NotRun
+  boundary_identity_and_opening_binding_closure: Blocked
+  project_native_schema_and_importer_mapping: NotRun
+  importer_preflight: NotRun
+  importer_dry_run: NotRun
+  rollback_package: NotPrepared
+  candidate_freeze: NotApproved
+  execution_authorization_receipt: NotIssued
+  candidate_bundle_materialization: Blocked
+  production_intake: Blocked
+
+stop_conditions:
+  - AnyRequiredEarlierBatchLacksAcceptanceEvidence
+  - RecursiveInventoryHashesHeaderReconciliationOrSourceSuccessorValidationIncomplete
+  - HMD_DATE_001UnresolvedForIncludedBoundarySensitiveRecords
+  - AlNasirIdentityQuarantineOrOtherCollisionUnresolved
+  - CanonicalMappingEntityKindAliasOrExternalLockUnresolved
+  - OpeningBindingOwnerEvidenceOrVariantScopeIncomplete
+  - ProjectNativeSchemaValidatorImporterAdapterBuildTestPersistenceOrTargetUnverified
+  - UnknownHeldReviewOnlyRejectedQuarantinedOrExternalStateCouldMaterialize
+  - CandidateIDCouldPublishThroughFallbackOrImporterSideEffect
+  - ProposedWriteSetIsWildcardUnboundedUnownedStaleOrDifferentFromDryRun
+  - BackupRollbackCompensationSaveProtectionReplayOrEvidenceRetentionMissing
+  - IssuedScopeBoundExecutionAuthorizationReceiptAbsent
+
+nonmutation_receipt:
+  source_files_modified_moved_renamed_or_deleted: 0
+  candidate_bundle_materialized: false
+  candidate_records_serialized: 0
+  canonical_ids_published_or_reserved: 0
+  registry_rows_created_or_modified: 0
+  opening_state_records_created_or_modified: 0
+  runtime_instances_created: 0
+  gameplay_payloads_created_or_imported: 0
+  importer_preflight_runs_executed: 0
+  importer_dry_runs_executed: 0
+  importer_stage_or_commit_runs_executed: 0
+  compile_or_runtime_validation_executed: false
+  advanced_saves_modified: 0
+  unreal_files_modified: 0
+  execution_authorization_receipts_issued: 0
+
+next_safe_action:
+  action: GenerateRealRecursiveSourceManifestAndSHA256LedgerAfterReadAccessAndBatch01Acceptance
+  next_file: Hammadid_Batch_10_Source_Authority_Recursive_Manifest_and_SHA256_Ledger_V1.yaml
+  real_payload_importer_or_unreal_execution: Prohibited
+
+stable_footer:
+  ConstitutionalAuthority: Project Bible 2.4
+  OperationalAuthority: Design Expansion Checklist 3.7
+  ImplementationTarget: Unreal Engine 5.8
+  Theater: North Africa
+  CandidateRealm: Hammadids
+  ScenarioOpening: 1062-01-01
+  OpeningCampaignSeason: Winter
+  PreferredPlayableBoundaryCandidate: post_1062-07-11
+  PlayableBoundaryStatus: HeldPendingScenarioOwnerDisposition
+  HistoricalProgression: 21MonthsPerStrategicTurn
+  BiologicalProgression: 7MonthsPerStrategicTurn
+  CampaignSeasonProgression: OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn
+  BatchID: Batch10
+  ManifestStatus: DraftCandidateBundleManifestPlanningOnlyNoMaterializedBundleNoPayloadNoMutation
+  CandidateBundleMaterializationAuthorized: false
+  RealPayloadGenerationAuthorized: false
+  RegistryPublicationAuthorized: false
+  OpeningStatePopulationAuthorized: false
+  ImporterDryRunAuthorized: false
+  ImporterExecutionAuthorized: false
+  CompileExecutionAuthorized: false
+  RuntimeExecutionAuthorized: false
+  UnrealProjectMutationAuthorized: false
+  ProductionIntakeAuthorized: false
+  NextAction: GenerateRealRecursiveSourceManifestAndSHA256LedgerAfterReadAccessAndBatch01Acceptance

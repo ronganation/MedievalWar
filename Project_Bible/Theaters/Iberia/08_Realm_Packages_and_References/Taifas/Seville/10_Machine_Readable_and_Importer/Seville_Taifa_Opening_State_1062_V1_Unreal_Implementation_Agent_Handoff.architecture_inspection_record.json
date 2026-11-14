@@ -1,0 +1,157 @@
+{
+  "InspectionRecordId": "inspection.seville_taifa.opening_state_1062.unreal_architecture.v1",
+  "InternalVersion": "1.0.0",
+  "Status": "BATCH0_ARCHITECTURE_INSPECTION_RECORD_READY_NOT_EXECUTED",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.md",
+    "InternalVersion": "1.0.0",
+    "Bytes": 16122,
+    "SHA256": "efd4460c2b5a2e75ed09bc1cc1c241d8039dfb76296955af27cc9fcee28480bb",
+    "HashDisposition": "REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "Project": {
+    "ExpectedPath": "C:/UnrealProjects/MedievalWar",
+    "PathVerified": false,
+    "ProjectRevisionOrCommit": null,
+    "ControllingReadmesIdentified": false,
+    "OneDriveAuthoritiesRefreshed": false,
+    "ArchitectureInspectionExecuted": false
+  },
+  "RequiredInspectionSurfaces": [
+    {
+      "Ordinal": 1,
+      "InterfaceFamily": "Package identity and authority-manifest verification",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Campaign Data Architecture"
+    },
+    {
+      "Ordinal": 2,
+      "InterfaceFamily": "Registry version and canonical-ID resolution",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Registry"
+    },
+    {
+      "Ordinal": 3,
+      "InterfaceFamily": "Historical temporal state",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Temporal"
+    },
+    {
+      "Ordinal": 4,
+      "InterfaceFamily": "Biological temporal state",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Temporal"
+    },
+    {
+      "Ordinal": 5,
+      "InterfaceFamily": "Campaign Season temporal state",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Temporal"
+    },
+    {
+      "Ordinal": 6,
+      "InterfaceFamily": "Opening State bindings and initialization",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Opening State"
+    },
+    {
+      "Ordinal": 7,
+      "InterfaceFamily": "Unknown IntentionalEmpty ReviewOnly and quarantine types",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Campaign Data Architecture"
+    },
+    {
+      "Ordinal": 8,
+      "InterfaceFamily": "Owner-request dispatch and stable ordering",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Campaign Data Architecture"
+    },
+    {
+      "Ordinal": 9,
+      "InterfaceFamily": "Staged owner responses and atomic commit",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Runtime Data Architecture"
+    },
+    {
+      "Ordinal": 10,
+      "InterfaceFamily": "Apply-once guard and deterministic receipt",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Opening State"
+    },
+    {
+      "Ordinal": 11,
+      "InterfaceFamily": "Save load migration advanced-save firewall and replay",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Save and Migration"
+    },
+    {
+      "Ordinal": 12,
+      "InterfaceFamily": "Diagnostics fixture harness mutation counters and deterministic hashes",
+      "ProjectEvidenceRefs": [],
+      "ExistingTypes": [],
+      "Disposition": "NOT_INSPECTED",
+      "Owner": "Validation"
+    }
+  ],
+  "RequiredEvidence": {
+    "ProjectPathVerificationRef": null,
+    "ControllingREADMERefs": [],
+    "ModulesAndPluginsInspected": [],
+    "SourceFilesInspected": [],
+    "ExistingInterfacesVerified": [],
+    "MissingCapabilities": [],
+    "UnownedGaps": [],
+    "RiskFindings": [],
+    "NoMutationReceiptRef": null
+  },
+  "InspectionResults": {
+    "InterfaceFamiliesExpected": 12,
+    "InterfaceFamiliesInspected": 0,
+    "ProjectPathsVerified": 0,
+    "ExistingInterfacesVerified": 0,
+    "MissingCapabilitiesFound": 0,
+    "UnownedGapsFound": 0,
+    "SevilleLocalReplacementFrameworksProposed": 0,
+    "SourceFilesModified": 0,
+    "GeneratedFilesCreated": 0,
+    "Batch0Passed": false
+  },
+  "StopConditions": [
+    "Expected project path absent or wrong",
+    "Controlling project documentation unresolved",
+    "OneDrive and project-local authorities conflict",
+    "Inspection would mutate source or generated assets",
+    "Required interface missing without an owner"
+  ],
+  "NextAction": "Reverify OneDrive authorities, inspect the Unreal project read-only, and populate this record with project-path evidence."
+}

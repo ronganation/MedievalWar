@@ -1,0 +1,23 @@
+{
+  "document_id": "static-check.england.personality.v1_1.current_authority_refinement",
+  "version": "1.0.0",
+  "source_file": "England_Personality.md",
+  "output_file": "England_Personality_V1.1_Current_Authority_Refinement.md",
+  "checks": {
+    "output_additive": true,
+    "source_preserved": true,
+    "sections_retained": true,
+    "one_opening_boundary": true,
+    "current_historical_suite": true,
+    "temporal": true,
+    "all_Aelfgar_states": true,
+    "owner_boundaries": true,
+    "no_escapes": true,
+    "reviewonly": true,
+    "ue58": true,
+    "no_activation": true,
+    "validation_false": true,
+    "details_added": true
+  },
+  "passed": true
+}

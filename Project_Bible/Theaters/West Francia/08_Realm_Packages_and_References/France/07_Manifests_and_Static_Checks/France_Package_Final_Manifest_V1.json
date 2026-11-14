@@ -1,0 +1,414 @@
+{
+  "DocumentControl": {
+    "DocumentId": "Package.FinalManifest.Realm.France.V1",
+    "Filename": "France_Package_Final_Manifest_V1.json",
+    "Version": "1.0.0",
+    "RevisionDate": "2026-09-03",
+    "RealmId": "Realm.France",
+    "ScenarioId": "mw.scenario.grand_campaign.1062",
+    "Opening": "1062-01-01 Winter",
+    "OwningTheater": "West Francia",
+    "Placement": "France/07_Manifests_and_Static_Checks/",
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "Status": "IndexRoutedFinalManifestReconciliation",
+    "PhysicalFullPackageHashInventoryComplete": false
+  },
+  "Scope": {
+    "Basis": "France_Realm_Package_Current_Authority_Index_V1.md version 1.0.2 plus completed current-work artifacts",
+    "ManifestType": "CurrentRoutedPortfolioNotFullPhysicalDirectoryDump",
+    "OldFoldersExcluded": true,
+    "CharactersSubfolderPhysicalInventoryComplete": false,
+    "FullPackageHashInventoryComplete": false
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ]
+  },
+  "Folders": [
+    "00_Control_and_Audits",
+    "01_Historical_and_Opening_State",
+    "02_Characters_and_Dynasty",
+    "03_Governance_Law_Titles_and_Ecclesiastical",
+    "04_Realm_AI_and_Campaign_Opportunities",
+    "05_Geography_Communities_Economy_and_Infrastructure",
+    "06_Military_Recruitment_and_Supply",
+    "07_Manifests_and_Static_Checks",
+    "08_Legacy_Implementation_and_Validation",
+    "09_Legacy_Bundles_and_Sandbox"
+  ],
+  "RoutedItems": [
+    {
+      "Folder": "00_Control_and_Audits",
+      "Name": "France_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "00_Control_and_Audits",
+      "Name": "France_Realm_Package_Current_Authority_Index_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "00_Control_and_Audits",
+      "Name": "France_ID_Registry_V3_Developed_Realm_Parity_Candidate_Reconciliation.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "00_Control_and_Audits",
+      "Name": "France_Registry_V3_Owner_Decision_and_Promotion_Package_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "00_Control_and_Audits",
+      "Name": "France_Readiness_Integration_and_Blocker_Audit_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "00_Control_and_Audits",
+      "Name": "France_Current_Machine_Readable_Candidate_Bundle_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "01_Historical_and_Opening_State",
+      "Name": "France_Historical_Reconciliation_V3_Developed_Faction_Parity_Authority.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "01_Historical_and_Opening_State",
+      "Name": "France_Opening_State_1062_V3_1_Current_Authority_Refinement_FULL.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "01_Historical_and_Opening_State",
+      "Name": "France_Historical_Memory_V2_Developed_Realm_Parity_Authority.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "01_Historical_and_Opening_State",
+      "Name": "France_Historical_Momentum_V1_Developed_Realm_Parity_Authority.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "01_Historical_and_Opening_State",
+      "Name": "France_Historical_Emergence_V2.1_Current_Authority_Correction.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "02_Characters_and_Dynasty",
+      "Name": "France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "02_Characters_and_Dynasty",
+      "Name": "France_Dynasty_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "02_Characters_and_Dynasty",
+      "Name": "France_Character_Network_V2_Developed_Realm_Parity_Authority.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "03_Governance_Law_Titles_and_Ecclesiastical",
+      "Name": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "03_Governance_Law_Titles_and_Ecclesiastical",
+      "Name": "France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "03_Governance_Law_Titles_and_Ecclesiastical",
+      "Name": "France_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "03_Governance_Law_Titles_and_Ecclesiastical",
+      "Name": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "04_Realm_AI_and_Campaign_Opportunities",
+      "Name": "France_Realm_Personality_AI_V2_Developed_Realm_Parity_Authority.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "04_Realm_AI_and_Campaign_Opportunities",
+      "Name": "France_Opening_Campaign_Opportunity_and_Early_Conflict_Reservation_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "04_Realm_AI_and_Campaign_Opportunities",
+      "Name": "France_Faction_Visual_Culmination_and_Presentation_Authority_V1.md",
+      "Status": "ReviewOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "04_Realm_AI_and_Campaign_Opportunities",
+      "Name": "France_Faction_Designer_Input_Packet_V1.md",
+      "Status": "ReviewOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "04_Realm_AI_and_Campaign_Opportunities",
+      "Name": "France_Internal_Faction_Authority_One_Sheet_V1.png",
+      "Status": "ReviewOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "04_Realm_AI_and_Campaign_Opportunities",
+      "Name": "France_Visual_Board_Static_Inspection_and_Asset_Metadata_V1.md",
+      "Status": "ReviewOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "04_Realm_AI_and_Campaign_Opportunities",
+      "Name": "France_Player_Facing_Faction_Sheet_V1.jpeg",
+      "Status": "ReviewOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "04_Realm_AI_and_Campaign_Opportunities",
+      "Name": "France_Player_Facing_Faction_Sheet_Static_Inspection_and_Asset_Metadata_V1.md",
+      "Status": "ReviewOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "05_Geography_Communities_Economy_and_Infrastructure",
+      "Name": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "05_Geography_Communities_Economy_and_Infrastructure",
+      "Name": "France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "05_Geography_Communities_Economy_and_Infrastructure",
+      "Name": "France_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "05_Geography_Communities_Economy_and_Infrastructure",
+      "Name": "France_Economy_Property_Revenue_and_Treasury_Authority_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "06_Military_Recruitment_and_Supply",
+      "Name": "France_Army_Host_Garrisons_and_Military_Capability_Authority_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "06_Military_Recruitment_and_Supply",
+      "Name": "France_Recruitment_Pools_Units_and_Replenishment_Authority_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "06_Military_Recruitment_and_Supply",
+      "Name": "France_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+      "Status": "CurrentAuthorityOrCurrentControl",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "07_Manifests_and_Static_Checks",
+      "Name": "France_Registry_V3_Candidate_Manifest_and_Collision_Preflight_V1.json",
+      "Status": "CompanionEvidence",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "07_Manifests_and_Static_Checks",
+      "Name": "France_Visual_Culmination_Asset_Manifest_V1.json",
+      "Status": "CompanionEvidence",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "07_Manifests_and_Static_Checks",
+      "Name": "France_Visual_Culmination_Static_Check_V1.json",
+      "Status": "CompanionEvidence",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "07_Manifests_and_Static_Checks",
+      "Name": "France_Package_Final_Manifest_V1.json",
+      "Status": "ThisManifest",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "07_Manifests_and_Static_Checks",
+      "Name": "France_Package_Final_Static_Check_V1.json",
+      "Status": "CompanionCheck",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_UE5_8_Candidate_Importer_and_Schema_Handoff_V1.md",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "FR8_DryRun/",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "FR8_DA/",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_UE5_8_Candidate_DataAsset_Draft_Report_V1.md",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_UE5_8_Candidate_DataAsset_Draft_Manifest_V1.json",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "FR8_Sandbox/",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_UE5_8_Candidate_Sandbox_Module_Patch_Report_V1.md",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_UE5_8_Candidate_Sandbox_Module_Patch_Manifest_V1.json",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_UE5_8_Project_Native_Architecture_and_Ownership_Inspection_V1.md",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_UE5_8_Project_Native_Translator_Patch_Plan_V1.md",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_UE5_8_Project_Native_Translator_PreChange_Inventory_V1.json",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_UE5_8_Project_Native_Translator_Live_Fingerprint_Packet_V1.json",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_UE5_8_Project_Native_Translator_Interface_and_Rollback_Readiness_V1.md",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "08_Legacy_Implementation_and_Validation",
+      "Name": "France_Implementation_Preparation_Closeout_and_Future_Unreal_Handoff_V1.md",
+      "Status": "CurrentPreparationOrReferenceOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "09_Legacy_Bundles_and_Sandbox",
+      "Name": "France_Current_Machine_Readable_Candidate_Bundle_V1/",
+      "Status": "CandidateOnly",
+      "OldExcluded": true
+    },
+    {
+      "Folder": "09_Legacy_Bundles_and_Sandbox",
+      "Name": "France_Current_Machine_Readable_Candidate_Bundle_Scaffold_V1.zip",
+      "Status": "CandidateOnly",
+      "OldExcluded": true
+    }
+  ],
+  "Counts": {
+    "NumberedFolders": 10,
+    "RoutedTopLevelItemsAndFolders": 54,
+    "CurrentImplementationPreparationItems": 14,
+    "CurrentCandidateBundleItemsAtFolderLevel": 2,
+    "OldItemsIncluded": 0
+  },
+  "Closures": {
+    "VisualConceptPass": "ClosedReviewOnly",
+    "MachineReadableCandidateBundle": "CompleteCandidateOnly27Items",
+    "ImplementationPreparationPass": "Closed",
+    "ActiveFranceUnrealExecution": "Deferred",
+    "StandaloneFranceModule": "RejectedAsDuplicateArchitecture"
+  },
+  "KnownCandidateMetadata": {
+    "CandidateBundleItems": 27,
+    "DirectAliases": 15,
+    "RegistryCandidateRecords": 84,
+    "ExternalLockedCandidates": 44,
+    "DeferredEntityFamilies": 19
+  },
+  "RemainingBlockers": [
+    "ProjectWideRegistryCollisionScan",
+    "ExternalOwnerRegistryReceipts",
+    "ProjectRegistryOwnerDecision",
+    "OpeningStateOwnerBindingsAndActivation",
+    "HistoricalArtHeraldrySourceLicenseLocalizationAccessibilityApproval",
+    "DedicatedFranceUnrealSingleWriter",
+    "CompileEditorRuntimeSaveMigrationReplayPerformanceValidation"
+  ],
+  "MutationStatus": {
+    "SourceFilesModified": 0,
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

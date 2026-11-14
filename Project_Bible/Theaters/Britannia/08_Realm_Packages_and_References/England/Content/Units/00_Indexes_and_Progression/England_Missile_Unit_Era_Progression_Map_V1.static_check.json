@@ -1,0 +1,15 @@
+{
+  "document": "England_Missile_Unit_Era_Progression_Map_V1.md",
+  "sha256": "612c36b0c7752b804201882cfca775ecb5276414693952a80231ec7a28bf9a6b",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "four_existing_profiles": true,
+    "high_additions": true,
+    "consolidations": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

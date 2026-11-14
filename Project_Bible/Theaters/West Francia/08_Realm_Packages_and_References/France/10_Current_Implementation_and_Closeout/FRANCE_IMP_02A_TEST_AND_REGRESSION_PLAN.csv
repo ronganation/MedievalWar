@@ -1,0 +1,8 @@
+Order,Filter,Expectation,Phase
+1,MedievalWar.Wales.TransactionRecovery.,DISCOVER_GREATER_THAN_ZERO,PreMutation
+2,MedievalWar.Scotland.TransactionRecovery.,DISCOVER_GREATER_THAN_ZERO,PreMutation
+3,MedievalWar.France.TransactionRecovery.,24,PostBuild
+4,MedievalWar.Wales.TransactionRecovery.,PRESERVE_DISCOVERED,PostBuild
+5,MedievalWar.Scotland.TransactionRecovery.,PRESERVE_DISCOVERED,PostBuild
+6,MedievalWar.France.CampaignInitialization.,24,PostBuild
+7,MedievalWar.Campaign.Theater.Definition.,4,PostBuild

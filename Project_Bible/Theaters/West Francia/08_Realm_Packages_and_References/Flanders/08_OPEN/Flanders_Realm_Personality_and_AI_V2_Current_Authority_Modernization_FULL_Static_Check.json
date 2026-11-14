@@ -1,0 +1,21 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "source_hash_recorded": true,
+    "connected_march_preserved": true,
+    "policies_15": true,
+    "adaptations_9": true,
+    "reason_codes_32": true,
+    "child_AI_policy": true,
+    "child_proposals_zero": true,
+    "child_objectives_zero": true,
+    "zero_runtime_profile": true,
+    "zero_AI_proposals": true,
+    "zero_substantive_removals": true,
+    "stable_footer_once": true
+  },
+  "SHA256": "3736160e80c69c04569b302b0bdd8f715ccf6ddece2f7c16f927ced03e3cc8a5",
+  "Bytes": 99769,
+  "Lines": 2004,
+  "Scope": "Copy-first child Realm Personality and AI reconciliation and nonmutation"
+}

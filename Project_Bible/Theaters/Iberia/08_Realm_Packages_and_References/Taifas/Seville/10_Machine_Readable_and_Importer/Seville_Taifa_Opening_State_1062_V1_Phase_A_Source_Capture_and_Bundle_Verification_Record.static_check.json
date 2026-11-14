@@ -1,0 +1,201 @@
+{
+  "ArtifactId": "Seville_Taifa_Opening_State_1062_V1_Phase_A_Source_Capture_and_Bundle_Verification_Record",
+  "InternalVersion": "1.0.0",
+  "StaticCheckVersion": "1.1.0",
+  "Status": "STATIC_CHECKED_REBUILT_PHASE_A_RECORD_READY_FOR_VALIDATION_AGENT_HANDOFF",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceRecord": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Phase_A_Source_Capture_and_Bundle_Verification_Record.md",
+    "InternalVersion": "1.0.0",
+    "RecordedBytes": 14997,
+    "RecordedLines": 505,
+    "RecordedSHA256": "923b59e147144d1b3c08a1a9514e1c8bc9ef9894d1fc75093f3548f074a57445",
+    "HashDisposition": "RECORDED_FROM_REBUILT_SOURCE_GENERATION_RECEIPT_REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "Placement": {
+    "RequiredFolder": "Theaters/Iberia/08_Realm_Packages_and_References/Taifas/Seville/10_Machine_Readable_and_Importer",
+    "PlaceBesideSourceRecord": true
+  },
+  "ProtectedBaseline": {
+    "OpeningStateAuthorityInternalVersion": "1.3.0",
+    "MachineReadableContractInternalVersion": "1.2.0",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "OpeningDate": "1062-01-01",
+    "OpeningCampaignSeason": "Winter",
+    "HistoricalProgressionMonthsPerStrategicTurn": 21,
+    "BiologicalProgressionMonthsPerStrategicTurn": 7,
+    "CampaignSeasonAdvancePerStrategicTurn": 1,
+    "ActiveRealmShells": 1,
+    "ActiveLivingCharacters": 2,
+    "ActiveDynastyDefinitionBindings": 1,
+    "ActiveCapitalBindings": 1,
+    "ActiveSuperiorPoliticalAuthorityBindings": 7,
+    "DefinitionOnlyFormerPolityBindings": 5,
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11,
+    "RetainedExplicitEmptyCollections": 51,
+    "AdditiveExplicitEmptyCollections": 19,
+    "TotalExplicitEmptyCollections": 70,
+    "OwnerRoutingRequests": 18,
+    "OpeningFixtureDefinitions": 39,
+    "DefinitionFixtureDefinitions": 29,
+    "UnsupportedActiveInstancesCreated": 0
+  },
+  "RequiredArtifactContract": {
+    "MachineReadableInputs": 19,
+    "ReadinessControls": 3,
+    "ValidationControls": 6,
+    "TotalRequiredArtifacts": 28,
+    "CompletedCaptureEntriesRequired": 28,
+    "NullByteOrHashAllowedAfterCompletion": false
+  },
+  "SourceResolutionBoundary": {
+    "RefreshOneDriveFirst": true,
+    "EnumerateWithoutSourceMutation": true,
+    "DuplicateAndDivergentCopyScanRequired": true,
+    "ResolveByStableIdentityVersionAuthorityContentAndSupersession": true,
+    "TimestampAloneMayEstablishAuthority": false,
+    "StopIfAuthorityRemainsAmbiguous": true,
+    "CopyBeforeValidation": true,
+    "ReadOnlyOrDisposableWorkspaceRequired": true,
+    "SourceToCaptureEqualityRequired": true
+  },
+  "HashAndBundleContract": {
+    "HashAlgorithm": "SHA-256",
+    "CurrentHashEntriesRequired": 28,
+    "SourceAndCaptureHashesRequired": true,
+    "PredecessorHashesKeptSeparate": true,
+    "PredecessorHashMaySatisfyCurrentRequirement": false,
+    "DeterministicBundleHashRequired": true,
+    "CanonicalLedgerEncoding": "UTF-8",
+    "CanonicalLineEnding": "LF",
+    "AbsolutePathsExcluded": true,
+    "TimestampsExcluded": true,
+    "WorkstationIdentityExcluded": true,
+    "UploadOrderExcluded": true
+  },
+  "CurrentExecutionState": {
+    "OneDriveRefreshCompleted": false,
+    "SourceResolutionPassed": false,
+    "CapturedTotalArtifacts": 0,
+    "CurrentHashEntries": 0,
+    "BundleHash": null,
+    "BundleHashReproducible": false,
+    "PhaseAExecuted": false,
+    "PhaseAPassed": false,
+    "PhaseBAuthorized": false,
+    "FixtureExecutionAuthorized": false
+  },
+  "PhaseAAcceptanceTargets": {
+    "RequiredMachineInputsPresent": 19,
+    "RequiredReadinessControlsPresent": 3,
+    "RequiredValidationControlsPresent": 6,
+    "DuplicateFilenameAmbiguity": 0,
+    "DivergentDuplicateCount": 0,
+    "MissingRequiredHashes": 0,
+    "CurrentHashMismatches": 0,
+    "VersionMismatches": 0,
+    "SourceFilesMutated": 0,
+    "OneSourceLocationEstablished": true,
+    "BundleHashCalculated": true,
+    "BundleHashReproducible": true
+  },
+  "PhaseBAuthorizationBoundary": {
+    "PhaseAPassedRequired": true,
+    "ImmutableBundleManifestCompletedRequired": true,
+    "CurrentHashLedgerCompletedRequired": true,
+    "BundleHashReproducibleRequired": true,
+    "ValidationOwnerApprovalRequired": true,
+    "RegistryOwnerDispositionRequired": true,
+    "SyntaxAndSchemaPreflightAuthorized": false,
+    "SemanticPreflightAuthorized": false,
+    "FixtureExecutionAuthorized": false,
+    "CurrentDisposition": "NOT_AUTHORIZED"
+  },
+  "ImplementationHandoffBoundary": {
+    "VerifiedBundleManifestAvailable": false,
+    "VerifiedBundleHashAvailable": false,
+    "StableRequestOrderVerified": false,
+    "ApplyOnceContractVerified": false,
+    "AdvancedSaveFirewallVerified": false,
+    "ZeroMutationFailureContractVerified": false,
+    "DeterministicTraceContractVerified": false,
+    "ReadyForImporterImplementationReview": false
+  },
+  "MutationBoundary": {
+    "SourceFilesModified": 0,
+    "RegistryRowsChanged": 0,
+    "RuntimeInstancesCreated": 0,
+    "RealCampaignPayloadApplied": false,
+    "OwnerCommandsCommitted": false,
+    "OpeningReceiptWritten": false,
+    "AdvancedSavesModified": 0,
+    "UnrealFilesModified": 0
+  },
+  "FailureAndRollback": {
+    "MissingRequiredArtifact": "FATAL_STOP",
+    "VersionMismatch": "FATAL_STOP",
+    "HashMismatch": "FATAL_STOP",
+    "DivergentDuplicate": "FATAL_STOP",
+    "SourceMutationDetected": "FATAL_STOP",
+    "AuthorityUnresolved": "FATAL_STOP",
+    "HashNotReproducible": "FATAL_STOP",
+    "PredecessorEvidencePromoted": "FATAL_STOP",
+    "DiscardIsolatedBundleOnFailure": true,
+    "PreserveFailureEvidence": true,
+    "AutomaticRetryAuthorized": false,
+    "OwnerReviewRequiredBeforeRetry": true
+  },
+  "OwnerGate": {
+    "ValidationOwnerDisposition": "NOT_RECORDED",
+    "RegistryOwnerDisposition": "NOT_RECORDED",
+    "CampaignDataArchitectureOwnerDisposition": "NOT_REQUIRED_UNTIL_LATER_IMPORTER_GATE",
+    "OpeningStateOwnerDisposition": "NO_OPENING_FACT_CHANGE_REQUESTED",
+    "OpeningFactChangeAuthorized": false
+  },
+  "StaticFormattingChecks": {
+    "MarkdownFenceBalance": "PASS",
+    "EscapedUnderscoresFound": 0,
+    "StableFooterPresent": true,
+    "OneDriveRefreshFirstInstructionPresent": true,
+    "ArtifactCaptureContractPresent": true,
+    "PhaseACompletionReceiptPresent": true,
+    "PromotionBoundaryPresent": true
+  },
+  "StaticCheckResults": {
+    "SourceHashAndSizeUpdatedForRebuiltRecord": "PASS",
+    "DocumentIdentity": "PASS",
+    "AuthorityAlignment": "PASS",
+    "ProtectedBaseline": "PASS",
+    "RequiredArtifactContract": "PASS",
+    "SourceResolutionProcedure": "PASS",
+    "HashAndBundleContract": "PASS",
+    "PhaseAAcceptanceGate": "PASS_AS_UNEXECUTED_TEMPLATE",
+    "PhaseBAuthorizationBoundary": "PASS",
+    "ImplementationHandoffBoundary": "PASS",
+    "MutationBoundary": "PASS",
+    "FailureAndRollbackContract": "PASS",
+    "FatalIssues": 0,
+    "Warnings": 1,
+    "WarningCodes": [
+      "SEV_PHASE_A_ONEDRIVE_SOURCE_CAPTURE_NOT_EXECUTED"
+    ],
+    "Overall": "PASS_STATIC_ONLY_READY_FOR_VALIDATION_AGENT_HANDOFF"
+  },
+  "HandoffDisposition": {
+    "DocumentationPreparationComplete": true,
+    "AdditionalSpeculativePlanningRequired": false,
+    "ReceivingAgentMayBeginPhaseA": true,
+    "ReceivingAgentMayBeginPhaseB": false,
+    "ReceivingAgentMayExecuteFixtures": false,
+    "ImporterPromotionGranted": false
+  },
+  "NextAction": "Place this regenerated static check beside the rebuilt Phase A record. Transfer the package to the receiving validation agent, who must refresh OneDrive and complete Phase A before any subsequent validation or implementation gate."
+}

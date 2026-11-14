@@ -1,0 +1,23 @@
+{
+  "filename": "Sweyn_Estridsen_Refined_V1_1_FULL_PRE_REPAIR_SNAPSHOT.json",
+  "profile_filename": "Sweyn_Estridsen_Refined_V1_1_FULL.md",
+  "receipt_role": "TargetedConsolidationAndNetworkRepairReceipt",
+  "pre_repair_byte_count": 83288,
+  "pre_repair_line_count": 1480,
+  "pre_repair_sha256": "ADC50953BBCDB62EC5FF4024BA7753E007D6ED1AC9ABB49AE9960FFC21FB2496",
+  "final_byte_count": 72324,
+  "final_line_count": 1350,
+  "final_sha256": "47F3C8F3A4A0EEE690C051D0B002642EC31C4C299445CDCF34C01F0404DD19B9",
+  "repairs_completed": [
+    "Merged Appendix A into canonical numbered sections",
+    "Removed generic hook placeholders",
+    "Aligned Network dimensions and activation gates with manifest",
+    "Expanded external lock contracts",
+    "Moved redo process history out of profile",
+    "Reordered implementation evidence before appendices",
+    "Narrowed status to owner-review candidate",
+    "Reworded preservation claims to evidence-bounded language"
+  ],
+  "physical_promotion_performed": false,
+  "result": "Recorded"
+}

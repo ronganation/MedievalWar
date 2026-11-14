@@ -1,0 +1,115 @@
+{
+  "ArtifactId": "Seville_Taifa_ID_Registry_V1",
+  "ArtifactType": "ProposedIdentityRegistryDraft",
+  "InternalVersion": "1.0.0-proposed",
+  "Status": "PROPOSED_OWNER_ADJUDICATION_PENDING",
+  "GeneratedDate": "2026-08-18",
+  "CommitStatus": "NOT_AUTHORIZED",
+  "ImporterConsumption": "PROHIBITED",
+  "SavePersistence": "PROHIBITED",
+  "OpeningStateUse": "PROHIBITED",
+  "Counts": {
+    "ProposedIdentityRows": 11,
+    "PendingTypeAdjudicationRows": 1,
+    "ReviewOnlyIdentityRows": 1,
+    "SharedOwnerRequests": 2,
+    "PendingExternalLockRequests": 9,
+    "ApprovedExternalLocks": 0,
+    "QuarantineEntries": 12,
+    "ApprovedAliases": 0,
+    "DeprecatedIds": 0,
+    "DirectMigrations": 0,
+    "OpeningStateRecords": 0,
+    "RuntimeInstances": 0
+  },
+  "ProposedIds": [
+    "realm.seville",
+    "dynasty.abbadid",
+    "person.abbad_ibn_muhammad_al_mutadid",
+    "person.muhammad_ibn_abbad_al_mutamid",
+    "settlement.seville",
+    "settlement.huelva",
+    "settlement.santa_maria_algarve",
+    "settlement.algeciras",
+    "historical_polity.taifa_saltes_huelva",
+    "historical_polity.taifa_santa_maria_algarve",
+    "historical_polity.taifa_algeciras"
+  ],
+  "PendingRows": {
+    "Saltes": {
+      "ProposedId": null,
+      "AllowedTypes": ["Settlement", "StrategicSite"],
+      "Status": "PendingOwnerAdjudication",
+      "Lockable": false
+    },
+    "IsmailIbnAbbad": {
+      "ProposedId": null,
+      "Type": "PersonReview",
+      "Status": "ReviewOnly",
+      "Activatable": false,
+      "Migratable": false,
+      "Lockable": false
+    }
+  },
+  "Boundary": {
+    "CreatesOpeningState": false,
+    "CreatesRuntimeInstances": false,
+    "CreatesArmies": false,
+    "CreatesTreasuries": false,
+    "CreatesPariaAgreements": false,
+    "CreatesRelationships": false,
+    "CreatesPortOperations": false,
+    "CreatesMintOperations": false,
+    "CreatesApprovedExternalLocks": false,
+    "ReopensAlmoravid": false
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "CampaignSeasonOrder": ["Winter", "Spring", "Summer", "Autumn"],
+    "HistoricalProgressionAgesCharacters": false,
+    "BiologicalProgressionResolvesRealmStrategy": false
+  },
+  "StaticChecks": {
+    "DuplicateProposedIds": 0,
+    "PlanningLabelEscapesInProposedIds": 0,
+    "CrossTypeIdentityCollisions": 0,
+    "AliasChains": 0,
+    "AmbiguousAliases": 0,
+    "MutableStateLeakage": 0,
+    "LaterHistoryLeakage": 0,
+    "FormerPolitiesActiveAtOpening": 0,
+    "UnauthorizedExternalLocks": 0,
+    "ExternalDuplicatesCreated": 0,
+    "AlmoravidRedefinitions": 0,
+    "DeprecatedIdsInNewContent": 0,
+    "CrossTypeMigrations": 0,
+    "DisplayNamesUsedAsKeys": 0
+  },
+  "Gates": [
+    {"Id": "PROPOSED_ID_UNIQUENESS", "Result": "Pass"},
+    {"Id": "TYPE_QUALIFICATION", "Result": "Pass"},
+    {"Id": "REALM_SETTLEMENT_SEPARATION", "Result": "Pass"},
+    {"Id": "PLACE_FORMER_POLITY_SEPARATION", "Result": "Pass"},
+    {"Id": "PLANNING_LABEL_ESCAPE", "Result": "Pass"},
+    {"Id": "SALTES_TYPE", "Result": "PendingNonLockable"},
+    {"Id": "ISMAIL_IDENTITY", "Result": "ReviewOnlyNonActivatable"},
+    {"Id": "OWNER_APPROVALS", "Result": "Pending"},
+    {"Id": "EXTERNAL_LOCKS", "Result": "PendingZeroCreated"},
+    {"Id": "MUTABLE_STATE_LEAKAGE", "Result": "Pass"},
+    {"Id": "LATER_HISTORY_LEAKAGE", "Result": "Pass"},
+    {"Id": "ALMORAVID_PRESERVATION", "Result": "Pass"},
+    {"Id": "REGISTRY_COMMIT", "Result": "NotAuthorized"},
+    {"Id": "OPENING_STATE", "Result": "NotAuthorized"}
+  ],
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false
+  },
+  "SmallestUsefulNextAction": "Seville_Taifa_ID_Registry_V1_Owner_Adjudication_and_Static_Validation_V1.md"
+}

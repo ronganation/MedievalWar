@@ -1,0 +1,19 @@
+{
+  "document": "Royal_Saxon_Guard_V1_Master_Unit_Profile.md",
+  "sha256": "581dade41c6721773d92088a38c9a82d1ab7848ad4b607a4bffcbdb402ad6720",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "size_strong": true,
+    "terrain_25": true,
+    "parent_reviewed": true,
+    "parent_persists": true,
+    "S04": true,
+    "royal_depth": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "detachment_scale": true
+  }
+}

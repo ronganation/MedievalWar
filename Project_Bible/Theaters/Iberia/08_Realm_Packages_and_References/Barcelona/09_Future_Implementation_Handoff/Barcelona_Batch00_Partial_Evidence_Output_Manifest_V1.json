@@ -1,0 +1,241 @@
+{
+  "ManifestId": "manifest.barcelona.bar-imp-00.partial-evidence-output.v1",
+  "DocumentId": "Batch00PartialEvidenceOutputManifest.Realm.Barcelona.V1",
+  "StableDocumentId": "Batch00PartialEvidenceOutputManifest.Realm.Barcelona",
+  "AuthorityId": "manifest.batch00-partial-evidence-output.realm.barcelona.v1",
+  "Filename": "Barcelona_Batch00_Partial_Evidence_Output_Manifest_V1.json",
+  "Version": "1.0.0",
+  "RevisionDate": "2026-09-10",
+  "BatchId": "BAR-IMP-00",
+  "Realm": "County of Barcelona",
+  "OwningTheater": "Iberia",
+  "Placement": "Barcelona/09_Future_Implementation_Handoff",
+  "ConstitutionalAuthority": "Project Bible 2.4",
+  "OperationalAuthority": "Design Expansion Checklist 3.7",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "ParentPacket": "Barcelona_Implementation_Batch_00_Authority_Source_and_Handoff_Intake_Packet_V1.md",
+  "StatusLedger": "Barcelona_Future_Implementation_Batch_Status_and_Handoff_Ledger_V1.md",
+  "BlockerRegister": "Barcelona_Batch00_Blocker_Register_V1.md",
+  "NonmutationReceipt": "Barcelona_Batch00_Nonmutation_Receipt_V1.json",
+  "ManifestScope": "Handoff and partial Batch 00 evidence artifacts created in the current workstream",
+  "Status": "StaticCheckedPartialEvidenceManifestBatch00Incomplete",
+  "BatchExecutionState": {
+    "PacketPrepared": true,
+    "ExecutionStarted": false,
+    "ExecutionCompleted": false,
+    "ExitEvaluated": false,
+    "ExitPassed": false,
+    "Batch01Authorized": false,
+    "ImplementationStarted": false
+  },
+  "AccessBoundary": {
+    "CompleteCurrentOneDrivePackageRetrieved": false,
+    "CompleteCurrentOneDrivePackageAbsenceProved": false,
+    "PhysicalSourceFingerprintSetComplete": false,
+    "RelevantFileInventoryComplete": false,
+    "FullOpenVerificationComplete": false,
+    "AuthorityClassificationComplete": false,
+    "CompanionFamilyReviewComplete": false,
+    "Disposition": "PartialEvidenceOnlyPendingRetrievableCurrentPackage"
+  },
+  "CreatedArtifacts": [
+    {
+      "Sequence": 1,
+      "Filename": "Barcelona_Future_Implementation_Batch_and_Dependency_Plan_V1.md",
+      "ArtifactClass": "HandoffControl",
+      "DeclaredBytesAtCreation": 38669,
+      "DeclaredSHA256AtCreation": "2b428d2e1d7b31c70be6ee1deb30cd94ac482348c5772e029c7110d500e4cb87",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Master future batch sequence, dependencies, acceptance, evidence, rollback, owner gates, and stop rules"
+    },
+    {
+      "Sequence": 2,
+      "Filename": "Barcelona_Design_to_Implementation_Handoff_Index_V1.md",
+      "ArtifactClass": "HandoffControl",
+      "DeclaredBytesAtCreation": 26233,
+      "DeclaredSHA256AtCreation": "2fa9e973c2e9edbd71e6e8738a30a226dddc602ad1290056cdd9c30f942ad932",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Fresh-team read order, authority routing, blocker snapshot, and immediate safe action"
+    },
+    {
+      "Sequence": 3,
+      "Filename": "Barcelona_Implementation_Batch_00_Authority_Source_and_Handoff_Intake_Packet_V1.md",
+      "ArtifactClass": "PreparedBatchPacket",
+      "DeclaredBytesAtCreation": 36167,
+      "DeclaredSHA256AtCreation": "dd5017755138ad580b711ec0466b6df73445526c13b5484b760dc983b362ee0b",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Prepared read-only Batch 00 intake and evidence contract"
+    },
+    {
+      "Sequence": 4,
+      "Filename": "Barcelona_Implementation_Batch_Packet_Template_V1.md",
+      "ArtifactClass": "HandoffTemplate",
+      "DeclaredBytesAtCreation": 25402,
+      "DeclaredSHA256AtCreation": "277df2f5c2e2ac07348fee1830bdf723ec10fa52b770ee621b2da06b5ce4b7a8",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Reusable unexecuted packet template for BAR-IMP-01 through BAR-IMP-14"
+    },
+    {
+      "Sequence": 5,
+      "Filename": "Barcelona_Future_Implementation_Batch_Status_and_Handoff_Ledger_V1.md",
+      "ArtifactClass": "HandoffControl",
+      "DeclaredBytesAtCreation": 27937,
+      "DeclaredSHA256AtCreation": "867333397180b08bb10c538d55d0d18a9d41d2ca8cf460b02eb0215ae422a9bc",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Evidence-gated batch status, blocker, rollback, and restart tracking"
+    },
+    {
+      "Sequence": 6,
+      "Filename": "Barcelona_Implementation_Cross_Batch_Owner_and_Reference_Map_V1.md",
+      "ArtifactClass": "HandoffControl",
+      "DeclaredBytesAtCreation": 38411,
+      "DeclaredSHA256AtCreation": "7e4de3a09b4ba4f6eaac0cf2561b1e41ee2bc6a48dbbff55f84b27f344fcef5b",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Producer-consumer, owner-receipt, failure, escalation, and rollback routing"
+    },
+    {
+      "Sequence": 7,
+      "Filename": "Barcelona_Implementation_Acceptance_Evidence_and_Rollback_Matrix_V1.md",
+      "ArtifactClass": "HandoffControl",
+      "DeclaredBytesAtCreation": 33068,
+      "DeclaredSHA256AtCreation": "56a4483d7e048d0fe965b68f13a04037e52cd478ef669d93644b4e8809ea5b8d",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Claim-specific acceptance, evidence, owner-decision, and rollback thresholds"
+    },
+    {
+      "Sequence": 8,
+      "Filename": "Barcelona_Unreal_Engine_5_8_Preflight_Plan_V1.md",
+      "ArtifactClass": "DeferredTechnicalPlan",
+      "DeclaredBytesAtCreation": 26083,
+      "DeclaredSHA256AtCreation": "c65be633eddd413f91893955e48cea4ed210ab923e1227258d19c0007c038608",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Deferred read-only project-native preflight plan, not eligible for execution"
+    },
+    {
+      "Sequence": 9,
+      "Filename": "Barcelona_Batch00_Blocker_Register_V1.md",
+      "ArtifactClass": "PartialBatch00Evidence",
+      "DeclaredBytesAtCreation": 14776,
+      "DeclaredSHA256AtCreation": "e1f21a0f011c2dc3fc7bad155e3aa7b46f9a2224ec56bd9818860282d6659b14",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Known handoff blockers plus current package-retrieval blocker"
+    },
+    {
+      "Sequence": 10,
+      "Filename": "Barcelona_Batch00_Nonmutation_Receipt_V1.json",
+      "ArtifactClass": "PartialBatch00Evidence",
+      "DeclaredBytesAtCreation": 6763,
+      "DeclaredSHA256AtCreation": "2ad60cf013978cc9145d1039630d6020953089cdef275596c804c77de460c2e8",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Current execution-context nonmutation and evidence-boundary receipt"
+    },
+    {
+      "Sequence": 11,
+      "Filename": "Barcelona_Batch00_Partial_Evidence_Output_Manifest_V1.json",
+      "ArtifactClass": "PartialBatch00Evidence",
+      "DeclaredBytesAtCreation": "SelfReportedAfterGeneration",
+      "DeclaredSHA256AtCreation": "SelfReportedAfterGeneration",
+      "CurrentPhysicalIdentityInOneDriveVerified": false,
+      "Role": "Manifest of handoff and partial Batch 00 evidence artifacts"
+    }
+  ],
+  "RequiredBatch00OutputsStillMissing": [
+    "Barcelona_Batch00_Source_Fingerprints_V1.csv",
+    "Barcelona_Batch00_Relevant_File_Inventory_V1.csv",
+    "Barcelona_Batch00_Authority_Classification_and_Supersession_Ledger_V1.md",
+    "Barcelona_Batch00_Owner_Dependency_and_Receipt_Map_V1.md",
+    "Barcelona_Batch00_Companion_Family_and_Collision_Report_V1.md",
+    "Barcelona_Batch00_Full_Open_Verification_Receipts_V1.json",
+    "Barcelona_Batch00_Static_Check_V1.json",
+    "Batch 00 package-owner exit decision"
+  ],
+  "CompletionAssessment": {
+    "HandoffSuiteAuthored": true,
+    "PartialBatch00EvidenceAuthored": true,
+    "Batch00RequiredEvidenceComplete": false,
+    "Batch00AcceptanceCriteriaEvaluated": false,
+    "Batch00NegativeTestsExecuted": false,
+    "Batch00ExitReady": false,
+    "Batch01Ready": false
+  },
+  "ClaimBoundary": {
+    "Proves": [
+      "The listed handoff and partial evidence artifacts were generated in this workstream with the listed creation-time identities",
+      "The handoff suite defines future workflow controls",
+      "The blocker register and nonmutation receipt exist"
+    ],
+    "DoesNotProve": [
+      "The listed creation-time files are byte-identical to copies currently placed in OneDrive",
+      "The complete Barcelona package was retrieved",
+      "Batch 00 was executed",
+      "Current authorities were fully opened or fingerprinted",
+      "Registry binding was accepted for implementation",
+      "Opening State was reconciled or activated",
+      "A candidate payload was authored or imported",
+      "Unreal project access, compilation, runtime, save-load, migration, replay, performance, or battle validation occurred"
+    ]
+  },
+  "MutationReceipt": {
+    "ExistingAuthorityFilesModified": 0,
+    "RegistryMutations": 0,
+    "RegistryRebindings": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "CandidatePayloadsCreated": 0,
+    "UnrealFilesReadOrModified": 0,
+    "RuntimeMutations": 0,
+    "SaveMutations": 0,
+    "RealPayloadImports": 0,
+    "BatchStatusTransitionsApplied": 0,
+    "ImplementationStarted": false
+  },
+  "ThreeTrackTemporalContract": {
+    "HistoricalProgressionMonthsPerStrategicTurn": 21,
+    "BiologicalProgressionMonthsPerStrategicTurn": 7,
+    "CampaignSeasonProgressionStepsPerStrategicTurn": 1,
+    "CampaignSeasonOrder": ["Winter", "Spring", "Summer", "Autumn"],
+    "ManifestAdvancesAnyTrack": false
+  },
+  "NextAction": {
+    "Action": "Retrieve one current Barcelona package snapshot and generate the missing physical Batch 00 evidence as one consistent set",
+    "FirstOutput": "Barcelona_Batch00_Source_Fingerprints_V1.csv",
+    "ParallelOutputs": [
+      "Barcelona_Batch00_Relevant_File_Inventory_V1.csv",
+      "Barcelona_Batch00_Full_Open_Verification_Receipts_V1.json",
+      "Barcelona_Batch00_Authority_Classification_and_Supersession_Ledger_V1.md"
+    ],
+    "Prohibited": [
+      "Fabricate physical hashes",
+      "Treat the local subset as the authoritative OneDrive package",
+      "Close Batch 00",
+      "Authorize Batch 01",
+      "Access the Unreal project"
+    ]
+  },
+  "StaticChecks": {
+    "ValidJson": true,
+    "CreatedArtifactsCount": 11,
+    "SequenceContinuous": true,
+    "MissingOutputsExplicit": true,
+    "ClaimBoundaryExplicit": true,
+    "OneDriveIdentityNotClaimed": true,
+    "Batch00ExecutionNotClaimed": true,
+    "ImplementationNotClaimed": true,
+    "Result": "PASS_STATIC_CHECKED_PARTIAL_EVIDENCE_MANIFEST"
+  },
+  "StableFooter": {
+    "StableDocumentId": "Batch00PartialEvidenceOutputManifest.Realm.Barcelona",
+    "AuthorityId": "manifest.batch00-partial-evidence-output.realm.barcelona.v1",
+    "Artifact": "Barcelona_Batch00_Partial_Evidence_Output_Manifest_V1.json",
+    "Version": "1.0.0",
+    "BatchId": "BAR-IMP-00",
+    "ScenarioOpening": "1062-01-01",
+    "OpeningCampaignSeason": "Winter",
+    "OwningTheater": "Iberia",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "Status": "StaticCheckedPartialEvidenceManifestBatch00Incomplete",
+    "Batch00ExecutionStarted": false,
+    "Batch01Authorized": false,
+    "ImplementationStarted": false
+  }
+}

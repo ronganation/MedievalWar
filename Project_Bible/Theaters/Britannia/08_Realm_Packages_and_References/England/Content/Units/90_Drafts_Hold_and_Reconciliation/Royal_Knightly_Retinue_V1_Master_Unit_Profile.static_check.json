@@ -1,0 +1,20 @@
+{
+  "document": "Royal_Knightly_Retinue_V1_Master_Unit_Profile.md",
+  "sha256": "d2cfce096f0ea8284efd04cd73cf0771f32a03dc5ace3cf8b09d66f7bd9aa2a4",
+  "checks": {
+    "substantive_length": true,
+    "sections_consecutive": true,
+    "section_count_at_least_65": true,
+    "legacy_terrain_24": true,
+    "legacy_values_present": true,
+    "royal_owner_present": true,
+    "feudal_knights_not_auto": true,
+    "recruitment_architecture_present": true,
+    "duplicate_test_present": true,
+    "determinism_save_migration_replay_present": true,
+    "no_escaped_underscores": true,
+    "code_fences_balanced": true,
+    "footer_final": true,
+    "pass": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "source_sha_recorded": true,
+    "preferences_14": true,
+    "postures_8": true,
+    "reason_codes_26_preserved": true,
+    "three_tracks": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "opening_zero": true,
+    "owner_routes": true,
+    "proposal_abstention_explanation": true,
+    "honest_validation": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "adfcfd1a89edfa00ccb365f75a49f4c19ab51e7804d7dfda8408a80c1a0c2014",
+  "Bytes": 34701,
+  "Lines": 1019,
+  "Scope": "Static content and authority-boundary checks only"
+}

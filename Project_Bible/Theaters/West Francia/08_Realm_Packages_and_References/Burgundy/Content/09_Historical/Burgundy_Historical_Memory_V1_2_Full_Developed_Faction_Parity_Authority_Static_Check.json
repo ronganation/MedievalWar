@@ -1,0 +1,20 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "families_15": true,
+    "operating_records_15": true,
+    "candidate_records_45": true,
+    "candidate_seeds_12": true,
+    "audience_scopes_18": true,
+    "transmission_channels_15": true,
+    "reason_codes_30": true,
+    "three_tracks": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "opening_zero": true,
+    "honest_validation": true,
+    "final_marker": true
+  }
+}

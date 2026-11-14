@@ -1,0 +1,31 @@
+{
+  "exact_physical_filename": "Leofwine_Godwinson_V4.1.1_FULL_V3_Authority.md",
+  "internal_version": "4.1.1",
+  "source_file": "Leofwine_Godwinson_V4.1_Current_Authority_Reconciliation.md",
+  "source_internal_version": "4.1 additive reconciliation",
+  "source_byte_count": 42265,
+  "source_rendered_line_count": 1451,
+  "source_sha256": "50816f1891a0606089d7197e87a148c6d486abe7dc5dc8ac2e7be39e80012642",
+  "final_byte_count": 54672,
+  "final_line_count": 1469,
+  "final_sha256": "0819e97437cadee7e5e938bb41838a11bd81359cf107be2fe31f486a187d23a9",
+  "checks": {
+    "utf8_valid": true,
+    "literal_escaped_underscore_count": 0,
+    "literal_escaped_list_marker_count": 0,
+    "balanced_fences": true,
+    "exact_footer_count": 1,
+    "successor_larger_than_source": true,
+    "all_substantive_source_surfaces_accounted_for": true,
+    "three_track_temporal_model": true,
+    "Unreal_Engine_5_8_present": true,
+    "formula_signs_explicit": true,
+    "yaml_parse_error_count": 0,
+    "Registry_mutation_not_performed": true,
+    "Opening_State_mutation_not_performed": true,
+    "runtime_state_not_created": true,
+    "physical_promotion_not_performed": true
+  },
+  "validation_result": "Passed",
+  "preservation_method": "Full rendered authority rebuilt and expanded under a distinct filename; literal source-byte identity is not claimed."
+}

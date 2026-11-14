@@ -1,0 +1,127 @@
+{
+  "ArtifactId": "Seville_Taifa_Definition_and_External_Lock_Planning_V1",
+  "ArtifactType": "PreRegistryDefinitionAndExternalLockPlanningAuthority",
+  "Status": "STATIC_CHECKED",
+  "GeneratedDate": "2026-08-18",
+  "Authorities": {
+    "ProjectBible": "2.3.8",
+    "DesignExpansionChecklist": "3.6.8",
+    "AlmoravidHandoff": "1.0.0",
+    "TaifaMatrix": "V1",
+    "SevilleHistoricalReconciliation": "V1",
+    "SevilleContradictionLedger": "V1"
+  },
+  "PlanningNamespacePolicy": {
+    "PlanningLabelsAreCanonicalIds": false,
+    "PlanningLabelsAllowedInSaves": false,
+    "PlanningLabelsAllowedInContentAssets": false,
+    "PlanningLabelsAllowedInGameplayTags": false,
+    "PlanningLabelsAllowedInImporterPayloads": false,
+    "PlanningLabelsAllowedInHashes": false
+  },
+  "Boundary": {
+    "CreatesCanonicalIds": false,
+    "CreatesRegistryEntries": false,
+    "CreatesExternalLocks": false,
+    "CreatesOpeningState": false,
+    "CreatesRuntimeInstances": false,
+    "CreatesArmies": false,
+    "CreatesTreasuries": false,
+    "CreatesPariaAgreements": false,
+    "CreatesRelationships": false,
+    "CreatesPortOperations": false,
+    "CreatesMintOperations": false,
+    "ReopensAlmoravid": false
+  },
+  "CandidateCounts": {
+    "RealmFaction": 1,
+    "Dynasty": 1,
+    "PersonCandidate": 2,
+    "PersonReviewOnly": 1,
+    "SettlementOrSite": 5,
+    "FormerPolityDefinitionOnly": 3,
+    "SharedConceptRequest": 2,
+    "ExternalLockRequest": 9,
+    "Quarantine": 12
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "HistoricalProgressionAgesCharacters": false,
+    "BiologicalProgressionResolvesRealmStrategy": false
+  },
+  "Readiness": {
+    "ProspectiveDefinitionPlanningComplete": true,
+    "ExternalLockRequestPlanningComplete": true,
+    "RegistryCandidatePreflightAuthorized": true,
+    "CanonicalIdAssignmentAuthorized": false,
+    "RegistryAuthoringAuthorized": false,
+    "OpeningStateAuthoringAuthorized": false
+  },
+  "Gates": [
+    {
+      "Id": "AUTHORITY_CHAIN",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NO_CANONICAL_IDS",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NO_REGISTRY_MUTATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "OWNER_SEPARATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "EXTERNAL_LOCK_REQUESTS",
+      "Result": "Pass"
+    },
+    {
+      "Id": "QUARANTINE_PRESERVED",
+      "Result": "Pass"
+    },
+    {
+      "Id": "DEFINITION_SCENARIO_RUNTIME_SEPARATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "THREE_TRACK_TIME",
+      "Result": "Pass"
+    },
+    {
+      "Id": "SAVE_MIGRATION_BOUNDARY",
+      "Result": "Pass"
+    },
+    {
+      "Id": "ALMORAVID_PRESERVATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "REGISTRY_CANDIDATE_PREFLIGHT",
+      "Result": "Authorized"
+    },
+    {
+      "Id": "REGISTRY_AUTHORING",
+      "Result": "NotYet"
+    }
+  ],
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false
+  },
+  "SmallestUsefulNextAction": "Seville_Taifa_Registry_Candidate_and_Owner_Adjudication_Preflight_V1.md"
+}

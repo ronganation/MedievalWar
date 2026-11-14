@@ -1,0 +1,30 @@
+{
+  "document_id": "manifest.england.population_package.v1_0",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Population_Package.md",
+      "sha256": "94c23a9fe3081c7a706374bf00e5f3211fe2dcbdc0911190b80a15af0d7908a4",
+      "bytes": 34554
+    },
+    {
+      "filename": "England_Population_Package_Static_Check.json",
+      "sha256": "603d653bcfa64e5d378ddacf2342f4368774cc06616347646e57f5b276d77a29",
+      "bytes": 516
+    }
+  ],
+  "authorizations": {
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "population_activation": false,
+    "recruitment_activation": false,
+    "casualty_activation": false,
+    "displacement_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

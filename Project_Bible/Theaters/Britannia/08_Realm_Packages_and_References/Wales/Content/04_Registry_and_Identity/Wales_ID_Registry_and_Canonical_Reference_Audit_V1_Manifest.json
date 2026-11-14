@@ -1,0 +1,27 @@
+{
+  "filename": "Wales_ID_Registry_and_Canonical_Reference_Audit_V1.md",
+  "bytes": 27485,
+  "lines": 777,
+  "sections": 29,
+  "sha256": "27af339ddd34f6f74fa0ab66b798958a8db771c923cb4a31156b8d08fa5fde8f",
+  "checks": {
+    "filename": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "balanced_fences": true,
+    "yaml_present": true,
+    "text_present": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_registry_mutation": true,
+    "no_opening_mutation": true,
+    "advanced_save_protected": true,
+    "st_davids_conflict": true,
+    "next_file": true,
+    "no_em_dash": true
+  },
+  "all_checks_passed": true
+}

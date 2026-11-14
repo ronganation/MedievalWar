@@ -1,0 +1,25 @@
+{
+  "FileName": "Campaign_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md",
+  "Version": "1.0.0",
+  "Status": "STATIC-CHECKED DECISIONS REQUESTED",
+  "SHA256": "6D77C33F2069297C8B8CA242AE63E8A7CD96D3EC976C80EFE0915164E891AD5B",
+  "Bytes": 12335,
+  "Lines": 408,
+  "Checks": {
+    "authority_pair": true,
+    "reconciliation_authority": true,
+    "seven_requests": true,
+    "four_theater_ids": true,
+    "no_invented_owner": true,
+    "no_registry_commit": true,
+    "no_new_activation": true,
+    "no_scenario_execution": true,
+    "no_importer": true,
+    "no_migration_execution": true,
+    "primary_uniqueness": true,
+    "external_cases_preserved": true,
+    "alias_chains_rejected": true,
+    "evidence_boundary": true,
+    "next_action_bounded": true
+  }
+}

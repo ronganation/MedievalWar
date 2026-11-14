@@ -1,0 +1,30 @@
+{
+  "document_id": "manifest.england.character_network.v6_1.current_authority_reconciliation",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Character_Network_V6.1_Current_Authority_Reconciliation.md",
+      "sha256": "a92070f7ca06490ba8c75e6459a1b9da6a9fc6684a79441cb05219badae6b118",
+      "bytes": 53410
+    },
+    {
+      "filename": "England_Character_Network_V6.1_Current_Authority_Reconciliation_Static_Check.json",
+      "sha256": "588ba6f43e5d099bc39dc1345ab8fb444dea1eeaed3c5e939e02bcf15dc59c9f",
+      "bytes": 1074
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false
+  }
+}

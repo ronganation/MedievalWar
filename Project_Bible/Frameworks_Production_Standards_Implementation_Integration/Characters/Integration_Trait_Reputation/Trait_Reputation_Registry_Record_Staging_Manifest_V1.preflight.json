@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationRegistryRecordCommitPreflight",
+    "name": "Trait Reputation Registry Record and Migration Commit Preflight V1",
+    "version": "1.0",
+    "status": "PassedStagingValidation_AuthoritativeCommitStillLocked",
+    "authority_class": "Registry Record and Migration Commit Dry Preflight"
+  },
+  "inputs": {
+    "trait_staging_snapshot": {
+      "file": "Trait_Canonical_Registry_V1_1.staging.json",
+      "record_count": 37
+    },
+    "reputation_staging_snapshot": {
+      "file": "Reputation_Dimension_Registry_V1_1.staging.json",
+      "record_count": 9
+    },
+    "migration_map_staging": {
+      "file": "Trait_Reputation_Direct_Migration_Map_V1.staging.json",
+      "mapping_count": 46
+    },
+    "previous_trait_snapshot": {
+      "file": "Trait_Canonical_Registry_V1.json",
+      "record_count": 0,
+      "preserve": true
+    },
+    "previous_reputation_snapshot": {
+      "file": "Reputation_Dimension_Registry_V1.json",
+      "record_count": 0,
+      "preserve": true
+    }
+  },
+  "checks": {
+    "staged_record_count": 46,
+    "unique_canonical_ids": 46,
+    "unique_source_entry_ids": 46,
+    "trait_namespace_valid": true,
+    "reputation_namespace_valid": true,
+    "mapping_count": 46,
+    "unique_mapping_sources": 46,
+    "mapping_targets_equal_staged_ids": true,
+    "alias_chains": 0,
+    "deprecated_ids": 0,
+    "quarantine_records": 0,
+    "mutable_runtime_state_in_definitions": 0,
+    "previous_empty_snapshots_preserved": true,
+    "same_label_typed_boundaries_preserved": 2
+  },
+  "run": {
+    "mode": "RegistryRecordAndMigrationCommitDryPreflight",
+    "execution_status": "Completed",
+    "verdict": "PassStagingValidation_AuthoritativeCommitRequiresSeparateDecision",
+    "staged_registry_records": 46,
+    "committed_registry_records": 0,
+    "staged_mappings": 46,
+    "executed_mappings": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "authorization_boundary": {
+    "authoritative_registry_commit_authorized": false,
+    "migration_execution_authorized": false,
+    "content_rewrite_authorized": false,
+    "runtime_state_authorized": false,
+    "save_write_authorized": false
+  },
+  "validation": {
+    "record_shape_passed": true,
+    "record_bijection_passed": true,
+    "mapping_bijection_passed": true,
+    "grammar_passed": true,
+    "ownership_boundaries_passed": true,
+    "provenance_complete": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "determinism_validated": false
+  },
+  "smallest_useful_next_action": "Review and approve the staged version 1.1 registry records and 46 staged direct mappings as an authoritative registry commit. If approved, create committed Trait_Canonical_Registry_V1_1.json, Reputation_Dimension_Registry_V1_1.json, and Trait_Reputation_Direct_Migration_Map_V1.json while keeping content, runtime, and save migration execution separately locked."
+}

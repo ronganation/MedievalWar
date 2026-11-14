@@ -1,0 +1,46 @@
+{
+  "document_id": "Manifest.DesignExpansionChecklist.V3.7.AragonRealmProgressUpdate.2026-09-09",
+  "document": "Design_Expansion_Checklist_V3.7_Aragon_Realm_Progress_Update_2026-09-09.md",
+  "sha256": "B364E744CA941599B3B7C8F9DB5838282C5543DC1DB4828A342CA3A2F4451F6C",
+  "version": "1.0.0",
+  "date": "2026-09-09",
+  "placement": "Project_Bible/Bible and Checklist",
+  "status": "StaticCheckedRealmCompletionUpdate",
+  "controlling_aragon_files": [
+    "Aragon_Current_Authority_Index_V2_1.md",
+    "Aragon_README_V2_1.md",
+    "Aragon_Package_Completion_and_Implementation_Handoff_Index_V2_1.md"
+  ],
+  "checks": {
+    "bytes": 17405,
+    "lines": 342,
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "three_track": true,
+    "aragon_complete_bounded": true,
+    "military_closeout_present": true,
+    "external_archive_reconciled": true,
+    "owner_and_external_gates_open": true,
+    "payload_importer_unreal_blocked": true,
+    "ibera_handoff_present": true,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "mutation_receipt": {
+    "StableChecklistOverwrite": 0,
+    "AragonSourceOverwrite": 0,
+    "Moved": 0,
+    "Deleted": 0,
+    "Registry": 0,
+    "OpeningState": 0,
+    "CandidatePromotion": 0,
+    "CandidatePayload": 0,
+    "ImporterRuns": 0,
+    "Runtime": 0,
+    "AdvancedSave": 0,
+    "Unreal": 0
+  },
+  "next_gate": "Park Aragon; continue Barcelona in its owning conversation or begin owner-selected next Iberia Realm, with Taifa of Seville recommended"
+}

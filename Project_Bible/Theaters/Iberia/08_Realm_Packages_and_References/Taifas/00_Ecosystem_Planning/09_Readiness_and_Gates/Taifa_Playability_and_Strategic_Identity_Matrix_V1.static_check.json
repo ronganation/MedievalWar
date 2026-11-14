@@ -1,0 +1,145 @@
+{
+  "ArtifactId": "Taifa_Playability_and_Strategic_Identity_Matrix_V1",
+  "ArtifactType": "ComparativeDesignAuthority",
+  "Status": "STATIC_CHECKED",
+  "GeneratedDate": "2026-08-18",
+  "AuthorityVersions": {
+    "ProjectBibleExternalFilename": "Project_Bible_2.3.md",
+    "ProjectBibleInternalVersion": "2.3.8",
+    "ChecklistExternalFilename": "Design_Expansion_Checklist_V3.6.md",
+    "ChecklistInternalVersion": "3.6.8",
+    "AlmoravidHandoffFilename": "Almoravid_Realm_Package_Handoff_and_Resume_Point_V1.md",
+    "AlmoravidHandoffAccessible": true,
+    "HandoffBoundarySource": "Directly read controlling handoff file",
+    "AlmoravidHandoffInternalVersion": "1.0.0"
+  },
+  "TaskBoundary": {
+    "ComparativeOnly": true,
+    "CreatesRegistryEntries": false,
+    "CreatesOpeningState": false,
+    "CreatesRuntimeInstances": false,
+    "CreatesArmies": false,
+    "CreatesTreasuries": false,
+    "CreatesPariaAgreements": false,
+    "CreatesPoliticalRelationships": false,
+    "ReopensAlmoravidDesign": false
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "HistoricalProgressionAgesCharacters": false,
+    "BiologicalProgressionResolvesRealmStrategy": false,
+    "HistoricalDateOwnsChronology": true,
+    "GeographyAndClimateOwnLocalSeasonalEffects": true
+  },
+  "Classifications": {
+    "First-Wave Playable": [
+      "Seville",
+      "Zaragoza",
+      "Toledo"
+    ],
+    "Later Playable": [
+      "Granada",
+      "Badajoz",
+      "Valencia",
+      "Almeria"
+    ],
+    "Simulated-Only": [
+      "Denia",
+      "Malaga"
+    ],
+    "External Lock": [
+      "Murcia January 1062 authority",
+      "Malaga independent-realm status"
+    ],
+    "ReviewOnly": [
+      "Ceuta",
+      "Cordoba",
+      "Silves",
+      "Moron",
+      "Arcos",
+      "Ronda",
+      "Niebla",
+      "Carmona",
+      "Albarracin",
+      "Alpuente",
+      "Tortosa",
+      "Lerida"
+    ]
+  },
+  "FirstCompletePackageRecommendation": "Seville",
+  "SmallestUsefulNextAction": "Seville_Taifa_January_1062_Historical_Reconciliation_and_Source_Inventory_V1.md",
+  "Gates": [
+    {
+      "Id": "AUTHORITY_PROJECT_BIBLE",
+      "Result": "Pass"
+    },
+    {
+      "Id": "AUTHORITY_CHECKLIST",
+      "Result": "Pass"
+    },
+    {
+      "Id": "ALMORAVID_HANDOFF_PRESERVATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "COMPARATIVE_ONLY",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NO_RUNTIME_CREATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "PARIA_SEMANTIC_SEPARATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "INTERVENTION_SEMANTIC_SEPARATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NON_SCRIPTED_PATHS",
+      "Result": "Pass"
+    },
+    {
+      "Id": "THREE_TRACK_TIME",
+      "Result": "Pass"
+    },
+    {
+      "Id": "STATUS_LANGUAGE",
+      "Result": "Pass"
+    },
+    {
+      "Id": "BADAJOZ_RULER_1062",
+      "Result": "Quarantine"
+    },
+    {
+      "Id": "MALAGA_AUTHORITY_1062",
+      "Result": "Review"
+    },
+    {
+      "Id": "MURCIA_AUTHORITY_1062",
+      "Result": "Review"
+    },
+    {
+      "Id": "CEUTA_AUTHORITY_1062",
+      "Result": "Review"
+    }
+  ],
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false
+  }
+}

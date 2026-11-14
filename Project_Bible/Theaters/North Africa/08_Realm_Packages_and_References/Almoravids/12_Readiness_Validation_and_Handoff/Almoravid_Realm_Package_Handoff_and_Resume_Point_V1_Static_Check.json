@@ -1,0 +1,207 @@
+{
+  "file": "Almoravid_Realm_Package_Handoff_and_Resume_Point_V1.md",
+  "status": "PASS_STATIC_CHECKED",
+  "bytes": 14351,
+  "lines": 574,
+  "words": 1573,
+  "sha256": "5a94d305b4a14355d89173337396c77673f7fbdd4b19f9c8ae9795e208aa874b",
+  "workspaceArtifactCount": 30,
+  "checks": {
+    "version": true,
+    "registry": true,
+    "opening": true,
+    "payload": true,
+    "overlays": true,
+    "schema": true,
+    "profile": true,
+    "routing": true,
+    "fixtures": true,
+    "dryrun": true,
+    "ue5_boundary": true,
+    "no_zip": true,
+    "github": true,
+    "temporal": true,
+    "zaynab": true,
+    "aghmat": true,
+    "marrakesh": true,
+    "next": true,
+    "alternate": true,
+    "fences": true,
+    "end": true
+  },
+  "checksPassed": 21,
+  "checksTotal": 21,
+  "allChecksPass": true,
+  "evidenceBoundary": {
+    "designHandoffCreated": true,
+    "importerValidated": false,
+    "compileValidated": false,
+    "runtimeValidated": false,
+    "saveLoadValidated": false,
+    "replayValidated": false,
+    "performanceValidated": false
+  },
+  "currentArtifacts": [
+    {
+      "file": "Almoravid_ID_Registry_V1.md",
+      "bytes": 69082,
+      "sha256": "e798c51865aa289eae5a72681b18a8e5e455c1ea669216904d2b33af9061989f"
+    },
+    {
+      "file": "Almoravid_ID_Registry_V1_0_Superseded.md",
+      "bytes": 38568,
+      "sha256": "f83ffc3fa6c2b8edcaa1dfac7a6ab64402b5aaf86a32f8c8e626ecadc1ac381f"
+    },
+    {
+      "file": "Almoravid_ID_Registry_V1_1_Adjudication_Decision_Log.md",
+      "bytes": 81240,
+      "sha256": "64011dc6945764959c7d5553036515b474d308ccfe7cc3f7ee077d72e97139c3"
+    },
+    {
+      "file": "Almoravid_ID_Registry_V1_1_Finalization_Report.json",
+      "bytes": 2105,
+      "sha256": "adc94eab2b87b5f69155cfa56bea88976329c9860c59149a7f953cb97a26ae88"
+    },
+    {
+      "file": "Almoravid_ID_Registry_V1_1_Lock_Receipt_Manifest_V1.json",
+      "bytes": 13032,
+      "sha256": "2fb5305a19c6b7b0f41ba508332cf021f34d9e89ade2d23e365cf93efa92782e"
+    },
+    {
+      "file": "Almoravid_ID_Registry_V1_1_Owner_Adjudication_Batch_02_Input_Blocker_Report.md",
+      "bytes": 1750,
+      "sha256": "b70feac915a6e0ae0f2dec04218f3080d7222d732c25d92b5b4f809a1d860360"
+    },
+    {
+      "file": "Almoravid_ID_Registry_V1_1_Owner_Approval_Manifest_V1.json",
+      "bytes": 122297,
+      "sha256": "cd8173bbd9f4d94e59d0d16918166483800d8b6eeef6f9287d3f8e84b1e438f3"
+    },
+    {
+      "file": "Almoravid_ID_Registry_V1_1_Proposed_Amendment.md",
+      "bytes": 111498,
+      "sha256": "6af0f932f9cae240ad9b2bf5236c99ce53ec29e7c2d4fe088182bd5a9f27b61f"
+    },
+    {
+      "file": "Almoravid_Machine_Readable_Opening_State_Package_Contract_V1.md",
+      "bytes": 43257,
+      "sha256": "7bde78921eda33b3d43753b0bf249bdaefad88598e2161eaed7a4e48df20618f"
+    },
+    {
+      "file": "Almoravid_Machine_Readable_Opening_State_Package_Contract_V1_Static_Check.json",
+      "bytes": 2172,
+      "sha256": "8d624e3d9caa04c938707cbc54bc7fb3dc173c04299e89c9db0074b4a8a7473f"
+    },
+    {
+      "file": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "bytes": 794,
+      "sha256": "9acdecd47bab2c7d3b78c44137edc9c4c6ebc231382d426c51a21c2bd06ba8fb"
+    },
+    {
+      "file": "Almoravid_Opening_State_1062_Machine_Readable_Static_Check_V1.json",
+      "bytes": 2519,
+      "sha256": "4d370fb57637be40521605bb99c708716753274c00df8a0c6e16e85480da8373"
+    },
+    {
+      "file": "Almoravid_Opening_State_1062_V1.json",
+      "bytes": 23861,
+      "sha256": "211b1a6936f3f801454690d4d0a2b3c234d5c45f7bf929aeee56ff310056e3a3"
+    },
+    {
+      "file": "Almoravid_Opening_State_1062_V1.md",
+      "bytes": 41756,
+      "sha256": "4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6"
+    },
+    {
+      "file": "Almoravid_Opening_State_1062_V1_Static_Check.json",
+      "bytes": 2385,
+      "sha256": "e702425721db64282ef556796d5feb8d442fc13cc2e2104cfb11dcea886e8ba8"
+    },
+    {
+      "file": "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json",
+      "bytes": 788,
+      "sha256": "74658fa9da9b27fa93131e9eb1f85789d2f4a3a080a6a08fe8f5a3a39f652b99"
+    },
+    {
+      "file": "Almoravid_Opening_State_Authority_and_Registry_Preflight_V1.md",
+      "bytes": 41130,
+      "sha256": "bc7d69525e562ea07b936934419ce9e3f598121aa555caaaa7fb55ccbc973812"
+    },
+    {
+      "file": "Almoravid_Opening_State_Authority_and_Registry_Preflight_V1_Static_Check.json",
+      "bytes": 1664,
+      "sha256": "414cbb369c0ff8e93023001e51155216574df54d90cdbe9d6e4b09ca89dfd1be"
+    },
+    {
+      "file": "Almoravid_Opening_State_Importer_Fixtures_Static_Harness_Report_V1.json",
+      "bytes": 26982,
+      "sha256": "b10c42c2b83d77b4e7a543f6a2366a54d5fd780ada63fef42aca538b20baadad"
+    },
+    {
+      "file": "Almoravid_Opening_State_Importer_Fixtures_V1.json",
+      "bytes": 50479,
+      "sha256": "0d721dd2e29ba0781d01e13c647c55e21f881085e80459ada749a2fe7b3c7572"
+    },
+    {
+      "file": "Almoravid_Opening_State_In_Memory_Application_Dry_Run_V1.json",
+      "bytes": 93866,
+      "sha256": "2cf336697b93e9e54be36a18d5498aea38ec304781e9e04d8035d64f26529788"
+    },
+    {
+      "file": "Almoravid_Opening_State_In_Memory_Application_Dry_Run_V1_Static_Check.json",
+      "bytes": 2578,
+      "sha256": "3362529dd99f9aa6ea4aeb425dcf5f053a7f1e2a86f6781e35a6ff7f00a8028a"
+    },
+    {
+      "file": "Almoravid_Opening_State_Owner_Routing_Manifest_V1.json",
+      "bytes": 45517,
+      "sha256": "9b70b5ea94093602691d80dfa579c2adc842c986258dd4e9b2764ad0800edfb3"
+    },
+    {
+      "file": "Almoravid_Opening_State_Owner_Routing_Manifest_V1_Static_Check.json",
+      "bytes": 2080,
+      "sha256": "c2b15582b9975d9944cdf609bdfa77a185abe15231f3668cd63a8bf9fa718357"
+    },
+    {
+      "file": "Almoravid_Opening_State_Package_Schema_V1.json",
+      "bytes": 126871,
+      "sha256": "7631579ea6f0977b757f18696edf6309f7db9b5eaf13141f9f998b007f832293"
+    },
+    {
+      "file": "Almoravid_Opening_State_Package_Schema_Validation_Report_V1.json",
+      "bytes": 14114,
+      "sha256": "cbab17184df20a854978a961bec0e6ee8d0dbf773479b2fd8a6750f64bc86ff7"
+    },
+    {
+      "file": "Almoravid_Opening_State_Static_Validation_Profile_V1.json",
+      "bytes": 39236,
+      "sha256": "57b89af092d0852cfe19268cee52e01ff265a88e5d7621b35e4367320fbd6b6f"
+    },
+    {
+      "file": "Almoravid_Opening_State_Static_Validation_Profile_V1_Static_Check.json",
+      "bytes": 2071,
+      "sha256": "e34cff44bab1b8d9581f9b5e10cd3a8af85c8dce06b3449784ef61281b232495"
+    },
+    {
+      "file": "Almoravid_Opening_State_UE5_Importer_Integration_Contract_V1.md",
+      "bytes": 43642,
+      "sha256": "3575b88ce67f030bd144eb6a7fd3fbddfeadfdffefaa6ec30c8df85531762782"
+    },
+    {
+      "file": "Almoravid_Opening_State_UE5_Importer_Integration_Contract_V1_Static_Check.json",
+      "bytes": 3084,
+      "sha256": "29753441672241569d93e400d1b8bedafa4f3daec8599bf4762181ecff56aaec"
+    }
+  ],
+  "secondaryConsistencyCheck": {
+    "fileReopens": true,
+    "reportReopens": true,
+    "statusPass": true,
+    "allChecksPass": true,
+    "hashMatches": true,
+    "noCompileOverclaim": true,
+    "noRuntimeOverclaim": true,
+    "singleEndMarker": true
+  },
+  "secondaryConsistencyAllPass": true
+}

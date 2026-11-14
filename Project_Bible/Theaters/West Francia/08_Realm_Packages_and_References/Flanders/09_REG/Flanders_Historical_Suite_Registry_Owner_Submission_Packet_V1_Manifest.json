@@ -1,0 +1,26 @@
+{
+  "FileName": "Flanders_Historical_Suite_Registry_Owner_Submission_Packet_V1.md",
+  "Version": "1.1.0",
+  "RevisionDate": "2026-10-12",
+  "SHA256": "dd572a03469ca03b92d1c6d89e61fd8e523c40d07286f7f6d6abd8d73d8fbf2b",
+  "Bytes": 19800,
+  "Lines": 568,
+  "PhysicalFilesHashed": 10,
+  "ControlFilesPackaged": 2,
+  "CurrentDesignAuthoritiesPackaged": 8,
+  "ChildProfileInterfacesSubmitted": 2,
+  "CandidateMappings": 97,
+  "ChildPersonCandidates": 2,
+  "QuarantineClasses": 19,
+  "ChronologyDisposition": {
+    "Expected": 38,
+    "Observed": 38,
+    "DestructiveChangesAuthorized": 0
+  },
+  "Result": "Pass",
+  "RegistryMutations": 0,
+  "OpeningStateMutations": 0,
+  "RuntimeMutations": 0,
+  "UnrealMutations": 0,
+  "NextFile": "Flanders_Historical_Suite_Registry_Owner_Decision_and_Disposition_Record_V1.md"
+}

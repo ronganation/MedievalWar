@@ -1,0 +1,25 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "phases_12": true,
+    "batches_9": true,
+    "candidate_44": true,
+    "aliases_6": true,
+    "splits_10": true,
+    "uncertainty_32": true,
+    "owner_zero": true,
+    "issues_30": true,
+    "positive_20": true,
+    "negative_28": true,
+    "atomic": true,
+    "real_payload_false": true,
+    "balanced_fences": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker": true,
+    "honest_validation": true,
+    "next_file": true
+  }
+}

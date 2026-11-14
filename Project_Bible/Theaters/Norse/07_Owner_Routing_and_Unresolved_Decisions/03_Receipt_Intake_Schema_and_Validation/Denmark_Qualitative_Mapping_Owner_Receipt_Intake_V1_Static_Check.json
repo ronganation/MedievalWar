@@ -1,0 +1,186 @@
+{
+  "check_id": "check.denmark.qualitative_mapping.owner_receipt_intake.v1.0.1",
+  "status": "PASS_SCHEMA_HARDENING_AND_DRAFT_RECONCILIATION",
+  "schema_hardened": true,
+  "pending_fixture_valid": true,
+  "submitted_draft_schema_valid": true,
+  "positive_validation": {
+    "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json": {
+      "valid": true,
+      "errors": []
+    },
+    "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json": {
+      "valid": true,
+      "errors": []
+    },
+    "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_30_V1_SUBMITTED_UNVALIDATED.json": {
+      "valid": true,
+      "errors": []
+    },
+    "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_40_V1_SUBMITTED_UNVALIDATED.json": {
+      "valid": true,
+      "errors": []
+    },
+    "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_60_V1_SUBMITTED_UNVALIDATED.json": {
+      "valid": true,
+      "errors": []
+    }
+  },
+  "negative_fixture_results": [
+    {
+      "name": "arbitrary_draft_filename",
+      "rejected": true,
+      "error_count": 1,
+      "messages": [
+        "'Arbitrary.json' is not one of ['Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json', 'Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json', 'Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_30_V1_SUBMITTED_UNVALIDATED.json', 'Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_40_V1_SUBMITTED_UNVALIDATED.json', 'Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_60_V1_SUBMITTED_UNVALIDATED.json']"
+      ]
+    },
+    {
+      "name": "draft_boundary_true_authorization",
+      "rejected": true,
+      "error_count": 1,
+      "messages": [
+        "False was expected"
+      ]
+    },
+    {
+      "name": "request_10_approve_missing_bands_and_contract",
+      "rejected": true,
+      "error_count": 4,
+      "messages": [
+        "'RECEIPT_SUBMITTED_UNVALIDATED' was expected",
+        "'draft_boundary' is a required property",
+        "'Framework.CharacterNetwork vocabulary ownership candidate for the eight listed dimensions. Excludes exact numeric values, hidden Denmark-specific mappings, runtime mutation, and owner submission.' does not match '^(?!.*(?:exact numeric|hidden Denmark-specific|runtime mutation|owner submission)).+$'",
+        "{'request_id': 'request.denmark.qualitative_mapping.vocabulary_owner.v1', 'owner_authority_ref': 'Framework.CharacterNetwork', 'owner_receipt_id': 'receipt.draft.denmark.qualitative_mapping.vocabulary_owner.v1', 'disposition': 'APPROVE', 'authority_or_evidence_refs': ['Framework_Architecture_Map_v1.md', 'Denmark Character Network Decision Pass.md', 'Denmark_Character_Network_Integration_Contract.md', 'Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_and_Disposition_Candidate_V1.md'], 'approval_scope': 'Framework.CharacterNetwork vocabulary ownership candidate for the eight listed dimensions. Excludes exact numeric values, hidden Denmark-specific mappings, runtime mutation, and owner submission.', 'approved_dimensions': ['Trust', 'Loyalty', 'Respect', 'Fear', 'Obligation', 'Kinship', 'ClaimConflict', 'PoliticalAlignment'], 'approved_bands': [], 'mapping_contract_ref': '', 'receiving_owner_ref': 'Framework.CharacterNetwork', 'rollback_contract_ref': '', 'receipt_contract_ref': '', 'effective_version': 'Candidate-1.0.0', 'reason_codes': [], 'blocking_validation_reasons': ['MissingApprovedBandVocabulary'], 'vocabulary_contract_ref': '', 'runtime_binding_authority_ref': '', 'zero_absence_semantics': None, 'trace_hash_coverage': None, 'atomic_rollback_coverage': None, 'owner_adoption_evidence': {'evidence_type': 'OWNER_ADOPTION', 'evidence_ref': 'fixture.owner.adoption'}} is not valid under any of the given schemas"
+      ]
+    },
+    {
+      "name": "request_20_normal_approve_without_values",
+      "rejected": true,
+      "error_count": 4,
+      "messages": [
+        "'RECEIPT_SUBMITTED_UNVALIDATED' was expected",
+        "'request.denmark.qualitative_mapping.vocabulary_owner.v1' was expected",
+        "'draft_boundary' is a required property",
+        "'request.denmark.qualitative_mapping.dimension_mapping.v1' is not one of ['request.denmark.qualitative_mapping.vocabulary_owner.v1', 'request.denmark.qualitative_mapping.receiving_owner.v1', 'request.denmark.qualitative_mapping.zero_absence_rule.v1', 'request.denmark.qualitative_mapping.receipt_trace_hash.v1']"
+      ]
+    },
+    {
+      "name": "request_30_wrong_runtime_receiver",
+      "rejected": true,
+      "error_count": 3,
+      "messages": [
+        "'RECEIPT_SUBMITTED_UNVALIDATED' was expected",
+        "'draft_boundary' is a required property",
+        "'Owner.Campaign.Relationships' was expected"
+      ]
+    },
+    {
+      "name": "request_40_missing_typed_semantics",
+      "rejected": true,
+      "error_count": 4,
+      "messages": [
+        "'RECEIPT_SUBMITTED_UNVALIDATED' was expected",
+        "'draft_boundary' is a required property",
+        "None should not be valid under {'type': 'null'}",
+        "None is not of type 'object'"
+      ]
+    },
+    {
+      "name": "request_50_missing_complete_rollback",
+      "rejected": true,
+      "error_count": 7,
+      "messages": [
+        "'RECEIPT_SUBMITTED_UNVALIDATED' was expected",
+        "'request.denmark.qualitative_mapping.vocabulary_owner.v1' was expected",
+        "'draft_boundary' is a required property",
+        "'request.denmark.qualitative_mapping.atomic_rollback.v1' is not one of ['request.denmark.qualitative_mapping.vocabulary_owner.v1', 'request.denmark.qualitative_mapping.receiving_owner.v1', 'request.denmark.qualitative_mapping.zero_absence_rule.v1', 'request.denmark.qualitative_mapping.receipt_trace_hash.v1']",
+        "None should not be valid under {'type': 'null'}"
+      ]
+    },
+    {
+      "name": "request_60_incomplete_trace_hash_coverage",
+      "rejected": true,
+      "error_count": 10,
+      "messages": [
+        "'RECEIPT_SUBMITTED_UNVALIDATED' was expected",
+        "'draft_boundary' is a required property",
+        "True was expected",
+        "True was expected",
+        "True was expected"
+      ]
+    },
+    {
+      "name": "request_70_local_intake",
+      "rejected": true,
+      "error_count": 4,
+      "messages": [
+        "'RECEIPT_SUBMITTED_UNVALIDATED' was expected",
+        "'request.denmark.qualitative_mapping.vocabulary_owner.v1' was expected",
+        "'draft_boundary' is a required property",
+        "'request.denmark.qualitative_mapping.persistence_replay.v1' is not one of ['request.denmark.qualitative_mapping.vocabulary_owner.v1', 'request.denmark.qualitative_mapping.receiving_owner.v1', 'request.denmark.qualitative_mapping.zero_absence_rule.v1', 'request.denmark.qualitative_mapping.receipt_trace_hash.v1']"
+      ]
+    },
+    {
+      "name": "submitted_implementation_authorized_true",
+      "rejected": true,
+      "error_count": 1,
+      "messages": [
+        "False was expected"
+      ]
+    },
+    {
+      "name": "validated_runtime_mutation_true",
+      "rejected": true,
+      "error_count": 4,
+      "messages": [
+        "'RECEIPT_SUBMITTED_UNVALIDATED' was expected",
+        "'draft_boundary' is a required property",
+        "False was expected",
+        "'Framework.CharacterNetwork vocabulary ownership candidate for the eight listed dimensions. Excludes exact numeric values, hidden Denmark-specific mappings, runtime mutation, and owner submission.' does not match '^(?!.*(?:exact numeric|hidden Denmark-specific|runtime mutation|owner submission)).+$'"
+      ]
+    },
+    {
+      "name": "unknown_or_absent_mapped_to_zero",
+      "rejected": true,
+      "error_count": 4,
+      "messages": [
+        "{'absent_dimension_remains_absent': True, 'explicit_numeric_zero_distinct_from_absent': True, 'unknown_has_runtime_value': False, 'unknown_maps_to_zero': True, 'not_applicable_creates_dimension': False, 'unmapped_band_maps_to_zero': False, 'unsupported_band_disposition': 'REJECT_OR_QUARANTINE', 'invalid_band_disposition': 'FATAL_OR_QUARANTINE'} is not valid under any of the given schemas",
+        "'RECEIPT_SUBMITTED_UNVALIDATED' was expected",
+        "'draft_boundary' is a required property",
+        "False was expected"
+      ]
+    },
+    {
+      "name": "cross_request_approval_inference",
+      "rejected": true,
+      "error_count": 1,
+      "messages": [
+        "False was expected"
+      ]
+    },
+    {
+      "name": "owner_receipt_synthesized_from_discovery",
+      "rejected": true,
+      "error_count": 5,
+      "messages": [
+        "'RECEIPT_SUBMITTED_UNVALIDATED' was expected",
+        "'draft_boundary' is a required property",
+        "None should not be valid under {'type': 'null'}",
+        "None is not of type 'object'",
+        "'Framework.CharacterNetwork vocabulary ownership candidate for the eight listed dimensions. Excludes exact numeric values, hidden Denmark-specific mappings, runtime mutation, and owner submission.' does not match '^(?!.*(?:exact numeric|hidden Denmark-specific|runtime mutation|owner submission)).+$'"
+      ]
+    }
+  ],
+  "all_negative_fixtures_rejected": true,
+  "controlling_owner_receipt_received": false,
+  "owner_signature_received": false,
+  "ledger_update_authorized": false,
+  "mapping_implementation_authorized": false,
+  "owner_submission_authorized": false,
+  "runtime_mutation_authorized": false,
+  "opening_state_execution_authorized": false,
+  "save_persistence_authorized": false,
+  "migration_execution_authorized": false,
+  "replay_validation_authorized": false
+}

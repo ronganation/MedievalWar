@@ -1,0 +1,22 @@
+{
+  "filename": "Brittany_Households_Courts_Residence_Officers_and_Domestic_Politics_Authority_V1.md",
+  "version": "1.0.0",
+  "bytes": 63933,
+  "lines": 1592,
+  "sha256": "C4A84FC58BEA41FF372C1F825D8ACB4E1DAB8BD4B9CD78D5BE31907DAC9A2964",
+  "authority_type": "NewDevelopedRealmSpecialistAuthority",
+  "realm_id": "realm.brittany",
+  "scenario_id": "Scenario.Brittany.1062January",
+  "operating_portfolios": 28,
+  "positive_fixtures": 25,
+  "negative_fixtures": 30,
+  "opening_records_instantiated": 0,
+  "Registry_rows_created": 0,
+  "Opening_State_mutations": 0,
+  "runtime_mutations": 0,
+  "Unreal_project_mutations": 0,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "importer_validated": false,
+  "next_file": "Brittany_Law_Custom_Justice_Policy_Enforcement_and_Restoration_Authority_V1.md"
+}

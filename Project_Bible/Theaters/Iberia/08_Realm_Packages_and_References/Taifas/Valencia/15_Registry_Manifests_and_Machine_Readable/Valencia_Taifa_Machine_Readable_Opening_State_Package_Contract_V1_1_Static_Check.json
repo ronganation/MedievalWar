@@ -1,0 +1,78 @@
+{
+  "check_id": "static_check.valencia.machine_readable_contract.v1_1",
+  "authority_file": "Valencia_Taifa_Machine_Readable_Opening_State_Package_Contract_V1_1_Current_Source_Chain_Reconciliation.md",
+  "authority_sha256": "43861d3ba19beb0736487d057d741ba4110e189c973afbb93290070f3ccb7c2c",
+  "checks": [
+    {
+      "name": "V1LogicalCarryForwardDeclared",
+      "pass": true
+    },
+    {
+      "name": "V3_4OpeningStatePinned",
+      "pass": true
+    },
+    {
+      "name": "A2A3A4A5Pinned",
+      "pass": true
+    },
+    {
+      "name": "OpeningAndDefinitionFamiliesNamed",
+      "pass": true
+    },
+    {
+      "name": "V3_3HistoricalDispositionPresent",
+      "pass": true
+    },
+    {
+      "name": "ThreeTrackTimePresent",
+      "pass": true
+    },
+    {
+      "name": "FiniteRecruitmentBoundaryPresent",
+      "pass": true
+    },
+    {
+      "name": "AIProposalExecutionSeparationPresent",
+      "pass": true
+    },
+    {
+      "name": "PresentationWorldStateSeparationPresent",
+      "pass": true
+    },
+    {
+      "name": "BalancedFences",
+      "pass": true
+    },
+    {
+      "name": "NoEmDash",
+      "pass": true
+    },
+    {
+      "name": "OneStableFooter",
+      "pass": true
+    },
+    {
+      "name": "FinalMarkerCorrect",
+      "pass": true
+    }
+  ],
+  "validation_not_executed": [
+    "V3_4JSONFamilyGeneration",
+    "FixtureExecution",
+    "ImporterValidation",
+    "UnrealArchitectureInspection",
+    "RuntimeValidation"
+  ],
+  "mutations": {
+    "source_files_overwritten": 0,
+    "registry": 0,
+    "opening_state": 0,
+    "runtime": 0,
+    "real_payload_imports": 0,
+    "unreal_project": 0
+  },
+  "total_checks": 13,
+  "passes": 13,
+  "failures": 0,
+  "result": "PASS"
+}

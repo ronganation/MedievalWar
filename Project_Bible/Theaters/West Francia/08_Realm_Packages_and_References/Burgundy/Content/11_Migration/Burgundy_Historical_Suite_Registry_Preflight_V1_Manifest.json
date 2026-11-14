@@ -1,0 +1,19 @@
+{
+  "FileName": "Burgundy_Historical_Suite_Registry_Preflight_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "a99327558feda616993d2c7b37adfd06b09e0baf8222e39b8624d8bdf1b7b1af",
+  "Bytes": 39548,
+  "Lines": 1023,
+  "PreflightResult": "PASS_WITH_PROJECT_REGISTRY_COLLISION_AND_OWNER_DECISION_BLOCKERS",
+  "MemoryCandidates": 15,
+  "MomentumCandidates": 14,
+  "EmergenceCandidates": 15,
+  "TotalCandidates": 44,
+  "DirectAliasProposals": 6,
+  "SplitRequiredSources": 10,
+  "CanonicalRowsCreated": 0,
+  "AliasesExecuted": 0,
+  "OpeningBindingsCreated": 0,
+  "NextFile": "Burgundy_Historical_Suite_Owner_Decision_and_Binding_Packet_V1.md",
+  "Mutations": 0
+}

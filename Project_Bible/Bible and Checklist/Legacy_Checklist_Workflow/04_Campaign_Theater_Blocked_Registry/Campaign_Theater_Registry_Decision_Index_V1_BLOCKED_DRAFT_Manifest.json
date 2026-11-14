@@ -1,0 +1,56 @@
+{
+  "manifest_id": "manifest.campaign_theater.registry_decision_index.blocked_draft.v1_1",
+  "version": "1.1.0",
+  "status": "PASS_BLOCKED_DRAFT_STATIC_CHECK",
+  "artifact_count": 5,
+  "hashed_artifact_count": 4,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "stable_order": 10,
+      "filename": "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT.json",
+      "bytes": 8540,
+      "lines": 215,
+      "stored_sha256": "4EB780C1452C763593A8385E8C938CBE72CB197ABD22E312D3F5A266673E918C",
+      "canonical_sha256": "EE4A38202B6C3B4608C88847773E37652A971C59A711E2EA5BE1B4F9DF0DA583"
+    },
+    {
+      "stable_order": 20,
+      "filename": "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT_Schema.json",
+      "bytes": 11008,
+      "lines": 426,
+      "stored_sha256": "38AEC2B93D30AAC08C597F3C538BDD0A7D3AC6A7CA72F16A9978542DECD43FA1",
+      "canonical_sha256": "0FE38BE31154BCC27FB8342554AD1C68879633D4C3FEDA9892BAB78705D5399A"
+    },
+    {
+      "stable_order": 30,
+      "filename": "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT_Validation_Profile.json",
+      "bytes": 3225,
+      "lines": 96,
+      "stored_sha256": "606A566612B4E078A85F2D4019A54F645504D926721C1C786E192A6265B57F5E",
+      "canonical_sha256": "290600A132AE4F76D248A5F7B370A5847EAEE12F6F239349E5BEA6A3A2D9A234"
+    },
+    {
+      "stable_order": 40,
+      "filename": "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT_Static_Check.json",
+      "bytes": 2098,
+      "lines": 91,
+      "stored_sha256": "64C454F2CAF58AF6311060C86DA83D3D2965E2DEFC520B7DC074CF58E01A9F28",
+      "canonical_sha256": "6927B1CFAC9C68CA1A473BFAB124F741A0851649A391E2F7A28CC50FF545D3B5"
+    }
+  ],
+  "source_authorities": [
+    "Campaign_Theater_Registry_and_Association_Owner_Reconciliation_V1.md",
+    "Campaign_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md"
+  ],
+  "authorization_closed": true,
+  "updates_applied": [
+    "strict top-level schema objects",
+    "exact eight blocked records",
+    "executable validation predicates",
+    "unique Theater-reference check",
+    "unique association-ID check",
+    "association-class semantic validation",
+    "regenerated static check and hashes"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "document": "England_Royal_Billmen_Owner_Profile_and_Elite_Collision_Gate_V1.md",
+  "sha256": "8a7fed7a91f22656207af2461cab493e4b916e1477d13a95f668c20347e7eadc",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "explicit_verdict": true,
+    "collision_matrix": true,
+    "profile_preserved": true,
+    "elite_firewall": true,
+    "queue_closed": true,
+    "next_file": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

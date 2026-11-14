@@ -1,0 +1,51 @@
+{
+  "document_id": "Manifest.Discovery.CurrentPackage.Realm.SevilleTaifa.V1",
+  "document": "Seville_Taifa_Current_Package_Discovery_and_Authority_Reconciliation_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-09",
+  "placement": "Seville/00_README_and_Indexes",
+  "status": "StaticCheckedSearchVisibleDiscoveryAuthority",
+  "authority_basis": [
+    "Project Bible 2.4",
+    "Design Expansion Checklist 3.7",
+    "Unreal Engine 5.8"
+  ],
+  "checks": {
+    "bytes": 24529,
+    "lines": 563,
+    "sha256": "9F4F670A928CD149E8777991F5BF841439DB3C9CA5735D4B2032C3A7F247755A",
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "three_track": true,
+    "physical_inventory_honest": true,
+    "folders_09_10_reconciled": true,
+    "registry_lock_reconciled": true,
+    "legacy_validation_not_promoted": true,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "discovery_receipt": {
+    "attached_substantive_sources_read_in_full": 14,
+    "folders_09_and_10_search_visible": true,
+    "registry_lock_found": true,
+    "human_readable_opening_state_found": true,
+    "machine_readable_families_found": true,
+    "physical_inventory_complete": false
+  },
+  "mutation_receipt": {
+    "SourceOverwrite": 0,
+    "Deleted": 0,
+    "Moved": 0,
+    "Renamed": 0,
+    "Registry": 0,
+    "OpeningState": 0,
+    "CandidatePayload": 0,
+    "ImporterRuns": 0,
+    "Runtime": 0,
+    "AdvancedSave": 0,
+    "Unreal": 0
+  },
+  "next_gate": "Direct physical inventory and accepted-source manifest for the complete organized Seville package"
+}

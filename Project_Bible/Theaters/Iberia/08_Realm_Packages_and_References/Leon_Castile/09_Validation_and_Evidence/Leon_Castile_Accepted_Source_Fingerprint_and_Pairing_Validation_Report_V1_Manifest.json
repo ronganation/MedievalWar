@@ -1,0 +1,48 @@
+{
+  "document_id": "Manifest.Validation.LeonCastile.AcceptedSourceFingerprintPairing.V1",
+  "report_file": "Leon_Castile_Accepted_Source_Fingerprint_and_Pairing_Validation_Report_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 15305,
+  "physical_lines": 369,
+  "sha256": "F6CEE549835036E244756DF42D23B1774649B3F4E530A8F98E2D8192EC9C6537",
+  "status": "StaticCheckedPairingReviewWithFullPhysicalFingerprintBlock",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "no_fabricated_package_fingerprint": true,
+    "blocking_disposition_present": true,
+    "seven_profiles_identified": true,
+    "readme_duplicate_finding_present": true,
+    "promotion_block_present": true
+  },
+  "phase_1_disposition": "BLOCKED_PENDING_PHYSICAL_SNAPSHOT_VALIDATION",
+  "verified_accepted_entry_count_claim_from_source_manifest": 61,
+  "package_fingerprint": null,
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "MachineReadable": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "validation_boundary": {
+    "FullPhysicalEnumeration": "NOT_RUN",
+    "FullHashRecalculation": "NOT_RUN",
+    "FullPairingExecution": "NOT_RUN",
+    "PackageFingerprint": "NOT_RUN",
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "Importer": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "Promotion": "PROHIBITED"
+  },
+  "next_file": "Leon_Castile_Literal_Reference_and_Dependency_Closure_Report_V1.md",
+  "all_report_static_checks_pass": true
+}

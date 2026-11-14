@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.scotland.historical-uncertainty-register.v1",
+  "version": "1.0.0",
+  "successor": {
+    "filename": "Scotland_Historical_Uncertainty_Register_V1.md",
+    "bytes": 51058,
+    "physical_lines": 1324,
+    "sha256": "c84e172a86bb8f8966234bf554e1f440c923307836d654d81f308b3000e30f58"
+  },
+  "inputs": [
+    "Scotland_Historical_Evidence_Register_V1.1_Current_Authority_Refinement.md",
+    "Scotland_Historical_Timeline_and_Chronology_V1.2_Current_Authority_Refinement.md",
+    "Scotland_Historical_Memory_V1.md",
+    "Scotland_Historical_Momentum_V1.md",
+    "Scotland_Gille_Coemgain_Identity_Collision_Adjudication_V1.md",
+    "England_Historical_Uncertainty_Register_V1.1_Current_Authority_Refinement.md"
+  ],
+  "content_inventory": {
+    "uncertainty_records": 16,
+    "scenario_selection_required": 4,
+    "provisionally_resolved": 1,
+    "validation_cases": 16
+  },
+  "authorizations": {
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "replacement_character": false
+  },
+  "static_check": {
+    "filename": "Scotland_Historical_Uncertainty_Register_V1_Static_Check.json",
+    "passed": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0",
+  "method": "ReadOnlyCurrentIrelandSpecialistAuthorityIntegrationAudit",
+  "authority_file": "Ireland_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md",
+  "authority_bytes": 26673,
+  "authority_lines": 685,
+  "authority_sections": 25,
+  "authority_sha256": "15982ebfcbbfe7aa58893ac5d47f49bea6559b791a3dbb2a3e556c3c5b6d5eac",
+  "source_files_modified": 0,
+  "Registry_mutations": 0,
+  "migration_executions": 0,
+  "Opening_State_mutations": 0,
+  "Unreal_mutations": 0,
+  "runtime_mutations": 0,
+  "static_check_file": "Ireland_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1_Static_Check.json",
+  "static_check_sha256": "ade5eb2482f13a4e50ca3e5daffac62aaeee31d60c8a1a70fa2574dc28b0acb6",
+  "all_checks_passed": true,
+  "validation_scope": "read-only static authority-contract integration audit; no complete physical repository scan, Registry or owner receipt completion, Opening State activation, migration execution, importer, Unreal, runtime, save/load, replay, performance, battle, cartographic, localization, accessibility, or real-payload validation"
+}

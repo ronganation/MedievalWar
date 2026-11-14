@@ -1,0 +1,24 @@
+{
+  "document": "Western_Francia_Theater_Source_Authority_Implementation_and_Package_Discovery_V1.2_Current_Authority_Correction.md",
+  "passed": true,
+  "checks": {
+    "exact_source_url_preserved": true,
+    "ten_exact_top_level_folders": true,
+    "five_exact_realm_packages": true,
+    "normandy_owner_lock": true,
+    "correct_placement": true,
+    "supersedes_v1_and_v11": true,
+    "all_structured_sections_present": true,
+    "yaml_fences_present": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_escaped_list_markers": true,
+    "no_em_dash": true,
+    "three_track_temporal_model": true,
+    "honest_implementation_status": true,
+    "zero_mutations": true,
+    "substantive_content_not_removed": true,
+    "stable_footer": true
+  },
+  "validation_scope": "corrected static discovery authority grounded in the supplied folder view and West Francia organization authorities; no recursive package scan, source opening for Theater V2, physical placement execution, Registry or Opening State mutation, importer, migration, Unreal, runtime, save, replay, performance, or battle validation"
+}

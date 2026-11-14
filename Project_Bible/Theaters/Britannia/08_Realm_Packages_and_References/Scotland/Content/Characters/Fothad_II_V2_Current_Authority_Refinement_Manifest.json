@@ -1,0 +1,58 @@
+{
+  "document_id": "manifest.character.scotland.fothad-ii.v2",
+  "version": "2.0.0",
+  "sources": {
+    "immediate_substantive_source": {
+      "filename": "Fothad_II_Identity_Office_Institution_Review.md",
+      "bytes": 4126,
+      "physical_lines": 135,
+      "sha256": "a8fe7bd26c977026045a8e87158581634ae5e2f7e7a7349b243358a445cc7602",
+      "complete_source_verified": true
+    },
+    "identity_quarantined_shell": {
+      "filename": "Bishop_of_St_Andrews_Identity_Quarantined_Shell.md",
+      "bytes": 14005,
+      "physical_lines": 307,
+      "sha256": "dc03e853ae9dc89926c7d4562bc9c5635b9f61915d266c5c80ca640d47c58728",
+      "complete_source_verified": true
+    },
+    "legacy_office_titled_source": {
+      "filename": "Bishop_of_St_Andrews.md",
+      "bytes": 3524,
+      "physical_lines": 255,
+      "sha256": "b6be3454f9f1a73147795ea5f268ceb29524c6170cd64e1479d6b3ce9a122f23",
+      "complete_source_verified": true
+    }
+  },
+  "successor": {
+    "filename": "Fothad_II_V2_Current_Authority_Refinement.md",
+    "bytes": 43132,
+    "physical_lines": 1333,
+    "sha256": "04b32d0b1b3fe0d6a730e4e160b590db6d669f55e5b64101ac32af45b1a16908"
+  },
+  "preservation": {
+    "complete_review_source_preserved": true,
+    "complete_shell_preserved": true,
+    "complete_legacy_source_preserved": true,
+    "removed_content": []
+  },
+  "current_bindings": {
+    "person": "Character.Scotland.Fothad_II",
+    "office": "Office.Scotland.Bishop_St_Andrews",
+    "institution": "Institution.Scotland.St_Andrews_Ecclesiastical_Community",
+    "site": "Site.Scotland.St_Andrews",
+    "occupancy_confidence": "Medium",
+    "opening_relationship_dimensions": 0
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Fothad_II_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

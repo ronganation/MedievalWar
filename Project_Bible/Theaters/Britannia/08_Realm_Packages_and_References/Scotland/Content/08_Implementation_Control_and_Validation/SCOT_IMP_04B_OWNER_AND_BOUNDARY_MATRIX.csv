@@ -1,0 +1,7 @@
+"OwnerId","RequiredFor","SecondaryFor","InvocationPermitted","RuntimeBindingPermitted","ProductionAuthority"
+"CharacterFoundationOwner","Scotland.CharacterFoundation.MalcolmIII;Scotland.ProtectedChild.DuncanII","","False","False","False"
+"BiologicalLifecycleOwner","","Scotland.ProtectedChild.DuncanII","False","False","False"
+"RealmIdentityOwner","Realm.Scotland","","False","False","False"
+"ScenarioIdentityOwner","Scenario.Scotland.Opening_1062_01_01","","False","False","False"
+"PoliticalOrderOwner","Scotland.PoliticalOrder","","False","False","False"
+"LawPolicyOwner","Scotland.LawPolicy","","False","False","False"

@@ -1,0 +1,19 @@
+{
+  "document": "England_Polearm_Family_Candidate_Admission_and_Disposition_Matrix_V1.md",
+  "sha256": "84d779c28bf8634002601067148f292ebd0c911b052ce60d299925c949bac4ac",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "four_dispositions": true,
+    "billmen_next": true,
+    "heavy_progression": true,
+    "scotland_collision": true,
+    "opening_firewall": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

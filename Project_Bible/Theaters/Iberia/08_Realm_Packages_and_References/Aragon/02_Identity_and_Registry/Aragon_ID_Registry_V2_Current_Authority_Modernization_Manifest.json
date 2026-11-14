@@ -1,0 +1,39 @@
+{
+  "document_id": "Manifest.IDRegistry.Realm.Aragon.V2",
+  "authority_file": "Aragon_ID_Registry_V2_Current_Authority_Modernization.md",
+  "version": "2.0.0",
+  "revision_date": "2026-09-09",
+  "placement": "Aragon/02_Identity_and_Registry",
+  "sha256": "B72FC8682CD3B32E79F96824438ECB5B8FFF4A608312B284BE226C846C65B9CD",
+  "immediate_substantive_source": "Aragon_ID_Registry_V1.md",
+  "source_sha256": "A50640F3D94BB6B01F2EE3500CDD30FB604652ECA7506E1A6C79D92F3964A5F8",
+  "source_treatment": "CompleteCopyFirstAdditiveCurrentAuthorityModernization",
+  "status": "StaticCheckedCurrentAuthorityModernizationOwnerReviewRequired",
+  "checks": {
+    "source_bytes": 56604,
+    "source_lines": 1520,
+    "successor_bytes": 69215,
+    "successor_lines": 1796,
+    "successor_larger": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "balanced_fences": true,
+    "stable_footer_count": 1,
+    "three_track_present": true,
+    "two_sancho_present": true,
+    "no_mutation_receipt": true,
+    "all_critical_checks_pass": true
+  },
+  "mutation_receipt": {
+    "SourceOverwritten": false,
+    "Registry": 0,
+    "OpeningState": 0,
+    "MigrationExecution": 0,
+    "ExternalPackages": 0,
+    "Unreal": 0,
+    "Runtime": 0,
+    "RealPayload": 0
+  },
+  "next_file": "Aragon_Registry_Preflight_V2_Current_Authority_Revalidation.md"
+}

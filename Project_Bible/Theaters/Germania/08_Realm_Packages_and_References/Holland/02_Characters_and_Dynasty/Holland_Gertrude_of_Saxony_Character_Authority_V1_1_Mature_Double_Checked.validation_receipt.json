@@ -1,0 +1,21 @@
+{
+  "document": "Holland_Gertrude_of_Saxony_Character_Authority_V1_1_Mature_Double_Checked.md",
+  "version": "1.1.0",
+  "bytes": 58115,
+  "lines": 1777,
+  "sha256": "84a70d280e5ce1bf65c196d64b1cb9d543ef40a4673e5823272be2d6d8cf732e",
+  "utf8_valid": true,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "escaped_list_marker_count": 0,
+  "stable_footer_count": 1,
+  "source_preserved": true,
+  "implementation_validation": {
+    "compile": false,
+    "runtime": false,
+    "save_load": false,
+    "migration": false,
+    "unreal": false
+  },
+  "result": "PASS_AT_STATIC_AUTHORING_SCOPE"
+}

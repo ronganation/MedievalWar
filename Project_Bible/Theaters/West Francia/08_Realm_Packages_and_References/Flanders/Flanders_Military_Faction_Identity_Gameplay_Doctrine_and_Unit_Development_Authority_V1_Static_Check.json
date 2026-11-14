@@ -1,0 +1,20 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "identity_hierarchy": true,
+    "five_pillars": true,
+    "four_channels": true,
+    "candidate_dispositions": true,
+    "unit_admission_test": true,
+    "candidate_families_22": true,
+    "three_tracks": true,
+    "balanced_fences": true,
+    "single_footer": true,
+    "end_marker_final": true,
+    "zero_admissions_and_mutations": true
+  },
+  "SHA256": "0c2de0188c2b379645a0120b8d767fa88548119f410879a4a48811ec3e61c0a8",
+  "Bytes": 29255,
+  "Lines": 598,
+  "ValidationScope": "Static identity, gameplay doctrine, roster-development channels, candidate dispositions, naming doctrine, unit-admission tests, workflow, and zero-mutation boundaries only."
+}

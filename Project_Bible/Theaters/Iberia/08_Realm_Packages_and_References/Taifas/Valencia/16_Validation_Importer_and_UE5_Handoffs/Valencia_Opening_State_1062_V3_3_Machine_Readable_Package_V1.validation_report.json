@@ -1,0 +1,129 @@
+{
+  "report_id": "validation_report.opening_state.valencia.1062.v3_3.package_v1",
+  "version": "1.0.0",
+  "package_id": "opening_state.valencia.1062.v3_3.package_v1",
+  "source_authority": "Valencia_Opening_State_1062_V3_3_Completed_Authority_Chain_Reconciled_Developed_Realm_Parity_Authority.md",
+  "source_authority_version": "3.3.0",
+  "input_checksums": {
+    "Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.json": "50566f11f7ba2b8b2591302415cf4c76e2f239e3f5ca0a3a2bb98470343b0f50",
+    "Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.schema.json": "296544e7d431ca281285776ffa59efaa2d22b33eecb14e2e3f97a07de01b9b81",
+    "Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.validation.json": "a29abb4533377b71a1545f6ff326408c4fb0d935a4f74f1164c6a34e64859478",
+    "Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.owner_routing.json": "a0c24c40f480fd79b51504fe4e880c78c9f11b895a0993ab504112a1edc7b199",
+    "Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.fixtures.json": "18eed7151f71bba536baeba5bde7b29f67830784ebc0d65482cc911d0d3919b6"
+  },
+  "validation_environment": "IsolatedLinuxContainer",
+  "checks_defined": 18,
+  "checks_executed": 18,
+  "checks_passed": 18,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check_id": "JSON_PARSE_Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.json",
+      "status": "PASS",
+      "detail": "Valid JSON"
+    },
+    {
+      "check_id": "JSON_PARSE_Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.schema.json",
+      "status": "PASS",
+      "detail": "Valid JSON"
+    },
+    {
+      "check_id": "JSON_PARSE_Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.validation.json",
+      "status": "PASS",
+      "detail": "Valid JSON"
+    },
+    {
+      "check_id": "JSON_PARSE_Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.owner_routing.json",
+      "status": "PASS",
+      "detail": "Valid JSON"
+    },
+    {
+      "check_id": "JSON_PARSE_Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.fixtures.json",
+      "status": "PASS",
+      "detail": "Valid JSON"
+    },
+    {
+      "check_id": "SCHEMA_SELF_VALIDATION",
+      "status": "PASS",
+      "detail": "Draft 2020-12 schema is structurally valid"
+    },
+    {
+      "check_id": "PAYLOAD_SCHEMA_VALIDATION",
+      "status": "PASS",
+      "detail": "No schema errors"
+    },
+    {
+      "check_id": "UNIQUE_RECORD_IDS",
+      "status": "PASS",
+      "detail": "60 defined record IDs; 60 unique. Reference-only occurrences excluded."
+    },
+    {
+      "check_id": "SITE_COUNT",
+      "status": "PASS",
+      "detail": "8"
+    },
+    {
+      "check_id": "FORCE_FAMILY_COUNT",
+      "status": "PASS",
+      "detail": "8"
+    },
+    {
+      "check_id": "ROUTE_COUNT",
+      "status": "PASS",
+      "detail": "4"
+    },
+    {
+      "check_id": "RELATION_COUNT",
+      "status": "PASS",
+      "detail": "6"
+    },
+    {
+      "check_id": "PROBLEM_COUNT",
+      "status": "PASS",
+      "detail": "9"
+    },
+    {
+      "check_id": "NO_FORCE_INSTANCES",
+      "status": "PASS",
+      "detail": "0 force instances"
+    },
+    {
+      "check_id": "NO_RECRUITMENT_POOLS",
+      "status": "PASS",
+      "detail": "0 recruitment pools"
+    },
+    {
+      "check_id": "NO_APPOINTMENTS",
+      "status": "PASS",
+      "detail": "0 appointments"
+    },
+    {
+      "check_id": "NO_OWNER_REQUEST_RESPONSES",
+      "status": "PASS",
+      "detail": "0 owner requests or responses"
+    },
+    {
+      "check_id": "NO_RUNTIME_MUTATION",
+      "status": "PASS",
+      "detail": "mutation_count 0"
+    }
+  ],
+  "fixtures_defined": 12,
+  "fixtures_executed": 0,
+  "fixture_execution_status": "DefinedNotExecuted",
+  "mutation_count": 0,
+  "quarantine_record_count": 8,
+  "owner_receipt_status": "NotRequestedOrExecuted",
+  "promotion_recommendation": "StaticFamilyReviewOnlyNotRealPayloadImport",
+  "validation_limitations": [
+    "CanonicalRegistryValidationNotExecuted",
+    "CrossRealmOwnerValidationNotExecuted",
+    "OpeningStateRuntimeInitializationNotExecuted",
+    "ImporterCompileRuntimeSaveLoadMigrationReplayPerformanceValidationNotExecuted",
+    "UnrealArchitectureInspectionNotExecuted",
+    "PrimaryAttachedOpeningStateTransportChecksumUnavailable"
+  ],
+  "registry_mutations": 0,
+  "runtime_mutations": 0,
+  "unreal_project_mutations": 0
+}

@@ -1,0 +1,36 @@
+{
+  "Result": "PASS",
+  "ObservedCounts": {
+    "portfolios": 30,
+    "entity_types": 24,
+    "tiers": 7,
+    "access": 11,
+    "control": 10,
+    "damage": 9
+  },
+  "Checks": {
+    "portfolios_30": true,
+    "entity_types_24": true,
+    "tiers_7": true,
+    "access_11": true,
+    "control_10": true,
+    "damage_9": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "dijon_not_capital": true,
+    "semur_not_rebels": true,
+    "county_separate": true,
+    "finite_recruitment": true,
+    "no_coordinates": true,
+    "no_mutations": true,
+    "honest": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "AuthoritySHA256": "1a6fdd5e04620ac8661254eda539a46efe221329095a3d894d34f0b454ebb0fc",
+  "AuthorityBytes": 80805,
+  "AuthorityLines": 1522,
+  "Scope": "Static strategic geography, settlement, route, access, control, recovery, save-safety, and submission-hygiene checks"
+}

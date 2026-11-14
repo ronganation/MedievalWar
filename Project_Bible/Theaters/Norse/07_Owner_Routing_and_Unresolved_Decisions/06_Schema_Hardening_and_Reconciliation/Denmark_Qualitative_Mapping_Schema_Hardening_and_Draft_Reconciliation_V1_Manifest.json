@@ -1,0 +1,161 @@
+{
+  "manifest_id": "denmark.qualitative.mapping.schema.hardening.and.draft.reconciliation.v1.manifest",
+  "version": "1.0.1",
+  "status": "PASS_BOUNDED_CONSISTENCY_SCHEMA_HARDENING_DRAFT_RECONCILIATION",
+  "artifact_count": 20,
+  "hashed_artifact_count": 19,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "filename": "Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_V1.json",
+      "bytes": 2166,
+      "sha256": "FFAA1C9C34A2F16F4F01BDC2BD1A1B680D735AB9CB01B969389B91FD0C194037",
+      "lines": 69,
+      "stable_order": 10
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_and_Disposition_Candidate_V1.md",
+      "bytes": 10593,
+      "sha256": "1F00652BCC648842DDA6C44EF044C16BDB141596E44AE53861EAB32C1CFBFD65",
+      "lines": 293,
+      "stable_order": 20
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_V1_Manifest.json",
+      "bytes": 1078,
+      "sha256": "E20BFEDC99AB6B46E961271F33899E97C9D71EFC224DA8FD312DAE4F1E0716DC",
+      "lines": 32,
+      "stable_order": 30
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.json",
+      "bytes": 6407,
+      "sha256": "B99AF1E92DAB6670ED9E1B431FA56E59DC0ADBD2AD7973349A8F8C6CDD1C8C2C",
+      "lines": 172,
+      "stable_order": 40
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.md",
+      "bytes": 6503,
+      "sha256": "61F7BFC0C9F70EDC3E1AE6E8D494E3820F4A58BDA36E4F8FFD7CA00F2A5C107F",
+      "lines": 227,
+      "stable_order": 50
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json",
+      "bytes": 1962,
+      "sha256": "79E793A4A0D7A0379B61A0740AD0A29E2400A4CA3C4C1925B611FB9B2206C13A",
+      "lines": 56,
+      "stable_order": 60
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Schema.json",
+      "bytes": 40460,
+      "sha256": "A3AE59A1C82BB1C10B77C1D7571735F2FA79BD157C41214B1EDC75B1BBBC9184",
+      "lines": 1442,
+      "stable_order": 70
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Validation_Profile.json",
+      "bytes": 2399,
+      "sha256": "4CD28B89F6CC0E208D1BCA66A9AF324364232220340165FC8391BFE894296AAE",
+      "lines": 51,
+      "stable_order": 80
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Static_Check.json",
+      "bytes": 9542,
+      "sha256": "D9E5B6E9EC977FDEEA8BAEF74B7598BA9F370482465DB917E51EDEFF26C53099",
+      "lines": 186,
+      "stable_order": 90
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Response_and_Intake_V1_Manifest.json",
+      "bytes": 2157,
+      "sha256": "57E00C557BAB80A8733E6D0CB53835D130A57BAEA99B54B9E8ADB17FCC6CBB9B",
+      "lines": 63,
+      "stable_order": 100
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Bounded_Owner_Receipt_Draft_Packet_V1.md",
+      "bytes": 2812,
+      "sha256": "E910745E19FD8ECEF5C8542B93E2E465D7BBB0FEB124376022217158AAF61366",
+      "lines": 94,
+      "stable_order": 110
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Bounded_Owner_Receipt_Draft_Packet_V1_Manifest.json",
+      "bytes": 2177,
+      "sha256": "B927E5D98EC57E72020BFA47650B9BF1553204BFC0655A004C82D95EF0404571",
+      "lines": 59,
+      "stable_order": 120
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 3161,
+      "sha256": "8CBD439B9994596B30BA97233A0CC7C00450D5AB833344E02666A4118F83775E",
+      "lines": 81,
+      "stable_order": 130
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_30_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 3047,
+      "sha256": "CC47176646496BB67A64B5A0C30B792CC8047267286538E69BB6984409328059",
+      "lines": 70,
+      "stable_order": 140
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_40_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 3330,
+      "sha256": "45B4904001E77CFB73A1C2EC69791E3E4E90EEFB54AD6214E920DB89AB3CF145",
+      "lines": 82,
+      "stable_order": 150
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_60_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 4062,
+      "sha256": "D62CF57CAABFD5648D7F1A497E4330F96E9B12FA7D6783C8405FE27B9BD58E2A",
+      "lines": 101,
+      "stable_order": 160
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Receipt_Validation_Queue_V1.json",
+      "bytes": 3460,
+      "sha256": "E9A350D0416CE67D1089D7BDE29255F3184769B2095D8D28F441EFC831E1F8A1",
+      "lines": 86,
+      "stable_order": 170
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Schema_Hardening_and_Draft_Reconciliation_Change_Ledger_V1.md",
+      "bytes": 4135,
+      "sha256": "E6357A2A5AB9E5D8D4A60D0562146E06A31D6DE19243189B46350FFC25F8F0B7",
+      "lines": 99,
+      "stable_order": 180
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_PreRepair_Snapshots_20260824.zip",
+      "bytes": 24984,
+      "sha256": "2E0B704124BAA8857D4AD9969AD6493E39F2E075920B8AAB26F9723E96BB3049",
+      "lines": null,
+      "stable_order": 190
+    }
+  ],
+  "checks": {
+    "schema_hardened": true,
+    "pending_fixture_valid": true,
+    "submitted_draft_schema_valid": true,
+    "all_negative_fixtures_rejected": true,
+    "controlling_owner_receipt_received": false,
+    "owner_signature_received": false,
+    "ledger_update_authorized": false,
+    "mapping_implementation_authorized": false,
+    "owner_submission_authorized": false,
+    "runtime_mutation_authorized": false,
+    "opening_state_execution_authorized": false,
+    "save_persistence_authorized": false,
+    "migration_execution_authorized": false,
+    "replay_validation_authorized": false,
+    "historical_snapshot_archive_created": true
+  },
+  "authorization_closed": true
+}

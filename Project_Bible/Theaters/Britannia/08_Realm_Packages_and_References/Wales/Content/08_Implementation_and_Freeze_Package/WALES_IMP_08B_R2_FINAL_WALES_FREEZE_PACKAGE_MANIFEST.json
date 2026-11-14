@@ -1,0 +1,34 @@
+{
+  "TaskId": "WALES-IMP-08B-R2",
+  "Status": "ReadyForPlacement",
+  "Scope": "FinalWalesFreezePackageOnly",
+  "EntranceGate": "WALES-IMP-08A-R3",
+  "EntranceStatus": "StopGateAssessmentCompleted",
+  "PredecessorPreserved": true,
+  "ChecklistUpdateIncluded": false,
+  "ContentPathsSeen": 233,
+  "ReadableAndHashed": 194,
+  "UnresolvedPaths": 39,
+  "WalesSourceFiles": 124,
+  "AcceptedRegression": "404_of_404",
+  "StaticPackageFreeze": "Held",
+  "ImplementationScope": "Closed",
+  "ProductionAuthority": false,
+  "Files": [
+    {
+      "Name": "README_FIRST.txt",
+      "Bytes": 464,
+      "SHA256": "238DD2EDD9E3D1A1C1DAC17612014D8055DAB5944317DBFAD598ED1F721B0A87"
+    },
+    {
+      "Name": "WALES_IMP_08B_R2_FINAL_WALES_FREEZE_PACKAGE_PLACEMENT.csv",
+      "Bytes": 401,
+      "SHA256": "E6B5F9E0CE3E8903AD4325FDFFA4C299C203D1EE59CC0FE4E7542608D42B75B3"
+    },
+    {
+      "Name": "Wales_Realm_Package_Freeze_Readiness_Review_V2.md",
+      "Bytes": 16970,
+      "SHA256": "22A56F334524F56F040649F196944B0283FA594CBFE9DE9FCCC0F8DF778A7CCA"
+    }
+  ]
+}

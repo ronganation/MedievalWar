@@ -1,0 +1,65 @@
+{
+  "document_id": "Manifest.Wales.GruffuddApCynan.V2",
+  "version": "2.0.0",
+  "sources": [
+    {
+      "filename": "Gruffudd_ap_Cynan.md",
+      "bytes": 40895,
+      "physical_lines": 977,
+      "sha256": "e240afc1e4027c17cf34454c0a13e7473dd5bed00d01b504324cd9f8ba1eb67b"
+    },
+    {
+      "filename": "Gruffudd_ap_Cynan_Opening_Underage_Record.md",
+      "bytes": 18527,
+      "physical_lines": 552,
+      "sha256": "05ded3ec21620b5521fc3d2c1cdbadbc4182264dc2d21732b2ace2c5b09fe629"
+    }
+  ],
+  "successors": [
+    {
+      "filename": "Gruffudd_ap_Cynan_V2_Current_Authority_Refinement.md",
+      "bytes": 51494,
+      "physical_lines": 1319,
+      "sha256": "d2c973f680332bf8a908edece3c5e70750270c076705e7aef07546c1b0197a5b"
+    },
+    {
+      "filename": "Gruffudd_ap_Cynan_Opening_Underage_Record_V2_Current_Authority_Refinement.md",
+      "bytes": 26267,
+      "physical_lines": 826,
+      "sha256": "495ee7e49ab7e54e85585929040dd7aa549035205fba708ab4fcf21730fa2021"
+    }
+  ],
+  "copy_method": "literal full-file prefix plus additive current-authority refinement",
+  "preservation": {
+    "profile_headings": 102,
+    "underage_headings": 37,
+    "removed_content": []
+  },
+  "opening_contract": {
+    "person_id": "Person.GruffuddApCynan",
+    "participation": "UnderageParticipant",
+    "lifecycle": "Living",
+    "age_band": "EarlyChildhood",
+    "approximate_age": "six or seven",
+    "broad_location": "DublinAndIrishSea",
+    "adult_agency": false,
+    "opening_edges": 0,
+    "opening_dimensions": 0,
+    "opening_titles": 0,
+    "opening_claims": 0
+  },
+  "validation": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "static_check": {
+    "filename": "Gruffudd_ap_Cynan_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

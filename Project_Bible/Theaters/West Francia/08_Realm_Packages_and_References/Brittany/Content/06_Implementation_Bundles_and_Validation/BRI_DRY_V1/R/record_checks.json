@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "errors": [],
+      "record_kind": "FuturePersonCandidate",
+      "result": "PASS",
+      "stable_id": "person.alan_iv_brittany"
+    },
+    {
+      "errors": [],
+      "record_kind": "PersonDefinition",
+      "result": "PASS",
+      "stable_id": "person.conan_ii_brittany"
+    },
+    {
+      "errors": [],
+      "record_kind": "PersonDefinition",
+      "result": "PASS",
+      "stable_id": "person.odo_penthievre"
+    },
+    {
+      "errors": [],
+      "record_kind": "PersonDefinition",
+      "result": "PASS",
+      "stable_id": "person.hawise_brittany"
+    },
+    {
+      "errors": [],
+      "record_kind": "PersonDefinition",
+      "result": "PASS",
+      "stable_id": "person.hoel_cornouaille"
+    },
+    {
+      "errors": [],
+      "record_kind": "PersonDefinition",
+      "result": "PASS",
+      "stable_id": "person.rivallon_i_dol"
+    },
+    {
+      "errors": [],
+      "record_kind": "PersonDefinition",
+      "result": "PASS",
+      "stable_id": "person.alan_iii_brittany"
+    },
+    {
+      "errors": [],
+      "record_kind": "RealmDefinition",
+      "result": "PASS",
+      "stable_id": "realm.brittany"
+    }
+  ]
+}

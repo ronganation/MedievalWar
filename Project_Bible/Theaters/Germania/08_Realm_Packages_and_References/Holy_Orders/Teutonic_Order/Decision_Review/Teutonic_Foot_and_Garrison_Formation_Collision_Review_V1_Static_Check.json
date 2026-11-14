@@ -1,0 +1,18 @@
+{
+  "file": "Teutonic_Foot_and_Garrison_Formation_Collision_Review_V1_FULL.md",
+  "sha256": "23fc4e9bd98e27ea545e794fe87f4210544bf2516cb84ecc4d232d30898237a8",
+  "bytes": 30403,
+  "word_count": 2766,
+  "h2_sections": 30,
+  "all_40_fixtures_present": true,
+  "fences_balanced": true,
+  "selected_next_unit_present": true,
+  "crossbow_held_conditionally": true,
+  "generic_garrison_rejected": true,
+  "opening_not_activated": true,
+  "implementation_not_authorized": true,
+  "escaped_underscore_absent": true,
+  "escaped_hyphen_absent": true,
+  "battle_tests_executed": false,
+  "unreal_runtime_validated": false
+}

@@ -1,0 +1,32 @@
+{
+  "document": "Holland_Robert_the_Frisian_Relationship_and_Emergence_Authority_V1_1_Mature_Double_Checked.md",
+  "sha256": "b6b0c7744dbdc8c3a897610c9a1518b972b4ddc5a7829333aa53b8c304de1048",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_41": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_hash_matches": true,
+    "predecessor_static_passed": true,
+    "predecessor_receipt_passed": true,
+    "contact": true,
+    "agreements": true,
+    "authority_stack": true,
+    "household": true,
+    "capacity": true,
+    "force_accounting": true,
+    "dependence": true,
+    "expiry": true,
+    "majority": true,
+    "breakdown": true,
+    "asset_return": true,
+    "ai": true,
+    "ui": true,
+    "validation": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "active_no_citation_tokens": true
+  },
+  "pass": true
+}

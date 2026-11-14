@@ -1,0 +1,32 @@
+{
+  "artifact": "Scotland_Galwegian_Warband_V1_2_Second_Pass_Full_Spectrum_Mature_Faction_Master_Unit_Profile.md",
+  "version": "1.2.0",
+  "predecessor": "Scotland_Galwegian_Warband_V1_1_Double_Checked_Mature_Faction_Refinement_Full_Master_Unit_Profile.md",
+  "sha256": "3e65538bd4928ff46acc76e38eeee9e8bacdf467379b4cbe12b95d50b5b47c34",
+  "source_lines": 885,
+  "output_lines": 1195,
+  "source_words": 5320,
+  "output_words": 6679,
+  "source_numbered_sections": 60,
+  "missing_source_sections": [],
+  "parsed_yaml_blocks": 37,
+  "checks": {
+    "source_read_full": true,
+    "source_not_overwritten": true,
+    "all_source_sections_represented": true,
+    "output_longer": true,
+    "yaml_valid": true,
+    "balanced_fences": true,
+    "current_metadata_fixed": true,
+    "commitment_budget": true,
+    "equipment_feasibility": true,
+    "frontage_duration": true,
+    "opponent_read": true,
+    "service_demobilization": true,
+    "comparator_matrix": true,
+    "decision_receipt": true,
+    "no_activation": true
+  },
+  "validation_scope": "Second copy-first mature review, full preservation, equipment feasibility, commitment economy, comparator separation, campaign persistence, AI/UI clarity, and nonactivation. Historical and gameplay validation not performed.",
+  "pass": true
+}

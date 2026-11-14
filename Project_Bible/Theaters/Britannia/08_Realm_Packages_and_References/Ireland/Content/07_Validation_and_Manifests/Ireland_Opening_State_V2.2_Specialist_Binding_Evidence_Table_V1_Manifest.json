@@ -1,0 +1,31 @@
+{
+  "manifest_version": "1.0",
+  "method": "ReadOnlyIrelandOpeningStateSpecialistBindingEvidenceTable",
+  "authority_file": "Ireland_Opening_State_V2.2_Specialist_Binding_Evidence_Table_V1.md",
+  "authority_bytes": 44611,
+  "authority_lines": 1347,
+  "evidence_rows": 65,
+  "proposed_disposition_counts": {
+    "EligibleForV2_2ReferenceOnly": 8,
+    "EligibleWithExplicitUncertainty": 4,
+    "ExcludeLaterHistory": 1,
+    "PendingExternalOwnerDecision": 2,
+    "PendingOwnerDecision": 4,
+    "PendingRegistryResolution": 1,
+    "PreserveIntentionalEmpty": 11,
+    "Quarantine": 1,
+    "Reject": 3,
+    "RetainExistingOpeningBinding": 30
+  },
+  "authority_sha256": "a6ceb92e5701c76d8aeec75a6e1e65acd5cdccbd4e0ee64e8d1532fa205eb85a",
+  "source_files_modified": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "Opening_State_activations": 0,
+  "migration_executions": 0,
+  "Unreal_mutations": 0,
+  "static_check_file": "Ireland_Opening_State_V2.2_Specialist_Binding_Evidence_Table_V1_Static_Check.json",
+  "static_check_sha256": "282abf38f2ac0709790aacb928976af137c354f25b7138296b4c36d1006b04fa",
+  "all_checks_passed": true,
+  "validation_scope": "read-only static specialist-binding evidence table; no Registry mutation, Opening State amendment or activation, owner decision fabrication, migration execution, importer, Unreal, runtime, save/load, replay, performance, or payload validation"
+}

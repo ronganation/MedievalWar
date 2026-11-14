@@ -1,0 +1,20 @@
+{
+  "filename": "Ireland_Historical_Reconciliation_V3_Current_Authority_Refinement_Static_Check.json",
+  "target": "Ireland_Historical_Reconciliation_V3_Current_Authority_Refinement.md",
+  "status": "PASS",
+  "checks": {
+    "literal_source_prefix": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "britannia": true,
+    "three_track_time": true,
+    "five_dynasties": true,
+    "gofraid_canonical": true,
+    "expected_fixture_not_execution": true,
+    "compile_false": true,
+    "runtime_false": true,
+    "no_mutation_claims": true,
+    "all_pass": true
+  }
+}

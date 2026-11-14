@@ -1,0 +1,256 @@
+{
+  "OwnerRoutingManifestId": "routing.seville_taifa.faction_definition_manifest.1062.v1",
+  "InternalVersion": "1.1.0",
+  "ManifestRef": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.json",
+  "AtomicValidationRequired": true,
+  "DirectMutationAllowed": false,
+  "ProfileRoutes": [
+    {
+      "CanonicalId": "realm_personality.seville.expanding_urban_taifa.1062",
+      "Owner": "RealmPersonality",
+      "EntityType": "RealmPersonalityDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "010"
+    },
+    {
+      "CanonicalId": "ai_profile.realm.seville.1062",
+      "Owner": "RealmAI",
+      "EntityType": "RealmAIProfileDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "020"
+    },
+    {
+      "CanonicalId": "risk_policy.seville.multi_front.v1",
+      "Owner": "RealmAI",
+      "EntityType": "RealmRiskPolicyConfiguration",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "030"
+    },
+    {
+      "CanonicalId": "pressure.seville.abbadid_transition.1062",
+      "Owner": "Succession",
+      "EntityType": "SuccessionPressureDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "040"
+    },
+    {
+      "CanonicalId": "geography_profile.realm.seville.1062",
+      "Owner": "StrategicGeography",
+      "EntityType": "RealmStrategicGeographyProfileDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "050"
+    },
+    {
+      "CanonicalId": "economy_profile.realm.seville.1062",
+      "Owner": "Economy",
+      "EntityType": "RealmEconomyProfileDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "060"
+    },
+    {
+      "CanonicalId": "military_profile.realm.seville.1062",
+      "Owner": "Military",
+      "EntityType": "RealmMilitaryProfileDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "070"
+    },
+    {
+      "CanonicalId": "roster_profile.realm.seville.1062",
+      "Owner": "MilitaryRosterDefinitions",
+      "EntityType": "RealmRosterDirectionProfileDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "080"
+    },
+    {
+      "CanonicalId": "diplomacy_profile.realm.seville.1062",
+      "Owner": "Diplomacy",
+      "EntityType": "RealmDiplomacyProfileDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "090"
+    },
+    {
+      "CanonicalId": "external_pressure_profile.realm.seville.1062",
+      "Owner": "Diplomacy",
+      "EntityType": "ExternalPressureEvaluationProfileDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "100"
+    },
+    {
+      "CanonicalId": "visual_identity_profile.realm.seville.1062",
+      "Owner": "VisualIdentity",
+      "EntityType": "RealmVisualIdentityProfileDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "110"
+    },
+    {
+      "CanonicalId": "faction_selection_profile.realm.seville.1062",
+      "Owner": "FactionPresentation",
+      "EntityType": "FactionSelectionProfileDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "120"
+    },
+    {
+      "CanonicalId": "presentation_grammar.realm.seville.1062",
+      "Owner": "Presentation",
+      "EntityType": "RealmPresentationGrammarDefinition",
+      "Mode": "ValidateDefinitionReference",
+      "StableOrderKey": "130"
+    }
+  ],
+  "ObservationRoutes": [
+    {
+      "ObservationId": "observation_contract.opening_treasury_assessment.v1",
+      "Owner": "Economy",
+      "Dependencies": [],
+      "Mode": "RequestReadOnlyObservation",
+      "StableOrderKey": "010"
+    },
+    {
+      "ObservationId": "observation_contract.capital_defense_assessment.v1",
+      "Owner": "Military",
+      "Dependencies": [],
+      "Mode": "RequestReadOnlyObservation",
+      "StableOrderKey": "020"
+    },
+    {
+      "ObservationId": "observation_contract.recruitment_muster_assessment.v1",
+      "Owner": "Military",
+      "Dependencies": [
+        "Governance",
+        "Economy",
+        "Settlement",
+        "PopulationOrServiceSource"
+      ],
+      "Mode": "RequestReadOnlyObservation",
+      "StableOrderKey": "030"
+    },
+    {
+      "ObservationId": "observation_contract.command_availability_assessment.v1",
+      "Owner": "MilitaryCommand",
+      "Dependencies": [
+        "CharacterFoundation",
+        "Governance"
+      ],
+      "Mode": "RequestReadOnlyObservation",
+      "StableOrderKey": "040"
+    },
+    {
+      "ObservationId": "observation_contract.capital_connection_assessment.v1",
+      "Owner": "StrategicGeography",
+      "Dependencies": [
+        "GeographyAndClimate",
+        "RouteAndLogistics"
+      ],
+      "Mode": "RequestReadOnlyObservation",
+      "StableOrderKey": "050"
+    },
+    {
+      "ObservationId": "observation_contract.settlement_integration_review.v1",
+      "Owner": "Governance",
+      "Dependencies": [],
+      "Mode": "RequestReadOnlyObservation",
+      "StableOrderKey": "060"
+    },
+    {
+      "ObservationId": "observation_contract.external_knowledge_contact_assessment.v1",
+      "Owner": "Knowledge",
+      "Dependencies": [
+        "Registry",
+        "Communication",
+        "Geography",
+        "Diplomacy"
+      ],
+      "Mode": "RequestReadOnlyObservation",
+      "StableOrderKey": "070"
+    }
+  ],
+  "FirstTurnActionRoutes": [
+    {
+      "ActionId": "first_turn.seville.assess_treasury_revenue",
+      "PrimaryOwners": [
+        "Economy"
+      ],
+      "RequiredObservationRefs": [
+        "observation_contract.opening_treasury_assessment.v1"
+      ],
+      "Mode": "ValidateReviewOrSurveyProposal",
+      "StableOrderKey": "010"
+    },
+    {
+      "ActionId": "first_turn.seville.review_capital_defense_force_readiness",
+      "PrimaryOwners": [
+        "Military"
+      ],
+      "RequiredObservationRefs": [
+        "observation_contract.capital_defense_assessment.v1",
+        "observation_contract.command_availability_assessment.v1"
+      ],
+      "Mode": "ValidateReviewOrSurveyProposal",
+      "StableOrderKey": "020"
+    },
+    {
+      "ActionId": "first_turn.seville.survey_realm_administration_integration",
+      "PrimaryOwners": [
+        "Governance"
+      ],
+      "RequiredObservationRefs": [
+        "observation_contract.settlement_integration_review.v1"
+      ],
+      "Mode": "ValidateReviewOrSurveyProposal",
+      "StableOrderKey": "030"
+    },
+    {
+      "ActionId": "first_turn.seville.investigate_western_corridor",
+      "PrimaryOwners": [
+        "StrategicGeography"
+      ],
+      "RequiredObservationRefs": [
+        "observation_contract.capital_connection_assessment.v1"
+      ],
+      "Mode": "ValidateReviewOrSurveyProposal",
+      "StableOrderKey": "040"
+    },
+    {
+      "ActionId": "first_turn.seville.review_dynastic_continuity_external_pressure",
+      "PrimaryOwners": [
+        "Succession",
+        "Knowledge",
+        "Diplomacy"
+      ],
+      "RequiredObservationRefs": [
+        "observation_contract.external_knowledge_contact_assessment.v1"
+      ],
+      "Mode": "ValidateReviewOrSurveyProposal",
+      "StableOrderKey": "050"
+    }
+  ],
+  "FailurePolicy": {
+    "AnyFatalOwnerResponse": "RejectManifest",
+    "PartialCommitAllowed": false,
+    "AuthoritativeMutationCountOnFailure": 0,
+    "MissingExternalLock": "BlockDependentProposalOnly",
+    "OpeningStateMutationOnFailure": false
+  },
+  "DeclaredCounts": {
+    "ProfileRoutes": 13,
+    "ObservationRoutes": 7,
+    "FirstTurnActionRoutes": 5
+  },
+  "MaintenanceAuthority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8"
+  },
+  "EvidenceBoundary": {
+    "ProfileRouteParity": true,
+    "ObservationRouteParity": true,
+    "FirstTurnActionRouteParity": true,
+    "RuntimeExecution": false
+  },
+  "OpeningStateCompatibility": {
+    "OpeningAuthorityInternalVersion": "1.3.0",
+    "OpeningPackageContractInternalVersion": "1.2.0",
+    "DefinitionFamilyBindingsReferenced": 11,
+    "OpeningRuntimeMutationAllowed": false
+  }
+}

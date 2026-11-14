@@ -1,0 +1,24 @@
+{
+  "document": "Ireland_ID_Migration_Registry_V2.3_Current_Authority_Correction.md",
+  "passed": true,
+  "checks": {
+    "v21_preserved_in_full": true,
+    "successor_larger_than_v21": true,
+    "v22_rejected": true,
+    "core_canonical": true,
+    "characters_canonical": true,
+    "no_universal_no_write": true,
+    "dublin_fixed": true,
+    "gofraid_external_reference": true,
+    "typed_legacy_transforms": true,
+    "claims_canonical": true,
+    "momentum_not_activation": true,
+    "owner_packet_bounded": true,
+    "three_track": true,
+    "no_runtime_claim": true,
+    "no_registry_mutation": true,
+    "removal_ledger_zero": true,
+    "stable_footer": true
+  },
+  "validation_scope": "content and static authority correction only; no Registry mutation, Unreal alias activation, migration execution, importer, compile, runtime, save/load, replay, performance, or repository-wide physical collision validation"
+}

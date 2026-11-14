@@ -1,0 +1,20 @@
+{
+  "document": "Britannia_Regional_Source_Relationship_and_Access_Matrix_V1_1_Current_Portfolio_Reconciled.md",
+  "sha256": "5c1e014f353432a723c2f14a4ab6071a6a8043de11913f04a13fa4027fb1e501",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "copy_first_source_named": true,
+    "prior_nine_preserved": true,
+    "five_regionals_added": true,
+    "profile_counts": true,
+    "control_architecture_V1_2": true,
+    "rights_lifecycle": true,
+    "no_scotland_reclass": true,
+    "opening_quarantine": true,
+    "next_gate": true,
+    "no_escaped_formatting": true,
+    "no_em_dash": true,
+    "single_footer": true
+  }
+}

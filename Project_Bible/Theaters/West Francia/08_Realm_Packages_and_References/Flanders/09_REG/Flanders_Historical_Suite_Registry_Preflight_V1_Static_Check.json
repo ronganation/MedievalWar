@@ -1,0 +1,15 @@
+{
+  "Result": "PassWithReviewOnly",
+  "Checks": {
+    "authorities_8": true,
+    "child_interfaces_2": true,
+    "expected_counts": true,
+    "duplicates_zero": true,
+    "child_candidates_review_only": true,
+    "child_entries_zero": true,
+    "nonmutation": true
+  },
+  "SHA256": "372bb5b839b50d2cc069aea78b845880ad71f67c2fc06774ca4a01d9d2ac0bc0",
+  "Bytes": 21345,
+  "Lines": 661
+}

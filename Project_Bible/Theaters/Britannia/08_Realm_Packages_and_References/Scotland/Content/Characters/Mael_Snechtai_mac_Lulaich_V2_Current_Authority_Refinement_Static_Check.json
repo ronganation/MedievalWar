@@ -1,0 +1,32 @@
+{
+  "document_id": "static-check.scotland.character.mael-snechtai.v2",
+  "version": "2.0.0",
+  "source": "Mael_Snechtai_mac_Lulaich.md",
+  "successor": "Mael_Snechtai_mac_Lulaich_V2_Current_Authority_Refinement.md",
+  "source_meta": {
+    "bytes": 5363,
+    "physical_lines": 367,
+    "sha256": "ab14541d79d875d324320995785a8884b2a0ce8b007957c1d2bc98e11faad01f"
+  },
+  "successor_meta": {
+    "bytes": 23548,
+    "physical_lines": 914,
+    "sha256": "f6517e9382dd97369945a9f8c3074b1197e91ff56ef768d9853a9bafaf492d62"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "current_metadata_present": true,
+    "moray_plurality_present": true,
+    "claim_not_activated": true,
+    "gille_quarantine_present": true,
+    "network_dimensions_zero": true,
+    "honest_status": true,
+    "authorizations_false": true
+  },
+  "missing_source_headings": [],
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

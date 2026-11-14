@@ -1,0 +1,2484 @@
+{
+  "manifest": {
+    "manifest_id": "definition_manifest.valencia.1062.v3_4.package_v1",
+    "manifest_family_id": "definition_manifest.valencia.1062.v3_4",
+    "manifest_version": "1.0.0",
+    "source_opening_authority_version": "3.4.0",
+    "source_machine_readable_package_version": "1.0.0",
+    "realm_id": "realm.valencia",
+    "scenario_id": "mw.scenario.grand_campaign.1062",
+    "scenario_opening": "1062-01-01",
+    "opening_campaign_season": "Winter",
+    "payload_class": "DefinitionCandidatesOnly",
+    "definition_count": 81,
+    "registry_mutation_authorized": false,
+    "runtime_mutation_authorized": false,
+    "real_payload_import_authorized": false,
+    "unreal_project_mutation_authorized": false,
+    "reconciliation": {
+      "immediate_definition_predecessor": "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.json",
+      "source_payload": "Valencia_Opening_State_1062_V3_4_Machine_Readable_Package_V1.json",
+      "source_payload_sha256": "a0490058035104abe309fc6a2d11c29663c4412409067f3d7fd04652ddd56856",
+      "all_current_payload_record_ids_included": true,
+      "established_identity_families_preserved": true,
+      "content_condensed_for_batching": false
+    }
+  },
+  "sources": [
+    {
+      "source_filename": "Valencia_Opening_State_1062_V3_4_A2_A3_A4_A5_Compatibility_Current_Authority.md",
+      "source_document_id": "OpeningState.Realm.Valencia.1062.V3.4",
+      "source_version": "3.4.0",
+      "source_role": "PrimaryOpeningStateAuthority",
+      "source_status": "CurrentOneDriveAuthority",
+      "source_sha256": "2256f222d3a23849ddc3835ba9893fba93e418223745ef152549c49cfab71204"
+    },
+    {
+      "source_filename": "Valencia_Opening_State_1062_V3_4_Machine_Readable_Package_V1.json",
+      "source_document_id": "opening_state.valencia.1062.v3_4.package_v1",
+      "source_version": "1.0.0",
+      "source_role": "CorrectedCopyFirstMachineReadableOpeningCandidate",
+      "source_status": "CreatedAndStaticallyValidated",
+      "source_sha256": "a0490058035104abe309fc6a2d11c29663c4412409067f3d7fd04652ddd56856"
+    },
+    {
+      "source_filename": "Valencia_Taifa_Machine_Readable_Opening_State_Package_Contract_V1_1_Current_Source_Chain_Reconciliation.md",
+      "source_document_id": "MachineReadableOpeningStateContract.Realm.Valencia.1062.V1.1",
+      "source_version": "1.1.0",
+      "source_role": "CurrentSerializationContract",
+      "source_status": "CurrentOneDriveAuthority",
+      "source_sha256": "43861d3ba19beb0736487d057d741ba4110e189c973afbb93290070f3ccb7c2c"
+    }
+  ],
+  "definition_contract": {
+    "definition_creates_person": false,
+    "definition_creates_appointment": false,
+    "definition_creates_force_instance": false,
+    "definition_creates_recruitment_pool": false,
+    "definition_creates_institution_instance": false,
+    "definition_creates_route_operation": false,
+    "definition_creates_external_agreement": false,
+    "definition_creates_memory_instance": false,
+    "definition_creates_momentum_value": false,
+    "definition_creates_triggered_emergence": false,
+    "definition_creates_selected_opening_choice": false,
+    "definition_creates_ai_execution": false,
+    "definition_creates_presentation_world_state": false,
+    "unknown_creates_default": false,
+    "review_only_creates_activation": false,
+    "external_lock_creates_consent": false
+  },
+  "temporal_contract": {
+    "historical": {
+      "opening_value": "1062-01-01",
+      "progression_per_strategic_turn_months": 21
+    },
+    "biological": {
+      "opening_values": "EvidenceBoundedOrUnknownPerPerson",
+      "progression_per_strategic_turn_months": 7
+    },
+    "campaign_season": {
+      "opening_value": "Winter",
+      "progression_per_strategic_turn_steps": 1,
+      "order": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ]
+    },
+    "opening_application_advances_any_track": false
+  },
+  "definitions": [
+    {
+      "record_id": "community.valencia.artisans",
+      "object_type": "CommunityDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Artisans",
+      "owner": "CommunitiesAndPopulationOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "communities",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "community.valencia.christian",
+      "object_type": "CommunityDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Christian Community",
+      "owner": "CommunitiesAndPopulationOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "communities",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "community.valencia.huerta",
+      "object_type": "CommunityDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Huerta Communities",
+      "owner": "CommunitiesAndPopulationOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "communities",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "community.valencia.jewish",
+      "object_type": "CommunityDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Jewish Community",
+      "owner": "CommunitiesAndPopulationOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "communities",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "community.valencia.merchants",
+      "object_type": "CommunityDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Merchants",
+      "owner": "CommunitiesAndPopulationOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "communities",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "community.valencia.muslim_urban",
+      "object_type": "CommunityDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Muslim Urban Communities",
+      "owner": "CommunitiesAndPopulationOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "communities",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "forcefamily.valencia.capital_garrison",
+      "object_type": "ForceFamily",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Capital Garrison",
+      "owner": "MilitaryDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "force_families",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "FORCE_VAL_003"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "capability": "StrongLocal",
+          "readiness": "ModerateToHigh",
+          "active_instance_requires_owner_binding": true,
+          "exact_people_units_equipment_horses_ships_commander_and_pool": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "forcefamily.valencia.coastal_force",
+      "object_type": "ForceFamily",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Coastal Force",
+      "owner": "MilitaryDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "force_families",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "FORCE_VAL_008"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "capability": "Limited",
+          "readiness": "LowForBattle",
+          "active_instance_requires_owner_binding": true,
+          "exact_people_units_equipment_horses_ships_commander_and_pool": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "forcefamily.valencia.huerta_levies_and_support",
+      "object_type": "ForceFamily",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Huerta Levies and Support",
+      "owner": "MilitaryDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "force_families",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "FORCE_VAL_005"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "capability": "LowToModerateLocal",
+          "readiness": "LowOutsideEmergency",
+          "active_instance_requires_owner_binding": true,
+          "exact_people_units_equipment_horses_ships_commander_and_pool": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "forcefamily.valencia.mercenaries_and_allies",
+      "object_type": "ForceFamily",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Mercenaries and Allies",
+      "owner": "MilitaryDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "force_families",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "FORCE_VAL_007"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "capability": "Conditional",
+          "readiness": "Unbound",
+          "active_instance_requires_owner_binding": true,
+          "exact_people_units_equipment_horses_ships_commander_and_pool": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "forcefamily.valencia.outer_garrisons",
+      "object_type": "ForceFamily",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Outer Garrisons",
+      "owner": "MilitaryDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "force_families",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "FORCE_VAL_006"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "capability": "LimitedToModerate",
+          "readiness": "ModerateCandidate",
+          "active_instance_requires_owner_binding": true,
+          "exact_people_units_equipment_horses_ships_commander_and_pool": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "forcefamily.valencia.paid_field_core",
+      "object_type": "ForceFamily",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Paid Field Core",
+      "owner": "MilitaryDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "force_families",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "FORCE_VAL_002"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "capability": "MediumLocal",
+          "readiness": "Moderate",
+          "active_instance_requires_owner_binding": true,
+          "exact_people_units_equipment_horses_ships_commander_and_pool": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "forcefamily.valencia.palace_guard",
+      "object_type": "ForceFamily",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Palace Guard",
+      "owner": "MilitaryDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "force_families",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "FORCE_VAL_001"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "capability": "LimitedElite",
+          "readiness": "High",
+          "active_instance_requires_owner_binding": true,
+          "exact_people_units_equipment_horses_ships_commander_and_pool": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "forcefamily.valencia.urban_militia",
+      "object_type": "ForceFamily",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Urban Militia",
+      "owner": "MilitaryDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "force_families",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "FORCE_VAL_004"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "capability": "ModerateLocalLowEndurance",
+          "readiness": "LowToModerate",
+          "active_instance_requires_owner_binding": true,
+          "exact_people_units_equipment_horses_ships_commander_and_pool": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "household.valencia.inherited_amirid_clients",
+      "object_type": "HouseholdDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Inherited Amirid Clients",
+      "owner": "RelevantDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "households",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "household.valencia.military_household",
+      "object_type": "HouseholdDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Military Household",
+      "owner": "RelevantDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "households",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "household.valencia.rulers_chamber",
+      "object_type": "HouseholdDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Rulers Chamber",
+      "owner": "RelevantDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "households",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "household.valencia.scribal_household",
+      "object_type": "HouseholdDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Scribal Household",
+      "owner": "RelevantDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "households",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "household.valencia.toledan_consort",
+      "object_type": "HouseholdDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Toledan Consort",
+      "owner": "RelevantDefinitionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "households",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "institution.valencia.awqaf",
+      "object_type": "InstitutionDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Awqaf",
+      "owner": "RelevantInstitutionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "institutions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "unresolved_fields": [
+          "exact_site",
+          "staff",
+          "stock",
+          "throughput"
+        ]
+      }
+    },
+    {
+      "record_id": "institution.valencia.congregational_mosque",
+      "object_type": "InstitutionDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Congregational Mosque",
+      "owner": "RelevantInstitutionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "institutions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "unresolved_fields": [
+          "exact_site",
+          "staff",
+          "stock",
+          "throughput"
+        ]
+      }
+    },
+    {
+      "record_id": "institution.valencia.irrigation_communities",
+      "object_type": "InstitutionDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Irrigation Communities",
+      "owner": "RelevantInstitutionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "institutions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "unresolved_fields": [
+          "exact_site",
+          "staff",
+          "stock",
+          "throughput"
+        ]
+      }
+    },
+    {
+      "record_id": "institution.valencia.markets_and_craft_quarters",
+      "object_type": "InstitutionDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Markets and Craft Quarters",
+      "owner": "RelevantInstitutionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "institutions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "unresolved_fields": [
+          "exact_site",
+          "staff",
+          "stock",
+          "throughput"
+        ]
+      }
+    },
+    {
+      "record_id": "institution.valencia.mint_function",
+      "object_type": "InstitutionDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Mint Function",
+      "owner": "RelevantInstitutionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "institutions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "unresolved_fields": [
+          "exact_site",
+          "staff",
+          "stock",
+          "throughput"
+        ]
+      }
+    },
+    {
+      "record_id": "institution.valencia.qadi_court",
+      "object_type": "InstitutionDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Qadi Court",
+      "owner": "RelevantInstitutionOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "institutions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "unresolved_fields": [
+          "exact_site",
+          "staff",
+          "stock",
+          "throughput"
+        ]
+      }
+    },
+    {
+      "record_id": "office.valencia.huerta_administrator",
+      "object_type": "OfficeDefinition",
+      "record_class": "FunctionalRoleWithoutNamedHolder",
+      "stable_label": "Huerta Administrator",
+      "owner": "GovernmentOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "offices",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "holder": "Unknown",
+          "exact_title": "ReviewOnly"
+        }
+      }
+    },
+    {
+      "record_id": "office.valencia.market_inspector",
+      "object_type": "OfficeDefinition",
+      "record_class": "FunctionalRoleWithoutNamedHolder",
+      "stable_label": "Market Inspector",
+      "owner": "GovernmentOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "offices",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "holder": "Unknown",
+          "exact_title": "ReviewOnly"
+        }
+      }
+    },
+    {
+      "record_id": "office.valencia.northern_approach_commander",
+      "object_type": "OfficeDefinition",
+      "record_class": "FunctionalRoleWithoutNamedHolder",
+      "stable_label": "Northern Approach Commander",
+      "owner": "GovernmentOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "offices",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "holder": "Unknown",
+          "exact_title": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "office.valencia.palace_guard_commander",
+      "object_type": "OfficeDefinition",
+      "record_class": "FunctionalRoleWithoutNamedHolder",
+      "stable_label": "Palace Guard Commander",
+      "owner": "GovernmentOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "offices",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "holder": "Unknown",
+          "exact_title": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "office.valencia.preacher",
+      "object_type": "OfficeDefinition",
+      "record_class": "FunctionalRoleWithoutNamedHolder",
+      "stable_label": "Preacher",
+      "owner": "GovernmentOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "offices",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "holder": "Unknown",
+          "exact_title": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "office.valencia.qadi_of_balansiya",
+      "object_type": "OfficeDefinition",
+      "record_class": "FunctionalRoleWithoutNamedHolder",
+      "stable_label": "Qadi of Balansiya",
+      "owner": "GovernmentOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "offices",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "holder": "Unknown",
+          "exact_title": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "office.valencia.senior_administrator",
+      "object_type": "OfficeDefinition",
+      "record_class": "FunctionalRoleWithoutNamedHolder",
+      "stable_label": "Senior Administrator",
+      "owner": "GovernmentOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "offices",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "holder": "Unknown",
+          "exact_title": "ReviewOnly"
+        }
+      }
+    },
+    {
+      "record_id": "office.valencia.southern_crossing_commander",
+      "object_type": "OfficeDefinition",
+      "record_class": "FunctionalRoleWithoutNamedHolder",
+      "stable_label": "Southern Crossing Commander",
+      "owner": "GovernmentOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "offices",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "holder": "Unknown",
+          "exact_title": "Unknown"
+        }
+      }
+    },
+    {
+      "record_id": "office.valencia.standing_field_commander",
+      "object_type": "OfficeDefinition",
+      "record_class": "FunctionalRoleWithoutNamedHolder",
+      "stable_label": "Standing Field Commander",
+      "owner": "GovernmentOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "offices",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "holder": "Unknown",
+          "exact_title": "IntentionalEmptyOrUnknown"
+        }
+      }
+    },
+    {
+      "record_id": "person.valencia.abd_al_aziz_al_mansur",
+      "object_type": "Person",
+      "record_class": "CanonicalCandidate",
+      "stable_label": "Abd al-Aziz al-Mansur",
+      "owner": "CharacterRegistryOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Established",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "people_and_references",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "lifecycle": "DeceasedBeforeOpening",
+          "living_opening_binding": "Prohibited",
+          "memory_eligibility": "OwnerGated"
+        }
+      }
+    },
+    {
+      "record_id": "person.valencia.abd_al_malik_ibn_abd_al_aziz_al_muzaffar",
+      "object_type": "Person",
+      "record_class": "ActiveVerifiedOpeningBindingCandidate",
+      "stable_label": "Abd al-Malik ibn Abd al-Aziz al-Muzaffar",
+      "owner": "CharacterRegistryOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Established",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "people_and_references",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "lifecycle": "LivingAtOpeningSupported",
+          "opening_role": "PrincipalPlayableFactionLeader",
+          "opening_location_candidate": "site.valencia.balansiya",
+          "exact_age": "Unknown",
+          "legal_majority": "ReviewOnly",
+          "personal_field_command_assignment": "NotPerformed"
+        }
+      }
+    },
+    {
+      "record_id": "personref.valencia.ibn_rawbash",
+      "object_type": "PersonReference",
+      "record_class": "ReviewOnly",
+      "stable_label": "Ibn Rawbash",
+      "owner": "CharacterRegistryOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Contested",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "people_and_references",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_person_binding": "NotAuthorized",
+          "automatic_senior_administrator_equation": "Prohibited"
+        },
+        "unresolved_fields": [
+          "identity_equivalence",
+          "lifecycle",
+          "opening_location",
+          "opening_office"
+        ]
+      }
+    },
+    {
+      "record_id": "personref.valencia.toledan_consort_of_abd_al_malik",
+      "object_type": "PersonReference",
+      "record_class": "StableReferenceCandidate",
+      "stable_label": "Toledan Consort of Abd al-Malik",
+      "owner": "CharacterRegistryOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "StronglySupported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "people_and_references",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "personal_name": "Unknown",
+          "fallback": "HouseholdAndMarriageRelationshipOnly",
+          "automatic_regency": false,
+          "automatic_foreign_alignment": false
+        },
+        "unresolved_fields": [
+          "personal_name",
+          "exact_age",
+          "children",
+          "property_and_dower"
+        ]
+      }
+    },
+    {
+      "record_id": "problem.valencia.choose_first_strategic_axis",
+      "object_type": "OpeningProblem",
+      "record_class": "ProposalOnly",
+      "stable_label": "Choose the First Strategic Axis",
+      "owner": "OpeningStateOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "opening_problems",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "PROB_VAL_008"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_status": "ProposalOnlyPendingRequiredActorsAndState",
+          "no_choice_executes_from_payload": true
+        }
+      }
+    },
+    {
+      "record_id": "problem.valencia.coin_grain_and_credit",
+      "object_type": "OpeningProblem",
+      "record_class": "ProposalOnly",
+      "stable_label": "Coin Grain and Credit",
+      "owner": "OpeningStateOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "opening_problems",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "PROB_VAL_006"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_status": "ProposalOnlyPendingRequiredActorsAndState",
+          "no_choice_executes_from_payload": true
+        }
+      }
+    },
+    {
+      "record_id": "problem.valencia.confirm_inherited_government",
+      "object_type": "OpeningProblem",
+      "record_class": "ProposalOnly",
+      "stable_label": "Confirm the Inherited Government",
+      "owner": "OpeningStateOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "opening_problems",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "PROB_VAL_001"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_status": "ProposalOnlyPendingRequiredActorsAndState",
+          "no_choice_executes_from_payload": true
+        }
+      }
+    },
+    {
+      "record_id": "problem.valencia.continuity_without_documented_heir",
+      "object_type": "OpeningProblem",
+      "record_class": "ProposalOnly",
+      "stable_label": "Continuity Without a Documented Heir",
+      "owner": "OpeningStateOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "opening_problems",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "PROB_VAL_007"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_status": "ProposalOnlyPendingRequiredActorsAndState",
+          "no_choice_executes_from_payload": true
+        }
+      }
+    },
+    {
+      "record_id": "problem.valencia.define_family_road_to_toledo",
+      "object_type": "OpeningProblem",
+      "record_class": "ProposalOnly",
+      "stable_label": "Define the Family Road to Toledo",
+      "owner": "OpeningStateOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "opening_problems",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "PROB_VAL_004"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_status": "ProposalOnlyPendingRequiredActorsAndState",
+          "no_choice_executes_from_payload": true
+        }
+      }
+    },
+    {
+      "record_id": "problem.valencia.establish_field_command",
+      "object_type": "OpeningProblem",
+      "record_class": "ProposalOnly",
+      "stable_label": "Establish Field Command",
+      "owner": "OpeningStateOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "opening_problems",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "PROB_VAL_005"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_status": "ProposalOnlyPendingRequiredActorsAndState",
+          "no_choice_executes_from_payload": true
+        }
+      }
+    },
+    {
+      "record_id": "problem.valencia.renew_civic_and_communal_protection",
+      "object_type": "OpeningProblem",
+      "record_class": "ProposalOnly",
+      "stable_label": "Renew Civic and Communal Protection",
+      "owner": "OpeningStateOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "opening_problems",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "PROB_VAL_009"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_status": "ProposalOnlyPendingRequiredActorsAndState",
+          "no_choice_executes_from_payload": true
+        }
+      }
+    },
+    {
+      "record_id": "problem.valencia.settle_guard_and_garrison_obligations",
+      "object_type": "OpeningProblem",
+      "record_class": "ProposalOnly",
+      "stable_label": "Settle Guard and Garrison Obligations",
+      "owner": "OpeningStateOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "opening_problems",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "PROB_VAL_002"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_status": "ProposalOnlyPendingRequiredActorsAndState",
+          "no_choice_executes_from_payload": true
+        }
+      }
+    },
+    {
+      "record_id": "problem.valencia.water_before_ceremony",
+      "object_type": "OpeningProblem",
+      "record_class": "ProposalOnly",
+      "stable_label": "Water Before Ceremony",
+      "owner": "OpeningStateOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "opening_problems",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "PROB_VAL_003"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_status": "ProposalOnlyPendingRequiredActorsAndState",
+          "no_choice_executes_from_payload": true
+        }
+      }
+    },
+    {
+      "record_id": "region.valencia.huerta_and_lower_turia",
+      "object_type": "Region",
+      "record_class": "CanonicalCandidate",
+      "stable_label": "Huerta and Lower Turia",
+      "owner": "TerritoryAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "sites_and_regions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "SITE_VAL_002"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "status_candidate": "IntegratedLocal",
+          "control_candidate": "CooperationDependent",
+          "functions": [
+            "Food",
+            "Water",
+            "Mills",
+            "Labor",
+            "Revenue",
+            "Transport",
+            "Recovery"
+          ]
+        },
+        "unresolved_fields": [
+          "exact_owner",
+          "garrison",
+          "market",
+          "tax",
+          "recruitment",
+          "property",
+          "route_binding"
+        ]
+      }
+    },
+    {
+      "record_id": "relation.valencia.alpuente",
+      "object_type": "RelationSurface",
+      "record_class": "ExternalLock",
+      "stable_label": "Alpuente",
+      "owner": "ValenciaDiplomacyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "relation_surfaces",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "REL_VAL_003"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_candidate": "NeutralCandidate",
+          "exact_external_disposition_agreement_access_consent_force_and_knowledge_state": "ExternalLock"
+        },
+        "external_lock": {
+          "external_owner": "AlpuenteRealmOwner",
+          "Valencia_mutation": "Prohibited"
+        }
+      }
+    },
+    {
+      "record_id": "relation.valencia.christian_powers",
+      "object_type": "RelationSurface",
+      "record_class": "Quarantined",
+      "stable_label": "Christian Powers",
+      "owner": "ValenciaDiplomacyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "relation_surfaces",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "REL_VAL_006"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_candidate": "IndividuallyAuthoredExternalActors",
+          "exact_external_disposition_agreement_access_consent_force_and_knowledge_state": "ExternalLock"
+        },
+        "external_lock": {
+          "external_owner": "MultipleDistinctRealmOwners",
+          "Valencia_mutation": "Prohibited"
+        }
+      }
+    },
+    {
+      "record_id": "relation.valencia.denia",
+      "object_type": "RelationSurface",
+      "record_class": "ExternalLock",
+      "stable_label": "Denia",
+      "owner": "ValenciaDiplomacyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "relation_surfaces",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "REL_VAL_002"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_candidate": "CompetitiveNeutralCandidate",
+          "exact_external_disposition_agreement_access_consent_force_and_knowledge_state": "ExternalLock"
+        },
+        "external_lock": {
+          "external_owner": "DeniaRealmOwner",
+          "Valencia_mutation": "Prohibited"
+        }
+      }
+    },
+    {
+      "record_id": "relation.valencia.toledo",
+      "object_type": "RelationSurface",
+      "record_class": "ExternalLock",
+      "stable_label": "Toledo",
+      "owner": "ValenciaDiplomacyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "relation_surfaces",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "REL_VAL_001"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_candidate": "FriendlyFamilyAccessCandidateUnderUnequalPower",
+          "exact_external_disposition_agreement_access_consent_force_and_knowledge_state": "ExternalLock"
+        },
+        "external_lock": {
+          "external_owner": "ToledoRealmOwner",
+          "Valencia_mutation": "Prohibited"
+        }
+      }
+    },
+    {
+      "record_id": "relation.valencia.tortosa",
+      "object_type": "RelationSurface",
+      "record_class": "ExternalLock",
+      "stable_label": "Tortosa",
+      "owner": "ValenciaDiplomacyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "relation_surfaces",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "REL_VAL_004"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_candidate": "NeutralCommercialCandidate",
+          "exact_external_disposition_agreement_access_consent_force_and_knowledge_state": "ExternalLock"
+        },
+        "external_lock": {
+          "external_owner": "TortosaRealmOwner",
+          "Valencia_mutation": "Prohibited"
+        }
+      }
+    },
+    {
+      "record_id": "relation.valencia.zaragoza",
+      "object_type": "RelationSurface",
+      "record_class": "ExternalLock",
+      "stable_label": "Zaragoza",
+      "owner": "ValenciaDiplomacyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "relation_surfaces",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "REL_VAL_005"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "opening_candidate": "DistantNeutralCandidate",
+          "exact_external_disposition_agreement_access_consent_force_and_knowledge_state": "ExternalLock"
+        },
+        "external_lock": {
+          "external_owner": "ZaragozaRealmOwner",
+          "Valencia_mutation": "Prohibited"
+        }
+      }
+    },
+    {
+      "record_id": "route.valencia.maritime_axis",
+      "object_type": "RouteDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Maritime Axis",
+      "owner": "TerritoryLogisticsAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "routes",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "ROUTE_VAL_004"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "connection": "ValenciaCoastToRegionalAndMediterraneanConnections",
+          "functions": [
+            "BulkMovement",
+            "Customs",
+            "GrainImports",
+            "Envoys"
+          ],
+          "exact_nodes_adjacency_condition_security_capacity_and_operation": "OwnerControlled"
+        }
+      }
+    },
+    {
+      "record_id": "route.valencia.northern_coastal_axis",
+      "object_type": "RouteDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Northern Coastal Axis",
+      "owner": "TerritoryLogisticsAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "routes",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "ROUTE_VAL_001"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "connection": "BalansiyaToMurviedroAndBeyond",
+          "functions": [
+            "FastMovement",
+            "Trade",
+            "Warning"
+          ],
+          "exact_nodes_adjacency_condition_security_capacity_and_operation": "OwnerControlled"
+        }
+      }
+    },
+    {
+      "record_id": "route.valencia.southern_jucar_axis",
+      "object_type": "RouteDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Southern Jucar Axis",
+      "owner": "TerritoryLogisticsAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "routes",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "ROUTE_VAL_002"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "connection": "BalansiyaToAlziraCulleraXativaApproachesAndDeniaSphere",
+          "functions": [
+            "Food",
+            "Markets",
+            "Crossings",
+            "SouthernCommunication"
+          ],
+          "exact_nodes_adjacency_condition_security_capacity_and_operation": "OwnerControlled"
+        }
+      }
+    },
+    {
+      "record_id": "route.valencia.western_turia_axis",
+      "object_type": "RouteDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Western Turia Axis",
+      "owner": "TerritoryLogisticsAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "routes",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "ROUTE_VAL_003"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "connection": "BalansiyaTowardUplandsAndToledo",
+          "functions": [
+            "Caravans",
+            "Animals",
+            "Timber",
+            "Messages",
+            "Diplomacy"
+          ],
+          "exact_nodes_adjacency_condition_security_capacity_and_operation": "OwnerControlled"
+        }
+      }
+    },
+    {
+      "record_id": "site.valencia.alzira",
+      "object_type": "Site",
+      "record_class": "ReviewOnly",
+      "stable_label": "Alzira",
+      "owner": "TerritoryAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "sites_and_regions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "SITE_VAL_005"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "status_candidate": "DependentOrAssociated",
+          "control_candidate": "ReviewOnly",
+          "functions": [
+            "JucarCrossing",
+            "AgriculturalCollection",
+            "Market",
+            "SouthernCommunication"
+          ]
+        },
+        "unresolved_fields": [
+          "exact_owner",
+          "garrison",
+          "market",
+          "tax",
+          "recruitment",
+          "property",
+          "route_binding"
+        ]
+      }
+    },
+    {
+      "record_id": "site.valencia.balansiya",
+      "object_type": "Site",
+      "record_class": "CanonicalCandidate",
+      "stable_label": "Balansiya",
+      "owner": "TerritoryAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "sites_and_regions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "SITE_VAL_001"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "status_candidate": "Direct",
+          "control_candidate": "Firm",
+          "functions": [
+            "Court",
+            "Palace",
+            "MintFunction",
+            "PrincipalMarket",
+            "Qadi",
+            "CongregationalMosque",
+            "GreatestDefense",
+            "Stores",
+            "Workshops",
+            "Refuge"
+          ]
+        },
+        "unresolved_fields": [
+          "exact_owner",
+          "garrison",
+          "market",
+          "tax",
+          "recruitment",
+          "property",
+          "route_binding"
+        ]
+      }
+    },
+    {
+      "record_id": "site.valencia.capital_coastal_access",
+      "object_type": "Site",
+      "record_class": "ReviewOnly",
+      "stable_label": "Capital Coastal Access",
+      "owner": "TerritoryAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "sites_and_regions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "SITE_VAL_003"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "status_candidate": "DirectFunctionExactInstallationReviewOnly",
+          "control_candidate": "Bounded",
+          "functions": [
+            "CommercialAccess",
+            "Fishing",
+            "Envoys",
+            "CustomsPotential",
+            "CoastalTransport"
+          ]
+        },
+        "unresolved_fields": [
+          "exact_owner",
+          "garrison",
+          "market",
+          "tax",
+          "recruitment",
+          "property",
+          "route_binding",
+          "harbor_form",
+          "exact_installation"
+        ]
+      }
+    },
+    {
+      "record_id": "site.valencia.cullera",
+      "object_type": "Site",
+      "record_class": "ReviewOnly",
+      "stable_label": "Cullera",
+      "owner": "TerritoryAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "sites_and_regions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "SITE_VAL_006"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "status_candidate": "AssociatedOrDependent",
+          "control_candidate": "ReviewOnly",
+          "functions": [
+            "Estuary",
+            "CoastalWatch",
+            "Fishing",
+            "LandingAccess"
+          ]
+        },
+        "unresolved_fields": [
+          "exact_owner",
+          "garrison",
+          "market",
+          "tax",
+          "recruitment",
+          "property",
+          "route_binding"
+        ]
+      }
+    },
+    {
+      "record_id": "site.valencia.lliria",
+      "object_type": "Site",
+      "record_class": "ReviewOnly",
+      "stable_label": "Lliria",
+      "owner": "TerritoryAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "sites_and_regions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "SITE_VAL_007"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "status_candidate": "DependentLocalZone",
+          "control_candidate": "ReviewOnly",
+          "functions": [
+            "WesternWarning",
+            "UplandInterface",
+            "Animals",
+            "Guides",
+            "Scouts"
+          ]
+        },
+        "unresolved_fields": [
+          "exact_owner",
+          "garrison",
+          "market",
+          "tax",
+          "recruitment",
+          "property",
+          "route_binding"
+        ]
+      }
+    },
+    {
+      "record_id": "site.valencia.murviedro",
+      "object_type": "Site",
+      "record_class": "ReviewOnly",
+      "stable_label": "Murviedro",
+      "owner": "TerritoryAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "sites_and_regions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "SITE_VAL_004"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "status_candidate": "DependentOrAssociated",
+          "control_candidate": "ReviewOnly",
+          "functions": [
+            "NorthernFortress",
+            "CoastalRoadGate",
+            "Market",
+            "Warning",
+            "LocalMilitaryNode"
+          ]
+        },
+        "unresolved_fields": [
+          "exact_owner",
+          "garrison",
+          "market",
+          "tax",
+          "recruitment",
+          "property",
+          "route_binding"
+        ]
+      }
+    },
+    {
+      "record_id": "site.valencia.xativa_shatiba",
+      "object_type": "Site",
+      "record_class": "ReviewOnly",
+      "stable_label": "Xativa or Shatiba",
+      "owner": "TerritoryAndMapOwners",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.3",
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "sites_and_regions",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [
+        "SITE_VAL_008"
+      ],
+      "preserved_payload_fields": {
+        "candidate_state": {
+          "status_candidate": "Uncertain",
+          "control_candidate": "ReviewOnly",
+          "functions": [
+            "MajorFortress",
+            "Market",
+            "CraftCenter",
+            "Crossroads",
+            "StrategicDepth"
+          ]
+        },
+        "unresolved_fields": [
+          "exact_owner",
+          "garrison",
+          "market",
+          "tax",
+          "recruitment",
+          "property",
+          "route_binding"
+        ]
+      }
+    },
+    {
+      "record_id": "realm.valencia",
+      "object_type": "RealmDefinition",
+      "record_class": "CanonicalCandidate",
+      "stable_label": "Taifa of Valencia",
+      "owner": "RealmRegistryOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "core_realm_faction_dynasty_title",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "faction.valencia.grand_campaign_1062",
+      "object_type": "FactionDefinition",
+      "record_class": "CanonicalCandidate",
+      "stable_label": "Valencia Grand Campaign 1062",
+      "owner": "FactionRegistryOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "core_realm_faction_dynasty_title",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "dynasty.valencia.amirid",
+      "object_type": "DynastyDefinition",
+      "record_class": "CanonicalCandidate",
+      "stable_label": "Amirid Dynasty",
+      "owner": "DynastyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "core_realm_faction_dynasty_title",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "title.valencia.amir",
+      "object_type": "TitleDefinition",
+      "record_class": "CanonicalCandidate",
+      "stable_label": "Amir of Valencia",
+      "owner": "TitleAndGovernmentOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "core_realm_faction_dynasty_title",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "scenario.grand_campaign.1062",
+      "object_type": "ScenarioReference",
+      "record_class": "CanonicalCandidate",
+      "stable_label": "Grand Campaign 1062",
+      "owner": "ScenarioRegistryOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "core_realm_faction_dynasty_title",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {}
+    },
+    {
+      "record_id": "resourceband.valencia.grain",
+      "object_type": "ResourceBandDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Grain",
+      "owner": "ValenciaEconomyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "resource_bands",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "opening_band": "Adequate",
+        "creates_exact_inventory": false
+      }
+    },
+    {
+      "record_id": "resourceband.valencia.military_stores",
+      "object_type": "ResourceBandDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "MilitaryStores",
+      "owner": "ValenciaEconomyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "resource_bands",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "opening_band": "Moderate",
+        "creates_exact_inventory": false
+      }
+    },
+    {
+      "record_id": "resourceband.valencia.fodder",
+      "object_type": "ResourceBandDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Fodder",
+      "owner": "ValenciaEconomyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "resource_bands",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "opening_band": "Seasonal",
+        "creates_exact_inventory": false
+      }
+    },
+    {
+      "record_id": "resourceband.valencia.timber_and_repair_material",
+      "object_type": "ResourceBandDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "TimberAndRepairMaterial",
+      "owner": "ValenciaEconomyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "resource_bands",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "opening_band": "Vulnerable",
+        "creates_exact_inventory": false
+      }
+    },
+    {
+      "record_id": "resourceband.valencia.bullion",
+      "object_type": "ResourceBandDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Bullion",
+      "owner": "ValenciaEconomyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "resource_bands",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "opening_band": "Unknown",
+        "creates_exact_inventory": false
+      }
+    },
+    {
+      "record_id": "resourceband.valencia.pack_animals",
+      "object_type": "ResourceBandDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "PackAnimals",
+      "owner": "ValenciaEconomyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "resource_bands",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "opening_band": "AdequateLocally",
+        "creates_exact_inventory": false
+      }
+    },
+    {
+      "record_id": "resourceband.valencia.siege_equipment",
+      "object_type": "ResourceBandDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "SiegeEquipment",
+      "owner": "ValenciaEconomyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "resource_bands",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "opening_band": "LimitedToModerateCapabilityExactInventoryUnknown",
+        "creates_exact_inventory": false
+      }
+    },
+    {
+      "record_id": "resourceband.valencia.ships",
+      "object_type": "ResourceBandDefinition",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Ships",
+      "owner": "ValenciaEconomyOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "resource_bands",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "opening_band": "LimitedPotentialAndMainlyPrivatelyControlledIfAny",
+        "creates_exact_inventory": false
+      }
+    },
+    {
+      "record_id": "historicalsystem.valencia.memory",
+      "object_type": "HistoricalSystemNamespace",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Memory",
+      "owner": "HistoricalSystemsOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "historical_system_namespaces",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "exact_definitions": "RequireOwningAuthorityImport"
+      }
+    },
+    {
+      "record_id": "historicalsystem.valencia.momentum",
+      "object_type": "HistoricalSystemNamespace",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Momentum",
+      "owner": "HistoricalSystemsOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "historical_system_namespaces",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "exact_definitions": "RequireOwningAuthorityImport"
+      }
+    },
+    {
+      "record_id": "historicalsystem.valencia.emergence",
+      "object_type": "HistoricalSystemNamespace",
+      "record_class": "DefinitionOnly",
+      "stable_label": "Emergence",
+      "owner": "HistoricalSystemsOwner",
+      "source_refs": [
+        "OpeningState.Realm.Valencia.1062.V3.4"
+      ],
+      "historical_confidence": "Supported",
+      "opening_applicability": "DefinitionCandidate",
+      "definition_section": "historical_system_namespaces",
+      "instance_creation": "Prohibited",
+      "runtime_effect": "None",
+      "manifest_status": "DefinitionCandidate",
+      "legacy_ids": [],
+      "preserved_payload_fields": {
+        "exact_definitions": "RequireOwningAuthorityImport"
+      }
+    }
+  ],
+  "crosswalks": [
+    {
+      "legacy_id": "FORCE_VAL_003",
+      "candidate_id": "forcefamily.valencia.capital_garrison",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "FORCE_VAL_008",
+      "candidate_id": "forcefamily.valencia.coastal_force",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "FORCE_VAL_005",
+      "candidate_id": "forcefamily.valencia.huerta_levies_and_support",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "FORCE_VAL_007",
+      "candidate_id": "forcefamily.valencia.mercenaries_and_allies",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "FORCE_VAL_006",
+      "candidate_id": "forcefamily.valencia.outer_garrisons",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "FORCE_VAL_002",
+      "candidate_id": "forcefamily.valencia.paid_field_core",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "FORCE_VAL_001",
+      "candidate_id": "forcefamily.valencia.palace_guard",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "FORCE_VAL_004",
+      "candidate_id": "forcefamily.valencia.urban_militia",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "PROB_VAL_008",
+      "candidate_id": "problem.valencia.choose_first_strategic_axis",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "PROB_VAL_006",
+      "candidate_id": "problem.valencia.coin_grain_and_credit",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "PROB_VAL_001",
+      "candidate_id": "problem.valencia.confirm_inherited_government",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "PROB_VAL_007",
+      "candidate_id": "problem.valencia.continuity_without_documented_heir",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "PROB_VAL_004",
+      "candidate_id": "problem.valencia.define_family_road_to_toledo",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "PROB_VAL_005",
+      "candidate_id": "problem.valencia.establish_field_command",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "PROB_VAL_009",
+      "candidate_id": "problem.valencia.renew_civic_and_communal_protection",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "PROB_VAL_002",
+      "candidate_id": "problem.valencia.settle_guard_and_garrison_obligations",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "PROB_VAL_003",
+      "candidate_id": "problem.valencia.water_before_ceremony",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "SITE_VAL_002",
+      "candidate_id": "region.valencia.huerta_and_lower_turia",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "REL_VAL_003",
+      "candidate_id": "relation.valencia.alpuente",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "REL_VAL_006",
+      "candidate_id": "relation.valencia.christian_powers",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "REL_VAL_002",
+      "candidate_id": "relation.valencia.denia",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "REL_VAL_001",
+      "candidate_id": "relation.valencia.toledo",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "REL_VAL_004",
+      "candidate_id": "relation.valencia.tortosa",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "REL_VAL_005",
+      "candidate_id": "relation.valencia.zaragoza",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "ROUTE_VAL_004",
+      "candidate_id": "route.valencia.maritime_axis",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "ROUTE_VAL_001",
+      "candidate_id": "route.valencia.northern_coastal_axis",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "ROUTE_VAL_002",
+      "candidate_id": "route.valencia.southern_jucar_axis",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "ROUTE_VAL_003",
+      "candidate_id": "route.valencia.western_turia_axis",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "SITE_VAL_005",
+      "candidate_id": "site.valencia.alzira",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "SITE_VAL_001",
+      "candidate_id": "site.valencia.balansiya",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "SITE_VAL_003",
+      "candidate_id": "site.valencia.capital_coastal_access",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "SITE_VAL_006",
+      "candidate_id": "site.valencia.cullera",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "SITE_VAL_007",
+      "candidate_id": "site.valencia.lliria",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "SITE_VAL_004",
+      "candidate_id": "site.valencia.murviedro",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    },
+    {
+      "legacy_id": "SITE_VAL_008",
+      "candidate_id": "site.valencia.xativa_shatiba",
+      "crosswalk_status": "ProposedAliasPendingOwnerDisposition",
+      "creates_second_identity": false
+    }
+  ],
+  "dependencies": [
+    {
+      "dependency_id": "dep.opening_state.v3_4",
+      "owner": "ValenciaOpeningStateOwner",
+      "status": "SourcePinned"
+    },
+    {
+      "dependency_id": "dep.registry.valencia.v1",
+      "owner": "CanonicalRegistryOwner",
+      "status": "OwnerReviewRequired"
+    },
+    {
+      "dependency_id": "dep.external_realms",
+      "owner": "DistinctExternalRealmOwners",
+      "status": "ExternalLock"
+    }
+  ],
+  "quarantine": [
+    {
+      "record_id": "personref.valencia.ibn_rawbash",
+      "reason": "IdentityLifecycleLocationAndOfficeUnresolved"
+    },
+    {
+      "record_id": "relation.valencia.christian_powers",
+      "reason": "AggregateOfMultipleDistinctExternalActors"
+    },
+    {
+      "record_id": "site.valencia.capital_coastal_access",
+      "reason": "ExactOpeningOwnershipOrInstallationUnresolved"
+    },
+    {
+      "record_id": "site.valencia.murviedro",
+      "reason": "ExactOpeningOwnershipOrInstallationUnresolved"
+    },
+    {
+      "record_id": "site.valencia.alzira",
+      "reason": "ExactOpeningOwnershipOrInstallationUnresolved"
+    },
+    {
+      "record_id": "site.valencia.cullera",
+      "reason": "ExactOpeningOwnershipOrInstallationUnresolved"
+    },
+    {
+      "record_id": "site.valencia.lliria",
+      "reason": "ExactOpeningOwnershipOrInstallationUnresolved"
+    },
+    {
+      "record_id": "site.valencia.xativa_shatiba",
+      "reason": "ExactOpeningOwnershipOrInstallationUnresolved"
+    }
+  ],
+  "owner_requests": [],
+  "validation_expectations": {
+    "definition_count": 81,
+    "unique_ids": true,
+    "legacy_crosswalk_count": 35,
+    "quarantine_count": 8,
+    "all_payload_record_ids_represented": true,
+    "mutation_count": 0
+  }
+}

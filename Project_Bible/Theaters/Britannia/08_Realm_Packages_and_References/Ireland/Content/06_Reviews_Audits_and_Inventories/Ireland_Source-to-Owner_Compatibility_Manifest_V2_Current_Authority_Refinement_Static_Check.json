@@ -1,0 +1,19 @@
+{
+  "document": "Ireland_Source-to-Owner_Compatibility_Manifest_V2_Current_Authority_Refinement.md",
+  "passed": true,
+  "checks": {
+    "disposition_rows": true,
+    "five_actions": true,
+    "three_track": true,
+    "registry_v23": true,
+    "import_mapping_v1": true,
+    "dublin": true,
+    "gofraid": true,
+    "advanced_save": true,
+    "no_runtime_claim": true,
+    "no_registry_mutation": true,
+    "removal_ledger_zero": true,
+    "stable_footer": true
+  },
+  "validation_scope": "static current-authority compatibility refinement only; complete V1 remains separate and unchanged; no source-field execution coverage, repository closure, Registry mutation, migration execution, importer, compile, runtime, or save/load validation"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact": "Brittany_Historical_Reconciliation_V2_Current_Authority_Modernization_FULL.md",
+  "document_id": "mw.hist.reconciliation.brittany.v2",
+  "version": "2.0.0",
+  "authority_type": "Historical Reconciliation",
+  "realm": "Brittany",
+  "theater": "West Francia",
+  "effective_opening_date": "1062-01-01",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "immediate_substantive_source": "Brittany_Historical_Reconciliation_V1.md",
+  "source_bytes": 50771,
+  "source_physical_lines": 1417,
+  "source_sha256": "31E1A1936915186E25F0F722BE0900A480332806C315AA47B86EDD75F5668169",
+  "literal_source_prefix_preserved": true,
+  "successor_bytes": 79415,
+  "successor_physical_lines": 2284,
+  "successor_sha256": "C7B95B6A6AD9B6DE1932687DA9490CB62747FE27E2E8D30267752B66FE6159D1",
+  "additive_bytes": 28644,
+  "substantive_content_removed": [],
+  "validation": {
+    "copy_first": true,
+    "complete_V1_preserved": true,
+    "successor_expanded": true,
+    "three_track_temporal_model": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false
+  }
+}

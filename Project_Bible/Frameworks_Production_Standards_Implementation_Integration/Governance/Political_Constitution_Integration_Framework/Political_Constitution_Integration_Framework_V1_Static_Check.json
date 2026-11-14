@@ -1,0 +1,467 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "ArtifactType": "PoliticalConstitutionIntegrationFrameworkStaticCheck",
+  "Name": "Political Constitution Integration Framework V1 Static Check",
+  "Version": "1.0.0",
+  "RevisionDate": "2026-09-18",
+  "StableDocumentID": "StaticCheck.Framework.PoliticalConstitutionIntegration.V1",
+  "AuthorityID": "authority.static-check.shared-political-constitution-integration.v1",
+  "FileName": "Political_Constitution_Integration_Framework_V1_Static_Check.json",
+  "Placement": "Project_Bible/Frameworks/Governance",
+  "ConstitutionalAuthority": "Project Bible 2.4",
+  "OperationalAuthority": "Design Expansion Checklist 3.7",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "ScenarioOpening": "1062-01-01",
+  "HistoricalProgression": "21 months per strategic turn",
+  "BiologicalProgression": "7 months per strategic turn",
+  "CampaignSeasonProgression": "1 ordered Winter, Spring, Summer, Autumn step per strategic turn",
+  "Status": "StaticCheckPassedDocumentContentOnly",
+  "TargetFramework": {
+    "FileName": "Political_Constitution_Authority_Participation_Recognition_Legitimacy_and_Government_Transformation_Integration_Framework_V1.md",
+    "Bytes": 40738,
+    "Lines": 1046,
+    "SHA256": "53d643fac88750e9f564feee2b8c5b29b43c1873ff35a129f870c338116f2037"
+  },
+  "SourceManifest": {
+    "FileName": "Political_Constitution_Integration_Framework_V1_Source_Manifest_and_Preservation_Ledger.json",
+    "Bytes": 41479,
+    "Lines": 937,
+    "SHA256": "7cdb0f5eb4184987eac74c69de6f2486c81fe923c5b8557a41fbe14faa48fade"
+  },
+  "Method": {
+    "CheckType": "ContentBasedStaticConstitutionalValidation",
+    "TargetContentAvailableDuringFrameworkCreation": true,
+    "TargetFingerprintMatchedCreationReceipt": true,
+    "ManifestJSONValidated": true,
+    "SourcePhysicalFingerprintsComplete": false,
+    "SourcePhysicalFingerprintLimitation": "Current physical bytes and SHA256 values were not available for every OneDrive source and are not fabricated.",
+    "CompileOrRuntimeExecutionPerformed": false
+  },
+  "Checks": [
+    {
+      "CheckID": "SC-001",
+      "Category": "DocumentControl",
+      "Requirement": "Stable framework identity, version, date, placement, controlling audit, and Outcome C must be declared",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 0 Document Control",
+        "framework_outcome: OutcomeCDistributedAuthoritiesConnectedByBoundedIntegration"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-002",
+      "Category": "ConstitutionalAuthority",
+      "Requirement": "Project Bible 2.4, Design Expansion Checklist 3.7, Unreal Engine 5.8, and the three-track temporal model must be present",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 0 Document Control",
+        "Stable Footer"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-003",
+      "Category": "Ownership",
+      "Requirement": "Realm Governance must remain owner of administrative structure, reach, capacity, and performance",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 3.2 non_owner_matrix",
+        "RealmAdministration: RealmGovernance"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-004",
+      "Category": "Ownership",
+      "Requirement": "Law and Policy must retain law, custom, policy, jurisdiction, consent, compliance, resistance, and reform",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 3.2",
+        "Section 23 Diplomacy Interface"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-005",
+      "Category": "Ownership",
+      "Requirement": "Dynastic Succession and Claim owners must retain claims, candidates, eligibility, and succession state",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 3.2",
+        "Section 12"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-006",
+      "Category": "Ownership",
+      "Requirement": "Character Network and Information owners must retain directed relationships, knowledge, and access",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 3.2",
+        "Section 16"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-007",
+      "Category": "Ownership",
+      "Requirement": "Ecclesiastical Authority must retain ecclesiastical offices, institutions, jurisdiction, and recognition",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 3.2",
+        "Section 13"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-008",
+      "Category": "Ownership",
+      "Requirement": "Province and Public Order owners must retain regional administration, control, public order, and resistance inputs",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 3.2",
+        "Section 17"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-009",
+      "Category": "Ownership",
+      "Requirement": "Diplomacy must retain contact, representation, agreements, obligations, performance, breach, and settlement",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 3.2",
+        "Section 23"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-010",
+      "Category": "IdentitySeparation",
+      "Requirement": "Realm, ruler, government, rulership institution, title, office, occupant, dynasty, household, region, and command must remain separate",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 4",
+        "Section 6"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-011",
+      "Category": "DefinitionStateSeparation",
+      "Requirement": "Government definitions, active Government State, Opening State, runtime state, transient evaluation, presentation, save, and migration must remain separate",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 8",
+        "Section 26"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-012",
+      "Category": "Participation",
+      "Requirement": "Invitation, notification, attendance, representation, advice, support, consent, ratification, implementation, and review must remain distinct",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 10 General Participation Lifecycle"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-013",
+      "Category": "Participation",
+      "Requirement": "Council must not equal Parliament and consultation must not automatically create veto or consent",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 4",
+        "Section 9"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-014",
+      "Category": "Recognition",
+      "Requirement": "Recognition must be directional, scoped, conditional, reviewable, and distinct from selection, installation, control, and consolidation",
+      "Result": "PASS",
+      "Evidence": [
+        "Sections 12 and 13"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-015",
+      "Category": "Legitimacy",
+      "Requirement": "Legitimacy must be actor-relative and multidimensional, with no universal authoritative score",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 14 Legitimacy Portfolio"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-016",
+      "Category": "OfficeDelegation",
+      "Requirement": "Office definition, occupancy, eligibility, appointment, acceptance, installation, records access, delegation, and capacity must remain separate",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 15"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-017",
+      "Category": "Coalitions",
+      "Requirement": "Political issue coalitions must be temporary interpretations and must not create relationships, consent, loyalty, or permanent parties",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 16"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-018",
+      "Category": "Escalation",
+      "Requirement": "Political escalation must require typed inputs and owner routing, with no automatic rebellion from low loyalty",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 17"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-019",
+      "Category": "Transformation",
+      "Requirement": "Government Transformation must be reversible, owner-routed, capacity-dependent, and unable to create people, offices, institutions, resources, recognition, compliance, or capacity",
+      "Result": "PASS",
+      "Evidence": [
+        "Sections 18 and 19"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-020",
+      "Category": "LayeredRule",
+      "Requirement": "Tribute, submission, protection, military service, retained government, and imperial recognition must not imply annexation or uniform government",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 20"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-021",
+      "Category": "TemporaryAuthority",
+      "Requirement": "Regency, minority, incapacity, capture, absence, emergency authority, custodianship, review, and handback must remain scoped",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 21"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-022",
+      "Category": "Communication",
+      "Requirement": "Political messages, records, seals, public knowledge, and authority must remain separate",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 22"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-023",
+      "Category": "DiplomacyBoundary",
+      "Requirement": "Diplomatic settlement, domestic ratification, administrative implementation, regional compliance, and Government Transformation must remain separate",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 23"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-024",
+      "Category": "AI",
+      "Requirement": "Realm AI must propose and explain but must not create political state or execute owner actions",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 24"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-025",
+      "Category": "PlayerExperience",
+      "Requirement": "Player-facing design must preserve Medieval II strategic clarity and bounded decision load",
+      "Result": "PASS",
+      "Evidence": [
+        "Sections 5 and 25"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-026",
+      "Category": "OpeningState",
+      "Requirement": "Exact January 1062 facts must remain owned by Opening State and definitions must create no active instances",
+      "Result": "PASS",
+      "Evidence": [
+        "Sections 7, 8, 9, 18, 26"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-027",
+      "Category": "Persistence",
+      "Requirement": "Advanced saves must preserve campaign divergence and must not restore opening rulers, mandates, offices, recognition, disputes, claims, or regional arrangements",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 27"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-028",
+      "Category": "Determinism",
+      "Requirement": "Processing order, owner receipts, hashes, idempotency, replay inputs, quarantine, and rollback requirements must be explicit",
+      "Result": "PASS",
+      "Evidence": [
+        "Sections 11 and 27"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-029",
+      "Category": "FutureProofing",
+      "Requirement": "Wider-map capability must be present without creating Italy, Holy Roman Empire, Byzantine, Balkan, Rus, Caucasian, eastern European, North African, Mediterranean, or steppe-border Realm facts",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 28",
+        "Manifest RealmContentExclusionLedger"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-030",
+      "Category": "RealmContent",
+      "Requirement": "No Realm-specific opening fact, title, office, claimant, council, government, institution, geography, or relationship may be promoted into shared truth",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 2",
+        "Manifest SourceTreatment and RealmContentExclusionLedger"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-031",
+      "Category": "ForbiddenScores",
+      "Requirement": "Universal authority, legitimacy, centralization, loyalty, Noble Consent, recognition, claim-strength, and rebellion scores must not become sole authoritative truth",
+      "Result": "PASS",
+      "Evidence": [
+        "Sections 14, 17, 29",
+        "Manifest ConceptDispositionLedger"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-032",
+      "Category": "ActivationBoundary",
+      "Requirement": "Registry, Opening State, political-instance activation, runtime mutation, save-format mutation, migration execution, payload import, and Unreal mutation must all remain unauthorized",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 0",
+        "Section 33",
+        "Stable Footer"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-033",
+      "Category": "ValidationClaims",
+      "Requirement": "Static review must not be represented as compile, runtime, save-load, migration, replay, rollback, performance, importer, payload, or Unreal validation",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 33 Validation Status"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-034",
+      "Category": "Handoff",
+      "Requirement": "Phased implementation handoff must define dependencies, owners, acceptance, rollback, and prohibited actions before execution",
+      "Result": "PASS",
+      "Evidence": [
+        "Section 30"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-035",
+      "Category": "AntiChurn",
+      "Requirement": "Another broad political framework, automatic specialist branches, symmetry-only Realm files, and premature implementation must be prohibited",
+      "Result": "PASS",
+      "Evidence": [
+        "Sections 31 and 32"
+      ],
+      "FailureSeverity": "Fatal"
+    },
+    {
+      "CheckID": "SC-036",
+      "Category": "ManifestConsistency",
+      "Requirement": "Framework fingerprint, source count, concept dispositions, ownership matrix, Realm exclusions, and next artifact must agree with the source manifest",
+      "Result": "PASS",
+      "Evidence": [
+        "TargetFramework fingerprint",
+        "Manifest validation: 21 sources, 20 concepts, 13 owners, 6 Realm exclusions"
+      ],
+      "FailureSeverity": "Fatal"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 36,
+    "Passed": 36,
+    "Failed": 0,
+    "Warnings": 0,
+    "FatalFailures": 0,
+    "OverallResult": "PASS_DOCUMENT_CONTENT_ONLY",
+    "RealmFactsCreated": false,
+    "RegistryEntriesCreated": 0,
+    "OpeningStateRecordsCreated": 0,
+    "RuntimeTransactionsCreated": 0,
+    "UnrealSymbolsOrAssetsCreated": 0
+  },
+  "ForbiddenPatternResults": {
+    "UniversalAuthorityScoreAccepted": false,
+    "UniversalLegitimacyScoreAccepted": false,
+    "UniversalCentralizationLadderAccepted": false,
+    "UniversalLoyaltyOrRebellionMeterAccepted": false,
+    "OwnerSilenceEqualsApproval": false,
+    "DefinitionCreatesOpeningState": false,
+    "RealmFactsPromotedToSharedTruth": false,
+    "AIExecutionAuthorized": false,
+    "UnrealImplementationClaimed": false
+  },
+  "ValidationBoundary": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "RollbackExecuted": false,
+    "PerformanceValidated": false,
+    "PayloadValidated": false
+  },
+  "AuthorizationBoundary": {
+    "RegistryMutationAuthorized": false,
+    "OpeningStateMutationAuthorized": false,
+    "PoliticalInstanceActivationAuthorized": false,
+    "RuntimeMutationAuthorized": false,
+    "SaveFormatMutationAuthorized": false,
+    "MigrationExecutionAuthorized": false,
+    "RealPayloadImportAuthorized": false,
+    "UnrealProjectMutationAuthorized": false
+  },
+  "NextAuthorizedArtifact": "Political_Constitution_Integration_Framework_V1_Independent_Static_Closure_Review.md"
+}

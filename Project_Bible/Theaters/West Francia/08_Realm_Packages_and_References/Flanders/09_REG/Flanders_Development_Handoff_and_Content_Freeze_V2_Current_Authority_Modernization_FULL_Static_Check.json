@@ -1,0 +1,17 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "source_495": true,
+    "removal_empty": true,
+    "three_tracks": true,
+    "opening_v21": true,
+    "registry_counts": true,
+    "work_packages": true,
+    "zero_mutations": true,
+    "next_manifest": true,
+    "footer_once": true
+  }
+}

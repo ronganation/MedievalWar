@@ -1,0 +1,40 @@
+{
+  "static_check_id": "StaticCheck.Manifest.Barcelona.EightProfileCharacterWork.V1",
+  "document": "Barcelona_Eight_Profile_Character_Work_Accepted_Source_Manifest_V1.md",
+  "version": "1.0.0",
+  "result": "Pass",
+  "physical_lines": 422,
+  "words": 2370,
+  "bytes": 21399,
+  "sha256": "417e77415486691a4db20d140bb332fb8f8405d4027183807a0b3e0f9c397d8c",
+  "checks": {
+    "sections_1_through_25_present": true,
+    "eight_profiles_present": true,
+    "supporting_controls_present": true,
+    "attached_owner_sources_assessed": true,
+    "known_hashes_recorded": true,
+    "missing_receipts_disclosed": true,
+    "expected_total_recorded": true,
+    "successor_acceptance_criteria_present": true,
+    "negative_test_gate_present": true,
+    "rollback_present": true,
+    "nonmutation_receipt_present": true,
+    "balanced_fences": true,
+    "fence_count": 22,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "final_marker_count": 1
+  },
+  "mutation_receipt": {
+    "source_authority_overwrites": 0,
+    "registry_mutations": 0,
+    "opening_state_mutations": 0,
+    "character_activations": 0,
+    "relationship_activations": 0,
+    "runtime_mutations": 0,
+    "unreal_project_mutations": 0,
+    "real_payload_imports": 0
+  },
+  "validation_scope": "Static accepted-source manifest and file-hygiene checks only. Exact repository checksum closure remains required for Ramon V1.1, Almodis, and Guislabert. No owner successor promotion, Registry, Opening State, runtime, Unreal, save, migration, replay, battle, or performance validation."
+}

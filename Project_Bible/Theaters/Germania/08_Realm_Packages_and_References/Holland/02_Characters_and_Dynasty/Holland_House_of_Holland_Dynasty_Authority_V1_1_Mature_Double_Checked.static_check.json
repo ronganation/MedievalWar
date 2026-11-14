@@ -1,0 +1,32 @@
+{
+  "document": "Holland_House_of_Holland_Dynasty_Authority_V1_1_Mature_Double_Checked.md",
+  "sha256": "541fcd6be6142c15a0bdd38355f305a89b0b9e28a47999d3694482e94a75e92b",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_36": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_hash_matches": true,
+    "predecessor_static_passed": true,
+    "predecessor_receipt_passed": true,
+    "identity_policy": true,
+    "membership_schema": true,
+    "membership_register": true,
+    "separation": true,
+    "principal_boundary": true,
+    "gertrude": true,
+    "robert": true,
+    "child_gate": true,
+    "branches": true,
+    "extinction": true,
+    "restoration": true,
+    "fixture": true,
+    "import": true,
+    "validation": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "active_no_citation_tokens": true
+  },
+  "pass": true
+}

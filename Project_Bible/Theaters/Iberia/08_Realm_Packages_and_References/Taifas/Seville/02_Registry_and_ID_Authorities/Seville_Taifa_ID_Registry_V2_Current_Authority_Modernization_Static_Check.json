@@ -1,0 +1,36 @@
+{
+  "document_id": "StaticCheck.IDRegistry.Realm.SevilleTaifa.V2",
+  "subject": "Seville_Taifa_ID_Registry_V2_Current_Authority_Modernization.md",
+  "subject_sha256": "3BF513C95473D448F940F5E23D6E86907A799229711E3787F5F545845708EBDA",
+  "status": "PASS_WITH_QUARANTINED_REGISTRY_ENVELOPE_ID",
+  "checks": {
+    "source_bytes": 32159,
+    "source_lines": 744,
+    "source_sha256": "FD4172DBC199EEA62DDE69E0747598B13FF8687C8B9E208A9024F1B39BF440B6",
+    "contradiction_V2_sha256": "1EB759D34DAF88B0E95D16A6AE37D63551B6FB77628B9C3C5C1D6C812F71F9B8",
+    "successor_bytes": 46597,
+    "successor_lines": 1014,
+    "successor_sha256": "3BF513C95473D448F940F5E23D6E86907A799229711E3787F5F545845708EBDA",
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "locked_identity_rows_preserved": 16,
+    "inherited_quarantines_preserved": 18,
+    "evidence_files_hashed": 18,
+    "substantive_removals": 0,
+    "adapter_executed": false,
+    "registry_mutation": 0,
+    "all_critical_checks_pass": true
+  },
+  "quarantine": {
+    "id": "SEV-Q-V2-019",
+    "subject": "RegistryEnvelopeIdentifier",
+    "values": [
+      "registry.seville.taifa.v1",
+      "registry.seville_taifa.v1"
+    ],
+    "effect": "BlocksCurrentMachineRegistryPromotion"
+  },
+  "result": "All sixteen locked V1 identity rows and eighteen inherited quarantines preserved; registry-family evidence reconciled; no mutation or adapter execution."
+}

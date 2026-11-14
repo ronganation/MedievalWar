@@ -1,0 +1,26 @@
+{
+  "document_id": "Manifest.AI.Realm.Wales.V3.CopyFirst",
+  "version": "3.0.0",
+  "source": {
+    "filename": "Wales_AI.md",
+    "reference_id": "turn5search176",
+    "version": "2.0",
+    "date": "4 August 2026",
+    "exact_bytes_in_artifact": false
+  },
+  "successor": {
+    "filename": "Wales_AI_V3_Copy_First_Rebuild.md",
+    "bytes": 49628,
+    "lines": 1133,
+    "sha256": "1c720a049a65efbfd86f8abcf1a1a3c6fcb82a12a179d2a83e78bf09eaf27c87"
+  },
+  "method": "source-controlled additive rebuild; summary-only preservation removed",
+  "promotion_ready": false,
+  "required_promotion_gate": "prepend exact attached source bytes, normalize only formatting authorized by owner, compare source and successor, regenerate hash and validation",
+  "mutations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "runtime": false,
+    "registry": false
+  }
+}

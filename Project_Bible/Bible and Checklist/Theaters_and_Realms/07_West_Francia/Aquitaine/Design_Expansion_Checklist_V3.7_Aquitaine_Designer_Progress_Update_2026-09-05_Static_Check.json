@@ -1,0 +1,128 @@
+{
+  "DocumentId": "static-check.designer-checklist-progress-update.aquitaine.2026-09-05",
+  "AuthorityFile": "Design_Expansion_Checklist_V3.7_Aquitaine_Designer_Progress_Update_2026-09-05.md",
+  "AuthoritySHA256": "3ffda273f9480399e059127b5a7823018b537c7f5e8f54b724b009dfd84c3b1b",
+  "Checks": [
+    {
+      "Name": "FilenameCorrect",
+      "Result": "Pass"
+    },
+    {
+      "Name": "StandaloneDesignerChecklistUpdate",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ProjectBible24",
+      "Result": "Pass"
+    },
+    {
+      "Name": "Checklist37",
+      "Result": "Pass"
+    },
+    {
+      "Name": "AquitaineClosed",
+      "Result": "Pass"
+    },
+    {
+      "Name": "SixProfiles",
+      "Result": "Pass"
+    },
+    {
+      "Name": "TenSpecialists",
+      "Result": "Pass"
+    },
+    {
+      "Name": "Evidence18",
+      "Result": "Pass"
+    },
+    {
+      "Name": "Uncertainty30",
+      "Result": "Pass"
+    },
+    {
+      "Name": "CandidateBundle30",
+      "Result": "Pass"
+    },
+    {
+      "Name": "RoutedItems53",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FinalChecks57",
+      "Result": "Pass"
+    },
+    {
+      "Name": "VisualClosed",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ThreeTrackPreserved",
+      "Result": "Pass"
+    },
+    {
+      "Name": "OpeningSafeguards",
+      "Result": "Pass"
+    },
+    {
+      "Name": "MasterChecklistUnmodified",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ProjectBibleUnmodified",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRegistryMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoOpeningActivation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoUnrealMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRuntimeMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRealPayloadImport",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FencesBalanced",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEscapedUnderscores",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEmDash",
+      "Result": "Pass"
+    },
+    {
+      "Name": "OneStableFooter",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FinalMarkerCorrect",
+      "Result": "Pass"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 27,
+    "Passes": 27,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "report_id": "generation_gate_report.valencia.opening_state.v3_4.package_v1",
+  "version": "1.0.0",
+  "manifest_file": "Valencia_Opening_State_1062_V3_4_Package_V1_Exact_Source_Fingerprint_Preflight_Manifest.json",
+  "manifest_sha256": "5bea6baa310610bb923636a68063f571ec04cff1036389b7c58247bf9af198b6",
+  "gate_result": "HOLD",
+  "reason_codes": [
+    "SRC_V34_001_OPENING_STATE_NOT_REOPENED_FROM_PACKAGE",
+    "SRC_V34_002_CONTRACT_V1_1_NOT_REOPENED_FROM_PACKAGE",
+    "SRC_V34_003_REQUIRED_SOURCE_SHA256_INCOMPLETE"
+  ],
+  "verified_current_one_drive_sources": [
+    {
+      "filename": "Valencia_Taifa_Economy_Treasury_Property_Production_Markets_Trade_Stocks_and_Provisioning_Authority_1062_V1_1_Developed_Faction_Benchmark_Reconciled_FULL.md",
+      "reference_id": "turn30search25",
+      "verified_fields": [
+        "filename",
+        "document_id",
+        "version",
+        "status",
+        "mutation_boundaries"
+      ]
+    },
+    {
+      "filename": "Valencia_Taifa_Diplomacy_External_Relations_Agreements_Pressure_and_Cross_Realm_Lock_Authority_1062_V1_1_Developed_Realm_Benchmark_Reconciled_FULL.md",
+      "reference_id": "turn30search26",
+      "verified_fields": [
+        "filename",
+        "document_id",
+        "version",
+        "status",
+        "mutation_boundaries"
+      ]
+    },
+    {
+      "filename": "Valencia_Taifa_Realm_Personality_AI_Information_Discipline_and_Decision_Explanation_Authority_1062_V1.md",
+      "reference_id": "turn30search24",
+      "verified_fields": [
+        "filename",
+        "document_id",
+        "version",
+        "status",
+        "mutation_boundaries"
+      ]
+    },
+    {
+      "filename": "Valencia_Taifa_Presentation_Visual_Identity_Localization_and_Accessibility_Authority_1062_V4_Developed_Realm_Benchmark_Reconciled_FULL.md",
+      "reference_id": "turn30search23",
+      "verified_fields": [
+        "filename",
+        "document_id",
+        "version",
+        "status",
+        "mutation_boundaries"
+      ]
+    }
+  ],
+  "not_claimed": [
+    "Physical package checksum for any OneDrive search result",
+    "V3.4 JSON generation",
+    "Schema validation",
+    "Semantic validation",
+    "Fixture execution",
+    "Importer compatibility",
+    "Runtime readiness"
+  ],
+  "smallest_safe_next_action": "After V3.4 and Contract V1.1 are stored in their owning Valencia folders, reopen the physical current source set, calculate SHA-256 values, and regenerate this manifest as an exact accepted input manifest before producing the twelve-file V3.4 JSON batch.",
+  "mutations": {
+    "source_files_overwritten": 0,
+    "registry": 0,
+    "opening_state": 0,
+    "runtime": 0,
+    "real_payload_imports": 0,
+    "unreal_project": 0
+  }
+}

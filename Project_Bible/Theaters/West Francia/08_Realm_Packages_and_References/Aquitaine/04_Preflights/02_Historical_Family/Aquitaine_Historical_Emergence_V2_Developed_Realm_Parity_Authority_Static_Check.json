@@ -1,0 +1,28 @@
+{
+  "DocumentId": "HistoricalEmergence.Realm.Aquitaine.V2.StaticCheck",
+  "AuthorityFile": "Aquitaine_Historical_Emergence_V2_Developed_Realm_Parity_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "source_file_exists": true,
+    "successor_larger_than_source": true,
+    "all_source_substantive_headings_retained": true,
+    "missing_source_headings": [],
+    "seven_pathway_ids_present": true,
+    "three_track_time_present": true,
+    "cross_faction_benchmark_explicit": true,
+    "war_permission_gate_rejected": true,
+    "Bernard_rebellion_not_scripted": true,
+    "opening_instances_zero": true,
+    "barbastro_optional": true,
+    "markdown_fences_balanced": true,
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "stable_footer_count": 1,
+    "final_marker_correct": true,
+    "removed_substantive_content": []
+  },
+  "AuthoritySHA256": "7d79c49544b23a0f7235924a038cb21f4b1a2360c7029fce976d4da42807dfc1",
+  "AuthorityByteCount": 59953,
+  "AuthorityLineCount": 1524
+}

@@ -1,0 +1,16 @@
+{
+  "document": "Anglo_Norman_Sergeants_V1_Master_Unit_Profile.md",
+  "sha256": "a3418f22d13346c3f527d0bd4cab15999cfc29fb995ccd38576dcae73a4fa765",
+  "checks": {
+    "substantive_length": true,
+    "sections_0_68": true,
+    "terrain_25": true,
+    "spear_identity": true,
+    "parent_persists": true,
+    "scale_deferred": true,
+    "sword_rehomed": true,
+    "no_loss": true,
+    "footer": true
+  },
+  "pass": true
+}

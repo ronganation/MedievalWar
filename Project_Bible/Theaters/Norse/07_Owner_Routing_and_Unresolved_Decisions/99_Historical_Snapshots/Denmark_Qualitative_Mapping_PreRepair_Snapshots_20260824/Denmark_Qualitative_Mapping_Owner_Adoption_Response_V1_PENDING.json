@@ -1,0 +1,31 @@
+{
+  "document_identity": {
+    "document_id": "mw.denmark.qualitative_mapping.owner_adoption_response.v1",
+    "filename": "Denmark_Qualitative_Mapping_Owner_Adoption_Response_V1_PENDING.json",
+    "version": "1.0.0",
+    "date": "2026-08-24",
+    "status": "PENDING_OWNER_ADOPTION"
+  },
+  "candidate_owner": {
+    "owner_authority_ref": "Framework.CharacterNetwork",
+    "runtime_binding_candidate": "Owner.Campaign.Relationships"
+  },
+  "owner_response": {
+    "owner_authority_ref": "",
+    "owner_receipt_id": "",
+    "request_id": "",
+    "disposition": "",
+    "authority_or_evidence_refs": [],
+    "approval_scope": "",
+    "effective_version": "",
+    "adoption_evidence_ref": "",
+    "runtime_binding_statement": ""
+  },
+  "state": {
+    "owner_response_submitted": false,
+    "receipt_validation_authorized": false,
+    "ledger_update_authorized": false,
+    "implementation_authorized": false,
+    "runtime_mutation_authorized": false
+  }
+}

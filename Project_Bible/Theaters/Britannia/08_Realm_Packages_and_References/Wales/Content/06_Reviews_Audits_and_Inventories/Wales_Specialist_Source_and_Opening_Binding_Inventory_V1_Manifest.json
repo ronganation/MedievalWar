@@ -1,0 +1,26 @@
+{
+  "filename": "Wales_Specialist_Source_and_Opening_Binding_Inventory_V1.md",
+  "bytes": 35806,
+  "lines": 1004,
+  "sections": 32,
+  "sha256": "da540773914beaa2ccf2438c17a9f38441ecc0c1e58dd81b177c4bb5fc90bfda",
+  "checks": {
+    "filename": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "balanced_fences": true,
+    "yaml_present": true,
+    "text_present": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "honest_validation": true,
+    "existing_v2_protected": true,
+    "no_registry_mutation": true,
+    "no_opening_mutation": true,
+    "advanced_save_protected": true,
+    "no_em_dash": true
+  },
+  "all_checks_passed": true
+}

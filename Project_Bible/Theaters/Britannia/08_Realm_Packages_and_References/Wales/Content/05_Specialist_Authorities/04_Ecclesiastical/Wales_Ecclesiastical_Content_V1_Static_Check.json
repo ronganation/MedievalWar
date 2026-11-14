@@ -1,0 +1,24 @@
+{
+  "document_id": "static-check.wales.ecclesiastical-content.v1",
+  "artifact": "Wales_Ecclesiastical_Content_V1.md",
+  "bytes": 40319,
+  "physical_lines": 1122,
+  "sha256": "59f0043b498564418ed6b2fce1d535caaea74302888692c842f86ae79caeccfb",
+  "checks": {
+    "file_exists": true,
+    "three_track_temporal": true,
+    "st_davids_five_way_separation": true,
+    "legacy_quarantine": true,
+    "occupancy_not_activated": true,
+    "underage_gate": true,
+    "no_universal_church": true,
+    "honest_validation_status": true,
+    "authorizations_false": true,
+    "removal_ledger": true,
+    "stable_footer": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "Manifest.CharacterProfile.LeonCastile.FerdinandI.V1",
+  "authority_file": "Ferdinand_I_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-07",
+  "placement": "Leon_Castile/03_Core_Authorities/Character_Profiles",
+  "bytes": 39965,
+  "physical_lines": 930,
+  "sha256": "824A1F47F3AF3DB0D58708D8F79A9ED76263E03D9FC3805F3A5CE6C1567C2616",
+  "status": "StaticCheckedDevelopedCharacterProfileReviewOnly",
+  "benchmarks": [
+    "Edward_the_Confessor_V4.1_Current_Authority_Reconciliation.md",
+    "Malcolm_III_V2_Current_Authority_Refinement.md",
+    "Harald_Hardrada_Refined_V1_1_FULL.md",
+    "Sweyn_Estridsen_Refined_V1_1_FULL.md",
+    "William_of_Normandy_V6_1_Current_Authority_Refinement_FULL.md"
+  ],
+  "validation": {
+    "utf8": true,
+    "balanced_fenced_blocks": true,
+    "stable_footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "final_marker_count": 1
+  },
+  "mutation_receipt": {
+    "Registry_rows_created": 0,
+    "Opening_State_mutations": 0,
+    "runtime_mutations": 0,
+    "Unreal_project_mutations": 0
+  },
+  "next_file": "Sancha_of_Leon_V1_Developed_Character_Profile_Authority.md"
+}

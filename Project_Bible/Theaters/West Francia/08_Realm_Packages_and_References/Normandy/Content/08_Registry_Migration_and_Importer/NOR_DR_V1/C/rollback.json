@@ -1,0 +1,14 @@
+{
+  "required": [
+    "staging_session_id",
+    "writes_attempted",
+    "writes_reverted",
+    "rollback_complete",
+    "verification_sha256"
+  ],
+  "constraints": {
+    "writes_attempted": 0,
+    "writes_reverted": 0,
+    "rollback_complete": true
+  }
+}

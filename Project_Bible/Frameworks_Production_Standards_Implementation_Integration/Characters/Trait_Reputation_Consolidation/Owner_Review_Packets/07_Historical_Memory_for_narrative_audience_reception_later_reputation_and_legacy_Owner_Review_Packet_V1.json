@@ -1,0 +1,558 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationOwnerReviewPacket",
+    "name": "Trait Reputation Owner Review Packet 07",
+    "version": "1.2",
+    "status": "StaticDecisionMerged",
+    "authority_class": "Destination Owner Review Packet",
+    "requested_destination_authority": "Historical Memory for narrative, audience reception, later reputation, and legacy"
+  },
+  "routing": {
+    "route_id": "trait-reputation.owner-route.007.v1",
+    "source_submission_file": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+    "source_submission_sha256": "68d4f5ac33a69e25ca07ed2e0b11130e33994f9a195df7617b02083678887b60",
+    "source_submission_id": "trait-reputation.owner-acceptance.007.v1",
+    "owner_group_id": "trait-reputation.owner-group.007",
+    "delivery_state": "StaticDecisionMerged",
+    "external_delivery_executed": false,
+    "repository_target_hint": "Owner_Review_Packets/07_Historical_Memory_for_narrative_audience_reception_later_reputation_and_legacy_Owner_Review_Packet_V1.json",
+    "decision_return_target": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+    "mutation_permitted": false
+  },
+  "review_contract": {
+    "allowed_group_and_entry_decisions": [
+      "AcceptAsRouted",
+      "AcceptWithChanges",
+      "RejectOwnership",
+      "RelocateToNamedAuthority",
+      "SplitAcrossNamedAuthorities",
+      "RequireMoreEvidence"
+    ],
+    "pending_is_not_acceptance": true,
+    "silence_is_not_acceptance": true,
+    "acceptance_requires_named_authority_and_evidence": true,
+    "accept_with_changes_requires_bounded_change_list": true,
+    "reject_ownership_requires_rationale": true,
+    "relocation_requires_named_target_authority": true,
+    "split_requires_entry_level_target_assignments": true,
+    "require_more_evidence_must_name_required_evidence": true,
+    "partial_entry_decisions_permitted": true,
+    "group_is_resolved_only_when_every_entry_is_resolved": true,
+    "unresolved_entries_remain_non_authoritative": true,
+    "unresolved_entries_remain_quarantined_where_required": true,
+    "decision_does_not_assign_canonical_ids": true,
+    "decision_does_not_authorize_runtime_or_save_mutation": true
+  },
+  "submission": {
+    "submission_id": "trait-reputation.owner-acceptance.007.v1",
+    "owner_group_id": "trait-reputation.owner-group.007",
+    "requested_destination_authority": "Historical Memory for narrative, audience reception, later reputation, and legacy",
+    "submission_status": "StaticDecisionResolved",
+    "group_decision": "SplitAcrossNamedAuthorities",
+    "decision_authority": "Historical Memory reconciliation and Trait/Reputation boundary authorities",
+    "decision_date": "2026-08-13",
+    "decision_evidence": [
+      "Historical_Memory_Reconciliation_Audit.md",
+      "Historical_Memory_Implementation_Contract_Matrix.md",
+      "Historical_Memory_Contract_Field_Inventory.md",
+      "Historical_Memory_Contract_Validation_Catalogue.md",
+      "README_Historical_Memory_Reconciliation.md",
+      "Trait_and_Reputation_Authority_Planning.md",
+      "Trait_and_Reputation_Contract_Field_Inventory.md",
+      "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+      "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+    ],
+    "decision_rationale": "Evidence-backed static ownership and semantic-boundary resolution",
+    "replacement_or_relocation_authorities": [
+      "Historical Memory",
+      "Reputation Authority",
+      "Presentation"
+    ],
+    "entry_count": 9,
+    "entry_ids": [
+      "legacy.character_trait_library.entry.082",
+      "legacy.character_trait_library.entry.084",
+      "legacy.character_trait_library.entry.079",
+      "legacy.character_trait_library.entry.085",
+      "legacy.character_trait_library.entry.078",
+      "legacy.character_trait_library.entry.080",
+      "legacy.character_trait_library.entry.081",
+      "legacy.character_trait_library.entry.086",
+      "legacy.character_trait_library.entry.083"
+    ],
+    "action_counts": {
+      "Reassign": 9
+    },
+    "semantic_class_counts": {
+      "AudienceSpecificReputationCandidate": 9
+    },
+    "record_layer_counts": {
+      "ReputationDefinitionAndCharacterAudienceRuntimeState": 9
+    },
+    "migration_risk_counts": {
+      "High": 9
+    },
+    "canonical_registry_dependencies": [
+      "ReputationDimensionRegistry"
+    ],
+    "quarantine_states": [
+      "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved"
+    ],
+    "partial_decisions_permitted": true,
+    "group_acceptance_requires_all_entries_resolved": true,
+    "entry_decisions": [
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.082",
+        "entry": "The Builder",
+        "category": "Reputation",
+        "audit_action": "Reassign",
+        "semantic_class": "AudienceSpecificReputationCandidate",
+        "destination_record_layer": "ReputationDefinitionAndCharacterAudienceRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "ReputationDimensionRegistry",
+        "quarantine_state": "ConditionallyResolved_CanonicalNarrativeReputationAndPresentationContractsPending",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "HistoricalNarrativeAndMemoryPlusAudienceSpecificReputationAndDerivedEpithet",
+        "required_changes": [
+          "Treat each label as a candidate narrative, audience-specific reputation, derived epithet, or separated combination.",
+          "Require audience, evidence, visibility, adoption, contradiction, decline, suspension, and removal rules.",
+          "Do not use an epithet as PersonId.",
+          "Do not create universal reputation or convert unknown reception to zero.",
+          "Do not equate current reputation with historical truth."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Historical Memory",
+            "owns": "supporting facts and evidence references, narrative definitions and state, reception history, memory traditions, commemoration, preservation, and legacy"
+          },
+          {
+            "authority": "Reputation Authority",
+            "owns": "current character-audience perception, adoption, confidence or uncertainty, contradiction response, suspension, decline, and removal"
+          },
+          {
+            "authority": "Presentation",
+            "owns": "displayed epithet only when derived from authorized narrative or audience-specific reputation state"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Trait_and_Reputation_Contract_Field_Inventory.md",
+          "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.084",
+        "entry": "The Butcher",
+        "category": "Reputation",
+        "audit_action": "Reassign",
+        "semantic_class": "AudienceSpecificReputationCandidate",
+        "destination_record_layer": "ReputationDefinitionAndCharacterAudienceRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "ReputationDimensionRegistry",
+        "quarantine_state": "ConditionallyResolved_CanonicalNarrativeReputationAndPresentationContractsPending",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "HistoricalNarrativeAndMemoryPlusAudienceSpecificReputationAndDerivedEpithet",
+        "required_changes": [
+          "Treat each label as a candidate narrative, audience-specific reputation, derived epithet, or separated combination.",
+          "Require audience, evidence, visibility, adoption, contradiction, decline, suspension, and removal rules.",
+          "Do not use an epithet as PersonId.",
+          "Do not create universal reputation or convert unknown reception to zero.",
+          "Do not equate current reputation with historical truth."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Historical Memory",
+            "owns": "supporting facts and evidence references, narrative definitions and state, reception history, memory traditions, commemoration, preservation, and legacy"
+          },
+          {
+            "authority": "Reputation Authority",
+            "owns": "current character-audience perception, adoption, confidence or uncertainty, contradiction response, suspension, decline, and removal"
+          },
+          {
+            "authority": "Presentation",
+            "owns": "displayed epithet only when derived from authorized narrative or audience-specific reputation state"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Trait_and_Reputation_Contract_Field_Inventory.md",
+          "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.079",
+        "entry": "The Conqueror",
+        "category": "Reputation",
+        "audit_action": "Reassign",
+        "semantic_class": "AudienceSpecificReputationCandidate",
+        "destination_record_layer": "ReputationDefinitionAndCharacterAudienceRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "ReputationDimensionRegistry",
+        "quarantine_state": "ConditionallyResolved_CanonicalNarrativeReputationAndPresentationContractsPending",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "HistoricalNarrativeAndMemoryPlusAudienceSpecificReputationAndDerivedEpithet",
+        "required_changes": [
+          "Treat each label as a candidate narrative, audience-specific reputation, derived epithet, or separated combination.",
+          "Require audience, evidence, visibility, adoption, contradiction, decline, suspension, and removal rules.",
+          "Do not use an epithet as PersonId.",
+          "Do not create universal reputation or convert unknown reception to zero.",
+          "Do not equate current reputation with historical truth."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Historical Memory",
+            "owns": "supporting facts and evidence references, narrative definitions and state, reception history, memory traditions, commemoration, preservation, and legacy"
+          },
+          {
+            "authority": "Reputation Authority",
+            "owns": "current character-audience perception, adoption, confidence or uncertainty, contradiction response, suspension, decline, and removal"
+          },
+          {
+            "authority": "Presentation",
+            "owns": "displayed epithet only when derived from authorized narrative or audience-specific reputation state"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Trait_and_Reputation_Contract_Field_Inventory.md",
+          "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.085",
+        "entry": "The Cruel",
+        "category": "Reputation",
+        "audit_action": "Reassign",
+        "semantic_class": "AudienceSpecificReputationCandidate",
+        "destination_record_layer": "ReputationDefinitionAndCharacterAudienceRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "ReputationDimensionRegistry",
+        "quarantine_state": "ConditionallyResolved_CanonicalNarrativeReputationAndPresentationContractsPending",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "HistoricalNarrativeAndMemoryPlusAudienceSpecificReputationAndDerivedEpithet",
+        "required_changes": [
+          "Treat each label as a candidate narrative, audience-specific reputation, derived epithet, or separated combination.",
+          "Require audience, evidence, visibility, adoption, contradiction, decline, suspension, and removal rules.",
+          "Do not use an epithet as PersonId.",
+          "Do not create universal reputation or convert unknown reception to zero.",
+          "Do not equate current reputation with historical truth."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Historical Memory",
+            "owns": "supporting facts and evidence references, narrative definitions and state, reception history, memory traditions, commemoration, preservation, and legacy"
+          },
+          {
+            "authority": "Reputation Authority",
+            "owns": "current character-audience perception, adoption, confidence or uncertainty, contradiction response, suspension, decline, and removal"
+          },
+          {
+            "authority": "Presentation",
+            "owns": "displayed epithet only when derived from authorized narrative or audience-specific reputation state"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Trait_and_Reputation_Contract_Field_Inventory.md",
+          "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.078",
+        "entry": "The Lion",
+        "category": "Reputation",
+        "audit_action": "Reassign",
+        "semantic_class": "AudienceSpecificReputationCandidate",
+        "destination_record_layer": "ReputationDefinitionAndCharacterAudienceRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "ReputationDimensionRegistry",
+        "quarantine_state": "ConditionallyResolved_CanonicalNarrativeReputationAndPresentationContractsPending",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "HistoricalNarrativeAndMemoryPlusAudienceSpecificReputationAndDerivedEpithet",
+        "required_changes": [
+          "Treat each label as a candidate narrative, audience-specific reputation, derived epithet, or separated combination.",
+          "Require audience, evidence, visibility, adoption, contradiction, decline, suspension, and removal rules.",
+          "Do not use an epithet as PersonId.",
+          "Do not create universal reputation or convert unknown reception to zero.",
+          "Do not equate current reputation with historical truth."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Historical Memory",
+            "owns": "supporting facts and evidence references, narrative definitions and state, reception history, memory traditions, commemoration, preservation, and legacy"
+          },
+          {
+            "authority": "Reputation Authority",
+            "owns": "current character-audience perception, adoption, confidence or uncertainty, contradiction response, suspension, decline, and removal"
+          },
+          {
+            "authority": "Presentation",
+            "owns": "displayed epithet only when derived from authorized narrative or audience-specific reputation state"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Trait_and_Reputation_Contract_Field_Inventory.md",
+          "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.080",
+        "entry": "The Peacemaker",
+        "category": "Reputation",
+        "audit_action": "Reassign",
+        "semantic_class": "AudienceSpecificReputationCandidate",
+        "destination_record_layer": "ReputationDefinitionAndCharacterAudienceRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "ReputationDimensionRegistry",
+        "quarantine_state": "ConditionallyResolved_CanonicalNarrativeReputationAndPresentationContractsPending",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "HistoricalNarrativeAndMemoryPlusAudienceSpecificReputationAndDerivedEpithet",
+        "required_changes": [
+          "Treat each label as a candidate narrative, audience-specific reputation, derived epithet, or separated combination.",
+          "Require audience, evidence, visibility, adoption, contradiction, decline, suspension, and removal rules.",
+          "Do not use an epithet as PersonId.",
+          "Do not create universal reputation or convert unknown reception to zero.",
+          "Do not equate current reputation with historical truth."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Historical Memory",
+            "owns": "supporting facts and evidence references, narrative definitions and state, reception history, memory traditions, commemoration, preservation, and legacy"
+          },
+          {
+            "authority": "Reputation Authority",
+            "owns": "current character-audience perception, adoption, confidence or uncertainty, contradiction response, suspension, decline, and removal"
+          },
+          {
+            "authority": "Presentation",
+            "owns": "displayed epithet only when derived from authorized narrative or audience-specific reputation state"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Trait_and_Reputation_Contract_Field_Inventory.md",
+          "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.081",
+        "entry": "The Saintly",
+        "category": "Reputation",
+        "audit_action": "Reassign",
+        "semantic_class": "AudienceSpecificReputationCandidate",
+        "destination_record_layer": "ReputationDefinitionAndCharacterAudienceRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "ReputationDimensionRegistry",
+        "quarantine_state": "ConditionallyResolved_CanonicalNarrativeReputationAndPresentationContractsPending",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "HistoricalNarrativeAndMemoryPlusAudienceSpecificReputationAndDerivedEpithet",
+        "required_changes": [
+          "Treat each label as a candidate narrative, audience-specific reputation, derived epithet, or separated combination.",
+          "Require audience, evidence, visibility, adoption, contradiction, decline, suspension, and removal rules.",
+          "Do not use an epithet as PersonId.",
+          "Do not create universal reputation or convert unknown reception to zero.",
+          "Do not equate current reputation with historical truth."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Historical Memory",
+            "owns": "supporting facts and evidence references, narrative definitions and state, reception history, memory traditions, commemoration, preservation, and legacy"
+          },
+          {
+            "authority": "Reputation Authority",
+            "owns": "current character-audience perception, adoption, confidence or uncertainty, contradiction response, suspension, decline, and removal"
+          },
+          {
+            "authority": "Presentation",
+            "owns": "displayed epithet only when derived from authorized narrative or audience-specific reputation state"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Trait_and_Reputation_Contract_Field_Inventory.md",
+          "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.086",
+        "entry": "The Usurper",
+        "category": "Reputation",
+        "audit_action": "Reassign",
+        "semantic_class": "AudienceSpecificReputationCandidate",
+        "destination_record_layer": "ReputationDefinitionAndCharacterAudienceRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "ReputationDimensionRegistry",
+        "quarantine_state": "ConditionallyResolved_CanonicalNarrativeReputationAndPresentationContractsPending",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "HistoricalNarrativeAndMemoryPlusAudienceSpecificReputationAndDerivedEpithet",
+        "required_changes": [
+          "Treat each label as a candidate narrative, audience-specific reputation, derived epithet, or separated combination.",
+          "Require audience, evidence, visibility, adoption, contradiction, decline, suspension, and removal rules.",
+          "Do not use an epithet as PersonId.",
+          "Do not create universal reputation or convert unknown reception to zero.",
+          "Do not equate current reputation with historical truth."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Historical Memory",
+            "owns": "supporting facts and evidence references, narrative definitions and state, reception history, memory traditions, commemoration, preservation, and legacy"
+          },
+          {
+            "authority": "Reputation Authority",
+            "owns": "current character-audience perception, adoption, confidence or uncertainty, contradiction response, suspension, decline, and removal"
+          },
+          {
+            "authority": "Presentation",
+            "owns": "displayed epithet only when derived from authorized narrative or audience-specific reputation state"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Trait_and_Reputation_Contract_Field_Inventory.md",
+          "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.083",
+        "entry": "The Wise",
+        "category": "Reputation",
+        "audit_action": "Reassign",
+        "semantic_class": "AudienceSpecificReputationCandidate",
+        "destination_record_layer": "ReputationDefinitionAndCharacterAudienceRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "ReputationDimensionRegistry",
+        "quarantine_state": "ConditionallyResolved_CanonicalNarrativeReputationAndPresentationContractsPending",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "HistoricalNarrativeAndMemoryPlusAudienceSpecificReputationAndDerivedEpithet",
+        "required_changes": [
+          "Treat each label as a candidate narrative, audience-specific reputation, derived epithet, or separated combination.",
+          "Require audience, evidence, visibility, adoption, contradiction, decline, suspension, and removal rules.",
+          "Do not use an epithet as PersonId.",
+          "Do not create universal reputation or convert unknown reception to zero.",
+          "Do not equate current reputation with historical truth."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Historical Memory",
+            "owns": "supporting facts and evidence references, narrative definitions and state, reception history, memory traditions, commemoration, preservation, and legacy"
+          },
+          {
+            "authority": "Reputation Authority",
+            "owns": "current character-audience perception, adoption, confidence or uncertainty, contradiction response, suspension, decline, and removal"
+          },
+          {
+            "authority": "Presentation",
+            "owns": "displayed epithet only when derived from authorized narrative or audience-specific reputation state"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Trait_and_Reputation_Contract_Field_Inventory.md",
+          "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      }
+    ],
+    "registry_write_permitted": false,
+    "content_write_permitted": false,
+    "runtime_write_permitted": false,
+    "save_write_permitted": false
+  },
+  "review_instructions": [
+    "Preserve the merged static decision and cited evidence.",
+    "Do not assign canonical IDs or authorize registry, content, runtime, or save writes.",
+    "For blocked groups, supply the named current authority before changing Pending.",
+    "For conditional or split decisions, complete required contracts before migration admission."
+  ]
+}

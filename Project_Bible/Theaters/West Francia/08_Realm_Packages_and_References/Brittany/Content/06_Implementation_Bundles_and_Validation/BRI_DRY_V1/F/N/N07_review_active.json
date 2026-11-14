@@ -1,0 +1,12 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N07_review_active",
+  "mutated_candidate": {
+    "activation_state": "Active",
+    "disposition": "ReviewOnly",
+    "stable_id": "review.hoel_nantes_holding_1062"
+  },
+  "result": "PASS",
+  "rule": "ReviewOnlyNotActive"
+}

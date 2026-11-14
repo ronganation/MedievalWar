@@ -1,0 +1,26 @@
+{
+  "document_id": "static-check.england.historical_emergence.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "source_file": "England_Historical_Emergence.md",
+  "source_sha256": "b82b56a18e8f84768cb036e44019291ca55e6c6e854509c7424d8a61ccc55529",
+  "source_bytes": 24512,
+  "output_file": "England_Historical_Emergence_V1.1_Current_Authority_Refinement.md",
+  "output_bytes": 44262,
+  "checks": {
+    "new_file_created": true,
+    "larger_than_source": true,
+    "full_source_portfolios_present": true,
+    "fourteen_pathways": true,
+    "all_four_Aelfgar_states": true,
+    "specialist_integrations": true,
+    "historical_opening_registry_AI_handoffs": true,
+    "governance_inside_law_policy": true,
+    "supply_not_reowned": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

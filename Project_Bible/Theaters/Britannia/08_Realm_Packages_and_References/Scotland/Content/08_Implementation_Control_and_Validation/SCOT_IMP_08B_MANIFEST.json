@@ -1,0 +1,32 @@
+{
+  "TaskId": "SCOT-IMP-08B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "Date": "2026-09-22",
+  "EntranceGate": "SCOT-IMP-08A-R1",
+  "EntranceAssessment": "ReadyForBoundedCrossRealmTheaterContractWithExplicitOwnerLocks",
+  "ProposedFilesAdded": 16,
+  "ProposedFilesModified": 0,
+  "ProposedNewTests": 36,
+  "RequiredTestCounts": [
+    36,
+    32,
+    24,
+    24,
+    16,
+    16,
+    12,
+    13,
+    5,
+    10
+  ],
+  "ExplicitOwnerLocks": 12,
+  "PlanSHA256": "7AB1E77FBD944688D35879914C63B9ACDC932C88F7BF7D48BF1D8ECFC6A7F5C6",
+  "PlanBytes": 10759,
+  "PlanLines": 378,
+  "EligibleForImplementation": false,
+  "CanonicalTheaterBindingApplied": false,
+  "ExternalRealmFactsImported": false,
+  "IslandOwnershipResolved": false,
+  "ProductionAuthority": false,
+  "NextGate": "SCOT-IMP-08C"
+}

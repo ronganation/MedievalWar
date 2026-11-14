@@ -1,0 +1,23 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "nodes_18": true,
+    "edges_24": true,
+    "dims_18": true,
+    "questions_12": true,
+    "issues_30": true,
+    "positive_24": true,
+    "negative_30": true,
+    "opening_zero": true,
+    "reverse_zero": true,
+    "three_tracks": true,
+    "balanced_fences": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker": true,
+    "honest_validation": true,
+    "next_file": true
+  }
+}

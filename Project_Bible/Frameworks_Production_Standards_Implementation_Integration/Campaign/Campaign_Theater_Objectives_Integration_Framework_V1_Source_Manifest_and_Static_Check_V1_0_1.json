@@ -1,0 +1,815 @@
+{
+  "document_control": {
+    "document_id": "manifest.static-check.campaign-theater-objectives-integration.v1.0.1",
+    "stable_document_id": "ManifestStaticCheck.CampaignTheaterObjectivesIntegration",
+    "filename": "Campaign_Theater_Objectives_Integration_Framework_V1_Source_Manifest_and_Static_Check_V1_0_1_Corrected.json",
+    "version": "1.0.1",
+    "revision_date": "2026-09-18",
+    "placement": "Project_Bible/Frameworks/Campaign",
+    "constitutional_authority": "Project Bible 2.4",
+    "operational_authority": "Design Expansion Checklist 3.7",
+    "implementation_target": "Unreal Engine 5.8",
+    "scenario_opening": "1062-01-01",
+    "opening_campaign_season": "Winter",
+    "historical_progression": "21 months per strategic turn",
+    "biological_progression": "7 months per strategic turn",
+    "campaign_season_progression": "1 ordered Winter, Spring, Summer, Autumn step per strategic turn",
+    "target_framework": "Campaign_Theater_Objectives_Standing_Designation_and_Cross_Theater_Integration_Framework_V1.md",
+    "status": "PASS_DOCUMENT_CONTENT_ONLY_SOURCE_MANIFEST_AND_STATIC_CHECK_CORRECTED",
+    "registry_mutation_authorized": false,
+    "opening_state_mutation_authorized": false,
+    "objective_activation_authorized": false,
+    "designation_activation_authorized": false,
+    "reward_execution_authorized": false,
+    "victory_condition_activation_authorized": false,
+    "payload_generation_authorized": false,
+    "importer_execution_authorized": false,
+    "runtime_mutation_authorized": false,
+    "unreal_project_mutation_authorized": false
+  },
+  "target_framework_receipt": {
+    "filename": "Campaign_Theater_Objectives_Standing_Designation_and_Cross_Theater_Integration_Framework_V1.md",
+    "bytes": 31411,
+    "physical_lines": 1031,
+    "sha256": "fbdf86b4c6cc63dc57aa9391adbf056d9f96f367d0670fb06c839fb2e4d7b306",
+    "receipt_basis": "Framework creation receipt from the immediately preceding completed work product.",
+    "fresh_current_onedrive_fingerprint_verified_by_this_manifest": false,
+    "reason": "The exact new framework was not returned by current OneDrive retrieval. The recorded creation receipt is preserved without being relabeled as a fresh physical OneDrive hash."
+  },
+  "source_manifest_summary": {
+    "source_records": 12,
+    "realm_facts_transferred": false,
+    "theater_runtime_facts_transferred": false,
+    "opening_state_facts_transferred": false,
+    "unreal_symbols_created": false,
+    "all_sources_have_disposition": true
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "filename": "Campaign_Theater_Objective_and_Designation_Current_Authority_Audit_and_Owner_Decision_V1.md",
+      "role": [
+        "SharedSystemAudit",
+        "OwnerDecision",
+        "CreationAuthorization"
+      ],
+      "disposition": "Adopt",
+      "preserve": [
+        "OutcomeCDecision",
+        "ModernMedievalIICampaignSpine",
+        "RealmTheaterCrossTheaterScopeSeparation",
+        "NoMutationBoundary"
+      ],
+      "exclude": [
+        "RealmSpecificFacts",
+        "ObjectiveInstances",
+        "RuntimeClaims"
+      ],
+      "evidence_status": "Current audit file placed by owner in Project_Bible/Frameworks/Campaign; complete physical fingerprint not reverified in this receipt."
+    },
+    {
+      "source_id": "SRC-002",
+      "filename": "Campaign_Theater_Objectives_Standing_Designation_and_Cross_Theater_Integration_Framework_V1.md",
+      "role": [
+        "TargetFramework",
+        "SharedCampaignExperienceAuthority"
+      ],
+      "disposition": "Validate",
+      "preserve": [
+        "AllSections",
+        "OwnerBoundaries",
+        "ThreeTrackTemporalContract",
+        "ObjectiveLifecycle",
+        "StandingModel",
+        "DesignationLifecycle",
+        "VictoryConditionModel",
+        "ImplementationBatches"
+      ],
+      "exclude": [],
+      "evidence_status": "Validated against the framework creation receipt supplied in the immediately preceding work product; direct current OneDrive content retrieval did not return this exact new file."
+    },
+    {
+      "source_id": "SRC-003",
+      "filename": "Zaragoza_Taifa_Campaign_Objectives_Opening_Pressures_and_Player_Progression_Authority_1062_V1.md",
+      "role": [
+        "PrimaryRealmCampaignExperiencePrecedent",
+        "ObjectiveLifecycleBenchmark",
+        "RecoveryAndNonoccurrenceBenchmark"
+      ],
+      "disposition": "AdoptAndGeneralizeStructureOnly",
+      "preserve": [
+        "CampaignExperienceDefinesAndExplainsButNeverExecutes",
+        "ObjectiveDefinitionInstanceSeparation",
+        "Lifecycle",
+        "PressurePortfolio",
+        "RecoveryAlternativesAndNonoccurrence",
+        "AIProposalBoundary"
+      ],
+      "exclude": [
+        "ZaragozaFacts",
+        "BanuHudFacts",
+        "ZaragozaObjectiveFamilies",
+        "OpeningStateFacts"
+      ],
+      "evidence_status": "Recovered from OneDrive search with substantive content."
+    },
+    {
+      "source_id": "SRC-004",
+      "filename": "Zaragoza_Taifa_Unreal_Engine_5_8_Batch_09_Campaign_Experience_Presentation_Localization_and_Accessibility_Gate_V1.md",
+      "role": [
+        "PresentationBenchmark",
+        "LocalizationAccessibilityEvidenceBoundary"
+      ],
+      "disposition": "AdoptAndGeneralizeStructureOnly",
+      "preserve": [
+        "SummaryFirstHierarchy",
+        "UnknownAndBlockedStateVisibility",
+        "NoncolorEncoding",
+        "NotificationDiscipline",
+        "NoPresentationMutation"
+      ],
+      "exclude": [
+        "ZaragozaPresentationFacts",
+        "RealmSpecificAliases",
+        "AssetClaims"
+      ],
+      "evidence_status": "Recovered from OneDrive search with substantive content."
+    },
+    {
+      "source_id": "SRC-005",
+      "filename": "Political_Constitution_Theater_Level_Political_Mechanics_Audit_V1_Cross_Theater_Comparison_Outcome_Decision_and_Stop_Gate.md",
+      "role": [
+        "CrossTheaterOutcomeDecision",
+        "TheaterDifferentiationSource",
+        "AntiChurnGate"
+      ],
+      "disposition": "Adopt",
+      "preserve": [
+        "OutcomeCIntegrationDecision",
+        "FiveTheaterDifferentiation",
+        "ObjectiveOwnerSplit",
+        "StopGate"
+      ],
+      "exclude": [
+        "AnyUnverifiedTheaterRuntimeState"
+      ],
+      "evidence_status": "Preceding audit product; exact current physical fingerprint not reverified in this receipt."
+    },
+    {
+      "source_id": "SRC-006",
+      "filename": "Campaign_Theater_Framework_V1.md",
+      "role": [
+        "SharedTheaterFoundation"
+      ],
+      "disposition": "ReferenceOwner",
+      "preserve": [
+        "TheaterAsOrganizationalStrategicDataFacingLayer",
+        "TheaterNonownershipBoundary",
+        "BoundedQueries"
+      ],
+      "exclude": [
+        "AnyInterpretationThatTheaterIsRealmOrGovernment"
+      ],
+      "evidence_status": "Referenced throughout current Theater audits."
+    },
+    {
+      "source_id": "SRC-007",
+      "filename": "Project_Bible_2.4.md",
+      "role": [
+        "ConstitutionalAuthority"
+      ],
+      "disposition": "Control",
+      "preserve": [
+        "ModernMedievalIICampaignSpine",
+        "OpeningStateDefinition",
+        "SelectiveCK3PoliticalCausality"
+      ],
+      "exclude": [
+        "LaterHistoryAsOpeningState"
+      ],
+      "evidence_status": "Current constitutional authority named by the source family."
+    },
+    {
+      "source_id": "SRC-008",
+      "filename": "Design_Expansion_Checklist_V3.7.md",
+      "role": [
+        "OperationalAuthority"
+      ],
+      "disposition": "Control",
+      "preserve": [
+        "CurrentPriorities",
+        "ThreeTrackTemporalContract",
+        "ValidationBoundaries"
+      ],
+      "exclude": [
+        "UnsupportedPromotion"
+      ],
+      "evidence_status": "Current operational authority named by the source family."
+    },
+    {
+      "source_id": "SRC-009",
+      "filename": "Norse_Theater_Implementation_Checklist_V1_4_ACTIVE_CONSOLIDATED.md",
+      "role": [
+        "ModernMedievalIICampaignLoopBenchmark",
+        "TheaterImplementationBoundaryBenchmark"
+      ],
+      "disposition": "Reference",
+      "preserve": [
+        "CampaignMapCentrality",
+        "StrategicConsequencesOverDetail",
+        "NoAutomaticTheaterOwnership",
+        "ThreeTrackTemporalContract"
+      ],
+      "exclude": [
+        "NorseRealmFacts",
+        "ImplementationEvidenceOutsideItsDemonstratedScope"
+      ],
+      "evidence_status": "Recovered from OneDrive search with substantive content."
+    },
+    {
+      "source_id": "SRC-010",
+      "filename": "Campaign_Data_Architecture.md",
+      "role": [
+        "CampaignArchitectureAndPersistenceReference"
+      ],
+      "disposition": "SelectiveReference",
+      "preserve": [
+        "DefinitionOpeningRuntimeSaveMigrationSeparation",
+        "StableIdentity",
+        "DeterminismAndValidationConcerns"
+      ],
+      "exclude": [
+        "LegacyUniversalScores",
+        "PrematureUnrealSymbols",
+        "UnreviewedOpeningActivation"
+      ],
+      "evidence_status": "Existing Campaign framework visible in the owner-provided Campaign folder."
+    },
+    {
+      "source_id": "SRC-011",
+      "filename": "Campaign_Simulation_Turn_Pipeline.md",
+      "role": [
+        "TurnPipelineReference"
+      ],
+      "disposition": "Reference",
+      "preserve": [
+        "OrderedEvaluationAndOwnerRouting"
+      ],
+      "exclude": [
+        "ObjectiveMutationWithoutOwnerReceipt"
+      ],
+      "evidence_status": "Existing Campaign framework visible in the owner-provided Campaign folder."
+    },
+    {
+      "source_id": "SRC-012",
+      "filename": "Campaign_Turn_And_Flow_System.md",
+      "role": [
+        "CampaignFlowReference"
+      ],
+      "disposition": "Reference",
+      "preserve": [
+        "CampaignFlowAndPlayerFacingSequence"
+      ],
+      "exclude": [
+        "OneUniversalTurnLengthCollapsingThreeTracks"
+      ],
+      "evidence_status": "Existing Campaign framework visible in the owner-provided Campaign folder."
+    }
+  ],
+  "ownership_preservation": {
+    "CampaignExperienceOwner": [
+      "ObjectiveDefinitions",
+      "PressureDefinitions",
+      "ProgressMilestonesOutcomesRecoveryAndExplanationDefinitions",
+      "StandingAndDesignationDefinitions"
+    ],
+    "TheaterOwners": [
+      "TheaterScopeAssociationAndTheaterSpecificInterpretationQueries"
+    ],
+    "PoliticalConstitutionOwner": [
+      "ParticipationRecognitionLegitimacySettlementAndTransformationRouting"
+    ],
+    "RealmAndSpecialistOwners": [
+      "GovernmentTitlesClaimsSuccessionCharactersDynastiesRelationshipsTerritoryMilitaryDiplomacyRoutesSupplyInstitutionsInformation"
+    ],
+    "OpeningStateOwners": [
+      "ExactJanuary1062ActiveObjectivePressureAndVictoryFacts"
+    ],
+    "RegistryOwners": [
+      "CanonicalIDsAliasesCollisionsAndMigrationIdentity"
+    ],
+    "ImplementationOwners": [
+      "ProjectNativeTypesPersistenceRuntimeValidationAndUnrealExecution"
+    ],
+    "ownership_transferred": false
+  },
+  "concept_disposition": [
+    {
+      "concept": "ClearMedievalIICampaignDirection",
+      "disposition": "AdoptAndEnrich"
+    },
+    {
+      "concept": "CampaignMapCentrality",
+      "disposition": "Adopt"
+    },
+    {
+      "concept": "PermanentMissionTreeChecklist",
+      "disposition": "Reject"
+    },
+    {
+      "concept": "LinearGuaranteedHistoricalChain",
+      "disposition": "Reject"
+    },
+    {
+      "concept": "FreeMaterialRewardOnCompletion",
+      "disposition": "Reject"
+    },
+    {
+      "concept": "ObjectiveSpecificStanding",
+      "disposition": "Adopt"
+    },
+    {
+      "concept": "UniversalStandingScore",
+      "disposition": "Reject"
+    },
+    {
+      "concept": "DesignationAsAcknowledgment",
+      "disposition": "Adopt"
+    },
+    {
+      "concept": "DesignationAsTitleClaimOrControl",
+      "disposition": "Reject"
+    },
+    {
+      "concept": "FailureRecoveryReplacementAndNonoccurrence",
+      "disposition": "AdoptAndEnrich"
+    },
+    {
+      "concept": "CrossTheaterObjectiveLinking",
+      "disposition": "AdoptWithOwnerRouting"
+    },
+    {
+      "concept": "OpeningObjectivesFromDefinitions",
+      "disposition": "Reject"
+    },
+    {
+      "concept": "RealmSpecificObjectiveContent",
+      "disposition": "RetainWithRealmOwners"
+    },
+    {
+      "concept": "TheaterSpecificObjectiveMeaning",
+      "disposition": "RetainWithTheaterAndObjectiveOwners"
+    }
+  ],
+  "static_check_summary": {
+    "total_checks": 44,
+    "passed_checks": 43,
+    "failed_checks": 0,
+    "warnings": 0,
+    "fatal_failures": 0,
+    "overall_result": "PASS_DOCUMENT_CONTENT_ONLY_WITH_ONE_NOT_EVALUATED_CHECK",
+    "not_evaluated_checks": 1
+  },
+  "checks": [
+    {
+      "check_id": "SC-001",
+      "category": "DocumentControl",
+      "requirement": "Stable document identity, version, placement, authorities, temporal contract, and nonmutation boundary are present.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": [
+        "Framework creation receipt"
+      ]
+    },
+    {
+      "check_id": "SC-002",
+      "category": "Placement",
+      "requirement": "Framework placement is Project_Bible/Frameworks/Campaign.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": [
+        "Owner placement correction from Campaign folder screenshot"
+      ]
+    },
+    {
+      "check_id": "SC-003",
+      "category": "CampaignSpine",
+      "requirement": "Modern Medieval II campaign-map centrality is explicit.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": [
+        "Framework sections Modern Medieval II design inheritance and Campaign Spine"
+      ]
+    },
+    {
+      "check_id": "SC-004",
+      "category": "ObjectiveScopes",
+      "requirement": "Realm, Theater, cross-Theater, optional opportunity, recovery, and victory-condition scopes are separated.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-005",
+      "category": "DefinitionInstance",
+      "requirement": "Objective definition is separate from runtime instance and Opening State activation.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-006",
+      "category": "Lifecycle",
+      "requirement": "Lifecycle includes defined, knowability, visibility, eligibility, offer, selection, active, blocked, delayed, completion, failure, abandonment, replacement, recovery, expiry, and nonoccurrence.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-007",
+      "category": "Temporal",
+      "requirement": "Historical +21 months, Biological +7 months, and one ordered Campaign Season step remain separate.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-008",
+      "category": "Visibility",
+      "requirement": "Visibility does not prove eligibility or activation.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-009",
+      "category": "Progress",
+      "requirement": "Progress contributors and blockers remain owner sourced and reversible.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-010",
+      "category": "Milestones",
+      "requirement": "Milestones do not execute rewards.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-011",
+      "category": "Rewards",
+      "requirement": "Reward definitions cannot create money, people, units, pools, equipment, horses, officers, supply, buildings, loyalty, territory, titles, claims, offices, or recognition.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-012",
+      "category": "Failure",
+      "requirement": "Failure, abandonment, replacement, recovery, expiration, and nonoccurrence remain distinct.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-013",
+      "category": "Standing",
+      "requirement": "Standing is objective specific, multidimensional, explanatory, and nonauthoritative.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-014",
+      "category": "StandingNoScore",
+      "requirement": "No universal hidden standing score is accepted.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-015",
+      "category": "Majority",
+      "requirement": "Majority is objective specific rather than a fixed map percentage.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-016",
+      "category": "Paramountcy",
+      "requirement": "Paramountcy does not imply annexation or uniform government.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-017",
+      "category": "ComprehensiveSettlement",
+      "requirement": "Comprehensive settlement requires owner-resolved scopes and does not require destroying every rival.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-018",
+      "category": "Designation",
+      "requirement": "Designation definition and lifecycle are present.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-019",
+      "category": "DesignationNoStateCreation",
+      "requirement": "Designations create no title, office, claim, recognition, territory, control, government, or allegiance.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-020",
+      "category": "Victory",
+      "requirement": "Victory supports multiple classes and does not automatically terminate the campaign unless scenario policy says so.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-021",
+      "category": "CrossTheater",
+      "requirement": "Cross-Theater objective links do not transfer Realm, Theater, diplomatic, territorial, military, or political ownership.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-022",
+      "category": "TheaterDifferentiation",
+      "requirement": "Britania, West Francia, Norse, Iberia, and North Africa retain distinct capability examples without creating Theater facts.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-023",
+      "category": "RealmFacts",
+      "requirement": "No Realm, Theater, or Opening State facts are created by the shared framework.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-024",
+      "category": "AI",
+      "requirement": "Realm AI and Theater AI may evaluate, propose, and explain but may not execute owner actions.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-025",
+      "category": "Knowledge",
+      "requirement": "Unknown, stale, contested, external, and private inputs are preserved rather than silently defaulted.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-026",
+      "category": "Presentation",
+      "requirement": "Default presentation is summary first with bounded optional depth.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-027",
+      "category": "DecisionBudget",
+      "requirement": "Normal decision budget remains zero to three strategically meaningful choices.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-028",
+      "category": "Notifications",
+      "requirement": "Immediate notifications are limited to material state changes; routine changes enter summaries.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-029",
+      "category": "LocalizationAccessibility",
+      "requirement": "Localization, accessibility, noncolor encoding, and source-state integrity requirements are present.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-030",
+      "category": "Persistence",
+      "requirement": "Definition, Opening State, runtime, transient evaluation, presentation, save, migration, evidence, Memory, Momentum, and Emergence remain separate.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-031",
+      "category": "AdvancedSave",
+      "requirement": "Advanced-save protection forbids reapplying opening objectives or erasing campaign divergence.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-032",
+      "category": "Migration",
+      "requirement": "Migration is versioned; ambiguity is quarantined rather than guessed. Idempotent repeat application remains a later migration-owner validation requirement.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": [
+        "Framework provides versioned migration boundaries and ambiguity quarantine.",
+        "Independent closure review found that explicit idempotence was not established and required removal of that overclaim."
+      ]
+    },
+    {
+      "check_id": "SC-033",
+      "category": "Replay",
+      "requirement": "Replay uses recorded inputs, owners, rule versions, visibility boundaries, and deterministic ordering.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-034",
+      "category": "Rollback",
+      "requirement": "Rollback and owner receipt requirements are present for later execution.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-035",
+      "category": "ImplementationBatches",
+      "requirement": "Phased implementation batches include dependencies, acceptance criteria, evidence, rollback, and owner gates.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-036",
+      "category": "NoImplementationClaim",
+      "requirement": "Static closure is not represented as Registry, Opening State, importer, compile, runtime, save-load, migration, replay, rollback, performance, payload, or Unreal validation.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-037",
+      "category": "NoUniversalMissionTree",
+      "requirement": "Framework rejects permanent checklist play, guaranteed linear historical chains, and free completion resources.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-038",
+      "category": "NoHistoricalDestiny",
+      "requirement": "Historical dates, Memory, Momentum, and Emergence do not guarantee objective activation or outcome.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-039",
+      "category": "FiniteCapacity",
+      "requirement": "Unlocks and objective completion do not create people, materials, pools, or capacity.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-040",
+      "category": "OwnerMatrix",
+      "requirement": "Campaign Experience, Theater, Political Constitution, Realm, specialist, Opening State, Registry, and implementation owners remain separate.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-041",
+      "category": "SourcePortfolio",
+      "requirement": "Source manifest distinguishes control, precedent, reference, and excluded Realm content.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-042",
+      "category": "AntiChurn",
+      "requirement": "No Realm-specific or Theater-specific wrapper family is authorized by the framework.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    },
+    {
+      "check_id": "SC-043",
+      "category": "WiderMap",
+      "requirement": "Specific future-region compatibility for Italy, the Holy Roman Empire, Byzantium, eastern Europe, the Caucasus, Rus lands, the Balkans, and steppe-border systems was not evaluated by this framework static check.",
+      "result": "NOT_EVALUATED",
+      "fatal_if_failed": false,
+      "evidence": [
+        "Independent closure review found no literal framework clause or completed review supporting a PASS for the named future regions.",
+        "No future-region facts were created by this manifest correction."
+      ]
+    },
+    {
+      "check_id": "SC-044",
+      "category": "StableFooter",
+      "requirement": "Stable constitutional footer and validation boundary are required.",
+      "result": "PASS",
+      "fatal_if_failed": true,
+      "evidence": []
+    }
+  ],
+  "correction_control": {
+    "correction_basis": "Campaign_Theater_Objectives_Integration_Framework_V1_Independent_Static_Closure_Review.md",
+    "correction_scope": [
+      "SC-032",
+      "SC-043"
+    ],
+    "framework_modified": false,
+    "source_manifest_records_modified": false,
+    "owner_boundaries_modified": false,
+    "realm_or_theater_facts_created": false,
+    "corrections": [
+      {
+        "check_id": "SC-032",
+        "prior_overclaim": "Migration is versioned and idempotent.",
+        "corrected_disposition": "PASS for versioning and ambiguity quarantine; idempotent repeat application remains not established by this framework static check."
+      },
+      {
+        "check_id": "SC-043",
+        "prior_overclaim": "Named future-region structural support was treated as passed.",
+        "corrected_disposition": "NOT_EVALUATED; future-region compatibility requires a separate reviewed authority or explicit extensibility review."
+      }
+    ]
+  },
+  "independent_closure_disposition": {
+    "review_file": "Campaign_Theater_Objectives_Integration_Framework_V1_Independent_Static_Closure_Review.md",
+    "framework_disposition": "PASS_STATIC_CLOSURE_OWNER_REVIEW_REQUIRED",
+    "manifest_disposition": "CORRECTED_AND_REISSUED_AS_VERSION_1_0_1",
+    "new_framework_required": false,
+    "framework_rewrite_required": false,
+    "implementation_promotion_authorized": false
+  },
+  "validation_boundary": {
+    "static_document_content_checked": true,
+    "json_validated": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "rollback_executed": false,
+    "performance_validated": false,
+    "payload_validated": false,
+    "localization_runtime_validated": false,
+    "accessibility_runtime_validated": false,
+    "objective_or_designation_instance_validated": false
+  },
+  "independent_closure_gate": {
+    "next_file": "Campaign_Theater_Objectives_Integration_Framework_V1_Independent_Static_Closure_Review.md",
+    "authorized": false,
+    "purpose": "Independently challenge source preservation, ownership, Modern Medieval II campaign fit, lifecycle completeness, standing and designation semantics, Theater differentiation, anti-churn, and validation honesty.",
+    "implementation_promotion_authorized": false,
+    "completed": true,
+    "result": "PASS_STATIC_CLOSURE_OWNER_REVIEW_REQUIRED_MANIFEST_CORRECTIONS_APPLIED_IN_V1_0_1"
+  },
+  "nonmutation_receipt": {
+    "source_files_modified": 0,
+    "realm_facts_created": 0,
+    "theater_facts_created": 0,
+    "objective_instances_created": 0,
+    "designation_instances_created": 0,
+    "rewards_executed": 0,
+    "victory_conditions_activated": 0,
+    "registry_entries_created_or_modified": 0,
+    "opening_state_records_created_or_modified": 0,
+    "gameplay_payloads_created_or_imported": 0,
+    "unreal_files_modified": 0,
+    "compile_executed": false,
+    "runtime_executed": false
+  },
+  "stable_footer": {
+    "constitutional_authority": "Project Bible 2.4",
+    "operational_authority": "Design Expansion Checklist 3.7",
+    "implementation_target": "Unreal Engine 5.8",
+    "validation_status": "Static document-content validation only. No Registry, Opening State, importer, compile, runtime, save-load, migration, replay, rollback, performance, payload, localization-runtime, accessibility-runtime, or Unreal validation is claimed."
+  }
+}

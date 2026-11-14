@@ -1,0 +1,131 @@
+{
+  "StaticCheckId": "static-check.aquitaine.supply-logistics-transport-recovery.v1",
+  "StaticCheckVersion": "1.0.0",
+  "GeneratedDate": "2026-09-05",
+  "AuthorityFile": "Aquitaine_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+  "AuthoritySHA256": "5540b043eea0de677e648f881877c9f15342d22859326eea1c4a68e801944d99",
+  "AuthorityLineCount": 1340,
+  "AuthorityByteCount": 46808,
+  "Checks": [
+    {
+      "CheckId": "FilenameControlCorrect",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "ProjectBible2_4Present",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "Checklist3_7Present",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "UnrealEngine5_8Present",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "CurrentAquitaineChainPresent",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BenchmarkRolesExplicit",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "ThreeTrackTimePresent",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "OpeningValuesUnknownOrEmpty",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "OneRealmSupplyPoolRejected",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "MoneyNotGoods",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "RoutesNotTransport",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "PortNotFleet",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BarbastroInactive",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "WarPermissionGateRejected",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "PapalReliabilitySeparated",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "MarkdownFencesBalanced",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "EscapedUnderscoresAbsent",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "EscapedHyphensAbsent",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "EmDashesAbsent",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "UnsupportedBareActiveAbsent",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "StableFooterOnce",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FinalMarkerCorrect",
+      "Result": "Pass"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 22,
+    "Passes": 22,
+    "Failures": 0,
+    "Warnings": 0,
+    "Result": "Pass"
+  },
+  "ObservedCounts": {
+    "MarkdownHeadings": 57,
+    "MarkdownFences": 86,
+    "EscapedUnderscores": 0,
+    "EscapedHyphens": 0,
+    "EmDashes": 0,
+    "StableFooterCount": 1,
+    "FinalMarkerCount": 1
+  },
+  "MutationStatus": {
+    "SourceFilesOverwritten": 0,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "SupplySourceActivations": 0,
+    "StockActivations": 0,
+    "StorageActivations": 0,
+    "TransportActivations": 0,
+    "ConvoysCreated": 0,
+    "SupplyOrdersExecuted": 0,
+    "AttritionEventsExecuted": 0,
+    "MigrationExecutions": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

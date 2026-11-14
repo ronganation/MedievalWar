@@ -1,0 +1,164 @@
+{
+  "fixture_set_id": "fixtures.opening_state.valencia.1062.v3_3.package_v1",
+  "version": "1.0.0",
+  "synthetic_data_notice": "All fixture mutations are synthetic validation cases and are not campaign data.",
+  "fixtures": [
+    {
+      "fixture_id": "POS001",
+      "class": "Positive",
+      "description": "Unmodified candidate package validates statically",
+      "mutation_patch": {},
+      "expected_status": "Pass",
+      "expected_error_codes": [],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "POS002",
+      "class": "Positive",
+      "description": "Bounded consort uses household fallback",
+      "mutation_patch": {
+        "people.personref.valencia.toledan_consort_of_abd_al_malik.fallback": "HouseholdAndMarriageRelationshipOnly"
+      },
+      "expected_status": "Pass",
+      "expected_error_codes": [],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG001",
+      "class": "Negative",
+      "description": "Unknown population converted to zero",
+      "mutation_patch": {
+        "communities_and_institutions.population_total": 0
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "UNC001"
+      ],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG002",
+      "class": "Negative",
+      "description": "Abd al-Aziz created as living",
+      "mutation_patch": {
+        "people.person.valencia.abd_al_aziz_al_mansur.lifecycle": "Living"
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "PER001"
+      ],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG003",
+      "class": "Negative",
+      "description": "Ibn Rawbash activated at opening",
+      "mutation_patch": {
+        "people.personref.valencia.ibn_rawbash.activation_status": "Active"
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "PER003"
+      ],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG004",
+      "class": "Negative",
+      "description": "ReviewOnly site converted to possession",
+      "mutation_patch": {
+        "sites.site.valencia.xativa_shatiba.possession": "Valencia"
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "TER002"
+      ],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG005",
+      "class": "Negative",
+      "description": "Force family converted to force instance",
+      "mutation_patch": {
+        "forces.forcefamily.valencia.palace_guard.active_instance_id": "force.valencia.palace_guard_001"
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "MIL002"
+      ],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG006",
+      "class": "Negative",
+      "description": "External relation writes military access",
+      "mutation_patch": {
+        "relations.relation.valencia.toledo.military_access": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "OWN002"
+      ],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG007",
+      "class": "Negative",
+      "description": "Prior apply receipt ignored",
+      "mutation_patch": {
+        "transaction_policy.prior_apply_receipt": "Exists"
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "TXN001"
+      ],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG008",
+      "class": "Negative",
+      "description": "Advanced save targeted",
+      "mutation_patch": {
+        "package.application_scope": "ExistingSave"
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "TXN002"
+      ],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "BND001",
+      "class": "Boundary",
+      "description": "Optional ReviewOnly site remains quarantined",
+      "mutation_patch": "NoPatch",
+      "expected_status": "PassWithQuarantine",
+      "expected_error_codes": [],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "BND002",
+      "class": "Boundary",
+      "description": "Required opening ruler unresolved",
+      "mutation_patch": "RemoveRequiredRuler",
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "ID001"
+      ],
+      "expected_mutation_count": 0,
+      "execution_status": "DefinedNotExecuted"
+    }
+  ],
+  "execution_status": "DefinedNotExecuted"
+}

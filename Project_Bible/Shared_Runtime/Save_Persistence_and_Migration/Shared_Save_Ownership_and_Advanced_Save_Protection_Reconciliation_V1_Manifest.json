@@ -1,0 +1,18 @@
+{
+  "FileName": "Shared_Save_Ownership_and_Advanced_Save_Protection_Reconciliation_V1.md",
+  "SHA256": "4954FB93365C307CE1C9D8A1051E86E2E34D04DDFF40CEEA74530874CF4D976A",
+  "Bytes": 15222,
+  "Lines": 416,
+  "Checks": {
+    "filename": true,
+    "ue58": true,
+    "item3": true,
+    "candidate": true,
+    "no_completion": true,
+    "no_runtime": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "fences": true,
+    "footer": true
+  }
+}

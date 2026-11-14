@@ -1,0 +1,20 @@
+{
+  "target": "Ireland_Historical_Memory_V1.2_Current_Authority_Correction.md",
+  "status": "PASS",
+  "checks": {
+    "literal_source_prefix": true,
+    "project_controls": true,
+    "three_tracks": true,
+    "connacht_canonical": true,
+    "two_direct_aliases": true,
+    "clonmacnoise_family_14": true,
+    "saint_separate": true,
+    "momentum_interfaces": true,
+    "emergence_interfaces": true,
+    "no_opening_activation": true,
+    "honest_validation": true,
+    "no_mutation": true,
+    "literal_formatting": true,
+    "all_pass": true
+  }
+}

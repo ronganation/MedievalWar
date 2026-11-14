@@ -1,0 +1,11 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N13_external_owned_local",
+  "mutated_candidate": {
+    "owner": "Brittany",
+    "stable_id": "institution.church_tours_metropolitan"
+  },
+  "result": "PASS",
+  "rule": "ExternalOwnerFirewall"
+}

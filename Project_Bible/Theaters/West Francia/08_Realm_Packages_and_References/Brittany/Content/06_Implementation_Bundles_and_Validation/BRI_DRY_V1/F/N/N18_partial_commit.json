@@ -1,0 +1,16 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N18_partial_commit",
+  "mutated_candidate": {
+    "created": [
+      "a"
+    ],
+    "failed": [
+      "b"
+    ],
+    "rolled_back": false
+  },
+  "result": "PASS",
+  "rule": "AtomicRollback"
+}

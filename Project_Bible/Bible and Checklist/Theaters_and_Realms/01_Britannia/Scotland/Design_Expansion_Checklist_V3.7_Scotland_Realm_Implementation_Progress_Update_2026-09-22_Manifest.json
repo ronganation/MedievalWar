@@ -1,0 +1,21 @@
+{
+  "document_id": "mw.design-expansion-checklist.3.7.scotland-realm-implementation-progress.2026-09-22",
+  "status": "ReadyForPlacement",
+  "date": "2026-09-22",
+  "files": [
+    {
+      "filename": "Design_Expansion_Checklist_V3.7_Scotland_Realm_Implementation_Progress_Update_2026-09-22.md",
+      "sha256": "AA1BA0872E47923DA0424B5C1D7D1140E021B84585D23FC7E6A5C546E38DB2CB",
+      "bytes": 17233,
+      "lines": 421
+    }
+  ],
+  "controlling_evidence": [
+    "SCOT_IMP_08C_CLOSEOUT_RECEIPT.json",
+    "SCOT_IMP_09A_RECEIPT.json",
+    "SCOT_IMP_09A_R1_RECEIPT.json"
+  ],
+  "final_decision": "ScotlandImplementationCoverageClosed_StopBeforeApplication",
+  "next_realm_entry_gate": "Wales comprehensive current-state and implementation-gap assessment",
+  "production_authority": false
+}

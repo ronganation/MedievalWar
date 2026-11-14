@@ -1,0 +1,21 @@
+{
+  "document": "Guild_Supported_Swordsmen_V2_Master_Unit_Profile.md",
+  "sha256": "7bfb6e2cbe415c9bf1de10201a7ed2d92f03ac01824f82745e44f51428e7ff39",
+  "checks": {
+    "substantive_length": true,
+    "sections_consecutive": true,
+    "section_count_at_least_80": true,
+    "legacy_terrain_17": true,
+    "legacy_values_present": true,
+    "fresh_day_reassessment": true,
+    "v1_preservation": true,
+    "institution_gate": true,
+    "city_guard_collision": true,
+    "implementation_batch_handoff": true,
+    "rollback_present": true,
+    "no_escaped_underscores": true,
+    "fences_balanced": true,
+    "footer_final": true,
+    "pass": true
+  }
+}

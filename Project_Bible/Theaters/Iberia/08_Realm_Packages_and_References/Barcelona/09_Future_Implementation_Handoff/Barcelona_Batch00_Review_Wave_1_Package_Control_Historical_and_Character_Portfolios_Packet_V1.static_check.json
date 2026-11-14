@@ -1,0 +1,19 @@
+{
+  "document": "Barcelona_Batch00_Review_Wave_1_Package_Control_Historical_and_Character_Portfolios_Packet_V1.md",
+  "version": "1.0.0",
+  "result": "PASS",
+  "checks": {
+    "fences": true,
+    "portfolios": true,
+    "decisions": true,
+    "refresh": true,
+    "tracks": true,
+    "no_mutation": true,
+    "end": true
+  },
+  "lines": 444,
+  "bytes": 16742,
+  "sha256": "52638909760840b09ca50b2605cd30df01a1b494f3ab8a734ed53c4686475fa4",
+  "ownerDecisionsRecorded": 0,
+  "implementationStarted": false
+}

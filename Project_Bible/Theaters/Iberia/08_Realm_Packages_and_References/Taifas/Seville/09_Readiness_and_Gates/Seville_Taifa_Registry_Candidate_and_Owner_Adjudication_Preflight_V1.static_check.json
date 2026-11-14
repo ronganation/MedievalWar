@@ -1,0 +1,167 @@
+{
+  "ArtifactId": "Seville_Taifa_Registry_Candidate_and_Owner_Adjudication_Preflight_V1",
+  "ArtifactType": "NonMutatingRegistryCandidateOwnerAdjudicationPreflight",
+  "Status": "STATIC_CHECKED",
+  "GeneratedDate": "2026-08-18",
+  "Authorities": {
+    "ProjectBible": "2.3.8",
+    "DesignExpansionChecklist": "3.6.8",
+    "AlmoravidHandoff": "1.0.0",
+    "TaifaMatrix": "V1",
+    "SevilleHistoricalReconciliation": "V1",
+    "SevilleContradictionLedger": "V1",
+    "SevilleDefinitionAndExternalLockPlanning": "V1"
+  },
+  "Boundary": {
+    "CreatesCanonicalIds": false,
+    "CreatesRegistryEntries": false,
+    "CreatesAliases": false,
+    "CreatesMigrations": false,
+    "CreatesExternalLocks": false,
+    "CreatesOpeningState": false,
+    "CreatesRuntimeInstances": false,
+    "CreatesArmies": false,
+    "CreatesTreasuries": false,
+    "CreatesPariaAgreements": false,
+    "CreatesRelationships": false,
+    "CreatesPortOperations": false,
+    "CreatesMintOperations": false,
+    "ReopensAlmoravid": false
+  },
+  "CandidateDispositionCounts": {
+    "GoForRegistryDraft": 11,
+    "GoForRegistryDraftWithTypeAdjudication": 1,
+    "ReviewOnly": 1,
+    "SharedOwnerRequestOnly": 2,
+    "ExternalLockRequestOnly": 9,
+    "NoGoQuarantineFamilies": 12
+  },
+  "ExternalLockPreflight": {
+    "RequestReady": [
+      "Leon-Castile"
+    ],
+    "RequestReadyReferenceOnly": [
+      "Almoravids"
+    ],
+    "OwnerNotYetEstablished": [
+      "Badajoz",
+      "Granada"
+    ],
+    "OwnerResolutionRequired": [
+      "Cordoba",
+      "Carmona",
+      "Moron",
+      "Ronda",
+      "Arcos"
+    ],
+    "LocksCreated": 0
+  },
+  "PlanningLabelPolicy": {
+    "Prefixes": [
+      "candidate.",
+      "concept.",
+      "lock_request.",
+      "quarantine."
+    ],
+    "AllowedInCanonicalIds": false,
+    "AllowedInContent": false,
+    "AllowedInGameplayTags": false,
+    "AllowedInImporterPayloads": false,
+    "AllowedInSaves": false,
+    "AllowedInMigrations": false,
+    "AllowedInHashes": false
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "HistoricalProgressionAgesCharacters": false,
+    "BiologicalProgressionResolvesRealmStrategy": false
+  },
+  "Decision": {
+    "BoundedRegistryV1AuthoringRecommended": true,
+    "CanonicalIdAssignmentAuthorizedOnlyInsideRegistryDraft": true,
+    "RegistryDraftMustBeProposed": true,
+    "RegistryDraftMustBeOwnerAdjudicationPending": true,
+    "RegistryCommitAuthorized": false,
+    "ExternalLockCreationAuthorized": false,
+    "OpeningStateAuthoringAuthorized": false
+  },
+  "Gates": [
+    {
+      "Id": "AUTHORITY_CHAIN",
+      "Result": "Pass"
+    },
+    {
+      "Id": "CANDIDATE_INVENTORY",
+      "Result": "Pass"
+    },
+    {
+      "Id": "TYPE_FAMILY_REVIEW",
+      "Result": "PassWithSaltesPending"
+    },
+    {
+      "Id": "OWNER_PROPOSALS",
+      "Result": "Pass"
+    },
+    {
+      "Id": "DUPLICATE_COLLISION_CATALOGUE",
+      "Result": "Pass"
+    },
+    {
+      "Id": "EXTERNAL_LOCK_PREFLIGHT",
+      "Result": "PassNoLocksCreated"
+    },
+    {
+      "Id": "PLANNING_LABEL_ESCAPE_POLICY",
+      "Result": "Pass"
+    },
+    {
+      "Id": "QUARANTINE_PRESERVATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "DEFINITION_SCENARIO_RUNTIME_SEPARATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "THREE_TRACK_TIME",
+      "Result": "Pass"
+    },
+    {
+      "Id": "SAVE_MIGRATION_SAFETY",
+      "Result": "PassAtDesignLevel"
+    },
+    {
+      "Id": "ALMORAVID_PRESERVATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "PROPOSED_REGISTRY_DRAFT",
+      "Result": "ConditionalGo"
+    },
+    {
+      "Id": "REGISTRY_COMMIT",
+      "Result": "NoGo"
+    },
+    {
+      "Id": "OPENING_STATE",
+      "Result": "NoGo"
+    }
+  ],
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false
+  },
+  "SmallestUsefulNextAction": "Seville_Taifa_ID_Registry_V1.md"
+}

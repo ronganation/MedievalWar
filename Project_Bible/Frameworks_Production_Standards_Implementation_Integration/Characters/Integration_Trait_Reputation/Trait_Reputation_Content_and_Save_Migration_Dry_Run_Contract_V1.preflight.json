@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationContentSaveMigrationContractPreflight",
+    "name": "Trait Reputation Content and Save Migration Dry Run Contract Preflight V1",
+    "version": "1.0",
+    "status": "PassedContractStaticChecks_RepositoryInputsPending",
+    "authority_class": "Migration Contract Static Preflight"
+  },
+  "inputs": {
+    "contract": {
+      "file": "Trait_Reputation_Content_and_Save_Migration_Dry_Run_Contract_V1.json"
+    },
+    "trait_registry": {
+      "file": "Trait_Canonical_Registry_V1_1.json",
+      "record_count": 37
+    },
+    "reputation_registry": {
+      "file": "Reputation_Dimension_Registry_V1_1.json",
+      "record_count": 9
+    },
+    "migration_map": {
+      "file": "Trait_Reputation_Direct_Migration_Map_V1.json",
+      "mapping_count": 46
+    }
+  },
+  "checks": {
+    "registry_counts_reconcile": true,
+    "mapping_count_matches_registry_records": true,
+    "legacy_reconciliation": true,
+    "direct_mapping_only": true,
+    "alias_chains_prohibited": true,
+    "source_content_immutable": true,
+    "source_save_immutable": true,
+    "advanced_state_preserved": true,
+    "opening_state_reapplication_prohibited": true,
+    "quarantine_required": true,
+    "rollback_required": true,
+    "determinism_required": true
+  },
+  "run": {
+    "mode": "MigrationContractStaticPreflight",
+    "execution_status": "Completed",
+    "verdict": "PassWithRepositoryInventoryAndImplementationLocks",
+    "migration_execution_authorized": false,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "registry_mutations": 0
+  },
+  "diagnostics": [
+    {
+      "code": "TRMIG-0001",
+      "severity": "Info",
+      "message": "Committed registry and direct-map counts reconcile."
+    },
+    {
+      "code": "TRMIG-0002",
+      "severity": "ReviewRequired",
+      "message": "Exact repository reader and writer inventory has not been executed."
+    },
+    {
+      "code": "TRMIG-0003",
+      "severity": "ReviewRequired",
+      "message": "Save schemas, save versions, and fixture saves have not been supplied."
+    },
+    {
+      "code": "TRMIG-0004",
+      "severity": "BlockingError",
+      "message": "Migration apply remains unauthorized until compile, runtime, save, determinism, rollback, and idempotence gates pass."
+    }
+  ],
+  "validation": {
+    "contract_static_checks_passed": true,
+    "repository_inventory_available": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "determinism_validated": false,
+    "rollback_validated": false
+  },
+  "smallest_useful_next_action": "Run the zero-mutation repository inventory and create Trait_Reputation_Legacy_Reader_Writer_Inventory_V1.json. Search exact project sources, content, Blueprints, scenarios, profiles, AI, UI, localization, tests, save schemas, and save fixtures. Do not simulate missing repository results."
+}

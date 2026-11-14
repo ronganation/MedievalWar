@@ -1,0 +1,214 @@
+receipt_version: 1.0.0
+receipt_status: PartialBatchDZeroMutationAndPromotionStopEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+receipt_scope:
+  - BatchDArtifactsCreatedInCurrentConversation
+  - VisibleFolder07PlacementEvidence
+  - SourceAuthorityNonmutationBoundary
+  - PromotionAndActivationStopState
+source_package_direct_access: false
+complete_recursive_scan_executed: false
+cryptographic_package_before_after_comparison: NotRun
+batch_d_artifacts:
+  - file_name: Hammadid_Current_Authority_Closure_Stale_Pointer_and_Zero_Mutation_Summary_V1.md
+    role: CurrentAuthorityClosureStalePointerAndZeroMutationSummary
+    size_bytes: 16321
+    sha256: 7fac8fe5a7b4b916b653ebb5d69d51b5cb8af2a21f52af93b59dd2db3dce8b6b
+    validation_state: StaticChecked
+  - file_name: Hammadid_Stale_Next_File_Pointer_Ledger_V1.yaml
+    role: StaleCompletedRejectedPartialAndActivePointerLedger
+    size_bytes: 10466
+    sha256: 54089f0546a7c74e84572d72828c8137ffee0035feb2bc8419ad162e3b4b15d2
+    validation_state: StaticChecked
+  - file_name: Hammadid_Candidate_Disposition_and_Current_Authority_Stop_Gate_Ledger_V1.yaml
+    role: CandidateDispositionCurrentAuthorityAndStopGateLedger
+    size_bytes: 11901
+    sha256: f4acbd50e632d7f6c32d32ba30eb48790486440be7d92c98af5dd8a42968130d
+    validation_state: StaticChecked
+  - file_name: Hammadid_Batch_D_Zero_Mutation_and_Promotion_Stop_Receipt_V1.yaml
+    role: ThisReceipt
+visible_placement_evidence:
+  folder: 07_Cross_Authority_Registry_and_Validation
+  corrected_visible_rows_before_batch_d_file1_placement: 26
+  batch_a_files_visible: 5
+  batch_b_files_visible: 5
+  batch_c_files_visible: 5
+  evidence_source: OwnerProvidedScreenshot
+  package_wide_count_claimed: false
+nonmutation_receipt:
+  user_source_files_opened_for_write: 0
+  user_source_files_modified: 0
+  user_source_files_created_by_automation: 0
+  user_source_files_deleted: 0
+  user_source_files_moved: 0
+  user_source_files_renamed: 0
+  user_source_permissions_changed: 0
+  existing_registry_records_modified: 0
+  existing_opening_state_records_modified: 0
+  save_schema_modified: false
+  runtime_state_modified: false
+  unreal_project_modified: false
+artifact_generation_boundary:
+  evidence_artifacts_created_outside_user_source_package: true
+  owner_manually_places_downloaded_artifacts: true
+  source_package_cryptographic_zero_mutation_proven: false
+  reason_not_proven: CompleteLocalPackageNotMountedForBeforeAndAfterHashComparison
+promotion_stop_receipt:
+  PackageDefinitionArtifacts:
+    state: REVIEW_ONLY
+    promotion_authorized: false
+  BatchAEvidence:
+    state: PARTIAL
+    promotion_authorized: false
+  BatchBEvidence:
+    state: PARTIAL
+    promotion_authorized: false
+  BatchCEvidence:
+    state: PARTIAL
+    promotion_authorized: false
+  BatchDEvidence:
+    state: PARTIAL
+    promotion_authorized: false
+  RegistryReview:
+    state: HOLD
+    promotion_authorized: false
+  CanonicalRegistryPublication:
+    state: PROHIBITED
+    promotion_authorized: false
+  OpeningStateFreeze:
+    state: PROHIBITED
+    promotion_authorized: false
+  OpeningStateActivation:
+    state: PROHIBITED
+    promotion_authorized: false
+  MachineReadableCandidateBundle:
+    state: PROHIBITED
+    promotion_authorized: false
+  PayloadGeneration:
+    state: PROHIBITED
+    promotion_authorized: false
+  ImporterExecution:
+    state: PROHIBITED
+    promotion_authorized: false
+  RuntimeMutation:
+    state: PROHIBITED
+    promotion_authorized: false
+  UnrealMutation:
+    state: PROHIBITED
+    promotion_authorized: false
+stop_gate_receipt:
+  - gate_ref: HMD_STOP_001
+    gate: CompleteRecursiveManifest
+    state: BLOCKED
+    evidence: NotRun
+  - gate_ref: HMD_STOP_002
+    gate: CompletePackageHashLedger
+    state: BLOCKED
+    evidence: NotRun
+  - gate_ref: HMD_STOP_003
+    gate: CompleteRawBatchBClosure
+    state: BLOCKED
+    evidence: Partial
+  - gate_ref: HMD_STOP_004
+    gate: ValidationAuthoritySupersession
+    state: BLOCKED
+    evidence: LineageApprovalMissing
+  - gate_ref: HMD_STOP_005
+    gate: OpeningStateAuthoritySupersession
+    state: BLOCKED
+    evidence: LineageAndBoundaryApprovalMissing
+  - gate_ref: HMD_STOP_006
+    gate: AnNasirCanonicalIdentity
+    state: BLOCKED
+    evidence: ArtifactDispositionMissing
+  - gate_ref: HMD_STOP_007
+    gate: ScenarioBoundary
+    state: BLOCKED
+    evidence: HMD_DATE_001Missing
+  - gate_ref: HMD_STOP_008
+    gate: ScenarioAndTheaterExternalLocks
+    state: BLOCKED
+    evidence: OwnerReceiptsMissing
+  - gate_ref: HMD_STOP_009
+    gate: CanonicalEntityKindsAndMappings
+    state: BLOCKED
+    evidence: RegistryAndTaxonomyReceiptsMissing
+  - gate_ref: HMD_STOP_010
+    gate: ReciprocalExternalState
+    state: BLOCKED
+    evidence: CounterpartyReceiptsMissing
+  - gate_ref: HMD_STOP_011
+    gate: OpeningFactBindings
+    state: BLOCKED
+    evidence: IdentityBoundaryOwnerAndEvidenceClosureMissing
+  - gate_ref: HMD_STOP_012
+    gate: PayloadImporterRuntimeUnreal
+    state: BLOCKED
+    evidence: SeparateFutureAuthorizationMissing
+blocked_action_receipt:
+  canonical_ids_allocated: 0
+  aliases_executed: 0
+  migrations_executed: 0
+  entities_created: 0
+  quarantines_released: 0
+  reciprocal_records_activated: 0
+  opening_bindings_created: 0
+  payloads_created: 0
+  importers_created: 0
+  importers_run: 0
+  runtime_mutations: 0
+  unreal_mutations: 0
+candidate_protection_receipt:
+  completed_targets_recreated: 0
+  rejected_targets_created: 0
+  quarantined_candidates_bound: 0
+  successor_candidates_promoted: 0
+  source_files_superseded: 0
+  source_files_deleted: 0
+  source_files_renamed: 0
+  source_files_moved: 0
+limitations:
+  - ReceiptCoversCurrentConversationArtifactGenerationAndDeclaredStopState
+  - ReceiptDoesNotReplaceCompleteRecursivePhysicalEvidence
+  - ReceiptDoesNotProveFullPackageByteForByteNonmutation
+  - ReceiptDoesNotReturnAnyOwnerDecision
+  - ReceiptDoesNotAuthorizeRegistryOpeningPayloadImporterRuntimeOrUnrealWork
+rollback:
+  source_package_rollback_required: false
+  reason: NoAutomatedSourcePackageMutationPerformed
+  generated_artifact_rollback: RemoveOnlyDownloadedBatchDArtifactsIfOwnerRejectsThem
+  canonical_registry_rollback_required: false
+  opening_state_rollback_required: false
+  runtime_or_unreal_rollback_required: false
+acceptance_checks:
+  BatchDArtifactHashesRecorded: PASS
+  SourceWriteOperationsPerformed: 0
+  CompletedTargetsRecreated: 0
+  RejectedTargetsCreated: 0
+  QuarantinedCandidatesBound: 0
+  PromotionsAuthorized: 0
+  TwelveStopGatesRemainBlocked: PASS
+  RegistryAndOpeningPromotionHeld: PASS
+  PayloadImporterRuntimeUnrealHeld: PASS
+  CryptographicPackageZeroMutation: NOT_RUN
+result:
+  artifact_generation_zero_source_mutation: PASS
+  promotion_stop_enforced: PASS
+  stop_gate_count: 12
+  stop_gates_blocked: 12
+  stop_gates_open: 0
+  batch_d_closure: PARTIAL
+  owner_review_required: true
+next_file: Hammadid_Evidence_Pack_Batch_D_Summary_V1.md
+stable_footer:
+  stable_document_id: HMD_BATCH_D_ZERO_MUTATION_PROMOTION_STOP_RECEIPT
+  version: 1.0.0
+  status: PartialBatchDZeroMutationAndPromotionStopEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  payload_authorized: false
+  importer_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false

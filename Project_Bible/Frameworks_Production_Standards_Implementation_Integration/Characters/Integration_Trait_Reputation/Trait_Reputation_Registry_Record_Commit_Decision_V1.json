@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationRegistryRecordCommitDecision",
+    "name": "Trait Reputation Registry Record Commit Decision V1",
+    "version": "1.0",
+    "status": "AuthoritativeRegistryCommitApprovedAndApplied",
+    "authority_class": "Registry Commit Decision"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Registry_Record_Commit_Decision_V1.json"
+  },
+  "decision_authority": {
+    "authority_id": "IntegrationAuthorities.Characters.TraitReputation.RegistryGovernance",
+    "decision_date": "2026-08-13",
+    "scope": "Registry definition snapshots and approved direct migration map only"
+  },
+  "inputs": [
+    {
+      "file": "Trait_Canonical_Registry_V1_1.staging.json",
+      "records": 37
+    },
+    {
+      "file": "Reputation_Dimension_Registry_V1_1.staging.json",
+      "records": 9
+    },
+    {
+      "file": "Trait_Reputation_Direct_Migration_Map_V1.staging.json",
+      "mappings": 46
+    },
+    {
+      "file": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.preflight.json",
+      "expected_verdict": "PassStagingValidation_AuthoritativeCommitRequiresSeparateDecision"
+    }
+  ],
+  "decision": "ApproveAuthoritativeRegistryCommit",
+  "committed_outputs": [
+    "Trait_Canonical_Registry_V1_1.json",
+    "Reputation_Dimension_Registry_V1_1.json",
+    "Trait_Reputation_Direct_Migration_Map_V1.json"
+  ],
+  "preserved_provenance": [
+    "Trait_Canonical_Registry_V1.json",
+    "Reputation_Dimension_Registry_V1.json",
+    "all staging files and prior decisions"
+  ],
+  "authorization_boundary": {
+    "registry_definition_commit_authorized": true,
+    "migration_map_commit_authorized": true,
+    "migration_execution_authorized": false,
+    "legacy_content_rewrite_authorized": false,
+    "runtime_state_authorized": false,
+    "save_migration_authorized": false,
+    "ue5_implementation_authorized": false
+  },
+  "count_contract": {
+    "trait_records_committed": 37,
+    "reputation_records_committed": 9,
+    "total_records_committed": 46,
+    "direct_mappings_committed": 46,
+    "mappings_executed": 0,
+    "reconciliation": "Pass"
+  },
+  "run": {
+    "mode": "RegistryRecordCommitDecision",
+    "verdict": "PassCommitApprovedAndApplied",
+    "registry_records_committed": 46,
+    "migration_map_records_committed": 46,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "smallest_useful_next_action": "Create a content and save migration dry-run contract using the committed registries and direct migration map. Inventory exact legacy Trait/Reputation readers and writes first; do not execute migration or create runtime state until compile, runtime, save, determinism, and rollback gates exist."
+}

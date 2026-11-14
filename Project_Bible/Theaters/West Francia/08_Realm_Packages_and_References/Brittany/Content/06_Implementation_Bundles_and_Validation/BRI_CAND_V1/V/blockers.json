@@ -1,0 +1,14 @@
+{
+  "blocker_ids": [
+    "BRI_IMPL_001",
+    "BRI_IMPL_002",
+    "BRI_IMPL_003",
+    "BRI_IMPL_004",
+    "BRI_IMPL_005",
+    "BRI_IMPL_007",
+    "BRI_IMPL_008",
+    "BRI_IMPL_009"
+  ],
+  "candidate_payload_generation_blocker_BRI_IMPL_006": "ResolvedByThisCandidateZIP",
+  "production_promotion_blocked": true
+}

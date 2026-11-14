@@ -1,0 +1,9 @@
+Dependency,RequiredState,PermittedUse,ForbiddenUse,FailureDisposition
+FRANCE-IMP-04A,Owner-accepted predecessor,Read-only character and dynasty interface contracts,Modification or bypass,STOP
+France governance authority,Fingerprint locked,Review-field provenance,Runtime payload invention,STOP
+France law and jurisdiction authority,Fingerprint locked,Review-field provenance,Automatic legal resolution,STOP
+France titles and succession authority,Fingerprint locked,Review-field provenance,Claim or succession activation,STOP
+France ecclesiastical authority,Fingerprint locked,Review-field provenance,See or office activation,STOP
+France candidate registry,Review-only and unresolved states preserved,Candidate reference validation,Canonical promotion,STOP
+France Opening State,Read-only authority boundary,Compatibility checking,Mutation or seed authoring,STOP
+Shared frameworks,Discovered before mutation,Regression reference,Undocumented ownership assumption,STOP

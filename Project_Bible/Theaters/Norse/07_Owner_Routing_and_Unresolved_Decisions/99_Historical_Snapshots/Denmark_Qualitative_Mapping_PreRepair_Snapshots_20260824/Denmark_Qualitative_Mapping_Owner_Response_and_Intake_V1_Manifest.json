@@ -1,0 +1,78 @@
+{
+  "manifest_id": "manifest.denmark.qualitative_mapping.owner_response_and_intake.v1",
+  "version": "1.0.0",
+  "status": "PASS_PENDING_OWNER_RESPONSE_AND_RECEIPT_PACKAGE_STATIC_CHECK",
+  "artifact_count": 7,
+  "hashed_artifact_count": 6,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "stable_order": 10,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.md",
+      "bytes": 6385,
+      "lines": 225,
+      "sha256": "89E064BF56A31D749A8E325A79AE8DC7E259085E3B45761651713FD5E5E2375B"
+    },
+    {
+      "stable_order": 20,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.json",
+      "bytes": 6205,
+      "lines": 166,
+      "sha256": "25858F646CF13DC3194F8F0569FC56E5C89CFD16EEE6F41628E59C2828F59250"
+    },
+    {
+      "stable_order": 30,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json",
+      "bytes": 1679,
+      "lines": 48,
+      "sha256": "0C9101F36C5588E59082B706D125B0E63FC4499303F810BB2C774A16DD19B30B"
+    },
+    {
+      "stable_order": 40,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Schema.json",
+      "bytes": 12079,
+      "lines": 452,
+      "sha256": "0EB838858BA4270AA63C17DE0C8693700D2B35C1DCF8CE83A5681F8459E6AEA8"
+    },
+    {
+      "stable_order": 50,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Validation_Profile.json",
+      "bytes": 1284,
+      "lines": 31,
+      "sha256": "BDCFC059BBC3225501F8579D9E29B308D1EAEB5ADD72EAEA2346A3921860B0DB"
+    },
+    {
+      "stable_order": 60,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Static_Check.json",
+      "bytes": 726,
+      "lines": 20,
+      "sha256": "078A0407E46A483D5EFB5D9F211326AF83B942DC9F7FE36D5567EEF4FA26164B"
+    }
+  ],
+  "checks": {
+    "check_id": "check.denmark.qualitative_mapping.owner_response_and_intake.v1",
+    "status": "PASS_PENDING_OWNER_RESPONSE_AND_RECEIPT_STATIC_CHECK",
+    "request_count_exactly_7": true,
+    "stable_order_exact": true,
+    "request_ids_unique": true,
+    "pending_count_exactly_6": true,
+    "deferred_count_exactly_1": true,
+    "all_owner_authorities_null": true,
+    "all_owner_receipts_null": true,
+    "all_dispositions_null": true,
+    "no_approval_scope_granted": true,
+    "authorization_closed": true,
+    "pending_intake_empty": true,
+    "schema_additional_properties_closed": true,
+    "schema_runtime_mutation_forced_false": true,
+    "ledger_summary_consistent": true,
+    "markdown_fences_balanced": true,
+    "no_escaped_underscores": true
+  },
+  "source_authorities": [
+    "Denmark_Qualitative_Mapping_Authority_and_Owner_Receipt_Decision_Packet_V1.md",
+    "Campaign_Theater_Owner_Response_Ledger_V1.json",
+    "Campaign_Theater_Owner_Receipt_Intake_V1_Schema.json"
+  ],
+  "authorization_closed": true
+}

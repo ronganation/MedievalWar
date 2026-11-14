@@ -1,0 +1,19 @@
+{
+  "document": "Galloway_Spear_Warband_V1_2_Master_Unit_Profile.md",
+  "version": "1.2.0",
+  "status": "ReviewOnlyCopyFirstIntegratedRegionalControllerAccessSuccessorCandidate",
+  "size_bytes": 63075,
+  "line_count": 1176,
+  "numbered_sections": 73,
+  "terrain_rows": 25,
+  "definition_scope": "Regional",
+  "region_id": "Region.Galloway",
+  "realm_owner": "NoneRegionalSourceOwned",
+  "opening_controller_context": "Unresolved",
+  "three_threshold_gate": true,
+  "single_controlling_profile": true,
+  "immediate_substantive_source": "Scotland_Galloway_Spear_Warband_V1_1_Double_Checked_Mature_Faction_Refinement_Full_Master_Unit_Profile.md",
+  "source_files_modified": [],
+  "source_files_deleted": [],
+  "sha256": "93ab50411acc27762236c50146be832f6383fb03181690154599d47f00cbb964"
+}

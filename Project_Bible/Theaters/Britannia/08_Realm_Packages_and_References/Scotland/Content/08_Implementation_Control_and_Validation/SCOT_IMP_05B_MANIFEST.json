@@ -1,0 +1,31 @@
+{
+  "TaskId": "SCOT-IMP-05B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "Date": "2026-09-22",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "EntranceGate": "SCOT-IMP-05A",
+  "SelectedLane": "HistoricalEmergenceProgression",
+  "ProposedFilesAdded": 12,
+  "ProposedFilesModified": 0,
+  "ProposedNewTests": 24,
+  "RequiredRegressionCounts": [
+    16,
+    16,
+    12,
+    13,
+    5,
+    10
+  ],
+  "PlanSHA256": "D0B85A0A2188E60A150052405AF897FB94585B6A156156EF2F0AE6D8D7462257",
+  "PlanBytes": 14409,
+  "PlanLines": 448,
+  "EligibleForImplementation": false,
+  "EligibleForApplication": false,
+  "PathwayActivation": false,
+  "OutcomeActivation": false,
+  "TimelineAdvancement": false,
+  "CharacterCreation": false,
+  "RuntimeMutation": false,
+  "ProductionAuthority": false,
+  "NextGate": "SCOT-IMP-05C"
+}

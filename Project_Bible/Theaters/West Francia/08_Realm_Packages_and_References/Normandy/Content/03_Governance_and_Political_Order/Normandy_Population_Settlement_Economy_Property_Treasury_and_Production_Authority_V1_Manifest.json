@@ -1,0 +1,23 @@
+{
+  "filename": "Normandy_Population_Settlement_Economy_Property_Treasury_and_Production_Authority_V1.md",
+  "version": "1.0.0",
+  "bytes": 38856,
+  "lines": 1036,
+  "sha256": "AC2D192D337E3859217622E6659874CF7B7DDC95E621BDE66EDBA23233D9BAD9",
+  "stable_document_id": "EconomyPopulation.Realm.Normandy",
+  "operating_portfolios": 33,
+  "record_contracts": 8,
+  "positive_fixtures": 25,
+  "negative_fixtures": 30,
+  "opening_records_created": 0,
+  "exact_numeric_values_created": 0,
+  "foreign_realm_state_created": 0,
+  "registry_rows_created": 0,
+  "opening_state_mutations": 0,
+  "runtime_mutations": 0,
+  "unreal_project_mutations": 0,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "importer_validated": false,
+  "placement": "Content/03_Governance_and_Political_Order"
+}

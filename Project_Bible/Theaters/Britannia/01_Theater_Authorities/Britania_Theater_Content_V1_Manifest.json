@@ -1,0 +1,29 @@
+{
+  "FileName": "Britania_Theater_Content_V1.md",
+  "Version": "1.0",
+  "Status": "Static-Checked Design Baseline",
+  "AuthorityPair": [
+    "Project Bible 2.4",
+    "Design Expansion Checklist 3.7"
+  ],
+  "SHA256": "E103BE5902E5AC855D25F279C3D8D4ECF5E487E6434E1D70EB56202BC61C530B",
+  "Checks": {
+    "title": true,
+    "static_checked": true,
+    "theater_id_reserved": true,
+    "no_runtime": true,
+    "opening_1062": true,
+    "historical_21_months": true,
+    "biological_7_months": true,
+    "season_order": true,
+    "no_scripted_1066": true,
+    "norse_interface": true,
+    "western_francia_interface": true,
+    "development_gate_363": true,
+    "unreal_deferred": true,
+    "next_action": true,
+    "single_footer": true,
+    "lines": 1063,
+    "bytes": 44608
+  }
+}

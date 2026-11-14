@@ -1,0 +1,17 @@
+﻿{
+    "AuditId":  "OS-VIS-04G-CLOSEOUT",
+    "Mode":  "ReadOnly",
+    "Present":  7,
+    "Required":  7,
+    "Missing":  0,
+    "ReadyForOwnerReview":  true,
+    "SourceFilesModified":  0,
+    "TranslationInputModified":  false,
+    "ManifestModified":  false,
+    "RegistryMutated":  false,
+    "GameInstanceCreated":  false,
+    "ApplyCalled":  false,
+    "SaveWritten":  false,
+    "RealmPayloadApplied":  false,
+    "TheaterActivated":  false
+}

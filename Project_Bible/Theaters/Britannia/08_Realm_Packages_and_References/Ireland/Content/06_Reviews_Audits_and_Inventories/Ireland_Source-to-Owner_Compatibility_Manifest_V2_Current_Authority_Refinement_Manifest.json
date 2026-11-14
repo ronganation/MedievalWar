@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CurrentAuthorityRefinementWithCompleteV1RetainedSeparately",
+  "immediate_substantive_source": "Ireland_Source-to-Owner_Compatibility_Manifest.md",
+  "source_preservation_mode": "SeparateCompleteSourceRetainedUnmodified",
+  "authority_file": "Ireland_Source-to-Owner_Compatibility_Manifest_V2_Current_Authority_Refinement.md",
+  "authority_bytes": 23326,
+  "authority_sha256": "eb0ccc7694bf1c29e5ef77b6520182e9a2616d9d2b50137e68b1e85c8daa14c8",
+  "current_disposition_rows": 26,
+  "source_files_modified": 0,
+  "Registry_mutations": 0,
+  "migration_executions": 0,
+  "Opening_State_mutations": 0,
+  "Unreal_mutations": 0,
+  "static_check_file": "Ireland_Source-to-Owner_Compatibility_Manifest_V2_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "be4d34275b334f509a3eb62879820de38b2c9066cd6d6da573c9b41a1492013f",
+  "validation_scope": "static current-authority compatibility refinement only; complete V1 remains separate and unchanged; no source-field execution coverage, repository closure, Registry mutation, migration execution, importer, compile, runtime, or save/load validation"
+}

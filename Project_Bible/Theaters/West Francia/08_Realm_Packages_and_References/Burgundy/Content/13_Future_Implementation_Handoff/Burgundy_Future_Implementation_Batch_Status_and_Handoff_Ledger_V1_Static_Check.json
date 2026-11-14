@@ -1,0 +1,20 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "batch_records_15": true,
+    "implementation_false_15": true,
+    "three_tracks": true,
+    "transition_contract": true,
+    "blockers_3": true,
+    "no_auto_start": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "531e42a484af1df6eef0381c2006c6519c985df4063c50955b25fc6616441141",
+  "Bytes": 17843,
+  "Lines": 609,
+  "Scope": "Static future-batch status-ledger checks only"
+}

@@ -1,0 +1,24 @@
+{
+  "document": "Aquitaine_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+  "passed": true,
+  "checks": {
+    "source_body_present": true,
+    "successor_larger": true,
+    "all_source_headings_retained": true,
+    "current_v2_chain": true,
+    "three_track": true,
+    "bounded_delegation": true,
+    "barbastro_optional": true,
+    "zero_removal": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "missing_source_headings": [],
+  "source_lines": 1092,
+  "successor_lines": 1599,
+  "source_bytes": 28660,
+  "successor_bytes": 47072,
+  "validation_scope": "Static copy-first and content checks only; no Registry, Opening State, governance, Unreal, runtime, save, migration, replay, or real-payload mutation."
+}

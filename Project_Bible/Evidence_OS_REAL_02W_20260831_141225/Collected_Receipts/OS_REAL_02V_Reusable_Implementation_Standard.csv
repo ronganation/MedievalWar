@@ -1,0 +1,7 @@
+﻿"Component","ReusablePattern","NorwayEvidence","Status"
+"Translation contract","Generic record envelope: RecordType, CanonicalId, Owner, Required, Source, OpeningState","Norway_Scenario_Translation_Input_1062.json","ImplementedAndValidated"
+"Source-bound projection builder","Filter records, validate shape, resolve typed tags, emit deterministic review-only candidates and blockers","MWNorwaySourceBoundProjectionBuilder","ImplementedAndValidated"
+"Character partial projection","Faction-specific identity allowlist plus typed field adapters","MWNorwayCoreCharacterPartialProjection","ImplementedAndValidated"
+"Title partial projection","Source record object adapter to FMWTitleState with unresolved-field blockers","MWNorwayKingTitlePartialProjection","ImplementedAndValidated"
+"Runtime Gameplay Tag proof","Dedicated registration tests plus runtime TagList dump when config text disagrees","CoreTagsRegistered and KingTagRegistered","ImplementedAndValidated"
+"Rollback and evidence","Copy-first config edits, additive source files, hashes, receipts, focused then parent regressions","OS-REAL-02J through OS-REAL-02U evidence","ImplementedAndValidated"

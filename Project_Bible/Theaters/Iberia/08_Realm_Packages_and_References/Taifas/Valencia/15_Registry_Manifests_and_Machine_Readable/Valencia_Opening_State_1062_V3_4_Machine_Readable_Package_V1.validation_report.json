@@ -1,0 +1,135 @@
+{
+  "report_id": "validation_report.opening_state.valencia.1062.v3_4.package_v1.copy_first_rebuild",
+  "version": "1.1.0",
+  "package_id": "opening_state.valencia.1062.v3_4.package_v1",
+  "validation_environment": "IsolatedLinuxContainerPythonJsonschema",
+  "validation_modes_executed": [
+    "JSONParse",
+    "Draft202012SchemaValidation",
+    "SemanticValidation",
+    "SyntheticMutatedFixtureExecution"
+  ],
+  "input_checksums": {
+    "Valencia_Opening_State_1062_V3_4_Machine_Readable_Package_V1.json": "a0490058035104abe309fc6a2d11c29663c4412409067f3d7fd04652ddd56856",
+    "Valencia_Opening_State_1062_V3_4_Machine_Readable_Package_V1.schema.json": "6d4c4f93fb6eef1f3cd19c4637a209739a5fe017f2d399a862102aa3a51ab860",
+    "Valencia_Opening_State_1062_V3_4_Machine_Readable_Package_V1.validation.json": "00fd5287ce0f73888d987c315129bf743e43d75721a5fed69054f921a1f329de",
+    "Valencia_Opening_State_1062_V3_4_Machine_Readable_Package_V1.owner_routing.json": "34ab8eec750d64ace6e947318defb1af111ef5daf55f90190cd398ade5a5b8d5",
+    "Valencia_Opening_State_1062_V3_4_Machine_Readable_Package_V1.fixtures.json": "4977eaa561c1fc7446a8fa4ca9c846ee4c7236c508b29a365ad975f5a26b0bb9"
+  },
+  "checks_defined": 6,
+  "checks_executed": 6,
+  "checks_passed": 6,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check_id": "JSON_PARSE_ALL",
+      "status": "PASS",
+      "detail": "Payload and four companions parse as JSON"
+    },
+    {
+      "check_id": "SCHEMA_DRAFT_2020_12",
+      "status": "PASS",
+      "detail": "Corrected payload validates against corrected schema"
+    },
+    {
+      "check_id": "COPY_FIRST_PRESERVATION",
+      "status": "PASS",
+      "detail": "19 predecessor roots and 65 predecessor record IDs preserved; no removals"
+    },
+    {
+      "check_id": "IDENTITY_FAMILIES",
+      "status": "PASS",
+      "detail": "Established routes, forces, institutions, problems, legacy IDs and quarantine retained"
+    },
+    {
+      "check_id": "A2_A5_BOUNDARIES",
+      "status": "PASS",
+      "detail": "Economy, diplomacy, AI and presentation non-creation boundaries pass"
+    },
+    {
+      "check_id": "FIXTURES",
+      "status": "PASS",
+      "detail": "Seven mutated synthetic fixtures produced expected dispositions"
+    }
+  ],
+  "fixtures_defined": 7,
+  "fixtures_executed": 7,
+  "fixture_results": [
+    {
+      "fixture_id": "POS_V34_001",
+      "status": "PASS",
+      "observed_status": "PASS",
+      "observed_error_codes": [],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_V34_001",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "SRC_V34_VERSION_MISMATCH"
+      ],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_V34_002",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "ECO_BAND_TO_QUANTITY"
+      ],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_V34_003",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "DIP_MISSING_OWNER_RECEIPTS"
+      ],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_V34_004",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "AIX_PROPOSAL_TO_EXECUTION"
+      ],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_V34_005",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "PRE_PRESENTATION_TO_WORLD_STATE"
+      ],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "BND_V34_001",
+      "status": "PASS",
+      "observed_status": "PASS_NOT_APPLY_ELIGIBLE",
+      "observed_error_codes": [
+        "SRC_HISTORICAL_FAMILY_NOT_CURRENT"
+      ],
+      "observed_mutation_count": 0
+    }
+  ],
+  "mutation_count": 0,
+  "owner_receipt_status": "NotExecuted",
+  "registry_validation": "NotExecuted",
+  "importer_validation": "NotExecuted",
+  "unreal_validation": "NotExecuted",
+  "runtime_validation": "NotExecuted",
+  "save_load_migration_replay_performance_validation": "NotExecuted",
+  "promotion_recommendation": "StaticFamilyPassOwnerReviewRequiredNoApplyAuthorization",
+  "validation_limitations": [
+    "No canonical Registry lookup",
+    "No external owner receipt validation",
+    "No importer execution",
+    "No Unreal architecture inspection",
+    "No runtime or real payload application"
+  ]
+}

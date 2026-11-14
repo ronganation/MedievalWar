@@ -1,0 +1,16 @@
+{
+  "FileName": "Burgundy_Unreal_Engine_5_8_Preflight_Plan_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "18f02f83288c29270d08a64dba21674fc8e1f896259c76116f3e69da1bdd43da",
+  "Bytes": 14448,
+  "Lines": 396,
+  "Placement": "Burgundy/11_Migration",
+  "DiscoverySteps": 10,
+  "MappingDomains": 13,
+  "CandidateStructuresToVerify": 22,
+  "PreflightDeliverables": 9,
+  "ValidationChecks": 12,
+  "ImplementationHandoffStatus": "ReadyForReadOnlyProjectDiscoveryOnly",
+  "Mutations": 0,
+  "ValidationResult": "PassStaticPlanChecksOnly"
+}

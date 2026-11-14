@@ -1,0 +1,7 @@
+Order,RelativePath,Action,ExistingModificationAllowed,Purpose
+1,Public/MWFranceMilitaryRecruitmentSupplyProjection.h,Add,false,Immutable review contracts and projection result
+2,Public/MWFranceMilitaryRecruitmentSupplyPreflight.h,Add,false,Fail-closed provenance and boundary preflight
+3,Private/MWFranceMilitaryRecruitmentSupplyProjection.cpp,Add,false,Deterministic caller-supplied review projection
+4,Private/MWFranceMilitaryRecruitmentSupplyPreflight.cpp,Add,false,Dependency unresolved-state and no-invention validation
+5,Private/Tests/MWFranceMilitaryRecruitmentSupplyProjectionTests.cpp,Add,false,Direct deterministic projection tests
+6,Private/Tests/MWFranceMilitaryRecruitmentSupplyPreflightTests.cpp,Add,false,Direct fail-closed boundary tests

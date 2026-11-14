@@ -1,0 +1,68 @@
+{
+  "ReceiptId": "receipt.seville_taifa.opening_state_1062.unreal_batch0_no_mutation.v1",
+  "InternalVersion": "1.0.0",
+  "Status": "NO_MUTATION_RECEIPT_TEMPLATE_NOT_EXECUTED",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.md",
+    "InternalVersion": "1.0.0",
+    "Bytes": 16122,
+    "SHA256": "efd4460c2b5a2e75ed09bc1cc1c241d8039dfb76296955af27cc9fcee28480bb",
+    "HashDisposition": "REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "Project": {
+    "ExpectedPath": "C:/UnrealProjects/MedievalWar",
+    "PathVerified": false,
+    "ProjectRevisionOrCommit": null,
+    "ControllingReadmesIdentified": false,
+    "OneDriveAuthoritiesRefreshed": false,
+    "ArchitectureInspectionExecuted": false
+  },
+  "BeforeState": {
+    "ProjectRevisionOrCommit": null,
+    "TrackedSourceFileCount": null,
+    "GeneratedArtifactCount": null,
+    "RegistryRowCountOrHash": null,
+    "RuntimeStateHash": null,
+    "AdvancedSaveHashes": []
+  },
+  "AfterState": {
+    "ProjectRevisionOrCommit": null,
+    "TrackedSourceFileCount": null,
+    "GeneratedArtifactCount": null,
+    "RegistryRowCountOrHash": null,
+    "RuntimeStateHash": null,
+    "AdvancedSaveHashes": []
+  },
+  "MutationCounts": {
+    "SourceFilesModified": 0,
+    "SourceFilesCreated": 0,
+    "SourceFilesDeleted": 0,
+    "GeneratedFilesCreated": 0,
+    "RegistryRowsChanged": 0,
+    "RuntimeInstancesCreated": 0,
+    "RealCampaignPayloadsApplied": 0,
+    "AdvancedSavesModified": 0
+  },
+  "EvidenceRefs": [],
+  "InspectionCommandsOrTools": [],
+  "ComparisonComplete": false,
+  "NoMutationVerified": false,
+  "Reviewer": null,
+  "ReviewDate": null,
+  "OwnerDisposition": "NOT_REVIEWED",
+  "FailurePolicy": {
+    "AnyMutationIsFatal": true,
+    "PreserveEvidence": true,
+    "RestorePristineState": true,
+    "AutomaticRetryAuthorized": false
+  },
+  "NextAction": "Complete before-and-after evidence during Batch 0 and verify all mutation counts remain zero."
+}

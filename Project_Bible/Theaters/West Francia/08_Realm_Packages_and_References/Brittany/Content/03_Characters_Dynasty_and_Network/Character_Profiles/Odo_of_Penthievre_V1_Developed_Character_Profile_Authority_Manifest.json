@@ -1,0 +1,37 @@
+{
+  "Document": "Odo_of_Penthievre_V1_Developed_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "Character": "Odo of Penthièvre",
+  "CanonicalPersonReference": "person.odo_penthievre",
+  "Bytes": 51346,
+  "Lines": 1082,
+  "SHA256": "30C79212A0C5C0D71E00A49086EC14EFFF5FCD622CA04842A7FDD87C872636A4",
+  "CurrentBrittanySource": "Brittany_Character_Authorities_V1_1_Current_Authority_Modernization_FULL.md",
+  "Benchmarks": [
+    "Ralph_IV_of_Valois_V1.1_Current_Authority_Refinement.md",
+    "Theobald_III_of_Blois_V2_Current_Authority_Refinement.md",
+    "current Aquitaine magnate and adult-principal practice",
+    "developed Britannia and Norse character practice"
+  ],
+  "Checks": {
+    "sections_1_through_60": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "stable_footer_once": true,
+    "opening_mutations_zero": true,
+    "constraint_mutations_zero": true
+  },
+  "MutationStatus": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Constraint": 0,
+    "Relationships": 0,
+    "TitlesOfficesHouseholdsClaimsCommands": 0,
+    "MilitaryState": 0,
+    "Runtime": 0,
+    "Unreal": 0,
+    "RealPayload": 0
+  }
+}

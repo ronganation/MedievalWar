@@ -1,0 +1,523 @@
+{
+    "DocumentId":  "France.UE5.8.ProjectNativeTranslator.LiveFingerprintPacket.V1",
+    "Filename":  "France_UE5_8_Project_Native_Translator_Live_Fingerprint_Packet_V1.json",
+    "Version":  "1.0.0",
+    "GeneratedUtc":  "2026-09-03T21:10:54.4869123Z",
+    "ImplementationTarget":  "Unreal Engine 5.8",
+    "ProjectRoot":  "C:\\UnrealProjects\\MedievalWar",
+    "Mode":  "ReadOnlyLiveDiskFingerprintCapture",
+    "FreshLiveDiskScanPerformed":  true,
+    "ControllingPlan":  "France_UE5_8_Project_Native_Translator_Patch_Plan_V1.md",
+    "Summary":  {
+                    "RequiredTargetRecords":  12,
+                    "PresentRequiredTargets":  10,
+                    "MissingRequiredTargets":  2,
+                    "ReadmeCandidatesFound":  1,
+                    "InterfaceAndTestSurfacesFound":  36,
+                    "FranceTranslatorAlreadyPresent":  false
+                },
+    "RequiredTargets":  [
+                            {
+                                "RelativePath":  "MedievalWar.uproject",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\MedievalWar.uproject",
+                                "Kind":  "Target",
+                                "Present":  true,
+                                "Bytes":  433,
+                                "LastWriteTimeUtc":  "2026-08-15T19:06:04.8632760Z",
+                                "SHA256":  "923AEFA6D923F44CC28EC925942E1EC49774299CDD395A25F645CA21701AE97B"
+                            },
+                            {
+                                "RelativePath":  "Source/MedievalWar.Target.cs",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Source\\MedievalWar.Target.cs",
+                                "Kind":  "Target",
+                                "Present":  true,
+                                "Bytes":  416,
+                                "LastWriteTimeUtc":  "2026-08-11T15:56:13.9913366Z",
+                                "SHA256":  "1B56AB164611C1802361BDE97E05ED230CE2699EE60023978F25493239036929"
+                            },
+                            {
+                                "RelativePath":  "Source/MedievalWarEditor.Target.cs",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Source\\MedievalWarEditor.Target.cs",
+                                "Kind":  "Target",
+                                "Present":  true,
+                                "Bytes":  431,
+                                "LastWriteTimeUtc":  "2026-08-11T15:56:13.9923274Z",
+                                "SHA256":  "F69562B3F673A268AF9CE1A89AE910A2D96E4DF6F2DD1DF2A1A28E1CB34B1801"
+                            },
+                            {
+                                "RelativePath":  "Source/MedievalWarCampaign/MedievalWarCampaign.Build.cs",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Source\\MedievalWarCampaign\\MedievalWarCampaign.Build.cs",
+                                "Kind":  "Target",
+                                "Present":  true,
+                                "Bytes":  507,
+                                "LastWriteTimeUtc":  "2026-08-15T19:31:30.4180337Z",
+                                "SHA256":  "46E8E68817E1EEB760F4505AE1ADC2937B0FE8EF6607452BFFBFF8E0D747F09A"
+                            },
+                            {
+                                "RelativePath":  "Plugins/MWSharedImporter/MWSharedImporter.uplugin",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\MWSharedImporter.uplugin",
+                                "Kind":  "Target",
+                                "Present":  true,
+                                "Bytes":  1257,
+                                "LastWriteTimeUtc":  "2026-08-25T01:14:51.7122252Z",
+                                "SHA256":  "4CC0A18DCAFD1D1DE1DDDFFFB9863397159CE5A6A6DBA9C37F83FBF113A41ED3"
+                            },
+                            {
+                                "RelativePath":  "Plugins/MWSharedImporter/Shared_Importer_Record_Bindings_v1.json",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Shared_Importer_Record_Bindings_v1.json",
+                                "Kind":  "Target",
+                                "Present":  true,
+                                "Bytes":  16489,
+                                "LastWriteTimeUtc":  "2026-08-14T23:51:16.0000000Z",
+                                "SHA256":  "B2FA1ACF0D57FE9D8B9511E03A41D89F7BACE6F8A826DC9597AF0277D3B72D10"
+                            },
+                            {
+                                "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporter/MWSharedImporter.Build.cs",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporter\\MWSharedImporter.Build.cs",
+                                "Kind":  "Target",
+                                "Present":  true,
+                                "Bytes":  699,
+                                "LastWriteTimeUtc":  "2026-08-27T03:02:57.8321043Z",
+                                "SHA256":  "91F282F2896C41D350F83D33455BADE15651FE22150CC890EDD3296DB1A69881"
+                            },
+                            {
+                                "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/MWSharedImporterCampaignAdapter.Build.cs",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\MWSharedImporterCampaignAdapter.Build.cs",
+                                "Kind":  "Target",
+                                "Present":  true,
+                                "Bytes":  629,
+                                "LastWriteTimeUtc":  "2026-08-14T23:51:16.0000000Z",
+                                "SHA256":  "3521758636EDF810C46A521F2E7C1FDBD8F5CBD53398436CBA6DBBB4FED26AD2"
+                            },
+                            {
+                                "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Public/MWNorwayScenarioTranslator.h",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Public\\MWNorwayScenarioTranslator.h",
+                                "Kind":  "Target",
+                                "Present":  true,
+                                "Bytes":  34097,
+                                "LastWriteTimeUtc":  "2026-08-24T02:43:18.7625571Z",
+                                "SHA256":  "6B375E8DBD325442197BD421C02ACE3335217958F306887C63436AD78EEAB750"
+                            },
+                            {
+                                "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/MWNorwayScenarioTranslator.cpp",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\MWNorwayScenarioTranslator.cpp",
+                                "Kind":  "Target",
+                                "Present":  true,
+                                "Bytes":  117203,
+                                "LastWriteTimeUtc":  "2026-08-24T02:43:18.7645571Z",
+                                "SHA256":  "8B632032B8A54B949C5108E05D301985F13173B4014C98AD7C7400F3C1CC89FA"
+                            },
+                            {
+                                "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Public/MWFranceScenarioTranslator.h",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Public\\MWFranceScenarioTranslator.h",
+                                "Kind":  "Target",
+                                "Present":  false,
+                                "Bytes":  null,
+                                "LastWriteTimeUtc":  null,
+                                "SHA256":  null
+                            },
+                            {
+                                "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/MWFranceScenarioTranslator.cpp",
+                                "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\MWFranceScenarioTranslator.cpp",
+                                "Kind":  "Target",
+                                "Present":  false,
+                                "Bytes":  null,
+                                "LastWriteTimeUtc":  null,
+                                "SHA256":  null
+                            }
+                        ],
+    "ControllingReadmeCandidates":  [
+                                        {
+                                            "RelativePath":  "README.md",
+                                            "FullPath":  "C:\\UnrealProjects\\MedievalWar\\README.md",
+                                            "Kind":  "ControllingReadmeCandidate",
+                                            "Present":  false,
+                                            "Bytes":  null,
+                                            "LastWriteTimeUtc":  null,
+                                            "SHA256":  null
+                                        },
+                                        {
+                                            "RelativePath":  "README.txt",
+                                            "FullPath":  "C:\\UnrealProjects\\MedievalWar\\README.txt",
+                                            "Kind":  "ControllingReadmeCandidate",
+                                            "Present":  false,
+                                            "Bytes":  null,
+                                            "LastWriteTimeUtc":  null,
+                                            "SHA256":  null
+                                        },
+                                        {
+                                            "RelativePath":  "Plugins/MWSharedImporter/README.md",
+                                            "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\README.md",
+                                            "Kind":  "ControllingReadmeCandidate",
+                                            "Present":  true,
+                                            "Bytes":  1731,
+                                            "LastWriteTimeUtc":  "2026-08-14T23:51:16.0000000Z",
+                                            "SHA256":  "1DD1BDB64A8FBA8FF330546C54D481148D0A954A89B0F5FCEB4F4DCDC910D3BD"
+                                        },
+                                        {
+                                            "RelativePath":  "Source/MedievalWarCampaign/README.md",
+                                            "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Source\\MedievalWarCampaign\\README.md",
+                                            "Kind":  "ControllingReadmeCandidate",
+                                            "Present":  false,
+                                            "Bytes":  null,
+                                            "LastWriteTimeUtc":  null,
+                                            "SHA256":  null
+                                        }
+                                    ],
+    "InterfaceAndTestSurfaces":  [
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/MWSharedImporterCampaignAdapter.Build.cs",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\MWSharedImporterCampaignAdapter.Build.cs",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  629,
+                                         "LastWriteTimeUtc":  "2026-08-14T23:51:16.0000000Z",
+                                         "SHA256":  "3521758636EDF810C46A521F2E7C1FDBD8F5CBD53398436CBA6DBBB4FED26AD2"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/MWNorwayScenarioTranslator.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\MWNorwayScenarioTranslator.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  117203,
+                                         "LastWriteTimeUtc":  "2026-08-24T02:43:18.7645571Z",
+                                         "SHA256":  "8B632032B8A54B949C5108E05D301985F13173B4014C98AD7C7400F3C1CC89FA"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/MWSharedImporterCampaignAdapterModule.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\MWSharedImporterCampaignAdapterModule.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  931,
+                                         "LastWriteTimeUtc":  "2026-08-27T04:26:49.0460082Z",
+                                         "SHA256":  "82A19E746943FC4B4B73F3B1EDA064A9295A2C3497A2ACFF192D7A92BDA896D5"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayAtomicCommitReadinessCheckpointTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayAtomicCommitReadinessCheckpointTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  10380,
+                                         "LastWriteTimeUtc":  "2026-08-24T01:09:10.4632959Z",
+                                         "SHA256":  "6DDEC9E73D75D851EDC6CBB3CFC3EFA6D5624F42A3B0BFE310ACBE9AA3484505"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayCampaignProjectionContractTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayCampaignProjectionContractTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  3678,
+                                         "LastWriteTimeUtc":  "2026-08-29T20:40:44.6615345Z",
+                                         "SHA256":  "2FAD88D82A70FD21095DDA7C56F25C70116B52177C9EFA3FFBA8625D4ADD9291"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayCandidateContractTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayCandidateContractTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  5238,
+                                         "LastWriteTimeUtc":  "2026-08-22T20:30:13.5130762Z",
+                                         "SHA256":  "4ADF1323C9E51C21B5FD23D051652BF09F6CAC9FA9533D7DFEA3F506E99F754A"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayControlledAtomicStagingTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayControlledAtomicStagingTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  14780,
+                                         "LastWriteTimeUtc":  "2026-08-24T01:00:07.6001543Z",
+                                         "SHA256":  "6ECFB8E12C0C8531A9E6D504ADEF2CCBC92F10997094DB46E7D48370662EE4FF"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayCoreCharacterGameplayTagTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayCoreCharacterGameplayTagTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  1107,
+                                         "LastWriteTimeUtc":  "2026-08-30T03:40:13.4232570Z",
+                                         "SHA256":  "543D3493BCE11DFDFD490FC45AAB2006EC7B5E45B3177BC20A0E99E9CE381715"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayCoreCharacterPartialProjectionTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayCoreCharacterPartialProjectionTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  3870,
+                                         "LastWriteTimeUtc":  "2026-08-30T05:24:13.8285927Z",
+                                         "SHA256":  "ADEF3DBFFB534C6BA27D30D2F7F91B0C576280F7773D30E3C5294CEC623A355F"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayDryRunNoMutationTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayDryRunNoMutationTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  7843,
+                                         "LastWriteTimeUtc":  "2026-08-23T16:21:11.2024881Z",
+                                         "SHA256":  "EDABB6014A35D38C5CAEB656BF677584EC09FA75351D766B4E82A7961EB11D6B"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayFinalIsolatedImporterCloseoutTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayFinalIsolatedImporterCloseoutTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  7918,
+                                         "LastWriteTimeUtc":  "2026-08-24T02:43:18.7675571Z",
+                                         "SHA256":  "29CA2CE75E3CE770D1AC3EDCD3577CA9A040B8B6034B0C1B1626D0D40CCE5C7C"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayImportReceiptPlanTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayImportReceiptPlanTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  12453,
+                                         "LastWriteTimeUtc":  "2026-08-23T23:59:14.4484956Z",
+                                         "SHA256":  "96B95301B58F16324548A672A8DFB71B313DA46EE29778E2A398E3226132F61D"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedAtomicCommitRollbackTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayIsolatedAtomicCommitRollbackTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  3296,
+                                         "LastWriteTimeUtc":  "2026-08-24T01:17:52.6323423Z",
+                                         "SHA256":  "2010EE0C3057B12A99418C7347D2314F179DB8913F2C9BE6AAD98F6D7F141226"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedCommitReceiptFingerprintTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayIsolatedCommitReceiptFingerprintTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  4291,
+                                         "LastWriteTimeUtc":  "2026-08-24T01:26:19.6980490Z",
+                                         "SHA256":  "E26102A418EFC846FAAE5EAAE8D2DD739E1B9A22D371E112D641EF73D09BA585"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedMigrationAdvancedSaveProtectionTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayIsolatedMigrationAdvancedSaveProtectionTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  6163,
+                                         "LastWriteTimeUtc":  "2026-08-24T01:52:32.9049372Z",
+                                         "SHA256":  "BDD8F94641B18E5C7E84258B77770BD272F1C73A6371A519CAAC49B5EFB8E493"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveBoundaryReplayDeterminismTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayIsolatedSaveBoundaryReplayDeterminismTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  9343,
+                                         "LastWriteTimeUtc":  "2026-08-24T02:01:20.1468282Z",
+                                         "SHA256":  "0F092D42F15B049DAED120EB1CF00F61AD2FEDD70FE2AA471B9A8C32F6F23C4A"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveLoadRoundTripTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayIsolatedSaveLoadRoundTripTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  5563,
+                                         "LastWriteTimeUtc":  "2026-08-24T01:42:17.2163469Z",
+                                         "SHA256":  "FC181F005502C6E48CB0670F5FF8815379B8FF11FC4D7573518A59B7D921F28B"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayKingTitlePartialProjectionTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayKingTitlePartialProjectionTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  4027,
+                                         "LastWriteTimeUtc":  "2026-08-31T16:19:46.4680341Z",
+                                         "SHA256":  "100753E22123C4A6B415571691E42F8B2FD7F03AA0616B5FB09BAFC98491C944"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayManifestSubsetTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayManifestSubsetTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  8671,
+                                         "LastWriteTimeUtc":  "2026-08-22T20:19:43.4573683Z",
+                                         "SHA256":  "D30FEF99ADA43F4FBEA1AB7C7258F19E20E510E11B4F74408EBDC8F67DB2E71C"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOpeningStatePreviewProviderTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayOpeningStatePreviewProviderTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  4359,
+                                         "LastWriteTimeUtc":  "2026-08-27T18:12:53.4401284Z",
+                                         "SHA256":  "367391CE0E1478E4BD44F557024AB250DCCC246CE34AC7313D000AE3227DFC7B"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerAdapterBindingRegistryTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayOwnerAdapterBindingRegistryTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  10277,
+                                         "LastWriteTimeUtc":  "2026-08-23T19:25:42.8002543Z",
+                                         "SHA256":  "8BEE480137E875E288D2677651A6B8EDD59F4704526EAC98163BF2F8FC434214"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerBatchPlanTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayOwnerBatchPlanTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  10492,
+                                         "LastWriteTimeUtc":  "2026-08-23T16:42:03.9360453Z",
+                                         "SHA256":  "E20DC8B9571461AFF0E63690DE0576F272CCF1E9E91DC6877632193A0A0C25B7"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerCapabilityPreflightTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayOwnerCapabilityPreflightTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  16447,
+                                         "LastWriteTimeUtc":  "2026-08-23T17:11:17.7012853Z",
+                                         "SHA256":  "46218FDD0FF0722FB52A8B7400B0F48235F2C1F20EA2B402FA1B5AB42A0F7680"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerHandoffEnvelopeTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayOwnerHandoffEnvelopeTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  12971,
+                                         "LastWriteTimeUtc":  "2026-08-23T16:55:18.5462910Z",
+                                         "SHA256":  "6C56B6268752FB3B518BE255A0DC33DA8C85553D85195AB7F98C207C0B6B67ED"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerResolutionPlanTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayOwnerResolutionPlanTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  10279,
+                                         "LastWriteTimeUtc":  "2026-08-23T19:05:12.6980241Z",
+                                         "SHA256":  "81B10A6E475AD0A2B35F3587C128049062974945B96907A316EEFCE44B11D8A4"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerRoutingTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayOwnerRoutingTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  6996,
+                                         "LastWriteTimeUtc":  "2026-08-22T21:56:32.6758554Z",
+                                         "SHA256":  "9F3A143908E21E14FC829CB0E38F21EEFF0E217FC614575AAE1EBCBC17D91E3F"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayPreMutationReadinessCheckpointTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayPreMutationReadinessCheckpointTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  7796,
+                                         "LastWriteTimeUtc":  "2026-08-24T00:11:29.7486319Z",
+                                         "SHA256":  "B8B8DE8A9CE88DC535AC3884334B5C47938461F8AACEC66FAC4F0696FF23CEA1"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayRollbackJournalPlanTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayRollbackJournalPlanTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  11175,
+                                         "LastWriteTimeUtc":  "2026-08-23T20:23:04.4493201Z",
+                                         "SHA256":  "1B4C34D38DD744E085C12EF98A51403A4F7E9CBF6ACE6520031C10076E7F1996"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwaySandboxOwnerResolutionTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwaySandboxOwnerResolutionTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  7135,
+                                         "LastWriteTimeUtc":  "2026-08-24T00:21:12.8364897Z",
+                                         "SHA256":  "31B5EE20FA1F0BD85C3449BC15463858AA5A3F3DC72DDBAF8B946C6CA6DE5AE9"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayScenarioTranslatorTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayScenarioTranslatorTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  3254,
+                                         "LastWriteTimeUtc":  "2026-08-14T23:51:16.0000000Z",
+                                         "SHA256":  "405BFE7B0F4E3B67D9FCABB7F8EEB5C54D375469C6C6D7FB103D55014DE3C614"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwaySourceBoundProjectionBuilderTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwaySourceBoundProjectionBuilderTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  4140,
+                                         "LastWriteTimeUtc":  "2026-08-29T23:55:31.1433524Z",
+                                         "SHA256":  "1929E45F9C88C20AED864804866402339125F47FB0894393325FFAFCDEDD3F59"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayTransactionConflictPreflightTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayTransactionConflictPreflightTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  7703,
+                                         "LastWriteTimeUtc":  "2026-08-23T19:57:07.0587287Z",
+                                         "SHA256":  "EA2690502DFC72032C047A7887370B847D7059591FD97DAD05D433C9ECC01452"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayTransactionSimulationTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayTransactionSimulationTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  14313,
+                                         "LastWriteTimeUtc":  "2026-08-24T00:43:13.3126157Z",
+                                         "SHA256":  "8B8C4C7BF778EDAFD351EE4E6A1CBB3C36F3AB8F4C5C17DE7CB6B9C5B7DD57C9"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayTransactionStagingPlanTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayTransactionStagingPlanTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  8965,
+                                         "LastWriteTimeUtc":  "2026-08-23T19:35:35.4767565Z",
+                                         "SHA256":  "DF98946089DE30A5E89CB236EF656FC9514D2ECAC387ABBD5F6A8257DBB122A2"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayValidationOnlyOwnerInvocationTests.cpp",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayValidationOnlyOwnerInvocationTests.cpp",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  13068,
+                                         "LastWriteTimeUtc":  "2026-08-24T00:31:47.1993881Z",
+                                         "SHA256":  "2FDAD2B49CDFA15789850FC8FF7131E243EF3F22616A8BA3DA98C18D091AB5EF"
+                                     },
+                                     {
+                                         "RelativePath":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Public/MWNorwayScenarioTranslator.h",
+                                         "FullPath":  "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Public\\MWNorwayScenarioTranslator.h",
+                                         "Kind":  "InterfaceOrTestSurface",
+                                         "Present":  true,
+                                         "Bytes":  34097,
+                                         "LastWriteTimeUtc":  "2026-08-24T02:43:18.7625571Z",
+                                         "SHA256":  "6B375E8DBD325442197BD421C02ACE3335217958F306887C63436AD78EEAB750"
+                                     }
+                                 ],
+    "AdditionalModuleEvidence":  [
+
+                                 ],
+    "Gates":  {
+                  "ProjectRootPresent":  true,
+                  "CurrentHashesCaptured":  true,
+                  "FranceTranslatorAbsenceConfirmed":  true,
+                  "ControllingReadmeReviewComplete":  false,
+                  "ExactTranslatorInterfaceReviewComplete":  false,
+                  "RollbackCopiesCreated":  false,
+                  "SingleWriterAuthorized":  false,
+                  "SourcePatchAuthorized":  false,
+                  "CompileAuthorized":  false
+              },
+    "MutationStatus":  {
+                           "UnrealSourceFilesModified":  0,
+                           "NewUnrealFilesCreated":  0,
+                           "RegistryMutations":  0,
+                           "AliasExecutions":  0,
+                           "OpeningStateActivations":  0,
+                           "UnrealMutations":  0,
+                           "RuntimeMutations":  0,
+                           "RealPayloadImports":  0,
+                           "CompileExecuted":  false
+                       },
+    "NextGate":  {
+                     "Name":  "TranslatorInterfaceReviewAndRollbackPreparation",
+                     "Output":  "France_UE5_8_Project_Native_Translator_Interface_and_Rollback_Readiness_V1.md",
+                     "MutationAuthorized":  false
+                 }
+}

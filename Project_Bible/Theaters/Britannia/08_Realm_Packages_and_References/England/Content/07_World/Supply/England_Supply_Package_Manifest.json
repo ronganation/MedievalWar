@@ -1,0 +1,30 @@
+{
+  "document_id": "manifest.england.supply_package.v1_0",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Supply_Package.md",
+      "sha256": "edef524aad0d25661aa5218ab70e367e72c08c3c5b6ad862dc96c3baaf5cc845",
+      "bytes": 30092
+    },
+    {
+      "filename": "England_Supply_Package_Static_Check.json",
+      "sha256": "f7fb2270da9a8357f58f3494f1dd7f353b5d671cbca82b6c456ec7c01f3c90ae",
+      "bytes": 508
+    }
+  ],
+  "authorizations": {
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "supply_activation": false,
+    "stockpile_activation": false,
+    "route_capacity_activation": false,
+    "army_commitment_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

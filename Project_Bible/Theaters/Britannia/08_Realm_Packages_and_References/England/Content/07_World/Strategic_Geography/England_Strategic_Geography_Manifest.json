@@ -1,0 +1,28 @@
+{
+  "document_id": "manifest.england.strategic_geography.v1_0",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Strategic_Geography.md",
+      "sha256": "b87f0aefe82d9fa32a26744ba77de7b29032e93abc823e01866461ec0846aa90",
+      "bytes": 29101
+    },
+    {
+      "filename": "England_Strategic_Geography_Static_Check.json",
+      "sha256": "e716013223e634d7f53cd8ae9d679ec40ff581d487f35be54274aea62750278a",
+      "bytes": 516
+    }
+  ],
+  "authorizations": {
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "node_activation": false,
+    "route_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

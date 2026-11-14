@@ -1,0 +1,14 @@
+{
+  "MW_FR_CAND_DISPOSITION_BARE_ACTIVE": "Bare Active disposition is prohibited.",
+  "MW_FR_CAND_ALIAS_CHAIN": "Direct aliases may not target another alias source.",
+  "MW_FR_CAND_ALIAS_CYCLE": "Alias cycles are fatal.",
+  "MW_FR_CAND_EXTERNAL_OWNER_COLLAPSE": "External owner identity cannot become a France-owned canonical record.",
+  "MW_FR_CAND_TEMPORAL_UNIVERSAL_TURN": "The current design uses three temporal tracks, not one universal seven-month turn.",
+  "MW_FR_CAND_HENRY_RUNTIME_AGENCY": "Henry I is deceased and historical-only at opening.",
+  "MW_FR_CAND_HUGH_VERMANDOIS_OPENING": "Hugh may not begin with the later Vermandois title.",
+  "MW_FR_CAND_OPENING_ACTIVATION": "Candidate dry-run material cannot activate Opening State.",
+  "MW_FR_CAND_REGISTRY_PROMOTION": "Candidate dry-run material cannot promote Registry records.",
+  "MW_FR_CAND_UNREAL_IMPORT": "Candidate dry-run material cannot import into Unreal.",
+  "MW_FR_CAND_EMPTY_GENERATED_DEFAULT": "Intentional empty or deferred records may not generate gameplay defaults.",
+  "MW_FR_CAND_QUARANTINE_INSTANTIATED": "Quarantined records may not instantiate."
+}

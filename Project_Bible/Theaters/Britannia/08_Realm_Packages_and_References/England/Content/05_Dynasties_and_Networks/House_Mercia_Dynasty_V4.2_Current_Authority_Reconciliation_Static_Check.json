@@ -1,0 +1,25 @@
+{
+  "document_id": "static-check.england.house_mercia_dynasty.v4_2.current_authority_reconciliation",
+  "version": "1.0.0",
+  "source_file": "House_Mercia_Dynasty.md",
+  "output_file": "House_Mercia_Dynasty_V4.2_Current_Authority_Reconciliation.md",
+  "checks": {
+    "output_additive": true,
+    "source_preserved": true,
+    "names_retained": true,
+    "sections_retained": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "one_opening_boundary": true,
+    "current_authorities": true,
+    "temporal_model": true,
+    "ue_5_8": true,
+    "reviewonly": true,
+    "owners": true,
+    "no_activation": true,
+    "validation_false": true,
+    "no_pass_claims": true,
+    "no_aelfgar_default": true
+  },
+  "passed": true
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "RealmSpecialistIntegrationAudit.Realm.Brittany.V1.Manifest",
+  "filename": "Brittany_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1_Manifest.json",
+  "authority_file": "Brittany_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-06",
+  "realm_id": "realm.brittany",
+  "owning_theater": "West Francia",
+  "placement": "Content/00_Control_and_Audits",
+  "authority_bytes": 33807,
+  "authority_lines": 830,
+  "authority_sha256": "0EE948ABE282427AC7B727ED2C4B33E87CE470437F9CCCB9DE3DB170B7AE9515",
+  "status": "StaticCheckedAuditReviewOnly",
+  "inventory_basis": {
+    "current_authority_or_reference_entries": 34,
+    "current_or_candidate_entries": 32,
+    "historical_implementation_references": 2,
+    "recursive_local_presence_scan_executed": false,
+    "recursive_local_hash_scan_executed": false
+  },
+  "verdict": "PASS_WITH_PHYSICAL_REFERENCE_REGISTRY_BINDING_AND_IMPLEMENTATION_DEPENDENCIES",
+  "major_specialist_family_gap_remaining": false,
+  "next_file": "Brittany_Realm_Package_Current_Authority_Index_V1.md",
+  "mutations": {
+    "source": 0,
+    "Registry": 0,
+    "Opening_State": 0,
+    "migration": 0,
+    "runtime": 0,
+    "Unreal": 0,
+    "real_payload_import": 0
+  }
+}

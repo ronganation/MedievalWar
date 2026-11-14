@@ -1,0 +1,33 @@
+{
+  "document": "Holland_Character_Network_V1_1_Mature_Double_Checked.md",
+  "sha256": "69f95a60a97cd7e159f6c24741bec1be4c242d4bd82aeb5912b5bb48c8e27553",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_33": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_hash_matches": true,
+    "predecessor_static_passed": true,
+    "predecessor_receipt_passed": true,
+    "corrected_dirk_id": true,
+    "bad_dirk_id_not_active": true,
+    "six_active_edge_records": true,
+    "edge_schema": true,
+    "reverse_matrix": true,
+    "omissions": true,
+    "underage": true,
+    "memory": true,
+    "robert": true,
+    "dimension_lifecycle": true,
+    "specialists": true,
+    "fixture": true,
+    "atomic": true,
+    "save": true,
+    "validation": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "active_no_citation_tokens": true
+  },
+  "pass": true
+}

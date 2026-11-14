@@ -1,0 +1,85 @@
+{
+  "StaticCheckId": "StaticCheck.Aquitaine.SpecialistIntegrationConsistencyAudit.V1",
+  "AuthorityFile": "Aquitaine_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md",
+  "AuthoritySHA256": "8eb719c37e78479be11a448802342602aaad114bf10cdc623d701617dbb71dde",
+  "AuthorityByteCount": 28399,
+  "AuthorityLineCount": 793,
+  "Checks": [
+    {
+      "Name": "JSONCompanionsPlanned",
+      "Pass": true
+    },
+    {
+      "Name": "CoreAuthorityCountIs12",
+      "Pass": true
+    },
+    {
+      "Name": "SpecialistAuthorityCountIs10",
+      "Pass": true
+    },
+    {
+      "Name": "CharacterProfileCountIs6",
+      "Pass": true
+    },
+    {
+      "Name": "OpeningFilesUnique",
+      "Pass": true
+    },
+    {
+      "Name": "RealmIdDriftRecorded",
+      "Pass": true
+    },
+    {
+      "Name": "RegistryFilenameCorrect",
+      "Pass": true
+    },
+    {
+      "Name": "ThreeTrackTimePresent",
+      "Pass": true
+    },
+    {
+      "Name": "BarbastroInactive",
+      "Pass": true
+    },
+    {
+      "Name": "BernardRisingNotForced",
+      "Pass": true
+    },
+    {
+      "Name": "WarPermissionGateRejected",
+      "Pass": true
+    },
+    {
+      "Name": "PapalReliabilitySeparated",
+      "Pass": true
+    },
+    {
+      "Name": "FencesBalanced",
+      "Pass": true
+    },
+    {
+      "Name": "NoEmDash",
+      "Pass": true
+    },
+    {
+      "Name": "OneStableFooter",
+      "Pass": true
+    },
+    {
+      "Name": "FinalMarkerCorrect",
+      "Pass": true
+    }
+  ],
+  "TotalChecks": 16,
+  "Passes": 16,
+  "Failures": 0,
+  "Result": "Pass",
+  "MutationStatus": {
+    "SourceFilesOverwritten": 0,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

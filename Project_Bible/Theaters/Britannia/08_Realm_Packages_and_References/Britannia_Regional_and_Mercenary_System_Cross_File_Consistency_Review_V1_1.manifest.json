@@ -1,0 +1,19 @@
+{
+  "document": "Britannia_Regional_and_Mercenary_System_Cross_File_Consistency_Review_V1_1.md",
+  "version": "1.1.0",
+  "status": "ReviewOnlyCurrentPortfolioCrossFileConsistencyReviewCandidate",
+  "immediate_substantive_source": "Britannia_Recruitment_Architecture_and_Source_Matrix_Cross_File_Consistency_Review_V1.md",
+  "architecture_reviewed": "Britannia_Regional_Recruitment_Mercenary_Access_and_Service_Transition_Architecture_V1_2_Double_Checked_Campaign_Depth_Refinement.md",
+  "matrix_reviewed": "Britannia_Regional_Source_Relationship_and_Access_Matrix_V1_1_Current_Portfolio_Reconciled.md",
+  "line_count": 545,
+  "word_count": 1051,
+  "size_bytes": 16411,
+  "profiles_reviewed": 14,
+  "regional_and_crossover_profiles": 9,
+  "mercenary_and_service_profiles": 5,
+  "blocking_defects": [],
+  "regional_profiles_reclassified": [],
+  "Scotland_native_profiles_reclassified": [],
+  "source_files_modified": [],
+  "sha256": "34a80fd86efa4a451fda0380b750c6e99f3fc0cd16b8b4fec5c0ed64ce0c3a1d"
+}

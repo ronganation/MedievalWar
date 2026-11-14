@@ -1,0 +1,20 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "batches_15": true,
+    "three_tracks": true,
+    "packet_contract": true,
+    "owner_gates": true,
+    "rollback": true,
+    "no_implementation": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "e4c439881ac6b3fefe6df5b7760f9a4eb6e6a80bc3a439a2d947a89301dcbf99",
+  "Bytes": 22616,
+  "Lines": 757,
+  "Scope": "Static future-batch planning checks only"
+}

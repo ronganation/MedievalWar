@@ -1,0 +1,19 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "preflight_present": true,
+    "physical_pairs_3": true,
+    "candidate_mappings_97": true,
+    "child_candidates_2": true,
+    "child_mappings_zero": true,
+    "quarantine_19": true,
+    "chronology_38_aligned": true,
+    "batch_plan": true,
+    "rollback": true,
+    "nonmutation": true
+  },
+  "SHA256": "a12d1a9e7ec658a1a6810882003f3ffd9e9c57bf6025fed2b19ccbbdb2af78cc",
+  "Bytes": 43612,
+  "Lines": 853,
+  "Scope": "Nonmutating child-reconciled mapping quarantine and rollback plan"
+}

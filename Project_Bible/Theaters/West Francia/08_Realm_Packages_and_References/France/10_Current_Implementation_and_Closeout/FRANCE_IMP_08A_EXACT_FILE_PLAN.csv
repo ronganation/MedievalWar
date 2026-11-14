@@ -1,0 +1,7 @@
+Order,RelativePath,Action,ExistingModificationAllowed,Purpose
+1,Public/MWFranceRealmAIProposalProjection.h,Add,false,Immutable proposal observation reason and explanation contracts
+2,Public/MWFranceRealmAIProposalPreflight.h,Add,false,Fail-closed specialist diplomacy opportunity and mutation boundary preflight
+3,Private/MWFranceRealmAIProposalProjection.cpp,Add,false,Deterministic caller-supplied proposal projection and fingerprinting
+4,Private/MWFranceRealmAIProposalPreflight.cpp,Add,false,Hard-gate provenance direction no-invention and nonexecution validation
+5,Private/Tests/MWFranceRealmAIProposalProjectionTests.cpp,Add,false,Direct deterministic projection abstention and explanation tests
+6,Private/Tests/MWFranceRealmAIProposalPreflightTests.cpp,Add,false,Direct fail-closed authority diplomacy opportunity and mutation tests

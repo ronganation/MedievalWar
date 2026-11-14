@@ -1,0 +1,19 @@
+{
+  "document": "Britannia_Regional_Unit_Portfolio_Index_V1_1.md",
+  "sha256": "2d1e97fce79e4468c96a0e43ea1f67340e56754b81fc8982d014221bdb778919",
+  "checks": {
+    "hash_matches": true,
+    "all_five_current_profiles": true,
+    "stale_profiles_not_active": true,
+    "current_manifest_count": true,
+    "current_static_check_count": true,
+    "queue_complete": true,
+    "galloway_retained": true,
+    "no_sixth_unit_required": true,
+    "fences_balanced": true,
+    "stable_footer": true,
+    "no_em_dash": true,
+    "nonmutation": true
+  },
+  "pass": true
+}

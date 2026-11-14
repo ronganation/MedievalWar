@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "document": {
+    "document_id": "mw.registry-character-portfolio-compatibility.badajoz.v1",
+    "authority_id": "authority.badajoz_taifa.registry_character_portfolio_compatibility.v1",
+    "title": "Badajoz Taifa Registry-to-Character Portfolio Compatibility Check V1",
+    "version": "1.1.0",
+    "scenario_context": "1062-01-01",
+    "status": "STATIC_CHECKED_COMPATIBILITY_PASS_WITH_EXPLICIT_OWNER_AND_TOOLCHAIN_BLOCKERS",
+    "source_markdown": "Badajoz_Taifa_Registry_to_Character_Portfolio_Compatibility_Check_V1.md",
+    "source_markdown_sha256": "b5a4c77d1fc886686e1ef6d5dd8f9f34f4e3c17db6a069a5a8e63953afce6d08"
+  },
+  "verdict": {
+    "compatibility_status": "PASS_WITH_REMAINING_BLOCKERS",
+    "local_registry_compatibility": "PASS",
+    "opening_state_readiness": "NOT_READY"
+  },
+  "registry_status": {
+    "local_registry_status": "LOCKED_STATIC_CHECKED",
+    "project_wide_registry_commit": "NOT_RUN",
+    "canonical_local_records": 11,
+    "historical_local_records": 1,
+    "external_lock_requests": 7,
+    "definition_reservations": 8,
+    "quarantine_records": 16,
+    "deprecated_ids_activated": 0,
+    "direct_migrations_activated": 0,
+    "alias_records": 0,
+    "alias_chains": 0
+  },
+  "canonical_endpoints": [
+    {
+      "id": "realm.badajoz",
+      "type": "RealmDefinition",
+      "status": "ActiveLocalCanonical",
+      "compatibility": "PASS"
+    },
+    {
+      "id": "dynasty.aftasid",
+      "type": "DynastyDefinition",
+      "status": "ActiveLocalCanonical",
+      "compatibility": "PASS"
+    },
+    {
+      "id": "person.muhammad_ibn_abd_allah_al_muzaffar",
+      "type": "PersonDefinition",
+      "status": "ActiveLocalCanonical",
+      "compatibility": "PASS",
+      "quarantines": [
+        "quarantine.badajoz.al_muzaffar_end_date"
+      ]
+    },
+    {
+      "id": "person.yahya_ibn_muhammad_al_mansur",
+      "type": "PersonDefinition",
+      "status": "ActiveLocalCanonical",
+      "compatibility": "PASS",
+      "quarantines": [
+        "quarantine.badajoz.yahya_formal_role"
+      ]
+    },
+    {
+      "id": "person.umar_ibn_muhammad_al_mutawakkil",
+      "type": "PersonDefinition",
+      "status": "ActiveLocalCanonical",
+      "compatibility": "PASS",
+      "quarantines": [
+        "quarantine.badajoz.umar_formal_role",
+        "quarantine.badajoz.umar_evora_1062"
+      ]
+    },
+    {
+      "id": "person.abd_allah_ibn_muhammad_al_mansur_ibn_al_aftas",
+      "type": "PersonDefinition",
+      "status": "ActiveHistoricalCanonical",
+      "compatibility": "PASS_CONDITIONAL",
+      "opening_activation": "EXCLUDED_PENDING_SHARED_DECEASED_PERSON_POLICY"
+    }
+  ],
+  "portfolio": {
+    "opening_profile_candidates": 3,
+    "historical_founder_dependencies": 1,
+    "basis_only_kinship_directions": 6,
+    "founder_review_only_directions": 2,
+    "dynasty_membership_candidates": 3,
+    "succession_relevant_candidates": 2,
+    "formal_heir": "IntentionalEmpty",
+    "opening_stage_candidate": "UnsettledContinuity"
+  },
+  "temporal_contract": {
+    "historical_date": {
+      "opening_value": "1062-01-01",
+      "advance_months_per_strategic_turn": 21
+    },
+    "biological_progression": {
+      "advance_months_per_strategic_turn": 7
+    },
+    "campaign_season": {
+      "opening_value": "Winter",
+      "ordered_advance": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ]
+    }
+  },
+  "critical_blockers": [
+    "BAD-RPC-BLK-001",
+    "BAD-RPC-BLK-002",
+    "BAD-RPC-BLK-003",
+    "BAD-RPC-BLK-004",
+    "BAD-RPC-BLK-005"
+  ],
+  "high_dependencies": [
+    "BAD-RPC-HIGH-001",
+    "BAD-RPC-HIGH-002",
+    "BAD-RPC-HIGH-003",
+    "BAD-RPC-HIGH-004",
+    "BAD-RPC-HIGH-005",
+    "BAD-RPC-HIGH-006"
+  ],
+  "validation_status": {
+    "static_validation": "PASS",
+    "project_wide_collision_search": "NOT_RUN",
+    "character_foundation_review": "NOT_RUN",
+    "realm_role_review": "NOT_RUN",
+    "importer_validation": "NOT_RUN",
+    "compile_validation": "NOT_RUN",
+    "runtime_validation": "NOT_RUN",
+    "save_load_replay_validation": "NOT_RUN",
+    "unreal_engine_validation": "NOT_RUN"
+  },
+  "opening_state": {
+    "ready": false,
+    "created": false,
+    "authoring_authorized": false,
+    "application_authorized": false,
+    "apply_once_required": true,
+    "advanced_save_replay_prohibited": true
+  },
+  "next_authorized_artifact": "Badajoz_Taifa_Character_Foundation_Lifecycle_and_Opening_Presence_Request_V1.md",
+  "preservation": {
+    "copy_first_substance_preservation": "PASS",
+    "removed_substance": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "document": "Seax_Warriors_V1_1_Master_Unit_Profile.md",
+  "sha256": "ac3b9c59817daaf816845da34430e78ce5ba2751d5880869c49bbd6c9a2ea7d2",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "single_controlling_profile": true,
+    "complete_predecessor_not_embedded": true,
+    "single_terrain_matrix": true,
+    "terrain_rows_25": true,
+    "numbered_sections_unique": true,
+    "numbered_sections_complete": true,
+    "single_manifest_section": true,
+    "single_footer": true,
+    "footer_final": true,
+    "removed_without_replacement_empty": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "nonmutation": true
+  }
+}

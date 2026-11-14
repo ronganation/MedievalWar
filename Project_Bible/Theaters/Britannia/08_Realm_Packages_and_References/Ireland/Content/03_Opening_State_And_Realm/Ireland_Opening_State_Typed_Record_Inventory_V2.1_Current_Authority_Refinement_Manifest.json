@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0",
+  "method": "CompleteSubstantiveSourcePreservedWithIntegratedCurrentAuthorityControl",
+  "source_file": "Ireland_Opening_State_Typed_Record_Inventory.md",
+  "source_bytes": 52846,
+  "source_sha256": "bf7123578a1d8178821226563c524f06a34f97bae5caaa4daab054d65fa6bde8",
+  "source_heading_count": 57,
+  "authority_file": "Ireland_Opening_State_Typed_Record_Inventory_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 76326,
+  "authority_sha256": "8ada388d9405918c1ef4fea112a135763b8482a048ca5e674c02d27d296e5e09",
+  "additive_bytes": 23480,
+  "source_preserved_in_full": true,
+  "typed_record_classes_preserved": 18,
+  "concrete_records_or_bounded_groups_preserved": 51,
+  "source_files_modified": 0,
+  "static_check_file": "Ireland_Opening_State_Typed_Record_Inventory_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "0e7e7f38f6a0c091b574e5c23ca59b7001813b2885c4f56af26570e21603a1e8",
+  "validation_scope": "content and static checks only; no compile, runtime, importer, save/load, migration execution, replay, performance, battle, Registry mutation, Opening State activation, Unreal modification, or payload validation"
+}

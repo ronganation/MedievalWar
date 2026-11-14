@@ -1,0 +1,46 @@
+{
+  "document_id": "RealmImplementationDataContractImporterPreparation.Realm.Brittany.V1.Manifest",
+  "filename": "Brittany_Realm_Implementation_Data_Contract_and_Importer_Preparation_V1_Manifest.json",
+  "authority_file": "Brittany_Realm_Implementation_Data_Contract_and_Importer_Preparation_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-07",
+  "placement": "Content/06_Implementation_Bundles_and_Validation",
+  "authority_bytes": 32049,
+  "authority_physical_lines": 1148,
+  "authority_sha256": "17A2F77DE3081D05C87A90040DC9CCF9B3AE068817E14EEDFCEC16D3AF662ADC",
+  "status": "StaticCheckedCandidateImplementationHandoffReviewOnly",
+  "candidate_schema_families_defined": 7,
+  "importer_stages_defined": 8,
+  "validation_severity_classes": 4,
+  "positive_importer_fixtures": 17,
+  "negative_importer_fixtures": 20,
+  "implementation_blockers_registered": 9,
+  "validation": {
+    "utf8_decode_valid": true,
+    "balanced_fenced_blocks": true,
+    "single_stable_footer": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false
+  },
+  "mutations": {
+    "source": 0,
+    "registry": 0,
+    "aliases": 0,
+    "opening_state": 0,
+    "migration": 0,
+    "importer_runs": 0,
+    "compile_runs": 0,
+    "editor_runs": 0,
+    "runtime": 0,
+    "unreal_project": 0,
+    "real_payload_import": 0
+  },
+  "next_outputs": [
+    "Brittany_Current_Machine_Readable_Candidate_Bundle_V1.zip",
+    "Brittany_UE5_8_Candidate_Schema_Dry_Run_and_Fixture_Pack_V1.zip",
+    "Brittany_UE5_8_Project_Native_Architecture_Map_V1.md"
+  ]
+}

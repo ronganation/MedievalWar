@@ -1,0 +1,14 @@
+{
+  "alias_application": false,
+  "archive_root": "BRI_CAND_V1",
+  "deterministic_sort": "OrdinalStableId",
+  "encoding": "UTF-8",
+  "migration_execution": false,
+  "mode": "ReviewOnlyCandidate",
+  "newline": "LF",
+  "opening_state_activation": false,
+  "registry_publication": false,
+  "runtime_mutation": false,
+  "unknown_numeric_to_zero": false,
+  "unreal_project_mutation": false
+}

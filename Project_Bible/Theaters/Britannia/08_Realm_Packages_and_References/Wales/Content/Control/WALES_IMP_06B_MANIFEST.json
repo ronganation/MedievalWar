@@ -1,0 +1,48 @@
+{
+  "TaskId": "WALES-IMP-06B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "EntranceDecision": "WalesAuthorityBackedCrossRealmTheaterSourceGapWithPrecedents",
+  "ImplementationAuthorized": false,
+  "ProductionAuthority": false,
+  "PlannedAdditiveFiles": 18,
+  "PlannedDirectTests": 38,
+  "KnownRegressionSubtotal": 277,
+  "DiscoverySuites": 3,
+  "Files": [
+    {
+      "Path": "Control/WALES_IMP_06B_AUTHORITY_ROUTE.csv",
+      "Bytes": 626,
+      "SHA256": "3D7CA46C710A5CB5CF2B54FE7A9F68859F60F360AEC94D50D2A5404B289F5FEE"
+    },
+    {
+      "Path": "Control/WALES_IMP_06B_BOUNDARY_MATRIX.csv",
+      "Bytes": 600,
+      "SHA256": "CBC1FEA1E2DF9E0B7956E01B7B8C6DC363DA5D422167863935E2F89FA6CCA561"
+    },
+    {
+      "Path": "Control/WALES_IMP_06B_EVIDENCE_REQUIREMENTS.csv",
+      "Bytes": 815,
+      "SHA256": "AA40DAC40FBA87828C1FA0CBE97A6A98A5F9B9E11BD0E0D43B2088FDA131089F"
+    },
+    {
+      "Path": "Control/WALES_IMP_06B_EXACT_FILE_AND_TEST_PLAN.csv",
+      "Bytes": 1435,
+      "SHA256": "E7B6EFA87C8FC8BEC9A4ED832CAEC05AB43C3CF8AB2DA7637E5FE619949626C5"
+    },
+    {
+      "Path": "Control/WALES_IMP_06B_TEST_CHAIN.csv",
+      "Bytes": 929,
+      "SHA256": "768502C06C2A198D4A072062C88F20ABE168F068FA20F77957F3EF939C93CEB5"
+    },
+    {
+      "Path": "README_FIRST_WALES_IMP_06B.txt",
+      "Bytes": 404,
+      "SHA256": "2D608C80F2C521D72C638D11E2F10CF17ECE1402F900C52B6671A3CD88D89D02"
+    },
+    {
+      "Path": "WALES_IMP_06B_CROSS_REALM_THEATER_INTEGRATION_CONTRACT_2026-09-23.md",
+      "Bytes": 10374,
+      "SHA256": "1C2E625DE3AB0752FD8660B14D4ABED6368349242CFA5F18141718A83F515B94"
+    }
+  ]
+}

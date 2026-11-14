@@ -1,0 +1,27 @@
+{
+  "Result": "Pass",
+  "FileName": "Sancha_Ramirez_of_Aragon_V1_Developed_Underage_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "SHA256": "555e76f47f96ea18bd9983f98994d68c08f77bb0bdba140c783fae4814f4b0e7",
+  "Checks": {
+    "bytes": 17786,
+    "lines": 347,
+    "required_underage": true,
+    "marriage_not_initialized": true,
+    "later_office_blocked": true,
+    "repeated": {},
+    "escaped_underscore": 0,
+    "em_dash": 0,
+    "balanced": true
+  },
+  "AllChecksPass": true,
+  "MutationReceipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Marriage": 0,
+    "Property": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "NextGate": "Bryan review of Sancha profile and active cast batch"
+}

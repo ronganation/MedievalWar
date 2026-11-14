@@ -1,0 +1,21 @@
+{
+  "filename": "Ireland_Historical_Suite_Owner_Decision_and_Binding_Packet_V1.md",
+  "version": "1.0.0",
+  "bytes": 21112,
+  "physical_lines": 563,
+  "sha256": "25eafab6329cac4cf3861083d13d3c4fdc2bf71df80e4a559c607d8f72d044d4",
+  "status": "Static-Checked Ready for Owner Routing",
+  "decision_requests": 10,
+  "pending_at_creation": 10,
+  "owner_responses_present": 0,
+  "bindings_applied": 0,
+  "validation_cases": 22,
+  "historical_package_closed": false,
+  "final_planned_historical_authoring_artifact_current_sequence": true,
+  "registry_rows_created": 0,
+  "aliases_applied": 0,
+  "migrations_executed": 0,
+  "opening_state_mutations": 0,
+  "runtime_mutations": 0,
+  "real_payload_imports": 0
+}

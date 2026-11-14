@@ -1,0 +1,480 @@
+{
+  "Schema": "MedievalWar.CandidateBundleStaticCheck.V1",
+  "DocumentId": "StaticCheck.MachineReadableCandidateBundle.Aquitaine.V1",
+  "FileName": "Aquitaine_Current_Machine_Readable_Candidate_Bundle_Static_Check_V1.json",
+  "Version": "1.0.0",
+  "RevisionDate": "2026-09-05",
+  "Realm": "Duchy of Aquitaine",
+  "RealmCandidateId": "realm.aquitaine.duchy",
+  "ScenarioId": "mw.scenario.grand_campaign.1062",
+  "OwningTheater": "West Francia",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "Inputs": {
+    "Bundle": {
+      "File": "Aquitaine_Current_Machine_Readable_Candidate_Bundle_Scaffold_V1.zip",
+      "Bytes": 18234,
+      "SHA256": "17e06e4542d37b48b071844bc9f1efa0135c1b5680dc87c9dea60bcc17c92e82"
+    },
+    "ValidationReport": {
+      "File": "Aquitaine_Current_Machine_Readable_Candidate_Bundle_Validation_Report_V1.md",
+      "Bytes": 11768,
+      "SHA256": "9da8d9838341e576c443ab418dd04ad9b33d8a28d5b6bd5301b3618378df309f"
+    }
+  },
+  "Archive": {
+    "Root": "AQ_Candidate_V1",
+    "ExpectedFiles": 30,
+    "ActualFiles": 30,
+    "ZIPCRCTest": "Pass",
+    "UnsafePaths": [],
+    "UTF8BOMFiles": [],
+    "CRLFFiles": [],
+    "ParseFailures": []
+  },
+  "HistoricalCoverage": {
+    "EvidenceChronologyPayload": true,
+    "CandidateEvidencePortfolios": 18,
+    "PopulatedPrimarySourceRecordsClaimed": 0,
+    "UncertaintyPayload": true,
+    "CandidateUncertaintyRecords": 30,
+    "OpeningScenarioSelectionsApplied": 0
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "OpeningCampaignSeason": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ]
+  },
+  "OpeningProtections": {
+    "WilliamIXOpeningAlive": false,
+    "BernardIIOpeningRebellion": false,
+    "MatoedaAutomaticRegency": false,
+    "AgnesAdultAgency": false,
+    "BarbastroOpeningCommitment": false,
+    "OpeningStateApplicationCount": 0
+  },
+  "Authorizations": {
+    "RegistryPromotion": false,
+    "AliasExecution": false,
+    "OpeningStateActivation": false,
+    "MigrationExecution": false,
+    "UnrealImport": false,
+    "RuntimeActivation": false,
+    "RealPayloadImport": false
+  },
+  "ValidationBoundary": {
+    "ProjectRegistryCollisionScanComplete": false,
+    "ExternalOwnerReceiptsComplete": false,
+    "ProjectNativeSchemaValidationComplete": false,
+    "UnrealCompileValidated": false,
+    "UnrealEditorValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "BattleValidated": false
+  },
+  "Checks": [
+    {
+      "Id": "ArchiveExists",
+      "Result": "Pass"
+    },
+    {
+      "Id": "ValidationReportExists",
+      "Result": "Pass"
+    },
+    {
+      "Id": "ArchiveSHA256MatchesValidatedReceipt",
+      "Result": "Pass"
+    },
+    {
+      "Id": "ValidationReportSHA256MatchesReceipt",
+      "Result": "Pass"
+    },
+    {
+      "Id": "ArchiveCRC",
+      "Result": "Pass"
+    },
+    {
+      "Id": "InternalFileCount30",
+      "Result": "Pass"
+    },
+    {
+      "Id": "ExpectedFilesExact",
+      "Result": "Pass"
+    },
+    {
+      "Id": "OneSafeRoot",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NoUnsafePaths",
+      "Result": "Pass"
+    },
+    {
+      "Id": "AllJSONAndYAMLParse",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NoUTF8BOM",
+      "Result": "Pass"
+    },
+    {
+      "Id": "LFOnly",
+      "Result": "Pass"
+    },
+    {
+      "Id": "CandidateControlsNoncommitting",
+      "Result": "Pass"
+    },
+    {
+      "Id": "PreferredRealmCandidate",
+      "Result": "Pass"
+    },
+    {
+      "Id": "HistoricalTrack21",
+      "Result": "Pass"
+    },
+    {
+      "Id": "BiologicalTrack7",
+      "Result": "Pass"
+    },
+    {
+      "Id": "CampaignSeasonStep1",
+      "Result": "Pass"
+    },
+    {
+      "Id": "CampaignSeasonOrder",
+      "Result": "Pass"
+    },
+    {
+      "Id": "EvidencePortfolioCount18",
+      "Result": "Pass"
+    },
+    {
+      "Id": "PrimarySourceRecordsClaimed0",
+      "Result": "Pass"
+    },
+    {
+      "Id": "UncertaintyRecordCount30",
+      "Result": "Pass"
+    },
+    {
+      "Id": "UncertaintySelections0",
+      "Result": "Pass"
+    },
+    {
+      "Id": "WilliamIXOpeningAliveFalse",
+      "Result": "Pass"
+    },
+    {
+      "Id": "BernardOpeningRebellionFalse",
+      "Result": "Pass"
+    },
+    {
+      "Id": "MatoedaAutomaticRegencyFalse",
+      "Result": "Pass"
+    },
+    {
+      "Id": "AgnesAdultAgencyFalse",
+      "Result": "Pass"
+    },
+    {
+      "Id": "BarbastroOpeningCommitmentFalse",
+      "Result": "Pass"
+    },
+    {
+      "Id": "OpeningStateApplicationCount0",
+      "Result": "Pass"
+    },
+    {
+      "Id": "RegistryMutations0",
+      "Result": "Pass"
+    },
+    {
+      "Id": "OpeningStateMutations0",
+      "Result": "Pass"
+    },
+    {
+      "Id": "UnrealMutations0",
+      "Result": "Pass"
+    },
+    {
+      "Id": "RealPayloadImports0",
+      "Result": "Pass"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 32,
+    "Passes": 32,
+    "Failures": 0,
+    "Result": "Pass",
+    "CandidateScaffoldAcceptedForReview": true,
+    "ProductionPromotionApproved": false
+  },
+  "MutationReceipt": {
+    "HistoricalFactsActivated": 0,
+    "SourceRecordsFabricated": 0,
+    "UncertaintySelectionsApplied": 0,
+    "MemoryInstancesActivated": 0,
+    "MomentumInstancesActivated": 0,
+    "EmergenceInstancesActivated": 0,
+    "OpeningStateMutations": 0,
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "WarActivations": 0,
+    "PapalActions": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "FileInventory": [
+    {
+      "File": "README.md",
+      "Bytes": 477,
+      "Lines": 9,
+      "SHA256": "cadf2f1d2f734eefd4d86583990b04d9a425c65003a2d7b9f316e06e8586b50f",
+      "CRC32": "b96de300",
+      "Parse": "UTF8Pass"
+    },
+    {
+      "File": "aliases.yaml",
+      "Bytes": 975,
+      "Lines": 28,
+      "SHA256": "825903c25816178ea76593ebcaacd5fe7d3155ed4781b61b38e2d0917dd8e2de",
+      "CRC32": "18e86124",
+      "Parse": "Pass"
+    },
+    {
+      "File": "characters.yaml",
+      "Bytes": 1556,
+      "Lines": 43,
+      "SHA256": "d9ae39ef84a78d22a95fe069e8635d030305a6a1d125b45d1af084f3e54ed872",
+      "CRC32": "4da28c6e",
+      "Parse": "Pass"
+    },
+    {
+      "File": "communities.yaml",
+      "Bytes": 786,
+      "Lines": 22,
+      "SHA256": "793d74674fc416efa50398acc385d0b0f3c01f81dbf504cc5f5cbbcd44938cd0",
+      "CRC32": "dd447cbf",
+      "Parse": "Pass"
+    },
+    {
+      "File": "dynasty.yaml",
+      "Bytes": 993,
+      "Lines": 27,
+      "SHA256": "32ef507c2a9b60eb876f169f14d4cf5b1fc5e5c4a69157e97460f4d98bc618dc",
+      "CRC32": "a38c2cc1",
+      "Parse": "Pass"
+    },
+    {
+      "File": "ecclesiastical.yaml",
+      "Bytes": 784,
+      "Lines": 22,
+      "SHA256": "b6c22cd827b4b76514a2b7678a9c84b6815cf6d9e6d1c83e6dd186d4fc3ed86c",
+      "CRC32": "5e2e24a8",
+      "Parse": "Pass"
+    },
+    {
+      "File": "economy.yaml",
+      "Bytes": 776,
+      "Lines": 22,
+      "SHA256": "51ccaba2d0f8330ecb9cfab15e8a3397005ba6e4d9925ab671f64dfa1310ca8c",
+      "CRC32": "65e494b7",
+      "Parse": "Pass"
+    },
+    {
+      "File": "emergence.yaml",
+      "Bytes": 1113,
+      "Lines": 28,
+      "SHA256": "4c48e54cc27e445744004ab7e4f2ed78589ce7713e61dddc49a6f5890ca83e2b",
+      "CRC32": "5ce570ba",
+      "Parse": "Pass"
+    },
+    {
+      "File": "evidence_chronology.yaml",
+      "Bytes": 3660,
+      "Lines": 112,
+      "SHA256": "6027b1cfca7a3ad791ccc6f2e0a1062a053235e412bc99fa5959995cbe86ba98",
+      "CRC32": "ab247480",
+      "Parse": "Pass"
+    },
+    {
+      "File": "governance.yaml",
+      "Bytes": 792,
+      "Lines": 22,
+      "SHA256": "d893c49a559908d154d92f14d0f63eb6d01c5d828327f372750f680c51dfe7e7",
+      "CRC32": "a80747b1",
+      "Parse": "Pass"
+    },
+    {
+      "File": "index.json",
+      "Bytes": 1021,
+      "Lines": 44,
+      "SHA256": "05d0162f4abdb2feb43ae04b67e650c57d2b9045b83cf93fdca5df85c458d298",
+      "CRC32": "25af06f6",
+      "Parse": "Pass"
+    },
+    {
+      "File": "law.yaml",
+      "Bytes": 773,
+      "Lines": 22,
+      "SHA256": "672f651143fcb238fddd436dd93bbffbb270b0aa3fd01148e359102dc8c9cdd3",
+      "CRC32": "c64f6ce4",
+      "Parse": "Pass"
+    },
+    {
+      "File": "memory.yaml",
+      "Bytes": 833,
+      "Lines": 23,
+      "SHA256": "1f11197230b4dc4693667c77a24497864377090cda887ce3fcaaf29c700cac7c",
+      "CRC32": "8792cbd4",
+      "Parse": "Pass"
+    },
+    {
+      "File": "military.yaml",
+      "Bytes": 782,
+      "Lines": 22,
+      "SHA256": "a9c02858b972be3a7dff90db9415bf098448b8d08b7232f8f30b9afb763a9d8c",
+      "CRC32": "93df92f5",
+      "Parse": "Pass"
+    },
+    {
+      "File": "momentum.yaml",
+      "Bytes": 991,
+      "Lines": 31,
+      "SHA256": "2682079acd1ba6f0fcbc572172f48473253e25f3457d17d182937f2211ee2072",
+      "CRC32": "0e114a5b",
+      "Parse": "Pass"
+    },
+    {
+      "File": "network.yaml",
+      "Bytes": 779,
+      "Lines": 22,
+      "SHA256": "be4bce58441028157db847111c91b23543f4b3b569481799223f48e4e59b61ef",
+      "CRC32": "3e7bcec4",
+      "Parse": "Pass"
+    },
+    {
+      "File": "opening_state.yaml",
+      "Bytes": 1205,
+      "Lines": 40,
+      "SHA256": "681ef7af808580eaa44c5f6da3f626ac4eb27078458dd665c426baf36188a373",
+      "CRC32": "1105eb3d",
+      "Parse": "Pass"
+    },
+    {
+      "File": "opportunities.yaml",
+      "Bytes": 788,
+      "Lines": 22,
+      "SHA256": "10cea0d0486dd908e53e023f0d2dc89a8dfcc7a2cb6b6c580ac700c0da63c07d",
+      "CRC32": "d9272ccd",
+      "Parse": "Pass"
+    },
+    {
+      "File": "package_manifest.yaml",
+      "Bytes": 4945,
+      "Lines": 161,
+      "SHA256": "b72df1a4bb27a3a95b75244c36ba0db2e9c64dbc6e4177f7021eb9b33e516e03",
+      "CRC32": "50b8ff30",
+      "Parse": "Pass"
+    },
+    {
+      "File": "realm_ai.yaml",
+      "Bytes": 782,
+      "Lines": 22,
+      "SHA256": "af6d87b5323e813b940694f8d0a3f6c57f27a493ea93e14d5a71628c3aea1a5f",
+      "CRC32": "5877a012",
+      "Parse": "Pass"
+    },
+    {
+      "File": "recruitment.yaml",
+      "Bytes": 780,
+      "Lines": 22,
+      "SHA256": "4f8c786da26f72706793cee006f2add7adec22d8581ab8d9deef32a7602e7c1f",
+      "CRC32": "7c86294f",
+      "Parse": "Pass"
+    },
+    {
+      "File": "registry.yaml",
+      "Bytes": 1139,
+      "Lines": 39,
+      "SHA256": "6511e8cefb71c2ea1ba56cd5b2350851459cff0df8e4f763fc6c9eb5d2a0c372",
+      "CRC32": "0209f8a3",
+      "Parse": "Pass"
+    },
+    {
+      "File": "review_quarantine.yaml",
+      "Bytes": 824,
+      "Lines": 23,
+      "SHA256": "edf749cb0b6544d049f883310c1f32ebe985327bd1926eeef000766227945d3f",
+      "CRC32": "dfbcc41e",
+      "Parse": "Pass"
+    },
+    {
+      "File": "routes.yaml",
+      "Bytes": 789,
+      "Lines": 22,
+      "SHA256": "fe27efc1ac0c374f43cb159f9cd5b50d477d2c0c0171fc6b5d761659d82ef72e",
+      "CRC32": "931d45dd",
+      "Parse": "Pass"
+    },
+    {
+      "File": "supply.yaml",
+      "Bytes": 778,
+      "Lines": 22,
+      "SHA256": "1bf0c72abb09679ccce0266ad3d20a3c1625b2aee75f5b55a7a3cd3d38bae13f",
+      "CRC32": "99237f0e",
+      "Parse": "Pass"
+    },
+    {
+      "File": "territory.yaml",
+      "Bytes": 782,
+      "Lines": 22,
+      "SHA256": "1cb6cde1a62b2cafb43a0303cf32a6e0a531d0dc35263b471597482a5bdabbd1",
+      "CRC32": "c783ffd0",
+      "Parse": "Pass"
+    },
+    {
+      "File": "time.yaml",
+      "Bytes": 1051,
+      "Lines": 34,
+      "SHA256": "14a2afc7416f4075b8c0297b45263cd0c7d6ef9eeabd6099eb1bf5e0d7001b22",
+      "CRC32": "dc325886",
+      "Parse": "Pass"
+    },
+    {
+      "File": "titles.yaml",
+      "Bytes": 788,
+      "Lines": 22,
+      "SHA256": "1d2ea4cc4111e0287ec9d7c886f22e487e0d590c92d2769b34db2a83d8f82420",
+      "CRC32": "010168a3",
+      "Parse": "Pass"
+    },
+    {
+      "File": "uncertainty.yaml",
+      "Bytes": 4565,
+      "Lines": 142,
+      "SHA256": "6bdcb9da08d11bc595651b10c2e429c26a64b4e19e2abc52644c6494395e45f7",
+      "CRC32": "6409371c",
+      "Parse": "Pass"
+    },
+    {
+      "File": "validation_manifest.yaml",
+      "Bytes": 988,
+      "Lines": 30,
+      "SHA256": "2f6edac4d9e5f7b61dd9f7540ab2d76ef2a9735099d99aaae2e1d9c67925d4c8",
+      "CRC32": "898dad2f",
+      "Parse": "Pass"
+    }
+  ]
+}

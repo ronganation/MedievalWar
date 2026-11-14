@@ -1,0 +1,20 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "batch_records_15": true,
+    "evidence_classes_12": true,
+    "rollback_classes_6": true,
+    "roster_23": true,
+    "three_tracks": true,
+    "no_implementation": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "80dc1f18531de5b0fcda2fd7edf57f34445ef06e37b02ad6dc4185041b034d5b",
+  "Bytes": 20249,
+  "Lines": 539,
+  "Scope": "Static acceptance, evidence, and rollback matrix checks only"
+}

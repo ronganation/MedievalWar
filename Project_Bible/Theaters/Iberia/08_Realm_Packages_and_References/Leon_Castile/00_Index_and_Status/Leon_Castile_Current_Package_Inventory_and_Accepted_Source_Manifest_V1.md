@@ -1,0 +1,844 @@
+# Leon-Castile Current Package Inventory and Accepted-Source Manifest V1
+
+## 0. Document Control
+
+```yaml
+document_id: manifest.leon_castile.current_package_inventory.accepted_source.v1
+filename: Leon_Castile_Current_Package_Inventory_and_Accepted_Source_Manifest_V1.json
+version: 1.0.0
+date: 2026-09-08
+realm: Leon-Castile
+owning_theater: Iberia
+scenario_opening: 1062-01-01
+constitutional_authority: Project Bible 2.4
+operational_authority: Design Expansion Checklist 3.7
+implementation_target: Unreal Engine 5.8
+status: STATIC_CHECKED_ACCEPTED_SOURCE_MANIFEST_WITH_LOCAL_HASH_RECALCULATION_GATE
+```
+
+## 1. Verdict
+
+This authority identifies 61 accepted current-package entries across the root README and numbered folders 00 through 09. It distinguishes controlling, supporting, evidentiary, review-only, and legacy dispositions. It captures verified or declared byte counts and SHA-256 values where current evidence provides them and marks all unavailable local fingerprints as pending rather than fabricating values.
+
+The accepted set is sufficient to control the next V2 cross-reference and dependency audit. It is not a runtime promotion manifest and authorizes no registry, Opening State, Unreal project, save, replay, or active-payload mutation.
+
+## 2. Accepted Scope
+
+```yaml
+accepted_current_entries: 61
+accepted_scope: Root README plus numbered current folders 00 through 09
+legacy_folder: Old_Machine_Readable_and_Importer
+legacy_disposition: ProtectedLegacyExcludedFromAcceptedCurrentSourceSet
+runtime_promotion_authorized: false
+registry_mutation_authorized: false
+opening_state_mutation_authorized: false
+unreal_project_mutation_authorized: false
+```
+
+## 3. Inventory
+
+### ROOT
+
+```yaml
+relative_path: Leon_Castile_README.md
+role: RootNavigationAuthority
+version: 1.1.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: NoneDeclared
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedPackageNavigationAuthority
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+
+### 00_Index_and_Status
+
+```yaml
+relative_path: 00_Index_and_Status/Leon_Castile_Playable_Stakeholder_Control_Plan_V1.md
+role: PlayableStakeholderControlPlan
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: NoneDeclared
+disposition: CURRENT_SUPPORTING
+evidence_status: StaticCheckedDraft
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 00_Index_and_Status/Leon_Castile_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+role: RealmCharacterAuthority
+version: 2.0.0
+bytes_declared_or_verified: 53226
+sha256_declared_or_verified: 8bb51b862eb7f9ac3caabd18c2aad1210873fd8d029110a3a0977dadff56d80e
+matching_artifact_or_manifest: Leon_Castile_Character_Authorities_V2_Developed_Realm_Parity_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 00_Index_and_Status/Leon_Castile_Character_Authorities_V2_Developed_Realm_Parity_Authority_Manifest.json
+role: Manifest
+version: 2.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalSelfHash
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 00_Index_and_Status/Leon_Castile_Seven_Character_Profile_Parity_and_Consistency_Audit_V1.md
+role: ParityAudit
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Seven_Character_Profile_Parity_and_Consistency_Audit_V1_Manifest.json
+disposition: CURRENT_EVIDENCE
+evidence_status: StaticCheckedAuditReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 00_Index_and_Status/Leon_Castile_Seven_Character_Profile_Parity_and_Consistency_Audit_V1_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Seven_Character_Profile_Parity_and_Consistency_Audit_V1.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalSelfHash
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 00_Index_and_Status/Leon_Castile_Seven_Profile_General_Authority_Integration_Control_Matrix_V1.md
+role: IntegrationControlMatrix
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Seven_Profile_General_Authority_Integration_Control_Matrix_V1_Manifest.json
+disposition: CURRENT_CONTROL
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 00_Index_and_Status/Leon_Castile_Seven_Profile_General_Authority_Integration_Control_Matrix_V1_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Seven_Profile_General_Authority_Integration_Control_Matrix_V1.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalSelfHash
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+
+### 01_Opening_State
+
+```yaml
+relative_path: 01_Opening_State/Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority.md
+role: OpeningStateAuthority
+version: 2.1.0
+bytes_declared_or_verified: 66332
+sha256_declared_or_verified: c58e40798768521d9ce3195f7bd35502224f661478efac4a1de73bff02e8d93a
+matching_artifact_or_manifest: Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticChecked
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 01_Opening_State/Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority_Manifest.json
+role: Manifest
+version: 2.1.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+
+### 02_Realm_Core
+
+```yaml
+relative_path: 02_Realm_Core/Leon_Castile_Realm_Personality_AI_V2_Seven_Profile_Integrated_Authority.md
+role: RealmPersonalityAuthority
+version: 2.0.0
+bytes_declared_or_verified: 61999
+sha256_declared_or_verified: f232d95352c1e0b86ac1d54130e136c2baf0d9891d2fd14b23be7155c25d997f
+matching_artifact_or_manifest: Leon_Castile_Realm_Personality_AI_V2_Seven_Profile_Integrated_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 02_Realm_Core/Leon_Castile_Realm_Personality_AI_V2_Seven_Profile_Integrated_Authority_Manifest.json
+role: Manifest
+version: 2.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Realm_Personality_AI_V2_Seven_Profile_Integrated_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+
+### 03_Historical
+
+```yaml
+relative_path: 03_Historical/Leon_Castile_Historical_Memory_V1_Developed_Realm_Parity_Authority.md
+role: HistoricalMemoryAuthority
+version: 1.0.0
+bytes_declared_or_verified: 89385
+sha256_declared_or_verified: fe33d6413a75ad863f5bd2bca0d2040e10c95dcd1b842a6250849436ac44580f
+matching_artifact_or_manifest: Leon_Castile_Historical_Memory_V1_Developed_Realm_Parity_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 03_Historical/Leon_Castile_Historical_Memory_V1_Developed_Realm_Parity_Authority_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Historical_Memory_V1_Developed_Realm_Parity_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 03_Historical/Leon_Castile_Historical_Momentum_V1_Developed_Realm_Parity_Authority.md
+role: HistoricalMomentumAuthority
+version: 1.0.0
+bytes_declared_or_verified: 78421
+sha256_declared_or_verified: 21c1a54113ca9330eb9eed44382dd1c299c8d99debd23f3ed7ae717c7f4436b4
+matching_artifact_or_manifest: Leon_Castile_Historical_Momentum_V1_Developed_Realm_Parity_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 03_Historical/Leon_Castile_Historical_Momentum_V1_Developed_Realm_Parity_Authority_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Historical_Momentum_V1_Developed_Realm_Parity_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 03_Historical/Leon_Castile_Historical_Emergence_V1_Developed_Realm_Parity_Authority.md
+role: HistoricalEmergenceAuthority
+version: 1.0.0
+bytes_declared_or_verified: 94989
+sha256_declared_or_verified: bd46d4c285a60a5bc876589a1442974c4cb4baa03e30bea8040ac6e4f4ab652b
+matching_artifact_or_manifest: Leon_Castile_Historical_Emergence_V1_Developed_Realm_Parity_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 03_Historical/Leon_Castile_Historical_Emergence_V1_Developed_Realm_Parity_Authority_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Historical_Emergence_V1_Developed_Realm_Parity_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+
+### 04_Characters
+
+```yaml
+relative_path: 04_Characters/Ferdinand_I_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md
+role: CharacterProfileAuthority
+version: 1.0.0
+bytes_declared_or_verified: 39965
+sha256_declared_or_verified: 824a1f47f3af3db0d58708d8f79a9ed76263e03d9fc3805f3a5ce6c1567c2616
+matching_artifact_or_manifest: Ferdinand_I_of_Leon_Castile_V1_Developed_Character_Profile_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Ferdinand_I_of_Leon_Castile_V1_Developed_Character_Profile_Authority_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Ferdinand_I_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalSelfHash
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Ferdinand_I_of_Leon_Castile_V1_1_Succession_Pressure_and_Performance_Refinement.md
+role: CharacterProfileRefinement
+version: 1.1.0
+bytes_declared_or_verified: 14958
+sha256_declared_or_verified: 30a39b39364aa8a9882f7dec5102708540f7db36d6976a40eb60fb8fee55ecd8
+matching_artifact_or_manifest: Ferdinand_I_of_Leon_Castile_V1_1_Succession_Pressure_and_Performance_Refinement_Manifest.json
+disposition: CURRENT_SUPPORTING_REQUIRES_INTEGRATION_REVIEW
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Ferdinand_I_of_Leon_Castile_V1_1_Succession_Pressure_and_Performance_Refinement_Manifest.json
+role: Manifest
+version: 1.1.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Ferdinand_I_of_Leon_Castile_V1_1_Succession_Pressure_and_Performance_Refinement.md
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Sancha_of_Leon_V1_Developed_Character_Profile_Authority.md
+role: CharacterProfileAuthority
+version: 1.0.0
+bytes_declared_or_verified: 36763
+sha256_declared_or_verified: 6fea6723bcc967dc82a3cbef19988543f25e699c82fccf2c3c2dcb0e25c9bf58
+matching_artifact_or_manifest: Sancha_of_Leon_V1_Developed_Character_Profile_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Sancha_of_Leon_V1_Developed_Character_Profile_Authority_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Sancha_of_Leon_V1_Developed_Character_Profile_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalSelfHash
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Sancho_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md
+role: CharacterProfileAuthority
+version: 1.0.0
+bytes_declared_or_verified: 55919
+sha256_declared_or_verified: 94d70d14d97cbb703ea1a1a995be8d3e33826b62608fc3da144dcb3224a4f658
+matching_artifact_or_manifest: Sancho_of_Leon_Castile_V1_Developed_Character_Profile_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Sancho_of_Leon_Castile_V1_Developed_Character_Profile_Authority_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Sancho_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalSelfHash
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Alfonso_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md
+role: CharacterProfileAuthority
+version: 1.0.0
+bytes_declared_or_verified: 48562
+sha256_declared_or_verified: ff27f22fd3c6d3cd982b2613d970a80b7ad13e941976ad7d26b4808bfb68c4f4
+matching_artifact_or_manifest: Alfonso_of_Leon_Castile_V1_Developed_Character_Profile_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Alfonso_of_Leon_Castile_V1_Developed_Character_Profile_Authority_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Alfonso_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalSelfHash
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Garcia_of_Galicia_V1_Developed_Character_Profile_Authority.md
+role: CharacterProfileAuthority
+version: 1.0.0
+bytes_declared_or_verified: 50598
+sha256_declared_or_verified: aebda0aabf2d7ec3e4e74ed27430c0bb5d58598759c4cae3d9cff8cb3babef47
+matching_artifact_or_manifest: Garcia_of_Galicia_V1_Developed_Character_Profile_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Garcia_of_Galicia_V1_Developed_Character_Profile_Authority_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Garcia_of_Galicia_V1_Developed_Character_Profile_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalSelfHash
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Urraca_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md
+role: CharacterProfileAuthority
+version: 1.0.0
+bytes_declared_or_verified: 48347
+sha256_declared_or_verified: 82447ddf1e6be2774b901ee53557fdee14658df51433a423c612b15b1bc1dcca
+matching_artifact_or_manifest: Urraca_of_Leon_Castile_V1_Developed_Character_Profile_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Urraca_of_Leon_Castile_V1_Developed_Character_Profile_Authority_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Urraca_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalSelfHash
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Elvira_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md
+role: CharacterProfileAuthority
+version: 1.0.0
+bytes_declared_or_verified: 46241
+sha256_declared_or_verified: f7607b9c1f609e6109dab4ed4ebf2f1e9dff1d0abdfde0ac9f422abe7fe6d454
+matching_artifact_or_manifest: Elvira_of_Leon_Castile_V1_Developed_Character_Profile_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 04_Characters/Elvira_of_Leon_Castile_V1_Developed_Character_Profile_Authority_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Elvira_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalSelfHash
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+
+### 05_Dynasty_and_Network
+
+```yaml
+relative_path: 05_Dynasty_and_Network/Leon_Castile_Character_Network_V2_Seven_Profile_Integrated_Authority.md
+role: CharacterNetworkAuthority
+version: 2.0.0
+bytes_declared_or_verified: 55279
+sha256_declared_or_verified: f1540e11ee134bac58b16cfd9f7a39219ebc19d7361d23fed829251ca6ac6842
+matching_artifact_or_manifest: Leon_Castile_Character_Network_V2_Seven_Profile_Integrated_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 05_Dynasty_and_Network/Leon_Castile_Character_Network_V2_Seven_Profile_Integrated_Authority_Manifest.json
+role: Manifest
+version: 2.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Character_Network_V2_Seven_Profile_Integrated_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 05_Dynasty_and_Network/Leon_Castile_Dynasty_Authority_V2_Seven_Profile_Integrated_Authority.md
+role: DynastyAuthority
+version: 2.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Dynasty_Authority_V2_Seven_Profile_Integrated_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 05_Dynasty_and_Network/Leon_Castile_Dynasty_Authority_V2_Seven_Profile_Integrated_Authority_Manifest.json
+role: Manifest
+version: 2.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Dynasty_Authority_V2_Seven_Profile_Integrated_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalHashReconciliation
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+
+### 06_Governance_and_Ecclesiastical
+
+```yaml
+relative_path: 06_Governance_and_Ecclesiastical/Leon_Castile_Governance_Delegated_Authority_V2_Seven_Profile_Integrated_Authority.md
+role: GovernanceAuthority
+version: 2.0.0
+bytes_declared_or_verified: 55156
+sha256_declared_or_verified: 71cd05deab2b252e77dda297603a1649c2b902882e518eb730d394d579944bd8
+matching_artifact_or_manifest: Leon_Castile_Governance_Delegated_Authority_V2_Seven_Profile_Integrated_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 06_Governance_and_Ecclesiastical/Leon_Castile_Governance_Delegated_Authority_V2_Seven_Profile_Integrated_Authority_Manifest.json
+role: Manifest
+version: 2.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Governance_Delegated_Authority_V2_Seven_Profile_Integrated_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 06_Governance_and_Ecclesiastical/Leon_Castile_Ecclesiastical_Content_V2_Seven_Profile_Integration_Authority.md
+role: EcclesiasticalAuthority
+version: 2.0.0
+bytes_declared_or_verified: 80947
+sha256_declared_or_verified: 4a1ebdd783489b95ad77d5eb0bd1de07e201dd21efc76d3f8190e23b3a28a9c1
+matching_artifact_or_manifest: Leon_Castile_Ecclesiastical_Content_V2_Seven_Profile_Integration_Authority_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedReviewOnly
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 06_Governance_and_Ecclesiastical/Leon_Castile_Ecclesiastical_Content_V2_Seven_Profile_Integration_Authority_Manifest.json
+role: Manifest
+version: 2.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Ecclesiastical_Content_V2_Seven_Profile_Integration_Authority.md
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+
+### 07_Registry_and_Owner_Routing
+
+```yaml
+relative_path: 07_Registry_and_Owner_Routing/Leon_Castile_Historical_Suite_Registry_Preflight_V1.md
+role: RegistryPreflight
+version: 1.0.0
+bytes_declared_or_verified: 38864
+sha256_declared_or_verified: 9797a87a4fc382aba6bbadd158169542dff82bb70484b223f62c7caf517b8c8f
+matching_artifact_or_manifest: Leon_Castile_Historical_Suite_Registry_Preflight_V1_Manifest.json
+disposition: CURRENT_REVIEW_GATE
+evidence_status: StaticCheckedWithOwnerBlockers
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 07_Registry_and_Owner_Routing/Leon_Castile_Historical_Suite_Registry_Preflight_V1_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Historical_Suite_Registry_Preflight_V1.md
+disposition: CURRENT_EVIDENCE
+evidence_status: AllStaticChecksPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 07_Registry_and_Owner_Routing/Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V1.json
+role: OwnerRoutingProposal
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: NoneDeclared
+disposition: REVIEW_ONLY_REQUIRES_V2_RECONCILIATION
+evidence_status: V1DependenciesNoRuntimeInspection
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+
+### 08_Machine_Readable
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_Brother_Mechanics_Integrated.md
+role: MachineReadableContract
+version: 2.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: 2faa9c2234c372028e37ae4a79b88fa56fddf761ca46bc9713de5deb26e702a6
+matching_artifact_or_manifest: Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_Brother_Mechanics_Integrated_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedPromotionBlocked
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_Brother_Mechanics_Integrated_Manifest.json
+role: Manifest
+version: 2.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_Brother_Mechanics_Integrated.md
+disposition: CURRENT_EVIDENCE
+evidence_status: ManifestSubjectToLocalHashReconciliation
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Opening_State_Package_Schema_V2.json
+role: JSONSchema
+version: 2.0.0
+bytes_declared_or_verified: 65676
+sha256_declared_or_verified: d76fc2ecfe743ef47516ce0096f921f155cfa83de3518f22892f6c4e0ea1b39b
+matching_artifact_or_manifest: Leon_Castile_Opening_State_Package_Schema_V2_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticValidatedPromotionBlocked
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Opening_State_Package_Schema_V2_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Opening_State_Package_Schema_V2.json
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPassWithExecutionLimits
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Opening_State_1062_V2.json
+role: CanonicalPayload
+version: 2.0.0
+bytes_declared_or_verified: 33218
+sha256_declared_or_verified: 9fa0885f4a84eadfadfdc297a0870e680c4f14a01b653b67d9b67a6a7abfd80f
+matching_artifact_or_manifest: Leon_Castile_Opening_State_1062_V2_Manifest.json
+disposition: CURRENT_CONTROLLING
+evidence_status: StaticCheckedPromotionBlocked
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Opening_State_1062_V2_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Opening_State_1062_V2.json
+disposition: CURRENT_EVIDENCE_REQUIRES_REFRESH
+evidence_status: PredatesGeneratedOverlaysInItsOwnRecordedBoundary
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Opening_State_1062_Sancho_Overlay_V2.json
+role: CampaignCreationOverlay
+version: 2.0.0
+bytes_declared_or_verified: 1114
+sha256_declared_or_verified: 4e6c7f57e8f246b65a3213fde203500724e7a12c3313733b4bd24034a00425cb
+matching_artifact_or_manifest: Leon_Castile_Opening_State_1062_Sancho_Overlay_V2_Manifest.json
+disposition: CURRENT_CONTROLLING_SELECTION_ONLY
+evidence_status: StaticPairingPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Opening_State_1062_Sancho_Overlay_V2_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Opening_State_1062_Sancho_Overlay_V2.json
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPassWithExecutionLimits
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Opening_State_1062_Alfonso_Overlay_V2.json
+role: CampaignCreationOverlay
+version: 2.0.0
+bytes_declared_or_verified: 1122
+sha256_declared_or_verified: 62a95feb4033a994301b092bce5ee639e09ecf117aa546a8f8da50a0d0d10e5b
+matching_artifact_or_manifest: Leon_Castile_Opening_State_1062_Alfonso_Overlay_V2_Manifest.json
+disposition: CURRENT_CONTROLLING_SELECTION_ONLY
+evidence_status: StaticPairingPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Opening_State_1062_Alfonso_Overlay_V2_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Opening_State_1062_Alfonso_Overlay_V2.json
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPassWithExecutionLimits
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Opening_State_1062_Garcia_Overlay_V2.json
+role: CampaignCreationOverlay
+version: 2.0.0
+bytes_declared_or_verified: 1114
+sha256_declared_or_verified: 52a6475aa6c558d3fc32012207d9a6d52fad71d1d62a209753ea7cac13e3af83
+matching_artifact_or_manifest: Leon_Castile_Opening_State_1062_Garcia_Overlay_V2_Manifest.json
+disposition: CURRENT_CONTROLLING_SELECTION_ONLY
+evidence_status: StaticPairingPass
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 08_Machine_Readable/Leon_Castile_Opening_State_1062_Garcia_Overlay_V2_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Opening_State_1062_Garcia_Overlay_V2.json
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPassWithExecutionLimits
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+
+### 09_Validation_and_Evidence
+
+```yaml
+relative_path: 09_Validation_and_Evidence/Leon_Castile_Opening_State_Schema_and_Overlay_Validation_Report_V2.json
+role: ValidationReport
+version: 1.0.0
+bytes_declared_or_verified: 6722
+sha256_declared_or_verified: 33da9ec05250b934f34818a4fa335795a0307a10065fb8c96ce3d81994ed46a4
+matching_artifact_or_manifest: Leon_Castile_Opening_State_Schema_and_Overlay_Validation_Report_V2_Manifest.json
+disposition: CURRENT_EVIDENCE
+evidence_status: PassStaticDerivedValidationWithPromotionBlock
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 09_Validation_and_Evidence/Leon_Castile_Opening_State_Schema_and_Overlay_Validation_Report_V2_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Opening_State_Schema_and_Overlay_Validation_Report_V2.json
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPassPromotionProhibited
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 09_Validation_and_Evidence/Leon_Castile_Opening_State_Static_Validation_Profile_V2.json
+role: StaticValidationProfile
+version: 2.0.0
+bytes_declared_or_verified: 23217
+sha256_declared_or_verified: d9ecca3ff2720cdfa6a74b48018fe9a0214235a6b9fbbba23c8663e41e79ec42
+matching_artifact_or_manifest: Leon_Castile_Opening_State_Static_Validation_Profile_V2_Manifest.json
+disposition: CURRENT_EVIDENCE
+evidence_status: StaticCheckedProfileWithPromotionBlock
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+```yaml
+relative_path: 09_Validation_and_Evidence/Leon_Castile_Opening_State_Static_Validation_Profile_V2_Manifest.json
+role: Manifest
+version: 1.0.0
+bytes_declared_or_verified: PendingLocalRecalculation
+sha256_declared_or_verified: PendingLocalRecalculation
+matching_artifact_or_manifest: Leon_Castile_Opening_State_Static_Validation_Profile_V2.json
+disposition: CURRENT_EVIDENCE
+evidence_status: AllChecksPassExecutionNotRun
+implementation_eligibility: NotEligibleForRuntimePromotionWithoutOwnerGateAndExecutableEvidence
+```
+
+## 4. Known Review Gates
+
+### 4.1 07_Registry_and_Owner_Routing/Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V1.json
+
+Still binds V1 opening-state family and requires V2 successor or reconciliation.
+
+### 4.2 08_Machine_Readable/Leon_Castile_Opening_State_1062_V2_Manifest.json
+
+Recorded boundary predates completion of all three V2 overlays and should be regenerated or reconciled.
+
+### 4.3 multiple manifests
+
+Some manifest placement fields retain pre-organization paths. Physical reorganization does not invalidate authority but placement metadata requires reconciliation.
+
+### 4.4 entire accepted set
+
+Exact local bytes and SHA-256 values not present in available evidence remain pending local recalculation. No values were fabricated.
+
+## 5. Validation Boundary
+
+```yaml
+document_inventory: PASS_FROM_VERIFIED_CURRENT_PACKAGE_CHAIN
+declared_hash_capture: PARTIAL_PASS
+local_full_hash_recalculation: PENDING
+cross_reference_audit: NEXT_GATE
+importer_execution: NOT_RUN
+unreal_compile: NOT_RUN
+unreal_runtime: NOT_RUN
+save_load: NOT_RUN
+replay: NOT_RUN
+performance: NOT_RUN
+promotion: PROHIBITED
+```
+
+## 6. Next Authorized Gate
+
+The next authorized file is `Leon_Castile_V2_Cross_Reference_and_Dependency_Validation_Report_V1.md`. That report must use this accepted set to classify every current reference as valid controlling dependency, valid provenance, stale dependency, missing dependency, legacy-only reference, or owner-gated proposal.
+
+## 7. Stable Footer
+
+Leon-Castile accepted current source set established for static package closeout and V2 dependency validation. No registry, Opening State, Unreal project, runtime, save/load, replay, performance, or active-payload promotion is authorized by this manifest.

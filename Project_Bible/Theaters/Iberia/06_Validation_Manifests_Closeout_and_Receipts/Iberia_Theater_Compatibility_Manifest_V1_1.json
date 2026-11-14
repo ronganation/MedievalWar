@@ -1,0 +1,109 @@
+{
+  "manifest_id": "manifest.iberia.theater_compatibility.v1_1",
+  "version": "1.1.0",
+  "date": "2026-08-22",
+  "status": "PASS_IMPLEMENTED_CHECKS_WITH_NOT_EVALUABLE_GAPS",
+  "bundle_artifact_count": 6,
+  "hashed_artifact_count": 5,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "stored_json_format": "PrettyPrintedInsertionOrder",
+  "canonical_hash_format": "UTF8SortedKeysCompact",
+  "entries": [
+    {
+      "stable_order": 10,
+      "filename": "Iberia_Theater_Compatibility_Index_V1_1.md",
+      "role": "HumanReadableIndex",
+      "bytes": 3779,
+      "lines": 68,
+      "stored_file_sha256": "fc6aa6bb384464b6290b755adc59da1d337452f2dd935404e764e66b5498db9a",
+      "canonical_content_sha256": null
+    },
+    {
+      "stable_order": 20,
+      "filename": "Iberia_Theater_Compatibility_Index_V1_1.json",
+      "role": "MachineReadableIndex",
+      "bytes": 25800,
+      "lines": 709,
+      "stored_file_sha256": "92b96b3286188449da869169f35da29e251ca706fa93164af0443169192b71bd",
+      "canonical_content_sha256": "510fa00b16fdad87421555971e4d501e026b212313bd4f80db1054f6062512bc"
+    },
+    {
+      "stable_order": 30,
+      "filename": "Iberia_Theater_Compatibility_Candidate_Schema_V1_1.json",
+      "role": "JSONSchema",
+      "bytes": 15289,
+      "lines": 588,
+      "stored_file_sha256": "4606ed359e865665eedd6bde45639a3119e2ed97eb02b17c1150f391824fe6b8",
+      "canonical_content_sha256": "103d728dfeed5c9cbe24e6d181af5b88b08e56115d1f82247628fd48c8a85027"
+    },
+    {
+      "stable_order": 40,
+      "filename": "Iberia_Theater_Compatibility_Validation_Profile_V1_1.json",
+      "role": "ExecutableValidationProfile",
+      "bytes": 4977,
+      "lines": 182,
+      "stored_file_sha256": "db451c2414936b236bfffe6e396a7245eba26af56f7b14a8549b07fffe0cca16",
+      "canonical_content_sha256": "5929fba90fd00e920d3869d14876e0a497756e47da7930628d34ff037dcd97d5"
+    },
+    {
+      "stable_order": 50,
+      "filename": "Iberia_Theater_Compatibility_Static_Check_V1_1.json",
+      "role": "StaticCheck",
+      "bytes": 6045,
+      "lines": 252,
+      "stored_file_sha256": "62779f7bcca8b8470fe435ad567da9791d12e2ce646192bed3d951b55201d319",
+      "canonical_content_sha256": "78881be4061a6e73eea9c8aebd2f01be86b13c32d16a879eedeb7f0eb924f363"
+    }
+  ],
+  "source_candidates": [
+    {
+      "filename": "Leon_Castile_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "bytes": 12168,
+      "lines": 363,
+      "sha256": "f4f93a1a15ae81df866e8231eb3cbdb636c2aee89afc4a623e5efcca1c14a413"
+    },
+    {
+      "filename": "Barcelona_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "bytes": 19320,
+      "lines": 502,
+      "sha256": "7fc872311878bc65e9888848b7d73cb688247390800234fcc24fb2322832573c"
+    },
+    {
+      "filename": "Aragon_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "bytes": 19973,
+      "lines": 531,
+      "sha256": "42883b7c1fbe953d4565fb9845c8f665a8c9912ef58cf69e25203f9fdef28f4e"
+    },
+    {
+      "filename": "Almoravid_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "bytes": 26747,
+      "lines": 703,
+      "sha256": "6b639c85c23d2d97365aa4f020b26993bb48501f48a0e448871ba9e69ae8e329"
+    },
+    {
+      "filename": "Badajoz_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "bytes": 15920,
+      "lines": 393,
+      "sha256": "3a6344928bb088cb621b6ea338f90e6ab205d4c19c0c4144b3634df8a9975d0b"
+    },
+    {
+      "filename": "Seville_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "bytes": 18235,
+      "lines": 461,
+      "sha256": "86a50701e61fe63ab102e920a53566ffcfee0c5f07126cc86e2d5f7b66d9646f"
+    },
+    {
+      "filename": "Valencia_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "bytes": 23045,
+      "lines": 642,
+      "sha256": "b2fb56ce3b49e57b625a3052e2f650004f29f8565a3cf05a084307cf1ee0b367"
+    }
+  ],
+  "mutations": {
+    "realm_packages_modified": 0,
+    "opening_states_modified": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "migration_executions": 0
+  }
+}

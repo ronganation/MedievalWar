@@ -1,0 +1,12 @@
+﻿{
+    "pass":  false,
+    "checks":  {
+                   "literal_placeholder_absent":  false,
+                   "preserved_V1_hash_present":  true,
+                   "immediate_V1_1_hash_recorded":  true,
+                   "substantive_change_declared_false":  true,
+                   "source_files_modified_zero":  true,
+                   "source_files_deleted_zero":  true,
+                   "mutation_boundaries_empty":  true
+               }
+}

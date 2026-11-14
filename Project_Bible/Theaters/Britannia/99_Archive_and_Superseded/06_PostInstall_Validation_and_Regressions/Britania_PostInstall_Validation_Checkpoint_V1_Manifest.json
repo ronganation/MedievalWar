@@ -1,0 +1,19 @@
+{
+  "FileName": "Britania_PostInstall_Validation_Checkpoint_V1.md",
+  "Version": "1.0.0",
+  "Status": "Compile-Validated and Runtime-Validated within recorded scopes",
+  "SHA256": "CC13884CA767091329D062C5031BD041FB2840E996D219BF1A19E1DCC9EB7602",
+  "Lines": 213,
+  "Bytes": 7425,
+  "Checks": {
+    "campaign_360": true,
+    "denmark_14": true,
+    "britania_11": true,
+    "arithmetic": true,
+    "denmark_separate": true,
+    "warning_retained": true,
+    "no_broad_claims": true,
+    "single_footer": true,
+    "balanced_fences": true
+  }
+}

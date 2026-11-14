@@ -1,0 +1,26 @@
+{
+  "document": "Fyrd_Javelinmen_V1_Master_Unit_Profile.md",
+  "version": "1.0.0",
+  "created_utc": "2026-09-07T19:43:00Z",
+  "sha256": "063464e7ea5f7074583a4e9990435fbe9a56c02ecae2bea5feeae09a387d40c4",
+  "size_bytes": 39538,
+  "raw_line_count": 1025,
+  "numbered_sections": 52,
+  "terrain_rows": 25,
+  "source": {
+    "file": "Fyrd_Javelinmen.md",
+    "enterprise_reference": "turn136search103",
+    "readable_lines": "0-86",
+    "complete_readable_source_reviewed": true,
+    "embedded_wholesale": false
+  },
+  "mutations": {
+    "source_files_modified": [],
+    "source_files_deleted": [],
+    "stable_IDs_allocated": [],
+    "Registry_changes": [],
+    "Opening_State_changes": [],
+    "runtime_changes": [],
+    "Unreal_changes": []
+  }
+}

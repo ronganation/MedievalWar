@@ -1,0 +1,32 @@
+{
+  "candidate_records_checked": 8,
+  "duplicate_record_emissions": {},
+  "error_count": 0,
+  "fatal_count": 0,
+  "importer_execution": false,
+  "info_count": 8,
+  "json_files_parsed": 36,
+  "negative_fixtures_detected": 20,
+  "negative_fixtures_total": 20,
+  "positive_fixtures_passed": 17,
+  "positive_fixtures_total": 17,
+  "project_write_count": 0,
+  "remaining_blockers": [
+    "BRI_IMPL_001",
+    "BRI_IMPL_002",
+    "BRI_IMPL_003",
+    "BRI_IMPL_004",
+    "BRI_IMPL_005",
+    "BRI_IMPL_007",
+    "BRI_IMPL_008",
+    "BRI_IMPL_009"
+  ],
+  "result": "PASS_WITH_BLOCKERS",
+  "rollback_restored": true,
+  "run_id": "BRI_DRY_V1_STATIC_001",
+  "run_mode": "ReadOnlyBundleValidation",
+  "source_zip": "Brittany_Current_Machine_Readable_Candidate_Bundle_V1.zip",
+  "source_zip_sha256": "756871FA8002A14F3BFA66A1DEA0D67726E055A59B71BFC09C2299A85F59863B",
+  "unreal_project_mutation_count": 0,
+  "warning_count": 8
+}

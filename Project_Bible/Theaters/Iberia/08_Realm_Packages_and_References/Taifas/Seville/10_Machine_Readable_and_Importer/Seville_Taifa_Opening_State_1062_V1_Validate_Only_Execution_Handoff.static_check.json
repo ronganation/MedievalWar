@@ -1,0 +1,198 @@
+{
+  "ArtifactId": "Seville_Taifa_Opening_State_1062_V1_Validate_Only_Execution_Handoff",
+  "InternalVersion": "1.0.0",
+  "StaticCheckVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_NEXT_AGENT_VALIDATE_ONLY_HANDOFF_READY_PENDING_ONEDRIVE_INPUT_VERIFICATION",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Validate_Only_Execution_Handoff.md",
+    "InternalVersion": "1.0.0",
+    "RecordedBytes": 16911,
+    "RecordedLines": 487,
+    "RecordedSHA256": "a87d7f8fe1fb426f6552b3085a95e92041ea488831b8640c3b5c281ebbd80be1",
+    "HashDisposition": "RECORDED_FROM_GENERATION_RECEIPT_REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "Placement": {
+    "RequiredFolder": "Theaters/Iberia/08_Realm_Packages_and_References/Taifas/Seville/10_Machine_Readable_and_Importer",
+    "PlaceBesideSourceHandoff": true
+  },
+  "AuthorityAlignment": {
+    "OpeningStateAuthorityInternalVersion": "1.3.0",
+    "MachineReadableContractInternalVersion": "1.2.0",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "OpeningDate": "1062-01-01",
+    "OpeningCampaignSeason": "Winter",
+    "HistoricalProgressionMonthsPerStrategicTurn": 21,
+    "BiologicalProgressionMonthsPerStrategicTurn": 7,
+    "CampaignSeasonAdvancePerStrategicTurn": 1,
+    "TemporalTracksIndependent": true
+  },
+  "RequiredInputBundle": {
+    "MachineReadableFolderInputs": 19,
+    "ReadinessAndGateControls": 3,
+    "ValidationControls": 2,
+    "OneDriveRefreshRequiredBeforeExecution": true,
+    "ExactFilenameVerificationRequired": true,
+    "CurrentInternalVersionVerificationRequired": true,
+    "DuplicateAndDivergentCopyScanRequired": true,
+    "ImmutableWorkspaceRequired": true
+  },
+  "OpeningStateBaseline": {
+    "ActiveRealmShells": 1,
+    "ActiveLivingCharacters": 2,
+    "ActiveDynastyDefinitionBindings": 1,
+    "ActiveCapitalBindings": 1,
+    "ActiveSuperiorPoliticalAuthorityBindings": 7,
+    "DefinitionOnlyFormerPolityBindings": 5,
+    "AcceptedDirectedKinshipBindings": 2,
+    "IntegratedDefinitionFamilies": 11,
+    "RetainedExplicitEmptyCollections": 51,
+    "AdditiveExplicitEmptyCollections": 19,
+    "TotalExplicitEmptyCollections": 70,
+    "OwnerRoutingRequests": 18,
+    "UnsupportedActiveInstancesCreated": 0
+  },
+  "CurrentEvidenceState": {
+    "JSONSyntax": "PASS_RECORDED",
+    "OpeningPayloadSchemaErrors": 0,
+    "DefinitionManifestSchemaErrors": 0,
+    "OpeningRequestIdParity": "PASS_RECORDED",
+    "OpeningStableOrderKeyParity": "PASS_RECORDED",
+    "OpeningFixtureDefinitions": 39,
+    "OpeningFixtureExecution": "NOT_RUN_0_OF_39",
+    "DefinitionFixtureDefinitions": 29,
+    "DefinitionFixtureExecution": "NOT_RUN_0_OF_29",
+    "CurrentFullFixturePassClaimed": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "NextAgentAssignment": {
+    "Assignment": "Build an immutable read-only validation bundle, execute all current Opening and Definition fixtures, capture mutation and deterministic evidence, and update stable validation evidence without crossing a promotion boundary.",
+    "StartingPhase": "PhaseA_ImmutableBundleBaseline",
+    "MayStartFixtureExecutionBeforePhaseAPasses": false,
+    "MayRewriteDevelopedOpeningState": false,
+    "MayAlterCanonicalIds": false,
+    "MayCreateMissingRuntimeValues": false,
+    "MayBeginBroadUnrealImplementation": false
+  },
+  "PhaseVerification": {
+    "PhaseAImmutableBundleBaseline": {
+      "Present": true,
+      "RequiredMachineInputs": 19,
+      "DuplicateFilenameAmbiguityRequired": 0,
+      "MissingRequiredHashesRequired": 0,
+      "CurrentHashMismatchesRequired": 0,
+      "OneSourceLocationRequired": true
+    },
+    "PhaseBStaticAndSemanticPreflight": {
+      "Present": true,
+      "JSONSyntaxErrorsRequired": 0,
+      "OpeningSchemaErrorsRequired": 0,
+      "DefinitionSchemaErrorsRequired": 0,
+      "OpeningSemanticFailuresRequired": 0,
+      "DefinitionSemanticFailuresRequired": 0,
+      "OwnerRoutingRequestCountRequired": 18
+    },
+    "PhaseCOpeningFixtureGate": {
+      "Present": true,
+      "DefinitionsRequired": 39,
+      "ExecutedRequired": 39,
+      "PassedRequired": 39,
+      "FailedRequired": 0,
+      "FatalFixtureMutationCountRequired": 0,
+      "DeterminismMismatchesRequired": 0
+    },
+    "PhaseDDefinitionManifestFixtureGate": {
+      "Present": true,
+      "DefinitionsRequired": 29,
+      "ExecutedRequired": 29,
+      "PassedRequired": 29,
+      "FailedRequired": 0,
+      "RuntimeInstancesCreatedRequired": 0,
+      "OpeningStateMutationsRequired": 0,
+      "DefinitionToRuntimeLeakageRequired": 0
+    }
+  },
+  "EvidenceContractVerification": {
+    "PerFixtureResultContractPresent": true,
+    "InputAndOutputHashesRequired": true,
+    "MutationBeforeAndAfterRequired": true,
+    "RollbackReceiptRequired": true,
+    "DiagnosticCodesRequired": true,
+    "DeterministicTraceHashRequired": true,
+    "ActualExecutionEvidenceRequired": true,
+    "DefinitionPresenceMaySubstituteForExecution": false
+  },
+  "MutationAndRollbackBoundary": {
+    "SourceFilesWritable": false,
+    "RegistryRowsChanged": 0,
+    "RuntimeInstancesCreated": 0,
+    "RealCampaignPayloadApplied": false,
+    "OwnerCommandsCommitted": false,
+    "OpeningReceiptWritten": false,
+    "AdvancedSavesModified": 0,
+    "UnrealFilesModified": 0,
+    "DiscardStagedOwnerResponsesOnFailure": true,
+    "RestorePristineSnapshotOnFailure": true,
+    "PreserveFailureEvidence": true,
+    "AutomaticRetryAuthorized": false,
+    "OwnerReviewRequiredBeforeRetry": true
+  },
+  "OwnerGateVerification": {
+    "ValidationOwnerRequired": true,
+    "RegistryOwnerRequiredForIdentityAndHashDisposition": true,
+    "CampaignDataArchitectureOwnerRequiredForImporterPromotion": true,
+    "OpeningStateOwnerRequiredIfOpeningFactsChange": true,
+    "OpeningFactChangeAuthorized": false,
+    "CurrentOwnerApprovalRecorded": false
+  },
+  "PromotionBoundary": {
+    "StaticValidateOnlyEvidence": "PENDING_EXECUTION",
+    "TransientImporterMapping": "BLOCKED",
+    "IsolatedApplyOnceTest": "BLOCKED",
+    "RealCampaignPayload": "PROHIBITED",
+    "RegistryCommit": "PROHIBITED_UNLESS_SEPARATELY_AUTHORIZED",
+    "BroadUnrealImplementation": "PROHIBITED",
+    "PassingFixturesAutomaticallyAuthorizesPromotion": false
+  },
+  "StaticFormattingChecks": {
+    "MarkdownFenceBalance": "PASS",
+    "EscapedUnderscoresFound": 0,
+    "StableFooterPresent": true,
+    "NextAgentStartInstructionPresent": true,
+    "CompletionReceiptTemplatePresent": true,
+    "StopConditionsPresent": true,
+    "RequiredDeliverablesPresent": true
+  },
+  "StaticCheckResults": {
+    "AuthorityAlignment": "PASS",
+    "InputBundleDefinition": "PASS",
+    "OpeningStateCardinality": "PASS",
+    "CurrentEvidenceBoundary": "PASS",
+    "PhaseDependenciesAndAcceptanceCriteria": "PASS",
+    "PerFixtureEvidenceContract": "PASS",
+    "RollbackAndStopConditions": "PASS",
+    "OwnerGates": "PASS",
+    "PromotionBoundary": "PASS",
+    "NextAgentTransferReadiness": "PASS_PENDING_ONEDRIVE_REVERIFICATION",
+    "FatalIssues": 0,
+    "Warnings": 1,
+    "WarningCodes": [
+      "SEV_VALIDATE_HANDOFF_SOURCE_HASH_REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+    ],
+    "Overall": "PASS_STATIC_ONLY_READY_FOR_PHASE_A"
+  },
+  "NextAction": "Place this static check beside the execution handoff, then transfer Phase A to the receiving validation agent. The receiving agent must refresh OneDrive, verify the source hash and all required inputs, and create the immutable bundle before fixture execution."
+}

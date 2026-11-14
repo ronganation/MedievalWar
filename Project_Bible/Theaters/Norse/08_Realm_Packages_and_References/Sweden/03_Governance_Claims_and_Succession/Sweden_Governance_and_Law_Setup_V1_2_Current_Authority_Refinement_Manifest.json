@@ -1,0 +1,27 @@
+{
+  "FileName": "Sweden_Governance_and_Law_Setup_V1_2_Current_Authority_Refinement_FULL.md",
+  "Version": "1.2.0",
+  "Status": "Static-Checked Current Authority Refinement with Controlled Dependencies",
+  "SHA256": "C50D7E10586EE7F4124659CD3F8A23AE77BA023626657C29C037A66C469C53A9",
+  "Bytes": 61232,
+  "Lines": 1234,
+  "SourceFile": "Sweden_Governance_and_Law_Setup_V1_1_FULL.md",
+  "SourceSHA256": "4E59293143B8687345093E2D1C68B093153977A31DD01645A2A2F0EB0C25BF22",
+  "Checks": {
+    "copy_first": true,
+    "continuous_sections_1_94": true,
+    "opening_boundary": true,
+    "negotiated_governance": true,
+    "regional_variation": true,
+    "finite_recruitment": true,
+    "three_track": true,
+    "ue58": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "honest_validation": true
+  },
+  "OpeningStateModified": false,
+  "RegistryModified": false,
+  "PhysicalPromotionCompleted": false
+}

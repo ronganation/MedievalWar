@@ -1,0 +1,25 @@
+{
+  "document": "Western_Francia_Theater_Content_V2.1_Current_Authority_Correction.md",
+  "passed": true,
+  "checks": {
+    "v2_literal_prefix": true,
+    "v2_prefix_bytes": true,
+    "historical_basis": true,
+    "climate": true,
+    "economic": true,
+    "church_community": true,
+    "ai_questions": true,
+    "realm_tendencies": true,
+    "performance": true,
+    "layering": true,
+    "provisional_ids": true,
+    "evidence_links": true,
+    "v2_claim_withdrawn": true,
+    "no_escaped_underscores_new": true,
+    "balanced_fences_new": true,
+    "no_em_dash_new": true,
+    "zero_mutations": true,
+    "stable_footer": true
+  },
+  "validation_scope": "content-based static V2.1 correction; V2 preserved as literal prefix and identified V1 completeness defects restored; no Registry mutation, Opening State activation, importer, migration, Unreal, compile, runtime, save-load, replay, performance, battle, or physical promotion validation"
+}

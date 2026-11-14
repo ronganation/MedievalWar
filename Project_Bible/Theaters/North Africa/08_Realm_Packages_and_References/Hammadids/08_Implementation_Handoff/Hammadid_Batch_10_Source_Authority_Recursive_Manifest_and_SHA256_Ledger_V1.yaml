@@ -1,0 +1,433 @@
+manifest_control:
+  document_id: ledger.realm.hammadid.batch-10.source-authority-recursive-manifest-sha256.v1
+  stable_document_id: SourceAuthorityRecursiveManifestSHA256Ledger.Hammadids
+  file_name: Hammadid_Batch_10_Source_Authority_Recursive_Manifest_and_SHA256_Ledger_V1.yaml
+  version: 1.0.0
+  revision_date: 2026-09-22
+  document_class:
+    - Batch10SourceAuthorityManifestLedger
+    - PartialPhysicalEvidenceReconciliation
+    - SHA256EvidenceBoundaryLedger
+    - DuplicateLineageAndMissingEvidenceControl
+    - ZeroSourceMutationPlanningArtifact
+  constitutional_authority: Project Bible 2.4
+  operational_authority: Design Expansion Checklist 3.7
+  implementation_target: Unreal Engine 5.8
+  controlling_batch_gate: Hammadid_Unreal_Engine_5_8_Batch_10_Candidate_Bundle_Importer_and_Unreal_Authorization_Gate_V1.md
+  preceding_bundle_manifest: Hammadid_Batch_10_Candidate_Bundle_Manifest_and_Record_Family_Inventory_V1.yaml
+  controlling_validation_authority: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+  controlling_evidence_contract: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+  status: PartialReconciledManifestKnownEvidenceOnlyCompleteRecursiveExecutionNotRun
+
+scope:
+  realm: Hammadids
+  owning_theater: North Africa
+  scenario_id: mw.scenario.grand_campaign.1062
+  scenario_opening: 1062-01-01
+  opening_campaign_season: Winter
+  package_root_candidate: Project_Bible/Theaters/North Africa/08_Realm_Packages_and_References/Hammadids
+  expected_top_level_folders:
+    - 00_Control_Foundation_and_Readiness
+    - 01_Historical_Identity_Opening_and_Chronology
+    - 02_Characters_Dynasty_Households_and_Networks
+    - 03_Governance_Law_Diplomacy_and_Religion
+    - 04_Geography_Capital_Population_and_Constituencies
+    - 05_Economy_Property_Production_Health_Public_Order_and_Information
+    - 06_Education_Military_AI_Presentation_and_Events
+    - 07_Cross_Authority_Registry_and_Validation
+  package_direct_read_access: false
+  complete_recursive_scan_executed: false
+  complete_hash_scan_executed: false
+  filesystem_mutation_authorized: false
+
+strong_ledger_verdict:
+  known_evidence_reconciled: true
+  complete_package_recursive_manifest: NotRun
+  complete_package_sha256_ledger: NotRun
+  exact_package_file_count: Unknown
+  exact_package_folder_count: UnknownBeyondExpectedEightTopLevelFolders
+  folder07_visible_rows_latest_reconciled: 26
+  folder07_visible_rows_scope: VisibleRowsOnlyNotRecursiveCount
+  raw_byte_hashes_known_from_prior_evidence: Partial
+  duplicate_free_package_claim: Prohibited
+  candidate_bundle_source_freeze: Blocked
+  production_or_unreal_promotion: Prohibited
+  verdict: StrongPartialEvidenceLedgerCompletePhysicalExecutionStillRequired
+
+evidence_sources:
+  BatchAEvidenceSummary:
+    file_name: Hammadid_Evidence_Pack_Batch_A_Summary_V1.md
+    state: PartialAcceptanceOnly
+    direct_package_access: false
+    key_scope: TenVisibleFolder07RecordsAndTwoRawByteHashedAuthorities
+  BatchBEvidenceSummary:
+    file_name: Hammadid_Evidence_Pack_Batch_B_Summary_V1.md
+    state: PartialAcceptanceOnly
+    direct_package_access: false
+    key_scope: TenFolder07HeaderStructureFormattingAndLineageRecords
+  BatchCEvidenceSummary:
+    file_name: Hammadid_Evidence_Pack_Batch_C_Summary_V1.md
+    state: PartialAcceptanceOnly
+    key_scope: AliasIdentityEntityKindOwnerLockAndQuarantineLedgers
+  BatchDEvidenceSummary:
+    file_name: Hammadid_Evidence_Pack_Batch_D_Summary_V1.md
+    state: PartialAcceptanceOnly
+    key_scope: CurrentAuthorityClosureVisiblePlacementPointersDispositionsAndTwelveBlockedStopGates
+  CurrentAuthorityClosureSummary:
+    file_name: Hammadid_Current_Authority_Closure_Stale_Pointer_and_Zero_Mutation_Summary_V1.md
+    state: PartialOwnerReviewRequired
+    key_scope: CorrectedTwentySixVisibleFolder07Rows
+  evidence_rule: EvidenceSummaryClaimsAreCarriedOnlyWithinTheirDeclaredScope
+
+execution_status:
+  all_eight_folders_enumerated_from_filesystem: false
+  every_physical_file_recorded_once: false
+  hidden_files_reported: false
+  empty_files_reported: false
+  unreadable_files_reported: false
+  linked_or_reparse_items_reported: false
+  exact_byte_sizes_complete: false
+  text_line_counts_complete: false
+  sha256_complete: false
+  duplicate_hash_groups_complete: false
+  complete_header_extraction: false
+  complete_section_inventory: false
+  complete_literal_conformance_scan: false
+  complete_stale_pointer_scan: false
+  before_after_aggregate_hash_comparison: false
+  cryptographic_package_zero_mutation: NotRun
+
+known_partial_artifacts:
+  - file_name: Hammadid_Recursive_File_Manifest_V1.csv
+    role: PartialFolder07CSVManifest
+    record_count: 10
+    size_bytes: 5055
+    sha256: c2a3a73eb6806480e743c00bdfcad5d64824ad9e1e4b0220465f84633c5e0d93
+    evidence_source: Hammadid_Evidence_Pack_Batch_A_Summary_V1.md
+    scope_limitation: NotCompletePackageRecursiveManifest
+  - file_name: Hammadid_Recursive_File_Manifest_V1.yaml
+    role: PartialFolder07YAMLManifest
+    record_count: 10
+    size_bytes: 9366
+    sha256: 46ef2e07dd46c22d5553b0a4a058ce2a367312ee740f2f6d4fc2fd83619f7489
+    evidence_source: Hammadid_Evidence_Pack_Batch_A_Summary_V1.md
+    scope_limitation: NotCompletePackageRecursiveManifest
+  - file_name: Hammadid_SHA256_and_Duplicate_Hash_Ledger_V1.yaml
+    role: PartialHashAndDuplicateLedger
+    captured_hash_records: 2
+    unhashed_records: 8
+    size_bytes: 6292
+    sha256: e10d0ec3f7069c806f1f01f0577d42af346357a06cd042c1da2fb45df6cccbae
+    evidence_source: Hammadid_Evidence_Pack_Batch_A_Summary_V1.md
+    scope_limitation: NoPackageDuplicateConclusionPermitted
+  - file_name: Hammadid_Batch_A_Zero_Mutation_Preflight_Receipt_V1.yaml
+    role: ArtifactGenerationAndClaimBoundaryReceipt
+    size_bytes: 5115
+    sha256: 71dd636f3042508ea52d03c3933d39ad31f46a0d61d2df04e3ac5d153f0e0fb2
+    evidence_source: Hammadid_Evidence_Pack_Batch_A_Summary_V1.md
+    scope_limitation: SourcePackageCryptographicProofNotRun
+  - file_name: Hammadid_Header_Identity_Ledger_V1.yaml
+    role: PartialHeaderIdentityLedger
+    records_reviewed: 10
+    size_bytes: 15572
+    sha256: f83463b830d9ea75326f8a97ba9ffb563caa293797c61e85d29c04fe3ede66ca
+    evidence_source: Hammadid_Evidence_Pack_Batch_B_Summary_V1.md
+    scope_limitation: CompleteRawHeaderExtractionNotRunForAllRecords
+  - file_name: Hammadid_Section_and_Structure_Inventory_V1.yaml
+    role: PartialSectionAndStructureInventory
+    records_reviewed: 10
+    size_bytes: 10873
+    sha256: 6f9b36d95053ff2583a3953eb772cc535028035b79d59943017da15fb96e3ade
+    evidence_source: Hammadid_Evidence_Pack_Batch_B_Summary_V1.md
+    scope_limitation: SixRecordsLackedCompleteContent
+  - file_name: Hammadid_Formatting_and_Literal_Conformance_Ledger_V1.yaml
+    role: PartialFormattingAndLiteralLedger
+    records_reviewed: 10
+    size_bytes: 11968
+    sha256: bfaf4aff5ec9e389c425318aa8a236b4a9472e1397cd4ecafd1f28f1e271c2eb
+    evidence_source: Hammadid_Evidence_Pack_Batch_B_Summary_V1.md
+    scope_limitation: EightRecordsLackedCompleteRawLiteralScans
+  - file_name: Hammadid_Source_Successor_Lineage_Ledger_V1.yaml
+    role: PartialSourceSuccessorLineageLedger
+    lineage_groups_reviewed: 5
+    size_bytes: 8542
+    sha256: 5110df1f49302c005ade52b0ae122891b8a09ed483db999d4afd05edc987370d
+    evidence_source: Hammadid_Evidence_Pack_Batch_B_Summary_V1.md
+    scope_limitation: NoCompleteHashAndSectionPairApproved
+  - file_name: Hammadid_Alias_Ownership_and_Collision_Ledger_V1.yaml
+    role: AliasOwnershipCollisionAndQuarantinePreparation
+    alias_groups_reviewed: 10
+    collision_records_created: 12
+    size_bytes: 18016
+    sha256: a2224fee9c6c7f21ba809cc19959bb322b68ba8dbb92ea610de27c48668a84a3
+    evidence_source: Hammadid_Evidence_Pack_Batch_C_Summary_V1.md
+    scope_limitation: TwelveCollisionsUnresolved
+  - file_name: Hammadid_Candidate_to_Canonical_Identity_Mapping_Ledger_V1.yaml
+    role: CandidateIdentityMappingAndRequiredReceiptLedger
+    mapping_records: 14
+    size_bytes: 15251
+    sha256: 9cbdf8f150e5b858991c7abf9fc905194514293a9b034856dfc8315ed3bc21ea
+    evidence_source: Hammadid_Evidence_Pack_Batch_C_Summary_V1.md
+    scope_limitation: ZeroRegistryReviewReadyRecords
+  - file_name: Hammadid_Entity_Kind_and_Owner_Validation_Ledger_V1.yaml
+    role: EntityKindOwnerRouteAndProhibitedCollapseValidation
+    entity_records_reviewed: 14
+    size_bytes: 13209
+    sha256: 04ee177b322c3296e28717bb221847e10c94904bdf7565bb784758966bf86c68
+    evidence_source: Hammadid_Evidence_Pack_Batch_C_Summary_V1.md
+    scope_limitation: SixKindsPendingAndTwoExternalKinds
+  - file_name: Hammadid_External_Owner_Lock_and_Quarantine_Ledger_V1.yaml
+    role: ExternalReceiptLockQuarantineAndReleaseControl
+    external_lock_records: 9
+    quarantine_records: 10
+    size_bytes: 12499
+    sha256: 26266e08144ad1f43fee5475a173915aeffab27b2713f15f7ea8e980f2b7167b
+    evidence_source: Hammadid_Evidence_Pack_Batch_C_Summary_V1.md
+    scope_limitation: ZeroOwnerReceiptsAndZeroQuarantineReleases
+  - file_name: Hammadid_Current_Authority_Closure_Stale_Pointer_and_Zero_Mutation_Summary_V1.md
+    role: CurrentAuthorityClosureEvidenceStateAndVisiblePlacementSummary
+    size_bytes: 16321
+    sha256: 7fac8fe5a7b4b916b653ebb5d69d51b5cb8af2a21f52af93b59dd2db3dce8b6b
+    evidence_source: Hammadid_Evidence_Pack_Batch_D_Summary_V1.md
+    scope_limitation: PartialVisibleAndEnterpriseEvidenceOnly
+  - file_name: Hammadid_Stale_Next_File_Pointer_Ledger_V1.yaml
+    role: ActiveCompletedPartialRejectedExternalAndUnverifiedPointerLedger
+    size_bytes: 10466
+    sha256: 54089f0546a7c74e84572d72828c8137ffee0035feb2bc8419ad162e3b4b15d2
+    evidence_source: Hammadid_Evidence_Pack_Batch_D_Summary_V1.md
+    scope_limitation: PointerEvidenceDoesNotEstablishPhysicalCompleteness
+  - file_name: Hammadid_Candidate_Disposition_and_Current_Authority_Stop_Gate_Ledger_V1.yaml
+    role: CandidateDispositionAuthorityFamilyAndStopGateLedger
+    size_bytes: 11901
+    sha256: f4acbd50e632d7f6c32d32ba30eb48790486440be7d92c98af5dd8a42968130d
+    evidence_source: Hammadid_Evidence_Pack_Batch_D_Summary_V1.md
+    scope_limitation: TwelveStopGatesRemainBlocked
+  - file_name: Hammadid_Batch_D_Zero_Mutation_and_Promotion_Stop_Receipt_V1.yaml
+    role: NonmutationCandidateProtectionAndPromotionStopReceipt
+    size_bytes: 7313
+    sha256: 9b7c1add79ebb41a05ed9e715307d8f7a2cc3f7b212b305dc0db1ecf696c3b21
+    evidence_source: Hammadid_Evidence_Pack_Batch_D_Summary_V1.md
+    scope_limitation: CryptographicPackageZeroMutationNotRun
+
+known_raw_authority_hashes:
+  - file_name: Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    sha256: f72f87b29fb77d9b65e39a7b7bab42161de92f1b4ddc03066a2bb563b8cf8546
+    size_bytes: 23768
+    line_count: 652
+    evidence_scope: TwoCurrentConversationArtifactsOnly
+  - file_name: Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    sha256: d276b19181563c4800d8b1ba3b5a12b2aaa938eb28d3272adb183ef3a36ceb17
+    size_bytes: 26029
+    line_count: 670
+    evidence_scope: TwoCurrentConversationArtifactsOnly
+known_raw_hash_conclusion:
+  byte_identical_pair_among_known_two: false
+  folder_or_package_duplicate_conclusion: Prohibited
+
+known_visible_folder07_inventory:
+  evidence_scope: CorrectedVisibleRowsOnly
+  corrected_visible_row_count: 26
+  files:
+    - Hammadid_Evidence_Pack_Batch_C_Summary_V1.md
+    - Hammadid_External_Owner_Lock_and_Quarantine_Ledger_V1.yaml
+    - Hammadid_Entity_Kind_and_Owner_Validation_Ledger_V1.yaml
+    - Hammadid_Candidate_to_Canonical_Identity_Mapping_Ledger_V1.yaml
+    - Hammadid_Alias_Ownership_and_Collision_Ledger_V1.yaml
+    - Hammadid_Evidence_Pack_Batch_B_Summary_V1.md
+    - Hammadid_Source_Successor_Lineage_Ledger_V1.yaml
+    - Hammadid_Formatting_and_Literal_Conformance_Ledger_V1.yaml
+    - Hammadid_Section_and_Structure_Inventory_V1.yaml
+    - Hammadid_Header_Identity_Ledger_V1.yaml
+    - Hammadid_Evidence_Pack_Batch_A_Summary_V1.md
+    - Hammadid_Batch_A_Zero_Mutation_Preflight_Receipt_V1.yaml
+    - Hammadid_SHA256_and_Duplicate_Hash_Ledger_V1.yaml
+    - Hammadid_Recursive_File_Manifest_V1.yaml
+    - Hammadid_Recursive_File_Manifest_V1.csv
+    - Hammadid_Current_Authority_Physical_Inventory_Duplicate_Disposition_and_Identity_Mapping_Preflight_V1.md
+    - Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    - Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    - Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    - Hammadid_Developed_Realm_Full_Portfolio_Comparator_and_Missing_Capability_Audit_V1.md
+    - Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    - Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    - Hammadid_Package_Wide_Missing_Authority_Audit_and_Next_Sequence_Disposition_V1.md
+    - Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    - Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+  inference_prohibited:
+    - PackageWideFileCountEqualsTwentySix
+    - NoHiddenNestedUnreadableLinkedOrOffscreenItems
+    - AllVisibleFilesAreCurrentApprovedAuthorities
+    - VisiblePlacementEqualsHashOrContentValidation
+
+known_duplicate_and_lineage_candidates:
+  HMD_DUP_ANNASIR_001:
+    classification: UnresolvedPotentialCopyAndSuccessorGroup
+    files:
+      - An_Nasir_ibn_Alnas_V1_Developed_Character_Profile_Authority.md
+      - An_Nasir_ibn_Alnas_V1_Developed_Character_Profile_AuthorityCopy.md
+      - An_Nasir_ibn_Alnas_V1_1_Developed_Character_Profile_Authority.md
+    disposition: QuarantineFromCanonicalAndOpeningBinding
+    required_evidence:
+      - CompleteSHA256ForAllThree
+      - HeaderAndStableIdentityComparison
+      - SectionAndLiteralCompletenessComparison
+      - InboundReferenceComparison
+      - CharacterPackageIndexRegistryAndOpeningOwnerDisposition
+  HMD_DUP_VALIDATION_001:
+    classification: DeclaredSourceSuccessorPair
+    files:
+      - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1.md
+      - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    disposition: PreserveBothPendingCopyFirstApproval
+  HMD_DUP_OPENING_001:
+    classification: AdditiveSuccessorLineageCandidate
+    files:
+      - Hammadid_Opening_State_1062_V1.md
+      - Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+    disposition: PreserveBothPendingCopyFirstApprovalAndBoundaryDecision
+
+duplicate_safety_rules:
+  - NoFileDeletedByAutomation
+  - SameHashDoesNotAuthorizeDeletion
+  - SameStableDocumentIDDoesNotAuthorizeDeletion
+  - HigherVersionDoesNotAuthorizeSupersession
+  - DeletionRecommendationRequiresOwnerDispositionAndRollbackSource
+  - OnlyKnownGoodCopyRemainsProtected
+
+complete_manifest_record_contract:
+  required_fields:
+    - RelativePath
+    - FileName
+    - Extension
+    - ParentFolder
+    - SizeBytes
+    - LineCountWhereText
+    - SHA256
+    - LastWriteTimeForAuditOnly
+    - AuthorityFamily
+    - DocumentClass
+    - HeaderDocumentID
+    - HeaderStableDocumentID
+    - HeaderVersion
+    - HeaderStatus
+    - ImmediateSubstantiveSource
+    - SupersessionState
+    - ReadableState
+    - EncodingStateWhereText
+    - HeaderExtractionStateWhereText
+    - ValidationState
+  inclusion_rules:
+    - EveryPhysicalFileAppearsExactlyOnceByRelativePath
+    - HiddenFilesAreReported
+    - EmptyFilesAreReported
+    - UnreadableFilesAreReported
+    - LinksAndReparsePointsAreReported
+    - TemporaryAndOperatingSystemArtifactsRemainRecordedButExcludedFromAuthorityCount
+
+complete_hash_group_contract:
+  required_fields:
+    - SHA256
+    - FileRefs
+    - GroupSize
+    - ByteIdentical
+    - SameFileName
+    - SameStableDocumentIDWhereKnown
+    - CandidateClassification
+    - OwnerDisposition
+  permitted_classifications:
+    - UniqueContent
+    - ExactDuplicateSameName
+    - ExactDuplicateDifferentName
+    - ValidSuccessorLineageCandidate
+    - BackupOrCopyCandidate
+    - Unresolved
+
+stop_gate_status:
+  HMD_STOP_001_CompleteRecursiveManifest: Blocked
+  HMD_STOP_002_CompletePackageHashLedger: Blocked
+  HMD_STOP_003_CompleteRawBatchBClosure: Blocked
+  HMD_STOP_004_ValidationAuthoritySupersession: Blocked
+  HMD_STOP_005_OpeningStateAuthoritySupersession: Blocked
+  HMD_STOP_006_AnNasirCanonicalIdentity: Blocked
+  HMD_STOP_007_ScenarioBoundary: Blocked
+  HMD_STOP_008_ScenarioAndTheaterExternalLocks: Blocked
+  HMD_STOP_009_CanonicalEntityKindsAndMappings: Blocked
+  HMD_STOP_010_ReciprocalExternalState: Blocked
+  HMD_STOP_011_OpeningFactBindings: Blocked
+  HMD_STOP_012_PayloadImporterRuntimeUnreal: Blocked
+  summary:
+    blocked: 12
+    open: 0
+
+closure_requirements:
+  - DirectReadOnlyAccessToCompleteHammadidPackageRoot
+  - Batch01ReadOnlyProjectDiscoveryAcceptance
+  - RecursiveEnumerationAcrossAllEightExpectedTopLevelFolders
+  - SHA256ForEveryPhysicalFile
+  - ExactByteSizeAndTextLineCountForEveryApplicableFile
+  - HiddenEmptyUnreadableUnexpectedAndLinkedItemReport
+  - DuplicateHashGroupsAcrossCompletePackage
+  - CompleteRawHeaderSectionFormattingEncodingAndLiteralScans
+  - SourceSuccessorSectionBySectionAndLiteralComparisons
+  - DuplicateAndFilenameDriftOwnerDispositions
+  - BeforeAndAfterAggregatePathAndContentHashSets
+  - FinalCryptographicZeroMutationReceipt
+
+acceptance_status:
+  known_evidence_reconciled_without_scope_inflation: Pass
+  visible_folder07_inventory_preserved_as_nonrecursive: Pass
+  known_prior_artifact_hashes_preserved: Pass
+  known_two_raw_authority_hashes_preserved: Pass
+  duplicate_and_lineage_candidates_preserved_without_action: Pass
+  required_complete_manifest_and_hash_contract_defined: Pass
+  complete_recursive_manifest: NotRun
+  complete_package_sha256_ledger: NotRun
+  package_duplicate_disposition: Blocked
+  candidate_source_freeze: Blocked
+  registry_opening_payload_importer_runtime_unreal_promotion: Prohibited
+  final_result: PartialStrongLedgerCompletePhysicalExecutionStillRequired
+
+zero_mutation_receipt:
+  source_package_files_created_modified_moved_renamed_or_deleted: 0
+  canonical_ids_allocated: 0
+  registry_rows_created_or_modified: 0
+  opening_state_records_created_or_modified: 0
+  candidate_bundle_records_materialized: 0
+  gameplay_payloads_created_or_imported: 0
+  importers_executed: 0
+  runtime_mutations: 0
+  unreal_mutations: 0
+  artifact_generation_zero_source_mutation: Pass
+  cryptographic_package_zero_mutation: NotRun
+
+next_safe_action:
+  action: ObtainDirectReadOnlyPackageAccessAndExecuteCompleteRecursiveManifestAndSHA256Capture
+  successor_file_after_physical_closure: Hammadid_Batch_10_Identity_Dependency_Owner_External_Lock_and_Quarantine_Validation_Report_V1.yaml
+  real_payload_importer_runtime_or_unreal_work: Prohibited
+
+stable_footer:
+  ConstitutionalAuthority: Project Bible 2.4
+  OperationalAuthority: Design Expansion Checklist 3.7
+  ImplementationTarget: Unreal Engine 5.8
+  Theater: North Africa
+  CandidateRealm: Hammadids
+  ScenarioOpening: 1062-01-01
+  OpeningCampaignSeason: Winter
+  PreferredPlayableBoundaryCandidate: post_1062-07-11
+  PlayableBoundaryStatus: HeldPendingScenarioOwnerDisposition
+  HistoricalProgression: 21MonthsPerStrategicTurn
+  BiologicalProgression: 7MonthsPerStrategicTurn
+  CampaignSeasonProgression: OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn
+  BatchID: Batch10
+  LedgerStatus: PartialReconciledManifestKnownEvidenceOnlyCompleteRecursiveExecutionNotRun
+  CompleteRecursiveManifest: NotRun
+  CompletePackageSHA256Ledger: NotRun
+  CandidateBundleSourceFreezeApproved: false
+  RegistryPublicationAuthorized: false
+  OpeningStatePopulationAuthorized: false
+  PayloadGenerationAuthorized: false
+  ImporterExecutionAuthorized: false
+  RuntimeExecutionAuthorized: false
+  UnrealProjectMutationAuthorized: false
+  NextAction: ObtainDirectReadOnlyPackageAccessAndExecuteCompleteRecursiveManifestAndSHA256Capture

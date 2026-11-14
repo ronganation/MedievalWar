@@ -1,0 +1,10 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N19_write_outside",
+  "mutated_candidate": {
+    "write_path": "/Game/Production/Brittany"
+  },
+  "result": "PASS",
+  "rule": "StagingAllowlist"
+}

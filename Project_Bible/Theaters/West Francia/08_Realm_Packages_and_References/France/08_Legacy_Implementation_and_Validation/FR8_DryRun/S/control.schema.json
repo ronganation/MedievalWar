@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "mw.schema.france.candidate.document-control.v1",
+  "type": "object",
+  "required": [
+    "SchemaId",
+    "SchemaVersion",
+    "PackageId",
+    "RealmIdCandidate",
+    "ScenarioId",
+    "CandidateOnly",
+    "RegistryPromotion",
+    "OpeningStateActivation",
+    "UnrealImport",
+    "RuntimeEligible"
+  ],
+  "properties": {
+    "SchemaId": {
+      "type": "string"
+    },
+    "SchemaVersion": {
+      "type": "string"
+    },
+    "PackageId": {
+      "const": "package.france.current-candidate.v1"
+    },
+    "RealmIdCandidate": {
+      "const": "realm.france"
+    },
+    "ScenarioId": {
+      "const": "mw.scenario.grand_campaign.1062"
+    },
+    "CandidateOnly": {
+      "const": true
+    },
+    "RegistryPromotion": {
+      "const": false
+    },
+    "OpeningStateActivation": {
+      "const": false
+    },
+    "UnrealImport": {
+      "const": false
+    },
+    "RuntimeEligible": {
+      "const": false
+    }
+  },
+  "additionalProperties": true
+}

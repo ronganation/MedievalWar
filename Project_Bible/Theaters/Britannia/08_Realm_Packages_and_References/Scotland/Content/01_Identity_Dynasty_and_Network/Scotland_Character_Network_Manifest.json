@@ -1,0 +1,39 @@
+{
+  "manifest_type": "CurrentAuthorityCompanionManifest",
+  "authority_file": "Scotland_Character_Network.md",
+  "stable_document_id": "CharacterNetwork.Realm.Scotland",
+  "version": "1.2.1 current authority",
+  "scenario_opening": "1 January 1062",
+  "implementation_target": "Unreal Engine 5.8",
+  "immediate_source": "Scotland_Character_Network_V1.2.1_Formatting_and_Metadata_Correction.md",
+  "sha256": "D30A4354A83CF77AECB552E7D4445E32E80FD9F95E60A1D8A2423DBB1BE304E1",
+  "bytes": 60657,
+  "physical_line_count": 1059,
+  "content_summary": {
+    "supported_opening_people": 7,
+    "BasisOnly_edges": 4,
+    "opening_omissions": 7,
+    "relationship_dimensions": 0,
+    "Gille_opening_participation": false,
+    "Gille_project_node_status": "QuarantinedDeprecatedHistoricalMisidentification",
+    "replacement_person_created": false,
+    "provenance_appendix_retained": true
+  },
+  "validation_claims": {
+    "static_checked": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "performance_validated": false
+  },
+  "mutation_boundary": {
+    "Opening_State_mutated": false,
+    "Registry_mutated": false,
+    "migration_executed": false,
+    "runtime_mutated": false,
+    "Unreal_project_mutated": false
+  }
+}

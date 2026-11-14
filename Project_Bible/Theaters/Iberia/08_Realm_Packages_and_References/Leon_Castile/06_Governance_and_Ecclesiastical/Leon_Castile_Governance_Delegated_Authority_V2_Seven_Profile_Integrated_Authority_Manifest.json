@@ -1,0 +1,28 @@
+{
+  "document_id": "Manifest.GovernanceDelegatedAuthority.Realm.LeonCastile.V2",
+  "authority_file": "Leon_Castile_Governance_Delegated_Authority_V2_Seven_Profile_Integrated_Authority.md",
+  "version": "2.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/Core_Authorities",
+  "bytes": 55156,
+  "physical_lines": 1414,
+  "words": 4120,
+  "sha256": "71CD05DEAB2B252E77DDA297603A1649C2B902882E518EB730D394D579944BD8",
+  "fence_count": 106,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "source_sections_check_present": true,
+  "source_retrieved_lines": 1368,
+  "status": "StaticCheckedCopyFirstSevenProfileIntegratedSuccessorReviewOnly",
+  "next_file": "Leon_Castile_Realm_Personality_AI_V2_Seven_Profile_Integrated_Authority.md",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "all_checks_pass": true
+}

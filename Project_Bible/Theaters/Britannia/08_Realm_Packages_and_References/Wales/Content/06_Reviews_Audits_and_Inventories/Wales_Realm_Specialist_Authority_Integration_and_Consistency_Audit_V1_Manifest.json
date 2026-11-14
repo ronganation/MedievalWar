@@ -1,0 +1,27 @@
+{
+  "filename": "Wales_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md",
+  "bytes": 35272,
+  "lines": 889,
+  "sections": 33,
+  "sha256": "c52ae2726d8ae30ca959bceb871e055284e6bb154546005056e8ddfda335f691",
+  "checks": {
+    "filename": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "balanced_fences": true,
+    "yaml_present": true,
+    "text_present": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "honest_validation": true,
+    "opening_not_authorized": true,
+    "registry_not_authorized": true,
+    "runtime_not_authorized": true,
+    "advanced_save_protection": true,
+    "existing_v2_protected": true,
+    "no_em_dash": true
+  },
+  "all_checks_passed": true
+}

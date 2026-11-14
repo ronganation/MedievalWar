@@ -1,0 +1,28 @@
+﻿{
+    "document_id":  "mw.shared-save.isolated-implementation-gate.v1",
+    "generated_utc":  "2026-08-24T18:37:30.9029152Z",
+    "owner_receipt_id":  "receipt.shared-save.hybrid-isolated-implementation.v1.4394f0e15ab946f588906b5ad4136b57",
+    "current_classification":  "AuthorizedForIsolatedSourceAdaptationNotActiveSourcePromotion",
+    "allowed_actions":  [
+                            "adapt copied save files inside C:\\temp2\\Shared_Save_Isolated_Patch_V1",
+                            "adapt copied Turn files inside C:\\temp2\\Shared_Save_Isolated_Patch_V1",
+                            "author isolated focused tests",
+                            "generate patch diffs and source manifests",
+                            "prepare an isolated compile tree or patch package"
+                        ],
+    "prohibited_actions":  [
+                               "modify C:\\UnrealProjects\\MedievalWar\\Source",
+                               "claim compile validation before a successful retained build",
+                               "claim runtime or save-load validation before direct execution evidence",
+                               "promote FMWCampaignLoadTransactionSnapshot to public or Blueprint API",
+                               "register the transaction type as a Registry or persisted schema identity",
+                               "declare item 3 complete"
+                           ],
+    "active_source_promotion_authorized":  false,
+    "compile_validated":  false,
+    "runtime_validated":  false,
+    "save_load_validated":  false,
+    "migration_validated":  false,
+    "replay_validated":  false,
+    "item_3_complete":  false
+}

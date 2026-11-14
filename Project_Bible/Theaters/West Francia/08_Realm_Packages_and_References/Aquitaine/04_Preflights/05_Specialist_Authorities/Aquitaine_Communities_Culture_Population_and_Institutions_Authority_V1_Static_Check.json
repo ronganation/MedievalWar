@@ -1,0 +1,25 @@
+{
+  "DocumentId": "StaticCheck.Aquitaine.CommunitiesCulturePopulationInstitutions.V1",
+  "AuthorityFile": "Aquitaine_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+  "AuthoritySHA256": "1f50b58de7d004bb12a2bf9a531ba13e303ec810c9696e114225701626b12a2b",
+  "Checks": {
+    "aquitaine_target": true,
+    "france_benchmark_only": true,
+    "three_track_time": true,
+    "one_population_pool_rejected": true,
+    "finite_recruitment": true,
+    "regional_power_distinction": true,
+    "war_gate_rejected": true,
+    "barbastro_inactive": true,
+    "opening_records_empty": true,
+    "fences_balanced": true,
+    "em_dashes_absent": true,
+    "stable_footer_once": true,
+    "final_marker_correct": true
+  },
+  "TotalChecks": 13,
+  "Passes": 13,
+  "Failures": 0,
+  "Result": "Pass",
+  "MutationPerformed": false
+}

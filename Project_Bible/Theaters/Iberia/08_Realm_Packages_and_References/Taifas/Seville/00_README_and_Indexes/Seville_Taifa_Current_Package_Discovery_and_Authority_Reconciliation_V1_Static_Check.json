@@ -1,0 +1,32 @@
+{
+  "document_id": "StaticCheck.Discovery.CurrentPackage.Realm.SevilleTaifa.V1",
+  "subject": "Seville_Taifa_Current_Package_Discovery_and_Authority_Reconciliation_V1.md",
+  "subject_sha256": "9F4F670A928CD149E8777991F5BF841439DB3C9CA5735D4B2032C3A7F247755A",
+  "status": "PASS",
+  "checks": {
+    "bytes": 24529,
+    "lines": 563,
+    "sha256": "9F4F670A928CD149E8777991F5BF841439DB3C9CA5735D4B2032C3A7F247755A",
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "three_track": true,
+    "physical_inventory_honest": true,
+    "folders_09_10_reconciled": true,
+    "registry_lock_reconciled": true,
+    "legacy_validation_not_promoted": true,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "assertions": {
+    "copy_first_required": true,
+    "rebuild_from_scratch_rejected": true,
+    "v1_registry_lock_found_and_bounded": true,
+    "v1_opening_state_found_and_bounded": true,
+    "legacy_fixture_evidence_preserved_not_reproduced": true,
+    "physical_inventory_still_required": true,
+    "unreal_work_not_authorized": true
+  },
+  "result": "All critical static checks passed. Discovery is search-visible and does not overclaim physical completeness or runtime validation."
+}

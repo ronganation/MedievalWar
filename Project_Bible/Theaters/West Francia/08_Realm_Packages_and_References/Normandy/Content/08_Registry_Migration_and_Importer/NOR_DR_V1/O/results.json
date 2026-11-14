@@ -1,0 +1,399 @@
+{
+  "all_expectations_matched": true,
+  "fixture_count": 32,
+  "results": {
+    "NEG-001": {
+      "fixture_id": "NEG-001",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F012"
+      ],
+      "input_sha256": "9B402402103C2F9E2E3CE7CFF506BC04844599516C0F5241E6B6F9431A1D54A3",
+      "canonical_sha256": "48D4310BB81212ADC518723A985DE4DAC15129B5C71DC71A577AEA67F1A67BA4",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-002": {
+      "fixture_id": "NEG-002",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F012"
+      ],
+      "input_sha256": "04BC553C4050DE6274A0E4D815D3A7D90A97B3907237C9ED3FAAC679B0966FD6",
+      "canonical_sha256": "25983B004D141D99A4F3F06F9269725F0D646C9B06CC08FE28990085B49365E5",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-003": {
+      "fixture_id": "NEG-003",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F012"
+      ],
+      "input_sha256": "3A431F99DB85BDF21136CD6B73C43C4BC3E00F525C145396D680967E8D984E3B",
+      "canonical_sha256": "C6A88043E4AC0946E115DDA97546D4813F7EA56A32F38B9357DD89FD38A8B47E",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-004": {
+      "fixture_id": "NEG-004",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F008"
+      ],
+      "input_sha256": "CCB96BF779A774A621F5282DF152F23076ACA9FC8AAD2405DADDBB34E3A2CFF9",
+      "canonical_sha256": "8BD71CE2F6BAFE6F0B48DB824376153021860CA13723528FE941D7AB0F517622",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-005": {
+      "fixture_id": "NEG-005",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F009"
+      ],
+      "input_sha256": "A83DA111D9771A22103D2DB9C9D9D1234CBCEC5303083242EC933F363CD944B0",
+      "canonical_sha256": "658BA6F4D220B627769975520B6AB7A6A6F7C540A9D28EBAEDA1FEBE267920BD",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-006": {
+      "fixture_id": "NEG-006",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F003"
+      ],
+      "input_sha256": "7F16C288765A86F69EDBC3E1F0F033B9E2DEF43F2FC290FC20DF0D8799F530D1",
+      "canonical_sha256": "B404E5A04904866CEFABE2E115A4E500FDDBC8CB4D4C46D3CD8C6DD3260EB5EE",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-007": {
+      "fixture_id": "NEG-007",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F004"
+      ],
+      "input_sha256": "8A61366922868D68F2BB26D7508328D3928548445BBDBE271791C2FF7A2C1B27",
+      "canonical_sha256": "1D7F389C0522F3992490DDBC9AF735C4A77587D03180FCC7F4596369382167E1",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-008": {
+      "fixture_id": "NEG-008",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F006"
+      ],
+      "input_sha256": "26E79D25EE2B23EC37228301800CEC9EFB6927F4367882B5E5CF42A7F1661054",
+      "canonical_sha256": "B3C6640C3D78ADC7CCD35889B71D19D1E54954DE0FB3661C74ECAB3F3AB0FA4F",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-009": {
+      "fixture_id": "NEG-009",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F006"
+      ],
+      "input_sha256": "CE14403692566C90D81F24034D72F95339032B63CFC72A05FE5AA4BBD05E174E",
+      "canonical_sha256": "255AA8163C99D4E33B75975B5056A8FACDF6FECC58C1DD855F18D3DFEDDFD1DC",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-010": {
+      "fixture_id": "NEG-010",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F004"
+      ],
+      "input_sha256": "024123D9E53F57DFC8C9236CD08CB3C8766763B8227D44FCD358259FCCEEB9FE",
+      "canonical_sha256": "BEBCE719DF0462D01D2DD6D060BB44F382A19B4068677F84D43AB86BBDCFF7C0",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-011": {
+      "fixture_id": "NEG-011",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F004",
+        "IMP-NOR-F008"
+      ],
+      "input_sha256": "6559B7FF7D271D12BEFA40ACBA9808B06781A723B4E4B4C13E2ACCB6F50EF1D5",
+      "canonical_sha256": "E1B3452E01DF83F9AEB9C9CB40B14B90B0E946063D223F5BF2F593E22003A268",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-012": {
+      "fixture_id": "NEG-012",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F008"
+      ],
+      "input_sha256": "B6CE8AADE2E590070146C9F189C25DA1AAE566134FEA0842FBA626CA007F4733",
+      "canonical_sha256": "F08FA53FAD67A793DFD04D582AF58144B4F6BEDFF918E06556DF0F908F90B036",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-013": {
+      "fixture_id": "NEG-013",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F009"
+      ],
+      "input_sha256": "6434EF1B357F7A1E302FF79F13B624673982FD320C97F99BA5A815FB3E93D011",
+      "canonical_sha256": "200E25B1E64AEB4A4CC8E87BF8C54F63CAFCE2EB33FBA9F3E7D027621BA8175E",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-014": {
+      "fixture_id": "NEG-014",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F007"
+      ],
+      "input_sha256": "4ED6D4F6212757E05A4216751A46EE6025301FFC08362A416CAED87155D1E745",
+      "canonical_sha256": "D5CA869F82226B5B27599E78C1FC5268A04D8E6AD6D62F7CFF6923F3F077B7B3",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-015": {
+      "fixture_id": "NEG-015",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F012"
+      ],
+      "input_sha256": "F115B9ED46335B2F95A83029007433FFFEA28BD52CABE98431735E97DBAA40DE",
+      "canonical_sha256": "B634DCE8D773D0892EA53ABA151FF2B2858EEADA0F4611004E9AD566CA7BA9AD",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-016": {
+      "fixture_id": "NEG-016",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F010"
+      ],
+      "input_sha256": "9254FC224F1B1B5F122AF88DA11FBAB11815696FFBBDE32D9CED3501BCDF8015",
+      "canonical_sha256": "462FE7837D7748118FCE52989FF73E0B423312C56F5BB96CCBD0ABF4CE0712E5",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-017": {
+      "fixture_id": "NEG-017",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F012"
+      ],
+      "input_sha256": "C36F007586155EBFCFEF7573FE1E1EBC664F1901B2233474D678C69E73AB4314",
+      "canonical_sha256": "244CD64F5FEEE0C3D0D5B4899C7F4C5ADC8FAB8F0525B649C2B83C0A27CF1341",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-018": {
+      "fixture_id": "NEG-018",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F003"
+      ],
+      "input_sha256": "56706B3C2A4CF2EF0FF0D480394B1E1792439F0CCD95F2D6F9853F9C290EEB8A",
+      "canonical_sha256": "D71DA4BC81A699C672A29AEB83B7F337DD30E832DE48D2F5BAE499F9492D2A0C",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-019": {
+      "fixture_id": "NEG-019",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F005"
+      ],
+      "input_sha256": "4EC7D364D7951A9EA17209C697F9ADD6E505B7589ED70BB764C9AA8C5192AD58",
+      "canonical_sha256": "459D0190610D5718586833E9A0BDA097C3CE6760770A268D22639681BEBF02EC",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "NEG-020": {
+      "fixture_id": "NEG-020",
+      "result": "Fail",
+      "severity": "Fatal",
+      "reason_codes": [
+        "IMP-NOR-F007"
+      ],
+      "input_sha256": "DB90DD2C598E1B602D707C85DC66DBD3D606453BAF30CAF6A9743D2A2AAC2209",
+      "canonical_sha256": "F7FFBDCC2C7C5DAB9518C861AC7D398D162C68CD6D5D6FEE2B04FEB3D664DA3C",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-001": {
+      "fixture_id": "POS-001",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "D7CF10B2264BF5557C66399DE3E2818477BB60B82736583DC16D0AE23210B308",
+      "canonical_sha256": "2CDC0DEB8148A7AFFA6B1782092DC63FBF18D651207A40A34F3E5FCA0ACA130D",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-002": {
+      "fixture_id": "POS-002",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "E625BD4EFAF124E0B6F385AC82D2D3A0A97C4C3BAB8C7DFBCC67D431F3C9C5C5",
+      "canonical_sha256": "57E9DA1DDE993D528D2C266082AF3142FF7F6D1284AD9C4E040BB35CE921CC6B",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-003": {
+      "fixture_id": "POS-003",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "5BE1282E34F938AD82D912A349F1FBF398BA6B8D58C40BD12C6F16478E319AA4",
+      "canonical_sha256": "E3FC6A3B40E4F18597875994839A9432F8C9C76DB438879B74DF7430CB000D08",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-004": {
+      "fixture_id": "POS-004",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "5449E8DA68EF1D2C548B9BE64FC6A82F8CD9DBB94A2B989C613373E9934FBBD5",
+      "canonical_sha256": "8CA83FF5F7DD3B18F497A81E353918ED7B0513968EB2915AEE6747FA62C47806",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-005": {
+      "fixture_id": "POS-005",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "F4BE494F0D313FFAE8A5E3C07F4A615F4E0FB78E0A3480CA9DB02465FA1DBF5F",
+      "canonical_sha256": "57F1790193FECBEB3896941B8B113ABA0BB8594C7FADC888770D3110D5DBE7C4",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-006": {
+      "fixture_id": "POS-006",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "8BDE72E0B6EBBFB5A210C581FCC49780F9BAAB69B3E2BE0869E5CF7430EE7119",
+      "canonical_sha256": "19F5376666931C97C7BA025B3B40B4B465BDDC126941354BDDCE86F0A4D46F19",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-007": {
+      "fixture_id": "POS-007",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "BCB593E6BF3AED83A30BCA0C07CD8929EF82865AD31C2C10E4D96858E0133769",
+      "canonical_sha256": "361C6048D5DAB4A25799FD2C5B253BD3231B7BD61A31FA2A49234421A1843080",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-008": {
+      "fixture_id": "POS-008",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "9DDA92CA0664D3D7ACD5FEDB28A69BD2C2BD1CBB29B7CDC68C95E23266E13056",
+      "canonical_sha256": "525EF129BBB1564ADBA276B1C88443B9008C6FE7649EF2B4E428B4603D51DFA9",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-009": {
+      "fixture_id": "POS-009",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "516F267363267164F9D59DAF1CD4D6EF53E1F28F71B9E4C5F6A6979F8872B1A0",
+      "canonical_sha256": "398DB29568AD1CE3CC7DABB60B6C404919432C5B8F264A22C5FD18C596F3E1C0",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-010": {
+      "fixture_id": "POS-010",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "7CF20CC2A46001F33279C03B4E89EE037403794328DC4EADE6A210F5EAEAD6D5",
+      "canonical_sha256": "C76E3789E342D04EFCF90F378D14D2B3C4B2C18E270317AAD5AAFEA28A15DF5D",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-011": {
+      "fixture_id": "POS-011",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "6B9C3AE5AFB8B14309872049BDD02252D565A81496C4B7EF3F8B52DAAF2BE82E",
+      "canonical_sha256": "9734E21EBABDAE00422C1A5CD66654D120273E4B0503FBEED6A4BFB4FC5F2029",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    },
+    "POS-012": {
+      "fixture_id": "POS-012",
+      "result": "Pass",
+      "severity": "Information",
+      "reason_codes": [],
+      "input_sha256": "D12DB4C9ACB523A1FF686EEED2A3FD9902E0B442489EAE78C5CD931B50A9DA1D",
+      "canonical_sha256": "B1773CD67198C50BD6A559D89815C63566DEC827C3B771D0D17489BE158E816C",
+      "writes_planned": 0,
+      "commit_authorized": false,
+      "deterministic": true
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "ReputationDimensionRegistrySnapshot",
+    "name": "Reputation Dimension Registry",
+    "version": "1.0.0",
+    "status": "InitializedEmpty_AwaitingIndividualCandidateApproval",
+    "authority_class": "Canonical Registry Snapshot",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Reputation_Dimension_Registry_V1.json"
+  },
+  "registry": {
+    "registry_id": "reputation-characteraudience.v1",
+    "namespace": "Reputation.CharacterAudience",
+    "record_kind": "AudienceSpecificReputationDimension",
+    "registry_version": "1.0.0",
+    "schema_version": "1.0",
+    "owner_authority_id": "IntegrationAuthorities.Characters.TraitReputation.RegistryGovernance",
+    "authority_decision_file": "Trait_Reputation_Registry_Namespace_and_Grammar_Decision_V1.json",
+    "authority_decision_sha256": "22b684a74c8c662db3ce6e8ff22e985c6bac4f334ac87b31228f952cf657f5c7",
+    "candidate_scope": 9,
+    "records": [],
+    "record_count": 0,
+    "deprecated_ids": [],
+    "deprecated_id_count": 0,
+    "direct_aliases": [],
+    "direct_alias_count": 0,
+    "quarantine": [],
+    "quarantine_count": 0
+  },
+  "identifier_grammar": {
+    "format": "<Namespace>.<StableSemanticToken>",
+    "token_case": "UpperCamelCase",
+    "allowed_characters": "ASCII letters and digits within tokens; period separators between namespace segments",
+    "localized_display_labels_are_ids": false,
+    "filenames_are_ids": false,
+    "array_indexes_are_ids": false,
+    "load_order_is_identity": false,
+    "object_addresses_are_ids": false,
+    "one_definition_one_id": true,
+    "direct_mapping_only": true,
+    "alias_chains_prohibited": true,
+    "deprecated_ids_prohibited_in_new_content_and_saves": true
+  },
+  "write_policy": {
+    "individual_record_write_requires_explicit_candidate_decision": true,
+    "direct_alias_only": true,
+    "alias_chains_prohibited": true,
+    "deprecated_id_write_prohibited": true,
+    "display_name_matching_prohibited": true,
+    "filename_matching_prohibited": true,
+    "runtime_write_prohibited": true,
+    "save_write_prohibited": true
+  },
+  "run": {
+    "mode": "EmptyRegistryInitialization",
+    "execution_status": "Completed",
+    "verdict": "PassEmptySnapshotInitialized",
+    "records_created": 0,
+    "canonical_ids_assigned": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "validation": {
+    "namespace_approved": true,
+    "grammar_approved": true,
+    "record_count_zero": true,
+    "deprecated_id_count_zero": true,
+    "alias_count_zero": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false
+  }
+}

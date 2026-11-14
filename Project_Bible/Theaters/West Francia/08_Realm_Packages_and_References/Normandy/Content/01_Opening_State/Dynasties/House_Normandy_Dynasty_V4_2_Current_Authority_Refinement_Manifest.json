@@ -1,0 +1,37 @@
+{
+  "FileName": "House_Normandy_Dynasty_V4_2_Current_Authority_Refinement_FULL.md",
+  "Version": "4.2.0",
+  "StableDocumentID": "DynastyAuthority.Realm.Normandy.HouseNormandy",
+  "AuthorityID": "authority.dynasty.realm.normandy.house_normandy.v4.2",
+  "Status": "Static-Checked Current Authority Refinement with Character Completeness Integrated",
+  "SHA256": "3EBF5F0986019F06CC31563BC1F663F83ACE2F5C545B8FF0DCB5EFF71CF7BEC8",
+  "Bytes": 70761,
+  "Lines": 2509,
+  "ImmediateSubstantiveSource": "House_Normandy_Dynasty_V4_2_Current_Authority_Refinement_FULL.md",
+  "SourceVersion": "4.2.0",
+  "CharacterCompletenessInputs": [
+    "Richard_Son_of_William_of_Normandy_Opening_Underage_Authority.md",
+    "William_Rufus_Opening_Underage_Authority.md"
+  ],
+  "CanonicalFilenameAndVersionPreserved": true,
+  "Checks": {
+    "richard_stable_identity_integrated": true,
+    "william_rufus_stable_identity_integrated": true,
+    "richard_of_evreux_collision_firewall": true,
+    "robert_primary_heir_status_preserved": true,
+    "future_conditional_children_preserved": true,
+    "three_track_temporal_model": true,
+    "ue58": true,
+    "balanced_fences": true,
+    "honest_validation": true,
+    "canonical_outer_identity_preserved": true,
+    "footer": true
+  },
+  "RegistryModified": false,
+  "OpeningStateModified": false,
+  "CharacterStateModified": false,
+  "DynastyMembershipModified": false,
+  "UnrealProjectModified": false,
+  "CompileValidated": false,
+  "RuntimeValidated": false
+}

@@ -1,0 +1,20 @@
+﻿{
+    "document_id":  "mw.shared-opening-state.production-handoff-gap-manifest.v1",
+    "generated_utc":  "2026-08-25T00:55:08.8923486Z",
+    "classification":  "ProductionBridgeMissingImplementationRequired",
+    "active_source_mutation_performed":  false,
+    "opening_state_application_performed":  false,
+    "item_4_complete":  false,
+    "records":  [
+                    {
+                        "file":  "Shared_Opening_State_Production_Handoff_Gap_V1.json",
+                        "bytes":  244541,
+                        "sha256":  "818E5E354809849A338208A0D1F23A7AB7B29106A2408D0BCF607B509FEA5DF6"
+                    },
+                    {
+                        "file":  "Shared_Opening_State_Production_Handoff_Contract_Candidate_V1.md",
+                        "bytes":  1579,
+                        "sha256":  "B6BF246FA2CFA5ADFD38520602623AEC16919A2544004D9779B0CB1D17C6F733"
+                    }
+                ]
+}

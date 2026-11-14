@@ -1,0 +1,59 @@
+{
+  "ManifestId": "manifest.opening-state.realm.leon-castile.1062.v2.2",
+  "Version": "2.2.0",
+  "OutputFile": "Leon_Castile_Opening_State_1062_V2_2_Dependency_Reconciled_Authority.md",
+  "OutputBytes": 69922,
+  "OutputLines": 1952,
+  "OutputSha256": "19ae743b4cdfd4255187735e60260c38971b996850bfd167a7fd8de39e3ac44c",
+  "ImmediateSource": "Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority.md",
+  "ImmediateSourceBytes": 66332,
+  "ImmediateSourceLines": 1905,
+  "ImmediateSourceSha256": "c58e40798768521d9ce3195f7bd35502224f661478efac4a1de73bff02e8d93a",
+  "Treatment": "CompleteCopyFirstAdditiveDependencyReconciledSuccessor",
+  "Checks": {
+    "source_bytes": 66332,
+    "source_lines": 1905,
+    "source_sha256": "c58e40798768521d9ce3195f7bd35502224f661478efac4a1de73bff02e8d93a",
+    "output_bytes": 69922,
+    "output_lines": 1952,
+    "output_sha256": "19ae743b4cdfd4255187735e60260c38971b996850bfd167a7fd8de39e3ac44c",
+    "larger_than_source": true,
+    "all_source_top_level_sections_preserved": true,
+    "brother_sections": true,
+    "seven_characters": true,
+    "current_dependencies": true,
+    "provenance_block": true,
+    "temporal": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "balanced_fences": true,
+    "stable_end_marker": true
+  },
+  "RemovalLedger": {
+    "RemovedSubstantiveSections": [],
+    "RemovedPlayerFacingContent": [],
+    "RemovedValidationRequirements": [],
+    "RemovedOwnerBoundaries": [],
+    "RemovedEvidenceLimits": []
+  },
+  "MutationReceipt": {
+    "Registry": 0,
+    "OpeningStateFacts": 0,
+    "OpeningRecordCounts": 0,
+    "MachineReadable": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "ValidationBoundary": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "ActiveSourcePromotion": "PROHIBITED"
+  },
+  "NextAction": "HistoricalMemoryDependencyReconciledSuccessor",
+  "AllChecksPass": true
+}

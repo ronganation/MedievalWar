@@ -1,0 +1,19 @@
+{
+  "document_id": "static-check.england.economy_property.v1",
+  "version": "1.0.0",
+  "output_file": "England_Economy_and_Property_V1.md",
+  "checks": {
+    "created": true,
+    "depth": true,
+    "schemas": true,
+    "opening_once": true,
+    "temporal": true,
+    "owners": true,
+    "supply_boundary": true,
+    "no_escapes": true,
+    "no_activation": true,
+    "validation_false": true,
+    "single_footer": true
+  },
+  "passed": true
+}

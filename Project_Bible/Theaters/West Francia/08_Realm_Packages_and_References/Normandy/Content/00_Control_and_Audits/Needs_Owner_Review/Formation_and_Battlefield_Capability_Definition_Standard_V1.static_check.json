@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "document_sha256": "ea37847d48196979881684e4b8b426cca6ebd9e05cc19e0072c85eba790f6a15",
+  "raw_line_count": 1043,
+  "checks": {
+    "hash_matches": true,
+    "core_separation": true,
+    "general_infantry": true,
+    "shield_weapon_split": true,
+    "spear": true,
+    "two_handed": true,
+    "polearm": true,
+    "missile": true,
+    "melee_cavalry": true,
+    "horse_archers": true,
+    "javelin_cavalry": true,
+    "dismount_remount": true,
+    "abilities": true,
+    "passives": true,
+    "gunpowder_deferred": true,
+    "ai_contract": true,
+    "implementation_dependencies": true,
+    "no_runtime_promotion": true,
+    "no_escaped_underscores": true,
+    "yaml_fences": true
+  }
+}

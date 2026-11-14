@@ -1,0 +1,11 @@
+{
+  "blocked": [
+    "exact_household_bindings",
+    "exact_governance_bindings",
+    "exact_law_bindings",
+    "exact_population_economy_values",
+    "exact_military_opening_state",
+    "external_owner_receipts"
+  ],
+  "fallback_generation_allowed": false
+}

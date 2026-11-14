@@ -1,0 +1,144 @@
+{
+  "document_id": "AuthorityPackageManifest.Realm.Burgundy.V1_1.DiplomacyAdditiveUpdate",
+  "stable_document_id": "AuthorityPackageManifest.Realm.Burgundy",
+  "filename": "Burgundy_Current_Authority_Package_Manifest_V1_1_Diplomacy_Additive_Update.json",
+  "version": "1.1.0",
+  "revision_date": "2026-09-18",
+  "realm_label": "Duchy of Burgundy",
+  "realm_id_candidate": "realm.burgundy.duchy",
+  "realm_context_id_candidate": "context.burgundy.1062",
+  "scenario_id": "mw.scenario.grand_campaign.1062",
+  "scenario_opening": "1062-01-01",
+  "opening_campaign_season": "Winter",
+  "owning_theater": "West Francia",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "status": "StaticCheckedDiplomacyPackageMembershipManifestPendingFreshRecursiveInventory",
+  "manifest_mode": "AdditiveCurrentMembershipControlWithoutUnverifiedFullPackageRecount",
+  "source_package_manifest_search_result": "NoExactCurrentBurgundyPackageManifestRecovered",
+  "source_snapshot_authority": "Burgundy_Realm_Package_Current_Authority_Index_V1_1_Diplomacy_Additive_Update.md",
+  "source_current_authority_entries_snapshot": 31,
+  "source_snapshot_counts_recomputed": false,
+  "current_package_navigation": {
+    "README": {
+      "path": "Burgundy/README_Burgundy_Realm_Package_V1_1_Diplomacy_Additive_Update.md",
+      "sha256": "25632d3b09f04848191a2c38e77925bbffc1c8b021b1889fc4794b6e1d4c1a20",
+      "manifest_sha256": "91f0d95c908e36a514861919b47ff9100fad37177c88538672acb2bf37aa6260",
+      "static_check_sha256": "7f612af2e00971e01ea9c8cd6f7c3efcea9f5ef5ed9be4caf53356506695626c"
+    },
+    "CurrentAuthorityIndex": {
+      "path": "Burgundy/Content/00_Control_and_Audits/Burgundy_Realm_Package_Current_Authority_Index_V1_1_Diplomacy_Additive_Update.md",
+      "sha256": "c44cad0cb67082da9da7c89c322a87d869cb4f066365c055ca9858fff25e1228",
+      "manifest_sha256": "e7078c8356789ef2d8c6adebe917d4a34654207381050702dc06a816d622e46a",
+      "static_check_sha256": "a318b5f28289c17974314aba5d084d5ed4d31c1d98220b83fbe0eef3ecd0d6c6",
+      "current_authority_entries": 31
+    }
+  },
+  "diplomacy_membership": [
+    {
+      "folder": "Content/00_Control",
+      "file": "Burgundy_Diplomacy_Current_Authority_Ownership_and_Developed_Realm_Parity_Audit_V1.md",
+      "family": "DiplomacyOwnershipAudit",
+      "status": "CurrentReviewRecord",
+      "payload_eligible": false,
+      "activation_authorized": false
+    },
+    {
+      "folder": "Content/00_Control",
+      "file": "Burgundy_Diplomacy_V1_1_Independent_Cross_Theater_Static_Closure_Review_V1.md",
+      "family": "DiplomacyIndependentStaticClosure",
+      "status": "CurrentClosureRecord",
+      "sha256": "858eff3bef59b30001af69adbc3b3fe81c64238af69f1ed72f2206f708e750d7",
+      "payload_eligible": false,
+      "activation_authorized": false
+    },
+    {
+      "folder": "Content/03_Governance_Law",
+      "file": "Burgundy_Knowledge_Communication_Diplomacy_and_External_Relations_Authority_V1_1_Current_Authority_Additive_Strengthening_FULL.md",
+      "family": "KnowledgeCommunicationDiplomacyExternalRelations",
+      "status": "CurrentStaticClosed",
+      "sha256": "8bdf4b8f1e30277a7ddf19b30724e7aee93b02c73e6884cc8cad19d9d10db803",
+      "bytes": 56743,
+      "physical_lines": 1131,
+      "numbered_sections": 64,
+      "validation_cases": 90,
+      "immediate_predecessor": "Burgundy_Knowledge_Communication_Diplomacy_and_External_Relations_Authority_V1.md",
+      "predecessor_disposition": "PreserveForTraceabilityAsDirectPredecessor",
+      "upstream_interface_authority": "Burgundy_Cross_Owner_Reference_Reconciliation_V1.md",
+      "payload_eligible": false,
+      "activation_authorized": false
+    },
+    {
+      "folder": "Content/13_Future_Implementation_Handoff",
+      "file": "Burgundy_Knowledge_Communication_Diplomacy_and_External_Relations_Authority_V1_1_Current_Authority_Additive_Strengthening_FULL_Manifest.json",
+      "family": "DiplomacyAuthorityManifestEvidence",
+      "status": "CurrentEvidence",
+      "sha256": "21983a90c9b5f4823e50bf2014394b9f3c38838b83087271b34e8d3a3d6bcc4c",
+      "payload_eligible": false,
+      "activation_authorized": false
+    },
+    {
+      "folder": "Content/13_Future_Implementation_Handoff",
+      "file": "Burgundy_Knowledge_Communication_Diplomacy_and_External_Relations_Authority_V1_1_Current_Authority_Additive_Strengthening_FULL_Static_Check.json",
+      "family": "DiplomacyAuthorityStaticCheckEvidence",
+      "status": "CurrentEvidence",
+      "sha256": "47f5bfcf4bc86f05548c6bc7a4dd431ff3f605c76275614d2fe5bcb7ffb12f14",
+      "payload_eligible": false,
+      "activation_authorized": false
+    }
+  ],
+  "package_rules": {
+    "one_current_authority_per_family": true,
+    "keep_companions_with_authority": true,
+    "current_Diplomacy_V1_1_controls_Diplomacy_V1": true,
+    "Diplomacy_V1_is_traceability_only": true,
+    "second_general_Burgundy_diplomacy_authority_prohibited": true,
+    "cross_owner_reconciliation_remains_upstream_interface_authority": true,
+    "definitions_do_not_activate_opening_state": true,
+    "foreign_private_state_not_created": true
+  },
+  "validation": {
+    "manifest_json_parse_valid": true,
+    "diplomacy_membership_declared": true,
+    "current_README_declared": true,
+    "current_authority_index_declared": true,
+    "current_general_diplomacy_authority_count": 1,
+    "diplomacy_independent_static_closure": "PASS_STATIC_CLOSURE_NO_IMMEDIATE_V1_2_REQUIRED",
+    "fresh_recursive_file_presence_scan_executed": false,
+    "fresh_recursive_hash_scan_executed": false,
+    "project_wide_registry_scan_executed": false,
+    "Opening_State_activation_validated": false,
+    "importer_validated": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "performance_validated": false,
+    "Unreal_project_validated": false
+  },
+  "nonmutation_receipt": {
+    "files_moved": 0,
+    "files_renamed": 0,
+    "files_deleted": 0,
+    "Registry_rows_created": 0,
+    "Opening_State_mutations": 0,
+    "external_owner_mutations": 0,
+    "migration_executions": 0,
+    "runtime_mutations": 0,
+    "real_payload_imports": 0,
+    "Unreal_project_mutations": 0
+  },
+  "package_closure": {
+    "diplomacy_documentation_routing_complete": true,
+    "README_routing_complete": true,
+    "current_authority_index_routing_complete": true,
+    "package_manifest_routing_complete": true,
+    "immediate_diplomacy_V1_2_required": false,
+    "additional_general_diplomacy_authority_required": false,
+    "package_status": "GOOD_STOPPING_POINT_AFTER_DIPLOMACY_ADDITIVE_UPDATE",
+    "next_action": "ContinueNextWestFranciaFactionDiplomacyReview",
+    "production_activation_authorized": false
+  }
+}

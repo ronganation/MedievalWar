@@ -1,0 +1,36 @@
+{
+  "Document": "Hawise_of_Brittany_V1_Developed_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "Character": "Hawise of Brittany",
+  "CanonicalPersonReference": "person.hawise_brittany",
+  "Bytes": 46611,
+  "Lines": 1011,
+  "SHA256": "FB04C743B04E60C0D6FD5CB9F4AF758A547067A8507502B6D9C3B63B3A162D02",
+  "Benchmarks": [
+    "Matilda_of_Flanders_V6_1_Current_Authority_Refinement_FULL.md",
+    "Ingibjorg_Finnsdottir.md",
+    "France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+    "current Aquitaine profiles",
+    "mature Britannia and Norse profiles"
+  ],
+  "Checks": {
+    "sections_1_through_58": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "stable_footer_once": true,
+    "agency_contract": true,
+    "opening_mutations_zero": true
+  },
+  "MutationStatus": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Relationships": 0,
+    "MarriageDynastyTitleClaimSuccession": 0,
+    "HouseholdPropertyChildrenPatronage": 0,
+    "Runtime": 0,
+    "Unreal": 0,
+    "RealPayload": 0
+  }
+}

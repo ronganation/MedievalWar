@@ -1,0 +1,19 @@
+{
+  "DocumentId": "manifest.source-ownership-package-discovery.realm.burgundy.v1",
+  "AuthorityFile": "Burgundy_Source_Authority_Ownership_and_Package_Discovery_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "67576e1fe9777159d1a9ba8be29d6c220c7fe66cb03e2fc6ab461ffb528f5693",
+  "ByteCount": 22979,
+  "LineCount": 719,
+  "Status": "StaticCheckedDiscoveryAndOwnershipAuthorityReviewOnly",
+  "DirectDedicatedBurgundySourcesVerified": 1,
+  "ExactPhysicalFolderInventoryValidated": false,
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateActivations": 0,
+    "FranceFilesModified": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "manifest.wales.character.rhys-ab-owain-ab-edwin.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Rhys_ab_Owain_ab_Edwin.md",
+    "bytes": 47941,
+    "physical_lines": 1208,
+    "sha256": "eb30e9db2563d6c9c71229c5243f3dbcb75d821ba09d0f8b30035159a722cb38",
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Rhys_ab_Owain_ab_Edwin_V2_Current_Authority_Refinement.md",
+    "bytes": 68399,
+    "physical_lines": 1833,
+    "sha256": "731d9d340fa98ddaaa260faebdafdb5a046f40e8b7b549aa988e4379c845ecd5"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "removed_content": [],
+    "source_headings_preserved": 111
+  },
+  "current_opening": {
+    "participation": "RestrictedActive",
+    "title_records": 0,
+    "claim_records": 0,
+    "command_records": 0,
+    "relationship_dimensions": 0,
+    "BasisOnly_edges": [
+      "WALES-NET-EDGE-007",
+      "WALES-NET-EDGE-008"
+    ]
+  },
+  "validation": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "static_check": {
+    "filename": "Rhys_ab_Owain_ab_Edwin_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true,
+    "failed_checks": []
+  }
+}

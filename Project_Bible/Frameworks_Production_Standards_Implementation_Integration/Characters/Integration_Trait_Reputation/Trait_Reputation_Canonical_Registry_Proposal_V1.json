@@ -1,0 +1,312 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationCanonicalRegistryProposal",
+    "name": "Trait Reputation Canonical Registry Proposal V1",
+    "version": "1.0",
+    "status": "ProposedRegistryArchitecture_NoCanonicalIdsAssigned",
+    "authority_class": "Registry Governance Proposal",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation",
+    "file": "Trait_Reputation_Canonical_Registry_Proposal_V1.json",
+    "companion_intake": "Project_Bible/Frameworks/Characters/Trait_Reputation_Consolidation/Trait_Reputation_Canonical_ID_Submission_V1.json",
+    "placement_reason": "The proposal governs cross-system identifier authority. Candidate evidence remains in the consolidation workspace."
+  },
+  "purpose": "Define the smallest safe Trait and Reputation registry architecture, namespace grammar, approval workflow, collision policy, deprecation rules, and deterministic migration boundary without assigning canonical IDs or mutating project registries.",
+  "authority_bindings": [
+    {
+      "file": "Trait_Reputation_Canonical_ID_Submission_V1.json",
+      "expected_version": "1.1",
+      "role": "ExactCandidateIntake"
+    },
+    {
+      "file": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+      "expected_version": "1.2",
+      "role": "CompletedStaticOwnershipAuthority"
+    },
+    {
+      "file": "Character_Trait_Library_Source_Inventory_V1.json",
+      "expected_entry_count": 86,
+      "role": "LegacySourceInventory"
+    },
+    {
+      "file": "Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "role": "RegistryAndMigrationPlanningAuthority"
+    },
+    {
+      "file": "Character_System_Field_Level_Disposition_Manifest.md",
+      "role": "CharacterMigrationIdentifierSafetyAuthority"
+    }
+  ],
+  "registry_architecture": {
+    "registry_set_id": "registry-set.trait-reputation.v1",
+    "registries": [
+      {
+        "registry_key": "TraitCanonicalRegistry",
+        "proposed_namespace": "Trait.Character",
+        "record_kind": "TraitDefinition",
+        "candidate_source_entry_ids": [
+          "legacy.character_trait_library.entry.011",
+          "legacy.character_trait_library.entry.001",
+          "legacy.character_trait_library.entry.021",
+          "legacy.character_trait_library.entry.012",
+          "legacy.character_trait_library.entry.026",
+          "legacy.character_trait_library.entry.002",
+          "legacy.character_trait_library.entry.006",
+          "legacy.character_trait_library.entry.033",
+          "legacy.character_trait_library.entry.004",
+          "legacy.character_trait_library.entry.023",
+          "legacy.character_trait_library.entry.048",
+          "legacy.character_trait_library.entry.034",
+          "legacy.character_trait_library.entry.044",
+          "legacy.character_trait_library.entry.050",
+          "legacy.character_trait_library.entry.051",
+          "legacy.character_trait_library.entry.045",
+          "legacy.character_trait_library.entry.049",
+          "legacy.character_trait_library.entry.003",
+          "legacy.character_trait_library.entry.047",
+          "legacy.character_trait_library.entry.008",
+          "legacy.character_trait_library.entry.018",
+          "legacy.character_trait_library.entry.005",
+          "legacy.character_trait_library.entry.039",
+          "legacy.character_trait_library.entry.042",
+          "legacy.character_trait_library.entry.009",
+          "legacy.character_trait_library.entry.027",
+          "legacy.character_trait_library.entry.040",
+          "legacy.character_trait_library.entry.022",
+          "legacy.character_trait_library.entry.007",
+          "legacy.character_trait_library.entry.028",
+          "legacy.character_trait_library.entry.052",
+          "legacy.character_trait_library.entry.019",
+          "legacy.character_trait_library.entry.038",
+          "legacy.character_trait_library.entry.032",
+          "legacy.character_trait_library.entry.010",
+          "legacy.character_trait_library.entry.025",
+          "legacy.character_trait_library.entry.029"
+        ],
+        "candidate_count": 37,
+        "initial_review_buckets": {
+          "retainable_after_collision_review": 26,
+          "semantic_refactor_required": 11
+        },
+        "excludes_source_entry_ids": [
+          "legacy.character_trait_library.entry.070",
+          "legacy.character_trait_library.entry.066",
+          "legacy.character_trait_library.entry.068",
+          "legacy.character_trait_library.entry.065",
+          "legacy.character_trait_library.entry.067"
+        ],
+        "exclusion_reason": "Presentation-only or evidence-gated quirks do not receive Trait IDs unless separately promoted through a strategic relevance gate."
+      },
+      {
+        "registry_key": "ReputationDimensionRegistry",
+        "proposed_namespace": "Reputation.CharacterAudience",
+        "record_kind": "AudienceSpecificReputationDimension",
+        "candidate_source_entry_ids": [
+          "legacy.character_trait_library.entry.082",
+          "legacy.character_trait_library.entry.084",
+          "legacy.character_trait_library.entry.079",
+          "legacy.character_trait_library.entry.085",
+          "legacy.character_trait_library.entry.078",
+          "legacy.character_trait_library.entry.080",
+          "legacy.character_trait_library.entry.081",
+          "legacy.character_trait_library.entry.086",
+          "legacy.character_trait_library.entry.083"
+        ],
+        "candidate_count": 9,
+        "boundary": "Historical Memory owns facts, evidence, narrative, reception history, memory, commemoration, preservation, and legacy. Presentation owns derived epithets."
+      }
+    ]
+  },
+  "identifier_grammar_proposal": {
+    "status": "ProposedNotApproved",
+    "format": "<Namespace>.<StableSemanticToken>",
+    "allowed_characters": "ASCII letters, digits, and period separators; semantic token uses UpperCamelCase",
+    "forbidden_inputs": [
+      "localized display label",
+      "filename",
+      "array index",
+      "load order",
+      "object address",
+      "unreviewed legacy symbol"
+    ],
+    "examples_are_non_authoritative": [
+      "Trait.Character.CourageDisposition",
+      "Reputation.CharacterAudience.ConquestReception"
+    ],
+    "example_warning": "Examples illustrate grammar only and are not requested or approved IDs.",
+    "same_label_different_meaning": "Require distinct semantic tokens and explicit cross-registry boundary evidence.",
+    "same_meaning_multiple_labels": "Merge under one canonical definition or reject duplicates while retaining source provenance."
+  },
+  "registry_record_contract": {
+    "common_fields": [
+      "CanonicalId",
+      "RegistryVersion",
+      "DefinitionVersion",
+      "SemanticClass",
+      "OwningSystemId",
+      "DisplayKey",
+      "DescriptionKey",
+      "Status",
+      "Provenance",
+      "ValidationRules"
+    ],
+    "trait_fields": [
+      "TraitFamilyId",
+      "AcquisitionEvidenceTypes",
+      "RemovalConditions",
+      "PersistencePolicy",
+      "VisibilityPolicy",
+      "ConsumerPermissions",
+      "StrategicEffectBindings",
+      "AIReasonTags",
+      "MutualExclusionSetIds"
+    ],
+    "reputation_fields": [
+      "AudienceKinds",
+      "EvidenceKinds",
+      "KnowledgeVisibilityRules",
+      "AdoptionRules",
+      "ConfidenceUncertaintyRules",
+      "ContradictionRules",
+      "SuspensionRules",
+      "DecayOrPersistencePolicy",
+      "RemovalRules",
+      "PresentationBands",
+      "StrategicConsumerBindings",
+      "AIReasonTags"
+    ],
+    "mutable_runtime_state_prohibited": true
+  },
+  "approval_workflow": [
+    {
+      "gate": "NamespaceApproval",
+      "requires": [
+        "named registry authority",
+        "identifier grammar approval",
+        "owner boundary confirmation"
+      ]
+    },
+    {
+      "gate": "CandidateSemanticReview",
+      "requires": [
+        "exact source entry ID",
+        "stable semantic meaning",
+        "duplicate review",
+        "wrong-owner review",
+        "strategic relevance"
+      ]
+    },
+    {
+      "gate": "CollisionAndDeprecationReview",
+      "requires": [
+        "current registry snapshot",
+        "deprecated ID set",
+        "direct alias table",
+        "cross-registry collision scan"
+      ]
+    },
+    {
+      "gate": "CanonicalIdAssignment",
+      "requires": [
+        "all prior gates pass",
+        "one definition to one ID",
+        "version and provenance"
+      ]
+    },
+    {
+      "gate": "MigrationMappingApproval",
+      "requires": [
+        "direct versioned mapping",
+        "no alias chains",
+        "unknown and ambiguous quarantine",
+        "idempotence plan"
+      ]
+    },
+    {
+      "gate": "ImplementationValidation",
+      "requires": [
+        "exact UE5 types",
+        "validators",
+        "save versions",
+        "compile evidence",
+        "runtime fixtures",
+        "determinism evidence"
+      ]
+    }
+  ],
+  "migration_contract": {
+    "direct_mapping_only": true,
+    "alias_chains_prohibited": true,
+    "deprecated_ids_prohibited_in_new_content_and_saves": true,
+    "unknown_mandatory_ids_fail_safely": true,
+    "ambiguous_candidates_quarantined": true,
+    "source_save_unchanged": true,
+    "advanced_state_preserved": true,
+    "opening_state_reapplication_prohibited": true,
+    "idempotence_required": true,
+    "deterministic_ordering_keys": [
+      "CanonicalId",
+      "SourceEntryId",
+      "RegistryVersion",
+      "MigrationVersion"
+    ]
+  },
+  "candidate_reconciliation": {
+    "trait_registry_candidates": 37,
+    "presentation_or_evidence_gated_quirks": 5,
+    "reputation_registry_candidates": 9,
+    "total_exact_candidate_records": 51,
+    "owner_specific_or_archive_exclusions": 35,
+    "legacy_total": 86,
+    "reconciliation": "Pass"
+  },
+  "run": {
+    "mode": "CanonicalRegistryArchitectureProposal",
+    "execution_status": "Completed",
+    "verdict": "PassProposalWithAuthorityAndSnapshotLocks",
+    "canonical_ids_assigned": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "commit_attempted": false
+  },
+  "validation": {
+    "candidate_counts_reconcile": true,
+    "trait_and_reputation_separate": true,
+    "presentation_quirks_excluded_from_trait_registry": true,
+    "names_and_filenames_not_ids": true,
+    "canonical_ids_assigned": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "determinism_validated": false
+  },
+  "review_locks": [
+    {
+      "code": "TRREG-LOCK-001",
+      "item": "Named registry authority approves both namespaces and identifier grammar",
+      "status": "Open"
+    },
+    {
+      "code": "TRREG-LOCK-002",
+      "item": "Create initial authoritative registry snapshots after candidate semantic review",
+      "status": "Open"
+    },
+    {
+      "code": "TRREG-LOCK-003",
+      "item": "Approve deprecated ID sets and direct migration mappings",
+      "status": "Open"
+    },
+    {
+      "code": "TRREG-LOCK-004",
+      "item": "Implement exact UE5 records, validators, save versions, and deterministic migrator",
+      "status": "Open"
+    }
+  ],
+  "smallest_useful_next_action": "Place this proposal in Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation. Treat the existing consolidation folder as evidence and intake only. Approve or revise the two proposed namespaces and identifier grammar before creating authoritative registry snapshot files."
+}

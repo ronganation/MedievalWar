@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "document_type": "RealmLawCustomPolicyJusticeDisputeAuthority",
+  "file": "Ireland_Law_Custom_Policy_Justice_and_Dispute_Authority_V1.md",
+  "bytes": 38149,
+  "lines": 867,
+  "sha256": "28da168ecc556e9e7b70e80fe16ffc7adf8df98e219ef725c951c3cb472bde8d",
+  "authority_origin": "SourceFirstSpecialistGapDevelopment",
+  "gap_decision_source": "Ireland_Specialist_Authority_Inventory_and_Gap_Decision_V1.md",
+  "framework_source": "Law_and_Policy_Framework.md",
+  "substantive_sections": 40,
+  "validation_cases": 40,
+  "source_authorities_modified": 0,
+  "records_activated": 0,
+  "static_check_file": "Ireland_Law_Custom_Policy_Justice_and_Dispute_Authority_V1_Static_Check.json",
+  "static_check_sha256": "82fd5809a97da16e3a67d95c0952adeb68b9b04c511ce1a25322e16e7bc9f8ae",
+  "validation_scope": "content static checks only; no owner promotion, Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, or payload validation"
+}

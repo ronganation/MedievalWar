@@ -1,0 +1,41 @@
+{
+  "static_check_id": "StaticCheck.CharacterProfile.Barcelona.Sancha.V1",
+  "document": "Sancha_of_Barcelona_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.0.0",
+  "result": "Pass",
+  "physical_lines": 514,
+  "words": 3697,
+  "bytes": 34461,
+  "sha256": "03fd989e563387a1b8c44fdeb9ec1dc6df4720970310c90ed70dfcda6a9a60eb",
+  "checks": {
+    "sections_1_through_50_present": true,
+    "three_temporal_tracks_present": true,
+    "reviewonly_preserved": true,
+    "same_name_collision_control_present": true,
+    "agnes_independence_present": true,
+    "marriage_consent_firewall_present": true,
+    "institutional_mediation_depth_present": true,
+    "military_boundary_present": true,
+    "failure_recovery_present": true,
+    "ai_intent_present": true,
+    "nonmutation_receipt_present": true,
+    "balanced_fences": true,
+    "fence_count": 18,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "final_marker_count": 1
+  },
+  "mutation_receipt": {
+    "registry_rows_created": 0,
+    "opening_state_mutations": 0,
+    "parentage_or_household_mutations": 0,
+    "custody_guardianship_or_education_mutations": 0,
+    "marriage_property_patronage_or_institution_mutations": 0,
+    "relationship_or_external_lineage_mutations": 0,
+    "runtime_mutations": 0,
+    "unreal_project_mutations": 0,
+    "real_payload_imports": 0
+  },
+  "validation_scope": "Static design-authority and file-hygiene checks only. No Registry, Opening State, identity, lifecycle, parentage, household, custody, guardianship, education, marriage, consent, property, patronage, institution, relationship, title, office, runtime, Unreal, save, migration, replay, performance, battle, or real-payload validation."
+}

@@ -1,0 +1,28 @@
+﻿{
+    "document_id":  "mw.shared-save.focused-test-authoring-gap.v1",
+    "generated_utc":  "2026-08-24T19:23:06.9746759Z",
+    "classification":  "FocusedSaveTestAuthoringRequired",
+    "required_test_count":  15,
+    "required_tests":  [
+                           "Schema3CurrentSaveRoundTrip",
+                           "PristineSchema2MigrationToSchema3",
+                           "AdvancedSchema2RejectedWithoutMutation",
+                           "UnsupportedSchema4To6RejectedWithoutMutation",
+                           "WrongSaveClassRejected",
+                           "TamperedHashExactRollback",
+                           "InvalidTemporalContractRejected",
+                           "CurrentDateMismatchRejected",
+                           "RegisteredDefinitionsPreservedOnSuccessfulLoad",
+                           "RegisteredDefinitionsRestoredAfterFailedLoad",
+                           "CommittedTracesResetAfterSuccessfulLoad",
+                           "CommittedTracesRestoredAfterFailedLoad",
+                           "StrategicTurnIndexAndCampaignSeasonPreserved",
+                           "HistoricalAndBiologicalProgressionPreserved",
+                           "OpeningStateDoesNotOverwriteAdvancedCampaign"
+                       ],
+    "registration_target":  "DisposableCloneOnlyUntilGreen",
+    "active_source_mutation_authorized":  false,
+    "compile_required_after_registration":  true,
+    "focused_execution_required_after_registration":  true,
+    "item_3_complete":  false
+}

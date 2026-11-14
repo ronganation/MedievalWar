@@ -1,0 +1,31 @@
+{
+  "document_id": "mw.realm.scotland.economy-property.v1",
+  "authority_id": "authority.scotland.economy-property.v1",
+  "stable_document_id": "EconomyProperty.Realm.Scotland",
+  "filename": "Scotland_Economy_and_Property_V1.md",
+  "version": "1.0.0",
+  "status": "Static-Checked Draft",
+  "sha256": "a314104361400d9c640251dae4986a9c719364b947ae6c88c3a082611338e3da",
+  "bytes": 50316,
+  "lines": 1244,
+  "sections": 61,
+  "opening_property_bindings_created": 0,
+  "opening_accounts_created": 0,
+  "opening_balances_created": 0,
+  "opening_production_records_created": 0,
+  "opening_markets_created": 0,
+  "opening_trade_flows_created": 0,
+  "Registry_mutation_performed": false,
+  "Opening_State_activation_performed": false,
+  "runtime_mutation_performed": false,
+  "validation": {
+    "compile": false,
+    "runtime": false,
+    "importer": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "performance": false
+  },
+  "next_file": "Scotland_Supply_V1.md"
+}

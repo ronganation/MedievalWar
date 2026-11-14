@@ -1,0 +1,388 @@
+ledger_version: 1.0.0
+ledger_status: PartialBatchCAliasOwnershipCollisionEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+scope:
+  alias_groups_reviewed: 10
+  candidate_entities_reviewed: 14
+  ownership_families_mapped: 14
+  collision_records_created: 12
+  canonical_ids_allocated: 0
+  aliases_executed: 0
+  entity_merges_executed: 0
+source_authorities:
+  - Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+  - Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+  - Hammadid_Header_Identity_Ledger_V1.yaml
+  - Hammadid_Source_Successor_Lineage_Ledger_V1.yaml
+  - Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+rules:
+  - CandidateReferenceIsNotCanonicalRegistryId
+  - DirectAliasRequiresIdentityProofAndRegistryOwnerApproval
+  - SearchAliasIsRetrievalOnlyAndCannotBindOpeningState
+  - HistoricalLabelRequiresTemporalContext
+  - TransliterationVariantDoesNotCreateSeparateEntity
+  - SameLabelDoesNotProveSameEntity
+  - AliasChainsAreProhibited
+  - AmbiguousLabelsRemainQuarantined
+  - DefinitionOwnerDoesNotOwnOpeningExistence
+  - StateOwnerDoesNotInventDefinitionMeaning
+  - ExternalPrivateStateRemainsExternallyOwned
+  - NoAutomaticMergeRenameMoveDeleteOrPromotion
+alias_groups:
+  - alias_group_ref: HMD_ALIAS_REALM_001
+    preferred_label: Hammadids
+    candidate_entity: cand.realm.hammadid
+    entity_class: Realm
+    direct_alias_candidates:
+      - Hammadid Realm
+    contextual_historical_labels:
+      - Hammadid Emirate
+      - Hammadid Sultanate
+      - Kingdom of Bejaia
+    same_entity_state: ContextDependent
+    canonicalization_state: CandidateOnly
+    definition_owner: Hammadid_Realm_Identity_Historical_Reconciliation_and_Opening_Political_Order_V1.md
+    state_owner: OpeningStateOwner
+    collision_state: RealmDynastyGovernmentAndLaterBejaiaLabelMustRemainDistinct
+    quarantine_state: ContextualLabelsHeld
+    owner_gate: RealmDesignRegistryOpeningState
+  - alias_group_ref: HMD_ALIAS_ANNASIR_001
+    preferred_label: al-Nasir ibn Alnas
+    candidate_entity: cand.person.hammadid.al_nasir_ibn_alnas
+    entity_class: Person
+    variants:
+      - An-Nasir ibn Alnas
+      - al-Nasir ibn Alnas
+      - Nasir ibn Alnas
+      - Al Nasir ibn Alnas
+      - An_Nasir_ibn_Alnas
+    same_entity_state: SamePersonCandidatePendingArtifactDisposition
+    canonicalization_state: Quarantined
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    profile_owner_candidate: An_Nasir_ibn_Alnas_V1_1_Developed_Character_Profile_Authority.md
+    state_owner: OpeningStateOwner
+    collision_state: TransliterationAndThreeProfileArtifacts
+    quarantine_state: Active
+    owner_gate: CharacterProfilePackageIndexRegistryOpeningState
+  - alias_group_ref: HMD_ALIAS_BULUGGIN_001
+    preferred_label: Buluggin ibn Muhammad
+    candidate_entity: cand.person.hammadid.buluggin_ibn_muhammad
+    entity_class: Person
+    variants:
+      - Buluqqin ibn Muhammad
+      - Buluggin ibn Muhammad
+      - Buluggin_ibn_Muhammad
+    same_entity_state: SamePersonCandidatePendingLiteralVerification
+    canonicalization_state: CandidateOnly
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    profile_owner_candidate: Buluggin_ibn_Muhammad_V1_1_Historical_Legacy_Character_Profile_Authority.md
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    collision_state: NoSeparatePersonFromTransliteration
+    quarantine_state: HeldByOpeningBoundary
+    owner_gate: CharacterRegistryHistoricalMemoryOpeningState
+  - alias_group_ref: HMD_ALIAS_NAMIRT_001
+    preferred_label: Namirt bint Alnas
+    candidate_entity: cand.person.hammadid.namirt_bint_alnas
+    entity_class: Person
+    variants:
+      - Namirt bint Alnas
+      - Namirt_bint_Alnas
+    same_entity_state: SamePersonCandidate
+    canonicalization_state: CandidateOnly
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    profile_owner_candidate: Namirt_bint_Alnas_V1_1_Historical_Memory_and_Dynastic_Profile_Authority.md
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    collision_state: NoneProven
+    quarantine_state: HeldByOpeningAuthority
+    owner_gate: CharacterRegistryHistoricalMemoryOpeningState
+  - alias_group_ref: HMD_ALIAS_MUQATIL_001
+    preferred_label: Muqatil ibn Muhammad
+    candidate_entity: cand.person.hammadid.muqatil_ibn_muhammad
+    entity_class: Person
+    variants:
+      - Muqatil ibn Muhammad
+      - Muqatil_ibn_Muhammad
+    same_entity_state: SamePersonCandidate
+    canonicalization_state: CandidateOnly
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    profile_owner_candidate: Muqatil_ibn_Muhammad_V1_Historical_Memory_and_Dynastic_Bridge_Profile_Authority.md
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    collision_state: NoneProven
+    quarantine_state: HeldByOpeningAuthority
+    owner_gate: CharacterRegistryHistoricalMemoryOpeningState
+  - alias_group_ref: HMD_ALIAS_QALAT_001
+    preferred_label: Qal'at Bani Hammad
+    candidate_entity: cand.place.hammadid.qalat_bani_hammad
+    entity_class: PlaceCandidate
+    variants:
+      - Qal'at Bani Hammad
+      - Qalat Bani Hammad
+      - Qal'a of Beni Hammad
+      - Al Qal'a of Beni Hammad
+      - Qala
+      - Qal'a
+      - Qalat_Bani_Hammad
+    same_entity_state: SamePlaceCandidateWithinHammadidContext
+    canonicalization_state: CandidateOnly
+    definition_owner: Hammadid_Strategic_Geography_Regions_Settlements_Fortresses_Routes_and_Saharan_Interfaces_Authority_V1_1_FULL.md
+    specialist_owner: Hammadid_Qalat_Bani_Hammad_Capital_Court_Fortress_Mosque_and_Urban_Authority_V1.md
+    state_owner: OpeningStateOwner
+    collision_state: PlaceSettlementFortressCapitalBuildingAndInstitutionFunctionsMustRemainTyped
+    quarantine_state: QalaShortFormAmbiguousOutsideHammadidContext
+    owner_gate: GeographyPropertyReligionGovernanceRegistryOpeningState
+  - alias_group_ref: HMD_ALIAS_BEJAIA_001
+    preferred_label: Bejaia
+    candidate_entity: cand.place.hammadid.bejaia
+    entity_class: PlaceCandidate
+    variants:
+      - Bejaia
+      - Bijaya
+      - Bougie
+      - al-Nasiriyya
+      - al-Nasiriyah
+    same_entity_state: SamePlaceCandidatePendingTemporalAndHistoricalReview
+    canonicalization_state: CandidateOnly
+    definition_owner: Hammadid_Strategic_Geography_Regions_Settlements_Fortresses_Routes_and_Saharan_Interfaces_Authority_V1_1_FULL.md
+    state_owner: HistoricalEventAndOpeningStateOwners
+    collision_state: LaterHistoricalDevelopmentMustNotBecomeOpeningCapitalOrPortState
+    quarantine_state: NotOpeningApproved
+    owner_gate: HistoricalResearchGeographyRegistryOpeningState
+  - alias_group_ref: HMD_ALIAS_DYNASTY_001
+    preferred_label: Hammadid Dynasty
+    candidate_entity: cand.dynasty.hammadid
+    entity_class: Dynasty
+    variants:
+      - Hammadid Dynasty
+      - Hammadid House
+    same_entity_state: Candidate
+    canonicalization_state: CandidateOnly
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    state_owner: CharacterDynastyAndOpeningStateOwners
+    collision_state: RealmDynastyHouseholdAndGovernmentMustRemainDistinct
+    quarantine_state: OwnerReviewRequired
+    owner_gate: CharacterDynastyRegistryOpeningState
+  - alias_group_ref: HMD_ALIAS_SCENARIO_001
+    preferred_label: Grand Campaign 1062
+    candidate_entity: cand.scenario.grand_campaign.1062
+    entity_class: ScenarioExternalReference
+    variants:
+      - mw.scenario.grand_campaign.1062
+      - Grand Campaign 1062
+    same_entity_state: ExternalReferenceCandidate
+    canonicalization_state: ExternalLockRequired
+    definition_owner: ScenarioOwner
+    state_owner: ScenarioOwner
+    collision_state: ScenarioAnchorMustNotEncodePostJulyVariantImplicitly
+    quarantine_state: HeldPendingExternalReceipt
+    owner_gate: ScenarioRegistry
+  - alias_group_ref: HMD_ALIAS_THEATER_001
+    preferred_label: North Africa
+    candidate_entity: cand.theater.north_africa
+    entity_class: TheaterExternalReference
+    variants:
+      - theater.north_africa
+      - North Africa
+      - North_Africa
+    same_entity_state: ExternalReferenceCandidate
+    canonicalization_state: ExternalLockRequired
+    definition_owner: CampaignTheaterOwner
+    state_owner: CampaignTheaterOwner
+    collision_state: TheaterAssociationDoesNotCreateTerritoryOwnershipOrPrivateState
+    quarantine_state: HeldPendingExternalReceipt
+    owner_gate: TheaterRegistry
+ownership_matrix:
+  HistoricalAttestationChronologyMemoryEmergence:
+    definition_owner: Hammadid_Historical_Evidence_Chronology_Memory_Momentum_and_Conditional_Emergence_Authority_V1.md
+    state_owner: HistoricalMemoryMomentumEmergenceOwners
+  OpeningDateLeadershipSuccessionAssassinationBoundary:
+    definition_owner: Hammadid_Opening_Date_Leadership_Succession_and_Recent_Assassination_Authority_V1.md
+    state_owner: ScenarioAndOpeningStateOwners
+  PeopleKinshipHouseholdsDirectedRelationships:
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    state_owner: CharacterAndOpeningStateOwners
+  OfficesMandatesDelegationRegionalAuthority:
+    definition_owner: Hammadid_Governance_Political_Constitution_Offices_Delegation_Regional_Authority_Compliance_and_Restoration_Authority_V1_1_FULL.md
+    state_owner: GovernanceAndOpeningStateOwners
+  LawProcedureRemedyPunishmentAppeal:
+    definition_owner: Hammadid_Law_Justice_Petition_Procedure_Crime_Punishment_Restitution_and_Appeal_Authority_V1.md
+    state_owner: LawRuntimeOwner
+  CustodyRansomExchangeReleaseReintegration:
+    definition_owner: Hammadid_Prisoners_Captives_Hostages_Ransom_Exchange_and_Release_Authority_V1.md
+    state_owner: CustodyRuntimeOwner
+  ForeignActorsAgreementsConsentPrivateState:
+    definition_owner: Hammadid_Diplomacy_Almoravid_Zirid_BanuHilal_and_External_Relations_V1.md
+    state_owner: ForeignAndDiplomacyOwners
+  JuristicDoctrineReligiousInstitutions:
+    definition_owner: Hammadid_Religious_Juristic_Great_Mosque_Legitimacy_and_Institutional_Authority_V1.md
+    state_owner: ReligionGovernancePropertyAndOpeningStateOwners
+  GeographySettlementsRoutesDistances:
+    definition_owner: Hammadid_Strategic_Geography_Regions_Settlements_Fortresses_Routes_and_Saharan_Interfaces_Authority_V1_1_FULL.md
+    state_owner: GeographyAndOpeningStateOwners
+  PopulationLaborMigrationCapacity:
+    definition_owner: Hammadid_Population_Demography_Households_Labor_Migration_and_Settlement_Capacity_Authority_V1.md
+    state_owner: PopulationAndOpeningStateOwners
+  CommunityIdentityLanguageRepresentation:
+    definition_owner: Hammadid_Regional_Constituencies_Communities_Languages_Representation_and_Integration_Authority_V1.md
+    state_owner: ConstituencyAndOpeningStateOwners
+  MilitaryCommandRecruitmentRosterSiegeMaritime:
+    definition_owner: HammadidMilitaryAuthorityFamily
+    state_owner: MilitaryRuntimeAndOpeningStateOwners
+  CandidateReferencesAliasesCollisions:
+    definition_owner: Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    state_owner: RegistryOwnerOnly
+  CanonicalIdentity:
+    definition_owner: RegistryOwnerOnly
+    state_owner: RegistryOwnerOnly
+collision_records:
+  - collision_ref: HMD_COLLISION_ANNASIR_ARTIFACTS
+    collision_class: DuplicateStableIdentityAndFilenameVersionConflict
+    affected_entities:
+      - cand.person.hammadid.al_nasir_ibn_alnas
+    affected_files:
+      - An_Nasir_ibn_Alnas_V1_Developed_Character_Profile_Authority.md
+      - An_Nasir_ibn_Alnas_V1_Developed_Character_Profile_AuthorityCopy.md
+      - An_Nasir_ibn_Alnas_V1_1_Developed_Character_Profile_Authority.md
+    risk: MultipleArtifactsMayClaimCurrentProfileAuthority
+    evidence_required: HashHeaderSectionLiteralAndInboundReferenceComparison
+    current_state: Quarantined
+    proposed_disposition: PreserveAllPendingOwnerDecision
+  - collision_ref: HMD_COLLISION_ANNASIR_REFS
+    collision_class: SameEntityDifferentCandidateReferences
+    affected_refs:
+      - character.hammadid.an_nasir_ibn_alnas
+      - cand.person.hammadid.al_nasir_ibn_alnas
+    risk: CandidateAndLegacyReferenceCouldSerializeAsSeparatePeople
+    evidence_required: DirectAliasAndCanonicalMappingReceipt
+    current_state: Held
+    proposed_disposition: OneEntityCandidateNoAliasExecution
+  - collision_ref: HMD_COLLISION_REALM_DYNASTY
+    collision_class: RealmDynastyFactionHouseholdGovernmentCollision
+    affected_refs:
+      - cand.realm.hammadid
+      - realm.hammadid
+      - faction.hammadid
+      - cand.dynasty.hammadid
+      - dynasty.hammadid
+    risk: DistinctEntityClassesCouldBeFlattened
+    evidence_required: EntityKindAndCanonicalOwnerDecision
+    current_state: Held
+    proposed_disposition: PreserveTypedSeparation
+  - collision_ref: HMD_COLLISION_QALAT_FUNCTION
+    collision_class: PlaceSettlementFortressCapitalBuildingInstitutionCollision
+    affected_refs:
+      - cand.place.hammadid.qalat_bani_hammad
+    risk: OnePlaceLabelCouldCreateMultipleUntypedOrDuplicatedRuntimeObjects
+    evidence_required: GeographyPropertyReligionGovernanceAndOpeningStateTypedMapping
+    current_state: Held
+    proposed_disposition: PreserveOnePlaceCandidateAndTypedFunctions
+  - collision_ref: HMD_COLLISION_BEJAIA_TEMPORAL
+    collision_class: HistoricalLabelAndOpeningStateCollision
+    affected_refs:
+      - cand.place.hammadid.bejaia
+    risk: LaterDevelopmentCouldBeBackProjectedInto1062Opening
+    evidence_required: HistoricalWindowAndOpeningOwnerDecision
+    current_state: QuarantinedFromOpening
+    proposed_disposition: KeepAsLaterOrConditionalCandidate
+  - collision_ref: HMD_COLLISION_SCENARIO_VARIANT
+    collision_class: ScenarioAndRealmSpecificVariantCollision
+    affected_refs:
+      - cand.scenario.grand_campaign.1062
+      - post_1062_07_11_hammadid_overlay
+    risk: RealmSpecificBoundaryCouldRewriteGlobalScenarioAnchor
+    evidence_required: ScenarioOwnerVariantReceipt
+    current_state: Held
+    proposed_disposition: SeparateGlobalScenarioAndRealmVariant
+  - collision_ref: HMD_COLLISION_THEATER_ASSOCIATION
+    collision_class: TheaterAssociationAndTerritoryOwnershipCollision
+    affected_refs:
+      - cand.theater.north_africa
+    risk: TheaterAssociationCouldBeMisreadAsTerritoryOrPrivateStateOwnership
+    evidence_required: TheaterOwnerExternalLock
+    current_state: Held
+    proposed_disposition: ExternalReferenceOnly
+  - collision_ref: HMD_COLLISION_VALIDATION_LINEAGE
+    collision_class: ValidSourceSuccessorVersusDuplicateCollision
+    affected_files:
+      - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1.md
+      - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    risk: ValidLineageCouldBeDeletedAsDuplicateOrUnvalidatedSuccessorCouldControl
+    evidence_required: CopyFirstHashSectionRemovalAndOwnerReview
+    current_state: Held
+    proposed_disposition: PreserveBoth
+  - collision_ref: HMD_COLLISION_OPENING_LINEAGE
+    collision_class: AdditiveSuccessorVersusDuplicateCollision
+    affected_files:
+      - Hammadid_Opening_State_1062_V1.md
+      - Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+    risk: SourceCouldBeLostOrSuccessorCouldControlWithoutCompletenessProof
+    evidence_required: PairHashesSectionLiteralRemovalAndOwnerReview
+    current_state: Held
+    proposed_disposition: PreserveBoth
+  - collision_ref: HMD_COLLISION_REALM_LABEL
+    collision_class: ContextualHistoricalLabelCollision
+    affected_labels:
+      - Hammadid Emirate
+      - Hammadid Sultanate
+      - Kingdom of Bejaia
+    risk: ContextualOrLaterLabelCouldReplacePersistentProjectRealmIdentity
+    evidence_required: HistoricalAndProjectStyleOwnerReview
+    current_state: SearchOrHistoricalAliasOnly
+    proposed_disposition: RetainHammadidsAsPreferredProjectLabel
+  - collision_ref: HMD_COLLISION_QALA_SHORT
+    collision_class: AmbiguousShortPlaceLabel
+    affected_labels:
+      - Qala
+      - Qal'a
+    risk: ShortLabelMayReferToOtherPlacesOutsideHammadidContext
+    evidence_required: ContextBoundSearchAliasRule
+    current_state: QuarantinedAsGlobalAlias
+    proposed_disposition: UseOnlyWithinBoundedHammadidSearchContext
+  - collision_ref: HMD_COLLISION_INSTITUTION_BUILDING
+    collision_class: InstitutionAndBuildingCollision
+    affected_terms:
+      - Great Mosque
+      - Court
+      - Chancery
+      - Archive
+      - Library
+    risk: TermCouldCreatePeopleOfficeBuildingInventoryOrInstitutionStateAutomatically
+    evidence_required: TypedDefinitionAndOpeningInstanceReceipts
+    current_state: Held
+    proposed_disposition: PreserveDefinitionStateAndEntityKindSeparation
+quarantine_register:
+  active_quarantines:
+    - cand.person.hammadid.al_nasir_ibn_alnas
+    - HMD_DUP_ANNASIR_001
+    - cand.place.hammadid.bejaia_for_opening_state
+    - Qala_as_global_direct_alias
+  external_locks:
+    - cand.scenario.grand_campaign.1062
+    - cand.theater.north_africa
+    - ForeignPrivateState
+  held_candidate_families:
+    - CanonicalRealmFactionDynastyMappings
+    - PostJulyOpeningVariant
+    - OpeningOfficesAndCharacterPresence
+    - ReciprocalDiplomacyAndForeignKnowledge
+validation_summary:
+  alias_groups_reviewed: 10
+  ownership_families_mapped: 14
+  collision_records_created: 12
+  unresolved_collisions: 12
+  direct_aliases_approved: 0
+  canonical_ids_allocated: 0
+  entities_merged: 0
+  source_files_modified: 0
+  registry_mutations: 0
+  opening_state_mutations: 0
+  result: PASS_AS_PARTIAL_BATCH_C_ALIAS_OWNERSHIP_COLLISION_LEDGER
+stable_footer:
+  stable_document_id: HMD_ALIAS_OWNERSHIP_COLLISION_LEDGER
+  version: 1.0.0
+  status: PartialBatchCAliasOwnershipCollisionEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false

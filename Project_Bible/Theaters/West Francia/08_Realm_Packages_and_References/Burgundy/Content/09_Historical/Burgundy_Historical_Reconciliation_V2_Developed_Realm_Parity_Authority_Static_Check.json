@@ -1,0 +1,17 @@
+{
+  "artifact": "Burgundy_Historical_Reconciliation_V2_Developed_Realm_Parity_Authority.md",
+  "status": "PASS",
+  "checks": {
+    "successor_larger_than_source": true,
+    "successor_lines_greater_than_source": true,
+    "balanced_fences": true,
+    "escaped_underscores": true,
+    "em_dashes": true,
+    "stable_footer_exactly_once": true,
+    "three_track_present": true,
+    "all_13_profiles_named": true,
+    "opening_state_rebuild_deferred": true,
+    "runtime_validated_false": true,
+    "unreal_mutation_false": true
+  }
+}

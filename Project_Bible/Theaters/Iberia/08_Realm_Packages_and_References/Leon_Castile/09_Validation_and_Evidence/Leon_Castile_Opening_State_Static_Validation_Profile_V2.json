@@ -1,0 +1,604 @@
+{
+  "ProfileId": "validation_profile.leon_castile.opening_state.static.v2",
+  "ProfileVersion": "2.0.0",
+  "GeneratedOn": "2026-09-08",
+  "Status": "STATIC_CHECKED_PROFILE_WITH_PROMOTION_BLOCK",
+  "Target": {
+    "PackageFile": "Leon_Castile_Opening_State_1062_V2.json",
+    "PackageId": "package.leon_castile.opening_state.1062.v2",
+    "PackageVersion": "2.0.0",
+    "OpeningStateVersion": "2.1.0",
+    "SchemaFile": "Leon_Castile_Opening_State_Package_Schema_V2.json",
+    "SchemaVersion": "2.0.0",
+    "RequiredOverlays": [
+      "Leon_Castile_Opening_State_1062_Sancho_Overlay_V2.json",
+      "Leon_Castile_Opening_State_1062_Alfonso_Overlay_V2.json",
+      "Leon_Castile_Opening_State_1062_Garcia_Overlay_V2.json"
+    ]
+  },
+  "ControllingEvidence": {
+    "SchemaAndOverlayReportFile": "Leon_Castile_Opening_State_Schema_and_Overlay_Validation_Report_V2.json",
+    "SchemaAndOverlayReportSha256": "33da9ec05250b934f34818a4fa335795a0307a10065fb8c96ce3d81994ed46a4",
+    "CanonicalPayloadSha256": "9fa0885f4a84eadfadfdc297a0870e680c4f14a01b653b67d9b67a6a7abfd80f",
+    "V1ImporterValidationProfile": "Leon_Castile_Opening_State_Importer_Validation_Profile_V1.json",
+    "V1ImporterValidationProfileSha256": "6363a1c195c819c2041aaa82d3fcecb7f632c1ac94254f73e6d5784b4cec202a"
+  },
+  "DispositionVocabulary": [
+    "Accepted",
+    "AcceptedWithWarnings",
+    "AlreadyApplied",
+    "RejectedFatal"
+  ],
+  "GlobalPolicies": {
+    "RejectedFatalMutationCount": 0,
+    "AlreadyAppliedMutationCount": 0,
+    "StageAllBeforeCommit": true,
+    "AtomicCommitRequired": true,
+    "RollbackAllStagedOwnersOnFatal": true,
+    "ReceiptRequired": true,
+    "ImporterDirectMutationAllowed": false,
+    "OpeningApplicationAdvancesTemporalTracks": false,
+    "OverlaySelectionOnly": true,
+    "OverlayContentMutationAllowed": false
+  },
+  "Rules": [
+    {
+      "RuleId": "v2.identity.package",
+      "Scope": "Package",
+      "Assertion": "PackageId == package.leon_castile.opening_state.1062.v2 and PackageVersion == 2.0.0",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_PACKAGE_IDENTITY_MISMATCH"
+    },
+    {
+      "RuleId": "v2.identity.opening",
+      "Scope": "Package",
+      "Assertion": "OpeningStateId == opening.leon_castile.1062 and OpeningStateVersion == 2.1.0",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_STATE_IDENTITY_MISMATCH"
+    },
+    {
+      "RuleId": "v2.identity.scenario",
+      "Scope": "Package",
+      "Assertion": "ScenarioId == mw.scenario.grand_campaign.1062 and EffectiveDate == 1062-01-01",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_SCENARIO_IDENTITY_MISMATCH"
+    },
+    {
+      "RuleId": "v2.authority.source_manifest_hash",
+      "Scope": "SourceManifest",
+      "Assertion": "Recalculated canonical SourceManifestHash equals declared SourceManifestHash",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_SOURCE_MANIFEST_HASH_MISMATCH"
+    },
+    {
+      "RuleId": "v2.authority.no_placeholder_hash",
+      "Scope": "SourceManifest",
+      "Assertion": "Every Required or Compatible source SHA256 is nonzero and verified; ReviewOnly zero hash blocks promotion",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_SOURCE_MANIFEST_HASH_UNRESOLVED"
+    },
+    {
+      "RuleId": "v2.temporal.historical",
+      "Scope": "TemporalState",
+      "Assertion": "HistoricalDate == 1062-01-01, HistoricalProgressionMonthsPerStrategicTurn == 21, HistoricalProgressionIndex == 0, HistoricalElapsedMonths == 0",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_HISTORICAL_TEMPORAL_MISMATCH"
+    },
+    {
+      "RuleId": "v2.temporal.biological",
+      "Scope": "TemporalState",
+      "Assertion": "BiologicalProgressionMonthsPerStrategicTurn == 7, BiologicalProgressionIndex == 0, BiologicalElapsedMonths == 0",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_BIOLOGICAL_TEMPORAL_MISMATCH"
+    },
+    {
+      "RuleId": "v2.temporal.season",
+      "Scope": "TemporalState",
+      "Assertion": "CampaignSeason == Winter, CampaignSeasonIndex == 0, CampaignSeasonOrder == [Winter, Spring, Summer, Autumn]",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_CAMPAIGN_SEASON_MISMATCH"
+    },
+    {
+      "RuleId": "v2.temporal.no_advance",
+      "Scope": "TemporalState",
+      "Assertion": "OpeningApplicationAdvancesTemporalTracks == false",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_TEMPORAL_ADVANCE_PROHIBITED"
+    },
+    {
+      "RuleId": "v2.world.composite_monarchy",
+      "Scope": "Package",
+      "Assertion": "PoliticalForm == CompositeMonarchy",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_POLITICAL_FORM_MISMATCH"
+    },
+    {
+      "RuleId": "v2.world.ferdinand_sovereign",
+      "Scope": "OpeningRecords.CampaignShell",
+      "Assertion": "OpeningSovereignRef == person.ferdinand.jimenez.muniadona_son",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_SOVEREIGN_MISMATCH"
+    },
+    {
+      "RuleId": "v2.cast.seven_unique",
+      "Scope": "OpeningRecords.CharacterRefs",
+      "Assertion": "Exactly seven unique character refs are present",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_CHARACTER_COUNT_MISMATCH"
+    },
+    {
+      "RuleId": "v2.titles.two_ferdinand",
+      "Scope": "OpeningRecords.TitleHolderBindings",
+      "Assertion": "Exactly Kingdom of Leon and County of Castile are bound to Ferdinand",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_TITLE_HOLDER_MISMATCH"
+    },
+    {
+      "RuleId": "v2.brothers.three_routes",
+      "Scope": "Definitions.BrotherRouteDefinitions",
+      "Assertion": "Exactly three unique brother routes exist",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_BROTHER_ROUTE_COUNT_MISMATCH"
+    },
+    {
+      "RuleId": "v2.brothers.exact_pairing",
+      "Scope": "OpeningRecords.BrotherRouteBindings",
+      "Assertion": "Sancho, Alfonso, and Garcia each match their perspective and brother route",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_BROTHER_ROUTE_PERSON_MISMATCH"
+    },
+    {
+      "RuleId": "v2.brothers.distinct_primary",
+      "Scope": "Definitions.BrotherRouteDefinitions",
+      "Assertion": "All three PrimaryRouteRef values are distinct",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_GENERIC_ROUTE_COLLAPSE"
+    },
+    {
+      "RuleId": "v2.brothers.no_direct_creation",
+      "Scope": "Definitions.BrotherRouteDefinitions",
+      "Assertion": "CreatesTitle, CreatesOffice, CreatesCommand, CreatesForce, CreatesProperty, CreatesAgreement, CreatesPoliticalRelationship, and PredeterminesSuccession are false for every route",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_AUTOMATIC_AUTHORITY_CONVERSION"
+    },
+    {
+      "RuleId": "v2.brothers.eligible_unappointed",
+      "Scope": "Definitions.BrotherRouteDefinitions",
+      "Assertion": "OpeningAuthorityState == EligibleButUnappointed for every brother",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_BROTHER_OPENING_AUTHORITY_MISMATCH"
+    },
+    {
+      "RuleId": "v2.opportunities.nine",
+      "Scope": "Definitions.OpportunityDefinitions",
+      "Assertion": "Exactly nine opening opportunity definitions exist",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_OPPORTUNITY_COUNT_MISMATCH"
+    },
+    {
+      "RuleId": "v2.opportunities.proposal_only",
+      "Scope": "Definitions.OpportunityDefinitions",
+      "Assertion": "MayCreateProposal == true and all direct authority, reward, free-force, and predetermined-outcome flags are false",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_OPPORTUNITY_RESULT_PRELOADED"
+    },
+    {
+      "RuleId": "v2.gates.three",
+      "Scope": "Definitions.ConversionGateDefinitions",
+      "Assertion": "Exactly three conversion-gate definitions exist",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_CONVERSION_GATE_COUNT_MISMATCH"
+    },
+    {
+      "RuleId": "v2.gates.nonautomatic",
+      "Scope": "Definitions.ConversionGateDefinitions",
+      "Assertion": "AutomaticConversionAllowed == false and HistoricalOutcomeMaySatisfyOpeningGate == false for every gate",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_AUTOMATIC_AUTHORITY_CONVERSION"
+    },
+    {
+      "RuleId": "v2.siblings.comparison_only",
+      "Scope": "OpeningRecords.SiblingCompetition",
+      "Assertion": "ComparisonEnabled == true while all political, succession-support, coalition, rivalry, and cooperation refs are empty",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_SIBLING_RIVALRY_PRELOADED"
+    },
+    {
+      "RuleId": "v2.siblings.no_symmetry",
+      "Scope": "OpeningRecords.SiblingCompetition",
+      "Assertion": "AutomaticSymmetry == false",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_SIBLING_AUTOMATIC_SYMMETRY"
+    },
+    {
+      "RuleId": "v2.family.ferdinand_unknown",
+      "Scope": "OpeningRecords.FamilyCounterweights",
+      "Assertion": "FerdinandPreferenceAtOpening == Unknown",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_SOVEREIGN_PREFERENCE_PRELOADED"
+    },
+    {
+      "RuleId": "v2.family.no_automatic_outcomes",
+      "Scope": "OpeningRecords.FamilyCounterweights",
+      "Assertion": "All automatic regency, support, grant, marriage-asset, household-support, and mediation-outcome flags are false",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_FAMILY_OUTCOME_PRELOADED"
+    },
+    {
+      "RuleId": "v2.empties.fifty_five",
+      "Scope": "ExplicitEmptyCollections",
+      "Assertion": "Exactly 55 required explicit-empty collections are present",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_EXPLICIT_EMPTY_SET_MISMATCH"
+    },
+    {
+      "RuleId": "v2.empties.all_empty",
+      "Scope": "ExplicitEmptyCollections",
+      "Assertion": "Every explicit-empty collection has length zero",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_EXPLICIT_EMPTY_NONEMPTY"
+    },
+    {
+      "RuleId": "v2.counts.match",
+      "Scope": "DeclaredCounts",
+      "Assertion": "Every explicit-empty declared count equals zero and all positive structural counts match records",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_COUNT_MISMATCH"
+    },
+    {
+      "RuleId": "v2.overlay.exactly_one",
+      "Scope": "Overlay",
+      "Assertion": "Exactly one campaign-creation overlay is provided",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_OVERLAY_COUNT_MISMATCH"
+    },
+    {
+      "RuleId": "v2.overlay.payload_hash",
+      "Scope": "Overlay",
+      "Assertion": "ContentPayloadSha256 equals recalculated canonical payload SHA256",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_OVERLAY_PAYLOAD_HASH_MISMATCH"
+    },
+    {
+      "RuleId": "v2.overlay.full_pairing",
+      "Scope": "Overlay",
+      "Assertion": "Perspective, person, brother route, opportunity weight, explainability, tutorial, and information view all match the same brother",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_OVERLAY_PAIRING_MISMATCH"
+    },
+    {
+      "RuleId": "v2.overlay.selection_only",
+      "Scope": "Overlay",
+      "Assertion": "SelectionOnly == true and every mutation flag is false",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_OVERLAY_MUTATION_PROHIBITED"
+    },
+    {
+      "RuleId": "v2.overlay.no_inline_state",
+      "Scope": "Overlay",
+      "Assertion": "Overlay contains no TemporalState, OpeningRecords, Definitions, BrotherMechanics, AuthorityManifest, or ExplicitEmptyCollections",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_OVERLAY_INLINE_CONTENT"
+    },
+    {
+      "RuleId": "v2.guard.new_campaign_only",
+      "Scope": "ApplicationGuard",
+      "Assertion": "RequiredCampaignState == NewCampaignUninitialized and all replay flags are false",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_ADVANCED_SAVE"
+    },
+    {
+      "RuleId": "v2.guard.atomic",
+      "Scope": "ApplicationGuard",
+      "Assertion": "AtomicCommitRequired == true and ApplicationReceiptRequired == true",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_PARTIAL_COMMIT"
+    },
+    {
+      "RuleId": "v2.guard.reject_hazards",
+      "Scope": "ApplicationGuard",
+      "Assertion": "All mismatch, review, quarantine, external emission, later history, route mismatch, opportunity result, and automatic conversion reject flags are true",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_GUARD_INCOMPLETE"
+    },
+    {
+      "RuleId": "v2.determinism.equal_rerun",
+      "Scope": "PackageFamily",
+      "Assertion": "Equal package, overlay, versions, hashes, temporal state, owner mapping, and seed produce equal issues, routes, requests, receipts, and hashes",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_DETERMINISM_MISMATCH"
+    },
+    {
+      "RuleId": "v2.evidence.no_overclaim",
+      "Scope": "ValidationEvidence",
+      "Assertion": "Static checks never claim importer, compile, runtime, rollback execution, receipt persistence, save/load, replay, or performance validation",
+      "Severity": "Fatal",
+      "FailureDisposition": "RejectedFatal",
+      "ExpectedMutationCountOnFailure": 0,
+      "DiagnosticCode": "LC_OPENING_EVIDENCE_OVERCLAIM"
+    }
+  ],
+  "PositiveFixtures": [
+    {
+      "FixtureId": "fixture.v2.valid.sancho",
+      "Overlay": "Leon_Castile_Opening_State_1062_Sancho_Overlay_V2.json",
+      "ExpectedDisposition": "Accepted",
+      "ExpectedMutationPolicy": "OwnerRoutedAtomicCommitOnly"
+    },
+    {
+      "FixtureId": "fixture.v2.valid.alfonso",
+      "Overlay": "Leon_Castile_Opening_State_1062_Alfonso_Overlay_V2.json",
+      "ExpectedDisposition": "Accepted",
+      "ExpectedMutationPolicy": "OwnerRoutedAtomicCommitOnly"
+    },
+    {
+      "FixtureId": "fixture.v2.valid.garcia",
+      "Overlay": "Leon_Castile_Opening_State_1062_Garcia_Overlay_V2.json",
+      "ExpectedDisposition": "Accepted",
+      "ExpectedMutationPolicy": "OwnerRoutedAtomicCommitOnly"
+    },
+    {
+      "FixtureId": "fixture.v2.already_applied",
+      "ExpectedDisposition": "AlreadyApplied",
+      "ExpectedMutationCount": 0
+    }
+  ],
+  "NegativeFixtures": [
+    {
+      "FixtureId": "fixture.v2.reject.person_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.route_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.weight_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.explainability_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.tutorial_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.information_view_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.may_create_authority",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.may_change_sovereign",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.inline_content",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.payload_hash_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.multiple_overlays",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.ferdinand_selected",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.generic_route_collapse",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.opportunity_preaccepted",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.opportunity_reward_preloaded",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.automatic_conversion",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.sibling_rivalry_preloaded",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.sovereign_preference_preloaded",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.missing_explicit_empty",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.nonempty_explicit_empty",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.fixed_temporal_ratio",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.advanced_save",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.later_history_leakage",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.review_activation",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.external_definition_emission",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.count_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    },
+    {
+      "FixtureId": "fixture.v2.reject.source_manifest_hash_unresolved",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0
+    }
+  ],
+  "StableEvaluationOrder": [
+    "Schema",
+    "Identity",
+    "AuthorityManifest",
+    "RegistryBinding",
+    "TemporalState",
+    "ApplicationGuard",
+    "Definitions",
+    "OpeningRecords",
+    "BrotherMechanics",
+    "ExternalAndReviewState",
+    "ExplicitEmptyCollections",
+    "DeclaredCounts",
+    "OverlayPairing",
+    "OwnerRouting",
+    "Determinism",
+    "EvidenceBoundary"
+  ],
+  "PromotionGate": {
+    "StaticProfile": "PASS",
+    "SourceManifestHashes": "FAIL_OWNER_ROUTING_HASH_UNRESOLVED",
+    "ExecutableDraft202012SchemaValidation": "NOT_RUN",
+    "ImporterValidation": "NOT_RUN",
+    "CompileValidation": "NOT_RUN",
+    "RuntimeValidation": "NOT_RUN",
+    "SaveLoadValidation": "NOT_RUN",
+    "ReplayValidation": "NOT_RUN",
+    "PromotionToActivePackage": "PROHIBITED"
+  },
+  "EvidenceBoundary": {
+    "ProfileConstruction": "PASS",
+    "RuleCompletenessStaticInspection": "PASS",
+    "ReportAndPayloadHashRecalculation": "PASS",
+    "FixtureExecution": "NOT_RUN_PROFILE_ONLY",
+    "Draft202012SchemaExecution": "NOT_RUN",
+    "ImporterExecution": "NOT_RUN",
+    "UE5Compile": "NOT_RUN",
+    "UE5Runtime": "NOT_RUN",
+    "RollbackExecution": "NOT_RUN",
+    "ReceiptPersistence": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN"
+  },
+  "NextAction": "Generate the V2 expected-disposition manifest and fixture inventory from this profile, preserving zero-mutation rejection and the active-promotion block."
+}

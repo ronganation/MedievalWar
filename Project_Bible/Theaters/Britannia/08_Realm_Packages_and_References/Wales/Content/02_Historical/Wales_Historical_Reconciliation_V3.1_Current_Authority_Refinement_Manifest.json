@@ -1,0 +1,39 @@
+{
+  "document_id": "manifest.wales.historical-reconciliation.v3.1",
+  "version": "3.1.0",
+  "immediate_source": {
+    "filename": "Wales_Historical_Reconciliation_V3_Modern_Medieval_II_Integrated_Authority.md",
+    "bytes": 38369,
+    "physical_lines": 1397,
+    "sha256": "d5d6c45d81b13c36970924ba2222d8bc2d0865299f624a80fd7f226a129f0130",
+    "copy_method": "literal full-file prefix"
+  },
+  "evidence_input": {
+    "filename": "Wales_Historical_Evidence_Register.md",
+    "bytes": 25685,
+    "sha256": "d5a474f95d2e41aa5dab43f29b41672218fade15185e07d5b90d8c1b398b1448"
+  },
+  "successor": {
+    "filename": "Wales_Historical_Reconciliation_V3.1_Current_Authority_Refinement.md",
+    "bytes": 65441,
+    "physical_lines": 2204,
+    "sha256": "9cbcda811a7877e2f0ffed4554039c7d452e1eacd86720ceebe30be26c7dfa52"
+  },
+  "preservation": {
+    "source_headings": 71,
+    "all_source_headings_preserved": true,
+    "removed_content": []
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_Historical_Reconciliation_V3.1_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

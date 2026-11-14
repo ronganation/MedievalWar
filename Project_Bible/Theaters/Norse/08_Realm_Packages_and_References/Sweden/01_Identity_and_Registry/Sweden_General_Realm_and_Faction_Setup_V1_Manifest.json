@@ -1,0 +1,29 @@
+{
+  "FileName": "Sweden_General_Realm_and_Faction_Setup_V1.md",
+  "Version": "1.0.0",
+  "Status": "Static-Checked Design Authority / Controlled Dependencies",
+  "SHA256": "8FF38731BB306F59CB680595BB7BE73A58A09F374046E03AB9DD871E05AC064D",
+  "Bytes": 27512,
+  "Lines": 648,
+  "Checks": {
+    "stable_filename": true,
+    "version_1_0_0": true,
+    "ue_5_8": true,
+    "validation_unclaimed": true,
+    "core_separations_fenced": true,
+    "theater_candidate_clarified": true,
+    "realm_definition_separated": true,
+    "ruler_reference_boundary": true,
+    "escaped_filename_absent": true,
+    "fences_balanced": true,
+    "footer_unique": true
+  },
+  "CorrectionsApplied": [
+    "confirmed Core Separations are fenced",
+    "clarified theater.norse as an unimplemented Sweden Primary association candidate",
+    "separated ResolvedCanonical Realm identity from owner-executed opening activation",
+    "added OpeningRulerReference versus ExecutedCharacterTitleOrOfficeBinding boundary",
+    "removed residual Markdown escape artifacts while preserving canonical IDs",
+    "preserved stable filename, version, UE 5.8 target, and all unvalidated evidence statuses"
+  ]
+}

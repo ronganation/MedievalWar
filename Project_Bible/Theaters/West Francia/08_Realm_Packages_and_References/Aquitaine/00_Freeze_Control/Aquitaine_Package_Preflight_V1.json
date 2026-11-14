@@ -1,0 +1,344 @@
+{
+  "document_id": "mw.realm.aquitaine.package-preflight.v1",
+  "date": "2026-08-12",
+  "status": "Static-Checked Preflight",
+  "compile_validated": false,
+  "runtime_validated": false,
+  "importer_ready": false,
+  "verdict": "PASS_WITH_DEFERRED_RUNTIME_DEPENDENCIES",
+  "hard_failures": [],
+  "scope": {
+    "aquitaine_authorities": 12,
+    "cross_realm_reference_files": 8,
+    "framework_reference_files": 7,
+    "specialist_preflights": 3
+  },
+  "inventory": {
+    "Aquitaine_Historical_Reconciliation_V1.md": {
+      "exists": true,
+      "bytes": 35308,
+      "lines": 1123,
+      "fences_balanced": true,
+      "sha256": "9367ea2a78611f2b12171dddb5597f10c37b4af2de79fba3e3c83f9b90183f03"
+    },
+    "Aquitaine_ID_Registry_V1.md": {
+      "exists": true,
+      "bytes": 59348,
+      "lines": 1851,
+      "fences_balanced": true,
+      "sha256": "c347546e053e76059fd5dff05afed376e08945fff0c87d41f18ac4ca945f344f"
+    },
+    "Aquitaine_Opening_State_1062_V1.md": {
+      "exists": true,
+      "bytes": 42453,
+      "lines": 1565,
+      "fences_balanced": true,
+      "sha256": "0b6bc3e095d8a496d47e7515b3636820f0b9926d4791bdfcbeefc51bfc4aa676"
+    },
+    "Aquitaine_Character_Authorities_V1.md": {
+      "exists": true,
+      "bytes": 41443,
+      "lines": 1477,
+      "fences_balanced": true,
+      "sha256": "454131ec733d3516ebdc303b7382dbe23f1c5f84049979db2a37ba164c3663fb"
+    },
+    "Aquitaine_Dynasty_Authority_V1.md": {
+      "exists": true,
+      "bytes": 28561,
+      "lines": 1046,
+      "fences_balanced": true,
+      "sha256": "39ab5d44d54f88b68fddb27c38ed3f8191ca3be7ab86ac67b5594361e4ef198c"
+    },
+    "Aquitaine_Character_Network_V1.md": {
+      "exists": true,
+      "bytes": 36151,
+      "lines": 1237,
+      "fences_balanced": true,
+      "sha256": "54cb0c6265d6e55d01ee1804a29a4521fb007c4740154fb1df7bd839969a515c"
+    },
+    "Aquitaine_Governance_Delegated_Authority_V1.md": {
+      "exists": true,
+      "bytes": 27085,
+      "lines": 1060,
+      "fences_balanced": true,
+      "sha256": "0eedf743dd3bf21497085402f80aea26f6b58bbdcddea1c88cc0563c7768da00"
+    },
+    "Aquitaine_Realm_Personality_AI_V1.md": {
+      "exists": true,
+      "bytes": 21259,
+      "lines": 891,
+      "fences_balanced": true,
+      "sha256": "11d8bb5cc177aa1f39848a5e8b840dfcac21d9e08b28bdfa660e3dd789a278c4"
+    },
+    "Aquitaine_Historical_Memory_V1.md": {
+      "exists": true,
+      "bytes": 25542,
+      "lines": 856,
+      "fences_balanced": true,
+      "sha256": "5e25cc276b5848904ca5698133ec30cd92e865c280fb537c2ae8ea53ed0de2e4"
+    },
+    "Aquitaine_Ecclesiastical_Content_V1.md": {
+      "exists": true,
+      "bytes": 22837,
+      "lines": 825,
+      "fences_balanced": true,
+      "sha256": "648dde3cc44c4b8d4c7f144b90d0b5bce59bc9d7dbdbf1acff91bd6d86c3c7b0"
+    },
+    "Aquitaine_Historical_Momentum_V1.md": {
+      "exists": true,
+      "bytes": 31835,
+      "lines": 672,
+      "fences_balanced": true,
+      "sha256": "9dcf44adac8f86dbd6525d9e2c350383bf7df4402746795baea3ccdb44c570d0"
+    },
+    "Aquitaine_Historical_Emergence_V1.md": {
+      "exists": true,
+      "bytes": 26436,
+      "lines": 560,
+      "fences_balanced": true,
+      "sha256": "9f99de199e2891294423cbcc6164b9cd0588d4da189bd2b56afa2ce12396acea"
+    },
+    "France_ID_Registry_V1.md": {
+      "exists": true,
+      "bytes": 32580,
+      "lines": 1225,
+      "fences_balanced": true,
+      "sha256": "f82333f38d0283a093240f3772f106a4622910bb8799db9c394d7b41dc2e0f12"
+    },
+    "France_Opening_State_1062_V1.md": {
+      "exists": true,
+      "bytes": 39694,
+      "lines": 1297,
+      "fences_balanced": true,
+      "sha256": "92ed17c754efd6724a1c02b03f5d2d91e854d22e925fe9e8c67f31dea546f501"
+    },
+    "France_Character_Authorities_V1.md": {
+      "exists": true,
+      "bytes": 53320,
+      "lines": 1689,
+      "fences_balanced": true,
+      "sha256": "360b10d79f4bcdbd43d59d64e00f56bdafe302a9fa7d2896fa216ddeee4ed914"
+    },
+    "France_Dynasty_Authority_V1.md": {
+      "exists": true,
+      "bytes": 38577,
+      "lines": 1196,
+      "fences_balanced": true,
+      "sha256": "391def694f0063059c04d056cc765db05495252da14ec9e05f387fa028536284"
+    },
+    "France_Character_Network_V1.md": {
+      "exists": true,
+      "bytes": 36889,
+      "lines": 1283,
+      "fences_balanced": true,
+      "sha256": "92323973fffff020a49c23ad88a61a3a24a8fe8a746676b5a17a080421adefee"
+    },
+    "France_Governance_Delegated_Authority_V1.md": {
+      "exists": true,
+      "bytes": 29955,
+      "lines": 1072,
+      "fences_balanced": true,
+      "sha256": "7794d6126e83ffb027d84b58a7752ae008b95d25ccd3c7839e78bb3d379cf20c"
+    },
+    "France_Ecclesiastical_Content_V1.md": {
+      "exists": true,
+      "bytes": 31269,
+      "lines": 1034,
+      "fences_balanced": true,
+      "sha256": "ef28796b26424e8ce18836d9e25537f6495622656967670b04b523ec7ff0af57"
+    },
+    "Denmark Ecclesiastical Content.md": {
+      "exists": true,
+      "bytes": 25998,
+      "lines": 642,
+      "fences_balanced": true,
+      "sha256": "97315a9ca2ad9c5a254a5e197f08da6533369f8bceed60515d260577c250648e"
+    },
+    "Character_Foundation_Framework_v1.md": {
+      "exists": true,
+      "bytes": 47165,
+      "lines": 1957,
+      "fences_balanced": true,
+      "sha256": "915c924f600aee67ac98c03a51e3fc3a7ca5fb9a598fa38eacc9e44d229b23bf"
+    },
+    "Character_Network_Framework_v1.md": {
+      "exists": true,
+      "bytes": 35863,
+      "lines": 1770,
+      "fences_balanced": true,
+      "sha256": "a59d1b23362e27350f821183c2948315a1ba5f2dfc3c44ea1e722c60af2a07bb"
+    },
+    "Dynastic_Succession_Framework_v2.md": {
+      "exists": true,
+      "bytes": 23083,
+      "lines": 1180,
+      "fences_balanced": true,
+      "sha256": "22056f09a3686f4331bb83b99d7f962fa891d9c3b48a04e53096362bb7ecbe35"
+    },
+    "Dynasty_Network_Framework_v2.md": {
+      "exists": true,
+      "bytes": 20658,
+      "lines": 991,
+      "fences_balanced": true,
+      "sha256": "f17c5c233b65f6be310cfae5f0ccbbddd7dd96c9234bf1fca3a000be1da01c70"
+    },
+    "Dynasty_Relationship_Framework_v2.md": {
+      "exists": true,
+      "bytes": 17157,
+      "lines": 879,
+      "fences_balanced": true,
+      "sha256": "49a1bdbdef7e5cd55c638cdac6ce7542e380f905041513177c5ed1ed275cd76f"
+    },
+    "Dynasty_AI_Framework_v2.md": {
+      "exists": true,
+      "bytes": 35182,
+      "lines": 1741,
+      "fences_balanced": true,
+      "sha256": "585c43238b27a02e9ccd63bbe9ee31e0055da39c85364934b1e2b71b31b9a0c3"
+    },
+    "Ecclesiastical_Authority_Framework_V1.md": {
+      "exists": true,
+      "bytes": 35187,
+      "lines": 1390,
+      "fences_balanced": true,
+      "sha256": "0b2dc39a73d37e10f5592c59ad9514b5996995f4b242ebdcc1d16dbcbef412b3"
+    }
+  },
+  "registry": {
+    "ecclesiastical_review_ids": [
+      "review.office.bishop_poitiers_1062",
+      "review.office.archbishop_bordeaux_1062",
+      "review.institution.diocese_aire_1062",
+      "review.institution.diocese_dax_1062",
+      "review.institution.diocese_condom_1062",
+      "review.institution.diocese_lectoure_1062",
+      "review.institution.diocese_lombez_1062",
+      "review.institution.diocese_oloron_1062",
+      "review.institution.diocese_lescar_1062",
+      "review.institution.diocese_bayonne_1062",
+      "review.group.aquitanian_monasteries_1062"
+    ],
+    "momentum_primary_ids": [
+      "pressure.aquitaine.unfinished_union",
+      "pressure.aquitaine.succession_uncertainty",
+      "pressure.aquitaine.distant_crown",
+      "pressure.aquitaine.charente_garonne_corridor",
+      "pressure.aquitaine.atlantic_revenue_conversion",
+      "pressure.aquitaine.southern_road",
+      "pressure.aquitaine.angevin_watch",
+      "pressure.aquitaine.toulouse_balance"
+    ],
+    "momentum_subpressure_ids": [
+      "pressure.aquitaine.marriage_continuity",
+      "pressure.aquitaine.collateral_uncertainty"
+    ],
+    "emergence_ids": [
+      "emergence.aquitaine.composite_principality_settlement",
+      "emergence.aquitaine.succession_settlement",
+      "emergence.aquitaine.crown_service_or_refusal",
+      "emergence.aquitaine.corridor_assembly_and_access",
+      "emergence.aquitaine.atlantic_capacity_transition",
+      "emergence.aquitaine.neighbor_balance_transition",
+      "emergence.barbastro_expedition"
+    ]
+  },
+  "opening_state": {
+    "authoring_reference_hits": {
+      "pressure.aquitaine.unfinished_union": 2,
+      "pressure.aquitaine.succession_uncertainty": 3,
+      "pressure.aquitaine.distant_crown": 2,
+      "pressure.aquitaine.charente_garonne_corridor": 2,
+      "pressure.aquitaine.atlantic_revenue_conversion": 3,
+      "pressure.aquitaine.southern_road": 2,
+      "pressure.aquitaine.angevin_watch": 2,
+      "pressure.aquitaine.toulouse_balance": 2,
+      "pressure.aquitaine.marriage_continuity": 0,
+      "pressure.aquitaine.collateral_uncertainty": 0,
+      "emergence.aquitaine.composite_principality_settlement": 0,
+      "emergence.aquitaine.succession_settlement": 0,
+      "emergence.aquitaine.crown_service_or_refusal": 0,
+      "emergence.aquitaine.corridor_assembly_and_access": 0,
+      "emergence.aquitaine.atlantic_capacity_transition": 0,
+      "emergence.aquitaine.neighbor_balance_transition": 0,
+      "emergence.barbastro_expedition": 2
+    },
+    "review_only_id_hits": {
+      "review.office.bishop_poitiers_1062": 0,
+      "review.office.archbishop_bordeaux_1062": 0,
+      "review.institution.diocese_aire_1062": 0,
+      "review.institution.diocese_dax_1062": 0,
+      "review.institution.diocese_condom_1062": 0,
+      "review.institution.diocese_lectoure_1062": 0,
+      "review.institution.diocese_lombez_1062": 0,
+      "review.institution.diocese_oloron_1062": 0,
+      "review.institution.diocese_lescar_1062": 0,
+      "review.institution.diocese_bayonne_1062": 0,
+      "review.group.aquitanian_monasteries_1062": 0
+    },
+    "zero_review_only_id_hits": true,
+    "no_active_momentum_instance_fields": true,
+    "no_active_emergence_instance_fields": true,
+    "barbastro_reference_is_inactive_optional": true,
+    "active_memory_instances": 0,
+    "active_momentum_instances": 0,
+    "active_emergence_instances": 0
+  },
+  "specialist_preflights": {
+    "ecclesiastical": {
+      "static_pass": true
+    },
+    "momentum": {
+      "static_pass": true
+    },
+    "emergence": {
+      "static_pass": true
+    }
+  },
+  "cross_realm": {
+    "france_exact_momentum_collisions": {
+      "pressure.aquitaine.unfinished_union": 0,
+      "pressure.aquitaine.succession_uncertainty": 0,
+      "pressure.aquitaine.distant_crown": 0,
+      "pressure.aquitaine.charente_garonne_corridor": 0,
+      "pressure.aquitaine.atlantic_revenue_conversion": 0,
+      "pressure.aquitaine.southern_road": 0,
+      "pressure.aquitaine.angevin_watch": 0,
+      "pressure.aquitaine.toulouse_balance": 0,
+      "pressure.aquitaine.marriage_continuity": 0,
+      "pressure.aquitaine.collateral_uncertainty": 0
+    },
+    "france_exact_emergence_collisions": {
+      "emergence.aquitaine.composite_principality_settlement": 0,
+      "emergence.aquitaine.succession_settlement": 0,
+      "emergence.aquitaine.crown_service_or_refusal": 0,
+      "emergence.aquitaine.corridor_assembly_and_access": 0,
+      "emergence.aquitaine.atlantic_capacity_transition": 0,
+      "emergence.aquitaine.neighbor_balance_transition": 0,
+      "emergence.barbastro_expedition": 0
+    }
+  },
+  "runtime_count_locks": {
+    "canonical_runtime_character_network_edges": 0,
+    "active_canonical_delegations": 0,
+    "active_canonical_officers": 0,
+    "active_assemblies": 0,
+    "active_memory_instances": 0,
+    "active_momentum_instances": 0,
+    "active_emergence_instances": 0,
+    "runtime_mutations_from_static_passes": 0
+  },
+  "warnings": [
+    "Not importer-ready; no curated UE5 data assets or importer validation.",
+    "No compile, runtime, save-load, migration-execution, or headless determinism evidence.",
+    "Opening Momentum and Emergence instances remain deferred pending typed signals and owner data.",
+    "Anjou, Toulouse, papal, Aragonese, Catalan, Navarrese, taifa, route, economy, property, army, fleet, and supply interfaces remain dependency-bound.",
+    "Ecclesiastical holders and jurisdictions remain review-bound where evidence is incomplete.",
+    "France preserves cross-realm review locks for William VIII and principal Aquitaine titles; final shared ownership integration remains unresolved."
+  ],
+  "next_action": "Leave Aquitaine unchanged and resume roadmap runtime-readiness work.",
+  "all_core_fences_balanced": true,
+  "all_specialist_preflights_pass": true,
+  "static_pass": true,
+  "freeze_status": "FROZEN_STATIC_CHECKED_BASELINE",
+  "freeze_manifest": "Aquitaine_Freeze_Baseline_V1.json"
+}

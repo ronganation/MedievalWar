@@ -1,0 +1,30 @@
+{
+  "document_id": "mw.inventory.norway.unreal-unit-assets.v1",
+  "version": "1.0.0",
+  "status": "AuthorityMappedPendingActiveUnrealAssetScan",
+  "realm_id": "Realm.Norway",
+  "theater_id": "theater.norse",
+  "source_snapshot": null,
+  "scanned_roots": [],
+  "synthetic_records_used": false,
+  "records": [],
+  "counts": {
+    "discovered": null,
+    "active_definitions": null,
+    "runtime_instances": null,
+    "fixtures": null,
+    "legacy_references": null,
+    "quarantined": null
+  },
+  "mutations": {
+    "registry": false,
+    "opening_state": false,
+    "runtime": false,
+    "active_unreal_source": false
+  },
+  "authority_source": "Norway_Army_Fleet_and_Maritime_Military_V1.md",
+  "authority_mapped_force_families": 11,
+  "authority_mapped_roster_direction_candidates": 6,
+  "authority_mapped_fleet_role_families": 8,
+  "definition_contract_file": "Norway_Military_Definition_Contract_and_Norse_Compatibility_V1.json"
+}

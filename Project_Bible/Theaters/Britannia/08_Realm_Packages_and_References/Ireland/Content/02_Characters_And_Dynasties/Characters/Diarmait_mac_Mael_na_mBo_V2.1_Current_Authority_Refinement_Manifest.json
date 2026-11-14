@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_file": "Diarmait_mac_Mael_na_mBo_Refined.md",
+  "source_reference": "turn10search90",
+  "source_bytes": 43312,
+  "source_sha256": "62ab59766fad161f70173922e3717b8c95e50d7b194789097817a269473892bb",
+  "source_heading_count": 93,
+  "authority_file": "Diarmait_mac_Mael_na_mBo_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 62508,
+  "authority_sha256": "1f621434692b04ca2b528293139ba765cc28c88d8e1442186df16022b3a771fd",
+  "additive_bytes": 19196,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "static_check_file": "Diarmait_mac_Mael_na_mBo_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "471e077829090a7a03e1a1ad615d81de913311472001279d88419db67608eaad",
+  "validation_scope": "content static checks only; no compile runtime migration opening-state or payload validation"
+}

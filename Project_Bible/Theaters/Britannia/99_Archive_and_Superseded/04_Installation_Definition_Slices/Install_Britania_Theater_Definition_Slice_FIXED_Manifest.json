@@ -1,0 +1,14 @@
+{
+  "FileName": "Install_Britania_Theater_Definition_Slice_FIXED.ps1",
+  "Purpose": "Corrected guarded Britania definition installer using the actual bValid contract field",
+  "SHA256": "D86D080448BFB628D9A306CAE5DC2B4547CB3AA86CF3A584B80E53619A7A20BA",
+  "Bytes": 17253,
+  "Checks": {
+    "uses_bvalid": true,
+    "no_bisvalid": true,
+    "guard_before_write": true,
+    "target_tags_guarded": true,
+    "isolated_test_file": true,
+    "no_build": true
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "document_id": "manifest.scotland.historical-reconciliation.v1.2.benchmark",
+  "version": "1.0.0",
+  "immediate_source": {
+    "filename": "Scotland_Historical_Reconciliation_V1.1_Current_Authority_Refinement.md",
+    "bytes": 31924,
+    "lines": 1017,
+    "sha256": "b3c525bd3551958906f5f72ca9209e7a7b3963029b2d773bce230a905b235b66",
+    "complete_source_verified": true,
+    "copy_method": "literal full-file prefix"
+  },
+  "benchmark_precedents": [
+    {
+      "filename": "Leon_Castile_Historical_Reconciliation_V1.md",
+      "reference_id": "turn106search8"
+    },
+    {
+      "filename": "Aragon_Historical_Reconciliation_V1.md",
+      "reference_id": "turn106search9"
+    }
+  ],
+  "successor": {
+    "filename": "Scotland_Historical_Reconciliation_V1.2_Benchmark_Expansion.md",
+    "bytes": 73769,
+    "lines": 1784,
+    "sha256": "747fb0c7b0d47325c4fa043bafc59b9f20b1df69a0d5aeeb138a9c4163a2ad7d"
+  },
+  "preservation": {
+    "literal_immediate_source_prefix": true,
+    "protected_source_sections": [
+      "Overview",
+      "Core Philosophy",
+      "Current Monarch",
+      "Court Influence Figure",
+      "Primary Dynasty",
+      "Significant Dynastic Interests",
+      "Regional Power Structure",
+      "The Church",
+      "Historical Momentum",
+      "Major Character Candidates",
+      "Narrative Arc Foundations",
+      "Future Framework Connections",
+      "Notes"
+    ],
+    "removed_content": [],
+    "source_fidelity_result": "pass"
+  },
+  "additions": [
+    "Benchmark Status",
+    "Benchmark Concise Verdict",
+    "Authority, Ownership, and Method",
+    "January 1062 Realm Baseline",
+    "Dated Fact Ledger",
+    "Character Reconciliation Matrix",
+    "Opening Exclusion Ledger",
+    "Identity and Registry Proposal",
+    "Uncertainty Register",
+    "Source-Action Matrix",
+    "Opening-State Handoff",
+    "Runtime, Save, and Migration Contract",
+    "Temporal and Determinism Contract",
+    "Validation Matrix",
+    "Negative Test Matrix",
+    "Performance and Interaction Budget",
+    "Unreal Engine 5.8 Facing Contract",
+    "Risks and Mitigations",
+    "Classification Summary",
+    "Approval State",
+    "Acceptance Criteria",
+    "Production Handoff",
+    "Historical Suite Build Order"
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "source_deletion": false,
+    "source_archival": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Scotland_Historical_Reconciliation_V1.2_Benchmark_Expansion_Static_Check.json",
+    "sha256": "a33b76d57f6a48822e040ec51eeb346f64f127c3b0540cdf5292282ddbb582f7",
+    "passed": true
+  }
+}

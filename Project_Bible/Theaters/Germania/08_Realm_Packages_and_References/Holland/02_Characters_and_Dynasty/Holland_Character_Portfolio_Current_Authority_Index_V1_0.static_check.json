@@ -1,0 +1,22 @@
+{
+  "document": "Holland_Character_Portfolio_Current_Authority_Index_V1_0.md",
+  "sha256": "c2166dfdcdb4de508742fe4750aecfe082eca16be0c8303a2b45d73bf3e14ac9",
+  "checks": {
+    "hash_matches": true,
+    "sections_0_22": true,
+    "all_authorities_listed": true,
+    "counts": true,
+    "ownership": true,
+    "opening_classification": true,
+    "relationship_spine": true,
+    "gaps": true,
+    "deferred": true,
+    "workflow": true,
+    "next": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "no_citation_tokens": true
+  },
+  "pass": true
+}

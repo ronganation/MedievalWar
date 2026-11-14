@@ -1,0 +1,76 @@
+{
+  "ArtifactId": "Seville_Taifa_Population_Communities_and_Social_Structure_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_DEVELOPED_REALM_POPULATION_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "67483b46bdf9db5ac81c39355817172cfe965cc9e92e459281ff10b84968b0a5",
+  "SourceBytes": 38566,
+  "CreationMethod": "NewAuthorityRequiredByConfirmedPopulationAndSocietyCoverageGap",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "GovernanceAuthority": "1.0.0"
+  },
+  "Counts": {
+    "PopulationProfiles": 1,
+    "SocialStructureProfiles": 1,
+    "SettlementPopulationSurfaces": 7,
+    "CommunityCategoryDefinitions": 9,
+    "SocialFunctionDefinitions": 10,
+    "OpeningExactPopulationValues": 0,
+    "OpeningDemographicPercentages": 0,
+    "OpeningNamedCommunityLeaders": 0,
+    "OpeningPopulationClassInstances": 0,
+    "OpeningHouseholdInstances": 0,
+    "OpeningMigrationFlows": 0,
+    "OpeningLaborOperations": 0,
+    "OpeningRecruitmentPools": 0,
+    "OpeningHealthEvents": 0,
+    "OpeningPopulationMutations": 0
+  },
+  "RecruitmentDoctrine": {
+    "FinitePools": true,
+    "PopulationInformsEligibility": true,
+    "PopulationInformsCapacity": true,
+    "PopulationInformsReplenishment": true,
+    "PopulationDirectlySpentAsManpower": false,
+    "UnlimitedGlobalRecruitment": false
+  },
+  "Protections": {
+    "PopulationEqualsTaxBase": false,
+    "CommunityEqualsReligion": false,
+    "IdentityDeterminesLoyalty": false,
+    "DiversityCreatesUnrest": false,
+    "HuelvaSaltesMerge": false,
+    "WinterCreatesFamine": false,
+    "AIProposalOnly": true
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryMutated": false,
+    "OpeningStateMutated": false,
+    "PopulationValuesValidated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "BalanceValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Religion_Law_and_Institutional_Authority_V1.md."
+}

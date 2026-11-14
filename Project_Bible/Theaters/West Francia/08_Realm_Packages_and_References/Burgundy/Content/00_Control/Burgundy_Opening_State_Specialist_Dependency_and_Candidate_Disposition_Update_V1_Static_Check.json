@@ -1,0 +1,22 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "dependencies_7": true,
+    "candidates_25": true,
+    "blockers_9": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "source_preserved": true,
+    "companion_honest": true,
+    "exact_arrays_empty": true,
+    "no_mutations": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "AuthoritySHA256": "a242935bd29619bd0f9fc793d747da56761ae73fc6f6098ff993b74fd8be91a7",
+  "AuthorityBytes": 27491,
+  "AuthorityLines": 718,
+  "Scope": "Static Opening State dependency, candidate disposition, source preservation, zero-binding, state-safety, and hygiene checks"
+}

@@ -1,0 +1,42 @@
+{
+  "document_id": "manifest.england.leofwine_godwinson_v4.1.1_full_v3_authority",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "Leofwine_Godwinson_V4.1.1_FULL_V3_Authority.md",
+      "sha256": "0819e97437cadee7e5e938bb41838a11bd81359cf107be2fe31f486a187d23a9",
+      "bytes": 54672
+    },
+    {
+      "filename": "Leofwine_Godwinson_V4.1.1_FULL_V3_Authority_VALIDATION.json",
+      "sha256": "04e5324ec1828f8fec6ab6585374546cebbe025d7071e8c2f3713228e7f0f4c5",
+      "bytes": 1345
+    },
+    {
+      "filename": "Leofwine_Godwinson_V4.1.1_FULL_V3_Authority_SOURCE_TO_FINAL_MAP.json",
+      "sha256": "ece30de8cef293ef04f1b165c796cdbc41dbdbefcd16bd6ba154cc07e08efdcd",
+      "bytes": 15762
+    },
+    {
+      "filename": "Leofwine_Godwinson_V4.1.1_FULL_V3_Authority_SOURCE_RECEIPT.json",
+      "sha256": "f6b011943fbb11daba67c04d6acb4d10bc0e061069264b9a563cb0c8836775d2",
+      "bytes": 632
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "physical_promotion": false
+  }
+}

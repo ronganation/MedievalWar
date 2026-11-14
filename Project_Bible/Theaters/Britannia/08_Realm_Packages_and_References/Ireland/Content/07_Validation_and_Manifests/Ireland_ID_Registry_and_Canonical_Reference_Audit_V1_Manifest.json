@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0",
+  "method": "ReadOnlyIrelandIDRegistryAndCanonicalReferenceAudit",
+  "authority_file": "Ireland_ID_Registry_and_Canonical_Reference_Audit_V1.md",
+  "authority_bytes": 16657,
+  "authority_lines": 467,
+  "authority_sections": 24,
+  "authority_sha256": "f286ea06861f6f8eb277adf7d85f09a7e296cac6f41efb63da3f078e3c27c828",
+  "binding_candidates_covered": 65,
+  "source_files_modified": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "migration_executions": 0,
+  "Unreal_mutations": 0,
+  "static_check_file": "Ireland_ID_Registry_and_Canonical_Reference_Audit_V1_Static_Check.json",
+  "static_check_sha256": "c23ffabae03cd9afd6b705d3e93405a599f67d946330ba6fd02d4f6f270513f1",
+  "all_checks_passed": true,
+  "validation_scope": "read-only static canonical-reference audit; no complete physical reference closure, machine-readable Registry validation, Registry mutation, migration execution, importer, Unreal, runtime, save/load, replay, or payload validation"
+}

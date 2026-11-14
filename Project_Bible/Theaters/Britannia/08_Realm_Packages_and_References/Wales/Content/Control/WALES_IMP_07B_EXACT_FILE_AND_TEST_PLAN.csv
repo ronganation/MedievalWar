@@ -1,0 +1,15 @@
+RelativeTarget,Category,Action,CollisionRequirement,TestCount
+Public/MWWalesOwnerCapabilityDeclaration.h,Production,Add,MustBeAbsent,0
+Private/MWWalesOwnerCapabilityDeclaration.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesOwnerCapabilityPreflight.h,Production,Add,MustBeAbsent,0
+Private/MWWalesOwnerCapabilityPreflight.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesReviewOnlyHandoffEnvelope.h,Production,Add,MustBeAbsent,0
+Private/MWWalesReviewOnlyHandoffEnvelope.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesOwnerHandoffPlan.h,Production,Add,MustBeAbsent,0
+Private/MWWalesOwnerHandoffPlan.cpp,Production,Add,MustBeAbsent,0
+Private/Tests/MWWalesOwnerCapabilityDeclarationTests.cpp,Test,Add,MustBeAbsent,8
+Private/Tests/MWWalesOwnerCapabilityPreflightTests.cpp,Test,Add,MustBeAbsent,9
+Private/Tests/MWWalesReviewOnlyHandoffEnvelopeTests.cpp,Test,Add,MustBeAbsent,8
+Private/Tests/MWWalesOwnerHandoffPlanTests.cpp,Test,Add,MustBeAbsent,7
+Private/Tests/MWWalesOwnerHandoffBoundaryTests.cpp,Test,Add,MustBeAbsent,6
+Private/Tests/MWWalesOwnerHandoffAuthorityTests.cpp,Test,Add,MustBeAbsent,6

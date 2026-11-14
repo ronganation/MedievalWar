@@ -1,0 +1,11 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N17_population_manpower",
+  "mutated_candidate": {
+    "army_manpower": 1000,
+    "population": 1000
+  },
+  "result": "PASS",
+  "rule": "PopulationNotDirectManpower"
+}

@@ -1,0 +1,331 @@
+ledger_version: 1.0.0
+ledger_status: PartialBatchCEntityKindAndOwnerValidationEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+scope:
+  entity_records_reviewed: 14
+  entity_kinds_confirmed: 6
+  entity_kinds_pending: 6
+  external_reference_kinds: 2
+  owner_routes_mapped: 14
+  opening_ready_records: 0
+  canonical_ids_allocated: 0
+sources:
+  - Hammadid_Alias_Ownership_and_Collision_Ledger_V1.yaml
+  - Hammadid_Candidate_to_Canonical_Identity_Mapping_Ledger_V1.yaml
+  - Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+  - Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+  - Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+rules:
+  - RealmIsNotFactionDynastyHouseholdOrGovernment
+  - PersonIsNotOfficeTitleHouseholdOrMemoryInstance
+  - PlaceIsNotSettlementFortressCapitalBuildingOrInstitutionInstance
+  - InstitutionIsNotBuildingOfficeFunctionOrMembership
+  - ScenarioAndTheaterAreExternalReferences
+  - DefinitionOwnerDoesNotOwnOpeningExistence
+  - OpeningStateOwnerCannotInventDefinitionOrEntityKind
+  - RegistryOwnerAllocatesCanonicalIdentityOnlyAfterEntityKindClosure
+  - CandidateIdentityCannotBindWhileQuarantined
+  - ExternalPrivateStateRequiresExternalOwnerReceipt
+entity_records:
+  - entity_ref: cand.realm.hammadid
+    preferred_label: Hammadids
+    proposed_kind: Realm
+    kind_state: ConfirmedAtDefinitionLevel
+    definition_owner: Hammadid_Realm_Identity_Historical_Reconciliation_and_Opening_Political_Order_V1.md
+    canonical_owner: RegistryOwner
+    state_owner: OpeningStateOwner
+    prohibited_collapses:
+      - Faction
+      - Dynasty
+      - Household
+      - Government
+      - Population
+    owner_route_state: CompleteAtDefinitionLevel
+    opening_state: NotReady
+  - entity_ref: faction.hammadid
+    preferred_label: Hammadid Faction
+    proposed_kind: FactionOrPlayableActor
+    kind_state: PendingProjectTaxonomy
+    definition_owner: RealmDesignAndFactionTaxonomyOwners
+    canonical_owner: RegistryOwner
+    state_owner: OpeningStateAndCampaignRuntimeOwners
+    prohibited_collapses:
+      - Realm
+      - Dynasty
+      - Government
+    owner_route_state: PendingFactionTaxonomyOwner
+    opening_state: NotReady
+  - entity_ref: cand.dynasty.hammadid
+    preferred_label: Hammadid Dynasty
+    proposed_kind: Dynasty
+    kind_state: ConfirmedAtDefinitionLevel
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    canonical_owner: RegistryOwner
+    state_owner: CharacterDynastyAndOpeningStateOwners
+    prohibited_collapses:
+      - Realm
+      - Household
+      - Court
+      - Government
+    owner_route_state: CompleteAtDefinitionLevel
+    opening_state: NotReady
+  - entity_ref: cand.scenario.grand_campaign.1062
+    preferred_label: Grand Campaign 1062
+    proposed_kind: ScenarioExternalReference
+    kind_state: ExternalOwnerControlled
+    definition_owner: ScenarioOwner
+    canonical_owner: ScenarioRegistryOwner
+    state_owner: ScenarioOwner
+    prohibited_collapses:
+      - HammadidRealmVariant
+      - OpeningState
+    owner_route_state: ExternalLockPending
+    opening_state: BlockedPendingHMD_DATE_001
+  - entity_ref: cand.theater.north_africa
+    preferred_label: North Africa
+    proposed_kind: TheaterExternalReference
+    kind_state: ExternalOwnerControlled
+    definition_owner: CampaignTheaterOwner
+    canonical_owner: TheaterRegistryOwner
+    state_owner: CampaignTheaterOwner
+    prohibited_collapses:
+      - TerritoryOwnership
+      - Allegiance
+      - ForeignPrivateState
+    owner_route_state: ExternalLockPending
+    opening_state: NotApplicableUntilLock
+  - entity_ref: cand.person.hammadid.al_nasir_ibn_alnas
+    preferred_label: al-Nasir ibn Alnas
+    proposed_kind: Person
+    kind_state: ConfirmedButIdentityArtifactQuarantined
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    profile_owner_candidate: An_Nasir_ibn_Alnas_V1_1_Developed_Character_Profile_Authority.md
+    canonical_owner: CharacterRegistryOwner
+    state_owner: OpeningStateOwner
+    prohibited_collapses:
+      - RulerOffice
+      - GeneralUnit
+      - Dynasty
+      - Household
+    owner_route_state: BlockedByThreeArtifactDisposition
+    opening_state: Blocked
+  - entity_ref: cand.person.hammadid.buluggin_ibn_muhammad
+    preferred_label: Buluggin ibn Muhammad
+    proposed_kind: Person
+    kind_state: ConfirmedAtDefinitionLevel
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    canonical_owner: CharacterRegistryOwner
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    prohibited_collapses:
+      - MemoryInstance
+      - FormerRulerOffice
+      - WesternArmy
+    owner_route_state: BoundaryAndMemoryReceiptsPending
+    opening_state: BoundaryDependent
+  - entity_ref: cand.person.hammadid.namirt_bint_alnas
+    preferred_label: Namirt bint Alnas
+    proposed_kind: Person
+    kind_state: ConfirmedAtDefinitionLevel
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    canonical_owner: CharacterRegistryOwner
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    prohibited_collapses:
+      - RevengeCause
+      - RelationshipEdge
+      - MemoryInstance
+    owner_route_state: RelationshipAndMemoryEvidencePending
+    opening_state: Held
+  - entity_ref: cand.person.hammadid.muqatil_ibn_muhammad
+    preferred_label: Muqatil ibn Muhammad
+    proposed_kind: Person
+    kind_state: ConfirmedAtDefinitionLevel
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    canonical_owner: CharacterRegistryOwner
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    prohibited_collapses:
+      - RelationshipEdge
+      - MemoryInstance
+      - Office
+    owner_route_state: RelationshipAndMemoryEvidencePending
+    opening_state: Held
+  - entity_ref: cand.place.hammadid.qalat_bani_hammad
+    preferred_label: Qal'at Bani Hammad
+    proposed_kind: Place
+    kind_state: ConfirmedAsPlacePendingTypedRuntimeDecomposition
+    definition_owner: Hammadid_Strategic_Geography_Regions_Settlements_Fortresses_Routes_and_Saharan_Interfaces_Authority_V1_1_FULL.md
+    specialist_owner: Hammadid_Qalat_Bani_Hammad_Capital_Court_Fortress_Mosque_and_Urban_Authority_V1.md
+    canonical_owner: GeographyRegistryOwner
+    state_owner: OpeningStateOwner
+    prohibited_collapses:
+      - SettlementInstance
+      - FortressInstance
+      - CapitalRole
+      - Building
+      - Institution
+      - Garrison
+    owner_route_state: TypedFunctionReceiptsPending
+    opening_state: ControlAndInventoryBindingPending
+  - entity_ref: cand.place.hammadid.bejaia
+    preferred_label: Bejaia
+    proposed_kind: Place
+    kind_state: ConfirmedAsPlaceTemporalStateHeld
+    definition_owner: Hammadid_Strategic_Geography_Regions_Settlements_Fortresses_Routes_and_Saharan_Interfaces_Authority_V1_1_FULL.md
+    canonical_owner: GeographyRegistryOwner
+    state_owner: HistoricalEventAndOpeningStateOwners
+    prohibited_collapses:
+      - OpeningCapital
+      - OpeningPort
+      - OpeningFleet
+      - CompletedCoastalDevelopment
+    owner_route_state: HistoricalTemporalReceiptPending
+    opening_state: NotOpeningApproved
+  - entity_ref: cand.institution.hammadid.qalat_great_mosque
+    preferred_label: Great Mosque of Qal'at Bani Hammad
+    proposed_kind: Institution
+    kind_state: PendingInstitutionBuildingDecomposition
+    definition_owner: Hammadid_Religious_Juristic_Great_Mosque_Legitimacy_and_Institutional_Authority_V1.md
+    property_owner: Hammadid_Property_Construction_Urban_Development_and_Infrastructure_Authority_V1.md
+    place_specialist_owner: Hammadid_Qalat_Bani_Hammad_Capital_Court_Fortress_Mosque_and_Urban_Authority_V1.md
+    canonical_owner: RegistryOwner
+    state_owner: OpeningStateOwner
+    prohibited_collapses:
+      - MosqueBuilding
+      - JuristicOffice
+      - Congregation
+      - StaffRoster
+      - ActiveInstitutionState
+    owner_route_state: MultiOwnerTypedReceiptPending
+    opening_state: NotReady
+  - entity_ref: cand.institution.hammadid.ruler_court
+    preferred_label: Hammadid Ruler Court
+    proposed_kind: InstitutionOrRelationshipContext
+    kind_state: PendingProjectTaxonomy
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    governance_owner: Hammadid_Governance_Political_Constitution_Offices_Delegation_Regional_Authority_Compliance_and_Restoration_Authority_V1_1_FULL.md
+    canonical_owner: RegistryOwner
+    state_owner: OpeningStateOwner
+    prohibited_collapses:
+      - Government
+      - Household
+      - PalaceBuilding
+      - MembershipList
+      - OfficeSet
+    owner_route_state: EntityKindMembershipAndAccessReceiptsPending
+    opening_state: NotReady
+  - entity_ref: cand.institution.hammadid.chancery
+    preferred_label: Hammadid Chancery
+    proposed_kind: AdministrativeFunctionOrInstitution
+    kind_state: PendingProjectTaxonomy
+    definition_owner: Hammadid_Governance_Political_Constitution_Offices_Delegation_Regional_Authority_Compliance_and_Restoration_Authority_V1_1_FULL.md
+    records_owner: Hammadid_Education_Scholarship_Literacy_Archives_Records_and_Cultural_Production_Authority_V1.md
+    canonical_owner: RegistryOwner
+    state_owner: OpeningStateOwner
+    prohibited_collapses:
+      - Building
+      - Archive
+      - Office
+      - Officer
+      - ActiveAdministrativeCapacity
+    owner_route_state: FunctionInstitutionOfficeAndBuildingReceiptsPending
+    opening_state: NotReady
+owner_validation_matrix:
+  RegistryOwner:
+    owns:
+      - CanonicalEntityIdentity
+      - DirectAliasApproval
+      - CollisionDispositionReceipt
+      - MigrationMappingApproval
+    does_not_own:
+      - HistoricalFact
+      - OpeningExistence
+      - OfficeOccupancy
+      - ForeignPrivateState
+  OpeningStateOwner:
+    owns:
+      - BoundaryScopedOpeningAdmission
+      - OpeningInstanceAndValueBinding
+      - ProtectedUnknownAndExplicitNullTreatment
+    does_not_own:
+      - CanonicalIdAllocation
+      - DefinitionMeaning
+      - UnsupportedHistoricalFact
+  DefinitionOwners:
+    own:
+      - EntityMeaning
+      - CapabilityAndRelationshipContracts
+      - EvidenceAndOwnerRequirements
+    do_not_own:
+      - CanonicalRegistryPublication
+      - OpeningExistenceWithoutReceipt
+  ExternalOwners:
+    own:
+      - ScenarioAndTheaterCanonicalReferences
+      - ForeignReciprocalAndPrivateState
+    local_rule: SilenceIsNotConsent
+validation_findings:
+  - finding_ref: HMD_KIND_001
+    subject: faction.hammadid
+    finding: EntityKindPendingProjectTaxonomy
+    severity: BLOCKING_FOR_REGISTRY_REVIEW
+    owner: FactionTaxonomyRegistry
+  - finding_ref: HMD_KIND_002
+    subject: cand.person.hammadid.al_nasir_ibn_alnas
+    finding: PersonKindConfirmedButCanonicalIdentityBlockedByArtifactCollision
+    severity: BLOCKING_FOR_CANONICAL_AND_OPENING_BINDING
+    owner: CharacterProfilePackageIndexRegistry
+  - finding_ref: HMD_KIND_003
+    subject: cand.place.hammadid.qalat_bani_hammad
+    finding: PlaceConfirmedButRuntimeFunctionsRequireTypedDecomposition
+    severity: BLOCKING_FOR_MACHINE_READABLE_BINDING
+    owner: GeographyPropertyReligionGovernanceOpeningState
+  - finding_ref: HMD_KIND_004
+    subject: cand.place.hammadid.bejaia
+    finding: PlaceConfirmedButOpeningStateExplicitlyHeld
+    severity: BLOCKING_FOR_1062_OPENING_ADMISSION
+    owner: HistoricalResearchGeographyOpeningState
+  - finding_ref: HMD_KIND_005
+    subject: cand.institution.hammadid.qalat_great_mosque
+    finding: InstitutionBuildingOfficeAndActiveStateSeparationPending
+    severity: BLOCKING_FOR_REGISTRY_AND_OPENING_INSTANCE
+    owner: ReligionPropertyRegistryOpeningState
+  - finding_ref: HMD_KIND_006
+    subject: cand.institution.hammadid.ruler_court
+    finding: InstitutionVersusRelationshipContextTaxonomyPending
+    severity: BLOCKING_FOR_REGISTRY_REVIEW
+    owner: CharacterGovernanceRegistry
+  - finding_ref: HMD_KIND_007
+    subject: cand.institution.hammadid.chancery
+    finding: FunctionInstitutionOfficeBuildingTaxonomyPending
+    severity: BLOCKING_FOR_REGISTRY_REVIEW
+    owner: GovernanceEducationRegistry
+readiness_summary:
+  confirmed_definition_kinds: 6
+  pending_taxonomy_or_decomposition: 6
+  external_reference_kinds: 2
+  complete_owner_routes: 6
+  pending_owner_routes: 8
+  registry_review_ready: 0
+  opening_ready: 0
+validation_summary:
+  entity_records_reviewed: 14
+  duplicate_entity_refs: 0
+  canonical_ids_allocated: 0
+  aliases_executed: 0
+  migrations_executed: 0
+  opening_bindings_created: 0
+  source_files_modified: 0
+  registry_mutations: 0
+  opening_state_mutations: 0
+  result: PASS_AS_PARTIAL_BATCH_C_ENTITY_KIND_OWNER_VALIDATION_LEDGER
+stable_footer:
+  stable_document_id: HMD_ENTITY_KIND_OWNER_VALIDATION_LEDGER
+  version: 1.0.0
+  status: PartialBatchCEntityKindAndOwnerValidationEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  payload_authorized: false
+  importer_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false

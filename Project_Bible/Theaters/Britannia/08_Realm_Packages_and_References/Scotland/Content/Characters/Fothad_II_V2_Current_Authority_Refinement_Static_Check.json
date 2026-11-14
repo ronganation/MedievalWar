@@ -1,0 +1,47 @@
+{
+  "document_id": "static-check.character.scotland.fothad-ii.v2",
+  "version": "2.0.0",
+  "sources": [
+    {
+      "filename": "Fothad_II_Identity_Office_Institution_Review.md",
+      "bytes": 4126,
+      "physical_lines": 135,
+      "sha256": "a8fe7bd26c977026045a8e87158581634ae5e2f7e7a7349b243358a445cc7602"
+    },
+    {
+      "filename": "Bishop_of_St_Andrews_Identity_Quarantined_Shell.md",
+      "bytes": 14005,
+      "physical_lines": 307,
+      "sha256": "dc03e853ae9dc89926c7d4562bc9c5635b9f61915d266c5c80ca640d47c58728"
+    },
+    {
+      "filename": "Bishop_of_St_Andrews.md",
+      "bytes": 3524,
+      "physical_lines": 255,
+      "sha256": "b6be3454f9f1a73147795ea5f268ceb29524c6170cd64e1479d6b3ce9a122f23"
+    }
+  ],
+  "successor": {
+    "filename": "Fothad_II_V2_Current_Authority_Refinement.md",
+    "bytes": 43132,
+    "physical_lines": 1333,
+    "sha256": "04b32d0b1b3fe0d6a730e4e160b590db6d669f55e5b64101ac32af45b1a16908"
+  },
+  "checks": {
+    "complete_review_source_preserved": true,
+    "complete_shell_preserved": true,
+    "complete_legacy_source_preserved": true,
+    "successor_larger_than_all_sources": true,
+    "person_office_institution_site_separate": true,
+    "medium_confidence_occupancy": true,
+    "no_automatic_relationships": true,
+    "underage_boundary": true,
+    "legacy_id_prohibited": true,
+    "three_track_temporal_model": true,
+    "honest_status": true,
+    "sources_not_overwritten": true
+  },
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

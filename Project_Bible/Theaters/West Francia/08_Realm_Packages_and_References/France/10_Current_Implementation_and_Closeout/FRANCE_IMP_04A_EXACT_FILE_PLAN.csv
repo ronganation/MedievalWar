@@ -1,0 +1,7 @@
+Order,RelativePath,Action,ExistingModificationAllowed,Purpose
+1,Public/MWFranceCharacterDynastyNetwork.h,Add,false,Character dynasty relationship and projection contracts
+2,Public/MWFranceCharacterDynastyNetworkPreflight.h,Add,false,Fail-closed identity ownership and relationship validation
+3,Private/MWFranceCharacterDynastyNetwork.cpp,Add,false,Deterministic source-bound review projection
+4,Private/MWFranceCharacterDynastyNetworkPreflight.cpp,Add,false,Preflight and hold-disposition evaluation
+5,Private/Tests/MWFranceCharacterDynastyNetworkTests.cpp,Add,false,22 direct projection tests
+6,Private/Tests/MWFranceCharacterDynastyNetworkPreflightTests.cpp,Add,false,12 direct preflight tests

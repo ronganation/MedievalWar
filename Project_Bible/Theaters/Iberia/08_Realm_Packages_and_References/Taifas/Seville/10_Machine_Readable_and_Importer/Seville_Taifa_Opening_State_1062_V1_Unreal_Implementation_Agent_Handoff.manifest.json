@@ -1,0 +1,106 @@
+{
+  "ManifestId": "manifest.seville_taifa.opening_state_1062.unreal_implementation_agent_handoff.v1",
+  "InternalVersion": "1.0.0",
+  "RevisionDate": "2026-09-11",
+  "Status": "HANDOFF_COMPANION_MANIFEST_READY",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.md",
+    "InternalVersion": "1.0.0",
+    "Bytes": 16122,
+    "SHA256": "efd4460c2b5a2e75ed09bc1cc1c241d8039dfb76296955af27cc9fcee28480bb",
+    "HashDisposition": "RECORDED_FROM_GENERATION_RECEIPT_REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "ExpectedUnrealProjectPath": "C:/UnrealProjects/MedievalWar",
+  "UnrealProjectPathVerified": false,
+  "ProtectedBaseline": {
+    "OpeningStateAuthorityInternalVersion": "1.3.0",
+    "MachineReadableContractInternalVersion": "1.2.0",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "OwnerRoutingRequests": 18,
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11,
+    "RetainedExplicitEmptyCollections": 51,
+    "AdditiveExplicitEmptyCollections": 19,
+    "TotalExplicitEmptyCollections": 70,
+    "OpeningFixtureDefinitions": 39,
+    "DefinitionFixtureDefinitions": 29,
+    "UnsupportedActiveInstancesCreated": 0
+  },
+  "ImplementationBatches": [
+    {
+      "BatchId": "B0",
+      "Name": "ArchitectureInspection",
+      "MutationAuthorized": false,
+      "Gate": "READY",
+      "PrimaryOutput": "Verified architecture inventory and no-mutation inspection receipt"
+    },
+    {
+      "BatchId": "B1",
+      "Name": "ArchitectureMappingAndGapDisposition",
+      "MutationAuthorized": false,
+      "Gate": "BLOCKED_PENDING_B0",
+      "PrimaryOutput": "Project-native interface map, owner graph, and disposition ledger"
+    },
+    {
+      "BatchId": "B2",
+      "Name": "SharedTypeAndSchemaMapping",
+      "MutationAuthorized": "BOUNDED_TRANSIENT_OR_FEATURE_BRANCH_ONLY",
+      "Gate": "BLOCKED_PENDING_B1_AND_PHASE_A",
+      "PrimaryOutput": "Seville-to-native type and serialization mapping"
+    },
+    {
+      "BatchId": "B3",
+      "Name": "ValidateOnlyImporterPath",
+      "MutationAuthorized": false,
+      "Gate": "BLOCKED_PENDING_B2",
+      "PrimaryOutput": "39 Opening and 29 Definition fixture evidence with zero mutation"
+    },
+    {
+      "BatchId": "B4",
+      "Name": "IsolatedApplyOnceTransaction",
+      "MutationAuthorized": "ISOLATED_TEST_STATE_ONLY",
+      "Gate": "BLOCKED_PENDING_B3",
+      "PrimaryOutput": "Apply-once, repeat, rollback, conflicting-receipt, and advanced-save evidence"
+    },
+    {
+      "BatchId": "B5",
+      "Name": "CompilePersistenceMigrationReplay",
+      "MutationAuthorized": "FEATURE_BRANCH_AND_TEST_ARTIFACTS_ONLY",
+      "Gate": "BLOCKED_PENDING_B4",
+      "PrimaryOutput": "Compile, save/load, migration, and replay evidence"
+    },
+    {
+      "BatchId": "B6",
+      "Name": "PromotionReview",
+      "MutationAuthorized": false,
+      "Gate": "BLOCKED_PENDING_B5_AND_OWNER_REVIEW",
+      "PrimaryOutput": "Owner promotion disposition"
+    }
+  ],
+  "RequiredFirstInspectionOutputs": [
+    "Unreal architecture inventory",
+    "Project-native interface map",
+    "Dependency and owner graph",
+    "Gap and disposition ledger",
+    "Risk and rollback assessment",
+    "Smallest safe implementation batch",
+    "No-mutation inspection receipt"
+  ],
+  "PromotionBoundary": {
+    "ArchitectureInspectionAuthorized": true,
+    "UnrealMutationAuthorized": false,
+    "RegistryMutationAuthorized": false,
+    "RealCampaignPayloadAuthorized": false,
+    "AdvancedSaveMutationAuthorized": false,
+    "ImporterPromotionAuthorized": false
+  },
+  "NextAction": "Verify OneDrive authorities and inspect the actual Unreal project read-only before any implementation change."
+}

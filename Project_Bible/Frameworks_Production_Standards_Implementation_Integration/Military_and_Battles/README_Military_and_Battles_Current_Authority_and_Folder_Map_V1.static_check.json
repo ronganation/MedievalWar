@@ -1,0 +1,162 @@
+{
+  "static_check_id": "mw.static_check.military_and_battles_root_navigation.v2",
+  "static_check_version": "1.0.0",
+  "subject": "README_Military_and_Battles_Current_Authority_and_Folder_Map_V1.md",
+  "subject_document_id": "mw.readme.military_and_battles.current_authority_and_folder_map.v1",
+  "subject_version": "2.0.0",
+  "subject_status": "CurrentRootNavigationCandidate",
+  "subject_bytes": 25686,
+  "subject_lines": 318,
+  "subject_sha256": "71ccaa82d355959a7678b5daa7b8a2a8b86d178c806d73ea8750511740aeefcb",
+  "manifest": {
+    "filename": "README_Military_and_Battles_Current_Authority_and_Folder_Map_V1.manifest.json",
+    "bytes": 3867,
+    "sha256": "d7f035231b8883c7870840c95f7e4cb4a3aef7a7cc4176aebe8085cf7515dcc1",
+    "subject_fingerprint_matches_live_markdown": true
+  },
+  "pre_edit_baseline": {
+    "root_file_count": 4,
+    "former_readme": {
+      "filename": "README_Military_Content.md",
+      "bytes": 28457,
+      "lines": 653,
+      "sha256": "82f84d2f63d7f5c96a14d77f61854922334969b2b59fb7ee30a1142c2191ce31"
+    },
+    "former_manifest": {
+      "filename": "README_Military_Content.manifest.json",
+      "bytes": 288,
+      "sha256": "b9f06f653cbc45b680ad62260250ddec9798a22ba294ae55cb990891eaf911f5"
+    },
+    "former_static_check": {
+      "filename": "README_Military_Content.static_check.json",
+      "bytes": 316,
+      "sha256": "0ca3bd09d59c9efe7a9379749d7e9515e50aad812c69acbf9111cbd8b872e658"
+    },
+    "recruitment_pool_status": {
+      "filename": "README_Military_Recruitment_Pool_Status.md",
+      "bytes": 2717,
+      "lines": 60,
+      "sha256": "4426417e5eebbe7bd68bd72251d2951295270e955322874e215c46082e8b6ec2"
+    }
+  },
+  "renames": [
+    {
+      "from": "README_Military_Content.md",
+      "to": "README_Military_and_Battles_Current_Authority_and_Folder_Map_V1.md",
+      "no_overwrite": true,
+      "bytes_and_sha256_preserved_immediately_after_rename": true
+    },
+    {
+      "from": "README_Military_Content.manifest.json",
+      "to": "README_Military_and_Battles_Current_Authority_and_Folder_Map_V1.manifest.json",
+      "no_overwrite": true,
+      "bytes_and_sha256_preserved_immediately_after_rename": true
+    },
+    {
+      "from": "README_Military_Content.static_check.json",
+      "to": "README_Military_and_Battles_Current_Authority_and_Folder_Map_V1.static_check.json",
+      "no_overwrite": true,
+      "bytes_and_sha256_preserved_immediately_after_rename": true
+    }
+  ],
+  "in_place_update": "README_Military_Recruitment_Pool_Status.md",
+  "live_inventory": {
+    "root_file_count": 4,
+    "root_files": [
+      "README_Military_and_Battles_Current_Authority_and_Folder_Map_V1.md",
+      "README_Military_and_Battles_Current_Authority_and_Folder_Map_V1.manifest.json",
+      "README_Military_and_Battles_Current_Authority_and_Folder_Map_V1.static_check.json",
+      "README_Military_Recruitment_Pool_Status.md"
+    ],
+    "child_folders": {
+      "Framework_Authorities": {
+        "exists": true,
+        "file_count": 31,
+        "inventory_sha256": "4825dadad9c0854881afb8eabe30c6450909f1cfb9330d3e068c0a48b7205b60"
+      },
+      "Standards_Production": {
+        "exists": true,
+        "file_count": 14,
+        "inventory_sha256": "1f7b4bff25c3cdc25d90416fce990fc6094ee794bd530b58237a619188e8c3d8"
+      },
+      "Implementation_Integration": {
+        "exists": true,
+        "file_count": 7,
+        "inventory_sha256": "6b3ee8f50d63a9d43bf53260f54d926918f1d1dd19b9da37e96f289a5367ace7"
+      },
+      "Reviews": {
+        "exists": true,
+        "file_count": 27,
+        "inventory_sha256": "fab193554e151632f18164067b3bf3b62fe702dba9e3ffc3fa685817cd2d3016"
+      },
+      "all_pre_edit_child_files_hash_identical": true,
+      "pre_edit_child_files_rehashed": 79
+    },
+    "local_navigation": {
+      "framework_authorities": "Framework_Authorities/README_Military_Framework_Authorities_Current_Folder_Map_V1.md",
+      "standards_production": "Standards_Production/README_Military_Content_Standards_and_Production.md",
+      "implementation_integration_local_readme_present": false,
+      "reviews_local_readme_present": false
+    },
+    "current_military_content_parent_exists": true
+  },
+  "checks_performed": {
+    "three_no_overwrite_renames_verified": true,
+    "root_file_count_remains_four": true,
+    "former_three_readme_names_absent": true,
+    "four_child_folders_exist": true,
+    "framework_authorities_local_map_exists": true,
+    "standards_production_local_readme_exists": true,
+    "current_military_content_v1_2_parent_exists": true,
+    "markdown_internal_filename_matches_live_filename": true,
+    "markdown_sha256_and_bytes_match_manifest": true,
+    "both_authorized_markdown_fences_balanced": true,
+    "both_authorized_markdown_fenced_yaml_blocks_parse_without_duplicate_keys": true,
+    "both_json_companions_parse_without_duplicate_keys": true,
+    "all_current_markdown_links_resolve": true,
+    "obsolete_paths_are_only_in_labeled_historical_disposition": true,
+    "exact_three_temporal_tracks_retained": true,
+    "all_promotion_and_mutation_permissions_false": true,
+    "no_unsupported_authority_promotion_claim": true,
+    "child_folder_files_hash_identical_to_pre_edit_baseline": true,
+    "recruitment_pool_current_dependency_paths_exist": true,
+    "recruitment_pool_v1_1_source_not_misrepresented_as_current": true
+  },
+  "observations": {
+    "currentness_closure": "BoundedStaticRoutingLevelOnly",
+    "next_gate": "OwnerSelectedMilitaryAndBattlesWorkstreamEntry",
+    "framework_authorities_map_creation_time_parent_navigation_and_next_gate_fields_are_stale_snapshots": true,
+    "owner_review": "Pending",
+    "implementation_target": "Unreal Engine 5.8",
+    "implementation_target_only": true
+  },
+  "checks_not_performed": [
+    "Owner adoption or authority promotion",
+    "Historical research validation",
+    "Schema activation",
+    "Importer execution",
+    "Compile validation",
+    "Runtime validation",
+    "Save/load validation",
+    "Migration validation",
+    "Replay validation",
+    "Performance validation",
+    "Battle validation",
+    "Unreal implementation"
+  ],
+  "effect_permissions": {
+    "owner_adoption_authorized": false,
+    "authority_promotion_authorized": false,
+    "promotion_authorized": false,
+    "Registry_mutation_authorized": false,
+    "Opening_State_mutation_authorized": false,
+    "schema_activation_authorized": false,
+    "schema_mutation_authorized": false,
+    "save_format_mutation_authorized": false,
+    "importer_execution_authorized": false,
+    "payload_mutation_authorized": false,
+    "runtime_mutation_authorized": false,
+    "Unreal_activity_authorized": false
+  },
+  "result": "PASS_STATIC_ROOT_NAVIGATION_MANIFEST_AND_INVENTORY_CONSISTENCY"
+}

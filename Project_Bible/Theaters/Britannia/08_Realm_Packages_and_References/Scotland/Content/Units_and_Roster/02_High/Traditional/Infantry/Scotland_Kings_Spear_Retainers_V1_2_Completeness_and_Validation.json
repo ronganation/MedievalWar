@@ -1,0 +1,657 @@
+{
+  "artifact": "Scotland_Kings_Spear_Retainers_V1_2_High_Era_Crown_Integrated_Full_Master_Unit_Profile.md",
+  "version": "1.2.0",
+  "sha256": "efb86be9277409a2741bf1a7b7de1a7c063c0a54f7509dd0d877009834f5ae82",
+  "source": "Kings_Spear_Retainers_V1_1_Unit_Profile.md",
+  "source_sha256": "12309b4e747bdfe5877e76c1051544a2211017896185bdce6d87c1b98dd966ba",
+  "source_words": 5090,
+  "successor_words": 7308,
+  "source_lines": 1416,
+  "successor_lines": 1670,
+  "source_sections_checked": 56,
+  "section_preservation": [
+    {
+      "section": "## 0. Current Authority Control and Consolidated Opening Boundary",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 0A. Historical V1.1 Copy-First Refinement Receipt",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 1. Direct Unit Verdict",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 2. One-Screen Total War Card",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 3. Final Player-Facing Description",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 4. Core Scotland Roster Choice",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 5. Naming Portfolio",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 6. Historical and Creative Boundary",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 7. Source and Recruitment Constitution",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 8. Royal-Service Qualification Gate",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 9. Campaign Bargain and Availability",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 10. Weapon Constitution: Spear Core, Scottish Close-Weapon Depth",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 11. Equipment and Readiness States",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 12. Formation Portfolio",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 13. Signature Behavior: Hold Fast for the Crown",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 14. Five-Part Battle Loop",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 15. Compact Anchor Geometry",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 16. Prepared Reception Contract",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 17. Controlled Counter-Entry",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 18. Close-Weapon Section Contract",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 19. Strengths, Weaknesses, and Counterplay",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 20. Matchup Ladder",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 21. Combined-Arms Contract",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 22. Collision Firewall",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 23. Terrain and Objective Use",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 24. Command, Morale, and Mission",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 25. Casualties, Replacement, and Veteran Persistence",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 26. High-Era Persistence, Maturation, and Conditional Convergence",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 27. Visual Identity",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 28. Animation Direction",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 29. Audio Direction",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 30. UI and Player Communication",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 31. Campaign AI Doctrine",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 32. Battle AI Doctrine",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 33. Autoresolve Contract",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 34. Representative Battle Fixtures",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 35. Campaign Fixtures",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 36. Calibration Envelope",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 37. Inherited Mature-Faction Benchmark Receipt",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 38. Distinct-Card Survival Gate",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39. Strong First-Draft Verdict",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39A. V1.1 Double-Check Verdict",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39B. Critical-Point Economy and Player Choice",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39C. Anchor, Relief, Counter-Entry, and Restore Outcomes",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39D. Refined Weapon-Section Constitution",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39E. Royal Mission Is Not Permanent Bodyguard Duty",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39F. Adjacent-Family Collision Refinement",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39G. Independent Utility Beyond Crisis Relief",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39H. Practical Player Order Package",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39I. Understrength Veterans and Rebuilt Retainers",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39J. High Era Convergence Refinement",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39K. V1.1 AI and Validation Additions",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 39L. Integrated High-Era Mature Unit Thesis",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 40. Evidence and Source Receipt",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 41. Validation Status",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    },
+    {
+      "section": "## 42. Stable Footer",
+      "missing_or_reordered_source_lines": [],
+      "pass": true
+    }
+  ],
+  "bounded_replacement_ledger": [
+    {
+      "old": "# King's Spear Retainers V1.1 | Double-Checked Mature-Faction Refinement Full Master Unit Profile",
+      "new": "# King's Spear Retainers V1.2 | High-Era Crown Integrated Full Master Unit Profile",
+      "reason": "Current complete master title",
+      "occurrences": 1
+    },
+    {
+      "old": "kings-spear-retainers.v1_1",
+      "new": "kings-spear-retainers.v1_2",
+      "reason": "Document identifiers only",
+      "occurrences": 2
+    },
+    {
+      "old": "UnitDefinition.Realm.Scotland.KingsSpearRetainers.V1_1",
+      "new": "UnitDefinition.Realm.Scotland.KingsSpearRetainers.V1_2",
+      "reason": "Candidate document identifier",
+      "occurrences": 1
+    },
+    {
+      "old": "Kings_Spear_Retainers_V1_1_Double_Checked_Mature_Faction_Refinement_Full_Master_Unit_Profile.md",
+      "new": "Scotland_Kings_Spear_Retainers_V1_2_High_Era_Crown_Integrated_Full_Master_Unit_Profile.md",
+      "reason": "Current filename",
+      "occurrences": 1
+    },
+    {
+      "old": "version: 1.1.0",
+      "new": "version: 1.2.0",
+      "reason": "Current version",
+      "occurrences": 1
+    },
+    {
+      "old": "revision_date: 2026-10-16",
+      "new": "revision_date: 2026-10-19",
+      "reason": "Session date",
+      "occurrences": 1
+    },
+    {
+      "old": "Scotland/Units_and_Roster/01_Early/01_Infantry",
+      "new": "Scotland/Units_and_Roster/02_High/01_Infantry",
+      "reason": "Settled High placement; no physical move",
+      "occurrences": 1
+    },
+    {
+      "old": "ScotlandEarlyRoyalSpearRetainerRecord",
+      "new": "ScotlandHighRoyalSpearRetainerRecord",
+      "reason": "High record",
+      "occurrences": 1
+    },
+    {
+      "old": "status: ReviewOnlyDoubleCheckedMatureFactionRefinedCandidateNotOpeningBound",
+      "new": "status: ReviewOnlyHighEraCrownIntegratedMasterCandidateNotOpeningBound",
+      "reason": "Current review status",
+      "occurrences": 2
+    },
+    {
+      "old": "public_era: EarlyEraPersistentDevelopmentCandidate",
+      "new": "public_era: HighEraRoyalSpearRetainerFamily",
+      "reason": "Settled High era",
+      "occurrences": 1
+    },
+    {
+      "old": "controlling_foundation: Scotland_Early_to_High_Era_Roster_Identity_and_Working_Foundation_V0_1.md",
+      "new": "controlling_foundation: CurrentHighEraDirectionFromApprovedConversationExactFoundationFileUnverified",
+      "reason": "Remove obsolete control; exact current foundation not verified",
+      "occurrences": 1
+    },
+    {
+      "old": "controlling_progression_map: Scotland_Early_to_High_Unit_Progression_Map_V0_1.md",
+      "new": "controlling_progression_map: ExactCurrentProgressionMapVersionUnverified",
+      "reason": "Remove obsolete control; exact current map version not verified",
+      "occurrences": 1
+    },
+    {
+      "old": "opening_availability: CandidateNotInitialized",
+      "new": "opening_availability: NotAuthorized",
+      "reason": "No opening admission",
+      "occurrences": 1
+    },
+    {
+      "old": "## 0A. V1.1 Copy-First Refinement Receipt",
+      "new": "## 0A. Historical V1.1 Copy-First Refinement Receipt",
+      "reason": "Historical provenance",
+      "occurrences": 1
+    },
+    {
+      "old": "ReliableEarlyRoyalRetainersAboveCommonHostBelowMatureProfessionalAndEliteHouseholdCeilings",
+      "new": "ReliableHighRoyalRetainersAboveCommonHostBelowDedicatedMaintainedEnduranceAndSelectedEliteCeilings",
+      "reason": "Era and power ceiling",
+      "occurrences": 1
+    },
+    {
+      "old": "HoldFastForTheKing",
+      "new": "HoldFastForTheCrown",
+      "reason": "Institutional signature",
+      "occurrences": 6
+    },
+    {
+      "old": "Hold Fast for the King",
+      "new": "Hold Fast for the Crown",
+      "reason": "Signature prose",
+      "occurrences": 2
+    },
+    {
+      "old": "for the intended Early Era band",
+      "new": "for the intended High-era royal-service band",
+      "reason": "Era consistency",
+      "occurrences": 1
+    },
+    {
+      "old": "into the Early Era.",
+      "new": "into this High-era family without chronology and source review.",
+      "reason": "Preserve chronology caution",
+      "occurrences": 1
+    },
+    {
+      "old": "ModerateToHighForEarlyInfantry",
+      "new": "HighRelativeToCommonHighEraInfantry",
+      "reason": "Relative cost direction only",
+      "occurrences": 1
+    },
+    {
+      "old": "ScotoNormanMenAtArms",
+      "new": "ScottishArmoredFoot",
+      "reason": "Current maintained-foot family",
+      "occurrences": 5
+    },
+    {
+      "old": "Scoto-Norman Men-at-Arms",
+      "new": "Scottish Armored Foot",
+      "reason": "Current display name",
+      "occurrences": 2
+    },
+    {
+      "old": "ParishSpearLevy",
+      "new": "HearthSpearmen",
+      "reason": "Existing low-demand coverage family",
+      "occurrences": 2
+    },
+    {
+      "old": "RoyalHouseholdKnights: DeliverMountedDecisionWhileRetainersProtectCommandAndBaseOfCharge",
+      "new": "ScottishFeudalKnights: DeliverFormedLanceImpactWhileRetainersSecureTheCriticalInfantryPoint",
+      "reason": "Current mounted family",
+      "occurrences": 1
+    },
+    {
+      "old": "versus_MormaersRetinue:",
+      "new": "versus_MormaersSwordsmen:",
+      "reason": "Current named magnate comparator",
+      "occurrences": 1
+    },
+    {
+      "old": "MormaersRetinueRetainsMagnateAndRegionalIdentity",
+      "new": "MormaersSwordsmenRetainMagnateSwordDecisionAndReturn",
+      "reason": "Current comparator role",
+      "occurrences": 1
+    },
+    {
+      "old": "SourceCannotBeSeparatedFromScottishArmoredFootOrMormaersRetinue",
+      "new": "SourceCannotBeSeparatedFromScottishArmoredFootOrMormaersSwordsmen",
+      "reason": "Current comparator",
+      "occurrences": 1
+    },
+    {
+      "old": "EarlyRoyalSpearRetainersVersusLaterConvergedRoyalArmoredReserveWithHigherInstitutionalCeiling",
+      "new": "HighRoyalSpearRetainersVersusConditionalLaterConvergedRoyalArmoredReserveWithHigherInstitutionalCeiling",
+      "reason": "No Early ancestor invented",
+      "occurrences": 1
+    },
+    {
+      "old": "## 26. Early-to-High Development",
+      "new": "## 26. High-Era Persistence, Maturation, and Conditional Convergence",
+      "reason": "Existing family already High",
+      "occurrences": 1
+    },
+    {
+      "old": "King's Spear Retainers\n  -> Royal Spear Retainers\n     -> King's Foot Guard",
+      "new": "King's Spear Retainers: current High-era family\n  -> same-family maturation by default\n     -> King's Foot Guard only if a distinct later convergence is justified",
+      "reason": "No mandatory three-card ladder",
+      "occurrences": 1
+    },
+    {
+      "old": "The progression map allows convergence with Scottish Men-at-Arms at **King's Foot Guard**. This prevents separate late royal spearmen, royal swordsmen, and royal men-at-arms from becoming redundant top-tier cards.",
+      "new": "The current design retains **King's Foot Guard** as a conditional later convergence with qualified maintained armored-foot inputs, not a guaranteed destination. Scottish Armored Foot already exists in High; Scottish Men-at-Arms is not a required extra card. The original purpose remains to avoid redundant late royal spearmen, royal swordsmen, and royal men-at-arms.",
+      "reason": "Preserve convergence purpose, reconcile current inputs",
+      "occurrences": 1
+    },
+    {
+      "old": "early_family_persists: true",
+      "new": "current_High_family_persists: true",
+      "reason": "Current era",
+      "occurrences": 1
+    },
+    {
+      "old": "RoyalSpearRetainers_change_basis:",
+      "new": "same_family_royal_maturation_basis:",
+      "reason": "Retain all material maturation criteria",
+      "occurrences": 1
+    },
+    {
+      "old": "still recognizably Early Era and nonuniform",
+      "new": "recognizably High-era Scottish service infantry and still nonuniform",
+      "reason": "Visual era",
+      "occurrences": 1
+    },
+    {
+      "old": "**King's Spear Retainers survive as Scotland's second core Early Era profile.**",
+      "new": "**King's Spear Retainers remain Scotland's High-era royal-service critical-point infantry family.**",
+      "reason": "Remove stale era and sequence count",
+      "occurrences": 1
+    },
+    {
+      "old": "next_sequence_unit: Hill_and_Glen_Muster",
+      "new": "next_sequence_unit: NotSelectedByThisProfile",
+      "reason": "Do not restart completed Early queue",
+      "occurrences": 1
+    },
+    {
+      "old": "### Royal Household Knights",
+      "new": "### Scottish Feudal Knights and Conditional Royal Mounted Service",
+      "reason": "Current cavalry and held royal idea",
+      "occurrences": 1
+    },
+    {
+      "old": "Knights own mounted shock, interception, pursuit, prestige, and horse-dependent service.",
+      "new": "Scottish Feudal Knights own formed lance impact, counterblow, short post-impact fighting, and horse-dependent service. March Riders retain routine screening and pursuit. A separate royal mounted family remains conditional.",
+      "reason": "Protect practical mounted role",
+      "occurrences": 1
+    },
+    {
+      "old": "KingsSpearRetainers_to_RoyalSpearRetainers:",
+      "new": "KingsSpearRetainers_same_family_maturation:",
+      "reason": "No automatic clone",
+      "occurrences": 1
+    },
+    {
+      "old": "RoyalSpearRetainers_to_KingsFootGuard:",
+      "new": "KingsSpearRetainers_to_KingsFootGuard_conditional:",
+      "reason": "Conditional convergence",
+      "occurrences": 1
+    },
+    {
+      "old": "ConditionalConvergenceWithQualifiedScottishMenAtArmsInputs",
+      "new": "ConditionalConvergenceWithQualifiedMaintainedArmoredFootInputs",
+      "reason": "No compulsory Men-at-Arms card",
+      "occurrences": 1
+    },
+    {
+      "old": "## 39L. V1.1 Final Mature Unit Thesis",
+      "new": "## 39L. Integrated High-Era Mature Unit Thesis",
+      "reason": "Current thesis",
+      "occurrences": 1
+    },
+    {
+      "old": "## 37. Mature-Faction Benchmark Receipt",
+      "new": "## 37. Inherited Mature-Faction Benchmark Receipt",
+      "reason": "Prior access provenance",
+      "occurrences": 1
+    },
+    {
+      "old": "static_profile_completeness: PassForDoubleCheckedMatureFactionRefinement",
+      "new": "static_profile_completeness: SeeAccompanyingSourcePreservationAndSyntaxReport",
+      "reason": "Honest validation scope",
+      "occurrences": 1
+    },
+    {
+      "old": "purpose: FasterControlledCloseWorkAndOfficerOrWealthierRetainerRead",
+      "new": "purpose: GuardedCloseWorkAndOfficerOrWealthierRetainerReadPendingHandlingTests",
+      "reason": "No guaranteed sword speed",
+      "occurrences": 1
+    },
+    {
+      "old": "purpose: HarderShieldAndArmorPressureAtCloseRange",
+      "new": "purpose: DeliberateLocalClosePressureWithinSharedWeaponAndArmorRules",
+      "reason": "No automatic armor bypass",
+      "occurrences": 1
+    },
+    {
+      "old": "Sword-equipped retainers provide faster guarded close work. Axe-equipped retainers provide harder local pressure but do not ignore shields or armor.",
+      "new": "Sword-equipped retainers provide guarded close work where their actual weapons and handling permit. Axe-equipped retainers provide deliberate local pressure within shared weapon, shield, and armor rules. Neither label guarantees faster attacks or armor penetration.",
+      "reason": "Physical handling rather than weapon-label bonuses",
+      "occurrences": 1
+    },
+    {
+      "old": "- Faster guarded attacks and recovery in compact contact.",
+      "new": "- Guarded close attacks and recovery governed by actual handling and contact space.",
+      "reason": "No guaranteed faster parry",
+      "occurrences": 1
+    },
+    {
+      "old": "- Harder local blows against shields and moderate protection.",
+      "new": "- Deliberate local blows against shields and protection under the shared damage model.",
+      "reason": "No automatic shield bypass",
+      "occurrences": 1
+    },
+    {
+      "old": "sword_sections: GuardedFastRecoveryCloseWork",
+      "new": "sword_sections: GuardedCloseWorkWithPhysicalRecoveryCosts",
+      "reason": "No automatic speed bonus",
+      "occurrences": 1
+    },
+    {
+      "old": "purpose: OptionalLimitedOpeningDisruptionOnlyIfResearchAndSourceSupport",
+      "new": "purpose: HeldResearchIdeaExcludedFromNormalCardUnlessSeparatelyQualified",
+      "reason": "Resolve refined throwing exclusion",
+      "occurrences": 1
+    },
+    {
+      "old": "frequency: ExceptionalAndNotCoreCardIdentity",
+      "new": "frequency: NotPartOfNormalRecruitablePackage",
+      "reason": "No hidden missile hybrid",
+      "occurrences": 1
+    },
+    {
+      "old": "- **Class:** Royal-service spear-and-shield infantry",
+      "new": "- **Class:** High-era royal-service spear-and-shield infantry",
+      "reason": "Current player card era",
+      "occurrences": 1
+    },
+    {
+      "old": "Men-at-arms own longer professional field service, castle and lordship military networks where supported, stronger armored close-combat flexibility, and broader suitability as a sustained field company.",
+      "new": "Scottish Armored Foot own sustained protected sector fighting, maintained field service, and relief endurance through qualified castle and lordship networks where supported.",
+      "reason": "Current maintained-foot identity, not a renamed generic men-at-arms clone",
+      "occurrences": 1
+    },
+    {
+      "old": "MenAtArmsOrRegionalSpecialistBetterFitsTheTask",
+      "new": "ArmoredFootOrRegionalSpecialistBetterFitsTheTask",
+      "reason": "Current AI comparator",
+      "occurrences": 1
+    },
+    {
+      "old": "RetainersVsMenAtArmsInLongFieldServiceAndCloseCombat",
+      "new": "RetainersVsArmoredFootInLongFieldServiceAndCloseCombat",
+      "reason": "Current test comparator",
+      "occurrences": 1
+    },
+    {
+      "old": "ReducedMountedReadinessDuringCloseWork",
+      "new": "ReducedPreparedSpearReceptionDuringCloseWork",
+      "reason": "Infantry reception readiness, not mounted capability",
+      "occurrences": 1
+    },
+    {
+      "old": "BoundedClosePressureWithReducedMountedReadiness",
+      "new": "BoundedClosePressureWithReducedPreparedSpearReception",
+      "reason": "Infantry reception readiness",
+      "occurrences": 1
+    },
+    {
+      "old": "PreserveMountedReadinessWhenFreshCavalryThreatRemains",
+      "new": "PreservePreparedSpearReceptionWhenFreshCavalryThreatRemains",
+      "reason": "Infantry reception readiness",
+      "occurrences": 1
+    }
+  ],
+  "yaml_blocks": 51,
+  "unexplained_substantive_removals": [],
+  "source_overwritten": false,
+  "other_profiles_modified": [],
+  "addendum_required": false,
+  "document_checks_pass": true,
+  "validation_scope": "Source preservation after explicit bounded corrections, ordered lines within sections, YAML syntax, metadata and nonactivation boundaries. Historical and gameplay validation not performed."
+}

@@ -1,0 +1,46 @@
+{
+  "document_id": "manifest.wales.personality.v3.current-authority-refinement",
+  "version": "3.0.0",
+  "immediate_source": {
+    "filename": "Wales_Personality.md",
+    "bytes": 34547,
+    "physical_lines": 1345,
+    "sha256": "4249875cd7f2fa7fab8d9f2add0a0044a5506408986dbf84de9533f25bc22892",
+    "copy_method": "literal full-file prefix",
+    "complete_source_verified": true
+  },
+  "successor": {
+    "filename": "Wales_Personality_V3_Current_Authority_Refinement.md",
+    "bytes": 64042,
+    "physical_lines": 2291,
+    "sha256": "b0cb55d21e2a03cbe4334dff6fcb978af977980a927d23e3f3f230ea75690ce2"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "all_source_headings_preserved": true,
+    "all_substantive_source_sections_preserved": true,
+    "removed_content": []
+  },
+  "current_scope": {
+    "opening_people": 9,
+    "dynasties": 3,
+    "network_nodes": 9,
+    "network_edges": 8,
+    "mutable_relationship_dimensions": 0,
+    "owner_pending_opening_questions": 2
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_mutation": false,
+    "Personality_runtime_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "real_payload_import": false
+  },
+  "static_check": {
+    "filename": "Wales_Personality_V3_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

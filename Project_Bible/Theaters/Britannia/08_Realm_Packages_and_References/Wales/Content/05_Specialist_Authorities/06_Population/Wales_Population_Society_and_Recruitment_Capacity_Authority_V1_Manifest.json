@@ -1,0 +1,21 @@
+{
+  "filename": "Wales_Population_Society_and_Recruitment_Capacity_Authority_V1.md",
+  "bytes": 48757,
+  "lines": 1141,
+  "sha256": "f4b2fe18eefb022ef43af16b91b9454863df8b427a2fb293ce1a5a985181ded2",
+  "checks": {
+    "filename": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "yaml_present": true,
+    "text_inequalities": true,
+    "modern_vision": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_em_dash": true
+  },
+  "all_checks_passed": true
+}

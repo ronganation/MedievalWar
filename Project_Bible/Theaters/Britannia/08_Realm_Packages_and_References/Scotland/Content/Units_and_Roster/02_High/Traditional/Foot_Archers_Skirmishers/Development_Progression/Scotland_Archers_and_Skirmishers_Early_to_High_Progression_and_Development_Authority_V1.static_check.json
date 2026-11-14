@@ -1,0 +1,19 @@
+{
+  "artifact": "Scotland_Archers_and_Skirmishers_Early_to_High_Progression_and_Development_Authority_V1.md",
+  "version": "1.0.0",
+  "sha256": "4362e2cc000f6475b7e4080637721a6796e9744b966d95047c480104a46dbd7b",
+  "lines": 479,
+  "words": 2368,
+  "yaml_blocks": 13,
+  "checks": {
+    "yaml_valid": true,
+    "balanced_fences": true,
+    "all_current_families_mapped": true,
+    "carryover_explicit": true,
+    "crossbow_on_research_hold": true,
+    "claymore_out_of_scope_hold": true,
+    "opening_quarantine": true
+  },
+  "pass": true,
+  "validation_scope": "Structure, internal progression consistency, source boundaries, and nonactivation. Historical and gameplay validation not performed."
+}

@@ -1,0 +1,34 @@
+{
+  "document_id": "static-check.character.scotland.gille-coemgain.v2.quarantined-provenance",
+  "version": "2.0.0",
+  "source": {
+    "filename": "Gille_Coemgain_of_Moray.md",
+    "bytes": 30045,
+    "physical_lines": 624,
+    "sha256": "8dcc62ea148f2a814d9245904921932ae358ba83fbb43392042afc786b475195"
+  },
+  "successor": {
+    "filename": "Gille_Coemgain_of_Moray_V2_Quarantined_Provenance_Refinement.md",
+    "bytes": 47941,
+    "physical_lines": 1084,
+    "sha256": "fababbb687c66eb5e507c0f804aae6b437567d9b9c98f9061dac8095e18397c8"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "quarantine_status_present": true,
+    "historical_person_separated": true,
+    "replacement_null": true,
+    "role_provenance_preserved": true,
+    "opening_and_network_handoffs": true,
+    "save_and_alias_protection": true,
+    "three_track_temporal_model": true,
+    "honest_validation_status": true,
+    "source_not_overwritten": true
+  },
+  "missing_source_headings": [],
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

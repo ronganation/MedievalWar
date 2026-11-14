@@ -1,0 +1,53 @@
+{
+  "document_id": "Manifest.Validation.LeonCastile.OfflineSchemaFixtureExecutionPackage.V1",
+  "authority_file": "Leon_Castile_Offline_Schema_and_Fixture_Execution_Package_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 20072,
+  "physical_lines": 462,
+  "sha256": "E27B18D8D6A4252A354128905AA43DB085C4ED0D630500313E63285D24CB6035",
+  "status": "StaticCheckedOfflineExecutionPackageReadyForColocatedArtifactRun",
+  "positive_fixture_count": 4,
+  "negative_fixture_count": 27,
+  "required_output_count": 6,
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "positive_fixture_count": 4,
+    "negative_fixture_count": 27,
+    "output_count": 6,
+    "execution_not_claimed": true,
+    "promotion_block": true
+  },
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Save": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "validation_boundary": {
+    "InputsColocated": false,
+    "PhysicalHashes": "NOT_RUN",
+    "SchemaExecution": "NOT_RUN",
+    "PositiveFixtures": "NOT_RUN",
+    "NegativeFixtures": "NOT_RUN",
+    "DeterministicRepeat": "NOT_RUN",
+    "Importer": "NOT_RUN",
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "Promotion": "PROHIBITED"
+  },
+  "next_file_after_success": "Leon_Castile_Offline_Validation_Completion_and_Pre_Unreal_Pause_Gate_V1.md",
+  "all_static_checks_pass": true
+}

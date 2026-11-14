@@ -1,0 +1,35 @@
+{
+  "manifest_id": "manifest.denmark.qualitative_mapping.controlling_owner_discovery.v1",
+  "version": "1.0.0",
+  "status": "PASS_OWNER_DISCOVERY_STATIC_CHECK",
+  "artifact_count": 3,
+  "hashed_artifact_count": 2,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "stable_order": 10,
+      "filename": "Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_and_Disposition_Candidate_V1.md",
+      "bytes": 10123,
+      "lines": 282,
+      "sha256": "5A686E807A5193C74B485DAA62CED9C130D0571F59F6FA4819882C0F49E385CD"
+    },
+    {
+      "stable_order": 20,
+      "filename": "Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_V1.json",
+      "bytes": 1682,
+      "lines": 57,
+      "sha256": "B5511E92415D80E6424877B63EF4574E89B0A620FC8FE110470E53804F6579C7"
+    }
+  ],
+  "checks": {
+    "single_owner_candidate": "Framework.CharacterNetwork",
+    "owner_receipt_not_invented": true,
+    "ledger_unchanged": true,
+    "authorization_closed": true,
+    "request_50_remains_partial": true,
+    "request_70_remains_deferred": true,
+    "no_numeric_values_invented": true,
+    "markdown_fences_balanced": true,
+    "no_escaped_underscores": true
+  }
+}

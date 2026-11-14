@@ -1,0 +1,37 @@
+{
+  "document_id": "Manifest.Tooling.Aragon.PhysicalPackageReinventory.V2",
+  "script_file": "Aragon_Physical_Package_Reinventory_V2.ps1",
+  "script_sha256": "5BE9319ACD97DA72022FA222E1517B509528D33248A5C7B1A4BB46A953B7B6F3",
+  "instructions_file": "Aragon_Physical_Package_Reinventory_V2_Instructions.md",
+  "instructions_sha256": "5272AAE90C2F16795AA486E89B32B8679A9625DA287AC138321B5E9CCCD12722",
+  "version": "2.0.0",
+  "revision_date": "2026-09-09",
+  "placement": "Aragon/10_Supporting_and_Workflow",
+  "status": "StaticCheckedReadOnlyPhysicalInventoryUtility",
+  "checks": {
+    "script_bytes": 5933,
+    "instruction_bytes": 2469,
+    "script_sha256": "5BE9319ACD97DA72022FA222E1517B509528D33248A5C7B1A4BB46A953B7B6F3",
+    "instructions_sha256": "5272AAE90C2F16795AA486E89B32B8679A9625DA287AC138321B5E9CCCD12722",
+    "expected_folder_count": 11,
+    "source_mutation_zero": true,
+    "three_outputs": true,
+    "balanced_instruction_fences": true,
+    "instruction_footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "all_critical_checks_pass": true
+  },
+  "mutation_receipt": {
+    "SourceOverwrite": 0,
+    "Deleted": 0,
+    "Moved": 0,
+    "Renamed": 0,
+    "Registry": 0,
+    "OpeningState": 0,
+    "CandidateJson": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "next_gate": "Run locally against the organized Aragon root, then review generated inventory before final accepted-source manifest successor"
+}

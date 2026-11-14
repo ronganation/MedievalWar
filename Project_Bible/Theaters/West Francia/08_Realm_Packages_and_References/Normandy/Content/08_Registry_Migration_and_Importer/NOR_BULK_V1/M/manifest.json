@@ -1,0 +1,83 @@
+{
+  "file": "NOR_BULK_V1.zip",
+  "version": "1.0.0",
+  "root": "NOR_BULK_V1",
+  "files": [
+    {
+      "p": "C/check.json",
+      "b": 829,
+      "h": "B14B0BEFD45F7DA150F657116974387D7D74DDB0EB79D7A4D6FDEAF727FE0B80"
+    },
+    {
+      "p": "E/close.json",
+      "b": 186,
+      "h": "3029AA7DA8D2F52DEEF9B98C3948DABC53DF08C5BC1581D23311057DC64DF561"
+    },
+    {
+      "p": "E/compile.json",
+      "b": 188,
+      "h": "55A65A1E6B4BD7D0783328CA65F75697BFADEA417FF61A6C7606F8517BD245EE"
+    },
+    {
+      "p": "E/discover.json",
+      "b": 189,
+      "h": "15620EECD70F4D9009C7FD2BB91132EE78168A89FF74C5C88C35A3B11E71737C"
+    },
+    {
+      "p": "E/map.json",
+      "b": 184,
+      "h": "1BAD638E3D18D2FFEFB92A50B463F1E9058C1B3D822845FBD0FA2F3BF114654F"
+    },
+    {
+      "p": "E/migrate.json",
+      "b": 188,
+      "h": "3DB80ED5E84064A121DB3E629F4102E989816662E7407EB88FD308B6825F269A"
+    },
+    {
+      "p": "E/parse.json",
+      "b": 186,
+      "h": "5EAED31B16CFE1474330ACABB729D4C8DEE452E093EE762EF99D883ECE816173"
+    },
+    {
+      "p": "E/rollback.json",
+      "b": 189,
+      "h": "F396A5431AC6A5EEDE8715D6F4706EB302114F166294BD93793CE530F48132AC"
+    },
+    {
+      "p": "E/save.json",
+      "b": 185,
+      "h": "6480BB7A80A2566AFF6A5438F93EAA2F8352CF5ED489AB4D8291A616A9CFDFE8"
+    },
+    {
+      "p": "E/test.json",
+      "b": 185,
+      "h": "D029BA5C468236092B6E9AA22425021682BF23839E8820E76739009986DA3FDA"
+    },
+    {
+      "p": "P/map.md",
+      "b": 6213,
+      "h": "E1FB02E3A26C228D18DCD075E02A65B7FC93E8250F999AB346E68B75A812AF07"
+    },
+    {
+      "p": "P/plan.json",
+      "b": 1980,
+      "h": "81D0DA08D286E864C16BF418251B00B0AE2B03BCB0DDD2E58C9E9F7E41C69F34"
+    },
+    {
+      "p": "R/rollback.json",
+      "b": 241,
+      "h": "A2D9D9B78FFFC4966B8B05C0DD4B68F76C36D484151E6F524A2949ACCEDE9604"
+    },
+    {
+      "p": "README.md",
+      "b": 506,
+      "h": "DF3D51D573F3A6609778F96D4ACBAAA62F98547C16ED8BDCCD0F994C13B2C601"
+    }
+  ],
+  "bulk_steps": 8,
+  "receipt_templates": 9,
+  "max_internal_path_chars": 27,
+  "Unreal_mutation_performed": false,
+  "compile_validated": false,
+  "runtime_validated": false
+}

@@ -1,0 +1,40 @@
+{
+  "DocumentId": "Manifest.Aquitaine.CommunitiesCulturePopulationInstitutions.V1",
+  "AuthorityFile": "Aquitaine_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+  "Version": "1.0.0",
+  "Generated": "2026-09-04",
+  "LineCount": 1076,
+  "ByteCount": 35044,
+  "SHA256": "1f50b58de7d004bb12a2bf9a531ba13e303ec810c9696e114225701626b12a2b",
+  "MajorSections": 47,
+  "MarkdownFences": 78,
+  "ReviewTarget": "Aquitaine_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+  "PrimaryBenchmark": "France_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+  "ForeignStateTransferred": false,
+  "RemovedSubstantiveContent": [],
+  "MutationStatus": {
+    "Registry": false,
+    "OpeningState": false,
+    "Unreal": false,
+    "Runtime": false,
+    "RealPayload": false
+  },
+  "Validation": {
+    "AllChecksPassed": true,
+    "Checks": {
+      "aquitaine_target": true,
+      "france_benchmark_only": true,
+      "three_track_time": true,
+      "one_population_pool_rejected": true,
+      "finite_recruitment": true,
+      "regional_power_distinction": true,
+      "war_gate_rejected": true,
+      "barbastro_inactive": true,
+      "opening_records_empty": true,
+      "fences_balanced": true,
+      "em_dashes_absent": true,
+      "stable_footer_once": true,
+      "final_marker_correct": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "document_id": "static-check.england.source_inventory.v1_1.refinement",
+  "version": "1.0.0",
+  "source_file": "England_Source_Inventory_V1.md",
+  "output_file": "England_Source_Inventory_V1.1_Current_Authority_Refinement.md",
+  "source_bytes": 32964,
+  "output_bytes": 40498,
+  "checks": {
+    "new_file_created": true,
+    "source_file_unchanged_by_this_run": true,
+    "substantive_source_preserved": true,
+    "larger_than_original": true,
+    "current_register": true,
+    "governance_correct": true,
+    "supply_correct": true,
+    "single_status": true,
+    "single_footer": true,
+    "single_opening": true,
+    "no_escapes": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true
+}

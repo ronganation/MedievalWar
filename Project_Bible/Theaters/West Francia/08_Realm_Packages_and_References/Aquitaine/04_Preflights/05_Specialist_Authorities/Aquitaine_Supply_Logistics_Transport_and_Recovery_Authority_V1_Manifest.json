@@ -1,0 +1,52 @@
+{
+  "ManifestId": "manifest.aquitaine.supply-logistics-transport-recovery.v1",
+  "ManifestVersion": "1.0.0",
+  "GeneratedDate": "2026-09-05",
+  "AuthorityFile": "Aquitaine_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+  "AuthorityId": "authority.supply-logistics-transport-recovery.realm.aquitaine.v1",
+  "StableDocumentId": "SupplyLogistics.Realm.Aquitaine",
+  "RealmId": "realm.aquitaine",
+  "OwningTheater": "West Francia",
+  "Status": "StaticCheckedReviewOnlyDevelopedRealmParityCandidate",
+  "FileMetrics": {
+    "LineCount": 1340,
+    "ByteCount": 46808,
+    "SHA256": "5540b043eea0de677e648f881877c9f15342d22859326eea1c4a68e801944d99",
+    "MarkdownHeadingCount": 57,
+    "MarkdownFenceCount": 86
+  },
+  "AuthorityMethod": "NewSpecialistAuthorityBuiltFromCurrentAquitaineChain",
+  "ImmediateSubstantivePredecessor": null,
+  "BenchmarkControl": {
+    "ReviewTarget": "Aquitaine_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+    "PrimaryEquivalentBenchmark": "France_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+    "AdditionalBenchmarks": [
+      "Wales_Supply_Logistics_Transport_and_Strategic_Endurance_Authority_V1.md",
+      "Norway_Routes_Maritime_Access_and_Communication_V1.md"
+    ],
+    "ForeignContentTransferred": false
+  },
+  "ValidationSummary": {
+    "TotalChecks": 22,
+    "Passes": 22,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "SourceFilesOverwritten": 0,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "SupplySourceActivations": 0,
+    "StockActivations": 0,
+    "StorageActivations": 0,
+    "TransportActivations": 0,
+    "ConvoysCreated": 0,
+    "SupplyOrdersExecuted": 0,
+    "AttritionEventsExecuted": 0,
+    "MigrationExecutions": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "NextControlledAuthority": "Aquitaine_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md"
+}

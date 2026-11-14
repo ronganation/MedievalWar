@@ -1,0 +1,1299 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "BABBAKANOOSH",
+			"instance": "E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE",
+			"instanceName": "BABBAKANOOSH-44860",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (25H2) [10.0.26200.9168] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 3060",
+			"cPUModel": "AMD Ryzen 5 5600X 6-Core Processor             ",
+			"rAMInGB": 16,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.09.01-03.30.13",
+	"succeeded": 27,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.21990087628364563,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.Denmark.Network.CanonicalProjection.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.007452700287103653,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.Denmark.Network.CanonicalProjection.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0082456991076469421,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RuntimeTags",
+			"fullTestPath": "MedievalWar.Denmark.Network.CanonicalProjection.RuntimeTags",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0079445019364356995,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "UnknownFailsClosed",
+			"fullTestPath": "MedievalWar.Denmark.Network.CanonicalProjection.UnknownFailsClosed",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0081476010382175446,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Accounting",
+			"fullTestPath": "MedievalWar.Denmark.Network.CommandEnvelope.Accounting",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0081916004419326782,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Boundary",
+			"fullTestPath": "MedievalWar.Denmark.Network.CommandEnvelope.Boundary",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0083083994686603546,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.Denmark.Network.CommandEnvelope.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0081131979823112488,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Provenance",
+			"fullTestPath": "MedievalWar.Denmark.Network.CommandEnvelope.Provenance",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.008349299430847168,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ExternalDirectionSchema",
+			"fullTestPath": "MedievalWar.Denmark.Network.Diagnostics.ExternalDirectionSchema",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.008190501481294632,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_DIAGNOSTIC_BEGIN count=8",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_RECORD index=0 keys=[ActivationRequirements,ContentVersion,Disposition,ExternalLockResolutionState,ExternalOwner,RegistryVersion,RelationshipId,SourcePersonId,TargetExternalLockId]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=0 key=RelationshipId type=String value=network.denmark.sigrid_to_external_gottschalk",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=0 key=SourcePersonId type=String value=person.denmark.sigrid_sweynsdaughter",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=0 key=TargetExternalLockId type=String value=review.denmark.external.obotrite.gottschalk",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=0 key=Disposition type=String value=conditional",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=0 key=ExternalOwner type=String value=future_obotrite_registry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=0 key=ActivationRequirements type=Array value=count=4",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=0 key=ExternalLockResolutionState type=String value=ReviewExternalRegistry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=0 key=ContentVersion type=String value=1.1.0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=0 key=RegistryVersion type=String value=review.pending",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_RECORD index=1 keys=[ContentVersion,DirectionId,Disposition,ExternalOwner,RegistryVersion,TargetPersonId]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=1 key=DirectionId type=String value=external.gottschalk_to_sigrid",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=1 key=TargetPersonId type=String value=person.denmark.sigrid_sweynsdaughter",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=1 key=Disposition type=String value=external_owner",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=1 key=ExternalOwner type=String value=future_obotrite_registry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=1 key=ContentVersion type=String value=1.1.0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=1 key=RegistryVersion type=String value=review.pending",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_RECORD index=2 keys=[ActivationRequirements,ContentVersion,Disposition,ExternalLockResolutionState,ExternalOwner,RegistryVersion,RelationshipId,SourcePersonId,TargetExternalLockId]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=2 key=RelationshipId type=String value=network.denmark.william_to_external_adalbert",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=2 key=SourcePersonId type=String value=person.denmark.william_roskilde",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=2 key=TargetExternalLockId type=String value=review.denmark.external.hamburg_bremen.adalbert",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=2 key=Disposition type=String value=conditional",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=2 key=ExternalOwner type=String value=future_hre_global_registry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=2 key=ActivationRequirements type=Array value=count=2",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=2 key=ExternalLockResolutionState type=String value=ReviewExternalRegistry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=2 key=ContentVersion type=String value=1.1.0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=2 key=RegistryVersion type=String value=review.pending",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_RECORD index=3 keys=[ContentVersion,DirectionId,Disposition,ExternalOwner,RegistryVersion,TargetPersonId]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=3 key=DirectionId type=String value=external.adalbert_to_william",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=3 key=TargetPersonId type=String value=person.denmark.william_roskilde",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=3 key=Disposition type=String value=external_owner",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=3 key=ExternalOwner type=String value=future_hre_global_registry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=3 key=ContentVersion type=String value=1.1.0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=3 key=RegistryVersion type=String value=review.pending",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_RECORD index=4 keys=[ActivationRequirements,ContentVersion,Disposition,ExternalLockResolutionState,ExternalOwner,RegistryVersion,RelationshipId,SourcePersonId,TargetExternalLockId]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=4 key=RelationshipId type=String value=network.denmark.sweyn_to_external_adalbert",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=4 key=SourcePersonId type=String value=person.denmark.sweyn_estridsen",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=4 key=TargetExternalLockId type=String value=review.denmark.external.hamburg_bremen.adalbert",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=4 key=Disposition type=String value=conditional",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=4 key=ExternalOwner type=String value=future_hre_global_registry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=4 key=ActivationRequirements type=Array value=count=2",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=4 key=ExternalLockResolutionState type=String value=ReviewExternalRegistry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=4 key=ContentVersion type=String value=1.1.0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=4 key=RegistryVersion type=String value=review.pending",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_RECORD index=5 keys=[ContentVersion,DirectionId,Disposition,ExternalOwner,RegistryVersion,TargetPersonId]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=5 key=DirectionId type=String value=external.adalbert_to_sweyn",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=5 key=TargetPersonId type=String value=person.denmark.sweyn_estridsen",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=5 key=Disposition type=String value=external_owner",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=5 key=ExternalOwner type=String value=future_hre_global_registry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=5 key=ContentVersion type=String value=1.1.0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=5 key=RegistryVersion type=String value=review.pending",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_RECORD index=6 keys=[ActivationRequirements,ContentVersion,Dimensions,Disposition,ExternalLockResolutionState,ExternalOwner,RegistryVersion,RelationshipId,ResolvedCanonicalTargetPersonId,SourcePersonId,TargetExternalLockId]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=RelationshipId type=String value=network.denmark.sweyn_to_external_harald_hardrada",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=SourcePersonId type=String value=person.denmark.sweyn_estridsen",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=TargetExternalLockId type=String value=review.denmark.external.norway.harald_hardrada",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=Disposition type=String value=conditional",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=ExternalOwner type=String value=norway_registry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=ActivationRequirements type=Array value=count=4",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=Dimensions type=Array value=count=6",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=ResolvedCanonicalTargetPersonId type=String value=Character.Norway.HaraldHardrada",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=ExternalLockResolutionState type=String value=ResolvedCanonical",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=ContentVersion type=String value=1.1.0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=6 key=RegistryVersion type=String value=review.pending",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_RECORD index=7 keys=[ContentVersion,DirectionId,Disposition,ExternalOwner,RegistryVersion,TargetPersonId]",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=7 key=DirectionId type=String value=external.harald_hardrada_to_sweyn",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=7 key=TargetPersonId type=String value=person.denmark.sweyn_estridsen",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=7 key=Disposition type=String value=external_owner",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=7 key=ExternalOwner type=String value=norway_registry",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=7 key=ContentVersion type=String value=1.1.0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_FIELD index=7 key=RegistryVersion type=String value=review.pending",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "SCHEMA_DIAGNOSTIC_END",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.30.13"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.Denmark.Network.FullManifest.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0080217979848384857,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ExternalLocks",
+			"fullTestPath": "MedievalWar.Denmark.Network.FullManifest.ExternalLocks",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0082321986556053162,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OrderReplay",
+			"fullTestPath": "MedievalWar.Denmark.Network.FullManifest.OrderReplay",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0083162002265453339,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CoreCharactersRegistered",
+			"fullTestPath": "MedievalWar.Denmark.Network.GameplayTags.CoreCharactersRegistered",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0081904008984565735,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CampaignSurface",
+			"fullTestPath": "MedievalWar.Denmark.Network.NativeBinding.CampaignSurface",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.008255399763584137,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OwnershipBoundary",
+			"fullTestPath": "MedievalWar.Denmark.Network.NativeBinding.OwnershipBoundary",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0082437023520469666,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ExternalDeclaration",
+			"fullTestPath": "MedievalWar.Denmark.Network.OwnerPreflight.ExternalDeclaration",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0082694999873638153,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoMutation",
+			"fullTestPath": "MedievalWar.Denmark.Network.OwnerPreflight.NoMutation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.008324701339006424,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "QualitativeMappingBlock",
+			"fullTestPath": "MedievalWar.Denmark.Network.OwnerPreflight.QualitativeMappingBlock",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0079143010079860687,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ExplicitZeroVsAbsent",
+			"fullTestPath": "MedievalWar.Denmark.Network.SchemaContract.ExplicitZeroVsAbsent",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0081789977848529816,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LegacyV2Migration",
+			"fullTestPath": "MedievalWar.Denmark.Network.SchemaContract.LegacyV2Migration",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0084441974759101868,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OrderDeterminism",
+			"fullTestPath": "MedievalWar.Denmark.Network.SchemaContract.OrderDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0080593973398208618,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Accounting",
+			"fullTestPath": "MedievalWar.Denmark.Network.SourceBoundProjection.Accounting",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0079483985900878906,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Blockers",
+			"fullTestPath": "MedievalWar.Denmark.Network.SourceBoundProjection.Blockers",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0081578008830547333,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.Denmark.Network.SourceBoundProjection.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0080041997134685516,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DryRunBoundary",
+			"fullTestPath": "MedievalWar.Denmark.Network.SourceBoundProjection.DryRunBoundary",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0083086006343364716,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DryRunNoMutation",
+			"fullTestPath": "MedievalWar.Denmark.Network.DryRunNoMutation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.007966998964548111,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OrderDeterminism",
+			"fullTestPath": "MedievalWar.Denmark.Network.OrderDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E94C9D9D4D9E1D81FFDF5A9ECC1FC2EE"
+			],
+			"duration": 0.0081206001341342926,
+			"dateTime": "2026.09.01-03.30.13",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

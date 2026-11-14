@@ -1,0 +1,36 @@
+{
+  "Result": "PASS",
+  "ObservedCounts": {
+    "portfolios": 32,
+    "property": 15,
+    "population": 14,
+    "production": 12,
+    "revenue": 11,
+    "development": 10,
+    "shock": 10
+  },
+  "Checks": {
+    "portfolios_32": true,
+    "property_15": true,
+    "population_14": true,
+    "production_12": true,
+    "revenue_11": true,
+    "development_10": true,
+    "shock_10": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "finite_pools": true,
+    "no_direct_manpower": true,
+    "no_quantities": true,
+    "no_mutations": true,
+    "honest": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "AuthoritySHA256": "e2e59887fa0407a10e86aaee0047a938f50435d64ead8c7c8f6c8220b6729b0a",
+  "AuthorityBytes": 77330,
+  "AuthorityLines": 1290,
+  "Scope": "Static economy, property, population, production, trade, development, finite-recruitment, save-safety, and hygiene checks"
+}

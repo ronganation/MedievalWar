@@ -1,0 +1,21 @@
+{
+  "document": "City_Guard_V1_Master_Unit_Profile.md",
+  "sha256": "c305b89c95e7834e5ac75521ccbac3078a7ccfd2dbfa4bcf8ada7776e93c8001",
+  "checks": {
+    "substantive_length": true,
+    "sections_consecutive": true,
+    "section_count_at_least_90": true,
+    "legacy_terrain_11": true,
+    "legacy_values_present": true,
+    "institution_first": true,
+    "establishment_composition": true,
+    "detachment_contract": true,
+    "guild_swordsmen_firewall": true,
+    "implementation_batches": true,
+    "rollback_present": true,
+    "no_escaped_underscores": true,
+    "fences_balanced": true,
+    "footer_final": true,
+    "pass": true
+  }
+}

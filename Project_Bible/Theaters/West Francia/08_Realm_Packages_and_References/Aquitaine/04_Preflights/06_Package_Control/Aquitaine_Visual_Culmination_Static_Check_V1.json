@@ -1,0 +1,75 @@
+{
+  "DocumentControl": {
+    "DocumentId": "VisualCulmination.StaticCheck.Realm.Aquitaine.V1",
+    "FileName": "Aquitaine_Visual_Culmination_Static_Check_V1.json",
+    "Version": "1.0.1",
+    "Status": "PassReviewOnly",
+    "ProductionApproval": false
+  },
+  "CheckedManifest": {
+    "FileName": "Aquitaine_Visual_Culmination_Asset_Manifest_V1.json",
+    "SHA256": "149c76b4397ddd75135ace0c33b5f721aec59f951acd3800cd5f52bc8f3c9e63"
+  },
+  "Checks": [
+    {
+      "Id": "VisualAuthorityObserved",
+      "Result": "Pass"
+    },
+    {
+      "Id": "DesignerPacketObserved",
+      "Result": "Pass"
+    },
+    {
+      "Id": "DeckReceiptRecorded",
+      "Result": "Pass"
+    },
+    {
+      "Id": "MontageObserved",
+      "Result": "Pass"
+    },
+    {
+      "Id": "InternalOneSheetPresent",
+      "Result": "Pass"
+    },
+    {
+      "Id": "PlayerFacingPNGPresent",
+      "Result": "Pass"
+    },
+    {
+      "Id": "PlayerFacingPPTXPresent",
+      "Result": "Pass"
+    },
+    {
+      "Id": "InternalInspectionPresent",
+      "Result": "Pass"
+    },
+    {
+      "Id": "PlayerInspectionPresent",
+      "Result": "Pass"
+    },
+    {
+      "Id": "ProductionApprovalFalse",
+      "Result": "Pass"
+    },
+    {
+      "Id": "UnrealImportFalse",
+      "Result": "Pass"
+    },
+    {
+      "Id": "OpeningActivationFalse",
+      "Result": "Pass"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 12,
+    "Passes": 12,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "Authorizations": {
+    "RegistryPromotion": false,
+    "OpeningStateActivation": false,
+    "UnrealImport": false,
+    "RuntimeActivation": false
+  }
+}

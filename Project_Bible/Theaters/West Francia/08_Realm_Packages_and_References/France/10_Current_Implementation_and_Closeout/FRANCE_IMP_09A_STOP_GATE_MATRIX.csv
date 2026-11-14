@@ -1,0 +1,11 @@
+Gate,CurrentState,RequiredToReopen,ActionNow
+AdditionalFranceFunctionalLane,Closed,Concrete defect or controlling shared-framework delta,STOP
+ProjectRegistry,Blocked,Verified project Registry owner receipt,WAIT_FOR_OWNER_GATE
+ExternalOwnerInterfaces,Blocked,Versioned reverse owner receipts,WAIT_FOR_OWNER_GATE
+ExactOpeningRecords,Blocked,Owner-approved exact records,WAIT_FOR_OWNER_GATE
+CurrentMachinePayload,Blocked,Authorized current candidate bundle and schema validation,WAIT_FOR_OWNER_GATE
+RealImporter,Blocked,Dedicated single writer fresh drift check and explicit authorization,WAIT_FOR_OWNER_GATE
+RuntimeRealmAI,Blocked,Owner observations importer persistence and explicit activation authority,WAIT_FOR_OWNER_GATE
+BattleIntegration,Deferred,Exact forces pools routes supply terrain command and balance records,DO_NOT_START
+VisualProduction,Blocked,Art rights localization accessibility and production approval,DO_NOT_IMPORT
+PackageFreeze,NotAuthorized,All critical gates cleared and inventory regenerated,DO_NOT_FREEZE

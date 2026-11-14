@@ -1,0 +1,1165 @@
+{
+  "profileIdentity": {
+    "profileId": "validation_profile.almoravid.opening_state.1062.v1",
+    "profileVersion": "1.0.0",
+    "documentKind": "OpeningStateStaticValidationProfile",
+    "status": "STATIC_CHECKED_PROFILE"
+  },
+  "packageBinding": {
+    "schema": {
+      "file": "Almoravid_Opening_State_Package_Schema_V1.json",
+      "sha256": "7631579ea6f0977b757f18696edf6309f7db9b5eaf13141f9f998b007f832293",
+      "schemaId": "schema.almoravid.opening_state.package.v1",
+      "jsonSchemaDraft": "2020-12"
+    },
+    "canonicalPayload": {
+      "file": "Almoravid_Opening_State_1062_V1.json",
+      "fileSha256": "211b1a6936f3f801454690d4d0a2b3c234d5c45f7bf929aeee56ff310056e3a3",
+      "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97"
+    },
+    "abuBakrOverlay": {
+      "file": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "fileSha256": "9acdecd47bab2c7d3b78c44137edc9c4c6ebc231382d426c51a21c2bd06ba8fb",
+      "overlayHash": "1df2f98c26cc486da6af19abfdd8d9c4b92df320025494cdf87057d9022f0795"
+    },
+    "yusufOverlay": {
+      "file": "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json",
+      "fileSha256": "74658fa9da9b27fa93131e9eb1f85789d2f4a3a080a6a08fe8f5a3a39f652b99",
+      "overlayHash": "4bbd1371a078f1eace0c6c05aeb6c6b2cf59a1b46bbcb6117b9ec5d5b573338c"
+    },
+    "registry": {
+      "registryId": "registry.almoravid.v1",
+      "registryVersion": "1.1.0",
+      "file": "Almoravid_ID_Registry_V1.md",
+      "sha256": "e798c51865aa289eae5a72681b18a8e5e455c1ea669216904d2b33af9061989f"
+    }
+  },
+  "validationLayers": [
+    {
+      "order": 1,
+      "layerId": "JsonSyntax",
+      "ownerRef": "ImporterValidationOwner",
+      "input": "Raw JSON bytes",
+      "fatalStopsPipeline": true
+    },
+    {
+      "order": 2,
+      "layerId": "JsonSchema",
+      "ownerRef": "ImporterValidationOwner",
+      "input": "Parsed document plus strict schema",
+      "fatalStopsPipeline": true
+    },
+    {
+      "order": 3,
+      "layerId": "BindingAndRegistry",
+      "ownerRef": "RegistryOwner",
+      "input": "Schema, payload, overlay, registry and hash bindings",
+      "fatalStopsPipeline": true
+    },
+    {
+      "order": 4,
+      "layerId": "CrossRecordSemantics",
+      "ownerRef": "ScenarioValidationOwner",
+      "input": "Canonical payload and selected overlay",
+      "fatalStopsPipeline": true
+    },
+    {
+      "order": 5,
+      "layerId": "ExplicitEmptyCatalogue",
+      "ownerRef": "ScenarioValidationOwner",
+      "input": "Exact ordered 66-name catalogue",
+      "fatalStopsPipeline": true
+    },
+    {
+      "order": 6,
+      "layerId": "Temporal",
+      "ownerRef": "TemporalOwners",
+      "input": "Four initial temporal states",
+      "fatalStopsPipeline": true
+    },
+    {
+      "order": 7,
+      "layerId": "ApplicationGuard",
+      "ownerRef": "CampaignInitializationAndSaveOwners",
+      "input": "Campaign state, receipt and divergence state",
+      "fatalStopsPipeline": true
+    },
+    {
+      "order": 8,
+      "layerId": "OwnerRouting",
+      "ownerRef": "SharedImporterOwner",
+      "input": "Normalized owner requests and owner responses",
+      "fatalStopsPipeline": true
+    },
+    {
+      "order": 9,
+      "layerId": "Transaction",
+      "ownerRef": "SharedImporterOwner",
+      "input": "Staged owner mutations and rollback hashes",
+      "fatalStopsPipeline": true
+    },
+    {
+      "order": 10,
+      "layerId": "Determinism",
+      "ownerRef": "DeterminismValidationOwner",
+      "input": "State, content, versions, seed, traces and hashes",
+      "fatalStopsPipeline": true
+    },
+    {
+      "order": 11,
+      "layerId": "Presentation",
+      "ownerRef": "PresentationOwner",
+      "input": "Committed result or static candidate findings",
+      "fatalStopsPipeline": false
+    }
+  ],
+  "severityPolicy": {
+    "Fatal": {
+      "commitAllowed": false,
+      "authoritativeMutationCount": 0,
+      "continueAfterFinding": false
+    },
+    "Warning": {
+      "commitAllowed": true,
+      "requiresFindingReceipt": true,
+      "maySupplyDefault": false
+    },
+    "Information": {
+      "commitAllowed": true,
+      "mayCreateOwnerRequest": false
+    }
+  },
+  "dispositions": {
+    "Accepted": {
+      "commit": true,
+      "requiresReceipt": true
+    },
+    "AcceptedWithWarnings": {
+      "commit": true,
+      "requiresReceipt": true
+    },
+    "AlreadyApplied": {
+      "commit": false,
+      "authoritativeMutationCount": 0,
+      "requiresMatchingReceipt": true
+    },
+    "RejectedFatal": {
+      "commit": false,
+      "authoritativeMutationCount": 0,
+      "rollbackRequiredIfStagingStarted": true
+    }
+  },
+  "semanticChecks": [
+    {
+      "order": 1,
+      "checkId": "PAYLOAD_ONE_OVERLAY_EXACTLY_ONE",
+      "expected": "One canonical payload and exactly one selected overlay"
+    },
+    {
+      "order": 2,
+      "checkId": "PERSPECTIVE_PERSON_PAIR",
+      "expected": "Abu Bakr pairs with person.abu_bakr_ibn_umar; Yusuf pairs with person.yusuf_ibn_tashfin"
+    },
+    {
+      "order": 3,
+      "checkId": "OVERLAY_SELECTION_ONLY",
+      "expected": "selectionOnly true and all mutation permissions false"
+    },
+    {
+      "order": 4,
+      "checkId": "PAYLOAD_OVERLAY_HASH_BINDING",
+      "expected": "Both overlays bind canonical payload hash 3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97"
+    },
+    {
+      "order": 5,
+      "checkId": "LIVING_CHARACTER_SET",
+      "expected": [
+        "person.abu_bakr_ibn_umar",
+        "person.yusuf_ibn_tashfin"
+      ]
+    },
+    {
+      "order": 6,
+      "checkId": "ZAYNAB_POLICY_B",
+      "expected": "PolicyBDefinitionOnly and absent from openingCharacterRecords"
+    },
+    {
+      "order": 7,
+      "checkId": "HISTORICAL_NON_RUNTIME_SET",
+      "expected": [
+        "person.abdallah_ibn_yasin",
+        "person.yahya_ibn_umar",
+        "person.yahya_ibn_ibrahim"
+      ]
+    },
+    {
+      "order": 8,
+      "checkId": "AGHMAT_PRINCIPAL_BASE",
+      "expected": "settlement.aghmat with no inferred market, mint, garrison, treasury, or uniform Haouz control"
+    },
+    {
+      "order": 9,
+      "checkId": "MARRAKESH_DEFINITION_ONLY",
+      "expected": "capital_project.marrakesh_foundation has no runtime instance and activePhaseRef null"
+    },
+    {
+      "order": 10,
+      "checkId": "EXPLICIT_EMPTY_EXACT_SET",
+      "expectedCount": 66,
+      "expectedOrderedNames": [
+        "ActiveCharacterNetworkEdges",
+        "ActiveExternalNetworkEdges",
+        "ActiveTrustEdges",
+        "ActiveLoyaltyEdges",
+        "ActiveHostilityEdges",
+        "ActiveRivalryEdges",
+        "ActiveMarriageEdges",
+        "ActiveCommandSupportEdges",
+        "ActiveCommunicationRecords",
+        "ActiveConfederationalCommitments",
+        "ActiveMobilizationObligations",
+        "ActiveLeadershipRecognitions",
+        "ActivePastureRights",
+        "ActiveWaterRights",
+        "ActiveSpoilsAgreements",
+        "ActiveRouteCommitments",
+        "ActiveBreachRecords",
+        "ActiveArmies",
+        "ActiveCommands",
+        "ActiveCampaignInstances",
+        "ActiveForceLocations",
+        "ActiveRecruitmentAuthorities",
+        "ActiveGarrisons",
+        "ActiveMilitaryAccessAgreements",
+        "ActiveSieges",
+        "ActiveOccupations",
+        "ActiveAccounts",
+        "ActiveTreasuries",
+        "ActivePropertyInstances",
+        "ActiveTaxRates",
+        "ActiveRevenueReceipts",
+        "ActiveControlledMarkets",
+        "ActiveMintOperations",
+        "ActiveCaravans",
+        "ActiveShipments",
+        "ActiveStockpiles",
+        "ActiveTransportInventories",
+        "ActiveSupplyContracts",
+        "ActiveForceSupplyLedgers",
+        "ActiveCapitalProjectInstances",
+        "ActiveCapitalPhases",
+        "ActiveCapitalWorkPackages",
+        "ActiveCapitalAccounts",
+        "ActiveCapitalProperties",
+        "ActiveCapitalLaborContracts",
+        "ActiveCapitalMaterialStocks",
+        "ActiveCapitalSupplyContracts",
+        "ActiveCapitalSecurityForces",
+        "AdministrativeTransfers",
+        "ActiveNamedJurists",
+        "ActiveReligiousOffices",
+        "ActiveJuristicInstitutions",
+        "ActiveFatwas",
+        "ActiveJudgments",
+        "ActiveDisciplineCases",
+        "ActiveAbbasidRecognitionRecords",
+        "ActiveHistoricalMemoryInstances",
+        "ActiveHistoricalMomentumInstances",
+        "ActiveHistoricalEmergenceInstances",
+        "ScheduledHistoricalDeaths",
+        "ScheduledHistoricalIllnesses",
+        "PredeterminedMarriages",
+        "PredeterminedTitleTransfers",
+        "PredeterminedPartitions",
+        "PredeterminedCivilWars",
+        "PredeterminedAlAndalusInterventions"
+      ]
+    },
+    {
+      "order": 11,
+      "checkId": "EXPLICIT_EMPTY_ALL_EMPTY",
+      "expected": "Every items array empty; intentionalEmpty true; reasonCode DefinitionOnlyNoInstance"
+    },
+    {
+      "order": 12,
+      "checkId": "DECLARED_COUNTS_MATCH_DERIVED",
+      "expected": "All declared counts equal payload-derived counts"
+    },
+    {
+      "order": 13,
+      "checkId": "NO_UNSUPPORTED_OPENING_INSTANCES",
+      "expected": "Armies, commands, campaigns, edges, economy, capital and phase counts all zero"
+    },
+    {
+      "order": 14,
+      "checkId": "TEMPORAL_INITIAL_STATE",
+      "expected": "Date 1062-01-01; Historical 21; Biological 7; Winter; indices and elapsed zero"
+    },
+    {
+      "order": 15,
+      "checkId": "TEMPORAL_SEPARATION",
+      "expected": "No universal turn field; no fixed ratio; Historical does not age; Biological does not resolve strategy; Season independent"
+    },
+    {
+      "order": 16,
+      "checkId": "REVIEW_AND_QUARANTINE_INACTIVE",
+      "expected": "ReviewOnly 136 and Quarantine 17 with activation false"
+    },
+    {
+      "order": 17,
+      "checkId": "EXTERNAL_LOCKS_INACTIVE",
+      "expected": "Six external settlement locks with opening and local universal mutation false"
+    },
+    {
+      "order": 18,
+      "checkId": "LATER_HISTORY_EXCLUSIONS",
+      "expected": [
+        "CompletedMarrakeshCapital",
+        "YusufSoleUniversalSovereignty",
+        "AbuBakrPermanentNorthernRenunciation",
+        "AlAndalusIntervention",
+        "BattleOfSagrajas",
+        "TaifaAnnexation",
+        "PredeterminedEmpireCompletion"
+      ]
+    }
+  ],
+  "explicitEmptyCataloguePolicy": {
+    "count": 66,
+    "ordered": true,
+    "unique": true,
+    "allowMissing": false,
+    "allowAdditional": false,
+    "allItemsMustBeEmpty": true,
+    "intentionalEmptyMustBeTrue": true,
+    "reasonCode": "DefinitionOnlyNoInstance",
+    "orderedCollectionRefs": [
+      "ActiveCharacterNetworkEdges",
+      "ActiveExternalNetworkEdges",
+      "ActiveTrustEdges",
+      "ActiveLoyaltyEdges",
+      "ActiveHostilityEdges",
+      "ActiveRivalryEdges",
+      "ActiveMarriageEdges",
+      "ActiveCommandSupportEdges",
+      "ActiveCommunicationRecords",
+      "ActiveConfederationalCommitments",
+      "ActiveMobilizationObligations",
+      "ActiveLeadershipRecognitions",
+      "ActivePastureRights",
+      "ActiveWaterRights",
+      "ActiveSpoilsAgreements",
+      "ActiveRouteCommitments",
+      "ActiveBreachRecords",
+      "ActiveArmies",
+      "ActiveCommands",
+      "ActiveCampaignInstances",
+      "ActiveForceLocations",
+      "ActiveRecruitmentAuthorities",
+      "ActiveGarrisons",
+      "ActiveMilitaryAccessAgreements",
+      "ActiveSieges",
+      "ActiveOccupations",
+      "ActiveAccounts",
+      "ActiveTreasuries",
+      "ActivePropertyInstances",
+      "ActiveTaxRates",
+      "ActiveRevenueReceipts",
+      "ActiveControlledMarkets",
+      "ActiveMintOperations",
+      "ActiveCaravans",
+      "ActiveShipments",
+      "ActiveStockpiles",
+      "ActiveTransportInventories",
+      "ActiveSupplyContracts",
+      "ActiveForceSupplyLedgers",
+      "ActiveCapitalProjectInstances",
+      "ActiveCapitalPhases",
+      "ActiveCapitalWorkPackages",
+      "ActiveCapitalAccounts",
+      "ActiveCapitalProperties",
+      "ActiveCapitalLaborContracts",
+      "ActiveCapitalMaterialStocks",
+      "ActiveCapitalSupplyContracts",
+      "ActiveCapitalSecurityForces",
+      "AdministrativeTransfers",
+      "ActiveNamedJurists",
+      "ActiveReligiousOffices",
+      "ActiveJuristicInstitutions",
+      "ActiveFatwas",
+      "ActiveJudgments",
+      "ActiveDisciplineCases",
+      "ActiveAbbasidRecognitionRecords",
+      "ActiveHistoricalMemoryInstances",
+      "ActiveHistoricalMomentumInstances",
+      "ActiveHistoricalEmergenceInstances",
+      "ScheduledHistoricalDeaths",
+      "ScheduledHistoricalIllnesses",
+      "PredeterminedMarriages",
+      "PredeterminedTitleTransfers",
+      "PredeterminedPartitions",
+      "PredeterminedCivilWars",
+      "PredeterminedAlAndalusInterventions"
+    ]
+  },
+  "declaredOpeningCounts": {
+    "canonicalPayloads": 1,
+    "perspectiveDefinitions": 2,
+    "livingCharacters": 2,
+    "definitionOnlyReviewCharacters": 1,
+    "historicalNonRuntimeCharacters": 3,
+    "principalBaseBindings": 1,
+    "explicitEmptyCollections": 66,
+    "openingArmies": 0,
+    "openingCommands": 0,
+    "openingCampaignInstances": 0,
+    "openingPoliticalEdges": 0,
+    "openingEconomicInstances": 0,
+    "openingCapitalProjectInstances": 0,
+    "openingCapitalPhases": 0
+  },
+  "temporalPolicy": {
+    "historicalDate": "1062-01-01",
+    "historicalProgression": {
+      "stepDurationMonths": 21,
+      "initialIndex": 0,
+      "initialElapsedMonths": 0,
+      "agesCharacters": false
+    },
+    "biologicalProgression": {
+      "stepDurationMonths": 7,
+      "initialIndex": 0,
+      "initialElapsedMonths": 0,
+      "resolvesRealmStrategy": false
+    },
+    "campaignSeason": {
+      "initial": "Winter",
+      "initialIndex": 0,
+      "order": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ],
+      "derivedFromHistoricalMonth": false
+    },
+    "universalTurnFieldAllowed": false,
+    "fixedCrossClockRatioAllowed": false
+  },
+  "applicationPolicy": {
+    "requiredCampaignState": "NewCampaignUninitialized",
+    "applyAtMostOnce": true,
+    "atomicCommitRequired": true,
+    "applicationReceiptRequired": true,
+    "advancedSaveApplicationDisposition": "RejectedFatal",
+    "matchingReceiptDisposition": "AlreadyApplied",
+    "mismatchedReceiptDisposition": "RejectedFatal",
+    "reapplyOnLoad": false,
+    "reapplyAfterMigration": false,
+    "reapplyToAdvancedSave": false
+  },
+  "ownerRoutingPolicy": {
+    "requiredOwners": [
+      "RealmAndFactionOwner",
+      "CharacterFoundation",
+      "CampaignPerspectiveOwner",
+      "GeographyFacingRealmOwner",
+      "ReligiousAndJuristicOwner",
+      "EconomyPropertySupplyOwners",
+      "HistoricalDateOwner",
+      "HistoricalProgressionOwner",
+      "BiologicalProgressionOwner",
+      "CampaignSeasonOwner",
+      "CampaignInitializationAndSaveOwners"
+    ],
+    "aiMayPropose": true,
+    "aiMayMutate": false,
+    "allRequiredOwnersMustAccept": true,
+    "partialCommitAllowed": false,
+    "receiptWriteFailureRequiresRollback": true
+  },
+  "deterministicOrdering": {
+    "validationLayerOrder": [
+      "JsonSyntax",
+      "JsonSchema",
+      "BindingAndRegistry",
+      "CrossRecordSemantics",
+      "ExplicitEmptyCatalogue",
+      "Temporal",
+      "ApplicationGuard",
+      "OwnerRouting",
+      "Transaction",
+      "Determinism",
+      "Presentation"
+    ],
+    "findingSortKeys": [
+      "validationLayerOrder",
+      "severityOrdinal",
+      "issueCode",
+      "canonicalPath",
+      "subjectRef"
+    ],
+    "severityOrdinal": {
+      "Fatal": 0,
+      "Warning": 1,
+      "Information": 2
+    },
+    "ownerRequestSortKeys": [
+      "ownerOrdinal",
+      "requestTypeOrdinal",
+      "subjectRef",
+      "requestRef"
+    ],
+    "equalInputsRequireEqual": [
+      "disposition",
+      "findings",
+      "ownerRequests",
+      "ownerResponses",
+      "receipt",
+      "stateHashes",
+      "traceHash",
+      "resultHash"
+    ],
+    "forbiddenOrderingInputs": [
+      "fileEnumerationOrder",
+      "localizedText",
+      "wallClockTime",
+      "memoryAddress"
+    ]
+  },
+  "issueCatalogue": [
+    {
+      "issueCode": "ALM_OSV_JSON_PARSE_ERROR",
+      "severity": "Fatal",
+      "validationLayer": "JsonSyntax",
+      "triggerCondition": "Document is not valid JSON",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_DOCUMENT_KIND_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "JsonSchema",
+      "triggerCondition": "Document matches zero or multiple schema branches",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_SCHEMA_VALIDATION_FAILED",
+      "severity": "Fatal",
+      "validationLayer": "JsonSchema",
+      "triggerCondition": "Document violates strict package schema",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_UNEXPECTED_PROPERTY",
+      "severity": "Fatal",
+      "validationLayer": "JsonSchema",
+      "triggerCondition": "Document contains a property prohibited by additionalProperties false",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_REQUIRED_PROPERTY_MISSING",
+      "severity": "Fatal",
+      "validationLayer": "JsonSchema",
+      "triggerCondition": "Required property is absent",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_SCHEMA_HASH_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "BindingAndRegistry",
+      "triggerCondition": "Schema file SHA-256 differs from profile binding",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_PAYLOAD_FILE_HASH_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "BindingAndRegistry",
+      "triggerCondition": "Canonical payload file SHA-256 differs from profile binding",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_PAYLOAD_CANONICAL_HASH_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "BindingAndRegistry",
+      "triggerCondition": "Canonical payload content hash differs from overlay and payload binding",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_OVERLAY_FILE_HASH_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "BindingAndRegistry",
+      "triggerCondition": "Selected overlay file SHA-256 differs from profile binding",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_OVERLAY_HASH_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "BindingAndRegistry",
+      "triggerCondition": "Overlay content hash differs from the bound V1 value",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_REGISTRY_VERSION_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "BindingAndRegistry",
+      "triggerCondition": "Registry version is not 1.1.0",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_REGISTRY_HASH_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "BindingAndRegistry",
+      "triggerCondition": "Registry hash differs from finalized Registry V1.1 binding",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_DEPRECATED_ID",
+      "severity": "Fatal",
+      "validationLayer": "BindingAndRegistry",
+      "triggerCondition": "Deprecated ID appears in content",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_ALIAS_CHAIN",
+      "severity": "Fatal",
+      "validationLayer": "BindingAndRegistry",
+      "triggerCondition": "Alias chain is detected",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_CANONICAL_ID_UNRESOLVED",
+      "severity": "Fatal",
+      "validationLayer": "BindingAndRegistry",
+      "triggerCondition": "Active canonical reference cannot be resolved",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_PERSPECTIVE_REQUIRED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "No perspective overlay is supplied",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_MULTIPLE_PERSPECTIVES",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "More than one perspective overlay is supplied",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_PERSPECTIVE_PERSON_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Perspective and selected person pairing is invalid",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_OVERLAY_PAYLOAD_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Overlay opening-state ID or payload hash does not match canonical payload",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_OVERLAY_MUTATION_AUTHORITY",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Overlay permits content, history, base, or record mutation",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_SELECTION_STORED_IN_PAYLOAD",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Canonical payload stores selected perspective",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_LIVING_CHARACTER_COUNT_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Living opening character count is not exactly two",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_ZAYNAB_POLICY_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Zaynab policy is not PolicyBDefinitionOnly",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_ZAYNAB_RUNTIME_INJECTED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Zaynab appears as a living opening runtime character",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_HISTORICAL_PERSON_RUNTIME_INJECTED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Historical non-runtime person appears in living or perspective records",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_EXACT_BIRTHDAY_INVENTED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Opening character receives unsupported exact birthday or age",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_LEADER_LOCATION_INVENTED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Opening leader receives unsupported location",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_COMMAND_INJECTED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Opening command is created",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_PROPERTY_OR_RELATIONSHIP_INJECTED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Opening character receives property or relationship records",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_PRINCIPAL_BASE_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Principal base is not settlement.aghmat",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_UNIFORM_HAOUZ_CONTROL_INFERRED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Aghmat binding implies uniform Haouz control",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_AGHMAT_ASSET_INJECTED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Aghmat binding gains market, mint, garrison, or treasury",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_MARRAKESH_INSTANCE_INJECTED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Marrakesh project runtime instance is created",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_MARRAKESH_PHASE_INJECTED",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Marrakesh active phase is non-null or active count is nonzero",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_EMPTY_COLLECTION_COUNT_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "triggerCondition": "Explicit-empty collection count is not 66",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_EMPTY_COLLECTION_NAME_MISSING",
+      "severity": "Fatal",
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "triggerCondition": "Required collectionRef is missing",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_EMPTY_COLLECTION_DUPLICATE",
+      "severity": "Fatal",
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "triggerCondition": "collectionRef occurs more than once",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_EMPTY_COLLECTION_ORDER_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "triggerCondition": "Explicit-empty catalogue order differs from V1 canonical order",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_EMPTY_COLLECTION_OWNER_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "triggerCondition": "Collection owner differs from canonical V1 owner",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_EMPTY_COLLECTION_REASON_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "triggerCondition": "Collection reason differs from DefinitionOnlyNoInstance",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_EMPTY_COLLECTION_NONEMPTY",
+      "severity": "Fatal",
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "triggerCondition": "Intentional empty collection contains an item",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_EMPTY_COLLECTION_NOT_INTENTIONAL",
+      "severity": "Fatal",
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "triggerCondition": "intentionalEmpty is not true",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_DECLARED_COUNT_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Declared count differs from values derived from payload",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_UNSUPPORTED_OPENING_INSTANCE",
+      "severity": "Fatal",
+      "validationLayer": "CrossRecordSemantics",
+      "triggerCondition": "Unsupported army, edge, economy, capital, office, or Historical instance exists",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_HISTORICAL_DATE_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "Temporal",
+      "triggerCondition": "Historical Date differs from 1062-01-01",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_HISTORICAL_PROGRESSION_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "Temporal",
+      "triggerCondition": "Historical progression differs from 21 months at index and elapsed zero",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_BIOLOGICAL_PROGRESSION_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "Temporal",
+      "triggerCondition": "Biological progression differs from 7 months at index and elapsed zero",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_CAMPAIGN_SEASON_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "Temporal",
+      "triggerCondition": "Campaign Season differs from Winter at index zero",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_CAMPAIGN_SEASON_ORDER_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "Temporal",
+      "triggerCondition": "Campaign Season order differs from Winter Spring Summer Autumn",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_FIXED_CROSS_CLOCK_RATIO",
+      "severity": "Fatal",
+      "validationLayer": "Temporal",
+      "triggerCondition": "Fixed cross-clock ratio is present",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_UNIVERSAL_TURN_FIELD",
+      "severity": "Fatal",
+      "validationLayer": "Temporal",
+      "triggerCondition": "Universal turn field is present",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_HISTORICAL_AGES_CHARACTER",
+      "severity": "Fatal",
+      "validationLayer": "Temporal",
+      "triggerCondition": "Historical progression is configured to age characters",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_BIOLOGICAL_RESOLVES_STRATEGY",
+      "severity": "Fatal",
+      "validationLayer": "Temporal",
+      "triggerCondition": "Biological progression is configured to resolve realm strategy",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_SEASON_FROM_HISTORICAL_MONTH",
+      "severity": "Fatal",
+      "validationLayer": "Temporal",
+      "triggerCondition": "Campaign Season is derived from Historical month",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_CAMPAIGN_STATE_INVALID",
+      "severity": "Fatal",
+      "validationLayer": "ApplicationGuard",
+      "triggerCondition": "Campaign state is not NewCampaignUninitialized",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_ADVANCED_SAVE_APPLICATION",
+      "severity": "Fatal",
+      "validationLayer": "ApplicationGuard",
+      "triggerCondition": "Historical, Biological, Season, receipt, or runtime divergence proves advanced save",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_RECEIPT_CONTENT_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "ApplicationGuard",
+      "triggerCondition": "Existing receipt does not match payload and selected overlay",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_ALREADY_APPLIED",
+      "severity": "Information",
+      "validationLayer": "ApplicationGuard",
+      "triggerCondition": "Matching valid receipt already exists",
+      "defaultDisposition": "AlreadyApplied",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_OWNER_ROUTE_MISSING",
+      "severity": "Fatal",
+      "validationLayer": "OwnerRouting",
+      "triggerCondition": "Required owner route is missing",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_OWNER_REJECTED",
+      "severity": "Fatal",
+      "validationLayer": "OwnerRouting",
+      "triggerCondition": "Required owner rejects staged request",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_PARTIAL_COMMIT",
+      "severity": "Fatal",
+      "validationLayer": "Transaction",
+      "triggerCondition": "One or more owner mutations committed without all required owners",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_ROLLBACK_FAILED",
+      "severity": "Fatal",
+      "validationLayer": "Transaction",
+      "triggerCondition": "Rollback does not restore pre-transaction owner hashes",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_RECEIPT_WRITE_FAILED",
+      "severity": "Fatal",
+      "validationLayer": "Transaction",
+      "triggerCondition": "Application receipt cannot be written after owner commit",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_DETERMINISM_MISMATCH",
+      "severity": "Fatal",
+      "validationLayer": "Determinism",
+      "triggerCondition": "Equal inputs, versions, seed, and state produce unequal results or hashes",
+      "defaultDisposition": "RejectedFatal",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_OPTIONAL_PRESENTATION_METADATA_MISSING",
+      "severity": "Warning",
+      "validationLayer": "Presentation",
+      "triggerCondition": "Optional localized presentation metadata is unavailable",
+      "defaultDisposition": "AcceptedWithWarnings",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_DEFINITION_ONLY_POLICY",
+      "severity": "Information",
+      "validationLayer": "Presentation",
+      "triggerCondition": "Definition-only policy intentionally creates no runtime instance",
+      "defaultDisposition": "Accepted",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_INTENTIONAL_EMPTY_COLLECTION",
+      "severity": "Information",
+      "validationLayer": "Presentation",
+      "triggerCondition": "Collection is present, intentionally empty, and owner-declared",
+      "defaultDisposition": "Accepted",
+      "authoritativeMutationCount": 0
+    },
+    {
+      "issueCode": "ALM_OSV_LATER_HISTORY_EXCLUDED",
+      "severity": "Information",
+      "validationLayer": "Presentation",
+      "triggerCondition": "Later historical outcome is correctly excluded",
+      "defaultDisposition": "Accepted",
+      "authoritativeMutationCount": 0
+    }
+  ],
+  "fixtureRequirements": {
+    "positive": [
+      "ValidAbuBakrPerspective",
+      "ValidYusufPerspective",
+      "ValidRepeatedApplicationAlreadyApplied"
+    ],
+    "fatal": [
+      "MissingPerspective",
+      "MultiplePerspectives",
+      "PerspectivePersonMismatch",
+      "PayloadHashMismatch",
+      "SchemaHashMismatch",
+      "RegistryHashMismatch",
+      "ZaynabRuntimeInjected",
+      "HistoricalPersonRuntimeInjected",
+      "LeaderLocationInvented",
+      "ArmyInjected",
+      "NetworkEdgeInjected",
+      "CommitmentInjected",
+      "PropertyInjected",
+      "TreasuryInjected",
+      "MarketOrMintInjected",
+      "CaravanOrSupplyInjected",
+      "MarrakeshInstanceInjected",
+      "MarrakeshPhaseInjected",
+      "ReligiousOfficeInjected",
+      "HistoricalInstanceInjected",
+      "ExplicitCollectionMissing",
+      "ExplicitCollectionDuplicate",
+      "ExplicitCollectionNonempty",
+      "DeclaredCountMismatch",
+      "TemporalCorruption",
+      "FixedCrossClockRatio",
+      "ReviewOnlyActivation",
+      "QuarantineActivation",
+      "ExternalLockMutation",
+      "LaterHistoryActivation",
+      "AdvancedSaveApplication",
+      "OwnerRejection",
+      "PartialCommit",
+      "ReceiptWriteFailure",
+      "DeterminismMismatch"
+    ],
+    "everyNonCommitFixtureRequiresZeroAuthoritativeMutations": true,
+    "deterministicRepeatRequired": true
+  },
+  "receiptRequirements": {
+    "requiredFields": [
+      "openingStateId",
+      "openingStateVersion",
+      "registryVersion",
+      "schemaSha256",
+      "canonicalPayloadHash",
+      "selectedPerspectiveRef",
+      "perspectiveOverlayHash",
+      "authorityManifestHash",
+      "explicitEmptyCatalogueHash",
+      "temporalStateHash",
+      "ownerStateHashes",
+      "seed",
+      "disposition",
+      "traceHash",
+      "receiptHash"
+    ],
+    "persistSeparately": [
+      "historicalDate",
+      "historicalProgression",
+      "biologicalProgression",
+      "campaignSeason",
+      "registryVersion",
+      "authorityVersions",
+      "selectedPerspectiveRef",
+      "traceHash",
+      "receiptHash"
+    ],
+    "openingStateReplayAllowed": false
+  },
+  "evidenceBoundary": {
+    "profileStaticChecked": true,
+    "jsonSchemaPreviouslyValidated": true,
+    "semanticStaticValidationPreviouslyExecuted": true,
+    "realImporterValidated": false,
+    "compileValidated": false,
+    "runtimeValidated": false,
+    "saveLoadValidated": false,
+    "replayValidated": false,
+    "performanceValidated": false
+  },
+  "profileCanonicalHash": "5de34179a3e5c1b1f814884789fd9aff97da750d15622e3303b5dd1065c212af"
+}

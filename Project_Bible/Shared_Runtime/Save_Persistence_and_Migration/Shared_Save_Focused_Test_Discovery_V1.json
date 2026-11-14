@@ -1,0 +1,45 @@
+﻿{
+    "document_id":  "mw.shared-save.focused-test-discovery.v1",
+    "generated_utc":  "2026-08-24T19:06:51.0237158Z",
+    "disposable_clone_root":  "C:\\temp2\\MedievalWar_SharedSave_CompileClone_V1",
+    "active_source_mutation_performed":  false,
+    "discovered_test_count":  9,
+    "tests":  [
+                  {
+                      "test_name":  "MedievalWar.Campaign.EligibilityReviews.Migration.Schema3ToSchema4CreatesEmptyQueue",
+                      "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignAutomationTests.cpp.pre_TR_SV_001.bak"
+                  },
+                  {
+                      "test_name":  "MedievalWar.Campaign.EligibilityReviews.SaveLoadPreservesPendingReviews",
+                      "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignAutomationTests.cpp.pre_TR_SV_001.bak"
+                  },
+                  {
+                      "test_name":  "MedievalWar.Campaign.RuntimeIntegrity.Load.FutureSchemaRejected",
+                      "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignAutomationTests.cpp.pre_TR_SV_001.bak"
+                  },
+                  {
+                      "test_name":  "MedievalWar.Campaign.RuntimeIntegrity.Load.TamperedHashRejectedAndRolledBack",
+                      "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignAutomationTests.cpp.pre_TR_SV_001.bak"
+                  },
+                  {
+                      "test_name":  "MedievalWar.Campaign.RuntimeIntegrity.Load.UnknownChronologyRejected",
+                      "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignAutomationTests.cpp.pre_TR_SV_001.bak"
+                  },
+                  {
+                      "test_name":  "MedievalWar.Campaign.RuntimeIntegrity.Load.WrongSaveClassRejected",
+                      "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignAutomationTests.cpp.pre_TR_SV_001.bak"
+                  },
+                  {
+                      "test_name":  "MedievalWar.Campaign.RuntimeIntegrity.Migration.Schema2DiskSaveMigratesToSchema3",
+                      "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignAutomationTests.cpp.pre_TR_SV_001.bak"
+                  },
+                  {
+                      "test_name":  "MedievalWar.Campaign.RuntimeIntegrity.Save.RoundTripPreservesState",
+                      "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignAutomationTests.cpp.pre_TR_SV_001.bak"
+                  },
+                  {
+                      "test_name":  "MedievalWar.Campaign.Temporal.ProductionIntegration.FreshV2OpeningMigration",
+                      "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWDualClockProductionIntegrationTests.cpp"
+                  }
+              ]
+}

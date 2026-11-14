@@ -1,0 +1,178 @@
+{
+  "ManifestId": "manifest.payload.leon_castile.opening_state.1062.v2.v1_1",
+  "ManifestVersion": "1.1.0",
+  "RevisionDate": "2026-09-08",
+  "Status": "STATIC_CHECKED_PAYLOAD_MANIFEST_DEPENDENCY_AND_OVERLAY_STATUS_RECONCILED_PROMOTION_BLOCKED",
+  "Placement": "Leon_Castile/08_Machine_Readable",
+  "PayloadFile": "Leon_Castile_Opening_State_1062_V2.json",
+  "PayloadVersion": "2.0.0",
+  "MachineReadableOpeningStateVersion": "2.1.0",
+  "PayloadSha256": "9fa0885f4a84eadfadfdc297a0870e680c4f14a01b653b67d9b67a6a7abfd80f",
+  "PayloadBytes": 33218,
+  "PayloadLines": 869,
+  "PayloadBytesModifiedByThisSuccessor": false,
+  "ImmediateManifestSource": "Leon_Castile_Opening_State_1062_V2_Manifest.json",
+  "ImmediateManifestSourceVersion": "1.0.0",
+  "SourceTreatment": "ManifestSuccessorBindingContractV2_1AndOpeningAuthorityV2_2WhileRecognizingThreeGeneratedOverlaysWithoutPayloadByteMutation",
+  "ControllingContract": "Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_1_Dependency_Reconciled.md",
+  "ControllingContractVersion": "2.1.0",
+  "ControllingContractSha256": "52162a8f961f701c0fc21289b1b7f7d67b49f3c365f20ee48aedad3ca1753a05",
+  "ControllingOpeningAuthority": "Leon_Castile_Opening_State_1062_V2_2_Dependency_Reconciled_Authority.md",
+  "ControllingOpeningAuthorityVersion": "2.2.0",
+  "ControllingOpeningAuthoritySha256": "19ae743b4cdfd4255187735e60260c38971b996850bfd167a7fd8de39e3ac44c",
+  "PriorControllingOpeningAuthority": "Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority.md",
+  "PriorControllingOpeningAuthorityDisposition": "ImmediateSourceAndRollbackEvidence",
+  "SchemaBinding": {
+    "File": "Leon_Castile_Opening_State_Package_Schema_V2.json",
+    "Version": "2.0.0",
+    "Sha256": "d76fc2ecfe743ef47516ce0096f921f155cfa83de3518f22892f6c4e0ea1b39b",
+    "Manifest": "Leon_Castile_Opening_State_Package_Schema_V2_Manifest_V1_1.json"
+  },
+  "OverlayBindings": [
+    {
+      "Perspective": "sancho",
+      "File": "Leon_Castile_Opening_State_1062_Sancho_Overlay_V2.json",
+      "Version": "2.0.0",
+      "Sha256": "4e6c7f57e8f246b65a3213fde203500724e7a12c3313733b4bd24034a00425cb",
+      "SelectionOnly": true,
+      "MutationFlagsAllFalse": true
+    },
+    {
+      "Perspective": "alfonso",
+      "File": "Leon_Castile_Opening_State_1062_Alfonso_Overlay_V2.json",
+      "Version": "2.0.0",
+      "Sha256": "62a95feb4033a994301b092bce5ee639e09ecf117aa546a8f8da50a0d0d10e5b",
+      "SelectionOnly": true,
+      "MutationFlagsAllFalse": true
+    },
+    {
+      "Perspective": "garcia",
+      "File": "Leon_Castile_Opening_State_1062_Garcia_Overlay_V2.json",
+      "Version": "2.0.0",
+      "Sha256": "52a6475aa6c558d3fc32012207d9a6d52fad71d1d62a209753ea7cac13e3af83",
+      "SelectionOnly": true,
+      "MutationFlagsAllFalse": true
+    }
+  ],
+  "OverlayRequirement": {
+    "RequiredAtCampaignCreation": true,
+    "ExactlyOneOverlay": true,
+    "GeneratedOverlayCount": 3,
+    "DefaultPerspectiveRef": null,
+    "OverlayMayMutateContent": false,
+    "OverlayMayChangeSovereign": false,
+    "OverlayMayChangeTitles": false,
+    "OverlayMayCreateRecords": false,
+    "OverlayMayCreateAuthority": false
+  },
+  "PayloadIdentity": {
+    "PackageId": "package.leon_castile.opening_state.1062.v2",
+    "PackageVersion": "2.0.0",
+    "OpeningStateId": "opening.leon_castile.1062",
+    "ScenarioId": "mw.scenario.grand_campaign.1062",
+    "EffectiveDate": "1062-01-01",
+    "PoliticalForm": "CompositeMonarchy"
+  },
+  "ProtectedInvariants": {
+    "FerdinandSovereign": true,
+    "SevenUniqueCharacters": true,
+    "ThreeBrotherRoutes": true,
+    "RoutePairingsExact": true,
+    "DistinctPrimaryRoutes": true,
+    "NoRouteCreatesAuthority": true,
+    "OpportunityCountExact": true,
+    "OpportunitiesProposalOnly": true,
+    "ConversionGatesNonAutomatic": true,
+    "SiblingResultsEmpty": true,
+    "FamilyCounterweightsSafe": true,
+    "ExplicitEmptyCollectionCount": 55,
+    "DeclaredEmptyCountsMatch": true,
+    "AutomaticPartition": false,
+    "OpeningApplicationAdvancesTemporalTracks": false
+  },
+  "TemporalModel": {
+    "HistoricalProgressionMonthsPerStrategicTurn": 21,
+    "BiologicalProgressionMonthsPerStrategicTurn": 7,
+    "CampaignSeason": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "TracksIndependent": true,
+    "FixedHistoricalToBiologicalRatio": "PROHIBITED"
+  },
+  "Checks": {
+    "JsonParsePass": "PASS_RECORDED_NOT_RERUN",
+    "TopLevelIdentityPass": "PASS_RECORDED_NOT_RERUN",
+    "PayloadSha256Preserved": true,
+    "PayloadBytesPreserved": true,
+    "PayloadLinesPreserved": true,
+    "SourceManifestHashValidForExistingPayload": "PASS_RECORDED_NOT_RERUN",
+    "ContractV2_1Bound": true,
+    "OpeningAuthorityV2_2Bound": true,
+    "SchemaManifestV1_1Bound": true,
+    "ThreeV2OverlaysRecognized": true,
+    "AllOverlayPayloadHashesMatch": true,
+    "AllOverlaysSelectionOnly": true,
+    "AllOverlayMutationFlagsFalse": true,
+    "PromotionBlockPresent": true
+  },
+  "SourceRouting": {
+    "V2OwnerRoutingManifest": "NOT_GENERATED",
+    "SourceRoutingManifestHash": "REVIEW_ONLY_UNRESOLVED",
+    "Disposition": "BLOCKING_FOR_PROMOTION"
+  },
+  "EvidenceBoundary": {
+    "JSONParse": "PASS_RECORDED_NOT_RERUN",
+    "StaticSemanticChecks": "PASS_RECORDED_NOT_RERUN",
+    "PhysicalPayloadHashRecalculation": "NOT_RUN_CURRENT_EXECUTION",
+    "V2SchemaValidation": "NOT_RUN",
+    "AllThreeOverlaysColocatedValidation": "NOT_RUN",
+    "ColocatedDraft202012Validation": "NOT_RUN",
+    "OfflineFixtureExecution": "NOT_RUN",
+    "ImporterValidation": "NOT_RUN",
+    "CompileValidation": "NOT_RUN",
+    "RuntimeValidation": "NOT_RUN",
+    "TransactionRollbackExecution": "NOT_RUN",
+    "ReceiptPersistence": "NOT_RUN",
+    "SaveLoadValidation": "NOT_RUN",
+    "ReplayValidation": "NOT_RUN",
+    "PerformanceValidation": "NOT_RUN",
+    "PromotionToActivePayload": "PROHIBITED"
+  },
+  "RemovalLedger": {
+    "PayloadFields": [],
+    "OpeningRecords": [],
+    "BrotherMechanics": [],
+    "ExplicitEmptyRequirements": [],
+    "TemporalRules": [],
+    "ValidationBoundaries": [],
+    "OwnershipBoundaries": []
+  },
+  "MutationReceipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "RollbackPlan": "Remove this V1_1 manifest successor from current control and restore Leon_Castile_Opening_State_1062_V2_Manifest.json as the controlling payload manifest. Payload bytes require no rollback because this successor does not modify the payload file.",
+  "OwnerGates": {
+    "MachineReadableOwner": "RequiredForManifestSuccessorAcceptance",
+    "OpeningStateOwner": "RequiredForV2_2SourceBindingAcceptance",
+    "OwnerRoutingOwner": "RequiredForV2OwnerRoutingSuccessor",
+    "ValidationOwner": "RequiredForColocatedSchemaAndFixtureDisposition",
+    "ImporterOwner": "RequiredForRealImporterExecution",
+    "UnrealImplementationOwner": "RequiredForSourceInspectionCompileRuntimeOrPromotion"
+  },
+  "NextFiles": [
+    "Leon_Castile_Opening_State_1062_Sancho_Overlay_V2_Manifest_V1_1.json",
+    "Leon_Castile_Opening_State_1062_Alfonso_Overlay_V2_Manifest_V1_1.json",
+    "Leon_Castile_Opening_State_1062_Garcia_Overlay_V2_Manifest_V1_1.json"
+  ]
+}

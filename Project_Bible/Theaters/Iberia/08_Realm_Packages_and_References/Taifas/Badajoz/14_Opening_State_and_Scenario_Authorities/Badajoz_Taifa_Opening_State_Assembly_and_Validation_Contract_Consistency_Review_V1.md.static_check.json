@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "status": "PASS_STATIC_CHECK_WITH_REGISTRY_OWNER_AND_RUNTIME_DEPENDENCIES",
+  "artifact": "Badajoz_Taifa_Opening_State_Assembly_and_Validation_Contract_Consistency_Review_V1.md",
+  "document_version": "1.1.0",
+  "target": "Unreal Engine 5.8",
+  "sha256": "3b04dbfe43c0ae314219e8b2ccc2cadc2afa82e03abbdaa0475c42bfbeaa3c7b",
+  "bytes": 24730,
+  "lines": 777,
+  "opening_characters": 3,
+  "candidate_ids_proposed": 82,
+  "owner_bindings_mapped": 82,
+  "canonical_ids_committed": 0,
+  "predetermined_future_outcomes": 0,
+  "opening_state_application_executed": false,
+  "folder14_design_coverage_complete": true,
+  "removed_substance": []
+}

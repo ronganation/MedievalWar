@@ -1,0 +1,662 @@
+{
+  "exact_coordinates_created": 0,
+  "exact_polygons_created": 0,
+  "exact_ports_created": 0,
+  "operational_routes_created": 0,
+  "records": [
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.rennes",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.nantes",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.dol",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.combourg",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.dinan",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.lamballe",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.saint_brieuc",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.treguier",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.vannes",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.quimper",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.quimperle",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.redon",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.fougeres",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Settlement",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "settlement.vitre",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Region",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "region.rennais",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Region",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "region.penthievre",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Region",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "region.cornouaille",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Region",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "region.nantais",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Region",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "region.dol_combourg",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Region",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "region.leon_brittany",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Region",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "region.goelo",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "Region",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "region.porhoet",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "RouteFamily",
+      "opening_compatibility": "ReviewOnly",
+      "operational_route_created": false,
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "route.dol_dinan_rennes_corridor",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "RouteFamily",
+      "opening_compatibility": "ReviewOnly",
+      "operational_route_created": false,
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "route.rennes_nantes_corridor",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "RouteFamily",
+      "opening_compatibility": "ReviewOnly",
+      "operational_route_created": false,
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "route.brittany_anjou_march",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "geography_kind": "RouteFamily",
+      "opening_compatibility": "ReviewOnly",
+      "operational_route_created": false,
+      "owner_authority": "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "GeographyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Geography_Settlements_Regions_Routes_Ports_and_Strategic_Access_Authority_V1.md"
+      ],
+      "stable_id": "route.brittany_normandy_frontier",
+      "validation_state": "UnvalidatedCandidate"
+    }
+  ]
+}

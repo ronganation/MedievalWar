@@ -1,0 +1,33 @@
+{
+  "document_id": "Manifest.Validation.LeonCastile.V2CrossReferenceDependency.V1",
+  "report_file": "Leon_Castile_V2_Cross_Reference_and_Dependency_Validation_Report_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "bytes": 19818,
+  "physical_lines": 376,
+  "sha256": "A94B1D807538009286D2C4AF208B9B3F79CCCED4159F06F20F9389E6D65706EB",
+  "status": "StaticCheckedDependencyAuditWithBlockingReconciliation",
+  "checks": {
+    "utf8": true,
+    "balanced_fences": true,
+    "alfonso_present": true,
+    "seven_profile_suite_identified": true,
+    "v2_chain_identified": true,
+    "stale_v1_dependencies_classified": true,
+    "valid_provenance_distinguished": true,
+    "promotion_block_preserved": true,
+    "em_dash_count": 0,
+    "escaped_underscore_count": 0
+  },
+  "validation_boundary": {
+    "compile": "NOT_RUN",
+    "runtime": "NOT_RUN",
+    "importer": "NOT_RUN",
+    "save_load": "NOT_RUN",
+    "replay": "NOT_RUN",
+    "performance": "NOT_RUN",
+    "promotion": "PROHIBITED"
+  },
+  "next_file": "Leon_Castile_Seven_Profile_Dependency_Reconciliation_Authority_V1.md",
+  "all_static_checks_pass": true
+}

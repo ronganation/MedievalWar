@@ -1,0 +1,27 @@
+{
+  "document_id": "static-check.wales.character.rhys-ab-owain-ab-edwin.v2",
+  "version": "2.0.0",
+  "successor": "Rhys_ab_Owain_ab_Edwin_V2_Current_Authority_Refinement.md",
+  "bytes": 68399,
+  "physical_lines": 1833,
+  "sha256": "731d9d340fa98ddaaa260faebdafdb5a046f40e8b7b549aa988e4379c845ecd5",
+  "checks": {
+    "file_exists": true,
+    "literal_source_prefix": true,
+    "successor_larger": true,
+    "all_source_headings_preserved": true,
+    "canonical_id": true,
+    "restricted_active": true,
+    "network_edges": true,
+    "zero_dimensions": true,
+    "project_bible": true,
+    "checklist": true,
+    "character_standard": true,
+    "ue58": true,
+    "temporal_tracks": true,
+    "honest_validations": true,
+    "authorizations_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

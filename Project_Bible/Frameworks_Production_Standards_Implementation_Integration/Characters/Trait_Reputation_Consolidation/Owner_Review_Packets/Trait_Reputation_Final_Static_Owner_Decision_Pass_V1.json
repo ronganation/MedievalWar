@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationFinalStaticOwnerDecisionPass",
+    "name": "Trait Reputation Final Static Owner Decision Pass V1",
+    "version": "1.0",
+    "status": "FinalThreeGroupsResolved_All86StaticDecisionsComplete",
+    "authority_class": "Evidence-Backed Static Ownership Decision Pass"
+  },
+  "authority_inputs": [
+    {
+      "file": "Governance_Modernization_Audit.md",
+      "sha256": "4b6bf8dcbe1f05785ce73f315ca79d2ada5462260c06dfaab5703dfbe0128fbd"
+    },
+    {
+      "file": "Governance_Modernization_Audit_Source.md",
+      "sha256": "ced90a16f3b59ff228254f6657d1a6934af41c130c43c960bf27180984bd4d96"
+    },
+    {
+      "file": "README_Governance_Modernization.md",
+      "sha256": "ebf65508099dc5cf9dc0949c52f8fe7eb3c147f8dd981bd05a711a0811799279"
+    },
+    {
+      "file": "Realm_Governance_Contract_Candidate_Review.md",
+      "sha256": "a6ff99ac483ecd723c3ff8961559ff0117ff4bfe3574edaa019e933cc21dd30b"
+    },
+    {
+      "file": "Realm_Governance_Contract_Field_Inventory.md",
+      "sha256": "d66ca4ca1e778ea17844675f53483e5b1a1c07746ee491e1657d29e6e9cfb7b2"
+    },
+    {
+      "file": "Realm_Governance_Contract_Validation_Catalogue.md",
+      "sha256": "1954cc3761087e68f855f0eb7e3eb4fae2b03ade598e520b5750f6340180d507"
+    },
+    {
+      "file": "Realm_Governance_Implementation_Contract_Matrix.md",
+      "sha256": "d9a227971bf5633c501634626ecc357b5f7d82a8edbd929aaa0940b7208c1fbd"
+    },
+    {
+      "file": "Realm_Governance_Modernization_Requirement_Set.md",
+      "sha256": "74acd243d2e6e66fdb35a93c657815f4b03df4c7c52f5e193477088b61638ed3"
+    },
+    {
+      "file": "Realm_Governance_Source_Schema_and_Ownership_Disposition_Manifest.md",
+      "sha256": "e62e6130c88644e9ff35e9e83ed103b4567d15dbc817919c703af6131effc3a6"
+    },
+    {
+      "file": "Historical_Memory_Reconciliation_Audit.md",
+      "sha256": "8342707ae7744dc0f8c2250897a1240b7fd5d1a7452f35fed82d263865315c66"
+    },
+    {
+      "file": "Historical_Memory_Implementation_Contract_Matrix.md",
+      "sha256": "363961b7e5e9bc8320aae00235a3b93ed4436c9e5180b2cbf4853d8b93c78525"
+    },
+    {
+      "file": "Historical_Memory_Contract_Field_Inventory.md",
+      "sha256": "3d24c89c5110d3cbbfef216f46815f6067930cd517dab49138af17c518a3e96c"
+    },
+    {
+      "file": "Historical_Memory_Contract_Validation_Catalogue.md",
+      "sha256": "f710c63a9a93644ffa81de15840cfb914fc0c300e1c9206a333781cd941d5c0c"
+    },
+    {
+      "file": "README_Historical_Memory_Reconciliation.md",
+      "sha256": "6033b957451105646970db6e31af651bf6cc19f7e0bc42066a4e5a40c6d35978"
+    }
+  ],
+  "decisions": [
+    {
+      "owner_group_id": "trait-reputation.owner-group.005",
+      "decision": "AcceptWithChanges",
+      "decision_authority": "Realm Governance modernization authority package",
+      "evidence": [
+        "Governance_Modernization_Audit.md",
+        "Governance_Modernization_Audit_Source.md",
+        "README_Governance_Modernization.md",
+        "Realm_Governance_Contract_Candidate_Review.md",
+        "Realm_Governance_Contract_Field_Inventory.md",
+        "Realm_Governance_Contract_Validation_Catalogue.md",
+        "Realm_Governance_Implementation_Contract_Matrix.md",
+        "Realm_Governance_Modernization_Requirement_Set.md",
+        "Realm_Governance_Source_Schema_and_Ownership_Disposition_Manifest.md"
+      ],
+      "accepted_destination_authority": "Realm Governance office-structure and responsibility boundary; appointment or delegated mandate owner as applicable",
+      "accepted_record_layer": "OfficeDefinitionAppointmentDelegatedMandateOrDerivedPresentation_NoTraitState",
+      "required_changes": [
+        "Classify Tax Collector as an office, appointment, delegated mandate, staff role, or derived presentation through the current Governance and Office boundary.",
+        "Keep person identity, office identity, appointment, jurisdiction, tenure, authority, resources, and performance separate.",
+        "Create no Trait ID and no universal Administration modifier."
+      ],
+      "quarantine_state": "ConditionallyResolved_ExactOfficeFormAndRegistryPending",
+      "entry_count": 1,
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.006",
+      "decision": "AcceptWithChanges",
+      "decision_authority": "Historical Memory reconciliation authority package",
+      "evidence": [
+        "Historical_Memory_Reconciliation_Audit.md",
+        "Historical_Memory_Implementation_Contract_Matrix.md",
+        "Historical_Memory_Contract_Field_Inventory.md",
+        "Historical_Memory_Contract_Validation_Catalogue.md",
+        "README_Historical_Memory_Reconciliation.md"
+      ],
+      "accepted_destination_authority": "Historical Memory for evidence, witness, narrative, memory, tradition, record, commemoration, preservation, and legacy; fact owner retains substantive participation truth",
+      "accepted_record_layer": "HistoricalFactReferenceEvidenceWitnessNarrativeMemoryTraditionLegacy_NoTraitState",
+      "required_changes": [
+        "Represent participation, witnessing, survival, victory, and later narrative as separate typed records.",
+        "Historical Memory references substantive facts; Historical Memory does not replace the fact owner.",
+        "Do not convert event participation or witnessing into permanent traits.",
+        "Do not preload later narrative or legacy into Opening State."
+      ],
+      "quarantine_state": "ConditionallyResolved_TypedHistoricalRecordsAndRegistriesPending",
+      "entry_count": 6,
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.007",
+      "decision": "SplitAcrossNamedAuthorities",
+      "decision_authority": "Historical Memory reconciliation and Trait/Reputation boundary authorities",
+      "evidence": [
+        "Historical_Memory_Reconciliation_Audit.md",
+        "Historical_Memory_Implementation_Contract_Matrix.md",
+        "Historical_Memory_Contract_Field_Inventory.md",
+        "Historical_Memory_Contract_Validation_Catalogue.md",
+        "README_Historical_Memory_Reconciliation.md",
+        "Trait_and_Reputation_Authority_Planning.md",
+        "Trait_and_Reputation_Contract_Field_Inventory.md",
+        "Trait_and_Reputation_Implementation_Contract_Matrix.md"
+      ],
+      "split_targets": [
+        {
+          "authority": "Historical Memory",
+          "owns": "supporting facts and evidence references, narrative definitions and state, reception history, memory traditions, commemoration, preservation, and legacy"
+        },
+        {
+          "authority": "Reputation Authority",
+          "owns": "current character-audience perception, adoption, confidence or uncertainty, contradiction response, suspension, decline, and removal"
+        },
+        {
+          "authority": "Presentation",
+          "owns": "displayed epithet only when derived from authorized narrative or audience-specific reputation state"
+        }
+      ],
+      "accepted_record_layer": "HistoricalNarrativeAndMemoryPlusAudienceSpecificReputationAndDerivedEpithet",
+      "required_changes": [
+        "Treat each label as a candidate narrative, audience-specific reputation, derived epithet, or separated combination.",
+        "Require audience, evidence, visibility, adoption, contradiction, decline, suspension, and removal rules.",
+        "Do not use an epithet as PersonId.",
+        "Do not create universal reputation or convert unknown reception to zero.",
+        "Do not equate current reputation with historical truth."
+      ],
+      "quarantine_state": "ConditionallyResolved_CanonicalNarrativeReputationAndPresentationContractsPending",
+      "entry_count": 9,
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    }
+  ],
+  "count_contract": {
+    "previously_resolved_groups_unchanged": 8,
+    "previously_resolved_entries_unchanged": 70,
+    "newly_resolved_groups": 3,
+    "newly_resolved_entries": 16,
+    "total_resolved_groups": 11,
+    "total_resolved_entries": 86,
+    "pending_groups": 0,
+    "pending_entries": 0,
+    "reconciliation": "Pass"
+  },
+  "run": {
+    "mode": "FinalStaticOwnerDecisionPass",
+    "execution_status": "Completed",
+    "verdict": "PassStaticOwnershipComplete",
+    "ownership_changes_executed": 0,
+    "canonical_ids_assigned": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "commit_attempted": false
+  },
+  "validation": {
+    "governance_boundary_static_checked": true,
+    "historical_memory_boundary_static_checked": true,
+    "historical_memory_reputation_boundary_static_checked": true,
+    "all_86_entries_static_resolved": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false
+  },
+  "smallest_useful_next_action": "Create Trait_Reputation_Canonical_ID_Submission_V1.json for retained Trait and Reputation definitions only, while preserving owner-specific IDs for Historical Memory, Governance, Development, Underage, Archetype, and Network records. Run a zero-mutation registry preflight before approval."
+}

@@ -1,0 +1,29 @@
+{
+  "document_id": "Manifest.DynastyAuthority.Realm.LeonCastile.V2.Rebuilt",
+  "authority_file": "Leon_Castile_Dynasty_Authority_V2_Seven_Profile_Integrated_Authority.md",
+  "version": "2.0.0-rebuilt-copy-first",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/Core_Authorities",
+  "bytes": 77658,
+  "physical_lines": 1984,
+  "words": 5662,
+  "sha256": "DCF2604E7DA8242EBD30AAF2E81D3A926950F439C14670731B2F73DA7A3D8545",
+  "fence_count": 138,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "source_sections_check_present": true,
+  "source_retrieved_lines": 1310,
+  "status": "StaticCheckedCopyFirstSevenProfileIntegratedSuccessorReviewOnly",
+  "prior_V2_disposition": "replaced",
+  "next_file": "Leon_Castile_Governance_Delegated_Authority_V2_Seven_Profile_Integrated_Authority.md",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "all_checks_pass": true
+}

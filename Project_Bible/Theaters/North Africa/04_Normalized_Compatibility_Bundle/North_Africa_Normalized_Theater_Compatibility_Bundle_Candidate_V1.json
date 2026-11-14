@@ -1,0 +1,368 @@
+{
+  "document_id": "mw.bundle.north-africa.normalized-theater-compatibility.candidate.v1",
+  "stable_document_id": "CampaignTheater.NorthAfrica.NormalizedTheaterCompatibilityBundleCandidate",
+  "bundle_id": "candidate.bundle.campaign-theater.north-africa.compatibility.v1",
+  "filename": "North_Africa_Normalized_Theater_Compatibility_Bundle_Candidate_V1.json",
+  "version": "1.0.0",
+  "revision_date": "2026-09-14",
+  "scenario": {
+    "scenario_id": "mw.scenario.grand_campaign.1062",
+    "opening_date": "1062-01-01",
+    "opening_campaign_season": "Winter"
+  },
+  "authority": {
+    "constitutional": "Project Bible 2.4",
+    "operational": "Design Expansion Checklist 3.7",
+    "implementation_target": "Unreal Engine 5.8",
+    "placement": "Project_Bible/Theaters/North Africa/04_Normalized_Compatibility_Bundle",
+    "document_type": "NonAuthoritativeNormalizedCompatibilityBundleCandidate",
+    "status": "STATIC_CHECKED_CANDIDATE_OWNER_DECISION_REQUIRED"
+  },
+  "source_authorities": [
+    "North_Africa_Theater_README_and_Current_Authority_Index_V1.md",
+    "North_Africa_Theater_Foundation_Scope_and_Association_Authority_V1.md",
+    "North_Africa_Theater_Owner_and_Dependency_Preflight_V1.md",
+    "North_Africa_Source_Assertion_and_Registry_Collision_Inventory_V1.md",
+    "North_Africa_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md",
+    "North_Africa_Owner_and_Registry_Preflight_V1_Manifest.json",
+    "North_Africa_Almoravid_Primary_and_Iberia_External_Compatibility_Candidate_V1.md",
+    "Almoravid_Iberia_Theater_Compatibility_Candidate_V1.md"
+  ],
+  "source_treatment": {
+    "method": "CopyFirstAdditiveNormalizationWithoutSourceRetirement",
+    "source_retirement_authorized": false,
+    "source_deletion_authorized": false,
+    "canonical_mutation_authorized": false
+  },
+  "theater_definition_candidate": {
+    "theater_ref": "theater.north_africa",
+    "display_label": "North Africa",
+    "definition_status": "OwnerDecisionRequired",
+    "registry_status": "CandidateNotCommitted",
+    "opening_core_scope_class": "WesternMaghrebAndSaharanInterface",
+    "exact_polygon_committed": false,
+    "complete_settlement_list_committed": false,
+    "automatic_whole_continent_scope": false,
+    "automatic_ifriqiya_inclusion": false,
+    "automatic_sicily_inclusion": false,
+    "automatic_balearic_transfer": false,
+    "owner_receipt_ref": null
+  },
+  "realm_identity": {
+    "registry_ref": "registry.almoravid.v1",
+    "registry_internal_version": "1.1.0",
+    "canonical_source_realm_ref": "realm.almoravid_movement_state",
+    "shortened_candidate_realm_ref": "realm.almoravid",
+    "shortened_candidate_disposition": "ReviewOnlyPendingDirectMigrationDecision",
+    "faction_ref": "faction.almoravid_movement",
+    "movement_ref": "movement.almoravid_reform_confederation",
+    "confederation_ref": "confederation.almoravid_sanhaja",
+    "package_ref": "package.almoravid.opening_state.1062.v1",
+    "scenario_ref": "scenario.almoravid.1062",
+    "silent_normalization_allowed": false,
+    "alias_chains_allowed": false,
+    "direct_migration_executed": false
+  },
+  "associations": [
+    {
+      "association_id": "association.realm.almoravid.primary.north_africa.1062",
+      "realm_ref": "realm.almoravid_movement_state",
+      "theater_ref": "theater.north_africa",
+      "association_type": "Primary",
+      "definition_status": "OwnerDecisionRequired",
+      "opening_association_candidate": true,
+      "opening_activation_authorized": false,
+      "primary_uniqueness_validated": false,
+      "principal_base_ref": "settlement.aghmat",
+      "association_creates_realm_content": false,
+      "association_creates_geographic_control": false,
+      "association_creates_armies": false,
+      "association_creates_relationships": false,
+      "association_creates_recruitment_pools": false,
+      "owner_receipt_ref": null
+    },
+    {
+      "association_id": "association.realm.almoravid.external.iberia.1062",
+      "source_compatibility_record": "candidate.theater_compatibility.almoravid.iberia.v1",
+      "realm_ref": "realm.almoravid_movement_state",
+      "theater_ref": "theater.iberia",
+      "association_type": "Expeditionary",
+      "definition_status": "OwnerDecisionRequired",
+      "opening_association": false,
+      "activation_status": "BlockedPendingSharedTheaterRegistryAndAssociationOwner",
+      "primary_theater_change": "Prohibited",
+      "opening_al_andalus_authority": false,
+      "opening_iberian_territory": [],
+      "opening_iberian_armies": [],
+      "opening_taifa_subjects": [],
+      "date_alone_activates": false,
+      "later_activation_class": "ConditionalHistoricalEmergence",
+      "owner_receipt_ref": null
+    }
+  ],
+  "primary_uniqueness_contract": {
+    "maximum_primary_associations_per_realm": 1,
+    "north_africa_primary_candidate_count": 1,
+    "iberia_primary_candidate_count": 0,
+    "duplicate_active_realm_package_allowed": false,
+    "folder_placement_is_primary_authority": false,
+    "cross_theater_relevance_requires_non_primary_type": true
+  },
+  "opening_state_identity_boundary": {
+    "human_readable_ref": "opening.almoravid.1062.v1",
+    "active_machine_readable_ref": "opening.almoravid.1062",
+    "proposal_only_ref": "opening_state.almoravid.1062.v1",
+    "preferred_compatibility_binding_from_source": "opening.almoravid.1062",
+    "final_canonical_target": null,
+    "normalization_status": "OwnerDecisionRequired",
+    "silent_aliasing_allowed": false,
+    "payload_modified": false,
+    "opening_state_replay_authorized": false
+  },
+  "selectable_perspective_pairs": [
+    {
+      "perspective_ref": "perspective.almoravid.abu_bakr",
+      "person_ref": "person.abu_bakr_ibn_umar",
+      "opening_selectable_candidate": true
+    },
+    {
+      "perspective_ref": "perspective.almoravid.yusuf",
+      "person_ref": "person.yusuf_ibn_tashfin",
+      "opening_selectable_candidate": true
+    }
+  ],
+  "perspective_contract": {
+    "valid_pairs_required_at_campaign_creation": 1,
+    "default_perspective_authorized": false,
+    "selection_changes_history": false,
+    "selection_changes_life_state": false,
+    "selection_creates_army_or_command": false,
+    "selection_activates_iberia_association": false
+  },
+  "geography_boundaries": {
+    "principal_base": {
+      "settlement_ref": "settlement.aghmat",
+      "definition_owner": "GlobalGeographyRegistry",
+      "binding_type": "PrincipalUrbanBase",
+      "uniform_haouz_control": false,
+      "market_control": false,
+      "mint_control": false,
+      "garrison_ref": null,
+      "treasury_ref": null
+    },
+    "marrakesh": {
+      "site_ref": "site.marrakesh_foundation",
+      "capital_project_ref": "capital_project.marrakesh_foundation",
+      "completed_capital_at_opening": false,
+      "project_instance_ref": null,
+      "active_phase_ref": null,
+      "labor_contract_count": 0,
+      "material_stock_count": 0,
+      "security_force_count": 0,
+      "administrative_transfer_count": 0
+    },
+    "shared_or_external_refs": [
+      "settlement.aghmat",
+      "region.haouz",
+      "site.marrakesh_foundation",
+      "settlement.sijilmasa",
+      "settlement.awdaghust",
+      "settlement.ceuta",
+      "settlement.fes",
+      "settlement.meknes",
+      "settlement.sale",
+      "settlement.tangier",
+      "settlement.tlemcen"
+    ],
+    "review_only_visual_refs": [
+      "candidate.place.algiers"
+    ],
+    "quarantined_visual_labels": [
+      "Aghdir",
+      "Salt"
+    ],
+    "external_interface_visual_refs": [
+      "candidate.place.arguin",
+      "candidate.place.timbuktu"
+    ],
+    "visual_label_creates_definition": false,
+    "visual_color_creates_control": false
+  },
+  "external_taifa_locks": [
+    "external_lock.realm.taifa_toledo",
+    "external_lock.realm.taifa_seville",
+    "external_lock.realm.taifa_zaragoza",
+    "external_lock.realm.taifa_badajoz",
+    "external_lock.realm.taifa_granada",
+    "external_lock.realm.taifa_valencia",
+    "external_lock.realm.taifa_almeria",
+    "external_lock.realm.taifa_malaga",
+    "external_lock.realm.taifa_denia"
+  ],
+  "review_only_expedition_interfaces": [
+    "review.agreement.taifa_invitation.almoravid",
+    "review.agreement.strait_access.almoravid",
+    "review.agreement.landing_port.almoravid",
+    "review.agreement.joint_command.almoravid_taifa",
+    "review.agreement.expedition_supply.almoravid_taifa",
+    "review.agreement.expedition_return_condition.almoravid",
+    "review.transition.almoravid.protector_to_overlord"
+  ],
+  "shared_definition_refs": {
+    "religious": [
+      "juristic_tradition.maliki"
+    ],
+    "confederational_groups": [
+      "confederation_group.lamtuna",
+      "confederation_group.gudala",
+      "confederation_group.massufa"
+    ],
+    "routes": [
+      "route.sijilmasa_sahara",
+      "route.sijilmasa_awdaghust",
+      "route.draa_corridor",
+      "route.sus_corridor",
+      "route.aghmat_atlas",
+      "route.haouz_water_pasture",
+      "route.atlas_crossings",
+      "route.atlantic_plain"
+    ],
+    "economy": [
+      "market.sijilmasa",
+      "mint.sijilmasa"
+    ]
+  },
+  "shared_definition_contract": {
+    "local_universal_redefinition_allowed": false,
+    "reference_creates_loyalty": false,
+    "reference_creates_control": false,
+    "route_reference_creates_access": false,
+    "route_reference_creates_revenue": false,
+    "market_or_mint_reference_creates_operation": false
+  },
+  "relationship_vocabulary": [
+    "ConfederationalCompact",
+    "PersonalHomageOrRecognition",
+    "MilitaryAlliance",
+    "DefensiveProtectionCompact",
+    "TributaryArrangement",
+    "SubsidyOrExpeditionSupport",
+    "ReligiousOrJuristicRecognition",
+    "TradeAndRouteCompact",
+    "PortOrCrossingAccess",
+    "HostageGuaranteeOrDynasticSecurity",
+    "DependentPolityRelationship"
+  ],
+  "relationship_contract": {
+    "active_relationship_instances_created": 0,
+    "active_obligation_instances_created": 0,
+    "confederational_participant_equals_vassal": false,
+    "tributary_polity_equals_province": false,
+    "alliance_equals_army_command": false,
+    "religious_recognition_equals_secular_rule": false,
+    "trade_access_equals_military_access": false,
+    "protection_equals_annexation": false,
+    "port_access_equals_territorial_control": false,
+    "jizya_is_generic_taifa_payment_to_almoravids": false,
+    "parias_is_universal_tribute_system": false
+  },
+  "regional_recruitment_contract": {
+    "theater_association_creates_recruitment_access": false,
+    "realm_control_creates_population": false,
+    "regional_unit_definition_requires_faction_duplicate": false,
+    "research_creates_people": false,
+    "research_creates_equipment": false,
+    "building_creates_horses": false,
+    "route_reference_creates_supply_delivery": false,
+    "confederational_participant_creates_unlimited_pool": false
+  },
+  "temporal_contract": {
+    "historical_progression": {
+      "step_duration_months": 21,
+      "ages_characters": false
+    },
+    "biological_progression": {
+      "step_duration_months": 7,
+      "resolves_realm_strategy": false
+    },
+    "campaign_season": {
+      "current": "Winter",
+      "order": ["Winter", "Spring", "Summer", "Autumn"],
+      "steps_per_strategic_turn": 1,
+      "derived_from_historical_month": false
+    },
+    "universal_turn_field_present": false,
+    "fixed_cross_clock_ratio_present": false
+  },
+  "owner_decisions_required": [
+    "request.north-africa.theater-identity.v1",
+    "request.north-africa.opening-scope.v1",
+    "request.north-africa.almoravid-primary-association.v1",
+    "request.north-africa.almoravid-iberia-external-association.v1",
+    "request.north-africa.almoravid-copy-first-migration.v1",
+    "request.north-africa.iberia-compatibility-authority-disposition.v1",
+    "request.north-africa.relationship-obligation-vocabulary.v1",
+    "request.north-africa.visual-geography-place-routing.v1",
+    "request.north-africa.shared-external-interface-owners.v1",
+    "request.north-africa.registry-collision-alias-migration.v1"
+  ],
+  "owner_receipt_status": {
+    "accepted_owner_receipt_count": 0,
+    "owner_silence_equals_approval": false,
+    "all_required_receipts_present": false
+  },
+  "source_authority_disposition": {
+    "source_authority": "Almoravid_Iberia_Theater_Compatibility_Candidate_V1.md",
+    "current_status": "PreservedSubstantiveInput",
+    "recommended_disposition": "RetainUntilOwnerAcceptedSuccessorAndDirectSupersessionReceipt",
+    "source_retirement_authorized": false
+  },
+  "promotion_gates": {
+    "theater_registry_disposition_present": false,
+    "bounded_scope_owner_receipt_present": false,
+    "almoravid_realm_owner_receipt_present": false,
+    "association_owner_receipt_present": false,
+    "primary_uniqueness_validation_present": false,
+    "iberia_reciprocal_owner_receipt_present": false,
+    "opening_state_identity_decision_present": false,
+    "geography_and_external_lock_receipts_present": false,
+    "source_package_inventory_present": false,
+    "copy_first_migration_authorized": false,
+    "all_promotion_gates_passed": false
+  },
+  "mutation_receipt": {
+    "registry_mutations": 0,
+    "association_activations": 0,
+    "realm_package_files_copied": 0,
+    "realm_package_files_moved": 0,
+    "realm_package_files_deleted": 0,
+    "opening_state_mutations": 0,
+    "payload_mutations": 0,
+    "unreal_project_mutations": 0,
+    "runtime_mutations": 0
+  },
+  "validation_boundary": {
+    "json_parse_validated": true,
+    "static_content_checked": true,
+    "canonical_registry_validated": false,
+    "association_owner_validated": false,
+    "importer_validated": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "performance_validated": false
+  },
+  "gate_result": {
+    "normalized_candidate_bundle": "GO",
+    "owner_decision_consumption": "GO_WHEN_RECEIPTS_EXIST",
+    "canonical_registry_promotion": "HOLD",
+    "association_activation": "HOLD",
+    "opening_state_execution": "HOLD",
+    "almoravid_package_migration": "HOLD",
+    "importer_consumption": "HOLD",
+    "unreal_implementation": "HOLD",
+    "classification": "StaticCheckedNonAuthoritativeNormalizedCompatibilityBundleCandidate"
+  }
+}

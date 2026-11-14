@@ -1,0 +1,21 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "families_12": true,
+    "dossiers_12": true,
+    "source_1587": true,
+    "child_holder_candidates_2": true,
+    "child_instances_zero": true,
+    "reason_codes_26": true,
+    "underage_acquisition_contract": true,
+    "no_instance_mirroring": true,
+    "later_child_firewall": true,
+    "opening_zero": true,
+    "balanced_fences": true,
+    "footer_once": true
+  },
+  "SHA256": "03257d4cac9a4c7f67e2545692e7ee97312400b9dd81eaa5d4cc06a8a59ea2b0",
+  "Bytes": 69364,
+  "Lines": 1284,
+  "Scope": "Static underage-holder Memory reconciliation and nonmutation"
+}

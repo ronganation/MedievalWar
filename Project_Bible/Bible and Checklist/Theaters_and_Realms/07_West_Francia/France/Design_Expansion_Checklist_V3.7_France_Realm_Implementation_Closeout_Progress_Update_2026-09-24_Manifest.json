@@ -1,0 +1,25 @@
+{
+  "document_id": "mw.design-expansion-checklist.3.7.france-realm-implementation-closeout.2026-09-24",
+  "status": "ReadyForPlacement",
+  "date": "2026-09-24",
+  "files": [
+    {
+      "filename": "Design_Expansion_Checklist_V3.7_France_Realm_Implementation_Closeout_Progress_Update_2026-09-24.md",
+      "sha256": "089E2385D2B475BB234BB6D14D3848C63303F233E16FAB6E8A57C97951412921",
+      "bytes": 18286,
+      "lines": 465
+    }
+  ],
+  "controlling_evidence": {
+    "final_execution": "FRANCE-IMP-08B-FRESH",
+    "final_status": "RealmAIProposalAutomationAccepted",
+    "final_fixed_automation": "246_of_246",
+    "France_focused_tests": 202,
+    "predecessor_source_files": 42,
+    "final_files_installed": 6,
+    "France_prefixed_source_files_at_closeout": 48
+  },
+  "final_decision": "FranceReviewAdapterImplementationComplete_FunctionalLaneClosed_HoldAtAcceptedStaticCloseout",
+  "stable_checklist_modified": false,
+  "production_authority": false
+}

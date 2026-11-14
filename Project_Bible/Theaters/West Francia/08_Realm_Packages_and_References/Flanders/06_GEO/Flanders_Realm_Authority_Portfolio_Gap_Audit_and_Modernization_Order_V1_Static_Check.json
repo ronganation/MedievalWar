@@ -1,0 +1,19 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "portfolio_entries_18": true,
+    "gap_records_20": true,
+    "completion_register": true,
+    "historical_foundation_complete": true,
+    "registry_decision_pending": true,
+    "four_specialist_gaps_remain": true,
+    "next_file_titles": true,
+    "batches_11": true,
+    "blockers_12": true,
+    "three_tracks": true,
+    "nonmutation": true
+  },
+  "SHA256": "e8c61a4297b0330af9f479965cb94b68fe0afd1cc599d30308d59100fcac150d",
+  "Bytes": 37547,
+  "Lines": 962
+}

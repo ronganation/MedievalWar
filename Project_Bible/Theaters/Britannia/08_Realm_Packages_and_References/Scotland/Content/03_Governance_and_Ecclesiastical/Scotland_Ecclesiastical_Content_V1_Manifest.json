@@ -1,0 +1,103 @@
+{
+  "document_id": "manifest.scotland.ecclesiastical-content.v1",
+  "version": "1.0.0",
+  "immediate_source": {
+    "filename": "Scotland_Law_and_Policy_V1.md",
+    "bytes": 53673,
+    "lines": 1489,
+    "sha256": "b68d002d323b0d43d11b9b3f050581b3b9c28943c014481daa54d15e99a73f73",
+    "complete_source_verified": true
+  },
+  "benchmarks": [
+    {
+      "filename": "England_Ecclesiastical_Content_V1.md",
+      "reference_id": "turn119search148"
+    },
+    {
+      "filename": "Norway_Ecclesiastical_Content_V1.md",
+      "reference_id": "turn119search126"
+    },
+    {
+      "filename": "Ecclesiastical_Authority_Framework_V1.md",
+      "reference_id": "turn119search155"
+    }
+  ],
+  "supporting_sources": [
+    {
+      "filename": "Scotland_Title_Office_Claim_and_Succession_Authority_V1.md",
+      "bytes": 38121,
+      "sha256": "a815019ca08250f69c72ca2cf27b6f682cb61057e16ff52e4908b26ce0f90023"
+    },
+    {
+      "filename": "Scotland_Realm_and_Political_Order_Authority_V1.md",
+      "bytes": 43703,
+      "sha256": "b7f58f96b098d8d107c81490ba6f2aaad8998762850f296d283e6429bab09e89"
+    },
+    {
+      "filename": "Scotland_Opening_State.md",
+      "bytes": 40725,
+      "sha256": "7b5bd5a7d4b510b8e5146c8e8c27ef6c9d28641d6d453a9425387ee233e76457"
+    },
+    {
+      "filename": "Scotland_Historical_Momentum_V1.md",
+      "bytes": 52532,
+      "sha256": "cd4c00272b49cf866ce12ce212baa90e70043a70edbc196d79840be5bb327edd"
+    },
+    {
+      "filename": "Fothad_II_Identity_Office_Institution_Review.md",
+      "bytes": 4126,
+      "sha256": "a8fe7bd26c977026045a8e87158581634ae5e2f7e7a7349b243358a445cc7602"
+    },
+    {
+      "filename": "Scotland_Dependency_Resolution_Pass.md",
+      "bytes": 4794,
+      "sha256": "f74827a9d632f97aa4c9fd60680b41b00e1195a2feff8683d6400f479caffef8"
+    }
+  ],
+  "successor": {
+    "filename": "Scotland_Ecclesiastical_Content_V1.md",
+    "bytes": 52787,
+    "lines": 1294,
+    "sha256": "3eeac7bf88cb435032a1c84eefb1b09d1f3631761b8164eb036e45255b9b4365"
+  },
+  "content_inventory": {
+    "sections": 44,
+    "opening_identified_persons": 1,
+    "opening_office_candidates": 1,
+    "opening_institution_candidates": 1,
+    "opening_occupancy_candidates": 1,
+    "additional_named_clergy_created": 0,
+    "additional_named_institutions_created": 0,
+    "validation_cases": 18,
+    "issue_codes": 18,
+    "content_tiers": 4,
+    "recognition_layers": 9
+  },
+  "opening_core": {
+    "person": "Character.Scotland.Fothad_II",
+    "office": "Office.Scotland.Bishop_St_Andrews",
+    "institution": "Institution.Scotland.St_Andrews_Ecclesiastical_Community",
+    "occupancy_confidence": "Medium",
+    "owner_binding_required": true,
+    "exact_jurisdiction": "unknown",
+    "exact_property": "unknown"
+  },
+  "authorizations": {
+    "person_activation": false,
+    "office_activation": false,
+    "institution_activation": false,
+    "property_activation": false,
+    "recognition_activation": false,
+    "ceremony_activation": false,
+    "sanctuary_activation": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Scotland_Ecclesiastical_Content_V1_Static_Check.json",
+    "sha256": "44e812f2d9a1fd4ee9d328f7d592c6faf49396125397dd065edfbed260932ee9",
+    "passed": true
+  }
+}

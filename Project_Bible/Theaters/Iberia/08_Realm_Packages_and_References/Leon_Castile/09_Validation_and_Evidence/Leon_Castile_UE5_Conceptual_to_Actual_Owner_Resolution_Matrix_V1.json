@@ -1,0 +1,559 @@
+{
+  "MatrixId": "matrix.leon_castile.ue5.conceptual_to_actual_owner.v1",
+  "MatrixVersion": "1.0.0",
+  "RevisionDate": "2026-09-08",
+  "Status": "STATIC_CHECKED_ALL_THIRTEEN_OWNERS_EXPLICITLY_GAPPED_PENDING_ACTIVE_ROOT_INSPECTION",
+  "Placement": "Leon_Castile/09_Validation_and_Evidence",
+  "InspectionMode": "EnterpriseEvidenceReadOnlyArchitectureReconciliation",
+  "ActiveProjectRootReference": "C:\\UnrealProjects\\MedievalWar",
+  "ActiveProjectRootMountedInCurrentExecution": false,
+  "ControllingInputs": [
+    {
+      "File": "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+      "Role": "ArchitectureInspection",
+      "Sha256": "08f4f4af5462ee8c78088feb3e8cc3cc566dea8ec33eac22f44d7fd8fc24ee63"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md",
+      "Role": "ConceptualOwnerRouting",
+      "Sha256": "7e8750b4920dc8542c89081ef0632699344d5244eff36fa55ac0b065160a8c77"
+    },
+    {
+      "File": "Leon_Castile_Implementation_Batch_A_Entry_Review_V1.md",
+      "Role": "EntryGate",
+      "Sha256": "5c893329abc7b634ea603ff18d72c1cdd67e7dc56ae8f7ee8873ef7bc2b6a6d9"
+    }
+  ],
+  "ConfirmedArchitectureReferences": {
+    "MWSharedImporter": {
+      "EvidenceClass": "ConfirmedReference",
+      "ObservedPathFamily": "Plugins/MWSharedImporter/Source/MWSharedImporter",
+      "LeonCastileOwnershipObserved": false
+    },
+    "MedievalWarCampaign": {
+      "EvidenceClass": "ConfirmedReference",
+      "ObservedPathFamily": "Source/MedievalWarCampaign/Private/StrategicIntegration",
+      "LeonCastileOwnershipObserved": false
+    },
+    "MedievalWarEditor": {
+      "EvidenceClass": "ConfirmedBuildTargetReference",
+      "ActualTargetRulesInspected": false
+    },
+    "StructUtils": {
+      "EvidenceClass": "ConfirmedDeprecationWarning",
+      "ConsumersObserved": [
+        "MWSharedImporter",
+        "MedievalWarEditor"
+      ],
+      "RemediationSelected": false
+    }
+  },
+  "ResolutionPolicy": {
+    "NamingSimilarityMayResolveOwner": false,
+    "CandidateDestinationMayResolveOwner": false,
+    "ActualPathRequired": true,
+    "ActualModuleRequired": true,
+    "ActualSymbolRequired": true,
+    "ObservedResponsibilityRequired": true,
+    "EvidenceReferenceRequired": true,
+    "OwnerAcceptanceRequired": true,
+    "DuplicateMutationOwnersAllowed": false,
+    "SilentAssumptionsAllowed": false
+  },
+  "Summary": {
+    "ConceptualOwnerCount": 13,
+    "ResolvedOwnerCount": 0,
+    "ExplicitGapCount": 13,
+    "CandidateDestinationRowCount": 6,
+    "DuplicateMutationOwnersFound": 0,
+    "SilentAssumptionsFound": 0,
+    "BatchAOwnerResolutionDisposition": "BLOCKED_ALL_ACTUAL_SYMBOLS_UNRESOLVED"
+  },
+  "OwnerRows": [
+    {
+      "Ordinal": 1,
+      "ConceptualOwnerId": "CampaignPerspectiveOwner",
+      "RequiredActualCapability": "SelectionAndPerspectiveBinding",
+      "CandidateDestinations": [
+        "MWSharedImporter",
+        "MedievalWarCampaign"
+      ],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "Enterprise evidence confirms both architecture references; no Leon-Castile adapter or actual owning symbol was observed.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 2,
+      "ConceptualOwnerId": "TemporalOwner",
+      "RequiredActualCapability": "IndependentHistoricalBiologicalAndSeasonBinding",
+      "CandidateDestinations": [
+        "MedievalWarCampaign"
+      ],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "MedievalWarCampaign strategic-integration source is referenced; no temporal owner symbol was observed.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 3,
+      "ConceptualOwnerId": "RealmAndFactionOwner",
+      "RequiredActualCapability": "RealmFactionAndPersonalityInitialization",
+      "CandidateDestinations": [
+        "MedievalWarCampaign"
+      ],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "MedievalWarCampaign is a candidate project module; no realm or faction owner symbol was observed.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 4,
+      "ConceptualOwnerId": "CharacterLifecycleOwner",
+      "RequiredActualCapability": "CharacterOpeningLifecycleInitialization",
+      "CandidateDestinations": [],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "No actual module, path, or symbol was observed in the available evidence.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 5,
+      "ConceptualOwnerId": "CharacterNetworkOwner",
+      "RequiredActualCapability": "GenealogyWithoutAutomaticPoliticalEdges",
+      "CandidateDestinations": [],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "No actual module, path, or symbol was observed in the available evidence.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 6,
+      "ConceptualOwnerId": "HouseholdOwner",
+      "RequiredActualCapability": "HouseholdInitializationWithoutInferredAssetsOrSupport",
+      "CandidateDestinations": [],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "No actual module, path, or symbol was observed in the available evidence.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 7,
+      "ConceptualOwnerId": "TitleOwner",
+      "RequiredActualCapability": "ExistingOpeningTitleHolderBinding",
+      "CandidateDestinations": [],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "No actual module, path, or symbol was observed in the available evidence.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 8,
+      "ConceptualOwnerId": "GovernanceOwner",
+      "RequiredActualCapability": "GovernanceChannelAndNonautomaticConversionReferenceBinding",
+      "CandidateDestinations": [],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "No actual module, path, or symbol was observed in the available evidence.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 9,
+      "ConceptualOwnerId": "EcclesiasticalOwner",
+      "RequiredActualCapability": "ReferenceOnlyEcclesiasticalOpeningBinding",
+      "CandidateDestinations": [],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "No actual module, path, or symbol was observed in the available evidence.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 10,
+      "ConceptualOwnerId": "RealmAIOwner",
+      "RequiredActualCapability": "AIProfileAndOpportunityWeightReferenceBinding",
+      "CandidateDestinations": [],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "No actual module, path, or symbol was observed in the available evidence.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 11,
+      "ConceptualOwnerId": "HistoricalMomentumOwner",
+      "RequiredActualCapability": "SuccessionPressureDefinitionBindingWithoutForcedOutcome",
+      "CandidateDestinations": [
+        "MedievalWarCampaign"
+      ],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "MedievalWarCampaign is a candidate inspection destination; no historical-momentum owner symbol was observed.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 12,
+      "ConceptualOwnerId": "ValidationAndTraceOwner",
+      "RequiredActualCapability": "ValidationDiagnosticsExplicitEmptyEvidenceAndTrace",
+      "CandidateDestinations": [
+        "MWSharedImporter",
+        "ProjectTestInfrastructure"
+      ],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "MWSharedImporter and prior build evidence establish validation-related inspection targets; no actual owner symbol was observed.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    },
+    {
+      "Ordinal": 13,
+      "ConceptualOwnerId": "SaveAndMigrationOwner",
+      "RequiredActualCapability": "GuardReceiptHashAndNoReplayPersistence",
+      "CandidateDestinations": [
+        "SharedSaveArchitecture"
+      ],
+      "ActualModule": null,
+      "ActualFilePath": null,
+      "ActualSymbol": null,
+      "SymbolKind": null,
+      "ExistingOrGap": "Gap",
+      "ObservedResponsibility": null,
+      "RequiredAdapter": "UnresolvedPendingAuthorizedActiveRootInspection",
+      "DependencyDirection": null,
+      "SaveOwnership": null,
+      "TransactionOwnership": null,
+      "TestCoverageObserved": null,
+      "EvidenceSummary": "A separate shared save-ownership reconciliation authority exists; no actual save or migration symbol was observed.",
+      "EvidenceReferences": [
+        "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+        "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V2.md"
+      ],
+      "Confidence": "Unresolved",
+      "OwnerDecision": "Pending",
+      "PromotionEligible": false,
+      "ResolutionRequirements": [
+        "VerifiedActiveRootPath",
+        "VerifiedModule",
+        "VerifiedPhysicalFilePath",
+        "VerifiedActualSymbol",
+        "ObservedResponsibility",
+        "EvidenceReference",
+        "OwnerAcceptance"
+      ]
+    }
+  ],
+  "EvidenceBoundary": {
+    "EnterpriseArchitectureEvidenceReviewed": true,
+    "ActiveWindowsProjectMounted": false,
+    "LiveDirectoryWalk": "NOT_RUN",
+    "BuildRulesInspection": "NOT_RUN",
+    "TargetRulesInspection": "NOT_RUN",
+    "PluginDescriptorInspection": "NOT_RUN",
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "Promotion": "PROHIBITED"
+  },
+  "MutationReceipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Source": 0,
+    "Configuration": 0,
+    "Assets": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "RollbackPlan": "Remove this matrix and its manifest from current control. No Unreal restoration is required because no active-root files were mounted or modified.",
+  "NextFile": "Leon_Castile_UE5_Implementation_Gap_and_Dependency_Ledger_V1.md"
+}

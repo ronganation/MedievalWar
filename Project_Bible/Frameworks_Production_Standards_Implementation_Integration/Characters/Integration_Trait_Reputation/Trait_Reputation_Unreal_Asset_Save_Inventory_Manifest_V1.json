@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {"type":"TraitReputationUnrealAssetSaveInventoryManifest","name":"Trait Reputation Unreal Asset and Save Inventory Manifest V1","version":"1.2","status":"CollectorPrepared_V1_2_QuotedPythonScriptArgument_LocalExecutionRequired"},
+  "repository_placement": {"canonical_directory":"Project_Bible/Integration_Authorities/Characters/Trait_Reputation"},
+  "expected_outputs": ["Trait_Reputation_Unreal_Asset_Registry_Inventory_V1.json","Trait_Reputation_Save_Schema_and_Fixture_Inventory_V1.json"],
+  "fixes": ["Array-safe Count handling under StrictMode.","Quoted complete -ExecutePythonScript=<path> native argument."],
+  "authorization_boundary": {"asset_read_authorized":true,"dependency_query_authorized":true,"save_hashing_authorized":true,"asset_mutation_authorized":false,"save_mutation_authorized":false,"migration_execution_authorized":false}
+}

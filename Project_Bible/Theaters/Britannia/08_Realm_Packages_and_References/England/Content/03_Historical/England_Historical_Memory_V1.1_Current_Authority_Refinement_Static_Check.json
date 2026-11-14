@@ -1,0 +1,26 @@
+{
+  "document_id": "static-check.england.historical_memory.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "source_file": "England_Historical_Memory.md",
+  "source_sha256": "39a73f5dc7f1eceae35980ce3316312adb8cec5d32d468665939556f50710ea3",
+  "source_bytes": 31152,
+  "output_file": "England_Historical_Memory_V1.1_Current_Authority_Refinement.md",
+  "output_bytes": 51841,
+  "checks": {
+    "new_file_created": true,
+    "larger_than_source": true,
+    "full_source_portfolios_present": true,
+    "thirteen_memory_portfolios": true,
+    "all_four_Aelfgar_states": true,
+    "specialist_integrations": true,
+    "opening_registry_momentum_AI_handoffs": true,
+    "governance_inside_law_policy": true,
+    "supply_not_reowned": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

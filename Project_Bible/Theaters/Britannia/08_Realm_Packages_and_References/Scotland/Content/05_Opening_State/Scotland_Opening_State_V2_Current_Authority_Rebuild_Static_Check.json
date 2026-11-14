@@ -1,0 +1,44 @@
+{
+  "document_id": "static-check.scotland.opening-state.v2.current-authority-rebuild",
+  "version": "2.0.0",
+  "successor": "Scotland_Opening_State_V2_Current_Authority_Rebuild.md",
+  "successor_bytes": 80449,
+  "successor_physical_lines": 2119,
+  "successor_sha256": "345fd00b01cc6903fbd0ada1f6d045f72c493a99265e9db9c8179d9646ee70ff",
+  "checks": {
+    "filename": true,
+    "version": true,
+    "network": true,
+    "seven": true,
+    "two_moray": true,
+    "gille": true,
+    "no_replacement": true,
+    "fixture": true,
+    "all_corrected": true,
+    "complete": true,
+    "no_execution": true,
+    "balanced": true
+  },
+  "observed": {
+    "supported_opening_people": 7,
+    "supported_Moray_opening_people": 2,
+    "Network_nodes": 7,
+    "BasisOnly_edges": 4,
+    "omission_records": 7,
+    "relationship_dimensions": 0,
+    "Gille_status": "QuarantinedDeprecatedHistoricalMisidentification",
+    "replacement_person_created": false
+  },
+  "validation_status": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "passed": true,
+  "failed_checks": []
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "StaticCheck.RegistryCandidateOwnerAdjudicationPreflight.Realm.SevilleTaifa.V2",
+  "subject": "Seville_Taifa_Registry_Candidate_and_Owner_Adjudication_Preflight_V2.md",
+  "subject_sha256": "DC913F6E7F8E2DE9D4D9C56201B24EB263E8772B5380C8A8B3260E1DD89C7E6C",
+  "status": "PASS_AUTHORITY_GO_MACHINE_HOLD",
+  "checks": {
+    "source_bytes": 28153,
+    "source_lines": 584,
+    "source_sha256": "A23D696C527FA18DCA873E2D5F4205A565CC9B26EA8A8D7211EAC1730DFEE28D",
+    "planning_V1_sha256": "B41D52CA383BD51E8AC6DB57E19B0434B1FC8B184640967DF6BFF12B7FAAFC90",
+    "planning_V2_sha256": "7F8E6C7A288B18C203BE8748D00489F8B11DCF3267C705628FCBCE1E5CE30091",
+    "registry_V2_sha256": "3BF513C95473D448F940F5E23D6E86907A799229711E3787F5F545845708EBDA",
+    "successor_bytes": 42505,
+    "successor_lines": 942,
+    "successor_sha256": "DC913F6E7F8E2DE9D4D9C56201B24EB263E8772B5380C8A8B3260E1DD89C7E6C",
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "retained_identity_rows": 16,
+    "ReviewOnly_without_ID": 1,
+    "shared_owner_requests": 2,
+    "external_subjects": 10,
+    "approved_external_locks": 0,
+    "inherited_quarantines": 18,
+    "registry_envelope_quarantines": 1,
+    "substantive_removals": 0,
+    "registry_commits": 0,
+    "adapter_executions": 0,
+    "all_critical_checks_pass": true
+  },
+  "result": "V1 preflight preserved; expanded sixteen-row baseline reconciled; owner-decision work cleared; machine Registry remains held."
+}

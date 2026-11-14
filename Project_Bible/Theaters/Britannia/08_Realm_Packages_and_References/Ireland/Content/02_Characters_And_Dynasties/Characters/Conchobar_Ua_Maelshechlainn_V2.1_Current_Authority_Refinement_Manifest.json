@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_file": "Conchobar_Ua_Maelshechlainn_Refined.md",
+  "source_reference": "turn20search51",
+  "source_bytes": 31555,
+  "source_sha256": "5318daefe732d9ffa90b16e2cf612026dd22cb2f7e00547fd47e9e06a22b13e9",
+  "source_heading_count": 89,
+  "authority_file": "Conchobar_Ua_Maelshechlainn_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 56499,
+  "authority_sha256": "1b1121beda206c357ba1191c4458f309e1be27ecfa8ad669faef2658cf48420c",
+  "additive_bytes": 24944,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "static_check_file": "Conchobar_Ua_Maelshechlainn_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "ed6a0f594d2a121996b67f597e3adf741ac8763faec83e3e67e06b46c18a3a93",
+  "validation_scope": "content static checks only; no compile runtime migration opening-state or payload validation"
+}

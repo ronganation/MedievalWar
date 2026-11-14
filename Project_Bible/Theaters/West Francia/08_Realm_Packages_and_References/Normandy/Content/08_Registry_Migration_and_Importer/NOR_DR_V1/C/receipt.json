@@ -1,0 +1,13 @@
+{
+  "required": [
+    "fixture_id",
+    "result",
+    "severity",
+    "reason_codes",
+    "input_sha256",
+    "canonical_sha256",
+    "writes_planned",
+    "commit_authorized",
+    "deterministic"
+  ]
+}

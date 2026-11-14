@@ -1,0 +1,30 @@
+{
+  "document_id": "static-check.character.scotland.donald_iii.v2",
+  "version": "2.0.0",
+  "source": "Donald_III.md",
+  "successor": "Donald_III_V2_Current_Authority_Refinement.md",
+  "source_bytes": 39852,
+  "source_lines": 738,
+  "source_sha256": "d277a92050301d263f0e8db06773041dfaf6fb09c47118afddb73c7ea0b60282",
+  "successor_bytes": 60927,
+  "successor_lines": 1331,
+  "successor_sha256": "5f71fc50862296919df2165cc33d3e5cf8c874bc4a50a4b314f2574251162bac",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "current_metadata_present": true,
+    "opening_succession_boundary_present": true,
+    "Network_BasisOnly_refs_present": true,
+    "Duncan_underage_boundary_present": true,
+    "Gille_quarantine_present": true,
+    "honest_status_present": true,
+    "authorizations_false": true,
+    "stable_footer_present": true,
+    "required_literals_present": true
+  },
+  "missing_source_headings": [],
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

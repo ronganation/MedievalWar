@@ -1,0 +1,557 @@
+{
+  "document_control": {
+    "file_name": "Campaign_Frameworks_V2_Current_Authority_Source_Manifest_and_Static_Check.json",
+    "stable_document_id": "Campaign.Frameworks.V2.SourceManifest.StaticCheck",
+    "version": "1.0.0",
+    "revision_date": "2026-09-18",
+    "placement": "Project_Bible/Frameworks/Campaign",
+    "authority_class": [
+      "CampaignFrameworkFamilySourceManifest",
+      "SourceSuccessorPreservationLedger",
+      "OwnershipDispositionRecord",
+      "StaticDocumentContentCheck",
+      "ImplementationEvidenceBoundary"
+    ],
+    "project_constitution": {
+      "project_bible": "2.4",
+      "design_expansion_checklist": "3.7",
+      "unreal_engine_target": "5.8",
+      "scenario_opening": "1062-01-01",
+      "historical_progression_per_strategic_turn": "21 months",
+      "biological_progression_per_strategic_turn": "7 months",
+      "campaign_season_progression_per_strategic_turn": "one ordered Winter, Spring, Summer, Autumn step"
+    },
+    "validation_scope": "Document content, source-successor preservation, ownership, supersession, temporal consistency, anti-churn, and nonmutation only",
+    "validation_status": "PASS_DOCUMENT_CONTENT_ONLY",
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "rollback_executed": false,
+    "performance_validated": false,
+    "payload_validated": false
+  },
+  "current_authority_family": {
+    "navigation_and_precedence": "Campaign_Frameworks_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+    "campaign_data_architecture": "Campaign_Data_Architecture_V2_Current_Authority_Additive_Modernization.md",
+    "campaign_turn_processing": "Campaign_Simulation_Turn_Pipeline_V2_Current_Authority_Additive_Modernization.md",
+    "campaign_objectives_standings_designations_and_victory": "Campaign_Theater_Objectives_Standing_Designation_and_Cross_Theater_Integration_Framework_V1.md",
+    "campaign_knowledge_explanation_history_and_learning": "Campaign_Codex_Framework_V2_Current_Authority_Additive_Modernization.md",
+    "campaign_objective_current_authority_audit": "Campaign_Theater_Objective_and_Designation_Current_Authority_Audit_and_Owner_Decision_V1.md",
+    "campaign_objective_static_evidence": "Campaign_Theater_Objectives_Integration_Framework_V1_Source_Manifest_and_Static_Check_V1_0_1_Corrected.json",
+    "campaign_objective_independent_closure": "Campaign_Theater_Objectives_Integration_Framework_V1_Independent_Static_Closure_Review.md"
+  },
+  "source_records": [
+    {
+      "source_id": "SRC-001",
+      "file_name": "Campaign_Data_Architecture.md",
+      "role": "Immediate substantive source for Campaign Data Architecture V2",
+      "bytes": 31209,
+      "physical_lines": 1790,
+      "sha256": "a366bb1c25bd74bca44f87ce97f099a9b6aa3703678643fe259d60b12fa11c60",
+      "fingerprint_basis": "Successor creation receipt",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource",
+      "current_successor": "Campaign_Data_Architecture_V2_Current_Authority_Additive_Modernization.md",
+      "exact_complete_prefix_preserved": true,
+      "may_override_successor": false
+    },
+    {
+      "source_id": "SRC-002",
+      "file_name": "Campaign_Data_Architecture_V2_Current_Authority_Additive_Modernization.md",
+      "role": "Current Campaign data architecture authority candidate",
+      "bytes": 69525,
+      "physical_lines": 3192,
+      "sha256": "27616642646b1081d20de99b9709b10171bda8ff549ac5ab9b8de0798bee9496",
+      "fingerprint_basis": "Creation receipt",
+      "disposition": "CurrentAuthorityCandidate",
+      "source_sections_removed": 0,
+      "source_records_removed": 0,
+      "source_code_examples_removed": 0
+    },
+    {
+      "source_id": "SRC-003",
+      "file_name": "Campaign_Simulation_Turn_Pipeline.md",
+      "role": "Immediate substantive source for Campaign Simulation Turn Pipeline V2",
+      "bytes": 33185,
+      "physical_lines": 1808,
+      "sha256": "e75ecbd362c2b925fc2708dbd371764f1588281e20b042059b998620beb62078",
+      "fingerprint_basis": "Successor creation receipt",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource",
+      "current_successor": "Campaign_Simulation_Turn_Pipeline_V2_Current_Authority_Additive_Modernization.md",
+      "exact_complete_prefix_preserved": true,
+      "may_override_successor": false
+    },
+    {
+      "source_id": "SRC-004",
+      "file_name": "Campaign_Turn_And_Flow_System.md",
+      "role": "Supporting integration source for pipeline V2",
+      "bytes": 7416,
+      "physical_lines": 613,
+      "sha256": "39d64c7ba18f6db01c5d330a801c71483ec73b3f44e27bd6e96aef9c9a44d977",
+      "fingerprint_basis": "Pipeline successor creation receipt",
+      "disposition": "IntegratedSupportingSourceAndSupersededAsIndependentCurrentAuthority",
+      "integrated_into": "Campaign_Simulation_Turn_Pipeline_V2_Current_Authority_Additive_Modernization.md",
+      "separate_successor_authorized": false,
+      "physical_retention_required": true
+    },
+    {
+      "source_id": "SRC-005",
+      "file_name": "Campaign_Simulation_Turn_Pipeline_V2_Current_Authority_Additive_Modernization.md",
+      "role": "Current master Campaign turn-processing authority candidate",
+      "bytes": 74973,
+      "physical_lines": 3266,
+      "sha256": "f64250d04157d0b2fc3e7a11e66e1c92cc5c2e822dd1fc861bf80effd62cc5c5",
+      "fingerprint_basis": "Creation receipt",
+      "disposition": "CurrentAuthorityCandidate",
+      "immediate_source_sections_removed": 0,
+      "supporting_source_concepts_dispositioned": true,
+      "parallel_master_pipeline_authorized": false
+    },
+    {
+      "source_id": "SRC-006",
+      "file_name": "Campaign_Codex_Framework.md",
+      "role": "Immediate substantive source for Campaign Codex V2",
+      "bytes": 10990,
+      "physical_lines": 699,
+      "sha256": "db6a23901bd5c1dd0011868d2efc90ea7af6c14c2ab5c29783f8641e0f8b8826",
+      "fingerprint_basis": "Successor creation receipt",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource",
+      "current_successor": "Campaign_Codex_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "exact_complete_prefix_preserved": true,
+      "may_override_successor": false
+    },
+    {
+      "source_id": "SRC-007",
+      "file_name": "Campaign_Codex_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "role": "Current Campaign knowledge, explanation, history, and learning authority candidate",
+      "bytes": 38665,
+      "physical_lines": 1705,
+      "sha256": "3c2b2820ee45becb5d611588e8d95ccc8ebd491b9eeff39c442154968ff6717d",
+      "fingerprint_basis": "Creation receipt",
+      "disposition": "CurrentAuthorityCandidate",
+      "removed_source_sections": 0,
+      "removed_source_records": 0,
+      "removed_historical_examples": 0,
+      "removed_design_principles": 0
+    },
+    {
+      "source_id": "SRC-008",
+      "file_name": "Prototype_Campaign_Framework.md",
+      "role": "Legacy prototype vision and historical provenance",
+      "fingerprint_basis": "Full-source audit, no current creation fingerprint asserted here",
+      "disposition": "LegacyProvenance",
+      "current_runtime_authority": false,
+      "current_campaign_experience_authority": false,
+      "physical_retention_required": true,
+      "modernization_successor_authorized": false
+    },
+    {
+      "source_id": "SRC-009",
+      "file_name": "Campaign_Theater_Objectives_Standing_Designation_and_Cross_Theater_Integration_Framework_V1.md",
+      "role": "Current shared Campaign Experience framework",
+      "bytes": 31411,
+      "physical_lines": 1031,
+      "sha256": "fbdf86b4c6cc63dc57aa9391adbf056d9f96f367d0670fb06c839fb2e4d7b306",
+      "fingerprint_basis": "Framework creation receipt",
+      "disposition": "CurrentSharedCampaignExperienceFrameworkOwnerReviewRequired"
+    },
+    {
+      "source_id": "SRC-010",
+      "file_name": "Campaign_Theater_Objectives_Integration_Framework_V1_Source_Manifest_and_Static_Check_V1_0_1_Corrected.json",
+      "role": "Corrected static evidence for Campaign Experience framework",
+      "bytes": 28912,
+      "physical_lines": 815,
+      "sha256": "88867f690b51c6549ba5ab5ac0313f1bb6eb24c7ab592f1d772653e08ae0fbf4",
+      "fingerprint_basis": "Corrected manifest creation receipt",
+      "disposition": "CurrentCorrectedStaticEvidence",
+      "recorded_checks": 44,
+      "passed_checks": 43,
+      "not_evaluated_checks": 1,
+      "failed_checks": 0
+    },
+    {
+      "source_id": "SRC-011",
+      "file_name": "Campaign_Theater_Objectives_Integration_Framework_V1_Independent_Static_Closure_Review.md",
+      "role": "Independent closure for Campaign Experience framework",
+      "bytes": 27239,
+      "physical_lines": 882,
+      "sha256": "9538b9e26cda9fda4adeb7b6fa6ba5996dc2829588e826c2cdd1fee99c31ff5c",
+      "fingerprint_basis": "Independent closure creation receipt",
+      "disposition": "CurrentIndependentStaticClosure"
+    },
+    {
+      "source_id": "SRC-012",
+      "file_name": "Campaign_Frameworks_Current_Authority_Supersession_Ownership_Gap_and_Modernization_Sequence_V1.md",
+      "role": "Campaign framework-family source audit and modernization decision",
+      "bytes": 25207,
+      "physical_lines": 689,
+      "sha256": "e6940d048adcc782006fd669f3d8d4020617816fad46443df6a36928d2096e76",
+      "fingerprint_basis": "Audit creation receipt",
+      "disposition": "CurrentAuditAuthority"
+    },
+    {
+      "source_id": "SRC-013",
+      "file_name": "Campaign_Frameworks_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "role": "Current authority index, supersession map, and legacy disposition",
+      "bytes": 21377,
+      "physical_lines": 701,
+      "sha256": "b050c40770b8d3c636c471041c3c0a6fa23c9194b026b79a1458f737ad747445",
+      "fingerprint_basis": "Index creation receipt",
+      "disposition": "CurrentNavigationAndPrecedenceAuthority"
+    }
+  ],
+  "source_successor_preservation_ledger": [
+    {
+      "source": "Campaign_Data_Architecture.md",
+      "successor": "Campaign_Data_Architecture_V2_Current_Authority_Additive_Modernization.md",
+      "copy_first_exact_prefix": true,
+      "substantive_removals": []
+    },
+    {
+      "source": "Campaign_Simulation_Turn_Pipeline.md",
+      "successor": "Campaign_Simulation_Turn_Pipeline_V2_Current_Authority_Additive_Modernization.md",
+      "copy_first_exact_prefix": true,
+      "substantive_removals": []
+    },
+    {
+      "source": "Campaign_Codex_Framework.md",
+      "successor": "Campaign_Codex_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "copy_first_exact_prefix": true,
+      "substantive_removals": []
+    },
+    {
+      "source": "Campaign_Turn_And_Flow_System.md",
+      "successor": null,
+      "copy_first_exact_prefix": false,
+      "disposition": "Useful concepts integrated into Pipeline V2; full physical source retained as provenance; no separate successor authorized"
+    },
+    {
+      "source": "Prototype_Campaign_Framework.md",
+      "successor": null,
+      "copy_first_exact_prefix": false,
+      "disposition": "Legacy prototype vision retained intact; no modernization successor authorized"
+    }
+  ],
+  "ownership_matrix": {
+    "campaign_data_architecture_and_state_coordination": "Campaign_Data_Architecture_V2_Current_Authority_Additive_Modernization.md",
+    "turn_processing_and_transaction_order": "Campaign_Simulation_Turn_Pipeline_V2_Current_Authority_Additive_Modernization.md",
+    "objective_standing_designation_and_victory_definitions": "CampaignExperienceOwner",
+    "knowledge_explanation_history_and_learning": "Campaign_Codex_Framework_V2_Current_Authority_Additive_Modernization.md",
+    "realm_government_and_political_state": "RealmAndPoliticalConstitutionOwners",
+    "titles_claims_offices_and_succession": "SpecialistOwners",
+    "characters_dynasties_households_and_relationships": "SpecialistOwners",
+    "territory_administration_routes_supply_and_information": "SpecialistOwners",
+    "diplomacy_agreements_and_settlement": "DiplomacyOwners",
+    "military_battle_siege_captivity_and_recovery": "MilitaryBattleAndRecoveryOwners",
+    "exact_january_1062_facts": "OpeningStateOwners",
+    "canonical_identity_aliases_and_collisions": "RegistryOwners",
+    "implementation_and_runtime": "ProjectNativeImplementationOwners"
+  },
+  "static_checks": [
+    {
+      "check_id": "CF-001",
+      "statement": "Current authority index identifies one current owner per Campaign domain",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-002",
+      "statement": "Data Architecture V1 exact complete source is preserved as the V2 prefix",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-003",
+      "statement": "Simulation Pipeline V1 exact complete source is preserved as the V2 prefix",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-004",
+      "statement": "Codex V1 exact complete source is preserved as the V2 prefix",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-005",
+      "statement": "Turn and Flow has no competing modern successor",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-006",
+      "statement": "Prototype Campaign Framework is retained as legacy provenance",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-007",
+      "statement": "Historical progression equals 21 months per strategic turn",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-008",
+      "statement": "Biological progression equals 7 months per strategic turn",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-009",
+      "statement": "Campaign Season advances one ordered Winter Spring Summer Autumn step",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-010",
+      "statement": "Scenario opening is January 1 1062 in Winter",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-011",
+      "statement": "Temporal tracks cannot substitute for one another",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-012",
+      "statement": "Definition Opening Runtime Evaluation Presentation Save Migration and Historical layers remain separate",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-013",
+      "statement": "Static definitions do not create active Objective Designation Victory or Opening State records",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-014",
+      "statement": "Opening State is new-campaign-only and cannot reapply to an advanced save",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-015",
+      "statement": "Advanced saves preserve campaign divergence",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-016",
+      "statement": "Unknown IntentionalEmpty ReviewOnly HistoricalOnly and ExternalLock remain distinct",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-017",
+      "statement": "Campaign coordination does not seize specialist state ownership",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-018",
+      "statement": "Proposal Transaction Commit and Postcondition Success remain distinct",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-019",
+      "statement": "Owner silence does not equal approval",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-020",
+      "statement": "Realm AI and Theater AI may propose but may not execute owner actions",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-021",
+      "statement": "Objective lifecycle includes failure abandonment replacement recovery expiration and nonoccurrence",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-022",
+      "statement": "Standing is objective-specific and is not an authoritative resource",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-023",
+      "statement": "Designation creates no title office claim recognition territory government or allegiance",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-024",
+      "statement": "Victory does not automatically terminate the campaign",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-025",
+      "statement": "Objective completion creates no people treasury units equipment horses officers supply buildings territory access or recognition",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-026",
+      "statement": "Campaign Experience framework remains current and separate from the Codex and pipeline",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-027",
+      "statement": "Pipeline V2 is the only current master turn pipeline",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-028",
+      "statement": "Pipeline V2 integrates useful Turn and Flow world-flow and forecast concerns",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-029",
+      "statement": "Campaign phases preserve transactional validation rollback hashes and receipts",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-030",
+      "statement": "Battle return is separate from political settlement and territorial ownership",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-031",
+      "statement": "Succession separates vacancy claim candidacy selection recognition installation and consolidation",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-032",
+      "statement": "Finite-capacity recruitment and material dependencies are preserved",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-033",
+      "statement": "Codex is read-only and cannot mutate gameplay state",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-034",
+      "statement": "Codex visibility is filtered before search ranking and presentation",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-035",
+      "statement": "Codex separates definition discovery knowledge history explanation and presentation",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-036",
+      "statement": "Codex supports Objective Pressure Standing Designation Victory and recovery explanation",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-037",
+      "statement": "Codex protects hidden external private stale contested and unknown state",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-038",
+      "statement": "Localization aliases do not create duplicate entities",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-039",
+      "statement": "Critical presentation meaning does not rely on color hover or animation alone",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-040",
+      "statement": "Legacy universal political floats and scores cannot override typed owner records",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-041",
+      "statement": "Legacy seven-month turn assumptions cannot override the current temporal constitution",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-042",
+      "statement": "Prototype North Sea scope cannot override current full-project scope",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-043",
+      "statement": "Suggested Unreal classes subsystems tags and commands are not verified current project architecture",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-044",
+      "statement": "Static checks are not mislabeled as compile runtime save migration replay rollback performance or payload validation",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-045",
+      "statement": "Repeat-application migration idempotence is not claimed as validated",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-046",
+      "statement": "Current Campaign authority relationships are documented without deleting legacy sources",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-047",
+      "statement": "No additional parallel Campaign Data Architecture is authorized",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-048",
+      "statement": "No additional master turn pipeline is authorized",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-049",
+      "statement": "No separate Turn and Flow successor is authorized",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-050",
+      "statement": "No modernization successor for Prototype Campaign Framework is authorized",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-051",
+      "statement": "No additional Campaign Objective wrapper is authorized",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-052",
+      "statement": "No additional Campaign Codex wrapper is authorized",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-053",
+      "statement": "No Registry Opening State payload importer runtime or Unreal activation is authorized",
+      "result": "PASS"
+    },
+    {
+      "check_id": "CF-054",
+      "statement": "Next gate is independent static closure, not implementation",
+      "result": "PASS"
+    }
+  ],
+  "summary": {
+    "source_records": 13,
+    "preservation_records": 5,
+    "static_checks_total": 54,
+    "static_checks_passed": 54,
+    "static_checks_failed": 0,
+    "warnings": 0,
+    "fatal_failures": 0,
+    "overall_result": "PASS_DOCUMENT_CONTENT_ONLY",
+    "independent_static_closure_required": true,
+    "implementation_promotion_authorized": false
+  },
+  "nonmutation_receipt": {
+    "source_files_modified": 0,
+    "realm_files_modified": 0,
+    "theater_files_modified": 0,
+    "registry_entries_created_or_modified": 0,
+    "opening_state_records_created_or_modified": 0,
+    "campaign_runtime_records_created_or_modified": 0,
+    "objective_instances_created_or_modified": 0,
+    "designation_instances_created_or_modified": 0,
+    "save_schemas_created_or_modified": 0,
+    "migration_executed": false,
+    "gameplay_payloads_created_or_imported": 0,
+    "unreal_files_modified": 0,
+    "compile_executed": false,
+    "runtime_executed": false
+  },
+  "next_gate": {
+    "file": "Campaign_Frameworks_V2_Current_Authority_Independent_Static_Closure_Review.md",
+    "purpose": "Independent challenge of modernization completeness, source preservation, owner boundaries, temporal consistency, persistence, validation honesty, and anti-churn",
+    "automatic_implementation_authorization": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "check_id": "FRANCE-CHECKLIST-IMPLEMENTATION-CLOSEOUT-2026-09-24",
+  "result": "PASS",
+  "checks": {
+    "document_id": true,
+    "authority": true,
+    "three_track": true,
+    "final_result": true,
+    "France_focused_202": true,
+    "folder_10": true,
+    "stop_gate": true,
+    "no_production": true,
+    "stable_checklist_not_modified": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "footer": true
+  },
+  "markdown_sha256": "089E2385D2B475BB234BB6D14D3848C63303F233E16FAB6E8A57C97951412921",
+  "markdown_bytes": 18286,
+  "markdown_lines": 465,
+  "structured_yaml_blocks": 22,
+  "production_authority": false
+}

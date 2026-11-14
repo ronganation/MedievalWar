@@ -1,0 +1,75 @@
+{
+  "ArtifactId": "Seville_Taifa_Strategic_Geography_and_Settlement_Setup_V1",
+  "InternalVersion": "1.1.0",
+  "Status": "STATIC_CHECKED_CURRENT_STRATEGIC_GEOGRAPHY_AND_SETTLEMENT_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "80c20f92db701dc64e8a6eb61b349f052c6dc455de7e2d7d2cdaaa113df9f83e",
+  "SourceBytes": 46683,
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "RegistryModernization": "2.0.0",
+    "DynastyAuthority": "1.1.0"
+  },
+  "Counts": {
+    "StrategicGeographyProfiles": 1,
+    "OpeningSettlementRoleDefinitions": 7,
+    "OpeningCapitalBindings": 1,
+    "OpeningSuperiorAuthorityBindings": 7,
+    "WesternIntegrationNodes": 3,
+    "GuadianaDepthNodes": 1,
+    "AlgarveReachNodes": 1,
+    "StraitProjectionNodes": 1,
+    "OpeningRouteOperations": 0,
+    "OpeningPortOperations": 0,
+    "OpeningCustomsOperations": 0,
+    "OpeningCrossings": 0,
+    "OpeningBlockades": 0,
+    "OpeningGarrisons": 0,
+    "OpeningLocalControllers": 0,
+    "OpeningSettlementRevenues": 0,
+    "OpeningPopulationValues": 0
+  },
+  "IdentityChecks": {
+    "HuelvaAndSaltesDistinct": true,
+    "SiteSaltesProhibited": true,
+    "SantaMariaAndFaroSingleIdentity": true,
+    "AlgecirasDoesNotGrantStraitControl": true
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "CopyFirstLedger": {
+    "OriginalNumberedSectionsReviewed": 41,
+    "OriginalNumberedSectionsRetained": 41,
+    "RemovedSubstantiveSections": 0,
+    "RemovedSettlementRoles": 0,
+    "RemovedProposalFamilies": 0,
+    "RemovedReasonCodes": 0,
+    "RemovedValidationTests": 0
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CopyFirstCompletenessChecked": true,
+    "AdjacentEconomyAndMilitaryInterfacesChecked": true,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "BalanceValidated": false
+  },
+  "NextAction": "Copy-first update Seville_Taifa_Economy_and_Fiscal_Setup_V1.md; keep Opening State deferred."
+}

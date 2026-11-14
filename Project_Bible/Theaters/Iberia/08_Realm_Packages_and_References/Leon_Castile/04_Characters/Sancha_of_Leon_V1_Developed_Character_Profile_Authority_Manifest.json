@@ -1,0 +1,37 @@
+{
+  "document_id": "Manifest.CharacterProfile.LeonCastile.SanchaOfLeon.V1",
+  "authority_file": "Sancha_of_Leon_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-07",
+  "placement": "Leon_Castile/03_Core_Authorities/Character_Profiles",
+  "bytes": 36763,
+  "physical_lines": 919,
+  "sha256": "6FEA6723BCC967DC82A3CBEF19988543F25E699C82FCCF2C3C2DCB0E25C9BF58",
+  "status": "StaticCheckedDevelopedCharacterProfileReviewOnly",
+  "benchmarks": [
+    "Edith_of_Wessex_V4.1.1_V3_Owner_Review_Candidate.md",
+    "Elisiv_of_Kiev_Refined_V1_1_FULL.md",
+    "Tora_Torbergsdatter_Refined_V1_1_FULL.md",
+    "Ermengarde_of_Anjou_Burgundy_V1_Developed_Character_Profile_Authority.md",
+    "Constance_of_Burgundy_V1_Developed_Character_Profile_Authority.md"
+  ],
+  "checks": {
+    "utf8": true,
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "final_marker_count": 1,
+    "cross_theater_benchmarks": true,
+    "succession_performance": true,
+    "automatic_regency_rejected": false
+  },
+  "all_checks_pass": true,
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "next_file": "Sancho_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md"
+}

@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationUE5ImplementationReadinessContract",
+    "name": "Trait Reputation UE5 Implementation Readiness Contract V1",
+    "version": "1.0",
+    "status": "PreparedForImplementation_CompileRuntimeSaveValidationPending",
+    "authority_class": "UE5 Implementation Contract",
+    "target": "Unreal Engine 5.8"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_UE5_Implementation_Readiness_Contract_V1.json"
+  },
+  "authority_bindings": [
+    {
+      "file": "Trait_Canonical_Registry_V1_1.json",
+      "records": 37
+    },
+    {
+      "file": "Reputation_Dimension_Registry_V1_1.json",
+      "records": 9
+    },
+    {
+      "file": "Trait_Reputation_Direct_Migration_Map_V1.json",
+      "mappings": 46
+    },
+    {
+      "file": "Trait_Reputation_Unreal_Asset_and_Save_Inventory_Classification_V1.json",
+      "role": "DiscoveryClosure"
+    }
+  ],
+  "implementation_layers": {
+    "definitions": {
+      "trait_types": [
+        "FTraitId",
+        "FTraitDefinition",
+        "FTraitDefinitionRegistry"
+      ],
+      "reputation_types": [
+        "FReputationDimensionId",
+        "FReputationDimensionDefinition",
+        "FReputationDefinitionRegistry"
+      ],
+      "rules": [
+        "Definitions are immutable at runtime.",
+        "Canonical IDs are FName-compatible stable tokens.",
+        "Localization keys are presentation only.",
+        "Registry load fails on duplicate, malformed, deprecated, or unknown mandatory IDs."
+      ]
+    },
+    "runtime_state": {
+      "trait_types": [
+        "FCharacterTraitInstance",
+        "FCharacterTraitState",
+        "FTraitEvidenceRef"
+      ],
+      "reputation_types": [
+        "FCharacterAudienceReputationKey",
+        "FCharacterAudienceReputationState",
+        "FReputationEvidenceRef"
+      ],
+      "rules": [
+        "Trait instance references one CharacterId and one TraitId.",
+        "Reputation key requires SubjectCharacterId, AudienceId or AudienceKindId, and ReputationDimensionId.",
+        "Unknown is distinct from zero.",
+        "Trait is not destiny. Reputation is not fact.",
+        "Mutable outcomes never live in definition assets."
+      ]
+    },
+    "ownership": {
+      "trait_owner": "UCharacterTraitSubsystem or project-equivalent authoritative subsystem",
+      "reputation_owner": "UCharacterReputationSubsystem or project-equivalent authoritative subsystem",
+      "historical_memory_boundary": "Historical Memory owns facts, evidence, narratives, reception history, commemoration, preservation, and legacy.",
+      "presentation_boundary": "UI derives labels and epithets from authorized read models only.",
+      "ai_boundary": "AI reads state, evaluates alternatives, explains reasons, and proposes commands. AI never mutates authoritative state directly."
+    },
+    "commands_events": {
+      "commands": [
+        "FAcquireCharacterTraitCommand",
+        "FRemoveCharacterTraitCommand",
+        "FApplyReputationEvidenceCommand",
+        "FSuspendAudienceReputationCommand",
+        "FRemoveAudienceReputationCommand"
+      ],
+      "events": [
+        "FCharacterTraitAcquiredEvent",
+        "FCharacterTraitRemovedEvent",
+        "FAudienceReputationChangedEvent",
+        "FAudienceReputationSuspendedEvent",
+        "FAudienceReputationRemovedEvent"
+      ],
+      "validation": [
+        "Owner validates IDs, authority, evidence, chronology, visibility, audience scope, and invariants before commit.",
+        "Events are emitted only after successful owner commit.",
+        "Command order uses stable canonical sorting."
+      ]
+    },
+    "read_models": [
+      "FCharacterTraitReadModel",
+      "FCharacterAudienceReputationReadModel",
+      "FTraitAIReasonView",
+      "FReputationAIReasonView",
+      "FTraitReputationPresentationView"
+    ],
+    "registry_loading": {
+      "source_format": "Authoritative JSON may be imported into UE-native data during build/editor preparation.",
+      "recommended_assets": [
+        "UPrimaryDataAsset-derived registry asset or cooked immutable registry table",
+        "Data validation commandlet",
+        "Generated canonical-ID constants only when generation is deterministic and registry-derived"
+      ],
+      "prohibited": [
+        "Display-name lookup as identity",
+        "Filename lookup as identity",
+        "Asset load order as identity",
+        "Alias chains",
+        "Deprecated IDs in new content or saves"
+      ]
+    },
+    "save_contract": {
+      "minimum_version": "FTraitReputationSaveVersion V1",
+      "fields": [
+        "RegistryVersion",
+        "TraitStateVersion",
+        "ReputationStateVersion",
+        "MigrationVersion",
+        "CharacterTraitStates",
+        "AudienceReputationStates",
+        "QuarantineRecords",
+        "MigrationProvenance"
+      ],
+      "rules": [
+        "Opening States never overwrite advanced saves.",
+        "Unknown mandatory IDs fail safely.",
+        "Ambiguous records quarantine.",
+        "Source save remains unchanged during migration.",
+        "Load then save then reload preserves normalized authoritative state.",
+        "Migration is idempotent."
+      ]
+    },
+    "determinism": {
+      "inputs": [
+        "authoritative state",
+        "registry versions",
+        "mapping version",
+        "command sequence",
+        "visibility state",
+        "seed"
+      ],
+      "stable_ordering": [
+        "CharacterId",
+        "AudienceIdOrKindId",
+        "CanonicalDefinitionId",
+        "EvidenceId",
+        "CommandSequence"
+      ],
+      "prohibited": [
+        "unordered container iteration",
+        "object address",
+        "frame order",
+        "thread completion order",
+        "wall clock",
+        "localized text",
+        "unseeded randomness"
+      ]
+    },
+    "performance": [
+      "No per-frame all-character scans.",
+      "Use indexed lookup by canonical ID.",
+      "Keep lightweight characters definition-reference only unless activated.",
+      "Batch validation and migration offline or headless."
+    ]
+  },
+  "required_validation_fixtures": [
+    {
+      "id": "TR-FX-001",
+      "case": "Load all 37 Trait definitions",
+      "expected": "Pass, stable hash"
+    },
+    {
+      "id": "TR-FX-002",
+      "case": "Load all nine Reputation dimensions",
+      "expected": "Pass, stable hash"
+    },
+    {
+      "id": "TR-FX-003",
+      "case": "Duplicate canonical ID",
+      "expected": "Fail validation"
+    },
+    {
+      "id": "TR-FX-004",
+      "case": "Unknown mandatory ID",
+      "expected": "Fail safely or quarantine by contract"
+    },
+    {
+      "id": "TR-FX-005",
+      "case": "Acquire and remove Trait through commands",
+      "expected": "Owner commit and ordered events"
+    },
+    {
+      "id": "TR-FX-006",
+      "case": "Same subject and dimension across two audiences",
+      "expected": "Independent asymmetric states"
+    },
+    {
+      "id": "TR-FX-007",
+      "case": "Reputation without evidence or information path",
+      "expected": "Reject"
+    },
+    {
+      "id": "TR-FX-008",
+      "case": "Save round trip",
+      "expected": "Equal normalized state"
+    },
+    {
+      "id": "TR-FX-009",
+      "case": "Migration replay twice",
+      "expected": "Second application is a no-op"
+    },
+    {
+      "id": "TR-FX-010",
+      "case": "Equal input replay",
+      "expected": "Equal event and output hashes"
+    }
+  ],
+  "implementation_sequence": [
+    "Add typed IDs and immutable definition structs.",
+    "Add registry loader and validator using committed registries.",
+    "Add owner subsystems and read-only query interfaces.",
+    "Add validated command and event paths.",
+    "Add runtime state structs with audience-specific Reputation keys.",
+    "Add versioned save schema and quarantine records.",
+    "Add headless fixtures and deterministic normalized hashes.",
+    "Compile in Development Editor.",
+    "Run controlled runtime and save fixtures.",
+    "Only then review apply authorization."
+  ],
+  "status_matrix": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveValidated": false,
+    "MigrationValidated": false,
+    "DeterminismValidated": false,
+    "RollbackValidated": false
+  },
+  "authorization_boundary": {
+    "ue5_implementation_authorized": true,
+    "registry_definition_changes_authorized": false,
+    "legacy_content_rewrite_authorized": false,
+    "save_migration_apply_authorized": false,
+    "production_runtime_enablement_authorized": false
+  },
+  "smallest_useful_next_action": "Create the UE5 typed-ID and immutable registry-loader implementation first, with tests TR-FX-001 through TR-FX-004. Do not begin mutable Trait/Reputation runtime behavior until registry loading and validation compile successfully."
+}

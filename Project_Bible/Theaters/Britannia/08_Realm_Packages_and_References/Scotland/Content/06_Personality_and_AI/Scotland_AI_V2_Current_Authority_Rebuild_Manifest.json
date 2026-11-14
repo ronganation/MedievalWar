@@ -1,0 +1,52 @@
+{
+  "document_id": "manifest.scotland.ai.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Scotland_AI.md",
+    "reference_id": "turn130search129",
+    "retrieved_lines": 423,
+    "copy_method": "normalized complete substantive preservation layer"
+  },
+  "benchmarks": [
+    {
+      "filename": "England_AI_V3.1_Current_Authority_Refinement.md",
+      "reference_id": "turn130search145"
+    },
+    {
+      "filename": "Norway_AI_Refined_V1_1_FULL.md",
+      "reference_id": "turn130search161"
+    }
+  ],
+  "output": {
+    "filename": "Scotland_AI_V2_Current_Authority_Rebuild.md",
+    "bytes": 43205,
+    "physical_lines": 1112,
+    "sha256": "2eea816285fbd12a60f0da12ceeb88835b9ec186535252d8a1816717015327c9"
+  },
+  "preservation": {
+    "source_sections_preserved": 15,
+    "removed_content": [],
+    "fixed_rankings_retained_as_provenance": true
+  },
+  "additions": {
+    "strategy_modes": 9,
+    "hard_gates": 12,
+    "validation_cases": 20,
+    "supported_person_interfaces": 7,
+    "replacement_character_created": false
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "AI_state_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "production_command_dispatch": false
+  },
+  "static_check": {
+    "filename": "Scotland_AI_V2_Current_Authority_Rebuild_Static_Check.json",
+    "passed": true
+  }
+}

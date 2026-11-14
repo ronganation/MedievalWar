@@ -1,0 +1,25 @@
+{
+  "document_id": "static-check.england.AI.v3_1.current_authority_refinement",
+  "version": "1.0.0",
+  "source_reference_id": "turn30search38",
+  "source_file": "England_AI.md",
+  "output_file": "England_AI_V3.1_Current_Authority_Refinement.md",
+  "checks": {
+    "created": true,
+    "depth": true,
+    "sections": true,
+    "opening_once": true,
+    "temporal": true,
+    "current_packages": true,
+    "historical_suite": true,
+    "owners": true,
+    "aelfgar": true,
+    "stable_ids": true,
+    "source_built": true,
+    "AI_filename": true,
+    "no_escapes": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true
+}

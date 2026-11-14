@@ -1,0 +1,84 @@
+{
+  "ArtifactId": "Seville_Taifa_Economy_and_Fiscal_Setup_V1",
+  "InternalVersion": "1.1.0",
+  "Status": "STATIC_CHECKED_CURRENT_ECONOMY_AND_FISCAL_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "aba3f041dec99be96e7889ed8853e6ee965370cb097fb74bd312e2f933c8567d",
+  "SourceBytes": 53672,
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "RegistryModernization": "2.0.0",
+    "GeographyAuthority": "1.1.0",
+    "DynastyAuthority": "1.1.0"
+  },
+  "Counts": {
+    "EconomyProfiles": 1,
+    "SettlementOpportunityProfiles": 7,
+    "OpeningTreasuryAccounts": 0,
+    "OpeningTreasuryBalances": 0,
+    "OpeningTaxRateRecords": 0,
+    "OpeningRevenueRecords": 0,
+    "OpeningMarketOperations": 0,
+    "OpeningMintOperations": 0,
+    "OpeningCustomsOperations": 0,
+    "OpeningPropertyRecords": 0,
+    "OpeningProductionOperations": 0,
+    "OpeningShipmentRecords": 0,
+    "OpeningStockpileRecords": 0,
+    "OpeningTradeRouteOperations": 0,
+    "OpeningTributeAgreements": 0,
+    "OpeningDebtRecords": 0,
+    "OpeningEconomicMutations": 0
+  },
+  "IdentityChecks": {
+    "HuelvaAndSaltesDistinct": true,
+    "SiteSaltesProhibited": true,
+    "SantaMariaAndFaroSingleIdentity": true,
+    "AlgecirasDoesNotGrantStraitIncome": true
+  },
+  "CharacterBoundaries": {
+    "AlMutadidPersonalWealth": "Unknown",
+    "AlMutamidPersonalWealth": "Unknown",
+    "DynastyContextCreatesProperty": false,
+    "SuccessionRelevanceGrantsTreasuryAccess": false,
+    "LiteraryIdentityCreatesFreePrestigeOrIncome": false
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "CopyFirstLedger": {
+    "OriginalNumberedSectionsReviewed": 49,
+    "OriginalNumberedSectionsRetained": 49,
+    "RemovedSubstantiveSections": 0,
+    "RemovedSettlementOpportunityProfiles": 0,
+    "RemovedDecisionFamilies": 0,
+    "RemovedReasonCodes": 0,
+    "RemovedValidationTests": 0
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CopyFirstCompletenessChecked": true,
+    "GeographyInterfaceChecked": true,
+    "CharacterAndDynastyBoundariesChecked": true,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "BalanceValidated": false
+  },
+  "NextAction": "Copy-first update Seville_Taifa_Military_and_Roster_Setup_V1.md; keep Opening State deferred."
+}

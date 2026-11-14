@@ -1,0 +1,89 @@
+﻿{
+    "document_id":  "mw.shared-save.isolated-implementation.v1",
+    "generated_utc":  "2026-08-24T18:43:02.8562902Z",
+    "owner_receipt_id":  "receipt.shared-save.hybrid-isolated-implementation.v1.4394f0e15ab946f588906b5ad4136b57",
+    "implementation_target":  "Unreal Engine 5.8",
+    "implementation_root":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Implementation_V1",
+    "classification":  "IsolatedImplementationStaticCheckedNotCompiled",
+    "checks":  {
+                   "owner_receipt_valid":  true,
+                   "implementation_tree_separate_from_baseline":  true,
+                   "friend_save_owner_present":  true,
+                   "prepare_candidate_present":  true,
+                   "install_loaded_state_present":  true,
+                   "historical_ReplaceCampaignState_removed_from_save_load":  true,
+                   "schema_2_pristine_path_present":  true,
+                   "schema_3_only_current_acceptance":  true,
+                   "current_date_validation_present":  true,
+                   "lifecycle_reconciliation_present":  true,
+                   "campaign_validation_present":  true,
+                   "definition_preservation_present":  true,
+                   "exact_trace_rollback_present":  true,
+                   "post_install_hash_check_present":  true,
+                   "active_source_mutation_performed":  false,
+                   "isolated_baseline_source_mutation_performed":  false,
+                   "compile_validated":  false,
+                   "runtime_validated":  false
+               },
+    "active_source_mutation_performed":  false,
+    "isolated_baseline_source_mutation_performed":  false,
+    "compile_validated":  false,
+    "runtime_validated":  false,
+    "save_load_validated":  false,
+    "migration_validated":  false,
+    "replay_validated":  false,
+    "active_source_promotion_authorized":  false,
+    "item_3_complete":  false,
+    "records":  [
+                    {
+                        "relative_path":  "Diffs/MWCampaignSaveSubsystem_cpp.txt",
+                        "bytes":  4661,
+                        "sha256":  "712EBFC5DAA1592A016E7690158E68F288931AC10580D2016D04E5B5B6050933"
+                    },
+                    {
+                        "relative_path":  "Diffs/MWCampaignTurnSubsystem_cpp.txt",
+                        "bytes":  24664,
+                        "sha256":  "5C4CBCEBA8AC8F14C1C36732FA64FACE164D1CEB3E8F1BA4F5A173734A9C9C88"
+                    },
+                    {
+                        "relative_path":  "Diffs/MWCampaignTurnSubsystem_h.txt",
+                        "bytes":  1025,
+                        "sha256":  "A62A209BA5B60957F9764EEDEDC9502C65921D1720CB3FE851DC047E43845C75"
+                    },
+                    {
+                        "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignSaveSubsystem.cpp",
+                        "bytes":  2225,
+                        "sha256":  "6095E366E1D1D61DE0D87EBBE12772D26B4A016132BAD44A3886BF3745D097EC"
+                    },
+                    {
+                        "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignTurnSubsystem.cpp",
+                        "bytes":  75091,
+                        "sha256":  "91761D4D613BA998935DFACADC201D6540974A592EB0CBDA9CC650787CE147E7"
+                    },
+                    {
+                        "relative_path":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignSaveRestorationTests.cpp",
+                        "bytes":  972,
+                        "sha256":  "65F8B5A336BF5CC92029416E725215E6DB4A4674BB7E84BEB6FF7D585574A3D9"
+                    },
+                    {
+                        "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignSaveGame.h",
+                        "bytes":  784,
+                        "sha256":  "E76EFF658521DC7A8638919799190B0CEB5F39BB9A017491FDD101D1799C1BC9"
+                    },
+                    {
+                        "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignSaveSubsystem.h",
+                        "bytes":  849,
+                        "sha256":  "DF562CD23DE41BA24E17038621E1BDFED91CD0F67E17C6E99E0D5EDCDA2046EB"
+                    },
+                    {
+                        "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTurnSubsystem.h",
+                        "bytes":  11822,
+                        "sha256":  "0A42BE9CBF7681F6C6B1582AC67ED8C843435471FB5A2C68A7E02049887DF225"
+                    },
+                    {
+                        "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTypes.h",
+                        "bytes":  33402,
+                        "sha256":  "DB41B84AF4212545AB5904C95DF596E91B43A4583A90B15C80080337C5063656"
+                    }
+                ]
+}

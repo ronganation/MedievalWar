@@ -1,0 +1,33 @@
+{
+  "FileName": "Sweden_Territory_Geography_and_Climate_Setup_V1_1_Current_Authority_Refinement_FULL.md",
+  "Version": "1.1.0",
+  "Status": "Static-Checked Current Authority Refinement with Controlled Dependencies",
+  "SHA256": "CDCFF03B4FD6001A181B94CD9EFE1668284D6B5EAC4949E499A85CBA491C956E",
+  "Bytes": 46957,
+  "Lines": 1109,
+  "SourceFile": "Sweden_Territory_Geography_and_Climate_Setup_V1.md",
+  "SourceSHA256": "4AC4721B8B55E306ACF0549B27C987ED80013DB6E688EE9D3366F561F2155C5F",
+  "SourceManifest": "Sweden_Territory_Geography_and_Climate_Setup_V1_Manifest.json",
+  "SourceManifestSHA256": "41E9F794B7A43888909B2D072F716E5B0B1DD94E3DC53D9F0EBD704F412F4C02",
+  "Checks": {
+    "copy_first": true,
+    "continuous_sections_1_69": true,
+    "all_named_geographies_preserved": true,
+    "local_condition_contract": true,
+    "finite_recruitment": true,
+    "three_track": true,
+    "project_bible_2_4": true,
+    "design_expansion_checklist_3_7": true,
+    "full_Norse_Theater_wording": true,
+    "ue58": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "honest_validation": true,
+    "footer": true
+  },
+  "OpeningStateModified": false,
+  "RegistryModified": false,
+  "RuntimeStateCreated": false,
+  "PhysicalPromotionCompleted": false
+}

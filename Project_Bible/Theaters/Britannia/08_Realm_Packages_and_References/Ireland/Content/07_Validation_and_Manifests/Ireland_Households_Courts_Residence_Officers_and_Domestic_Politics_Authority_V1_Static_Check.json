@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Households_Courts_Residence_Officers_and_Domestic_Politics_Authority_V1.md",
+  "bytes": 41037,
+  "lines": 912,
+  "sections": 42,
+  "validation_cases": 40,
+  "checks": {
+    "large": true,
+    "sections": true,
+    "validations": true,
+    "gap_source": true,
+    "regional": true,
+    "underage": true,
+    "implementation": true,
+    "capacity": true,
+    "three": true,
+    "honest": true,
+    "no_mutation": true,
+    "empty_removal": true,
+    "format": true,
+    "all_pass": true
+  }
+}

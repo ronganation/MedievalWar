@@ -1,0 +1,21 @@
+{
+  "document": "England_Heavy_Bill_Militia_Three_Way_Collision_and_Profile_Survival_Gate_V1.md",
+  "sha256": "bcd712ebc6581dbc3f740b15ad9280e50f1e1aa10a742139d6fa001c51598dd4",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "explicit_verdict": true,
+    "three_way": true,
+    "city_guard": true,
+    "profile_preserved": true,
+    "service_firewall": true,
+    "reopening": true,
+    "no_fabricated": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

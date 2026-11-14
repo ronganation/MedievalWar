@@ -1,0 +1,33 @@
+{
+  "document_id": "manifest.england.source_inventory.v1_1.refinement",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "England_Source_Inventory_V1.md",
+    "version": "1.0",
+    "substantive_content_preserved": true
+  },
+  "files": [
+    {
+      "filename": "England_Source_Inventory_V1.1_Current_Authority_Refinement.md",
+      "sha256": "51127cac184c37eedb3800c9ce8a9a2ffce389bdc82cd55d1d49a3fe102ff5f1",
+      "bytes": 40498
+    },
+    {
+      "filename": "England_Source_Inventory_V1.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "3633102128ebb87fd3e2367dd6e262d7d624d743c8227c58ed4823a0726a23f1",
+      "bytes": 724
+    }
+  ],
+  "authorizations": {
+    "source_archival": false,
+    "source_deletion": false,
+    "opening_state_activation": false,
+    "repository_mutation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

@@ -1,0 +1,201 @@
+ledger_version: 1.0.0
+ledger_status: PartialBatchDStaleNextFilePointerEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+scope:
+  pointer_records: 18
+  visible_folder07_targets_confirmed: 15
+  external_or_other_folder_targets: 2
+  missing_or_unverified_targets: 1
+  source_files_rewritten: 0
+classification_values:
+  - ActiveCurrentPointer
+  - CompletedTargetHistoricalPointer
+  - PartiallyCompletedTargetFamily
+  - SuccessorDependentPointer
+  - RejectedTargetDoNotCreate
+  - ExternalOrOtherFolderPointer
+  - MissingOrUnverifiedTarget
+rules:
+  - CompletedTargetMustNotBeRecreated
+  - RejectedTargetMustNotBeCreated
+  - HigherVersionDoesNotRedirectPointerWithoutLineageApproval
+  - PointerPresenceDoesNotProveTargetCurrentness
+  - MissingSearchResultDoesNotProveMissingPhysicalFile
+  - ActivePointerChangesOnlyThroughOwnerApprovedSuccessorOrSequenceCloseout
+  - NoSourcePointerRewriteAuthorizedByThisLedger
+pointer_records:
+  - pointer_ref: HMD_PTR_001
+    source_file: Hammadid_Package_Wide_Missing_Authority_Audit_and_Next_Sequence_Disposition_V1.md
+    pointer_target: Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    target_state: VisibleInFolder07
+    classification: CompletedTargetHistoricalPointer
+    disposition: RetainAsSequenceHistoryDoNotRecreate
+  - pointer_ref: HMD_PTR_002
+    source_file: Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    pointer_target: Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    target_state: VisibleInFolder07
+    classification: CompletedTargetHistoricalPointer
+    disposition: RetainAsSequenceHistoryDoNotRecreate
+  - pointer_ref: HMD_PTR_003
+    source_file: Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    pointer_target: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1.md
+    target_state: V1NotVisibleV1_1Visible
+    classification: SuccessorDependentPointer
+    disposition: PreserveV1PointerUntilV1ToV1_1LineageApproved
+  - pointer_ref: HMD_PTR_004
+    source_file: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    pointer_target: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    target_state: VisibleInFolder07
+    classification: CompletedTargetHistoricalPointer
+    disposition: DefinitionTargetCreatedExecutionStillPartial
+  - pointer_ref: HMD_PTR_005
+    source_file: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    pointer_target: Hammadid_Recursive_File_Manifest_V1.csv
+    target_state: VisibleInFolder07
+    classification: PartiallyCompletedTargetFamily
+    disposition: PreservePartialEvidenceDoNotClaimRecursiveCompletion
+  - pointer_ref: HMD_PTR_006
+    source_file: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    pointer_target: Hammadid_Recursive_File_Manifest_V1.yaml
+    target_state: VisibleInFolder07
+    classification: PartiallyCompletedTargetFamily
+    disposition: PreservePartialEvidenceDoNotClaimRecursiveCompletion
+  - pointer_ref: HMD_PTR_007
+    source_file: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    pointer_target: Hammadid_SHA256_and_Duplicate_Hash_Ledger_V1.yaml
+    target_state: VisibleInFolder07
+    classification: PartiallyCompletedTargetFamily
+    disposition: PreservePartialHashEvidenceCompleteHashingStillNotRun
+  - pointer_ref: HMD_PTR_008
+    source_file: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    pointer_target: Hammadid_Header_Identity_Ledger_V1.yaml
+    target_state: VisibleInFolder07
+    classification: PartiallyCompletedTargetFamily
+    disposition: PreservePartialHeaderEvidenceRawClosureStillPending
+  - pointer_ref: HMD_PTR_009
+    source_file: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    pointer_target: Hammadid_Section_and_Structure_Inventory_V1.yaml
+    target_state: VisibleInFolder07
+    classification: PartiallyCompletedTargetFamily
+    disposition: PreservePartialStructureEvidenceRawClosureStillPending
+  - pointer_ref: HMD_PTR_010
+    source_file: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    pointer_target: Hammadid_Formatting_and_Literal_Conformance_Ledger_V1.yaml
+    target_state: VisibleInFolder07
+    classification: PartiallyCompletedTargetFamily
+    disposition: PreservePartialLiteralEvidenceRawClosureStillPending
+  - pointer_ref: HMD_PTR_011
+    source_file: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    pointer_target: Hammadid_Alias_Ownership_and_Collision_Ledger_V1.yaml
+    target_state: VisibleInFolder07
+    classification: PartiallyCompletedTargetFamily
+    disposition: PreserveCandidateOnlyCollisionEvidence
+  - pointer_ref: HMD_PTR_012
+    source_file: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    pointer_target: Hammadid_Stale_Next_File_Pointer_Ledger_V1.yaml
+    target_state: CreatedByThisDeliveryPendingOwnerPlacement
+    classification: ActiveCurrentPointer
+    disposition: SatisfiedAfterOwnerPlacement
+  - pointer_ref: HMD_PTR_013
+    source_file: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    pointer_target: Hammadid_Source_Successor_Lineage_Ledger_V1.yaml
+    target_state: VisibleInFolder07
+    classification: PartiallyCompletedTargetFamily
+    disposition: PreservePartialLineageEvidenceOwnerDecisionsPending
+  - pointer_ref: HMD_PTR_014
+    source_file: Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    pointer_target: Hammadid_Current_Authority_Physical_Inventory_Duplicate_Disposition_and_Identity_Mapping_Preflight_V1.md
+    target_state: VisibleInFolder07
+    classification: CompletedTargetHistoricalPointer
+    disposition: RetainAsSequenceHistoryDoNotRecreate
+  - pointer_ref: HMD_PTR_015
+    source_file: Hammadid_Current_Authority_Physical_Inventory_Duplicate_Disposition_and_Identity_Mapping_Preflight_V1.md
+    pointer_target: ExecuteEvidencePackBatchAAgainstActualLocalHammadidPackage
+    target_state: PartialArtifactsVisiblePhysicalExecutionIncomplete
+    classification: PartiallyCompletedTargetFamily
+    disposition: KeepExecutionGapOpenWithoutCreatingAnotherScriptAuthority
+  - pointer_ref: HMD_PTR_016
+    source_file: Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    pointer_target: Hammadid_Justice_Enforcement_Detention_Sentencing_Restitution_and_Penal_Administration_Authority_V1.md
+    target_state: RejectedByOverlapReview
+    classification: RejectedTargetDoNotCreate
+    disposition: PreserveExistingLawCustodyAndPublicOrderOwners
+  - pointer_ref: HMD_PTR_017
+    source_file: Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    pointer_target: Hammadid_Opening_State_Assembly_and_Binding_Plan_V1.md
+    target_state: NotVisibleInFolder07AndPriorSearchUnverified
+    classification: MissingOrUnverifiedTarget
+    disposition: DoNotInferAbsenceLocateInPackageOrRecordExternalPlacement
+  - pointer_ref: HMD_PTR_018
+    source_file: Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    pointer_target: Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+    target_state: ExpectedInHistoricalOpeningFolderNotFolder07
+    classification: ExternalOrOtherFolderPointer
+    disposition: PreserveCrossFolderSourceReferenceVerifyPhysicalPlacementSeparately
+classification_summary:
+  ActiveCurrentPointer: 1
+  CompletedTargetHistoricalPointer: 4
+  PartiallyCompletedTargetFamily: 9
+  SuccessorDependentPointer: 1
+  RejectedTargetDoNotCreate: 1
+  ExternalOrOtherFolderPointer: 1
+  MissingOrUnverifiedTarget: 1
+  total: 18
+anti_recreation_register:
+  completed_do_not_recreate:
+    - Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    - Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    - Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    - Hammadid_Current_Authority_Physical_Inventory_Duplicate_Disposition_and_Identity_Mapping_Preflight_V1.md
+  rejected_do_not_create:
+    - Hammadid_Justice_Enforcement_Detention_Sentencing_Restitution_and_Penal_Administration_Authority_V1.md
+  successor_dependent_do_not_redirect_yet:
+    - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+active_sequence:
+  current_file: Hammadid_Stale_Next_File_Pointer_Ledger_V1.yaml
+  next_file: Hammadid_Candidate_Disposition_and_Current_Authority_Stop_Gate_Ledger_V1.yaml
+  next_purpose:
+    - ConsolidateCompletedRejectedHeldQuarantinedAndUnresolvedCandidates
+    - PreventAccidentalPromotionOrRecreation
+    - EstablishBatchDStopGateState
+unresolved_findings:
+  - finding_ref: HMD_POINTER_FINDING_001
+    finding: ValidationV1PointerCannotRedirectToV1_1WithoutLineageApproval
+    severity: BLOCKING_FOR_CURRENT_AUTHORITY_REDIRECT
+    owner: PackageControlValidation
+  - finding_ref: HMD_POINTER_FINDING_002
+    finding: OpeningStateAssemblyAndBindingPlanLocationRemainsUnverified
+    severity: BLOCKING_FOR_SOURCE_CHAIN_CLOSURE
+    owner: PackageControlOpeningState
+  - finding_ref: HMD_POINTER_FINDING_003
+    finding: BatchAPhysicalExecutionRemainsIncompleteDespiteVisibleArtifacts
+    severity: BLOCKING_FOR_EVIDENCE_FREEZE
+    owner: PackageControlValidation
+  - finding_ref: HMD_POINTER_FINDING_004
+    finding: CompletedAndRejectedTargetsMustNotBeRecreated
+    severity: CONTROL_STOP_GATE
+    owner: PackageControl
+validation_summary:
+  pointer_records_reviewed: 18
+  pointer_classification_total: 18
+  completed_targets_protected: 4
+  rejected_targets_protected: 1
+  source_pointer_rewrites: 0
+  files_created_besides_this_ledger: 0
+  source_files_modified: 0
+  registry_mutations: 0
+  opening_state_mutations: 0
+  result: PASS_AS_PARTIAL_BATCH_D_STALE_POINTER_LEDGER
+stable_footer:
+  stable_document_id: HMD_STALE_NEXT_FILE_POINTER_LEDGER
+  version: 1.0.0
+  status: PartialBatchDStaleNextFilePointerEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  payload_authorized: false
+  importer_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false
+  next_file: Hammadid_Candidate_Disposition_and_Current_Authority_Stop_Gate_Ledger_V1.yaml

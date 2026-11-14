@@ -1,0 +1,23 @@
+{
+  "document": "Holland_Realm_Foundation_and_Opening_Political_Situation_Authority_V1_1_Double_Checked.md",
+  "sha256": "958513a8753477f86c87690d40cac9bbffc1a689005451860271ee0f62b4180a",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_21": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "v1_manifest_sha_matches_source": true,
+    "v1_static_check_passed": true,
+    "opening_preserved": true,
+    "next_file_fixed": true,
+    "personal_rule_transition": true,
+    "protection_tradeoff": true,
+    "era_gates": true,
+    "ai_modes": true,
+    "frisia_boundary": true,
+    "no_activation": true,
+    "balanced_fences": true,
+    "no_em_dash": true
+  },
+  "pass": true
+}

@@ -1,0 +1,17 @@
+{
+  "manifest_version": "1.0",
+  "method": "CompleteSubstantiveSourcePreservedWithIntegratedCurrentAuthorityControl",
+  "source_file": "Ireland_Opening_State_Refined.md",
+  "source_bytes": 37703,
+  "source_sha256": "05c12eb0d34c5f0b733d6995390b40ab8508113392ddd50845bce9c23c894f4c",
+  "source_heading_count": 109,
+  "authority_file": "Ireland_Opening_State_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 65375,
+  "authority_sha256": "6504614c8e2a9763b3dcc87cf42cdda3a52455597056a30e90e2dd0f4d74a8cb",
+  "additive_bytes": 27672,
+  "source_preserved_in_full": true,
+  "source_files_modified": 0,
+  "static_check_file": "Ireland_Opening_State_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "ee05601938e4bcf1ed19ada879a73df4582c1c5519ac890dd6fe169ac523b442",
+  "validation_scope": "content and static checks only; no compile, runtime, importer, save/load, migration execution, replay, performance, battle, Registry mutation, Opening State activation, Unreal modification, or payload validation"
+}

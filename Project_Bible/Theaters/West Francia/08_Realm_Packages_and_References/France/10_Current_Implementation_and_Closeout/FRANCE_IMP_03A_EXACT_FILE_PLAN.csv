@@ -1,0 +1,7 @@
+Order,RelativePath,Action,ExistingModificationAllowed,Purpose
+1,Public/MWFranceHistoricalEmergence.h,Add,false,Definition world-state evaluation and proposal contracts
+2,Public/MWFranceHistoricalEmergencePreflight.h,Add,false,Fail-closed proposal preflight
+3,Private/MWFranceHistoricalEmergence.cpp,Add,false,Deterministic evaluation and proposal implementation
+4,Private/MWFranceHistoricalEmergencePreflight.cpp,Add,false,Preflight evaluation
+5,Private/Tests/MWFranceHistoricalEmergenceTests.cpp,Add,false,18 direct tests
+6,Private/Tests/MWFranceHistoricalEmergencePreflightTests.cpp,Add,false,10 preflight tests

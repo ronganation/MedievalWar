@@ -1,0 +1,23 @@
+{
+  "document": "Halberdiers_V1_2_Master_Unit_Profile.md",
+  "sha256": "c12ccc18ab6ecbd6cf628eaa94d4c99c2552a89ed591723a5c3c928c197a9f1a",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "terrain_25": true,
+    "copy_first": true,
+    "single_family": true,
+    "three_profiles": true,
+    "profile_downgrade": true,
+    "cross_realm": true,
+    "full_battle": true,
+    "full_ai": true,
+    "no_separate_cards": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

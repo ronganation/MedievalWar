@@ -1,0 +1,17 @@
+{
+  "manifest_version": "1.0",
+  "document_type": "RealmHouseholdsCourtsResidenceDomesticPoliticsAuthority",
+  "file": "Ireland_Households_Courts_Residence_Officers_and_Domestic_Politics_Authority_V1.md",
+  "bytes": 41037,
+  "lines": 912,
+  "sha256": "1c52722df58c5b3ccc2d99982cc2f24bb25c6d10835436feec13d36ff8899192",
+  "authority_origin": "SourceFirstSpecialistGapDevelopment",
+  "gap_decision_source": "Ireland_Specialist_Authority_Inventory_and_Gap_Decision_V1.md",
+  "substantive_sections": 42,
+  "validation_cases": 40,
+  "source_authorities_modified": 0,
+  "records_activated": 0,
+  "static_check_file": "Ireland_Households_Courts_Residence_Officers_and_Domestic_Politics_Authority_V1_Static_Check.json",
+  "static_check_sha256": "9a02ad2ac8c67c69be1ac9f909785a1b2fbc4f8ec02d5d3fa19ce84cd3b8c652",
+  "validation_scope": "content static checks only; no owner promotion, Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, or payload validation"
+}

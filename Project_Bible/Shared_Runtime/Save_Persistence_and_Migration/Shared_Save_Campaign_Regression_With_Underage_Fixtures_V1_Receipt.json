@@ -1,0 +1,40 @@
+﻿{
+    "document_id":  "mw.shared-save.campaign-regression-underage-fixtures.v1",
+    "generated_utc":  "2026-08-24T23:55:39.5842841Z",
+    "controlling_owner":  "Bryan Ronga",
+    "implementation_target":  "Unreal Engine 5.8",
+    "disposable_clone_root":  "C:\\temp2\\MedievalWar_SharedSave_CompileClone_V1",
+    "fixture_copy_receipts":  [
+                                  {
+                                      "file_name":  "Character_Underage_Power_and_Restriction_Records_V1.json",
+                                      "source_path":  "C:\\UnrealProjects\\MedievalWar\\Documentation\\Character\\Underage\\Character_Underage_Power_and_Restriction_Records_V1.json",
+                                      "target_path":  "C:\\temp2\\MedievalWar_SharedSave_CompileClone_V1\\Documentation\\Character\\Underage\\Character_Underage_Power_and_Restriction_Records_V1.json",
+                                      "sha256":  "A70F079C9C5E819E9E44FDB7A1F2FDFA9E9EDCB11B5807940180579B0664FB1A",
+                                      "copied":  true
+                                  },
+                                  {
+                                      "file_name":  "Character_Underage_Canonical_ID_Submission_V1_1.json",
+                                      "source_path":  "C:\\UnrealProjects\\MedievalWar\\Documentation\\Character\\Underage\\Character_Underage_Canonical_ID_Submission_V1_1.json",
+                                      "target_path":  "C:\\temp2\\MedievalWar_SharedSave_CompileClone_V1\\Documentation\\Character\\Underage\\Character_Underage_Canonical_ID_Submission_V1_1.json",
+                                      "sha256":  "792291360FB41056E2B289A019D145924232FE421494012A7EDC34CEA653D76F",
+                                      "copied":  true
+                                  }
+                              ],
+    "campaign_parent":  "MedievalWar.Campaign",
+    "exit_code":  0,
+    "success_count":  367,
+    "failure_count":  0,
+    "no_test_matched":  false,
+    "campaign_regression_validated":  true,
+    "classification":  "CampaignRegressionValidatedAfterFixtureRestoration",
+    "compile_validated":  true,
+    "focused_save_tests_validated":  true,
+    "save_load_validated":  true,
+    "migration_validated":  false,
+    "replay_validated":  false,
+    "active_source_mutation_performed":  false,
+    "active_source_promotion_authorized":  false,
+    "item_3_complete":  false,
+    "log_path":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Evidence\\Shared_Save_Campaign_Regression_With_Underage_Fixtures_V1.log",
+    "report_path":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Evidence\\Shared_Save_Campaign_Regression_With_Underage_Fixtures_Report_V1"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "source": "Gofraid_mac_Amlaib_meic_Ragnaill_Refined.md",
+  "target": "Gofraid_mac_Amlaib_meic_Ragnaill_V2.1_Current_Authority_Refinement.md",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "source_heading_count_preserved": true,
+    "canonical_character": true,
+    "direct_alias": true,
+    "identity_lock": true,
+    "authority_controls": true,
+    "three_track": true,
+    "no_escaped_underscores_in_addendum": true,
+    "honest_validation": true,
+    "empty_removal_ledger": true,
+    "all_pass": true
+  }
+}

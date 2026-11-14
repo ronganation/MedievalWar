@@ -1,0 +1,21 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "candidate_only": true,
+    "bundle_not_authored": true,
+    "payload_not_created": true,
+    "three_tracks": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "registry_nonpromotion": true,
+    "opening_nonactivation": true,
+    "unreal_nonimport": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "1dbf1f0cf570d79e21d920fc619baf6160d70bdbfd385fa67ea7c1ae8567114c",
+  "Bytes": 26786,
+  "Lines": 829,
+  "Scope": "Static candidate-bundle specification checks only"
+}

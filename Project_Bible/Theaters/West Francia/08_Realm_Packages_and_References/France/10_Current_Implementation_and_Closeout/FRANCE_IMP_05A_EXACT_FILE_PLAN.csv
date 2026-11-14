@@ -1,0 +1,7 @@
+Order,RelativePath,Action,ExistingModificationAllowed,Purpose
+1,Public/MWFranceGovernanceInterfaceProjection.h,Add,false,Immutable review contracts and projection result
+2,Public/MWFranceGovernanceInterfacePreflight.h,Add,false,Fail-closed boundary and provenance preflight
+3,Private/MWFranceGovernanceInterfaceProjection.cpp,Add,false,Deterministic caller-supplied review projection
+4,Private/MWFranceGovernanceInterfacePreflight.cpp,Add,false,Preflight evaluation and explicit failure reasons
+5,Private/Tests/MWFranceGovernanceInterfaceProjectionTests.cpp,Add,false,Direct projection and boundary tests
+6,Private/Tests/MWFranceGovernanceInterfacePreflightTests.cpp,Add,false,Direct preflight and fail-closed tests

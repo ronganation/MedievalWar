@@ -1,0 +1,12 @@
+EvidenceId,Requirement,FailureDisposition
+E01,05A receipt reports AssessmentCompleted,BlockBeforeMutation
+E02,05A decision equals ExistingWalesRealmAIPersonalitySourceRequiresReconciliation,BlockBeforeMutation
+E03,All eighteen target paths absent,BlockBeforeMutation
+E04,All payload hashes match approved ledger,BlockBeforeMutation
+E05,All preserved source stems found,BlockBeforeMutation
+E06,Scotland AIPersonality discovery passes before mutation,BlockBeforeMutation
+E07,UE 5.8 editor build succeeds,RejectAndRollback
+E08,Wales AIPersonality discovers and passes exactly 38 tests,RejectAndRollback
+E09,All accepted regression suites pass exact counts,RejectAndRollback
+E10,All preserved source remains byte-identical,RejectAndRollback
+E11,Execution receipt retains every owner lock false,RejectAndRollback

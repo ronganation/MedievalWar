@@ -1,0 +1,15 @@
+RelativeTarget,Category,Action,CollisionRequirement,TestCount
+Public/MWWalesHistoricalReference.h,Production,Add,MustBeAbsent,0
+Private/MWWalesHistoricalReference.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesHistoricalEmergenceDefinition.h,Production,Add,MustBeAbsent,0
+Private/MWWalesHistoricalEmergenceDefinition.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesHistoricalEmergenceEvaluator.h,Production,Add,MustBeAbsent,0
+Private/MWWalesHistoricalEmergenceEvaluator.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesHistoricalEmergenceProposal.h,Production,Add,MustBeAbsent,0
+Private/MWWalesHistoricalEmergenceProposal.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesHistoricalEmergenceValidation.h,Production,Add,MustBeAbsent,0
+Private/MWWalesHistoricalEmergenceValidation.cpp,Production,Add,MustBeAbsent,0
+Private/Tests/MWWalesHistoricalEmergenceDefinitionTests.cpp,Test,Add,MustBeAbsent,10
+Private/Tests/MWWalesHistoricalEmergenceEvaluationTests.cpp,Test,Add,MustBeAbsent,9
+Private/Tests/MWWalesHistoricalEmergenceProposalTests.cpp,Test,Add,MustBeAbsent,4
+Private/Tests/MWWalesHistoricalEmergenceBoundaryTests.cpp,Test,Add,MustBeAbsent,5

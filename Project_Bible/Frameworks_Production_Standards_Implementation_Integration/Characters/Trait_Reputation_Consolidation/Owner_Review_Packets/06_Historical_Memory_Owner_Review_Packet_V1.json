@@ -1,0 +1,301 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationOwnerReviewPacket",
+    "name": "Trait Reputation Owner Review Packet 06",
+    "version": "1.2",
+    "status": "StaticDecisionMerged",
+    "authority_class": "Destination Owner Review Packet",
+    "requested_destination_authority": "Historical Memory"
+  },
+  "routing": {
+    "route_id": "trait-reputation.owner-route.006.v1",
+    "source_submission_file": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+    "source_submission_sha256": "68d4f5ac33a69e25ca07ed2e0b11130e33994f9a195df7617b02083678887b60",
+    "source_submission_id": "trait-reputation.owner-acceptance.006.v1",
+    "owner_group_id": "trait-reputation.owner-group.006",
+    "delivery_state": "StaticDecisionMerged",
+    "external_delivery_executed": false,
+    "repository_target_hint": "Owner_Review_Packets/06_Historical_Memory_Owner_Review_Packet_V1.json",
+    "decision_return_target": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+    "mutation_permitted": false
+  },
+  "review_contract": {
+    "allowed_group_and_entry_decisions": [
+      "AcceptAsRouted",
+      "AcceptWithChanges",
+      "RejectOwnership",
+      "RelocateToNamedAuthority",
+      "SplitAcrossNamedAuthorities",
+      "RequireMoreEvidence"
+    ],
+    "pending_is_not_acceptance": true,
+    "silence_is_not_acceptance": true,
+    "acceptance_requires_named_authority_and_evidence": true,
+    "accept_with_changes_requires_bounded_change_list": true,
+    "reject_ownership_requires_rationale": true,
+    "relocation_requires_named_target_authority": true,
+    "split_requires_entry_level_target_assignments": true,
+    "require_more_evidence_must_name_required_evidence": true,
+    "partial_entry_decisions_permitted": true,
+    "group_is_resolved_only_when_every_entry_is_resolved": true,
+    "unresolved_entries_remain_non_authoritative": true,
+    "unresolved_entries_remain_quarantined_where_required": true,
+    "decision_does_not_assign_canonical_ids": true,
+    "decision_does_not_authorize_runtime_or_save_mutation": true
+  },
+  "submission": {
+    "submission_id": "trait-reputation.owner-acceptance.006.v1",
+    "owner_group_id": "trait-reputation.owner-group.006",
+    "requested_destination_authority": "Historical Memory",
+    "submission_status": "StaticDecisionResolved",
+    "group_decision": "AcceptWithChanges",
+    "decision_authority": "Historical Memory reconciliation authority package",
+    "decision_date": "2026-08-13",
+    "decision_evidence": [
+      "Historical_Memory_Reconciliation_Audit.md",
+      "Historical_Memory_Implementation_Contract_Matrix.md",
+      "Historical_Memory_Contract_Field_Inventory.md",
+      "Historical_Memory_Contract_Validation_Catalogue.md",
+      "README_Historical_Memory_Reconciliation.md",
+      "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+    ],
+    "decision_rationale": "Evidence-backed static ownership and semantic-boundary resolution",
+    "replacement_or_relocation_authorities": [
+      "Historical Memory for evidence, witness, narrative, memory, tradition, record, commemoration, preservation, and legacy; fact owner retains substantive participation truth"
+    ],
+    "entry_count": 6,
+    "entry_ids": [
+      "legacy.character_trait_library.entry.073",
+      "legacy.character_trait_library.entry.074",
+      "legacy.character_trait_library.entry.075",
+      "legacy.character_trait_library.entry.072",
+      "legacy.character_trait_library.entry.077",
+      "legacy.character_trait_library.entry.076"
+    ],
+    "action_counts": {
+      "Reassign": 6
+    },
+    "semantic_class_counts": {
+      "HistoricalMemoryRecordOrEvidence": 6
+    },
+    "record_layer_counts": {
+      "HistoricalMemoryDefinitionEvidenceNarrativeOrRuntimeState": 6
+    },
+    "migration_risk_counts": {
+      "High": 6
+    },
+    "canonical_registry_dependencies": [
+      "HistoricalMemoryRegistryOrOwnerLocalTypedId"
+    ],
+    "quarantine_states": [
+      "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved"
+    ],
+    "partial_decisions_permitted": true,
+    "group_acceptance_requires_all_entries_resolved": true,
+    "entry_decisions": [
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.073",
+        "entry": "Crusader Veteran",
+        "category": "Memory",
+        "audit_action": "Reassign",
+        "semantic_class": "HistoricalMemoryRecordOrEvidence",
+        "destination_record_layer": "HistoricalMemoryDefinitionEvidenceNarrativeOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "HistoricalMemoryRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_TypedHistoricalRecordsAndRegistriesPending",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Historical Memory for evidence, witness, narrative, memory, tradition, record, commemoration, preservation, and legacy; fact owner retains substantive participation truth",
+        "accepted_record_layer": "HistoricalFactReferenceEvidenceWitnessNarrativeMemoryTraditionLegacy_NoTraitState",
+        "required_changes": [
+          "Represent participation, witnessing, survival, victory, and later narrative as separate typed records.",
+          "Historical Memory references substantive facts; Historical Memory does not replace the fact owner.",
+          "Do not convert event participation or witnessing into permanent traits.",
+          "Do not preload later narrative or legacy into Opening State."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.074",
+        "entry": "Defender of the Realm",
+        "category": "Memory",
+        "audit_action": "Reassign",
+        "semantic_class": "HistoricalMemoryRecordOrEvidence",
+        "destination_record_layer": "HistoricalMemoryDefinitionEvidenceNarrativeOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "HistoricalMemoryRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_TypedHistoricalRecordsAndRegistriesPending",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Historical Memory for evidence, witness, narrative, memory, tradition, record, commemoration, preservation, and legacy; fact owner retains substantive participation truth",
+        "accepted_record_layer": "HistoricalFactReferenceEvidenceWitnessNarrativeMemoryTraditionLegacy_NoTraitState",
+        "required_changes": [
+          "Represent participation, witnessing, survival, victory, and later narrative as separate typed records.",
+          "Historical Memory references substantive facts; Historical Memory does not replace the fact owner.",
+          "Do not convert event participation or witnessing into permanent traits.",
+          "Do not preload later narrative or legacy into Opening State."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.075",
+        "entry": "Survivor of the Great Famine",
+        "category": "Memory",
+        "audit_action": "Reassign",
+        "semantic_class": "HistoricalMemoryRecordOrEvidence",
+        "destination_record_layer": "HistoricalMemoryDefinitionEvidenceNarrativeOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "HistoricalMemoryRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_TypedHistoricalRecordsAndRegistriesPending",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Historical Memory for evidence, witness, narrative, memory, tradition, record, commemoration, preservation, and legacy; fact owner retains substantive participation truth",
+        "accepted_record_layer": "HistoricalFactReferenceEvidenceWitnessNarrativeMemoryTraditionLegacy_NoTraitState",
+        "required_changes": [
+          "Represent participation, witnessing, survival, victory, and later narrative as separate typed records.",
+          "Historical Memory references substantive facts; Historical Memory does not replace the fact owner.",
+          "Do not convert event participation or witnessing into permanent traits.",
+          "Do not preload later narrative or legacy into Opening State."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.072",
+        "entry": "Veteran of Hastings",
+        "category": "Memory",
+        "audit_action": "Reassign",
+        "semantic_class": "HistoricalMemoryRecordOrEvidence",
+        "destination_record_layer": "HistoricalMemoryDefinitionEvidenceNarrativeOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "HistoricalMemoryRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_TypedHistoricalRecordsAndRegistriesPending",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Historical Memory for evidence, witness, narrative, memory, tradition, record, commemoration, preservation, and legacy; fact owner retains substantive participation truth",
+        "accepted_record_layer": "HistoricalFactReferenceEvidenceWitnessNarrativeMemoryTraditionLegacy_NoTraitState",
+        "required_changes": [
+          "Represent participation, witnessing, survival, victory, and later narrative as separate typed records.",
+          "Historical Memory references substantive facts; Historical Memory does not replace the fact owner.",
+          "Do not convert event participation or witnessing into permanent traits.",
+          "Do not preload later narrative or legacy into Opening State."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.077",
+        "entry": "Victor of Jerusalem",
+        "category": "Memory",
+        "audit_action": "Reassign",
+        "semantic_class": "HistoricalMemoryRecordOrEvidence",
+        "destination_record_layer": "HistoricalMemoryDefinitionEvidenceNarrativeOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "HistoricalMemoryRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_TypedHistoricalRecordsAndRegistriesPending",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Historical Memory for evidence, witness, narrative, memory, tradition, record, commemoration, preservation, and legacy; fact owner retains substantive participation truth",
+        "accepted_record_layer": "HistoricalFactReferenceEvidenceWitnessNarrativeMemoryTraditionLegacy_NoTraitState",
+        "required_changes": [
+          "Represent participation, witnessing, survival, victory, and later narrative as separate typed records.",
+          "Historical Memory references substantive facts; Historical Memory does not replace the fact owner.",
+          "Do not convert event participation or witnessing into permanent traits.",
+          "Do not preload later narrative or legacy into Opening State."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.076",
+        "entry": "Witness to the Black Death",
+        "category": "Memory",
+        "audit_action": "Reassign",
+        "semantic_class": "HistoricalMemoryRecordOrEvidence",
+        "destination_record_layer": "HistoricalMemoryDefinitionEvidenceNarrativeOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "HistoricalMemoryRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_TypedHistoricalRecordsAndRegistriesPending",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Historical Memory for evidence, witness, narrative, memory, tradition, record, commemoration, preservation, and legacy; fact owner retains substantive participation truth",
+        "accepted_record_layer": "HistoricalFactReferenceEvidenceWitnessNarrativeMemoryTraditionLegacy_NoTraitState",
+        "required_changes": [
+          "Represent participation, witnessing, survival, victory, and later narrative as separate typed records.",
+          "Historical Memory references substantive facts; Historical Memory does not replace the fact owner.",
+          "Do not convert event participation or witnessing into permanent traits.",
+          "Do not preload later narrative or legacy into Opening State."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Historical_Memory_Reconciliation_Audit.md",
+          "Historical_Memory_Implementation_Contract_Matrix.md",
+          "Historical_Memory_Contract_Field_Inventory.md",
+          "Historical_Memory_Contract_Validation_Catalogue.md",
+          "README_Historical_Memory_Reconciliation.md",
+          "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      }
+    ],
+    "registry_write_permitted": false,
+    "content_write_permitted": false,
+    "runtime_write_permitted": false,
+    "save_write_permitted": false
+  },
+  "review_instructions": [
+    "Preserve the merged static decision and cited evidence.",
+    "Do not assign canonical IDs or authorize registry, content, runtime, or save writes.",
+    "For blocked groups, supply the named current authority before changing Pending.",
+    "For conditional or split decisions, complete required contracts before migration admission."
+  ]
+}

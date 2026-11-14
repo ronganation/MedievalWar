@@ -1,0 +1,18 @@
+{
+  "document_id": "manifest.england.folder_sort.v1",
+  "version": "1.0.0",
+  "dry_run_default": true,
+  "destructive_overwrite": false,
+  "files": [
+    {
+      "filename": "Sort_England_Realm_Package.ps1",
+      "bytes": 6051,
+      "sha256": "b5c32ee821d94244d7b1cb5dd51593445efb20df9ef29408588c27c8006f376a"
+    },
+    {
+      "filename": "England_Folder_Structure_Plan.md",
+      "bytes": 4183,
+      "sha256": "f95e69f7fe22db8268c42cca49864ce0c07500c4710257cf2c69764dd9237697"
+    }
+  ]
+}

@@ -1,0 +1,1328 @@
+{
+  "manifestIdentity": {
+    "manifestId": "owner_routing.almoravid.opening_state.1062.v1",
+    "manifestVersion": "1.0.0",
+    "documentKind": "OpeningStateOwnerRoutingManifest",
+    "status": "STATIC_CHECKED_ROUTING_AUTHORITY"
+  },
+  "packageBindings": {
+    "canonicalPayload": {
+      "file": "Almoravid_Opening_State_1062_V1.json",
+      "fileSha256": "211b1a6936f3f801454690d4d0a2b3c234d5c45f7bf929aeee56ff310056e3a3",
+      "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97"
+    },
+    "abuBakrOverlay": {
+      "file": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "fileSha256": "9acdecd47bab2c7d3b78c44137edc9c4c6ebc231382d426c51a21c2bd06ba8fb",
+      "overlayHash": "1df2f98c26cc486da6af19abfdd8d9c4b92df320025494cdf87057d9022f0795"
+    },
+    "yusufOverlay": {
+      "file": "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json",
+      "fileSha256": "74658fa9da9b27fa93131e9eb1f85789d2f4a3a080a6a08fe8f5a3a39f652b99",
+      "overlayHash": "4bbd1371a078f1eace0c6c05aeb6c6b2cf59a1b46bbcb6117b9ec5d5b573338c"
+    },
+    "schema": {
+      "file": "Almoravid_Opening_State_Package_Schema_V1.json",
+      "fileSha256": "7631579ea6f0977b757f18696edf6309f7db9b5eaf13141f9f998b007f832293",
+      "schemaId": "schema.almoravid.opening_state.package.v1"
+    },
+    "validationProfile": {
+      "file": "Almoravid_Opening_State_Static_Validation_Profile_V1.json",
+      "fileSha256": "57b89af092d0852cfe19268cee52e01ff265a88e5d7621b35e4367320fbd6b6f",
+      "profileCanonicalHash": "5de34179a3e5c1b1f814884789fd9aff97da750d15622e3303b5dd1065c212af"
+    },
+    "fixturePackage": {
+      "file": "Almoravid_Opening_State_Importer_Fixtures_V1.json",
+      "fileSha256": "0d721dd2e29ba0781d01e13c647c55e21f881085e80459ada749a2fe7b3c7572"
+    },
+    "registry": {
+      "registryId": "registry.almoravid.v1",
+      "registryVersion": "1.1.0",
+      "file": "Almoravid_ID_Registry_V1.md",
+      "sha256": "e798c51865aa289eae5a72681b18a8e5e455c1ea669216904d2b33af9061989f"
+    }
+  },
+  "routingPolicy": {
+    "exactlyOnePerspectiveSelectionRequestMustResolve": true,
+    "unselectedPerspectiveRequestDisposition": "NotApplicable",
+    "allRequiredOwnersMustAccept": true,
+    "aiMayReadEvaluateExplainAndPropose": true,
+    "aiMayExecuteAuthoritativeMutation": false,
+    "partialCommitAllowed": false,
+    "atomicCommitRequired": true,
+    "receiptWriteIsPartOfTransaction": true,
+    "receiptWriteFailureRequiresFullRollback": true,
+    "advancedSaveApplicationAllowed": false,
+    "matchingReceiptDisposition": "AlreadyApplied"
+  },
+  "transactionPhases": [
+    {
+      "phaseOrder": 1,
+      "phaseId": "Prepare",
+      "allowedActions": [
+        "VerifyBindings",
+        "ValidateSchema",
+        "ValidateSemantics",
+        "ValidateApplicationGuard",
+        "ResolveSelectedOverlay"
+      ],
+      "authoritativeMutationsAllowed": false
+    },
+    {
+      "phaseOrder": 2,
+      "phaseId": "Normalize",
+      "allowedActions": [
+        "ConstructTypedRequests",
+        "ResolveDependencies",
+        "OrderRequests",
+        "ConfirmZeroEmptyCollectionRequests"
+      ],
+      "authoritativeMutationsAllowed": false
+    },
+    {
+      "phaseOrder": 3,
+      "phaseId": "Stage",
+      "allowedActions": [
+        "SendPrepareRequests",
+        "CollectOwnerResponses",
+        "StageAcceptedOwnerMutations",
+        "CapturePreCommitHashes"
+      ],
+      "authoritativeMutationsAllowed": false
+    },
+    {
+      "phaseOrder": 4,
+      "phaseId": "Commit",
+      "allowedActions": [
+        "CommitAllAcceptedOwnerMutationsAtomically"
+      ],
+      "authoritativeMutationsAllowed": true
+    },
+    {
+      "phaseOrder": 5,
+      "phaseId": "Receipt",
+      "allowedActions": [
+        "WriteApplicationReceipt",
+        "PersistReceiptAndTemporalMetadata"
+      ],
+      "authoritativeMutationsAllowed": true
+    },
+    {
+      "phaseOrder": 6,
+      "phaseId": "Release",
+      "allowedActions": [
+        "ReleaseCampaignCommands",
+        "EmitCommittedEvents"
+      ],
+      "authoritativeMutationsAllowed": true
+    },
+    {
+      "phaseOrder": 7,
+      "phaseId": "Rollback",
+      "allowedActions": [
+        "RestoreAllPreCommitOwnerHashes",
+        "RemoveStagedReceipt",
+        "EmitFailureTrace"
+      ],
+      "authoritativeMutationsAllowed": true,
+      "onlyOnFailure": true
+    }
+  ],
+  "ownerOrderPolicy": {
+    "scope": "ManifestLocalOnly",
+    "doesNotOverrideCentralRegistryOrdinals": true,
+    "owners": [
+      {
+        "ownerRef": "CampaignInitializationOwner",
+        "manifestLocalOwnerOrder": 10,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.001"
+        ],
+        "createsMutableStateCount": 0,
+        "definitionOnlyRequestCount": 0,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "RealmAndFactionOwner",
+        "manifestLocalOwnerOrder": 20,
+        "requestTemplateCount": 3,
+        "requestRefs": [
+          "opening_request.almoravid.1062.002",
+          "opening_request.almoravid.1062.003",
+          "opening_request.almoravid.1062.004"
+        ],
+        "createsMutableStateCount": 2,
+        "definitionOnlyRequestCount": 0,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "CharacterFoundation",
+        "manifestLocalOwnerOrder": 30,
+        "requestTemplateCount": 9,
+        "requestRefs": [
+          "opening_request.almoravid.1062.005",
+          "opening_request.almoravid.1062.006",
+          "opening_request.almoravid.1062.007",
+          "opening_request.almoravid.1062.008",
+          "opening_request.almoravid.1062.009",
+          "opening_request.almoravid.1062.010",
+          "opening_request.almoravid.1062.011",
+          "opening_request.almoravid.1062.012",
+          "opening_request.almoravid.1062.013"
+        ],
+        "createsMutableStateCount": 2,
+        "definitionOnlyRequestCount": 7,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "CampaignPerspectiveOwner",
+        "manifestLocalOwnerOrder": 40,
+        "requestTemplateCount": 4,
+        "requestRefs": [
+          "opening_request.almoravid.1062.018",
+          "opening_request.almoravid.1062.019",
+          "opening_request.almoravid.1062.020",
+          "opening_request.almoravid.1062.021"
+        ],
+        "createsMutableStateCount": 2,
+        "definitionOnlyRequestCount": 2,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "GeographyFacingRealmOwner",
+        "manifestLocalOwnerOrder": 50,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.022"
+        ],
+        "createsMutableStateCount": 1,
+        "definitionOnlyRequestCount": 0,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "ReligiousAndJuristicOwner",
+        "manifestLocalOwnerOrder": 60,
+        "requestTemplateCount": 2,
+        "requestRefs": [
+          "opening_request.almoravid.1062.023",
+          "opening_request.almoravid.1062.024"
+        ],
+        "createsMutableStateCount": 0,
+        "definitionOnlyRequestCount": 2,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "SharedReligiousRegistry",
+        "manifestLocalOwnerOrder": 70,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.025"
+        ],
+        "createsMutableStateCount": 0,
+        "definitionOnlyRequestCount": 1,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "EconomyOwner",
+        "manifestLocalOwnerOrder": 80,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.014"
+        ],
+        "createsMutableStateCount": 0,
+        "definitionOnlyRequestCount": 1,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "PropertyOwner",
+        "manifestLocalOwnerOrder": 90,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.015"
+        ],
+        "createsMutableStateCount": 0,
+        "definitionOnlyRequestCount": 1,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "SupplyAndLogisticsOwner",
+        "manifestLocalOwnerOrder": 100,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.016"
+        ],
+        "createsMutableStateCount": 0,
+        "definitionOnlyRequestCount": 1,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "CapitalFoundationOwner",
+        "manifestLocalOwnerOrder": 110,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.017"
+        ],
+        "createsMutableStateCount": 0,
+        "definitionOnlyRequestCount": 1,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "SharedEconomyTradeRegistry",
+        "manifestLocalOwnerOrder": 120,
+        "requestTemplateCount": 2,
+        "requestRefs": [
+          "opening_request.almoravid.1062.026",
+          "opening_request.almoravid.1062.027"
+        ],
+        "createsMutableStateCount": 0,
+        "definitionOnlyRequestCount": 2,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "HistoricalDateOwner",
+        "manifestLocalOwnerOrder": 130,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.028"
+        ],
+        "createsMutableStateCount": 1,
+        "definitionOnlyRequestCount": 0,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "HistoricalProgressionOwner",
+        "manifestLocalOwnerOrder": 140,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.029"
+        ],
+        "createsMutableStateCount": 1,
+        "definitionOnlyRequestCount": 0,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "BiologicalProgressionOwner",
+        "manifestLocalOwnerOrder": 150,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.030"
+        ],
+        "createsMutableStateCount": 1,
+        "definitionOnlyRequestCount": 0,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "CampaignSeasonOwner",
+        "manifestLocalOwnerOrder": 160,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.031"
+        ],
+        "createsMutableStateCount": 1,
+        "definitionOnlyRequestCount": 0,
+        "requiredAcceptance": true
+      },
+      {
+        "ownerRef": "SaveAndMigrationOwner",
+        "manifestLocalOwnerOrder": 170,
+        "requestTemplateCount": 1,
+        "requestRefs": [
+          "opening_request.almoravid.1062.032"
+        ],
+        "createsMutableStateCount": 1,
+        "definitionOnlyRequestCount": 0,
+        "requiredAcceptance": true
+      }
+    ]
+  },
+  "requestTemplates": [
+    {
+      "stableOrder": 1,
+      "requestRef": "opening_request.almoravid.1062.001",
+      "ownerRef": "CampaignInitializationOwner",
+      "ownerOrder": 10,
+      "requestType": "ValidateNewCampaignGuard",
+      "requirementMode": "Required",
+      "subjectRef": "opening.almoravid.1062",
+      "sourceJsonPointer": "/applicationGuard",
+      "requestPayload": {
+        "requiredCampaignState": "NewCampaignUninitialized",
+        "applyAtMostOnce": true,
+        "rejectIfReceiptExists": true,
+        "rejectIfHistoricalDateAdvanced": true,
+        "rejectIfHistoricalProgressionAdvanced": true,
+        "rejectIfBiologicalProgressionAdvanced": true,
+        "rejectIfCampaignSeasonAdvanced": true,
+        "rejectIfRuntimeDivergenceExists": true,
+        "reapplyOnLoad": false,
+        "reapplyAfterMigration": false,
+        "reapplyToAdvancedSave": false,
+        "atomicCommitRequired": true,
+        "applicationReceiptRequired": true
+      },
+      "dependsOnRequestRefs": [],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 2,
+      "requestRef": "opening_request.almoravid.1062.002",
+      "ownerRef": "RealmAndFactionOwner",
+      "ownerOrder": 20,
+      "requestType": "CreateOrBindFactionShell",
+      "requirementMode": "Required",
+      "subjectRef": "faction.almoravid_movement",
+      "sourceJsonPointer": "/politicalShell/factionRef",
+      "requestPayload": {
+        "realmRef": "realm.almoravid_movement_state"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 3,
+      "requestRef": "opening_request.almoravid.1062.003",
+      "ownerRef": "RealmAndFactionOwner",
+      "ownerOrder": 20,
+      "requestType": "CreateOrBindRealmShell",
+      "requirementMode": "Required",
+      "subjectRef": "realm.almoravid_movement_state",
+      "sourceJsonPointer": "/politicalShell/realmRef",
+      "requestPayload": {
+        "factionRef": "faction.almoravid_movement"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 4,
+      "requestRef": "opening_request.almoravid.1062.004",
+      "ownerRef": "RealmAndFactionOwner",
+      "ownerOrder": 20,
+      "requestType": "BindMovementPoliticalForm",
+      "requirementMode": "Required",
+      "subjectRef": "movement.almoravid_reform_confederation",
+      "sourceJsonPointer": "/politicalShell",
+      "requestPayload": {
+        "politicalForm": "MovementConfederationState",
+        "openingEmpireComplete": false,
+        "openingAlAndalusAuthority": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.002",
+        "opening_request.almoravid.1062.003"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 5,
+      "requestRef": "opening_request.almoravid.1062.005",
+      "ownerRef": "CharacterFoundation",
+      "ownerOrder": 30,
+      "requestType": "BindCharacterDefinition",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "person.abu_bakr_ibn_umar",
+      "sourceJsonPointer": "/characterDefinitions/0",
+      "requestPayload": {
+        "personRef": "person.abu_bakr_ibn_umar",
+        "openingDefinitionDisposition": "LivingOpeningCandidate"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 6,
+      "requestRef": "opening_request.almoravid.1062.006",
+      "ownerRef": "CharacterFoundation",
+      "ownerOrder": 30,
+      "requestType": "BindCharacterDefinition",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "person.yusuf_ibn_tashfin",
+      "sourceJsonPointer": "/characterDefinitions/1",
+      "requestPayload": {
+        "personRef": "person.yusuf_ibn_tashfin",
+        "openingDefinitionDisposition": "LivingOpeningCandidate"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 7,
+      "requestRef": "opening_request.almoravid.1062.007",
+      "ownerRef": "CharacterFoundation",
+      "ownerOrder": 30,
+      "requestType": "BindCharacterDefinition",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "person.zaynab_al_nafzawiyya",
+      "sourceJsonPointer": "/characterDefinitions/2",
+      "requestPayload": {
+        "personRef": "person.zaynab_al_nafzawiyya",
+        "openingDefinitionDisposition": "DefinitionOnlyReview"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 8,
+      "requestRef": "opening_request.almoravid.1062.008",
+      "ownerRef": "CharacterFoundation",
+      "ownerOrder": 30,
+      "requestType": "BindCharacterDefinition",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "person.abdallah_ibn_yasin",
+      "sourceJsonPointer": "/characterDefinitions/3",
+      "requestPayload": {
+        "personRef": "person.abdallah_ibn_yasin",
+        "openingDefinitionDisposition": "HistoricalNonRuntime"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 9,
+      "requestRef": "opening_request.almoravid.1062.009",
+      "ownerRef": "CharacterFoundation",
+      "ownerOrder": 30,
+      "requestType": "BindCharacterDefinition",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "person.yahya_ibn_umar",
+      "sourceJsonPointer": "/characterDefinitions/4",
+      "requestPayload": {
+        "personRef": "person.yahya_ibn_umar",
+        "openingDefinitionDisposition": "HistoricalNonRuntime"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 10,
+      "requestRef": "opening_request.almoravid.1062.010",
+      "ownerRef": "CharacterFoundation",
+      "ownerOrder": 30,
+      "requestType": "BindCharacterDefinition",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "person.yahya_ibn_ibrahim",
+      "sourceJsonPointer": "/characterDefinitions/5",
+      "requestPayload": {
+        "personRef": "person.yahya_ibn_ibrahim",
+        "openingDefinitionDisposition": "HistoricalNonRuntime"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 11,
+      "requestRef": "opening_request.almoravid.1062.011",
+      "ownerRef": "CharacterFoundation",
+      "ownerOrder": 30,
+      "requestType": "CreateOpeningLivingCharacter",
+      "requirementMode": "Required",
+      "subjectRef": "person.abu_bakr_ibn_umar",
+      "sourceJsonPointer": "/openingCharacterRecords/0",
+      "requestPayload": {
+        "personRef": "person.abu_bakr_ibn_umar",
+        "alive": true,
+        "simulationTier": "TierA",
+        "openingRole": "SeniorConfederationalAndMilitaryAuthority",
+        "ageYears": null,
+        "ageResidualMonths": null,
+        "ageProvenance": "ReviewOnlyRange",
+        "exactBirthDateAccepted": false,
+        "openingLocationRef": null,
+        "openingCommandRef": null,
+        "openingPropertyRefs": [],
+        "openingRelationshipRefs": []
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 12,
+      "requestRef": "opening_request.almoravid.1062.012",
+      "ownerRef": "CharacterFoundation",
+      "ownerOrder": 30,
+      "requestType": "CreateOpeningLivingCharacter",
+      "requirementMode": "Required",
+      "subjectRef": "person.yusuf_ibn_tashfin",
+      "sourceJsonPointer": "/openingCharacterRecords/1",
+      "requestPayload": {
+        "personRef": "person.yusuf_ibn_tashfin",
+        "alive": true,
+        "simulationTier": "TierA",
+        "openingRole": "NorthernOperationalAuthority",
+        "ageYears": null,
+        "ageResidualMonths": null,
+        "ageProvenance": "ReviewOnlyRange",
+        "exactBirthDateAccepted": false,
+        "openingLocationRef": null,
+        "openingCommandRef": null,
+        "openingPropertyRefs": [],
+        "openingRelationshipRefs": []
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 13,
+      "requestRef": "opening_request.almoravid.1062.013",
+      "ownerRef": "CharacterFoundation",
+      "ownerOrder": 30,
+      "requestType": "BindDefinitionOnlyPolicy",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "policy.almoravid.opening.zaynab_policy_b",
+      "sourceJsonPointer": "/definitionOnlyPolicies/0",
+      "requestPayload": {
+        "policyRef": "policy.almoravid.opening.zaynab_policy_b",
+        "subjectRef": "person.zaynab_al_nafzawiyya",
+        "policy": "PolicyBDefinitionOnly",
+        "openingRuntimeCharacter": false,
+        "laterActivationAllowed": true,
+        "activationOwnerRef": "CharacterFoundation"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 14,
+      "requestRef": "opening_request.almoravid.1062.014",
+      "ownerRef": "EconomyOwner",
+      "ownerOrder": 80,
+      "requestType": "BindDefinitionOnlyPolicy",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "economy_profile.almoravid.1062",
+      "sourceJsonPointer": "/definitionOnlyPolicies/1",
+      "requestPayload": {
+        "policyRef": "economy_profile.almoravid.1062",
+        "subjectRef": "realm.almoravid_movement_state",
+        "policy": "DefinitionOnlyNoInstance",
+        "openingRuntimeInstance": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 15,
+      "requestRef": "opening_request.almoravid.1062.015",
+      "ownerRef": "PropertyOwner",
+      "ownerOrder": 90,
+      "requestType": "BindDefinitionOnlyPolicy",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "property_policy.almoravid.1062",
+      "sourceJsonPointer": "/definitionOnlyPolicies/2",
+      "requestPayload": {
+        "policyRef": "property_policy.almoravid.1062",
+        "subjectRef": "realm.almoravid_movement_state",
+        "policy": "DefinitionOnlyNoInstance",
+        "openingRuntimeInstance": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 16,
+      "requestRef": "opening_request.almoravid.1062.016",
+      "ownerRef": "SupplyAndLogisticsOwner",
+      "ownerOrder": 100,
+      "requestType": "BindDefinitionOnlyPolicy",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "supply_policy.almoravid.1062",
+      "sourceJsonPointer": "/definitionOnlyPolicies/3",
+      "requestPayload": {
+        "policyRef": "supply_policy.almoravid.1062",
+        "subjectRef": "realm.almoravid_movement_state",
+        "policy": "DefinitionOnlyNoInstance",
+        "openingRuntimeInstance": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 17,
+      "requestRef": "opening_request.almoravid.1062.017",
+      "ownerRef": "CapitalFoundationOwner",
+      "ownerOrder": 110,
+      "requestType": "BindDefinitionOnlyPolicy",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "capital_project.marrakesh_foundation",
+      "sourceJsonPointer": "/definitionOnlyPolicies/4",
+      "requestPayload": {
+        "policyRef": "capital_project.marrakesh_foundation",
+        "subjectRef": "site.marrakesh_foundation",
+        "policy": "DefinitionOnlyNoInstance",
+        "openingRuntimeInstance": false,
+        "activePhaseRef": null
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 18,
+      "requestRef": "opening_request.almoravid.1062.018",
+      "ownerRef": "CampaignPerspectiveOwner",
+      "ownerOrder": 40,
+      "requestType": "BindPerspectiveDefinition",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "perspective.almoravid.abu_bakr",
+      "sourceJsonPointer": "/perspectiveDefinitions/0",
+      "requestPayload": {
+        "perspectiveRef": "perspective.almoravid.abu_bakr",
+        "personRef": "person.abu_bakr_ibn_umar",
+        "campaignType": "MovementConfederationStakeholder",
+        "openingSelectable": true
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.011"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 19,
+      "requestRef": "opening_request.almoravid.1062.019",
+      "ownerRef": "CampaignPerspectiveOwner",
+      "ownerOrder": 40,
+      "requestType": "BindPerspectiveDefinition",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "perspective.almoravid.yusuf",
+      "sourceJsonPointer": "/perspectiveDefinitions/1",
+      "requestPayload": {
+        "perspectiveRef": "perspective.almoravid.yusuf",
+        "personRef": "person.yusuf_ibn_tashfin",
+        "campaignType": "DelegatedNorthernAuthorityStakeholder",
+        "openingSelectable": true
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.012"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 20,
+      "requestRef": "opening_request.almoravid.1062.020",
+      "ownerRef": "CampaignPerspectiveOwner",
+      "ownerOrder": 40,
+      "requestType": "ApplyPerspectiveSelection",
+      "requirementMode": "Required",
+      "subjectRef": "perspective.almoravid.abu_bakr",
+      "sourceJsonPointer": "overlay:Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "requestPayload": {
+        "selectedPerspectiveRef": "perspective.almoravid.abu_bakr",
+        "selectedPersonRef": "person.abu_bakr_ibn_umar",
+        "selectionOnly": true,
+        "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97",
+        "overlayHash": "1df2f98c26cc486da6af19abfdd8d9c4b92df320025494cdf87057d9022f0795"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.018"
+      ],
+      "activationCondition": "SelectedOverlayEquals:Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 21,
+      "requestRef": "opening_request.almoravid.1062.021",
+      "ownerRef": "CampaignPerspectiveOwner",
+      "ownerOrder": 40,
+      "requestType": "ApplyPerspectiveSelection",
+      "requirementMode": "Required",
+      "subjectRef": "perspective.almoravid.yusuf",
+      "sourceJsonPointer": "overlay:Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json",
+      "requestPayload": {
+        "selectedPerspectiveRef": "perspective.almoravid.yusuf",
+        "selectedPersonRef": "person.yusuf_ibn_tashfin",
+        "selectionOnly": true,
+        "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97",
+        "overlayHash": "4bbd1371a078f1eace0c6c05aeb6c6b2cf59a1b46bbcb6117b9ec5d5b573338c"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.019"
+      ],
+      "activationCondition": "SelectedOverlayEquals:Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 22,
+      "requestRef": "opening_request.almoravid.1062.022",
+      "ownerRef": "GeographyFacingRealmOwner",
+      "ownerOrder": 50,
+      "requestType": "BindPrincipalBase",
+      "requirementMode": "Required",
+      "subjectRef": "settlement.aghmat",
+      "sourceJsonPointer": "/principalBaseBinding",
+      "requestPayload": {
+        "settlementRef": "settlement.aghmat",
+        "bindingType": "PrincipalUrbanBase",
+        "definitionOwnerRef": "GlobalGeographyRegistry",
+        "uniformHaouzControl": false,
+        "marketControlRef": null,
+        "mintControlRef": null,
+        "garrisonRef": null,
+        "treasuryRef": null
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.003"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 23,
+      "requestRef": "opening_request.almoravid.1062.023",
+      "ownerRef": "ReligiousAndJuristicOwner",
+      "ownerOrder": 60,
+      "requestType": "BindReligiousDefinition",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "religious_authority.almoravid.reform_tradition",
+      "sourceJsonPointer": "/religiousDefinitionBindings/0",
+      "requestPayload": {
+        "definitionRef": "religious_authority.almoravid.reform_tradition",
+        "openingRuntimeInstance": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 24,
+      "requestRef": "opening_request.almoravid.1062.024",
+      "ownerRef": "ReligiousAndJuristicOwner",
+      "ownerOrder": 60,
+      "requestType": "BindReligiousDefinition",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "religious_authority.almoravid.founder_legacy_ibn_yasin",
+      "sourceJsonPointer": "/religiousDefinitionBindings/1",
+      "requestPayload": {
+        "definitionRef": "religious_authority.almoravid.founder_legacy_ibn_yasin",
+        "openingRuntimeInstance": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 25,
+      "requestRef": "opening_request.almoravid.1062.025",
+      "ownerRef": "SharedReligiousRegistry",
+      "ownerOrder": 70,
+      "requestType": "ResolveSharedDefinitionReference",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "juristic_tradition.maliki",
+      "sourceJsonPointer": "/sharedReferences/0",
+      "requestPayload": {
+        "definitionRef": "juristic_tradition.maliki",
+        "definitionOwnerRef": "SharedReligiousRegistry",
+        "openingRuntimeInstance": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 26,
+      "requestRef": "opening_request.almoravid.1062.026",
+      "ownerRef": "SharedEconomyTradeRegistry",
+      "ownerOrder": 120,
+      "requestType": "ResolveSharedDefinitionReference",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "market.sijilmasa",
+      "sourceJsonPointer": "/sharedReferences/1",
+      "requestPayload": {
+        "definitionRef": "market.sijilmasa",
+        "definitionOwnerRef": "SharedEconomyTradeRegistry",
+        "openingRuntimeInstance": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 27,
+      "requestRef": "opening_request.almoravid.1062.027",
+      "ownerRef": "SharedEconomyTradeRegistry",
+      "ownerOrder": 120,
+      "requestType": "ResolveSharedDefinitionReference",
+      "requirementMode": "DefinitionOnlyRequired",
+      "subjectRef": "mint.sijilmasa",
+      "sourceJsonPointer": "/sharedReferences/2",
+      "requestPayload": {
+        "definitionRef": "mint.sijilmasa",
+        "definitionOwnerRef": "SharedEconomyTradeRegistry",
+        "openingRuntimeInstance": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": false,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 28,
+      "requestRef": "opening_request.almoravid.1062.028",
+      "ownerRef": "HistoricalDateOwner",
+      "ownerOrder": 130,
+      "requestType": "InitializeHistoricalDate",
+      "requirementMode": "Required",
+      "subjectRef": "temporal.historical_date",
+      "sourceJsonPointer": "/temporalState/historicalDate",
+      "requestPayload": {
+        "historicalDate": "1062-01-01"
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 29,
+      "requestRef": "opening_request.almoravid.1062.029",
+      "ownerRef": "HistoricalProgressionOwner",
+      "ownerOrder": 140,
+      "requestType": "InitializeHistoricalProgression",
+      "requirementMode": "Required",
+      "subjectRef": "temporal.historical_progression",
+      "sourceJsonPointer": "/temporalState/historicalProgression",
+      "requestPayload": {
+        "stepDurationMonths": 21,
+        "index": 0,
+        "elapsedMonths": 0,
+        "agesCharacters": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 30,
+      "requestRef": "opening_request.almoravid.1062.030",
+      "ownerRef": "BiologicalProgressionOwner",
+      "ownerOrder": 150,
+      "requestType": "InitializeBiologicalProgression",
+      "requirementMode": "Required",
+      "subjectRef": "temporal.biological_progression",
+      "sourceJsonPointer": "/temporalState/biologicalProgression",
+      "requestPayload": {
+        "stepDurationMonths": 7,
+        "index": 0,
+        "elapsedMonths": 0,
+        "resolvesRealmStrategy": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 31,
+      "requestRef": "opening_request.almoravid.1062.031",
+      "ownerRef": "CampaignSeasonOwner",
+      "ownerOrder": 160,
+      "requestType": "InitializeCampaignSeason",
+      "requirementMode": "Required",
+      "subjectRef": "temporal.campaign_season",
+      "sourceJsonPointer": "/temporalState/campaignSeason",
+      "requestPayload": {
+        "current": "Winter",
+        "index": 0,
+        "seasonOrder": [
+          "Winter",
+          "Spring",
+          "Summer",
+          "Autumn"
+        ],
+        "derivedFromHistoricalMonth": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001"
+      ],
+      "activationCondition": "Always",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    },
+    {
+      "stableOrder": 32,
+      "requestRef": "opening_request.almoravid.1062.032",
+      "ownerRef": "SaveAndMigrationOwner",
+      "ownerOrder": 170,
+      "requestType": "WriteOpeningStateApplicationReceipt",
+      "requirementMode": "Required",
+      "subjectRef": "opening.almoravid.1062",
+      "sourceJsonPointer": "generated:applicationReceipt",
+      "requestPayload": {
+        "requiredFields": [
+          "openingStateId",
+          "openingStateVersion",
+          "registryVersion",
+          "schemaSha256",
+          "canonicalPayloadHash",
+          "selectedPerspectiveRef",
+          "perspectiveOverlayHash",
+          "authorityManifestHash",
+          "explicitEmptyCatalogueHash",
+          "temporalStateHash",
+          "ownerStateHashes",
+          "seed",
+          "disposition",
+          "traceHash",
+          "receiptHash"
+        ],
+        "openingStateReplayAllowed": false
+      },
+      "dependsOnRequestRefs": [
+        "opening_request.almoravid.1062.001",
+        "opening_request.almoravid.1062.002",
+        "opening_request.almoravid.1062.003",
+        "opening_request.almoravid.1062.004",
+        "opening_request.almoravid.1062.005",
+        "opening_request.almoravid.1062.006",
+        "opening_request.almoravid.1062.007",
+        "opening_request.almoravid.1062.008",
+        "opening_request.almoravid.1062.009",
+        "opening_request.almoravid.1062.010",
+        "opening_request.almoravid.1062.011",
+        "opening_request.almoravid.1062.012",
+        "opening_request.almoravid.1062.013",
+        "opening_request.almoravid.1062.014",
+        "opening_request.almoravid.1062.015",
+        "opening_request.almoravid.1062.016",
+        "opening_request.almoravid.1062.017",
+        "opening_request.almoravid.1062.018",
+        "opening_request.almoravid.1062.019",
+        "opening_request.almoravid.1062.020",
+        "opening_request.almoravid.1062.021",
+        "opening_request.almoravid.1062.022",
+        "opening_request.almoravid.1062.023",
+        "opening_request.almoravid.1062.024",
+        "opening_request.almoravid.1062.025",
+        "opening_request.almoravid.1062.026",
+        "opening_request.almoravid.1062.027",
+        "opening_request.almoravid.1062.028",
+        "opening_request.almoravid.1062.029",
+        "opening_request.almoravid.1062.030",
+        "opening_request.almoravid.1062.031"
+      ],
+      "activationCondition": "AllRequiredOwnerResponsesAcceptedAndExactlyOnePerspectiveSelectionResolved",
+      "createsMutableState": true,
+      "mustAcceptBeforeCommit": true,
+      "rollbackRequiredOnLaterFailure": true
+    }
+  ],
+  "explicitEmptyCollectionRouting": {
+    "sourceCount": 66,
+    "validationOnly": true,
+    "ownerRequestCount": 0,
+    "mutationRequestCount": 0,
+    "collectionRefs": [
+      "ActiveCharacterNetworkEdges",
+      "ActiveExternalNetworkEdges",
+      "ActiveTrustEdges",
+      "ActiveLoyaltyEdges",
+      "ActiveHostilityEdges",
+      "ActiveRivalryEdges",
+      "ActiveMarriageEdges",
+      "ActiveCommandSupportEdges",
+      "ActiveCommunicationRecords",
+      "ActiveConfederationalCommitments",
+      "ActiveMobilizationObligations",
+      "ActiveLeadershipRecognitions",
+      "ActivePastureRights",
+      "ActiveWaterRights",
+      "ActiveSpoilsAgreements",
+      "ActiveRouteCommitments",
+      "ActiveBreachRecords",
+      "ActiveArmies",
+      "ActiveCommands",
+      "ActiveCampaignInstances",
+      "ActiveForceLocations",
+      "ActiveRecruitmentAuthorities",
+      "ActiveGarrisons",
+      "ActiveMilitaryAccessAgreements",
+      "ActiveSieges",
+      "ActiveOccupations",
+      "ActiveAccounts",
+      "ActiveTreasuries",
+      "ActivePropertyInstances",
+      "ActiveTaxRates",
+      "ActiveRevenueReceipts",
+      "ActiveControlledMarkets",
+      "ActiveMintOperations",
+      "ActiveCaravans",
+      "ActiveShipments",
+      "ActiveStockpiles",
+      "ActiveTransportInventories",
+      "ActiveSupplyContracts",
+      "ActiveForceSupplyLedgers",
+      "ActiveCapitalProjectInstances",
+      "ActiveCapitalPhases",
+      "ActiveCapitalWorkPackages",
+      "ActiveCapitalAccounts",
+      "ActiveCapitalProperties",
+      "ActiveCapitalLaborContracts",
+      "ActiveCapitalMaterialStocks",
+      "ActiveCapitalSupplyContracts",
+      "ActiveCapitalSecurityForces",
+      "AdministrativeTransfers",
+      "ActiveNamedJurists",
+      "ActiveReligiousOffices",
+      "ActiveJuristicInstitutions",
+      "ActiveFatwas",
+      "ActiveJudgments",
+      "ActiveDisciplineCases",
+      "ActiveAbbasidRecognitionRecords",
+      "ActiveHistoricalMemoryInstances",
+      "ActiveHistoricalMomentumInstances",
+      "ActiveHistoricalEmergenceInstances",
+      "ScheduledHistoricalDeaths",
+      "ScheduledHistoricalIllnesses",
+      "PredeterminedMarriages",
+      "PredeterminedTitleTransfers",
+      "PredeterminedPartitions",
+      "PredeterminedCivilWars",
+      "PredeterminedAlAndalusInterventions"
+    ],
+    "rule": "Explicit empty collections are validated and hashed but never converted into owner mutation requests."
+  },
+  "requestResolutionPolicy": {
+    "baseTemplateCount": 32,
+    "perspectiveSelectionTemplateCount": 2,
+    "resolvedPerspectiveSelectionCount": 1,
+    "notApplicablePerspectiveSelectionCount": 1,
+    "resolvedRequestCountPerApplication": 31,
+    "receiptRequestMustResolveLast": true
+  },
+  "failurePolicy": {
+    "fatalBeforeStage": {
+      "commit": false,
+      "authoritativeMutationCount": 0
+    },
+    "fatalDuringStage": {
+      "discardStagedRequests": true,
+      "commit": false,
+      "authoritativeMutationCount": 0
+    },
+    "fatalDuringCommit": {
+      "rollbackAllOwners": true,
+      "restorePreCommitHashes": true
+    },
+    "receiptWriteFailure": {
+      "rollbackAllOwners": true,
+      "removePartialReceipt": true
+    },
+    "advancedSave": {
+      "disposition": "RejectedFatal",
+      "commit": false,
+      "authoritativeMutationCount": 0
+    },
+    "matchingReceipt": {
+      "disposition": "AlreadyApplied",
+      "commit": false,
+      "authoritativeMutationCount": 0
+    }
+  },
+  "receiptContract": {
+    "ownerRef": "SaveAndMigrationOwner",
+    "requiredFields": [
+      "openingStateId",
+      "openingStateVersion",
+      "registryVersion",
+      "schemaSha256",
+      "canonicalPayloadHash",
+      "selectedPerspectiveRef",
+      "perspectiveOverlayHash",
+      "authorityManifestHash",
+      "explicitEmptyCatalogueHash",
+      "temporalStateHash",
+      "ownerStateHashes",
+      "seed",
+      "disposition",
+      "traceHash",
+      "receiptHash"
+    ],
+    "persistSeparately": [
+      "historicalDate",
+      "historicalProgression",
+      "biologicalProgression",
+      "campaignSeason",
+      "registryVersion",
+      "authorityVersions",
+      "selectedPerspectiveRef",
+      "traceHash",
+      "receiptHash"
+    ],
+    "openingStateReplayAllowed": false,
+    "receiptHashRequired": true,
+    "ownerStateHashesRequired": true
+  },
+  "determinism": {
+    "requestSortKeys": [
+      "ownerOrder",
+      "requestType",
+      "subjectRef",
+      "requestRef"
+    ],
+    "transactionPhaseOrder": [
+      "Prepare",
+      "Normalize",
+      "Stage",
+      "Commit",
+      "Receipt",
+      "Release",
+      "Rollback"
+    ],
+    "equalInputsMustProduceEqual": [
+      "resolvedRequests",
+      "ownerResponses",
+      "commitDisposition",
+      "receipt",
+      "traceHash",
+      "resultHash"
+    ],
+    "forbiddenOrderingInputs": [
+      "fileEnumerationOrder",
+      "localizedText",
+      "wallClockTime",
+      "memoryAddress"
+    ]
+  },
+  "declaredCounts": {
+    "ownerClasses": 17,
+    "requestTemplates": 32,
+    "resolvedRequestsPerApplication": 31,
+    "perspectiveSelectionTemplates": 2,
+    "resolvedPerspectiveSelections": 1,
+    "explicitEmptyCollectionsValidated": 66,
+    "requestsFromExplicitEmptyCollections": 0,
+    "unsupportedOpeningRequests": 0
+  },
+  "evidenceBoundary": {
+    "manifestStaticChecked": true,
+    "inMemoryDryRunExecuted": false,
+    "realOwnerRoutingExecuted": false,
+    "realImporterValidated": false,
+    "compileValidated": false,
+    "runtimeValidated": false,
+    "saveLoadValidated": false,
+    "replayValidated": false
+  },
+  "manifestCanonicalHash": "9631ad1654e63a01b7eaafd04fa5b4b949462758c184b021b96d23609a524f63"
+}

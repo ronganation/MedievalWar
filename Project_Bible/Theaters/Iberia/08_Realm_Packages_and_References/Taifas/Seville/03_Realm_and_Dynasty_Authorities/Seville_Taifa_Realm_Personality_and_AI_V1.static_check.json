@@ -1,0 +1,73 @@
+{
+  "ArtifactId": "Seville_Taifa_Realm_Personality_and_AI_V1",
+  "InternalVersion": "1.1.0",
+  "Status": "STATIC_CHECKED_CURRENT_REALM_PERSONALITY_AND_AI_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "8e1eaef7c218079dbe293d1b00f267e78d3ba9f62c35ee2fe5092d2d801bd9e8",
+  "SourceBytes": 53666,
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "RegistryModernization": "2.0.0",
+    "DynastyAuthority": "1.1.0",
+    "GeographyAuthority": "1.1.0",
+    "EconomyAuthority": "1.1.0",
+    "MilitaryAuthority": "1.1.0"
+  },
+  "Counts": {
+    "PersonalityDefinitions": 1,
+    "RealmAIProfiles": 1,
+    "RegionalIntegrationProfiles": 6,
+    "RiskPolicies": 1,
+    "ProposalFamilyDefinitions": 25,
+    "ReasonCodeFamilies": 25,
+    "OpeningAIProposals": 0,
+    "OpeningAIMutations": 0
+  },
+  "AIProtections": {
+    "ProposalOnly": true,
+    "OwnerMutationAllowed": false,
+    "OmniscienceAllowed": false,
+    "HistoricalScriptsAllowed": false,
+    "AbstentionSupported": true,
+    "ProposalCollisionArbitrationDefined": true,
+    "CharacterAndRealmPersonalitySeparated": true
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "CopyFirstLedger": {
+    "OriginalNumberedSectionsReviewed": 48,
+    "OriginalNumberedSectionsRetained": 48,
+    "RemovedSubstantiveSections": 0,
+    "RemovedPreferenceDefinitions": 0,
+    "RemovedRegionalIntegrationProfiles": 0,
+    "RemovedProposalFamilies": 0,
+    "RemovedReasonCodes": 0,
+    "RemovedValidationTests": 0
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CopyFirstCompletenessChecked": true,
+    "DevelopedRealmAuthorityInterfacesChecked": true,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "BehaviorValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Diplomacy_and_External_Pressure_Setup_V1.md; then perform folder-level gap review."
+}

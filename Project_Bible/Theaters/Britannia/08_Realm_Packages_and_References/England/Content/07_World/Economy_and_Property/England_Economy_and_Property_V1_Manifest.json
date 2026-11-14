@@ -1,0 +1,37 @@
+{
+  "document_id": "manifest.england.economy_property.v1",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Economy_and_Property_V1.md",
+      "sha256": "6d1ed16353301170007d87d70aa0fb6f6a9dc8cdec076e102c43e734050c634a",
+      "bytes": 48327
+    },
+    {
+      "filename": "England_Economy_and_Property_V1_Static_Check.json",
+      "sha256": "eb733c1fa08ffd5c682cd7592243f8933cf94efd38a969c60b5c695fa512dfe4",
+      "bytes": 443
+    }
+  ],
+  "ownership_boundary": {
+    "Supply_reowned": false,
+    "Supply_package_remains_authoritative": true
+  },
+  "authorizations": {
+    "property_activation": false,
+    "estate_activation": false,
+    "market_activation": false,
+    "revenue_activation": false,
+    "treasury_activation": false,
+    "confiscation_activation": false,
+    "opening_state_activation": false,
+    "repository_mutation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "save_rewrite": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

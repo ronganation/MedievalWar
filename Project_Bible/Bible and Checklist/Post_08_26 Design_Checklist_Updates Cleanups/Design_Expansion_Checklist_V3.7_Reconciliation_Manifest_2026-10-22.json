@@ -1,0 +1,83 @@
+{
+  "manifest_type": "StableChecklistCopyFirstReconciliation",
+  "reconciliation_date": "2026-10-22",
+  "stable_authority": {
+    "filename": "Design_Expansion_Checklist_V3.7.md",
+    "document_id": "mw.design-expansion-checklist.3.7",
+    "version": "3.7",
+    "constitutional_authority": "Project Bible 2.4",
+    "authority_identity_changed": false
+  },
+  "pre_edit_checklist_sha256": "6AFD334A36D21BD132D3D55EA5DA725A57A4C2B5044F0F480EE55785524D8A69",
+  "post_edit_checklist_sha256": "EB0A779E34F2748669778D2676558565C4129FC13120C4B78A4BA6A4556E5BCE",
+  "project_bible_sha256": "6A69C9E13FFD60B72D93F0DA130505CBFB580D48F2549A81D30D824EBC5A8D04",
+  "project_bible_unchanged": true,
+  "stable_checklist_modified": true,
+  "source_modification_scope": "Theaters_and_Realms, Frameworks, and Shared_and_Cross_Scope update-library files",
+  "backups": {
+    "checklist_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Checklist_Repair_Backups\\Design_Expansion_Checklist_V3.7_Pre_Current_State_Reconciliation_2026-10-22.md",
+    "checklist_sha256": "6AFD334A36D21BD132D3D55EA5DA725A57A4C2B5044F0F480EE55785524D8A69",
+    "project_bible_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Checklist_Repair_Backups\\Project_Bible_2.4_Pre_Current_State_Audit_2026-10-22.md",
+    "project_bible_sha256": "6A69C9E13FFD60B72D93F0DA130505CBFB580D48F2549A81D30D824EBC5A8D04",
+    "checklist_backup_verified_byte_for_byte": true,
+    "project_bible_backup_verified_byte_for_byte": true
+  },
+  "source_inventory": {
+    "total_files": 113,
+    "theater_and_realm_files": 75,
+    "theater_files": 4,
+    "realm_files": 71,
+    "framework_files": 26,
+    "shared_scope_files": 12,
+    "currentness_matrix_rows": 72,
+    "selected_current_source_files": 54,
+    "selected_current_source_missing_files": 0,
+    "unresolved_source_conflicts": 0
+  },
+  "checklist_disposition": {
+    "changed_sections": [
+      "Document Control metadata",
+      "Section 1",
+      "Section 2",
+      "Section 3.5",
+      "Section 4",
+      "Section 5",
+      "Section 6",
+      "Section 7",
+      "Section 8",
+      "Section 9",
+      "Section 10",
+      "Section 11",
+      "Section 12"
+    ],
+    "preserved_sections": [
+      "Section 0 Operating Rules",
+      "Sections 3.1-3.4",
+      "The original 2026-08-26 Change Log entry",
+      "Stable filename, document ID, version, constitutional authority, and original consolidation date"
+    ],
+    "subsection_disposition_ledger": "Section 9.8"
+  },
+  "constitutional_audit": {
+    "audit_file": "Project_Bible_2.4_Constitutional_Delta_Audit_2026-10-22.md",
+    "genuine_conflict_count": 0,
+    "project_bible_update_required": false
+  },
+  "source_files_modified": 0,
+  "registry_mutations": 0,
+  "opening_state_mutations": 0,
+  "payload_mutations": 0,
+  "importer_executions": 0,
+  "runtime_mutations": 0,
+  "save_mutations": 0,
+  "migration_executions": 0,
+  "unreal_mutations": 0,
+  "evidence_files": [
+    "Stable_Checklist_Current_Update_Inventory.csv",
+    "Stable_Checklist_Currentness_and_Successor_Matrix.csv",
+    "Stable_Checklist_Reconciliation_Delta.csv",
+    "Project_Bible_2.4_Constitutional_Delta_Audit_2026-10-22.md",
+    "Design_Expansion_Checklist_V3.7_Reconciliation_Static_Check_2026-10-22.json",
+    "Design_Expansion_Checklist_V3.7_Reconciliation_Receipt_2026-10-22.md"
+  ]
+}

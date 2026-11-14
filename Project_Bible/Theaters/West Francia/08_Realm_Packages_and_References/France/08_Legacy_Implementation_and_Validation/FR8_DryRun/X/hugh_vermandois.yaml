@@ -1,0 +1,16 @@
+DocumentControl:
+  SchemaId: mw.candidate.document.v1
+  SchemaVersion: 1.0.0
+  PackageId: package.france.current-candidate.v1
+  RealmIdCandidate: realm.france
+  ScenarioId: mw.scenario.grand_campaign.1062
+  CandidateOnly: true
+  RegistryPromotion: false
+  OpeningStateActivation: false
+  UnrealImport: false
+  RuntimeEligible: false
+Records:
+- RecordId: person.hugh_france_1057
+  OpeningTitleId: title.county_vermandois
+ReviewQueue: []
+Quarantine: []

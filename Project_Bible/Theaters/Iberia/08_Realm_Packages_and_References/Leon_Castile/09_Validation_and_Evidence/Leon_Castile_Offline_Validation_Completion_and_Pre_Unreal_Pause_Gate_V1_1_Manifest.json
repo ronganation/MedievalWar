@@ -1,0 +1,36 @@
+{
+  "document_id": "Manifest.Validation.LeonCastile.OfflineValidationCompletionPreUnrealPauseGate.V1_1",
+  "authority_file": "Leon_Castile_Offline_Validation_Completion_and_Pre_Unreal_Pause_Gate_V1_1.md",
+  "version": "1.1.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 5747,
+  "physical_lines": 144,
+  "sha256": "E7F0603B017FEE977753885AE9F988AFAFFCFF4330C09E558AC4B35FDA4A9493",
+  "immediate_substantive_source": "Leon_Castile_Offline_Validation_Completion_and_Pre_Unreal_Pause_Gate_V1.md",
+  "source_treatment": "CompleteCarryForwardWithRefreshedOneDriveDiscoveryCorrection",
+  "status": "RefreshedDiscoveryConfirmedExecutionResultsAbsentPauseMaintained",
+  "disposition": "BLOCKED_EXECUTION_RESULTS_ABSENT",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "execution_package_found_correction": true,
+    "required_output_count": 6,
+    "promotion_block": true
+  },
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Save": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "all_static_checks_pass": true
+}

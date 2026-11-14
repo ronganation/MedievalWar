@@ -1,0 +1,18 @@
+{
+  "document_id": "manifest.validation.realm.wales.package.static.v1",
+  "artifact": "Wales_Realm_Package_Static_Validation_V1.json",
+  "bytes": 11318,
+  "physical_lines": 313,
+  "sha256": "7f85c199c693762e656fba8f76ea3bd983eaa42f1489c1568fead751e33008ad",
+  "overall_result": "PASS_WITH_BLOCKERS_FOR_DECLARED_CURRENT_SCOPE",
+  "freeze_ready": false,
+  "all_json_parsed": true,
+  "mutations": {
+    "source_files": 0,
+    "Registry": 0,
+    "Opening_State": 0,
+    "Unreal": 0,
+    "runtime": 0,
+    "real_payload": 0
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+    "document_id":  "mw.shared-save.isolated-draft-owner-review-readiness.v1",
+    "generated_utc":  "2026-08-24T18:35:04.8578618Z",
+    "implementation_target":  "Unreal Engine 5.8",
+    "static_boundary_checks_passed":  true,
+    "blocking_check_count":  0,
+    "intentional_proposed_identifier_count":  1,
+    "intentional_proposed_identifier":  "FMWCampaignLoadTransactionSnapshot",
+    "recommended_transient_disposition":  "D_hybrid",
+    "controlling_owner_receipt_present":  false,
+    "isolated_patch_authorized":  false,
+    "active_source_promotion_authorized":  false,
+    "compile_execution_authorized":  false,
+    "runtime_execution_authorized":  false,
+    "current_classification":  "ReadyForControllingOwnerReviewNotImplementation",
+    "item_3_complete":  false
+}

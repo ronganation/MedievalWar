@@ -1,0 +1,27 @@
+{
+  "StaticCheckId": "static-check.aquitaine.ecclesiastical-content.v2",
+  "AuthorityFile": "Aquitaine_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "source_exists": true,
+    "successor_larger_than_source": true,
+    "all_source_numbered_headings_retained": true,
+    "three_track_time_present": true,
+    "papal_standing_reliability_separated": true,
+    "casus_belli_gate_rejected": true,
+    "routine_clergy_profile_default_false": true,
+    "barbastro_inactive": true,
+    "markdown_fences_balanced": true,
+    "em_dashes_absent": true,
+    "stable_footer_once": true,
+    "final_marker_correct": true,
+    "removed_substantive_content_empty": true
+  },
+  "MissingSourceHeadings": [],
+  "AuthoritySHA256": "01d79559603a1b6196cdfed53b5f20479d58826ed37ed58632e88ef6da5773a6",
+  "AuthorityLineCount": 1310,
+  "AuthorityByteCount": 42007,
+  "RenamedEquivalentHeadings": {
+    "1. Verdict": "1. Refined Verdict"
+  }
+}

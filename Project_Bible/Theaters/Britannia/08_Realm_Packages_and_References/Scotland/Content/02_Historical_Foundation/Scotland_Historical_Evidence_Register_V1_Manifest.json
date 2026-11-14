@@ -1,0 +1,46 @@
+{
+  "document_id": "manifest.scotland.historical-evidence-register.v1",
+  "version": "1.0.0",
+  "immediate_source": {
+    "filename": "Scotland_Historical_Reconciliation_V1.2_Benchmark_Expansion.md",
+    "bytes": 73769,
+    "lines": 1784,
+    "sha256": "747fb0c7b0d47325c4fa043bafc59b9f20b1df69a0d5aeeb138a9c4163a2ad7d",
+    "complete_source_verified": true
+  },
+  "successor": {
+    "filename": "Scotland_Historical_Evidence_Register_V1.md",
+    "bytes": 39094,
+    "lines": 867,
+    "sha256": "3e17f7c70d9c0d629ce5605538156019ee83175e945659ba9fe02f4c28f4b2d1"
+  },
+  "content_inventory": {
+    "project_sources": 7,
+    "consulted_external_sources": 3,
+    "detailed_opening_evidence_records": 13,
+    "structural_and_pressure_records": 7,
+    "opening_exclusions": 8,
+    "contradiction_records": 5,
+    "dependencies": 7,
+    "validation_cases": 12
+  },
+  "preservation": {
+    "reconciliation_fact_ledger_covered": true,
+    "twelve_priority_research_questions_covered": true,
+    "source_claim_discipline": "project decisions separated from external historical proof"
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "source_deletion": false,
+    "source_archival": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Scotland_Historical_Evidence_Register_V1_Static_Check.json",
+    "sha256": "76bf7e3b302a78bceac68b6503df5921a1c6158ba73cbadabcf8d6fe8255ed4e",
+    "passed": true
+  }
+}

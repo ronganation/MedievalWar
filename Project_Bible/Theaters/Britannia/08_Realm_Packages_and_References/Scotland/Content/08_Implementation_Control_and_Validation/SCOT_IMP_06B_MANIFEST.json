@@ -1,0 +1,30 @@
+{
+  "TaskId": "SCOT-IMP-06B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "Date": "2026-09-22",
+  "SelectedLane": "InformationIntelligence",
+  "EntranceGate": "SCOT-IMP-06A",
+  "ProposedFilesAdded": 12,
+  "ProposedFilesModified": 0,
+  "ProposedNewTests": 24,
+  "RequiredRegressionCounts": [
+    24,
+    16,
+    16,
+    12,
+    13,
+    5,
+    10
+  ],
+  "PlanSHA256": "86AE08233E48C736F4C8FD44ED22BBAFAADC389DF9464A03223CE8F3E6A9E581",
+  "PlanBytes": 15234,
+  "PlanLines": 467,
+  "EligibleForImplementation": false,
+  "EligibleForApplication": false,
+  "AgentCreation": false,
+  "CollectionExecution": false,
+  "AICommandExecution": false,
+  "RuntimeMutation": false,
+  "ProductionAuthority": false,
+  "NextGate": "SCOT-IMP-06C"
+}

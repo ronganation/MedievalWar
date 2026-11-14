@@ -1,0 +1,50 @@
+{
+  "document_id": "manifest.scotland.duncan-ii.underage.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Duncan_II_Opening_Underage_Record.md",
+    "bytes": 3195,
+    "physical_lines": 95,
+    "sha256": "3ddf6b6215ed02f9dfcafb1c4cd1109bb7529dd6b7b18f3ecd5dc6ab8c845148",
+    "complete_source_verified": true,
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Duncan_II_Opening_Underage_Record_V2_Current_Authority_Refinement.md",
+    "bytes": 13941,
+    "physical_lines": 452,
+    "sha256": "6fb706c27236aa6725dcd69dcea1474867db375c062a7a24593d11fc5ae5dd97"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_fidelity_result": "pass",
+    "protected_headings": [
+      "# Duncan II Opening Underage Record",
+      "## Record Identity",
+      "## Opening Agency Profile",
+      "## Role Assignment Set",
+      "## Protection Requirements",
+      "## Network Boundary",
+      "## Succession and Claim Boundary",
+      "## Future Hostage Boundary",
+      "## Status"
+    ],
+    "removed_content": []
+  },
+  "companion_package": [
+    "Duncan_II_of_Scotland_V2_Current_Authority_Refinement.md",
+    "Duncan_II_Opening_Underage_Record_V2_Current_Authority_Refinement.md"
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Duncan_II_Opening_Underage_Record_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

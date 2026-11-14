@@ -1,0 +1,49 @@
+{
+  "TaskId": "WALES-IMP-02B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "EntranceGate": "WALES-IMP-02A-R3",
+  "EntranceStatus": "AssessmentCompleted",
+  "ImplementationAuthorized": false,
+  "ApplicationAuthorized": false,
+  "ProductionAuthority": false,
+  "PlannedAdditiveFiles": 15,
+  "PlannedNewTests": 24,
+  "RequiredRegressionTotal": 63,
+  "Files": [
+    {
+      "Path": "Control/WALES_IMP_02B_AUTHORITY_ROUTE.csv",
+      "Bytes": 534,
+      "SHA256": "7f46091546a578844b5d5ae811802d670f548375b4a3ce00408fab46bc3b2d9f"
+    },
+    {
+      "Path": "Control/WALES_IMP_02B_BOUNDARY_MATRIX.csv",
+      "Bytes": 644,
+      "SHA256": "8275a1af5d56db805ee1152fd834b37470627ba56fb02cdc68f30e4fdbc40298"
+    },
+    {
+      "Path": "Control/WALES_IMP_02B_EXACT_FILE_AND_TEST_PLAN.csv",
+      "Bytes": 1100,
+      "SHA256": "9c62d0c12c7b02b4f0b3fbfa83f564b8f1c49f6d74e46aa95c44463b4143ab18"
+    },
+    {
+      "Path": "Control/WALES_IMP_02B_PRESERVED_SOURCE_MATRIX.csv",
+      "Bytes": 625,
+      "SHA256": "766b2939fa7719e2b0c04f93905ad7aed8120801043725274e407e44f49a689e"
+    },
+    {
+      "Path": "Control/WALES_IMP_02B_TEST_CHAIN.csv",
+      "Bytes": 270,
+      "SHA256": "de2899fa844a3d1bc4f6061a932625611777907a39594babbf9a9a03d568866a"
+    },
+    {
+      "Path": "README_FIRST.txt",
+      "Bytes": 468,
+      "SHA256": "a212be8b541f080b7446735be30dcbaab9e947b84cc14eb1039e4aa92fe66967"
+    },
+    {
+      "Path": "WALES_IMP_02B_TRANSACTION_RECOVERY_BOUNDED_CONTRACT_2026-09-22.md",
+      "Bytes": 8107,
+      "SHA256": "f052fc24a70dd0ea8e73db401302f5b1475065937e542e64e09885986d323361"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "authority_file": "Ui_Ceinnselaig_Dynasty_V2.1_Current_Authority_Refinement.md",
+  "source_file": "Ui_Ceinnselaig_Dynasty_Refined.md",
+  "source_snapshot_file": "Ui_Ceinnselaig_Dynasty_Refined_Source_Snapshot.md",
+  "source_reference": "turn5search96",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_snapshot_bytes": 39945,
+  "source_snapshot_sha256": "141bd043cbe442689e58288c548563f97b2e9774e19aecb76df228c4d8ab6dfc",
+  "authority_bytes": 56589,
+  "authority_sha256": "75295a5dac2b7533c655e1460477b3fb5d605a8b64f98628f6b34b2a93528aaf",
+  "successor_starts_with_source_snapshot": true,
+  "source_heading_count": 88,
+  "static_check_file": "Ui_Ceinnselaig_Dynasty_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "5003a1e8282b3660d9211040a0c7cdc781228b6f48a15220a011ee67897c7b4c",
+  "source_files_modified": 0,
+  "validation_scope": "content-based static checks only; no compile runtime migration or payload validation"
+}

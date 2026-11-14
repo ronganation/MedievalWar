@@ -1,0 +1,455 @@
+{
+  "ManifestId": "routing.seville_taifa.opening_state.1062.v1",
+  "ManifestVersion": "1.2.0",
+  "OpeningStateId": "opening.seville_taifa.1062.v1",
+  "ApplicationMode": "AtomicOwnerRoutedInitialization",
+  "MaintenanceAuthority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "RuntimePromotionAuthorized": false,
+    "OpeningAuthorityInternalVersion": "1.3.0",
+    "ContractInternalVersion": "1.2.0"
+  },
+  "RoutingBoundary": {
+    "DefinitionScenarioRuntimeSeparated": true,
+    "RequestsAreInitializationIntentsOnly": true,
+    "OwnersValidateAndExecute": true,
+    "AIIsAuthoritativeOwner": false,
+    "PresentationIsAuthoritativeOwner": false,
+    "PartialCommitAllowed": false,
+    "FatalMutationCount": 0,
+    "AdvancedSaveApplicationAllowed": false
+  },
+  "DeclaredRequestCount": 18,
+  "Requests": [
+    {
+      "RequestId": "req.temporal.initialize",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Temporal",
+      "RecordType": "TemporalState",
+      "CanonicalTargetRef": null,
+      "InitialStatePayload": {
+        "HistoricalDate": "1062-01-01",
+        "HistoricalMonths": 21,
+        "BiologicalMonths": 7,
+        "CampaignSeason": "Winter"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "000:req.temporal.initialize"
+    },
+    {
+      "RequestId": "req.realm.seville.activate",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Realm",
+      "RecordType": "RealmRecord",
+      "CanonicalTargetRef": "realm.seville",
+      "InitialStatePayload": {
+        "LifecycleState": "Active",
+        "PlayableState": "Active"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "001:req.realm.seville.activate"
+    },
+    {
+      "RequestId": "req.character.al_mutadid.activate",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "CharacterFoundation",
+      "RecordType": "CharacterRecord",
+      "CanonicalTargetRef": "person.abbad_ibn_muhammad_al_mutadid",
+      "InitialStatePayload": {
+        "Alive": true,
+        "OpeningRole": "Sovereign"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "002:req.character.al_mutadid.activate"
+    },
+    {
+      "RequestId": "req.character.al_mutamid.activate",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "CharacterFoundation",
+      "RecordType": "CharacterRecord",
+      "CanonicalTargetRef": "person.muhammad_ibn_abbad_al_mutamid",
+      "InitialStatePayload": {
+        "Alive": true,
+        "OpeningRole": "SuccessionRelevantDynast"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "003:req.character.al_mutamid.activate"
+    },
+    {
+      "RequestId": "req.dynasty.abbadid.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Dynasty",
+      "RecordType": "DefinitionBinding",
+      "CanonicalTargetRef": "dynasty.abbadid",
+      "InitialStatePayload": {
+        "DefinitionAvailable": true
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "004:req.dynasty.abbadid.bind"
+    },
+    {
+      "RequestId": "req.capital.seville.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Realm",
+      "RecordType": "CapitalBinding",
+      "CanonicalTargetRef": "settlement.seville",
+      "InitialStatePayload": {
+        "RealmRef": "realm.seville"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "005:req.capital.seville.bind"
+    },
+    {
+      "RequestId": "req.authority.seville.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.seville",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "CoreCapitalAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "010:req.authority.seville.bind"
+    },
+    {
+      "RequestId": "req.authority.mertola.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.mertola",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "011:req.authority.mertola.bind"
+    },
+    {
+      "RequestId": "req.authority.niebla.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.niebla",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "012:req.authority.niebla.bind"
+    },
+    {
+      "RequestId": "req.authority.huelva.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.huelva",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "013:req.authority.huelva.bind"
+    },
+    {
+      "RequestId": "req.authority.saltes.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.saltes",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "014:req.authority.saltes.bind"
+    },
+    {
+      "RequestId": "req.authority.santa_maria_algarve.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.santa_maria_algarve",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "015:req.authority.santa_maria_algarve.bind"
+    },
+    {
+      "RequestId": "req.authority.algeciras.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.algeciras",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "016:req.authority.algeciras.bind"
+    },
+    {
+      "RequestId": "req.definition_only.taifa_mertola_first",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "SettlementRegistry",
+      "RecordType": "DefinitionOnlyReference",
+      "CanonicalTargetRef": "historical_polity.taifa_mertola_first",
+      "InitialStatePayload": {
+        "DefinitionOnly": true,
+        "OpeningActive": false
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "030:req.definition_only.taifa_mertola_first"
+    },
+    {
+      "RequestId": "req.definition_only.taifa_niebla_first",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "SettlementRegistry",
+      "RecordType": "DefinitionOnlyReference",
+      "CanonicalTargetRef": "historical_polity.taifa_niebla_first",
+      "InitialStatePayload": {
+        "DefinitionOnly": true,
+        "OpeningActive": false
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "031:req.definition_only.taifa_niebla_first"
+    },
+    {
+      "RequestId": "req.definition_only.taifa_saltes_huelva",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "SettlementRegistry",
+      "RecordType": "DefinitionOnlyReference",
+      "CanonicalTargetRef": "historical_polity.taifa_saltes_huelva",
+      "InitialStatePayload": {
+        "DefinitionOnly": true,
+        "OpeningActive": false
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "032:req.definition_only.taifa_saltes_huelva"
+    },
+    {
+      "RequestId": "req.definition_only.taifa_santa_maria_algarve",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "SettlementRegistry",
+      "RecordType": "DefinitionOnlyReference",
+      "CanonicalTargetRef": "historical_polity.taifa_santa_maria_algarve",
+      "InitialStatePayload": {
+        "DefinitionOnly": true,
+        "OpeningActive": false
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "033:req.definition_only.taifa_santa_maria_algarve"
+    },
+    {
+      "RequestId": "req.definition_only.taifa_algeciras",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "SettlementRegistry",
+      "RecordType": "DefinitionOnlyReference",
+      "CanonicalTargetRef": "historical_polity.taifa_algeciras",
+      "InitialStatePayload": {
+        "DefinitionOnly": true,
+        "OpeningActive": false
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "034:req.definition_only.taifa_algeciras"
+    }
+  ],
+  "OwnerOrdinals": {
+    "CharacterFoundation": 0,
+    "Dynasty": 1,
+    "Governance": 2,
+    "Realm": 3,
+    "SettlementRegistry": 4,
+    "Temporal": 5
+  },
+  "OwnerRequestCounts": {
+    "CharacterFoundation": 2,
+    "Dynasty": 1,
+    "Governance": 7,
+    "Realm": 2,
+    "SettlementRegistry": 5,
+    "Temporal": 1
+  },
+  "NonAuthoritativeReaders": [
+    "AI",
+    "Presentation"
+  ],
+  "Determinism": {
+    "StableOrdering": [
+      "OwnerOrdinal",
+      "RecordTypeOrdinal",
+      "CanonicalTargetRef",
+      "RequestId"
+    ],
+    "RequestIdsUnique": true,
+    "StableOrderKeysUnique": true,
+    "EqualInputsProduceEqualRouting": true,
+    "ExcludedInputs": [
+      "LocalizedDisplayText",
+      "FilePath",
+      "WallClockTime",
+      "ModifiedTime",
+      "UploadOrder",
+      "WorkstationData",
+      "MemoryAddress",
+      "UnorderedIteration"
+    ]
+  },
+  "AcceptanceCriteria": {
+    "ExactRequestCount": 18,
+    "TemporalRequests": 1,
+    "RealmRequests": 2,
+    "CharacterFoundationRequests": 2,
+    "DynastyRequests": 1,
+    "GovernanceRequests": 7,
+    "SettlementRegistryRequests": 5,
+    "AllRequestsReferenceOpeningState": true,
+    "AllRequestsCarryAuthorityRefs": true,
+    "NoEconomyRuntimeRequest": true,
+    "NoMilitaryRuntimeRequest": true,
+    "NoDiplomacyRuntimeRequest": true,
+    "NoKnowledgeRuntimeRequest": true,
+    "NoHistoricalOutcomeRequest": true
+  },
+  "RollbackContract": {
+    "StageAllOwnerResponsesBeforeCommit": true,
+    "RejectAllOnAnyFatalOwnerResponse": true,
+    "AuthoritativeMutationsAfterFatal": 0,
+    "MatchingReceiptDisposition": "AlreadyApplied",
+    "MatchingReceiptMutationCount": 0,
+    "ConflictingReceiptDisposition": "FailClosed"
+  },
+  "EvidenceBoundary": {
+    "ImmediateSourceManifestVersion": "1.0.0",
+    "SourceRequestsCarriedForward": 18,
+    "SourceRequestsRemoved": 0,
+    "SourceRequestsAdded": 0,
+    "PayloadRoutingParityChecked": true,
+    "ImporterExecuted": false,
+    "CompileExecuted": false,
+    "RuntimeExecuted": false,
+    "SaveLoadExecuted": false,
+    "MigrationExecuted": false,
+    "ReplayExecuted": false
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "JSONSyntaxValidated": true,
+    "RequestCountValidated": true,
+    "UniqueRequestIdsValidated": true,
+    "UniqueStableOrderKeysValidated": true,
+    "PayloadRoutingParityValidated": true,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false
+  },
+  "CopyFirstLedger": {
+    "ImmediateSourceManifestVersion": "1.0.0",
+    "OriginalRequestCount": 18,
+    "CarriedForwardRequestCount": 18,
+    "RemovedRequests": 0,
+    "ChangedRequestPayloads": 0,
+    "AddedGovernance": [
+      "MaintenanceAuthority",
+      "RoutingBoundary",
+      "DeclaredRequestCount",
+      "OwnerRequestCounts",
+      "Determinism",
+      "AcceptanceCriteria",
+      "RollbackContract",
+      "EvidenceBoundary",
+      "CopyFirstLedger"
+    ]
+  },
+  "DefinitionOnlyIntegrationBoundary": {
+    "DefinitionFamilyBindings": 11,
+    "RuntimeRequestsAdded": 0,
+    "Reason": "Definition availability does not authorize runtime instantiation"
+  },
+  "DirectedKinshipBoundary": {
+    "AcceptedBindings": 2,
+    "RuntimePoliticalEdgesCreated": 0,
+    "RoutingOwner": "CharacterNetwork",
+    "AdditionalOpeningInitializationRequests": 0
+  }
+}

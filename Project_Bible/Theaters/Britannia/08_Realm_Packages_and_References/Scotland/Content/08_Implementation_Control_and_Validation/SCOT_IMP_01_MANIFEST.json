@@ -1,0 +1,23 @@
+{
+  "task_id": "SCOT-IMP-01",
+  "status": "ReadyForBoundedOwnerReview",
+  "implementation_target": "Unreal Engine 5.8",
+  "plan_file": "SCOT_IMP_01_SOURCE_DISPOSITION_AND_CANDIDATE_PROVIDER_PLAN_2026-09-21.md",
+  "plan_sha256": "BFFF3C3B1039BDB6137824A818310C9FAF9A7FC9D0C20D7447C6B9CEF2157E80",
+  "plan_bytes": 15977,
+  "plan_lines": 394,
+  "source_disposition_file": "SCOT_IMP_01_SELECTED_SOURCE_DISPOSITION.csv",
+  "source_disposition_sha256": "93CD0B14DDDFB64B33C41D36CE98AA28F67F205B78529241FA62891121295C75",
+  "selected_source_rows": 11,
+  "active_candidate_count_planned": 4,
+  "unavailable_files_promoted": 0,
+  "source_files_modified": 0,
+  "unreal_files_modified": 0,
+  "registry_mutations": 0,
+  "opening_state_activations": 0,
+  "save_writes": 0,
+  "migration_executions": 0,
+  "real_payloads": 0,
+  "production_authority": false,
+  "next_package": "SCOT-IMP-01A Scotland candidate-only provider implementation"
+}

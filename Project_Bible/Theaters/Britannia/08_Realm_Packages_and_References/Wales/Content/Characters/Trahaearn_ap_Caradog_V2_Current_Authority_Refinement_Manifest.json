@@ -1,0 +1,56 @@
+{
+  "document_id": "Manifest.CharacterProfile.Wales.TrahaearnApCaradog.V2",
+  "version": "2.0.0",
+  "status": "Static-Checked Draft",
+  "immediate_source": {
+    "filename": "Trahaearn_ap_Caradog.md",
+    "bytes": 48230,
+    "physical_lines": 1343,
+    "sha256": "9c983c6b4e8b4c64fce9ada583434fa3f106f5df17176a79346a3a606773a86d",
+    "copy_method": "literal full-file prefix",
+    "complete_source_verified": true
+  },
+  "successor": {
+    "filename": "Trahaearn_ap_Caradog_V2_Current_Authority_Refinement.md",
+    "bytes": 74277,
+    "physical_lines": 2065,
+    "sha256": "a10224e64eb0197a9d124d775db41911ba14465a48b0cc9b992e93516a1de02c"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "all_source_headings_preserved": 117,
+    "removed_content": []
+  },
+  "current_opening": {
+    "canonical_person_id": "Person.TrahaearnApCaradog",
+    "default_participation": "DormantPrincipal",
+    "alternate_participation": "RestrictedActiveOwnerAndEvidenceGated",
+    "opening_edges": 0,
+    "opening_dimensions": 0,
+    "opening_titles": 0,
+    "opening_claims": 0,
+    "opening_commands": 0
+  },
+  "validation": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Trahaearn_ap_Caradog_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

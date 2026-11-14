@@ -1,0 +1,235 @@
+{
+  "POS-001": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-002": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-003": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-004": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-005": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-006": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-007": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-008": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-009": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-010": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-011": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "POS-012": {
+    "result": "Pass",
+    "severity": "Information",
+    "reason_codes": [],
+    "writes": 0
+  },
+  "NEG-001": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F012"
+    ],
+    "writes": 0
+  },
+  "NEG-002": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F012"
+    ],
+    "writes": 0
+  },
+  "NEG-003": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F012"
+    ],
+    "writes": 0
+  },
+  "NEG-004": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F008"
+    ],
+    "writes": 0
+  },
+  "NEG-005": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F009"
+    ],
+    "writes": 0
+  },
+  "NEG-006": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F003"
+    ],
+    "writes": 0
+  },
+  "NEG-007": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F004"
+    ],
+    "writes": 0
+  },
+  "NEG-008": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F006"
+    ],
+    "writes": 0
+  },
+  "NEG-009": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F006"
+    ],
+    "writes": 0
+  },
+  "NEG-010": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F004"
+    ],
+    "writes": 0
+  },
+  "NEG-011": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F004",
+      "IMP-NOR-F008"
+    ],
+    "writes": 0
+  },
+  "NEG-012": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F008"
+    ],
+    "writes": 0
+  },
+  "NEG-013": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F009"
+    ],
+    "writes": 0
+  },
+  "NEG-014": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F007"
+    ],
+    "writes": 0
+  },
+  "NEG-015": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F012"
+    ],
+    "writes": 0
+  },
+  "NEG-016": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F010"
+    ],
+    "writes": 0
+  },
+  "NEG-017": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F012"
+    ],
+    "writes": 0
+  },
+  "NEG-018": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F003"
+    ],
+    "writes": 0
+  },
+  "NEG-019": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F005"
+    ],
+    "writes": 0
+  },
+  "NEG-020": {
+    "result": "Fail",
+    "severity": "Fatal",
+    "reason_codes": [
+      "IMP-NOR-F007"
+    ],
+    "writes": 0
+  }
+}

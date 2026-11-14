@@ -1,0 +1,29 @@
+{
+  "document": "Holland_Bertha_of_Holland_Character_Authority_V1_1_Mature_Double_Checked.md",
+  "sha256": "a91ccfb0f8100ab61d8088e0bc6d21afd47495abf5b8cb7772892dcb9a1f3d02",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_42": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_hash_matches": true,
+    "predecessor_static_passed": true,
+    "predecessor_receipt_passed": true,
+    "canonical_ownership": true,
+    "consent": true,
+    "marriage_lifecycle": true,
+    "transfer": true,
+    "queenship": true,
+    "childlessness": true,
+    "repudiation": true,
+    "children_separate": true,
+    "ai": true,
+    "ui": true,
+    "validation": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "active_no_citation_tokens": true
+  },
+  "pass": true
+}

@@ -1,0 +1,10 @@
+Gate,RequiredResult,FailureDisposition
+Entrance,Prior France lanes accepted,BlockedBeforeMutation
+AuthorityFingerprint,Historical authorities locked,BlockedBeforeMutation
+ComparatorDiscovery,Wales and Scotland counts greater than zero,BlockedBeforeMutation
+Collision,All six targets absent,BlockedBeforeMutation
+Build,MedievalWarEditor succeeded,RollbackSixAddedFiles
+FranceAutomation,28 of 28,RollbackSixAddedFiles
+ComparatorRegression,Preserve discovered counts,RollbackSixAddedFiles
+FranceRegression,TransactionRecovery 24 and CampaignInitialization 24,RollbackSixAddedFiles
+TheaterRegression,Definition 4 of 4,RollbackSixAddedFiles

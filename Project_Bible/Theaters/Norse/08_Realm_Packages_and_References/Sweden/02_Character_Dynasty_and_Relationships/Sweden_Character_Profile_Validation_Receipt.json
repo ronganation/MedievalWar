@@ -1,0 +1,42 @@
+{
+  "package": "Sweden Character Profiles V3 authoring set",
+  "generated": "2026-08-25",
+  "profiles": [
+    {
+      "filename": "Stenkil_Refined_V1_1_FULL.md",
+      "bytes": 12326,
+      "lines": 247,
+      "sha256": "bb548c52a691c76ae06afa5bd31771bd38b12101de429c6a061ef5c6dc50a983",
+      "utf8": true,
+      "fence_count": 16,
+      "result": "PASS"
+    },
+    {
+      "filename": "Halsten_Stenkilsson_Refined_V1_1_FULL.md",
+      "bytes": 12127,
+      "lines": 245,
+      "sha256": "5f13bd2ad4f1789d98fa827caf3e7c9555b660badba8351a0a6d3492f858b3c1",
+      "utf8": true,
+      "fence_count": 16,
+      "result": "PASS"
+    },
+    {
+      "filename": "Inge_Stenkilsson_Refined_V1_1_FULL.md",
+      "bytes": 11919,
+      "lines": 245,
+      "sha256": "fb61f8cf9f79b57ffd97aa4cafe05a7d38175da47e526c9ca7e5c40d01f2a34d",
+      "utf8": true,
+      "fence_count": 16,
+      "result": "PASS"
+    },
+    {
+      "filename": "Emund_the_Old_Historical_Legacy_V1_1_FULL.md",
+      "bytes": 11666,
+      "lines": 242,
+      "sha256": "1068c7823bd7cb55bf02ae5e32c7908fc7ba1000044df9dab71058beebab8c86",
+      "utf8": true,
+      "fence_count": 16,
+      "result": "PASS"
+    }
+  ]
+}

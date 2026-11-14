@@ -1,0 +1,22 @@
+{
+  "FileName": "Burgundy_Historical_Suite_Importer_Manifest_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "59f9d7582731216fdb002989ec1b1052e128c12bc9b3696d0a28ed7b0ac58ba6",
+  "Bytes": 27721,
+  "Lines": 897,
+  "Status": "StaticCheckedNonMutatingImporterContract",
+  "PipelinePhases": 12,
+  "ImportBatches": 9,
+  "CandidateDefinitionRows": 44,
+  "AliasDecisionRows": 6,
+  "SplitMigrationRows": 10,
+  "UncertaintyDecisionRows": 32,
+  "OwnerResponsesPresent": 0,
+  "IssueCodes": 30,
+  "PositiveFixtures": 20,
+  "NegativeFixtures": 28,
+  "RealPayloadReady": false,
+  "ImporterExecuted": false,
+  "NextFile": "Burgundy_Historical_Suite_Migration_Rollback_and_Validation_Plan_V1.md",
+  "Mutations": 0
+}

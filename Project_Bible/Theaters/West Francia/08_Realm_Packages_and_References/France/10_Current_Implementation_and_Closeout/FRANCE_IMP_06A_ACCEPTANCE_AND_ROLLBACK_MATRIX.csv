@@ -1,0 +1,12 @@
+Gate,AcceptanceCriterion,RequiredEvidence,FailureAction,RollbackScope
+A1,Only six approved source files added,Recursive diff and changed-file inventory,STOP and remove batch,All FRANCE-IMP-06A additions
+A2,FRANCE-IMP-01A through 05A unchanged,Before and after SHA256 comparison,STOP and restore exact baseline,Any changed predecessor
+A3,Authority fingerprints match approval set,SHA256 authority ledger,STOP and return to owner review,Whole batch
+A4,No Registry or Opening State mutation,Path and content diff scan,STOP and revert prohibited mutation,Whole batch
+A5,No live payload values or invented records,Literal and semantic review evidence,STOP and remove assumptions,Whole batch
+A6,Governing target builds,Build log and zero exit code,STOP and roll back,Whole batch
+A7,Direct FRANCE-IMP-06A tests pass,Automation report with discovered and passed counts,STOP and roll back,Whole batch
+A8,All discovered predecessor regressions pass,Before and after discovery evidence,STOP and roll back,Whole batch
+A9,Relevant shared-framework regressions pass,Automation report,STOP and roll back,Whole batch
+A10,Rollback restores exact pre-batch state,Rollback rehearsal hashes,Do not close gate,Whole batch
+A11,Evidence bundle is complete,Manifest hashes logs diff and test outputs,Do not promote,No promotion

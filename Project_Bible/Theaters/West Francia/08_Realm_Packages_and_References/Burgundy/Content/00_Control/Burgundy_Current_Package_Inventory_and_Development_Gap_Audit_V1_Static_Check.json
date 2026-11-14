@@ -1,0 +1,91 @@
+{
+  "DocumentId": "StaticCheck.CurrentPackageInventoryDevelopmentGapAudit.Realm.Burgundy.V1",
+  "TargetFile": "Burgundy_Current_Package_Inventory_and_Development_Gap_Audit_V1.md",
+  "TargetSHA256": "94dd51aba96970c5e8bcd323d0d7db4c797fa0b6d7faf4006cbc117be4540c78",
+  "Checks": [
+    {
+      "CheckId": "BURG-GAP-CHECK-001",
+      "Description": "Document control present",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-002",
+      "Description": "Reservation authority present",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-003",
+      "Description": "Discovery authority present",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-004",
+      "Description": "Historical Reconciliation next",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-005",
+      "Description": "Ten specialist authorities listed",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-006",
+      "Description": "Three-track time present",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-007",
+      "Description": "Generic rebel treatment blocked",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-008",
+      "Description": "Playability remains undecided",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-009",
+      "Description": "Later-history firewall present",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-010",
+      "Description": "Content folder accepted",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-011",
+      "Description": "Warfare permission gates rejected",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-012",
+      "Description": "Mutation receipt zero",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-013",
+      "Description": "Markdown fences balanced",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-014",
+      "Description": "No em dash",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-015",
+      "Description": "Stable footer once",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "BURG-GAP-CHECK-016",
+      "Description": "Final marker correct",
+      "Result": "Pass"
+    }
+  ],
+  "TotalChecks": 16,
+  "Passes": 16,
+  "Failures": 0,
+  "Result": "Pass"
+}

@@ -1,0 +1,40 @@
+{
+  "properties": {
+    "first_turn_autofire": {
+      "const": false
+    },
+    "historical_date_autofire": {
+      "const": false
+    },
+    "opening_character_instance": {
+      "const": false
+    },
+    "opening_claim": {
+      "const": false
+    },
+    "opening_network_node": {
+      "const": false
+    },
+    "opening_successor": {
+      "const": false
+    },
+    "opening_title": {
+      "const": false
+    },
+    "stable_id": {
+      "const": "person.alan_iv_brittany"
+    }
+  },
+  "required": [
+    "stable_id",
+    "opening_character_instance",
+    "opening_network_node",
+    "opening_claim",
+    "opening_title",
+    "opening_successor",
+    "first_turn_autofire",
+    "historical_date_autofire"
+  ],
+  "title": "Brittany Future Person Firewall",
+  "type": "object"
+}

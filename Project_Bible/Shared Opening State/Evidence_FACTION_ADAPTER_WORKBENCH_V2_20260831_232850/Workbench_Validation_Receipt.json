@@ -1,0 +1,20 @@
+﻿{
+    "Tool":  "Faction Adapter Workbench V2",
+    "Mode":  "validate",
+    "Timestamp":  "2026-08-31T23:30:14.7562956-04:00",
+    "Factions":  [
+                     "Norway",
+                     "Denmark"
+                 ],
+    "BuildExitCode":  0,
+    "AutomationRuns":  4,
+    "FailedAutomationRuns":  0,
+    "ReadyForOwnerReview":  true,
+    "ActiveProjectFilesModifiedByWorkbench":  false,
+    "OwnerCommitted":  false,
+    "ApplyCalled":  false,
+    "SaveWritten":  false,
+    "RegistryMutated":  false,
+    "RealmPayloadApplied":  false,
+    "TheaterActivated":  false
+}

@@ -1,0 +1,138 @@
+{
+  "validation_id": "validation.definition_manifest.valencia.1062.v3_3.package_v1",
+  "version": "1.0.0",
+  "manifest_id": "definition_manifest.valencia.1062.v3_3.package_v1",
+  "source_authority": "Valencia_Opening_State_1062_V3_3_Completed_Authority_Chain_Reconciled_Developed_Realm_Parity_Authority.md",
+  "rules": [
+    {
+      "rule_id": "MAN001",
+      "severity": "Error",
+      "description": "Manifest represents Opening State authority V3.3",
+      "expected": "3.3.0"
+    },
+    {
+      "rule_id": "MAN002",
+      "severity": "Error",
+      "description": "Manifest is definition-candidates only",
+      "expected": "DefinitionCandidatesOnly"
+    },
+    {
+      "rule_id": "ID001",
+      "severity": "Error",
+      "description": "All definition IDs are unique",
+      "expected": true
+    },
+    {
+      "rule_id": "ID002",
+      "severity": "Error",
+      "description": "Legacy crosswalk aliases do not create second identities",
+      "expected": false
+    },
+    {
+      "rule_id": "OWN001",
+      "severity": "Error",
+      "description": "Every definition has an explicit owner",
+      "expected": true
+    },
+    {
+      "rule_id": "SRC001",
+      "severity": "Error",
+      "description": "Every definition has a source reference",
+      "expected": true
+    },
+    {
+      "rule_id": "DEF001",
+      "severity": "Error",
+      "description": "Definitions create no persons",
+      "expected": false
+    },
+    {
+      "rule_id": "DEF002",
+      "severity": "Error",
+      "description": "Definitions create no appointments",
+      "expected": false
+    },
+    {
+      "rule_id": "DEF003",
+      "severity": "Error",
+      "description": "Definitions create no force instances",
+      "expected": false
+    },
+    {
+      "rule_id": "DEF004",
+      "severity": "Error",
+      "description": "Definitions create no recruitment pools",
+      "expected": false
+    },
+    {
+      "rule_id": "DEF005",
+      "severity": "Error",
+      "description": "Definitions create no institution instances",
+      "expected": false
+    },
+    {
+      "rule_id": "DEF006",
+      "severity": "Error",
+      "description": "Definitions create no route operation",
+      "expected": false
+    },
+    {
+      "rule_id": "DEF007",
+      "severity": "Error",
+      "description": "Definitions create no external agreements",
+      "expected": false
+    },
+    {
+      "rule_id": "DEF008",
+      "severity": "Error",
+      "description": "Definitions create no historical instances or values",
+      "expected": false
+    },
+    {
+      "rule_id": "DEF009",
+      "severity": "Error",
+      "description": "Definitions create no selected opening choices",
+      "expected": false
+    },
+    {
+      "rule_id": "UNC001",
+      "severity": "Error",
+      "description": "Unknown creates no default",
+      "expected": false
+    },
+    {
+      "rule_id": "REV001",
+      "severity": "Error",
+      "description": "ReviewOnly creates no activation",
+      "expected": false
+    },
+    {
+      "rule_id": "EXT001",
+      "severity": "Error",
+      "description": "ExternalLock creates no consent",
+      "expected": false
+    },
+    {
+      "rule_id": "TMP001",
+      "severity": "Error",
+      "description": "Three temporal tracks remain independent",
+      "expected": true
+    },
+    {
+      "rule_id": "HIS001",
+      "severity": "Error",
+      "description": "Exact historical definitions are not reconstructed from summary counts",
+      "expected": true
+    },
+    {
+      "rule_id": "TXN001",
+      "severity": "Error",
+      "description": "Registry runtime payload and Unreal mutations remain zero",
+      "expected": 0
+    }
+  ],
+  "execution_status": "StaticChecksExecuted",
+  "runtime_validation": "NotExecuted",
+  "registry_validation": "NotExecuted",
+  "unreal_validation": "NotExecuted"
+}

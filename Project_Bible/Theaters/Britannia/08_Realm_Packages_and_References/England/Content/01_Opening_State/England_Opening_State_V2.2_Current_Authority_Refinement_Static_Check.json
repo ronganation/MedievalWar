@@ -1,0 +1,24 @@
+{
+  "document_id": "static-check.england.opening_state.v2_2.current_authority_refinement.corrected",
+  "version": "2.0.0",
+  "source_file": "England_Opening_State_V2.1_Current_Authority_Refinement.md",
+  "source_manifest_bytes": 56811,
+  "output_file": "England_Opening_State_V2.2_Current_Authority_Refinement.md",
+  "output_bytes": 78962,
+  "checks": {
+    "new_file_created": true,
+    "larger_than_v2_1_manifest_bytes": true,
+    "full_substantive_base_present": true,
+    "eight_momentum_records": true,
+    "sixteen_relationship_records": true,
+    "sixteen_scenario_flags": true,
+    "legacy_roster": true,
+    "actor_objectives": true,
+    "specialist_bundles": true,
+    "supply_not_reowned": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

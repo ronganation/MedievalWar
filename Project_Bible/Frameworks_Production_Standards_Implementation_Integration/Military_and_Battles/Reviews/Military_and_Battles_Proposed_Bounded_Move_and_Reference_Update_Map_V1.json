@@ -1,0 +1,184 @@
+{
+  "report_id": "mw.audit.military_and_battles.proposed_bounded_move_map.v1",
+  "title": "Military and Battles Proposed Bounded Move and Reference Update Map V1",
+  "status": "ProposalOnly_NoMovesExecuted",
+  "inventory_baseline": {
+    "root": "Project_Bible/Frameworks_Production_Standards_Implementation_Integration/Military_and_Battles",
+    "pre_report_file_count": 70,
+    "proposed_moves": 6
+  },
+  "scope_boundary": {
+    "move_execution_authorized": false,
+    "substantive_rewrite_authorized": false,
+    "registry_opening_state_runtime_unreal_save_importer_or_payload_mutation_authorized": false,
+    "source_successor_pairs_are_deletion_duplicates": false,
+    "companion_manifests_static_checks_and_historical_evidence_must_be_preserved": true
+  },
+  "moves": [
+    {
+      "current_path": "Shared_Military_Authorities_10_File_Cross_Consistency_Audit_V1.md",
+      "proposed_destination": "Reviews/Shared_Military_Authorities_10_File_Cross_Consistency_Audit_V1.md",
+      "classification_reason": "Root-level cross-consistency audit is review evidence, not root navigation or a substantive framework.",
+      "companions_to_move_together": [
+        "Shared_Military_Authorities_Final_Literal_Validation_Rerun_V2.md"
+      ],
+      "related_files_not_to_merge_or_delete": [
+        "Reviews/Shared_Military_Authorities_Final_Literal_Cross_Consistency_Validation_V1.md"
+      ],
+      "inbound_references_requiring_correction": [
+        {
+          "file": "Reviews/Military_and_Battles_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+          "action": "Update only any path-qualified link; retain the audit's title, result, and filename reference."
+        },
+        {
+          "file": "Reviews/Military_and_Battles_Authority_Family_Bounded_Assessment_Ownership_Gap_and_Development_Disposition_V1.md",
+          "action": "Update only any path-qualified link; retain historical audit lineage."
+        },
+        {
+          "file": "Reviews/Military_Battle_Unit_Content_UI_and_Production_Exact_Physical_Path_Hash_Metadata_and_Companion_Inventory_V1.json",
+          "action": "Update any exact physical-path record if it treats the root path as current; do not alter the historical inventory evidence."
+        }
+      ],
+      "rollback_command": "Move-Item -LiteralPath 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Reviews\\Shared_Military_Authorities_10_File_Cross_Consistency_Audit_V1.md' -Destination 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Shared_Military_Authorities_10_File_Cross_Consistency_Audit_V1.md'",
+      "risk_level": "LOW"
+    },
+    {
+      "current_path": "Shared_Military_Authorities_Final_Literal_Validation_Rerun_V2.md",
+      "proposed_destination": "Reviews/Shared_Military_Authorities_Final_Literal_Validation_Rerun_V2.md",
+      "classification_reason": "Failed literal validation rerun is historical review evidence and should be co-located with the preceding audit.",
+      "companions_to_move_together": [
+        "Shared_Military_Authorities_10_File_Cross_Consistency_Audit_V1.md"
+      ],
+      "related_files_not_to_merge_or_delete": [
+        "Reviews/Shared_Military_Authorities_Final_Literal_Cross_Consistency_Validation_V1.md"
+      ],
+      "inbound_references_requiring_correction": [
+        {
+          "file": "Reviews/Military_and_Battles_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+          "action": "Update only any path-qualified link; preserve the failed result and rerun evidence."
+        },
+        {
+          "file": "Reviews/Military_and_Battles_Authority_Family_Bounded_Assessment_Ownership_Gap_and_Development_Disposition_V1.md",
+          "action": "Update only any path-qualified link; preserve the failure as historical evidence."
+        }
+      ],
+      "rollback_command": "Move-Item -LiteralPath 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Reviews\\Shared_Military_Authorities_Final_Literal_Validation_Rerun_V2.md' -Destination 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Shared_Military_Authorities_Final_Literal_Validation_Rerun_V2.md'",
+      "risk_level": "LOW"
+    },
+    {
+      "current_path": "Framework_Authorities/Army_Readiness_Attrition_and_Operational_Tempo_Authority_Integration_and_Conflict_Review_V1.md",
+      "proposed_destination": "Reviews/Army_Readiness_Attrition_and_Operational_Tempo_Authority_Integration_and_Conflict_Review_V1.md",
+      "classification_reason": "Document control declares review-only integration/conflict review, identifies a subject specification, and explicitly denies authority promotion.",
+      "companions_to_move_together": [],
+      "related_files_not_to_move": [
+        "Framework_Authorities/Army_Readiness_Attrition_and_Operational_Tempo_Authority_Specification_V1.md"
+      ],
+      "inbound_references_requiring_correction": [
+        {
+          "file": "Reviews/Military_and_Battles_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+          "action": "Update only path-qualified references; filename-only subject and review references remain valid."
+        },
+        {
+          "file": "Reviews/Military_Battle_Unit_Content_UI_and_Production_Cross_Folder_Source_Inventory_and_Authority_Disposition_V1.md",
+          "action": "Update only path-qualified references; preserve the review's evidence role."
+        },
+        {
+          "file": "Framework_Authorities/Military_Army_Movement_Marching_Interception_and_Campaign_Maneuver_Framework_V1.md",
+          "action": "Search for and update only path-qualified references."
+        },
+        {
+          "file": "Framework_Authorities/Military_Campaign_Contact_Engagement_Battle_Initiation_and_Deployment_Framework_V1.md",
+          "action": "Search for and update only path-qualified references."
+        },
+        {
+          "file": "Framework_Authorities/Military_Campaign_Occupation_Garrison_Pacification_and_Territorial_Control_Framework_V1.md",
+          "action": "Search for and update only path-qualified references."
+        }
+      ],
+      "rollback_command": "Move-Item -LiteralPath 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Reviews\\Army_Readiness_Attrition_and_Operational_Tempo_Authority_Integration_and_Conflict_Review_V1.md' -Destination 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Framework_Authorities\\Army_Readiness_Attrition_and_Operational_Tempo_Authority_Integration_and_Conflict_Review_V1.md'",
+      "risk_level": "MEDIUM"
+    },
+    {
+      "current_path": "Framework_Authorities/Military_Content_30_Authority_OneDrive_Coverage_Matrix_and_Almoravid_Readiness_Audit_V1.md",
+      "proposed_destination": "Reviews/Military_Content_30_Authority_OneDrive_Coverage_Matrix_and_Almoravid_Readiness_Audit_V1.md",
+      "classification_reason": "Document type is OneDrive authority coverage matrix, shared package audit, and Almoravid readiness decision record; status is ReviewOnlyCoverageAudit.",
+      "companions_to_move_together": [],
+      "inbound_references_requiring_correction": [
+        {
+          "file": "Reviews/Military_and_Battles_Authority_Family_Bounded_Assessment_Ownership_Gap_and_Development_Disposition_V1.md",
+          "action": "Update only any path-qualified reference; retain its audit citation."
+        },
+        {
+          "file": "Reviews/Military_Battle_Unit_Content_UI_and_Production_Cross_Folder_Source_Inventory_and_Authority_Disposition_V1.md",
+          "action": "Update only any path-qualified reference; retain the audit as evidence."
+        },
+        {
+          "file": "Reviews/Military_and_Battles_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+          "action": "Update only any path-qualified reference; retain the audit's historical scope."
+        },
+        {
+          "file": "Reviews/Military_Battle_Unit_Content_UI_and_Production_Exact_Physical_Path_Hash_Metadata_and_Companion_Inventory_V1.json",
+          "action": "Update any exact physical-path record if it treats the current path as authoritative; preserve its original inventory snapshot."
+        }
+      ],
+      "rollback_command": "Move-Item -LiteralPath 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Reviews\\Military_Content_30_Authority_OneDrive_Coverage_Matrix_and_Almoravid_Readiness_Audit_V1.md' -Destination 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Framework_Authorities\\Military_Content_30_Authority_OneDrive_Coverage_Matrix_and_Almoravid_Readiness_Audit_V1.md'",
+      "risk_level": "LOW"
+    },
+    {
+      "current_path": "Framework_Authorities/Southern_Italy_and_Sicily_Mercenary_Ecosystem_Evidence_Service_Form_Identity_and_Content_Benchmark_V1.md",
+      "proposed_destination": "Reviews/Southern_Italy_and_Sicily_Mercenary_Ecosystem_Evidence_Service_Form_Identity_and_Content_Benchmark_V1.md",
+      "classification_reason": "Document classifies itself as a static regional evidence/readiness benchmark, says production authority is false, and explicitly prohibits content admission or implementation.",
+      "companions_to_move_together": [],
+      "inbound_references_requiring_correction": [],
+      "outbound_references_to_recheck": [
+        "Framework_Authorities/Mercenary_Regional_Ecosystems_Circulation_Identity_and_Content_Variation_Standard_V1.md",
+        "Framework_Authorities/Mercenary_Service_and_Contract_Integration_Framework_V1_Current_Authority_Copy_First_Modernization.md"
+      ],
+      "rollback_command": "Move-Item -LiteralPath 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Reviews\\Southern_Italy_and_Sicily_Mercenary_Ecosystem_Evidence_Service_Form_Identity_and_Content_Benchmark_V1.md' -Destination 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Framework_Authorities\\Southern_Italy_and_Sicily_Mercenary_Ecosystem_Evidence_Service_Form_Identity_and_Content_Benchmark_V1.md'",
+      "risk_level": "MEDIUM"
+    },
+    {
+      "current_path": "Framework_Authorities/Mercenary_Regional_Ecosystems_Circulation_Identity_and_Content_Variation_Standard_V1.md",
+      "proposed_destination": "Standards_Production/Mercenary_Regional_Ecosystems_Circulation_Identity_and_Content_Variation_Standard_V1.md",
+      "classification_reason": "The file title, document classifications, and role define a reusable shared regional mercenary authoring/variation standard rather than a constitutional framework.",
+      "companions_to_move_together": [],
+      "inbound_references_requiring_correction": [
+        {
+          "file": "Framework_Authorities/Southern_Italy_and_Sicily_Mercenary_Ecosystem_Evidence_Service_Form_Identity_and_Content_Benchmark_V1.md",
+          "action": "Change its stale Authorities/Mercenary_Regional... path reference to the approved Standards_Production destination."
+        }
+      ],
+      "outbound_references_requiring_correction": [
+        {
+          "reference": "Authorities/Mercenary_Service_and_Contract_Integration_Framework_V1_Current_Authority_Copy_First_Modernization.md",
+          "action": "Resolve to the actual Framework_Authorities sibling and use a correct relative path after the move."
+        }
+      ],
+      "rollback_command": "Move-Item -LiteralPath 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Standards_Production\\Mercenary_Regional_Ecosystems_Circulation_Identity_and_Content_Variation_Standard_V1.md' -Destination 'Project_Bible\\Frameworks_Production_Standards_Implementation_Integration\\Military_and_Battles\\Framework_Authorities\\Mercenary_Regional_Ecosystems_Circulation_Identity_and_Content_Variation_Standard_V1.md'",
+      "risk_level": "HIGH"
+    }
+  ],
+  "non_moves_confirmed": [
+    {
+      "file": "README_Military_Content.md",
+      "reason": "Root directory navigation belongs at the family root; stale routes need an authorized navigation edit, not relocation."
+    },
+    {
+      "file": "README_Military_Recruitment_Pool_Status.md",
+      "reason": "Root status/navigation is stale, but relocation is not necessary to correct its authority routing."
+    },
+    {
+      "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.manifest.json",
+      "reason": "Manifest must remain beside its authority owner."
+    },
+    {
+      "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.static_check.json",
+      "reason": "Static check must remain beside its authority owner."
+    },
+    {
+      "file": "Unit_Definition_Schema_V1.json and Unit_Definition_Validation_Rules_V1.json",
+      "reason": "Schema and rules are correctly grouped under Implementation_Integration/Schemas; no schema move is proposed."
+    }
+  ],
+  "rollback_policy": "Before any approved move, verify the destination does not already exist, record the source SHA-256, and run only the per-entry reverse Move-Item command if rollback is required."
+}

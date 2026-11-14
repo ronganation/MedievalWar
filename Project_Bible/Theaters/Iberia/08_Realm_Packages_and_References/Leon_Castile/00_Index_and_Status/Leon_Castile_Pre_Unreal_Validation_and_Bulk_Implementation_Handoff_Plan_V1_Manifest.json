@@ -1,0 +1,48 @@
+{
+  "document_id": "Manifest.PreUnrealValidationBulkHandoff.Realm.LeonCastile.V1",
+  "authority_file": "Leon_Castile_Pre_Unreal_Validation_and_Bulk_Implementation_Handoff_Plan_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/00_Index_and_Status",
+  "bytes": 20017,
+  "physical_lines": 598,
+  "sha256": "F5D0758F59E6A7C5EEA8D633EA4167366C1C2C0625B8C808451A92AC9DAFDE8E",
+  "status": "StaticCheckedPreUnrealHandoffPlanReviewOnly",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "pre_unreal_phases_present": true,
+    "implementation_batches_present": true,
+    "dependencies_present": true,
+    "acceptance_criteria_present": true,
+    "evidence_requirements_present": true,
+    "rollback_present": true,
+    "owner_gates_present": true,
+    "temporal_model_preserved": true,
+    "promotion_block_present": true
+  },
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "MachineReadable": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "validation_boundary": {
+    "FullLocalHash": "NOT_RUN",
+    "OfflineSchema": "NOT_RUN",
+    "OfflineFixtures": "NOT_RUN",
+    "UnrealSourceInspection": "NOT_RUN",
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "Promotion": "PROHIBITED"
+  },
+  "next_file": "Leon_Castile_Accepted_Source_Fingerprint_and_Pairing_Validation_Report_V1.md",
+  "all_static_checks_pass": true
+}

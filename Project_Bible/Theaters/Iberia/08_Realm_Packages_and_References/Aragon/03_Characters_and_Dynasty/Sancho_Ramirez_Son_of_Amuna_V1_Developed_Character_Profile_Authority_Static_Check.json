@@ -1,0 +1,30 @@
+{
+  "FileName": "Sancho_Ramirez_Son_of_Amuna_V1_Developed_Character_Profile_Authority.md",
+  "SHA256": "cc97744d00e3aa0fcf866568d5094e81e86af6584d807bdf118c928e129d8a8c",
+  "Bytes": 35102,
+  "Lines": 654,
+  "Result": "Pass",
+  "Checks": {
+    "adult_not_underage_explicit": true,
+    "minimum_bytes": true,
+    "validation_50": true,
+    "repeated_headings": {},
+    "duplicate_long_paragraphs": [],
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "balanced_fences": true,
+    "footer": 1,
+    "end": 1,
+    "substantial_collateral_depth": true
+  },
+  "MutationReceipt": {
+    "SourceOverwritten": false,
+    "Registry": 0,
+    "OpeningState": 0,
+    "Relations": 0,
+    "Property": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  }
+}

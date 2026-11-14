@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Claims_Succession_Installation_Recognition_and_Government_Conversion_Authority_V1_1_FULL.md",
+  "bytes": 43100,
+  "lines": 865,
+  "sections": 37,
+  "validation_cases": 40,
+  "checks": {
+    "large": true,
+    "sections": true,
+    "validations": true,
+    "source": true,
+    "preserve": true,
+    "portfolios": true,
+    "implementation": true,
+    "three": true,
+    "honest": true,
+    "no_mut": true,
+    "format": true,
+    "all_pass": true
+  }
+}

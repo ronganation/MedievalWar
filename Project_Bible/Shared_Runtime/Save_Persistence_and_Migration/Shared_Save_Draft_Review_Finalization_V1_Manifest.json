@@ -1,0 +1,35 @@
+﻿{
+    "document_id":  "mw.shared-save.draft-review-finalization-manifest.v1",
+    "generated_utc":  "2026-08-24T18:35:04.9398584Z",
+    "implementation_target":  "Unreal Engine 5.8",
+    "active_source_mutation_performed":  false,
+    "isolated_baseline_source_mutation_performed":  false,
+    "owner_decision_complete":  false,
+    "compile_validated":  false,
+    "runtime_validated":  false,
+    "hygiene":  {
+                    "no_escaped_underscore":  true,
+                    "no_escaped_hyphen":  true,
+                    "balanced_fences":  true,
+                    "exact_footer":  true,
+                    "owner_pending":  true,
+                    "no_false_validation":  true
+                },
+    "records":  [
+                    {
+                        "file":  "Shared_Save_Isolated_CPP_Draft_Static_Audit_V2_Clean.md",
+                        "bytes":  896,
+                        "sha256":  "14EB77A510AD51FC656C404A9862DF78D4D2689223E6A08BD2FC40045D96962A"
+                    },
+                    {
+                        "file":  "Shared_Save_Proposed_Identifier_Disposition_V1.json",
+                        "bytes":  598,
+                        "sha256":  "C62260C3BA4764397F6DCCB51CE61B36FE326DF009189CF3CEF3E3F3EBA7487D"
+                    },
+                    {
+                        "file":  "Shared_Save_Isolated_Draft_Owner_Review_Readiness_V1.json",
+                        "bytes":  805,
+                        "sha256":  "CADE2C5DD71FAD93FECCD575E3E5A340ADF03CA7E07CAF18C24C3E293BA05694"
+                    }
+                ]
+}

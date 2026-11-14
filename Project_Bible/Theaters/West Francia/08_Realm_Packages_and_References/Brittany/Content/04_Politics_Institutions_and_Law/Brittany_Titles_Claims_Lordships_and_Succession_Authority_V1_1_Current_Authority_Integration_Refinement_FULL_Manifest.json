@@ -1,0 +1,44 @@
+{
+  "artifact_type": "AuthorityManifest",
+  "version": "1.1.0",
+  "source": {
+    "filename": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1Copy.md",
+    "bytes": 77395,
+    "physical_lines": 1953,
+    "sha256": "65D56A125112960C0096276B681975A49E3772CFD6E660A44A0C288DF7B83C3F"
+  },
+  "authority": {
+    "filename": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md",
+    "bytes": 89807,
+    "physical_lines": 2220,
+    "sha256": "69A806113541869E2B46C8D5F6378759249CD4B371FA2A95A6E525225C451853"
+  },
+  "change": {
+    "additive_bytes": 12412,
+    "additive_lines": 267
+  },
+  "checks": {
+    "source_used_directly": true,
+    "integrated_single_authority": true,
+    "source_embedded_as_separate_annex": false,
+    "substantive_content_removed": [],
+    "balanced_fenced_blocks": true,
+    "all_24_portfolios_preserved": true,
+    "six_opening_title_candidates_preserved": true,
+    "three_claim_bases_preserved": true,
+    "Alan_IV_future_firewall_present": true,
+    "Alan_IV_opening_claims_created": 0,
+    "successor_declared": false,
+    "current_authorities_present": true,
+    "stable_footer_count": 1,
+    "escaped_underscore_artifacts": 0,
+    "em_dash_artifacts": 0,
+    "Registry_rows_created": 0,
+    "Opening_State_mutations": 0,
+    "runtime_mutations": 0,
+    "Unreal_project_mutations": 0,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false
+  }
+}

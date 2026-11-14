@@ -1,0 +1,1279 @@
+﻿{
+    "document_id":  "mw.shared-save.final-regression-test-discovery.v2",
+    "generated_utc":  "2026-08-24T23:40:04.4040052Z",
+    "disposable_clone_root":  "C:\\temp2\\MedievalWar_SharedSave_CompileClone_V1",
+    "campaign_test_count":  253,
+    "denmark_test_count":  15,
+    "replay_related_test_count":  48,
+    "campaign_tests":  [
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.AgeBandTransitionRequestsReview",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.CharacterOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.HistoricalDateDoesNotDetermineAge",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.InvalidOpeningAgeRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.LifecycleFailureRollsBackCompleteTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.NoAutomaticEligibilityMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.NoTransitionEmitsNoBandChange",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.ResidualMonthsNormalizeAtTwelve",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.SevenMonthsAdvancesExactAge",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.TwelveTurnsAdvanceSevenYears",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.AdultReleaseContinuesCriteriaReview",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.ConsumesOnlyCommandRequests",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.DecisionHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.DuplicateDecisionDoesNotRepeat",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.LeavesGovernancePending",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.MissingUnderageDecisionRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.NoDirectCommandAppointmentMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.StaleRequestRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.UnderageRestrictionBlocksProgression",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.EligibilityRouting.HashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.EligibilityRouting.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.EligibilityRouting.NoDirectEligibilityMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.EligibilityRouting.NoObservationNoRequest",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.EligibilityRouting.RepeatedRoutingDoesNotDuplicate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.EligibilityRouting.RequestsRemainPendingOwnerValidation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.EligibilityRouting.RoutesToThreeOwners",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.EligibilityRouting.UnknownCharacterRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.AdultReleaseContinuesCapacityReview",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.AllThreeOwnerRequestsResolved",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.ConsumesOnlyGovernanceRequests",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.DecisionHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.DuplicateDecisionDoesNotRepeat",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.MissingUnderageDecisionRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.NoDirectGovernanceOrRegencyMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.StaleRequestRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.UnderageRestrictionBlocksProgression",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.AdultTransitionRecommendsRelease",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.ChildStatePreservesRestriction",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.ConsumesOnlyUnderageRequests",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.DecisionHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.DuplicateDecisionDoesNotRepeat",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.LeavesOtherOwnerRequestsPending",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.NoDirectCommandOrGovernanceMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.StaleRequestRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.UnknownCharacterRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Bootstrap.SubsystemsAvailable",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Commands.InvalidCommandDoesNotDivergeState",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Determinism.IdenticalSeedsMatch",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.CandidateHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.DuplicateCandidateDoesNotRepeat",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.DuplicateRuleRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.InsufficientMomentumCreatesNoCandidate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.MemoryDoesNotCreateCandidate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.NoRealmOrDynastyAIMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.NoTitleOrRelationshipMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.SufficientMomentumCreatesCandidate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.ThresholdOutsideBandRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.UnknownRuleOwnerRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.UnknownSubjectRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Emergence.UnreceiptedMomentumCreatesNoCandidate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.CandidateCreatesOnePendingRequest",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.InvalidCandidateDispositionRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.NoRealmOrDynastyAIMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.NoTitleWarOrRelationshipMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.RepeatedRoutingDoesNotDuplicate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.RequestHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.RoutesEachCandidateTypeToExpectedOwner",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.RoutingFailureRollsBackCompleteTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.StaleCandidateRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.UnknownCandidateRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.CrossedFactProducesMomentumObservation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.DuplicateEvidenceDoesNotRepeat",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.DuplicateReceiptRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.HistoricalMemoryDoesNotBecomeFact",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.MomentumHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.MultipleEvidenceUsesCanonicalOrder",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.NoRealmOrDynastyAIMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.PressureOutsideBandRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.UncrossedFactProducesNoObservation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.UnknownEvidenceOwnerRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.Momentum.UnknownSubjectRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.HoldDecisionCreatesSixPendingRequests",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.MissingProposalRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.MissingRecommendationRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.MissingSourceDecisionRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.NoAssessmentCalculation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.NonHoldDecisionCreatesNoRequests",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.NoTargetAIOrPoliticalMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.RepeatedRoutingDoesNotDuplicate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.RequestHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.RoutesEachAssessmentTypeToExpectedOwner",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.StaleReviewRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalCouncilAssessment.",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalDiplomacyAssessment.",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.AssessmentTypeMismatchRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.ConsumesOnlyLegitimacyRequests",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.DecisionHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.DoesNotChangeExistingLegitimacyStorage",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.LeavesOtherAssessmentRequestsPending",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.MissingProposalRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.MissingRecommendationRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.MissingReviewReceiptRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.NoTitleSuccessionAuthorityOrAIMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.OwnerMismatchRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.RepeatedAssessmentDoesNotDuplicate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.StaleRequestRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.ValidRequestProceedsToEvidenceReview",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyEvidenceReview.",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyRecommendationReview.",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.MissingRequestRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.NoAllianceRelationshipOrLegitimacyMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.NonProceedDecisionCreatesNoProposal",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.NoRealmOrDynastyAIMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.NoTitleClaimOrAuthorityMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.ProposalHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.RepeatedBuildDoesNotDuplicate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.StaleDecisionRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.UsesAbstractEvaluateOptionsType",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.ValidDecisionCreatesOnePendingProposal",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.MissingProposalReceiptRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.MissingSourceDecisionRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.NoPoliticalOrAIMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.NoTargetSelection",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.QuarantinedProposalCreatesNoRecommendation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.RecommendationHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.RepeatedEvaluationDoesNotDuplicate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.StaleProposalRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.UsesRecommendOptionExploration",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.ValidProposalCreatesOnePendingRecommendation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.MissingProposalRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.MissingRecommendationReceiptRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.MissingSourceDecisionRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.NoAIRoutingOrPoliticalMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.QuarantinedRecommendationCreatesNoReview",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.RepeatedReviewDoesNotDuplicate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.ReviewHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.StaleRecommendationRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.UsesHoldForAdditionalAssessment",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.ValidRecommendationCreatesHoldDecision",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.CandidateTypeMismatchRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.ConsumesOnlyPoliticalReviewRequests",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.DecisionHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.DuplicateDecisionDoesNotRepeat",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.LeavesOtherSpecialistRequestsPending",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.MissingCandidateRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.NoAllianceOrRelationshipMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.NoRealmOrDynastyAIMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.NoTitleSuccessionOfficeOrAuthorityMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.OwnerMismatchRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.StaleRequestRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.ValidPoliticalRequestContinuesCriteriaReview",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedCouncilEvidenceAssessment.",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.AssessmentHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.ClaimConflictDoesNotMeanWar",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.ClaimConflictProducesDirectedClaimConflictContext",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.CompleteFailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.ConsumesProceedTypedDiplomacyAssessment",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.DirectionIsPreserved",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.DoesNotChangeRelationshipsOrAI",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.DoesNotFormAllianceTreatyOrWar",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.FearDoesNotMeanHostility",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.FearProducesDirectedFearContext",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.HoldForDiplomacyEvidenceDevelopment",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.KinshipProducesDirectedKinshipContext",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.LoyaltyDoesNotMeanAlliance",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.LoyaltyProducesDirectedLoyaltyContext",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.MissingDiplomacyAssessmentRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.MissingDiplomacyRequestRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.MultipleDimensionsProduceMixedContext",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.ObligationProducesDirectedObligationContext",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.PoliticalAlignmentDoesNotMeanAuthority",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.PoliticalAlignmentProducesDirectedPoliticalAlignmentContext",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.RecommendationRouteRemainsStructuralOnly",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.RepeatedAssessmentDoesNotDuplicate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.RespectProducesDirectedRespectContext",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.ResultHashPresent",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.ReverseRelationshipIsNotInferred",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.SourceAncestryPreserved",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.StaleDiplomacyAssessmentRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.TraceProduced",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.TrustDoesNotMeanSupport",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.TrustProducesDirectedTrustContext",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.UnsupportedVersionRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedLegitimacyEvidenceAssessment.",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Scenario.InitializationCannotOverwriteCampaign",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Seasonal.RegionalClimate.DuplicateRegionRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Seasonal.RegionalClimate.FailureRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Seasonal.RegionalClimate.HashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Seasonal.RegionalClimate.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Seasonal.RegionalClimate.NoDetailedWeatherState",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Seasonal.RegionalClimate.PressureBandRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Seasonal.RegionalClimate.SameSeasonDifferentProfiles",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Seasonal.RegionalClimate.UnknownProfileRejects",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.CrossedDatedFacts.AlreadyAppliedDoesNotRepeat",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.CrossedDatedFacts.CrossesSingleFact",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.CrossedDatedFacts.ExcludesPreviousIncludesNewBoundary",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.CrossedDatedFacts.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.CrossedDatedFacts.MultipleFactsUseDateThenIdOrder",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.CrossedDatedFacts.UnknownOwnerRollsBackTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ProductionIntegration.AdvancedV2Quarantine",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWDualClockProductionIntegrationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ProductionIntegration.FreshV2OpeningMigration",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWDualClockProductionIntegrationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ProductionIntegration.ThreeStrategicTurns",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWDualClockProductionIntegrationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ThreeTrack.CompleteTurnRollback",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ThreeTrack.HistoricalPhasesRunEveryTurn",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ThreeTrack.OneTurnAdvancesAllTracks",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ThreeTrack.SeasonCyclesConventionally",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ThreeTrack.SeasonHashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ThreeTrack.TwelveTurnDivergence",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ThreeTrackContract.HashSensitivity",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWDualClockContractTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ThreeTrackContract.LegacyUniversalTurnQuarantine",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWDualClockContractTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ThreeTrackContract.StrategicTurnOrdering",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWDualClockContractTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Temporal.ThreeTrackContract.ThreeStrategicTurnsAdvanceAllTracks",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWDualClockContractTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.CanonicalHashDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.DenmarkMaritimeReuseAccepted",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.InputOrderDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.IrelandOpeningAssociationRemainsInactive",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.NormandyExpeditionaryDoesNotGrantAccess",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.NoRuntimeStateMutation",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.NorwayMaritimeDoesNotGrantShips",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.OrkneyIsAbsentWithoutOwnerTarget",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.PrimaryRealmAssociations",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.ScotlandIsAbsent",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Britania.ValidDefinition",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Definition.CanonicalHashDeterminism",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Definition.DuplicateAssociationRejected",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Definition.ReviewOnlyDoesNotActivate",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Theater.Definition.ValidDefinition",
+                               "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignTheaterDefinitionTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Turn.EmptyTurnProgresses",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Validation.OrkneyStyleJointControlIsAllowed",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Validation.ProtectedMinorCannotCommand",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           },
+                           {
+                               "test_name":  "MedievalWar.Campaign.Validation.VacantOfficeIsAllowed",
+                               "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                           }
+                       ],
+    "denmark_tests":  [
+                          {
+                              "test_name":  "MedievalWar.Campaign.Theater.Britania.DenmarkMaritimeReuseAccepted",
+                              "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.Diagnostics.ExternalDirectionSchema",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkNetworkSchemaDiagnosticTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.DryRunNoMutation",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkNetworkImporterTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.FullManifest.Contract",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkNetworkFullManifestTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.FullManifest.ExternalLocks",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkNetworkFullManifestTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.FullManifest.OrderReplay",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkNetworkFullManifestTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.NativeBinding.CampaignSurface",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkNetworkNativeBindingTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.NativeBinding.OwnershipBoundary",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkNetworkNativeBindingTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.OrderDeterminism",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkNetworkImporterTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.OwnerPreflight.ExternalDeclaration",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkCampaignOwnerPreflightTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.OwnerPreflight.NoMutation",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkCampaignOwnerPreflightTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.OwnerPreflight.QualitativeMappingBlock",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkCampaignOwnerPreflightTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.SchemaContract.ExplicitZeroVsAbsent",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkPresenceAwareRelationshipTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.SchemaContract.LegacyV2Migration",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkPresenceAwareRelationshipTests.cpp"
+                          },
+                          {
+                              "test_name":  "MedievalWar.Denmark.Network.SchemaContract.OrderDeterminism",
+                              "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkPresenceAwareRelationshipTests.cpp"
+                          }
+                      ],
+    "replay_related_tests":  [
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Biological.CharacterAge.CharacterOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Biological.CommandEligibilityConsumer.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Biological.EligibilityRouting.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Biological.GovernanceEligibilityConsumer.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Biological.UnderageReviewConsumer.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Determinism.IdenticalSeedsMatch",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Historical.EmergenceRouting.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Historical.Momentum.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Historical.PoliticalAdditionalAssessmentRouting.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Historical.PoliticalLegitimacyAssessment.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposal.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentProposalEvaluation.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentRecommendationReview.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Historical.PoliticalRealignmentReview.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Historical.PoliticalTypedDiplomacyEvidenceAssessment.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Seasonal.RegionalClimate.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Temporal.CrossedDatedFacts.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Theater.Britania.CanonicalHashDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Theater.Britania.InputOrderDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Campaign.Theater.Definition.CanonicalHashDeterminism",
+                                     "source_file":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignTheaterDefinitionTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Denmark.Network.FullManifest.OrderReplay",
+                                     "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkNetworkFullManifestTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Denmark.Network.OrderDeterminism",
+                                     "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkNetworkImporterTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.Denmark.Network.SchemaContract.OrderDeterminism",
+                                     "source_file":  "Plugins/DenmarkNetworkIntegration/Source/DenmarkNetworkIntegration/Private/Tests/DenmarkPresenceAwareRelationshipTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.AtomicStaging.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayControlledAtomicStagingTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.ImportReceiptPlan.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayImportReceiptPlanTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedCommitFingerprint.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedCommitReceiptFingerprintTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedMigration.TraceAndDeterminism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedMigrationAdvancedSaveProtectionTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.AdvancedSaveRejected",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveBoundaryReplayDeterminismTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.Identity",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveBoundaryReplayDeterminismTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.MigrationDeterminism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveBoundaryReplayDeterminismTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.NoProductionMutation",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveBoundaryReplayDeterminismTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.RepeatedReplayDeterminism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveBoundaryReplayDeterminismTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.SaveLoadMatchesDirect",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveBoundaryReplayDeterminismTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.WrongScenarioRejected",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveBoundaryReplayDeterminismTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.WrongVersionRejected",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveBoundaryReplayDeterminismTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedSaveLoad.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveLoadRoundTripTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.IsolatedSaveLoad.RoundTrip",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayIsolatedSaveLoadRoundTripTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.OwnerAdapterBinding.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerAdapterBindingRegistryTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.OwnerBatchPlan.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerBatchPlanTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.OwnerCapabilityPreflight.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerCapabilityPreflightTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.OwnerHandoffEnvelope.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerHandoffEnvelopeTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.OwnerResolutionPlan.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayOwnerResolutionPlanTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.OwnerValidationInvocation.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayValidationOnlyOwnerInvocationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.RollbackJournalPlan.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayRollbackJournalPlanTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.SandboxOwnerResolution.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwaySandboxOwnerResolutionTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.TransactionConflictPreflight.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayTransactionConflictPreflightTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.TransactionSimulation.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayTransactionSimulationTests.cpp"
+                                 },
+                                 {
+                                     "test_name":  "MedievalWar.SharedImporter.Norway.Translation.TransactionStaging.Determinism",
+                                     "source_file":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWNorwayTransactionStagingPlanTests.cpp"
+                                 }
+                             ],
+    "active_source_mutation_performed":  false
+}

@@ -1,0 +1,47 @@
+{
+  "static_check_type": "ContentBasedStaticCheck",
+  "authority_file": "Scotland_Character_Network.md",
+  "sha256": "D606D19110B97FFACB92600D1A76E02ED9FAD5FAAAEB0014C2CCBB5485777FE9",
+  "result": "PASS",
+  "checks": {
+    "file_exists": true,
+    "stable_document_id": true,
+    "current_version": true,
+    "scenario_opening": true,
+    "ue_5_8": true,
+    "seven_nodes": true,
+    "seven_participants": true,
+    "four_edges": true,
+    "seven_omissions": true,
+    "zero_dimensions": true,
+    "gille_dead": true,
+    "gille_quarantined": true,
+    "gille_not_active": true,
+    "no_replacement": true,
+    "bishop_quarantined": true,
+    "no_mutation": true,
+    "honest_validation": true,
+    "balanced_fences": true,
+    "appendix_noncontrolling": true,
+    "stable_footer": true
+  },
+  "observed_counts": {
+    "supported_opening_people": 7,
+    "BasisOnly_edges": 4,
+    "opening_omissions": 7,
+    "relationship_dimensions": 0
+  },
+  "Gille_adjudication": {
+    "historical_disposition": "DeadBeforeOpening",
+    "attested_death_year": 1032,
+    "opening_network_participation": false,
+    "former_project_node_status": "QuarantinedDeprecatedHistoricalMisidentification",
+    "replacement_person_created": false
+  },
+  "limitations": [
+    "No importer execution performed.",
+    "No compile or runtime validation performed.",
+    "No save-load, migration, replay, or performance validation performed.",
+    "Noncontrolling provenance appendix intentionally preserves rejected historical design material."
+  ]
+}

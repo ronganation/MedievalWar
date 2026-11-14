@@ -1,0 +1,63 @@
+{
+  "ArtifactId": "Seville_Taifa_Infrastructure_Routes_Ports_and_Logistics_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_DEVELOPED_REALM_INFRASTRUCTURE_LOGISTICS_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "da6c54ce8b1588eca75b08a2e18afd5eb5f4dfc6dc694c9f7de7e83a1f6dd039",
+  "SourceBytes": 29421,
+  "CreationMethod": "NewAuthorityRequiredByConfirmedInfrastructureAndLogisticsCoverageGap",
+  "Counts": {
+    "InfrastructureProfiles": 1,
+    "LogisticsFrameworks": 1,
+    "RouteTypeDefinitions": 10,
+    "FacilityTypeDefinitions": 12,
+    "SettlementLogisticsSurfaces": 7,
+    "OpeningRoutes": 0,
+    "OpeningCrossings": 0,
+    "OpeningPortsOrLandings": 0,
+    "OpeningDepots": 0,
+    "OpeningStorageFacilities": 0,
+    "OpeningStockpiles": 0,
+    "OpeningShipments": 0,
+    "OpeningTransportAssets": 0,
+    "OpeningExactTravelTimes": 0,
+    "OpeningMutations": 0
+  },
+  "Protections": {
+    "GeographyEqualsRoute": false,
+    "PortEqualsFleet": false,
+    "StorageEqualsStockpile": false,
+    "ShipmentEqualsDelivery": false,
+    "HuelvaSaltesMerge": false,
+    "AlgecirasCreatesContact": false,
+    "AutomaticConnectivity": false,
+    "AIProposalOnly": true
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryMutated": false,
+    "OpeningStateMutated": false,
+    "RouteTopologyValidated": false,
+    "PortEvidenceValidated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Developed_Unit_Roster_Authority_V1.md."
+}

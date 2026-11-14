@@ -1,0 +1,18 @@
+{
+  "document": "README_Normandy_Early_Era_Units_and_Progression_Index_V1_1_Current_Authority_Refinement.md",
+  "sha256": "11b6ff01e9ed8a72d2c8047840929bf3bf9452159a483d888998801685d432e1",
+  "pass": true,
+  "checks": {
+    "copy_first_additive_successor": true,
+    "larger_than_source": true,
+    "root_path_preserved": true,
+    "four_verified_folders_preserved": true,
+    "recursive_inventory_honesty": true,
+    "balanced_markdown_fences": true,
+    "no_escaped_underscores": true,
+    "current_milites_names": true,
+    "current_cavalry_destinations": true,
+    "no_registry_or_runtime_mutation": true,
+    "complete_immediate_source_appendix": true
+  }
+}

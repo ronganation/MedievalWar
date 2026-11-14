@@ -1,0 +1,15 @@
+{
+  "FileName": "Shared_Save_Schema_and_Source_Version_Reconciliation_V1.md",
+  "SHA256": "4B0022EC09119D671146DD15AA2DFAA913287A8A499A80CA30750AA2647BD005",
+  "Bytes": 6082,
+  "Lines": 169,
+  "Checks": {
+    "schema5": true,
+    "reject6": true,
+    "current_unverified": true,
+    "not_complete": true,
+    "fences": true,
+    "literal": true,
+    "footer": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "FileName": "Design_Expansion_Checklist_V3.7.2_Theater_Progress_Block.md",
+  "SHA256": "BD225B46A5F62B2E09FADA88B2DBE016CDAEFED0F433F41E882565F72653DE3B",
+  "Bytes": 10364,
+  "Lines": 89,
+  "Checks": {
+    "authority_pair": true,
+    "supplemental_role": true,
+    "britania_ue5_artifacts": true,
+    "compile_validated": true,
+    "focused_11": true,
+    "campaign_360": true,
+    "denmark_14": true,
+    "realm_ownership": true,
+    "no_broadening": true,
+    "reject_duplicates": true,
+    "no_undefined_regression_status": true,
+    "no_malformed_implemented_link": true,
+    "bounded_compile_runtime_blocker": true
+  }
+}

@@ -1,0 +1,13 @@
+EvidenceId,Requirement,FailureDisposition
+E01,03A R2 receipt reports AssessmentCompleted,BlockBeforeMutation
+E02,03A decision equals WalesAuthorityBackedHistoricalEmergenceSourceGapWithPrecedents,BlockBeforeMutation
+E03,All fourteen target paths absent,BlockBeforeMutation
+E04,All payload hashes match approved ledger,BlockBeforeMutation
+E05,All preserved source stems found,BlockBeforeMutation
+E06,UE 5.8 editor build succeeds,RejectAndRollback
+E07,Wales Historical Emergence discovers exactly 28 tests,RejectAndRollback
+E08,Accepted Wales regressions pass exact counts,RejectAndRollback
+E09,Scotland Historical Emergence discovery count verified and all discovered tests pass,RejectAndRollback
+E10,Scotland Preview passes 5 of 5,RejectAndRollback
+E11,All preserved source remains byte-identical,RejectAndRollback
+E12,Execution receipt retains all owner locks false,RejectAndRollback

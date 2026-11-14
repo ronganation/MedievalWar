@@ -1,0 +1,55 @@
+{
+  "artifact": "Arnulf_III_of_Flanders_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.1.0",
+  "sha256": "389f2be56ffa30b3dfe3b494c3a8a88cca7449f787d868aca05d016ba3ce0869",
+  "bytes": 39030,
+  "lines": 1024,
+  "character": "Arnulf III of Flanders",
+  "benchmark_scope": "FlandersDevelopedCharacterProfilesUnderageDynasticGuardianshipFormationAndSuccession",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "stable_footer_count": 1,
+    "required_modules_missing": [],
+    "benchmarks_named": 5,
+    "AI_reason_codes": 20,
+    "validation_fixtures": 20,
+    "nonmutation": true,
+    "source_treatment_present": true,
+    "opening_life_state_not_asserted_as_activated": true
+  },
+  "all_critical_checks_pass": true,
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Person": 0,
+    "CharacterLifecycle": 0,
+    "TitleClaimOffice": 0,
+    "GuardianshipCustodyEducation": 0,
+    "Relationships": 0,
+    "Household": 0,
+    "PropertyTreasury": 0,
+    "Military": 0,
+    "HistoricalSystems": 0,
+    "Schema": 0,
+    "Save": 0,
+    "Unreal": 0,
+    "Runtime": 0
+  },
+  "refinement_receipt": {
+    "prior_version": "1.0.0",
+    "substantive_prior_content_removed": [],
+    "changes": [
+      "qualified opening life-state wording",
+      "added comparative benchmark receipt",
+      "added explicit source treatment",
+      "tightened opening display-name policy",
+      "clarified younger Baldwin separate-profile dependency",
+      "corrected Arnulf possessive label",
+      "updated structural checks"
+    ]
+  },
+  "next_file": "Baldwin_II_of_Hainaut_V1_Developed_Character_Profile_Authority.md"
+}

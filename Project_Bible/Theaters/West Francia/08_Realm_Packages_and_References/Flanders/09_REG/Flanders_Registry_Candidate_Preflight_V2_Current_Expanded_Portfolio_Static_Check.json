@@ -1,0 +1,15 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "source_1075": true,
+    "three_tracks": true,
+    "no_fake_count": true,
+    "historical_count_bounded": true,
+    "opening_v2": true,
+    "zero_mutations": true,
+    "footer_once": true
+  }
+}

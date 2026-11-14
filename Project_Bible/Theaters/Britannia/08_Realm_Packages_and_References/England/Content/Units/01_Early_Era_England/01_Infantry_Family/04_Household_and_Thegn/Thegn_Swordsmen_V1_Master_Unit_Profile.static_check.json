@@ -1,0 +1,17 @@
+{
+  "document": "Thegn_Swordsmen_V1_Master_Unit_Profile.md",
+  "sha256": "5c5c78580d1e1580d55c260b78cc48a7293a9296b14cd3073ee42aff262cffe7",
+  "pass": true,
+  "checks": {
+    "hash_matches_manifest": true,
+    "terrain_rows_25": true,
+    "legacy_appendix_present": true,
+    "S04_no_double_counting": true,
+    "secondary_spear_guardrail": true,
+    "population_loyalty_culture": true,
+    "family_boundaries": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_escaped_underlines": true
+  }
+}

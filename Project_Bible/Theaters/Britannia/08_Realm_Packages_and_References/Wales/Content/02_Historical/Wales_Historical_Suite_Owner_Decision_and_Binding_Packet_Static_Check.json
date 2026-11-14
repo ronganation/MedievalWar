@@ -1,0 +1,25 @@
+{
+  "document_id": "static-check.wales.historical-suite-owner-decision-binding-packet.v1",
+  "version": "1.0.0",
+  "filename": "Wales_Historical_Suite_Owner_Decision_and_Binding_Packet.md",
+  "bytes": 15495,
+  "physical_lines": 474,
+  "sha256": "54bd23a3c265751f3b266804295506f54d333136878a2b538cad0f8a4b8a2b62",
+  "checks": {
+    "inputs_6": true,
+    "requests_8": true,
+    "selection_nulls": true,
+    "st_davids": true,
+    "counts": true,
+    "no_active_requests": true,
+    "no_mutation": true,
+    "validation_22": true,
+    "three_tracks": true,
+    "last_design_artifact": true,
+    "closure_false": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

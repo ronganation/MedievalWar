@@ -1,0 +1,13 @@
+Gate,RequiredResult,FailureDisposition
+Entrance,FRANCE-IMP-06B accepted and source hashes preserved,BlockedBeforeMutation
+AuthorityFingerprint,All France and shared authorities discovered readable and locked,BlockedBeforeMutation
+ComparatorDiscovery,Only verified nonzero filters become required,BlockedBeforeMutation
+Collision,All six 07B targets absent,BlockedBeforeMutation
+Installation,Exactly six files added and zero existing files modified,RollbackSixAddedFiles
+Build,MedievalWarEditor Win64 Development succeeds,RollbackSixAddedFiles
+DirectAutomation,All planned 07B tests pass with zero failures,RollbackSixAddedFiles
+FranceRegression,Every accepted France predecessor count preserved,RollbackSixAddedFiles
+ComparatorRegression,Every locked nonzero comparator count preserved,RollbackSixAddedFiles
+Boundary,No invented payload Registry Opening State save migration owner invocation or production authority,RollbackSixAddedFiles
+Evidence,Complete hash-bound evidence and accepted receipt,DoNotCloseGate
+RollbackVerification,All six 07B targets absent after failure,RejectedWithRollbackCompleted

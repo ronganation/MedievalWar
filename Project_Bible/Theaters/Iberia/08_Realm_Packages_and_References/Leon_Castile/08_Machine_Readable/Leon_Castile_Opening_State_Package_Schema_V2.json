@@ -1,0 +1,2016 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "Leon_Castile_Opening_State_Package_Schema_V2.json",
+  "title": "Leon-Castile Opening State Package Schema V2",
+  "description": "Strict schema for one V2 canonical content payload and one selection-only brother perspective overlay, including the shared Dynastic Stakeholder engine, brother routes, opportunities, conversion gates, sibling comparison, family counterweights, explainability, explicit empties, and the independent temporal tracks.",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string"
+        },
+        "PackageKind": {
+          "const": "ContentPackage"
+        },
+        "PackageId": {
+          "const": "package.leon_castile.opening_state.1062.v2"
+        },
+        "PackageVersion": {
+          "const": "2.0.0"
+        },
+        "OpeningStateId": {
+          "const": "opening.leon_castile.1062"
+        },
+        "OpeningStateVersion": {
+          "const": "2.1.0"
+        },
+        "ScenarioId": {
+          "const": "mw.scenario.grand_campaign.1062"
+        },
+        "EffectiveDate": {
+          "const": "1062-01-01"
+        },
+        "PoliticalForm": {
+          "const": "CompositeMonarchy"
+        },
+        "AuthorityManifest": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": true,
+          "required": [],
+          "minProperties": 1
+        },
+        "RegistryBinding": {
+          "type": "object",
+          "properties": {
+            "RegistryId": {
+              "const": "registry.leon_castile.v1"
+            },
+            "RegistryVersion": {
+              "const": "1.1.0"
+            },
+            "RegistryHash": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "AllowDeprecatedIds": {
+              "const": false
+            },
+            "AllowAliasChains": {
+              "const": false
+            },
+            "AllowReviewOnlyActivation": {
+              "const": false
+            },
+            "AllowQuarantineActivation": {
+              "const": false
+            },
+            "AllowExternalDefinitionEmission": {
+              "const": false
+            },
+            "AllowRejectedLaterHistoryActivation": {
+              "const": false
+            },
+            "AllowUnapprovedBrotherMechanicIds": {
+              "const": false
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "RegistryId",
+            "RegistryVersion",
+            "RegistryHash",
+            "AllowDeprecatedIds",
+            "AllowAliasChains",
+            "AllowReviewOnlyActivation",
+            "AllowQuarantineActivation",
+            "AllowExternalDefinitionEmission",
+            "AllowRejectedLaterHistoryActivation",
+            "AllowUnapprovedBrotherMechanicIds"
+          ]
+        },
+        "OverlayRequirement": {
+          "type": "object",
+          "properties": {
+            "RequiredAtCampaignCreation": {
+              "const": true
+            },
+            "ExactlyOneOverlay": {
+              "const": true
+            },
+            "DefaultPerspectiveRef": {
+              "type": "null"
+            },
+            "AllowedPerspectiveRefs": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "const": "perspective.leon_castile.sancho"
+                },
+                {
+                  "const": "perspective.leon_castile.alfonso"
+                },
+                {
+                  "const": "perspective.leon_castile.garcia"
+                }
+              ],
+              "items": false
+            },
+            "OverlayMayMutateContent": {
+              "const": false
+            },
+            "OverlayMayChangeSovereign": {
+              "const": false
+            },
+            "OverlayMayChangeTitles": {
+              "const": false
+            },
+            "OverlayMayCreateRecords": {
+              "const": false
+            },
+            "OverlayMayCreateAuthority": {
+              "const": false
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "RequiredAtCampaignCreation",
+            "ExactlyOneOverlay",
+            "DefaultPerspectiveRef",
+            "AllowedPerspectiveRefs",
+            "OverlayMayMutateContent",
+            "OverlayMayChangeSovereign",
+            "OverlayMayChangeTitles",
+            "OverlayMayCreateRecords",
+            "OverlayMayCreateAuthority"
+          ]
+        },
+        "TemporalState": {
+          "type": "object",
+          "properties": {
+            "HistoricalDate": {
+              "const": "1062-01-01"
+            },
+            "HistoricalProgressionMonthsPerStrategicTurn": {
+              "const": 21
+            },
+            "HistoricalProgressionIndex": {
+              "const": 0
+            },
+            "HistoricalElapsedMonths": {
+              "const": 0
+            },
+            "BiologicalProgressionMonthsPerStrategicTurn": {
+              "const": 7
+            },
+            "BiologicalProgressionIndex": {
+              "const": 0
+            },
+            "BiologicalElapsedMonths": {
+              "const": 0
+            },
+            "CampaignSeason": {
+              "const": "Winter"
+            },
+            "CampaignSeasonIndex": {
+              "const": 0
+            },
+            "CampaignSeasonOrder": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "const": "Winter"
+                },
+                {
+                  "const": "Spring"
+                },
+                {
+                  "const": "Summer"
+                },
+                {
+                  "const": "Autumn"
+                }
+              ],
+              "items": false
+            },
+            "OpeningApplicationAdvancesTemporalTracks": {
+              "const": false
+            },
+            "GeographyClimateOwnLocalSeasonalEffects": {
+              "const": true
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "HistoricalDate",
+            "HistoricalProgressionMonthsPerStrategicTurn",
+            "HistoricalProgressionIndex",
+            "HistoricalElapsedMonths",
+            "BiologicalProgressionMonthsPerStrategicTurn",
+            "BiologicalProgressionIndex",
+            "BiologicalElapsedMonths",
+            "CampaignSeason",
+            "CampaignSeasonIndex",
+            "CampaignSeasonOrder",
+            "OpeningApplicationAdvancesTemporalTracks",
+            "GeographyClimateOwnLocalSeasonalEffects"
+          ]
+        },
+        "ApplicationGuard": {
+          "type": "object",
+          "properties": {
+            "RequiredCampaignState": {
+              "const": "NewCampaignUninitialized"
+            },
+            "ApplyAtMostOnce": {
+              "const": true
+            },
+            "RejectIfAlreadyApplied": {
+              "const": true
+            },
+            "RejectIfAnyTemporalTrackAdvanced": {
+              "const": true
+            },
+            "RejectIfMutableOwnerStateExists": {
+              "const": true
+            },
+            "RejectIfVersionOrHashMismatch": {
+              "const": true
+            },
+            "RejectIfReviewOrQuarantineWouldActivate": {
+              "const": true
+            },
+            "RejectIfExternalDefinitionWouldEmit": {
+              "const": true
+            },
+            "RejectIfLaterHistoryWouldActivate": {
+              "const": true
+            },
+            "RejectIfBrotherRouteMismatch": {
+              "const": true
+            },
+            "RejectIfOpportunityResultPreloaded": {
+              "const": true
+            },
+            "RejectIfConversionAutomatic": {
+              "const": true
+            },
+            "AtomicCommitRequired": {
+              "const": true
+            },
+            "ApplicationReceiptRequired": {
+              "const": true
+            },
+            "ReapplyOnLoad": {
+              "const": false
+            },
+            "ReapplyAfterMigration": {
+              "const": false
+            },
+            "ReapplyToAdvancedSave": {
+              "const": false
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "RequiredCampaignState",
+            "ApplyAtMostOnce",
+            "RejectIfAlreadyApplied",
+            "RejectIfAnyTemporalTrackAdvanced",
+            "RejectIfMutableOwnerStateExists",
+            "RejectIfVersionOrHashMismatch",
+            "RejectIfReviewOrQuarantineWouldActivate",
+            "RejectIfExternalDefinitionWouldEmit",
+            "RejectIfLaterHistoryWouldActivate",
+            "RejectIfBrotherRouteMismatch",
+            "RejectIfOpportunityResultPreloaded",
+            "RejectIfConversionAutomatic",
+            "AtomicCommitRequired",
+            "ApplicationReceiptRequired",
+            "ReapplyOnLoad",
+            "ReapplyAfterMigration",
+            "ReapplyToAdvancedSave"
+          ]
+        },
+        "Definitions": {
+          "type": "object",
+          "properties": {
+            "BrotherRouteDefinitions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "BrotherRouteRef": {
+                    "enum": [
+                      "brother_route.leon_castile.sancho",
+                      "brother_route.leon_castile.alfonso",
+                      "brother_route.leon_castile.garcia"
+                    ]
+                  },
+                  "PersonRef": {
+                    "enum": [
+                      "person.sancho.ferdinand_sancha_son",
+                      "person.alfonso.ferdinand_sancha_son",
+                      "person.garcia.ferdinand_sancha_son"
+                    ]
+                  },
+                  "PerspectiveRef": {
+                    "enum": [
+                      "perspective.leon_castile.sancho",
+                      "perspective.leon_castile.alfonso",
+                      "perspective.leon_castile.garcia"
+                    ]
+                  },
+                  "PrimaryRouteRef": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                  },
+                  "SecondaryRouteRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                    },
+                    "uniqueItems": true
+                  },
+                  "InitialStrengthRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                    },
+                    "uniqueItems": true
+                  },
+                  "InitialBlockerRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                    },
+                    "uniqueItems": true
+                  },
+                  "OpportunityWeightProfileRef": {
+                    "enum": [
+                      "opportunity_weight.leon_castile.sancho",
+                      "opportunity_weight.leon_castile.alfonso",
+                      "opportunity_weight.leon_castile.garcia"
+                    ]
+                  },
+                  "ConversionGateProfileRef": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                  },
+                  "ExplainabilityProfileRef": {
+                    "enum": [
+                      "explainability.leon_castile.sancho",
+                      "explainability.leon_castile.alfonso",
+                      "explainability.leon_castile.garcia"
+                    ]
+                  },
+                  "OwnerRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                    },
+                    "uniqueItems": true
+                  },
+                  "OpeningAuthorityState": {
+                    "const": "EligibleButUnappointed"
+                  },
+                  "CreatesTitle": {
+                    "const": false
+                  },
+                  "CreatesOffice": {
+                    "const": false
+                  },
+                  "CreatesCommand": {
+                    "const": false
+                  },
+                  "CreatesForce": {
+                    "const": false
+                  },
+                  "CreatesProperty": {
+                    "const": false
+                  },
+                  "CreatesAgreement": {
+                    "const": false
+                  },
+                  "CreatesPoliticalRelationship": {
+                    "const": false
+                  },
+                  "PredeterminesSuccession": {
+                    "const": false
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "BrotherRouteRef",
+                  "PersonRef",
+                  "PerspectiveRef",
+                  "PrimaryRouteRef",
+                  "SecondaryRouteRefs",
+                  "InitialStrengthRefs",
+                  "InitialBlockerRefs",
+                  "OpportunityWeightProfileRef",
+                  "ConversionGateProfileRef",
+                  "ExplainabilityProfileRef",
+                  "OwnerRefs",
+                  "OpeningAuthorityState",
+                  "CreatesTitle",
+                  "CreatesOffice",
+                  "CreatesCommand",
+                  "CreatesForce",
+                  "CreatesProperty",
+                  "CreatesAgreement",
+                  "CreatesPoliticalRelationship",
+                  "PredeterminesSuccession"
+                ]
+              },
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "OpportunityDefinitions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "OpportunityRef": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                  },
+                  "FamilyRef": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                  },
+                  "EligiblePerspectiveRefs": {
+                    "type": "array",
+                    "items": {
+                      "enum": [
+                        "perspective.leon_castile.sancho",
+                        "perspective.leon_castile.alfonso",
+                        "perspective.leon_castile.garcia"
+                      ]
+                    },
+                    "minItems": 1,
+                    "uniqueItems": true
+                  },
+                  "RequiredOwnerRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                    },
+                    "uniqueItems": true
+                  },
+                  "PrerequisiteStateRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                    },
+                    "uniqueItems": true
+                  },
+                  "BlockerRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                    },
+                    "uniqueItems": true
+                  },
+                  "InformationVisibilityRuleRef": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                  },
+                  "WeightProfileRef": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                  },
+                  "MayCreateProposal": {
+                    "const": true
+                  },
+                  "MayCreateAuthorityDirectly": {
+                    "const": false
+                  },
+                  "MayCreateRewardDirectly": {
+                    "const": false
+                  },
+                  "MayCreateFreeForce": {
+                    "const": false
+                  },
+                  "MayPredetermineOutcome": {
+                    "const": false
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "OpportunityRef",
+                  "FamilyRef",
+                  "EligiblePerspectiveRefs",
+                  "RequiredOwnerRefs",
+                  "PrerequisiteStateRefs",
+                  "BlockerRefs",
+                  "InformationVisibilityRuleRef",
+                  "WeightProfileRef",
+                  "MayCreateProposal",
+                  "MayCreateAuthorityDirectly",
+                  "MayCreateRewardDirectly",
+                  "MayCreateFreeForce",
+                  "MayPredetermineOutcome"
+                ]
+              },
+              "minItems": 1
+            },
+            "ConversionGateDefinitions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "GateRef": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                  },
+                  "PersonRef": {
+                    "enum": [
+                      "person.sancho.ferdinand_sancha_son",
+                      "person.alfonso.ferdinand_sancha_son",
+                      "person.garcia.ferdinand_sancha_son"
+                    ]
+                  },
+                  "SourceStateRef": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                  },
+                  "TargetAuthorityType": {
+                    "enum": [
+                      "Title",
+                      "Office",
+                      "Command",
+                      "ForceOwnership",
+                      "TerritorialAdministration",
+                      "Agreement",
+                      "PoliticalRelationship",
+                      "SuccessionRecognition",
+                      "Property",
+                      "Revenue"
+                    ]
+                  },
+                  "RequiredOwnerDecisionRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                    },
+                    "uniqueItems": true
+                  },
+                  "RequiredEvidenceRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                    },
+                    "uniqueItems": true
+                  },
+                  "BlockerRefs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                    },
+                    "uniqueItems": true
+                  },
+                  "AutomaticConversionAllowed": {
+                    "const": false
+                  },
+                  "HistoricalOutcomeMaySatisfyOpeningGate": {
+                    "const": false
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "GateRef",
+                  "PersonRef",
+                  "SourceStateRef",
+                  "TargetAuthorityType",
+                  "RequiredOwnerDecisionRefs",
+                  "RequiredEvidenceRefs",
+                  "BlockerRefs",
+                  "AutomaticConversionAllowed",
+                  "HistoricalOutcomeMaySatisfyOpeningGate"
+                ]
+              },
+              "minItems": 3
+            },
+            "OpportunityWeightProfileRefs": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "const": "opportunity_weight.leon_castile.sancho"
+                },
+                {
+                  "const": "opportunity_weight.leon_castile.alfonso"
+                },
+                {
+                  "const": "opportunity_weight.leon_castile.garcia"
+                }
+              ],
+              "items": false
+            },
+            "ExplainabilityProfileRefs": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "const": "explainability.leon_castile.sancho"
+                },
+                {
+                  "const": "explainability.leon_castile.alfonso"
+                },
+                {
+                  "const": "explainability.leon_castile.garcia"
+                }
+              ],
+              "items": false
+            },
+            "TutorialProfileRefs": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "const": "tutorial.leon_castile.sancho"
+                },
+                {
+                  "const": "tutorial.leon_castile.alfonso"
+                },
+                {
+                  "const": "tutorial.leon_castile.garcia"
+                }
+              ],
+              "items": false
+            },
+            "InformationViewRefs": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "const": "information_view.leon_castile.sancho"
+                },
+                {
+                  "const": "information_view.leon_castile.alfonso"
+                },
+                {
+                  "const": "information_view.leon_castile.garcia"
+                }
+              ],
+              "items": false
+            },
+            "AdditionalDefinitionRefs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "uniqueItems": true
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "BrotherRouteDefinitions",
+            "OpportunityDefinitions",
+            "ConversionGateDefinitions",
+            "OpportunityWeightProfileRefs",
+            "ExplainabilityProfileRefs",
+            "TutorialProfileRefs",
+            "InformationViewRefs",
+            "AdditionalDefinitionRefs"
+          ]
+        },
+        "OpeningRecords": {
+          "type": "object",
+          "properties": {
+            "CampaignShell": {
+              "type": "object",
+              "properties": {
+                "FactionRef": {
+                  "const": "faction.leon_castile"
+                },
+                "RealmRef": {
+                  "const": "realm.leon_castile"
+                },
+                "OpeningSovereignRef": {
+                  "const": "person.ferdinand.jimenez.muniadona_son"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "FactionRef",
+                "RealmRef",
+                "OpeningSovereignRef"
+              ]
+            },
+            "CharacterRefs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "minItems": 7,
+              "maxItems": 7,
+              "uniqueItems": true
+            },
+            "TitleHolderBindings": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "TitleRef": {
+                    "enum": [
+                      "title.kingdom.leon",
+                      "title.county.castile"
+                    ]
+                  },
+                  "HolderRef": {
+                    "const": "person.ferdinand.jimenez.muniadona_son"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "TitleRef",
+                  "HolderRef"
+                ]
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "BrotherRouteBindings": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "PersonRef": {
+                    "enum": [
+                      "person.sancho.ferdinand_sancha_son",
+                      "person.alfonso.ferdinand_sancha_son",
+                      "person.garcia.ferdinand_sancha_son"
+                    ]
+                  },
+                  "PerspectiveRef": {
+                    "enum": [
+                      "perspective.leon_castile.sancho",
+                      "perspective.leon_castile.alfonso",
+                      "perspective.leon_castile.garcia"
+                    ]
+                  },
+                  "BrotherRouteRef": {
+                    "enum": [
+                      "brother_route.leon_castile.sancho",
+                      "brother_route.leon_castile.alfonso",
+                      "brother_route.leon_castile.garcia"
+                    ]
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "PersonRef",
+                  "PerspectiveRef",
+                  "BrotherRouteRef"
+                ]
+              },
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "SiblingCompetition": {
+              "type": "object",
+              "properties": {
+                "ParticipantRefs": {
+                  "type": "array",
+                  "prefixItems": [
+                    {
+                      "const": "person.sancho.ferdinand_sancha_son"
+                    },
+                    {
+                      "const": "person.alfonso.ferdinand_sancha_son"
+                    },
+                    {
+                      "const": "person.garcia.ferdinand_sancha_son"
+                    }
+                  ],
+                  "items": false
+                },
+                "ComparisonEnabled": {
+                  "const": true
+                },
+                "PoliticalRelationshipEdgeRefs": {
+                  "type": "array",
+                  "maxItems": 0
+                },
+                "SuccessionSupportEdgeRefs": {
+                  "type": "array",
+                  "maxItems": 0
+                },
+                "CoalitionRefs": {
+                  "type": "array",
+                  "maxItems": 0
+                },
+                "RivalryRefs": {
+                  "type": "array",
+                  "maxItems": 0
+                },
+                "CooperationRefs": {
+                  "type": "array",
+                  "maxItems": 0
+                },
+                "AutomaticSymmetry": {
+                  "const": false
+                },
+                "ComparisonOwnerRef": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                },
+                "RelationshipOwnerRef": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                },
+                "SuccessionOwnerRef": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "ParticipantRefs",
+                "ComparisonEnabled",
+                "PoliticalRelationshipEdgeRefs",
+                "SuccessionSupportEdgeRefs",
+                "CoalitionRefs",
+                "RivalryRefs",
+                "CooperationRefs",
+                "AutomaticSymmetry",
+                "ComparisonOwnerRef",
+                "RelationshipOwnerRef",
+                "SuccessionOwnerRef"
+              ]
+            },
+            "FamilyCounterweights": {
+              "type": "object",
+              "properties": {
+                "FerdinandPreferenceAtOpening": {
+                  "const": "Unknown"
+                },
+                "SanchaAutomaticRegency": {
+                  "const": false
+                },
+                "SanchaAutomaticCandidateSupport": {
+                  "const": false
+                },
+                "UrracaOpeningZamoraOwnership": {
+                  "const": false
+                },
+                "ElviraOpeningToroOwnership": {
+                  "const": false
+                },
+                "WomenAutomaticMarriageAssets": {
+                  "const": false
+                },
+                "HouseholdMembershipCreatesPoliticalSupport": {
+                  "const": false
+                },
+                "MediationOutcomePredetermined": {
+                  "const": false
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "FerdinandPreferenceAtOpening",
+                "SanchaAutomaticRegency",
+                "SanchaAutomaticCandidateSupport",
+                "UrracaOpeningZamoraOwnership",
+                "ElviraOpeningToroOwnership",
+                "WomenAutomaticMarriageAssets",
+                "HouseholdMembershipCreatesPoliticalSupport",
+                "MediationOutcomePredetermined"
+              ]
+            },
+            "AdditionalOpeningRecordRefs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "uniqueItems": true
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "CampaignShell",
+            "CharacterRefs",
+            "TitleHolderBindings",
+            "BrotherRouteBindings",
+            "SiblingCompetition",
+            "FamilyCounterweights",
+            "AdditionalOpeningRecordRefs"
+          ]
+        },
+        "BrotherMechanics": {
+          "type": "object",
+          "properties": {
+            "SharedStakeholderEngine": {
+              "type": "object",
+              "properties": {
+                "SovereignGatekeeper": {
+                  "const": "person.ferdinand.jimenez.muniadona_son"
+                },
+                "OpeningAuthorityState": {
+                  "const": "EligibleButUnappointed"
+                },
+                "StateHandles": {
+                  "type": "object",
+                  "properties": {
+                    "RoyalConfidenceStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "RegionalRecognitionStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "InstitutionalRecognitionStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "ServiceRecordStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "HouseholdAccessStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "InformationAccessStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "ResourceReadinessStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "CommandReadinessStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "AdministrativeReadinessStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "ClaimRecognitionStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "ContinuityPreparednessStateRef": {
+                      "oneOf": [
+                        {
+                          "type": "string",
+                          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "RoyalConfidenceStateRef",
+                    "RegionalRecognitionStateRef",
+                    "InstitutionalRecognitionStateRef",
+                    "ServiceRecordStateRef",
+                    "HouseholdAccessStateRef",
+                    "InformationAccessStateRef",
+                    "ResourceReadinessStateRef",
+                    "CommandReadinessStateRef",
+                    "AdministrativeReadinessStateRef",
+                    "ClaimRecognitionStateRef",
+                    "ContinuityPreparednessStateRef"
+                  ]
+                },
+                "AutomaticConversionToTitleOrOffice": {
+                  "const": false
+                },
+                "AutomaticSiblingHostility": {
+                  "const": false
+                },
+                "AutomaticPartition": {
+                  "const": false
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "SovereignGatekeeper",
+                "OpeningAuthorityState",
+                "StateHandles",
+                "AutomaticConversionToTitleOrOffice",
+                "AutomaticSiblingHostility",
+                "AutomaticPartition"
+              ]
+            },
+            "OpeningOpportunityEligibilityRefs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "uniqueItems": true
+            },
+            "BlockedOpportunityReasonRefs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "uniqueItems": true
+            },
+            "OpeningExplanationRequired": {
+              "const": true
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "SharedStakeholderEngine",
+            "OpeningOpportunityEligibilityRefs",
+            "BlockedOpportunityReasonRefs",
+            "OpeningExplanationRequired"
+          ]
+        },
+        "ExternalLocks": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          },
+          "uniqueItems": true
+        },
+        "ReviewOnlyReferences": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          },
+          "uniqueItems": true
+        },
+        "QuarantinedReferences": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          },
+          "uniqueItems": true
+        },
+        "RejectedLaterHistory": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          },
+          "uniqueItems": true
+        },
+        "ExplicitEmptyCollections": {
+          "type": "object",
+          "properties": {
+            "ActiveCharacterNetworkEdges": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveExternalNetworkEdges": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveDynastyRelationshipInstances": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveSiblingCoalitions": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveClaimSupportInstances": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveSuccessionSettlements": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveStakeholderMandates": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveDelegations": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveGovernanceOffices": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveOfficerAssignments": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveAssemblies": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveCouncilMemberships": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveRegencies": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveProvisionalGovernments": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveAIProposals": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveAcceptedAICommands": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveNamedBishopAssignments": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveEcclesiasticalOfficeholders": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveEcclesiasticalPropertyTransfers": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveEcclesiasticalSuccessionSupport": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveRiteTransitions": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveExternalAgreements": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActivePariaAgreements": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveProtectionAgreements": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveMilitaryAccessAgreements": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveStakeholderPropertyGrants": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveStakeholderRevenueAssignments": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveStakeholderTreasuryAccess": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveStakeholderArmyCommands": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveStakeholderRecruitmentAuthorities": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveArmies": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveFleets": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveGarrisons": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveHistoricalMemoryInstances": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveHistoricalMomentumInstances": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveHistoricalEmergenceInstances": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ScheduledHistoricalDeaths": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ScheduledHistoricalIllnesses": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "PredeterminedMarriages": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "PredeterminedTitleTransfers": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "PredeterminedPartitions": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "PredeterminedCivilWars": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveBrotherRivalries": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveBrotherCooperationAgreements": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveBrotherCoalitions": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveBrotherComparisonResults": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveBrotherRewardPromises": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveBrotherPerformanceAwards": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveBrotherAuthorityConversions": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveBrotherRecoveryStates": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveOpportunityAcceptances": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveOpportunityRefusals": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveOpportunityFailures": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveOpportunityRewards": {
+              "type": "array",
+              "maxItems": 0
+            },
+            "ActiveSovereignPreferenceBindings": {
+              "type": "array",
+              "maxItems": 0
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "ActiveCharacterNetworkEdges",
+            "ActiveExternalNetworkEdges",
+            "ActiveDynastyRelationshipInstances",
+            "ActiveSiblingCoalitions",
+            "ActiveClaimSupportInstances",
+            "ActiveSuccessionSettlements",
+            "ActiveStakeholderMandates",
+            "ActiveDelegations",
+            "ActiveGovernanceOffices",
+            "ActiveOfficerAssignments",
+            "ActiveAssemblies",
+            "ActiveCouncilMemberships",
+            "ActiveRegencies",
+            "ActiveProvisionalGovernments",
+            "ActiveAIProposals",
+            "ActiveAcceptedAICommands",
+            "ActiveNamedBishopAssignments",
+            "ActiveEcclesiasticalOfficeholders",
+            "ActiveEcclesiasticalPropertyTransfers",
+            "ActiveEcclesiasticalSuccessionSupport",
+            "ActiveRiteTransitions",
+            "ActiveExternalAgreements",
+            "ActivePariaAgreements",
+            "ActiveProtectionAgreements",
+            "ActiveMilitaryAccessAgreements",
+            "ActiveStakeholderPropertyGrants",
+            "ActiveStakeholderRevenueAssignments",
+            "ActiveStakeholderTreasuryAccess",
+            "ActiveStakeholderArmyCommands",
+            "ActiveStakeholderRecruitmentAuthorities",
+            "ActiveArmies",
+            "ActiveFleets",
+            "ActiveGarrisons",
+            "ActiveHistoricalMemoryInstances",
+            "ActiveHistoricalMomentumInstances",
+            "ActiveHistoricalEmergenceInstances",
+            "ScheduledHistoricalDeaths",
+            "ScheduledHistoricalIllnesses",
+            "PredeterminedMarriages",
+            "PredeterminedTitleTransfers",
+            "PredeterminedPartitions",
+            "PredeterminedCivilWars",
+            "ActiveBrotherRivalries",
+            "ActiveBrotherCooperationAgreements",
+            "ActiveBrotherCoalitions",
+            "ActiveBrotherComparisonResults",
+            "ActiveBrotherRewardPromises",
+            "ActiveBrotherPerformanceAwards",
+            "ActiveBrotherAuthorityConversions",
+            "ActiveBrotherRecoveryStates",
+            "ActiveOpportunityAcceptances",
+            "ActiveOpportunityRefusals",
+            "ActiveOpportunityFailures",
+            "ActiveOpportunityRewards",
+            "ActiveSovereignPreferenceBindings"
+          ]
+        },
+        "DeclaredCounts": {
+          "type": "object",
+          "properties": {
+            "ActiveFactionShells": {
+              "const": 1
+            },
+            "ActiveRealms": {
+              "const": 1
+            },
+            "ActiveCharacterRecords": {
+              "const": 7
+            },
+            "ActivePlayablePerspectiveDefinitions": {
+              "const": 3
+            },
+            "ActivePrincipalTitleBindings": {
+              "const": 2
+            },
+            "BrotherRouteDefinitions": {
+              "const": 3
+            },
+            "ConversionGateProfiles": {
+              "const": 3
+            },
+            "ExplainabilityProfiles": {
+              "const": 3
+            },
+            "OverlayPresentationProfiles": {
+              "const": 3
+            },
+            "SharedStakeholderEngineDefinitions": {
+              "const": 1
+            },
+            "SiblingComparisonEligibilityRecords": {
+              "const": 1
+            },
+            "FamilyCounterweightRuleSets": {
+              "const": 1
+            },
+            "ActiveCharacterNetworkEdges": {
+              "const": 0
+            },
+            "ActiveExternalNetworkEdges": {
+              "const": 0
+            },
+            "ActiveDynastyRelationshipInstances": {
+              "const": 0
+            },
+            "ActiveSiblingCoalitions": {
+              "const": 0
+            },
+            "ActiveClaimSupportInstances": {
+              "const": 0
+            },
+            "ActiveSuccessionSettlements": {
+              "const": 0
+            },
+            "ActiveStakeholderMandates": {
+              "const": 0
+            },
+            "ActiveDelegations": {
+              "const": 0
+            },
+            "ActiveGovernanceOffices": {
+              "const": 0
+            },
+            "ActiveOfficerAssignments": {
+              "const": 0
+            },
+            "ActiveAssemblies": {
+              "const": 0
+            },
+            "ActiveCouncilMemberships": {
+              "const": 0
+            },
+            "ActiveRegencies": {
+              "const": 0
+            },
+            "ActiveProvisionalGovernments": {
+              "const": 0
+            },
+            "ActiveAIProposals": {
+              "const": 0
+            },
+            "ActiveAcceptedAICommands": {
+              "const": 0
+            },
+            "ActiveNamedBishopAssignments": {
+              "const": 0
+            },
+            "ActiveEcclesiasticalOfficeholders": {
+              "const": 0
+            },
+            "ActiveEcclesiasticalPropertyTransfers": {
+              "const": 0
+            },
+            "ActiveEcclesiasticalSuccessionSupport": {
+              "const": 0
+            },
+            "ActiveRiteTransitions": {
+              "const": 0
+            },
+            "ActiveExternalAgreements": {
+              "const": 0
+            },
+            "ActivePariaAgreements": {
+              "const": 0
+            },
+            "ActiveProtectionAgreements": {
+              "const": 0
+            },
+            "ActiveMilitaryAccessAgreements": {
+              "const": 0
+            },
+            "ActiveStakeholderPropertyGrants": {
+              "const": 0
+            },
+            "ActiveStakeholderRevenueAssignments": {
+              "const": 0
+            },
+            "ActiveStakeholderTreasuryAccess": {
+              "const": 0
+            },
+            "ActiveStakeholderArmyCommands": {
+              "const": 0
+            },
+            "ActiveStakeholderRecruitmentAuthorities": {
+              "const": 0
+            },
+            "ActiveArmies": {
+              "const": 0
+            },
+            "ActiveFleets": {
+              "const": 0
+            },
+            "ActiveGarrisons": {
+              "const": 0
+            },
+            "ActiveHistoricalMemoryInstances": {
+              "const": 0
+            },
+            "ActiveHistoricalMomentumInstances": {
+              "const": 0
+            },
+            "ActiveHistoricalEmergenceInstances": {
+              "const": 0
+            },
+            "ScheduledHistoricalDeaths": {
+              "const": 0
+            },
+            "ScheduledHistoricalIllnesses": {
+              "const": 0
+            },
+            "PredeterminedMarriages": {
+              "const": 0
+            },
+            "PredeterminedTitleTransfers": {
+              "const": 0
+            },
+            "PredeterminedPartitions": {
+              "const": 0
+            },
+            "PredeterminedCivilWars": {
+              "const": 0
+            },
+            "ActiveBrotherRivalries": {
+              "const": 0
+            },
+            "ActiveBrotherCooperationAgreements": {
+              "const": 0
+            },
+            "ActiveBrotherCoalitions": {
+              "const": 0
+            },
+            "ActiveBrotherComparisonResults": {
+              "const": 0
+            },
+            "ActiveBrotherRewardPromises": {
+              "const": 0
+            },
+            "ActiveBrotherPerformanceAwards": {
+              "const": 0
+            },
+            "ActiveBrotherAuthorityConversions": {
+              "const": 0
+            },
+            "ActiveBrotherRecoveryStates": {
+              "const": 0
+            },
+            "ActiveOpportunityAcceptances": {
+              "const": 0
+            },
+            "ActiveOpportunityRefusals": {
+              "const": 0
+            },
+            "ActiveOpportunityFailures": {
+              "const": 0
+            },
+            "ActiveOpportunityRewards": {
+              "const": 0
+            },
+            "ActiveSovereignPreferenceBindings": {
+              "const": 0
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "ActiveFactionShells",
+            "ActiveRealms",
+            "ActiveCharacterRecords",
+            "ActivePlayablePerspectiveDefinitions",
+            "ActivePrincipalTitleBindings",
+            "BrotherRouteDefinitions",
+            "ConversionGateProfiles",
+            "ExplainabilityProfiles",
+            "OverlayPresentationProfiles",
+            "SharedStakeholderEngineDefinitions",
+            "SiblingComparisonEligibilityRecords",
+            "FamilyCounterweightRuleSets",
+            "ActiveCharacterNetworkEdges",
+            "ActiveExternalNetworkEdges",
+            "ActiveDynastyRelationshipInstances",
+            "ActiveSiblingCoalitions",
+            "ActiveClaimSupportInstances",
+            "ActiveSuccessionSettlements",
+            "ActiveStakeholderMandates",
+            "ActiveDelegations",
+            "ActiveGovernanceOffices",
+            "ActiveOfficerAssignments",
+            "ActiveAssemblies",
+            "ActiveCouncilMemberships",
+            "ActiveRegencies",
+            "ActiveProvisionalGovernments",
+            "ActiveAIProposals",
+            "ActiveAcceptedAICommands",
+            "ActiveNamedBishopAssignments",
+            "ActiveEcclesiasticalOfficeholders",
+            "ActiveEcclesiasticalPropertyTransfers",
+            "ActiveEcclesiasticalSuccessionSupport",
+            "ActiveRiteTransitions",
+            "ActiveExternalAgreements",
+            "ActivePariaAgreements",
+            "ActiveProtectionAgreements",
+            "ActiveMilitaryAccessAgreements",
+            "ActiveStakeholderPropertyGrants",
+            "ActiveStakeholderRevenueAssignments",
+            "ActiveStakeholderTreasuryAccess",
+            "ActiveStakeholderArmyCommands",
+            "ActiveStakeholderRecruitmentAuthorities",
+            "ActiveArmies",
+            "ActiveFleets",
+            "ActiveGarrisons",
+            "ActiveHistoricalMemoryInstances",
+            "ActiveHistoricalMomentumInstances",
+            "ActiveHistoricalEmergenceInstances",
+            "ScheduledHistoricalDeaths",
+            "ScheduledHistoricalIllnesses",
+            "PredeterminedMarriages",
+            "PredeterminedTitleTransfers",
+            "PredeterminedPartitions",
+            "PredeterminedCivilWars",
+            "ActiveBrotherRivalries",
+            "ActiveBrotherCooperationAgreements",
+            "ActiveBrotherCoalitions",
+            "ActiveBrotherComparisonResults",
+            "ActiveBrotherRewardPromises",
+            "ActiveBrotherPerformanceAwards",
+            "ActiveBrotherAuthorityConversions",
+            "ActiveBrotherRecoveryStates",
+            "ActiveOpportunityAcceptances",
+            "ActiveOpportunityRefusals",
+            "ActiveOpportunityFailures",
+            "ActiveOpportunityRewards",
+            "ActiveSovereignPreferenceBindings"
+          ]
+        },
+        "SourceManifest": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "File": {
+                "type": "string",
+                "minLength": 1
+              },
+              "AuthorityType": {
+                "type": "string",
+                "minLength": 1
+              },
+              "InternalVersion": {
+                "type": "string",
+                "pattern": "^\\d+\\.\\d+\\.\\d+$"
+              },
+              "Sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "Required": {
+                "type": "boolean"
+              },
+              "Owner": {
+                "type": "string",
+                "minLength": 1
+              },
+              "CompatibilityDisposition": {
+                "enum": [
+                  "Required",
+                  "Compatible",
+                  "ReviewOnly",
+                  "Quarantined",
+                  "Rejected"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "File",
+              "AuthorityType",
+              "InternalVersion",
+              "Sha256",
+              "Required",
+              "Owner",
+              "CompatibilityDisposition"
+            ]
+          },
+          "minItems": 1
+        },
+        "SourceManifestHash": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "$schema",
+        "PackageKind",
+        "PackageId",
+        "PackageVersion",
+        "OpeningStateId",
+        "OpeningStateVersion",
+        "ScenarioId",
+        "EffectiveDate",
+        "PoliticalForm",
+        "AuthorityManifest",
+        "RegistryBinding",
+        "OverlayRequirement",
+        "TemporalState",
+        "ApplicationGuard",
+        "Definitions",
+        "OpeningRecords",
+        "BrotherMechanics",
+        "ExternalLocks",
+        "ReviewOnlyReferences",
+        "QuarantinedReferences",
+        "RejectedLaterHistory",
+        "ExplicitEmptyCollections",
+        "DeclaredCounts",
+        "SourceManifest",
+        "SourceManifestHash"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "$schema": {
+          "type": "string"
+        },
+        "PackageKind": {
+          "const": "CampaignCreationOverlay"
+        },
+        "OverlayId": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+        },
+        "OverlayVersion": {
+          "const": "2.0.0"
+        },
+        "ContentPackageId": {
+          "const": "package.leon_castile.opening_state.1062.v2"
+        },
+        "ContentPackageVersion": {
+          "const": "2.0.0"
+        },
+        "ContentPayloadFile": {
+          "const": "Leon_Castile_Opening_State_1062_V2.json"
+        },
+        "ContentPayloadSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "SelectedPerspectiveRef": {
+          "enum": [
+            "perspective.leon_castile.sancho",
+            "perspective.leon_castile.alfonso",
+            "perspective.leon_castile.garcia"
+          ]
+        },
+        "SelectedPersonRef": {
+          "enum": [
+            "person.sancho.ferdinand_sancha_son",
+            "person.alfonso.ferdinand_sancha_son",
+            "person.garcia.ferdinand_sancha_son"
+          ]
+        },
+        "SelectedBrotherRouteRef": {
+          "enum": [
+            "brother_route.leon_castile.sancho",
+            "brother_route.leon_castile.alfonso",
+            "brother_route.leon_castile.garcia"
+          ]
+        },
+        "SelectedOpportunityWeightProfileRef": {
+          "enum": [
+            "opportunity_weight.leon_castile.sancho",
+            "opportunity_weight.leon_castile.alfonso",
+            "opportunity_weight.leon_castile.garcia"
+          ]
+        },
+        "SelectedExplainabilityProfileRef": {
+          "enum": [
+            "explainability.leon_castile.sancho",
+            "explainability.leon_castile.alfonso",
+            "explainability.leon_castile.garcia"
+          ]
+        },
+        "SelectedTutorialProfileRef": {
+          "enum": [
+            "tutorial.leon_castile.sancho",
+            "tutorial.leon_castile.alfonso",
+            "tutorial.leon_castile.garcia"
+          ]
+        },
+        "SelectedInformationViewRef": {
+          "enum": [
+            "information_view.leon_castile.sancho",
+            "information_view.leon_castile.alfonso",
+            "information_view.leon_castile.garcia"
+          ]
+        },
+        "SelectionOnly": {
+          "const": true
+        },
+        "MayMutateContent": {
+          "const": false
+        },
+        "MayChangeSovereign": {
+          "const": false
+        },
+        "MayChangeTitles": {
+          "const": false
+        },
+        "MayCreateRecords": {
+          "const": false
+        },
+        "MayCreateAuthority": {
+          "const": false
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "$schema",
+        "PackageKind",
+        "OverlayId",
+        "OverlayVersion",
+        "ContentPackageId",
+        "ContentPackageVersion",
+        "ContentPayloadFile",
+        "ContentPayloadSha256",
+        "SelectedPerspectiveRef",
+        "SelectedPersonRef",
+        "SelectedBrotherRouteRef",
+        "SelectedOpportunityWeightProfileRef",
+        "SelectedExplainabilityProfileRef",
+        "SelectedTutorialProfileRef",
+        "SelectedInformationViewRef",
+        "SelectionOnly",
+        "MayMutateContent",
+        "MayChangeSovereign",
+        "MayChangeTitles",
+        "MayCreateRecords",
+        "MayCreateAuthority"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "SelectedPerspectiveRef": {
+                "const": "perspective.leon_castile.sancho"
+              }
+            },
+            "required": [
+              "SelectedPerspectiveRef"
+            ]
+          },
+          "then": {
+            "properties": {
+              "SelectedPersonRef": {
+                "const": "person.sancho.ferdinand_sancha_son"
+              },
+              "SelectedBrotherRouteRef": {
+                "const": "brother_route.leon_castile.sancho"
+              },
+              "SelectedOpportunityWeightProfileRef": {
+                "const": "opportunity_weight.leon_castile.sancho"
+              },
+              "SelectedExplainabilityProfileRef": {
+                "const": "explainability.leon_castile.sancho"
+              },
+              "SelectedTutorialProfileRef": {
+                "const": "tutorial.leon_castile.sancho"
+              },
+              "SelectedInformationViewRef": {
+                "const": "information_view.leon_castile.sancho"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "SelectedPerspectiveRef": {
+                "const": "perspective.leon_castile.alfonso"
+              }
+            },
+            "required": [
+              "SelectedPerspectiveRef"
+            ]
+          },
+          "then": {
+            "properties": {
+              "SelectedPersonRef": {
+                "const": "person.alfonso.ferdinand_sancha_son"
+              },
+              "SelectedBrotherRouteRef": {
+                "const": "brother_route.leon_castile.alfonso"
+              },
+              "SelectedOpportunityWeightProfileRef": {
+                "const": "opportunity_weight.leon_castile.alfonso"
+              },
+              "SelectedExplainabilityProfileRef": {
+                "const": "explainability.leon_castile.alfonso"
+              },
+              "SelectedTutorialProfileRef": {
+                "const": "tutorial.leon_castile.alfonso"
+              },
+              "SelectedInformationViewRef": {
+                "const": "information_view.leon_castile.alfonso"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "SelectedPerspectiveRef": {
+                "const": "perspective.leon_castile.garcia"
+              }
+            },
+            "required": [
+              "SelectedPerspectiveRef"
+            ]
+          },
+          "then": {
+            "properties": {
+              "SelectedPersonRef": {
+                "const": "person.garcia.ferdinand_sancha_son"
+              },
+              "SelectedBrotherRouteRef": {
+                "const": "brother_route.leon_castile.garcia"
+              },
+              "SelectedOpportunityWeightProfileRef": {
+                "const": "opportunity_weight.leon_castile.garcia"
+              },
+              "SelectedExplainabilityProfileRef": {
+                "const": "explainability.leon_castile.garcia"
+              },
+              "SelectedTutorialProfileRef": {
+                "const": "tutorial.leon_castile.garcia"
+              },
+              "SelectedInformationViewRef": {
+                "const": "information_view.leon_castile.garcia"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

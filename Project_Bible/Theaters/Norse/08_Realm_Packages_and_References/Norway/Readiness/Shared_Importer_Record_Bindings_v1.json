@@ -1,0 +1,671 @@
+{
+  "$id": "Schema.MedievalWar.SharedImporter.Binding.v1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "bindings": {
+    "ai_profile": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "RealmAI",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "AIProfileDefinition"
+    },
+    "character": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition_or_scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "CharacterFoundation",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "CharacterDefinitionOrOpeningLifecycle"
+    },
+    "character_network": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "CharacterNetwork",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "CharacterNetworkDefinition"
+    },
+    "claim": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition_or_scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Claim",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "ClaimDefinitionOrOpeningClaimState"
+    },
+    "directed_relationship_baseline": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "CharacterNetwork",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "DirectedRelationshipOpeningBaseline"
+    },
+    "dynasty": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Dynasty",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "DynastyDefinition"
+    },
+    "dynasty_headship": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Dynasty",
+      "required_opening_state_keys": [
+        "head",
+        "dynasty"
+      ],
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "DynastyHeadshipOpeningAssignment"
+    },
+    "event_definition": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Event",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "EventDefinition"
+    },
+    "historical_momentum": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "HistoricalMomentum",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "HistoricalMomentumOpeningInstance"
+    },
+    "historical_person": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "CharacterFoundation",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "HistoricalPersonDefinition"
+    },
+    "institution": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "EcclesiasticalAuthority",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "EcclesiasticalInstitutionDefinition"
+    },
+    "joint_governance": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Governance",
+      "required_opening_state_keys": [
+        "power_center",
+        "controllers"
+      ],
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "JointGovernanceOpeningAssignment"
+    },
+    "legacy": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "HistoricalMemory",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "HistoricalLegacyDefinition"
+    },
+    "legacy_line": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "DynastyOrHistoricalMemory",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "LegacyLineReference"
+    },
+    "migration_registry": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "MigrationRegistry",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "StableIdMigrationRegistryDefinition"
+    },
+    "office": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "EcclesiasticalAuthority",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "EcclesiasticalOfficeDefinition"
+    },
+    "office_occupancy": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "EcclesiasticalAuthority",
+      "required_opening_state_keys": [
+        "holder",
+        "office"
+      ],
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "OfficeOccupancyOpeningAssignment"
+    },
+    "power_center": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Governance",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "PowerCenterDefinition"
+    },
+    "realm": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Realm",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "RealmDefinition"
+    },
+    "realm_context": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Scenario",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "RealmContextDefinition"
+    },
+    "route_gate": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "HistoricalMomentum",
+      "required_opening_state_keys": [
+        "momentum",
+        "state"
+      ],
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "RouteGateOpeningState"
+    },
+    "runtime_restriction": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Underage",
+      "required_opening_state_keys": [
+        "subject",
+        "restriction"
+      ],
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "UnderageOpeningRestriction"
+    },
+    "scenario": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Scenario",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "ScenarioDefinition"
+    },
+    "succession_recognition": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Succession",
+      "required_opening_state_keys": [
+        "candidate",
+        "rank"
+      ],
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "SuccessionOpeningRecognition"
+    },
+    "title": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "definition",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Title",
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "TitleDefinition"
+    },
+    "title_occupancy": {
+      "allowed_common_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "opening_state",
+        "owner",
+        "references",
+        "notes"
+      ],
+      "commit_permitted": false,
+      "data_layer": "scenario",
+      "mutation_policy": "preflight_validate_only",
+      "owner": "Title",
+      "required_opening_state_keys": [
+        "holder",
+        "title"
+      ],
+      "required_record_fields": [
+        "record_type",
+        "canonical_id",
+        "required",
+        "source",
+        "owner"
+      ],
+      "runtime_contract": "TitleOccupancyOpeningAssignment"
+    }
+  },
+  "canonical_id_policy": {
+    "note": "Namespace segment begins alphabetic. Later dot segments may begin with digits.",
+    "pattern": "^[A-Za-z][A-Za-z0-9]*(?:\\.[A-Za-z0-9][A-Za-z0-9]*)+$"
+  },
+  "common_required_fields": [
+    "record_type",
+    "canonical_id",
+    "required",
+    "source"
+  ],
+  "status": "Static-Checked reference contract; not a compiled UE5 schema",
+  "title": "Medieval War Shared Importer Record Binding Contract",
+  "version": "1.0.0-static-reference"
+}

@@ -1,0 +1,26 @@
+{
+  "document_id": "static-check.scotland.duncan-ii.underage.v2",
+  "version": "2.0.0",
+  "source": "Duncan_II_Opening_Underage_Record.md",
+  "successor": "Duncan_II_Opening_Underage_Record_V2_Current_Authority_Refinement.md",
+  "source_bytes": 3195,
+  "source_physical_lines": 95,
+  "source_sha256": "3ddf6b6215ed02f9dfcafb1c4cd1109bb7529dd6b7b18f3ecd5dc6ab8c845148",
+  "successor_bytes": 13941,
+  "successor_physical_lines": 452,
+  "successor_sha256": "6fb706c27236aa6725dcd69dcea1474867db375c062a7a24593d11fc5ae5dd97",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "protected_material_preserved": true,
+    "current_metadata_present": true,
+    "implementation_status_honest": true,
+    "authorizations_false": true
+  },
+  "missing_source_headings": [],
+  "missing_protected_literals": [],
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

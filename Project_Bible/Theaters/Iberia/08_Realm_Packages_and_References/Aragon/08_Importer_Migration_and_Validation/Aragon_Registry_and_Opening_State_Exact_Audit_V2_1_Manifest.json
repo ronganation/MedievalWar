@@ -1,0 +1,24 @@
+{
+  "document_id": "Manifest.Audit.RegistryOpeningState.Aragon.V2.1",
+  "audit_file": "Aragon_Registry_and_Opening_State_Exact_Audit_V2_1.md",
+  "audit_sha256": "038131427C924890F311304E1070C878ACD0CDCAFEF5797814DE000AB7697705",
+  "json_file": "Aragon_Registry_and_Opening_State_Exact_Audit_V2_1.json",
+  "json_sha256": "08085CEA63086FECEAC553DE9EE57FD726627B0E7B78C27477E727DBD6524FEA",
+  "result": "PASS_STATIC_EXACT_STRUCTURE__OWNER_AND_EXTERNAL_RECORD_APPROVAL_REQUIRED__CANDIDATE_JSON_BLOCKED",
+  "summary": {
+    "fatal_failures": 0,
+    "passes": 14,
+    "open": 2,
+    "not_run": 1
+  },
+  "mutation_receipt": {
+    "SourceOverwrite": 0,
+    "Registry": 0,
+    "Runtime": 0,
+    "CandidateJson": 0,
+    "External": 0,
+    "AdvancedSave": 0,
+    "Unreal": 0
+  },
+  "next_gate": "Current owner approval of candidate Memory, Momentum, and Emergence values plus shared and external endpoint receipts."
+}

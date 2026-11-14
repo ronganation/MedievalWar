@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source": "Diarmait_mac_Mael_na_mBo_Refined.md",
+  "target": "Diarmait_mac_Mael_na_mBo_V2.1_Current_Authority_Refinement.md",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "source_heading_count_preserved": true,
+    "canonical_character": true,
+    "network_reference": true,
+    "authority_controls": true,
+    "tree_track": true,
+    "no_escaped_underscores_in_addendum": true,
+    "honest_validation": true,
+    "empty_removal_ledger": true,
+    "all_pass": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.england.historical_evidence_register.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "England_Historical_Evidence_Register.md",
+    "version": "1.0",
+    "sha256": "a92d580f916fd62cc0f00944868925065b11964cee0e72fb4861bd8958290e94",
+    "bytes": 31878,
+    "copy_based_rebuild": true
+  },
+  "files": [
+    {
+      "filename": "England_Historical_Evidence_Register_V1.1_Current_Authority_Refinement.md",
+      "sha256": "d8fe30fdaf426804e0f149c59c6ccca0b4caf47a4cf46699d8f0c98ed211d831",
+      "bytes": 49911
+    },
+    {
+      "filename": "England_Historical_Evidence_Register_V1.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "75abbe79e8ee87da81d91e7a9781730a7d5c676fc8d3faaa885879296a8e73a3",
+      "bytes": 956
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "Evidence_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

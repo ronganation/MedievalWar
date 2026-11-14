@@ -1,0 +1,27 @@
+{
+  "document": "England_Military_Roster_and_Development_Authority_V1_1_4.cleanup_ledger.json",
+  "immediate_source": "England_Military_Roster_and_Development_Authority_V1_1_3.md",
+  "changes": [
+    {
+      "type": "wording_correction",
+      "item": "opening copy-first notice",
+      "reason": "byte-preserving was inaccurate for patch revisions; replaced with checksum-traceable preservation wording"
+    },
+    {
+      "type": "metadata_correction",
+      "item": "successor filename, patch revision, footer, and embedded completion record",
+      "reason": "normalize current V1.1.4 identity"
+    },
+    {
+      "type": "clarification",
+      "item": "logical authority ID",
+      "reason": "explain why V1.1 identity is retained across patch revisions"
+    },
+    {
+      "type": "consolidation",
+      "item": "V1.1.1 through V1.1.3 repair notes",
+      "reason": "remove repetitive metadata-only prose while retaining complete repair history"
+    }
+  ],
+  "substantive_content_removed": false
+}

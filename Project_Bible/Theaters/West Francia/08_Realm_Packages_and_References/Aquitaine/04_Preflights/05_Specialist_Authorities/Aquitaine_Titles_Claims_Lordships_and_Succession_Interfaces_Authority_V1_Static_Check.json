@@ -1,0 +1,87 @@
+{
+  "DocumentType": "AuthorityStaticCheck",
+  "StaticCheckVersion": "1.0.0",
+  "AuthorityFile": "Aquitaine_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+  "AuthoritySHA256": "5abfded290b48f992a07112b2606c597957e8b9593c399fa6458908e8232cf37",
+  "AuthorityByteCount": 40819,
+  "AuthorityLineCount": 1215,
+  "Checks": [
+    {
+      "Check": "AquitaineReviewTarget",
+      "Passed": true
+    },
+    {
+      "Check": "ThreeTitleChannels",
+      "Passed": true
+    },
+    {
+      "Check": "ThreeTrackTime",
+      "Passed": true
+    },
+    {
+      "Check": "WarNoClaimGate",
+      "Passed": true
+    },
+    {
+      "Check": "HughNoLaMarche",
+      "Passed": true
+    },
+    {
+      "Check": "BernardNoForcedRising",
+      "Passed": true
+    },
+    {
+      "Check": "AgnesNoAdultAuthority",
+      "Passed": true
+    },
+    {
+      "Check": "MatoedaNoRegency",
+      "Passed": true
+    },
+    {
+      "Check": "RegionalPowerDistinct",
+      "Passed": true
+    },
+    {
+      "Check": "OpeningBundleInactive",
+      "Passed": true
+    },
+    {
+      "Check": "MarkdownFencesBalanced",
+      "Passed": true
+    },
+    {
+      "Check": "NoEmDash",
+      "Passed": true
+    },
+    {
+      "Check": "NoEscapedUnderscore",
+      "Passed": true
+    },
+    {
+      "Check": "StableFooterOnce",
+      "Passed": true
+    },
+    {
+      "Check": "FinalMarkerCorrect",
+      "Passed": true
+    }
+  ],
+  "Summary": {
+    "Checks": 15,
+    "Passes": 15,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "TitleActivations": 0,
+    "ClaimActivations": 0,
+    "LordshipActivations": 0,
+    "SuccessionActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

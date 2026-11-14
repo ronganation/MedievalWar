@@ -1,0 +1,451 @@
+{
+  "DocumentControl": {
+    "DocumentId": "PackageFinalManifest.Realm.Aquitaine.V1",
+    "StableDocumentId": "PackageFinalManifest.Realm.Aquitaine",
+    "ManifestId": "manifest.package-final.realm.aquitaine.v1",
+    "Filename": "Aquitaine_Package_Final_Manifest_V1.json",
+    "Version": "1.0.0",
+    "RevisionDate": "2026-09-05",
+    "RealmLabel": "Duchy of Aquitaine",
+    "RealmIdCandidate": "realm.aquitaine.duchy",
+    "ScenarioId": "mw.scenario.grand_campaign.1062",
+    "ScenarioOpening": "1062-01-01",
+    "OpeningCampaignSeason": "Winter",
+    "OwningTheater": "West Francia",
+    "PackageRoot": "Aquitaine",
+    "ConstitutionalAuthority": "Project Bible 2.4",
+    "OperationalAuthority": "Design Expansion Checklist 3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "ManifestType": "CurrentRoutedPortfolioNotFullPhysicalDirectoryDump",
+    "Status": "StaticCheckedCurrentPackageClosureCandidate"
+  },
+  "Scope": {
+    "Purpose": "Route the complete current Aquitaine authority, candidate-bundle, and ReviewOnly visual portfolio for final package closure.",
+    "SourceRouter": "Aquitaine_Realm_Package_Current_Authority_Index_V1.md",
+    "OldAndLegacyMaterialIncluded": false,
+    "FullRecursivePhysicalInventoryPerformed": false,
+    "EveryRoutedFilePhysicallyRehashedInThisManifest": false,
+    "ReasonForNonPhysicalScope": "This manifest records the current routed portfolio. It does not claim a fresh recursive hash inventory of the complete OneDrive folder."
+  },
+  "PortfolioSummary": {
+    "RoutedCurrentItems": 53,
+    "CategoryCounts": {
+      "00_Freeze_Control": 12,
+      "01_Core_Authorities": 23,
+      "02_Historical_Family": 6,
+      "03_Ecclesiastical": 1,
+      "04_Preflights": 6,
+      "08_Source_Visuals": 5
+    },
+    "DevelopedCharacterProfiles": 6,
+    "SpecialistAuthorities": 10,
+    "HistoricalFamilyAuthoritiesAndRegisters": 6,
+    "CandidateBundleInternalFiles": 30,
+    "CandidateEvidencePortfolios": 18,
+    "CandidateUncertaintyRecords": 30,
+    "OpeningScenarioSelectionsApplied": 0,
+    "VisualWorkstreamStatus": "ClosedReviewOnly"
+  },
+  "CurrentRoutedPortfolio": [
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Realm_Package_Current_Authority_Index_V1.md",
+      "Kind": "File",
+      "Role": "Current navigation, supersession, ownership, readiness, bundle, and visual router",
+      "Status": "CurrentNavigationRouter"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Current_Package_Inventory_and_Modernization_Gap_Audit_V1.md",
+      "Kind": "File",
+      "Role": "Pre-modernization inventory and modernization planning provenance",
+      "Status": "CurrentPlanningAndProvenanceAudit"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Readiness_Integration_and_Blocker_Audit_V1.md",
+      "Kind": "File",
+      "Role": "Readiness, dependency, blocker, freeze, and handoff audit",
+      "Status": "CurrentReadinessAudit"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md",
+      "Kind": "File",
+      "Role": "Post-specialist integration and consistency audit",
+      "Status": "CurrentConsistencyAudit"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Current_Filename_Identity_and_Opening_Binding_Reconciliation_V1.md",
+      "Kind": "File",
+      "Role": "Bounded filename, identity, and opening-binding reconciliation",
+      "Status": "CurrentBoundedReconciliation"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Registry_Candidate_Manifest_and_Owner_Adjudication_V1.md",
+      "Kind": "File",
+      "Role": "Aquitaine package Registry candidate and owner-decision surface",
+      "Status": "CurrentCandidateAdjudication"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Historical_Evidence_Chronology_and_Uncertainty_Coverage_Decision_V1.md",
+      "Kind": "File",
+      "Role": "Historical-suite coverage decision",
+      "Status": "CurrentCoverageDecision"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Historical_Suite_Consistency_and_Coverage_Audit_V1.md",
+      "Kind": "File",
+      "Role": "Historical-suite consistency and coverage audit",
+      "Status": "CurrentHistoricalSuiteAudit"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Current_Machine_Readable_Candidate_Bundle_V1.md",
+      "Kind": "File",
+      "Role": "Thirty-file candidate-bundle specification",
+      "Status": "CurrentCandidateBundleAuthority"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Current_Machine_Readable_Candidate_Bundle_Validation_Report_V1.md",
+      "Kind": "File",
+      "Role": "Physical scaffold validation report",
+      "Status": "CurrentCandidateBundleValidation"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Faction_Visual_Culmination_and_Presentation_Authority_V1.md",
+      "Kind": "File",
+      "Role": "Aquitaine visual culmination authority",
+      "Status": "CompleteReviewOnly"
+    },
+    {
+      "Path": "00_Freeze_Control/Aquitaine_Faction_Designer_Input_Packet_V1.md",
+      "Kind": "File",
+      "Role": "Aquitaine visual designer production brief",
+      "Status": "CompleteReviewOnly"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_ID_Registry_V2_Current_Authority_Modernization.md",
+      "Kind": "File",
+      "Role": "Registry candidate identities, aliases, external locks, reviews, quarantine, and migration planning",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Opening_State_1062_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "Bounded January 1062 starting-state requests and initialization boundary",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "Realm character admission, interpretation, and portfolio control",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Character_Network_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "Directed relationships, knowledge, access, obligation, service, and grievance",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Dynasty_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "House of Poitiers continuity and title-specific succession interfaces",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "Negotiated government, mandate, office, presence, and delegation",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Realm_Personality_AI_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "Aquitaine-specific Realm AI evaluation, alternatives, explanation, and abstention",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Characters/William_VIII_of_Aquitaine_V1_Developed_Character_Profile_Authority.md",
+      "Kind": "File",
+      "Role": "Realm-anchor ruler-general",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Characters/Aimery_IV_of_Thouars_V1_Developed_Character_Profile_Authority.md",
+      "Kind": "File",
+      "Role": "Poitevin warrior magnate and conditional commander",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Characters/Hugh_VI_of_Lusignan_V1.1_Current_Authority_Refinement.md",
+      "Kind": "File",
+      "Role": "Castle-centered magnate and conditional regional commander",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Characters/Bernard_II_Tumapaler_V1_Developed_Character_Profile_Authority.md",
+      "Kind": "File",
+      "Role": "Former Gascon duke, veteran rival, and conditional coalition leader",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Characters/Matoeda_or_Mathilde_V1_Developed_Character_Profile_Authority.md",
+      "Kind": "File",
+      "Role": "Spouse and household exception",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Characters/Agnes_of_Aquitaine_V1_Developed_Character_Profile_Authority.md",
+      "Kind": "File",
+      "Role": "Protected underage dynastic character",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "Kind": "File",
+      "Role": "Territory, settlements, strategic sites, geography, climate, and map handoff",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "Kind": "File",
+      "Role": "Routes, crossings, communication, river, coastal, and maritime access",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+      "Kind": "File",
+      "Role": "Communities, culture, population, labor, and institutions",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Economy_Property_Revenue_and_Treasury_Authority_V1.md",
+      "Kind": "File",
+      "Role": "Economy, property, assessment, collection, revenue, and treasury",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Army_Host_Garrisons_and_Military_Capability_Authority_V1.md",
+      "Kind": "File",
+      "Role": "Forces, hosts, garrisons, command, operations, casualties, and recovery",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Recruitment_Pools_Units_and_Replenishment_Authority_V1.md",
+      "Kind": "File",
+      "Role": "Finite recruitment pools, units, replenishment, and reconstitution",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+      "Kind": "File",
+      "Role": "Supply, logistics, transport, endurance, relief, and recovery",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+      "Kind": "File",
+      "Role": "Law, policy, custom, jurisdiction, evidence, judgment, and enforcement",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "Kind": "File",
+      "Role": "Titles, claims, lordships, recognition, installation, and succession",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "01_Core_Authorities/Aquitaine_Opening_Campaign_Opportunity_and_Early_Conflict_Reservation_V1.md",
+      "Kind": "File",
+      "Role": "Conditional early gameplay opportunities, battle and nonbattle alternatives, and map handoffs",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "02_Historical_Family/Aquitaine_Historical_Reconciliation_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "January 1062 historical interpretation and later-history exclusions",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "02_Historical_Family/Aquitaine_Historical_Evidence_and_Chronology_Register_V1.md",
+      "Kind": "File",
+      "Role": "Claim-level evidence, provenance, chronology, and receipts",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "02_Historical_Family/Aquitaine_Historical_Uncertainty_Register_V1.md",
+      "Kind": "File",
+      "Role": "Thirty candidate uncertainty records, alternatives, fallbacks, reopening, and retirement",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "02_Historical_Family/Aquitaine_Historical_Memory_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "Audience-specific remembered precedent and reinterpretation",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "02_Historical_Family/Aquitaine_Historical_Momentum_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "Directional strategic pressure",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "02_Historical_Family/Aquitaine_Historical_Emergence_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "Conditional pathway eligibility, activation state, resolution, and retirement",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "03_Ecclesiastical/Aquitaine_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "Kind": "File",
+      "Role": "Institutions, offices, officeholders, jurisdiction, Papal interfaces, and ecclesiastical content",
+      "Status": "CurrentReviewSurface"
+    },
+    {
+      "Path": "04_Preflights/06_Package_Control/Aquitaine_Current_Machine_Readable_Candidate_Bundle_Scaffold_V1.zip",
+      "Kind": "File",
+      "Role": "Thirty-file candidate-only scaffold transfer and review package",
+      "Status": "CandidateOnlyValidatedScaffold"
+    },
+    {
+      "Path": "04_Preflights/06_Package_Control/Aquitaine_Current_Machine_Readable_Candidate_Bundle_Static_Check_V1.json",
+      "Kind": "File",
+      "Role": "Machine-readable scaffold closure receipt",
+      "Status": "PassCandidateReviewOnly"
+    },
+    {
+      "Path": "04_Preflights/06_Package_Control/Aquitaine_Visual_Culmination_Asset_Manifest_V1.json",
+      "Kind": "File",
+      "Role": "Visual-workstream asset manifest",
+      "Status": "CompleteReviewOnly"
+    },
+    {
+      "Path": "04_Preflights/06_Package_Control/Aquitaine_Visual_Culmination_Static_Check_V1.json",
+      "Kind": "File",
+      "Role": "Visual-workstream static closure receipt",
+      "Status": "PassReviewOnly"
+    },
+    {
+      "Path": "04_Preflights/06_Package_Control/Aquitaine_Internal_Faction_Authority_One_Sheet_Static_Inspection_and_Asset_Metadata_V1.md",
+      "Kind": "File",
+      "Role": "Internal one-sheet static inspection and metadata",
+      "Status": "CompleteReviewOnly"
+    },
+    {
+      "Path": "04_Preflights/06_Package_Control/Aquitaine_Player_Facing_Faction_Sheet_Static_Inspection_and_Asset_Metadata_V1.md",
+      "Kind": "File",
+      "Role": "Player-facing sheet static inspection and metadata",
+      "Status": "CompleteReviewOnly"
+    },
+    {
+      "Path": "08_Source_Visuals/Aquitaine_Visual_Culmination_and_Presentation_Deck_V1.pptx",
+      "Kind": "File",
+      "Role": "Editable presentation deck",
+      "Status": "CompleteReviewOnly"
+    },
+    {
+      "Path": "08_Source_Visuals/Aquitaine_Visual_Culmination_Deck_Montage_V1.png",
+      "Kind": "File",
+      "Role": "Presentation-deck overview montage",
+      "Status": "CompleteReviewOnly"
+    },
+    {
+      "Path": "08_Source_Visuals/Aquitaine_Internal_Faction_Authority_One_Sheet_V1.png",
+      "Kind": "File",
+      "Role": "Internal faction authority one-sheet",
+      "Status": "ReviewOnlyAcceptedWithLoggedLimitations"
+    },
+    {
+      "Path": "08_Source_Visuals/Aquitaine_Player_Facing_Faction_Sheet_V1.png",
+      "Kind": "File",
+      "Role": "Simplified player-facing concept sheet",
+      "Status": "StaticCheckedReviewOnlyConcept"
+    },
+    {
+      "Path": "08_Source_Visuals/Aquitaine_Player_Facing_Faction_Sheet_V1.pptx",
+      "Kind": "File",
+      "Role": "Editable source for player-facing concept sheet",
+      "Status": "StaticCheckedReviewOnlyConcept"
+    }
+  ],
+  "PackageState": {
+    "CoreModernization": "CompleteAtCurrentReviewScope",
+    "CharacterPortfolio": "StrongInitialGeneralFocusedPortfolio",
+    "SpecialistMarkdownSuite": "CompleteAtFirstPass",
+    "HistoricalSuiteDocumentation": "CompleteConditionalPass",
+    "RegistryCandidateAdjudication": "CompleteWithinAquitainePackagePendingProjectOwner",
+    "MachineReadableCandidateBundle": "CompleteCandidateOnly30FileScaffold",
+    "VisualWorkstream": "ClosedReviewOnly",
+    "CurrentAquitainePackagePass": "ReadyForFinalStaticCheck"
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "OpeningCampaignSeason": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "UniversalSevenMonthStrategicTurn": "Superseded"
+  },
+  "WarfareAndReligiousDiplomacyDoctrine": {
+    "WarActionAvailable": true,
+    "CasusBelliGate": false,
+    "ClaimGate": false,
+    "PapalPermissionGate": false,
+    "ClaimsModifyReactions": true,
+    "ClaimsUnlockWar": false,
+    "PapalStandingSeparateFromDiplomaticReliability": true
+  },
+  "OpeningFirewalls": {
+    "WilliamIXOpeningAlive": false,
+    "MatoedaAutomaticRegency": false,
+    "AgnesAdultAgency": false,
+    "BernardIIOpeningRebellion": false,
+    "ForcedMay1063GasconRising": false,
+    "BarbastroOpeningCommitment": false,
+    "OpeningStateApplicationCount": 0
+  },
+  "AuthorizationAndMutationStatus": {
+    "RegistryPromotionAuthorized": false,
+    "AliasExecutionAuthorized": false,
+    "OpeningStateActivationAuthorized": false,
+    "HistoricalUncertaintySelectionsApplied": 0,
+    "MigrationExecutionAuthorized": false,
+    "ProductionVisualApproval": false,
+    "UnrealImportAuthorized": false,
+    "RuntimeActivationAuthorized": false,
+    "RealPayloadImportAuthorized": false,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0
+  },
+  "RemainingBlockers": [
+    "Fresh full recursive physical package inventory and per-file hashing",
+    "Project-wide Registry collision review and canonical promotion",
+    "External-owner receipts",
+    "Exact Opening State specialist bindings",
+    "Populated primary historical source records and citations",
+    "Owner-applied uncertainty selections where exact values are required",
+    "Production visual approval and localization/accessibility validation",
+    "Project-native schema, compile, editor, runtime, save-load, migration, replay, performance, battle, and balance validation"
+  ],
+  "ValidationContract": {
+    "RequiredNextArtifact": "Aquitaine_Package_Final_Static_Check_V1.json",
+    "FinalStaticCheckMustVerify": [
+      "JSON parse success",
+      "Current authority index routed",
+      "Six developed character profiles routed",
+      "Ten specialist authorities routed",
+      "Evidence and chronology and uncertainty registers routed",
+      "Thirty-file candidate scaffold routed",
+      "Visual workstream routed as ReviewOnly",
+      "Old and legacy material excluded",
+      "Three-track time preserved",
+      "No warfare permission gate introduced",
+      "No Registry, Opening State, Unreal, runtime, or real-payload mutation claimed"
+    ]
+  }
+}

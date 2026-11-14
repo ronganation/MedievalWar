@@ -1,0 +1,27 @@
+{
+  "document": "Britannia_Regional_Recruitment_Mercenary_Access_and_Service_Transition_Architecture_V1_2_Double_Checked_Campaign_Depth_Refinement.md",
+  "sha256": "04bede095e85ff6cf57dda5f1adf9944793784b8d30bf2879790512af5436d5d",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "copy_first_source_named": true,
+    "V1_body_preserved": true,
+    "access_lifecycle": true,
+    "trust_grievance": true,
+    "system_interfaces": true,
+    "capacity_bands": true,
+    "market_competition": true,
+    "service_forms": true,
+    "contract_disputes": true,
+    "post_service": true,
+    "anti_exploit": true,
+    "decision_receipt": true,
+    "no_reclassification": true,
+    "opening_quarantine": true,
+    "next_gate_matrix": true,
+    "yaml_blocks_valid": true,
+    "no_escaped_formatting": true,
+    "no_em_dash": true,
+    "single_footer": true
+  }
+}

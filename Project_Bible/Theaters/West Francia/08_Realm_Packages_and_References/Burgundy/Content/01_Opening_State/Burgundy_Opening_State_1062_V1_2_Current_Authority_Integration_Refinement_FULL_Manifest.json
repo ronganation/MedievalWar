@@ -1,0 +1,17 @@
+{
+  "FileName": "Burgundy_Opening_State_1062_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+  "Version": "1.2.0",
+  "SHA256": "1d6dd8eae6a210373c839edebe7760b97e61ad31dcb12757395ac51d662472e3",
+  "Bytes": 109802,
+  "Lines": 2327,
+  "ImmediateSource": "Burgundy_Opening_State_1062_V1_1_Full_Developed_Faction_Parity_AuthorityCopy.md",
+  "SourceSHA256": "5de47472bd563c058cde34cd4feb4e82774f2e9d1b41490a7316b641c5e1c97c",
+  "SourceBytes": 84290,
+  "SourceLines": 1888,
+  "OpeningRecords": 31,
+  "FirstTurnDilemmas": 12,
+  "DifferentiatedDispositionClasses": 4,
+  "SubstantiveContentRemoved": [],
+  "ValidationResult": "PASS",
+  "Mutations": 0
+}

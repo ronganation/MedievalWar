@@ -1,0 +1,113 @@
+{
+  "document_id": "manifest.scotland.timeline-chronology.v1.2.current-authority-refinement",
+  "version": "1.2.0",
+  "immediate_source": {
+    "filename": "Scotland_Historical_Timeline_and_Chronology_V1.1_Detailed_Expansion.md",
+    "bytes": 55153,
+    "physical_lines": 1150,
+    "sha256": "719e386cb1ec2a27401588d2cc4acbee64e044ef2cff8c878ce715e155d58ebf",
+    "complete_source_verified": true,
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Scotland_Historical_Timeline_and_Chronology_V1.2_Current_Authority_Refinement.md",
+    "bytes": 78525,
+    "physical_lines": 1673,
+    "sha256": "abae5a81bc7b4c3b117a33c50ae7372601025cfad4818ba06273c24eac415266"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_fidelity_result": "pass",
+    "source_headings_preserved": 93,
+    "source_event_ids_preserved": [
+      "EVT-SCOT-001",
+      "EVT-SCOT-002",
+      "EVT-SCOT-003",
+      "EVT-SCOT-004",
+      "EVT-SCOT-005",
+      "EVT-SCOT-006",
+      "EVT-SCOT-007",
+      "EVT-SCOT-008",
+      "EVT-SCOT-009",
+      "EVT-SCOT-010",
+      "EVT-SCOT-011",
+      "EVT-SCOT-012",
+      "EVT-SCOT-013",
+      "EVT-SCOT-014",
+      "EVT-SCOT-015",
+      "EVT-SCOT-016",
+      "EVT-SCOT-017",
+      "EVT-SCOT-018",
+      "EVT-SCOT-019",
+      "EVT-SCOT-020",
+      "EVT-SCOT-021",
+      "EVT-SCOT-022",
+      "EVT-SCOT-023",
+      "EVT-SCOT-024",
+      "EVT-SCOT-025",
+      "EVT-SCOT-026",
+      "EVT-SCOT-027",
+      "EVT-SCOT-028"
+    ],
+    "source_chronology_ids_preserved": [
+      "CHR-SCOT-001",
+      "CHR-SCOT-002",
+      "CHR-SCOT-003",
+      "CHR-SCOT-004",
+      "CHR-SCOT-005",
+      "CHR-SCOT-006",
+      "CHR-SCOT-007",
+      "CHR-SCOT-008",
+      "CHR-SCOT-009",
+      "CHR-SCOT-010",
+      "CHR-SCOT-011",
+      "CHR-SCOT-012",
+      "CHR-SCOT-013",
+      "CHR-SCOT-014",
+      "CHR-SCOT-015",
+      "CHR-SCOT-016",
+      "CHR-SCOT-017",
+      "CHR-SCOT-018",
+      "CHR-SCOT-019",
+      "CHR-SCOT-020",
+      "CHR-SCOT-021",
+      "CHR-SCOT-022",
+      "CHR-SCOT-023",
+      "CHR-SCOT-024"
+    ],
+    "removed_content": []
+  },
+  "additions": {
+    "new_chronology_records": [
+      "CHR-SCOT-025",
+      "CHR-SCOT-026"
+    ],
+    "new_contradiction_record": "CHCON-SCOT-006",
+    "superseded_in_part": [
+      "CHR-SCOT-015",
+      "CHCON-SCOT-005"
+    ],
+    "additional_validation_cases": 10,
+    "opening_supported_person_interfaces_without_replacement": 7,
+    "replacement_person_created": false
+  },
+  "dependencies": {
+    "evidence_update": "Scotland_Historical_Evidence_Register_V1.1_Gille_Adjudication_Integration.md",
+    "identity_adjudication": "Scotland_Gille_Coemgain_Identity_Collision_Adjudication_V1.md"
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "source_deletion": false,
+    "source_archival": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "replacement_character": false,
+    "character_deletion": false
+  },
+  "static_check": {
+    "filename": "Scotland_Historical_Timeline_and_Chronology_V1.2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

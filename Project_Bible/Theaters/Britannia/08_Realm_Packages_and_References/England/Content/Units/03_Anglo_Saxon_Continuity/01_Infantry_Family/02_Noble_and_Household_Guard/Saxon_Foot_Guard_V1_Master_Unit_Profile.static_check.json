@@ -1,0 +1,15 @@
+{
+  "document": "Saxon_Foot_Guard_V1_Master_Unit_Profile.md",
+  "sha256": "5c3a35252c5dc81386d47435d5b17f0dc56b247b14897c30c054c482600f563a",
+  "checks": {
+    "substantive_length": true,
+    "sections_0_72": true,
+    "terrain_25": true,
+    "source_honest": true,
+    "parent_persists": true,
+    "scale_deferred": true,
+    "no_loss": true,
+    "footer": true
+  },
+  "pass": true
+}

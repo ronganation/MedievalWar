@@ -1,0 +1,24 @@
+{
+  "document_id": "static-check.scotland.historical-emergence.v1",
+  "file": "Scotland_Historical_Emergence_V1.md",
+  "bytes": 55580,
+  "physical_lines": 1705,
+  "sha256": "887f088ad542094fcf652efddae5cab88660a36a790ef2b9a68d6b9eaf1c5d3f",
+  "checks": {
+    "pathways_14": true,
+    "opening_empty": true,
+    "gille_gate": true,
+    "underage_gate": true,
+    "external_locks": true,
+    "uncertainty_handoffs": true,
+    "competition": true,
+    "save_migration": true,
+    "temporal_tracks": true,
+    "honest_status": true,
+    "authorizations_false": true,
+    "large_enough": true
+  },
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

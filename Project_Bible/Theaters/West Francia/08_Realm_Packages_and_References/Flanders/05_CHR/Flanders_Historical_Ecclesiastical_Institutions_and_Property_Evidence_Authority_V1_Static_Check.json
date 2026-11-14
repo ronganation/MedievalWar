@@ -1,0 +1,18 @@
+{
+  "filename": "Flanders_Historical_Ecclesiastical_Institutions_and_Property_Evidence_Authority_V1.md",
+  "sha256": "38afcb6ae719619bff65c18a95137e1e4e60d75f1dd85ed1aeb7b64938263e1c",
+  "bytes": 45700,
+  "lines": 1314,
+  "balanced_fences": true,
+  "escaped_underscores_zero": true,
+  "escaped_hyphens_zero": true,
+  "em_dashes_zero": true,
+  "stable_footer_once": true,
+  "source_lines_reviewed": 1212,
+  "benchmarks_reviewed": 7,
+  "episcopal_external_portfolios": 4,
+  "institution_network_portfolios": 10,
+  "unsupported_Active_classification_zero": true,
+  "nonmutation_present": true,
+  "overall": "Pass"
+}

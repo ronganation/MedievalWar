@@ -1,0 +1,29 @@
+{
+  "FileName": "Flanders_Historical_Suite_Registry_Owner_Decision_and_Disposition_Record_V1.md",
+  "Version": "1.1.0",
+  "SHA256": "c87d5daf4eb4c2b982a91516003414d186a56fde826736547ee7743ef5e2f2a4",
+  "Bytes": 16509,
+  "Lines": 526,
+  "Status": "TemplateOnlyPendingActualRegistryOwnerDecision",
+  "ControllingEvidenceFiles": 3,
+  "PortfolioCounts": {
+    "propositions": 46,
+    "chronology": 38,
+    "uncertainty": 40,
+    "memory": 12,
+    "momentum": 12,
+    "emergence": 12,
+    "ai_reason": 32
+  },
+  "ChildPersonCandidates": 2,
+  "QuarantineClasses": 19,
+  "OwnerDecisionsRecorded": 0,
+  "ChildPersonDecisionsRecorded": 0,
+  "CandidateMappingsAccepted": 0,
+  "BatchExecutionsAuthorized": 0,
+  "RegistryMutations": 0,
+  "OpeningStateMutations": 0,
+  "RuntimeMutations": 0,
+  "UnrealMutations": 0,
+  "CurrentAuthorizedNextFile": null
+}

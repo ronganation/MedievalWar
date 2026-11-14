@@ -1,0 +1,135 @@
+{
+  "ManifestId": "manifest.seville_taifa.opening_state_1062.immutable_validation_bundle.v1",
+  "ExternalFilename": "Seville_Taifa_Opening_State_1062_V1_Immutable_Validation_Bundle.manifest.json",
+  "InternalVersion": "1.0.0",
+  "RevisionDate": "2026-09-10",
+  "Status": "BUNDLE_DEFINITION_READY_SOURCE_CAPTURE_PENDING_ONEDRIVE_VERIFICATION",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "Purpose": "Define the exact immutable read-only source bundle required for current Seville Opening State and Definition Manifest validate-only execution without asserting that OneDrive source capture, current hash verification, fixture execution, importer execution, or runtime mutation has occurred.",
+  "ControllingVersions": {
+    "OpeningStateAuthorityInternalVersion": "1.3.0",
+    "MachineReadableContractInternalVersion": "1.2.0",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "ValidateOnlyExecutionHandoffInternalVersion": "1.0.0",
+    "ImporterValidationReportInternalVersion": "1.0.0"
+  },
+  "SourceLocation": {
+    "AuthoritativeOneDriveFolder": "Theaters/Iberia/08_Realm_Packages_and_References/Taifas/Seville/10_Machine_Readable_and_Importer",
+    "ReadinessAndGatesFolder": "Theaters/Iberia/08_Realm_Packages_and_References/Taifas/Seville/09_Readiness_and_Gates",
+    "OneDriveRefreshRequired": true,
+    "AuthoritativeSourceResolved": false,
+    "DuplicateScanCompleted": false,
+    "DivergentCopyScanCompleted": false,
+    "OneSourceLocationEstablished": false
+  },
+  "RequiredMachineReadableInputs": [
+    {"Ordinal": 1, "Filename": "Seville_Taifa_January_1062_Opening_State_V1.md", "ExpectedInternalVersion": "1.3.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 2, "Filename": "Seville_Taifa_January_1062_Opening_State_V1.static_check.json", "ExpectedInternalVersion": "1.3.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 3, "Filename": "Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 4, "Filename": "Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.static_check.json", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 5, "Filename": "Seville_Taifa_Opening_State_1062_V1.json", "ExpectedInternalVersion": "1.3.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 6, "Filename": "Seville_Taifa_Opening_State_1062_V1.schema.json", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 7, "Filename": "Seville_Taifa_Opening_State_1062_V1.validation.json", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 8, "Filename": "Seville_Taifa_Opening_State_1062_V1.owner_routing.json", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 9, "Filename": "Seville_Taifa_Opening_State_1062_V1.fixtures.json", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 10, "Filename": "Seville_Taifa_Opening_State_1062_V1.validation_report.json", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 11, "Filename": "Seville_Taifa_Opening_State_1062_V1_Importer_Handoff_and_UE5_Mapping.md", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 12, "Filename": "Seville_Taifa_Opening_State_1062_V1_Importer_Handoff_and_UE5_Mapping.static_check.json", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 13, "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.json", "ExpectedInternalVersion": "1.1.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 14, "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.schema.json", "ExpectedInternalVersion": "1.1.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 15, "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.validation.json", "ExpectedInternalVersion": "1.1.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 16, "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.owner_routing.json", "ExpectedInternalVersion": "1.1.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 17, "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.fixtures.json", "ExpectedInternalVersion": "1.1.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 18, "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.validation_report.json", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"},
+    {"Ordinal": 19, "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.static_check.json", "ExpectedInternalVersion": "1.2.0", "Required": true, "Bytes": null, "SHA256": null, "CaptureStatus": "PENDING"}
+  ],
+  "RequiredReadinessControls": [
+    {"Filename": "Seville_Taifa_Faction_Package_Freeze_and_Handoff_V1.md", "ExpectedInternalVersion": "1.1.0", "CaptureStatus": "PENDING"},
+    {"Filename": "Seville_Taifa_Faction_Package_Freeze_and_Handoff_V1.manifest.json", "ExpectedInternalVersion": "1.1.0", "CaptureStatus": "PENDING"},
+    {"Filename": "Seville_Taifa_Faction_Package_Freeze_and_Handoff_V1.static_check.json", "ExpectedInternalVersion": "1.1.0", "CaptureStatus": "PENDING"}
+  ],
+  "RequiredValidationControls": [
+    {"Filename": "Seville_Taifa_Opening_State_1062_V1_Importer_Validation_Report.md", "ExpectedInternalVersion": "1.0.0", "CaptureStatus": "PENDING"},
+    {"Filename": "Seville_Taifa_Opening_State_1062_V1_Importer_Validation_Report.static_check.json", "ExpectedInternalVersion": "1.0.0", "CaptureStatus": "PENDING"},
+    {"Filename": "Seville_Taifa_Opening_State_1062_V1_Validate_Only_Execution_Handoff.md", "ExpectedInternalVersion": "1.0.0", "CaptureStatus": "PENDING"},
+    {"Filename": "Seville_Taifa_Opening_State_1062_V1_Validate_Only_Execution_Handoff.static_check.json", "ExpectedInternalVersion": "1.0.0", "CaptureStatus": "PENDING"}
+  ],
+  "OpeningStateBaseline": {
+    "OwnerRoutingRequests": 18,
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11,
+    "RetainedExplicitEmptyCollections": 51,
+    "AdditiveExplicitEmptyCollections": 19,
+    "TotalExplicitEmptyCollections": 70,
+    "OpeningFixtureDefinitions": 39,
+    "DefinitionFixtureDefinitions": 29,
+    "UnsupportedActiveInstancesCreated": 0
+  },
+  "BundleCaptureRules": {
+    "CopySourceFilesBeforeValidation": true,
+    "ModifySourceFiles": false,
+    "NormalizeFilesDuringCapture": false,
+    "SelectByNewestTimestamp": false,
+    "RequireContentAndVersionResolution": true,
+    "CalculateSHA256AfterCopy": true,
+    "RecordByteCountAfterCopy": true,
+    "RequireUniqueFilenameAndHashPair": true,
+    "PreservePredecessorHashesSeparately": true,
+    "PermitMissingHash": false,
+    "PermitDivergentDuplicate": false
+  },
+  "PhaseAAcceptanceCriteria": {
+    "RequiredMachineInputsPresent": 19,
+    "RequiredReadinessControlsPresent": 3,
+    "RequiredValidationControlsPresent": 4,
+    "DuplicateFilenameAmbiguity": 0,
+    "DivergentDuplicateCount": 0,
+    "MissingRequiredHashes": 0,
+    "CurrentHashMismatches": 0,
+    "VersionMismatches": 0,
+    "OneSourceLocationEstablished": true,
+    "SourceFilesMutated": 0
+  },
+  "CurrentCaptureState": {
+    "MachineInputsCaptured": 0,
+    "ReadinessControlsCaptured": 0,
+    "ValidationControlsCaptured": 0,
+    "HashesCaptured": 0,
+    "ByteCountsCaptured": 0,
+    "BundleHash": null,
+    "PhaseAPassed": false,
+    "FixtureExecutionAuthorized": false
+  },
+  "FailureAndRollback": {
+    "MissingRequiredArtifact": "FATAL_STOP",
+    "VersionMismatch": "FATAL_STOP",
+    "HashMismatch": "FATAL_STOP",
+    "DivergentDuplicate": "FATAL_STOP",
+    "SourceMutationDetected": "FATAL_STOP",
+    "Rollback": "Discard the isolated bundle, preserve evidence, modify no OneDrive source, and route the discrepancy to the owning authority before retry."
+  },
+  "PromotionBoundary": {
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "RegistryMutationAuthorized": false,
+    "RealPayloadApplicationAuthorized": false,
+    "AdvancedSaveMutationAuthorized": false,
+    "BroadUnrealPromotionAuthorized": false,
+    "FixtureExecutionAuthorizedBeforePhaseAPass": false
+  },
+  "OwnerGate": {
+    "ValidationOwner": "REQUIRED",
+    "RegistryOwner": "REQUIRED_FOR_IDENTITY_AND_HASH_DISPOSITION",
+    "CampaignDataArchitectureOwner": "REQUIRED_FOR_LATER_IMPORTER_PROMOTION",
+    "CurrentOwnerApprovalRecorded": false
+  },
+  "NextAction": "Refresh the authoritative OneDrive folders, resolve exact current copies, populate byte counts and SHA-256 values without changing source content, verify all Phase A acceptance criteria, calculate the deterministic bundle hash, and only then authorize read-only fixture execution."
+}

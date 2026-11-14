@@ -1,0 +1,30 @@
+{
+  "artifact": "Baldwin_of_Mons_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.1.0",
+  "sha256": "ff71f1704edb3c9c6d0ffa36d60d200c4bb4666bc0d13c35ef1542545f812141",
+  "bytes": 48397,
+  "lines": 1149,
+  "crossfaction_benchmarks_opened": [
+    "Henry the Gallant",
+    "Sancho of Leon-Castile",
+    "Alfonso of Leon-Castile",
+    "Garcia of Galicia",
+    "Conan II of Brittany",
+    "Aimery IV of Thouars"
+  ],
+  "source_treatment": "CompleteV1PreservedWithIntegratedCrossFactionExpansion",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "stable_footer_count": 1,
+    "required_reconciliation_modules_missing": [],
+    "AI_reason_codes": 25,
+    "validation_fixtures": 26,
+    "prior_content_preserved": true,
+    "nonmutation": true
+  },
+  "all_critical_checks_pass": true,
+  "next_file": "Richilde_of_Hainaut_V1_Developed_Character_Profile_Authority.md"
+}

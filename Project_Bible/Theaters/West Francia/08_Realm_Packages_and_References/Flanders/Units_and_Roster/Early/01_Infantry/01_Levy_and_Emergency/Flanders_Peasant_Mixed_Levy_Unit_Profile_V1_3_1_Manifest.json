@@ -1,0 +1,13 @@
+{
+  "artifact": "Flanders_Peasant_Mixed_Levy_Unit_Profile_V1_3_1_Stable_Authority_Reference_Corrected_FULL.md",
+  "version": "1.3.1",
+  "sha256": "957b6d62cb90f88f18eb5ede6dae432b569dd4885bd28e056ec4b2b9ff64c32d",
+  "bytes": 46076,
+  "lines": 1167,
+  "controlling_military_authority": "Flanders_Military_Capability_Command_Recruitment_and_Force_Authority_V1.md",
+  "reference_mode": "StableAuthorityFilenameWithMinimumCompatibleVersion",
+  "minimum_compatible_version": "1.3.1",
+  "candidate_family_id": "UnitFamily.Flanders.PeasantMixedLevy",
+  "canonical_admission_authorized": false,
+  "mutations": 0
+}

@@ -1,0 +1,75 @@
+{
+  "manifest_id": "manifest.denmark.qualitative_mapping.request10.owner_adoption_submission.v1",
+  "version": "1.0.0",
+  "status": "PASS_PENDING_OWNER_ADOPTION_SUBMISSION_PACKAGE_STATIC_CHECK",
+  "artifact_count": 5,
+  "hashed_artifact_count": 4,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "stable_order": 10,
+      "filename": "Denmark_Qualitative_Mapping_Request_10_Owner_Adoption_Submission_Packet_V1.md",
+      "bytes": 5730,
+      "lines": 176,
+      "sha256": "5D8A4BFC9BEEE37311CA667E6C560B9E6601AE8604036900645C650AA0453ACE"
+    },
+    {
+      "stable_order": 20,
+      "filename": "Denmark_Qualitative_Mapping_Request_10_Owner_Adoption_Request_V1_PENDING.json",
+      "bytes": 1991,
+      "lines": 56,
+      "sha256": "49E060D0DF4205101F9C3D3CCD4B90398784331625C02475F514C08D06CD0D06"
+    },
+    {
+      "stable_order": 30,
+      "filename": "Denmark_Qualitative_Mapping_Request_10_Owner_Adoption_Response_V1_PENDING.json",
+      "bytes": 1549,
+      "lines": 45,
+      "sha256": "580052A385DB0CC5C6D49A7B6DA33612724AA0994E79F9500B9B7FD30A611C44"
+    },
+    {
+      "stable_order": 40,
+      "filename": "Denmark_Qualitative_Mapping_Request_10_Owner_Adoption_Submission_Packet_V1_Static_Check.json",
+      "bytes": 984,
+      "lines": 26,
+      "sha256": "C7E68D2A796800F47E7F95AF8C5F50AC2B7609DB968F7FBA474EFFD2537EDA82"
+    }
+  ],
+  "checks": {
+    "check_id": "check.denmark.qualitative_mapping.request10.owner_adoption_submission.v1",
+    "status": "PASS_PENDING_OWNER_ADOPTION_SUBMISSION_STATIC_CHECK",
+    "request_id_exact": true,
+    "candidate_owner_exact": true,
+    "runtime_binding_preserved": true,
+    "denmark_source_authority_preserved": true,
+    "importer_proposal_only": true,
+    "dimension_count": 8,
+    "approved_bands_empty": true,
+    "missing_band_vocabulary_blocker_present": true,
+    "owner_response_empty": true,
+    "owner_adoption_received": false,
+    "owner_signature_received": false,
+    "receipt_validated": false,
+    "ledger_update_authorized": false,
+    "mapping_implementation_authorized": false,
+    "owner_submission_authorized": false,
+    "runtime_mutation_authorized": false,
+    "opening_state_execution_authorized": false,
+    "save_persistence_authorized": false,
+    "migration_execution_authorized": false,
+    "replay_validation_authorized": false,
+    "markdown_fences_balanced": true,
+    "no_escaped_underscores": true
+  },
+  "source_authorities": [
+    "Project Bible 2.4",
+    "Design Expansion Checklist 3.7",
+    "Framework Architecture Map V1",
+    "Denmark Character Network Decision Pass V1, Rebuilt",
+    "Denmark Character Network Integration Contract V1",
+    "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json",
+    "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Schema.json",
+    "Denmark_Qualitative_Mapping_Schema_Hardening_and_Draft_Reconciliation_Change_Ledger_V1.md"
+  ],
+  "authorization_closed": true
+}

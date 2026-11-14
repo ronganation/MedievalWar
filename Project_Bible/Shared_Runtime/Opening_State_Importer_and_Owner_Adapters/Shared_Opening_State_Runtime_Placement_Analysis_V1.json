@@ -1,0 +1,83 @@
+﻿{
+    "document_id":  "mw.shared-opening-state.runtime-placement-analysis.v1",
+    "generated_utc":  "2026-08-25T01:09:41.9938486Z",
+    "implementation_target":  "Unreal Engine 5.8",
+    "sequence_item":  4,
+    "classification":  "NewRuntimeBridgeModuleRequiredEditorPreparationMustRemainSeparate",
+    "corrected_candidate_type":  "FMWNorwayCampaignImportCandidate",
+    "prior_checker_candidate_type":  "FMWCampaignImportCandidate",
+    "prior_candidate_check_was_false_negative":  true,
+    "module_records":  [
+                           {
+                               "name":  "MWSharedImporter",
+                               "type":  "Editor",
+                               "loading_phase":  "Default"
+                           },
+                           {
+                               "name":  "MWSharedImporterCampaignAdapter",
+                               "type":  "Editor",
+                               "loading_phase":  "Default"
+                           }
+                       ],
+    "corrected_checks":  {
+                             "shared_importer_module_exists":  true,
+                             "campaign_adapter_module_exists":  true,
+                             "shared_importer_is_editor_module":  true,
+                             "campaign_adapter_is_editor_module":  true,
+                             "adapter_depends_on_campaign_module":  true,
+                             "adapter_depends_on_shared_importer":  true,
+                             "actual_candidate_type_located":  true,
+                             "incorrect_generic_candidate_type_absent":  true,
+                             "isolated_commit_state_located":  true,
+                             "isolated_commit_receipt_located":  true,
+                             "active_turn_initialize_available":  true,
+                             "active_turn_public_initialized_query_available":  true,
+                             "active_turn_state_query_available":  true,
+                             "active_save_available":  true,
+                             "current_adapter_runtime_owner_invocation_absent":  true
+                         },
+    "missing_checks":  [
+
+                       ],
+    "recommended_runtime_module":  "MWSharedOpeningStateRuntimeBridge",
+    "reuse_existing_editor_modules_for_runtime_commit":  false,
+    "production_bridge_implemented":  false,
+    "production_opening_state_application_proven":  false,
+    "active_source_mutation_performed":  false,
+    "opening_state_application_performed":  false,
+    "compile_executed":  false,
+    "runtime_executed":  false,
+    "item_4_complete":  false,
+    "source_files":  [
+                         {
+                             "relative_path":  "Plugins/MWSharedImporter/MWSharedImporter.uplugin",
+                             "bytes":  1039,
+                             "sha256":  "39423BE53766FB5506EF11A9F753ABF46A7554FE3257CBD83C3D4A39478E4BD3"
+                         },
+                         {
+                             "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/MWSharedImporterCampaignAdapter.Build.cs",
+                             "bytes":  629,
+                             "sha256":  "3521758636EDF810C46A521F2E7C1FDBD8F5CBD53398436CBA6DBBB4FED26AD2"
+                         },
+                         {
+                             "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Public/MWNorwayScenarioTranslator.h",
+                             "bytes":  34097,
+                             "sha256":  "6B375E8DBD325442197BD421C02ACE3335217958F306887C63436AD78EEAB750"
+                         },
+                         {
+                             "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/MWNorwayScenarioTranslator.cpp",
+                             "bytes":  117203,
+                             "sha256":  "8B632032B8A54B949C5108E05D301985F13173B4014C98AD7C7400F3C1CC89FA"
+                         },
+                         {
+                             "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTurnSubsystem.h",
+                             "bytes":  11822,
+                             "sha256":  "0A42BE9CBF7681F6C6B1582AC67ED8C843435471FB5A2C68A7E02049887DF225"
+                         },
+                         {
+                             "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignSaveSubsystem.h",
+                             "bytes":  849,
+                             "sha256":  "DF562CD23DE41BA24E17038621E1BDFED91CD0F67E17C6E99E0D5EDCDA2046EB"
+                         }
+                     ]
+}

@@ -1,0 +1,50 @@
+{
+  "source": "Scotland_Law_and_Policy_V1.md",
+  "output": "Scotland_Law_and_Policy_V1_Corrected.md",
+  "output_bytes": 68132,
+  "output_lines": 1712,
+  "output_sha256": "4a167b145797eb32c90fc95379e369c72408636fdcd7b73fc463decd68c8c1be",
+  "law_ids": [
+    "Law.Scotland.KingshipContinuity",
+    "Law.Scotland.RoyalMandate",
+    "Law.Scotland.RegionalAuthorityCustom",
+    "Law.Scotland.CouncilWitness",
+    "Law.Scotland.MilitaryService",
+    "Law.Scotland.RevenueAndDemand",
+    "Law.Scotland.EcclesiasticalParticipation",
+    "Law.Scotland.SanctuaryAndSacredCustody",
+    "Law.Scotland.CharterGrantPrivilege",
+    "Law.Scotland.DelegatedAuthority",
+    "Law.Scotland.RegencyAndProtectedGovernment",
+    "Law.Scotland.EmergencyAuthority"
+  ],
+  "policy_ids": [
+    "Policy.Scotland.ContinuityPreparation",
+    "Policy.Scotland.RegionalAccommodation",
+    "Policy.Scotland.MilitaryReadiness",
+    "Policy.Scotland.EcclesiasticalCooperation",
+    "Policy.Scotland.RevenueStability",
+    "Policy.Scotland.NorthernContactReview",
+    "Policy.Scotland.FrontierInformation",
+    "Policy.Scotland.EmergencyDefense"
+  ],
+  "unknown_law_refs": [],
+  "checks": {
+    "law_count_12": true,
+    "policy_count_8": true,
+    "compact_definition_count_1": true,
+    "all_law_refs_declared": true,
+    "bad_compact_law_removed": true,
+    "protected_principal_fixed": true,
+    "moray_uncertainty": true,
+    "duncan_opening_state": true,
+    "temporal_interfaces": true,
+    "intentional_empty": true,
+    "status_false": true,
+    "authorization_false": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  },
+  "passed": true,
+  "failed": []
+}

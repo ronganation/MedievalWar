@@ -1,0 +1,59 @@
+{
+  "manifest_id": "denmark.qualitative.mapping.bounded.owner.receipt.draft.packet.v1.manifest",
+  "version": "1.0.1",
+  "status": "PASS_SCHEMA_HARDENED_SUBMITTED_UNVALIDATED_DRAFT_PACKET",
+  "artifact_count": 6,
+  "hashed_artifact_count": 5,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 3161,
+      "sha256": "8CBD439B9994596B30BA97233A0CC7C00450D5AB833344E02666A4118F83775E",
+      "lines": 81,
+      "stable_order": 10
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_30_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 3047,
+      "sha256": "CC47176646496BB67A64B5A0C30B792CC8047267286538E69BB6984409328059",
+      "lines": 70,
+      "stable_order": 20
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_40_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 3330,
+      "sha256": "45B4904001E77CFB73A1C2EC69791E3E4E90EEFB54AD6214E920DB89AB3CF145",
+      "lines": 82,
+      "stable_order": 30
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_60_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 4062,
+      "sha256": "D62CF57CAABFD5648D7F1A497E4330F96E9B12FA7D6783C8405FE27B9BD58E2A",
+      "lines": 101,
+      "stable_order": 40
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Bounded_Owner_Receipt_Draft_Packet_V1.md",
+      "bytes": 2812,
+      "sha256": "E910745E19FD8ECEF5C8542B93E2E465D7BBB0FEB124376022217158AAF61366",
+      "lines": 94,
+      "stable_order": 50
+    }
+  ],
+  "checks": {
+    "draft_count_exactly_4": true,
+    "request_ids_exactly_10_30_40_60": true,
+    "all_submitted_unvalidated_valid": true,
+    "request_10_missing_band_vocabulary_blocked": true,
+    "request_30_binding_corrected": true,
+    "request_40_typed_semantics_added": true,
+    "request_60_missing_coverage_blocked": true,
+    "request_20_not_drafted": true,
+    "request_50_not_drafted": true,
+    "request_70_not_drafted": true,
+    "authorization_closed": true
+  },
+  "authorization_closed": true
+}

@@ -1,0 +1,374 @@
+ledger_version: 1.0.0
+ledger_status: PartialBatchCCandidateToCanonicalMappingEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+scope:
+  mapping_records: 14
+  entity_classes_reviewed: 9
+  external_reference_records: 2
+  quarantined_records: 4
+  registry_review_ready_records: 0
+  canonical_ids_allocated: 0
+  canonical_mappings_executed: 0
+  aliases_executed: 0
+source_authorities:
+  - Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+  - Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+  - Hammadid_Alias_Ownership_and_Collision_Ledger_V1.yaml
+  - Hammadid_Header_Identity_Ledger_V1.yaml
+  - Hammadid_Source_Successor_Lineage_Ledger_V1.yaml
+  - Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+constitutional_rules:
+  - CandidateReferenceIsPlanningIdentityOnly
+  - StableDocumentIdIsNotEntityId
+  - DisplayLabelDoesNotGenerateCanonicalId
+  - CanonicalIdRequiresRegistryOwnerReceipt
+  - CanonicalIdDoesNotCreateOpeningExistence
+  - EntityClassMustMatchDefinitionOwner
+  - ExternalReferenceRequiresExternalOwnerLock
+  - QuarantinedIdentityCannotBindOpeningState
+  - AliasChainIsProhibited
+  - OneApprovedDirectAliasMustPointStraightToOneCanonicalTarget
+  - SearchAliasCannotSerializeAsCanonical
+  - HistoricalLabelRequiresTemporalScope
+  - MigrationProposalIsNotMigrationExecution
+mapping_records:
+  - mapping_ref: HMD_MAP_REALM_001
+    candidate_ref: cand.realm.hammadid
+    legacy_or_working_refs:
+      - realm.hammadid
+    preferred_display_label: Hammadids
+    entity_class: Realm
+    definition_owner: Hammadid_Realm_Identity_Historical_Reconciliation_and_Opening_Political_Order_V1.md
+    state_owner: OpeningStateOwner
+    canonical_ref: Unallocated
+    direct_alias_candidates:
+      - Hammadid Realm
+    search_or_historical_aliases:
+      - Hammadid Emirate
+      - Hammadid Sultanate
+      - Kingdom of Bejaia
+    collision_refs:
+      - HMD_COLLISION_REALM_DYNASTY
+      - HMD_COLLISION_REALM_LABEL
+    quarantine_state: OwnerReviewRequired
+    registry_readiness: SourceAndEntityKindReviewPending
+    opening_readiness: NotReady
+    required_receipts:
+      - RealmDefinitionOwnerApproval
+      - RegistryCanonicalMappingReceipt
+      - OpeningStateSeparateApproval
+  - mapping_ref: HMD_MAP_FACTION_001
+    candidate_ref: faction.hammadid
+    legacy_or_working_refs: []
+    preferred_display_label: Hammadid Faction
+    entity_class: FactionOrPlayableActorPendingProjectTaxonomy
+    definition_owner: RealmDesignAndFactionTaxonomyOwners
+    state_owner: OpeningStateAndCampaignRuntimeOwners
+    canonical_ref: UnallocatedOrDeferred
+    collision_refs:
+      - HMD_COLLISION_REALM_DYNASTY
+    quarantine_state: EntityKindUnresolved
+    registry_readiness: NotReady
+    opening_readiness: NotReady
+    required_receipts:
+      - FactionEntityKindDecision
+      - RegistryOwnerApproval
+  - mapping_ref: HMD_MAP_DYNASTY_001
+    candidate_ref: cand.dynasty.hammadid
+    legacy_or_working_refs:
+      - dynasty.hammadid
+    preferred_display_label: Hammadid Dynasty
+    entity_class: Dynasty
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    state_owner: CharacterDynastyAndOpeningStateOwners
+    canonical_ref: Unallocated
+    direct_alias_candidates:
+      - Hammadid House
+    collision_refs:
+      - HMD_COLLISION_REALM_DYNASTY
+    quarantine_state: OwnerReviewRequired
+    registry_readiness: SourceAndEntityKindReviewPending
+    opening_readiness: NotReady
+    required_receipts:
+      - DynastyDefinitionOwnerApproval
+      - RegistryCanonicalMappingReceipt
+  - mapping_ref: HMD_MAP_SCENARIO_001
+    candidate_ref: cand.scenario.grand_campaign.1062
+    legacy_or_working_refs:
+      - mw.scenario.grand_campaign.1062
+    preferred_display_label: Grand Campaign 1062
+    entity_class: ScenarioExternalReference
+    definition_owner: ScenarioOwner
+    state_owner: ScenarioOwner
+    canonical_ref: ExternalOwnerControlled
+    collision_refs:
+      - HMD_COLLISION_SCENARIO_VARIANT
+    quarantine_state: ExternalLockRequired
+    registry_readiness: BlockedPendingExternalReceipt
+    opening_readiness: BlockedPendingBoundaryDecision
+    required_receipts:
+      - ScenarioCanonicalReferenceReceipt
+      - HMD_DATE_001BoundaryDecision
+      - VariantSeparationReceipt
+  - mapping_ref: HMD_MAP_THEATER_001
+    candidate_ref: cand.theater.north_africa
+    legacy_or_working_refs:
+      - theater.north_africa
+    preferred_display_label: North Africa
+    entity_class: TheaterExternalReference
+    definition_owner: CampaignTheaterOwner
+    state_owner: CampaignTheaterOwner
+    canonical_ref: ExternalOwnerControlled
+    search_aliases:
+      - North_Africa
+    collision_refs:
+      - HMD_COLLISION_THEATER_ASSOCIATION
+    quarantine_state: ExternalLockRequired
+    registry_readiness: BlockedPendingExternalReceipt
+    opening_readiness: NotApplicableUntilExternalLock
+    required_receipts:
+      - TheaterCanonicalReferenceReceipt
+      - TheaterAssociationReceipt
+  - mapping_ref: HMD_MAP_ANNASIR_001
+    candidate_ref: cand.person.hammadid.al_nasir_ibn_alnas
+    legacy_or_working_refs:
+      - character.hammadid.an_nasir_ibn_alnas
+    preferred_display_label: al-Nasir ibn Alnas
+    entity_class: Person
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    profile_owner_candidate: An_Nasir_ibn_Alnas_V1_1_Developed_Character_Profile_Authority.md
+    state_owner: OpeningStateOwner
+    canonical_ref: Unallocated
+    direct_alias_candidates:
+      - An-Nasir ibn Alnas
+    search_aliases:
+      - Nasir ibn Alnas
+      - Al Nasir ibn Alnas
+      - An_Nasir_ibn_Alnas
+    collision_refs:
+      - HMD_COLLISION_ANNASIR_ARTIFACTS
+      - HMD_COLLISION_ANNASIR_REFS
+    quarantine_state: Active
+    registry_readiness: Quarantined
+    opening_readiness: Blocked
+    required_receipts:
+      - ThreeArtifactHashAndContentDisposition
+      - CharacterDefinitionOwnerApproval
+      - RegistryCanonicalMappingReceipt
+      - HMD_DATE_001BoundaryDecision
+      - OpeningPresenceAndOfficeReceipt
+  - mapping_ref: HMD_MAP_BULUGGIN_001
+    candidate_ref: cand.person.hammadid.buluggin_ibn_muhammad
+    legacy_or_working_refs:
+      - character.hammadid.buluggin_ibn_muhammad
+    preferred_display_label: Buluggin ibn Muhammad
+    entity_class: Person
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    profile_owner_candidate: Buluggin_ibn_Muhammad_V1_1_Historical_Legacy_Character_Profile_Authority.md
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    canonical_ref: Unallocated
+    direct_alias_candidates:
+      - Buluqqin ibn Muhammad
+    search_aliases:
+      - Buluggin_ibn_Muhammad
+    collision_refs: []
+    quarantine_state: BoundaryHeld
+    registry_readiness: SourceVerificationPending
+    opening_readiness: BoundaryDependent
+    required_receipts:
+      - CharacterDefinitionOwnerApproval
+      - RegistryCanonicalMappingReceipt
+      - HMD_DATE_001BoundaryDecision
+      - LifecycleAndMemoryAdmissionReceipt
+  - mapping_ref: HMD_MAP_NAMIRT_001
+    candidate_ref: cand.person.hammadid.namirt_bint_alnas
+    legacy_or_working_refs:
+      - character.hammadid.namirt_bint_alnas
+    preferred_display_label: Namirt bint Alnas
+    entity_class: Person
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    profile_owner_candidate: Namirt_bint_Alnas_V1_1_Historical_Memory_and_Dynastic_Profile_Authority.md
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    canonical_ref: Unallocated
+    search_aliases:
+      - Namirt_bint_Alnas
+    collision_refs: []
+    quarantine_state: OpeningAdmissionHeld
+    registry_readiness: SourceVerificationPending
+    opening_readiness: Held
+    required_receipts:
+      - CharacterDefinitionOwnerApproval
+      - RelationshipEvidenceReceipt
+      - RegistryCanonicalMappingReceipt
+      - HistoricalMemoryAdmissionReceipt
+  - mapping_ref: HMD_MAP_MUQATIL_001
+    candidate_ref: cand.person.hammadid.muqatil_ibn_muhammad
+    legacy_or_working_refs:
+      - character.hammadid.muqatil_ibn_muhammad
+    preferred_display_label: Muqatil ibn Muhammad
+    entity_class: Person
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    profile_owner_candidate: Muqatil_ibn_Muhammad_V1_Historical_Memory_and_Dynastic_Bridge_Profile_Authority.md
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    canonical_ref: Unallocated
+    search_aliases:
+      - Muqatil_ibn_Muhammad
+    collision_refs: []
+    quarantine_state: OpeningAdmissionHeld
+    registry_readiness: SourceVerificationPending
+    opening_readiness: Held
+    required_receipts:
+      - CharacterDefinitionOwnerApproval
+      - RelationshipEvidenceReceipt
+      - RegistryCanonicalMappingReceipt
+      - HistoricalMemoryAdmissionReceipt
+  - mapping_ref: HMD_MAP_QALAT_001
+    candidate_ref: cand.place.hammadid.qalat_bani_hammad
+    legacy_or_working_refs: []
+    preferred_display_label: Qal'at Bani Hammad
+    entity_class: PlaceCandidatePendingTypedRuntimeDecomposition
+    definition_owner: Hammadid_Strategic_Geography_Regions_Settlements_Fortresses_Routes_and_Saharan_Interfaces_Authority_V1_1_FULL.md
+    specialist_owner: Hammadid_Qalat_Bani_Hammad_Capital_Court_Fortress_Mosque_and_Urban_Authority_V1.md
+    state_owner: OpeningStateOwner
+    canonical_ref: Unallocated
+    direct_alias_candidates:
+      - Qalat Bani Hammad
+      - Qal'a of Beni Hammad
+      - Al Qal'a of Beni Hammad
+    search_aliases:
+      - Qala
+      - Qal'a
+      - Qalat_Bani_Hammad
+    collision_refs:
+      - HMD_COLLISION_QALAT_FUNCTION
+      - HMD_COLLISION_QALA_SHORT
+    quarantine_state: ShortAliasAndEntityKindHeld
+    registry_readiness: TypedMappingPending
+    opening_readiness: ControlAndInventoryBindingPending
+    required_receipts:
+      - GeographyIdentityReceipt
+      - TypedPlaceSettlementFortressCapitalMapping
+      - RegistryCanonicalMappingReceipt
+      - OpeningControlAndCapitalReceipt
+  - mapping_ref: HMD_MAP_BEJAIA_001
+    candidate_ref: cand.place.hammadid.bejaia
+    legacy_or_working_refs: []
+    preferred_display_label: Bejaia
+    entity_class: Place
+    definition_owner: Hammadid_Strategic_Geography_Regions_Settlements_Fortresses_Routes_and_Saharan_Interfaces_Authority_V1_1_FULL.md
+    state_owner: HistoricalEventAndOpeningStateOwners
+    canonical_ref: Unallocated
+    direct_alias_candidates:
+      - Bijaya
+      - Bougie
+    historical_aliases:
+      - al-Nasiriyya
+      - al-Nasiriyah
+    collision_refs:
+      - HMD_COLLISION_BEJAIA_TEMPORAL
+    quarantine_state: QuarantinedFrom1062Opening
+    registry_readiness: HistoricalAndAliasReviewPending
+    opening_readiness: NotOpeningApproved
+    required_receipts:
+      - HistoricalTemporalScopeReceipt
+      - GeographyIdentityReceipt
+      - RegistryCanonicalMappingReceipt
+      - ExplicitOpeningExclusionOrLaterEmergenceReceipt
+  - mapping_ref: HMD_MAP_GREAT_MOSQUE_001
+    candidate_ref: cand.institution.hammadid.qalat_great_mosque
+    legacy_or_working_refs: []
+    preferred_display_label: Great Mosque of Qal'at Bani Hammad
+    entity_class: InstitutionCandidate
+    definition_owner: Hammadid_Religious_Juristic_Great_Mosque_Legitimacy_and_Institutional_Authority_V1.md
+    property_owner: Hammadid_Property_Construction_Urban_Development_and_Infrastructure_Authority_V1.md
+    place_specialist_owner: Hammadid_Qalat_Bani_Hammad_Capital_Court_Fortress_Mosque_and_Urban_Authority_V1.md
+    state_owner: OpeningStateOwner
+    canonical_ref: Unallocated
+    collision_refs:
+      - HMD_COLLISION_INSTITUTION_BUILDING
+    quarantine_state: InstitutionBuildingAndOpeningInstanceHeld
+    registry_readiness: EntityKindAndOwnerReceiptPending
+    opening_readiness: NotReady
+    required_receipts:
+      - InstitutionDefinitionReceipt
+      - BuildingPropertyReceipt
+      - RegistryEntityKindAndCanonicalMappingReceipt
+      - OpeningInstanceReceipt
+  - mapping_ref: HMD_MAP_COURT_001
+    candidate_ref: cand.institution.hammadid.ruler_court
+    legacy_or_working_refs: []
+    preferred_display_label: Hammadid Ruler Court
+    entity_class: InstitutionOrRelationshipContextPendingTaxonomy
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    governance_owner: Hammadid_Governance_Political_Constitution_Offices_Delegation_Regional_Authority_Compliance_and_Restoration_Authority_V1_1_FULL.md
+    state_owner: OpeningStateOwner
+    canonical_ref: Unallocated
+    collision_refs:
+      - HMD_COLLISION_INSTITUTION_BUILDING
+    quarantine_state: EntityKindAndMembershipHeld
+    registry_readiness: NotReady
+    opening_readiness: NotReady
+    required_receipts:
+      - CourtEntityKindDecision
+      - MembershipAndAccessOwnerReceipt
+      - RegistryCanonicalMappingReceipt
+      - OpeningCourtInstanceReceipt
+  - mapping_ref: HMD_MAP_CHANCERY_001
+    candidate_ref: cand.institution.hammadid.chancery
+    legacy_or_working_refs: []
+    preferred_display_label: Hammadid Chancery
+    entity_class: AdministrativeFunctionOrInstitutionCandidate
+    definition_owner: Hammadid_Governance_Political_Constitution_Offices_Delegation_Regional_Authority_Compliance_and_Restoration_Authority_V1_1_FULL.md
+    records_owner: Hammadid_Education_Scholarship_Literacy_Archives_Records_and_Cultural_Production_Authority_V1.md
+    state_owner: OpeningStateOwner
+    canonical_ref: Unallocated
+    collision_refs:
+      - HMD_COLLISION_INSTITUTION_BUILDING
+    quarantine_state: FunctionInstitutionOfficeAndBuildingHeld
+    registry_readiness: NotReady
+    opening_readiness: NotReady
+    required_receipts:
+      - GovernanceFunctionDefinitionReceipt
+      - EntityKindDecision
+      - RegistryCanonicalMappingReceipt
+      - OpeningInstanceAndOfficeReceipt
+readiness_summary:
+  mapping_records: 14
+  candidate_only_records: 8
+  external_lock_records: 2
+  quarantined_or_held_records: 14
+  registry_review_ready_records: 0
+  canonical_mapping_receipts: 0
+  opening_ready_records: 0
+owner_decision_queue:
+  - DecideRealmFactionDynastyEntityKindsAndCanonicalSeparation
+  - ReturnScenarioAndTheaterExternalLocks
+  - DispositionAnNasirThreeArtifactGroup
+  - ApproveCharacterIdentityMappings
+  - ApproveQalatTypedPlaceAndFunctionMapping
+  - PreserveBejaiaTemporalExclusionFromOpening
+  - DecideGreatMosqueInstitutionAndBuildingKinds
+  - DecideCourtAndChanceryEntityKinds
+validation_summary:
+  mapping_records_reviewed: 14
+  duplicate_candidate_refs_within_ledger: 0
+  canonical_ids_allocated: 0
+  direct_aliases_executed: 0
+  migrations_executed: 0
+  entities_created: 0
+  source_files_modified: 0
+  registry_mutations: 0
+  opening_state_mutations: 0
+  result: PASS_AS_PARTIAL_BATCH_C_CANDIDATE_TO_CANONICAL_MAPPING_LEDGER
+stable_footer:
+  stable_document_id: HMD_CANDIDATE_TO_CANONICAL_IDENTITY_MAPPING_LEDGER
+  version: 1.0.0
+  status: PartialBatchCCandidateToCanonicalMappingEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  payload_authorized: false
+  importer_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false

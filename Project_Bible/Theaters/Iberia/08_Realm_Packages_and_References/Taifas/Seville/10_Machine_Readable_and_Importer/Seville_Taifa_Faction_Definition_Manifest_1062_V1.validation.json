@@ -1,0 +1,207 @@
+{
+  "ValidationProfileId": "validation.seville_taifa.faction_definition_manifest.1062.v1",
+  "InternalVersion": "1.1.0",
+  "SchemaDraft": "2020-12",
+  "ManifestRef": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.json",
+  "SchemaRef": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.schema.json",
+  "FailClosed": true,
+  "Assertions": [
+    {
+      "AssertionId": "DEF_COUNT_13",
+      "Path": "$.ProfileBindings",
+      "Rule": "count_equals",
+      "Expected": 13,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "OBS_COUNT_7",
+      "Path": "$.ObservationContracts",
+      "Rule": "count_equals",
+      "Expected": 7,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "ACTION_COUNT_5",
+      "Path": "$.FirstTurnActions",
+      "Rule": "count_equals",
+      "Expected": 5,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "NO_RUNTIME_INSTANCES",
+      "Path": "$.DeclaredCounts.RuntimeInstances",
+      "Rule": "equals",
+      "Expected": 0,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "OPENING_STATE_UNCHANGED",
+      "Path": "$.ManifestIdentity.OpeningStateMutationAllowed",
+      "Rule": "equals",
+      "Expected": false,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "DIRECT_IDS_ONLY",
+      "Path": "$.RegistryBinding.DirectIdsOnly",
+      "Rule": "equals",
+      "Expected": true,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "NO_ALIAS_CHAINS",
+      "Path": "$.RegistryBinding.AliasChainsAllowed",
+      "Rule": "equals",
+      "Expected": false,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "NO_DEPRECATED_IDS",
+      "Path": "$.RegistryBinding.DeprecatedIdsAllowed",
+      "Rule": "equals",
+      "Expected": false,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "NO_EXTERNAL_LOCK_AT_CREATION",
+      "Path": "$.ExternalLockPolicy.MinimumExternalLocksRequiredAtCampaignCreation",
+      "Rule": "equals",
+      "Expected": 0,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "HISTORICAL_21",
+      "Path": "$.TemporalContract.HistoricalProgressionMonthsPerStrategicTurn",
+      "Rule": "equals",
+      "Expected": 21,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "BIOLOGICAL_7",
+      "Path": "$.TemporalContract.BiologicalProgressionMonthsPerStrategicTurn",
+      "Rule": "equals",
+      "Expected": 7,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "SEASON_ORDER",
+      "Path": "$.TemporalContract.CampaignSeasonOrder",
+      "Rule": "ordered_equals",
+      "Expected": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ],
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "ASSESSMENTS_NO_TIME",
+      "Path": "$.TemporalContract.AssessmentAdvancesTime",
+      "Rule": "equals",
+      "Expected": false,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "PROFILE_STABLE_ORDER_UNIQUE",
+      "Path": "$.ProfileBindings[*].StableOrderKey",
+      "Rule": "unique",
+      "Expected": true,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "OBS_STABLE_ORDER_UNIQUE",
+      "Path": "$.ObservationContracts[*].StableOrderKey",
+      "Rule": "unique",
+      "Expected": true,
+      "Severity": "Fatal"
+    },
+    {
+      "AssertionId": "ACTION_STABLE_ORDER_UNIQUE",
+      "Path": "$.FirstTurnActions[*].StableOrderKey",
+      "Rule": "unique",
+      "Expected": true,
+      "Severity": "Fatal"
+    }
+  ],
+  "ForbiddenKeysRecursive": [
+    "TreasuryBalance",
+    "ActiveArmy",
+    "ActiveUnit",
+    "CommandAssignment",
+    "Garrison",
+    "RouteOperation",
+    "PortOperation",
+    "MarketOperation",
+    "Agreement",
+    "Relationship",
+    "KnowledgeEdge",
+    "FormalHeir",
+    "SuccessionWinner",
+    "HistoricalOutcome",
+    "RuntimeMutation",
+    "TurnLengthMonths"
+  ],
+  "ExpectedCanonicalProfileIds": [
+    "realm_personality.seville.expanding_urban_taifa.1062",
+    "ai_profile.realm.seville.1062",
+    "risk_policy.seville.multi_front.v1",
+    "pressure.seville.abbadid_transition.1062",
+    "geography_profile.realm.seville.1062",
+    "economy_profile.realm.seville.1062",
+    "military_profile.realm.seville.1062",
+    "roster_profile.realm.seville.1062",
+    "diplomacy_profile.realm.seville.1062",
+    "external_pressure_profile.realm.seville.1062",
+    "visual_identity_profile.realm.seville.1062",
+    "faction_selection_profile.realm.seville.1062",
+    "presentation_grammar.realm.seville.1062"
+  ],
+  "ExpectedObservationIds": [
+    "observation_contract.opening_treasury_assessment.v1",
+    "observation_contract.capital_defense_assessment.v1",
+    "observation_contract.recruitment_muster_assessment.v1",
+    "observation_contract.command_availability_assessment.v1",
+    "observation_contract.capital_connection_assessment.v1",
+    "observation_contract.settlement_integration_review.v1",
+    "observation_contract.external_knowledge_contact_assessment.v1"
+  ],
+  "ExpectedFirstTurnActionIds": [
+    "first_turn.seville.assess_treasury_revenue",
+    "first_turn.seville.review_capital_defense_force_readiness",
+    "first_turn.seville.survey_realm_administration_integration",
+    "first_turn.seville.investigate_western_corridor",
+    "first_turn.seville.review_dynastic_continuity_external_pressure"
+  ],
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryInsertionExecuted": false,
+    "ImporterValidated": false,
+    "RuntimeValidated": false,
+    "SchemaMetaschemaValidated": true,
+    "CanonicalManifestSchemaValidated": true,
+    "SemanticStaticChecksValidated": true,
+    "FixtureRerunExecuted": false,
+    "CompileValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false,
+    "BalanceValidated": false
+  },
+  "MaintenanceAuthority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8"
+  },
+  "EvidenceBoundary": {
+    "PriorFixtureExecution": "29_OF_29_PASSED_FOR_PRIOR_HASH",
+    "CurrentManifestSchemaValidation": "PASS",
+    "CurrentSemanticStaticChecks": "PASS",
+    "CurrentFixtureRerunExecuted": false
+  },
+  "OpeningStateCompatibility": {
+    "OpeningAuthorityInternalVersion": "1.3.0",
+    "OpeningPackageContractInternalVersion": "1.2.0",
+    "DefinitionFamilyBindingsReferenced": 11,
+    "OpeningRuntimeMutationAllowed": false
+  }
+}

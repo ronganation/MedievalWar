@@ -1,0 +1,61 @@
+{
+  "dynasties": [
+    "dynasty.rennes",
+    "dynasty.rennes_penthievre",
+    "dynasty.cornouaille"
+  ],
+  "geography": [
+    "settlement.rennes",
+    "settlement.nantes",
+    "settlement.dol",
+    "settlement.combourg",
+    "settlement.dinan",
+    "settlement.lamballe",
+    "settlement.saint_brieuc",
+    "settlement.treguier",
+    "settlement.vannes",
+    "settlement.quimper",
+    "settlement.quimperle",
+    "settlement.redon",
+    "settlement.fougeres",
+    "settlement.vitre",
+    "region.rennais",
+    "region.penthievre",
+    "region.cornouaille",
+    "region.nantais",
+    "region.dol_combourg",
+    "region.leon_brittany",
+    "region.goelo",
+    "region.porhoet",
+    "route.dol_dinan_rennes_corridor",
+    "route.rennes_nantes_corridor",
+    "route.brittany_anjou_march",
+    "route.brittany_normandy_frontier"
+  ],
+  "institutions": [
+    "institution.church_dol",
+    "institution.church_tours_metropolitan"
+  ],
+  "offices": [
+    "office.brittany.regent"
+  ],
+  "people": [
+    "person.conan_ii_brittany",
+    "person.odo_penthievre",
+    "person.hawise_brittany",
+    "person.hoel_cornouaille",
+    "person.rivallon_i_dol",
+    "person.alan_iii_brittany",
+    "person.alan_iv_brittany"
+  ],
+  "realm": "realm.brittany",
+  "scenario": "Scenario.Brittany.1062January",
+  "titles": [
+    "title.duchy_brittany",
+    "title.county_rennes",
+    "title.county_penthievre",
+    "title.county_cornouaille",
+    "title.county_nantes",
+    "title.lordship_combourg"
+  ]
+}

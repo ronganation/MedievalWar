@@ -1,0 +1,17 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "inputs_10": true,
+    "portfolio_counts": true,
+    "mapping_97": true,
+    "child_candidates_2": true,
+    "quarantine_19": true,
+    "chronology_38": true,
+    "decision_form": true,
+    "rollback": true,
+    "nonmutation": true
+  },
+  "SHA256": "dd572a03469ca03b92d1c6d89e61fd8e523c40d07286f7f6d6abd8d73d8fbf2b",
+  "Bytes": 19800,
+  "Lines": 568
+}

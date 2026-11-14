@@ -1,0 +1,1031 @@
+{
+  "adapter_id": "mw.shared-adapter.denmark.character-network.v1",
+  "version": "1.0.0",
+  "scenario_id": "mw.scenario.grand_campaign.1062",
+  "effective_scenario_date": "1062-01-01",
+  "turn_length_months": 7,
+  "realm_id": "realm.denmark.kingdom",
+  "status": "Static-Checked",
+  "dry_preflight_status": "Dry-Preflight-Validated",
+  "compile_validated": false,
+  "runtime_validated": false,
+  "runtime_creation_permitted": false,
+  "runtime_mutation_permitted": false,
+  "creates_denmark_specific_runtime_importer": false,
+  "envelope_role": "shared_importer_envelope_not_source_manifest_replacement",
+  "source_manifest": "Denmark_Character_Network_Importer_Manifest_V1_REBUILT.json",
+  "design_authority": "Denmark_Character_Network_Decision_Pass_V1_REBUILT.md",
+  "transport_authority": "Denmark_Character_Network_Importer_Manifest_V1_REBUILT.json",
+  "authority_inputs": [
+    {
+      "file": "Denmark_Character_Network_Decision_Pass_V1_REBUILT.md",
+      "sha256": "c0f82bf44b0a61681dc24516cce24814e156dfa059ee15212e4d5c218be09c0d"
+    },
+    {
+      "file": "Denmark_Character_Network_Evidence_Review_V1_REBUILT.md",
+      "sha256": "1304d192e553e5ebb4f456f7d6930203ea856788f325913bcdf3f513400951c0"
+    },
+    {
+      "file": "Denmark_Character_Network_Importer_Manifest_V1_REBUILT.json",
+      "sha256": "754565472fd1ffb7b3a1db3f7669cab34c261beec84a14ed7b21eab1bf6c5fa6"
+    },
+    {
+      "file": "Denmark_Character_Network_Dry_Preflight_Report_V1_REBUILT.md",
+      "sha256": "a5a20fdd5e83119825a1434933576de14f6c868f686f161b8314f2dd066a7ce7"
+    },
+    {
+      "file": "Denmark_Character_Network_Integration_Contract_V1_REBUILT.md",
+      "sha256": "cc24b4403bb470c1e015a60452ad4013a0bae314167ba9292d72159a1bb02670"
+    },
+    {
+      "file": "Denmark_External_Lock_Resolution_Ledger_V1.md",
+      "sha256": "757dd8c0d51de29f44871d4f169cbb37823ada4fa2f53e44880c0d9b71c0ad65"
+    },
+    {
+      "file": "Adalbert_Hamburg_Bremen_External_Authority_V1.md",
+      "sha256": "580cea940c4cb99196bcebdd9992a41506e68717363f6097f46a7cd69514fb66"
+    },
+    {
+      "file": "Gottschalk_Obotrite_External_Authority_V1.md",
+      "sha256": "8909d4d3b2b56b6c9cc931c119337b70ff1f178a656fb05caaa9ef161eb9579e"
+    }
+  ],
+  "expected_counts": {
+    "total_directions": 20,
+    "denmark_owned": 12,
+    "conditional_or_external": 8,
+    "active": 4,
+    "basis_only": 2,
+    "denmark_owned_conditional": 6,
+    "conditional_external": 4,
+    "external_owner_reverse": 4,
+    "unique_external_identities": 3
+  },
+  "auto_generate_reverse_edges": false,
+  "unknown_values_preserved": true,
+  "unknown_values_convert_to_zero": false,
+  "records": [
+    {
+      "relationship_id": "network.denmark.sweyn_to_harald_sweynson",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.sweyn_to_harald_sweynson",
+        "SourcePersonId": "person.denmark.sweyn_estridsen",
+        "TargetPersonId": "person.denmark.harald_sweynson",
+        "Owner": "Denmark",
+        "Disposition": "active",
+        "BasisRefs": [
+          "parentage",
+          "dynasty.denmark.house_estridsen"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Obligation",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Trust",
+            "Band": "Unknown",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "SuccessionSupport",
+            "Band": "Unknown",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommandConfidence",
+            "Band": "Unknown",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommunicationAccess",
+            "Band": "Limited Positive",
+            "Confidence": "moderate",
+            "Visibility": "inferred"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.harald_sweynson_to_sweyn",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.harald_sweynson_to_sweyn",
+        "SourcePersonId": "person.denmark.harald_sweynson",
+        "TargetPersonId": "person.denmark.sweyn_estridsen",
+        "Owner": "Denmark",
+        "Disposition": "active",
+        "BasisRefs": [
+          "parentage",
+          "current_sovereign_relation"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Obligation",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Respect",
+            "Band": "Limited Positive",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Trust",
+            "Band": "Unknown",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommunicationAccess",
+            "Band": "Limited Positive",
+            "Confidence": "moderate",
+            "Visibility": "inferred"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.sweyn_to_canute_sweynson",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.sweyn_to_canute_sweynson",
+        "SourcePersonId": "person.denmark.sweyn_estridsen",
+        "TargetPersonId": "person.denmark.canute_sweynson",
+        "Owner": "Denmark",
+        "Disposition": "active",
+        "BasisRefs": [
+          "parentage",
+          "dynasty.denmark.house_estridsen"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Obligation",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Trust",
+            "Band": "Unknown",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "SuccessionSupport",
+            "Band": "Unknown",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommandConfidence",
+            "Band": "Unknown",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommunicationAccess",
+            "Band": "Limited Positive",
+            "Confidence": "moderate",
+            "Visibility": "inferred"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.canute_sweynson_to_sweyn",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.canute_sweynson_to_sweyn",
+        "SourcePersonId": "person.denmark.canute_sweynson",
+        "TargetPersonId": "person.denmark.sweyn_estridsen",
+        "Owner": "Denmark",
+        "Disposition": "active",
+        "BasisRefs": [
+          "parentage",
+          "current_sovereign_relation"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Obligation",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Respect",
+            "Band": "Limited Positive",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Trust",
+            "Band": "Unknown",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommunicationAccess",
+            "Band": "Limited Positive",
+            "Confidence": "moderate",
+            "Visibility": "inferred"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.harald_to_canute_sweynson",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.harald_to_canute_sweynson",
+        "SourcePersonId": "person.denmark.harald_sweynson",
+        "TargetPersonId": "person.denmark.canute_sweynson",
+        "Owner": "Denmark",
+        "Disposition": "basis_only",
+        "BasisRefs": [
+          "sibling_kinship"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Limited Positive",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "RivalryPressure",
+            "Band": "Unknown",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "SuccessionSupport",
+            "Band": "Unknown",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.canute_to_harald_sweynson",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.canute_to_harald_sweynson",
+        "SourcePersonId": "person.denmark.canute_sweynson",
+        "TargetPersonId": "person.denmark.harald_sweynson",
+        "Owner": "Denmark",
+        "Disposition": "basis_only",
+        "BasisRefs": [
+          "sibling_kinship"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Limited Positive",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "RivalryPressure",
+            "Band": "Unknown",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "SuccessionSupport",
+            "Band": "Unknown",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.sweyn_to_eric_sweynson",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.sweyn_to_eric_sweynson",
+        "SourcePersonId": "person.denmark.sweyn_estridsen",
+        "TargetPersonId": "person.denmark.eric_sweynson",
+        "Owner": "Denmark",
+        "Disposition": "conditional",
+        "BasisRefs": [
+          "parentage",
+          "underage_child_safe"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Household Dependent",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "ProtectiveResponsibility",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Obligation",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "PersonalAttachment",
+            "Band": "Unknown",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommunicationAccess",
+            "Band": "Household Dependent",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active",
+          "underage_roles_valid",
+          "household_state_known"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.eric_to_sweyn",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.eric_to_sweyn",
+        "SourcePersonId": "person.denmark.eric_sweynson",
+        "TargetPersonId": "person.denmark.sweyn_estridsen",
+        "Owner": "Denmark",
+        "Disposition": "conditional",
+        "BasisRefs": [
+          "parentage",
+          "underage_child_safe"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Household Dependent",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "PersonalAttachment",
+            "Band": "Unknown",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Trust",
+            "Band": "Unknown",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommunicationAccess",
+            "Band": "Household Dependent",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "InformationConfidence",
+            "Band": "Limited Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active",
+          "underage_roles_valid",
+          "household_state_known"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.sweyn_to_sigrid_sweynsdaughter",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.sweyn_to_sigrid_sweynsdaughter",
+        "SourcePersonId": "person.denmark.sweyn_estridsen",
+        "TargetPersonId": "person.denmark.sigrid_sweynsdaughter",
+        "Owner": "Denmark",
+        "Disposition": "conditional",
+        "BasisRefs": [
+          "parentage",
+          "cross_realm_dynasty"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Limited Positive",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Obligation",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommunicationAccess",
+            "Band": "Route Dependent",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "InformationConfidence",
+            "Band": "Limited Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "ProtectiveResponsibility",
+            "Band": "Limited Positive",
+            "Confidence": "low",
+            "Visibility": "private"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active",
+          "target_location_known"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.sigrid_to_sweyn",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.sigrid_to_sweyn",
+        "SourcePersonId": "person.denmark.sigrid_sweynsdaughter",
+        "TargetPersonId": "person.denmark.sweyn_estridsen",
+        "Owner": "Denmark",
+        "Disposition": "conditional",
+        "BasisRefs": [
+          "parentage",
+          "cross_realm_dynasty"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Limited Positive",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Obligation",
+            "Band": "Limited Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Dependence",
+            "Band": "Unknown",
+            "Confidence": "low",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommunicationAccess",
+            "Band": "Route Dependent",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "InformationConfidence",
+            "Band": "Limited Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active",
+          "source_location_known"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.sweyn_to_william_roskilde",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.sweyn_to_william_roskilde",
+        "SourcePersonId": "person.denmark.sweyn_estridsen",
+        "TargetPersonId": "person.denmark.william_roskilde",
+        "Owner": "Denmark",
+        "Disposition": "conditional",
+        "BasisRefs": [
+          "crown_church_patronage",
+          "roskilde_office_interface"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Trust",
+            "Band": "Limited Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Respect",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "PatronageExpectation",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "InstitutionalAlignment",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "inferred"
+          },
+          {
+            "DimensionId": "NegotiationWillingness",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Dependence",
+            "Band": "Mixed",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommunicationAccess",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active",
+          "target_holds_office.denmark.bishop_roskilde"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.william_roskilde_to_sweyn",
+      "record_role": "denmark_owned_direction",
+      "owner": "Denmark.CharacterNetwork",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.william_roskilde_to_sweyn",
+        "SourcePersonId": "person.denmark.william_roskilde",
+        "TargetPersonId": "person.denmark.sweyn_estridsen",
+        "Owner": "Denmark",
+        "Disposition": "conditional",
+        "BasisRefs": [
+          "episcopal_crown_interface",
+          "royal_patronage"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Trust",
+            "Band": "Limited Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Respect",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "PatronageExpectation",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "InstitutionalAlignment",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "inferred"
+          },
+          {
+            "DimensionId": "NegotiationWillingness",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Dependence",
+            "Band": "Mixed",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "CommunicationAccess",
+            "Band": "Positive",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          }
+        ],
+        "ActivationRequirements": [
+          "source_active",
+          "target_active",
+          "source_holds_office.denmark.bishop_roskilde"
+        ],
+        "EffectiveFrom": "1062-01-01",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.sigrid_to_external_gottschalk",
+      "record_role": "conditional_external_direction",
+      "owner": "future_obotrite_registry",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.sigrid_to_external_gottschalk",
+        "SourcePersonId": "person.denmark.sigrid_sweynsdaughter",
+        "TargetExternalLockId": "review.denmark.external.obotrite.gottschalk",
+        "Disposition": "conditional",
+        "ExternalOwner": "future_obotrite_registry",
+        "ActivationRequirements": [
+          "external_lock_resolved",
+          "marriage_active",
+          "source_active",
+          "household_location_known"
+        ],
+        "ExternalLockResolutionState": "ReviewExternalRegistry",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "external.gottschalk_to_sigrid",
+      "record_role": "external_owner_reverse_reference",
+      "owner": "future_obotrite_registry",
+      "commit_permitted": false,
+      "source_record": {
+        "DirectionId": "external.gottschalk_to_sigrid",
+        "TargetPersonId": "person.denmark.sigrid_sweynsdaughter",
+        "Disposition": "external_owner",
+        "ExternalOwner": "future_obotrite_registry",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.william_to_external_adalbert",
+      "record_role": "conditional_external_direction",
+      "owner": "future_hre_global_registry",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.william_to_external_adalbert",
+        "SourcePersonId": "person.denmark.william_roskilde",
+        "TargetExternalLockId": "review.denmark.external.hamburg_bremen.adalbert",
+        "Disposition": "conditional",
+        "ExternalOwner": "future_hre_global_registry",
+        "ActivationRequirements": [
+          "external_lock_resolved",
+          "source_holds_office.denmark.bishop_roskilde"
+        ],
+        "ExternalLockResolutionState": "ReviewExternalRegistry",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "external.adalbert_to_william",
+      "record_role": "external_owner_reverse_reference",
+      "owner": "future_hre_global_registry",
+      "commit_permitted": false,
+      "source_record": {
+        "DirectionId": "external.adalbert_to_william",
+        "TargetPersonId": "person.denmark.william_roskilde",
+        "Disposition": "external_owner",
+        "ExternalOwner": "future_hre_global_registry",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.sweyn_to_external_adalbert",
+      "record_role": "conditional_external_direction",
+      "owner": "future_hre_global_registry",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.sweyn_to_external_adalbert",
+        "SourcePersonId": "person.denmark.sweyn_estridsen",
+        "TargetExternalLockId": "review.denmark.external.hamburg_bremen.adalbert",
+        "Disposition": "conditional",
+        "ExternalOwner": "future_hre_global_registry",
+        "ActivationRequirements": [
+          "external_lock_resolved",
+          "source_active"
+        ],
+        "ExternalLockResolutionState": "ReviewExternalRegistry",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "external.adalbert_to_sweyn",
+      "record_role": "external_owner_reverse_reference",
+      "owner": "future_hre_global_registry",
+      "commit_permitted": false,
+      "source_record": {
+        "DirectionId": "external.adalbert_to_sweyn",
+        "TargetPersonId": "person.denmark.sweyn_estridsen",
+        "Disposition": "external_owner",
+        "ExternalOwner": "future_hre_global_registry",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "network.denmark.sweyn_to_external_harald_hardrada",
+      "record_role": "conditional_external_direction",
+      "owner": "norway_registry",
+      "commit_permitted": false,
+      "source_record": {
+        "RelationshipId": "network.denmark.sweyn_to_external_harald_hardrada",
+        "SourcePersonId": "person.denmark.sweyn_estridsen",
+        "TargetExternalLockId": "review.denmark.external.norway.harald_hardrada",
+        "Disposition": "conditional",
+        "ExternalOwner": "norway_registry",
+        "ActivationRequirements": [
+          "external_lock_resolved",
+          "source_active",
+          "target_active",
+          "claim_war_context_active"
+        ],
+        "Dimensions": [
+          {
+            "DimensionId": "Familiarity",
+            "Band": "Positive",
+            "Confidence": "high",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "ThreatAssessment",
+            "Band": "Strong Negative",
+            "Confidence": "high",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Grievance",
+            "Band": "Negative",
+            "Confidence": "high",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "Trust",
+            "Band": "Negative",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "NegotiationWillingness",
+            "Band": "Mixed",
+            "Confidence": "moderate",
+            "Visibility": "private"
+          },
+          {
+            "DimensionId": "RivalryPressure",
+            "Band": "Strong Positive",
+            "Confidence": "high",
+            "Visibility": "inferred"
+          }
+        ],
+        "ResolvedCanonicalTargetPersonId": "Character.Norway.HaraldHardrada",
+        "ExternalLockResolutionState": "ResolvedCanonical",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    },
+    {
+      "relationship_id": "external.harald_hardrada_to_sweyn",
+      "record_role": "external_owner_reverse_reference",
+      "owner": "norway_registry",
+      "commit_permitted": false,
+      "source_record": {
+        "DirectionId": "external.harald_hardrada_to_sweyn",
+        "TargetPersonId": "person.denmark.sweyn_estridsen",
+        "Disposition": "external_owner",
+        "ExternalOwner": "norway_registry",
+        "ContentVersion": "1.1.0",
+        "RegistryVersion": "review.pending"
+      }
+    }
+  ],
+  "external_identity_locks": [
+    {
+      "LockId": "review.denmark.external.norway.harald_hardrada",
+      "CanonicalPersonId": "Character.Norway.HaraldHardrada",
+      "OwnerRegistryId": "Migration.Norway.IDRegistry",
+      "ResolutionState": "ResolvedCanonical",
+      "AffectedDirectionIds": [
+        "network.denmark.sweyn_to_external_harald_hardrada"
+      ]
+    },
+    {
+      "LockId": "review.denmark.external.hamburg_bremen.adalbert",
+      "CanonicalPersonId": null,
+      "OwnerRegistryId": "Migration.HRE.GlobalIDRegistry",
+      "ResolutionState": "ReviewExternalRegistry",
+      "AffectedDirectionIds": [
+        "network.denmark.sweyn_to_external_adalbert",
+        "network.denmark.william_to_external_adalbert"
+      ]
+    },
+    {
+      "LockId": "review.denmark.external.obotrite.gottschalk",
+      "CanonicalPersonId": null,
+      "OwnerRegistryId": "Migration.Obotrite.IDRegistry",
+      "ResolutionState": "ReviewExternalRegistry",
+      "AffectedDirectionIds": [
+        "network.denmark.sigrid_to_external_gottschalk"
+      ]
+    }
+  ],
+  "external_lock_policy": {
+    "harald_hardrada": {
+      "state": "ResolvedCanonical",
+      "canonical_person_id": "Character.Norway.HaraldHardrada",
+      "owner": "Norway"
+    },
+    "adalbert": {
+      "state": "ReviewExternalRegistry",
+      "denmark_local_placeholder_permitted": false,
+      "separate_entities": [
+        "person",
+        "office",
+        "institution"
+      ]
+    },
+    "gottschalk": {
+      "state": "ReviewExternalRegistry",
+      "denmark_local_placeholder_permitted": false,
+      "separate_entities": [
+        "person",
+        "rulership",
+        "marriage",
+        "household",
+        "location",
+        "reverse_relationship"
+      ]
+    },
+    "identity_resolution_activates_relationship": false
+  },
+  "review_dependencies": [
+    "Canonical namespace normalization",
+    "Adalbert external registry reconciliation",
+    "Gottschalk external registry reconciliation",
+    "Qualitative runtime mapping unavailable"
+  ],
+  "preflight_result": {
+    "result": "PASS_WITH_REVIEW_DEPENDENCIES",
+    "fatal_count": 0,
+    "runtime_mutation_count": 0
+  },
+  "opening_state_policy": {
+    "apply_once": true,
+    "overwrite_advanced_saves": false
+  },
+  "status_discipline": {
+    "static_checked": "design inspection only",
+    "dry_preflight_validated": "schema and contract validation only",
+    "compile_evidence_required": true,
+    "runtime_evidence_required": true,
+    "performance_profiling_required": true
+  }
+}

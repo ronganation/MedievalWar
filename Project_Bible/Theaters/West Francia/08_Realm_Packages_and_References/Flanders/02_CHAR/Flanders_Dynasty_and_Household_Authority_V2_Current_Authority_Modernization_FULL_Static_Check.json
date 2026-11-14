@@ -1,0 +1,16 @@
+{
+  "filename": "Flanders_Dynasty_and_Household_Authority_V2_Current_Authority_Modernization_FULL.md",
+  "version": "2.1.0",
+  "sha256": "bb5b67e386bba0f464ada760b5580ff94fbebfd650e7b8033242024e045217c0",
+  "bytes": 55606,
+  "lines": 1334,
+  "balanced_fences": true,
+  "stable_footer_once": true,
+  "household_branch_portfolios": 4,
+  "individually_reconciled_child_records": 2,
+  "child_household_function_matrix_present": true,
+  "sibling_resource_fairness_matrix_present": true,
+  "substantive_removals_zero": true,
+  "nonmutation": true,
+  "overall": "Pass"
+}

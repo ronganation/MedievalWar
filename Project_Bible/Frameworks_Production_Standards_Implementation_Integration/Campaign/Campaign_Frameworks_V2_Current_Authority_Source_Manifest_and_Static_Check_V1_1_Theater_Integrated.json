@@ -1,0 +1,639 @@
+{
+  "document_control": {
+    "file_name": "Campaign_Frameworks_V2_Current_Authority_Source_Manifest_and_Static_Check_V1_1_Theater_Integrated.json",
+    "stable_document_id": "Campaign.Frameworks.V2.SourceManifest.StaticCheck.TheaterIntegrated",
+    "version": "1.1.0",
+    "revision_date": "2026-09-18",
+    "placement": "Project_Bible/Frameworks/Campaign",
+    "constitutional_authority": "Project Bible 2.4",
+    "operational_authority": "Design Expansion Checklist 3.7",
+    "implementation_target": "Unreal Engine 5.8",
+    "scenario_opening": "1062-01-01",
+    "opening_campaign_season": "Winter",
+    "historical_progression": "21 months per strategic turn",
+    "biological_progression": "7 months per strategic turn",
+    "campaign_season_progression": "1 ordered Winter, Spring, Summer, Autumn step per strategic turn",
+    "validation_scope": "Static document content, source-successor preservation, Theater integration, ownership, temporal consistency, anti-churn, and nonmutation only",
+    "status": "PASS_DOCUMENT_CONTENT_ONLY_THEATER_INTEGRATED",
+    "registry_mutation_authorized": false,
+    "opening_state_activation_authorized": false,
+    "objective_or_designation_activation_authorized": false,
+    "save_format_mutation_authorized": false,
+    "migration_execution_authorized": false,
+    "payload_import_authorized": false,
+    "runtime_mutation_authorized": false,
+    "unreal_project_mutation_authorized": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "rollback_executed": false,
+    "performance_validated": false,
+    "payload_validated": false
+  },
+  "current_authority_family": {
+    "navigation_and_precedence": "Campaign_Frameworks_Current_Authority_Index_and_Legacy_Disposition_V1_1_Theater_Integrated_Update.md",
+    "campaign_data_architecture": "Campaign_Data_Architecture_V2_Current_Authority_Additive_Modernization.md",
+    "campaign_turn_processing": "Campaign_Simulation_Turn_Pipeline_V2_Current_Authority_Additive_Modernization.md",
+    "campaign_theater": "Campaign_Theater_Framework_V2_Current_Authority_Additive_Modernization.md",
+    "campaign_experience": "Campaign_Theater_Objectives_Standing_Designation_and_Cross_Theater_Integration_Framework_V1.md",
+    "campaign_codex": "Campaign_Codex_Framework_V2_Current_Authority_Additive_Modernization.md"
+  },
+  "source_records": [
+    {
+      "source_id": "SRC-001",
+      "file_name": "Campaign_Data_Architecture.md",
+      "role": "Immediate substantive source for Data Architecture V2",
+      "bytes": 31209,
+      "physical_lines": 1790,
+      "sha256": "a366bb1c25bd74bca44f87ce97f099a9b6aa3703678643fe259d60b12fa11c60",
+      "fingerprint_basis": "Recorded successor creation receipt",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource",
+      "successor": "Campaign_Data_Architecture_V2_Current_Authority_Additive_Modernization.md",
+      "exact_prefix_preserved": true
+    },
+    {
+      "source_id": "SRC-002",
+      "file_name": "Campaign_Data_Architecture_V2_Current_Authority_Additive_Modernization.md",
+      "role": "Current Campaign data authority candidate",
+      "bytes": 69525,
+      "physical_lines": 3192,
+      "sha256": "27616642646b1081d20de99b9709b10171bda8ff549ac5ab9b8de0798bee9496",
+      "fingerprint_basis": "Recorded creation receipt",
+      "disposition": "CurrentAuthorityCandidate"
+    },
+    {
+      "source_id": "SRC-003",
+      "file_name": "Campaign_Simulation_Turn_Pipeline.md",
+      "role": "Immediate substantive source for Pipeline V2",
+      "bytes": 33185,
+      "physical_lines": 1808,
+      "sha256": "e75ecbd362c2b925fc2708dbd371764f1588281e20b042059b998620beb62078",
+      "fingerprint_basis": "Recorded successor creation receipt",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource",
+      "successor": "Campaign_Simulation_Turn_Pipeline_V2_Current_Authority_Additive_Modernization.md",
+      "exact_prefix_preserved": true
+    },
+    {
+      "source_id": "SRC-004",
+      "file_name": "Campaign_Turn_And_Flow_System.md",
+      "role": "Supporting integration source for Pipeline V2",
+      "bytes": 7416,
+      "physical_lines": 613,
+      "sha256": "39d64c7ba18f6db01c5d330a801c71483ec73b3f44e27bd6e96aef9c9a44d977",
+      "fingerprint_basis": "Recorded pipeline creation receipt",
+      "disposition": "IntegratedSupportingSourceAndSupersededAsIndependentCurrentAuthority",
+      "separate_successor_authorized": false
+    },
+    {
+      "source_id": "SRC-005",
+      "file_name": "Campaign_Simulation_Turn_Pipeline_V2_Current_Authority_Additive_Modernization.md",
+      "role": "Current master Campaign turn-processing authority candidate",
+      "bytes": 74973,
+      "physical_lines": 3266,
+      "sha256": "f64250d04157d0b2fc3e7a11e66e1c92cc5c2e822dd1fc861bf80effd62cc5c5",
+      "fingerprint_basis": "Recorded creation receipt",
+      "disposition": "CurrentAuthorityCandidate"
+    },
+    {
+      "source_id": "SRC-006",
+      "file_name": "Campaign_Theater_Framework_V1.md",
+      "role": "Immediate substantive source for Campaign Theater V2",
+      "bytes": 30569,
+      "physical_lines": 919,
+      "sha256": "62801a1dc3d96bc158d1cb255fd91f3bd00be05a6ea12d8a27933d393d9862ee",
+      "fingerprint_basis": "Fresh physical receipt from recovered complete source",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource",
+      "successor": "Campaign_Theater_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "exact_prefix_preserved": true
+    },
+    {
+      "source_id": "SRC-007",
+      "file_name": "Campaign_Theater_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "role": "Current Campaign Theater authority candidate",
+      "bytes": 50563,
+      "physical_lines": 1572,
+      "sha256": "05b4a7ba44168419a7f936bb27a7e2d920be348d4ebb08ebdb1638d8e3f9d708",
+      "fingerprint_basis": "Fresh physical receipt from completed successor",
+      "disposition": "CurrentAuthorityCandidate",
+      "source_sections_removed": 0
+    },
+    {
+      "source_id": "SRC-008",
+      "file_name": "Campaign_Theater_Objectives_Standing_Designation_and_Cross_Theater_Integration_Framework_V1.md",
+      "role": "Current Campaign Experience framework",
+      "bytes": 31411,
+      "physical_lines": 1031,
+      "sha256": "fbdf86b4c6cc63dc57aa9391adbf056d9f96f367d0670fb06c839fb2e4d7b306",
+      "fingerprint_basis": "Recorded creation receipt",
+      "disposition": "CurrentSharedCampaignExperienceFrameworkOwnerReviewRequired"
+    },
+    {
+      "source_id": "SRC-009",
+      "file_name": "Campaign_Codex_Framework.md",
+      "role": "Immediate substantive source for Codex V2",
+      "bytes": 10990,
+      "physical_lines": 699,
+      "sha256": "db6a23901bd5c1dd0011868d2efc90ea7af6c14c2ab5c29783f8641e0f8b8826",
+      "fingerprint_basis": "Recorded successor creation receipt",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource",
+      "successor": "Campaign_Codex_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "exact_prefix_preserved": true
+    },
+    {
+      "source_id": "SRC-010",
+      "file_name": "Campaign_Codex_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "role": "Current Campaign knowledge and explanation authority candidate",
+      "bytes": 38665,
+      "physical_lines": 1705,
+      "sha256": "3c2b2820ee45becb5d611588e8d95ccc8ebd491b9eeff39c442154968ff6717d",
+      "fingerprint_basis": "Recorded creation receipt",
+      "disposition": "CurrentAuthorityCandidate"
+    },
+    {
+      "source_id": "SRC-011",
+      "file_name": "Prototype_Campaign_Framework.md",
+      "role": "Legacy prototype vision and provenance",
+      "fingerprint_basis": "Prior full-source audit; no fresh physical fingerprint asserted here",
+      "disposition": "LegacyProvenance",
+      "successor_authorized": false,
+      "physical_retention_required": true
+    },
+    {
+      "source_id": "SRC-012",
+      "file_name": "Campaign_Frameworks_Current_Authority_Supersession_Ownership_Gap_and_Modernization_Sequence_V1.md",
+      "role": "Campaign framework source audit and modernization sequence",
+      "bytes": 25207,
+      "physical_lines": 689,
+      "sha256": "e6940d048adcc782006fd669f3d8d4020617816fad46443df6a36928d2096e76",
+      "fingerprint_basis": "Recorded creation receipt",
+      "disposition": "CurrentAuditAuthority"
+    },
+    {
+      "source_id": "SRC-013",
+      "file_name": "Campaign_Frameworks_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "role": "Predecessor navigation index",
+      "bytes": 21377,
+      "physical_lines": 701,
+      "sha256": "b050c40770b8d3c636c471041c3c0a6fa23c9194b026b79a1458f737ad747445",
+      "fingerprint_basis": "Recorded creation receipt",
+      "disposition": "SupersededAsCurrentNavigationByV1_1"
+    },
+    {
+      "source_id": "SRC-014",
+      "file_name": "Campaign_Frameworks_Current_Authority_Index_and_Legacy_Disposition_V1_1_Theater_Integrated_Update.md",
+      "role": "Current Theater-integrated navigation and precedence authority",
+      "bytes": 21881,
+      "physical_lines": 752,
+      "sha256": "3c691d778fdd7b8f5ef95de61681526c96ac717ca812ed11c8509a62fe9a2996",
+      "fingerprint_basis": "Fresh physical receipt",
+      "disposition": "CurrentNavigationAndPrecedenceAuthority"
+    },
+    {
+      "source_id": "SRC-015",
+      "file_name": "Campaign_Theater_Objectives_Integration_Framework_V1_Source_Manifest_and_Static_Check_V1_0_1_Corrected.json",
+      "role": "Corrected Campaign Experience evidence",
+      "bytes": 28912,
+      "physical_lines": 815,
+      "sha256": "88867f690b51c6549ba5ab5ac0313f1bb6eb24c7ab592f1d772653e08ae0fbf4",
+      "fingerprint_basis": "Recorded corrected-manifest receipt",
+      "disposition": "CurrentCorrectedCampaignExperienceEvidence"
+    },
+    {
+      "source_id": "SRC-016",
+      "file_name": "Campaign_Theater_Objectives_Integration_Framework_V1_Independent_Static_Closure_Review.md",
+      "role": "Independent Campaign Experience closure",
+      "bytes": 27239,
+      "physical_lines": 882,
+      "sha256": "9538b9e26cda9fda4adeb7b6fa6ba5996dc2829588e826c2cdd1fee99c31ff5c",
+      "fingerprint_basis": "Recorded creation receipt",
+      "disposition": "CurrentCampaignExperienceIndependentClosure"
+    }
+  ],
+  "source_successor_preservation_ledger": [
+    {
+      "source": "Campaign_Data_Architecture.md",
+      "successor": "Campaign_Data_Architecture_V2_Current_Authority_Additive_Modernization.md",
+      "exact_complete_prefix_preserved": true,
+      "substantive_removals": []
+    },
+    {
+      "source": "Campaign_Simulation_Turn_Pipeline.md",
+      "successor": "Campaign_Simulation_Turn_Pipeline_V2_Current_Authority_Additive_Modernization.md",
+      "exact_complete_prefix_preserved": true,
+      "substantive_removals": []
+    },
+    {
+      "source": "Campaign_Theater_Framework_V1.md",
+      "successor": "Campaign_Theater_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "exact_complete_prefix_preserved": true,
+      "substantive_removals": []
+    },
+    {
+      "source": "Campaign_Codex_Framework.md",
+      "successor": "Campaign_Codex_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "exact_complete_prefix_preserved": true,
+      "substantive_removals": []
+    },
+    {
+      "source": "Campaign_Turn_And_Flow_System.md",
+      "successor": null,
+      "disposition": "IntegratedIntoPipelineV2AndRetainedAsProvenance",
+      "separate_successor_authorized": false
+    },
+    {
+      "source": "Prototype_Campaign_Framework.md",
+      "successor": null,
+      "disposition": "LegacyPrototypeVisionAndProvenance",
+      "successor_authorized": false
+    }
+  ],
+  "ownership_matrix": {
+    "campaign_data_architecture_and_state_coordination": "CampaignDataArchitectureV2",
+    "strategic_turn_processing_and_transaction_order": "CampaignSimulationTurnPipelineV2",
+    "theater_definition_association_and_context": "CampaignTheaterFrameworkV2",
+    "objective_standing_designation_and_victory_definitions": "CampaignExperienceOwner",
+    "knowledge_explanation_history_and_learning": "CampaignCodexV2",
+    "realm_government_and_political_state": "RealmAndPoliticalConstitutionOwners",
+    "specialist_domain_state": "SpecialistOwners",
+    "exact_january_1062_facts": "OpeningStateOwners",
+    "canonical_identity_aliases_and_collisions": "RegistryOwners",
+    "implementation_and_runtime": "ProjectNativeImplementationOwners"
+  },
+  "static_checks": [
+    {
+      "check_id": "CFV2T-001",
+      "statement": "Current index names Data Architecture V2 as current",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-002",
+      "statement": "Current index names Simulation Turn Pipeline V2 as current",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-003",
+      "statement": "Current index names Campaign Theater V2 as current",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-004",
+      "statement": "Current index names Campaign Experience framework as current",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-005",
+      "statement": "Current index names Campaign Codex V2 as current",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-006",
+      "statement": "Campaign Theater V1 exact complete source is preserved as V2 prefix",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-007",
+      "statement": "Campaign Theater V1 cannot override Theater V2",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-008",
+      "statement": "Theater V2 declares Project Bible 2.4",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-009",
+      "statement": "Theater V2 declares Design Expansion Checklist 3.7",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-010",
+      "statement": "Theater V2 declares Unreal Engine 5.8 target",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-011",
+      "statement": "Scenario opening is January 1 1062 in Winter",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-012",
+      "statement": "Historical progression is 21 months per strategic turn",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-013",
+      "statement": "Biological progression is 7 months per strategic turn",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-014",
+      "statement": "Campaign Season advances one ordered Winter Spring Summer Autumn step",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-015",
+      "statement": "Temporal tracks cannot substitute for one another",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-016",
+      "statement": "Theater remains distinct from Realm Faction Political Order Title Region Culture Religion Alliance and War",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-017",
+      "statement": "Theater association does not create allegiance ownership access or shared knowledge",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-018",
+      "statement": "Theater V2 does not duplicate geography movement routes or climate ownership",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-019",
+      "statement": "Theater Definition does not create Opening or runtime association",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-020",
+      "statement": "Association Candidate does not create Opening or runtime association",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-021",
+      "statement": "Opening association is new-campaign-only and apply-once",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-022",
+      "statement": "Runtime expedition does not imply permanent Theater membership",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-023",
+      "statement": "Known Theater summary cannot expose hidden state",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-024",
+      "statement": "Theater presentation creates no gameplay state",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-025",
+      "statement": "Campaign Experience retains Objective lifecycle ownership",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-026",
+      "statement": "Theater Objective interface cannot create or activate Objective instances",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-027",
+      "statement": "Standing remains objective-specific and nonauthoritative",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-028",
+      "statement": "Designation cannot become title claim office government or control",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-029",
+      "statement": "Cross-Theater links create no shared government or automatic association",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-030",
+      "statement": "Completion in one Theater does not automatically complete another Theater Objective",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-031",
+      "statement": "Theater AI is proposal-only and cannot execute owner state",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-032",
+      "statement": "Theater Codex integration respects knowledge and visibility",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-033",
+      "statement": "Registry owns canonical Theater identities aliases and collisions",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-034",
+      "statement": "Opening State owns exact January 1062 associations",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-035",
+      "statement": "External interfaces do not create external private state",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-036",
+      "statement": "Advanced saves cannot reapply Opening Theater associations",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-037",
+      "statement": "Advanced saves preserve runtime expeditions and Theater divergence",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-038",
+      "statement": "Ambiguous association identity or owner state is quarantined rather than guessed",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-039",
+      "statement": "Repeat-application migration idempotence is not claimed as validated",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-040",
+      "statement": "Deterministic Theater ordering is defined",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-041",
+      "statement": "Randomness cannot decide Opening membership Realm ownership Political Order or canonical identity",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-042",
+      "statement": "V1 Unreal structures subsystems assets and tags remain proposals",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-043",
+      "statement": "Static checks are not labeled compile runtime save migration replay rollback performance or payload validation",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-044",
+      "statement": "Future compatibility is not claimed for every region",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-045",
+      "statement": "No future Realm facts are created",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-046",
+      "statement": "Pipeline V2 remains the only current master turn pipeline",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-047",
+      "statement": "Turn and Flow remains integrated supporting provenance",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-048",
+      "statement": "Prototype remains legacy provenance without successor",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-049",
+      "statement": "Codex remains read-only",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-050",
+      "statement": "Data Architecture preserves Definition Opening Runtime Evaluation Presentation Save and Migration separation",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-051",
+      "statement": "Opening State reapplication to advanced saves is prohibited across Campaign family",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-052",
+      "statement": "No additional Campaign Theater framework is authorized",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-053",
+      "statement": "No additional Campaign Objective or Codex wrapper is authorized",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-054",
+      "statement": "No Registry Opening State payload importer runtime or Unreal promotion is authorized",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-055",
+      "statement": "Next gate is Theater-integrated independent static closure",
+      "result": "PASS",
+      "fatal_if_failed": true
+    },
+    {
+      "check_id": "CFV2T-056",
+      "statement": "Checklist update remains blocked until Theater-integrated independent closure",
+      "result": "PASS",
+      "fatal_if_failed": true
+    }
+  ],
+  "summary": {
+    "source_records": 16,
+    "preservation_records": 6,
+    "static_checks_total": 56,
+    "static_checks_passed": 56,
+    "static_checks_failed": 0,
+    "warnings": 0,
+    "fatal_failures": 0,
+    "overall_result": "PASS_DOCUMENT_CONTENT_ONLY_THEATER_INTEGRATED",
+    "independent_static_closure_required": true,
+    "checklist_update_authorized": false,
+    "implementation_promotion_authorized": false
+  },
+  "nonmutation_receipt": {
+    "source_campaign_authorities_modified": 0,
+    "realm_files_modified": 0,
+    "theater_content_files_modified": 0,
+    "registry_entries_created_or_modified": 0,
+    "opening_state_records_created_or_modified": 0,
+    "campaign_runtime_records_created_or_modified": 0,
+    "theater_associations_activated": 0,
+    "objective_instances_created_or_modified": 0,
+    "designation_instances_created_or_modified": 0,
+    "save_schemas_created_or_modified": 0,
+    "migration_executed": false,
+    "gameplay_payloads_created_or_imported": 0,
+    "unreal_files_modified": 0,
+    "compile_executed": false,
+    "runtime_executed": false
+  },
+  "next_gate": {
+    "file": "Campaign_Frameworks_V2_Current_Authority_Independent_Static_Closure_Review_V1_1_Theater_Integrated.md",
+    "purpose": "Independently verify Theater V2 source preservation, dependency integration, owner boundaries, temporal consistency, authority-index currentness, and static-only closure",
+    "checklist_update_authorized_before_next_gate": false,
+    "implementation_promotion_authorized": false
+  }
+}

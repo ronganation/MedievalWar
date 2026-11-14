@@ -1,0 +1,13 @@
+{
+  "manifest_version": "1.0",
+  "document_type": "ReadOnlySpecialistAuthorityInventory",
+  "file": "Ireland_Specialist_Authority_Inventory_and_Gap_Decision_V1.md",
+  "bytes": 28104,
+  "sha256": "3fe5d4b5167b9fc356ad6cec57bd6318a4d3d44e3270b3fb1875ae7ed65ece96",
+  "specialist_domains_reviewed": 15,
+  "source_authorities_modified": 0,
+  "specialist_authorities_created": 0,
+  "static_check_file": "Ireland_Specialist_Authority_Inventory_and_Gap_Decision_V1_Static_Check.json",
+  "static_check_sha256": "306dc241d247e3df5bd857c56f629fadbbe7d34bb14227dd66d09f90224c3157",
+  "validation_scope": "static inventory and gap decision only; no source mutation, promotion, Registry, Opening State, compile, runtime, migration execution, or payload validation"
+}

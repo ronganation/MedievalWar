@@ -1,0 +1,18 @@
+{
+  "ManifestId": "manifest.character-profile.burgundy.robert-i.v1",
+  "Artifact": "Robert_I_of_Burgundy_V1_Developed_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "Bytes": 55688,
+  "Lines": 1212,
+  "SHA256": "03767dc5e6d28bf1d537fad6034a682dc579ce58b5756dac51c5640d7f6a5bdf",
+  "CreationMethod": "FreshPersonSpecificBuild",
+  "PrimaryOwner": "Burgundy",
+  "OwningTheater": "West Francia",
+  "ScenarioOpening": "1062-01-01",
+  "OpeningCampaignSeason": "Winter",
+  "Status": "StaticCheckedOwnerReviewCandidate",
+  "RegistryMutationAuthorized": false,
+  "OpeningStateMutationAuthorized": false,
+  "RuntimeMutationAuthorized": false,
+  "UnrealMutationAuthorized": false
+}

@@ -1,0 +1,38 @@
+{
+  "DocumentId": "CharacterProfile.Aquitaine.BernardIITumapaler.V1.Manifest",
+  "AuthorityFile": "Bernard_II_Tumapaler_V1_Developed_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "Generated": "2026-09-04",
+  "Bytes": 31456,
+  "Lines": 898,
+  "SHA256": "0be3589fcbe91f5e46fab316e815a6325f8cd8272e05189b568f016362b9dd3a",
+  "MajorSections": 40,
+  "ProfileTier": "MajorMilitaryPoliticalCharacterCandidate",
+  "SourceTreatment": "NewDevelopedProfileNoImmediateFullSource",
+  "RemovedSubstantiveContent": [],
+  "MutationStatus": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "CharacterActivations": 0,
+    "Relationships": 0,
+    "TitlesOrClaims": 0,
+    "Forces": 0,
+    "Rebellions": 0,
+    "Unreal": 0,
+    "Runtime": 0,
+    "RealPayload": 0
+  },
+  "Checks": {
+    "sections_1_to_40": true,
+    "three_tracks": true,
+    "opening_1063_rebellion_blocked": true,
+    "war_not_casus_belli_gated": true,
+    "Papal_reliability_separated": true,
+    "cross_faction_benchmark": true,
+    "markdown_fences_balanced": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  }
+}

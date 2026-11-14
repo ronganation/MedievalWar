@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "source_not_overwritten": true,
+    "successor_created": true,
+    "source_substantive_sections_preserved": true,
+    "current_scenario": true,
+    "opening_date": true,
+    "winter": true,
+    "pb24": true,
+    "checklist37": true,
+    "ue58": true,
+    "historical21": true,
+    "biological7": true,
+    "season_order": true,
+    "duncan_underage": true,
+    "fothad": true,
+    "gille_quarantine": true,
+    "no_replacement": true,
+    "validations_false": true
+  },
+  "failed_checks": [],
+  "passed": true,
+  "source_sha256": "6fcf01a5a7b53d33d1e08156145860bcc927ffec344a543e3697b548dc6cd43d",
+  "successor_sha256": "8242d5c79506ef1719025f2c6d71284c0fa742810b8212c38b37c7c37d9b045d"
+}

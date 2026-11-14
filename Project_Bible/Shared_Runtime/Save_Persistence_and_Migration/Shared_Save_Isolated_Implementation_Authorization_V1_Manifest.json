@@ -1,0 +1,27 @@
+﻿{
+    "document_id":  "mw.shared-save.isolated-implementation-authorization-manifest.v1",
+    "generated_utc":  "2026-08-24T18:37:30.9029152Z",
+    "owner_receipt_id":  "receipt.shared-save.hybrid-isolated-implementation.v1.4394f0e15ab946f588906b5ad4136b57",
+    "active_source_mutation_performed":  false,
+    "isolated_patch_source_mutation_performed":  false,
+    "active_source_promotion_authorized":  false,
+    "compile_validated":  false,
+    "runtime_validated":  false,
+    "records":  [
+                    {
+                        "file":  "Shared_Save_Hybrid_Owner_Decision_Receipt_V1.json",
+                        "bytes":  1606,
+                        "sha256":  "AE024CDE54538FFA9D18D06684BC7DC52DED5BFA0E4113CD3CF3C5AEA80D4628"
+                    },
+                    {
+                        "file":  "Shared_Save_Isolated_Implementation_Gate_V1.json",
+                        "bytes":  1698,
+                        "sha256":  "A0495186E64A99D01FC85E310BA3729714F576C5BC02AD554524CE9885F3C937"
+                    },
+                    {
+                        "file":  "Shared_Save_Isolated_Implementation_Authorization_V1.md",
+                        "bytes":  1071,
+                        "sha256":  "0127813F9CD0551ED9F583DAFC929F4896734C0EB2057CC3C1975A1A114829E2"
+                    }
+                ]
+}

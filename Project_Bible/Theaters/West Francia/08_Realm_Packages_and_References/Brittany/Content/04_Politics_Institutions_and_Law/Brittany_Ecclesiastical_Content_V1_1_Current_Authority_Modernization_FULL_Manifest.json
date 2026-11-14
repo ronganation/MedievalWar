@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0",
+  "document_type": "RealmEcclesiasticalContentAuthorityModernization",
+  "file": "Brittany_Ecclesiastical_Content_V1_1_Current_Authority_Modernization_FULL.md",
+  "version": "1.1.0",
+  "bytes": 59939,
+  "lines": 1122,
+  "sha256": "BDCAAED58E5C8FF47AFC42C28A585F6E1E8D58593A1A80D5D2BC9F08C6B72CF5",
+  "direct_substantive_source": "Brittany_Ecclesiastical_Content_V1.md",
+  "source_lines_reviewed": 1497,
+  "source_treatment": "CompleteSectionBySectionSubstantiveCarryForwardWithIntegratedExpansion",
+  "source_embedded_wholesale": false,
+  "operating_portfolios": 36,
+  "positive_fixtures": 25,
+  "negative_fixtures": 30,
+  "records_activated": 0,
+  "source_authorities_modified": 0,
+  "validation_scope": "static content and source-successor completeness review only; no Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, or payload validation"
+}

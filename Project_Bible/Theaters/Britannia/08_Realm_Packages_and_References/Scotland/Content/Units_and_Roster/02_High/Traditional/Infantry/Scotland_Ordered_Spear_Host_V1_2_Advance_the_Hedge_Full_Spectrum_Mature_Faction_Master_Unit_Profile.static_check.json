@@ -1,0 +1,22 @@
+{
+  "artifact": "Scotland_Ordered_Spear_Host_V1_2_Advance_the_Hedge_Full_Spectrum_Mature_Faction_Master_Unit_Profile.md",
+  "sha256": "5a27658de84c1460422ed80f7ab3b9475f6d2ac7a45180ae29572f84ea3e00d2",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "yaml_valid": true,
+    "copy_first": true,
+    "advance_the_hedge": true,
+    "wall_of_ash": true,
+    "supporting_doctrine": true,
+    "lowland_bounded": true,
+    "lowland_candidate": true,
+    "gallovidian_candidate": true,
+    "cross_faction_rule": true,
+    "visual_full": true,
+    "ui_full": true,
+    "early_host_persists": true,
+    "no_activation": true,
+    "single_footer": true
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "ArtifactId": "Seville_Taifa_Governance_Administration_and_Delegated_Authority_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_DEVELOPED_REALM_GOVERNANCE_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "e1d6b83b8cf22960181a5ebc624acbc4db7ab31b71f76d259340e2aa21f92133",
+  "SourceBytes": 37910,
+  "CreationMethod": "NewAuthorityRequiredByConfirmedGovernanceCoverageGap",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8"
+  },
+  "Counts": {
+    "GovernanceProfiles": 1,
+    "DelegatedAuthorityFrameworks": 1,
+    "SettlementGovernanceProfiles": 7,
+    "OpeningSuperiorAuthorityBindings": 7,
+    "OpeningNamedLocalControllers": 0,
+    "OpeningNamedGovernors": 0,
+    "OpeningNamedQadis": 0,
+    "OpeningNamedSecretaries": 0,
+    "OpeningNamedFiscalOfficers": 0,
+    "OpeningNamedMilitaryCommanders": 0,
+    "OpeningOfficeRecords": 0,
+    "OpeningMandates": 0,
+    "OpeningEmergencyDelegations": 0,
+    "OpeningGovernanceMutations": 0
+  },
+  "Protections": {
+    "SuperiorAuthorityEqualsAdministration": false,
+    "SovereignOmnipresence": false,
+    "AlMutamidOpeningMandate": false,
+    "GovernanceCreatesRevenue": false,
+    "GovernanceCreatesGarrison": false,
+    "NamedOfficialsFabricated": false,
+    "AIProposalOnly": true
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryMutated": false,
+    "OpeningStateMutated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "BehaviorValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Population_Communities_and_Social_Structure_V1.md."
+}

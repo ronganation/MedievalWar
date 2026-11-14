@@ -1,0 +1,30 @@
+{
+  "TaskId": "SCOT-IMP-04B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "Date": "2026-09-22",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "EntranceGate": "SCOT-IMP-04A-R1",
+  "SelectedLane": "OwnerCapabilityAndHandoff",
+  "ProposedFilesAdded": 10,
+  "ProposedFilesModified": 0,
+  "ProposedNewTests": 16,
+  "RequiredRegressionCounts": [
+    16,
+    12,
+    13,
+    5,
+    10
+  ],
+  "RequiredOwnerIds": 6,
+  "PlanSHA256": "58D179D2945A50A0CC74D2398F6F828DDB4F98DBD09E740627A870DB552EE7D4",
+  "PlanBytes": 10438,
+  "PlanLines": 336,
+  "EligibleForImplementation": false,
+  "EligibleForApplication": false,
+  "OwnerInvocation": false,
+  "HandoffDispatch": false,
+  "CommandAdmission": false,
+  "RuntimeBinding": false,
+  "ProductionAuthority": false,
+  "NextGate": "SCOT-IMP-04C"
+}

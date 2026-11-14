@@ -1,0 +1,21 @@
+﻿{
+    "document_id":  "mw.shared-opening-state.production-bridge-surface-manifest.v1",
+    "generated_utc":  "2026-08-25T00:58:32.5008058Z",
+    "classification":  "ProductionBridgeAuthoringSurfacePrepared",
+    "recommended_placement":  "ResolveDependencyOrTypeSurfaceBeforeBridgeAuthoring",
+    "active_source_mutation_performed":  false,
+    "opening_state_application_performed":  false,
+    "item_4_complete":  false,
+    "records":  [
+                    {
+                        "file":  "Shared_Opening_State_Production_Bridge_Authoring_Surface_V1.json",
+                        "bytes":  755915,
+                        "sha256":  "53C7C80039627A878433AC0B070E98AFADDE3DA617C0139FCB97D1011F9C3E49"
+                    },
+                    {
+                        "file":  "Shared_Opening_State_Production_Bridge_Implementation_Plan_V1.md",
+                        "bytes":  1684,
+                        "sha256":  "3450A7B6EAC507EB77EF01E7C8B8BC9419C40FD0BA10BD652AAFE56892EB28E3"
+                    }
+                ]
+}

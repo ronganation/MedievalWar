@@ -1,0 +1,76 @@
+{
+  "document_id": "manifest.wales.historical-timeline-chronology.v1.1.current-authority-refinement",
+  "version": "1.1.0",
+  "immediate_source": {
+    "filename": "Wales_Historical_Timeline_and_Chronology.md",
+    "bytes": 22383,
+    "physical_lines": 719,
+    "sha256": "3a28a40433ef2a1841f2a8505114a42018edcfc70a04a1b6bd5e81bf8ac24834",
+    "copy_method": "literal full-file prefix",
+    "complete_source_verified": true
+  },
+  "successor": {
+    "filename": "Wales_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement.md",
+    "bytes": 51510,
+    "physical_lines": 1633,
+    "sha256": "47cbb35d2c5163cae9b8b2326ae3b731c09a2e9b7ad4139fbf5115e12de345aa"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_headings_preserved": 45,
+    "source_chronology_ids_preserved": [
+      "CHR-WALES-001",
+      "CHR-WALES-002",
+      "CHR-WALES-003",
+      "CHR-WALES-004",
+      "CHR-WALES-005",
+      "CHR-WALES-006",
+      "CHR-WALES-007",
+      "CHR-WALES-008",
+      "CHR-WALES-009",
+      "CHR-WALES-010",
+      "CHR-WALES-011",
+      "CHR-WALES-012",
+      "CHR-WALES-013",
+      "CHR-WALES-014",
+      "CHR-WALES-015",
+      "CHR-WALES-016",
+      "CHR-WALES-017",
+      "CHR-WALES-018",
+      "CHR-WALES-019",
+      "CHR-WALES-020",
+      "CHR-WALES-021",
+      "CHR-WALES-022",
+      "CHR-WALES-023",
+      "CHR-WALES-024",
+      "CHR-WALES-025",
+      "CHR-WALES-026"
+    ],
+    "removed_content": []
+  },
+  "additions": {
+    "historical_event_references": 14,
+    "temporal_dossiers": 6,
+    "issue_records": 8,
+    "expanded_validation_cases": 25
+  },
+  "benchmarks_consulted": [
+    "England_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement.md",
+    "Scotland_Historical_Timeline_and_Chronology_V1.2_Current_Authority_Refinement.md"
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "source_deletion": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Chronology_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "active_Unreal_modification": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

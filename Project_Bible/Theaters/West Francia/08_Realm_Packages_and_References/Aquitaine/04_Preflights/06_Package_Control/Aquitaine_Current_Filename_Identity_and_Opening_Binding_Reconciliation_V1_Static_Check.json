@@ -1,0 +1,49 @@
+{
+  "StaticCheckId": "StaticCheck.Reconciliation.Realm.Aquitaine.CurrentFilenameIdentityOpeningBinding.V1",
+  "AuthorityFile": "Aquitaine_Current_Filename_Identity_and_Opening_Binding_Reconciliation_V1.md",
+  "AuthoritySHA256": "c753757454389a1414faaaee7bee94631c0fc45a5e8a12b78b9759aaa47f6a2c",
+  "Result": "Pass",
+  "TotalChecks": 20,
+  "Passes": 20,
+  "Failures": 0,
+  "Checks": {
+    "CurrentRegistryFilenamePresent": "Pass",
+    "StaleRegistryFilenameMarkedStale": "Pass",
+    "RealmIdVariantsPresent": "Pass",
+    "PreferredCanonicalCandidateUnpromoted": "Pass",
+    "AliasExecutionFalse": "Pass",
+    "SixProfilesClassified": "Pass",
+    "WilliamIXQuarantined": "Pass",
+    "TypedBindingVocabularyPresent": "Pass",
+    "BareActiveProhibitedInNewPayload": "Pass",
+    "TenSpecialistOwnersPresent": "Pass",
+    "ExactOpeningBindingsRemainEmptyOrDeferred": "Pass",
+    "OpeningAuthoritiesDistinct": "Pass",
+    "BarbastroInactive": "Pass",
+    "BernardRisingUnscripted": "Pass",
+    "ThreeTrackTimePresent": "Pass",
+    "WarPermissionGateRejected": "Pass",
+    "PapalReliabilitySeparated": "Pass",
+    "RegistryOpeningMutationFalse": "Pass",
+    "UnrealPayloadMutationFalse": "Pass",
+    "StableFooterAndFinalMarkerPresent": "Pass"
+  },
+  "Physical": {
+    "LineCount": 603,
+    "ByteCount": 19842,
+    "MarkdownFenceCount": 56,
+    "MarkdownFencesBalanced": true,
+    "EmDashCount": 0,
+    "StableFooterCount": 1,
+    "FinalMarkerCorrect": true
+  },
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

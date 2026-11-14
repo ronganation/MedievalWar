@@ -1,0 +1,101 @@
+{
+  "document_identity": {
+    "document_id": "mw.denmark.qualitative_mapping.owner_receipt_intake.v1",
+    "version": "1.0.1",
+    "date": "2026-08-24",
+    "status": "RECEIPT_SUBMITTED_UNVALIDATED",
+    "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_60_V1_SUBMITTED_UNVALIDATED.json"
+  },
+  "authority_boundary": {
+    "constitutional_authority": "Project Bible 2.4",
+    "operational_authority": "Design Expansion Checklist 3.7",
+    "owner_response_ledger": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.json",
+    "decision_request_packet": "Denmark_Qualitative_Mapping_Authority_and_Owner_Receipt_Decision_Packet_V1.md"
+  },
+  "intake_state": {
+    "receipt_submitted": true,
+    "receipt_validated": false,
+    "ledger_update_authorized": false,
+    "implementation_authorized": false,
+    "runtime_mutation_authorized": false
+  },
+  "authorization": {
+    "vocabulary_adoption_authorized": false,
+    "numeric_mapping_adoption_authorized": false,
+    "relationship_owner_approval_authorized": false,
+    "owner_submission_authorized": false,
+    "runtime_mutation_authorized": false,
+    "opening_state_execution_authorized": false,
+    "save_persistence_authorized": false,
+    "migration_execution_authorized": false,
+    "replay_validation_authorized": false
+  },
+  "receipt": {
+    "request_id": "request.denmark.qualitative_mapping.receipt_trace_hash.v1",
+    "owner_authority_ref": "Framework.CharacterNetwork",
+    "owner_receipt_id": "receipt.draft.denmark.qualitative_mapping.receipt_trace_hash.v1",
+    "disposition": "APPROVE",
+    "authority_or_evidence_refs": [
+      "Framework_Architecture_Map_v1.md",
+      "Denmark Character Network Decision Pass.md",
+      "Denmark_Character_Network_Integration_Contract.md",
+      "Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_and_Disposition_Candidate_V1.md"
+    ],
+    "approval_scope": "Trace and hash contract approval candidate limited to fields explicitly supported by the cited Denmark Character Network Integration Contract. This is not rollback authorization.",
+    "approved_dimensions": [],
+    "approved_bands": [],
+    "mapping_contract_ref": "",
+    "receiving_owner_ref": "Framework.CharacterNetwork",
+    "rollback_contract_ref": "",
+    "receipt_contract_ref": "Denmark Character Network Integration Contract V1, sections 17 through 19",
+    "effective_version": "Candidate-1.0.0",
+    "reason_codes": [],
+    "blocking_validation_reasons": [
+      "MissingTraceCoverage:request_id",
+      "MissingTraceCoverage:source_authority_ref",
+      "MissingTraceCoverage:mapping_authority_ref",
+      "MissingTraceCoverage:owner_authority_ref",
+      "MissingTraceCoverage:scenario_id",
+      "MissingTraceCoverage:qualitative_band",
+      "MissingTraceCoverage:mapped_native_value",
+      "MissingTraceCoverage:owner_receipt_id"
+    ],
+    "vocabulary_contract_ref": "",
+    "runtime_binding_authority_ref": "",
+    "zero_absence_semantics": null,
+    "trace_hash_coverage": {
+      "request_id": false,
+      "source_authority_ref": false,
+      "mapping_authority_ref": false,
+      "owner_authority_ref": false,
+      "scenario_id": false,
+      "source_id": true,
+      "target_id": true,
+      "relationship_id_where_applicable": true,
+      "dimension": true,
+      "qualitative_band": false,
+      "mapped_native_value": false,
+      "mapping_version": true,
+      "before_state_hash": true,
+      "after_state_hash": true,
+      "import_disposition": true,
+      "gate_results": true,
+      "external_lock_result": true,
+      "result_code": true,
+      "runtime_mutation_count": true,
+      "stable_command_or_event_ids": true,
+      "owner_receipt_id": false
+    },
+    "atomic_rollback_coverage": null,
+    "owner_adoption_evidence": null
+  },
+  "draft_boundary": {
+    "is_controlling_owner_receipt": false,
+    "is_owner_signed": false,
+    "is_validated": false,
+    "ledger_update_authorized": false,
+    "implementation_authorized": false,
+    "runtime_mutation_authorized": false,
+    "cross_request_approval_inference": false
+  }
+}

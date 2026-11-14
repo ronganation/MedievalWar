@@ -1,0 +1,19 @@
+{
+  "FileName": "Install_Britania_Theater_Definition_Slice.ps1",
+  "Purpose": "Guarded definition-only Britania Gameplay Tag and automation-test installation",
+  "SHA256": "4526B07591CC2D637916512BB84F7D9499076D43F79773FFF1E833570B15FD15",
+  "Bytes": 17161,
+  "Checks": {
+    "guarded_existing_file": true,
+    "api_preflight": true,
+    "six_target_tags": true,
+    "denmark_reuse": true,
+    "forbidden_tags": true,
+    "isolated_file": true,
+    "focused_parent": true,
+    "no_campaign_core_write": true,
+    "no_build": true,
+    "checkpoint": true,
+    "manifest": true
+  }
+}

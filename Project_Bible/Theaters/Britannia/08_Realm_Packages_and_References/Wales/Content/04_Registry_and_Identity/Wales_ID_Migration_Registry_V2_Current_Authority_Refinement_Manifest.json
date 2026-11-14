@@ -1,0 +1,45 @@
+{
+  "document_id": "manifest.wales.id-migration-registry.v2.current-authority-refinement",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Wales_ID_Migration_Map.md",
+    "bytes": 37200,
+    "physical_lines": 1017,
+    "sha256": "5c454caafa31f44650c8025cc27ee27213b29b02ba533873bbf3333e1ce93f81",
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Wales_ID_Migration_Registry_V2_Current_Authority_Refinement.md",
+    "bytes": 67981,
+    "physical_lines": 1886,
+    "sha256": "d5e3d1cb8609a9d7597e3733c2dd70cf6bc1b3427463c7cd45316c2b4fada664"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "all_source_headings_preserved": true,
+    "source_canonical_IDs_preserved": 40,
+    "removed_content": []
+  },
+  "current_scope": {
+    "opening_people": 9,
+    "dynasties": 3,
+    "Network_candidates": 8,
+    "Network_edges": 8,
+    "mutable_relationship_dimensions": 0,
+    "cross_realm_critical_people": 1,
+    "St_Davids_typed_entities": 5
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Registry_mutation": false,
+    "Opening_State_activation": false,
+    "migration_execution": false,
+    "save_rewrite": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_ID_Migration_Registry_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

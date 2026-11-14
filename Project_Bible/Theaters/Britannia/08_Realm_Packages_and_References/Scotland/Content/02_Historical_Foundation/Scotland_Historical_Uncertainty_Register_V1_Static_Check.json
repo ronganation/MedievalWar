@@ -1,0 +1,25 @@
+{
+  "document_id": "static-check.scotland.historical-uncertainty-register.v1",
+  "version": "1.0.0",
+  "successor": "Scotland_Historical_Uncertainty_Register_V1.md",
+  "bytes": 51058,
+  "physical_lines": 1324,
+  "sha256": "c84e172a86bb8f8966234bf554e1f440c923307836d654d81f308b3000e30f58",
+  "checks": {
+    "UNC-SCOT-001": true,
+    "UNC-SCOT-016": true,
+    "RejectedIdentityEquivalence": true,
+    "replacement_person: null": true,
+    "IntentionalEmptyPendingOwnerSelection": true,
+    "Historical:": true,
+    "Compile_Validated: false": true,
+    "Opening_State_activation_authorized: false": true,
+    "Stable Footer": true,
+    "sixteen_records": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "authorizations_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

@@ -1,0 +1,21 @@
+{
+  "TargetFile": "Bernard_II_Tumapaler_V1_Developed_Character_Profile_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "sections_1_to_40": true,
+    "three_tracks": true,
+    "opening_1063_rebellion_blocked": true,
+    "war_not_casus_belli_gated": true,
+    "Papal_reliability_separated": true,
+    "cross_faction_benchmark": true,
+    "markdown_fences_balanced": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "Bytes": 31456,
+  "Lines": 898,
+  "SHA256": "0be3589fcbe91f5e46fab316e815a6325f8cd8272e05189b568f016362b9dd3a",
+  "ValidationScope": "Static design-authority checks only. No compile, importer, runtime, save-load, migration, replay, performance, or battle validation."
+}

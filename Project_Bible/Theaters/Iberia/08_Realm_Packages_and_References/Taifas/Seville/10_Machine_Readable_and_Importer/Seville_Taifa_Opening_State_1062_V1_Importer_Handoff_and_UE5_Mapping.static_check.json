@@ -1,0 +1,115 @@
+{
+  "ArtifactId": "Seville_Taifa_Opening_State_1062_V1_Importer_Handoff_and_UE5_Mapping",
+  "InternalVersion": "1.2.0",
+  "Status": "STATIC_CHECKED_RECONCILED_TO_SUPPLIED_OPENING_AUTHORITY_1_3_0_REVALIDATION_REQUIRED",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Importer_Handoff_and_UE5_Mapping.md",
+    "InternalVersion": "1.2.0",
+    "SHA256": "afa9f25483aff2b878235ed2c01e7a1a3f4e7a5928d013c54aec36a384691117",
+    "Bytes": 23342
+  },
+  "Mappings": {
+    "SubstantiveSections": 35,
+    "RootPackageFamilies": 23,
+    "RealmRecords": 1,
+    "CharacterRecords": 2,
+    "DynastyDefinitionBindings": 1,
+    "CapitalBindings": 1,
+    "AuthorityBindings": 7,
+    "DefinitionOnlyReferences": 5,
+    "ExplicitEmptyCollections": 70,
+    "ReviewOnlyExclusions": 1,
+    "QuarantineExclusions": 18,
+    "LaterHistoryExclusions": 13,
+    "ExternalReferenceRequirements": 10,
+    "OwnerRoutingRequests": 18,
+    "FixtureDefinitionsRequired": 39,
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonthsPerStrategicTurn": 21,
+    "BiologicalProgressionMonthsPerStrategicTurn": 7,
+    "CampaignSeasonOpeningValue": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "CampaignSeasonAdvancePerStrategicTurn": 1,
+    "OpeningApplicationAdvancesTemporalTracks": false
+  },
+  "PhasedImplementationHandoff": {
+    "BatchA": "Immutable bundle and evidence baseline",
+    "BatchB": "Validate-only importer slice",
+    "BatchC": "Transient Unreal Engine 5.8 mapping",
+    "BatchD": "Isolated atomic apply-once test",
+    "RealCampaignPayloadAuthorized": false,
+    "RegistryMutationAuthorized": false,
+    "AdvancedSaveMutationAuthorized": false,
+    "BroadUnrealPromotionAuthorized": false
+  },
+  "Alignment": {
+    "CanonicalPayloadOwnerRoutes": 18,
+    "SchemaRequiredOwnerRoutes": 18,
+    "ValidationRequiredOwnerRoutes": 18,
+    "RoutingManifestDeclaredOwnerRoutes": 18,
+    "AllOwnerRouteCountsAligned": true,
+    "PriorFixtureEvidence": "22_OF_22_FOR_PRIOR_HASHES",
+    "CurrentStrengthenedFixtureExecution": "NOT_RUN_0_OF_39",
+    "AllCurrentCoreHashesRecorded": true
+  },
+  "CopyFirstLedger": {
+    "ImmediateSourceInternalVersion": "1.0.0",
+    "ImmediateSourceSectionsReviewed": 33,
+    "SubstantiveSourceSectionsCarriedForward": 33,
+    "RemovedSubstantiveSections": 0,
+    "RemovedMappingFamilies": 0,
+    "RemovedValidationPlans": 0,
+    "AddedSections": 2,
+    "AddedSectionNames": [
+      "Copy-First Completeness and Removal Ledger",
+      "Strengthened Smallest Useful Next Action"
+    ]
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "HandoffFileHashRecorded": true,
+    "SectionCompletenessChecked": true,
+    "OwnerRouteCardinalityChecked": true,
+    "TemporalContractChecked": true,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "PromotionGate": {
+    "CurrentDisposition": "BLOCKED_PENDING_39_FIXTURE_RERUN",
+    "RequiredEvidence": [
+      "Current final hash for every required package artifact",
+      "Draft 2020-12 metaschema pass",
+      "Canonical payload validation with zero schema errors",
+      "All semantic assertions passed",
+      "All 39 fixture definitions executed and passed",
+      "Zero authoritative mutations for every fatal fixture",
+      "Deterministic trace and receipt evidence",
+      "Validation-owner approval"
+    ]
+  },
+  "NextAction": "Complete the immutable-bundle rehash and validate-only 39-fixture execution before importer or Unreal promotion.",
+  "StaticCheckVersion": "1.2.0",
+  "FormattingChecks": {
+    "EscapedUnderscoresFound": 0,
+    "StaleMissingHashClaimsFound": 0,
+    "ObsoleteNineteenRouteClaimsFound": 0
+  }
+}

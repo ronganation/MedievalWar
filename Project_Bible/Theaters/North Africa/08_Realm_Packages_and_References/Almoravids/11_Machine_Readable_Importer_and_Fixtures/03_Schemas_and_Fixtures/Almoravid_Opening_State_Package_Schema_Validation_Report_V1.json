@@ -1,0 +1,229 @@
+{
+  "reportId": "validation.almoravid.opening_state.package_schema.v1",
+  "reportVersion": "1.0.0",
+  "status": "PASS_STATIC_CHECKED",
+  "schemaFile": "Almoravid_Opening_State_Package_Schema_V1.json",
+  "schemaSha256": "7631579ea6f0977b757f18696edf6309f7db9b5eaf13141f9f998b007f832293",
+  "sourceFiles": {
+    "Almoravid_Opening_State_1062_V1.json": {
+      "sha256": "211b1a6936f3f801454690d4d0a2b3c234d5c45f7bf929aeee56ff310056e3a3",
+      "canonicalHash": "9d8a170727dddb7279a23b4f3293611631b9d35484100e5f5b0f77002b0826ab"
+    },
+    "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json": {
+      "sha256": "9acdecd47bab2c7d3b78c44137edc9c4c6ebc231382d426c51a21c2bd06ba8fb",
+      "canonicalHash": "db5c75ec2dd78137bf55986828f8e8b89db0ffbbe231aa5c69bc446eb7f11527"
+    },
+    "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json": {
+      "sha256": "74658fa9da9b27fa93131e9eb1f85789d2f4a3a080a6a08fe8f5a3a39f652b99",
+      "canonicalHash": "02958e0c05a5f0aae8ab9815a50be8f7ffed3519cd3341df5a6c0f81d4f842df"
+    }
+  },
+  "positiveValidation": {
+    "Almoravid_Opening_State_1062_V1.json": {
+      "valid": true,
+      "schemaErrorCount": 0
+    },
+    "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json": {
+      "valid": true,
+      "schemaErrorCount": 0
+    },
+    "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json": {
+      "valid": true,
+      "schemaErrorCount": 0
+    }
+  },
+  "semanticChecks": {
+    "exactly66ExplicitEmptyCollections": true,
+    "explicitEmptyNamesUnique": true,
+    "allExplicitCollectionsIntentional": true,
+    "allExplicitCollectionItemsEmpty": true,
+    "abuBakrPair": true,
+    "yusufPair": true,
+    "overlaysSelectionOnly": true,
+    "overlaysCannotMutate": true,
+    "overlayPayloadHashesMatch": true,
+    "registryVersion11": true,
+    "historicalDate1062": true,
+    "historicalCadence21": true,
+    "biologicalCadence7": true,
+    "seasonWinter": true,
+    "seasonOrderCorrect": true
+  },
+  "negativeFixtures": [
+    {
+      "fixtureId": "payload.unexpected_root_property",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'packageIdentity': {'packageId': 'package.almoravid.opening_state.1062.v1', 'packageVersion': '1.0.0', 'documentKind': 'CanonicalOpeningStateContent', 'openingStateId': 'opening.almoravid.1062', 'scenarioId': 'scenario.almoravid.1062', 'effectiveDate': '1062-01-01', 'status': 'STATIC_CHECKED_CONTENT_PAYLOAD'}, 'authorityManifest': [{'file': 'Almoravid_Opening_State_1062_V1.md', 'role': 'OpeningStateAuthority', 'sha256': '4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6'}, {'file"
+      }
+    },
+    {
+      "fixtureId": "payload.registry_version_changed",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'packageIdentity': {'packageId': 'package.almoravid.opening_state.1062.v1', 'packageVersion': '1.0.0', 'documentKind': 'CanonicalOpeningStateContent', 'openingStateId': 'opening.almoravid.1062', 'scenarioId': 'scenario.almoravid.1062', 'effectiveDate': '1062-01-01', 'status': 'STATIC_CHECKED_CONTENT_PAYLOAD'}, 'authorityManifest': [{'file': 'Almoravid_Opening_State_1062_V1.md', 'role': 'OpeningStateAuthority', 'sha256': '4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6'}, {'file"
+      }
+    },
+    {
+      "fixtureId": "payload.historical_date_changed",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'packageIdentity': {'packageId': 'package.almoravid.opening_state.1062.v1', 'packageVersion': '1.0.0', 'documentKind': 'CanonicalOpeningStateContent', 'openingStateId': 'opening.almoravid.1062', 'scenarioId': 'scenario.almoravid.1062', 'effectiveDate': '1062-01-01', 'status': 'STATIC_CHECKED_CONTENT_PAYLOAD'}, 'authorityManifest': [{'file': 'Almoravid_Opening_State_1062_V1.md', 'role': 'OpeningStateAuthority', 'sha256': '4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6'}, {'file"
+      }
+    },
+    {
+      "fixtureId": "payload.historical_cadence_changed",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'packageIdentity': {'packageId': 'package.almoravid.opening_state.1062.v1', 'packageVersion': '1.0.0', 'documentKind': 'CanonicalOpeningStateContent', 'openingStateId': 'opening.almoravid.1062', 'scenarioId': 'scenario.almoravid.1062', 'effectiveDate': '1062-01-01', 'status': 'STATIC_CHECKED_CONTENT_PAYLOAD'}, 'authorityManifest': [{'file': 'Almoravid_Opening_State_1062_V1.md', 'role': 'OpeningStateAuthority', 'sha256': '4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6'}, {'file"
+      }
+    },
+    {
+      "fixtureId": "payload.biological_cadence_changed",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'packageIdentity': {'packageId': 'package.almoravid.opening_state.1062.v1', 'packageVersion': '1.0.0', 'documentKind': 'CanonicalOpeningStateContent', 'openingStateId': 'opening.almoravid.1062', 'scenarioId': 'scenario.almoravid.1062', 'effectiveDate': '1062-01-01', 'status': 'STATIC_CHECKED_CONTENT_PAYLOAD'}, 'authorityManifest': [{'file': 'Almoravid_Opening_State_1062_V1.md', 'role': 'OpeningStateAuthority', 'sha256': '4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6'}, {'file"
+      }
+    },
+    {
+      "fixtureId": "payload.season_order_changed",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'packageIdentity': {'packageId': 'package.almoravid.opening_state.1062.v1', 'packageVersion': '1.0.0', 'documentKind': 'CanonicalOpeningStateContent', 'openingStateId': 'opening.almoravid.1062', 'scenarioId': 'scenario.almoravid.1062', 'effectiveDate': '1062-01-01', 'status': 'STATIC_CHECKED_CONTENT_PAYLOAD'}, 'authorityManifest': [{'file': 'Almoravid_Opening_State_1062_V1.md', 'role': 'OpeningStateAuthority', 'sha256': '4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6'}, {'file"
+      }
+    },
+    {
+      "fixtureId": "payload.empty_collection_removed",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'packageIdentity': {'packageId': 'package.almoravid.opening_state.1062.v1', 'packageVersion': '1.0.0', 'documentKind': 'CanonicalOpeningStateContent', 'openingStateId': 'opening.almoravid.1062', 'scenarioId': 'scenario.almoravid.1062', 'effectiveDate': '1062-01-01', 'status': 'STATIC_CHECKED_CONTENT_PAYLOAD'}, 'authorityManifest': [{'file': 'Almoravid_Opening_State_1062_V1.md', 'role': 'OpeningStateAuthority', 'sha256': '4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6'}, {'file"
+      }
+    },
+    {
+      "fixtureId": "payload.empty_collection_nonempty",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'packageIdentity': {'packageId': 'package.almoravid.opening_state.1062.v1', 'packageVersion': '1.0.0', 'documentKind': 'CanonicalOpeningStateContent', 'openingStateId': 'opening.almoravid.1062', 'scenarioId': 'scenario.almoravid.1062', 'effectiveDate': '1062-01-01', 'status': 'STATIC_CHECKED_CONTENT_PAYLOAD'}, 'authorityManifest': [{'file': 'Almoravid_Opening_State_1062_V1.md', 'role': 'OpeningStateAuthority', 'sha256': '4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6'}, {'file"
+      }
+    },
+    {
+      "fixtureId": "payload.empty_collection_not_intentional",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'packageIdentity': {'packageId': 'package.almoravid.opening_state.1062.v1', 'packageVersion': '1.0.0', 'documentKind': 'CanonicalOpeningStateContent', 'openingStateId': 'opening.almoravid.1062', 'scenarioId': 'scenario.almoravid.1062', 'effectiveDate': '1062-01-01', 'status': 'STATIC_CHECKED_CONTENT_PAYLOAD'}, 'authorityManifest': [{'file': 'Almoravid_Opening_State_1062_V1.md', 'role': 'OpeningStateAuthority', 'sha256': '4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6'}, {'file"
+      }
+    },
+    {
+      "fixtureId": "overlay.abu_wrong_person",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'overlayIdentity': {'overlayId': 'overlay.almoravid.opening_state.1062.abu_bakr.v1', 'overlayVersion': '1.0.0', 'documentKind': 'OpeningStatePerspectiveSelectionOverlay', 'status': 'STATIC_CHECKED_SELECTION_OVERLAY'}, 'openingStateId': 'opening.almoravid.1062', 'canonicalPayloadFile': 'Almoravid_Opening_State_1062_V1.json', 'canonicalPayloadHash': '3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97', 'selectedPerspectiveRef': 'perspective.almoravid.abu_bakr', 'selectedPersonRef': "
+      }
+    },
+    {
+      "fixtureId": "overlay.yusuf_wrong_person",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'overlayIdentity': {'overlayId': 'overlay.almoravid.opening_state.1062.yusuf.v1', 'overlayVersion': '1.0.0', 'documentKind': 'OpeningStatePerspectiveSelectionOverlay', 'status': 'STATIC_CHECKED_SELECTION_OVERLAY'}, 'openingStateId': 'opening.almoravid.1062', 'canonicalPayloadFile': 'Almoravid_Opening_State_1062_V1.json', 'canonicalPayloadHash': '3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97', 'selectedPerspectiveRef': 'perspective.almoravid.yusuf', 'selectedPersonRef': 'perso"
+      }
+    },
+    {
+      "fixtureId": "overlay.abu_mutation_enabled",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'overlayIdentity': {'overlayId': 'overlay.almoravid.opening_state.1062.abu_bakr.v1', 'overlayVersion': '1.0.0', 'documentKind': 'OpeningStatePerspectiveSelectionOverlay', 'status': 'STATIC_CHECKED_SELECTION_OVERLAY'}, 'openingStateId': 'opening.almoravid.1062', 'canonicalPayloadFile': 'Almoravid_Opening_State_1062_V1.json', 'canonicalPayloadHash': '3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97', 'selectedPerspectiveRef': 'perspective.almoravid.abu_bakr', 'selectedPersonRef': "
+      }
+    },
+    {
+      "fixtureId": "overlay.yusuf_history_change_enabled",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'overlayIdentity': {'overlayId': 'overlay.almoravid.opening_state.1062.yusuf.v1', 'overlayVersion': '1.0.0', 'documentKind': 'OpeningStatePerspectiveSelectionOverlay', 'status': 'STATIC_CHECKED_SELECTION_OVERLAY'}, 'openingStateId': 'opening.almoravid.1062', 'canonicalPayloadFile': 'Almoravid_Opening_State_1062_V1.json', 'canonicalPayloadHash': '3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97', 'selectedPerspectiveRef': 'perspective.almoravid.yusuf', 'selectedPersonRef': 'perso"
+      }
+    },
+    {
+      "fixtureId": "overlay.record_creation_enabled",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'overlayIdentity': {'overlayId': 'overlay.almoravid.opening_state.1062.abu_bakr.v1', 'overlayVersion': '1.0.0', 'documentKind': 'OpeningStatePerspectiveSelectionOverlay', 'status': 'STATIC_CHECKED_SELECTION_OVERLAY'}, 'openingStateId': 'opening.almoravid.1062', 'canonicalPayloadFile': 'Almoravid_Opening_State_1062_V1.json', 'canonicalPayloadHash': '3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97', 'selectedPerspectiveRef': 'perspective.almoravid.abu_bakr', 'selectedPersonRef': "
+      }
+    },
+    {
+      "fixtureId": "overlay.payload_hash_changed",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'overlayIdentity': {'overlayId': 'overlay.almoravid.opening_state.1062.abu_bakr.v1', 'overlayVersion': '1.0.0', 'documentKind': 'OpeningStatePerspectiveSelectionOverlay', 'status': 'STATIC_CHECKED_SELECTION_OVERLAY'}, 'openingStateId': 'opening.almoravid.1062', 'canonicalPayloadFile': 'Almoravid_Opening_State_1062_V1.json', 'canonicalPayloadHash': '0000000000000000000000000000000000000000000000000000000000000000', 'selectedPerspectiveRef': 'perspective.almoravid.abu_bakr', 'selectedPersonRef': "
+      }
+    },
+    {
+      "fixtureId": "overlay.unexpected_property",
+      "rejectedAsExpected": true,
+      "schemaErrorCount": 1,
+      "firstError": {
+        "path": "",
+        "message": "{'overlayIdentity': {'overlayId': 'overlay.almoravid.opening_state.1062.yusuf.v1', 'overlayVersion': '1.0.0', 'documentKind': 'OpeningStatePerspectiveSelectionOverlay', 'status': 'STATIC_CHECKED_SELECTION_OVERLAY'}, 'openingStateId': 'opening.almoravid.1062', 'canonicalPayloadFile': 'Almoravid_Opening_State_1062_V1.json', 'canonicalPayloadHash': '3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97', 'selectedPerspectiveRef': 'perspective.almoravid.yusuf', 'selectedPersonRef': 'perso"
+      }
+    }
+  ],
+  "summary": {
+    "positiveDocuments": 3,
+    "positiveDocumentsPassed": 3,
+    "semanticChecks": 15,
+    "semanticChecksPassed": 15,
+    "negativeFixtures": 16,
+    "negativeFixturesRejected": 16,
+    "unexpectedNegativeAccepts": 0
+  },
+  "evidenceBoundary": {
+    "jsonSchemaValidation": "EXECUTED",
+    "semanticStaticValidation": "EXECUTED",
+    "realImporter": "NOT_RUN",
+    "compileValidation": "NOT_RUN",
+    "runtimeValidation": "NOT_RUN",
+    "saveLoadValidation": "NOT_RUN",
+    "replayValidation": "NOT_RUN"
+  },
+  "secondaryConsistencyCheck": {
+    "schemaParses": true,
+    "draft202012": true,
+    "threeBranches": true,
+    "positiveThreeOfThree": true,
+    "semanticAllPass": true,
+    "negativeAllRejected": true,
+    "statusPass": true,
+    "schemaHashMatches": true,
+    "exactEmptyCountInvariant": true,
+    "noExecutionOverclaim": true
+  },
+  "secondaryConsistencyAllPass": true
+}

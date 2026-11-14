@@ -1,0 +1,29 @@
+{
+  "document_id": "static-check.wales.network-opening-evidence.v2",
+  "version": "2.0.0",
+  "source": "Wales_Network_Opening_Fixture_Evidence_Table.md",
+  "successor": "Wales_Network_Opening_Fixture_Evidence_Table_V2_Current_Authority_Refinement.md",
+  "source_sha256": "5e2f7a0325725c8ab15e40ebd6e6900722c7fe8ea84c7b427a6c65b2ea21fb9e",
+  "successor_sha256": "5a9e6890b239740a911cf61550301787dd8c845c7f11cbb16632d961c18f5a5f",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger": true,
+    "all_source_headings_preserved": true,
+    "all_eight_candidate_ids_preserved": true,
+    "nine_node_count": true,
+    "eight_candidate_count": true,
+    "zero_dimensions": true,
+    "current_network_reference": true,
+    "current_profiles_referenced": true,
+    "current_dynasties_referenced": true,
+    "underage_protection": true,
+    "st_davids_separation": true,
+    "three_track_temporal": true,
+    "ue58": true,
+    "removal_ledger": true,
+    "honest_validations": true,
+    "authorizations_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

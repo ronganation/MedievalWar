@@ -1,0 +1,485 @@
+﻿{
+    "document_id":  "mw.shared-save.disposable-clone-prebuild.v1",
+    "generated_utc":  "2026-08-24T18:55:44.1406433Z",
+    "controlling_owner":  "Bryan Ronga",
+    "active_root":  "C:\\UnrealProjects\\MedievalWar",
+    "disposable_clone_root":  "C:\\temp2\\MedievalWar_SharedSave_CompileClone_V1",
+    "editor_target":  "MedievalWarEditor",
+    "uproject":  "C:\\temp2\\MedievalWar_SharedSave_CompileClone_V1\\MedievalWar.uproject",
+    "build_tool":  "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Build\\BatchFiles\\Build.bat",
+    "active_source_mutation_performed":  false,
+    "overlay_receipts":  [
+                             {
+                                 "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignSaveSubsystem.cpp",
+                                 "sha256":  "6095E366E1D1D61DE0D87EBBE12772D26B4A016132BAD44A3886BF3745D097EC",
+                                 "applied":  true
+                             },
+                             {
+                                 "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignTurnSubsystem.cpp",
+                                 "sha256":  "91761D4D613BA998935DFACADC201D6540974A592EB0CBDA9CC650787CE147E7",
+                                 "applied":  true
+                             },
+                             {
+                                 "relative_path":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignSaveRestorationTests.cpp",
+                                 "sha256":  "65F8B5A336BF5CC92029416E725215E6DB4A4674BB7E84BEB6FF7D585574A3D9",
+                                 "applied":  true
+                             },
+                             {
+                                 "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignSaveGame.h",
+                                 "sha256":  "E76EFF658521DC7A8638919799190B0CEB5F39BB9A017491FDD101D1799C1BC9",
+                                 "applied":  true
+                             },
+                             {
+                                 "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignSaveSubsystem.h",
+                                 "sha256":  "DF562CD23DE41BA24E17038621E1BDFED91CD0F67E17C6E99E0D5EDCDA2046EB",
+                                 "applied":  true
+                             },
+                             {
+                                 "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTurnSubsystem.h",
+                                 "sha256":  "0A42BE9CBF7681F6C6B1582AC67ED8C843435471FB5A2C68A7E02049887DF225",
+                                 "applied":  true
+                             }
+                         ],
+    "source_records":  [
+                           {
+                               "relative_path":  "Source/MedievalWar.Target.cs",
+                               "bytes":  416,
+                               "sha256":  "1B56AB164611C1802361BDE97E05ED230CE2699EE60023978F25493239036929"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarEditor.Target.cs",
+                               "bytes":  431,
+                               "sha256":  "F69562B3F673A268AF9CE1A89AE910A2D96E4DF6F2DD1DF2A1A28E1CB34B1801"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWar/MedievalWar.Build.cs",
+                               "bytes":  809,
+                               "sha256":  "325B8291AA4A8C800213059F45BFA002B415E0A06DC4F2C48B1B9CF52D9C510C"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWar/MedievalWar.cpp",
+                               "bytes":  204,
+                               "sha256":  "727D1E34E2E1DD3C91240602FC2CCF9184318B37FC41172B66BB37564021728B"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWar/MedievalWar.h",
+                               "bytes":  98,
+                               "sha256":  "4694B655856B269FC41B195971214F8E629857C7E5D6F34002A066CD4AF3037C"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/MedievalWarCampaign.Build.cs",
+                               "bytes":  507,
+                               "sha256":  "46E8E68817E1EEB760F4505AE1ADC2937B0FE8EF6607452BFFBFF8E0D747F09A"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/MedievalWarCampaign.Build.cs.pre_TR_SV_001.bak",
+                               "bytes":  642,
+                               "sha256":  "8173BF1C22D4881DEAFD868073D4FAC1DD7746C0561F7F5B851FF35987CB93D3"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MedievalWarCampaignModule.cpp",
+                               "bytes":  140,
+                               "sha256":  "72FE0C05526E071A457BC828111C39507866CCBDFDA738806C71DB66424564C3"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWBiologicalEligibilityReviewRoutingContract.cpp",
+                               "bytes":  5929,
+                               "sha256":  "20AC3A5C74591EE661E4CF40E9EAACDB4FBBAABABAEC4173C0B400BB02E0F07A"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp",
+                               "bytes":  216665,
+                               "sha256":  "B3986CD3CA39282EFE262B8AA39BBFC8B9BC5879FDAEC423D05456077E751705"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp.before_EmergenceRoutingRollbackFixtureFix",
+                               "bytes":  104135,
+                               "sha256":  "987D69E8F8F4DBE4CD7C444337F70C7FA0D7D991A8C58E910446640B269EB3A9"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp.before_typed_diplomacy_fixture_v3.bak",
+                               "bytes":  199903,
+                               "sha256":  "A1481B82F2259CC49CEFE13363D42603C0F9B489E57B0DBF696AB7BB55EF0C66"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp.before_typed_diplomacy_fixture_v4.bak",
+                               "bytes":  199903,
+                               "sha256":  "A1481B82F2259CC49CEFE13363D42603C0F9B489E57B0DBF696AB7BB55EF0C66"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignAutomationTests.cpp.corrupt_v4_snapshot.bak",
+                               "bytes":  199926,
+                               "sha256":  "BFF43729B89BAE29DEBBB9103F41AFE24125814A0EFEDEE225AAC8F4B031AFA8"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignSaveSubsystem.cpp",
+                               "bytes":  2225,
+                               "sha256":  "6095E366E1D1D61DE0D87EBBE12772D26B4A016132BAD44A3886BF3745D097EC"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignSaveSubsystem.cpp.pre_TR_SV_001.bak",
+                               "bytes":  2673,
+                               "sha256":  "CEF81E130DD691DA0D872EA554482385432BDEAE003657C15A1B44F73D659B34"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignScenarioDataAsset.cpp",
+                               "bytes":  6625,
+                               "sha256":  "21A157EFB1B8F47623DCAA16CE262E6BC41517280CA179D570331DEDE0CCDB31"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignScenarioSubsystem.cpp",
+                               "bytes":  23498,
+                               "sha256":  "648F27B722CA70BDB06E2B209FCA55A58F26FD9247F4E96B25C12217E96529BC"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignTheaterDefinition.cpp",
+                               "bytes":  4847,
+                               "sha256":  "5CE8D5A13ACC6D65A03511E124082C61E1B584F397AC096D91CC635F5FA73C4E"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignTurnSubsystem.cpp",
+                               "bytes":  75091,
+                               "sha256":  "91761D4D613BA998935DFACADC201D6540974A592EB0CBDA9CC650787CE147E7"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignTurnSubsystem.cpp.pre_TR_SV_001.bak",
+                               "bytes":  20004,
+                               "sha256":  "34474B1E96A2ACBB1E904E3866E04258BA21979A95E26280D1508BD1CDEB66C7"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignTypes.cpp",
+                               "bytes":  1513,
+                               "sha256":  "39EC27171BBF94A2758D87406E919608DE8E01B04D02D1A6DD4DC4972EAE7083"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignValidationSubsystem.cpp",
+                               "bytes":  92904,
+                               "sha256":  "D30CD8A5A4BECDD2E811A76026D689C782FF766536F8A4D05ECD30E47902F85E"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignValidationSubsystem.cpp.pre_TR_SV_001.bak",
+                               "bytes":  47608,
+                               "sha256":  "680ED7FB9A24BB9F40629B0692BFC343711EB62E8744937F2989C06F823D7276"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCharacterBiologicalLifecycleContract.cpp",
+                               "bytes":  8909,
+                               "sha256":  "C12693A2D9D08846A0C40C87651387B371219CC4517026AE3F214C6602B1ADD2"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWCommandEligibilityReviewConsumer.cpp",
+                               "bytes":  7310,
+                               "sha256":  "B0C9DB14785A0DE3F3C5A885248AC85D338D94AE23E64B2935DD79F612C2148B"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWDualClockContract.cpp",
+                               "bytes":  7612,
+                               "sha256":  "8C7367A709A0143C6E67FA2B68CB017B3EE4BC090E4005240F61404866FC6CE8"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWGovernanceEligibilityReviewConsumer.cpp",
+                               "bytes":  7402,
+                               "sha256":  "FC2075EC46EB8BC1C89AB7861CC719EA1A5B58D549EA476D164810FC85B3D463"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWHistoricalEmergenceCandidateContract.cpp",
+                               "bytes":  6222,
+                               "sha256":  "BCAB112DC9FAA9AE6A8B4B72B1D4B4C6A8E0D678358607BCC3A7DA08D5AB99CA"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWHistoricalEmergenceCandidateRoutingConsumer.cpp",
+                               "bytes":  8537,
+                               "sha256":  "070E7D7412EF4D769A5254407F8F774F54E429799149D88493513FDE3CE49F26"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWHistoricalEmergencePoliticalRealignmentReviewConsumer.cpp",
+                               "bytes":  7982,
+                               "sha256":  "C9B3472BB7C3433549D5F80E25E9EDCB4BEE224329C8CD8E968198C5B891F3D3"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWHistoricalMomentumContract.cpp",
+                               "bytes":  8900,
+                               "sha256":  "C34A48626F4B3C969747A7ECA0C194A9F43FAB2A9E35581ED05E8252A716C4F5"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalAdditionalAssessmentRoutingContract.cpp",
+                               "bytes":  7766,
+                               "sha256":  "FDA6DF8EBFDA96AD7A3A66D9BDA296727EB7C380592F8C8FA8669790B18B6B5C"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalCouncilAssessmentContract.cpp",
+                               "bytes":  6287,
+                               "sha256":  "77B4B38A90EAE36CF5D292EBD447010E3C361E8AA912773ECBE6724B4BA789E8"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalDiplomacyAssessmentContract.cpp",
+                               "bytes":  5748,
+                               "sha256":  "D1C171D58FAF695210052CEC35B9C6B644498E2BAFF77FAAF54CBB00E28F6FA5"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalLegitimacyAssessmentConsumer.cpp",
+                               "bytes":  8555,
+                               "sha256":  "4FF2F2702C757E1A7F8351BF19670E8AD9948A04A69B8AC99E94A7D6C723F198"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalLegitimacyEvidenceReviewContract.cpp",
+                               "bytes":  9039,
+                               "sha256":  "7B80FE29CD0650057BA97DC18E17D6DFE3ABFB3B1D8F29BDF37391E86895B80C"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalLegitimacyRecommendationReviewContract.cpp",
+                               "bytes":  6761,
+                               "sha256":  "043C96436E168013EE415D9D0821CB1FAB9938DD4978DB7EFF3EA040A5B58830"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalRealignmentProposalContract.cpp",
+                               "bytes":  7166,
+                               "sha256":  "F3565305E10D5F3F198A70A5C0040EF041A4C5E7F4B55CA4E9EFED06A273A4B4"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalRealignmentProposalEvaluationContract.cpp",
+                               "bytes":  8521,
+                               "sha256":  "48EAA60D0C80329F5B3A8A3DDE83D37D82515CD9FAC34DA511A80F5BDE85A17F"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalRealignmentRecommendationReviewContract.cpp",
+                               "bytes":  6638,
+                               "sha256":  "ABB9D557979B8F2F91C1F125AF36E05F76AB1DEF750E803FD19543C4A301009D"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalTypedCouncilEvidenceAssessmentContract.cpp",
+                               "bytes":  5991,
+                               "sha256":  "24628D1ACFC318075AC832CA6A125D79B48A1E9967A7EA206C8E8425A9640ADB"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalTypedDiplomacyEvidenceAssessmentContract.cpp",
+                               "bytes":  12454,
+                               "sha256":  "EBB4D634948E7D32234EF8A3DB1A4DDE91CB1234CF62374739AE1B0A7C4E07F5"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWPoliticalTypedLegitimacyEvidenceAssessmentContract.cpp",
+                               "bytes":  14757,
+                               "sha256":  "FAC7FC1746ADB59CA52307CABAF301D224F2007DAC51F490B1663E2262C17F35"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWRegionalClimateContract.cpp",
+                               "bytes":  5450,
+                               "sha256":  "FCECF668A50F947359838AC7824C5F7712026191CAFC77E09041D0C537A6DBBF"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/MWUnderagePowerRestrictionReviewConsumer.cpp",
+                               "bytes":  7482,
+                               "sha256":  "333CD8BDEF6DD13C8D32559795E2181F8FD7D556D88000FA976C50F88FE4A5FD"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/Character/Underage/MWUnderagePowerRestrictionValidator.cpp",
+                               "bytes":  15552,
+                               "sha256":  "59EAE4899C3E171A1A9C2089143F5C9762B116C9CF75C450CCA2E713763DA3E8"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/Character/Underage/MWUnderagePowerRestrictionValidator.h",
+                               "bytes":  915,
+                               "sha256":  "EAA8951E7D6369D974811726D46EFD32CDC1CD00A2E16197A412B718E38A43C2"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignAutomationTests.cpp.pre_TR_SV_001.bak",
+                               "bytes":  89537,
+                               "sha256":  "9780BB4AB720CC7E3DBB6C9E26F9A5B8621169F0F5DD788EA658B4B5255B75CB"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignBritaniaTheaterDefinitionTests.cpp",
+                               "bytes":  11169,
+                               "sha256":  "ECA6D2163B4941C7FDDF33638A42B97D30A9492E4D4C9D34FC2219A4C8C44278"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignSaveRestorationTests.cpp",
+                               "bytes":  972,
+                               "sha256":  "65F8B5A336BF5CC92029416E725215E6DB4A4674BB7E84BEB6FF7D585574A3D9"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignTheaterDefinitionTests.cpp",
+                               "bytes":  4009,
+                               "sha256":  "E52AA19C2EB5BE0282240FAF1FF9A8253699A18C1DA63C4C4B5900654A8A18D8"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignUnderagePowerRestrictionAutomationTests.cpp",
+                               "bytes":  6256,
+                               "sha256":  "8CDB6FC8F092EE467FD4B5B97AE1A1DAE50D25FD358C779B681B80F9C1512007"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/Tests/MWDualClockContractTests.cpp",
+                               "bytes":  4480,
+                               "sha256":  "0785B2EF951404C547CD40802ABF7EF2C9CA492B6AC902FBEFCF2B05BC4DBEC5"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Private/Tests/MWDualClockProductionIntegrationTests.cpp",
+                               "bytes":  4531,
+                               "sha256":  "22F69797C2AA277CDE34426A65DB26D72604EE72EFA4AC1B68F4774678D73BDB"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MedievalWarCampaignModule.h",
+                               "bytes":  111,
+                               "sha256":  "CE6AD9E84602063E7BF7157090630C11BB8FAAE4519767B63EFE899A241FD841"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWBiologicalEligibilityReviewRoutingContract.h",
+                               "bytes":  2102,
+                               "sha256":  "469847666543D04024334C5268FC540239AB28146B6D0609C678E10B42CB6F6B"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignSaveGame.h",
+                               "bytes":  784,
+                               "sha256":  "E76EFF658521DC7A8638919799190B0CEB5F39BB9A017491FDD101D1799C1BC9"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignSaveSubsystem.h",
+                               "bytes":  849,
+                               "sha256":  "DF562CD23DE41BA24E17038621E1BDFED91CD0F67E17C6E99E0D5EDCDA2046EB"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignScenarioDataAsset.h",
+                               "bytes":  9422,
+                               "sha256":  "0BBC0415B2FEBB2D012CDE42164BD6E8005899FDBFD841A843DE82C6647F5FB4"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignScenarioSubsystem.h",
+                               "bytes":  4388,
+                               "sha256":  "3651C727576F7FAF371CC301273C0FB4C3F41BC4CCFB92DB50F19CC376E70F13"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTheaterDefinition.h",
+                               "bytes":  2421,
+                               "sha256":  "8A35E5B8A19314BBA20A53BA154561E56B8ACF47EC03B0CE8113C7829B73715B"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTurnSubsystem.h",
+                               "bytes":  11822,
+                               "sha256":  "0A42BE9CBF7681F6C6B1582AC67ED8C843435471FB5A2C68A7E02049887DF225"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTypes.h",
+                               "bytes":  33402,
+                               "sha256":  "DB41B84AF4212545AB5904C95DF596E91B43A4583A90B15C80080337C5063656"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTypes.h.pre_TR_SV_001.bak",
+                               "bytes":  26678,
+                               "sha256":  "163761C25D50C5DAD6B8B3D7AE2CA136230673C0389E4E0992532B4BFACC7FA8"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignValidationSubsystem.h",
+                               "bytes":  5119,
+                               "sha256":  "93291B7A7EC4E330D8C63E74E0939FA459591A2F4B978C94FB29D381E17AA6C0"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCharacterBiologicalLifecycleContract.h",
+                               "bytes":  400,
+                               "sha256":  "EE2B2E3807D99B9EFF28D73AA097D74754951D6E3E78BBC01A51A55CA1281956"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWCommandEligibilityReviewConsumer.h",
+                               "bytes":  1781,
+                               "sha256":  "D1D37172DC9138C303ACB02269C962657120D3EAD09D2E7AC4BE6346929C4B0B"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWDualClockContract.h",
+                               "bytes":  4572,
+                               "sha256":  "80AEA43B94CA24CAD21B65F5BDC961A980709D3AA10BF68F8F45C62ECB97BFE3"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWGovernanceEligibilityReviewConsumer.h",
+                               "bytes":  1807,
+                               "sha256":  "11AB1E9AF262AE9F62DE928DB855CFAF5FD818A65C39C2A827A49FF18F1E76E1"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWHistoricalEmergenceCandidateContract.h",
+                               "bytes":  4150,
+                               "sha256":  "2DE6E2352CF6A4FCFCB7AEC13782AE2FED9A4E451260167B2F4A319192C23F2F"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWHistoricalEmergenceCandidateRoutingConsumer.h",
+                               "bytes":  2282,
+                               "sha256":  "B481BB3E1E891CCC01F2C4EBFA34E10E72D22ED1F4AEB1724711275910F0080B"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWHistoricalEmergencePoliticalRealignmentReviewConsumer.h",
+                               "bytes":  2085,
+                               "sha256":  "5A36C681E8FA46DDE476E0ECDF86C2972BAE3307C4EA89D2838F6D2B24994FB1"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWHistoricalMomentumContract.h",
+                               "bytes":  3632,
+                               "sha256":  "BE08378139D8924A997A411932BB434B7D3A58AD991A8A71A3F685331D08D960"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalAdditionalAssessmentRoutingContract.h",
+                               "bytes":  2593,
+                               "sha256":  "4CF8AD615AA421416CB35F689885E45D821DF2647E1C347013D9D7DFCB0B5853"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalCouncilAssessmentContract.h",
+                               "bytes":  2460,
+                               "sha256":  "B41A35010A236E6A7D2DF9AD9F62FAFFA059CC393526E8776E065A528D3ABF65"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalDiplomacyAssessmentContract.h",
+                               "bytes":  2895,
+                               "sha256":  "00675DBF45F67109436103C557818A5EB0A89FDFDC22C16539256D0434C2FF5F"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalLegitimacyAssessmentConsumer.h",
+                               "bytes":  2180,
+                               "sha256":  "56B0707C2D3BB44751D2578BBC168724CF0B03793C4CE2B3A7E5952AF420FC5C"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalLegitimacyEvidenceReviewContract.h",
+                               "bytes":  2676,
+                               "sha256":  "B76E773265326ACC6AFB3968E68856CF5373A17147DABF44F224EBDA89D009E5"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalLegitimacyRecommendationReviewContract.h",
+                               "bytes":  2245,
+                               "sha256":  "1F4254DB5918A5350C633DE6CBEF7A7EE6F3D164BE459798B4F5CCEDF6517949"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalRealignmentProposalContract.h",
+                               "bytes":  2928,
+                               "sha256":  "0658B41DD68313AF72315FD96593822C12874F842509899E036D4BC4F0B138DD"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalRealignmentProposalEvaluationContract.h",
+                               "bytes":  2904,
+                               "sha256":  "E4D04C944265F51924F426242E6FDDA69AAA6B8441513A6F4EAA0E6F676441F3"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalRealignmentRecommendationReviewContract.h",
+                               "bytes":  2125,
+                               "sha256":  "B348FEF8D1E29CD5D7CA8979B6516EDD0D579DA16B6529BDAA5D3E7E53BEE907"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalTypedCouncilEvidenceAssessmentContract.h",
+                               "bytes":  2893,
+                               "sha256":  "162121ED03566421889544D27257DFE415DA2606F2F7CF931A4BE783954C7744"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalTypedDiplomacyEvidenceAssessmentContract.h",
+                               "bytes":  3295,
+                               "sha256":  "E6C6A9DA5255FC915552593F304BAE2FA6ED341E7417844F4BF17B948DF64D9C"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWPoliticalTypedLegitimacyEvidenceAssessmentContract.h",
+                               "bytes":  3187,
+                               "sha256":  "0C7CCFB06E01D4A6F6F97FDEBE1362F414E4A42957234698E2FAB52FB65CC309"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWRegionalClimateContract.h",
+                               "bytes":  4101,
+                               "sha256":  "CA65A5E22541334DD4F61C082441FFB52433BFB7B4A325840B5F2C2766A00F6D"
+                           },
+                           {
+                               "relative_path":  "Source/MedievalWarCampaign/Public/MWUnderagePowerRestrictionReviewConsumer.h",
+                               "bytes":  1691,
+                               "sha256":  "0CDB2543F9B9AB6A336E6FC09D90937195035B22F26A9B07F5184C547290B840"
+                           }
+                       ]
+}

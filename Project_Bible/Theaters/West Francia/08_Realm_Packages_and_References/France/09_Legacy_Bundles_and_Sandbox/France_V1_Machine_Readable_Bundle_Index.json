@@ -1,0 +1,25 @@
+{
+  "bundle_zip": "France_V1_Machine_Readable_Bundle.zip",
+  "bundle_dir": "/mnt/data/France_V1_Machine_Readable_Bundle",
+  "files": [
+    "README_France_V1_Machine_Bundle.md",
+    "france_characters_v1.yaml",
+    "france_dynasty_v1.yaml",
+    "france_ecclesiastical_content_v1.yaml",
+    "france_governance_delegated_authority_v1.yaml",
+    "france_historical_emergence_v1.yaml",
+    "france_historical_memory_v1.yaml",
+    "france_network_1062_v1.yaml",
+    "france_opening_state_1062_v1.yaml",
+    "france_package_manifest_v1.yaml",
+    "france_realm_personality_ai_v1.yaml",
+    "france_registry_v1.yaml",
+    "france_review_quarantine_v1.yaml",
+    "france_validation_manifest_v1.yaml"
+  ],
+  "status": {
+    "machine_readable_authored": true,
+    "compile_validated": false,
+    "runtime_validated": false
+  }
+}

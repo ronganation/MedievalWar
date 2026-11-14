@@ -1,0 +1,53 @@
+{
+  "document_id": "manifest.character.scotland.donald_iii.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Donald_III.md",
+    "bytes": 39852,
+    "physical_lines": 738,
+    "sha256": "d277a92050301d263f0e8db06773041dfaf6fb09c47118afddb73c7ea0b60282",
+    "complete_source_verified": true,
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Donald_III_V2_Current_Authority_Refinement.md",
+    "bytes": 60927,
+    "physical_lines": 1331,
+    "sha256": "5f71fc50862296919df2165cc33d3e5cf8c874bc4a50a4b314f2574251162bac"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_fidelity_result": "pass",
+    "source_headings_preserved": 94,
+    "missing_source_headings": [],
+    "removed_content": []
+  },
+  "additions": {
+    "current_metadata": true,
+    "three_track_temporal_model": true,
+    "opening_participation": true,
+    "title_office_claim_and_succession_boundary": true,
+    "governance_boundary": true,
+    "military_boundary": true,
+    "dynasty_boundary": true,
+    "Network_handoff": true,
+    "Duncan_underage_boundary": true,
+    "Moray_and_Gille_boundary": true,
+    "historical_system_handoff": true,
+    "Personality_and_AI_handoff": true,
+    "save_migration_determinism": true,
+    "validation_cases": 16
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Donald_III_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

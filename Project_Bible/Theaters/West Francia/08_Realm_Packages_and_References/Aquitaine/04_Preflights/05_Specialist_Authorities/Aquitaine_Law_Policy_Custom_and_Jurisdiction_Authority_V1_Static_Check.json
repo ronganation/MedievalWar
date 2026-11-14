@@ -1,0 +1,82 @@
+{
+  "StaticCheckId": "StaticCheck.Aquitaine.LawPolicyCustomJurisdiction.V1",
+  "AuthorityFile": "Aquitaine_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+  "AuthoritySHA256": "9d3b4dfb7a8366df088b65a97dad606a74d53196cf220014680c59b987b5f72c",
+  "Checks": [
+    {
+      "Name": "Aquitaine_review_target",
+      "Passed": true
+    },
+    {
+      "Name": "Project_Bible_2_4",
+      "Passed": true
+    },
+    {
+      "Name": "Design_Checklist_3_7",
+      "Passed": true
+    },
+    {
+      "Name": "Unreal_Engine_5_8",
+      "Passed": true
+    },
+    {
+      "Name": "Three_track_time",
+      "Passed": true
+    },
+    {
+      "Name": "Plural_legal_order",
+      "Passed": true
+    },
+    {
+      "Name": "War_permission_gate_rejected",
+      "Passed": true
+    },
+    {
+      "Name": "Papal_reliability_separated",
+      "Passed": true
+    },
+    {
+      "Name": "Regional_power_rebel_separated",
+      "Passed": true
+    },
+    {
+      "Name": "Barbastro_inactive",
+      "Passed": true
+    },
+    {
+      "Name": "Opening_bindings_empty",
+      "Passed": true
+    },
+    {
+      "Name": "Markdown_fences_balanced",
+      "Passed": true
+    },
+    {
+      "Name": "No_em_dash",
+      "Passed": true
+    },
+    {
+      "Name": "One_stable_footer",
+      "Passed": true
+    },
+    {
+      "Name": "Final_marker_correct",
+      "Passed": true
+    }
+  ],
+  "TotalChecks": 15,
+  "Passes": 15,
+  "Failures": 0,
+  "Result": "Pass",
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "LawActivations": 0,
+    "PolicyActivations": 0,
+    "JurisdictionActivations": 0,
+    "CaseActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

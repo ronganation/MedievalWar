@@ -1,0 +1,20 @@
+{
+  "document": "Yeoman_Archers_V1_Master_Unit_Profile.md",
+  "sha256": "8579f79e37c0a1a4dbfc856e82c41f995a494d44da54df188d8b198bae54254c",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "terrain_25": true,
+    "legacy_complete": true,
+    "unit_locked": true,
+    "ammo": true,
+    "retraining": true,
+    "conditioning": true,
+    "trajectory": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

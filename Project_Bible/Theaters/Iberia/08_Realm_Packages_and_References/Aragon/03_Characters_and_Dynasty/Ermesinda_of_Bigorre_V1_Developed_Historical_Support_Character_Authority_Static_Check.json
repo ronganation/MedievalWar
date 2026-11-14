@@ -1,0 +1,28 @@
+{
+  "Result": "Pass",
+  "FileName": "Ermesinda_of_Bigorre_V1_Developed_Historical_Support_Character_Authority.md",
+  "Version": "1.0.0",
+  "SHA256": "06a48d579c627cd919a151df539f73cc42a8c8620c5a736cd083043c23b4b0aa",
+  "Bytes": 13565,
+  "Lines": 279,
+  "Checks": {
+    "bytes": 13565,
+    "lines": 279,
+    "historical_inactive": true,
+    "exact_death_not_invented": true,
+    "alias_control": true,
+    "repeated": {},
+    "escaped_underscore": 0,
+    "em_dash": 0,
+    "balanced": true
+  },
+  "AllChecksPass": true,
+  "MutationReceipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Relationships": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "NextFile": "Sancha_of_Aibar_V1_Developed_Historical_Support_Character_Authority.md"
+}

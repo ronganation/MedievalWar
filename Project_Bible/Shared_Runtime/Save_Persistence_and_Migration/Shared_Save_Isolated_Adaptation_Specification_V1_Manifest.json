@@ -1,0 +1,15 @@
+{
+  "FileName": "Shared_Save_Isolated_Adaptation_Specification_V1.md",
+  "SHA256": "40857F99E63FE9E8E0E22E51B2F52772737187C924BB9D0E2D591BC3C310105F",
+  "Bytes": 8579,
+  "Lines": 259,
+  "Checks": {
+    "schema": true,
+    "payload": true,
+    "no_mutation": true,
+    "not_complete": true,
+    "fences": true,
+    "no_escape": true,
+    "footer": true
+  }
+}

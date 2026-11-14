@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "mw.schema.france.candidate.import-result.v1",
+  "type": "object",
+  "required": [
+    "Fixture",
+    "ExpectedResult",
+    "ReasonCodes",
+    "MutationPerformed"
+  ],
+  "properties": {
+    "Fixture": {
+      "type": "string"
+    },
+    "ExpectedResult": {
+      "enum": [
+        "Pass",
+        "ConditionalPass",
+        "Fail"
+      ]
+    },
+    "ReasonCodes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "MutationPerformed": {
+      "const": false
+    }
+  },
+  "additionalProperties": true
+}

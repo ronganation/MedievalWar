@@ -1,0 +1,85 @@
+{
+  "package_id": "Package.Normandy.CandidateFixture",
+  "realm_id": "Realm.Normandy",
+  "scenario_id": "Scenario.Normandy.1062January",
+  "status": "Candidate",
+  "flags": {
+    "RegistryPromotion": false,
+    "OpeningStateActivation": false,
+    "UnrealImport": false,
+    "RuntimeEligible": false
+  },
+  "temporal": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeason": {
+      "Opening": "Winter",
+      "Order": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ],
+      "StepsPerStrategicTurn": 1
+    }
+  },
+  "records": [
+    {
+      "id": "Character.Normandy.WilliamOfNormandy",
+      "kind": "Person",
+      "owner": "Normandy",
+      "state": "Candidate"
+    },
+    {
+      "id": "Title.Normandy.DukeOfNormandy",
+      "kind": "Title",
+      "owner": "Normandy",
+      "state": "Candidate"
+    },
+    {
+      "id": "Office.Church.Normandy.BishopOfBayeux",
+      "kind": "Office",
+      "owner": "Normandy",
+      "state": "Candidate"
+    },
+    {
+      "id": "Institution.Normandy.SeeBayeux",
+      "kind": "Institution",
+      "owner": "Normandy",
+      "state": "Candidate"
+    },
+    {
+      "id": "Character.Brittany.AlanRufus",
+      "kind": "ExternalPersonReference",
+      "owner": "Brittany",
+      "state": "ExternalLock"
+    },
+    {
+      "id": "Character.Boulogne.EustaceII",
+      "kind": "ExternalPersonReference",
+      "owner": "Boulogne",
+      "state": "ExternalLock"
+    },
+    {
+      "id": "UnitFamily.Normandy.DucalHouseholdKnights",
+      "kind": "UnitFamilyDefinition",
+      "owner": "Normandy",
+      "state": "ReviewOnly"
+    }
+  ],
+  "aliases": [
+    {
+      "from": "Title.Normandy.Duke",
+      "to": "Title.Normandy.DukeOfNormandy",
+      "applied": false
+    }
+  ],
+  "opening_instances": [],
+  "writes_allowed": false,
+  "commit_allowed": false,
+  "fixture": {
+    "id": "POS-007",
+    "name": "one_hop_alias_candidate",
+    "expected": "Pass"
+  }
+}

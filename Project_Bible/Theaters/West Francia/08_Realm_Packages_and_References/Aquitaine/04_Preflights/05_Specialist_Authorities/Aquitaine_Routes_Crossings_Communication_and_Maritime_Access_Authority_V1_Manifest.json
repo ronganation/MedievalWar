@@ -1,0 +1,43 @@
+{
+  "ManifestType": "AuthorityArtifactManifest",
+  "AuthorityFile": "Aquitaine_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+  "Version": "1.0.0",
+  "GeneratedOn": "2026-09-04",
+  "SHA256": "37a52007bfc61f4a3b197694d91f048b2fdc8820993466c8081364e3dd2b2c13",
+  "ByteCount": 47399,
+  "LineCount": 1380,
+  "MajorSectionCount": 55,
+  "BenchmarkFiles": [
+    "France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+    "Norway_Routes_Maritime_Access_and_Communication_V1.md",
+    "Ireland_Strategic_Geography_Regions_Settlements_Routes_Ports_and_Control_Authority_V1_1_FULL.md",
+    "Wales_Strategic_Geography_Regions_Settlements_Routes_and_Control_Authority_V1.md"
+  ],
+  "Validation": {
+    "AquitaineReviewTargetPresent": true,
+    "FranceBenchmarkOnlyPresent": true,
+    "ThreeTrackTimePresent": true,
+    "PoitersBordeauxAxisPresent": true,
+    "GasconRoutePortfolioPresent": true,
+    "PyreneanBoundaryPresent": true,
+    "MaritimeFleetConflationRejected": true,
+    "BarbastroInactive": true,
+    "PermissionGateRejected": true,
+    "OpeningActivationsZero": true,
+    "MarkdownFencesBalanced": true,
+    "EmDashesAbsent": true,
+    "EscapedUnderscoresAbsent": true,
+    "StableFooterOnce": true,
+    "FinalMarkerCorrect": true
+  },
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "RouteActivations": 0,
+    "CrossingActivations": 0,
+    "MaritimeLaneActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

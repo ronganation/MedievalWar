@@ -1,0 +1,102 @@
+{
+  "marriages": [
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Dynasty_Authority_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "MarriageCandidate",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Dynasty_Authority_V1_2_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "marriage.hawise_hoel",
+      "validation_state": "UnvalidatedCandidate"
+    }
+  ],
+  "records": [
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Dynasty_Authority_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "DynastyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Dynasty_Authority_V1_2_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "dynasty.rennes",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Dynasty_Authority_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "DynastyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Dynasty_Authority_V1_2_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "dynasty.rennes_penthievre",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Dynasty_Authority_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "DynastyDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Dynasty_Authority_V1_2_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "dynasty.cornouaille",
+      "validation_state": "UnvalidatedCandidate"
+    }
+  ]
+}

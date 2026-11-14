@@ -1,0 +1,22 @@
+{
+  "filename": "Ireland_AI_Q09_Q12_Q14_Owner_Schema_Review_Packet_V1.md",
+  "version": "1.0.0",
+  "bytes": 18738,
+  "physical_lines": 564,
+  "sha256": "a7f4d98da19a603b8d38c4122eada9a09ebfb8f8a92788821a44b725ac9e56b6",
+  "status": "Static-Checked Ready for Owner Schema Routing",
+  "requests": 3,
+  "pending_at_creation": 3,
+  "owner_responses_present": 0,
+  "approved_schemas_present": 0,
+  "bindings_applied": 0,
+  "integration_fixtures": 6,
+  "validation_cases": 18,
+  "registry_rows_created": 0,
+  "gameplay_tags_created": 0,
+  "unreal_symbols_created": 0,
+  "ai_runtime_bindings_created": 0,
+  "opening_state_mutations": 0,
+  "runtime_mutations": 0,
+  "real_payload_imports": 0
+}

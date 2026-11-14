@@ -1,0 +1,14 @@
+{
+  "command": "python R/run.py --pack-root . --output O/results2.json",
+  "network_access": false,
+  "project_writes": false,
+  "registry_writes": false,
+  "opening_state_writes": false,
+  "runtime_writes": false,
+  "unreal_writes": false,
+  "exit_codes": {
+    "0": "all expectations matched",
+    "1": "fixture expectation mismatch",
+    "2": "pack validation failure"
+  }
+}

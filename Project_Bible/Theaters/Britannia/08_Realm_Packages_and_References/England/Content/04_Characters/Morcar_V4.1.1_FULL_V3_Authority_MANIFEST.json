@@ -1,0 +1,42 @@
+{
+  "document_id": "manifest.england.morcar_v4.1.1_full_v3_authority",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "Morcar_V4.1.1_FULL_V3_Authority.md",
+      "sha256": "2afd2a0dcf0e5cf363ea2d945edfc8bb5413e536d3632d0331739c0d1328f3c6",
+      "bytes": 55687
+    },
+    {
+      "filename": "Morcar_V4.1.1_FULL_V3_Authority_VALIDATION.json",
+      "sha256": "cabdabe4d6be10a1fb01cde4ecca4c4fe3b8575ac39754b9705af08168185eea",
+      "bytes": 1321
+    },
+    {
+      "filename": "Morcar_V4.1.1_FULL_V3_Authority_SOURCE_TO_FINAL_MAP.json",
+      "sha256": "3c60797a7b4df14320f11ec5825e1e731d2398370d45e8a0a084d7e6b031a283",
+      "bytes": 15935
+    },
+    {
+      "filename": "Morcar_V4.1.1_FULL_V3_Authority_SOURCE_RECEIPT.json",
+      "sha256": "f1f149ee7072ba739642710d800e21c89800314c4ec43f1666b49e2bb0cc1962",
+      "bytes": 596
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "physical_promotion": false
+  }
+}

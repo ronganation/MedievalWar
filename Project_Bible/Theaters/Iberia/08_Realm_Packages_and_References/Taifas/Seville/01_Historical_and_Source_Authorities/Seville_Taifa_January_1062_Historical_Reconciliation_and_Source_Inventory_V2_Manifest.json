@@ -1,0 +1,41 @@
+{
+  "document_id": "Manifest.HistoricalReconciliation.Realm.SevilleTaifa.1062.V2",
+  "document": "Seville_Taifa_January_1062_Historical_Reconciliation_and_Source_Inventory_V2.md",
+  "version": "2.0.0",
+  "revision_date": "2026-09-09",
+  "placement": "Seville/01_Historical_and_Source_Authorities",
+  "status": "StaticCheckedCurrentAuthorityModernizationAndDevelopedRealmHistoricalFoundation",
+  "immediate_substantive_source": "Seville_Taifa_January_1062_Historical_Reconciliation_and_Source_Inventory_V1.md",
+  "immediate_source_sha256": "795967ED10490B8FA9CFBEBEE2D6454B8001469390291A1F3C65F00B2B8176F6",
+  "checks": {
+    "source_bytes": 51111,
+    "source_lines": 1348,
+    "successor_bytes": 62396,
+    "successor_lines": 1550,
+    "successor_sha256": "F90217D6E834EF97305220D5813AB29BF4C885B0D2B0CBB435CAF14E3BF4B896",
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "all_source_section_headings_preserved": true,
+    "three_track": false,
+    "substantive_removals": 0,
+    "legacy_validation_promoted": false,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "mutation_receipt": {
+    "SourceOverwrite": 0,
+    "Deleted": 0,
+    "Moved": 0,
+    "Renamed": 0,
+    "Registry": 0,
+    "OpeningState": 0,
+    "CandidatePayload": 0,
+    "ImporterRuns": 0,
+    "Runtime": 0,
+    "AdvancedSave": 0,
+    "Unreal": 0
+  },
+  "next_gate": "Seville_Taifa_January_1062_Authority_and_Control_Contradiction_Ledger_V2.md"
+}

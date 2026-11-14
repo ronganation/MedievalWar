@@ -1,0 +1,18 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "correct_folder": true,
+    "records_22": true,
+    "core_9": true,
+    "phases_8": true,
+    "gates_5": true,
+    "blockers_9": true,
+    "zero_mutations": true,
+    "next_history": true,
+    "footer_once": true
+  }
+}

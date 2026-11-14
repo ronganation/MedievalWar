@@ -1,0 +1,21 @@
+{
+  "artifact": "Burgundy_Cross_Owner_Reference_Reconciliation_V1.md",
+  "stableDocumentId": "CrossOwnerReferenceReconciliation.Realm.Burgundy",
+  "version": "1.0.0",
+  "revisionDate": "2026-09-08",
+  "bytes": 25960,
+  "lines": 716,
+  "sha256": "508cc58b4ac3c74b785f06436a3820dfc95019468936bea345982dfcb7393dff",
+  "placement": "Burgundy/00_Control",
+  "companions": [
+    "Burgundy_Cross_Owner_Reference_Reconciliation_V1_Manifest.json",
+    "Burgundy_Cross_Owner_Reference_Reconciliation_V1_Static_Check.json"
+  ],
+  "mutation": {
+    "registry": false,
+    "openingState": false,
+    "unreal": false,
+    "runtime": false,
+    "realPayloadImport": false
+  }
+}

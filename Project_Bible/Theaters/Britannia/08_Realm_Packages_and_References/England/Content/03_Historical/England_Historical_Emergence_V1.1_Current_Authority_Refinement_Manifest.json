@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.england.historical_emergence.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "England_Historical_Emergence.md",
+    "version": "1.0",
+    "sha256": "b82b56a18e8f84768cb036e44019291ca55e6c6e854509c7424d8a61ccc55529",
+    "bytes": 24512,
+    "copy_based_rebuild": true
+  },
+  "files": [
+    {
+      "filename": "England_Historical_Emergence_V1.1_Current_Authority_Refinement.md",
+      "sha256": "4b86f11ba05e267a6d109d18bd4a682122817b404f65508adeaca2a739dc7342",
+      "bytes": 44262
+    },
+    {
+      "filename": "England_Historical_Emergence_V1.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "6e9f903c20e92d85e355bcbea40bb3b84f9d376756c17470ca9c5d9ae67eb099",
+      "bytes": 917
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "Emergence_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "document_id": "Manifest.Validation.LeonCastile.MachineReadableV2SourceHashReconciliation.V1",
+  "report_file": "Leon_Castile_Machine_Readable_V2_Source_and_Hash_Reconciliation_Report_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 20802,
+  "physical_lines": 484,
+  "sha256": "19C231C4C077EF5B696CE6B32830CF5B188D9EF95C2656717F7C5C1F83D9E426",
+  "status": "StaticCheckedMachineReadableV2ReconciliationWithSuccessorAndExecutableValidationGates",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "contract_finding_present": true,
+    "schema_finding_present": true,
+    "payload_finding_present": true,
+    "three_overlay_findings_present": true,
+    "hash_matrix_present": true,
+    "temporal_invariants_present": true,
+    "successor_plan_present": true,
+    "promotion_block_preserved": true
+  },
+  "disposition": "STATIC_HASH_COHERENCE_PASS_SOURCE_BINDING_AND_EXECUTION_BLOCKED",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "validation_boundary": {
+    "PhysicalHashRecalculation": "NOT_RUN",
+    "SourceSuccessors": "NOT_GENERATED_BY_REPORT",
+    "ColocatedSchema": "NOT_RUN",
+    "OfflineFixtures": "NOT_RUN",
+    "Importer": "NOT_RUN",
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "Promotion": "PROHIBITED"
+  },
+  "next_file": "Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_1_Dependency_Reconciled.md",
+  "all_report_static_checks_pass": true
+}

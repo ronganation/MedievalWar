@@ -1,0 +1,189 @@
+manifest_version: 1.0.0
+manifest_status: PartialBatchAVisualAndEnterpriseEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+manifest_scope:
+  included:
+    - VisibleFilesIn07_Cross_Authority_Registry_and_Validation
+    - EnterpriseSearchAndOpenEvidenceAvailableInCurrentWorkstream
+    - CurrentConversationArtifactsWithLocallyGeneratedHashes
+  excluded_or_not_yet_verified:
+    - CompleteRecursiveHammadidPackage
+    - HiddenOrNestedFilesNotVisibleInOwnerScreenshot
+    - ExactByteSizesForEnterpriseOnlyFiles
+    - SHA256ForFilesWithoutRawByteAccess
+    - CompleteHeaderExtraction
+    - SemanticDuplicateDisposition
+source_evidence:
+  owner_visual_evidence: Folder07ScreenshotProvided2026_09_22
+  enterprise_evidence: Microsoft365SearchAndOpen
+  current_artifact_evidence: LocallyGeneratedFilesInCurrentConversation
+record_count: 10
+package_wide_file_count_claimed: false
+recursive_filesystem_scan_executed: false
+registry_mutation_authorized: false
+opening_state_mutation_authorized: false
+payload_authorized: false
+importer_authorized: false
+runtime_mutation_authorized: false
+unreal_mutation_authorized: false
+files:
+  - relative_path: 07_Cross_Authority_Registry_and_Validation/Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    file_name: Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    extension: .md
+    parent_folder: 07_Cross_Authority_Registry_and_Validation
+    displayed_size: 46 KB
+    size_bytes: UnknownPendingDirectRead
+    line_count: UnknownPendingDirectRead
+    sha256: NotRun
+    last_write_time_displayed: 2026-09-21 10:04 PM
+    authority_family: CrossAuthorityRegistryValidation
+    document_class: CrossAuthorityReferenceMap
+    readable_state: SearchVisibleAndVisuallyPresent
+    encoding_state: NotRun
+    header_extraction_state: PartialEnterpriseOpen
+    validation_state: VisualFolder07AndEnterpriseSearch
+  - relative_path: 07_Cross_Authority_Registry_and_Validation/Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    file_name: Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    extension: .md
+    parent_folder: 07_Cross_Authority_Registry_and_Validation
+    displayed_size: 26 KB
+    size_bytes: UnknownPendingDirectRead
+    line_count: 459
+    sha256: NotRun
+    last_write_time_displayed: 2026-09-21 11:38 PM
+    authority_family: CrossAuthorityRegistryValidation
+    document_class: CurrentAuthorityIndexAndPackageREADME
+    readable_state: EnterpriseOpenedAndVisuallyPresent
+    encoding_state: NotRun
+    header_extraction_state: EnterpriseFullOpen
+    validation_state: VisualFolder07AndEnterpriseOpen
+  - relative_path: 07_Cross_Authority_Registry_and_Validation/Hammadid_Developed_Realm_Full_Portfolio_Comparator_and_Missing_Capability_Audit_V1.md
+    file_name: Hammadid_Developed_Realm_Full_Portfolio_Comparator_and_Missing_Capability_Audit_V1.md
+    extension: .md
+    parent_folder: 07_Cross_Authority_Registry_and_Validation
+    displayed_size: 20 KB
+    size_bytes: UnknownPendingDirectRead
+    line_count: UnknownPendingDirectRead
+    sha256: NotRun
+    last_write_time_displayed: 2026-09-21 11:54 PM
+    authority_family: CrossAuthorityRegistryValidation
+    document_class: DevelopedRealmPortfolioComparator
+    readable_state: SearchVisibleAndVisuallyPresent
+    encoding_state: NotRun
+    header_extraction_state: SearchSnippetOnly
+    validation_state: VisualFolder07AndEnterpriseSearch
+  - relative_path: 07_Cross_Authority_Registry_and_Validation/Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    file_name: Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    extension: .md
+    parent_folder: 07_Cross_Authority_Registry_and_Validation
+    displayed_size: 33 KB
+    size_bytes: UnknownPendingDirectRead
+    line_count: UnknownPendingDirectRead
+    sha256: NotRun
+    last_write_time_displayed: 2026-09-22 12:05 AM
+    authority_family: CrossAuthorityRegistryValidation
+    document_class: IDMigrationRegistryCandidateAuthority
+    readable_state: VisuallyPresent
+    encoding_state: NotRun
+    header_extraction_state: NotRun
+    validation_state: VisualFolder07Only
+  - relative_path: 07_Cross_Authority_Registry_and_Validation/Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    file_name: Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    extension: .md
+    parent_folder: 07_Cross_Authority_Registry_and_Validation
+    displayed_size: 17 KB
+    size_bytes: UnknownPendingDirectRead
+    line_count: UnknownPendingDirectRead
+    sha256: NotRun
+    last_write_time_displayed: 2026-09-21 11:33 PM
+    authority_family: CrossAuthorityRegistryValidation
+    document_class: CandidateOverlapDispositionReview
+    readable_state: SearchVisibleAndVisuallyPresent
+    encoding_state: NotRun
+    header_extraction_state: SearchSnippetOnly
+    validation_state: VisualFolder07AndEnterpriseSearch
+  - relative_path: 07_Cross_Authority_Registry_and_Validation/Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    file_name: Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    extension: .md
+    parent_folder: 07_Cross_Authority_Registry_and_Validation
+    displayed_size: 24 KB
+    size_bytes: 23768
+    line_count: 652
+    sha256: f72f87b29fb77d9b65e39a7b7bab42161de92f1b4ddc03066a2bb563b8cf8546
+    last_write_time_displayed: 2026-09-22 12:28 AM
+    authority_family: CrossAuthorityRegistryValidation
+    document_class: OpeningBoundaryIdentityClosurePreflight
+    readable_state: GeneratedAndVisuallyPresent
+    encoding_state: UTF8
+    header_extraction_state: LocallyValidated
+    validation_state: CurrentConversationArtifact
+  - relative_path: 07_Cross_Authority_Registry_and_Validation/Hammadid_Package_Wide_Missing_Authority_Audit_and_Next_Sequence_Disposition_V1.md
+    file_name: Hammadid_Package_Wide_Missing_Authority_Audit_and_Next_Sequence_Disposition_V1.md
+    extension: .md
+    parent_folder: 07_Cross_Authority_Registry_and_Validation
+    displayed_size: 9 KB
+    size_bytes: UnknownPendingDirectRead
+    line_count: UnknownPendingDirectRead
+    sha256: NotRun
+    last_write_time_displayed: 2026-09-21 11:35 PM
+    authority_family: CrossAuthorityRegistryValidation
+    document_class: PackageWideMissingAuthorityAudit
+    readable_state: SearchVisibleAndVisuallyPresent
+    encoding_state: NotRun
+    header_extraction_state: SearchSnippetOnly
+    validation_state: VisualFolder07AndEnterpriseSearch
+  - relative_path: 07_Cross_Authority_Registry_and_Validation/Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    file_name: Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    extension: .md
+    parent_folder: 07_Cross_Authority_Registry_and_Validation
+    displayed_size: 26 KB
+    size_bytes: 26029
+    line_count: 670
+    sha256: d276b19181563c4800d8b1ba3b5a12b2aaa938eb28d3272adb183ef3a36ceb17
+    last_write_time_displayed: 2026-09-22 12:25 AM
+    authority_family: CrossAuthorityRegistryValidation
+    document_class: RealmFoundationReadinessAudit
+    readable_state: GeneratedAndVisuallyPresent
+    encoding_state: UTF8
+    header_extraction_state: LocallyValidated
+    validation_state: CurrentConversationArtifact
+  - relative_path: 07_Cross_Authority_Registry_and_Validation/Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    file_name: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    extension: .md
+    parent_folder: 07_Cross_Authority_Registry_and_Validation
+    displayed_size: 24 KB
+    size_bytes: UnknownPendingDirectRead
+    line_count: 651
+    sha256: NotRun
+    last_write_time_displayed: 2026-09-21 11:51 PM
+    authority_family: CrossAuthorityRegistryValidation
+    document_class: RecursiveManifestEvidencePack
+    readable_state: EnterpriseOpenedAndVisuallyPresent
+    encoding_state: NotRun
+    header_extraction_state: EnterpriseFullOpen
+    validation_state: VisualFolder07AndEnterpriseOpen
+  - relative_path: 07_Cross_Authority_Registry_and_Validation/Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    file_name: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    extension: .md
+    parent_folder: 07_Cross_Authority_Registry_and_Validation
+    displayed_size: 39 KB
+    size_bytes: UnknownPendingDirectRead
+    line_count: 1192
+    sha256: NotRun
+    last_write_time_displayed: 2026-09-21 11:49 PM
+    authority_family: CrossAuthorityRegistryValidation
+    document_class: ValidationMigrationFreezeRollbackAuthority
+    readable_state: EnterprisePartiallyOpenedAndVisuallyPresent
+    encoding_state: NotRun
+    header_extraction_state: PartialEnterpriseOpen
+    validation_state: VisualFolder07AndEnterpriseOpen
+validation_summary:
+  record_count_matches_declared_count: true
+  all_records_scoped_to_folder07: true
+  duplicate_sha256_groups_determinable: false
+  reason_duplicate_groups_not_determinable: EightRecordsLackRawByteHashes
+  exact_package_file_count_known: false
+  zero_mutation_receipt_possible_from_current_evidence: false
+  result: PASS_AS_PARTIAL_BATCH_A_MANIFEST_NOT_RECURSIVE_PACKAGE_COMPLETION

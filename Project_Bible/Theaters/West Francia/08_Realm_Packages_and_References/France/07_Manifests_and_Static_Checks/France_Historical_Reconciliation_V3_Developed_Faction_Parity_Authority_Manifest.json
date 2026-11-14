@@ -1,0 +1,29 @@
+{
+  "manifest_version": "1.0",
+  "method": "CompleteImmediateSubstantiveSourceCopyFirstDevelopedFactionParityRebuild",
+  "source_file": "France_Historical_Reconciliation_V1.md",
+  "source_sha256": "881b247ded1080791e3d3c7eb4c7ef843e06f14f5caf5e69620b9a6907b52a9c",
+  "source_lines": 1048,
+  "source_bytes": 40894,
+  "successor_file": "France_Historical_Reconciliation_V3_Developed_Faction_Parity_Authority.md",
+  "successor_sha256": "25489cdb00d3f66b360032337b3bf47c5e87fed40719312e218f52bb9ab7048a",
+  "successor_lines": 2122,
+  "successor_bytes": 80523,
+  "static_check_file": "France_Historical_Reconciliation_V3_Developed_Faction_Parity_Authority_Static_Check.json",
+  "static_check_sha256": "ebbd5fc424bf820b2c962b353de9c9009cdaf4d546850c052a559c499a2e62ab",
+  "all_checks_passed": true,
+  "benchmarks": [
+    "Wales_Historical_Reconciliation_V3.1_Current_Authority_Refinement.md",
+    "Ireland_Historical_Reconciliation_V3_Current_Authority_Refinement.md",
+    "Norway_Historical_Reconciliation_Refined_V1_1_FULL.md",
+    "Realm_Development_Framework.md"
+  ],
+  "removed_substantive_content": [],
+  "source_overwrites": 0,
+  "registry_mutations": 0,
+  "opening_state_mutations": 0,
+  "opening_state_activations": 0,
+  "migration_executions": 0,
+  "unreal_mutations": 0,
+  "physical_promotions": 0
+}

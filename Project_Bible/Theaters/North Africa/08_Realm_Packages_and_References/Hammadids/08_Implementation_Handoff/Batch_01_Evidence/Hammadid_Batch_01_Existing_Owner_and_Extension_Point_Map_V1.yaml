@@ -1,0 +1,407 @@
+map_control:
+  document_id: map.realm.hammadid.batch-01.existing-owner-extension-point.v1
+  stable_document_id: Batch01ExistingOwnerExtensionPointMap.Hammadids
+  file_name: Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml
+  version: 1.0.0
+  revision_date: 2026-09-22
+  realm: Hammadids
+  owning_theater: North Africa
+  scenario_id: mw.scenario.grand_campaign.1062
+  scenario_opening: 1062-01-01
+  opening_campaign_season: Winter
+  constitutional_authority: Project Bible 2.4
+  operational_authority: Design Expansion Checklist 3.7
+  implementation_target: Unreal Engine 5.8
+  controlling_handoff: Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+  controlling_gate: Hammadid_Unreal_Engine_5_8_Batch_01_Read_Only_Project_Discovery_Gate_V1.md
+  preceding_output: Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+  discovery_mode: OneDriveIndexedProjectEvidenceReadOnly
+  status: PartialIndexedOwnerCandidateMapDirectOwnerInspectionPendingNoMutation
+
+strong_verdict:
+  required_owner_families_mapped: 12
+  verified_native_owner_implementations: 0
+  verified_indexed_owner_candidates: 2
+  methodology_or_governance_owner_refs: 4
+  explicit_missing_or_unverified_owner_families: 10
+  verified_extension_point_candidates: 3
+  proposed_new_native_owners: 0
+  project_native_owner_duplication_authorized: false
+  Batch01_acceptance: Blocked
+  Batch02_promotion: Blocked
+  result: StrongPartialOwnerCandidateMapAllUnverifiedOwnersRemainHeld
+
+claim_boundary:
+  verified_native_owner: RequiresDirectInspectionOfCurrentLiveProjectOwnerFilesAndControllingNavigation
+  verified_indexed_owner_candidate: PathOrPatternExplicitlyIdentifiedByIndexedEvidenceDirectInspectionStillPending
+  methodology_owner_ref: ExistingAuthorityOrEvidencePracticeNotAConfirmedRuntimeOwner
+  explicit_missing_owner: NoVerifiedNativeImplementationOwnerAvailableFromCurrentEvidence
+  rules:
+    - IndexedModuleOrPluginDoesNotProveCompleteOwnership
+    - FilePathDoesNotProveOwningClassSubsystemSchemaOrAdapter
+    - ExistingPatternDoesNotAuthorizeExtension
+    - MissingOwnerIsAGapNotPermissionToCreateOne
+    - SimilarRealmPrivateStateMustNotTransfer
+    - NoNewOwnerCandidateWithoutDirectDiscoveryAndArchitectureApproval
+
+verified_indexed_owner_candidates:
+  CampaignRuntimeAndStrategicIntegration:
+    owner_candidate_ref: owner.candidate.medieval_war_campaign.strategic_integration
+    verified_indexed_module: 'Source\MedievalWarCampaign'
+    verified_indexed_subpath: 'Source\MedievalWarCampaign\Private\StrategicIntegration'
+    verified_indexed_file: 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    observed_pattern: CommandEnvelopeOwnerAdmissionEvidenceIdempotencyAndRuntimeMutationCount
+    direct_owner_file_review: Pending
+    native_owner_state: CandidateNotConfirmed
+    extension_point_state: CandidateDirectInspectionRequired
+    Hammadid_use_boundary:
+      - MayInformAuthorityToNativeTargetCrosswalk
+      - MayNotCreateHammadidCommandRuntimeState
+      - MayNotAssumeRealmAIExecutionOwnership
+      - MayNotMutateSource
+
+  SharedImporterAndOpeningPreviewPresentation:
+    owner_candidate_ref: owner.candidate.mw_shared_importer
+    verified_indexed_plugin: 'Plugins\MWSharedImporter'
+    verified_indexed_private_source: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private'
+    verified_indexed_examples:
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.cpp'
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.h'
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+    observed_pattern: OpeningStatePreviewAndActiveUnitInventoryDisposition
+    direct_owner_file_review: Pending
+    native_owner_state: CandidateNotConfirmed
+    extension_point_state: CandidateDirectInspectionRequired
+    Hammadid_use_boundary:
+      - SharedPreviewMethodMayBeStudied
+      - NorwayPrivateOpeningStateMustNotTransfer
+      - PluginDoesNotProveRegistryOpeningImporterOrPersistenceOwnership
+      - NoHammadidFileCreationOrMutationAuthorized
+
+methodology_and_governance_refs:
+  OperationalPrioritiesAndBlockers:
+    ref: Design_Expansion_Checklist_V3.7.md
+    indexed_role: SingleOperationalChecklist
+    owner_class: GovernanceMethodologyReference
+    direct_current_review: Pending
+  TheaterImplementationMethod:
+    ref: Norse_Theater_Implementation_Checklist_V1_4_ACTIVE_CONSOLIDATED.md
+    indexed_role: DevelopedTheaterOperationalMethod
+    owner_class: MethodologyReferenceOnly
+    inheritance_boundary: NoNorsePrivateStateOrMutationAuthorityTransfer
+  RealmUnitAssetInventoryMethod:
+    ref: Norway_Unit_Asset_Inventory_V1.json
+    indexed_role: AuthorityMappedPendingActiveUnrealAssetScan
+    owner_class: InventoryMethodologyReferenceOnly
+    inheritance_boundary: NoHammadidAssetExistenceOrUnitAvailabilityClaim
+  MachineReadableOpeningStateContractMethod:
+    ref: Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md
+    indexed_role: StaticCheckedContractReconciledWithExistingArtifactSet
+    owner_class: ContractMethodologyReferenceOnly
+    inheritance_boundary: NoSevilleOpeningRecordsRegistryRowsOrPrivateStateTransfer
+
+required_owner_family_map:
+  PackageIntegration:
+    family_ref: owner.family.package_integration
+    planned_responsibilities:
+      - HammadidAuthorityCurrentness
+      - BatchOrdering
+      - EvidenceAcceptance
+      - PromotionControl
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths: []
+    extension_point_disposition: HeldPendingEvidence
+    required_live_evidence:
+      - ControllingProjectREADME
+      - ProjectEvidenceLocation
+      - ExistingPackageIntegrationOwner
+      - BatchAcceptanceConvention
+    Batch02_block_effect: Blocking
+
+  RegistryAndTypedReferences:
+    family_ref: owner.family.registry_typed_references
+    planned_responsibilities:
+      - StableTypedReferences
+      - EntityKinds
+      - CanonicalIDs
+      - AliasesAndCollisions
+      - ExternalLocks
+      - MigrationAndQuarantine
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths:
+      - 'Plugins\MWSharedImporter'
+    candidate_path_limitation: SharedImporterPresenceDoesNotProveRegistryOwnership
+    extension_point_disposition: HeldPendingEvidence
+    required_live_evidence:
+      - RegistrySchemaAndPublishedRows
+      - TypedReferenceKinds
+      - AliasCollisionExternalLockAndMigrationOwners
+      - ResolutionAndValidationAPIs
+    Batch02_block_effect: Fatal
+
+  RealmFactionAndOpeningState:
+    family_ref: owner.family.realm_faction_opening_state
+    planned_responsibilities:
+      - RealmAndFactionDefinitions
+      - OpeningStateSchemaAndInitialization
+      - VariantSeparation
+      - ApplyOnceAndAdvancedSaveProtection
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths:
+      - 'Plugins\MWSharedImporter'
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+    candidate_path_limitation: PreviewPresentationDoesNotProveOpeningStateMutationOrInitializationOwnership
+    extension_point_disposition: ExistingPatternCandidateDirectInspectionRequired
+    private_state_risk: NorwayOpeningStateMustNotTransfer
+    Batch02_block_effect: Blocking
+
+  CharacterDynastyHouseholdOfficeRelationship:
+    family_ref: owner.family.character_dynasty_household_office_relationship
+    planned_responsibilities:
+      - CharacterDefinitionsAndLifecycle
+      - DynastyAndHousehold
+      - OfficeAndAppointment
+      - DirectedRelationshipsAndKnowledge
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths: []
+    extension_point_disposition: HeldPendingEvidence
+    protected_hold: AnNasirThreeArtifactQuarantine
+    Batch02_block_effect: BlockingForPersonAndCharacterReferences
+
+  GovernmentLawReligionAndInstitutions:
+    family_ref: owner.family.government_law_religion_institutions
+    planned_responsibilities:
+      - GovernmentAndRegionalAuthority
+      - LawJusticeCustodyAndRemedy
+      - ReligionJuristicOfficesAndInstitutions
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths: []
+    extension_point_disposition: HeldPendingEvidence
+    typed_risks:
+      - GreatMosqueInstitutionBuildingOfficeAndOpeningInstanceSeparation
+      - CourtGovernmentHouseholdInstitutionSeparation
+      - ChanceryFunctionInstitutionOfficeBuildingArchiveSeparation
+    Batch02_block_effect: BlockingForEntityKindAndOwnerRoutes
+
+  GeographyPropertySettlementFortressAndRoutes:
+    family_ref: owner.family.geography_property_settlement_fortress_routes
+    planned_responsibilities:
+      - PlaceSettlementFortressCapitalAndRouteDefinitions
+      - ControlAccessPropertyBuildingDamageRepairAndReconstruction
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths: []
+    extension_point_disposition: HeldPendingEvidence
+    typed_risks:
+      - QalatPlaceSettlementFortressCapitalBuildingInstitutionAndGarrisonSeparation
+      - BejaiaOpeningExclusionAndConditionalLaterDevelopment
+    Batch02_block_effect: BlockingForPlaceAndInstitutionReferences
+
+  PopulationCommunityEconomyHealthAndPublicOrder:
+    family_ref: owner.family.population_community_economy_health_public_order
+    planned_responsibilities:
+      - PopulationHouseholdLaborMigrationAndCapacity
+      - CommunityConstituencyLanguageAndRepresentation
+      - TreasuryTaxCreditPropertyProductionStockTradeAndProvisioning
+      - HealthFoodWaterMortalityRecoveryAndPublicOrder
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths: []
+    extension_point_disposition: HeldPendingEvidence
+    protected_rule: PopulationMayInformFinitePoolsButIsNotSpendableManpower
+    Batch02_block_effect: NonfatalForInitialIdentityPlanningFatalForStatefulImplementation
+
+  DiplomacyInformationKnowledgeAndExternalLocks:
+    family_ref: owner.family.diplomacy_information_external_locks
+    planned_responsibilities:
+      - DirectedRelationsAgreementsAndRecognition
+      - MessageDeliveryKnowledgeRumorIntelligenceAndSecrecy
+      - CounterpartyReceiptsAndPrivateStateExclusion
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths: []
+    extension_point_disposition: HeldPendingEvidence
+    external_owners:
+      - ScenarioOwner
+      - CampaignTheaterOwner
+      - ZiridPackageOwner
+      - AlmoravidPackageOwner
+      - BanuHilalActorOwners
+    Batch02_block_effect: BlockingForExternalLocksAndReciprocalState
+
+  UnitRecruitmentMilitaryLogisticsSiegeAndBattle:
+    family_ref: owner.family.unit_recruitment_military_logistics_siege_battle
+    planned_responsibilities:
+      - UnitDefinitionsAndInstances
+      - FiniteRecruitmentSourcesAndPools
+      - EquipmentHorsesOfficersTrainingAndSupply
+      - CommandForcesSiegeEngineeringBattleAndCampaignReturn
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths:
+      - 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    candidate_path_limitation: StrategicCommandFixtureDoesNotProveUnitRecruitmentBattleOrSiegeOwnership
+    methodology_refs:
+      - Norway_Unit_Asset_Inventory_V1.json
+      - Almoravid_Spear_Levy_Unit_Profile_V1.md
+    extension_point_disposition: HeldPendingEvidence
+    private_state_risk: NoOtherRealmUnitsPoolsForcesEquipmentOrAssetsMayTransfer
+    Batch02_block_effect: NonfatalForCoreRegistryFatalForMilitaryReferenceKinds
+
+  HistoricalEventsRealmAIAndCampaignExperience:
+    family_ref: owner.family.historical_events_realm_ai_campaign_experience
+    planned_responsibilities:
+      - HistoricalMemoryMomentumAndEmergence
+      - EventsCrisesOpportunitiesAndNonoccurrence
+      - RealmAIEvaluationProposalTraceAndAbstention
+      - CampaignExperienceExplanation
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths:
+      - 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    candidate_path_limitation: AdmissionFixtureDoesNotProveHistoricalEventOrRealmAIOwner
+    extension_point_disposition: ExistingPatternCandidateDirectInspectionRequired
+    protected_rule: RealmAIMayProposeButCannotExecuteSpecialistOwnerActions
+    Batch02_block_effect: NonfatalForInitialRegistryFatalForHistoricalEventAIReferences
+
+  PresentationLocalizationAccessibilityAndArt:
+    family_ref: owner.family.presentation_localization_accessibility_art
+    planned_responsibilities:
+      - FactionSelectionAndOpeningPreview
+      - CampaignPanelsAndReadOnlyViewModels
+      - LocalizationTransliterationAndAliasDisplay
+      - AccessibilityAndNonColorEncoding
+      - ArtAudioRightsAssetsAndScreenshotEvidence
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths:
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.cpp'
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.h'
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+    extension_point_disposition: ExistingPatternCandidateDirectInspectionRequired
+    private_state_risk: NoNorwayPresentationDataOrOpeningStateBindingTransfer
+    Batch02_block_effect: NonfatalForCoreRegistry
+
+  ImporterValidationPersistenceAndEvidence:
+    family_ref: owner.family.importer_validation_persistence_evidence
+    planned_responsibilities:
+      - CandidateSchemaParserAndValidator
+      - DryRunAndExactWriteSet
+      - ThinTransactionalImporter
+      - SaveLoadMigrationReplayRollbackHashAndPerformanceEvidence
+    native_owner_state: MissingPendingDirectInspection
+    indexed_candidate_paths:
+      - 'Plugins\MWSharedImporter'
+    candidate_path_limitation: PluginExistenceDoesNotProveCurrentSchemaValidatorImporterPersistenceOrOwnerContract
+    evidence_method_refs:
+      - OS_VIS_03G_Source_Hits.csv
+      - OS_REAL_01_Readiness_Source_Hits.csv
+      - DENMARK_00A_Relevant_File_Inventory.csv
+      - DENMARK_00A_Source_Fingerprints.csv
+    extension_point_disposition: HeldPendingCompletePluginAndEvidenceOwnerInspection
+    Batch02_block_effect: BlockingForExecutionNotForPlanning
+
+extension_point_register:
+  EXT_HMD_001_StrategicCommandAdmission:
+    candidate_path: 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    target_kind: ExistingPatternCandidate
+    observed_contract: EnvelopeOwnerEvidenceIdempotencyAndMutationCount
+    permitted_now: ReadOnlyCrosswalkAndOwnerDiscovery
+    prohibited_now: ExtensionCreationRuntimeExecutionOrMutation
+    direct_inspection_required: true
+  EXT_HMD_002_OpeningStatePreviewTab:
+    candidate_path: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+    target_kind: SharedPresentationSurfaceCandidate
+    observed_contract: OpeningStatePreviewSurface
+    permitted_now: ReadOnlyCrosswalkAndOwnerDiscovery
+    prohibited_now: HammadidBindingCreationOrNorwayPrivateStateReuse
+    direct_inspection_required: true
+  EXT_HMD_003_RealmOpeningPreviewPattern:
+    candidate_paths:
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.cpp'
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.h'
+    target_kind: DevelopedRealmPatternCandidate
+    observed_contract: ActiveUnitInventoryDisposition
+    permitted_now: MethodologyComparisonOnly
+    prohibited_now: CopyRenamePaletteSwapOrPrivateStateInheritance
+    direct_inspection_required: true
+
+missing_owner_and_extension_point_queue:
+  - RegistryTypedReferenceAliasCollisionExternalLockAndMigrationOwner
+  - RealmFactionDefinitionOwner
+  - OpeningStateSchemaInitializationApplyOnceAndAdvancedSaveOwner
+  - CharacterDynastyHouseholdOfficeAndRelationshipOwner
+  - GovernmentLawReligionInstitutionAndCustodyOwners
+  - GeographySettlementFortressRouteControlPropertyAndBuildingOwners
+  - PopulationCommunityEconomyHealthAndPublicOrderOwners
+  - UnitRecruitmentEquipmentHorseOfficerTrainingSupplyAndPoolOwners
+  - CampaignTransactionAdapterAndPersistenceOwner
+  - BattleSiegeCampaignReturnAndIdempotencyOwner
+  - HistoricalEventRealmAIAndNonoccurrenceOwner
+  - LocalizationAccessibilityArtAudioAssetRightsAndScreenshotOwners
+  - CandidateSchemaValidatorDryRunImporterMigrationReplayRollbackAndPerformanceOwners
+  - ProjectApprovedEvidenceStorageOwner
+  - UnrealImplementationAndFinalPromotionOwner
+
+new_owner_candidate_policy:
+  proposed_new_owner_count: 0
+  rules:
+    - MissingOwnerDoesNotAuthorizeNewSubsystemPluginModuleSchemaOrImporter
+    - SearchNonreturnDoesNotProveMissingNativeOwner
+    - NewOwnerCandidateRequiresDirectRepositoryInspection
+    - NewOwnerCandidateRequiresDuplicationAndCollisionReview
+    - NewOwnerCandidateRequiresArchitectureAndUnrealImplementationOwnerApproval
+    - SharedOwnerExtensionIsPreferredWhenCapabilityAlreadyExists
+
+acceptance_matrix:
+  twelve_required_owner_families_present: Pass
+  every_family_has_verified_candidate_or_explicit_missing_disposition: PassAtIndexedSeedLevel
+  three_extension_point_candidates_recorded: PassFromIndexedEvidence
+  existing_owner_paths_directly_inspected: NotMet
+  complete_native_owner_inventory: NotMet
+  complete_extension_point_inventory: NotMet
+  private_state_and_duplication_controls_recorded: Pass
+  no_new_owner_invented: Pass
+  exact_current_paths_symbols_hashes_and_versions: NotMet
+  Batch01_acceptance: Blocked
+  Batch02_promotion: Blocked
+  final_result: StrongPartialMapDirectOwnerInspectionRequired
+
+nonmutation_receipt:
+  project_files_created_modified_moved_or_deleted: 0
+  native_owners_created_or_modified: 0
+  extension_points_created_or_modified: 0
+  registry_rows_created_or_modified: 0
+  opening_state_records_created_or_modified: 0
+  payloads_or_importers_executed: 0
+  modules_plugins_classes_assets_configs_or_schemas_modified: 0
+  compile_or_runtime_execution: false
+  advanced_saves_modified: 0
+
+next_safe_action:
+  next_file: Hammadid_Batch_01_Authority_to_Native_Target_Crosswalk_V1.yaml
+  next_file_scope: MapHammadidAuthorityFamiliesToVerifiedIndexedCandidatesOrExplicitMissingTargetsWithoutInventingNativePaths
+  direct_live_repository_inspection_still_required: true
+  Batch02_promotion_authorized: false
+  Unreal_mutation_authorized: false
+
+stable_footer:
+  ConstitutionalAuthority: Project Bible 2.4
+  OperationalAuthority: Design Expansion Checklist 3.7
+  ImplementationTarget: Unreal Engine 5.8
+  Theater: North Africa
+  CandidateRealm: Hammadids
+  ScenarioOpening: 1062-01-01
+  OpeningCampaignSeason: Winter
+  PreferredPlayableBoundaryCandidate: post_1062-07-11
+  PlayableBoundaryStatus: HeldPendingScenarioOwnerDisposition
+  HistoricalProgression: 21MonthsPerStrategicTurn
+  BiologicalProgression: 7MonthsPerStrategicTurn
+  CampaignSeasonProgression: OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn
+  BatchID: Batch01
+  MapStatus: PartialIndexedOwnerCandidateMapDirectOwnerInspectionPendingNoMutation
+  VerifiedNativeOwnerImplementations: 0
+  ProposedNewNativeOwners: 0
+  ProjectMutationPerformed: false
+  DirectLiveOwnerInspectionComplete: false
+  Batch01AcceptanceAuthorized: false
+  Batch02PromotionAuthorized: false
+  RegistryPublicationAuthorized: false
+  OpeningStateCreationAuthorized: false
+  PayloadOrImporterExecutionAuthorized: false
+  UnrealProjectMutationAuthorized: false
+  NextAction: DraftAuthorityToNativeTargetCrosswalkFromVerifiedIndexedCandidatesAndExplicitMissingTargets

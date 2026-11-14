@@ -1,0 +1,23 @@
+{
+  "document": "Holland_Source_Inventory_V1_1_Mature_Double_Checked.md",
+  "version": "1.1.0",
+  "status": "MatureDoubleCheckedSourceInventoryEvidenceIntakeActiveOwnerReviewRequired",
+  "predecessor": "Holland_Source_Inventory_V1_0.md",
+  "copy_first": true,
+  "source_preserved_complete": true,
+  "substantive_removals": [],
+  "historical_foundation": "Holland_Historical_Reconciliation_V1_1_Mature_Double_Checked.md",
+  "sha256": "963c29fa833750349ac89dc1008ef8bc4b55aec8fbb94ae5aa3532c9056c0a20",
+  "size_bytes": 45601,
+  "line_count": 1315,
+  "supporting_files": [
+    "Holland_Source_Inventory_V1_1_Mature_Double_Checked.static_check.json",
+    "Holland_Source_Inventory_V1_1_Mature_Double_Checked.validation_receipt.json"
+  ],
+  "files_modified": [],
+  "claims_promoted": [],
+  "opening_state_changes": [],
+  "registry_changes": [],
+  "runtime_changes": [],
+  "unreal_changes": []
+}

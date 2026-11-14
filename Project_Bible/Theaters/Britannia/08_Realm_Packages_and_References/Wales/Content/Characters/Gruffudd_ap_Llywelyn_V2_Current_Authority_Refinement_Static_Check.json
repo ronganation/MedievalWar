@@ -1,0 +1,36 @@
+{
+  "document_id": "static-check.character.wales.gruffudd-ap-llywelyn.v2",
+  "version": "2.0.0",
+  "source": {
+    "filename": "Gruffudd_ap_Llywelyn.md",
+    "bytes": 49817,
+    "physical_lines": 1250,
+    "sha256": "78a6cb3ea4234cc80e13f4c62f6082254483bced3225fbb262e72ca052c2ca07"
+  },
+  "successor": {
+    "filename": "Gruffudd_ap_Llywelyn_V2_Current_Authority_Refinement.md",
+    "bytes": 72622,
+    "physical_lines": 1893,
+    "sha256": "8c15846d81b76067ffb74d65bf6f045aac33ae779a734233ff0393ac138da716"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "current_metadata_present": true,
+    "opening_participation_bounded": true,
+    "realm_boundary_present": true,
+    "network_state_zero": true,
+    "succession_not_preloaded": true,
+    "later_history_firewall": true,
+    "external_locks_present": true,
+    "three_track_temporal_model": true,
+    "honest_validation_status": true,
+    "authorizations_false": true,
+    "no_em_dash": true
+  },
+  "missing_source_headings": [],
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

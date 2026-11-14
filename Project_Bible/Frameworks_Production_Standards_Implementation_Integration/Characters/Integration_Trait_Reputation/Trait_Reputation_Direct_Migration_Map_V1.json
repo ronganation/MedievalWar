@@ -1,0 +1,464 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationDirectMigrationMap",
+    "name": "Trait Reputation Direct Migration Map V1",
+    "version": "1.0.0",
+    "status": "CommittedApprovedMap_ExecutionLocked",
+    "authority_class": "Canonical Migration Map"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Direct_Migration_Map_V1.json"
+  },
+  "mappings": [
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.001",
+      "TargetCanonicalId": "Trait.Character.CourageDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.002",
+      "TargetCanonicalId": "Trait.Character.CowardiceDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.003",
+      "TargetCanonicalId": "Trait.Character.HonestyDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.004",
+      "TargetCanonicalId": "Trait.Character.DeceitDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.005",
+      "TargetCanonicalId": "Trait.Character.JusticeDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.006",
+      "TargetCanonicalId": "Trait.Character.CrueltyDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.007",
+      "TargetCanonicalId": "Trait.Character.PatienceDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.008",
+      "TargetCanonicalId": "Trait.Character.ImpulsivenessDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.009",
+      "TargetCanonicalId": "Trait.Character.MercyDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.010",
+      "TargetCanonicalId": "Trait.Character.VengeanceDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.011",
+      "TargetCanonicalId": "Trait.Character.AmbitionDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.012",
+      "TargetCanonicalId": "Trait.Character.ContentmentDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.018",
+      "TargetCanonicalId": "Trait.Character.InspirationalDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.019",
+      "TargetCanonicalId": "Trait.Character.RecklessnessDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.021",
+      "TargetCanonicalId": "Trait.Character.ConstructiveDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.022",
+      "TargetCanonicalId": "Trait.Character.OrganizationDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.023",
+      "TargetCanonicalId": "Trait.Character.EfficiencyHabit",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.025",
+      "TargetCanonicalId": "Trait.Character.WastefulnessDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.026",
+      "TargetCanonicalId": "Trait.Character.CorruptPracticeDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.027",
+      "TargetCanonicalId": "Trait.Character.NeglectDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.028",
+      "TargetCanonicalId": "Trait.Character.PietyDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.029",
+      "TargetCanonicalId": "Trait.Character.ZealDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.032",
+      "TargetCanonicalId": "Trait.Character.ToleranceDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.033",
+      "TargetCanonicalId": "Trait.Character.CynicismDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.034",
+      "TargetCanonicalId": "Trait.Character.FanaticalCommitmentDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.038",
+      "TargetCanonicalId": "Trait.Character.StrategicDeceptionDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.039",
+      "TargetCanonicalId": "Trait.Character.ManipulationDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.040",
+      "TargetCanonicalId": "Trait.Character.OpportunismDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.042",
+      "TargetCanonicalId": "Trait.Character.CommercialDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.044",
+      "TargetCanonicalId": "Trait.Character.FrugalityDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.045",
+      "TargetCanonicalId": "Trait.Character.GreedDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.047",
+      "TargetCanonicalId": "Trait.Character.HuntingDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.048",
+      "TargetCanonicalId": "Trait.Character.FalconryDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.049",
+      "TargetCanonicalId": "Trait.Character.HeavyDrinkingHabit",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.050",
+      "TargetCanonicalId": "Trait.Character.GamblingDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.051",
+      "TargetCanonicalId": "Trait.Character.GluttonyHabit",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.052",
+      "TargetCanonicalId": "Trait.Character.LiteraryDisposition",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.078",
+      "TargetCanonicalId": "Reputation.CharacterAudience.LionlikeValorReception",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.079",
+      "TargetCanonicalId": "Reputation.CharacterAudience.ConquestReception",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.080",
+      "TargetCanonicalId": "Reputation.CharacterAudience.PeacemakingReception",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.081",
+      "TargetCanonicalId": "Reputation.CharacterAudience.SaintlinessReception",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.082",
+      "TargetCanonicalId": "Reputation.CharacterAudience.ConstructionAchievementReception",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.083",
+      "TargetCanonicalId": "Reputation.CharacterAudience.WisdomReception",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.084",
+      "TargetCanonicalId": "Reputation.CharacterAudience.ViolenceInfamyReception",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.085",
+      "TargetCanonicalId": "Reputation.CharacterAudience.CruelConductReception",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    },
+    {
+      "SourceEntryId": "legacy.character_trait_library.entry.086",
+      "TargetCanonicalId": "Reputation.CharacterAudience.UsurpationReception",
+      "MappingType": "DirectTypedOneStep",
+      "MigrationVersion": "1.0.0",
+      "Status": "ApprovedNotExecuted",
+      "AliasChainLength": 1,
+      "WritePermitted": false
+    }
+  ],
+  "excluded_quirks": [
+    "legacy.character_trait_library.entry.070",
+    "legacy.character_trait_library.entry.066",
+    "legacy.character_trait_library.entry.065",
+    "legacy.character_trait_library.entry.068",
+    "legacy.character_trait_library.entry.067"
+  ],
+  "count_contract": {
+    "approved_direct_mappings": 46,
+    "executed_mappings": 0,
+    "excluded_quirks": 5,
+    "alias_chains": 0,
+    "reconciliation": "Pass"
+  },
+  "migration_rules": {
+    "direct_typed_one_step_only": true,
+    "alias_chains_prohibited": true,
+    "deprecated_ids_prohibited": true,
+    "source_provenance_retained": true,
+    "unknown_ids_quarantined": true,
+    "source_save_unchanged": true,
+    "advanced_state_preserved": true,
+    "opening_state_reapplication_prohibited": true,
+    "idempotence_required": true
+  },
+  "run": {
+    "mode": "MigrationMapAuthoritativeCommit",
+    "execution_status": "Completed",
+    "verdict": "PassMapCommitted_ExecutionStillLocked",
+    "migration_writes": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  }
+}

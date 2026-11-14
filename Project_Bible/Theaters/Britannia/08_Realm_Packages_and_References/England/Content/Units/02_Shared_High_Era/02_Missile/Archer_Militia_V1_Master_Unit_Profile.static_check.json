@@ -1,0 +1,19 @@
+{
+  "document": "Archer_Militia_V1_Master_Unit_Profile.md",
+  "sha256": "dd0f8cb5a1474d30dea8e53a2adcc48a2796797ee035b8a8fdeb9db12072d83b",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "terrain_25": true,
+    "unit_locked": true,
+    "source_honesty": true,
+    "ammo": true,
+    "trajectory": true,
+    "retraining": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

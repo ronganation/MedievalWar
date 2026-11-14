@@ -1,0 +1,104 @@
+{
+  "filename": "Sweyn_Estridsen_Refined_V1_1_FULL_SOURCE_TO_FINAL_MAP.json",
+  "profile_filename": "Sweyn_Estridsen_Refined_V1_1_FULL.md",
+  "internal_version": "1.1.1",
+  "pre_consolidation_sha256": "ADC50953BBCDB62EC5FF4024BA7753E007D6ED1AC9ABB49AE9960FFC21FB2496",
+  "final_sha256": "47F3C8F3A4A0EEE690C051D0B002642EC31C4C299445CDCF34C01F0404DD19B9",
+  "preservation_status": "BestEffortSemanticPreservation",
+  "literal_text_preservation_claimed": false,
+  "zero_removal_mechanically_proven": false,
+  "all_source_headings_accounted_for": true,
+  "appendix_consolidation_entries": [
+    {
+      "source": "A.1 Opening Strategic Functions",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "10. Opening Strategic Function",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.2 Detailed Current Limitations",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "9. Demonstrated Formation and Readiness",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.3 Detailed Values",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "11. Personality and Decision Tendencies",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.4 Detailed Restraints and Aversions",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "11. Personality and Decision Tendencies",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.5 Detailed Decision Method",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "11. Personality and Decision Tendencies",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.6 Detailed Eligibility Portfolio",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "13. Authority and Eligibility Boundaries",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.7 Detailed Specialist Interfaces",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "14. Specialist Reference Summary",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.8 Detailed Information Limits",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "16. Information and Knowledge Boundaries",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.9 Detailed Development Paths",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "22. Conditional Development and Transformation",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.10 Detailed Failure and Continuity Paths",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "23. Failure, Removal, and Continuity",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.11 Detailed Player-Facing Meaning",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "25. Player-Facing Strategic Meaning",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.12 Detailed Decision Hooks",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "26. Illustrative Decision and Event Hooks",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.13 Detailed Prohibited Opening Assumptions",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "27. Prohibited Opening Assumptions",
+      "known_substantive_removal": false
+    },
+    {
+      "source": "A.14 Detailed Validation Portfolio",
+      "disposition": "MergedIntoCanonicalSection",
+      "destination": "31. Validation, Placement, and Handoff",
+      "known_substantive_removal": false
+    }
+  ],
+  "network_repairs": [
+    "Removed unsupported SuccessionSupport from Sweyn-to-Eric",
+    "Aligned Sweyn-to-Sigrid activation with manifest and moved route dependence to CommunicationAccess",
+    "Expanded Sweyn-to-Adalbert external lock",
+    "Expanded Sweyn-to-Harald-Hardrada lock, activation, and dimensions"
+  ],
+  "result": "Passed"
+}

@@ -1,0 +1,19 @@
+{
+  "FileName": "Run_Britania_PreInstall_Checkpoint.ps1",
+  "Purpose": "Read-only Britania pre-install collision and worktree checkpoint",
+  "SHA256": "27175E11A2B6EC5C5F79F4CCC24849F3B20A059BCFD081D6971B8672002606EF",
+  "Bytes": 10569,
+  "Checks": {
+    "read_only": true,
+    "both_roots": true,
+    "active_unreal_surfaces": true,
+    "generated_excluded": true,
+    "target_tags": true,
+    "denmark_reuse": true,
+    "forbidden_tags": true,
+    "generic_contract_required": true,
+    "git_checkpoint": true,
+    "tag_hash": true,
+    "blocking_exit": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "document_id": "manifest.character.scotland.ingibjorg_finnsdottir.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Ingibjorg_Finnsdottir.md",
+    "bytes": 50052,
+    "physical_lines": 981,
+    "sha256": "069695acb01ccc8811129e4f21dd0b8dca18365534b444d735dd5f3196a81a75",
+    "complete_source_verified": true,
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Ingibjorg_Finnsdottir_V2_Current_Authority_Refinement.md",
+    "bytes": 65379,
+    "physical_lines": 1418,
+    "sha256": "A90E1AC503C392E55A8CF583F4DE47CF9293847B876A74E93EDB5ADDED215571"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_fidelity_result": "pass",
+    "source_headings_preserved": 106,
+    "missing_source_headings": [],
+    "removed_content": []
+  },
+  "additions": {
+    "current_metadata": true,
+    "three_track_temporal_model": true,
+    "opening_selection": true,
+    "cross_realm_identity_lock": true,
+    "Network_handoff": true,
+    "Duncan_underage_boundary": true,
+    "consort_boundary": true,
+    "historical_and_specialist_handoffs": true,
+    "supersession_ledger": true,
+    "additional_validation": true
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Ingibjorg_Finnsdottir_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

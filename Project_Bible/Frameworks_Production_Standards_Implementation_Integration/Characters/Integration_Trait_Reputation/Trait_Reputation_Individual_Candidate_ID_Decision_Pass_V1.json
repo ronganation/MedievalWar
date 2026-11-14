@@ -1,0 +1,695 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationIndividualCandidateIdDecisionPass",
+    "name": "Trait Reputation Individual Candidate ID Decision Pass V1",
+    "version": "1.0",
+    "status": "All46CanonicalIdsApprovedForRegistryRecordStaging",
+    "authority_class": "Canonical Registry Individual Candidate Decision",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json"
+  },
+  "decision_authority": {
+    "authority_id": "IntegrationAuthorities.Characters.TraitReputation.RegistryGovernance",
+    "authority_name": "Trait and Reputation Registry Governance",
+    "decision_date": "2026-08-13",
+    "scope": "Canonical definition identifiers and direct migration-map approval only"
+  },
+  "authority_bindings": [
+    {
+      "file": "Trait_Reputation_Individual_Candidate_ID_Proposal_V1.json",
+      "role": "CandidateIdProposal"
+    },
+    {
+      "file": "Trait_Reputation_Individual_Candidate_ID_Proposal_V1.preflight.json",
+      "role": "ProposalPreflight"
+    },
+    {
+      "file": "Trait_Canonical_Registry_V1.json",
+      "expected_record_count": 0,
+      "role": "EmptyTraitSnapshot"
+    },
+    {
+      "file": "Reputation_Dimension_Registry_V1.json",
+      "expected_record_count": 0,
+      "role": "EmptyReputationSnapshot"
+    }
+  ],
+  "decisions": [
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.001",
+      "legacy_display_label": "Brave",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.CourageDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.002",
+      "legacy_display_label": "Cowardly",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.CowardiceDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.003",
+      "legacy_display_label": "Honest",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.HonestyDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.004",
+      "legacy_display_label": "Deceitful",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.DeceitDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.005",
+      "legacy_display_label": "Just",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.JusticeDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.006",
+      "legacy_display_label": "Cruel",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.CrueltyDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.007",
+      "legacy_display_label": "Patient",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.PatienceDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.008",
+      "legacy_display_label": "Impulsive",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.ImpulsivenessDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.009",
+      "legacy_display_label": "Merciful",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.MercyDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.010",
+      "legacy_display_label": "Vengeful",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.VengeanceDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.011",
+      "legacy_display_label": "Ambitious",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.AmbitionDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.012",
+      "legacy_display_label": "Content",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.ContentmentDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.018",
+      "legacy_display_label": "Inspiring Commander",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.InspirationalDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.019",
+      "legacy_display_label": "Reckless Commander",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.RecklessnessDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.021",
+      "legacy_display_label": "Builder",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.ConstructiveDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.022",
+      "legacy_display_label": "Organizer",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.OrganizationDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.023",
+      "legacy_display_label": "Efficient",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.EfficiencyHabit",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.025",
+      "legacy_display_label": "Wasteful",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.WastefulnessDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.026",
+      "legacy_display_label": "Corrupt",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.CorruptPracticeDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.027",
+      "legacy_display_label": "Neglectful",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.NeglectDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.028",
+      "legacy_display_label": "Pious",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.PietyDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.029",
+      "legacy_display_label": "Zealous",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.ZealDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.032",
+      "legacy_display_label": "Tolerant",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.ToleranceDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.033",
+      "legacy_display_label": "Cynical",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.CynicismDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.034",
+      "legacy_display_label": "Fanatic",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.FanaticalCommitmentDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.038",
+      "legacy_display_label": "Schemer",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.StrategicDeceptionDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.039",
+      "legacy_display_label": "Manipulator",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.ManipulationDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.040",
+      "legacy_display_label": "Opportunist",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.OpportunismDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.042",
+      "legacy_display_label": "Merchant Minded",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.CommercialDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.044",
+      "legacy_display_label": "Frugal",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.FrugalityDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.045",
+      "legacy_display_label": "Greedy",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.GreedDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.047",
+      "legacy_display_label": "Hunter",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.HuntingDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.048",
+      "legacy_display_label": "Falconer",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.FalconryDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.049",
+      "legacy_display_label": "Heavy Drinker",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.HeavyDrinkingHabit",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.050",
+      "legacy_display_label": "Gambler",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.GamblingDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.051",
+      "legacy_display_label": "Glutton",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.GluttonyHabit",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.052",
+      "legacy_display_label": "Poet",
+      "registry_key": "TraitCanonicalRegistry",
+      "canonical_id": "Trait.Character.LiteraryDisposition",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "CanonicalDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.078",
+      "legacy_display_label": "The Lion",
+      "registry_key": "ReputationDimensionRegistry",
+      "canonical_id": "Reputation.CharacterAudience.LionlikeValorReception",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "AudienceSpecificReputationDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "historical_memory_boundary_required": true,
+      "derived_epithet_only": true,
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.079",
+      "legacy_display_label": "The Conqueror",
+      "registry_key": "ReputationDimensionRegistry",
+      "canonical_id": "Reputation.CharacterAudience.ConquestReception",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "AudienceSpecificReputationDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "historical_memory_boundary_required": true,
+      "derived_epithet_only": true,
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.080",
+      "legacy_display_label": "The Peacemaker",
+      "registry_key": "ReputationDimensionRegistry",
+      "canonical_id": "Reputation.CharacterAudience.PeacemakingReception",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "AudienceSpecificReputationDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "historical_memory_boundary_required": true,
+      "derived_epithet_only": true,
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.081",
+      "legacy_display_label": "The Saintly",
+      "registry_key": "ReputationDimensionRegistry",
+      "canonical_id": "Reputation.CharacterAudience.SaintlinessReception",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "AudienceSpecificReputationDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "historical_memory_boundary_required": true,
+      "derived_epithet_only": true,
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.082",
+      "legacy_display_label": "The Builder",
+      "registry_key": "ReputationDimensionRegistry",
+      "canonical_id": "Reputation.CharacterAudience.ConstructionAchievementReception",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "AudienceSpecificReputationDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "historical_memory_boundary_required": true,
+      "derived_epithet_only": true,
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.083",
+      "legacy_display_label": "The Wise",
+      "registry_key": "ReputationDimensionRegistry",
+      "canonical_id": "Reputation.CharacterAudience.WisdomReception",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "AudienceSpecificReputationDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "historical_memory_boundary_required": true,
+      "derived_epithet_only": true,
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.084",
+      "legacy_display_label": "The Butcher",
+      "registry_key": "ReputationDimensionRegistry",
+      "canonical_id": "Reputation.CharacterAudience.ViolenceInfamyReception",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "AudienceSpecificReputationDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "historical_memory_boundary_required": true,
+      "derived_epithet_only": true,
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.085",
+      "legacy_display_label": "The Cruel",
+      "registry_key": "ReputationDimensionRegistry",
+      "canonical_id": "Reputation.CharacterAudience.CruelConductReception",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "AudienceSpecificReputationDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "historical_memory_boundary_required": true,
+      "derived_epithet_only": true,
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.086",
+      "legacy_display_label": "The Usurper",
+      "registry_key": "ReputationDimensionRegistry",
+      "canonical_id": "Reputation.CharacterAudience.UsurpationReception",
+      "decision": "ApproveAsProposed",
+      "decision_scope": "AudienceSpecificReputationDefinitionIdentityOnly",
+      "approval_status": "ApprovedForRegistryRecordStaging",
+      "historical_memory_boundary_required": true,
+      "derived_epithet_only": true,
+      "runtime_state_authorized": false,
+      "content_rewrite_authorized": false,
+      "save_migration_authorized": false
+    }
+  ],
+  "cross_registry_same_label_decisions": [
+    {
+      "pair_id": "tr-cross-label.builder.v1",
+      "trait_id": "Trait.Character.ConstructiveDisposition",
+      "reputation_id": "Reputation.CharacterAudience.ConstructionAchievementReception",
+      "decision": "KeepSeparateTypedCanonicalDefinitions",
+      "reason": "Persistent constructive disposition differs from audience reception of known construction achievement."
+    },
+    {
+      "pair_id": "tr-cross-label.cruel.v1",
+      "trait_id": "Trait.Character.CrueltyDisposition",
+      "reputation_id": "Reputation.CharacterAudience.CruelConductReception",
+      "decision": "KeepSeparateTypedCanonicalDefinitions",
+      "reason": "Persistent cruelty disposition differs from audience reception of known cruel conduct."
+    }
+  ],
+  "excluded_quirks": [
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.070",
+      "decision": "NoCanonicalId_PresentationOnly"
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.066",
+      "decision": "NoCanonicalId_PresentationOnly"
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.065",
+      "decision": "NoCanonicalId_PresentationOnly"
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.068",
+      "decision": "NoCanonicalId_RequireMoreEvidence"
+    },
+    {
+      "source_entry_id": "legacy.character_trait_library.entry.067",
+      "decision": "NoCanonicalId_RequireMoreEvidence"
+    }
+  ],
+  "count_contract": {
+    "trait_ids_approved": 37,
+    "reputation_ids_approved": 9,
+    "total_ids_approved": 46,
+    "excluded_quirks": 5,
+    "cross_registry_same_label_pairs_kept_separate": 2,
+    "rejected_candidate_ids": 0,
+    "replacement_ids": 0,
+    "reconciliation": "Pass"
+  },
+  "authorization_boundary": {
+    "registry_record_staging_authorized": true,
+    "authoritative_registry_commit_authorized": false,
+    "content_rewrites_authorized": false,
+    "runtime_instances_authorized": false,
+    "save_migration_authorized": false,
+    "ue5_implementation_authorized": false
+  },
+  "run": {
+    "mode": "IndividualCanonicalIdStaticDecision",
+    "execution_status": "Completed",
+    "verdict": "PassAll46IdsApprovedForRegistryRecordStaging",
+    "canonical_ids_approved": 46,
+    "registry_records_created": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "commit_attempted": false
+  },
+  "validation": {
+    "all_source_ids_unique": true,
+    "all_canonical_ids_unique": true,
+    "approved_grammar_match": true,
+    "empty_snapshot_collision_count": 0,
+    "deprecated_id_collision_count": 0,
+    "wrong_owner_fatal_count": 0,
+    "cross_registry_pairs_resolved": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false
+  },
+  "smallest_useful_next_action": "Stage 37 Trait definition records and nine Reputation dimension records in new version 1.1 registry snapshots, preserve the version 1.0 empty snapshots as provenance, and run registry-record plus migration-map commit preflight before any authoritative commit."
+}

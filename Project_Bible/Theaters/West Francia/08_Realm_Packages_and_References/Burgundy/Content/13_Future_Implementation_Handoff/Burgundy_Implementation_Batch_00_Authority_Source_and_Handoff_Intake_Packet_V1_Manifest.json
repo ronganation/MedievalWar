@@ -1,0 +1,15 @@
+{
+  "FileName": "Burgundy_Implementation_Batch_00_Authority_Source_and_Handoff_Intake_Packet_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "9fd0100a6418ed148e0c7423aa684972f93fb2f6a7ca2a0278600e86942abd4b",
+  "Bytes": 16233,
+  "Lines": 500,
+  "Placement": "Burgundy/13_Future_Implementation_Handoff",
+  "AcceptanceCriteriaDefined": 15,
+  "NegativeTestsDefined": 12,
+  "FutureEvidenceDeliverablesDefined": 9,
+  "BatchExecuted": false,
+  "SourceVerificationCompleted": false,
+  "ImplementationStarted": false,
+  "ValidationResult": "PassStaticPreparedPacketChecksOnly"
+}

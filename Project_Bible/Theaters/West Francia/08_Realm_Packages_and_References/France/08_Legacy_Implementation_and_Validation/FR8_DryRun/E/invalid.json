@@ -1,0 +1,100 @@
+{
+  "Results": [
+    {
+      "Fixture": "invalid_bare_active.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_DISPOSITION_BARE_ACTIVE"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_alias_chain.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_ALIAS_CHAIN"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_alias_cycle.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_ALIAS_CYCLE"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_external_owner_collapse.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_EXTERNAL_OWNER_COLLAPSE"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_universal_seven_month_turn.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_TEMPORAL_UNIVERSAL_TURN"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_henry_runtime_agency.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_HENRY_RUNTIME_AGENCY"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_hugh_vermandois_opening_title.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_HUGH_VERMANDOIS_OPENING"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_opening_state_activation.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_OPENING_ACTIVATION"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_registry_promotion.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_REGISTRY_PROMOTION"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_unreal_import.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_UNREAL_IMPORT"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_default_army_from_empty.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_EMPTY_GENERATED_DEFAULT"
+      ],
+      "MutationPerformed": false
+    },
+    {
+      "Fixture": "invalid_quarantine_instantiation.yaml",
+      "ExpectedResult": "Fail",
+      "ReasonCodes": [
+        "MW_FR_CAND_QUARANTINE_INSTANTIATED"
+      ],
+      "MutationPerformed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "AuthorityFile": "Aquitaine_Economy_Property_Revenue_and_Treasury_Authority_V1.md",
+  "DocumentId": "EconomyPropertyRevenueTreasury.Realm.Aquitaine.V1",
+  "Version": "1.0.0",
+  "Status": "StaticCheckedDevelopedRealmParityV1OwnerReviewCandidate",
+  "SHA256": "7b861b7a2aedf5a6ec3c2639686e3b152e0bc9f473864b22dc1cda847481a82b",
+  "ByteCount": 46422,
+  "LineCount": 1224,
+  "Benchmarks": [
+    "France_Economy_Property_Revenue_and_Treasury_Authority_V1.md",
+    "Wales_Economy_Property_Treasury_and_Production_Authority_V1.md",
+    "Ireland_Economy_Property_Treasury_Production_and_Trade_Authority_V1.md"
+  ],
+  "ForeignContentTransferred": false,
+  "OpeningRecordsCreated": 0,
+  "EconomicActivations": 0,
+  "RegistryMutations": 0,
+  "UnrealMutations": 0,
+  "RuntimeMutations": 0,
+  "RealPayloadImports": 0,
+  "ValidationChecks": {
+    "Aquitaine review target is explicit": true,
+    "France Wales and Ireland benchmarks are explicit": true,
+    "Three-track time is present": true,
+    "Composite title channels remain separate": true,
+    "One unified treasury rejected": true,
+    "Opening values remain unknown": true,
+    "Barbastro reward not preloaded": true,
+    "War permission gate rejected": true,
+    "Papal standing and reliability separated": true,
+    "Regional Power distinction present": true,
+    "No active economic records created": true,
+    "Fences balanced": true,
+    "No em dash": true,
+    "No escaped underscores": true,
+    "Stable footer once": true,
+    "Final marker correct": true
+  },
+  "AllChecksPassed": true
+}

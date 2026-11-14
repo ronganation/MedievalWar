@@ -1,0 +1,389 @@
+manifest_control:
+  document_id: manifest.realm.hammadid.batch-01.read-only-evidence.v1
+  stable_document_id: Batch01ReadOnlyEvidenceManifest.Hammadids
+  file_name: Hammadid_Batch_01_Read_Only_Evidence_Manifest_V1.yaml
+  version: 1.0.0
+  revision_date: 2026-09-22
+  realm: Hammadids
+  owning_theater: North Africa
+  scenario_id: mw.scenario.grand_campaign.1062
+  scenario_opening: 1062-01-01
+  opening_campaign_season: Winter
+  constitutional_authority: Project Bible 2.4
+  operational_authority: Design Expansion Checklist 3.7
+  implementation_target: Unreal Engine 5.8
+  controlling_handoff: Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+  controlling_gate: Hammadid_Unreal_Engine_5_8_Batch_01_Read_Only_Project_Discovery_Gate_V1.md
+  evidence_mode: OneDriveIndexedProjectEvidenceAndGeneratedExternalArtifactsReadOnly
+  status: PartialBatch01EvidenceManifestIndexedEvidenceOnlyDirectLiveRepositoryProofNotRun
+
+strong_verdict:
+  required_Batch01_evidence_outputs: 5
+  generated_evidence_outputs_including_this_manifest: 5
+  generated_outputs_validated_locally: 5
+  direct_live_project_reads: 0
+  direct_live_project_hashes: 0
+  verified_live_native_targets: 0
+  indexed_project_target_candidates: 5
+  complete_project_inventory: NotRun
+  project_descriptor_verification: NotRun
+  controlling_project_README_review: NotRun
+  complete_module_plugin_owner_inventory: NotRun
+  current_project_fingerprint_set: NotRun
+  project_mutations: 0
+  Batch01_acceptance: Blocked
+  Batch02_promotion: Blocked
+  result: StrongPartialEvidenceManifestNoLiveRepositoryCompletionNoMutation
+
+claim_boundary:
+  rules:
+    - SearchResultIsIndexedEvidenceNotDirectLiveRepositoryProof
+    - GeneratedBatch01OutputHashProvesOnlyTheGeneratedArtifactBytes
+    - GeneratedOutputHashDoesNotProveSourceProjectState
+    - ZeroProjectMutationClaimIsLimitedToThisEvidenceGenerationOperation
+    - NoBeforeAfterProjectHashComparisonWasPerformed
+    - MissingSearchResultDoesNotProveAbsence
+    - IndexedPathDoesNotProveCurrentLiveExistence
+    - PartialEvidenceDoesNotCloseBatch01
+    - Batch01EvidenceManifestDoesNotEqualAcceptanceReceipt
+
+required_output_sequence:
+  - sequence: 1
+    file_name: Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+    role: ProjectNativeArchitectureMap
+    state: GeneratedAndYAMLValidated
+  - sequence: 2
+    file_name: Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml
+    role: ExistingOwnerAndExtensionPointMap
+    state: GeneratedAndYAMLValidated
+  - sequence: 3
+    file_name: Hammadid_Batch_01_Authority_to_Native_Target_Crosswalk_V1.yaml
+    role: AuthorityToNativeTargetCrosswalk
+    state: GeneratedAndYAMLValidated
+  - sequence: 4
+    file_name: Hammadid_Batch_01_Collision_Duplication_and_Missing_Owner_Ledger_V1.yaml
+    role: CollisionDuplicationAndMissingOwnerLedger
+    state: GeneratedAndYAMLValidated
+  - sequence: 5
+    file_name: Hammadid_Batch_01_Read_Only_Evidence_Manifest_V1.yaml
+    role: ThisEvidenceManifest
+    state: GeneratedAndYAMLValidatedAfterFinalization
+  - sequence: 6
+    file_name: Hammadid_Batch_01_Acceptance_and_Batch_02_Promotion_Receipt_V1.md
+    role: Batch01AcceptanceAndPromotionReceipt
+    state: NotCreatedBecauseAcceptanceCriteriaNotMet
+
+output_artifact_manifest:
+  Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml:
+    size_bytes: 15144
+    line_count: 342
+    sha256: 8d284968bcd66d1ef281be8e1f8addf74142bd81de3a157961ec2ab169e836d5
+    validation:
+      yaml_parse: Pass
+      status_boundary: PartialPass
+      direct_live_root_verified: false
+      Batch02_promotion: Blocked
+      project_mutation_count: 0
+    scope: IndexedArchitectureCandidatesAndExplicitUnknowns
+  Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml:
+    size_bytes: 19672
+    line_count: 407
+    sha256: 9dcc4e787fb90aa2fa677e6efc80f2314ea16015bc8cfa437d7fb57d74dde3ea
+    validation:
+      yaml_parse: Pass
+      owner_families: 12
+      indexed_owner_candidates: 2
+      extension_point_candidates: 3
+      proposed_new_native_owners: 0
+      Batch02_promotion: Blocked
+      project_mutation_count: 0
+    scope: IndexedOwnerCandidatesAndExplicitMissingOwnerDispositions
+  Hammadid_Batch_01_Authority_to_Native_Target_Crosswalk_V1.yaml:
+    size_bytes: 38462
+    line_count: 660
+    sha256: 664c04de30da8a15b7da78bae4cce942bb0736b607fe79e3d72141427669f82e
+    validation:
+      yaml_parse: Pass
+      crosswalk_records: 24
+      required_contract_fields_complete: true
+      verified_live_native_targets: 0
+      proposed_new_native_owners: 0
+      Batch02_promotion: Blocked
+      project_mutation_count: 0
+    scope: AuthorityFamiliesToIndexedCandidatesOrExplicitMissingTargets
+  Hammadid_Batch_01_Collision_Duplication_and_Missing_Owner_Ledger_V1.yaml:
+    size_bytes: 33840
+    line_count: 654
+    sha256: 2214b57b4774c5285285f24040a15df3fe19d2f4bdbdd1d860781b1cc9ceb8a3
+    validation:
+      yaml_parse: Pass
+      collision_records: 24
+      duplication_and_lineage_records: 10
+      missing_owner_records: 15
+      private_state_leak_records: 10
+      total_control_records: 59
+      stop_gates_blocked: 12
+      stop_gates_open: 0
+      project_mutation_count: 0
+    scope: CollisionDuplicationMissingOwnerAndPrivateStateLeakPreflight
+  Hammadid_Batch_01_Read_Only_Evidence_Manifest_V1.yaml:
+    size_bytes: SelfReportedAfterFinalValidation
+    line_count: SelfReportedAfterFinalValidation
+    sha256: SelfHashRecordedInDeliveryReceiptNotEmbeddedToAvoidRecursiveHashInstability
+    validation:
+      yaml_parse: PassAfterFinalization
+      project_mutation_count: 0
+    scope: Batch01EvidenceInventoryClaimBoundaryAndZeroMutationReceipt
+
+enterprise_search_and_read_manifest:
+  executed_search_classes:
+    - ExactBatch01OutputNameSearches
+    - Batch01GateSearch
+    - HammadidImplementationHandoffSearch
+    - DevelopedRealmBatch01PrecedentSearch
+    - HammadidAuthorityOwnershipAndOpeningPlanSearch
+    - ExistingIdentityCollisionLineageAndStopGateSearches
+    - IndexedProjectArchitectureAndOwnerCandidateSearches
+  opened_or_retrieved_full_content:
+    - Zaragoza_Taifa_Unreal_Engine_5_8_Batch_01_Read_Only_Project_Discovery_and_Architecture_Crosswalk_V1.md
+    - Hammadid_Alias_Ownership_and_Collision_Ledger_V1.yaml
+    - Hammadid_Candidate_to_Canonical_Identity_Mapping_Ledger_V1.yaml
+    - Hammadid_Entity_Kind_and_Owner_Validation_Ledger_V1.yaml
+    - Hammadid_External_Owner_Lock_and_Quarantine_Ledger_V1.yaml
+    - Hammadid_Candidate_Disposition_and_Current_Authority_Stop_Gate_Ledger_V1.yaml
+  search_only_or_snippet_grounding:
+    - Hammadid_Unreal_Engine_5_8_Batch_01_Read_Only_Project_Discovery_Gate_V1.md
+    - Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+    - Hammadid_Opening_State_Assembly_and_Binding_Plan_V1.md
+    - Hammadid_Evidence_Pack_Batch_B_Summary_V1.md
+    - Hammadid_Evidence_Pack_Batch_C_Summary_V1.md
+    - Hammadid_Evidence_Pack_Batch_D_Summary_V1.md
+    - Hammadid_Current_Authority_Closure_Stale_Pointer_and_Zero_Mutation_Summary_V1.md
+  limitation: EnterpriseIndexedEvidenceDoesNotReplaceDirectReadOnlyInspectionOfCurrentWindowsRepository
+
+verified_indexed_project_evidence:
+  candidate_project_root:
+    value: 'C:\UnrealProjects\MedievalWar'
+    evidence_state: IndexedOnlyDirectVerificationNotRun
+  target_candidates:
+    - path: 'Source\MedievalWarCampaign'
+      evidence_state: IndexedOnly
+    - path: 'Source\MedievalWarCampaign\Private\StrategicIntegration'
+      evidence_state: IndexedOnly
+    - path: 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+      evidence_state: IndexedOnly
+    - path: 'Plugins\MWSharedImporter'
+      evidence_state: IndexedOnly
+    - path: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+      evidence_state: IndexedOnly
+  developed_realm_pattern_only:
+    - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.cpp'
+    - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.h'
+    - Norway_Unit_Asset_Inventory_V1.json
+    - Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md
+    - Almoravid_Spear_Levy_Unit_Profile_V1.md
+
+required_live_read_manifest:
+  current_state: NotRun
+  required_paths_or_surfaces:
+    - ExactCanonicalProjectRoot
+    - UnrealProjectDescriptor
+    - ControllingProjectREADMEAndImplementationNavigation
+    - SourceRoot
+    - ConfigRoot
+    - ContentAndDataRoots
+    - PluginsAndModuleDescriptors
+    - TestsAndAutomationRoots
+    - ScriptsAndImporterValidatorMigrationRoots
+    - SaveLoadMigrationReplayRollbackAndPerformanceSurfaces
+    - ProjectApprovedEvidenceLocation
+    - SourceControlBranchCommitAndWorkspaceState
+  required_candidate_file_reads:
+    - 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+    - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.cpp'
+    - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.h'
+    - RelevantModulePluginSchemaValidatorImporterAndPersistenceOwnerFilesDiscoveredFromREADMEAndDescriptors
+  required_record_fields:
+    - AbsoluteOrProjectRelativePath
+    - ReadOrAccessDeniedState
+    - FileOrDirectoryKind
+    - AuthoritativeGeneratedOrCacheClassification
+    - SizeBytesWhereFile
+    - SHA256WhereRelevant
+    - NativeSymbolOrAsset
+    - OwnerAndExtensionPoint
+    - EvidencePurpose
+    - ReadTimestampFromExecutionEnvironment
+  reads_completed: 0
+  access_denials_recorded: 0
+  current_project_hashes_recorded: 0
+
+input_authority_state:
+  required_project_and_framework_navigation:
+    README_Project_Bible_or_current_successor: NotDirectlyRead
+    README_Frameworks_V5_1_current_authority_family_closure_and_routing_reconciliation: NotDirectlyRead
+    Design_Expansion_Checklist_V3_7: IndexedReferenceOnly
+    CurrentUnrealProjectREADMEAndImplementationNavigation: NotDirectlyRead
+  required_hammadid_control:
+    Hammadid_Implementation_Planning_Handoff: IndexedSearchGroundingAvailable
+    Hammadid_Current_Authority_Index: IndexedEvidenceAvailable
+    Hammadid_Validation_V1_1: IndexedEvidenceAvailableFullRawCurrentnessNotProven
+    Hammadid_ID_Migration_Registry_Candidate: IndexedEvidenceAvailable
+    Hammadid_Opening_State_Assembly_and_Binding_Plan: IndexedSearchGroundingAvailable
+    Hammadid_Opening_State_1062_V1: PresenceReferencedDirectRawReadNotCompleted
+    Hammadid_Realm_Foundation_Readiness_Audit: IndexedEvidenceAvailable
+  implementation_precedent:
+    Zaragoza_Batch01_Discovery_Crosswalk: FullEnterpriseContentReviewed
+    ExistingImplementedRealmEvidence: PartialIndexedEvidenceOnly
+  rule: MissingOrPartialInputRemainsMissingOrPartialAndIsNotSilentlyReconstructed
+
+search_term_coverage:
+  required_terms:
+    - Realm
+    - Faction
+    - OpeningState
+    - Registry
+    - GameplayTag
+    - Character
+    - Dynasty
+    - Population
+    - Recruitment
+    - Unit
+    - Battle
+    - Siege
+    - HistoricalMemory
+    - HistoricalMomentum
+    - HistoricalEmergence
+    - RealmAI
+    - Save
+    - Migration
+    - Replay
+    - Rollback
+    - Importer
+    - Validator
+  direct_live_repository_search_completed: false
+  enterprise_index_search_completed_for_all_terms_as_separate_queries: false
+  current_status: PartialTopicCoverageThroughGateHandoffPrecedentAndLedgerSearches
+
+limitation_register:
+  LIM_B01_001:
+    finding: DirectLiveWindowsRepositoryAccessUnavailableInCurrentEvidenceOperation
+    effect: CannotVerifyRootDescriptorCurrentFilesOrCompleteArchitecture
+  LIM_B01_002:
+    finding: ControllingProjectREADMEsNotDirectlyRead
+    effect: CannotApproveOwnerPathsEvidenceLocationOrExtensionPolicy
+  LIM_B01_003:
+    finding: CurrentBranchCommitAndWorkspaceStateNotRecorded
+    effect: CannotBindEvidenceToExactProjectRevision
+  LIM_B01_004:
+    finding: CompleteModulePluginSchemaValidatorImporterAndPersistenceInventoryNotRun
+    effect: CannotApproveReuseExtensionOrNewOwnerDisposition
+  LIM_B01_005:
+    finding: ExactCurrentProjectFingerprintsNotCaptured
+    effect: CannotProveLiveProjectCurrentnessOrCryptographicZeroMutation
+  LIM_B01_006:
+    finding: GeneratedAndAuthoritativeProjectSurfacesNotSeparatedByDirectInspection
+    effect: CannotCompleteArchitectureAcceptance
+  LIM_B01_007:
+    finding: IdentityBoundaryLineageExternalLockAndOwnerReceiptsRemainOpen
+    effect: CannotPromoteRegistryOrOpeningStateWork
+  LIM_B01_008:
+    finding: ExistingBatch01OutputsAreExternalPlanningEvidenceOnly
+    effect: CannotTreatFilesAsUnrealImplementationOrLiveProjectValidation
+
+zero_mutation_evidence:
+  evidence_generation_location: ExternalArtifactWorkspaceOnly
+  user_project_root_written: false
+  project_files_created_modified_moved_renamed_or_deleted: 0
+  project_descriptor_modified: false
+  source_control_workspace_modified: false
+  native_modules_plugins_classes_assets_configs_tables_or_schemas_modified: 0
+  registry_rows_or_gameplay_tags_created_or_modified: 0
+  canonical_ids_published_or_reserved: 0
+  aliases_or_migrations_executed: 0
+  opening_state_records_created_or_modified: 0
+  runtime_instances_created: 0
+  payloads_created_or_imported: 0
+  importers_or_migration_commands_executed: 0
+  compile_package_cook_launch_or_runtime_execution: false
+  advanced_saves_modified: 0
+  before_after_live_project_hash_comparison: NotRun
+  cryptographic_project_zero_mutation: NotProven
+  bounded_result: EvidenceArtifactsGeneratedWithoutKnownProjectMutation
+
+stop_gate_state:
+  Batch01_RootDescriptorAndREADME: Blocked
+  Batch01_AuthoritativeGeneratedSurfaceSeparation: Blocked
+  Batch01_CompleteOwnerAndExtensionPointInventory: Blocked
+  Batch01_ExactCurrentTargetPathsAndFingerprints: Blocked
+  Batch01_AuthorityToNativeTargetApproval: Blocked
+  Batch01_AcceptanceReceipt: Blocked
+  Batch02_Promotion: Blocked
+  HMD_STOP_001_CompleteRecursiveManifest: Blocked
+  HMD_STOP_002_CompletePackageHashLedger: Blocked
+  HMD_STOP_003_CompleteRawBatchBClosure: Blocked
+  HMD_STOP_004_ValidationAuthoritySupersession: Blocked
+  HMD_STOP_005_OpeningStateAuthoritySupersession: Blocked
+  HMD_STOP_006_AnNasirCanonicalIdentity: Blocked
+  HMD_STOP_007_ScenarioBoundary: Blocked
+  HMD_STOP_008_ScenarioAndTheaterExternalLocks: Blocked
+  HMD_STOP_009_CanonicalEntityKindsAndMappings: Blocked
+  HMD_STOP_010_ReciprocalExternalState: Blocked
+  HMD_STOP_011_OpeningFactBindings: Blocked
+  HMD_STOP_012_PayloadImporterRuntimeUnreal: Blocked
+
+acceptance_matrix:
+  five_required_evidence_files_generated: Pass
+  generated_artifact_hashes_recorded_for_first_four_outputs: Pass
+  this_manifest_self_hash_handled_without_recursive_instability: Pass
+  indexed_evidence_distinguished_from_live_inspection: Pass
+  searched_and_opened_sources_scoped_honestly: Pass
+  limitations_and_missing_inputs_recorded: Pass
+  zero_known_project_mutation: PassWithinBoundedEvidenceGenerationScope
+  exact_canonical_project_root_verified: NotMet
+  project_descriptor_recorded: NotMet
+  controlling_project_READMEs_read: NotMet
+  authoritative_and_generated_surfaces_separated: NotMet
+  complete_relevant_module_plugin_owner_inventory: NotMet
+  exact_current_target_hashes: NotMet
+  Batch01_acceptance_receipt_eligible: false
+  Batch02_promotion_eligible: false
+  final_result: PartialPassEvidenceManifestBatch01StillBlocked
+
+next_safe_action:
+  next_file: Hammadid_Batch_01_Acceptance_and_Batch_02_Promotion_Receipt_V1.md
+  next_file_disposition: DoNotIssuePassReceipt
+  permitted_receipt_scope_now: BlockedOrPartialAcceptanceReceiptOnlyIfNeededForSequenceCloseout
+  preferred_real_next_action: ObtainAuthoritativeReadOnlyAccessAndCompleteLiveBatch01Discovery
+  direct_live_repository_inspection_still_required: true
+  Batch02_promotion_authorized: false
+  Unreal_mutation_authorized: false
+
+stable_footer:
+  ConstitutionalAuthority: Project Bible 2.4
+  OperationalAuthority: Design Expansion Checklist 3.7
+  ImplementationTarget: Unreal Engine 5.8
+  Theater: North Africa
+  CandidateRealm: Hammadids
+  ScenarioOpening: 1062-01-01
+  OpeningCampaignSeason: Winter
+  PreferredPlayableBoundaryCandidate: post_1062-07-11
+  PlayableBoundaryStatus: HeldPendingScenarioOwnerDisposition
+  HistoricalProgression: 21MonthsPerStrategicTurn
+  BiologicalProgression: 7MonthsPerStrategicTurn
+  CampaignSeasonProgression: OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn
+  BatchID: Batch01
+  ManifestStatus: PartialBatch01EvidenceManifestIndexedEvidenceOnlyDirectLiveRepositoryProofNotRun
+  Batch01EvidenceOutputsGenerated: 5
+  DirectLiveProjectReads: 0
+  DirectLiveProjectHashes: 0
+  ProjectMutationPerformed: false
+  CryptographicProjectZeroMutationProven: false
+  Batch01AcceptanceAuthorized: false
+  Batch02PromotionAuthorized: false
+  RegistryPublicationAuthorized: false
+  OpeningStateCreationAuthorized: false
+  PayloadOrImporterExecutionAuthorized: false
+  UnrealProjectMutationAuthorized: false
+  NextAction: ObtainAuthoritativeReadOnlyAccessAndCompleteLiveBatch01DiscoveryBeforeAnyPassReceipt

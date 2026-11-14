@@ -1,0 +1,44 @@
+{
+  "document_id": "manifest.wales.character.maredudd-ab-owain-ab-edwin.v2",
+  "version": "2.0.0",
+  "source": {
+    "filename": "Maredudd_ab_Owain_ab_Edwin.md",
+    "bytes": 45381,
+    "physical_lines": 1158,
+    "sha256": "1930ddef8c8578b92fe76f78ac6f137e4669f360ba8d6749b0a2ecef1d9ba405",
+    "copy_method": "literal full-file prefix",
+    "complete_source_verified": true
+  },
+  "successor": {
+    "filename": "Maredudd_ab_Owain_ab_Edwin_V2_Current_Authority_Refinement.md",
+    "bytes": 65655,
+    "physical_lines": 1782,
+    "sha256": "9348b698396624fb53d022d4826b448a242f7047c03bd1fbdfd257497617b33c"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_fidelity_result": "pass",
+    "source_headings_preserved": 99,
+    "removed_content": []
+  },
+  "current_opening": {
+    "person_id": "Person.MareduddAbOwainAbEdwin",
+    "participation": "Active",
+    "life_stage": "Adult",
+    "title_refs": [],
+    "claim_refs": [],
+    "relationship_dimensions": []
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Maredudd_ab_Owain_ab_Edwin_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

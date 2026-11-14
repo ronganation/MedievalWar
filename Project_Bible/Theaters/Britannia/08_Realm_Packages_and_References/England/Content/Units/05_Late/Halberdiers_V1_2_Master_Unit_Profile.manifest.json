@@ -1,0 +1,17 @@
+{
+  "document": "Halberdiers_V1_2_Master_Unit_Profile.md",
+  "version": "1.2.0",
+  "sha256": "c12ccc18ab6ecbd6cf628eaa94d4c99c2552a89ed591723a5c3c928c197a9f1a",
+  "size_bytes": 50183,
+  "line_count": 915,
+  "numbered_sections": 80,
+  "terrain_rows": 25,
+  "integrated_profiles": [
+    "ExperimentalCivicHalberdFiles",
+    "ProfessionalOrContractHalberdCompany",
+    "ExceptionalCityHalberdiers"
+  ],
+  "separate_cards_created": [],
+  "source_files_modified": [],
+  "source_files_deleted": []
+}

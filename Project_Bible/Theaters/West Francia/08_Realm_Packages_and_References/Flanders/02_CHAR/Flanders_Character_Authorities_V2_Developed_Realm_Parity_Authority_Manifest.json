@@ -1,0 +1,42 @@
+{
+  "artifact": "Flanders_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+  "version": "2.1.0",
+  "revision_date": "2026-10-12",
+  "sha256": "21a4e0c8343d263c0006b28301c1486f0067c2144cb0aedc7ef043879d8920b8",
+  "bytes": 82875,
+  "lines": 2043,
+  "immediate_substantive_source": "Flanders_Character_Authorities_V2_Developed_Realm_Parity_Authority.md version 2.0.0",
+  "prior_source_sha256": "5ae5c6c9292b047a69d3a343b75f772fd588d10cdf7231f76f911d4a3fcbeb04",
+  "original_copy_first_source": "Flanders_Character_Authorities_V1copy.md",
+  "original_source_lines_reviewed": 963,
+  "source_treatment": "CompleteVersion2PreservationWithIntegratedChildProfileReconciliation",
+  "principal_and_next_generation_profiles": 8,
+  "prior_principal_profiles_preserved": 6,
+  "definition_only_child_profiles_admitted": 2,
+  "child_profiles": [
+    "Arnulf_III_of_Flanders_V1_Developed_Character_Profile_Authority.md",
+    "Baldwin_II_of_Hainaut_V1_Developed_Character_Profile_Authority.md"
+  ],
+  "external_strategic_interfaces": 3,
+  "directed_relationship_seed_pairs": 34,
+  "substantive_removals": [],
+  "reconciliation_additions": [
+    "Arnulf III definition-only character profile",
+    "Baldwin II of Hainaut definition-only character profile",
+    "Reconciled individual child review gate",
+    "Individually reviewed child formation loop",
+    "Child-specific AI priorities",
+    "Individual Opening State disposition handoffs",
+    "Expanded validation and later-history firewall"
+  ],
+  "source_files_modified": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "relationship_activations": 0,
+  "title_claim_guardianship_or_household_activations": 0,
+  "runtime_mutations": 0,
+  "Unreal_mutations": 0,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "next_file": "Flanders_Character_Network_V1_Current_Authority_Modernization_FULL.md"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "static-check.england.population_package.v1_0",
+  "version": "1.0.0",
+  "output_file": "England_Population_Package.md",
+  "AI_source_file": "England_AI.md",
+  "checks": {
+    "created": true,
+    "depth": true,
+    "sections": true,
+    "opening_once": true,
+    "temporal": true,
+    "authorities": true,
+    "owners": true,
+    "aelfgar": true,
+    "profiles": true,
+    "AI_correct": true,
+    "no_escapes": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true
+}

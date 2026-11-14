@@ -1,0 +1,42 @@
+{
+  "document_id": "manifest.england.edward_the_confessor_v4.1.1_v3_owner_review_candidate",
+  "version": "1.1.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "Edward_the_Confessor_V4.1_Current_Authority_Reconciliation.md",
+      "sha256": "9687262e8309754dfe5b0f7d95af47e0b915823c3416ea73f902a0f92e3bea51",
+      "bytes": 77328
+    },
+    {
+      "filename": "Edward_the_Confessor_V4.1_Current_Authority_Reconciliation_Static_Check.json",
+      "sha256": "e1715e75dfbad6eec799e65f4c962d5bf9fa568be33a982e56093db27f4ec26a",
+      "bytes": 1261
+    },
+    {
+      "filename": "Edward_the_Confessor_V4.1_Current_Authority_Reconciliation_SOURCE_TO_FINAL_MAP.json",
+      "sha256": "a520e45951c48aa42e7a4fba780f186340205ca79a983d0b9b92bf799254f2d8",
+      "bytes": 39079
+    },
+    {
+      "filename": "Edward_the_Confessor_V4.1_Current_Authority_Reconciliation_PRE_REPAIR_SNAPSHOT.json",
+      "sha256": "25b6448d32ecce20e7f7ceb1c1e1608eb92b8e0129f37d6d93871a715d8033d7",
+      "bytes": 597
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "physical_promotion": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Ecclesiastical_Institutions_Offices_Property_Sanctuary_and_Patronage_Authority_V1_1_FULL.md",
+  "bytes": 52625,
+  "lines": 1263,
+  "sections": 33,
+  "validation_cases": 36,
+  "checks": {
+    "large_successor": true,
+    "sections_at_least_32": true,
+    "source_named": true,
+    "preserve_enrich": true,
+    "framework_and_benchmark": true,
+    "clonmacnoise_separation": true,
+    "regional_portfolios": true,
+    "expanded_domains": true,
+    "validation_36": true,
+    "preservation_ledger": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_mutation": true,
+    "next_geography": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "all_pass": true
+  }
+}

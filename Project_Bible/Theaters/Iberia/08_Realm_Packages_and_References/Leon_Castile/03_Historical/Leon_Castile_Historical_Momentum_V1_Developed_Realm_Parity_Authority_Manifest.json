@@ -1,0 +1,32 @@
+{
+  "document_id": "Manifest.HistoricalMomentum.Realm.LeonCastile.V1",
+  "authority_file": "Leon_Castile_Historical_Momentum_V1_Developed_Realm_Parity_Authority.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/Historical",
+  "bytes": 78421,
+  "physical_lines": 1819,
+  "words": 4641,
+  "sha256": "21C1A54113CA9330EB9EED44382DD1C299C8D99DEBD23F3ED7AE717C7F4436B4",
+  "fence_count": 104,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "creation_method_present": true,
+  "pressure_definition_count": 18,
+  "active_candidate_count": 14,
+  "review_only_count": 4,
+  "collision_group_count": 8,
+  "validation_case_count": 70,
+  "status": "StaticCheckedNewDevelopedRealmParityAuthorityReviewOnly",
+  "next_file": "Leon_Castile_Historical_Emergence_V1_Developed_Realm_Parity_Authority.md",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "all_checks_pass": true
+}

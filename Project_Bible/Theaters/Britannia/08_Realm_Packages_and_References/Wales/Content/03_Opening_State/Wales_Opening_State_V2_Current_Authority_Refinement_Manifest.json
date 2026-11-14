@@ -1,0 +1,29 @@
+{
+  "document_id": "manifest.wales.opening-state.v2.current-authority-refinement",
+  "version": "2.0.0",
+  "source": {
+    "filename": "Wales_Opening_State.md",
+    "bytes": 27658,
+    "sha256": "c0d4860d728b0a93643b75b3498327228af78ec4f2319dba36b57aa39cb030e4",
+    "copy_first_rebuild": true
+  },
+  "artifact": {
+    "filename": "Wales_Opening_State_V2_Current_Authority_Refinement.md",
+    "bytes": 51051,
+    "physical_lines": 1829,
+    "sha256": "aaf169fc9b83ce941f7e5b156b4e5527b9d30383b637a95ea8e8b0fdf761711c"
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "canonical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "real_payload_import": false
+  },
+  "static_check": {
+    "filename": "Wales_Opening_State_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

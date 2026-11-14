@@ -1,0 +1,21 @@
+{
+  "FileName": "Campaign_Theater_Organization_and_Iberia_Compatibility_Progress_Note_V1.md",
+  "SHA256": "EAFDE9CADE01D6D3249AB78CB89CF8E18FCC373D586F9A171C38D2B7619F1E2A",
+  "Bytes": 12693,
+  "Lines": 345,
+  "Checks": {
+    "authority_pair": true,
+    "supplemental_role": true,
+    "britania_ue5_artifacts": true,
+    "compile_validated": true,
+    "focused_11": true,
+    "campaign_360": true,
+    "denmark_14": true,
+    "realm_ownership": true,
+    "no_broadening": true,
+    "reject_duplicates": true,
+    "no_undefined_regression_status": true,
+    "no_malformed_implemented_link": true,
+    "bounded_compile_runtime_blocker": true
+  }
+}

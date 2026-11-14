@@ -1,0 +1,21 @@
+{
+  "document": "Holland_Dirk_V_Character_Authority_V1_2_Mature_Double_Checked.md",
+  "version": "1.2.0",
+  "bytes": 71154,
+  "lines": 2306,
+  "sha256": "94f1c74710e1e580e441ab73ebfa3b258372848b693b0ea79e29bdef37dfb925",
+  "utf8_valid": true,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "escaped_list_marker_count": 0,
+  "stable_footer_count": 1,
+  "source_preserved": true,
+  "implementation_validation": {
+    "compile": false,
+    "runtime": false,
+    "save_load": false,
+    "migration": false,
+    "unreal": false
+  },
+  "result": "PASS_AT_STATIC_AUTHORING_SCOPE"
+}

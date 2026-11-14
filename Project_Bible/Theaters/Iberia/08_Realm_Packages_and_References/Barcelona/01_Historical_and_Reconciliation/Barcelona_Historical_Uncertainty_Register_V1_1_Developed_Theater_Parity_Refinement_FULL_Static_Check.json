@@ -1,0 +1,19 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "source_receipt": true,
+    "complete_v1": true,
+    "three_tracks": true,
+    "alt_groups": true,
+    "selection_receipt": true,
+    "propagation": true,
+    "reopen_retire": true,
+    "visibility": true,
+    "zero_activation": true,
+    "zero_mutations": true,
+    "footer_once": true
+  }
+}

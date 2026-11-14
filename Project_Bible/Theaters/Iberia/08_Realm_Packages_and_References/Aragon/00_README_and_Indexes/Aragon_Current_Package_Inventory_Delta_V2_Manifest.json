@@ -1,0 +1,35 @@
+{
+  "document_id": "Manifest.Aragon.CurrentPackageInventoryDelta.V2",
+  "markdown_file": "Aragon_Current_Package_Inventory_Delta_V2.md",
+  "markdown_sha256": "FFD3D69033036BED2B1A428826159F48B32176623E1DFAC5737236FC84AE92AD",
+  "json_file": "Aragon_Current_Package_Inventory_Delta_V2.json",
+  "json_sha256": "416F89B8A82AFF1E0C45E8E54923447719A6B6DCBD5F360A2759659DDA01FFB1",
+  "version": "2.0.0",
+  "revision_date": "2026-09-09",
+  "placement": "Aragon/00_README_and_Indexes",
+  "status": "StaticCheckedAdditiveInventoryDeltaWithPhysicalFingerprintGate",
+  "checks": {
+    "delta_entries": 27,
+    "unique_paths": true,
+    "pending_hash_count": 19,
+    "known_hash_count": 8,
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "mutation_receipt": {
+    "SourceOverwrite": 0,
+    "BaselineDelete": 0,
+    "Moved": 0,
+    "Renamed": 0,
+    "Registry": 0,
+    "CandidatePromotion": 0,
+    "CandidateJson": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "next_gate": "Physical eleven-folder re-inventory before exact package total or final fingerprint claim"
+}

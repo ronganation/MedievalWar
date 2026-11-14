@@ -1,0 +1,18 @@
+{
+  "document": "Ireland_Package_Physical_File_and_Companion_Inventory_V1.md",
+  "passed": true,
+  "checks": {
+    "inventory_count": true,
+    "new_count": true,
+    "honest_physical_boundary": true,
+    "existing_folders": true,
+    "v22_flagged": true,
+    "no_actions": true,
+    "three_track": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "removed_zero": true,
+    "stable_footer": true
+  },
+  "validation_scope": "enterprise-search and manifest-evidence inventory only; direct recursive local filesystem enumeration, hashes, duplicate scan, companion closure, and link validation remain pending"
+}

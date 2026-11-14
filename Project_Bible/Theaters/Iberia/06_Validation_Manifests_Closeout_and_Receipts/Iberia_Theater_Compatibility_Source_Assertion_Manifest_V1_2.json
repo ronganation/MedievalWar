@@ -1,0 +1,74 @@
+{
+  "manifest_id": "manifest.iberia.theater_compatibility.source_assertions.v1_2",
+  "version": "1.2.0",
+  "status": "PASS_SOURCE_ASSERTION_RULES",
+  "bundle_artifact_count": 4,
+  "hashed_artifact_count": 3,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "stable_order": 10,
+      "filename": "Iberia_Theater_Compatibility_Source_Assertions_V1_2.json",
+      "role": "SourceAssertionCompanion",
+      "bytes": 9150,
+      "lines": 277,
+      "stored_file_sha256": "98231077fb475685df703097d187e3d88ca34eda0e8713271ad0286c1641a28e",
+      "canonical_content_sha256": "3abdec2f0f46a54180a0a209a0dadea1243bcfa822ecb1950907c1ad533549f4"
+    },
+    {
+      "stable_order": 20,
+      "filename": "Iberia_Theater_Compatibility_Source_Assertion_Schema_V1_2.json",
+      "role": "JSONSchema",
+      "bytes": 4566,
+      "lines": 191,
+      "stored_file_sha256": "9fb405b2b6dbf087d05d8f2d916e2f658ddc0e874c21cd75b8b62fd290824936",
+      "canonical_content_sha256": "b1de89e583cc73c4dcde4cb92c1153241a1c6d246f73b91422163a9484cdfdf9"
+    },
+    {
+      "stable_order": 30,
+      "filename": "Iberia_Theater_Compatibility_Source_Assertion_Static_Check_V1_2.json",
+      "role": "StaticCheck",
+      "bytes": 1323,
+      "lines": 60,
+      "stored_file_sha256": "24b0598d4876e107200f423aa26b35bede1e705fb956fd20be198d66f116f6f8",
+      "canonical_content_sha256": "1ffa1453dde0f91d225be92530dde8c5bfe2fbfd265ee58ac1f6d58c18d85539"
+    }
+  ],
+  "source_candidates": [
+    {
+      "filename": "Leon_Castile_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "sha256": "f4f93a1a15ae81df866e8231eb3cbdb636c2aee89afc4a623e5efcca1c14a413"
+    },
+    {
+      "filename": "Barcelona_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "sha256": "7fc872311878bc65e9888848b7d73cb688247390800234fcc24fb2322832573c"
+    },
+    {
+      "filename": "Aragon_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "sha256": "42883b7c1fbe953d4565fb9845c8f665a8c9912ef58cf69e25203f9fdef28f4e"
+    },
+    {
+      "filename": "Almoravid_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "sha256": "6b639c85c23d2d97365aa4f020b26993bb48501f48a0e448871ba9e69ae8e329"
+    },
+    {
+      "filename": "Badajoz_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "sha256": "3a6344928bb088cb621b6ea338f90e6ab205d4c19c0c4144b3634df8a9975d0b"
+    },
+    {
+      "filename": "Seville_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "sha256": "86a50701e61fe63ab102e920a53566ffcfee0c5f07126cc86e2d5f7b66d9646f"
+    },
+    {
+      "filename": "Valencia_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "sha256": "b2fb56ce3b49e57b625a3052e2f650004f29f8565a3cf05a084307cf1ee0b367"
+    }
+  ],
+  "mutations": {
+    "realm_packages_modified": 0,
+    "opening_states_modified": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "migration_executions": 0
+  }
+}

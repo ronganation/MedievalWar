@@ -1,0 +1,31 @@
+{
+  "document_id": "manifest.england.aethelwine_of_durham_v4.2_current_authority_reconciliation",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "Aethelwine_of_Durham_V4.2_Current_Authority_Reconciliation.md",
+      "sha256": "93f0e7fafd185bf08e47274f71a644571bd8e165af34367f0fee83684b871f34",
+      "bytes": 32411
+    },
+    {
+      "filename": "Aethelwine_of_Durham_V4.2_Current_Authority_Reconciliation_Static_Check.json",
+      "sha256": "d6f6a6689ab7a2c73f241b993e36961a84f513bd637b3d9a7d300197e337a7b5",
+      "bytes": 831
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false
+  }
+}

@@ -1,0 +1,41 @@
+﻿{
+    "Task":  "DENMARK-00Z",
+    "Status":  "ReadyForOwnerCloseout",
+    "Timestamp":  "2026-08-31T22:05:39.4928156-04:00",
+    "ControllingSourceChecks":  10,
+    "MissingControllingSourceChecks":  0,
+    "ExpectedEvidenceFiles":  4,
+    "CollectedEvidenceFiles":  4,
+    "MissingExpectedEvidenceFiles":  0,
+    "MissingEvidence":  [
+
+                        ],
+    "CurrentDenmarkNetworkBaseline":  {
+                                          "Passed":  27,
+                                          "Failed":  0,
+                                          "Skipped":  0
+                                      },
+    "ManifestRecords":  20,
+    "DenmarkOwnedRecords":  12,
+    "ConditionalExternalDirections":  4,
+    "ExternalOwnerDeclarations":  4,
+    "CanonicalIdentityMappings":  6,
+    "DryRunCommands":  13,
+    "ControlledNonCreations":  3,
+    "RuntimeMutations":  0,
+    "QualitativeDimensionRows":  70,
+    "DistinctDimensionIds":  17,
+    "AdaptableStandardReady":  true,
+    "ProductionComplete":  false,
+    "OwnerSubmissionAuthorized":  false,
+    "OwnerCommitted":  false,
+    "RuntimeEnvelopeEligible":  false,
+    "ApplyCalled":  false,
+    "SaveWritten":  false,
+    "RegistryMutated":  false,
+    "OpeningStateMutated":  false,
+    "RealmPayloadApplied":  false,
+    "TheaterActivated":  false,
+    "ActiveProjectFilesModifiedByCloseout":  false,
+    "CompileOrRuntimeExecutedByCloseout":  false
+}

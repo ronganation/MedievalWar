@@ -1,0 +1,19 @@
+{
+  "filename": "Arnulf_III_of_Flanders_V1_Developed_Character_Profile_Authority.md",
+  "sha256": "389f2be56ffa30b3dfe3b494c3a8a88cca7449f787d868aca05d016ba3ce0869",
+  "bytes": 39030,
+  "lines": 1024,
+  "balanced_fences": true,
+  "escaped_underscores": 0,
+  "escaped_hyphens": 0,
+  "em_dashes": 0,
+  "stable_footer_count": 1,
+  "required_modules_missing": [],
+  "benchmarks_named": 5,
+  "AI_reason_codes": 20,
+  "validation_fixtures": 20,
+  "nonmutation": true,
+  "source_treatment_present": true,
+  "opening_life_state_not_asserted_as_activated": true,
+  "overall": "Pass"
+}

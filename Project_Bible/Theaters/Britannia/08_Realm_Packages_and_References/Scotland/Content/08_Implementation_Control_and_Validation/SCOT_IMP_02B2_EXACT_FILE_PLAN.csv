@@ -1,0 +1,7 @@
+RelativePath,Change,Role,OwnerGate
+Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Public/MWScotlandCampaignInitializationDefinition.h,Add,Public read-only definition contract,SCOT-IMP-02C
+Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/MWScotlandCampaignInitializationDefinition.cpp,Add,Source-bound deterministic definition,SCOT-IMP-02C
+Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Public/MWScotlandCampaignInitializationReadiness.h,Add,Public owner-readiness result contract,SCOT-IMP-02C
+Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/MWScotlandCampaignInitializationReadiness.cpp,Add,Fail-closed readiness evaluator,SCOT-IMP-02C
+Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWScotlandCampaignInitializationDefinitionTests.cpp,Add,Six definition automation tests,SCOT-IMP-02C
+Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/Tests/MWScotlandCampaignInitializationReadinessTests.cpp,Add,Seven readiness automation tests,SCOT-IMP-02C

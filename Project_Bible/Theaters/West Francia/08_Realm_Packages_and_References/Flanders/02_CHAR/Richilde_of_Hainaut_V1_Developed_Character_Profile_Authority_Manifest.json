@@ -1,0 +1,39 @@
+{
+  "artifact": "Richilde_of_Hainaut_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.0.0",
+  "sha256": "09ed202d534dd51d1843ac3055ab372ef77d6fa1347e1d27e6cc8bb93cf324d2",
+  "bytes": 42070,
+  "lines": 1002,
+  "character": "Richilde of Hainaut",
+  "benchmark_scope": "CrossTheaterRightsBearingCountessHouseholdRegencyAndContinuityProfiles",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "stable_footer_count": 1,
+    "required_modules_missing": [],
+    "benchmarks_named": 10,
+    "AI_reason_codes": 25,
+    "validation_fixtures": 20,
+    "nonmutation": true
+  },
+  "all_critical_checks_pass": true,
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Person": 0,
+    "TitleOfficeClaimRegency": 0,
+    "MarriageChild": 0,
+    "Mandate": 0,
+    "Relationships": 0,
+    "HainautState": 0,
+    "ForcePropertyTreasury": 0,
+    "Institution": 0,
+    "Schema": 0,
+    "Save": 0,
+    "Unreal": 0,
+    "Runtime": 0
+  },
+  "next_file": "Robert_son_of_Baldwin_V_V1_Developed_Character_Profile_Authority.md"
+}

@@ -1,0 +1,11 @@
+// Add these to the target module's dependency arrays.
+// PublicDependencyModuleNames: Core, CoreUObject, Engine, StructUtils
+// If editor-only asset validation is added: DataValidation, UnrealEd (Private, editor target only)
+
+PublicDependencyModuleNames.AddRange(new string[]
+{
+    "Core",
+    "CoreUObject",
+    "Engine",
+    "StructUtils"
+});

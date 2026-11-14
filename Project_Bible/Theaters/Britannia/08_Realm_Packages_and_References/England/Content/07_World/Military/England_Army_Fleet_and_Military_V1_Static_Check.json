@@ -1,0 +1,21 @@
+{
+  "document_id": "static-check.england.army_fleet_military.v1",
+  "version": "1.0.0",
+  "output_file": "England_Army_Fleet_and_Military_V1.md",
+  "checks": {
+    "created": true,
+    "depth": true,
+    "sections": true,
+    "opening_once": true,
+    "temporal": true,
+    "models": true,
+    "boundaries": true,
+    "historical_firewall": true,
+    "no_auto": true,
+    "no_activation": true,
+    "validation_false": true,
+    "no_escapes": true,
+    "stable_footer": true
+  },
+  "passed": true
+}

@@ -1,0 +1,39 @@
+{
+  "FileName": "Aquitaine_Historical_Uncertainty_Register_V1.md",
+  "Version": "1.0.0",
+  "StableDocumentID": "HistoricalUncertainty.Realm.Aquitaine",
+  "AuthorityID": "authority.historical-uncertainty.realm.aquitaine.v1",
+  "Status": "StaticCheckedNewUncertaintyAuthorityPendingOwnerSelectionBindingAndPromotion",
+  "SHA256": "ee515cca2f8a28789e17841a56f648323e38f0dc4dea883589ac1e29af278f32",
+  "Bytes": 74132,
+  "Lines": 2087,
+  "CandidateUncertaintyRecords": 30,
+  "OpeningScenarioSelectionsApplied": 0,
+  "ProvisionallyResolvedRecords": 0,
+  "RetiredRecords": 0,
+  "RuntimeEventsScheduled": 0,
+  "Benchmarks": [
+    "England Historical Uncertainty Register",
+    "Normandy Historical Uncertainty Register",
+    "Scotland Historical Uncertainty Register",
+    "Brittany Historical Uncertainty Register"
+  ],
+  "Authorizations": {
+    "UncertaintyActivation": false,
+    "OpeningStateMutation": false,
+    "RegistryMutation": false,
+    "MigrationExecution": false,
+    "RuntimeMutation": false,
+    "RealPayloadImport": false,
+    "UnrealProjectMutation": false
+  },
+  "Validation": {
+    "Compile": false,
+    "Runtime": false,
+    "Importer": false,
+    "SaveLoad": false,
+    "Migration": false,
+    "Replay": false,
+    "Performance": false
+  }
+}

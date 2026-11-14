@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medievalwar:valencia:faction-definition-manifest:1062:v3_4:package-v1",
+  "title": "Valencia Taifa Faction Definition Manifest 1062 V3.4 Package V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest",
+    "sources",
+    "definition_contract",
+    "temporal_contract",
+    "definitions",
+    "crosswalks",
+    "dependencies",
+    "quarantine",
+    "owner_requests",
+    "validation_expectations"
+  ],
+  "properties": {
+    "manifest": {
+      "type": "object",
+      "required": [
+        "manifest_id",
+        "manifest_family_id",
+        "manifest_version",
+        "source_opening_authority_version",
+        "source_machine_readable_package_version",
+        "realm_id",
+        "scenario_id",
+        "scenario_opening",
+        "opening_campaign_season",
+        "payload_class",
+        "definition_count",
+        "registry_mutation_authorized",
+        "runtime_mutation_authorized",
+        "real_payload_import_authorized",
+        "unreal_project_mutation_authorized",
+        "reconciliation"
+      ],
+      "properties": {
+        "manifest_id": {
+          "const": "definition_manifest.valencia.1062.v3_4.package_v1"
+        },
+        "source_opening_authority_version": {
+          "const": "3.4.0"
+        },
+        "payload_class": {
+          "const": "DefinitionCandidatesOnly"
+        },
+        "definition_count": {
+          "const": 81
+        },
+        "registry_mutation_authorized": {
+          "const": false
+        },
+        "runtime_mutation_authorized": {
+          "const": false
+        },
+        "real_payload_import_authorized": {
+          "const": false
+        },
+        "unreal_project_mutation_authorized": {
+          "const": false
+        }
+      },
+      "additionalProperties": true
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 3
+    },
+    "definition_contract": {
+      "type": "object",
+      "additionalProperties": {
+        "const": false
+      }
+    },
+    "temporal_contract": {
+      "type": "object"
+    },
+    "definitions": {
+      "type": "array",
+      "minItems": 81,
+      "maxItems": 81,
+      "items": {
+        "$ref": "#/$defs/definition"
+      }
+    },
+    "crosswalks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/crosswalk"
+      }
+    },
+    "dependencies": {
+      "type": "array"
+    },
+    "quarantine": {
+      "type": "array"
+    },
+    "owner_requests": {
+      "type": "array"
+    },
+    "validation_expectations": {
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "definition": {
+      "type": "object",
+      "required": [
+        "record_id",
+        "object_type",
+        "record_class",
+        "stable_label",
+        "owner",
+        "source_refs",
+        "definition_section",
+        "instance_creation",
+        "runtime_effect",
+        "manifest_status"
+      ],
+      "properties": {
+        "record_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*(\\.[a-z0-9_]+)+$"
+        },
+        "instance_creation": {
+          "const": "Prohibited"
+        },
+        "runtime_effect": {
+          "const": "None"
+        },
+        "source_refs": {
+          "type": "array",
+          "minItems": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "crosswalk": {
+      "type": "object",
+      "required": [
+        "legacy_id",
+        "candidate_id",
+        "crosswalk_status",
+        "creates_second_identity"
+      ],
+      "properties": {
+        "crosswalk_status": {
+          "const": "ProposedAliasPendingOwnerDisposition"
+        },
+        "creates_second_identity": {
+          "const": false
+        },
+        "legacy_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "candidate_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*(\\.[a-z0-9_]+)+$"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

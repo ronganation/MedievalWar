@@ -1,0 +1,45 @@
+{
+  "document_id": "Manifest.Inspection.LeonCastile.UE5ArchitectureModule.V1",
+  "authority_file": "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 13630,
+  "physical_lines": 346,
+  "sha256": "08F4F4AF5462EE8C78088FEB3E8CC3CC566DEA8EC33EAC22F44D7FD8FC24EE63",
+  "status": "StaticCheckedPartialArchitectureInspectionActualLocalSourceTreeNotMounted",
+  "inspection_mode": "EnterpriseEvidenceReadOnlyArchitectureReconciliation",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "owner_count": 13,
+    "resolved_count": 0,
+    "gapped_count": 13,
+    "no_mutation": true,
+    "partial_boundary": true
+  },
+  "confirmed_references": [
+    "MWSharedImporter",
+    "MedievalWarCampaign",
+    "MedievalWarEditor",
+    "StructUtilsDeprecationWarning"
+  ],
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Source": 0,
+    "Configuration": 0,
+    "Assets": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "next_file": "Leon_Castile_UE5_Conceptual_to_Actual_Owner_Resolution_Matrix_V1.json",
+  "all_static_checks_pass": true
+}

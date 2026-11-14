@@ -1,0 +1,28 @@
+{
+  "document_id": "ProjectNativeArchitectureMap.Realm.Brittany.UE5_8.V1.Manifest",
+  "filename": "Brittany_UE5_8_Project_Native_Architecture_Map_V1_Manifest.json",
+  "authority_file": "Brittany_UE5_8_Project_Native_Architecture_Map_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-07",
+  "placement": "Content/06_Implementation_Bundles_and_Validation",
+  "authority_bytes": 22349,
+  "authority_physical_lines": 803,
+  "authority_sha256": "9CD643B92A86A0C077F8EF0F68A3DCF5800CD445B84514F4866ED0B32A9EAEA8",
+  "status": "StaticCheckedArchitectureMapPendingLocalUnrealProjectDiscovery",
+  "candidate_families_mapped": 21,
+  "candidate_asset_families_proposed": 17,
+  "candidate_tag_domains_proposed": 9,
+  "actual_project_native_types_verified": 0,
+  "actual_project_paths_verified": 0,
+  "project_mutations": 0,
+  "validation": {
+    "utf8_decode_valid": true,
+    "balanced_fenced_blocks": true,
+    "single_stable_footer": true,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "compile_validated": false,
+    "runtime_validated": false
+  },
+  "next_gate": "LocalReadOnlyProjectNativeDiscovery"
+}

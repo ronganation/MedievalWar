@@ -1,0 +1,30 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "three_new": true,
+    "audited_10": true,
+    "memory_12": true,
+    "momentum_12": true,
+    "emergence_12": true,
+    "uncertainty_32": true,
+    "opening_zero": true,
+    "visual_authority": true,
+    "visual_board": true,
+    "blockers_12": true,
+    "batches_10": true,
+    "next_memory": true,
+    "three_tracks": true,
+    "ename": true,
+    "polycentric": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "5cb53573d18ebf77b6bc7055a39d944ae88400fd5b0046dbf0133ca5ce427765",
+  "Bytes": 28665,
+  "Lines": 728,
+  "Scope": "Static cross-authority consistency, coverage, visual integration, modernization planning, and nonmutation audit only"
+}

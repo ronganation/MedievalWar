@@ -1,0 +1,15 @@
+{
+  "filename_control": true,
+  "sha256": "da40922f96570f4e64ae287193bd64bcfbaa7abf9f32fb1132d67194ecf3f0a1",
+  "bytes": 83577,
+  "lines": 1287,
+  "operating_portfolios": 36,
+  "unified_scope": true,
+  "population_owner_separation": true,
+  "supply_owner_separation": true,
+  "child_interfaces": 2,
+  "balanced_fences": true,
+  "opening_values_zero": true,
+  "nonmutation": true,
+  "overall": "Pass"
+}

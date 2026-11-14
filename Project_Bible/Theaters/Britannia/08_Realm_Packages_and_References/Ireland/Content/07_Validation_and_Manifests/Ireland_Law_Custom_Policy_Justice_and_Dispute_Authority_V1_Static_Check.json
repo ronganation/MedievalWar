@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Law_Custom_Policy_Justice_and_Dispute_Authority_V1.md",
+  "bytes": 38149,
+  "lines": 867,
+  "sections": 40,
+  "validation_cases": 40,
+  "checks": {
+    "depth": true,
+    "sections": true,
+    "validations": true,
+    "framework": true,
+    "regions": true,
+    "implementation": true,
+    "three": true,
+    "honest": true,
+    "no_mut": true,
+    "removal": true,
+    "format": true,
+    "all_pass": true
+  }
+}

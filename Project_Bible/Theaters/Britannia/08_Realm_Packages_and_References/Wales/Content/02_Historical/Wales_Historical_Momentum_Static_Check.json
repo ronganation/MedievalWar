@@ -1,0 +1,28 @@
+{
+  "document_id": "static-check.wales.historical-momentum.v1",
+  "version": "1.0.0",
+  "filename": "Wales_Historical_Momentum.md",
+  "bytes": 34468,
+  "physical_lines": 785,
+  "sha256": "103d6662b1cdeb692005393cbcd0df47c7a3190d1598bedefd67e21bc823a2ce",
+  "checks": {
+    "portfolios_12": true,
+    "collisions_6": true,
+    "evidence_memory_chronology": true,
+    "opening_empty": true,
+    "gruffudd_living": true,
+    "death_timer_blocked": true,
+    "underage_gate": true,
+    "st_davids_separation": true,
+    "three_tracks": true,
+    "validation_20": true,
+    "no_activation": true,
+    "honest_validation": true,
+    "removed_empty": true,
+    "next_phase": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

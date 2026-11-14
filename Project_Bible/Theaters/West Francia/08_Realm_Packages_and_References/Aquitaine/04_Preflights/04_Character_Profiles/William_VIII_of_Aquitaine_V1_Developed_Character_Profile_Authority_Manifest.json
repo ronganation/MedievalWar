@@ -1,0 +1,30 @@
+{
+  "ManifestId": "Manifest.WilliamVIII.Aquitaine.V1",
+  "Document": "William_VIII_of_Aquitaine_V1_Developed_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "GeneratedDate": "2026-09-03",
+  "DocumentType": "DevelopedCharacterProfileAuthority",
+  "Character": "William VIII of Aquitaine",
+  "CanonicalPersonReference": "person.william_viii_aquitaine",
+  "SHA256": "5a718602650c029afec36ce0472800616fb022015117c39b09ed2db72ee50b5a",
+  "Bytes": 51783,
+  "Lines": 1266,
+  "BenchmarkAuthorities": [
+    "Character_Profile_Authoring_Standard_V3.md",
+    "William_of_Normandy_v6_RefinedCopy.md",
+    "Harold_Godwinson_V4.1_Current_Authority_Reconciliation.md",
+    "Mature Denmark and Norway profile practice identified by Character Profile Authoring Standard V3"
+  ],
+  "StaticCheckFile": "William_VIII_of_Aquitaine_V1_Developed_Character_Profile_Authority_Static_Check.json",
+  "StaticCheckSHA256": "810839a17bb0313441d44d8b2436d7e56e3932c4c193920499e5a2fabb7538c4",
+  "AllChecksPassed": true,
+  "MutationStatus": {
+    "Registry": false,
+    "OpeningState": false,
+    "Relationships": false,
+    "TitlesOrOffices": false,
+    "Unreal": false,
+    "Runtime": false,
+    "RealPayload": false
+  }
+}

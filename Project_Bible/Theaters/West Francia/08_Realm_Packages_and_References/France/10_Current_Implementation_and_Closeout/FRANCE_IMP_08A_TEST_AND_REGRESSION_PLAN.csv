@@ -1,0 +1,18 @@
+Order,FilterOrCheck,Expectation,Phase
+1,Discover current Realm AI diplomacy proposal information and campaign opportunity automation catalog,DISCOVER_AND_RECORD,PreMutation
+2,Discover developed-Realm AI and diplomacy comparators,LOCK_VERIFIED_NONZERO_ONLY,PreMutation
+3,Prove all six FRANCE-IMP-08B paths absent,ALL_ABSENT,PreMutation
+4,MedievalWar.France.RealmAIProposal.,28,PostBuild
+5,MedievalWar.France.MilitaryRecruitmentSupply.,24,PostBuild
+6,MedievalWar.France.TerritoryCommunityEconomy.,20,PostBuild
+7,MedievalWar.France.GovernanceInterface.,20,PostBuild
+8,MedievalWar.France.CharacterDynastyNetwork.,34,PostBuild
+9,MedievalWar.France.HistoricalEmergence.,28,PostBuild
+10,MedievalWar.France.TransactionRecovery.,24,PostBuild
+11,MedievalWar.France.CampaignInitialization.,24,PostBuild
+12,MedievalWar.Campaign.Theater.Definition.,4,PostBuild
+13,MedievalWar.Wales.CharacterNetwork.,20,PostBuild
+14,MedievalWar.Wales.PersonDynasty.,20,PostBuild
+15,Verified nonzero AI and diplomacy comparator filters,PRESERVE_LOCKED_COUNTS,PostBuild
+16,AI command diplomacy event war battle Registry Opening State save migration and production boundary scan,NO_CHANGES,Closeout
+17,Rollback rehearsal or failure cleanup,EXACT_PRE_BATCH_STATE,Closeout

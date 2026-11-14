@@ -1,0 +1,12 @@
+﻿{
+    "pass":  true,
+    "checks":  {
+                   "source_hash_recorded":  true,
+                   "successor_exists":  true,
+                   "source_prefix_preserved":  true,
+                   "two_formal_directions":  true,
+                   "regional_not_faction_owned":  true,
+                   "three_track_footer":  true,
+                   "mutation_boundaries":  true
+               }
+}

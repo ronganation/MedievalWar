@@ -1,0 +1,20 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "packet_sections": true,
+    "acceptance_15": true,
+    "negative_12": true,
+    "three_tracks": true,
+    "placeholders_explicit": true,
+    "template_nonexecution": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "5a85aead870d9a9651497c294461c622c774a6ad7eed676bc1d19e37d10daacb",
+  "Bytes": 14333,
+  "Lines": 493,
+  "Scope": "Static reusable batch-packet template checks only"
+}

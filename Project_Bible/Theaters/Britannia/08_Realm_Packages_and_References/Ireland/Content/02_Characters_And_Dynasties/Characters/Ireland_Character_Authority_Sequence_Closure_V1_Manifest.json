@@ -1,0 +1,13 @@
+{
+  "manifest_version": "1.0",
+  "document_type": "ReadOnlySequenceClosure",
+  "file": "Ireland_Character_Authority_Sequence_Closure_V1.md",
+  "bytes": 12733,
+  "sha256": "9378c660e25f8e79bc0252d17622fb0d839e7b7387bfa53f90448275cb7fabeb",
+  "canonical_id_count_checked": 14,
+  "source_authorities_modified": 0,
+  "full_Tadc_authority_created": 0,
+  "static_check_file": "Ireland_Character_Authority_Sequence_Closure_V1_Static_Check.json",
+  "static_check_sha256": "8d27b694514b3bf68a648d1f67ea62837fdae7ec735579b7e3f22c16e4ee71a3",
+  "validation_scope": "static sequence and cross-reference reconciliation only; no source mutation, promotion, Registry, Opening State, compile, runtime, migration execution, or payload validation"
+}

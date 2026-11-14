@@ -1,0 +1,2394 @@
+{
+  "biological_months": 28,
+  "historical_months": 84,
+  "people": {
+    "IBP-001": {
+      "access": 3,
+      "age_months": 448,
+      "audience_knowledge": {
+        "Court": "Known",
+        "Household": "Known"
+      },
+      "availability_state": "AvailableForContact",
+      "available": true,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "administration": 2,
+        "logistics": 3,
+        "mediation": 2
+      },
+      "dynamic_obligation": 0,
+      "evidence": 4,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-HH-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-HH-001",
+        "type": "HouseholdSponsorship"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 2,
+        "logistics": 3,
+        "mediation": 2
+      },
+      "proficiency": {
+        "administration": 2,
+        "logistics": 3,
+        "mediation": 2
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "administration": "ReadyForBoundedService",
+        "logistics": "ReadyForBoundedService",
+        "mediation": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Household",
+        "Court"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-HH-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Household": 0
+      }
+    },
+    "IBP-002": {
+      "access": 4,
+      "age_months": 358,
+      "audience_knowledge": {
+        "Household": "Known"
+      },
+      "availability_state": "UnknownToReceivingAudience",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "AudienceSpecificKnowledge",
+      "domains": {
+        "administration": 3
+      },
+      "dynamic_obligation": 0,
+      "evidence": 0,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-HH-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-HH-001",
+        "type": "HouseholdSponsorship"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 2,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {
+          "administration": 2
+        },
+        "Child": {}
+      },
+      "formation_receipts": [
+        {
+          "access_type": "HouseholdSponsorship",
+          "creates_adult_competence": true,
+          "domain": "administration",
+          "outcome": "Mixed",
+          "proficiency_gain": 1,
+          "provider_slot": "SUP-HH-STEWARD:2:1",
+          "source": "SRC-IB-HH-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-HH-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-HH-STEWARD",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 2,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "HouseholdSponsorship",
+          "creates_adult_competence": true,
+          "domain": "administration",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-HH-STEWARD:3:1",
+          "source": "SRC-IB-HH-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-HH-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-HH-STEWARD",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 3,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "adult_receipts": 2,
+          "creates_adult_competence": true,
+          "creates_discoverability": false,
+          "new_layer": "L2_LightweightPerson",
+          "primary_domain": "administration",
+          "proficiency": {
+            "administration": 3
+          },
+          "stage": "Adult",
+          "turn": 3,
+          "type": "AdultReadinessQualification"
+        }
+      ],
+      "last_formation_turn": 3,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 3
+      },
+      "proficiency": {
+        "administration": 3
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "administration": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [
+        {
+          "audience": "Household",
+          "channel_id": "REC-HH",
+          "person_id": "IBP-002",
+          "recommender_ref": "SUP-HH-IBP003",
+          "result": "Known",
+          "trust": "HouseholdValidated",
+          "turn": 4
+        }
+      ],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Household"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-HH-001",
+      "travel_turns_by_route": {
+        "Household": 0
+      }
+    },
+    "IBP-003": {
+      "access": 5,
+      "age_months": 532,
+      "audience_knowledge": {
+        "Court": "Known",
+        "Household": "Known"
+      },
+      "availability_state": "Mandated",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "logistics": 2,
+        "security": 5
+      },
+      "dynamic_obligation": 3,
+      "evidence": 2,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-HH-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-HH-001",
+        "type": "HouseholdSponsorship"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L3_ActiveCharacter",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 1,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "logistics": 2,
+        "security": 5
+      },
+      "proficiency": {
+        "logistics": 2,
+        "security": 5
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "logistics": "ReadyForBoundedService",
+        "security": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Household",
+        "Court"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-HH-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Household": 0
+      }
+    },
+    "IBP-004": {
+      "access": 2,
+      "age_months": 172,
+      "audience_knowledge": {},
+      "availability_state": "Unavailable",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Dependent",
+      "discoverability": "SourceKnownOnly",
+      "domains": {
+        "administration": 0
+      },
+      "dynamic_obligation": 0,
+      "evidence": 0,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-HH-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-HH-001",
+        "type": "HouseholdSponsorship"
+      },
+      "formation_by_stage": {
+        "Adolescent": 2,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {
+          "administration": 2
+        },
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [
+        {
+          "access_type": "HouseholdSponsorship",
+          "creates_adult_competence": false,
+          "domain": "administration",
+          "outcome": "Successful",
+          "proficiency_gain": 1,
+          "provider_slot": "SUP-HH-STEWARD:1:1",
+          "source": "SRC-IB-HH-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-HH-001",
+          "stage": "Adolescent",
+          "supervisor_id": "SUP-HH-STEWARD",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 1,
+          "type": "SupervisedAdolescentFormation"
+        },
+        {
+          "access_type": "HouseholdSponsorship",
+          "creates_adult_competence": false,
+          "domain": "administration",
+          "outcome": "Mixed",
+          "proficiency_gain": 1,
+          "provider_slot": "SUP-HH-STEWARD:4:1",
+          "source": "SRC-IB-HH-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-HH-001",
+          "stage": "Adolescent",
+          "supervisor_id": "SUP-HH-STEWARD",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 4,
+          "type": "SupervisedAdolescentFormation"
+        }
+      ],
+      "last_formation_turn": 4,
+      "layer": "L1_LatentPerson",
+      "life": "Living",
+      "life_stage": "Adolescent",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 1
+      },
+      "proficiency": {
+        "administration": 1
+      },
+      "readiness": "AgeRestricted",
+      "readiness_by_domain": {
+        "administration": "SupervisedOnly"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Household"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-HH-001",
+      "travel_turns_by_route": {
+        "Household": 0
+      }
+    },
+    "IBP-005": {
+      "access": 3,
+      "age_months": 448,
+      "audience_knowledge": {
+        "Court": "Known",
+        "Institution": "Known"
+      },
+      "availability_state": "AvailableForContact",
+      "available": true,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "administration": 5,
+        "logistics": 1,
+        "mediation": 1
+      },
+      "dynamic_obligation": 0,
+      "evidence": 5,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-CT-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-CT-001",
+        "type": "ServiceAssignment"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 5,
+        "logistics": 1,
+        "mediation": 1
+      },
+      "proficiency": {
+        "administration": 5,
+        "logistics": 1,
+        "mediation": 1
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "administration": "ReadyForBoundedService",
+        "logistics": "ReadyForBoundedService",
+        "mediation": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Court",
+        "Institution"
+      ],
+      "service_obligations": [
+        {
+          "active": true,
+          "compatible_needs": [],
+          "id": "CourtArchiveDuty"
+        }
+      ],
+      "source": "SRC-IB-CT-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Institution": 0
+      }
+    },
+    "IBP-006": {
+      "access": 4,
+      "age_months": 394,
+      "audience_knowledge": {
+        "Court": "Known",
+        "CrossRealm": "Known"
+      },
+      "availability_state": "Mandated",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "administration": 3,
+        "diplomacy": 5
+      },
+      "dynamic_obligation": 3,
+      "evidence": 2,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-CT-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-CT-001",
+        "type": "ServiceAssignment"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L3_ActiveCharacter",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 1,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 3,
+        "diplomacy": 5
+      },
+      "proficiency": {
+        "administration": 3,
+        "diplomacy": 5
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "administration": "ReadyForBoundedService",
+        "diplomacy": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Court",
+        "CrossRealm"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-CT-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "CrossRealm": 0
+      }
+    },
+    "IBP-007": {
+      "access": 5,
+      "age_months": 610,
+      "audience_knowledge": {
+        "Court": "Known"
+      },
+      "availability_state": "UnknownToReceivingAudience",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "AudienceSpecificKnowledge",
+      "domains": {
+        "administration": 2
+      },
+      "dynamic_obligation": 0,
+      "evidence": 1,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-CT-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-CT-001",
+        "type": "ServiceAssignment"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 2,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {
+          "administration": 2
+        },
+        "Child": {}
+      },
+      "formation_receipts": [
+        {
+          "access_type": "ServiceAssignment",
+          "creates_adult_competence": false,
+          "domain": "administration",
+          "outcome": "Failed",
+          "proficiency_gain": 0,
+          "provider_slot": "SUP-CT-IBP006:1:1",
+          "source": "SRC-IB-CT-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-CT-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-CT-IBP006",
+          "supervisor_kind": "PersonBacked",
+          "turn": 1,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "ServiceAssignment",
+          "creates_adult_competence": true,
+          "domain": "administration",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-CT-CHAN:2:1",
+          "source": "SRC-IB-CT-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-CT-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-CT-CHAN",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 2,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "adult_receipts": 2,
+          "creates_adult_competence": true,
+          "creates_discoverability": false,
+          "new_layer": "L2_LightweightPerson",
+          "primary_domain": "administration",
+          "proficiency": {
+            "administration": 2
+          },
+          "stage": "Adult",
+          "turn": 2,
+          "type": "AdultReadinessQualification"
+        }
+      ],
+      "last_formation_turn": 2,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 3
+      },
+      "proficiency": {
+        "administration": 2
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "administration": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [
+        {
+          "audience": "Court",
+          "channel_id": "REC-CT",
+          "person_id": "IBP-007",
+          "recommender_ref": "SUP-CT-CHAN",
+          "result": "Known",
+          "trust": "OfficeValidated",
+          "turn": 2
+        }
+      ],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Court",
+        "Institution"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-CT-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Institution": 0
+      }
+    },
+    "IBP-008": {
+      "access": 2,
+      "age_months": 472,
+      "audience_knowledge": {},
+      "availability_state": "Unavailable",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "SourceKnownOnly",
+      "domains": {
+        "administration": 0
+      },
+      "dynamic_obligation": 0,
+      "evidence": 0,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-CT-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-CT-001",
+        "type": "ServiceAssignment"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L1_LatentPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 1
+      },
+      "proficiency": {
+        "administration": 0
+      },
+      "readiness": "Developing",
+      "readiness_by_domain": {
+        "administration": "NotReady"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Court"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-CT-001",
+      "travel_turns_by_route": {
+        "Court": 0
+      }
+    },
+    "IBP-009": {
+      "access": 3,
+      "age_months": 514,
+      "audience_knowledge": {
+        "Institution": "Known"
+      },
+      "availability_state": "AvailableForContact",
+      "available": true,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "law": 4,
+        "mediation": 5
+      },
+      "dynamic_obligation": 0,
+      "evidence": 2,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-IN-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+        "type": "InstitutionalAdmission"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "law": 4,
+        "mediation": 5
+      },
+      "proficiency": {
+        "law": 4,
+        "mediation": 5
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "law": "ReadyForBoundedService",
+        "mediation": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Institution"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-IN-001",
+      "travel_turns_by_route": {
+        "Institution": 0
+      }
+    },
+    "IBP-010": {
+      "access": 4,
+      "age_months": 298,
+      "audience_knowledge": {
+        "Institution": "Known"
+      },
+      "availability_state": "UnknownToReceivingAudience",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "AudienceSpecificKnowledge",
+      "domains": {
+        "administration": 2,
+        "care": 0
+      },
+      "dynamic_obligation": 0,
+      "evidence": 2,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-IN-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+        "type": "InstitutionalAdmission"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 2,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {
+          "administration": 2
+        },
+        "Child": {}
+      },
+      "formation_receipts": [
+        {
+          "access_type": "InstitutionalAdmission",
+          "creates_adult_competence": true,
+          "domain": "administration",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-IN-SCHOOL:1:2",
+          "source": "SRC-IB-IN-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-IN-SCHOOL",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 1,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "InstitutionalAdmission",
+          "creates_adult_competence": true,
+          "domain": "administration",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-IN-SCHOOL:2:2",
+          "source": "SRC-IB-IN-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-IN-SCHOOL",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 2,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "adult_receipts": 2,
+          "creates_adult_competence": true,
+          "creates_discoverability": false,
+          "new_layer": "L2_LightweightPerson",
+          "primary_domain": "administration",
+          "proficiency": {
+            "administration": 2,
+            "care": 0
+          },
+          "stage": "Adult",
+          "turn": 2,
+          "type": "AdultReadinessQualification"
+        }
+      ],
+      "last_formation_turn": 2,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 2,
+        "care": 2
+      },
+      "proficiency": {
+        "administration": 2,
+        "care": 0
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "administration": "ReadyForBoundedService",
+        "care": "NotReady"
+      },
+      "recognition_receipts": [
+        {
+          "audience": "Institution",
+          "channel_id": "REC-IN",
+          "person_id": "IBP-010",
+          "recommender_ref": "SUP-IN-SCHOOL",
+          "result": "Known",
+          "trust": "InstitutionValidated",
+          "turn": 4
+        }
+      ],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Institution"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-IN-001",
+      "travel_turns_by_route": {
+        "Institution": 0
+      }
+    },
+    "IBP-011": {
+      "access": 5,
+      "age_months": 586,
+      "audience_knowledge": {
+        "Institution": "Known",
+        "Urban": "Known"
+      },
+      "availability_state": "AvailableForContact",
+      "available": true,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "diplomacy": 3,
+        "law": 3,
+        "mediation": 3
+      },
+      "dynamic_obligation": 0,
+      "evidence": 5,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-IN-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+        "type": "InstitutionalAdmission"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "diplomacy": 3,
+        "law": 3,
+        "mediation": 3
+      },
+      "proficiency": {
+        "diplomacy": 3,
+        "law": 3,
+        "mediation": 3
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "diplomacy": "ReadyForBoundedService",
+        "law": "ReadyForBoundedService",
+        "mediation": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Institution",
+        "Urban"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-IN-001",
+      "travel_turns_by_route": {
+        "Institution": 0,
+        "Urban": 0
+      }
+    },
+    "IBP-012": {
+      "access": 2,
+      "age_months": 742,
+      "audience_knowledge": {},
+      "availability_state": "UnknownToReceivingAudience",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "SourceKnownOnly",
+      "domains": {
+        "administration": 2
+      },
+      "dynamic_obligation": 0,
+      "evidence": 0,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-IN-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+        "type": "InstitutionalAdmission"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 3,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {
+          "administration": 3
+        },
+        "Child": {}
+      },
+      "formation_receipts": [
+        {
+          "access_type": "InstitutionalAdmission",
+          "creates_adult_competence": true,
+          "domain": "administration",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-IN-SCHOOL:1:1",
+          "source": "SRC-IB-IN-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-IN-SCHOOL",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 1,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "InstitutionalAdmission",
+          "creates_adult_competence": true,
+          "domain": "administration",
+          "outcome": "Mixed",
+          "proficiency_gain": 1,
+          "provider_slot": "SUP-IN-SCHOOL:2:1",
+          "source": "SRC-IB-IN-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-IN-SCHOOL",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 2,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "InstitutionalAdmission",
+          "creates_adult_competence": true,
+          "domain": "administration",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-IN-SCHOOL:3:1",
+          "source": "SRC-IB-IN-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-IN-SCHOOL",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 3,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "adult_receipts": 3,
+          "creates_adult_competence": true,
+          "creates_discoverability": false,
+          "new_layer": "L2_LightweightPerson",
+          "primary_domain": "administration",
+          "proficiency": {
+            "administration": 2
+          },
+          "stage": "Adult",
+          "turn": 3,
+          "type": "AdultReadinessQualification"
+        }
+      ],
+      "last_formation_turn": 3,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 2
+      },
+      "proficiency": {
+        "administration": 2
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "administration": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Institution"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-IN-001",
+      "travel_turns_by_route": {
+        "Institution": 0
+      }
+    },
+    "IBP-013": {
+      "access": 3,
+      "age_months": 436,
+      "audience_knowledge": {
+        "Court": "Known",
+        "Urban": "Known"
+      },
+      "availability_state": "AvailableForContact",
+      "available": true,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "administration": 1,
+        "logistics": 5
+      },
+      "dynamic_obligation": 0,
+      "evidence": 3,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-UR-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-UR-001",
+        "type": "Apprenticeship"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 1,
+        "logistics": 5
+      },
+      "proficiency": {
+        "administration": 1,
+        "logistics": 5
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "administration": "ReadyForBoundedService",
+        "logistics": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Court",
+        "Urban"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-UR-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Urban": 0
+      }
+    },
+    "IBP-014": {
+      "access": 4,
+      "age_months": 382,
+      "audience_knowledge": {
+        "Court": "Known",
+        "Urban": "Known"
+      },
+      "availability_state": "AvailableForContact",
+      "available": true,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "administration": 3,
+        "logistics": 3
+      },
+      "dynamic_obligation": 0,
+      "evidence": 5,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-UR-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-UR-001",
+        "type": "Apprenticeship"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "administration": 3,
+        "logistics": 3
+      },
+      "proficiency": {
+        "administration": 3,
+        "logistics": 3
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "administration": "ReadyForBoundedService",
+        "logistics": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Urban",
+        "Court"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-UR-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Urban": 0
+      }
+    },
+    "IBP-015": {
+      "access": 5,
+      "age_months": 646,
+      "audience_knowledge": {
+        "Urban": "Known"
+      },
+      "availability_state": "UnknownToReceivingAudience",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "AudienceSpecificKnowledge",
+      "domains": {
+        "diplomacy": 0,
+        "logistics": 3
+      },
+      "dynamic_obligation": 0,
+      "evidence": 0,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-UR-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-UR-001",
+        "type": "Apprenticeship"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 3,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {
+          "logistics": 3
+        },
+        "Child": {}
+      },
+      "formation_receipts": [
+        {
+          "access_type": "Apprenticeship",
+          "creates_adult_competence": true,
+          "domain": "logistics",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-UR-GUILD:1:2",
+          "source": "SRC-IB-UR-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-UR-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-UR-GUILD",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 1,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "Apprenticeship",
+          "creates_adult_competence": true,
+          "domain": "logistics",
+          "outcome": "Mixed",
+          "proficiency_gain": 1,
+          "provider_slot": "SUP-UR-GUILD:2:1",
+          "source": "SRC-IB-UR-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-UR-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-UR-GUILD",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 2,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "Apprenticeship",
+          "creates_adult_competence": true,
+          "domain": "logistics",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-UR-GUILD:3:1",
+          "source": "SRC-IB-UR-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-UR-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-UR-GUILD",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 3,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "adult_receipts": 3,
+          "creates_adult_competence": true,
+          "creates_discoverability": false,
+          "new_layer": "L2_LightweightPerson",
+          "primary_domain": "logistics",
+          "proficiency": {
+            "diplomacy": 0,
+            "logistics": 3
+          },
+          "stage": "Adult",
+          "turn": 3,
+          "type": "AdultReadinessQualification"
+        }
+      ],
+      "last_formation_turn": 3,
+      "layer": "L2_LightweightPerson",
+      "life": "Exited",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "diplomacy": 2,
+        "logistics": 3
+      },
+      "proficiency": {
+        "diplomacy": 0,
+        "logistics": 3
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "diplomacy": "NotReady",
+        "logistics": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [
+        {
+          "audience": "Urban",
+          "channel_id": "REC-UR",
+          "person_id": "IBP-015",
+          "recommender_ref": "SUP-UR-GUILD",
+          "result": "Known",
+          "trust": "GuildValidated",
+          "turn": 3
+        }
+      ],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Urban"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-UR-001",
+      "travel_turns_by_route": {
+        "Urban": 0
+      }
+    },
+    "IBP-016": {
+      "access": 2,
+      "age_months": 322,
+      "audience_knowledge": {
+        "Urban": "Known"
+      },
+      "availability_state": "UnknownToReceivingAudience",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "AudienceSpecificKnowledge",
+      "domains": {
+        "logistics": 2
+      },
+      "dynamic_obligation": 0,
+      "evidence": 0,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-UR-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-UR-001",
+        "type": "Apprenticeship"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 2,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {
+          "logistics": 2
+        },
+        "Child": {}
+      },
+      "formation_receipts": [
+        {
+          "access_type": "Apprenticeship",
+          "creates_adult_competence": true,
+          "domain": "logistics",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-UR-GUILD:1:1",
+          "source": "SRC-IB-UR-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-UR-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-UR-GUILD",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 1,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "Apprenticeship",
+          "creates_adult_competence": true,
+          "domain": "logistics",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-UR-GUILD:2:2",
+          "source": "SRC-IB-UR-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-UR-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-UR-GUILD",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 2,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "adult_receipts": 2,
+          "creates_adult_competence": true,
+          "creates_discoverability": false,
+          "new_layer": "L2_LightweightPerson",
+          "primary_domain": "logistics",
+          "proficiency": {
+            "logistics": 2
+          },
+          "stage": "Adult",
+          "turn": 2,
+          "type": "AdultReadinessQualification"
+        }
+      ],
+      "last_formation_turn": 2,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "logistics": 2
+      },
+      "proficiency": {
+        "logistics": 2
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "logistics": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [
+        {
+          "audience": "Urban",
+          "channel_id": "REC-UR",
+          "person_id": "IBP-016",
+          "recommender_ref": "SUP-UR-GUILD",
+          "result": "Known",
+          "trust": "GuildValidated",
+          "turn": 3
+        }
+      ],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Urban"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-UR-001",
+      "travel_turns_by_route": {
+        "Urban": 0
+      }
+    },
+    "IBP-017": {
+      "access": 3,
+      "age_months": 484,
+      "audience_knowledge": {
+        "Court": "Known",
+        "Frontier": "Known"
+      },
+      "availability_state": "Mandated",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "logistics": 5,
+        "security": 2
+      },
+      "dynamic_obligation": 3,
+      "evidence": 5,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-MI-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-MI-001",
+        "type": "RetinueAssignment"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L3_ActiveCharacter",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 1,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "logistics": 5,
+        "security": 2
+      },
+      "proficiency": {
+        "logistics": 5,
+        "security": 2
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "logistics": "ReadyForBoundedService",
+        "security": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-MI-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Frontier": 0
+      }
+    },
+    "IBP-018": {
+      "access": 4,
+      "age_months": 412,
+      "audience_knowledge": {
+        "Court": "Known",
+        "Frontier": "Known"
+      },
+      "availability_state": "AvailableForContact",
+      "available": true,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "frontier_reporting": 5,
+        "logistics": 2
+      },
+      "dynamic_obligation": 0,
+      "evidence": 3,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-MI-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-MI-001",
+        "type": "RetinueAssignment"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "frontier_reporting": 5,
+        "logistics": 2
+      },
+      "proficiency": {
+        "frontier_reporting": 5,
+        "logistics": 2
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "frontier_reporting": "ReadyForBoundedService",
+        "logistics": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "service_obligations": [
+        {
+          "active": true,
+          "compatible_needs": [
+            "FrontierReporting"
+          ],
+          "id": "ExistingScoutDuty"
+        }
+      ],
+      "source": "SRC-IB-MI-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Frontier": 0
+      }
+    },
+    "IBP-019": {
+      "access": 5,
+      "age_months": 562,
+      "audience_knowledge": {},
+      "availability_state": "Unavailable",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "SourceKnownOnly",
+      "domains": {
+        "security": 0
+      },
+      "dynamic_obligation": 0,
+      "evidence": 0,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-MI-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-MI-001",
+        "type": "RetinueAssignment"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 4,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {
+          "security": 4
+        },
+        "Child": {}
+      },
+      "formation_receipts": [
+        {
+          "access_type": "RetinueAssignment",
+          "creates_adult_competence": true,
+          "domain": "security",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-MI-IBP017:1:1",
+          "source": "SRC-IB-MI-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-MI-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-MI-IBP017",
+          "supervisor_kind": "PersonBacked",
+          "turn": 1,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "RetinueAssignment",
+          "creates_adult_competence": true,
+          "domain": "security",
+          "outcome": "Mixed",
+          "proficiency_gain": 1,
+          "provider_slot": "SUP-MI-IBP017:2:1",
+          "source": "SRC-IB-MI-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-MI-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-MI-IBP017",
+          "supervisor_kind": "PersonBacked",
+          "turn": 2,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "RetinueAssignment",
+          "creates_adult_competence": false,
+          "domain": "security",
+          "outcome": "Failed",
+          "proficiency_gain": 0,
+          "provider_slot": "SUP-MI-IBP017:3:1",
+          "source": "SRC-IB-MI-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-MI-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-MI-IBP017",
+          "supervisor_kind": "PersonBacked",
+          "turn": 3,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "RetinueAssignment",
+          "creates_adult_competence": true,
+          "domain": "security",
+          "outcome": "Mixed",
+          "proficiency_gain": 1,
+          "provider_slot": "SUP-MI-IBP017:4:1",
+          "source": "SRC-IB-MI-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-MI-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-MI-IBP017",
+          "supervisor_kind": "PersonBacked",
+          "turn": 4,
+          "type": "SupervisedAdultFormation"
+        }
+      ],
+      "last_formation_turn": 4,
+      "layer": "L1_LatentPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "security": 2
+      },
+      "proficiency": {
+        "security": 2
+      },
+      "readiness": "Developing",
+      "readiness_by_domain": {
+        "security": "SupervisedOnly"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Frontier"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-MI-001",
+      "travel_turns_by_route": {
+        "Frontier": 0
+      }
+    },
+    "IBP-020": {
+      "access": 2,
+      "age_months": 346,
+      "audience_knowledge": {
+        "Court": "Known",
+        "Frontier": "Known"
+      },
+      "availability_state": "AvailableForContact",
+      "available": true,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "logistics": 3,
+        "mediation": 2
+      },
+      "dynamic_obligation": 0,
+      "evidence": 7,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-MI-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-MI-001",
+        "type": "RetinueAssignment"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "logistics": 3,
+        "mediation": 2
+      },
+      "proficiency": {
+        "logistics": 3,
+        "mediation": 2
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "logistics": "ReadyForBoundedService",
+        "mediation": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-MI-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Frontier": 0
+      }
+    },
+    "IBP-021": {
+      "access": 3,
+      "age_months": 526,
+      "audience_knowledge": {
+        "Court": "Known",
+        "Frontier": "Known"
+      },
+      "availability_state": "AvailableForContact",
+      "available": true,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "frontier_reporting": 3,
+        "mediation": 4
+      },
+      "dynamic_obligation": 0,
+      "evidence": 3,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-RG-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-RG-001",
+        "type": "PatronRecommendation"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "frontier_reporting": 3,
+        "mediation": 4
+      },
+      "proficiency": {
+        "frontier_reporting": 3,
+        "mediation": 4
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "frontier_reporting": "ReadyForBoundedService",
+        "mediation": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-RG-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Frontier": 0
+      }
+    },
+    "IBP-022": {
+      "access": 4,
+      "age_months": 460,
+      "audience_knowledge": {
+        "Frontier": "Known"
+      },
+      "availability_state": "AvailableForContact",
+      "available": true,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "frontier_reporting": 2,
+        "mediation": 5
+      },
+      "dynamic_obligation": 0,
+      "evidence": 5,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-RG-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-RG-001",
+        "type": "PatronRecommendation"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "frontier_reporting": 2,
+        "mediation": 5
+      },
+      "proficiency": {
+        "frontier_reporting": 2,
+        "mediation": 5
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "frontier_reporting": "ReadyForBoundedService",
+        "mediation": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Frontier"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-RG-001",
+      "travel_turns_by_route": {
+        "Frontier": 0
+      }
+    },
+    "IBP-023": {
+      "access": 5,
+      "age_months": 622,
+      "audience_knowledge": {},
+      "availability_state": "UnknownToReceivingAudience",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "SourceKnownOnly",
+      "domains": {
+        "frontier_reporting": 2
+      },
+      "dynamic_obligation": 0,
+      "evidence": 0,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-RG-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-RG-001",
+        "type": "PatronRecommendation"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 2,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {
+          "frontier_reporting": 2
+        },
+        "Child": {}
+      },
+      "formation_receipts": [
+        {
+          "access_type": "PatronRecommendation",
+          "creates_adult_competence": true,
+          "domain": "frontier_reporting",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-RG-NETWORK:1:1",
+          "source": "SRC-IB-RG-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-RG-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-RG-NETWORK",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 1,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "access_type": "PatronRecommendation",
+          "creates_adult_competence": true,
+          "domain": "frontier_reporting",
+          "outcome": "Successful",
+          "proficiency_gain": 2,
+          "provider_slot": "SUP-RG-NETWORK:2:1",
+          "source": "SRC-IB-RG-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-RG-001",
+          "stage": "Adult",
+          "supervisor_id": "SUP-RG-NETWORK",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 2,
+          "type": "SupervisedAdultFormation"
+        },
+        {
+          "adult_receipts": 2,
+          "creates_adult_competence": true,
+          "creates_discoverability": false,
+          "new_layer": "L2_LightweightPerson",
+          "primary_domain": "frontier_reporting",
+          "proficiency": {
+            "frontier_reporting": 2
+          },
+          "stage": "Adult",
+          "turn": 2,
+          "type": "AdultReadinessQualification"
+        }
+      ],
+      "last_formation_turn": 2,
+      "layer": "L2_LightweightPerson",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "frontier_reporting": 2
+      },
+      "proficiency": {
+        "frontier_reporting": 2
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "frontier_reporting": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 2,
+      "routes": [
+        "Frontier"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-RG-001",
+      "travel_turns_by_route": {
+        "Frontier": 0
+      }
+    },
+    "IBP-024": {
+      "access": 2,
+      "age_months": 424,
+      "audience_knowledge": {
+        "Court": "Known",
+        "Frontier": "Known"
+      },
+      "availability_state": "Mandated",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Independent",
+      "discoverability": "KnownByEligibleRoute",
+      "domains": {
+        "logistics": 3,
+        "mediation": 4
+      },
+      "dynamic_obligation": 3,
+      "evidence": 6,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-RG-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-RG-001",
+        "type": "PatronRecommendation"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 0
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {}
+      },
+      "formation_receipts": [],
+      "last_formation_turn": null,
+      "layer": "L3_ActiveCharacter",
+      "life": "Living",
+      "life_stage": "Adult",
+      "mandates": 1,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Opening",
+      "potential_domains": {
+        "logistics": 3,
+        "mediation": 4
+      },
+      "proficiency": {
+        "logistics": 3,
+        "mediation": 4
+      },
+      "readiness": "CareerReady",
+      "readiness_by_domain": {
+        "logistics": "ReadyForBoundedService",
+        "mediation": "ReadyForBoundedService"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Frontier",
+        "Court"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-RG-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Frontier": 0
+      }
+    },
+    "IBP-025": {
+      "access": 2,
+      "age_months": 28,
+      "audience_knowledge": {},
+      "availability_state": "Unavailable",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Dependent",
+      "discoverability": "SourceKnownOnly",
+      "domains": {
+        "frontier_reporting": 0,
+        "mediation": 0
+      },
+      "dynamic_obligation": 0,
+      "evidence": 0,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-RG-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-RG-001",
+        "type": "PatronRecommendation"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 1
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {
+          "mediation": 1
+        }
+      },
+      "formation_receipts": [
+        {
+          "access_type": "PatronRecommendation",
+          "creates_adult_competence": false,
+          "domain": "mediation",
+          "outcome": "Successful",
+          "proficiency_gain": 1,
+          "provider_slot": "SUP-RG-IBP024:3:1",
+          "source": "SRC-IB-RG-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-RG-001",
+          "stage": "Child",
+          "supervisor_id": "SUP-RG-IBP024",
+          "supervisor_kind": "PersonBacked",
+          "turn": 3,
+          "type": "SupervisedChildFormation"
+        }
+      ],
+      "id": "IBP-025",
+      "last_formation_turn": 3,
+      "layer": "L1_LatentPerson",
+      "life": "Living",
+      "life_stage": "Child",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Materialized",
+      "potential_domains": {
+        "frontier_reporting": 3,
+        "mediation": 3
+      },
+      "proficiency": {
+        "frontier_reporting": 0,
+        "mediation": 1
+      },
+      "readiness": "AgeRestricted",
+      "readiness_by_domain": {
+        "frontier_reporting": "NotReady",
+        "mediation": "SupervisedOnly"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Frontier"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-RG-001",
+      "travel_turns_by_route": {
+        "Frontier": 0
+      }
+    },
+    "IBP-026": {
+      "access": 2,
+      "age_months": 28,
+      "audience_knowledge": {},
+      "availability_state": "Unavailable",
+      "available": false,
+      "consent_profile": "Conditional",
+      "consent_receipts": [],
+      "contact_receipts": [],
+      "dependency": "Dependent",
+      "discoverability": "SourceKnownOnly",
+      "domains": {
+        "law": 0,
+        "mediation": 0
+      },
+      "dynamic_obligation": 0,
+      "evidence": 0,
+      "formation_access": {
+        "admitted": true,
+        "source": "SRC-IB-IN-001",
+        "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+        "type": "InstitutionalAdmission"
+      },
+      "formation_by_stage": {
+        "Adolescent": 0,
+        "Adult": 0,
+        "Child": 1
+      },
+      "formation_domains_by_stage": {
+        "Adolescent": {},
+        "Adult": {},
+        "Child": {
+          "mediation": 1
+        }
+      },
+      "formation_receipts": [
+        {
+          "access_type": "InstitutionalAdmission",
+          "creates_adult_competence": false,
+          "domain": "mediation",
+          "outcome": "Mixed",
+          "proficiency_gain": 1,
+          "provider_slot": "SUP-IN-SCHOOL:4:1",
+          "source": "SRC-IB-IN-001",
+          "sponsor_ref": "SPONSOR-SRC-IB-IN-001",
+          "stage": "Child",
+          "supervisor_id": "SUP-IN-SCHOOL",
+          "supervisor_kind": "InstitutionBacked",
+          "turn": 4,
+          "type": "SupervisedChildFormation"
+        }
+      ],
+      "id": "IBP-026",
+      "last_formation_turn": 4,
+      "layer": "L1_LatentPerson",
+      "life": "Living",
+      "life_stage": "Child",
+      "mandates": 0,
+      "max_mandates": 1,
+      "obligation": 1,
+      "origin": "Materialized",
+      "potential_domains": {
+        "law": 3,
+        "mediation": 3
+      },
+      "proficiency": {
+        "law": 0,
+        "mediation": 1
+      },
+      "readiness": "AgeRestricted",
+      "readiness_by_domain": {
+        "law": "NotReady",
+        "mediation": "SupervisedOnly"
+      },
+      "recognition_receipts": [],
+      "release_receipts": [],
+      "risk": 1,
+      "routes": [
+        "Institution",
+        "Court"
+      ],
+      "service_obligations": [],
+      "source": "SRC-IB-IN-001",
+      "travel_turns_by_route": {
+        "Court": 0,
+        "Institution": 0
+      }
+    }
+  },
+  "season_index": 0,
+  "seeds": {
+    "IBS-001": "Deferred",
+    "IBS-002": "Deferred",
+    "IBS-003": "Deferred",
+    "IBS-004": "Deferred",
+    "IBS-005": "Deferred",
+    "IBS-006": "Materialized:IBP-026",
+    "IBS-007": "Deferred",
+    "IBS-008": "Deferred",
+    "IBS-009": "Deferred",
+    "IBS-010": "Deferred",
+    "IBS-011": "Deferred",
+    "IBS-012": "Materialized:IBP-025"
+  },
+  "sources": {
+    "SRC-IB-CT-001": {
+      "remaining": 46
+    },
+    "SRC-IB-HH-001": {
+      "remaining": 12
+    },
+    "SRC-IB-IN-001": {
+      "remaining": 29
+    },
+    "SRC-IB-MI-001": {
+      "remaining": 36
+    },
+    "SRC-IB-RG-001": {
+      "remaining": 67
+    },
+    "SRC-IB-UR-001": {
+      "remaining": 82
+    }
+  },
+  "turn": 4
+}

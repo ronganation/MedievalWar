@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Character_Authority_Sequence_Closure_V1.md",
+  "checks": {
+    "all_expected_ids": true,
+    "tadc_lightweight": true,
+    "tadg_tadc_lock": true,
+    "authority_controls": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_source_mutation": true,
+    "next_source": true,
+    "no_escaped_underscores": true,
+    "all_pass": true
+  }
+}

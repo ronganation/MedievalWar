@@ -1,0 +1,79 @@
+{
+  "profile_id": "validation.campaign_theater.owner_receipt_intake.v1",
+  "version": "1.0.0",
+  "rules": [
+    {
+      "code": "CTORI-001",
+      "severity": "Fatal",
+      "scope": "receipt",
+      "path": "$.receipt.request_id",
+      "operator": "member_of_request_set",
+      "expected": [
+        "request.campaign_theater.registry_disposition.v1",
+        "request.campaign_theater.definition_owner.v1",
+        "request.campaign_theater.association_owner.v1",
+        "request.campaign_theater.scenario_binding_owner.v1",
+        "request.campaign_theater.primary_uniqueness_validator.v1",
+        "request.campaign_theater.direct_migration.v1",
+        "request.campaign_theater.evidence_boundary.v1"
+      ]
+    },
+    {
+      "code": "CTORI-002",
+      "severity": "Fatal",
+      "scope": "pending_intake",
+      "path": "$.receipt",
+      "operator": "all_receipt_fields_empty_when_not_submitted",
+      "expected": true
+    },
+    {
+      "code": "CTORI-003",
+      "severity": "Fatal",
+      "scope": "validated_receipt",
+      "path": "$.receipt",
+      "operator": "required_receipt_fields_complete",
+      "expected": true
+    },
+    {
+      "code": "CTORI-004",
+      "severity": "Fatal",
+      "scope": "validated_receipt",
+      "path": "$.receipt.response_status",
+      "operator": "matches_disposition",
+      "expected": true
+    },
+    {
+      "code": "CTORI-005",
+      "severity": "Fatal",
+      "scope": "authorization",
+      "path": "$.authorization.*",
+      "operator": "all_equal",
+      "expected": false
+    },
+    {
+      "code": "CTORI-006",
+      "severity": "Fatal",
+      "scope": "promotion",
+      "path": "$.intake_state.blocked_index_promotion_authorized",
+      "operator": "equals",
+      "expected": false
+    },
+    {
+      "code": "CTORI-007",
+      "severity": "Fatal",
+      "scope": "ledger_update",
+      "path": "$.intake_state.ledger_update_authorized",
+      "operator": "true_only_after_receipt_validation",
+      "expected": true
+    },
+    {
+      "code": "CTORI-008",
+      "severity": "Fatal",
+      "scope": "submitted_unvalidated",
+      "path": "$.intake_state",
+      "operator": "submitted_unvalidated_state_closed",
+      "expected": true,
+      "description": "A submitted but unvalidated receipt must use RECEIPT_SUBMITTED_UNVALIDATED, keep ledger update false, and keep blocked-index promotion false."
+    }
+  ]
+}

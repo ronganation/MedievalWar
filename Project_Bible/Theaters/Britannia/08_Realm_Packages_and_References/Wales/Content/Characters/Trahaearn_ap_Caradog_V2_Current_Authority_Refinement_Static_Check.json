@@ -1,0 +1,32 @@
+{
+  "document_id": "StaticCheck.CharacterProfile.Wales.TrahaearnApCaradog.V2",
+  "version": "2.0.0",
+  "source": "Trahaearn_ap_Caradog.md",
+  "successor": "Trahaearn_ap_Caradog_V2_Current_Authority_Refinement.md",
+  "source_bytes": 48230,
+  "source_physical_lines": 1343,
+  "source_sha256": "9c983c6b4e8b4c64fce9ada583434fa3f106f5df17176a79346a3a606773a86d",
+  "successor_bytes": 74277,
+  "successor_physical_lines": 2065,
+  "successor_sha256": "a10224e64eb0197a9d124d775db41911ba14465a48b0cc9b992e93516a1de02c",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "current_metadata": true,
+    "canonical_person_id": true,
+    "dormant_default": true,
+    "restricted_active_gated": true,
+    "Arwystli_separation": true,
+    "Mathrafal_unresolved": true,
+    "network_zero_edges": true,
+    "underage_rivalry_firewall": true,
+    "three_track_temporal": true,
+    "later_history_firewall": true,
+    "honest_validation": true,
+    "authorizations_false": true,
+    "no_escaped_underscores_in_v2": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

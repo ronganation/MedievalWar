@@ -1,0 +1,20 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "edges_36": true,
+    "unique_edge_headers": true,
+    "three_tracks": true,
+    "reference_envelope": true,
+    "blocked_edges_3": true,
+    "no_implementation": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "a21685ebe73487d764da33a65ce9a6569cff5fdcfe74ebb759169be5ce1166c9",
+  "Bytes": 25445,
+  "Lines": 907,
+  "Scope": "Static cross-batch owner and reference-map checks only"
+}

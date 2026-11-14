@@ -1,0 +1,39 @@
+﻿{
+    "TaskId":  "OS-REAL-02W",
+    "Status":  "FOR_OWNER_REVIEW",
+    "Disposition":  "ACCEPT_NORWAY_FIRST_IMPLEMENTATION_AS_REUSABLE_REVIEW_ONLY_BASELINE",
+    "ProductionComplete":  false,
+    "AdaptableStandardReady":  true,
+    "SourceRecords":  62,
+    "RecordFamilies":  14,
+    "RequiredCandidates":  55,
+    "OptionalCandidates":  7,
+    "ProjectedCharacters":  6,
+    "ProjectedTitles":  1,
+    "LastDemonstratedNorwayRegression":  {
+                                             "Passed":  163,
+                                             "Failed":  0,
+                                             "Skipped":  0
+                                         },
+    "DeferredOwnerAdapters":  [
+                                  "Claims",
+                                  "DirectedRelationships",
+                                  "OfficeOccupancy",
+                                  "HistoricalMomentum",
+                                  "CharacterCompletion",
+                                  "TitleCompletion"
+                              ],
+    "MissingControllingSurfaces":  0,
+    "CollectedEvidenceFiles":  7,
+    "MissingExpectedEvidenceFiles":  0,
+    "SourceFilesModified":  0,
+    "CompileRun":  false,
+    "RuntimeRun":  false,
+    "OwnerCommitted":  false,
+    "RuntimeEnvelopeEligible":  false,
+    "ApplyCalled":  false,
+    "SaveWritten":  false,
+    "RegistryMutated":  false,
+    "RealmPayloadApplied":  false,
+    "TheaterActivated":  false
+}

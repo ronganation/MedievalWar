@@ -1,0 +1,623 @@
+report_control:
+  document_id: report.realm.hammadid.batch-10.identity-dependency-owner-external-lock-quarantine-validation.v1
+  stable_document_id: IdentityDependencyOwnerExternalLockQuarantineValidation.Hammadids
+  file_name: Hammadid_Batch_10_Identity_Dependency_Owner_External_Lock_and_Quarantine_Validation_Report_V1.yaml
+  version: 1.0.0
+  revision_date: 2026-09-22
+  document_class:
+    - Batch10IdentityValidationReport
+    - DependencyAndOwnerRoutingReport
+    - ExternalLockAndQuarantineControl
+    - CandidateOnlyRegistryPreflight
+    - ZeroMutationPlanningArtifact
+  constitutional_authority: Project Bible 2.4
+  operational_authority: Design Expansion Checklist 3.7
+  implementation_target: Unreal Engine 5.8
+  controlling_gate: Hammadid_Unreal_Engine_5_8_Batch_10_Candidate_Bundle_Importer_and_Unreal_Authorization_Gate_V1.md
+  candidate_bundle_manifest: Hammadid_Batch_10_Candidate_Bundle_Manifest_and_Record_Family_Inventory_V1.yaml
+  source_manifest_ledger: Hammadid_Batch_10_Source_Authority_Recursive_Manifest_and_SHA256_Ledger_V1.yaml
+  status: StrongPartialIdentityDependencyOwnerLockQuarantineValidationNoCanonicalPromotionNoReleaseNoMutation
+
+scope:
+  realm: Hammadids
+  owning_theater: North Africa
+  scenario_id: mw.scenario.grand_campaign.1062
+  scenario_opening: 1062-01-01
+  opening_campaign_season: Winter
+  preferred_playable_boundary_candidate: post_1062-07-11
+  playable_boundary_status: HeldPendingScenarioOwnerDisposition
+  input_ledgers:
+    - Hammadid_Alias_Ownership_and_Collision_Ledger_V1.yaml
+    - Hammadid_Candidate_to_Canonical_Identity_Mapping_Ledger_V1.yaml
+    - Hammadid_Entity_Kind_and_Owner_Validation_Ledger_V1.yaml
+    - Hammadid_External_Owner_Lock_and_Quarantine_Ledger_V1.yaml
+    - Hammadid_Candidate_Disposition_and_Current_Authority_Stop_Gate_Ledger_V1.yaml
+  canonical_ids_allocated: 0
+  aliases_executed: 0
+  migrations_executed: 0
+  entities_created_or_merged: 0
+  quarantines_released: 0
+  external_receipts_returned: 0
+  opening_bindings_created: 0
+
+strong_validation_verdict:
+  alias_groups_reviewed: 10
+  candidate_mapping_records_reviewed: 14
+  entity_kind_records_reviewed: 14
+  ownership_families_mapped: 14
+  collision_records_reviewed: 12
+  external_lock_records_reviewed: 9
+  quarantine_records_reviewed: 10
+  current_authority_disposition_records_reviewed: 20
+  stop_gate_records_reviewed: 12
+  registry_review_ready_records: 0
+  opening_ready_records: 0
+  owner_receipts_returned: 0
+  stop_gates_open: 0
+  stop_gates_blocked: 12
+  identity_dependency_and_owner_contract: CompleteAtPartialEvidenceLevel
+  canonical_registry_promotion: Prohibited
+  opening_state_activation: Prohibited
+  candidate_bundle_materialization: Blocked
+  verdict: StrongReconciledValidationAllIdentityAndActivationLanesRemainHeld
+
+constitutional_rules:
+  - CandidateReferenceIsNotCanonicalRegistryID
+  - StableDocumentIDIsNotEntityID
+  - DisplayLabelDoesNotGenerateCanonicalID
+  - SearchAliasCannotSerializeAsCanonical
+  - DirectAliasRequiresIdentityProofAndRegistryOwnerApproval
+  - AliasChainsAreProhibited
+  - HistoricalLabelRequiresTemporalScope
+  - TransliterationVariantDoesNotCreateSeparateEntity
+  - SameLabelDoesNotProveSameEntity
+  - EntityKindMustMatchDefinitionOwner
+  - DefinitionOwnerDoesNotOwnOpeningExistence
+  - RegistryOwnerDoesNotOwnHistoricalMeaningOrOpeningExistence
+  - OpeningStateOwnerCannotInventDefinitionEntityKindOrCanonicalID
+  - ExternalPrivateStateRemainsExternallyOwned
+  - SilenceIsNotConsent
+  - QuarantineIsNotRejection
+  - QuarantineReleaseRequiresNamedEvidenceOwnerDecisionValidationAndRollback
+  - SuccessorCandidateDoesNotControlWithoutCopyFirstLineageApproval
+  - PartialEvidenceDoesNotCloseStopGate
+
+identity_summary:
+  mapping_records: 14
+  candidate_only_records: 8
+  external_lock_mapping_records: 2
+  quarantined_or_held_records: 14
+  canonical_mapping_receipts: 0
+  canonical_ids_allocated: 0
+  direct_aliases_approved: 0
+  registry_review_ready_records: 0
+  opening_ready_records: 0
+
+identity_records:
+  HMD_MAP_REALM_001:
+    candidate_ref: cand.realm.hammadid
+    preferred_label: Hammadids
+    entity_kind: Realm
+    kind_state: ConfirmedAtDefinitionLevel
+    canonical_ref: Unallocated
+    canonicalization_state: CandidateOnly
+    definition_owner: Hammadid_Realm_Identity_Historical_Reconciliation_and_Opening_Political_Order_V1.md
+    canonical_owner: RegistryOwner
+    state_owner: OpeningStateOwner
+    collision_refs: [HMD_COLLISION_REALM_DYNASTY, HMD_COLLISION_REALM_LABEL]
+    disposition: HoldPendingRealmDefinitionEntityKindAndRegistryReceipts
+    prohibited_collapses: [Faction, Dynasty, Household, Government, Population]
+
+  HMD_MAP_FACTION_001:
+    candidate_ref: faction.hammadid
+    preferred_label: Hammadid Faction
+    entity_kind: FactionOrPlayableActorPendingProjectTaxonomy
+    kind_state: PendingProjectTaxonomy
+    canonical_ref: UnallocatedOrDeferred
+    definition_owner: RealmDesignAndFactionTaxonomyOwners
+    canonical_owner: RegistryOwner
+    state_owner: OpeningStateAndCampaignRuntimeOwners
+    collision_refs: [HMD_COLLISION_REALM_DYNASTY]
+    external_lock_ref: HMD_LOCK_FACTION_001
+    disposition: HoldPendingFactionTaxonomyAndRealmFactionSeparation
+    prohibited_collapses: [Realm, Dynasty, Government]
+
+  HMD_MAP_DYNASTY_001:
+    candidate_ref: cand.dynasty.hammadid
+    preferred_label: Hammadid Dynasty
+    entity_kind: Dynasty
+    kind_state: ConfirmedAtDefinitionLevel
+    canonical_ref: Unallocated
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    canonical_owner: RegistryOwner
+    state_owner: CharacterDynastyAndOpeningStateOwners
+    collision_refs: [HMD_COLLISION_REALM_DYNASTY]
+    disposition: HoldPendingDefinitionAndRegistryReceipts
+    prohibited_collapses: [Realm, Household, Court, Government]
+
+  HMD_MAP_SCENARIO_001:
+    candidate_ref: cand.scenario.grand_campaign.1062
+    working_ref: mw.scenario.grand_campaign.1062
+    preferred_label: Grand Campaign 1062
+    entity_kind: ScenarioExternalReference
+    kind_state: ExternalOwnerControlled
+    canonical_ref: ExternalOwnerControlled
+    definition_owner: ScenarioOwner
+    canonical_owner: ScenarioRegistryOwner
+    state_owner: ScenarioOwner
+    collision_refs: [HMD_COLLISION_SCENARIO_VARIANT]
+    external_lock_ref: HMD_LOCK_SCENARIO_001
+    disposition: HoldPendingScenarioReferenceHMD_DATE_001AndVariantSeparationReceipts
+    prohibited_collapses: [HammadidRealmVariant, OpeningState]
+
+  HMD_MAP_THEATER_001:
+    candidate_ref: cand.theater.north_africa
+    working_ref: theater.north_africa
+    preferred_label: North Africa
+    entity_kind: TheaterExternalReference
+    kind_state: ExternalOwnerControlled
+    canonical_ref: ExternalOwnerControlled
+    definition_owner: CampaignTheaterOwner
+    canonical_owner: TheaterRegistryOwner
+    state_owner: CampaignTheaterOwner
+    collision_refs: [HMD_COLLISION_THEATER_ASSOCIATION]
+    external_lock_ref: HMD_LOCK_THEATER_001
+    disposition: HoldPendingCanonicalTheaterAndAssociationReceipts
+    prohibited_collapses: [TerritoryOwnership, Allegiance, ForeignPrivateState]
+
+  HMD_MAP_ANNASIR_001:
+    candidate_ref: cand.person.hammadid.al_nasir_ibn_alnas
+    working_ref: character.hammadid.an_nasir_ibn_alnas
+    preferred_label: al-Nasir ibn Alnas
+    entity_kind: Person
+    kind_state: ConfirmedButIdentityArtifactQuarantined
+    canonical_ref: Unallocated
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    profile_owner_candidate: An_Nasir_ibn_Alnas_V1_1_Developed_Character_Profile_Authority.md
+    canonical_owner: CharacterRegistryOwner
+    state_owner: OpeningStateOwner
+    collision_refs: [HMD_COLLISION_ANNASIR_ARTIFACTS, HMD_COLLISION_ANNASIR_REFS]
+    quarantine_refs: [HMD_QUAR_ANNASIR_ARTIFACTS_001, HMD_QUAR_ANNASIR_REFS_001]
+    disposition: PreserveAllArtifactsAndReferencesBlockCanonicalAndOpeningBinding
+    required_receipts:
+      - ThreeArtifactHashHeaderSectionLiteralAndInboundReferenceDisposition
+      - CharacterDefinitionOwnerApproval
+      - SamePersonAndDirectAliasDecision
+      - RegistryCanonicalMappingReceipt
+      - HMD_DATE_001BoundaryDecision
+      - OpeningPresenceOfficeAndCommandReceipt
+    prohibited_collapses: [RulerOffice, GeneralUnit, Dynasty, Household]
+
+  HMD_MAP_BULUGGIN_001:
+    candidate_ref: cand.person.hammadid.buluggin_ibn_muhammad
+    working_ref: character.hammadid.buluggin_ibn_muhammad
+    preferred_label: Buluggin ibn Muhammad
+    entity_kind: Person
+    kind_state: ConfirmedAtDefinitionLevel
+    canonical_ref: Unallocated
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    canonical_owner: CharacterRegistryOwner
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    disposition: HoldPendingSourceBoundaryLifecycleAndMemoryReceipts
+    required_receipts:
+      - CharacterDefinitionOwnerApproval
+      - RegistryCanonicalMappingReceipt
+      - HMD_DATE_001BoundaryDecision
+      - LifecycleAndHistoricalMemoryAdmissionReceipt
+    prohibited_collapses: [MemoryInstance, FormerRulerOffice, WesternArmy]
+
+  HMD_MAP_NAMIRT_001:
+    candidate_ref: cand.person.hammadid.namirt_bint_alnas
+    preferred_label: Namirt bint Alnas
+    entity_kind: Person
+    kind_state: ConfirmedAtDefinitionLevel
+    canonical_ref: Unallocated
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    canonical_owner: CharacterRegistryOwner
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    disposition: HoldPendingRelationshipMemoryAndRegistryReceipts
+    prohibited_collapses: [RevengeCause, RelationshipEdge, MemoryInstance]
+
+  HMD_MAP_MUQATIL_001:
+    candidate_ref: cand.person.hammadid.muqatil_ibn_muhammad
+    preferred_label: Muqatil ibn Muhammad
+    entity_kind: Person
+    kind_state: ConfirmedAtDefinitionLevel
+    canonical_ref: Unallocated
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    canonical_owner: CharacterRegistryOwner
+    state_owner: OpeningStateAndHistoricalMemoryOwners
+    disposition: HoldPendingRelationshipMemoryAndRegistryReceipts
+    prohibited_collapses: [RelationshipEdge, MemoryInstance, Office]
+
+  HMD_MAP_QALAT_001:
+    candidate_ref: cand.place.hammadid.qalat_bani_hammad
+    preferred_label: Qal'at Bani Hammad
+    entity_kind: Place
+    kind_state: ConfirmedAsPlacePendingTypedRuntimeDecomposition
+    canonical_ref: Unallocated
+    definition_owner: Hammadid_Strategic_Geography_Regions_Settlements_Fortresses_Routes_and_Saharan_Interfaces_Authority_V1_1_FULL.md
+    specialist_owner: Hammadid_Qalat_Bani_Hammad_Capital_Court_Fortress_Mosque_and_Urban_Authority_V1.md
+    canonical_owner: GeographyRegistryOwner
+    state_owner: OpeningStateOwner
+    collision_refs: [HMD_COLLISION_QALAT_FUNCTION, HMD_COLLISION_QALA_SHORT]
+    quarantine_refs: [HMD_QUAR_QALA_ALIAS_001, HMD_QUAR_QALAT_KIND_001]
+    external_lock_ref: HMD_LOCK_GEOGRAPHY_001
+    disposition: PreserveOnePlaceCandidateAndSeparateTypedFunctions
+    required_receipts:
+      - GeographyIdentityReceipt
+      - PlaceSettlementFortressCapitalBuildingInstitutionAndGarrisonMapping
+      - RegistryCanonicalMappingReceipt
+      - OpeningControlCapitalInventoryAndAccessReceipt
+    prohibited_collapses: [SettlementInstance, FortressInstance, CapitalRole, Building, Institution, Garrison]
+
+  HMD_MAP_BEJAIA_001:
+    candidate_ref: cand.place.hammadid.bejaia
+    preferred_label: Bejaia
+    entity_kind: Place
+    kind_state: ConfirmedAsPlaceTemporalStateHeld
+    canonical_ref: Unallocated
+    definition_owner: Hammadid_Strategic_Geography_Regions_Settlements_Fortresses_Routes_and_Saharan_Interfaces_Authority_V1_1_FULL.md
+    canonical_owner: GeographyRegistryOwner
+    state_owner: HistoricalEventAndOpeningStateOwners
+    collision_refs: [HMD_COLLISION_BEJAIA_TEMPORAL]
+    quarantine_refs: [HMD_QUAR_BEJAIA_OPENING_001]
+    external_lock_ref: HMD_LOCK_GEOGRAPHY_001
+    disposition: PreserveAsLaterOrConditionalCandidateExcludedFrom1062Opening
+    required_receipts:
+      - HistoricalTemporalScopeReceipt
+      - GeographyIdentityReceipt
+      - RegistryCanonicalMappingReceipt
+      - ExplicitOpeningExclusionOrConditionalEmergenceReceipt
+    prohibited_collapses: [OpeningCapital, OpeningPort, OpeningFleet, CompletedCoastalDevelopment]
+
+  HMD_MAP_GREAT_MOSQUE_001:
+    candidate_ref: cand.institution.hammadid.qalat_great_mosque
+    preferred_label: Great Mosque of Qal'at Bani Hammad
+    entity_kind: InstitutionCandidate
+    kind_state: PendingInstitutionBuildingDecomposition
+    canonical_ref: Unallocated
+    definition_owner: Hammadid_Religious_Juristic_Great_Mosque_Legitimacy_and_Institutional_Authority_V1.md
+    property_owner: Hammadid_Property_Construction_Urban_Development_and_Infrastructure_Authority_V1.md
+    place_specialist_owner: Hammadid_Qalat_Bani_Hammad_Capital_Court_Fortress_Mosque_and_Urban_Authority_V1.md
+    canonical_owner: RegistryOwner
+    state_owner: OpeningStateOwner
+    collision_refs: [HMD_COLLISION_INSTITUTION_BUILDING]
+    quarantine_refs: [HMD_QUAR_GREAT_MOSQUE_001]
+    external_lock_ref: HMD_LOCK_RELIGION_001
+    disposition: HoldPendingInstitutionBuildingOfficeCongregationAndInstanceKinds
+    prohibited_collapses: [MosqueBuilding, JuristicOffice, Congregation, StaffRoster, ActiveInstitutionState]
+
+  HMD_MAP_COURT_001:
+    candidate_ref: cand.institution.hammadid.ruler_court
+    preferred_label: Hammadid Ruler Court
+    entity_kind: InstitutionOrRelationshipContextPendingTaxonomy
+    kind_state: PendingProjectTaxonomy
+    canonical_ref: Unallocated
+    definition_owner: Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+    governance_owner: Hammadid_Governance_Political_Constitution_Offices_Delegation_Regional_Authority_Compliance_and_Restoration_Authority_V1_1_FULL.md
+    canonical_owner: RegistryOwner
+    state_owner: OpeningStateOwner
+    collision_refs: [HMD_COLLISION_INSTITUTION_BUILDING]
+    quarantine_refs: [HMD_QUAR_COURT_001]
+    disposition: HoldPendingEntityKindMembershipAccessAndOpeningReceipts
+    prohibited_collapses: [Government, Household, PalaceBuilding, MembershipList, OfficeSet]
+
+  HMD_MAP_CHANCERY_001:
+    candidate_ref: cand.institution.hammadid.chancery
+    preferred_label: Hammadid Chancery
+    entity_kind: AdministrativeFunctionOrInstitutionCandidate
+    kind_state: PendingProjectTaxonomy
+    canonical_ref: Unallocated
+    definition_owner: Hammadid_Governance_Political_Constitution_Offices_Delegation_Regional_Authority_Compliance_and_Restoration_Authority_V1_1_FULL.md
+    records_owner: Hammadid_Education_Scholarship_Literacy_Archives_Records_and_Cultural_Production_Authority_V1.md
+    canonical_owner: RegistryOwner
+    state_owner: OpeningStateOwner
+    collision_refs: [HMD_COLLISION_INSTITUTION_BUILDING]
+    quarantine_refs: [HMD_QUAR_CHANCERY_001]
+    disposition: HoldPendingFunctionInstitutionOfficeBuildingArchiveAndCapacityKinds
+    prohibited_collapses: [Building, Archive, Office, Officer, ActiveAdministrativeCapacity]
+
+entity_kind_result:
+  confirmed_definition_kinds: 6
+  pending_taxonomy_or_decomposition: 6
+  external_reference_kinds: 2
+  complete_owner_routes: 6
+  pending_owner_routes: 8
+  registry_review_ready: 0
+  opening_ready: 0
+  finding_refs:
+    - HMD_KIND_001_FactionKindPending
+    - HMD_KIND_002_AlNasirArtifactCollision
+    - HMD_KIND_003_QalatTypedDecomposition
+    - HMD_KIND_004_BejaiaOpeningHeld
+    - HMD_KIND_005_GreatMosqueKindSeparation
+    - HMD_KIND_006_CourtTaxonomyPending
+    - HMD_KIND_007_ChanceryTaxonomyPending
+
+collision_result:
+  collision_records: 12
+  unresolved_collisions: 12
+  records:
+    HMD_COLLISION_ANNASIR_ARTIFACTS: QuarantinedPreserveAllPendingComparisonAndOwnerDisposition
+    HMD_COLLISION_ANNASIR_REFS: HeldOnePersonCandidateNoAliasExecution
+    HMD_COLLISION_REALM_DYNASTY: HeldPreserveRealmFactionDynastyHouseholdGovernmentSeparation
+    HMD_COLLISION_QALAT_FUNCTION: HeldPreservePlaceAndTypedFunctions
+    HMD_COLLISION_BEJAIA_TEMPORAL: QuarantinedFromOpeningKeepLaterOrConditional
+    HMD_COLLISION_SCENARIO_VARIANT: HeldSeparateGlobalScenarioAndRealmVariant
+    HMD_COLLISION_THEATER_ASSOCIATION: HeldExternalReferenceOnly
+    HMD_COLLISION_VALIDATION_LINEAGE: HeldPreserveBothPendingCopyFirstApproval
+    HMD_COLLISION_OPENING_LINEAGE: HeldPreserveBothPendingCopyFirstApproval
+    HMD_COLLISION_REALM_LABEL: SearchOrHistoricalAliasesOnly
+    HMD_COLLISION_QALA_SHORT: QuarantinedAsGlobalDirectAlias
+    HMD_COLLISION_INSTITUTION_BUILDING: HeldPreserveDefinitionStateAndEntityKindSeparation
+
+external_lock_result:
+  external_lock_records: 9
+  owner_receipts_returned: 0
+  reciprocal_records_activated: 0
+  locks:
+    HMD_LOCK_SCENARIO_001:
+      owner: ScenarioOwner
+      receipt_state: Pending
+      blocking_effect: RegistryAndOpeningState
+    HMD_LOCK_THEATER_001:
+      owner: CampaignTheaterOwner
+      receipt_state: Pending
+      blocking_effect: RegistryAndOpeningState
+    HMD_LOCK_ZIRID_001:
+      owner: ZiridPackageOwner
+      receipt_state: Pending
+      blocking_effect: CrossRealmOpeningFacts
+    HMD_LOCK_ALMORAVID_001:
+      owner: AlmoravidPackageOwner
+      receipt_state: Pending
+      blocking_effect: CrossRealmOpeningFacts
+    HMD_LOCK_BANUHILAL_001:
+      owner: BanuHilalActorOwners
+      receipt_state: Pending
+      blocking_effect: ActorSpecificOpeningFacts
+    HMD_LOCK_RELIGION_001:
+      owner: SharedReligionJuristicOwners
+      receipt_state: Pending
+      blocking_effect: InstitutionAndOfficeBinding
+    HMD_LOCK_REGISTRY_001:
+      owner: SharedRegistryAndTaxonomyOwners
+      receipt_state: Pending
+      blocking_effect: AllCanonicalMappings
+    HMD_LOCK_GEOGRAPHY_001:
+      owner: GeographyRegistryOwner
+      receipt_state: Pending
+      blocking_effect: GeographicCanonicalAndOpeningBindings
+    HMD_LOCK_FACTION_001:
+      owner: FactionTaxonomyOwner
+      receipt_state: Pending
+      blocking_effect: FactionCanonicalMapping
+
+quarantine_result:
+  quarantine_records: 10
+  quarantines_released: 0
+  records:
+    HMD_QUAR_ANNASIR_ARTIFACTS_001: Active
+    HMD_QUAR_ANNASIR_REFS_001: Active
+    HMD_QUAR_BEJAIA_OPENING_001: ActiveForOpeningOnly
+    HMD_QUAR_QALA_ALIAS_001: ActiveAsGlobalDirectAlias
+    HMD_QUAR_QALAT_KIND_001: ActiveForMachineReadableBinding
+    HMD_QUAR_GREAT_MOSQUE_001: Active
+    HMD_QUAR_COURT_001: Active
+    HMD_QUAR_CHANCERY_001: Active
+    HMD_QUAR_VALIDATION_LINEAGE_001: PreserveBothNoSupersession
+    HMD_QUAR_OPENING_LINEAGE_001: PreserveBothNoSupersession
+  common_release_requirements:
+    - NamedEvidenceRefs
+    - DefinitionOwnerApproval
+    - RegistryOwnerApprovalIfIdentityAffected
+    - OpeningStateApprovalIfOpeningAdmissionAffected
+    - ExternalOwnerReceiptIfReciprocalOrPrivateStateAffected
+    - RollbackRef
+    - ValidationReceipt
+  prohibited_release_basis:
+    - FilenamePreference
+    - HigherVersionAlone
+    - VisualSimilarity
+    - HistoricalPlausibility
+    - SearchNonreturn
+    - SilenceFromExternalOwner
+
+dependency_graph:
+  nodes:
+    PhysicalEvidenceClosure:
+      state: Blocked
+      dependencies: [CompleteRecursiveManifest, CompletePackageHashLedger, CompleteRawBatchBClosure]
+    ValidationAuthorityLineage:
+      state: Blocked
+      dependencies: [PhysicalEvidenceClosure, ValidationV1ToV1_1CopyFirstComparison, RemovalLedger, OwnerApproval]
+    OpeningAuthorityLineage:
+      state: Blocked
+      dependencies: [PhysicalEvidenceClosure, OpeningV1ToV1_1CopyFirstComparison, RemovalLedger, OwnerApproval]
+    ScenarioAndVariant:
+      state: Blocked
+      dependencies: [HMD_DATE_001, ScenarioExternalReceipt, VariantSeparationReceipt]
+    TheaterAssociation:
+      state: Blocked
+      dependencies: [TheaterCanonicalReferenceReceipt, TheaterAssociationReceipt]
+    CanonicalEntityKinds:
+      state: Blocked
+      dependencies: [RegistryTaxonomyReceipts, FactionKind, QalatTypedKinds, InstitutionKinds]
+    AlNasirCanonicalIdentity:
+      state: Blocked
+      dependencies: [ThreeArtifactDisposition, SamePersonReceipt, DirectAliasDecision, RegistryMappingReceipt]
+    ReciprocalExternalState:
+      state: Blocked
+      dependencies: [ZiridReceipts, AlmoravidReceipts, BanuHilalActorSpecificReceipts]
+    OpeningFactBindings:
+      state: Blocked
+      dependencies: [ScenarioAndVariant, CanonicalEntityKinds, AlNasirCanonicalIdentity, ExternalLocks, PerFactOwnerEvidenceReceipts]
+    CandidateBundleMaterialization:
+      state: Blocked
+      dependencies: [PhysicalEvidenceClosure, ValidationAuthorityLineage, OpeningAuthorityLineage, OpeningFactBindings, ProjectNativeSchemaMapping]
+    PayloadImporterRuntimeUnreal:
+      state: Blocked
+      dependencies: [CandidateBundleMaterialization, DryRunPass, ExactWriteSet, RollbackPackage, ExplicitExecutionAuthorization]
+  cycle_result: NotRunPendingCompletePhysicalAndNativeDependencyData
+  rule: NoCycleMayBeBrokenBySilentDefaultOrLaterRecord
+
+owner_boundary_validation:
+  RegistryOwner:
+    owns: [CanonicalEntityIdentity, DirectAliasApproval, CollisionDispositionReceipt, MigrationMappingApproval]
+    does_not_own: [HistoricalFact, OpeningExistence, OfficeOccupancy, ForeignPrivateState]
+  OpeningStateOwner:
+    owns: [BoundaryScopedOpeningAdmission, OpeningInstanceAndValueBinding, ProtectedUnknownAndExplicitNullTreatment]
+    does_not_own: [CanonicalIDAllocation, DefinitionMeaning, UnsupportedHistoricalFact]
+  DefinitionOwners:
+    own: [EntityMeaning, CapabilityAndRelationshipContracts, EvidenceAndOwnerRequirements]
+    do_not_own: [CanonicalRegistryPublication, OpeningExistenceWithoutReceipt]
+  ExternalOwners:
+    own: [ScenarioAndTheaterCanonicalReferences, ForeignReciprocalAndPrivateState]
+    local_rule: SilenceIsNotConsent
+  validation_result: OwnerBoundariesDefinedNoReceiptBasedPromotionOccurred
+
+stop_gate_status:
+  HMD_STOP_001_CompleteRecursiveManifest: Blocked
+  HMD_STOP_002_CompletePackageHashLedger: Blocked
+  HMD_STOP_003_CompleteRawBatchBClosure: Blocked
+  HMD_STOP_004_ValidationAuthoritySupersession: Blocked
+  HMD_STOP_005_OpeningStateAuthoritySupersession: Blocked
+  HMD_STOP_006_AnNasirCanonicalIdentity: Blocked
+  HMD_STOP_007_ScenarioBoundary: Blocked
+  HMD_STOP_008_ScenarioAndTheaterExternalLocks: Blocked
+  HMD_STOP_009_CanonicalEntityKindsAndMappings: Blocked
+  HMD_STOP_010_ReciprocalExternalState: Blocked
+  HMD_STOP_011_OpeningFactBindings: Blocked
+  HMD_STOP_012_PayloadImporterRuntimeUnreal: Blocked
+  summary: {blocked: 12, open: 0}
+
+owner_decision_queue:
+  decisions:
+    - AcceptOrHoldPartialBatchABCDArtifacts
+    - ApproveOrHoldPackageNavigationCurrentCandidate
+    - ApproveOrHoldValidationV1_1Successor
+    - ApproveOrHoldOpeningStateV1_1Successor
+    - ReturnHMD_DATE_001
+    - ReturnScenarioCanonicalReferenceAndVariantSeparationReceipts
+    - ReturnNorthAfricaTheaterCanonicalReferenceAndAssociationReceipts
+    - DispositionAnNasirThreeArtifactGroup
+    - ApproveOrHoldCharacterIdentityMappings
+    - ReturnRealmFactionDynastyEntityKindAndCanonicalSeparationReceipts
+    - ReturnQalatTypedPlaceSettlementFortressCapitalBuildingInstitutionAndGarrisonReceipts
+    - PreserveOrReviseBejaiaOpeningExclusionAndConditionalEmergenceReceipt
+    - ReturnGreatMosqueInstitutionBuildingOfficeAndOpeningInstanceReceipts
+    - ReturnCourtAndChanceryEntityKindMembershipAccessOfficeAndOpeningReceipts
+    - ReturnZiridAlmoravidAndBanuHilalReciprocalReceipts
+    - ReturnSharedReligionJuristicRegistryGeographyAndFactionTaxonomyReceipts
+    - LocateOrDispositionHammadid_Opening_State_Assembly_and_Binding_Plan_V1.md
+  returned_decisions: 0
+validation_tests:
+  positive:
+    HMD_ID_POS_001_candidate_and_canonical_states_remain_distinct: PassAtContractLevel
+    HMD_ID_POS_002_realm_faction_dynasty_and_government_remain_typed: PassAtContractLevel
+    HMD_ID_POS_003_transliteration_variants_do_not_create_people_or_places: PassAtContractLevel
+    HMD_ID_POS_004_external_locks_preserve_counterparty_ownership: PassAtContractLevel
+    HMD_ID_POS_005_quarantines_block_canonical_and_opening_binding: PassAtContractLevel
+    HMD_ID_POS_006_qalat_place_and_runtime_functions_remain_separate: PassAtContractLevel
+    HMD_ID_POS_007_bejaia_remains_excluded_from_1062_opening: PassAtContractLevel
+    HMD_ID_POS_008_successor_pairs_preserve_both_files_pending_copy_first_review: PassAtContractLevel
+    HMD_ID_POS_009_owner_routes_separate_definition_identity_and_state: PassAtContractLevel
+    HMD_ID_POS_010_all_twelve_stop_gates_remain_closed: Pass
+  negative:
+    HMD_ID_NEG_001_candidate_ref_serializes_as_canonical: Reject
+    HMD_ID_NEG_002_alias_chain_or_search_alias_binds_opening_state: Reject
+    HMD_ID_NEG_003_quarantined_al_nasir_identity_activates: Reject
+    HMD_ID_NEG_004_scenario_variant_rewrites_global_scenario_anchor: Reject
+    HMD_ID_NEG_005_theater_association_creates_territory_or_private_state: Reject
+    HMD_ID_NEG_006_qalat_label_creates_settlement_fortress_capital_building_institution_or_garrison: Reject
+    HMD_ID_NEG_007_bejaia_backfills_opening_capital_port_fleet_or_completed_development: Reject
+    HMD_ID_NEG_008_external_owner_silence_is_treated_as_consent: Reject
+    HMD_ID_NEG_009_higher_version_or_filename_preference_releases_lineage_quarantine: Reject
+    HMD_ID_NEG_010_partial_evidence_opens_stop_gate_or_authorizes_bundle: Reject
+
+promotion_matrix:
+  AliasAndCollisionEvidence: PartialAcceptedOnly
+  CandidateToCanonicalMapping: CandidateOnly
+  EntityKindAndOwnerValidation: PartialAcceptedOnly
+  ExternalLocksAndQuarantines: ActiveAndPendingReceipts
+  RegistryReview: Hold
+  CanonicalRegistryPublication: Prohibited
+  OpeningStateFreeze: Prohibited
+  OpeningStateActivation: Prohibited
+  CandidateBundleMaterialization: Prohibited
+  PayloadGeneration: Prohibited
+  ImporterDryRun: NotAuthorized
+  ImporterExecution: Prohibited
+  RuntimeMutation: Prohibited
+  UnrealMutation: Prohibited
+
+zero_mutation_receipt:
+  source_files_modified_moved_renamed_or_deleted: 0
+  canonical_ids_allocated: 0
+  aliases_executed: 0
+  migrations_executed: 0
+  entities_created_or_merged: 0
+  quarantines_released: 0
+  external_receipts_returned: 0
+  reciprocal_records_activated: 0
+  registry_rows_created_or_modified: 0
+  opening_state_records_created_or_modified: 0
+  candidate_bundle_records_materialized: 0
+  payloads_created_or_imported: 0
+  importers_run: 0
+  runtime_mutations: 0
+  unreal_mutations: 0
+
+acceptance_status:
+  five_controlling_ledgers_reconciled: Pass
+  fourteen_identity_records_preserved: Pass
+  twelve_collisions_preserved_unresolved: Pass
+  nine_external_locks_preserved_pending: Pass
+  ten_quarantines_preserved_unreleased: Pass
+  owner_boundaries_and_dependency_graph_defined: Pass
+  positive_and_negative_contract_tests_defined: Pass
+  canonical_ids_or_aliases_executed: 0
+  owner_receipts_returned: 0
+  registry_review_ready_records: 0
+  opening_ready_records: 0
+  candidate_bundle_materialization: Blocked
+  final_result: StrongPartialValidationReportNoPromotionNoReleaseNoMutation
+
+next_safe_action:
+  next_file: Hammadid_Batch_10_Preflight_Dry_Run_Exact_Write_Set_and_Zero_Mutation_Receipt_V1.yaml
+  drafting_scope: DefineBlockedPreflightAndDryRunReceiptWithoutExecutingImporterOrInventingWritePaths
+  execution_prerequisites:
+    - CompleteRecursiveManifestAndSHA256Ledger
+    - ClosedIdentityExternalLockAndQuarantineReceipts
+    - VerifiedProjectNativeSchemaValidatorImporterAndTargets
+    - AcceptedPriorBatchReceipts
+  real_payload_importer_runtime_or_unreal_work: Prohibited
+
+stable_footer:
+  ConstitutionalAuthority: Project Bible 2.4
+  OperationalAuthority: Design Expansion Checklist 3.7
+  ImplementationTarget: Unreal Engine 5.8
+  Theater: North Africa
+  CandidateRealm: Hammadids
+  ScenarioOpening: 1062-01-01
+  OpeningCampaignSeason: Winter
+  PreferredPlayableBoundaryCandidate: post_1062-07-11
+  PlayableBoundaryStatus: HeldPendingScenarioOwnerDisposition
+  HistoricalProgression: 21MonthsPerStrategicTurn
+  BiologicalProgression: 7MonthsPerStrategicTurn
+  CampaignSeasonProgression: OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn
+  BatchID: Batch10
+  ReportStatus: StrongPartialIdentityDependencyOwnerLockQuarantineValidationNoCanonicalPromotionNoReleaseNoMutation
+  CanonicalIDsAllocated: 0
+  QuarantinesReleased: 0
+  OwnerReceiptsReturned: 0
+  RegistryPublicationAuthorized: false
+  OpeningStatePopulationAuthorized: false
+  CandidateBundleMaterializationAuthorized: false
+  PayloadGenerationAuthorized: false
+  ImporterDryRunAuthorized: false
+  ImporterExecutionAuthorized: false
+  RuntimeExecutionAuthorized: false
+  UnrealProjectMutationAuthorized: false
+  NextAction: DraftBlockedPreflightDryRunWriteSetAndZeroMutationReceiptWithoutExecution

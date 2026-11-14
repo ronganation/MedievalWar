@@ -1,0 +1,41 @@
+{
+  "Archive": "France_UE5_8_Dry_Run_Fixtures_V1.zip",
+  "Root": "FR8_DryRun",
+  "Folders": {
+    "S": "Schemas",
+    "V": "Valid_Fixtures",
+    "X": "Invalid_Fixtures",
+    "E": "Expected_Results",
+    "M": "Manifests"
+  },
+  "OriginalToShort": {
+    "README_France_UE5_8_Candidate_Importer_Dry_Run_Fixtures_V1_1.md": "FR8_DryRun/README.md",
+    "Schemas/france_candidate_document_control_v1.schema.json": "FR8_DryRun/S/control.schema.json",
+    "Schemas/france_candidate_record_envelope_v1.schema.json": "FR8_DryRun/S/envelope.schema.json",
+    "Schemas/france_candidate_import_result_v1.schema.json": "FR8_DryRun/S/result.schema.json",
+    "Valid_Fixtures/valid_candidate_document.yaml": "FR8_DryRun/V/document.yaml",
+    "Valid_Fixtures/valid_character_candidates.yaml": "FR8_DryRun/V/characters.yaml",
+    "Valid_Fixtures/valid_external_owner_reference.yaml": "FR8_DryRun/V/external_owner.yaml",
+    "Valid_Fixtures/valid_direct_aliases.yaml": "FR8_DryRun/V/aliases.yaml",
+    "Valid_Fixtures/valid_three_track_time.yaml": "FR8_DryRun/V/time.yaml",
+    "Valid_Fixtures/valid_intentional_empty_opening_bundle.yaml": "FR8_DryRun/V/empty_opening.yaml",
+    "Invalid_Fixtures/invalid_bare_active.yaml": "FR8_DryRun/X/bare_active.yaml",
+    "Invalid_Fixtures/invalid_alias_chain.yaml": "FR8_DryRun/X/alias_chain.yaml",
+    "Invalid_Fixtures/invalid_alias_cycle.yaml": "FR8_DryRun/X/alias_cycle.yaml",
+    "Invalid_Fixtures/invalid_external_owner_collapse.yaml": "FR8_DryRun/X/owner_collapse.yaml",
+    "Invalid_Fixtures/invalid_universal_seven_month_turn.yaml": "FR8_DryRun/X/seven_month_turn.yaml",
+    "Invalid_Fixtures/invalid_henry_runtime_agency.yaml": "FR8_DryRun/X/henry_runtime.yaml",
+    "Invalid_Fixtures/invalid_hugh_vermandois_opening_title.yaml": "FR8_DryRun/X/hugh_vermandois.yaml",
+    "Invalid_Fixtures/invalid_opening_state_activation.yaml": "FR8_DryRun/X/opening_active.yaml",
+    "Invalid_Fixtures/invalid_registry_promotion.yaml": "FR8_DryRun/X/registry_promote.yaml",
+    "Invalid_Fixtures/invalid_unreal_import.yaml": "FR8_DryRun/X/unreal_import.yaml",
+    "Invalid_Fixtures/invalid_default_army_from_empty.yaml": "FR8_DryRun/X/default_army.yaml",
+    "Invalid_Fixtures/invalid_quarantine_instantiation.yaml": "FR8_DryRun/X/quarantine_spawn.yaml",
+    "Expected_Results/expected_reason_codes.json": "FR8_DryRun/E/reason_codes.json",
+    "Expected_Results/expected_valid_results.json": "FR8_DryRun/E/valid.json",
+    "Expected_Results/expected_invalid_results.json": "FR8_DryRun/E/invalid.json",
+    "Expected_Results/dry_run_command_contract.json": "FR8_DryRun/E/command.json",
+    "Manifests/France_UE5_8_Candidate_Importer_Fixture_Manifest_V1_1.json": "FR8_DryRun/M/manifest.json",
+    "Manifests/France_UE5_8_Candidate_Importer_Fixture_Static_Check_V1_1.json": "FR8_DryRun/M/static_check.json"
+  }
+}

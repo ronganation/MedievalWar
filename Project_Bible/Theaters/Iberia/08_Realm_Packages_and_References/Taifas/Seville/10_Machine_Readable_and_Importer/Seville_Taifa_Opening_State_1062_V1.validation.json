@@ -1,0 +1,463 @@
+{
+  "ProfileId": "validation.seville_taifa.opening_state.1062.v1",
+  "ProfileVersion": "1.2.0",
+  "SchemaFile": "Seville_Taifa_Opening_State_1062_V1.schema.json",
+  "CanonicalPayloadFile": "Seville_Taifa_Opening_State_1062_V1.json",
+  "ContractFile": "Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md",
+  "Status": "STATIC_CHECKED_PROFILE_RECONCILED_TO_OPENING_AUTHORITY_1_3_0",
+  "MaintenanceAuthority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "RuntimePromotionAuthorized": false
+  },
+  "ValidationOrder": [
+    "Envelope",
+    "AuthorityManifest",
+    "RegistryBinding",
+    "TemporalState",
+    "DeclaredCounts",
+    "IdentityResolution",
+    "SemanticUniqueness",
+    "ExactMembership",
+    "ExplicitEmptyCollections",
+    "Exclusions",
+    "OwnerRouting",
+    "Determinism",
+    "TransactionGuard",
+    "ReceiptContract"
+  ],
+  "SeverityLevels": [
+    "Fatal",
+    "Warning",
+    "Information"
+  ],
+  "FatalRules": [
+    {
+      "Code": "SEV_MR_SCHEMA_VERSION_MISMATCH",
+      "Rule": "Payload ContractVersion must be 1.2.0, PackageVersion 1.0.0, and OpeningStateVersion 1.3.0 unless the complete family is versioned together."
+    },
+    {
+      "Code": "SEV_MR_UNEXPECTED_PROPERTY",
+      "Rule": "Reject any property disallowed by the strict schema."
+    },
+    {
+      "Code": "SEV_MR_AUTHORITY_MANIFEST_MISMATCH",
+      "Rule": "Require six authority records with valid lowercase SHA-256 hashes and unique stable order."
+    },
+    {
+      "Code": "SEV_MR_REGISTRY_VERSION_MISMATCH",
+      "Rule": "RegistryId and RegistryVersion must match the locked Seville Registry."
+    },
+    {
+      "Code": "SEV_MR_ID_UNRESOLVED",
+      "Rule": "Every active or definition-only canonical reference must resolve to one locked identity."
+    },
+    {
+      "Code": "SEV_MR_TYPE_MISMATCH",
+      "Rule": "Every canonical reference must match the expected entity type."
+    },
+    {
+      "Code": "SEV_MR_DUPLICATE_RECORD",
+      "Rule": "Reject duplicate realm, character, capital, settlement-authority, definition-only, exclusion, external-subject, empty-collection, or owner-routing records."
+    },
+    {
+      "Code": "SEV_MR_REQUIRED_MEMBER_MISSING",
+      "Rule": "Reject replacement of a required named member by a duplicate or alternative record even when the array count is unchanged."
+    },
+    {
+      "Code": "SEV_MR_DECLARED_COUNT_MISMATCH",
+      "Rule": "Declared counts must equal actual array counts and required zero counts."
+    },
+    {
+      "Code": "SEV_MR_NULL_SEMANTICS_INVALID",
+      "Rule": "Null is allowed only in schema-approved unresolved reference fields."
+    },
+    {
+      "Code": "SEV_MR_UNKNOWN_CONVERTED_TO_ZERO",
+      "Rule": "Unknown values must use the typed Unknown object, never zero, false, neutral, or safe."
+    },
+    {
+      "Code": "SEV_MR_EMPTY_COLLECTION_MISSING",
+      "Rule": "All 70 required IntentionalEmpty collections must be declared exactly once."
+    },
+    {
+      "Code": "SEV_MR_REVIEWONLY_ACTIVATED",
+      "Rule": "Ismail ibn Abbad must not appear in active records or migration targets."
+    },
+    {
+      "Code": "SEV_MR_QUARANTINE_ACTIVATED",
+      "Rule": "SEV-Q-001 through SEV-Q-018 may appear only as exclusions and must each appear exactly once."
+    },
+    {
+      "Code": "SEV_MR_LATER_HISTORY_ACTIVATED",
+      "Rule": "Reject later holdings, tribute, succession, deaths, conquest, war, marriage, office, title, or Almoravid outcomes."
+    },
+    {
+      "Code": "SEV_MR_EXTERNAL_DUPLICATE",
+      "Rule": "Reject Seville-owned copies of externally owned identities."
+    },
+    {
+      "Code": "SEV_MR_EXTERNAL_SUBJECT_SET_MISMATCH",
+      "Rule": "Require León-Castile, Badajoz, Granada, Córdoba, Carmona, Morón, Ronda, Arcos, Silves, and Almoravids exactly once each."
+    },
+    {
+      "Code": "SEV_MR_TEMPORAL_STATE_INVALID",
+      "Rule": "Require 1062-01-01, Historical step 21 months at index 0, Biological step 7 months at index 0, and Campaign Season Winter at index 0."
+    },
+    {
+      "Code": "SEV_MR_CROSS_CLOCK_MUTATION",
+      "Rule": "Opening application advances no temporal track and no clock mutates another."
+    },
+    {
+      "Code": "SEV_MR_INVALID_SEASON",
+      "Rule": "Require Winter, Spring, Summer, Autumn in that order, advancing one season per strategic turn."
+    },
+    {
+      "Code": "SEV_MR_OWNER_MISSING",
+      "Rule": "Every initialization request requires a declared authoritative OwnerSubsystem."
+    },
+    {
+      "Code": "SEV_MR_OWNER_ROUTE_COUNT_MISMATCH",
+      "Rule": "Require exactly 18 owner-routing requests with unique RequestId and StableOrderKey values."
+    },
+    {
+      "Code": "SEV_MR_ADVANCED_SAVE_REAPPLICATION",
+      "Rule": "Reject application unless campaign state is NewCampaignUninitialized and no divergence or prior receipt exists."
+    },
+    {
+      "Code": "SEV_MR_PARTIAL_COMMIT",
+      "Rule": "Any fatal issue requires zero authoritative mutations."
+    },
+    {
+      "Code": "SEV_MR_RECEIPT_MISSING",
+      "Rule": "A successful commit requires one deterministic application receipt."
+    },
+    {
+      "Code": "SEV_MR_RECEIPT_FIELD_MISMATCH",
+      "Rule": "ReceiptFields must match the complete ordered 18-field contract exactly."
+    },
+    {
+      "Code": "SEV_MR_DETERMINISM_MISMATCH",
+      "Rule": "Equal inputs must produce equal requests, responses, receipts, diagnostics, traces, and hashes."
+    }
+  ],
+  "SemanticAssertions": [
+    {
+      "AssertionId": "SEV_ASSERT_ONE_REALM",
+      "Expression": "len(RealmRecords) == 1 and RealmRecords[0].RealmRef == realm.seville"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_TWO_CHARACTERS",
+      "Expression": "set(CharacterRecords.PersonRef) == {person.abbad_ibn_muhammad_al_mutadid, person.muhammad_ibn_abbad_al_mutamid}"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_CORRECT_ROLES",
+      "Expression": "al-Mutadid.OpeningRole == Sovereign and al-Mutamid.OpeningRole == SuccessionRelevantDynast"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_NO_FORMAL_HEIR",
+      "Expression": "all CharacterRecords.FormalHeirOfficeRef are null and GuaranteedAccession is false"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_SEVEN_AUTHORITY_NODES",
+      "Expression": "AuthorityBindings contain each required settlement exactly once"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_CORE_CAPITAL_CLASS",
+      "Expression": "settlement.seville uses CoreCapitalAuthority"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_ABSORBED_CLASSES",
+      "Expression": "the six non-capital settlements use AbsorbedSettlementSuperiorAuthority"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_FIVE_FORMER_POLITIES",
+      "Expression": "DefinitionOnlyReferences equal the five locked historical polity IDs exactly"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_EIGHTEEN_QUARANTINES",
+      "Expression": "QuarantineExclusions contain SEV-Q-001 through SEV-Q-018 exactly once"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_THIRTEEN_LATER_EXCLUSIONS",
+      "Expression": "LaterHistoryExclusions contain the 13 payload exclusions exactly once"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_TEN_EXTERNAL_SUBJECTS",
+      "Expression": "ExternalReferenceRequirements contain the 10 declared external subjects exactly once"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_EIGHTEEN_OWNER_ROUTES",
+      "Expression": "len(OwnerRouting) == 18 and RequestId values are unique"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_NO_ACTIVE_ASSETS",
+      "Expression": "DeclaredCounts ActiveArmies, ActiveTreasuries, ActiveAgreements, ActivePoliticalEdges all equal 0"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_THREE_TRACK_TIME",
+      "Expression": "Historical 21, Biological 7, Campaign Season Winter and one-step seasonal order remain independent"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_STABLE_ORDER",
+      "Expression": "all StableOrder and StableOrderKey values are unique within each record family"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_EXACT_RECEIPT_FIELDS",
+      "Expression": "ReceiptContract.ReceiptFields equals the ordered 18-field contract"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_SEVENTY_EXPLICIT_EMPTIES",
+      "Expression": "ExplicitEmptyCollections equal the 70 contract-required collection names exactly"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_TWO_DIRECTED_KINSHIP_BINDINGS",
+      "Expression": "DirectedKinshipBindings contain ParentOf and ChildOf exactly once without political-edge creation"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_ELEVEN_DEFINITION_FAMILIES",
+      "Expression": "DefinitionFamilyBindings equal the 11 approved definition-only families exactly"
+    },
+    {
+      "AssertionId": "SEV_ASSERT_STRATEGIC_CONDITION_NONNUMERIC",
+      "Expression": "StrategicCondition UniversalNumericScoreCreated is false"
+    }
+  ],
+  "PositiveFixtures": [
+    {
+      "FixtureId": "ValidSevilleOpening",
+      "Expected": "Pass"
+    },
+    {
+      "FixtureId": "RepeatedApplicationAlreadyApplied",
+      "Expected": "Information:AlreadyApplied; Mutations=0"
+    },
+    {
+      "FixtureId": "UnresolvedExternalEndpointDoesNotBlockLocalShell",
+      "Expected": "PassWithWarning"
+    },
+    {
+      "FixtureId": "UnknownFiscalReachPreserved",
+      "Expected": "Pass"
+    },
+    {
+      "FixtureId": "IntentionalEmptyCollectionsAccepted",
+      "Expected": "Pass"
+    }
+  ],
+  "FatalFixtures": [
+    {
+      "FixtureId": "WrongSovereign",
+      "ExpectedCode": "SEV_MR_ID_UNRESOLVED"
+    },
+    {
+      "FixtureId": "MissingCapitalBinding",
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH"
+    },
+    {
+      "FixtureId": "MissingCharacter",
+      "ExpectedCode": "SEV_MR_REQUIRED_MEMBER_MISSING"
+    },
+    {
+      "FixtureId": "DuplicateCharacterSubstitution",
+      "ExpectedCode": "SEV_MR_REQUIRED_MEMBER_MISSING"
+    },
+    {
+      "FixtureId": "FormalHeirInjected",
+      "ExpectedCode": "SEV_MR_UNEXPECTED_PROPERTY"
+    },
+    {
+      "FixtureId": "IsmailActivated",
+      "ExpectedCode": "SEV_MR_REVIEWONLY_ACTIVATED"
+    },
+    {
+      "FixtureId": "AuthorityBindingMissing",
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH"
+    },
+    {
+      "FixtureId": "DuplicateAuthorityBindingSubstitution",
+      "ExpectedCode": "SEV_MR_REQUIRED_MEMBER_MISSING"
+    },
+    {
+      "FixtureId": "AuthorityControlFallbackInjected",
+      "ExpectedCode": "SEV_MR_NULL_SEMANTICS_INVALID"
+    },
+    {
+      "FixtureId": "FormerPolityActivated",
+      "ExpectedCode": "SEV_MR_LATER_HISTORY_ACTIVATED"
+    },
+    {
+      "FixtureId": "DuplicateFormerPolitySubstitution",
+      "ExpectedCode": "SEV_MR_REQUIRED_MEMBER_MISSING"
+    },
+    {
+      "FixtureId": "SaltesDualIdentity",
+      "ExpectedCode": "SEV_MR_EXTERNAL_DUPLICATE"
+    },
+    {
+      "FixtureId": "LaterHoldingInjected",
+      "ExpectedCode": "SEV_MR_LATER_HISTORY_ACTIVATED"
+    },
+    {
+      "FixtureId": "ArmyInjected",
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH"
+    },
+    {
+      "FixtureId": "TreasuryInjected",
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH"
+    },
+    {
+      "FixtureId": "PortOperationInjected",
+      "ExpectedCode": "SEV_MR_NULL_SEMANTICS_INVALID"
+    },
+    {
+      "FixtureId": "MintOperationInjected",
+      "ExpectedCode": "SEV_MR_UNEXPECTED_PROPERTY"
+    },
+    {
+      "FixtureId": "AgreementInjected",
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH"
+    },
+    {
+      "FixtureId": "NetworkEdgeInjected",
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH"
+    },
+    {
+      "FixtureId": "ExternalPrivateStateInjected",
+      "ExpectedCode": "SEV_MR_EXTERNAL_DUPLICATE"
+    },
+    {
+      "FixtureId": "AlmoravidInteractionInjected",
+      "ExpectedCode": "SEV_MR_LATER_HISTORY_ACTIVATED"
+    },
+    {
+      "FixtureId": "MissingExplicitEmptyCollection",
+      "ExpectedCode": "SEV_MR_EMPTY_COLLECTION_MISSING"
+    },
+    {
+      "FixtureId": "DuplicateExplicitEmptySubstitution",
+      "ExpectedCode": "SEV_MR_REQUIRED_MEMBER_MISSING"
+    },
+    {
+      "FixtureId": "HistoricalClockCorrupted",
+      "ExpectedCode": "SEV_MR_TEMPORAL_STATE_INVALID"
+    },
+    {
+      "FixtureId": "BiologicalClockCorrupted",
+      "ExpectedCode": "SEV_MR_TEMPORAL_STATE_INVALID"
+    },
+    {
+      "FixtureId": "InvalidCampaignSeason",
+      "ExpectedCode": "SEV_MR_INVALID_SEASON"
+    },
+    {
+      "FixtureId": "ExternalSubjectSubstitution",
+      "ExpectedCode": "SEV_MR_EXTERNAL_SUBJECT_SET_MISMATCH"
+    },
+    {
+      "FixtureId": "OwnerRouteMissing",
+      "ExpectedCode": "SEV_MR_OWNER_ROUTE_COUNT_MISMATCH"
+    },
+    {
+      "FixtureId": "AdvancedSave",
+      "ExpectedCode": "SEV_MR_ADVANCED_SAVE_REAPPLICATION"
+    },
+    {
+      "FixtureId": "PartialCommit",
+      "ExpectedCode": "SEV_MR_PARTIAL_COMMIT"
+    },
+    {
+      "FixtureId": "MissingReceipt",
+      "ExpectedCode": "SEV_MR_RECEIPT_MISSING"
+    },
+    {
+      "FixtureId": "ReceiptFieldMismatch",
+      "ExpectedCode": "SEV_MR_RECEIPT_FIELD_MISMATCH"
+    },
+    {
+      "FixtureId": "DeterminismMismatch",
+      "ExpectedCode": "SEV_MR_DETERMINISM_MISMATCH"
+    },
+    {
+      "FixtureId": "UnexpectedProperty",
+      "ExpectedCode": "SEV_MR_UNEXPECTED_PROPERTY"
+    }
+  ],
+  "TransactionPolicy": {
+    "AtomicCommitRequired": true,
+    "FatalMutationCount": 0,
+    "MatchingReceiptDisposition": "AlreadyApplied",
+    "MatchingReceiptMutationCount": 0,
+    "ConflictingReceiptDisposition": "FailClosed",
+    "AdvancedSaveDisposition": "RejectWithoutMutation"
+  },
+  "EvidenceBoundary": {
+    "RecordedPriorFixtureResult": "22_OF_22_PASSED",
+    "PriorReportFile": "Seville_Taifa_Opening_State_1062_V1.validation_report.json",
+    "PriorResultAppliesToModifiedProfile": false,
+    "RerunRequiredForThisProfile": true,
+    "RealPayloadApplicationAuthorized": false
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "JSONSyntaxValidated": true,
+    "ProfileStructureValidated": true,
+    "StrengthenedSchemaMetaschemaValidated": true,
+    "CanonicalPayloadValidatedAgainstStrengthenedSchema": true,
+    "UpdatedFixturesExecuted": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "OwnerRouteCardinalityReconciled": true,
+    "OwnerRouteRequestIdParityValidated": true,
+    "OwnerRouteStableOrderParityValidated": true
+  },
+  "CopyFirstLedger": {
+    "ImmediateSourceProfileVersion": "1.0.0",
+    "OriginalFatalRulesCarriedForward": 23,
+    "OriginalSemanticAssertionsCarriedForward": 11,
+    "OriginalPositiveFixturesCarriedForward": 5,
+    "OriginalFatalFixturesCarriedForward": 25,
+    "RemovedOriginalRules": 0,
+    "RemovedOriginalAssertions": 0,
+    "RemovedOriginalFixtures": 0,
+    "AddedStrengtheningFocus": [
+      "ExactMembership",
+      "DuplicateSubstitution",
+      "ExactExplicitEmptySet",
+      "ExactExternalSubjectSet",
+      "OwnerRouteCount",
+      "ExactReceiptFields",
+      "EvidenceRevalidationBoundary"
+    ],
+    "CorrectedItems": [
+      "Owner route requirement corrected from 19 to 18",
+      "Semantic assertion renamed from SEV_ASSERT_NINETEEN_OWNER_ROUTES to SEV_ASSERT_EIGHTEEN_OWNER_ROUTES",
+      "Static payload-to-routing count, RequestId, and StableOrderKey parity recorded"
+    ]
+  },
+  "OwnerRoutingReconciliation": {
+    "CanonicalPayloadRequestCount": 18,
+    "OwnerRoutingManifestDeclaredCount": 18,
+    "OwnerRoutingManifestActualCount": 18,
+    "RequiredValidationCount": 18,
+    "CountsAligned": true,
+    "RequestIdSetsAligned": true,
+    "StableOrderKeySetsAligned": true,
+    "ValidationScope": "Static cross-file reconciliation only"
+  },
+  "OpeningAuthorityReconciliation": {
+    "HumanReadableInternalVersion": "1.3.0",
+    "ContractInternalVersion": "1.2.0",
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11,
+    "ExplicitEmptyCollections": 70,
+    "ActiveInstanceChanges": 0
+  }
+}

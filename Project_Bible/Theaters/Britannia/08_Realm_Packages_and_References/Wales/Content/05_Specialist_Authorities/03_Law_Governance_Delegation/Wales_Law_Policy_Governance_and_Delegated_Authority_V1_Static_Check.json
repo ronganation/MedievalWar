@@ -1,0 +1,22 @@
+{
+  "document_id": "static-check.wales.law-policy-governance-delegated-authority.v1",
+  "version": "1.0.0",
+  "artifact": "Wales_Law_Policy_Governance_and_Delegated_Authority_V1.md",
+  "bytes": 42614,
+  "physical_lines": 1474,
+  "sha256": "47da16d5f1b860984a60c3c9c366b7d55e2568b40803660cfbebdc3f52307b1f",
+  "checks": {
+    "artifact_exists": true,
+    "required_literals": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "opening_empty_bundle": true,
+    "honest_validation": true,
+    "non_activation": true,
+    "sufficient_depth": true,
+    "candidate_portfolios_present": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

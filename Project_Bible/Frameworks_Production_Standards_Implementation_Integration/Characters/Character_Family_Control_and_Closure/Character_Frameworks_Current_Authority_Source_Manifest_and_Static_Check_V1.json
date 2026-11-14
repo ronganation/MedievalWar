@@ -1,0 +1,368 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "document_id": "mw.frameworks.characters.current_authority.source_manifest_static_check.v1",
+  "filename": "Character_Frameworks_Current_Authority_Source_Manifest_and_Static_Check_V1.json",
+  "version": "1.0.0",
+  "revision_date": "2026-09-18",
+  "authority_class": "CharacterFrameworkFamilySourceManifestAndStaticCheck",
+  "canonical_folder": "Project_Bible/Frameworks/Characters",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "scenario_opening": {
+    "historical_date": "1062-01-01",
+    "campaign_season": "Winter"
+  },
+  "manifest_self_hash": null,
+  "manifest_self_hash_excluded": true,
+  "validation_scope": {
+    "static_document_inventory": true,
+    "fingerprint_reconciliation": true,
+    "source_successor_mapping": true,
+    "ownership_contract_checks": true,
+    "temporal_contract_checks": true,
+    "profile_standard_adoption_check": true,
+    "implementation_validation": false
+  },
+  "current_authority_spine": [
+    {
+      "authority_key": "CharacterFoundation",
+      "filename": "Character_Foundation_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "version": "2.0.0",
+      "bytes": 84115,
+      "physical_lines": 3156,
+      "sha256": "9d677d68fb2b06fd689cc94b5abe97eede2245dadb5add985f752ee6a188b8cf",
+      "status": "COMPLETE_STATIC_DESIGN_OWNER_REVIEW_REQUIRED",
+      "immediate_source": "Character_Foundation_Framework_v1.md",
+      "source_exact_prefix_preserved": true,
+      "implementation_authorized": false
+    },
+    {
+      "authority_key": "CharacterNetwork",
+      "filename": "Character_Network_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "version": "2.0.0",
+      "bytes": 73526,
+      "physical_lines": 3028,
+      "sha256": "4fd29753c7221e8ab88f8a4d57b9f57df41d088c11481c9c32a721f2b4563828",
+      "status": "COMPLETE_STATIC_DESIGN_OWNER_REVIEW_REQUIRED",
+      "immediate_source": "Character_Network_Framework_v1.md",
+      "source_exact_prefix_preserved": true,
+      "implementation_authorized": false
+    },
+    {
+      "authority_key": "UnderageCharacter",
+      "filename": "Underage_Character_Framework_V3_Current_Authority_Additive_Modernization.md",
+      "version": "3.0.0",
+      "bytes": 66714,
+      "physical_lines": 2751,
+      "sha256": "988e8e52e38e97f687ff6c27c279f2d8ac2a9ba72c6ecc141358874ac2d68ccc",
+      "status": "COMPLETE_STATIC_DESIGN_OWNER_REVIEW_REQUIRED",
+      "immediate_source": "Underage_Character_Framework.md",
+      "supporting_contract": "Underage_Character_Implementation_Contract.md",
+      "source_exact_prefix_preserved": true,
+      "implementation_authorized": false
+    },
+    {
+      "authority_key": "CharacterDevelopment",
+      "filename": "Character_Development_Framework_V3_Current_Authority_Additive_Modernization.md",
+      "version": "3.0.0",
+      "bytes": 68853,
+      "physical_lines": 2775,
+      "sha256": "8e8452723df227de28528190852cf771844a3d56f12883660a82592c164e17ac",
+      "status": "COMPLETE_STATIC_DESIGN_OWNER_REVIEW_REQUIRED",
+      "immediate_source": "Character_Development_Framework_v2.md",
+      "source_exact_prefix_preserved": true,
+      "implementation_authorized": false
+    },
+    {
+      "authority_key": "CharacterArchetype",
+      "filename": "Character_Archetype_Framework_V3_Current_Authority_Additive_Modernization.md",
+      "version": "3.0.0",
+      "bytes": 67129,
+      "physical_lines": 2829,
+      "sha256": "8c9ed1289b11fe54f9dcc2c14539915afb79998f1e3c751ea2088d3fe5cf8238",
+      "status": "COMPLETE_STATIC_DESIGN_OWNER_REVIEW_REQUIRED",
+      "immediate_source": "Character_Archetype_Framework_v2.md",
+      "source_exact_prefix_preserved": true,
+      "implementation_authorized": false
+    },
+    {
+      "authority_key": "AncillaryAndRetainer",
+      "filename": "Ancillary_and_Retainer_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "version": "2.0.0",
+      "bytes": 33991,
+      "physical_lines": 1225,
+      "sha256": "a925145de33ae2dee07874388cfa56c91073f7df283f02dc25e4a55d83375b19",
+      "status": "COMPLETE_STATIC_DESIGN_OWNER_REVIEW_REQUIRED",
+      "immediate_source": "Ancillary_and_Retainer_Framework_V1.md",
+      "source_layer_preserved": true,
+      "physical_folder": "Project_Bible/Frameworks/Characters",
+      "implementation_authorized": false
+    }
+  ],
+  "family_control_artifacts": [
+    {
+      "filename": "Character_Frameworks_Current_Authority_Supersession_Ownership_Gap_and_Modernization_Sequence_V1.md",
+      "bytes": 27579,
+      "physical_lines": 860,
+      "sha256": "ef0c11e8be70270ff85ae00f997a71e9b98143f6538fc397073dd41b05c8137f",
+      "role": "FamilyAuditAndModernizationSequence",
+      "status": "COMPLETE_STATIC_DESIGN"
+    },
+    {
+      "filename": "Character_Profile_Authoring_Standard_V3_Owner_Disposition_and_Current_Authority_Gate_V1.md",
+      "bytes": 13069,
+      "physical_lines": 429,
+      "sha256": "49cdcf8aafa93089b0e99b6f5a3f64227cf1169b95b69c4e03fc7e0d48dd3fe4",
+      "role": "ProfileStandardAdoptionStatusAuthority",
+      "status": "HOLD_PENDING_ACTUAL_OWNER_DISPOSITION"
+    },
+    {
+      "filename": "Character_Frameworks_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "bytes": 22380,
+      "physical_lines": 832,
+      "sha256": "c7eb9812f93ddd4f10ac03f2732068f826d8dd407077a58ced4acc5b8fb9ecbe",
+      "role": "CurrentAuthorityNavigationPrecedenceAndLegacyDisposition",
+      "status": "COMPLETE_STATIC_DESIGN"
+    }
+  ],
+  "predecessor_and_supporting_sources": [
+    {
+      "filename": "Character_Foundation_Framework_v1.md",
+      "bytes": 47165,
+      "physical_lines": 1956,
+      "sha256": "915c924f600aee67ac98c03a51e3fc3a7ca5fb9a598fa38eacc9e44d229b23bf",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource"
+    },
+    {
+      "filename": "Character_Network_Framework_v1.md",
+      "bytes": 35863,
+      "physical_lines": 1769,
+      "sha256": "a59d1b23362e27350f821183c2948315a1ba5f2dfc3c44ea1e722c60af2a07bb",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource"
+    },
+    {
+      "filename": "Underage_Character_Framework.md",
+      "bytes": 40690,
+      "physical_lines": 1956,
+      "sha256": "435ac6912171dab39504881930060e31197558c89422ff8ec13bed02818ea771",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource"
+    },
+    {
+      "filename": "Underage_Character_Implementation_Contract.md",
+      "bytes": 5826,
+      "physical_lines": 223,
+      "sha256": "36aa20cedf301409fbbff9abba761256c226f58bde29770400200d7f300fee31",
+      "disposition": "IntegratedSupportingContractRetainedAsProvenance",
+      "compile_validated": false,
+      "runtime_validated": false
+    },
+    {
+      "filename": "Character_Development_Framework_v2.md",
+      "bytes": 34751,
+      "physical_lines": 1611,
+      "sha256": "6ed9d6c376873dbeaf760ef5e688f3cd059ad6444e65503bb3d8f45d3f9070b6",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource"
+    },
+    {
+      "filename": "Character_Archetype_Framework_v2.md",
+      "bytes": 36964,
+      "physical_lines": 1855,
+      "sha256": "af7e23fdfa2193f808eb992e7897e4545593a232cf2efa961429391c6f7c5b4d",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource"
+    },
+    {
+      "filename": "Ancillary_and_Retainer_Framework_V1.md",
+      "disposition": "SupersededAsCurrentAuthorityRetainedAsImmediateSubstantiveSource",
+      "fingerprint_status": "RetainedSourceFingerprintRequiresFinalRepositoryRecheck",
+      "reason": "The retrieved repository file was verified as the substantive source, but the copy-first successor used the complete retrieved text layer rather than a byte-for-byte local prefix. Final repository reconciliation must record the authoritative repository fingerprint."
+    }
+  ],
+  "profile_authoring_standard_package": {
+    "current_controlling_standard": {
+      "filename": "Character_Profile_Authoring_Standard_v2_Refined.md",
+      "status": "CURRENT_CONTROLLING",
+      "fingerprint_status": "REQUIRES_FINAL_REPOSITORY_RECHECK"
+    },
+    "candidate_standard": {
+      "filename": "Character_Profile_Authoring_Standard_V3.md",
+      "version": "3.0.0",
+      "bytes": 83185,
+      "physical_lines": 1554,
+      "sha256": "BF9E557A7D633C2A3EEBD775B49DAA89BDB8BB1BD4F90CA6C30FC556F37DF984",
+      "status": "STATIC_CHECKED_OWNER_REVIEW_CANDIDATE",
+      "owner_adoption": false,
+      "canonical_promotion": false
+    },
+    "owner_review_packet": {
+      "filename": "Character_Profile_Authoring_Standard_V3_Owner_Review_and_Adoption_Packet_V1.md",
+      "bytes": 5454,
+      "physical_lines": 158,
+      "sha256": "E5A27866031BCD170239CA5AB52C96F329D1697CBDB3AFF1145B25043A804CFA",
+      "status": "PENDING_OWNER_REVIEW"
+    },
+    "pending_owner_response": {
+      "filename": "Character_Profile_Authoring_Standard_V3_Owner_Adoption_Response_V1_PENDING.json",
+      "bytes": 1018,
+      "physical_lines": 29,
+      "sha256": "58DDDDE5555F4545A368E0F1C6AED70CE8EC211F4185899AD975DBDE8AA6AEDB",
+      "status": "PENDING_OWNER_RESPONSE",
+      "owner_response_received": false,
+      "owner_signature_received": false,
+      "adoption_validated": false
+    },
+    "owner_review_static_check": {
+      "filename": "Character_Profile_Authoring_Standard_V3_Owner_Review_Static_Check_V1.json",
+      "bytes": 835,
+      "physical_lines": 22,
+      "sha256": "E603A9838328F62D9A78CEEEE8B095CC2F2570289672A5569841629671574AC1",
+      "result": "PASS_PENDING_OWNER_REVIEW_PACKAGE_STATIC_CHECK"
+    },
+    "owner_review_manifest": {
+      "filename": "Character_Profile_Authoring_Standard_V3_Owner_Review_and_Adoption_Packet_V1_Manifest.json",
+      "status": "PASS_PENDING_OWNER_REVIEW_PACKAGE_STATIC_CHECK",
+      "owner_adoption": false,
+      "canonical_promotion": false
+    },
+    "candidate_validation_receipt": {
+      "filename": "Character_Profile_Authoring_Standard_V3_VALIDATION.json",
+      "candidate_sha256": "BF9E557A7D633C2A3EEBD775B49DAA89BDB8BB1BD4F90CA6C30FC556F37DF984",
+      "validation_result": "Passed",
+      "current_authority_field_disposition": "CandidateDocumentValidatedAsCurrentValidationSubjectNotCanonicalOwnerAdoption"
+    },
+    "gate_result": "HOLD_PENDING_ACTUAL_OWNER_DISPOSITION"
+  },
+  "workstream_dispositions": {
+    "Foundation": {
+      "role": "SupportingReadinessMigrationPreflightAndImplementationEvidence",
+      "may_override_current_root_authority": false
+    },
+    "Character_Network_Reconciliation": {
+      "role": "SupportingOwnershipImplementationAndValidationEvidence",
+      "may_override_current_root_authority": false
+    },
+    "Trait_Reputation_Consolidation": {
+      "role": "SupportingLegacyInventoryOwnerRoutingMigrationAndImplementationBoundaryEvidence",
+      "creates_active_runtime_trait_or_reputation_authority": false
+    },
+    "README_Characters.md": {
+      "role": "OutdatedNavigationAndStatusSourcePendingFinalReconciliation",
+      "current_authority": false
+    }
+  },
+  "ownership_contract_checks": {
+    "CharacterFoundationOwnsPersonCoreOnly": "PASS",
+    "CharacterNetworkOwnsDirectedPersonalRelationshipObservationsOnly": "PASS",
+    "UnderageCharacterOwnsChildSafeAgencyTypedRolesAndTransitionInterfaces": "PASS",
+    "CharacterDevelopmentOwnsQualifiedExperienceReadinessAndRecoveryInterpretation": "PASS",
+    "CharacterArchetypeOwnsCurrentStrategicFunctionInterpretation": "PASS",
+    "AncillaryAndRetainerOwnsBoundedAttachmentsNotOfficesOrCapacityCreation": "PASS",
+    "SpecialistStateNotDuplicated": "PASS_AT_STATIC_AUTHORITY_LEVEL",
+    "ProfileDoesNotOwnMutableSpecialistState": "PASS"
+  },
+  "temporal_contract_checks": {
+    "HistoricalProgression": "21MonthsPerStrategicTurn",
+    "BiologicalProgression": "7MonthsPerStrategicTurn",
+    "CampaignSeasonProgression": "OneOrderedStepPerStrategicTurn",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "TracksMaySubstituteForOneAnother": false,
+    "UniversalSevenMonthStrategicTurnRejected": true,
+    "result": "PASS"
+  },
+  "state_layer_checks": {
+    "DefinitionSeparatedFromOpeningState": "PASS",
+    "OpeningStateSeparatedFromRuntimeState": "PASS",
+    "RuntimeStateSeparatedFromTransientEvaluation": "PASS",
+    "KnowledgeViewSeparatedFromObjectiveTruth": "PASS",
+    "PresentationSeparatedFromMutation": "PASS",
+    "SaveStateSeparatedFromMigrationDecision": "PASS",
+    "AdvancedSaveOpeningReplayProhibited": "PASS"
+  },
+  "knowledge_and_visibility_checks": {
+    "UnknownIsNotZero": "PASS",
+    "ContactIsNotKnowledge": "PASS",
+    "KnowledgeIsNotTruth": "PASS",
+    "KinshipDoesNotCreateSharedKnowledge": "PASS",
+    "HiddenAndExternalPrivateStateProtected": "PASS_AT_STATIC_AUTHORITY_LEVEL"
+  },
+  "ai_and_campaign_experience_checks": {
+    "AIReadsEvaluatesExplainsAndProposes": "PASS",
+    "OwnersValidateAndExecute": "PASS",
+    "AIProposalIsNotCommit": "PASS",
+    "CharacterPriorityIsNotCampaignObjective": "PASS",
+    "ObjectiveCompletionDoesNotCreateCapacity": "PASS",
+    "DesignationDoesNotCreateOfficeOrArchetype": "PASS"
+  },
+  "anti_churn_checks": {
+    "AdditionalBroadCharacterFrameworkRequired": false,
+    "SeparateRetainerFrameworkRequired": false,
+    "SeparateHouseholdStaffFrameworkRequired": false,
+    "AdditionalCharacterProfileAuthoringStandardRequired": false,
+    "BroadMechanicalProfileRewriteAuthorized": false,
+    "ImplementationPromotionAuthorized": false,
+    "result": "PASS"
+  },
+  "literal_and_structure_checks": {
+    "current_authority_count": 6,
+    "family_control_artifact_count": 3,
+    "all_current_authorities_have_versions": true,
+    "all_current_authorities_have_sha256": true,
+    "all_current_authorities_block_implementation_promotion": true,
+    "profile_standard_split_recorded": true,
+    "underage_supporting_contract_disposition_recorded": true,
+    "ancillary_folder_placement_recorded": true,
+    "readme_deferred_until_final_reconciliation": true
+  },
+  "validation_limits": {
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "rollback_executed": false,
+    "performance_validated": false,
+    "real_payload_validated": false,
+    "live_project_architecture_verified": false
+  },
+  "documented_repository_recheck_items": [
+    {
+      "filename": "Character_Profile_Authoring_Standard_v2_Refined.md",
+      "required_action": "Record authoritative repository bytes, line count, and SHA-256 during final repository reconciliation."
+    },
+    {
+      "filename": "Ancillary_and_Retainer_Framework_V1.md",
+      "required_action": "Record authoritative repository bytes, line count, and SHA-256 and confirm the V2 source layer remains substantively complete."
+    }
+  ],
+  "nonmutation_receipt": {
+    "source_files_modified": 0,
+    "character_profiles_modified": 0,
+    "registry_entries_created_or_modified": 0,
+    "opening_state_records_created_or_modified": 0,
+    "runtime_records_created_or_modified": 0,
+    "save_schemas_created_or_modified": 0,
+    "migration_executed": false,
+    "payloads_created_or_imported": 0,
+    "unreal_files_modified": 0,
+    "compile_executed": false,
+    "runtime_executed": false,
+    "owner_adoption_fabricated": false
+  },
+  "static_check_result": {
+    "result": "PASS_WITH_DOCUMENTED_REPOSITORY_FINGERPRINT_RECHECKS",
+    "current_authority_spine_complete": true,
+    "source_successor_dispositions_complete": true,
+    "ownership_checks_pass": true,
+    "temporal_checks_pass": true,
+    "profile_standard_adoption_status_honest": true,
+    "ready_for_independent_static_closure_review": true,
+    "ready_for_implementation": false,
+    "next_file": "Character_Frameworks_Current_Authority_Independent_Static_Closure_Review_V1.md"
+  }
+}

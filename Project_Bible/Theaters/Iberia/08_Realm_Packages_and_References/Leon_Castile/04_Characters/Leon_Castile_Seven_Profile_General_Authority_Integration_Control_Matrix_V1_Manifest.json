@@ -1,0 +1,30 @@
+{
+  "document_id": "Manifest.ControlMatrix.LeonCastile.SevenProfileGeneralAuthorityIntegration.V1",
+  "control_matrix_file": "Leon_Castile_Seven_Profile_General_Authority_Integration_Control_Matrix_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile",
+  "bytes": 39032,
+  "physical_lines": 907,
+  "sha256": "2718B0B2A09A65152D28C0305C14305B0911C92F1AA2ED65EA8E2C9C56E2F810",
+  "fence_count": 64,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "status": "StaticCheckedIntegrationControlReviewOnly",
+  "current_collective_authority": "Leon_Castile_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+  "current_collective_disposition": "RetainPendingDownstreamIntegration",
+  "first_substantive_successor": "Leon_Castile_Character_Network_V2_Seven_Profile_Integrated_Authority.md",
+  "Alfonso_profile_attachment_status": "NotInCurrentAttachmentSet",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "document_control_count": 1,
+  "opening_mutation_false_count": 2,
+  "all_checks_pass": true
+}

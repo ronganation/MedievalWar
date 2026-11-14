@@ -1,0 +1,33 @@
+{
+  "document_id": "Manifest.Review.Realm.Wales.AuthorityReferenceStatusReconciliation.V1",
+  "version": "1.0.0",
+  "artifact": {
+    "filename": "Wales_Authority_Reference_and_Status_Reconciliation_V1.md",
+    "bytes": 12438,
+    "physical_lines": 392,
+    "sha256": "aee12d7d969643ba2728c9d08519d4ab99ac91db45eb145bb3cc8b10d374acf8"
+  },
+  "classification": "StaticCheckedReviewOnly",
+  "scope": {
+    "characters": 9,
+    "underage_companions": 1,
+    "dynasties": 3,
+    "network_nodes": 9,
+    "network_edges": 8,
+    "network_mutable_dimensions": 0,
+    "historical_authorities": 7,
+    "historical_package_controls": 4
+  },
+  "next_file": "Wales_README_V2_Current_Authority_Refinement.md",
+  "mutations": {
+    "source_files": 0,
+    "Opening_State": 0,
+    "Registry": 0,
+    "runtime": 0,
+    "real_payload": 0
+  },
+  "static_check": {
+    "filename": "Wales_Authority_Reference_and_Status_Reconciliation_V1_Static_Check.json",
+    "passed": true
+  }
+}

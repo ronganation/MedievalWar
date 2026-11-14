@@ -1,0 +1,24 @@
+{
+  "document_id": "Manifest.CharacterProfile.LeonCastile.GarciaOfGalicia.V1",
+  "authority_file": "Garcia_of_Galicia_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-07",
+  "placement": "Leon_Castile/Character_Profiles",
+  "bytes": 50598,
+  "physical_lines": 1094,
+  "sha256": "AEBDA0AABF2D7EC3E4E74ED27430C0BB5D58598759C4CAE3D9CFF8CB3BABEF47",
+  "fence_count": 62,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "status": "StaticCheckedDevelopedCharacterProfileReviewOnly",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "next_file": "Urraca_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md"
+}

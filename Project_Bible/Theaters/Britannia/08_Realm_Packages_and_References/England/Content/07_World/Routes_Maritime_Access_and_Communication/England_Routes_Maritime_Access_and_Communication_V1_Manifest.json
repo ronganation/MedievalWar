@@ -1,0 +1,42 @@
+{
+  "document_id": "manifest.england.routes_maritime_communication.v1",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Routes_Maritime_Access_and_Communication_V1.md",
+      "sha256": "119a775fb46177563838b2f43fa9a8300760a49b0522d75222def3623b62d23b",
+      "bytes": 49111
+    },
+    {
+      "filename": "England_Routes_Maritime_Access_and_Communication_V1_Static_Check.json",
+      "sha256": "61114da06e436948df00ce7b76ce4ddd31077681154ebe44388c819554c70150",
+      "bytes": 470
+    }
+  ],
+  "preserved_route_ids": [
+    "Route.England.ThamesRoyal",
+    "Route.England.SouthNorth",
+    "Route.England.MerciaWales",
+    "Route.England.Channel",
+    "Route.England.NorthSeaHumber",
+    "Route.England.ScottishApproaches",
+    "Route.England.IrishSea"
+  ],
+  "authorizations": {
+    "route_activation": false,
+    "maritime_access_activation": false,
+    "communication_network_activation": false,
+    "message_activation": false,
+    "warning_activation": false,
+    "interception_activation": false,
+    "opening_state_activation": false,
+    "repository_mutation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "save_rewrite": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

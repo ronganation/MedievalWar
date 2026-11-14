@@ -1,0 +1,20 @@
+{
+  "document": "Billmen_V1_Master_Unit_Profile.md",
+  "sha256": "9c20624075382462faa7359f95e2a51aeae22255c4c65ce1d397afd23972d18a",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "terrain_25": true,
+    "copy_first": true,
+    "heavy_progression": true,
+    "range_model": true,
+    "hook_boundary": true,
+    "adaptation": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

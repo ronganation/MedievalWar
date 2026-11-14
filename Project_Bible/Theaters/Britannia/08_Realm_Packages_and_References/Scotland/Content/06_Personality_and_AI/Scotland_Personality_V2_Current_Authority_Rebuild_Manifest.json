@@ -1,0 +1,56 @@
+{
+  "document_id": "manifest.scotland.personality.v2.current-authority-rebuild",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Scotland_Personality_V1.1_Full_Additive_Current_Authority_Rebuild.md",
+    "bytes": 40366,
+    "physical_lines": 1114,
+    "sha256": "527d33663eea2d539ba13ff24433f79b7d16256ed2e37f2e403a54267b273951",
+    "complete_source_verified": true,
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Scotland_Personality_V2_Current_Authority_Rebuild.md",
+    "bytes": 75774,
+    "physical_lines": 2074,
+    "sha256": "4ddb09b1f8763af5d79a8bc27982d5d3008c4baa7130aec14c619c18f0c5352a"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_fidelity_result": "pass",
+    "source_headings_preserved": 59,
+    "source_typed_ids_preserved": [
+      "Character.Scotland.Fothad_II",
+      "Institution.Scotland.St_Andrews_Ecclesiastical_Community",
+      "Office.Scotland.Bishop_St_Andrews",
+      "Realm.Scotland",
+      "RealmPersonality.Realm.Scotland",
+      "RealmPersonality.Scotland.IntegrativeKingdomBuilding"
+    ],
+    "removed_content": []
+  },
+  "V2_additions": {
+    "identity": "Integrative Kingdom Building Under Incomplete Authority",
+    "core_values": 5,
+    "governing_tensions": 2,
+    "validation_cases": 20,
+    "Gille_project_node_status": "QuarantinedDeprecatedHistoricalMisidentification",
+    "Gille_replacement_created": false,
+    "supported_consumer_people_pending_owner_adoption": 7,
+    "opening_mode_selected": false
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "Realm_AI_objective_activation": false,
+    "personality_transformation": false
+  },
+  "static_check": {
+    "filename": "Scotland_Personality_V2_Current_Authority_Rebuild_Static_Check.json",
+    "passed": true
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "FixturePackageId": "fixtures.seville_taifa.opening_state_1062.unreal_implementation_handoff.v1",
+  "InternalVersion": "1.0.0",
+  "Status": "HANDOFF_GATE_FIXTURES_DEFINED_NOT_EXECUTED",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.md",
+    "InternalVersion": "1.0.0",
+    "Bytes": 16122,
+    "SHA256": "efd4460c2b5a2e75ed09bc1cc1c241d8039dfb76296955af27cc9fcee28480bb",
+    "HashDisposition": "REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "Fixtures": [
+    {
+      "FixtureId": "SEV-UE-HO-001",
+      "Name": "ExpectedProjectPathPresent",
+      "Batch": "B0",
+      "Expected": "C:/UnrealProjects/MedievalWar resolves to the intended project",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-002",
+      "Name": "WrongProjectPathRejected",
+      "Batch": "B0",
+      "Expected": "Fatal stop with project-path diagnostic",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-003",
+      "Name": "ControllingReadmesIdentified",
+      "Batch": "B0",
+      "Expected": "At least one controlling project authority is cited by path",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-004",
+      "Name": "OneDriveProjectConflictRejected",
+      "Batch": "B0",
+      "Expected": "Fatal stop until authority resolution",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-005",
+      "Name": "InspectionNoMutation",
+      "Batch": "B0",
+      "Expected": "Source and generated-file mutation counts remain zero",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-006",
+      "Name": "TwelveInterfaceFamiliesReviewed",
+      "Batch": "B1",
+      "Expected": "Each required family receives evidence-backed disposition",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-007",
+      "Name": "UnownedGapBlocksDependentBatch",
+      "Batch": "B1",
+      "Expected": "Dependent batch remains blocked",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-008",
+      "Name": "SevilleLocalFrameworkRejected",
+      "Batch": "B1",
+      "Expected": "Local replacement framework proposal is rejected",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-009",
+      "Name": "TemporalTracksRemainIndependent",
+      "Batch": "B2",
+      "Expected": "Historical Biological and Campaign Season mappings remain separate",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-010",
+      "Name": "OwnerRoutingCountProtected",
+      "Batch": "B2",
+      "Expected": "Exactly 18 stable owner requests",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-011",
+      "Name": "ExplicitEmptyCountProtected",
+      "Batch": "B2",
+      "Expected": "Exactly 70 explicit-empty collections",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-012",
+      "Name": "DefinitionRuntimeLeakageRejected",
+      "Batch": "B2",
+      "Expected": "Definition-family runtime instance count remains zero",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-013",
+      "Name": "UnknownDefaultSynthesisRejected",
+      "Batch": "B2",
+      "Expected": "Unknown and IntentionalEmpty remain typed non-values",
+      "MutationExpected": 0
+    },
+    {
+      "FixtureId": "SEV-UE-HO-014",
+      "Name": "ProductionPromotionNotAutomatic",
+      "Batch": "B6",
+      "Expected": "Passing prior gates does not activate production content",
+      "MutationExpected": 0
+    }
+  ],
+  "Summary": {
+    "Definitions": 14,
+    "Executed": 0,
+    "Passed": 0,
+    "Failed": 0,
+    "CurrentStatus": "NOT_RUN_0_OF_14"
+  },
+  "ExecutionContract": {
+    "ReadOnlyForB0AndB1": true,
+    "AuthoritativeMutationAllowed": false,
+    "PerFixtureDiagnosticsRequired": true,
+    "PerFixtureTraceHashRequired": true,
+    "RollbackEvidenceRequiredOnFailure": true
+  },
+  "NextAction": "Execute only after the corresponding batch dependencies and owner gates are satisfied."
+}

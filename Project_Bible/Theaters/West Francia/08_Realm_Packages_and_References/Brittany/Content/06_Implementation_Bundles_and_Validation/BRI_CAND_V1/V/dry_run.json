@@ -1,0 +1,17 @@
+{
+  "blocker_ids": [
+    "BRI_IMPL_001",
+    "BRI_IMPL_002",
+    "BRI_IMPL_003",
+    "BRI_IMPL_004",
+    "BRI_IMPL_005",
+    "BRI_IMPL_007",
+    "BRI_IMPL_008",
+    "BRI_IMPL_009"
+  ],
+  "importer_execution": false,
+  "project_write_count": 0,
+  "result": "PASS_WITH_BLOCKERS",
+  "run_mode": "StaticBundleSelfValidation",
+  "unreal_project_mutation_count": 0
+}

@@ -1,0 +1,40 @@
+{
+  "document_id": "manifest.scotland.authority_coverage_integration.v1",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "inputs": [
+    {
+      "filename": "Scotland_Source_Inventory_V1.1_Current_Authority_Refinement.md",
+      "sha256": "fb9f3813ce3acc0846e393f26ec2e3772639ce8a6b167718fc68d036f424d120",
+      "bytes": 33411
+    },
+    {
+      "filename": "Scotland_Source_Authority_Gap_and_Identity_Review.md",
+      "sha256": "f9096f74e92e3a8e09ade035121bd91ff0471354a40f6b5d049cf0055a242a23",
+      "bytes": 37517
+    }
+  ],
+  "files": [
+    {
+      "filename": "Scotland_Authority_Coverage_and_Integration_Review_V1.md",
+      "sha256": "0f7e42e368f4da9209a5de55c29c04da6ea33b3fd428ab7ee1cc28af1c8983e2",
+      "bytes": 22602
+    },
+    {
+      "filename": "Scotland_Authority_Coverage_and_Integration_Review_V1_Static_Check.json",
+      "sha256": "a5717e6692503fa38960b90f2b4566a47eaec0e91050a5436e154c1734082c54",
+      "bytes": 1163
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "file_move_or_delete": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

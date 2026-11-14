@@ -1,0 +1,37 @@
+{
+  "artifact": "Adela_of_France_Countess_of_Flanders_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.0.0",
+  "sha256": "b63a8d14088e537e500dde4da02583fceab4bae5294fe0ae2e562a9334f8b026",
+  "bytes": 46671,
+  "lines": 1121,
+  "character": "Adela of France, Countess of Flanders",
+  "benchmark_scope": "CrossTheaterDevelopedWomenRulerHouseholdAndRealmAnchorProfiles",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "stable_footer_count": 1,
+    "required_modules_missing": [],
+    "benchmark_profiles_named": 9,
+    "AI_reason_codes": 25,
+    "validation_fixtures": 16,
+    "nonmutation": true
+  },
+  "all_critical_checks_pass": true,
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Person": 0,
+    "TitleOffice": 0,
+    "Mandate": 0,
+    "Relationships": 0,
+    "Institution": 0,
+    "PropertyTreasury": 0,
+    "Schema": 0,
+    "Save": 0,
+    "Unreal": 0,
+    "Runtime": 0
+  },
+  "next_file": "Baldwin_of_Mons_V1_Developed_Character_Profile_Authority.md"
+}

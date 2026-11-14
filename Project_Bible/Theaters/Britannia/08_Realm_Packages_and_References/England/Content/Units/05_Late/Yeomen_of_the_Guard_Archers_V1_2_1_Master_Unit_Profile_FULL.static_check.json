@@ -1,0 +1,19 @@
+{
+  "document": "Yeomen_of_the_Guard_Archers_V1_2_1_Master_Unit_Profile_FULL.md",
+  "sha256": "f53d10773fb4ea7eda711565e5e3061e9141ecf9acd6c0e9410d712dd4e930e6",
+  "pass": true,
+  "checks": {
+    "single_title": true,
+    "identity": true,
+    "predecessor": true,
+    "chronology_consistent": true,
+    "no_regencys": true,
+    "no_malformed_succession": true,
+    "generic_owner_residue": true,
+    "crown_sections": true,
+    "terrain_rows_25": true,
+    "three_track": true,
+    "no_escaped_underscores": true,
+    "stable_footer": true
+  }
+}

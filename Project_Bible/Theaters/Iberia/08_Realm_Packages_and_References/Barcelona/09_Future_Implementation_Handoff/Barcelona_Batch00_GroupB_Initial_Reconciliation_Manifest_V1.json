@@ -1,0 +1,29 @@
+{
+  "group": "Barcelona Batch 00 Group B Initial Reconciliation",
+  "revisionDate": "2026-09-11",
+  "files": [
+    {
+      "filename": "Barcelona_Batch00_Owner_Dependency_and_Receipt_Map_V1.md",
+      "bytes": 13955,
+      "lines": 361,
+      "sha256": "c2051b57c22b395d29ef3b33534e8623a4da9010759d2b168c638449367f35c8"
+    },
+    {
+      "filename": "Barcelona_Batch00_Companion_Family_and_Collision_Report_V1.md",
+      "bytes": 7101,
+      "lines": 163,
+      "sha256": "09c922f1bb99369b1b824570ae6811f25b3c7b3ba29e93970768d0844ee6109d"
+    },
+    {
+      "filename": "Barcelona_Batch00_Blocker_Register_Current_Evidence_Addendum_V1.md",
+      "bytes": 4271,
+      "lines": 126,
+      "sha256": "fcc082ffc5c78a8e27dbd1eceab98d15d0de71056c1938fe8549e76b8c32144c"
+    }
+  ],
+  "result": "PASS_STATIC_SCOPE",
+  "sourceFilesOverwritten": 0,
+  "blockersClosed": 0,
+  "ownerApprovalsInferred": 0,
+  "implementationStarted": false
+}

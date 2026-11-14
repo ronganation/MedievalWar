@@ -1,0 +1,31 @@
+{
+  "document_id": "Manifest.AI.Realm.Wales.V3.Integrated",
+  "version": "3.0.0",
+  "method": "exact V2 source bytes followed by additive V3 layer",
+  "source": {
+    "filename": "Wales_AI.md",
+    "bytes": 42159,
+    "sha256": "cd486af41675569c0a015545017ef2fdd40f63c06d85fdc316254d7226dff015"
+  },
+  "separator": {
+    "bytes": 72,
+    "content": "ADDITIVE V3 LAYER boundary comment"
+  },
+  "v3_layer": {
+    "source_file": "Wales_AI_V3_FULL.md",
+    "marker": "## Wales AI V3 Current-Authority Rebuild",
+    "bytes": 47545,
+    "sha256": "bd8cb052a5224f2295af8adc571df033777a2f59f3a107711252f2627b89cd28"
+  },
+  "output": {
+    "filename": "Wales_AI_V3_Integrated.md",
+    "bytes": 89776,
+    "sha256": "6b7f7b591ef9f2b6bbb7954e8211b31f2be2facfaee434345a50e13c5670fe66"
+  },
+  "mutations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "runtime": false,
+    "registry": false
+  }
+}

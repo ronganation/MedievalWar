@@ -1,0 +1,27 @@
+{
+  "document_id": "static-check.wales.historical-emergence.v1",
+  "version": "1.0.0",
+  "filename": "Wales_Historical_Emergence.md",
+  "bytes": 42453,
+  "physical_lines": 1033,
+  "sha256": "5bc68c412c9a9c82c64db2f41cae93c435ecb4868228a68c7a30b98d32cb4906",
+  "checks": {
+    "pathways_14": true,
+    "competition_5": true,
+    "opening_empty": true,
+    "source_chain": true,
+    "gruffudd_boundary": true,
+    "underage_gate": true,
+    "st_davids": true,
+    "three_tracks": true,
+    "validation_25": true,
+    "no_activation": true,
+    "honest_validation": true,
+    "removed_empty": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "next_phase": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

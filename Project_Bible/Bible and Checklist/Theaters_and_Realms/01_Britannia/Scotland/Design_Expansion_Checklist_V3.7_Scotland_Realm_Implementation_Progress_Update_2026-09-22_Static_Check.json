@@ -1,0 +1,22 @@
+{
+  "document_id": "mw.design-expansion-checklist.3.7.scotland-realm-implementation-progress.2026-09-22",
+  "result": "PASS",
+  "checks": {
+    "document_id": true,
+    "authority": true,
+    "ue58": true,
+    "three_track": true,
+    "final_decision": true,
+    "full_chain": true,
+    "families": true,
+    "firewalls": true,
+    "next_wales": true,
+    "footer": true,
+    "no_escaped_headers": true
+  },
+  "markdown_sha256": "AA1BA0872E47923DA0424B5C1D7D1140E021B84585D23FC7E6A5C546E38DB2CB",
+  "markdown_bytes": 17233,
+  "markdown_lines": 421,
+  "substantive_sections": 12,
+  "production_authority": false
+}

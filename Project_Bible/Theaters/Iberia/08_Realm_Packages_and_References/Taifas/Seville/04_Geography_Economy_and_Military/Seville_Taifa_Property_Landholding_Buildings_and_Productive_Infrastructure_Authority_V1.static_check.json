@@ -1,0 +1,62 @@
+{
+  "ArtifactId": "Seville_Taifa_Property_Landholding_Buildings_and_Productive_Infrastructure_Authority_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_DEVELOPED_REALM_PROPERTY_INFRASTRUCTURE_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "61bb5736981a1dfcfa3ae3b91d4f7b473cd09aaf9f4eca9359cd8bd8ea027700",
+  "SourceBytes": 35937,
+  "Counts": {
+    "PropertyFrameworks": 1,
+    "LandholdingFrameworks": 1,
+    "BuildingFrameworks": 1,
+    "ProductiveInfrastructureFrameworks": 1,
+    "SettlementPropertySurfaces": 7,
+    "PropertyTypeDefinitions": 12,
+    "BuildingFunctionDefinitions": 14,
+    "OpeningPropertyRecords": 0,
+    "OpeningLandholdingRecords": 0,
+    "OpeningBuildingInstances": 0,
+    "OpeningProductiveSiteInstances": 0,
+    "OpeningConstructionProjects": 0,
+    "OpeningMutations": 0
+  },
+  "Protections": {
+    "PoliticalControlEqualsOwnership": false,
+    "BuildingEqualsInstitution": false,
+    "StorageEqualsStockpile": false,
+    "WorkshopEqualsProduction": false,
+    "FortressEqualsGarrison": false,
+    "HuelvaSaltesMerge": false,
+    "FaroDuplicate": false,
+    "AlgecirasFacilityInference": false,
+    "AIProposalOnly": true
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryMutated": false,
+    "OpeningStateMutated": false,
+    "PropertyInventoryValidated": false,
+    "BuildingInventoryValidated": false,
+    "ProductiveCapacityValidated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Historical_Memory_Momentum_and_Conditional_Emergence_Authority_V1.md."
+}

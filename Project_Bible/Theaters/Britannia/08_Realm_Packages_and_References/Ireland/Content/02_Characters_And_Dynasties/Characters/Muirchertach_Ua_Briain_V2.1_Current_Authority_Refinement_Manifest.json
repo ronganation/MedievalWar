@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_file": "Muirchertach_Ua_Briain_Refined.md",
+  "source_reference": "turn14search24",
+  "source_bytes": 28683,
+  "source_sha256": "96a11055e172073ebf131dd5132a04ce2cd71b0b44b8b203b05a1dd6a4aee646",
+  "source_heading_count": 75,
+  "authority_file": "Muirchertach_Ua_Briain_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 51736,
+  "authority_sha256": "1f4e81786a93f4f3f0cbdb8a3cc2897a79c7980b3f6ac1116adabfbb9671aecd",
+  "additive_bytes": 23053,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "static_check_file": "Muirchertach_Ua_Briain_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "a4420200383c32f6c1f8bc7fde2e5d5fedf1240a12069dd1ab0851cf4bda5dc2",
+  "validation_scope": "content static checks only; no compile runtime migration opening-state underage-runtime or payload validation"
+}

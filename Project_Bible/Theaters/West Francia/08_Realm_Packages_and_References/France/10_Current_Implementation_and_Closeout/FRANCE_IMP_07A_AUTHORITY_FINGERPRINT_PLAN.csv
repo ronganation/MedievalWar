@@ -1,0 +1,14 @@
+Order,AuthorityFile,Role,FingerprintRequirement,FailureDisposition
+1,France_Army_Host_Garrisons_and_Military_Capability_Authority_V1.md,Military capability authority,SHA256 or verified enterprise identity before implementation,STOP before mutation
+2,France_Recruitment_Pools_Units_and_Replenishment_Authority_V1.md,Recruitment and replenishment authority,SHA256 or verified enterprise identity before implementation,STOP before mutation
+3,France_Supply_Logistics_Transport_and_Recovery_Authority_V1.md,Supply logistics transport and recovery authority,SHA256 or verified enterprise identity before implementation,STOP before mutation
+4,France_Territory_Settlements_Geography_and_Climate_Authority_V1.md,Territory dependency,SHA256 or verified enterprise identity before implementation,STOP before mutation
+5,France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md,Route and access dependency,SHA256 or verified enterprise identity before implementation,STOP before mutation
+6,France_Communities_Culture_Population_and_Institutions_Authority_V1.md,Population and community dependency,SHA256 or verified enterprise identity before implementation,STOP before mutation
+7,France_Economy_Property_Revenue_and_Treasury_Authority_V1.md,Economy and resource dependency,SHA256 or verified enterprise identity before implementation,STOP before mutation
+8,France_Opening_State_1062_V3_1_Current_Authority_Refinement_FULL.md,Read-only opening boundary,SHA256 or verified enterprise identity before implementation,STOP before mutation
+9,France_ID_Registry_V3_Developed_Realm_Parity_Candidate_Reconciliation.md,Review-only identifier boundary,SHA256 or verified enterprise identity before implementation,STOP before mutation
+10,Military_Content_Roster_Recruitment_and_Development_Authority_V1.md,Shared military content authority,Physical discovery and SHA256 required,STOP before mutation
+11,Military_Strategic_Decision_Inputs_V1.md,Shared strategic military authority,Physical discovery and SHA256 required,STOP before mutation
+12,Regional_Military_Enclave_and_Controller_Recruitment_Framework_V1.md,Regional recruitment framework,Physical discovery and SHA256 required,STOP before mutation
+13,FRANCE-IMP-06B execution receipt and evidence manifest,Accepted predecessor gate,SHA256 and accepted status required,STOP before mutation

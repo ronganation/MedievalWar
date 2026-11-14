@@ -1,0 +1,31 @@
+{
+  "DocumentType": "DevelopedRealmParityManifest",
+  "CreationMethod": "FreshStart",
+  "AttachedModels": [
+    "France V2",
+    "Sweden V1.2",
+    "Brittany V1.2",
+    "Aquitaine V2"
+  ],
+  "Artifact": {
+    "filename": "Burgundy_Character_Authorities_V1_Developed_Realm_Parity_Authority.md",
+    "bytes": 77088,
+    "lines": 1647,
+    "sha256": "558f1950ed78dd747596d216a744c8cc0c46477404af4d7e43bddee17687d985"
+  },
+  "PriorBurgundyCharacterFilesConsumed": false,
+  "Checks": {
+    "fresh_start": true,
+    "four_models": true,
+    "full_profiles": true,
+    "regional_portfolio": true,
+    "all_cast": true,
+    "three_tracks": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "footer_once": true,
+    "end_marker": true
+  },
+  "Result": "Pass"
+}

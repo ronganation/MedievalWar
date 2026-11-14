@@ -1,0 +1,25 @@
+{
+  "document_id": "static-check.review.realm.wales.package.freeze-readiness.v1",
+  "artifact": "Wales_Realm_Package_Freeze_Readiness_Review_V1.md",
+  "bytes": 20908,
+  "physical_lines": 730,
+  "sha256": "e9dfd84ca635706bf4f839e5bb4bf54f89b9e3be141f32c6ae27156b800c3b90",
+  "checks": {
+    "filename_matches": true,
+    "json_inputs_referenced": true,
+    "organized_structure_present": true,
+    "freeze_false": true,
+    "seven_decisions": true,
+    "st_davids_blockers": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_mutation": true,
+    "next_file": true,
+    "no_em_dash": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

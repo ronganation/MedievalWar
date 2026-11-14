@@ -1,0 +1,24 @@
+{
+  "all_required_inputs_embedded": false,
+  "reason": "Only the current architecture-map pair was mounted in the build environment; missing artifacts are referenced, not fabricated.",
+  "required_external_inputs": [
+    "Brittany_Current_Machine_Readable_Candidate_Bundle_V1.zip",
+    "Brittany_UE5_8_Candidate_Schema_Dry_Run_and_Fixture_Pack_V1.zip",
+    "Brittany_Realm_Implementation_Data_Contract_and_Importer_Preparation_V1.md",
+    "Brittany_Realm_Package_Current_Authority_Index_V1.md"
+  ],
+  "source_fingerprints": [
+    {
+      "available": true,
+      "bytes": 22349,
+      "file": "Brittany_UE5_8_Project_Native_Architecture_Map_V1.md",
+      "sha256": "9CD643B92A86A0C077F8EF0F68A3DCF5800CD445B84514F4866ED0B32A9EAEA8"
+    },
+    {
+      "available": true,
+      "bytes": 1121,
+      "file": "Brittany_UE5_8_Project_Native_Architecture_Map_V1_Manifest.json",
+      "sha256": "D09C5CA0431289CE66563D2D8CD50206744A7C773CF583512C6C7CB68170D285"
+    }
+  ]
+}

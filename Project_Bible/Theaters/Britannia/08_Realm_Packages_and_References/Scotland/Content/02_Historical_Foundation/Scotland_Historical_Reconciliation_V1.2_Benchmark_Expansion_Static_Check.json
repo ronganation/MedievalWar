@@ -1,0 +1,31 @@
+{
+  "document_id": "static-check.scotland.historical-reconciliation.v1.2.benchmark",
+  "version": "1.0.0",
+  "immediate_source": "Scotland_Historical_Reconciliation_V1.1_Current_Authority_Refinement.md",
+  "source_bytes": 31924,
+  "source_lines": 1017,
+  "source_sha256": "b3c525bd3551958906f5f72ca9209e7a7b3963029b2d773bce230a905b235b66",
+  "successor": "Scotland_Historical_Reconciliation_V1.2_Benchmark_Expansion.md",
+  "successor_bytes": 73769,
+  "successor_lines": 1784,
+  "successor_sha256": "747fb0c7b0d47325c4fa043bafc59b9f20b1df69a0d5aeeb138a9c4163a2ad7d",
+  "checks": {
+    "literal_immediate_source_prefix": true,
+    "successor_larger": true,
+    "all_source_sections_preserved": true,
+    "all_benchmark_sections_present": true,
+    "benchmark_precedents": true,
+    "current_baseline": true,
+    "three_track": true,
+    "fact_ledger": true,
+    "validation_matrix": true,
+    "eight_people": true,
+    "entity_separation": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "honest_validation": true,
+    "stable_footer": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

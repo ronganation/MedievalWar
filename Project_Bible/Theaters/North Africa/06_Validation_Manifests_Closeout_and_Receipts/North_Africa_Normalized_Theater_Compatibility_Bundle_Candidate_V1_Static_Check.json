@@ -1,0 +1,273 @@
+{
+  "document_id": "mw.static-check.north-africa.normalized-theater-compatibility-bundle-candidate.v1",
+  "stable_document_id": "CampaignTheater.NorthAfrica.NormalizedTheaterCompatibilityBundleCandidate.StaticCheck",
+  "receipt_id": "receipt.static-check.campaign-theater.north-africa.normalized-compatibility.candidate.v1",
+  "filename": "North_Africa_Normalized_Theater_Compatibility_Bundle_Candidate_V1_Static_Check.json",
+  "version": "1.0.0",
+  "revision_date": "2026-09-14",
+  "placement": "Project_Bible/Theaters/North Africa/06_Validation_Manifests_Closeout_and_Receipts",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "status": "STATIC_CHECK_PASS",
+  "subjects": [
+    {
+      "filename": "North_Africa_Normalized_Theater_Compatibility_Bundle_Candidate_V1.json",
+      "sha256": "adc8258550bae7e304c21c97442f1ee6d37303aa4bcd633a1969276009f8d156",
+      "bytes": 14256,
+      "lines": 368
+    },
+    {
+      "filename": "North_Africa_Normalized_Theater_Compatibility_Bundle_Candidate_V1_Manifest.json",
+      "sha256": "9ffd892131a2283a9188a3ef6492906daced858dc8b220a97537a1e1a512099d",
+      "bytes": 3676,
+      "lines": 84
+    }
+  ],
+  "summary": {
+    "check_count": 29,
+    "passed": 29,
+    "failed": 0,
+    "warnings": 0,
+    "fatal_failures": []
+  },
+  "checks": {
+    "bundle_json_parse": {
+      "result": "PASS",
+      "severity": "FATAL"
+    },
+    "document_id_exact": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": "mw.bundle.north-africa.normalized-theater-compatibility.candidate.v1",
+      "observed": "mw.bundle.north-africa.normalized-theater-compatibility.candidate.v1"
+    },
+    "bundle_status_non_authoritative": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": "NonAuthoritativeNormalizedCompatibilityBundleCandidate",
+      "observed": "NonAuthoritativeNormalizedCompatibilityBundleCandidate"
+    },
+    "source_authorities_present": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": 8,
+      "observed": 8
+    },
+    "association_record_count": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": 2,
+      "observed": 2
+    },
+    "single_primary_candidate": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": 1,
+      "observed": 1
+    },
+    "single_expeditionary_external_candidate": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": 1,
+      "observed": 1
+    },
+    "primary_activation_not_authorized": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": false,
+      "observed": [
+        false
+      ]
+    },
+    "external_opening_association_false": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": false,
+      "observed": [
+        false
+      ]
+    },
+    "primary_uniqueness_maximum_one": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": 1,
+      "observed": 1
+    },
+    "duplicate_active_package_prohibited": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": false,
+      "observed": false
+    },
+    "source_realm_identity_preserved": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": "realm.almoravid_movement_state",
+      "observed": "realm.almoravid_movement_state"
+    },
+    "shortened_realm_identity_review_only": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": "ReviewOnlyPendingDirectMigrationDecision",
+      "observed": "ReviewOnlyPendingDirectMigrationDecision"
+    },
+    "silent_normalization_prohibited": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": false,
+      "observed": false
+    },
+    "alias_chains_prohibited": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": false,
+      "observed": false
+    },
+    "opening_state_final_target_unresolved": {
+      "result": "PASS",
+      "severity": "FATAL"
+    },
+    "opening_state_replay_not_authorized": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": false,
+      "observed": false
+    },
+    "marrakesh_not_completed_at_opening": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": false,
+      "observed": false
+    },
+    "visual_label_not_definition": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": false,
+      "observed": false
+    },
+    "visual_color_not_control": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": false,
+      "observed": false
+    },
+    "regional_recruitment_no_creation_shortcuts": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": "all false",
+      "observed": {
+        "theater_association_creates_recruitment_access": false,
+        "realm_control_creates_population": false,
+        "regional_unit_definition_requires_faction_duplicate": false,
+        "research_creates_people": false,
+        "research_creates_equipment": false,
+        "building_creates_horses": false,
+        "route_reference_creates_supply_delivery": false,
+        "confederational_participant_creates_unlimited_pool": false
+      }
+    },
+    "historical_track_21_months": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": 21,
+      "observed": 21
+    },
+    "biological_track_7_months": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": 7,
+      "observed": 7
+    },
+    "campaign_season_order": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ],
+      "observed": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ]
+    },
+    "ten_owner_decisions_retained": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": 10,
+      "observed": 10
+    },
+    "accepted_owner_receipts_zero": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": 0,
+      "observed": 0
+    },
+    "all_promotion_gates_not_passed": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": false,
+      "observed": false
+    },
+    "mutation_total_zero": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": 0,
+      "observed": 0
+    },
+    "all_machine_promotion_holds": {
+      "result": "PASS",
+      "severity": "FATAL",
+      "expected": "all HOLD",
+      "observed": {
+        "canonical_registry_promotion": "HOLD",
+        "association_activation": "HOLD",
+        "opening_state_execution": "HOLD",
+        "almoravid_package_migration": "HOLD",
+        "importer_consumption": "HOLD",
+        "unreal_implementation": "HOLD"
+      }
+    }
+  },
+  "evidence_boundary": {
+    "validated": "JSON syntax, internal field consistency, association separation, identity preservation, temporal contract, owner-decision retention, zero-mutation ledger, and promotion holds.",
+    "not_validated": [
+      "controlling Registry owner approval",
+      "association owner approval",
+      "canonical Theater promotion",
+      "Opening State execution",
+      "importer execution",
+      "Unreal compile or runtime behavior",
+      "save and load",
+      "migration",
+      "replay",
+      "performance"
+    ]
+  },
+  "mutation_receipt": {
+    "registry_mutations": 0,
+    "association_activations": 0,
+    "realm_package_files_copied": 0,
+    "realm_package_files_moved": 0,
+    "realm_package_files_deleted": 0,
+    "opening_state_mutations": 0,
+    "payload_mutations": 0,
+    "unreal_project_mutations": 0,
+    "runtime_mutations": 0
+  },
+  "gate_result": {
+    "manifest": "PASS",
+    "static_check": "PASS",
+    "candidate_bundle_retention": "GO",
+    "canonical_registry_promotion": "HOLD",
+    "association_activation": "HOLD",
+    "opening_state_execution": "HOLD",
+    "almoravid_package_migration": "HOLD",
+    "importer_consumption": "HOLD",
+    "unreal_implementation": "HOLD"
+  }
+}

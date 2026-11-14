@@ -1,0 +1,20 @@
+﻿{
+    "document_id":  "mw.shared-opening-state.owner-routing-reconciliation-manifest.v1",
+    "generated_utc":  "2026-08-25T00:51:46.3282582Z",
+    "classification":  "IsolatedTransactionalAdapterPresentProductionInvocationNotLocated",
+    "active_source_mutation_performed":  false,
+    "opening_state_application_performed":  false,
+    "item_4_complete":  false,
+    "records":  [
+                    {
+                        "file":  "Shared_Opening_State_Importer_Owner_Routing_Reconciliation_V1.json",
+                        "bytes":  1028889,
+                        "sha256":  "98FB01F7901FE586DFEC9343851B330BD56ACDA0527C367FB2EA01FF3DAE4C3A"
+                    },
+                    {
+                        "file":  "Shared_Opening_State_Importer_and_Owner_Adapter_Boundary_V1.md",
+                        "bytes":  1836,
+                        "sha256":  "6B68D09AEE5484C6A327C953A61A5C8F999E3D26B8D5E0AF23C09BE4D30ACA19"
+                    }
+                ]
+}

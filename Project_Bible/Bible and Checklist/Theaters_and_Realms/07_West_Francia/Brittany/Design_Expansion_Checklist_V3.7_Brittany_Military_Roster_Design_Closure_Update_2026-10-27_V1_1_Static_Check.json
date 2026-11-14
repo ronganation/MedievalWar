@@ -1,0 +1,104 @@
+{
+  "DocumentId": "static-check.design-expansion-checklist.3.7.brittany-military-roster-closure.2026-10-27.v1-1",
+  "AuthorityFile": "Design_Expansion_Checklist_V3.7_Brittany_Military_Roster_Design_Closure_Update_2026-10-27_V1_1.md",
+  "AuthoritySHA256": "009A9DEDF3A65585FDD9626A7FBAFC3F36C3CDBB8339ACC1AF2D6E7C51A04336",
+  "Checks": [
+    {
+      "Name": "FilenameCorrect",
+      "Result": "Pass"
+    },
+    {
+      "Name": "VersionCorrect",
+      "Result": "Pass"
+    },
+    {
+      "Name": "PredecessorPreserved",
+      "Result": "Pass"
+    },
+    {
+      "Name": "CopyFirstReceipt",
+      "Result": "Pass"
+    },
+    {
+      "Name": "PriorUpdateReconciliation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "PlacementLineage",
+      "Result": "Pass"
+    },
+    {
+      "Name": "CurrentAuthorityPrecedence",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ProfileArithmetic",
+      "Result": "Pass"
+    },
+    {
+      "Name": "EarlyTotal",
+      "Result": "Pass"
+    },
+    {
+      "Name": "HighTotal",
+      "Result": "Pass"
+    },
+    {
+      "Name": "LateProfilesAllPresent",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ThreeTrackPreserved",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEscapedUnderscores",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEscapedListMarkers",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FencesBalanced",
+      "Result": "Pass"
+    },
+    {
+      "Name": "MasterChecklistUnmodified",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRegistryMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoOpeningMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRuntimeMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoUnrealMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "LateScopeStillPartial",
+      "Result": "Pass"
+    }
+  ],
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "Summary": {
+    "TotalChecks": 21,
+    "Passes": 21,
+    "Failures": 0,
+    "Result": "Pass"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationOwnerReviewPacket",
+    "name": "Trait Reputation Owner Review Packet 03",
+    "version": "1.2",
+    "status": "StaticDecisionMerged",
+    "authority_class": "Destination Owner Review Packet",
+    "requested_destination_authority": "Character Foundation health-state boundary; catalogue definition remains legacy pending Trait consolidation"
+  },
+  "routing": {
+    "route_id": "trait-reputation.owner-route.003.v1",
+    "source_submission_file": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+    "source_submission_sha256": "68d4f5ac33a69e25ca07ed2e0b11130e33994f9a195df7617b02083678887b60",
+    "source_submission_id": "trait-reputation.owner-acceptance.003.v1",
+    "owner_group_id": "trait-reputation.owner-group.003",
+    "delivery_state": "StaticDecisionMerged",
+    "external_delivery_executed": false,
+    "repository_target_hint": "Owner_Review_Packets/03_Character_Foundation_health_state_boundary_catalogue_definition_remains_legacy_pending_Tra_Owner_Review_Packet_V1.json",
+    "decision_return_target": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+    "mutation_permitted": false
+  },
+  "review_contract": {
+    "allowed_group_and_entry_decisions": [
+      "AcceptAsRouted",
+      "AcceptWithChanges",
+      "RejectOwnership",
+      "RelocateToNamedAuthority",
+      "SplitAcrossNamedAuthorities",
+      "RequireMoreEvidence"
+    ],
+    "pending_is_not_acceptance": true,
+    "silence_is_not_acceptance": true,
+    "acceptance_requires_named_authority_and_evidence": true,
+    "accept_with_changes_requires_bounded_change_list": true,
+    "reject_ownership_requires_rationale": true,
+    "relocation_requires_named_target_authority": true,
+    "split_requires_entry_level_target_assignments": true,
+    "require_more_evidence_must_name_required_evidence": true,
+    "partial_entry_decisions_permitted": true,
+    "group_is_resolved_only_when_every_entry_is_resolved": true,
+    "unresolved_entries_remain_non_authoritative": true,
+    "unresolved_entries_remain_quarantined_where_required": true,
+    "decision_does_not_assign_canonical_ids": true,
+    "decision_does_not_authorize_runtime_or_save_mutation": true
+  },
+  "submission": {
+    "submission_id": "trait-reputation.owner-acceptance.003.v1",
+    "owner_group_id": "trait-reputation.owner-group.003",
+    "requested_destination_authority": "Character Foundation health-state boundary; catalogue definition remains legacy pending Trait consolidation",
+    "submission_status": "StaticDecisionResolved",
+    "group_decision": "AcceptWithChanges",
+    "decision_authority": "Trait Reputation Static Owner Decision Pass V1",
+    "decision_date": "2026-08-13",
+    "decision_evidence": [
+      "Character_Foundation_Framework_v1.md",
+      "Trait_and_Reputation_Authority_Planning.md",
+      "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+      "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+    ],
+    "decision_rationale": "JointStaticBoundary",
+    "replacement_or_relocation_authorities": [
+      "Character Foundation health/lifecycle boundary plus future Trait authority for separately approved stable predispositions"
+    ],
+    "entry_count": 6,
+    "entry_ids": [
+      "legacy.character_trait_library.entry.056",
+      "legacy.character_trait_library.entry.058",
+      "legacy.character_trait_library.entry.053",
+      "legacy.character_trait_library.entry.054",
+      "legacy.character_trait_library.entry.057",
+      "legacy.character_trait_library.entry.055"
+    ],
+    "action_counts": {
+      "Reassign": 2,
+      "Refactor": 4
+    },
+    "semantic_class_counts": {
+      "TraitCandidateDefinition": 6
+    },
+    "record_layer_counts": {
+      "TraitDefinitionOrTraitRuntimeInstance_PendingEntryReview": 6
+    },
+    "migration_risk_counts": {
+      "High": 6
+    },
+    "canonical_registry_dependencies": [
+      "TraitCanonicalRegistry"
+    ],
+    "quarantine_states": [
+      "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved"
+    ],
+    "partial_decisions_permitted": true,
+    "group_acceptance_requires_all_entries_resolved": true,
+    "entry_decisions": [
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.056",
+        "entry": "Crippled",
+        "category": "Trait",
+        "audit_action": "Refactor",
+        "semantic_class": "TraitCandidateDefinition",
+        "destination_record_layer": "TraitDefinitionOrTraitRuntimeInstance_PendingEntryReview",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "TraitCanonicalRegistry",
+        "quarantine_state": "ConditionallyResolved_ChangesRequiredBeforeMigration",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Character Foundation health/lifecycle boundary plus future Trait authority for separately approved stable predispositions",
+        "accepted_record_layer": "HealthLifecycleStateOrStableTraitPredisposition_PendingEntrySemanticSplit",
+        "required_changes": [
+          "Route current illness, injury, incapacity, recovery, aging, fertility, and death-adjacent state to Foundation health/lifecycle interfaces or the current health owner.",
+          "Retain only stable predisposition candidates for Trait review.",
+          "Do not duplicate current health state as a trait instance."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Character_Foundation_Framework_v1.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.058",
+        "entry": "Infirm",
+        "category": "Trait",
+        "audit_action": "Reassign",
+        "semantic_class": "TraitCandidateDefinition",
+        "destination_record_layer": "TraitDefinitionOrTraitRuntimeInstance_PendingEntryReview",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "TraitCanonicalRegistry",
+        "quarantine_state": "ConditionallyResolved_ChangesRequiredBeforeMigration",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Character Foundation health/lifecycle boundary plus future Trait authority for separately approved stable predispositions",
+        "accepted_record_layer": "HealthLifecycleStateOrStableTraitPredisposition_PendingEntrySemanticSplit",
+        "required_changes": [
+          "Route current illness, injury, incapacity, recovery, aging, fertility, and death-adjacent state to Foundation health/lifecycle interfaces or the current health owner.",
+          "Retain only stable predisposition candidates for Trait review.",
+          "Do not duplicate current health state as a trait instance."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Character_Foundation_Framework_v1.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.053",
+        "entry": "Robust",
+        "category": "Trait",
+        "audit_action": "Refactor",
+        "semantic_class": "TraitCandidateDefinition",
+        "destination_record_layer": "TraitDefinitionOrTraitRuntimeInstance_PendingEntryReview",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "TraitCanonicalRegistry",
+        "quarantine_state": "ConditionallyResolved_ChangesRequiredBeforeMigration",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Character Foundation health/lifecycle boundary plus future Trait authority for separately approved stable predispositions",
+        "accepted_record_layer": "HealthLifecycleStateOrStableTraitPredisposition_PendingEntrySemanticSplit",
+        "required_changes": [
+          "Route current illness, injury, incapacity, recovery, aging, fertility, and death-adjacent state to Foundation health/lifecycle interfaces or the current health owner.",
+          "Retain only stable predisposition candidates for Trait review.",
+          "Do not duplicate current health state as a trait instance."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Character_Foundation_Framework_v1.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.054",
+        "entry": "Scarred",
+        "category": "Trait",
+        "audit_action": "Refactor",
+        "semantic_class": "TraitCandidateDefinition",
+        "destination_record_layer": "TraitDefinitionOrTraitRuntimeInstance_PendingEntryReview",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "TraitCanonicalRegistry",
+        "quarantine_state": "ConditionallyResolved_ChangesRequiredBeforeMigration",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Character Foundation health/lifecycle boundary plus future Trait authority for separately approved stable predispositions",
+        "accepted_record_layer": "HealthLifecycleStateOrStableTraitPredisposition_PendingEntrySemanticSplit",
+        "required_changes": [
+          "Route current illness, injury, incapacity, recovery, aging, fertility, and death-adjacent state to Foundation health/lifecycle interfaces or the current health owner.",
+          "Retain only stable predisposition candidates for Trait review.",
+          "Do not duplicate current health state as a trait instance."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Character_Foundation_Framework_v1.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.057",
+        "entry": "Sickly",
+        "category": "Trait",
+        "audit_action": "Refactor",
+        "semantic_class": "TraitCandidateDefinition",
+        "destination_record_layer": "TraitDefinitionOrTraitRuntimeInstance_PendingEntryReview",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "TraitCanonicalRegistry",
+        "quarantine_state": "ConditionallyResolved_ChangesRequiredBeforeMigration",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Character Foundation health/lifecycle boundary plus future Trait authority for separately approved stable predispositions",
+        "accepted_record_layer": "HealthLifecycleStateOrStableTraitPredisposition_PendingEntrySemanticSplit",
+        "required_changes": [
+          "Route current illness, injury, incapacity, recovery, aging, fertility, and death-adjacent state to Foundation health/lifecycle interfaces or the current health owner.",
+          "Retain only stable predisposition candidates for Trait review.",
+          "Do not duplicate current health state as a trait instance."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Character_Foundation_Framework_v1.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.055",
+        "entry": "Wounded",
+        "category": "Trait",
+        "audit_action": "Reassign",
+        "semantic_class": "TraitCandidateDefinition",
+        "destination_record_layer": "TraitDefinitionOrTraitRuntimeInstance_PendingEntryReview",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "TraitCanonicalRegistry",
+        "quarantine_state": "ConditionallyResolved_ChangesRequiredBeforeMigration",
+        "decision": "AcceptWithChanges",
+        "accepted_destination_authority": "Character Foundation health/lifecycle boundary plus future Trait authority for separately approved stable predispositions",
+        "accepted_record_layer": "HealthLifecycleStateOrStableTraitPredisposition_PendingEntrySemanticSplit",
+        "required_changes": [
+          "Route current illness, injury, incapacity, recovery, aging, fertility, and death-adjacent state to Foundation health/lifecycle interfaces or the current health owner.",
+          "Retain only stable predisposition candidates for Trait review.",
+          "Do not duplicate current health state as a trait instance."
+        ],
+        "relocation_target": null,
+        "split_targets": [],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Character_Foundation_Framework_v1.md",
+          "Trait_and_Reputation_Authority_Planning.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      }
+    ],
+    "registry_write_permitted": false,
+    "content_write_permitted": false,
+    "runtime_write_permitted": false,
+    "save_write_permitted": false
+  },
+  "review_instructions": [
+    "Preserve the merged static decision and cited evidence.",
+    "Do not assign canonical IDs or authorize registry, content, runtime, or save writes.",
+    "For blocked groups, supply the named current authority before changing Pending.",
+    "For conditional or split decisions, complete required contracts before migration admission."
+  ]
+}

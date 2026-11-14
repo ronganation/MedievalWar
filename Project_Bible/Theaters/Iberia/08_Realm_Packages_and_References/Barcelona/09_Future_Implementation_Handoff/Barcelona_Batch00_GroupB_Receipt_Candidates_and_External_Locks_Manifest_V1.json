@@ -1,0 +1,25 @@
+{
+  "documentId": "Barcelona.Batch00.GroupB.ReceiptCandidatesExternalLocks.Manifest.V1",
+  "revisionDate": "2026-09-11",
+  "status": "PASS_STATIC_SCOPE",
+  "receiptCandidatesCreated": 10,
+  "externalLockFamiliesRecorded": 9,
+  "validOwnerApprovalsFound": 0,
+  "externalOwnerReceiptsFound": 0,
+  "sourceFilesOverwritten": 0,
+  "implementationStarted": false,
+  "files": [
+    {
+      "filename": "Barcelona_Batch00_Record_Family_Owner_Receipt_Candidate_Register_V1.md",
+      "bytes": 12181,
+      "lines": 281,
+      "sha256": "393d515fbd2633e8cac7f70bf184d9d8f859e94f6d62bd70e7aecd7597af93a4"
+    },
+    {
+      "filename": "Barcelona_Batch00_External_Lock_Dependency_and_Disposition_Register_V1.md",
+      "bytes": 6731,
+      "lines": 207,
+      "sha256": "b41439d6b74a620bc4b4bcfbecc0f57194e4e3fb46c8c8f9a202801251c8b320"
+    }
+  ]
+}

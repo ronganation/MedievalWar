@@ -1,0 +1,43 @@
+{
+  "document": "House_Moray_Dynasty_V2_Current_Authority_Rebuild.md",
+  "bytes": 52147,
+  "lines": 1249,
+  "sections": 72,
+  "sha256": "e277036ea05ae5e0675c8ac192525e10fbc538d5e4496ba7d4d8cb003fbb1e9d",
+  "checks": {
+    "filename_preserved": true,
+    "version_preserved": true,
+    "network_current": true,
+    "two_supported": true,
+    "gille_quarantined": true,
+    "historical_dead": true,
+    "no_opening": true,
+    "no_membership": true,
+    "no_network": true,
+    "no_replacement": true,
+    "role_unassigned": true,
+    "not_complete": true,
+    "opening_pending": true,
+    "no_mutation": true,
+    "balanced_fences": true
+  },
+  "observed": {
+    "supported_named_Moray_opening_people": 2,
+    "Gille_project_node_status": "QuarantinedDeprecatedHistoricalMisidentification",
+    "historical_Gille_death_year": 1032,
+    "Gille_opening_participation": false,
+    "replacement_person_created": false
+  },
+  "validation_status": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "passed": true,
+  "failed_checks": []
+}

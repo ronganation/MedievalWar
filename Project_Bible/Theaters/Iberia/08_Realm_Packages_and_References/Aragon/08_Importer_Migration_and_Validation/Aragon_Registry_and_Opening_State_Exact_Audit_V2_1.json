@@ -1,0 +1,184 @@
+{
+  "audit_id": "Audit.RegistryOpeningState.Aragon.V2.1",
+  "version": "2.1.0",
+  "revision_date": "2026-09-09",
+  "result": "PASS_STATIC_EXACT_STRUCTURE__OWNER_AND_EXTERNAL_RECORD_APPROVAL_REQUIRED__CANDIDATE_JSON_BLOCKED",
+  "inputs": {
+    "Aragon_Opening_State_1062_V2_1_Strong_Integrated_Developed_Realm_Parity_Authority.md": "C4BAEA3E85A88973E80A41D8E2AAB5919C143E90EF41841EB1C3BF68D7DDCC1F",
+    "Aragon_Opening_State_1062_V2_1_Strong_Integrated_Developed_Realm_Parity_Authority_Manifest.json": "30070900BB5E54BB8AA39AE09D047603EB57109E5FC0FA1A3AFAD2F903CD21FE"
+  },
+  "findings": [
+    {
+      "id": "ARAGON-EX21-001",
+      "severity": "Fatal",
+      "result": "PASS",
+      "subject": "Five-character opening identity portfolio",
+      "evidence": {
+        "expected": 5,
+        "resolved": 5
+      }
+    },
+    {
+      "id": "ARAGON-EX21-002",
+      "severity": "Fatal",
+      "result": "PASS",
+      "subject": "Permanent two-Sancho separation",
+      "evidence": {
+        "generic_person_id_active": false
+      }
+    },
+    {
+      "id": "ARAGON-EX21-003",
+      "severity": "Fatal",
+      "result": "PASS",
+      "subject": "Three-land operating packets",
+      "evidence": {
+        "packet_count": 3
+      }
+    },
+    {
+      "id": "ARAGON-EX21-004",
+      "severity": "Fatal",
+      "result": "PASS",
+      "subject": "Holder-specific Memory candidate states",
+      "evidence": {
+        "count": 5,
+        "unique": 5
+      }
+    },
+    {
+      "id": "ARAGON-EX21-005",
+      "severity": "Fatal",
+      "result": "PASS",
+      "subject": "Eleven Momentum candidate states",
+      "evidence": {
+        "count": 11,
+        "unique": 11
+      }
+    },
+    {
+      "id": "ARAGON-EX21-006",
+      "severity": "Fatal",
+      "result": "PASS",
+      "subject": "Eleven Emergence candidate states",
+      "evidence": {
+        "count": 11,
+        "unique": 11
+      }
+    },
+    {
+      "id": "ARAGON-EX21-007",
+      "severity": "Fatal",
+      "result": "PASS",
+      "subject": "Unique historical-suite state IDs",
+      "evidence": {
+        "count": 0,
+        "unique": 0
+      }
+    },
+    {
+      "id": "ARAGON-EX21-008",
+      "severity": "Major",
+      "result": "PASS",
+      "subject": "First-Winter opportunity deck",
+      "evidence": {
+        "count": 8,
+        "unique": 8
+      }
+    },
+    {
+      "id": "ARAGON-EX21-009",
+      "severity": "Fatal",
+      "result": "PASS",
+      "subject": "Three-track temporal separation",
+      "evidence": {}
+    },
+    {
+      "id": "ARAGON-EX21-010",
+      "severity": "Fatal",
+      "result": "PASS",
+      "subject": "Zero-mutation receipt",
+      "evidence": {}
+    },
+    {
+      "id": "ARAGON-EX21-011",
+      "severity": "Fatal",
+      "result": "PASS",
+      "subject": "Barbastro dormant shared-owner boundary",
+      "evidence": {}
+    },
+    {
+      "id": "ARAGON-EX21-012",
+      "severity": "Major",
+      "result": "PASS",
+      "subject": "Review, quarantine, Unknown, and later-history firewalls",
+      "evidence": {
+        "review_activation_authorized": false,
+        "quarantine_activation_authorized": false,
+        "unknown_to_zero": false
+      }
+    },
+    {
+      "id": "ARAGON-EX21-013",
+      "severity": "Major",
+      "result": "PASS",
+      "subject": "Finite recruitment and population separation",
+      "evidence": {
+        "finite_pools_required": true,
+        "population_direct_manpower": false,
+        "instant_spam": false
+      }
+    },
+    {
+      "id": "ARAGON-EX21-014",
+      "severity": "Major",
+      "result": "PASS",
+      "subject": "Candidate seed versus runtime separation",
+      "evidence": {
+        "runtime_states_created": 0,
+        "candidate_json_created": 0
+      }
+    },
+    {
+      "id": "ARAGON-EX21-015",
+      "severity": "OwnerGate",
+      "result": "OPEN",
+      "subject": "Exact current-owner approval for candidate record values",
+      "evidence": {
+        "memory_records": 5,
+        "momentum_records": 11,
+        "emergence_records": 11
+      }
+    },
+    {
+      "id": "ARAGON-EX21-016",
+      "severity": "ExternalGate",
+      "result": "OPEN",
+      "subject": "Shared and external endpoint receipts",
+      "evidence": {
+        "barbastro_shared_owner": "Open",
+        "external_reverse_state_locally_created": false
+      }
+    },
+    {
+      "id": "ARAGON-EX21-017",
+      "severity": "Implementation",
+      "result": "NOT_RUN",
+      "subject": "Importer, compile, runtime, save, replay, and performance evidence",
+      "evidence": {}
+    }
+  ],
+  "summary": {
+    "fatal_failures": 0,
+    "passes": 14,
+    "open": 2,
+    "not_run": 1
+  },
+  "authorizations": {
+    "human_readable_authority_owner_review": true,
+    "candidate_json_generation": false,
+    "runtime_activation": false,
+    "unreal_implementation": false
+  },
+  "next_gate": "Current owner approval of candidate Memory, Momentum, and Emergence values plus shared and external endpoint receipts."
+}

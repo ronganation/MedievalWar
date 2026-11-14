@@ -1,0 +1,236 @@
+inventory_version: 1.0.0
+inventory_status: PartialBatchBSectionAndStructureEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+scope:
+  folder: 07_Cross_Authority_Registry_and_Validation
+  manifest_records_reviewed: 10
+  raw_files_directly_available: 2
+  enterprise_full_or_partial_content_records: 8
+  exact_structure_claim_permitted_for_all_records: false
+rules:
+  - ExactCountsRequireCompleteContent
+  - SearchSnippetDoesNotProveAbsentSection
+  - PartialOpenMustRemainPartial
+  - StructureDefectDoesNotAutomaticallyMeanSubstantiveDefect
+  - NoSourceFileRewriteAuthorized
+structure_records:
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    evidence_source: EnterprisePartialOpen
+    content_extent: PartialDisplayedLines0Through754Of1196
+    known_line_count: 1196
+    title_present: true
+    heading_count: UnknownPendingCompleteContentScan
+    structured_block_count: UnknownPendingCompleteContentScan
+    source_register_present: UnknownPendingCompleteContentScan
+    authority_boundary_present: true
+    ownership_map_present: true
+    collision_control_present: true
+    acceptance_criteria_present: UnknownPendingCompleteContentScan
+    phased_handoff_present: UnknownPendingCompleteContentScan
+    completion_manifest_present: UnknownPendingCompleteContentScan
+    stable_footer_present: UnknownPendingCompleteContentScan
+    structural_result: PARTIAL_PASS_COMPLETE_SCAN_REQUIRED
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    evidence_source: EnterpriseFullOpen
+    content_extent: CompleteLines0Through459
+    known_line_count: 459
+    title_present: true
+    heading_count: 25
+    structured_block_count: InlineStructuredRecordsNotFenced
+    source_register_present: false
+    authority_boundary_present: true
+    ownership_map_present: true
+    coverage_matrix_present: true
+    duplicate_disposition_present: true
+    acceptance_criteria_present: false
+    phased_handoff_present: false
+    static_validation_present: true
+    completion_manifest_present: true
+    stable_footer_present: true
+    structural_result: PASS_WITH_LEGACY_INLINE_STRUCTURE_AND_NO_SOURCE_REGISTER
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Developed_Realm_Full_Portfolio_Comparator_and_Missing_Capability_Audit_V1.md
+    evidence_source: EnterpriseSearchSnippet
+    content_extent: HeaderAndEarlySectionsOnly
+    known_line_count: UnknownPendingCompleteContentScan
+    title_present: true
+    heading_count: UnknownPendingCompleteContentScan
+    structured_block_count: UnknownPendingCompleteContentScan
+    source_register_present: UnknownPendingCompleteContentScan
+    authority_boundary_present: true
+    comparator_set_present: true
+    capability_dimensions_present: true
+    acceptance_criteria_present: UnknownPendingCompleteContentScan
+    phased_handoff_present: UnknownPendingCompleteContentScan
+    completion_manifest_present: UnknownPendingCompleteContentScan
+    stable_footer_present: UnknownPendingCompleteContentScan
+    structural_result: PARTIAL_PASS_COMPLETE_SCAN_REQUIRED
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    evidence_source: EnterpriseSearchSnippet
+    content_extent: HeaderAndEarlySectionsOnly
+    known_line_count: UnknownPendingCompleteContentScan
+    title_present: true
+    heading_count: UnknownPendingCompleteContentScan
+    structured_block_count: UnknownPendingCompleteContentScan
+    source_register_present: UnknownPendingCompleteContentScan
+    authority_boundary_present: true
+    namespace_policy_present: true
+    alias_classes_present: true
+    candidate_identity_contract_present: true
+    acceptance_criteria_present: UnknownPendingCompleteContentScan
+    phased_handoff_present: UnknownPendingCompleteContentScan
+    completion_manifest_present: UnknownPendingCompleteContentScan
+    stable_footer_present: UnknownPendingCompleteContentScan
+    structural_result: PARTIAL_PASS_COMPLETE_SCAN_REQUIRED
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    evidence_source: EnterpriseSearchSnippet
+    content_extent: HeaderAndSubstantiveCoverageSections
+    known_line_count: UnknownPendingCompleteContentScan
+    title_present: true
+    heading_count: UnknownPendingCompleteContentScan
+    structured_block_count: UnknownPendingCompleteContentScan
+    source_register_present: UnknownPendingCompleteContentScan
+    authority_boundary_present: true
+    coverage_matrix_present: true
+    owner_chain_present: true
+    candidate_disposition_present: true
+    acceptance_criteria_present: UnknownPendingCompleteContentScan
+    completion_manifest_present: UnknownPendingCompleteContentScan
+    stable_footer_present: UnknownPendingCompleteContentScan
+    structural_result: PARTIAL_PASS_COMPLETE_SCAN_REQUIRED
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    evidence_source: CurrentConversationRawArtifactAndEnterpriseSearch
+    content_extent: Complete
+    known_line_count: 652
+    title_present: true
+    heading_count: 24
+    yaml_block_count: 24
+    code_fence_count: 48
+    code_fence_balance: Balanced
+    table_count: 0
+    source_register_present: false
+    authority_boundary_present: true
+    owner_routing_present: true
+    acceptance_fixtures_present: true
+    phased_handoff_present: true
+    static_validation_present: true
+    completion_manifest_present: true
+    stable_footer_present: true
+    structural_result: PASS_WITH_NO_SEPARATE_SOURCE_REGISTER
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Package_Wide_Missing_Authority_Audit_and_Next_Sequence_Disposition_V1.md
+    evidence_source: EnterpriseSearchSnippet
+    content_extent: HeaderAndCompleteHighLevelSectionSynopsis
+    known_line_count: UnknownPendingCompleteContentScan
+    title_present: true
+    heading_count: AtLeast11FromReturnedSynopsis
+    structured_block_count: UnknownPendingCompleteContentScan
+    source_register_present: UnknownPendingCompleteContentScan
+    authority_boundary_present: true
+    coverage_families_present: true
+    duplicate_rejection_present: true
+    next_sequence_present: true
+    acceptance_criteria_present: true
+    completion_manifest_present: true
+    stable_footer_present: PresentInReturnedSynopsis
+    structural_result: PARTIAL_PASS_EXACT_COUNTS_PENDING
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    evidence_source: CurrentConversationRawArtifactAndEnterpriseSearch
+    content_extent: Complete
+    known_line_count: 670
+    title_present: true
+    heading_count: 27
+    yaml_block_count: 27
+    code_fence_count: 54
+    code_fence_balance: Balanced
+    table_count: 0
+    source_register_present: true
+    authority_boundary_present: true
+    owner_routing_present: true
+    acceptance_criteria_present: true
+    phased_handoff_present: true
+    static_validation_present: true
+    completion_manifest_present: true
+    stable_footer_present: true
+    structural_result: PASS
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    evidence_source: EnterpriseFullOpen
+    content_extent: CompleteLines0Through651
+    known_line_count: 651
+    title_present: true
+    heading_count: 40
+    structured_block_count: InlineStructuredRecordsNotFenced
+    table_count: 0
+    source_register_present: true
+    authority_boundary_present: true
+    owner_routing_present: true
+    acceptance_criteria_present: true
+    phased_handoff_present: true
+    static_validation_present: true
+    completion_manifest_present: true
+    stable_footer_present: true
+    structural_result: PASS_WITH_LEGACY_INLINE_STRUCTURE
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    evidence_source: EnterprisePartialOpen
+    content_extent: PartialDisplayedLines0Through907Of1192
+    known_line_count: 1192
+    title_present: true
+    heading_count: AtLeast58FromDisplayedContent
+    structured_block_count: UnknownPendingCompleteContentScan
+    source_register_present: UnknownPendingCompleteContentScan
+    authority_boundary_present: true
+    owner_routing_present: true
+    acceptance_criteria_present: UnknownPendingCompleteContentScan
+    phased_handoff_present: PresentWithinDisplayedContent
+    static_validation_present: true
+    completion_manifest_present: UnknownPendingCompleteContentScan
+    stable_footer_present: UnknownPendingCompleteContentScan
+    structural_result: PARTIAL_PASS_COMPLETE_TAIL_SCAN_REQUIRED
+cross_record_summary:
+  records_reviewed: 10
+  complete_content_records: 4
+  partial_content_records: 6
+  exact_heading_counts_available: 4
+  balanced_fence_results_available: 2
+  title_present_confirmed: 10
+  authority_boundary_present_confirmed: 10
+  stable_footer_present_confirmed: 5
+  stable_footer_unknown_pending_complete_scan: 5
+  completion_manifest_present_confirmed: 5
+  completion_manifest_unknown_pending_complete_scan: 5
+  structural_failures_confirmed: 0
+  source_files_modified: 0
+issue_ledger:
+  HMD_STRUCT_001:
+    finding: SixRecordsLackCompleteContentForExactCounts
+    severity: BLOCKING_FOR_COMPLETE_BATCH_B
+    owner: PackageControlValidation
+    remedy: CompleteRawOrEnterpriseOpenThenRecount
+  HMD_STRUCT_002:
+    finding: LegacyAuthoritiesUseInlineStructuredRecordsRatherThanFencedYAML
+    severity: WARNING
+    owner: DefinitionOwnersValidation
+    remedy: ReportBeforeAnyOwnerApprovedAdditiveSuccessor
+  HMD_STRUCT_003:
+    finding: OpeningBoundaryPreflightHasNoSeparateSourceRegisterSection
+    severity: WARNING
+    owner: OpeningStateValidation
+    remedy: ConsiderAdditiveSourceRegisterOnlyIfOwnerRequiresUniformEvidenceRouting
+  HMD_STRUCT_004:
+    finding: CurrentAuthorityIndexHasNoSeparateSourceRegisterOrAcceptanceCriteriaSection
+    severity: WARNING
+    owner: PackageControl
+    remedy: PreserveAsIndexUnlessAControlSuccessorIsSubstantivelyNeeded
+validation_summary:
+  result: PASS_AS_PARTIAL_BATCH_B_STRUCTURE_INVENTORY
+  complete_batch_b_structure_closure: false
+  registry_or_opening_promotion_effect: NONE
+  runtime_or_unreal_effect: NONE
+stable_footer:
+  stable_document_id: HMD_SECTION_STRUCTURE_INVENTORY
+  version: 1.0.0
+  status: PartialBatchBSectionAndStructureEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false

@@ -1,0 +1,20 @@
+{
+  "document": "Barcelona_Batch00_Review_Wave_2_Institutional_Realm_Surface_Military_and_AI_Portfolios_Packet_V1.md",
+  "version": "1.0.0",
+  "result": "PASS",
+  "checks": {
+    "balanced_fences": true,
+    "four_decisions": true,
+    "four_portfolios": true,
+    "wave1_not_inferred": true,
+    "external_locks": true,
+    "tracks": true,
+    "no_mutation": true,
+    "end": true
+  },
+  "lines": 458,
+  "bytes": 16244,
+  "sha256": "014153a5b7707d342d942e44150b7760b05a314a2304c6c4d587f8867fb14182",
+  "ownerDecisionsRecorded": 0,
+  "implementationStarted": false
+}

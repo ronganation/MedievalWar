@@ -1,0 +1,18 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "records_40": true,
+    "alternatives_40": true,
+    "child_records_8": true,
+    "selections_zero": true,
+    "positive_29": true,
+    "negative_36": true,
+    "Hainaut_owner_lock_expanded": true,
+    "later_child_firewall": true,
+    "nonmutation": true
+  },
+  "SHA256": "08404ac81282e3c9489f9b4d2b093034b0e11e1d56ab3b160b0890127678e603",
+  "Bytes": 79027,
+  "Lines": 1899,
+  "Scope": "Static child uncertainty reconciliation and nonmutation"
+}

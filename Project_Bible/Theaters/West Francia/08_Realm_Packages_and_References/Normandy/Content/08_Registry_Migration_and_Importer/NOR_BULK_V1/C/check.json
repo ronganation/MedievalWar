@@ -1,0 +1,39 @@
+{
+  "preflight": [
+    "working tree captured",
+    "baseline hashes captured",
+    "exact project root verified",
+    "existing importer owners verified",
+    "backup or source control checkpoint",
+    "single writer confirmed"
+  ],
+  "compile": [
+    "build command recorded",
+    "target and configuration recorded",
+    "exit code zero",
+    "warnings captured"
+  ],
+  "tests": [
+    "32 Normandy fixtures",
+    "shared importer parent tests",
+    "round trip",
+    "determinism",
+    "zero write"
+  ],
+  "save": [
+    "new campaign apply once",
+    "save",
+    "reload",
+    "advanced save no reset",
+    "migration dry run",
+    "rollback"
+  ],
+  "closeout": [
+    "source diff",
+    "created and modified files",
+    "hash manifest",
+    "receipts",
+    "unresolved owner bindings",
+    "promotion remains separate"
+  ]
+}

@@ -1,0 +1,278 @@
+ledger_version: 1.0.0
+ledger_status: PartialBatchDCandidateDispositionAndCurrentAuthorityStopGateEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+scope:
+  disposition_records: 20
+  current_authority_family_records: 9
+  stop_gate_records: 12
+  owner_decisions_returned: 0
+  promotions_authorized: 0
+rules:
+  - CompletedDoesNotMeanCanonicallyPromoted
+  - VisibleDoesNotMeanValidated
+  - CandidateDoesNotMeanCanonical
+  - RejectedCandidateMustNotBeCreated
+  - QuarantinedCandidateMustNotBind
+  - HeldCandidateRequiresNamedOwnerDecision
+  - SuccessorCandidateDoesNotControlWithoutLineageApproval
+  - PartialEvidenceDoesNotCloseStopGate
+  - NoSourceMutationAuthorized
+classification_values:
+  - CompletedDefinitionArtifact
+  - CompletedEvidenceArtifactPartialScope
+  - CurrentAuthorityCandidate
+  - SuccessorCandidatePendingLineage
+  - Quarantined
+  - HeldPendingOwnerDecision
+  - RejectedDoNotCreate
+  - ExternalLockPending
+  - HistoricalSequenceArtifact
+  - MissingOrUnverified
+candidate_dispositions:
+  - disposition_ref: HMD_DISP_001
+    subject: Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    classification: CurrentAuthorityCandidate
+    disposition: PreserveAsPackageNavigationAndFolderMapControl
+    promotion_state: OwnerReviewRequired
+  - disposition_ref: HMD_DISP_002
+    subject: Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    classification: CurrentAuthorityCandidate
+    disposition: PreserveAsCandidateReferenceAliasAndOwnershipControl
+    promotion_state: CandidateOnly
+  - disposition_ref: HMD_DISP_003
+    subject: Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    classification: CurrentAuthorityCandidate
+    disposition: PreserveAsNonCanonicalMigrationAndRegistryReviewSurface
+    promotion_state: CandidateOnly
+  - disposition_ref: HMD_DISP_004
+    subject: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    classification: SuccessorCandidatePendingLineage
+    disposition: PreserveWithV1UntilCopyFirstComparisonApproved
+    promotion_state: Blocked
+  - disposition_ref: HMD_DISP_005
+    subject: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    classification: CompletedDefinitionArtifact
+    disposition: PreserveAsExecutionContract
+    promotion_state: ExecutionIncomplete
+  - disposition_ref: HMD_DISP_006
+    subject: Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    classification: CompletedDefinitionArtifact
+    disposition: PreserveAsDistinctSpecialistAudit
+    promotion_state: ReviewOnly
+  - disposition_ref: HMD_DISP_007
+    subject: Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    classification: CompletedDefinitionArtifact
+    disposition: PreserveAsDistinctSpecialistPreflight
+    promotion_state: OwnerDecisionsPending
+  - disposition_ref: HMD_DISP_008
+    subject: Hammadid_Current_Authority_Physical_Inventory_Duplicate_Disposition_and_Identity_Mapping_Preflight_V1.md
+    classification: CompletedDefinitionArtifact
+    disposition: PreserveAsPhysicalEvidencePreflight
+    promotion_state: PartialEvidenceOnly
+  - disposition_ref: HMD_DISP_009
+    subject: BatchAEvidenceFamily
+    classification: CompletedEvidenceArtifactPartialScope
+    disposition: PreserveFiveArtifactsWithoutClaimingRecursiveCompletion
+    promotion_state: Partial
+  - disposition_ref: HMD_DISP_010
+    subject: BatchBEvidenceFamily
+    classification: CompletedEvidenceArtifactPartialScope
+    disposition: PreserveFiveArtifactsWithRawClosurePending
+    promotion_state: Partial
+  - disposition_ref: HMD_DISP_011
+    subject: BatchCEvidenceFamily
+    classification: CompletedEvidenceArtifactPartialScope
+    disposition: PreserveFiveArtifactsWithOwnerReceiptsPending
+    promotion_state: Partial
+  - disposition_ref: HMD_DISP_012
+    subject: AnNasirThreeArtifactGroup
+    classification: Quarantined
+    disposition: PreserveAllBlockCanonicalAndOpeningBinding
+    promotion_state: Blocked
+  - disposition_ref: HMD_DISP_013
+    subject: Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+    classification: SuccessorCandidatePendingLineage
+    disposition: PreserveWithV1UntilCopyFirstComparisonApproved
+    promotion_state: Blocked
+  - disposition_ref: HMD_DISP_014
+    subject: HMD_DATE_001PostAssassinationRealmOverlay
+    classification: HeldPendingOwnerDecision
+    disposition: PreserveJanuaryAndPostJulyVariantsWithoutBlending
+    promotion_state: Blocked
+  - disposition_ref: HMD_DISP_015
+    subject: Hammadid_Justice_Enforcement_Detention_Sentencing_Restitution_and_Penal_Administration_Authority_V1.md
+    classification: RejectedDoNotCreate
+    disposition: PreserveExistingLawCustodyAndPublicOrderOwnership
+    promotion_state: Rejected
+  - disposition_ref: HMD_DISP_016
+    subject: cand.scenario.grand_campaign.1062
+    classification: ExternalLockPending
+    disposition: AwaitScenarioOwnerReceipt
+    promotion_state: Blocked
+  - disposition_ref: HMD_DISP_017
+    subject: cand.theater.north_africa
+    classification: ExternalLockPending
+    disposition: AwaitTheaterOwnerReceipt
+    promotion_state: Blocked
+  - disposition_ref: HMD_DISP_018
+    subject: QalatGreatMosqueCourtChanceryTypedKinds
+    classification: HeldPendingOwnerDecision
+    disposition: PreserveTypedSeparationsAndNoOpeningInstances
+    promotion_state: Blocked
+  - disposition_ref: HMD_DISP_019
+    subject: Hammadid_Opening_State_Assembly_and_Binding_Plan_V1.md
+    classification: MissingOrUnverified
+    disposition: LocateOrRecordExternalPlacementWithoutRecreation
+    promotion_state: Blocked
+  - disposition_ref: HMD_DISP_020
+    subject: CompletedSequencePointers
+    classification: HistoricalSequenceArtifact
+    disposition: PreserveWithoutReexecutingCompletedTargets
+    promotion_state: NotApplicable
+current_authority_family_matrix:
+  - family_ref: HMD_FAMILY_001
+    family: PackageNavigationAndFolderMap
+    current_candidate: Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    closure_state: PartialOwnerReviewRequired
+  - family_ref: HMD_FAMILY_002
+    family: CandidateReferencesAliasesTerminologyOwnership
+    current_candidate: Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    closure_state: CandidateOnly
+  - family_ref: HMD_FAMILY_003
+    family: IDMigrationAndRegistryCandidatePlanning
+    current_candidate: Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    closure_state: NonCanonicalOwnerReviewRequired
+  - family_ref: HMD_FAMILY_004
+    family: ValidationMigrationFreezeRollback
+    current_candidate: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    closure_state: BlockedByV1ToV1_1Lineage
+  - family_ref: HMD_FAMILY_005
+    family: RecursiveManifestAndLiteralEvidenceContract
+    current_candidate: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    closure_state: DefinitionCompleteExecutionPartial
+  - family_ref: HMD_FAMILY_006
+    family: RealmReadinessIntegrationAndBlockers
+    current_candidate: Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    closure_state: ReviewOnlyOwnerDecisionsPending
+  - family_ref: HMD_FAMILY_007
+    family: OpeningBoundaryIdentityAndCurrentness
+    current_candidate: Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    closure_state: BoundaryIdentityAndSourceDecisionsPending
+  - family_ref: HMD_FAMILY_008
+    family: PhysicalInventoryDuplicateAndIdentityPreflight
+    current_candidate: Hammadid_Current_Authority_Physical_Inventory_Duplicate_Disposition_and_Identity_Mapping_Preflight_V1.md
+    closure_state: PartialEvidenceOnly
+  - family_ref: HMD_FAMILY_009
+    family: OpeningStateAuthority
+    current_candidate: Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+    closure_state: SuccessorCandidatePendingLineageAndBoundaryDecision
+stop_gates:
+  - gate_ref: HMD_STOP_001
+    gate: CompleteRecursiveManifest
+    state: BLOCKED
+    dependency: DirectPhysicalScanAcrossFolders00Through07
+  - gate_ref: HMD_STOP_002
+    gate: CompletePackageHashLedger
+    state: BLOCKED
+    dependency: RawBytesForEveryPhysicalFile
+  - gate_ref: HMD_STOP_003
+    gate: CompleteRawBatchBClosure
+    state: BLOCKED
+    dependency: CompleteHeadersSectionsLiteralsAndEncodingEvidence
+  - gate_ref: HMD_STOP_004
+    gate: ValidationAuthoritySupersession
+    state: BLOCKED
+    dependency: V1ToV1_1CopyFirstComparisonRemovalLedgerOwnerApproval
+  - gate_ref: HMD_STOP_005
+    gate: OpeningStateAuthoritySupersession
+    state: BLOCKED
+    dependency: V1ToV1_1CopyFirstComparisonRemovalLedgerOwnerApproval
+  - gate_ref: HMD_STOP_006
+    gate: AnNasirCanonicalIdentity
+    state: BLOCKED
+    dependency: ThreeArtifactDisposition
+  - gate_ref: HMD_STOP_007
+    gate: ScenarioBoundary
+    state: BLOCKED
+    dependency: HMD_DATE_001
+  - gate_ref: HMD_STOP_008
+    gate: ScenarioAndTheaterExternalLocks
+    state: BLOCKED
+    dependency: ExternalOwnerReceipts
+  - gate_ref: HMD_STOP_009
+    gate: CanonicalEntityKindsAndMappings
+    state: BLOCKED
+    dependency: RegistryTaxonomyAndOwnerReceipts
+  - gate_ref: HMD_STOP_010
+    gate: ReciprocalExternalState
+    state: BLOCKED
+    dependency: ZiridAlmoravidBanuHilalReceipts
+  - gate_ref: HMD_STOP_011
+    gate: OpeningFactBindings
+    state: BLOCKED
+    dependency: RegistryBoundaryIdentityOwnerAndEvidenceClosure
+  - gate_ref: HMD_STOP_012
+    gate: PayloadImporterRuntimeUnreal
+    state: BLOCKED
+    dependency: SeparateFutureAuthorizationAfterAllPriorGates
+promotion_matrix:
+  PackageDefinitionArtifacts: ReviewOnly
+  EvidencePackArtifacts: PartialAcceptedOnly
+  RegistryReview: Hold
+  CanonicalRegistryPromotion: Prohibited
+  OpeningStateFreeze: Prohibited
+  OpeningStateActivation: Prohibited
+  MachineReadableCandidateBundle: Prohibited
+  PayloadGeneration: Prohibited
+  ImporterExecution: Prohibited
+  RuntimeMutation: Prohibited
+  UnrealMutation: Prohibited
+anti_recreation_and_anti_promotion_rules:
+  - DoNotRecreateCompletedControlFiles
+  - DoNotCreateRejectedJusticeEnforcementCandidate
+  - DoNotPromoteSuccessorFromFilenameOrVersionAlone
+  - DoNotReleaseQuarantineWithoutEvidenceAndOwnerReceipt
+  - DoNotConvertCandidateReferenceToCanonicalId
+  - DoNotConvertDefinitionToOpeningInstance
+  - DoNotTreatPartialEvidenceAsFreezeEvidence
+  - DoNotBeginPayloadImporterRuntimeOrUnrealWork
+owner_decision_queue:
+  - ApproveOrHoldPackageNavigationCurrentCandidate
+  - ApproveOrHoldValidationV1_1Successor
+  - ApproveOrHoldOpeningStateV1_1Successor
+  - ReturnHMD_DATE_001
+  - DispositionAnNasirArtifacts
+  - ReturnScenarioAndTheaterLocks
+  - ReturnCanonicalEntityKindAndMappingReceipts
+  - ReturnExternalReciprocalReceipts
+  - LocateOpeningStateAssemblyAndBindingPlan
+  - AcceptOrHoldPartialBatchABAndCEvidence
+returned_decisions: 0
+validation_summary:
+  disposition_records: 20
+  authority_family_records: 9
+  stop_gate_records: 12
+  stop_gates_open: 0
+  stop_gates_blocked: 12
+  promotions_authorized: 0
+  source_files_modified: 0
+  source_files_deleted: 0
+  source_files_moved: 0
+  source_files_renamed: 0
+  canonical_ids_allocated: 0
+  registry_mutations: 0
+  opening_state_mutations: 0
+  result: PASS_AS_PARTIAL_BATCH_D_CANDIDATE_DISPOSITION_STOP_GATE_LEDGER
+stable_footer:
+  stable_document_id: HMD_CANDIDATE_DISPOSITION_CURRENT_AUTHORITY_STOP_GATE_LEDGER
+  version: 1.0.0
+  status: PartialBatchDCandidateDispositionStopGateEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  payload_authorized: false
+  importer_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false
+  next_file: Hammadid_Batch_D_Zero_Mutation_and_Promotion_Stop_Receipt_V1.yaml

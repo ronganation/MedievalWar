@@ -1,0 +1,254 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationStaticOwnerDecisionPass",
+    "name": "Trait Reputation Static Owner Decision Pass V1",
+    "version": "1.0",
+    "status": "EightGroupsStaticDecided_ThreeGroupsBlocked",
+    "authority_class": "Evidence-Backed Static Ownership Decision Pass",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Frameworks/Characters/Trait_Reputation_Consolidation/Owner_Review_Packets",
+    "file": "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+  },
+  "scope": {
+    "decided_owner_groups": 8,
+    "decided_entry_references": 70,
+    "blocked_owner_groups": 3,
+    "blocked_entry_references": 16,
+    "total_owner_groups": 11,
+    "total_entry_references": 86,
+    "decision_level": "StaticCheckedOwnershipAndSemanticBoundary",
+    "non_claims": [
+      "No canonical IDs assigned",
+      "No UE5 compile performed",
+      "No runtime executed",
+      "No saves migrated",
+      "No registry, content, runtime, or save mutations"
+    ]
+  },
+  "decisions": [
+    {
+      "owner_group_id": "trait-reputation.owner-group.001",
+      "requested_destination_authority": "Character Archetype",
+      "entry_count": 10,
+      "decision": "AcceptAsRouted",
+      "decision_scope": "StaticOwnershipAndSemanticBoundary",
+      "evidence": [
+        "Character_Archetype_Framework_v2.md",
+        "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+        "Trait_and_Reputation_Authority_Planning.md"
+      ],
+      "conditions": [
+        "Archetype remains current strategic function, not identity, office, trait, or destiny.",
+        "No permanent personality state is created from archetype classification."
+      ],
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.002",
+      "requested_destination_authority": "Character Development",
+      "entry_count": 2,
+      "decision": "AcceptAsRouted",
+      "decision_scope": "StaticOwnershipAndSemanticBoundary",
+      "evidence": [
+        "Character_Development_Framework_v2.md",
+        "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+        "Trait_and_Reputation_Authority_Planning.md"
+      ],
+      "conditions": [
+        "Education, practice, experience, readiness, growth, and decline remain Development-owned.",
+        "No permanent trait is inferred from one milestone or education label."
+      ],
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.003",
+      "requested_destination_authority": "Character Foundation health-state boundary; catalogue definition remains legacy pending Trait consolidation",
+      "entry_count": 6,
+      "decision": "AcceptWithChanges",
+      "decision_scope": "JointStaticBoundary",
+      "evidence": [
+        "Character_Foundation_Framework_v1.md",
+        "Trait_and_Reputation_Authority_Planning.md",
+        "Character_Trait_Library_Ownership_Consolidation_Audit.md"
+      ],
+      "required_changes": [
+        "Route current illness, injury, incapacity, recovery, aging, fertility, and death-adjacent state to Foundation health/lifecycle interfaces or the current health owner.",
+        "Retain only stable predisposition candidates for Trait review.",
+        "Do not duplicate current health state as a trait instance."
+      ],
+      "accepted_destination_authority": "Character Foundation health/lifecycle boundary plus future Trait authority for separately approved stable predispositions",
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.004",
+      "requested_destination_authority": "Character Network",
+      "entry_count": 2,
+      "decision": "AcceptAsRouted",
+      "decision_scope": "StaticOwnershipAndSemanticBoundary",
+      "evidence": [
+        "Character_Network_Framework_v1.md",
+        "Character_Network_Reconciliation_Audit.md",
+        "Character_Trait_Library_Ownership_Consolidation_Audit.md"
+      ],
+      "conditions": [
+        "Relationship state remains directed and asymmetric.",
+        "Friend, rival, enemy, mentor, student, ally, spouse, or sibling labels are not traits.",
+        "Kinship or alliance does not create loyalty or knowledge."
+      ],
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.008",
+      "requested_destination_authority": "Legacy Trait Catalogue pending authorized Trait/Reputation consolidation",
+      "entry_count": 42,
+      "decision": "AcceptWithChanges",
+      "decision_scope": "TraitAuthorityConsolidationBoundary",
+      "evidence": [
+        "Trait_and_Reputation_Authority_Planning.md",
+        "Trait_and_Reputation_Contract_Field_Inventory.md",
+        "Trait_and_Reputation_Contract_Validation_Catalogue.md",
+        "Trait_and_Reputation_Implementation_Contract_Matrix.md",
+        "Character_Trait_Library_Ownership_Consolidation_Audit.md"
+      ],
+      "required_changes": [
+        "Treat all 42 entries as candidate trait definitions, not approved canonical traits.",
+        "Separate office, title, authority, development, health, relationship, memory, archetype, and reputation effects.",
+        "Require acquisition, removal, persistence, visibility, consumer, AI explanation, validation, and migration rules per retained definition.",
+        "Do not create a universal trait bag or universal modifier layer."
+      ],
+      "accepted_destination_authority": "Future bounded Trait authority under the approved Trait/Reputation consolidation contract",
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.009",
+      "requested_destination_authority": "No live constitutional owner",
+      "entry_count": 1,
+      "decision": "RejectOwnership",
+      "decision_scope": "StaticArchiveOrRelocationBoundary",
+      "evidence": [
+        "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+        "Trait_and_Reputation_Authority_Planning.md"
+      ],
+      "rationale": "No current authority exists and no runtime owner may be fabricated.",
+      "required_changes": [
+        "Keep the entry non-authoritative and quarantined.",
+        "Either approve a named relocation target through a new owner decision or archive after dependency search."
+      ],
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.010",
+      "requested_destination_authority": "No separate live owner; source provenance only",
+      "entry_count": 2,
+      "decision": "AcceptWithChanges",
+      "decision_scope": "ArchiveProvenanceBoundary",
+      "evidence": [
+        "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+        "Trait_and_Reputation_Authority_Planning.md"
+      ],
+      "required_changes": [
+        "Retain as migration and archive provenance only.",
+        "Do not create independent runtime definitions or state.",
+        "Archive only after repository dependency search confirms no supported reader remains."
+      ],
+      "accepted_destination_authority": "Migration and archive provenance authority only",
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.011",
+      "requested_destination_authority": "Underage Character for childhood education direction; Character Development consumes progress and milestones",
+      "entry_count": 5,
+      "decision": "SplitAcrossNamedAuthorities",
+      "decision_scope": "JointStaticBoundary",
+      "evidence": [
+        "Underage_Character_Framework.md",
+        "Underage_Character_Implementation_Contract.md",
+        "Character_Development_Framework_v2.md",
+        "Character_Trait_Library_Ownership_Consolidation_Audit.md"
+      ],
+      "split_boundaries": [
+        {
+          "authority": "Underage Character",
+          "owns": "childhood education direction, educator/guardian/custodian/protector roles, opportunities, constraints, and child-safe transitions"
+        },
+        {
+          "authority": "Character Development",
+          "owns": "practice, progress, milestones, learned capability, readiness, growth, and decline"
+        }
+      ],
+      "conditions": [
+        "No duplicate authoritative state.",
+        "Children are not small adults.",
+        "One GuardianId must not replace typed underage roles."
+      ],
+      "canonical_ids_authorized": false,
+      "runtime_writes_authorized": false
+    }
+  ],
+  "blocked_groups": [
+    {
+      "owner_group_id": "trait-reputation.owner-group.005",
+      "entry_count": 1,
+      "status": "BlockedPendingNamedOwnerAuthority",
+      "required_evidence": "Current Office, Governance, or Revenue Administration authority"
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.006",
+      "entry_count": 6,
+      "status": "BlockedPendingHistoricalMemoryAuthority",
+      "required_evidence": "Current Historical Memory authority"
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.007",
+      "entry_count": 9,
+      "status": "BlockedPendingHistoricalMemoryAndReputationBoundary",
+      "required_evidence": "Current Historical Memory authority and approved Reputation boundary"
+    }
+  ],
+  "decision_counts": {
+    "AcceptAsRouted": 3,
+    "AcceptWithChanges": 3,
+    "RejectOwnership": 1,
+    "SplitAcrossNamedAuthorities": 1,
+    "Blocked": 3
+  },
+  "entry_counts_by_outcome": {
+    "AcceptAsRouted": 14,
+    "AcceptWithChanges": 50,
+    "RejectOwnership": 1,
+    "SplitAcrossNamedAuthorities": 5,
+    "Blocked": 16,
+    "total": 86
+  },
+  "mutation_audit": {
+    "ownership_changes_executed": 0,
+    "canonical_ids_assigned": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "commit_attempted": false
+  },
+  "validation": {
+    "evidence_listed_for_each_decision": true,
+    "missing_authority_blocks_preserved": true,
+    "owner_acceptance_not_inferred_for_blocked_groups": true,
+    "exact_entry_level_packet_merge_executed": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "group_and_entry_counts_reconcile": true
+  },
+  "smallest_useful_next_action": "Place this decision pass in Owner_Review_Packets, then upload or supply the exact 11 review packet JSON files if a master acceptance merge is desired. The packet-level merge must resolve the current readiness count discrepancy before changing Trait_Reputation_Owner_Acceptance_Submission_V1.json."
+}

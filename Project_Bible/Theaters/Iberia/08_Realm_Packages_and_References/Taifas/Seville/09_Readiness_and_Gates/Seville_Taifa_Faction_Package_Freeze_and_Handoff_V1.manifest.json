@@ -1,0 +1,255 @@
+{
+  "HandoffPackageId": "handoff.seville_taifa.faction_package.1062.v1",
+  "InternalVersion": "1.1.0",
+  "RevisionDate": "2026-09-10",
+  "RealmRef": "realm.seville",
+  "OwningTheater": "Iberia",
+  "OpeningStateId": "opening.seville_taifa.1062.v1",
+  "PackageStatus": "STATIC_HANDOFF_CURRENT_VALIDATE_ONLY_GATE_OPEN",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8"
+  },
+  "HandoffDocument": {
+    "Filename": "Seville_Taifa_Faction_Package_Freeze_and_Handoff_V1.md",
+    "InternalVersion": "1.1.0",
+    "Bytes": 25264,
+    "SHA256": "a25bf5367532735e4bceb767f2782d8836667048d58e8b5aac5644e1b4c0e034"
+  },
+  "PhysicalReceiptBoundary": {
+    "SuppliedMachineReadableFileCount": 19,
+    "WholeSevillePackageScanned": false,
+    "WholePackageFileCountClaimed": false,
+    "WholePackageHashClaimed": false,
+    "DuplicateDeletionPerformed": false
+  },
+  "OpeningStateBaseline": {
+    "HumanReadableInternalVersion": "1.3.0",
+    "MachineReadableContractInternalVersion": "1.2.0",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "OwnerRoutingRequests": 18,
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11,
+    "RetainedExplicitEmptyCollections": 51,
+    "AdditiveExplicitEmptyCollections": 19,
+    "TotalExplicitEmptyCollections": 70,
+    "UnsupportedActiveInstancesCreated": 0
+  },
+  "ValidationStatus": {
+    "OpeningPayloadSchemaErrors": 0,
+    "OpeningRequestIdParity": true,
+    "OpeningStableOrderKeyParity": true,
+    "OpeningFixtureDefinitions": 39,
+    "OpeningCurrentFixtureExecution": "NOT_RUN_0_OF_39",
+    "DefinitionManifestSchemaErrors": 0,
+    "DefinitionProfiles": 13,
+    "DefinitionObservationContracts": 7,
+    "DefinitionFirstTurnActions": 5,
+    "DefinitionFixtureDefinitions": 29,
+    "DefinitionCurrentFixtureExecution": "NOT_RUN_0_OF_29",
+    "Importer": "NOT_RUN",
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Migration": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "Battle": "NOT_RUN",
+    "Balance": "NOT_RUN"
+  },
+  "CurrentMachineReadableArtifacts": [
+    {
+      "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.fixtures.json",
+      "Role": "DefinitionManifestFamily",
+      "Bytes": 6428,
+      "SHA256": "c5d9dc95f9bc100d13932a5e03be9dab1a5abc30024b29507c8db6c6dbb4d474",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.json",
+      "Role": "DefinitionManifestFamily",
+      "Bytes": 18718,
+      "SHA256": "e4bdabcb9b35733502da5569196a96eefc15a98b5e2c6dcd90128931b4b8a7da",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.owner_routing.json",
+      "Role": "DefinitionManifestFamily",
+      "Bytes": 8018,
+      "SHA256": "477daaddbc976ea86816956f80c3960766c900799b452fc4b7a881449c954633",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.schema.json",
+      "Role": "DefinitionManifestFamily",
+      "Bytes": 14375,
+      "SHA256": "8384af5aca0ae76abf0d9aa1bba443385f7b08e27c9053655801cdba15a66921",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.static_check.json",
+      "Role": "DefinitionManifestFamily",
+      "Bytes": 1460,
+      "SHA256": "9670f3b586a63531f5ea703e87099c6bcc45d12110c1cd364fae28bb57c9ffc6",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.validation.json",
+      "Role": "DefinitionManifestFamily",
+      "Bytes": 6293,
+      "SHA256": "7014b610e7899f0124892f5db2e8edc2d0ed869226db3a293e9a7169616ffa1f",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Faction_Definition_Manifest_1062_V1.validation_report.json",
+      "Role": "DefinitionManifestFamily",
+      "Bytes": 13671,
+      "SHA256": "7b241fa74a67c6f914c3da3c7b5d598ff03a2ffa23401c4aa7b0990f1c085bf4",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_January_1062_Opening_State_V1.md",
+      "Role": "HumanReadableOpeningAuthority",
+      "Bytes": 59434,
+      "SHA256": "45762a306d003e7b014ea0eb9f02603e190d976576aa334ca232fa3dd4718e13",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_January_1062_Opening_State_V1.static_check.json",
+      "Role": "OpeningAuthorityStaticCheck",
+      "Bytes": 6883,
+      "SHA256": "34bb4304bc09dcb7ed4f7614b8a790ebfa6a24328eeea7c8636f5e824ebaf0b0",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md",
+      "Role": "MachineReadableContract",
+      "Bytes": 28111,
+      "SHA256": "eef4cf2bb081bbf99119f39186e5a668df5e2063a93b722d59575a6eb6cab2a5",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.static_check.json",
+      "Role": "ContractStaticCheck",
+      "Bytes": 4393,
+      "SHA256": "d161f29548e0ca3a258c965d0aecc44581a833f978a9434d73b25a9f112e2754",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Opening_State_1062_V1.fixtures.json",
+      "Role": "OpeningMachineFamily",
+      "Bytes": 16263,
+      "SHA256": "b93a62ec16e1de5c636cf589de56710c7d1b1338c525fc33c60ae55070fcae8e",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Opening_State_1062_V1.json",
+      "Role": "OpeningMachineFamily",
+      "Bytes": 56878,
+      "SHA256": "e2d838912012c094cf542a3e9bba717145f7faa70653779f14ddfebf32137096",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Opening_State_1062_V1.owner_routing.json",
+      "Role": "OpeningMachineFamily",
+      "Bytes": 15131,
+      "SHA256": "1333d1cf806fe860a09cc41e6495d894cd27ea98e1ec25af0d5b73fce3b4fa87",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Opening_State_1062_V1.schema.json",
+      "Role": "OpeningMachineFamily",
+      "Bytes": 64598,
+      "SHA256": "e506a753940d042d252b2efdd4d6da597347418edaa7d05d894472f5091d12a7",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Opening_State_1062_V1.validation.json",
+      "Role": "OpeningMachineFamily",
+      "Bytes": 16020,
+      "SHA256": "ff8461b7687340555a42b8073342fe39c0cf0e0d31b000b3496ef428f1ab00c3",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Opening_State_1062_V1.validation_report.json",
+      "Role": "OpeningMachineFamily",
+      "Bytes": 7269,
+      "SHA256": "0f22f8d3d0255d85d6fc7a61e9f147211918bd70b22fc07a94eba8359db0b562",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Opening_State_1062_V1_Importer_Handoff_and_UE5_Mapping.md",
+      "Role": "ImporterMappingAuthority",
+      "Bytes": 23342,
+      "SHA256": "afa9f25483aff2b878235ed2c01e7a1a3f4e7a5928d013c54aec36a384691117",
+      "CurrentPhysicalReceipt": true
+    },
+    {
+      "Filename": "Seville_Taifa_Opening_State_1062_V1_Importer_Handoff_and_UE5_Mapping.static_check.json",
+      "Role": "ImporterMappingStaticCheck",
+      "Bytes": 4063,
+      "SHA256": "b8176778125059f34e3fc23864f6b54407d588f9d6e75a8503f5798c70778659",
+      "CurrentPhysicalReceipt": true
+    }
+  ],
+  "PredecessorEvidence": {
+    "OpeningFixtures": "22_OF_22_PRIOR_HASH_ONLY",
+    "DefinitionManifestFixtures": "29_OF_29_PRIOR_HASH_ONLY",
+    "RegistryInsertionPacketFixtures": "31_OF_31_PRIOR_PACKAGE_ONLY",
+    "RegistryAdapterDryRun": "PASS_REPORTED_PRIOR_LOCAL_EXECUTION_ZERO_MUTATION"
+  },
+  "PromotionBoundary": {
+    "RealCampaignPayloadAuthorized": false,
+    "RegistryMutationAuthorized": false,
+    "AdvancedSaveMutationAuthorized": false,
+    "BroadUnrealPromotionAuthorized": false,
+    "CurrentDisposition": "BLOCKED_PENDING_CURRENT_VALIDATE_ONLY_EXECUTION"
+  },
+  "NextAuthorizedBatch": {
+    "BatchId": "SEV_VALIDATE_ONLY_CURRENT_FAMILY",
+    "Dependencies": [
+      "Immutable read-only bundle",
+      "Current artifact hashes",
+      "Opening fixture package internal 1.2.0",
+      "Definition fixture package internal 1.1.0",
+      "Validation owner"
+    ],
+    "AcceptanceCriteria": {
+      "OpeningFixturesExecuted": 39,
+      "OpeningFixturesPassed": 39,
+      "OpeningFixturesFailed": 0,
+      "DefinitionFixturesExecuted": 29,
+      "DefinitionFixturesPassed": 29,
+      "DefinitionFixturesFailed": 0,
+      "FatalFixtureMutationCount": 0,
+      "DeterminismMismatches": 0
+    },
+    "EvidenceRequired": [
+      "Per-fixture result ledger",
+      "Before-and-after mutation counts",
+      "Deterministic trace hashes",
+      "Rollback receipt",
+      "Owner disposition"
+    ],
+    "Rollback": "Discard staged responses and restore pristine snapshot on any fatal result, mutation, hash mismatch, or nondeterminism."
+  },
+  "DoesNotApprove": [
+    "Registry commit",
+    "Real campaign payload",
+    "Advanced-save mutation",
+    "Broad Unreal implementation",
+    "Importer promotion",
+    "Runtime promotion"
+  ],
+  "SupersedesCurrentStatusOf": [
+    "Seville_Taifa_Faction_Package_Freeze_and_Handoff_V1.manifest.json internal 1.0.0"
+  ],
+  "StableFooter": {
+    "ConstitutionalAuthority": "Project Bible 2.4",
+    "OperationalAuthority": "Design Expansion Checklist 3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OpeningAuthority": "Internal 1.3.0",
+    "MachineReadableContract": "Internal 1.2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "zip_file": "Brittany_UE5_8_Bulk_Implementation_Handoff_V1.zip",
+  "bytes": 17785,
+  "sha256": "55214E2780D6C6F6455C09D7F74F11EFD673E819897DA46EC9BC7A6DFE050E43",
+  "member_count": 23,
+  "json_members_parsed": 18,
+  "testzip_bad_member": null,
+  "max_internal_path_length": 49,
+  "archive_root": "BRI_HAND_V1",
+  "self_check": "PASS",
+  "source_inputs_complete": false,
+  "project_native_discovery_complete": false,
+  "project_mutations": 0,
+  "result": "READY_FOR_LOCAL_READ_ONLY_DISCOVERY_WITH_EXTERNAL_INPUTS_REQUIRED"
+}

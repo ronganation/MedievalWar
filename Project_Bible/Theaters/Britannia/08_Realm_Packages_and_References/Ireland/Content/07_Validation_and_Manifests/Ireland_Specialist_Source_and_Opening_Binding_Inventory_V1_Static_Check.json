@@ -1,0 +1,23 @@
+{
+  "document": "Ireland_Specialist_Source_and_Opening_Binding_Inventory_V1.md",
+  "passed": true,
+  "checks": {
+    "candidate_count": true,
+    "unique_keys": true,
+    "disposition_total": true,
+    "three_track": true,
+    "opening_v21": true,
+    "registry_v23": true,
+    "integration_audit": true,
+    "intentional_empty": true,
+    "owner_decisions": true,
+    "advanced_save": true,
+    "honest_validation": true,
+    "no_registry_mutation": true,
+    "no_em_dash": true,
+    "balanced_fences": true,
+    "removal_ledger_zero": true,
+    "stable_footer": true
+  },
+  "validation_scope": "read-only static specialist source and opening-binding inventory; no full repository scan, Registry mutation, owner decision fabrication, Opening State modification or activation, migration execution, importer, Unreal, runtime, save/load, replay, performance, battle, or payload validation"
+}

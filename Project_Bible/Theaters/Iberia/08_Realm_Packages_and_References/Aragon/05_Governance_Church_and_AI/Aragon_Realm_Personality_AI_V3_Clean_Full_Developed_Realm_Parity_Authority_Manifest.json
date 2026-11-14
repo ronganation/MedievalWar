@@ -1,0 +1,42 @@
+{
+  "FileName": "Aragon_Realm_Personality_AI_V3_Clean_Full_Developed_Realm_Parity_Authority.md",
+  "Version": "3.0.0",
+  "Status": "StaticCheckedCleanFullDevelopedRealmParityAuthorityReviewOnly",
+  "ImmediateSubstantiveSource": "Aragon_Realm_Personality_AI_V1Copy.md",
+  "SourceLinesReviewed": 1643,
+  "ConstructionMethod": "CleanFromScratchIntegratedRebuildWithoutEmbeddedPredecessor",
+  "SuccessorSHA256": "8033c29457243a033b774b794090f4ae3bc75157f154bb86e4502267c6ea6fc7",
+  "SuccessorBytes": 63044,
+  "SuccessorLines": 1478,
+  "SubstantiveSubjectsRemoved": [],
+  "Checks": {
+    "clean_file_created": true,
+    "minimum_depth_bytes": true,
+    "minimum_depth_lines": true,
+    "required_integrated_sections_present": true,
+    "missing_required_sections": [],
+    "exact_repeated_heading_titles": {},
+    "exact_duplicate_long_paragraphs": [],
+    "embedded_old_v3_marker_count": 0,
+    "embedded_v2_end_marker_count": 0,
+    "validation_cases_001_to_050": true,
+    "actor_profiles_present": true,
+    "three_track_present": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "balanced_fences": true,
+    "stable_footer_count": 1,
+    "end_marker_count": 1
+  },
+  "AllChecksPass": true,
+  "MutationReceipt": {
+    "SourceOverwritten": false,
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0,
+    "RealPayload": 0
+  },
+  "NextFile": "Ramiro_I_of_Aragon_Character_Authority_V1.md"
+}

@@ -1,0 +1,47 @@
+{
+  "document_id": "Manifest.CharacterProfile.Wales.RhysApTewdwr.V2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Rhys_ap_Tewdwr.md",
+    "bytes": 46621,
+    "physical_lines": 1241,
+    "sha256": "97e9312615fcca45663d49cd3f4115d5eeba23c360f752b6432f44f56a9ad4fe"
+  },
+  "successor": {
+    "filename": "Rhys_ap_Tewdwr_V2_Current_Authority_Refinement.md",
+    "bytes": 66421,
+    "physical_lines": 1835,
+    "sha256": "d570c588562fbc1cc459774707a8563c549fad73b45c135935d1eecc46210b7c"
+  },
+  "copy_method": "literal full-file prefix plus additive current-authority refinement",
+  "literal_source_prefix": true,
+  "source_fidelity_result": "pass",
+  "source_headings_preserved": 128,
+  "missing_source_headings": [],
+  "removed_content": [],
+  "current_opening_disposition": {
+    "canonical_person_id": "Person.RhysApTewdwr",
+    "default_participation": "DormantPrincipal",
+    "restricted_active": "ScenarioSourceAndOwnerRequired",
+    "exact_age": "Unknown",
+    "adult_agency": "NotApproved",
+    "opening_edges": 0,
+    "relationship_dimensions": 0,
+    "opening_claims": 0,
+    "opening_titles": 0
+  },
+  "validation_status": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "static_check": {
+    "filename": "Rhys_ap_Tewdwr_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

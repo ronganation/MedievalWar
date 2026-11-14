@@ -1,0 +1,62 @@
+{
+  "file": "Almoravid_Opening_State_Authority_and_Registry_Preflight_V1.md",
+  "status": "PASS_STATIC_CHECKED",
+  "bytes": 41130,
+  "lines": 1853,
+  "words": 4637,
+  "sha256": "bc7d69525e562ea07b936934419ce9e3f598121aa555caaaa7fb55ccbc973812",
+  "registry": {
+    "file": "Almoravid_ID_Registry_V1.md",
+    "internalVersion": "1.1.0",
+    "sha256": "e798c51865aa289eae5a72681b18a8e5e455c1ea669216904d2b33af9061989f"
+  },
+  "openingCounts": {
+    "selectablePerspectives": 2,
+    "livingRequired": 2,
+    "livingReviewDependent": 1,
+    "historicalNonRuntime": 3,
+    "principalBaseBindings": 1,
+    "openingArmies": 0,
+    "openingPoliticalEdges": 0,
+    "openingEconomicInstances": 0,
+    "openingCapitalProjectInstances": 0,
+    "openingCapitalPhases": 0
+  },
+  "checks": {
+    "version": true,
+    "registry_version": true,
+    "two_perspectives": true,
+    "aghmat": true,
+    "marrakesh_zero": true,
+    "army_zero": true,
+    "network_zero": true,
+    "economy_zero": true,
+    "explicit_empty": true,
+    "temporal": true,
+    "application_guard": true,
+    "advanced_save": true,
+    "atomic": true,
+    "zaynab_gate": true,
+    "validation": true,
+    "save": true,
+    "determinism": true,
+    "fixtures": true,
+    "owner_routing": true,
+    "manifest": true,
+    "rollback": true,
+    "production": true,
+    "next": true,
+    "bounded_claims": true,
+    "registry_hash": true,
+    "fences": true,
+    "benchmark": true
+  },
+  "allChecksPass": true,
+  "evidenceBoundary": {
+    "authorityManifestRefreshRequired": true,
+    "importerValidated": false,
+    "compileValidated": false,
+    "runtimeValidated": false,
+    "saveLoadValidated": false
+  }
+}

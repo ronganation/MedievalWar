@@ -1,0 +1,17 @@
+{
+  "manifest_version": "1.1",
+  "document_type": "RealmEcclesiasticalContentAuthorityFullRefinement",
+  "file": "Ireland_Ecclesiastical_Institutions_Offices_Property_Sanctuary_and_Patronage_Authority_V1_1_FULL.md",
+  "bytes": 52625,
+  "lines": 1263,
+  "sha256": "08084346adf9b63aa888e3881bf56e3c2eb6aa01e5cde6ab539a8c5bb525817b",
+  "direct_substantive_source": "Ireland_Ecclesiastical_Institutions_Offices_Property_Sanctuary_and_Patronage_Authority_V1.md",
+  "source_treatment": "PreserveAndEnrich",
+  "substantive_sections": 33,
+  "validation_cases": 36,
+  "source_authorities_modified": 0,
+  "records_activated": 0,
+  "static_check_file": "Ireland_Ecclesiastical_Institutions_Offices_Property_Sanctuary_and_Patronage_Authority_V1_1_FULL_Static_Check.json",
+  "static_check_sha256": "0119c8481bc53f6042e07eb2005c6a6f2483079ae577865aa58cb2da37439e13",
+  "validation_scope": "content static and source-successor completeness checks only; no owner promotion, Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, or payload validation"
+}

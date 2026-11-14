@@ -1,0 +1,27 @@
+{
+  "document": "House_Dunkeld_Dynasty_V2_Current_Authority_Rebuild.md",
+  "bytes": 44066,
+  "physical_lines": 1096,
+  "sections": 54,
+  "sha256": "c1c1b7321df21705f7276c1c6fe60f806c5e4cbe1c9176d66f1f2bd1d41f9aa9",
+  "checks": {
+    "source_mapping": true,
+    "four_interfaces": true,
+    "temporal": true,
+    "current_target": true,
+    "opening_boundary": true,
+    "underage": true,
+    "headship_none": true,
+    "no_heir": true,
+    "no_successor": true,
+    "network_boundary": true,
+    "intentional_empty": true,
+    "validation_false": true,
+    "authorizations_false": true,
+    "no_escaped_underscore": true,
+    "sections_at_least_50": true,
+    "successor_larger_than_source": true
+  },
+  "static_check_passed": true,
+  "failed_checks": []
+}

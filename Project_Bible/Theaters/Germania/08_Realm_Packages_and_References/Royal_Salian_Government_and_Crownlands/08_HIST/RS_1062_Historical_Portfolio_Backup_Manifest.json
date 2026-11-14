@@ -1,0 +1,50 @@
+{
+  "artifact_role": "PreEditSnapshotManifestNotHistoryAuthority",
+  "snapshot_created_at_utc": "2026-10-25T16:22:47Z",
+  "snapshot_directory": "C:\\Users\\thetr\\.copilot\\session-state\\0a67597c-be28-4976-9149-3638aa9127d2\\files\\RS_1062_PreReconciliation_20261025T162247Z",
+  "snapshot_file_count": 8,
+  "snapshot_hash_verification": "PassedContentComparison",
+  "current_authority_version": "1.1.0",
+  "files": [
+    {
+      "filename": "RS_1062_Historical_Foundation_and_Campaign_Context_Authority_V1_1.md",
+      "byte_size": 25787,
+      "sha256": "852CC677EB700965C5EAF21FAE009C75BA2486B78C381ADC6C6D123BA7F9BB67"
+    },
+    {
+      "filename": "RS_1062_Opening_Chronology_and_Historical_Runway_Authority_V1_1.md",
+      "byte_size": 29064,
+      "sha256": "DBF27AECFB500AB6C18B29C6CE6F5BCECA576CC220043C120A64515949F10621"
+    },
+    {
+      "filename": "RS_1062_Historical_Source_Assertion_and_Contradiction_Authority_V1_1.md",
+      "byte_size": 30631,
+      "sha256": "32FD399A58BD4C00B72D4DC15C686B500238D75ECB8D5A426F8C714A469D845C"
+    },
+    {
+      "filename": "RS_1062_Historical_Actors_Institutions_and_Political_Forces_Authority_V1_1.md",
+      "byte_size": 37898,
+      "sha256": "308539E83126C407F133E8691FB764C26F5528B7355F7792F9A9AE5E16BE6556"
+    },
+    {
+      "filename": "RS_1062_Historical_Crisis_Conflict_and_Transformation_Portfolio_Authority_V1_1.md",
+      "byte_size": 48108,
+      "sha256": "F6D4BE986BD29F1EB244EE3D007199B0F644BDAC9437C2E95DF0A1980971D2D4"
+    },
+    {
+      "filename": "RS_1062_Historical_Memory_Precedent_and_Conditional_Emergence_Authority_V1_1.md",
+      "byte_size": 50707,
+      "sha256": "C824C0BCE2459A447360CE70B79B7497A1CB67E472D045C98418AE8D1C61F348"
+    },
+    {
+      "filename": "RS_1062_Historical_Campaign_Integration_Traceability_and_Handoff_Authority_V1_1.md",
+      "byte_size": 45246,
+      "sha256": "E1026866190C68F11FDC03691788A538BB88DE289DB62117110F69192B1940F4"
+    },
+    {
+      "filename": "README_RS_1062_Historical_Portfolio_Current_Authority_Index_and_Ownership_Map_V1_1.md",
+      "byte_size": 32250,
+      "sha256": "85AF9D2A95F99B35ABAFF952D57C5CDDA506431291B9F6ECE2457B01D87E0F92"
+    }
+  ]
+}

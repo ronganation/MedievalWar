@@ -1,0 +1,20 @@
+{
+  "manifest_version": "1.0",
+  "document_type": "RealmPopulationSettlementSocietyLaborMigrationAuthority",
+  "file": "Ireland_Population_Settlement_Society_Labor_and_Migration_Authority_V1.md",
+  "bytes": 40512,
+  "lines": 911,
+  "sha256": "452d32e647bb804892f3be4a03ae30102e9a3bc407b98beca0d4b2b209b9c79b",
+  "authority_origin": "SourceFirstSpecialistGapDevelopment",
+  "gap_decision_source": "Ireland_Specialist_Authority_Inventory_and_Gap_Decision_V1.md",
+  "structural_benchmark": "Wales_Population_Society_and_Recruitment_Capacity_Authority_V1.md",
+  "military_content_authority": "Military_Content_Roster_Recruitment_and_Development_Authority_V1.md",
+  "substantive_sections": 46,
+  "validation_cases": 46,
+  "opening_numeric_values_created": 0,
+  "source_authorities_modified": 0,
+  "records_activated": 0,
+  "static_check_file": "Ireland_Population_Settlement_Society_Labor_and_Migration_Authority_V1_Static_Check.json",
+  "static_check_sha256": "464842339829df4596280594f56161f0753765d87aa27ed5463d413d2f629202",
+  "validation_scope": "content static checks only; no owner promotion, Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, or payload validation"
+}

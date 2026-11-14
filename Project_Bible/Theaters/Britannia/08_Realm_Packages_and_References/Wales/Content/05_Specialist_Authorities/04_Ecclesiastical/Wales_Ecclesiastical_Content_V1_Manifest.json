@@ -1,0 +1,36 @@
+{
+  "document_id": "manifest.wales.ecclesiastical-content.v1",
+  "version": "1.0.0",
+  "artifact": {
+    "filename": "Wales_Ecclesiastical_Content_V1.md",
+    "bytes": 40319,
+    "physical_lines": 1122,
+    "sha256": "59f0043b498564418ed6b2fce1d535caaea74302888692c842f86ae79caeccfb"
+  },
+  "benchmarks": [
+    "England_Ecclesiastical_Content_V1.md",
+    "Scotland_Ecclesiastical_Content_V1.md",
+    "Norway_Ecclesiastical_Content_V1.md"
+  ],
+  "wales_source_reviews": [
+    "St_Davids_Identity_Office_Institution_Review.md",
+    "Abbot_of_St_Davids_Source_to_Owner_Disposition.md"
+  ],
+  "opening_core": {
+    "people": 1,
+    "offices_defined": 1,
+    "institutions_defined": 1,
+    "places_referenced": 1,
+    "occupancies_activated": 0
+  },
+  "mutations": {
+    "Opening_State": false,
+    "Registry": false,
+    "runtime": false,
+    "migration": false
+  },
+  "static_check": {
+    "filename": "Wales_Ecclesiastical_Content_V1_Static_Check.json",
+    "passed": true
+  }
+}

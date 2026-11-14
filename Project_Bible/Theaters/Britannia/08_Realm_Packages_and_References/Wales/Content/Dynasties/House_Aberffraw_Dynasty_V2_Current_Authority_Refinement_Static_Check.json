@@ -1,0 +1,37 @@
+{
+  "document_id": "StaticCheck.Dynasty.Wales.HouseAberffraw.V2",
+  "version": "2.0.0",
+  "source": {
+    "filename": "House_Aberffraw_Dynasty.md",
+    "bytes": 41313,
+    "physical_lines": 1482,
+    "sha256": "087f139842f9c6d8717a5321daeaec3fa3511e2dc173362c1dbcdb2e98931672"
+  },
+  "successor": {
+    "filename": "House_Aberffraw_Dynasty_V2_Current_Authority_Refinement.md",
+    "bytes": 62770,
+    "physical_lines": 2185,
+    "sha256": "6c0496acfca1a941d00bc1a9a23ace8c0e9fcb3f99aafa6629bcc27c9f53a534"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger": true,
+    "all_source_headings_preserved": true,
+    "current_ids": true,
+    "current_metadata": true,
+    "opening_date": true,
+    "one_underage_member": true,
+    "no_opening_claim_or_title": true,
+    "no_external_resources": true,
+    "no_dynasty_rivalry": true,
+    "cross_realm_lock": true,
+    "network_empty": true,
+    "three_track_model": true,
+    "honest_validation": true,
+    "authorizations_false": true,
+    "no_removed_content": true,
+    "no_escaped_underscores_in_v2": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

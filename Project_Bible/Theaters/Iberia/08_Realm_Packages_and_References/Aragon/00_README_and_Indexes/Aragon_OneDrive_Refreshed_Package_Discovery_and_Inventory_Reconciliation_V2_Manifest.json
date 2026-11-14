@@ -1,0 +1,34 @@
+{
+  "document_id": "Manifest.DiscoveryInventory.OneDrive.Aragon.V2",
+  "authority_file": "Aragon_OneDrive_Refreshed_Package_Discovery_and_Inventory_Reconciliation_V2.md",
+  "sha256": "AC44FB95B7A25855DFCB891D46DD60FD47357A1AF9CEFDE59951ADFD0D37E516",
+  "version": "2.0.0",
+  "revision_date": "2026-09-09",
+  "placement": "Aragon/00_README_and_Indexes",
+  "status": "StaticCheckedOneDriveSearchVisibleReconciliation",
+  "checks": {
+    "bytes": 12335,
+    "lines": 243,
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "duplicate_flags_present": true,
+    "character_omission_corrected": true,
+    "no_physical_overclaim": true,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "mutation_receipt": {
+    "SourceOverwrite": 0,
+    "Deleted": 0,
+    "Moved": 0,
+    "Renamed": 0,
+    "Registry": 0,
+    "CandidatePromotion": 0,
+    "CandidateJson": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "next_gate": "Open and hash-compare flagged working copies before any deletion; current package promotion remains owner-receipt blocked"
+}

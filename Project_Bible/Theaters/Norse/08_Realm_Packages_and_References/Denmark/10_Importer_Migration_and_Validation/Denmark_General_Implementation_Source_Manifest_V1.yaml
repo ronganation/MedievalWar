@@ -1,0 +1,816 @@
+manifest:
+  manifest_id: mw.manifest.denmark.general-implementation-sources.v1
+  filename: Denmark_General_Implementation_Source_Manifest_V1.yaml
+  version: 1.0.0
+  revision_date: '2026-10-08'
+  realm: Kingdom of Denmark
+  realm_id: realm.denmark.kingdom
+  package_id: package.denmark.v1
+  owning_theater: Norse
+  scenario_id: mw.scenario.grand_campaign.1062
+  scenario_opening: '1062-01-01'
+  opening_campaign_season: Winter
+  constitutional_authority: Project Bible 2.4
+  operational_authority: Design Expansion Checklist 3.7
+  navigation_authority: Denmark_README_V1_3_Non_Military_Authority_and_General_Implementation_Preparation_Additive_Rebuild.md
+  readiness_authority: Denmark_Non_Military_Authority_and_General_Implementation_Readiness_Assessment_V1.md
+  implementation_target: Unreal Engine 5.8
+  status: StaticCheckedNonMilitarySourceBaselinePhysicalHashCompletionPending
+  purpose:
+    - EnumerateAcceptedNonMilitaryImplementationSources
+    - DistinguishAuthorityReviewQuarantineValidationAndArchiveInputs
+    - EstablishReadOnlyImplementationBaseline
+    - PreserveUnknownAndUnverifiedFieldsHonestly
+  military_roster_sources_included: false
+  military_unit_sources_included: false
+  military_equipment_sources_included: false
+  military_implementation_sources_included: false
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  opening_state_activation_authorized: false
+  runtime_creation_authorized: false
+  runtime_mutation_authorized: false
+  save_format_mutation_authorized: false
+  migration_execution_authorized: false
+  importer_commit_authorized: false
+  production_promotion_authorized: false
+
+source_policy:
+  package_resident_current_successor_controls: true
+  microsoft_copilot_chat_files_are_authoritative_inputs: false
+  semantic_search_rank_proves_currentness: false
+  silent_filename_substitution_permitted: false
+  physical_filename_and_internal_filename_recorded_separately: true
+  missing_path_hash_or_metadata_value: UnknownPendingPhysicalInspection
+  review_and_quarantine_are_instantiating: false
+  archive_files_may_supply_runtime_content: false
+  external_owner_private_state_may_be_created: false
+  definition_creates_instance: false
+  definition_creates_opening_state: false
+  opening_defaults_may_overwrite_advanced_save: false
+
+implementation_tranches:
+  first:
+    tranche_id: denmark.character-network.existing-implementation-inspection.v1
+    name: Denmark Character Network Existing Implementation Inspection and Preservation
+    mode: ReadOnlyFirst
+    physical_candidate_root: C:/UnrealProjects/MedievalWar/Plugins/DenmarkNetworkIntegration
+    code_change_authorized_by_manifest: false
+    military_scope: Excluded
+  second:
+    tranche_id: denmark.economy-property-supply.readonly-adapter-validation.v1
+    name: Denmark Economy Property Supply Source Hash and Read-Only Adapter Validation
+    mode: ReadOnlyAndHashGated
+    code_change_authorized_by_manifest: false
+    importer_commit_authorized: false
+  later_conditional:
+    - GovernanceLawChurchAndRealmAIDefinitionProjection
+    - HistoricalMemoryMomentumEmergenceDefinitionProjection
+    - WorldGeographySitesAndRoutesDefinitionProjection
+    - DiplomacyDefinitionAndExternalReceiptProjection
+    - RealmDevelopmentProgramAndRealizationDefinitionProjection
+
+sources:
+  - source_id: denmark.readme.v1_3
+    relative_path: 00_README_and_Indexes/Denmark_README_V1_3_Non_Military_Authority_and_General_Implementation_Preparation_Additive_Rebuild.md
+    physical_filename: Denmark_README_V1_3_Non_Military_Authority_and_General_Implementation_Preparation_Additive_Rebuild.md
+    internal_filename: Denmark_README_V1_3_Non_Military_Authority_and_General_Implementation_Preparation_Additive_Rebuild.md
+    file_type: md
+    version: 1.3.0
+    document_id: mw.denmark.readme.v1.3
+    stable_document_id: README.Realm.Denmark
+    authority_id: authority.readme.realm.denmark.v1.3
+    authority_class: PackageNavigation
+    currentness_status: CurrentPackageEntryPointCandidate
+    implementation_role: NavigationAndScopeBoundary
+    owner: DenmarkRealmPackage
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: None
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: OwnerReviewRequired
+    predecessor_or_successor:
+      supersedes: Denmark_README_V1_2_Authority_Surface_and_Technology_Portfolio_Additive_Rebuild.md
+    external_dependencies: []
+    bytes: 81322
+    sha256: 7198e83b3066814ad6530b30e9c486b573e698d778d18da4a3d8e0ca2b5ba7c9
+    hash_evidence_status: GeneratedExactByteHash
+
+  - source_id: denmark.readiness.non_military.v1
+    relative_path: 11_Supporting_and_Workflow/Denmark_Non_Military_Authority_and_General_Implementation_Readiness_Assessment_V1.md
+    physical_filename: Denmark_Non_Military_Authority_and_General_Implementation_Readiness_Assessment_V1.md
+    internal_filename: Denmark_Non_Military_Authority_and_General_Implementation_Readiness_Assessment_V1.md
+    file_type: md
+    version: 1.0.0
+    document_id: assessment.realm.denmark.non-military-general-implementation-readiness.v1
+    stable_document_id: Assessment.Realm.Denmark.NonMilitaryGeneralImplementationReadiness
+    authority_id: assessment.realm.denmark.non-military-general-implementation-readiness.v1
+    authority_class: ReviewOnlyImplementationAdmissionDecision
+    currentness_status: CurrentReadinessAssessmentCandidate
+    implementation_role: TrancheSelectionAndStopGate
+    owner: DenmarkRealmPackage
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: None
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: OwnerReviewRequired
+    predecessor_or_successor: None
+    external_dependencies: []
+    bytes: 23074
+    sha256: f87b84ef55daeb383235b62e8c565b5c5cbbcb8afc59d43195234dbbf82bdad7
+    hash_evidence_status: GeneratedExactByteHash
+
+  - source_id: denmark.foundation-review.v1
+    relative_path: 01_Foundation_and_Sources/Denmark_Foundation_Review_V1.md
+    physical_filename: Denmark_Foundation_Review_V1.md
+    internal_filename: Denmark_Foundation_Review_V1.md
+    file_type: md
+    version: 1.0.0
+    document_id: mw.foundation-review.denmark.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.foundation-review.denmark.v1
+    authority_class: CanonicalAuthority
+    currentness_status: StaticCheckedFoundationCompleteWithControlledDependencies
+    implementation_role: PackageFoundationAndHandoffBoundary
+    owner: DenmarkRealmPackage
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoneByThisSource
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: Canonical
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - Project Bible 2.4
+      - Design Expansion Checklist 3.7
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.id-registry.v1
+    relative_path: 02_Identity_and_Registry/Denmark_ID_Registry_V1.md
+    physical_filename: Denmark_ID_Registry_V1.md
+    internal_filename: Denmark_ID_Registry_V1.md
+    file_type: md
+    version: 1.1.2
+    document_id: mw.denmark.id_registry.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.id_registry.v1
+    authority_class: CanonicalAuthority
+    currentness_status: StaticChecked
+    implementation_role: CanonicalIdentityAndMigrationReference
+    owner: RegistryOwner
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoIndependentActivation
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: Canonical
+    predecessor_or_successor:
+      supersedes:
+        - Denmark ID Registry V1, Rebuilt.md
+        - Denmark_ID_Registry_V1_REBUILT.md
+    external_dependencies:
+      - ProjectRegistry
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.external-lock-ledger.v1
+    relative_path: 02_Identity_and_Registry/Denmark_External_Lock_Resolution_Ledger_V1.md
+    physical_filename: Denmark_External_Lock_Resolution_Ledger_V1.md
+    internal_filename: Denmark_External_Lock_Resolution_Ledger_V1.md
+    file_type: md
+    version: 1.3.0
+    document_id: mw.denmark.external_lock_ledger.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.external_lock_ledger.v1
+    authority_class: CanonicalAuthority
+    currentness_status: StaticChecked
+    implementation_role: ExternalCanonicalIdentityResolutionInput
+    owner: RegistryAndExternalOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoIndependentActivation
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: CanonicalWithExternalOwnerDependencies
+    predecessor_or_successor:
+      supersedes:
+        - Denmark External Lock Resolution Ledger V1.1.md
+        - Denmark External Lock Resolution Ledger V1.2.md
+    external_dependencies:
+      - ExternalEntityOwners
+      - ProjectRegistry
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.character-authorities.v1
+    relative_path: 03_Characters_and_Dynasty/Denmark_Character_Authorities_V1.md
+    physical_filename: Denmark_Character_Authorities_V1.md
+    internal_filename: Denmark_Character_Authorities_V1.md
+    file_type: md
+    version: 1.1.2
+    document_id: mw.denmark.character_authorities.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.character_authorities.v1
+    authority_class: CanonicalAuthority
+    currentness_status: StaticChecked
+    implementation_role: CharacterDefinitionAndOwnerBoundary
+    owner: CharacterOwner
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: ProfileDoesNotCreateOpeningParticipation
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: CanonicalWithLifecycleResidue
+    predecessor_or_successor:
+      supersedes: Denmark Character Authorities V1, Rebuilt.md
+    external_dependencies:
+      - RegistryOwner
+      - OpeningStateOwner
+      - HouseholdOwner
+      - OfficeOwner
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.dynasty-authority.v1
+    relative_path: 03_Characters_and_Dynasty/Denmark_Dynasty_Authority_V1.md
+    physical_filename: Denmark_Dynasty_Authority_V1.md
+    internal_filename: Denmark_Dynasty_Authority_V1.md
+    file_type: md
+    version: 1.1.x
+    document_id: mw.denmark.dynasty_authority.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.dynasty_authority.v1
+    authority_class: CanonicalAuthority
+    currentness_status: StaticChecked
+    implementation_role: DynastyDefinitionAndSuccessionBoundary
+    owner: DynastyOwner
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoPredeterminedSuccession
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: CanonicalWithIdentityResidue
+    predecessor_or_successor:
+      supersedes: Denmark Dynasty Authority V1, Rebuilt.md
+    external_dependencies:
+      - CharacterOwner
+      - RegistryOwner
+      - SuccessionOwner
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.character-network.decision-pass.v1
+    relative_path: 04_Character_Network_and_External/Denmark_Character_Network_Decision_Pass_V1.md
+    physical_filename: Denmark_Character_Network_Decision_Pass_V1.md
+    internal_filename: Denmark_Character_Network_Decision_Pass_V1.md
+    file_type: md
+    version: 1.1.x
+    document_id: mw.denmark.network_decision_pass.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.network_decision_pass.v1
+    authority_class: CanonicalAuthority
+    currentness_status: StaticChecked
+    implementation_role: CharacterNetworkDesignAuthority
+    owner: CharacterNetworkOwner
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoIndependentNetworkActivation
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: Canonical
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - CharacterOwner
+      - RegistryOwner
+      - ExternalOwners
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.character-network.manifest.machine.v1
+    relative_path: 04_Character_Network_and_External/Denmark_Character_Network_Importer_Manifest_V1.json
+    physical_filename: Denmark_Character_Network_Importer_Manifest_V1.json
+    internal_filename: Denmark_Character_Network_Importer_Manifest_V1.json
+    file_type: json
+    version: 1.1.0
+    document_id: mw.denmark.network_importer_manifest.machine.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.network_importer_manifest.machine.v1
+    authority_class: GeneratedMachineReadableContent
+    currentness_status: StaticCheckedMachineReadable
+    implementation_role: FirstTrancheMachineReadableInput
+    owner: CharacterNetworkOwner
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoneWithoutOwnerApply
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: GeneratedFromApprovedDecisionSurface
+    predecessor_or_successor: RebuiltNamingResidueRequiresPhysicalInspection
+    external_dependencies:
+      - Denmark_Character_Network_Decision_Pass_V1.md
+      - Denmark_External_Lock_Resolution_Ledger_V1.md
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.character-network.integration-contract.v1
+    relative_path: 04_Character_Network_and_External/Denmark_Character_Network_Integration_Contract_V1.md
+    physical_filename: Denmark_Character_Network_Integration_Contract.md
+    internal_filename: Denmark_Character_Network_Integration_Contract_V1.md
+    file_type: md
+    version: 1.1.1
+    document_id: mw.integration-contract.denmark.character-network.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.integration-contract.denmark.character-network.v1
+    authority_class: CanonicalIntegrationContract
+    currentness_status: StaticCheckedIntegrationReadyContractScope
+    implementation_role: FirstTrancheIntegrationContract
+    owner: CharacterNetworkAndSharedImporterOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: OwnerRoutedOnly
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: CanonicalContractPhysicalNameMismatch
+    predecessor_or_successor: RebuiltReferencesRequirePhysicalInspection
+    external_dependencies:
+      - CharacterNetworkDecisionPass
+      - CharacterNetworkManifest
+      - ExternalLockLedger
+      - SharedImporterOwner
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.character-network.dry-preflight.v1
+    relative_path: 04_Character_Network_and_External/Denmark_Character_Network_Dry_Preflight_Report_V1.md
+    physical_filename: Denmark_Character_Network_Dry_Preflight_Report.md
+    internal_filename: Denmark_Character_Network_Dry_Preflight_Report_V1.md
+    file_type: md
+    version: 1.1.1
+    document_id: mw.preflight.denmark.character-network.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.preflight.denmark.character-network.v1
+    authority_class: GeneratedValidationEvidence
+    currentness_status: StaticCheckedDryPreflightValidated
+    implementation_role: FirstTrancheNoMutationBaseline
+    owner: CharacterNetworkAndValidationOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: None
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: ValidationEvidencePhysicalNameMismatch
+    predecessor_or_successor: RebuiltReferencesRequirePhysicalInspection
+    external_dependencies:
+      - CharacterNetworkManifest
+      - CharacterNetworkIntegrationContract
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.character-network.shared-adapter.v1
+    relative_path: 04_Character_Network_and_External/Denmark_Shared_Character_Network_Adapter_V1.json
+    physical_filename: Denmark Shared Character Network Adapter.json
+    internal_filename: Denmark_Shared_Character_Network_Adapter_V1.json
+    file_type: json
+    version: 1.0.0
+    document_id: mw.shared-adapter.denmark.character-network.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.shared-adapter.denmark.character-network.v1
+    authority_class: GeneratedMachineReadableContent
+    currentness_status: StaticCheckedDryPreflightValidated
+    implementation_role: FirstTrancheSharedImporterEnvelope
+    owner: SharedImporterOwner
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoApplyAuthorized
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: AdapterEnvelopePhysicalNameMismatch
+    predecessor_or_successor: RebuiltSourceReferencesRequirePhysicalInspection
+    external_dependencies:
+      - CharacterNetworkManifest
+      - CharacterNetworkDecisionPass
+      - ExternalLockLedger
+      - SharedImporterBindings
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.character-network.importer-workplan.v1
+    relative_path: 10_Importer_Migration_and_Validation/Denmark_Network_Importer_Workplan.md
+    physical_filename: Denmark Network Importer Workplan.md
+    internal_filename: Denmark_Network_Importer_Workplan_V1.md
+    file_type: md
+    version: 1.1.0
+    document_id: mw.workplan.denmark.character-network.importer.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.workplan.denmark.character-network.importer.v1
+    authority_class: SupportingAuthority
+    currentness_status: StaticCheckedImplementationPlanned
+    implementation_role: FirstTrancheWorkplan
+    owner: SharedImporterAndCharacterNetworkOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoneByWorkplan
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: SupportingPhysicalNameMismatch
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - CharacterNetworkManifest
+      - CharacterNetworkIntegrationContract
+      - SharedImporterBindings
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.governance.v1
+    relative_path: 05_Governance_Church_and_AI/Denmark_Governance_and_Delegated_Authority_V1.md
+    physical_filename: Denmark Governance and Delegated Authority.md
+    internal_filename: Denmark_Governance_and_Delegated_Authority_V1.md
+    file_type: md
+    version: 1.0.1
+    document_id: mw.governance.denmark.delegated-authority.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.governance.denmark.delegated-authority.v1
+    authority_class: CanonicalAuthority
+    currentness_status: StaticCheckedOpeningStateDependencies
+    implementation_role: LaterConditionalGovernanceDefinitionSource
+    owner: GovernanceOwnerAndSharedOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: RequiresOpeningStateOwner
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: CanonicalPhysicalNameMismatch
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - CharacterOwner
+      - OfficeOwner
+      - AssemblyOwner
+      - PropertyOwner
+      - EconomyOwner
+      - GeographyOwner
+      - HistoricalOwner
+      - TurnPipelineOwner
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.historical-memory.v1
+    relative_path: 06_Historical_Systems/Denmark_Historical_Memory_V1.md
+    physical_filename: Denmark Historical Memory.md
+    internal_filename: Denmark_Historical_Memory_V1.md
+    file_type: md
+    version: 1.0.1
+    document_id: mw.historical-memory.denmark.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.historical-memory.denmark.v1
+    authority_class: CanonicalAuthority
+    currentness_status: StaticCheckedEvidenceAndRuntimeDependencies
+    implementation_role: LaterConditionalHistoricalDefinitionSource
+    owner: HistoricalMemoryOwner
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: OpeningSelectionOwnerRequired
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: CanonicalPhysicalNameMismatch
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - HistoricalFactOwner
+      - CharacterKnowledgeOwner
+      - OpeningStateOwner
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.sites.v1
+    relative_path: 07_World_Geography_and_Sites/Denmark_Settlements_Ports_and_Strategic_Sites_V1.md
+    physical_filename: Sites authority.md
+    internal_filename: Denmark_Settlements_Ports_and_Strategic_Sites_V1.md
+    file_type: md
+    version: 1.0.1
+    document_id: mw.settlements-ports-strategic-sites.denmark.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.settlements-ports-strategic-sites.denmark.v1
+    authority_class: CanonicalAuthority
+    currentness_status: StaticCheckedArchaeologicalCartographicAndWorldStateDependencies
+    implementation_role: LaterConditionalWorldDefinitionSource
+    owner: WorldGeographyAndSiteOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoWorldInstanceCreation
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: CanonicalPhysicalNameMismatch
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - WorldGeometryOwner
+      - SettlementOwner
+      - PortOwner
+      - RouteOwner
+      - PropertyOwner
+      - InstitutionOwner
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.eps.current-authority.v1_3
+    relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_and_Military_Supply_V1_3.md
+    physical_filename: Denmark_Economy_Property_and_Military_Supply_V1_3.md
+    internal_filename: Denmark_Economy_Property_and_Military_Supply_V1_3.md
+    file_type: md
+    version: 1.3.0
+    document_id: mw.denmark.eps.v1_3
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.eps.v1_3
+    authority_class: CanonicalAuthority
+    currentness_status: StaticCheckedCurrentAdditiveSuccessor
+    implementation_role: SecondTrancheDesignAuthority
+    owner: EconomyPropertySupplyOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: DefinitionOnlyWithoutOpeningOwner
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: Canonical
+    predecessor_or_successor:
+      supersedes:
+        - Denmark_Economy_Property_and_Military_Supply_V1_2.md
+        - Denmark_Economy_Property_and_Military_Supply_V1.md
+    external_dependencies:
+      - PropertyOwner
+      - EconomyOwner
+      - SupplyOwner
+      - OpeningStateOwner
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.eps.content-records.v1
+    relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Content_Records_V1.yaml
+    physical_filename: Denmark_Economy_Property_Supply_Content_Records_V1.yaml
+    internal_filename: Denmark_Economy_Property_Supply_Content_Records_V1.yaml
+    file_type: yaml
+    version: 1.0.1
+    document_id: mw.denmark.eps.content_records.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.eps.content_records.v1
+    authority_class: GeneratedMachineReadableContent
+    currentness_status: StaticCheckedMachineReadable
+    implementation_role: SecondTrancheMachineReadableInput
+    owner: EconomyPropertySupplyOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoneWithoutOwnerApply
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: MixedProductionReviewQuarantineBundle
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - EconomyPropertySupplyAuthority
+      - PackageManifest
+      - ReviewQuarantineManifest
+      - ValidationManifest
+    bytes: UnknownPendingPhysicalInspection
+    sha256: 98917f740d7bf02c82587208d8ef6f43bfcf92087059c48be7d78c3990b83780
+    hash_evidence_status: AdapterRecordedHashPendingPhysicalComparison
+
+  - source_id: denmark.eps.package-manifest.v1
+    relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Package_Manifest_V1.yaml
+    physical_filename: Denmark_Economy_Property_Supply_Package_Manifest_V1.yaml
+    internal_filename: Denmark_Economy_Property_Supply_Package_Manifest_V1.yaml
+    file_type: yaml
+    version: 1.0.0
+    document_id: mw.denmark.eps.package_manifest.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.eps.package_manifest.v1
+    authority_class: GeneratedMachineReadableContent
+    currentness_status: StaticChecked
+    implementation_role: SecondTranchePackageManifest
+    owner: EconomyPropertySupplyOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: None
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: GeneratedManifest
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - EconomyPropertySupplyContentRecords
+    bytes: UnknownPendingPhysicalInspection
+    sha256: 6904bb628f96a63e6edfb587353009dd107bb178ffac370cca9c2e84b74c79d1
+    hash_evidence_status: AdapterRecordedHashPendingPhysicalComparison
+
+  - source_id: denmark.eps.review-quarantine.v1
+    relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Review_Quarantine_Manifest_V1.yaml
+    physical_filename: Denmark_Economy_Property_Supply_Review_Quarantine_Manifest_V1.yaml
+    internal_filename: Denmark_Economy_Property_Supply_Review_Quarantine_Manifest_V1.yaml
+    file_type: yaml
+    version: 1.0.0
+    document_id: mw.denmark.eps.review_quarantine.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.eps.review_quarantine.v1
+    authority_class: GeneratedMachineReadableContent
+    currentness_status: StaticChecked
+    implementation_role: SecondTrancheNonInstantiationFilter
+    owner: EconomyPropertySupplyOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: ReviewAndQuarantineDoNotInstantiate
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: ReviewAndQuarantineAuthority
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - EconomyPropertySupplyContentRecords
+    bytes: UnknownPendingPhysicalInspection
+    sha256: 9490148411d71fdefd9d46f6391df5eb98d63f61fc240c951e5bc35cac0f6395
+    hash_evidence_status: AdapterRecordedHashPendingPhysicalComparison
+
+  - source_id: denmark.eps.shared-adapter.v1
+    relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Shared_Importer_Adapter_V1.json
+    physical_filename: Denmark_Economy_Property_Supply_Shared_Importer_Adapter_V1.json
+    internal_filename: Denmark_Economy_Property_Supply_Shared_Importer_Adapter_V1.json
+    file_type: json
+    version: 1.0.0
+    document_id: mw.denmark.economy_property_supply.shared_importer_adapter.v1
+    stable_document_id: UnknownPendingPhysicalInspection
+    authority_id: mw.denmark.economy_property_supply.shared_importer_adapter.v1
+    authority_class: GeneratedMachineReadableContent
+    currentness_status: DryPreflightReadyAuthorityHashGated
+    implementation_role: SecondTrancheSharedImporterEnvelope
+    owner: SharedImporterOwner
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: ApplyOnceContractPresentButApplyNotAuthorized
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: HashGatedAdapter
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - EconomyPropertySupplyContentRecords
+      - PackageManifest
+      - ReviewQuarantineManifest
+      - ValidationManifest
+      - AuthorityHashManifest
+      - SharedImporterOwner
+    bytes: UnknownPendingPhysicalInspection
+    sha256: UnknownPendingPhysicalInspection
+    hash_evidence_status: PendingPhysicalHash
+
+  - source_id: denmark.diplomacy.full.v1
+    relative_path: 12_Diplomacy/Denmark_Diplomacy_External_Relations_Recognition_Access_Agreement_War_Peace_and_Political_Settlement_Authority_V1_FULL.md
+    physical_filename: Denmark_Diplomacy_External_Relations_Recognition_Access_Agreement_War_Peace_and_Political_Settlement_Authority_V1_FULL.md
+    internal_filename: Denmark_Diplomacy_External_Relations_Recognition_Access_Agreement_War_Peace_and_Political_Settlement_Authority_V1_FULL.md
+    file_type: md
+    version: 1.0.0
+    document_id: mw.authority.denmark.diplomacy-external-relations-recognition-access-agreement-war-peace-political-settlement.v1
+    stable_document_id: DiplomacyExternalRelations.Realm.Denmark
+    authority_id: authority.realm.denmark.diplomacy-external-relations.v1
+    authority_class: CanonicalAuthorityCandidate
+    currentness_status: CurrentCandidatePendingOwnerSupersessionDecision
+    implementation_role: LaterConditionalDiplomacyDefinitionSource
+    owner: DenmarkDiplomacyOwnerAndExternalCounterpartOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoDiplomaticInstanceCreation
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: OwnerReviewRequired
+    predecessor_or_successor:
+      predecessor_candidate: Denmark_Diplomacy_External_Relations_Recognition_War_Peace_Access_Hostages_Tribute_Clientage_and_Political_Settlement_Authority_V1.md
+      supersession_status: UnresolvedOwnerDecision
+    external_dependencies:
+      - ExternalCounterpartReceipts
+      - RegistryOwner
+      - OpeningStateOwner
+      - RouteOwner
+      - EconomyOwner
+    bytes: UnknownPendingPhysicalInspection
+    sha256: dc059fb2cac5d459d5e9d7a63cc95180c9ce8dd6fe247e66d9ec033ea8204137
+    hash_evidence_status: PriorGeneratedHashPendingPhysicalComparison
+
+  - source_id: denmark.diplomacy.predecessor.v1
+    relative_path: 12_Diplomacy/Denmark_Diplomacy_External_Relations_Recognition_War_Peace_Access_Hostages_Tribute_Clientage_and_Political_Settlement_Authority_V1.md
+    physical_filename: Denmark_Diplomacy_External_Relations_Recognition_War_Peace_Access_Hostages_Tribute_Clientage_and_Political_Settlement_Authority_V1.md
+    internal_filename: Denmark_Diplomacy_External_Relations_Recognition_War_Peace_Access_Hostages_Tribute_Clientage_and_Political_Settlement_Authority_V1.md
+    file_type: md
+    version: 1.0.0
+    document_id: authority.realm.denmark.diplomacy-external-relations-recognition-war-peace-access-hostages-tribute-clientage-settlement.v1
+    stable_document_id: DiplomacyExternalRelations.Realm.Denmark
+    authority_id: authority.diplomacy-external-relations.realm.denmark.v1
+    authority_class: PriorCanonicalAuthorityCandidate
+    currentness_status: PredecessorProvenancePendingOwnerSupersessionDecision
+    implementation_role: DoNotConsumeInParallelWithCurrentCandidate
+    owner: DenmarkDiplomacyOwner
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoDiplomaticInstanceCreation
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: ProvenanceUntilOwnerDecision
+    predecessor_or_successor:
+      potential_successor: Denmark_Diplomacy_External_Relations_Recognition_Access_Agreement_War_Peace_and_Political_Settlement_Authority_V1_FULL.md
+      supersession_status: UnresolvedOwnerDecision
+    external_dependencies:
+      - ExternalCounterpartOwners
+    bytes: 41648
+    sha256: 066b9aeecd9bfa922a53a50df6a5e32fbd02b02de93df0ef4071eb2e2ea33253
+    hash_evidence_status: PriorGeneratedHashPendingPhysicalComparison
+
+  - source_id: denmark.realm-development.portfolio.v1
+    relative_path: 13_Realm_Development_and_Specialist_Authorities/Denmark_Knowledge_Technology_Adoption_Reform_and_Realm_Development_Portfolio_V1_FULL.md
+    physical_filename: Denmark_Knowledge_Technology_Adoption_Reform_and_Realm_Development_Portfolio_V1_FULL.md
+    internal_filename: Denmark_Knowledge_Technology_Adoption_Reform_and_Realm_Development_Portfolio_V1_FULL.md
+    file_type: md
+    version: 1.0.0
+    document_id: mw.portfolio.denmark.knowledge-technology-adoption-reform-development.v1
+    stable_document_id: DevelopmentPortfolio.Realm.Denmark
+    authority_id: authority.portfolio.denmark.knowledge-technology-adoption-reform-development.v1
+    authority_class: CanonicalPortfolioCandidate
+    currentness_status: StaticSourceGroundedRealmPortfolioCandidateOwnerReviewRequired
+    implementation_role: LaterConditionalRealmDevelopmentDefinitionSource
+    owner: TechnologyResearchAndRealmDevelopmentOwners
+    scenario_scope: GrandCampaign1062
+    opening_state_effect: NoProgramOrCapabilityActivation
+    runtime_creation_permitted: false
+    runtime_mutation_permitted: false
+    review_or_quarantine_status: OwnerReviewRequired
+    predecessor_or_successor: NoneRecorded
+    external_dependencies:
+      - SharedKnowledgeOwner
+      - ProgramOwner
+      - RegionalRealizationOwners
+      - InstitutionOwners
+      - EconomyPropertySupplyOwners
+      - DiplomacyOwner
+    bytes: UnknownPendingPhysicalInspection
+    sha256: dd60d7c2130406a32c614d424758cf683f8e4b960722bfd201c40c5268d7f605
+    hash_evidence_status: PriorGeneratedHashPendingPhysicalComparison
+
+excluded_inputs:
+  military:
+    reason: SeparateUnsettledWorkstreamNotPartOfGeneralImplementationBaseline
+    patterns:
+      - '08_Military_Routes_and_Logistics/Units_and_Roster/**'
+      - 'Denmark_*Unit_Profile.md'
+      - 'Denmark_Military_Roster*'
+      - 'Denmark_Military_Equipment*'
+  chat_files:
+    reason: CopilotChatFilesDoNotEstablishPackageCurrentness
+    root: Microsoft Copilot Chat Files
+  archive:
+    reason: ArchiveMayNotSupplyRuntimeContent
+    root: 99_Archive_and_Superseded
+  review_and_quarantine_records:
+    reason: NonInstantiatingUnlessSeparatelyPromotedByOwner
+    runtime_consumption: prohibited
+
+physical_inspection_queue:
+  - queue_id: denmark.network.plugin
+    path: C:/UnrealProjects/MedievalWar/Plugins/DenmarkNetworkIntegration
+    purpose: VerifyCurrentSourceContentConfigTestsManifestsOwnershipAndPreservation
+    mutation_authorized: false
+  - queue_id: denmark.character-network.package-inputs
+    path: Project_Bible/Theaters/Norse/08_Realm_Packages_and_References/Denmark/04_Character_Network_and_External
+    purpose: ResolvePhysicalFilenamesInternalNamesHashesAndRebuiltResidue
+    mutation_authorized: false
+  - queue_id: denmark.eps.package-inputs
+    path: Project_Bible/Theaters/Norse/08_Realm_Packages_and_References/Denmark/09_Economy_Property_and_Supply
+    purpose: ReconcileCurrentAuthorityMachineReadableBundleManifestsAdaptersAndHashes
+    mutation_authorized: false
+  - queue_id: denmark.diplomacy.currentness
+    path: Project_Bible/Theaters/Norse/08_Realm_Packages_and_References/Denmark/12_Diplomacy
+    purpose: ResolveCurrentGeneralAuthorityAndPredecessorWithoutParallelConsumption
+    mutation_authorized: false
+
+validation:
+  yaml_parse_required: true
+  duplicate_source_ids_permitted: false
+  duplicate_relative_paths_permitted: false
+  military_sources_present: false
+  exact_byte_hashes_complete: false
+  physical_paths_complete: false
+  currentness_complete_for_all_sources: false
+  first_tranche_baseline_present: true
+  second_tranche_baseline_present: true
+  runtime_mutation_count: 0
+  registry_mutation_count: 0
+  opening_state_mutation_count: 0
+  unreal_mutation_count: 0
+
+next_action:
+  action: PhysicalReadOnlyInspection
+  target: C:/UnrealProjects/MedievalWar and Plugins/DenmarkNetworkIntegration
+  boundary:
+    - NoMilitaryScope
+    - NoCodeChangeUntilInspectionComplete
+    - NoRegistryMutation
+    - NoOpeningStateMutation
+    - NoRuntimeCreationOrMutation
+    - NoAdvancedSaveOverwrite
+    - NoImporterCommit
+
+mutation_receipt:
+  existing_project_bible_files_modified: 0
+  existing_unreal_files_modified: 0
+  files_moved_or_renamed: 0
+  folders_created: 0
+  registry_rows_modified: 0
+  opening_state_records_modified: 0
+  external_owner_state_created: 0
+  runtime_objects_created: 0
+  save_or_migration_state_modified: 0
+  military_files_touched: 0
+
+end_marker: End of Denmark_General_Implementation_Source_Manifest_V1

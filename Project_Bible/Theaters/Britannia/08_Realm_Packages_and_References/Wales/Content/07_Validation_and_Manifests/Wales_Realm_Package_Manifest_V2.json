@@ -1,0 +1,297 @@
+{
+  "document_id": "manifest.realm.wales.package.v2",
+  "stable_document_id": "Manifest.Realm.Wales.Package",
+  "filename": "Wales_Realm_Package_Manifest_V2.json",
+  "version": "2.0.0",
+  "realm_id": "Realm.Wales",
+  "owning_theater": "Britania",
+  "package_path": "Project_Bible/Theaters/Britania/08_Realm_Packages_and_References/Wales",
+  "scenario_opening": "1062-01-01",
+  "opening_campaign_season": "Winter",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "status": "Static-Checked Partial-Evidence Package Manifest",
+  "complete_repository_manifest": false,
+  "evidence_boundary": {
+    "full_SharePoint_folder_enumeration": false,
+    "mounted_repository_scan": false,
+    "active_Unreal_scan": false,
+    "exact_entries_include_only": "locally present artifacts or values explicitly supplied by existing manifests",
+    "referenced_without_hash": "known files whose exact bytes and approved final path were not available",
+    "freeze_use": "PROHIBITED_UNTIL_COMPLETE_ENUMERATION_AND_HASHING"
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "Registry_mutation": false,
+    "Opening_State_mutation": false,
+    "Opening_State_activation": false,
+    "migration_execution": false,
+    "Unreal_modification": false,
+    "runtime_mutation": false,
+    "real_payload_import": false
+  },
+  "exact_local_artifacts": [
+    {
+      "filename": "Wales_Realm_Package_Integrated_Authority_Index_V2.md",
+      "evidence_class": "LocalArtifactExact",
+      "bytes": 33318,
+      "physical_lines": 844,
+      "sha256": "b043cf1bdaecade2fa6aeb0014ed6eeac90c4dd80eead1f97fae000109c8f62d"
+    },
+    {
+      "filename": "Wales_Realm_Package_Integrated_Authority_Index_V2_Manifest.json",
+      "evidence_class": "LocalArtifactExact",
+      "bytes": 789,
+      "physical_lines": 29,
+      "sha256": "b1b626d248f374d066d9045e41488249ff9b9c3b0a0ca1e4fc575a6a7cdec236"
+    },
+    {
+      "filename": "Wales_Realm_Package_Static_Validation_V1.json",
+      "evidence_class": "LocalArtifactExact",
+      "bytes": 11318,
+      "physical_lines": 313,
+      "sha256": "7f85c199c693762e656fba8f76ea3bd983eaa42f1489c1568fead751e33008ad"
+    },
+    {
+      "filename": "Wales_Realm_Package_Static_Validation_V1_Manifest.json",
+      "evidence_class": "LocalArtifactExact",
+      "bytes": 525,
+      "physical_lines": 18,
+      "sha256": "1e36df417e8c6a96f0e9646940c0c2b1b35ffb097a704e2972043552acdea2d2"
+    }
+  ],
+  "exact_existing_manifest_entries": [
+    {
+      "filename": "Wales_Historical_Reconciliation_V3.1_Current_Authority_Refinement.md",
+      "bytes": 65441,
+      "physical_lines": 2204,
+      "sha256": "9cbcda811a7877e2f0ffed4554039c7d452e1eacd86720ceebe30be26c7dfa52",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Wales_Historical_Evidence_Register.md",
+      "bytes": 25685,
+      "physical_lines": 893,
+      "sha256": "d5a474f95d2e41aa5dab43f29b41672218fade15185e07d5b90d8c1b398b1448",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Wales_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement.md",
+      "bytes": 51510,
+      "physical_lines": 1633,
+      "sha256": "47cbb35d2c5163cae9b8b2326ae3b731c09a2e9b7ad4139fbf5115e12de345aa",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Wales_Historical_Uncertainty_V1.1_Current_Authority_Refinement.md",
+      "bytes": 61597,
+      "physical_lines": 1767,
+      "sha256": "2f8dfbf3401daf6a80cc197b55e2e6183c3a72d9bda49b46dabbf40cdf514cac",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Wales_Historical_Memory.md",
+      "bytes": 58695,
+      "physical_lines": 1348,
+      "sha256": "55088541674a4f60edc6d31f0f612f7fd86446c708e84d717233da19b5239002",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Wales_Historical_Momentum.md",
+      "bytes": 34468,
+      "physical_lines": 785,
+      "sha256": "103d6662b1cdeb692005393cbcd0df47c7a3190d1598bedefd67e21bc823a2ce",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Wales_Historical_Emergence.md",
+      "bytes": 42453,
+      "physical_lines": 1033,
+      "sha256": "5bc68c412c9a9c82c64db2f41cae93c435ecb4868228a68c7a30b98d32cb4906",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Wales_Network_Opening_Fixture_Importer_Manifest_V2_Current_Authority_Refinement.md",
+      "bytes": 47862,
+      "physical_lines": 1846,
+      "sha256": "b3a57f0d256a697234864217c8688b507a0f14bc9eba71fb5459bc04b89e1331",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Wales_Title_Office_Claim_and_Succession_Authority_V1.md",
+      "bytes": 43081,
+      "physical_lines": 1421,
+      "sha256": "feb306150db5267e5469c5267850dcc2498c7aa88bdb43a5fd7b5fc01d2b7353",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Wales_Law_Policy_Governance_and_Delegated_Authority_V1.md",
+      "bytes": 42614,
+      "physical_lines": 1474,
+      "sha256": "47da16d5f1b860984a60c3c9c366b7d55e2568b40803660cfbebdc3f52307b1f",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Bleiddud_V2_Current_Authority_Refinement.md",
+      "bytes": 64397,
+      "physical_lines": 1755,
+      "sha256": "73f51f0a80c9da9e58dd34a510f3775abe0e2c9f9140b5ea9ef29a228455841f",
+      "evidence_class": "ExistingManifestExact"
+    },
+    {
+      "filename": "Rhiwallon_ap_Cynfyn_V2_Current_Authority_Refinement.md",
+      "bytes": 62960,
+      "physical_lines": 1688,
+      "sha256": "f608cbe183f80af60c20c40b2c06e9c0dc30261edeebefdaeefa10dc253bad27",
+      "evidence_class": "ExistingManifestExact"
+    }
+  ],
+  "referenced_files_without_verified_current_hash": [
+    {
+      "filename": "Wales_Opening_State_V2_Current_Authority_Refinement.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_ID_Migration_Registry_V2_Current_Authority_Refinement.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Character_Network_V2_Current_Authority_Refinement.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Authority_Reference_and_Status_Reconciliation_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_README.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Realm_and_Political_Order_Authority_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Ecclesiastical_Content_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Military_Capability_Command_and_Force_Authority_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Population_Society_and_Recruitment_Capacity_Authority_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Economy_Property_Treasury_and_Production_Authority_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Supply_Logistics_Transport_and_Strategic_Endurance_Authority_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Strategic_Geography_Regions_Settlements_Routes_and_Control_Authority_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Diplomacy_External_Relations_War_and_Peace_Authority_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Culture_Language_Identity_and_Social_Continuity_Authority_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    },
+    {
+      "filename": "Wales_Information_Knowledge_Communication_and_Intelligence_Authority_V1.md",
+      "evidence_class": "ReferencedRetrievableHashNotVerified",
+      "sha256": null,
+      "bytes": null,
+      "physical_lines": null
+    }
+  ],
+  "planned_or_blocked_files": [
+    {
+      "filename": "Wales_Opening_State_V2.1_Specialist_Binding_Addendum.md",
+      "status": "BlockedPendingOwnerReceipts"
+    },
+    {
+      "filename": "Wales_Realm_Package_Freeze_Readiness_Review_V1.md",
+      "status": "PlannedNextAfterManifest"
+    },
+    {
+      "filename": "Wales_Freeze_Baseline_V1.json",
+      "status": "BlockedPendingFreezeReadiness"
+    },
+    {
+      "filename": "Wales_Implementation_Handoff_and_Blocker_Register_V1.md",
+      "status": "Planned"
+    }
+  ],
+  "known_blockers": [
+    "Complete SharePoint package enumeration",
+    "Exact final relative paths",
+    "Hashes for all referenced files",
+    "Cross-reference target validation",
+    "St Davids canonical forms and occupancy",
+    "Seven owner decisions",
+    "Implementation evidence"
+  ],
+  "summary": {
+    "exact_local_entry_count": 4,
+    "exact_existing_manifest_entry_count": 12,
+    "referenced_unhashed_entry_count": 15,
+    "exact_entry_count": 16,
+    "complete_file_count": null,
+    "complete_total_bytes": null,
+    "complete_hash_set": false,
+    "missing_files_count": null,
+    "unexpected_files_count": null,
+    "freeze_ready": false,
+    "next_file": "Wales_Realm_Package_Freeze_Readiness_Review_V1.md"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "document": "England_Polearm_Remaining_Candidate_Inventory_and_Next_Profile_Gate_V1.md",
+  "sha256": "86866889026c58c24cd523fe823c2e3fec4ea01e4159d6fff120a1b510ee49f1",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "nine_candidates": true,
+    "bill_militia_next": true,
+    "all_dispositions": true,
+    "absence_caveat": true,
+    "rollback": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "document_id": "manifest.wales.historical-emergence.v1",
+  "version": "1.0.0",
+  "sources": [
+    "Wales_Historical_Reconciliation_V3.1_Current_Authority_Refinement.md",
+    "Wales_Historical_Evidence_Register.md",
+    "Wales_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement.md",
+    "Wales_Historical_Uncertainty_V1.1_Current_Authority_Refinement.md",
+    "Wales_Historical_Memory.md",
+    "Wales_Historical_Momentum.md"
+  ],
+  "benchmarks": [
+    "England_Historical_Emergence_V1.1_Current_Authority_Refinement.md",
+    "Scotland_Historical_Emergence_V1.md",
+    "Norway_Historical_Emergence_V1.md"
+  ],
+  "artifact": {
+    "filename": "Wales_Historical_Emergence.md",
+    "bytes": 42453,
+    "physical_lines": 1033,
+    "sha256": "5bc68c412c9a9c82c64db2f41cae93c435ecb4868228a68c7a30b98d32cb4906"
+  },
+  "content": {
+    "pathway_definitions": 14,
+    "competition_groups": 5,
+    "validation_cases": 25,
+    "active_opening_pathways": 0,
+    "runtime_commands_created": 0
+  },
+  "authorizations": {
+    "Opening_State_activation": false,
+    "Emergence_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_Historical_Emergence_Static_Check.json",
+    "passed": true
+  }
+}

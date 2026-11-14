@@ -1,0 +1,17 @@
+{
+  "document": "England_Halberd_Family_Historical_Cross_Realm_and_Profile_Disposition_Gate_V1.md",
+  "sha256": "4c3bb9af9a3b5c8c154e40dc7b02a90c05664d03ce23fe8a25686dd009651127",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "three_profiles": true,
+    "single_family": true,
+    "cross_realm": true,
+    "next_file": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

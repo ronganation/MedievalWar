@@ -1,0 +1,145 @@
+{
+  "static_check_id": "mw.static_check.military_content_roster_recruitment_development.v1_2",
+  "static_check_version": "1.1.0",
+  "refreshed_date": "2026-10-19",
+  "document": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.md",
+  "version": "1.2.0",
+  "status": "StaticCheckedCurrentFrameworkReconciliationCandidate",
+  "size_bytes": 104358,
+  "workbook_or_document_sha256": "52279012535a3da8963061bae63ae25c2ef9c8bc41991f59bc37093ab6a168ed",
+  "subject_evidence_status": "DirectlyRehashedLiveAuthority",
+  "pass": true,
+  "final_static_result": "PASS_STATIC_CURRENT_AUTHORITY_AND_MANIFEST_CONSISTENCY_WITH_DOCUMENTED_DONOR_LIMITATIONS",
+  "previous_authority_fingerprint": {
+    "size_bytes": 103524,
+    "sha256": "e35589993c0a3a54de3ccd8b93ea9e542f0c5f0663e062e59cded1b8295930bc",
+    "evidence_status": "HistoricalOnlySupersededAuthorityFingerprint",
+    "previous_static_result": {
+      "pass": true,
+      "checks": {
+        "complete_v1_1_preserved": true,
+        "v1_1_hash_recorded": true,
+        "regional_v1_1_hash_recorded": true,
+        "current_regional_reference_updated": true,
+        "historical_regional_source_retained": true,
+        "three_tracks": true,
+        "output_hash_matches_manifest": true,
+        "no_mutations": true
+      }
+    },
+    "previous_checks_scope": "Retained historical assertions only; not newly executed donor-byte preservation checks"
+  },
+  "manifest": {
+    "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework.json",
+    "size_bytes": 5530,
+    "sha256": "f4e812c33cb11f7d7553df4d051f442cb0f8f89bf36270dd9e59e1d7af0ada26",
+    "evidence_status": "DirectlyRehashedLiveOwnerSelectedManifest",
+    "currentness_note": "The unchanged manifest's static_check_currentness fields and note describe the prior refresh stage. This static check records the present bounded consistency result without rewriting that historical description."
+  },
+  "correction_receipts": [
+    "../Reviews/Military_Content_V1_2_Source_Lineage_and_Duplicate_Hash_Metadata_Correction_Receipt_V1.md",
+    "../Reviews/Military_Content_V1_2_Manifest_Current_Fingerprint_Refresh_Receipt_V1.md"
+  ],
+  "source_evidence": {
+    "immediate_substantive_source": {
+      "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_1.md",
+      "sha256": "68d4f098aef265a2e053e7c13e65b0c08adf0a92d2bb46f62962dcd77ab1a2fe",
+      "evidence_status": "DocumentedLineageEvidenceNotFreshlyRehashedDonorBytes",
+      "donor_availability_verified": false
+    },
+    "historical_substantive_source": {
+      "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1.md",
+      "sha256": "fe5561c874820a0466ecab090ee29d8052014ae3053ba8e4f29a0a36a806835f",
+      "evidence_status": "DocumentedLineageEvidenceNotFreshlyRehashedDonorBytes",
+      "donor_availability_verified": false
+    },
+    "coverage_integration_source": {
+      "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_1_Coverage_Integration.md",
+      "sha256": "1e8e1961203661280e158b568f729230c0c0cf94b9a6e0824063385e8f9a1f46",
+      "evidence_status": "DocumentedLineageEvidenceNotFreshlyRehashedDonorBytes",
+      "donor_availability_verified": false
+    },
+    "supporting_regional_framework": {
+      "file": "Regional_Military_Enclave_and_Controller_Recruitment_Framework_V1_1_Authority_Reference_Correction.md",
+      "evidence_status": "PreviouslyVerifiedByManifestRefreshAction",
+      "current_action_scope": "Baseline hash recorded for protected-file integrity, not a new substantive specialist validation"
+    }
+  },
+  "supporting_framework_sha256": "580acff6ee2aef06de1726037b3fe36570cc062acaeb702d21085f6174e7dce5",
+  "checks": {
+    "authority_exists_exactly_once": true,
+    "authority_size_equals_104358": true,
+    "authority_sha256_matches_expected_current_fingerprint": true,
+    "authority_filename_matches_internal_filename": true,
+    "authority_version_equals_1_2_0": true,
+    "authority_status_is_expected_candidate": true,
+    "owner_selected_manifest_exists_exactly_once": true,
+    "manifest_json_parses_without_duplicate_keys": true,
+    "manifest_subject_filename_matches_authority": true,
+    "manifest_subject_size_and_sha256_match_live_authority": true,
+    "manifest_previous_output_fingerprint_is_historical_only": true,
+    "four_source_role_fields_are_distinct_and_match_manifest": true,
+    "opening_metadata_has_no_duplicate_source_hash_keys": true,
+    "authority_has_all_120_headings": true,
+    "three_temporal_tracks_unchanged": true,
+    "Unreal_Engine_5_8_remains_target_only": true,
+    "candidate_status_unchanged": true,
+    "no_unsupported_adoption_promotion_or_status_claim_introduced": true,
+    "no_operational_authorization_granted": true,
+    "all_family_json_parses_after_edit_without_duplicate_keys": true,
+    "static_check_json_has_no_duplicate_keys": true,
+    "live_manifest_fingerprint_matches_recorded_fingerprint": true,
+    "output_hash_matches_manifest": true,
+    "all_effect_permissions_false": true,
+    "all_other_pre_action_files_hash_identical": true,
+    "no_moves_deletions_merges_or_overwrites": true
+  },
+  "check_scope": "Every true entry in checks is a performed and passed bounded static check; pass applies only to final_static_result. Historical checks remain separately labeled.",
+  "observations": {
+    "pre_action_file_count": 82,
+    "post_action_file_count_including_receipt": 83,
+    "family_json_file_count": 15,
+    "authority_heading_count": 120,
+    "historical_progression": "21 months per strategic turn",
+    "biological_progression": "7 months per strategic turn",
+    "campaign_season_progression": "1 ordered Winter, Spring, Summer, Autumn step per strategic turn",
+    "implementation_target": "Unreal Engine 5.8",
+    "authority_permission_declarations_false_or_none": 20,
+    "pre_existing_routing_vocabulary": "Section 67 active_shared_military_content_authority is unchanged routing vocabulary, not candidate promotion or operational authorization.",
+    "protected_pre_action_file_count": 81
+  },
+  "validation_not_performed": [
+    "Donor V1, V1.1, or coverage-integration byte rehash",
+    "Source-preservation byte comparison against unavailable donors",
+    "Complete donor-byte validation",
+    "Historical research validation",
+    "Owner adoption",
+    "Production or canonical promotion",
+    "Registry validation",
+    "Opening State validation",
+    "Importer validation",
+    "Compile validation",
+    "Runtime validation",
+    "Save/load validation",
+    "Migration validation",
+    "Replay validation",
+    "Performance validation",
+    "Battle validation"
+  ],
+  "effect_permissions": {
+    "owner_adoption_authorized": false,
+    "promotion_authorized": false,
+    "stable_ID_allocation_authorized": false,
+    "Registry_mutation_authorized": false,
+    "Opening_State_mutation_authorized": false,
+    "runtime_mutation_authorized": false,
+    "importer_activity_authorized": false,
+    "save_mutation_authorized": false,
+    "migration_activity_authorized": false,
+    "replay_activity_authorized": false,
+    "payload_mutation_authorized": false,
+    "asset_mutation_authorized": false,
+    "Unreal_activity_authorized": false
+  },
+  "effect_statement": "Only this static-check companion is refreshed and one receipt is created. No owner adoption, promotion, Registry, Opening State, runtime, importer, save, migration, replay, payload, asset, or Unreal activity occurred."
+}

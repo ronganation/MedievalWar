@@ -1,0 +1,24 @@
+{
+  "StaticCheckId": "static-check.burgundy.ecclesiastical-content.v1",
+  "AuthorityFile": "Burgundy_Ecclesiastical_Content_V1.md",
+  "Result": "Pass",
+  "Checks": {
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "balanced_fences": true,
+    "yaml_fences_present": true,
+    "inequalities_fenced": true,
+    "three_track_time": true,
+    "ue58": true,
+    "no_unsupported_active_classification": true,
+    "opening_boundary_once": true,
+    "stable_footer_once": true,
+    "final_marker": true,
+    "core_institutions": true,
+    "papal_gate_rejected": true,
+    "runtime_honesty": true
+  },
+  "AuthoritySHA256": "16fd8fb0c07bb0c4f8f1a902ffbc7f45bf39f45d2ebc55ac757ba1581d7ddc5b",
+  "AuthorityLineCount": 1105,
+  "AuthorityByteCount": 51828
+}

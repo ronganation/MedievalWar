@@ -1,0 +1,27 @@
+{
+  "document_id": "manifest.review.realm.wales.package.freeze-readiness.v1",
+  "artifact": "Wales_Realm_Package_Freeze_Readiness_Review_V1.md",
+  "version": "1.0.0",
+  "bytes": 20908,
+  "physical_lines": 730,
+  "sha256": "e9dfd84ca635706bf4f839e5bb4bf54f89b9e3be141f32c6ae27156b800c3b90",
+  "verdict": "HOLD_FOR_FREEZE",
+  "freeze_ready": false,
+  "documentation_closeout_ready": true,
+  "pending_owner_decisions": 7,
+  "authenticated_owner_receipts": 0,
+  "complete_post_organization_manifest": false,
+  "complete_cross_reference_validation": false,
+  "mutations": {
+    "source_files": 0,
+    "Registry": 0,
+    "Opening_State": 0,
+    "Unreal": 0,
+    "runtime": 0,
+    "real_payload": 0
+  },
+  "static_check": {
+    "artifact": "Wales_Realm_Package_Freeze_Readiness_Review_V1_Static_Check.json",
+    "passed": true
+  }
+}

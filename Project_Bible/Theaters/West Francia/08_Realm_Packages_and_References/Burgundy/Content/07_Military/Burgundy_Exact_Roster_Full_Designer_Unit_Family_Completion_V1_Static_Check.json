@@ -1,0 +1,23 @@
+{
+  "artifact": "Burgundy_Exact_Roster_Full_Designer_Unit_Family_Completion_V1.md",
+  "sha256": "e0f87280ada309b0f8bd5f2e462616acdf6b4358c154e1cd2a62234632b352cc",
+  "status": "PASS_WITH_EXPLICIT_SOURCE_MERGE_BLOCKER",
+  "checks": {
+    "nonempty": true,
+    "yamlFencesBalanced": true,
+    "sourceSlots23": true,
+    "noInventedFamilies": true,
+    "finitePoolsPresent": true,
+    "temporalContractPresent": false,
+    "openingZerosPreserved": true,
+    "stableFooterPresent": true
+  },
+  "blocked": {
+    "exactSourceFamilyNameMerge": true
+  },
+  "limitations": [
+    "Static document checks only",
+    "No full immediate-source family-name merge",
+    "No Registry, Opening State, Unreal, importer, compile, runtime, save/load, replay, battle, balance, migration, or performance validation performed"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "document": "Malcolm_III_V2_Current_Authority_Refinement.md",
+  "version": "2.0.0",
+  "status": "Static-Checked Draft",
+  "source": {
+    "file": "Malcolm_III_Modernized.md",
+    "bytes": 45585,
+    "lines": 845,
+    "sha256": "6fcf01a5a7b53d33d1e08156145860bcc927ffec344a543e3697b548dc6cd43d",
+    "preservation": "complete substantive section preservation"
+  },
+  "successor": {
+    "file": "Malcolm_III_V2_Current_Authority_Refinement.md",
+    "bytes": 53798,
+    "lines": 1065,
+    "sha256": "9677ae9a82bc6cd19256d6b66dc720d94f00a8656cc51471157d063309539e82"
+  },
+  "removed_material": [],
+  "static_check_passed": true,
+  "authorizations": {
+    "source_overwrite": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  }
+}

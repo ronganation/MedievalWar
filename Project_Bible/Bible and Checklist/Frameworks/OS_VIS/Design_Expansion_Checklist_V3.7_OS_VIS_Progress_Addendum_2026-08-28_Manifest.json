@@ -1,0 +1,24 @@
+{
+  "document_id": "mw.design-expansion-checklist.3.7.os-vis-progress-addendum.2026-08-28",
+  "filename": "Design_Expansion_Checklist_V3.7_OS_VIS_Progress_Addendum_2026-08-28.md",
+  "target_checklist": "Design_Expansion_Checklist_V3.7.md",
+  "target_modified": false,
+  "date": "2026-08-28",
+  "sha256": "F97D117E9A5E337EC3B4A93D0B5FC2DE460A83E05E5D18241D416CE862A90F74",
+  "bytes": 10470,
+  "scope": "OS-VIS-01 through OS-VIS-05 candidate-only visible-preview sequence",
+  "source_evidence": {
+    "build": "MedievalWarEditor Win64 Development exit 0",
+    "preview": "9 passed, 0 failed, 0 not run",
+    "norway_loader": "1 passed, 0 failed, 0 not run",
+    "norway_isolated": "153 passed, 0 failed, 0 not run",
+    "fingerprints": "7 present, 0 missing"
+  },
+  "production_boundaries": {
+    "real_norway_application_authorized": false,
+    "registry_mutation_authorized": false,
+    "save_authorized": false,
+    "realm_payload_application_authorized": false,
+    "theater_activation_authorized": false
+  }
+}

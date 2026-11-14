@@ -1,0 +1,23 @@
+{
+  "filename": "Normandy_UE5_8_Candidate_Importer_and_Schema_Handoff_V1_Manifest.json",
+  "version": "1.0.0",
+  "authority_filename": "Normandy_UE5_8_Candidate_Importer_and_Schema_Handoff_V1.md",
+  "authority_bytes": 31729,
+  "authority_lines": 1141,
+  "authority_sha256": "33CCA40D3A1090471BCCEB693EEF3B2381A192F72F8856AA008B36697F5E6102",
+  "source_bundle": "Normandy_Current_Machine_Readable_Candidate_Bundle_V1.zip",
+  "reported_bundle_entries": 37,
+  "schema_groups": 10,
+  "proposed_structs": 70,
+  "candidate_asset_families": 26,
+  "importer_stages": 12,
+  "file_routes": 36,
+  "fatal_conditions": 24,
+  "warning_conditions": 12,
+  "Registry_mutation_authorized": false,
+  "Opening_State_activation_authorized": false,
+  "Unreal_project_mutation_authorized": false,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "importer_validated": false
+}

@@ -1,0 +1,33 @@
+{
+  "TaskId": "FRANCE-IMP-01A",
+  "Status": "ReadyForOwnerReview",
+  "Lane": "CampaignInitialization",
+  "PlannedFilesAdded": 6,
+  "ExistingFilesModified": 0,
+  "DirectTests": 24,
+  "ExecutionAuthorized": false,
+  "NextGate": "FRANCE-IMP-01B",
+  "ProductionAuthority": false,
+  "Files": [
+    {
+      "Name": "FRANCE_IMP_01A_CAMPAIGN_INITIALIZATION_BOUNDED_CONTRACT_2026-09-23.md",
+      "Bytes": 6058,
+      "SHA256": "2AF01BE8BD92513A0DAD6CBC0DCEF2E870280DB028E33C4AAE3CC6B1D9681F7A"
+    },
+    {
+      "Name": "README_FIRST.txt",
+      "Bytes": 222,
+      "SHA256": "151F7B58B06653C8129C045825B180A7E23BA2E21BC8F3D404D476A3548062CC"
+    },
+    {
+      "Name": "FRANCE_IMP_01A_EXACT_FILE_PLAN.csv",
+      "Bytes": 594,
+      "SHA256": "97261789E7ACFF3891CA6D8DFFB1506C731B43CE1FF7B30790FBE4AB3A1614D4"
+    },
+    {
+      "Name": "FRANCE_IMP_01A_TEST_PLAN.csv",
+      "Bytes": 496,
+      "SHA256": "6732483F3F1D4AACCE3F57444BB312B8D9F125E116589D7CA36F3DD24C92D5DD"
+    }
+  ]
+}

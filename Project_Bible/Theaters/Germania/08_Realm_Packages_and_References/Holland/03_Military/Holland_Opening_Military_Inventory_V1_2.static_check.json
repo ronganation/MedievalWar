@@ -1,0 +1,20 @@
+{
+  "document": "Holland_Opening_Military_Inventory_V1_2.md",
+  "sha256": "1f1c2c0defd2617ab66430583afea90c20e52372055d60c6052aecad33125091",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_sequential": true,
+    "predecessor_preservation_record_present": true,
+    "predecessor_hash_recorded": true,
+    "confidence_layers": true,
+    "ten_early_profiles": true,
+    "regional_boundary": true,
+    "company_firewall": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_chat_citation_tokens": true
+  },
+  "pass": true
+}

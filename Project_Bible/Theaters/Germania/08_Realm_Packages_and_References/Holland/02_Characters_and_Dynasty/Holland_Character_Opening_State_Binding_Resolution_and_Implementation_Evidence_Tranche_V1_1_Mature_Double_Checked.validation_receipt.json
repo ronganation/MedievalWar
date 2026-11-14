@@ -1,0 +1,31 @@
+{
+  "document": "Holland_Character_Opening_State_Binding_Resolution_and_Implementation_Evidence_Tranche_V1_1_Mature_Double_Checked.md",
+  "validation_scope": "Static content, literal completeness, and internal consistency only",
+  "result": "Pass",
+  "checks": {
+    "filename": "Holland_Character_Opening_State_Binding_Resolution_and_Implementation_Evidence_Tranche_V1_1_Mature_Double_Checked.md",
+    "version": "1.1.0",
+    "bytes": 35867,
+    "lines": 1077,
+    "sha256": "898bdd5ca9efdbc5394a0d83d5aae5c74afa7d8bb4a8ff31cd61890c41025e34",
+    "fences_balanced": true,
+    "escaped_underscores": 0,
+    "binding_families": 6,
+    "opening_candidates": 4,
+    "basis_only_edges": 6,
+    "relationship_dimensions": 0,
+    "activated_bindings": 0,
+    "composite_state_occurrences": 0,
+    "tranche_sections": 6,
+    "substantive_removals": 0,
+    "result": "Pass"
+  },
+  "compile_validation": "NotPerformed",
+  "runtime_validation": "NotPerformed",
+  "save_load_validation": "NotPerformed",
+  "migration_validation": "NotPerformed",
+  "replay_validation": "NotPerformed",
+  "performance_validation": "NotPerformed",
+  "unreal_validation": "NotPerformed",
+  "owner_review_required": true
+}

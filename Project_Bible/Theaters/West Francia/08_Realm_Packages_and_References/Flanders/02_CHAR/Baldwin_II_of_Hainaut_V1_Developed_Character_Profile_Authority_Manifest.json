@@ -1,0 +1,62 @@
+{
+  "artifact": "Baldwin_II_of_Hainaut_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.1.0",
+  "sha256": "d25b5edacc30edd48b5be51f0ce350acc220c1b36099d98fbea3ff5ddd247121",
+  "bytes": 34922,
+  "lines": 849,
+  "character": "Baldwin II of Hainaut",
+  "benchmark_scope": "FlandersUnderageDynasticSiblingAlternateContinuityAndIndependentFormation",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "stable_footer_count": 1,
+    "required_modules_missing": [],
+    "benchmarks_named": 5,
+    "AI_reason_codes": 20,
+    "validation_fixtures": 24,
+    "nonmutation": true,
+    "distinct_from_Arnulf": true,
+    "source_treatment_present": true,
+    "owner_matrix_present": true,
+    "opening_life_state_not_asserted_as_activated": true,
+    "future_claim_lifecycle_present": true,
+    "lifetime_performance_present": true
+  },
+  "all_critical_checks_pass": true,
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Person": 0,
+    "CharacterLifecycle": 0,
+    "TitleClaimOffice": 0,
+    "GuardianshipCustodyEducation": 0,
+    "MarriageChildren": 0,
+    "Relationships": 0,
+    "Household": 0,
+    "PropertyTreasury": 0,
+    "Military": 0,
+    "HistoricalSystems": 0,
+    "Schema": 0,
+    "Save": 0,
+    "Unreal": 0,
+    "Runtime": 0
+  },
+  "refinement_receipt": {
+    "prior_version": "1.0.0",
+    "substantive_prior_content_removed": [],
+    "changes": [
+      "qualified opening life-state wording",
+      "added owner matrix",
+      "expanded external-family endpoints",
+      "added future title and claim lifecycle",
+      "added lifetime stakeholder performance",
+      "expanded alternate noninheritance validity",
+      "added four validation fixtures",
+      "corrected possessive label",
+      "updated completeness checks"
+    ]
+  },
+  "next_file": "Flanders_Child_Character_Dependent_Authority_Reconciliation"
+}

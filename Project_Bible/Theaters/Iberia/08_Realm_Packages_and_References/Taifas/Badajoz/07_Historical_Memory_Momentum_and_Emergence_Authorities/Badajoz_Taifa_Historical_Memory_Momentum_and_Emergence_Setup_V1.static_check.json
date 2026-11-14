@@ -1,0 +1,21 @@
+{
+  "status": "PASS_STATIC_CHECKED",
+  "artifact": "Badajoz_Taifa_Historical_Memory_Momentum_and_Emergence_Setup_V1.md",
+  "authority_family": "07_Historical_Memory_Momentum_and_Emergence_Authorities",
+  "lines": 1147,
+  "words": 3506,
+  "bytes": 32322,
+  "sha256": "0ec66717c4445898ba5ec1b0d0821c0b266a27d0e6de0d01390300c82e55ec4a",
+  "positive_fixtures": 20,
+  "negative_fixtures": 32,
+  "critical_blockers": 12,
+  "regional_research_subjects": 6,
+  "opening_historical_memories": 0,
+  "opening_momentum_states": 0,
+  "opening_emergent_pathways": 0,
+  "opening_control_changes": 0,
+  "opening_state_created": false,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "next_artifact": "Badajoz_Taifa_Historical_Memory_Momentum_and_Emergence_Setup_Consistency_Review_V1.md"
+}

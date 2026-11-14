@@ -1,0 +1,83 @@
+{
+  "TargetFile": "Aquitaine_Economy_Property_Revenue_and_Treasury_Authority_V1.md",
+  "TargetSHA256": "7b861b7a2aedf5a6ec3c2639686e3b152e0bc9f473864b22dc1cda847481a82b",
+  "Result": "Pass",
+  "TotalChecks": 16,
+  "Passes": 16,
+  "Failures": 0,
+  "Checks": [
+    {
+      "Name": "Aquitaine review target is explicit",
+      "Pass": true
+    },
+    {
+      "Name": "France Wales and Ireland benchmarks are explicit",
+      "Pass": true
+    },
+    {
+      "Name": "Three-track time is present",
+      "Pass": true
+    },
+    {
+      "Name": "Composite title channels remain separate",
+      "Pass": true
+    },
+    {
+      "Name": "One unified treasury rejected",
+      "Pass": true
+    },
+    {
+      "Name": "Opening values remain unknown",
+      "Pass": true
+    },
+    {
+      "Name": "Barbastro reward not preloaded",
+      "Pass": true
+    },
+    {
+      "Name": "War permission gate rejected",
+      "Pass": true
+    },
+    {
+      "Name": "Papal standing and reliability separated",
+      "Pass": true
+    },
+    {
+      "Name": "Regional Power distinction present",
+      "Pass": true
+    },
+    {
+      "Name": "No active economic records created",
+      "Pass": true
+    },
+    {
+      "Name": "Fences balanced",
+      "Pass": true
+    },
+    {
+      "Name": "No em dash",
+      "Pass": true
+    },
+    {
+      "Name": "No escaped underscores",
+      "Pass": true
+    },
+    {
+      "Name": "Stable footer once",
+      "Pass": true
+    },
+    {
+      "Name": "Final marker correct",
+      "Pass": true
+    }
+  ],
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "EconomicActivations": 0,
+    "TransactionsExecuted": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

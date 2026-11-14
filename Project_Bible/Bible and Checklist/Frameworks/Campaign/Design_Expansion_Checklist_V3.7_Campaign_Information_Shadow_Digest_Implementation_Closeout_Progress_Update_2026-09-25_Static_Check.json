@@ -1,0 +1,26 @@
+{
+  "check_id": "CAMPAIGN-INFORMATION-SHADOW-DIGEST-CLOSEOUT-2026-09-25",
+  "result": "PASS",
+  "checks": {
+    "document_id": true,
+    "authority": true,
+    "three_track": true,
+    "Campaign_core": true,
+    "shadow_digest": true,
+    "Scotland_stop_gate": true,
+    "France_result": true,
+    "cross_realm_comparison": true,
+    "no_production": true,
+    "stable_checklist_not_modified": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "footer": true,
+    "no_escaped_underscores": true,
+    "exact_stop_gate": true
+  },
+  "markdown_sha256": "943FB5484778D1F05B12884BFE596219EF3D09C8B77BB4120895B9A2EB93E636",
+  "markdown_bytes": 18541,
+  "markdown_lines": 444,
+  "structured_yaml_blocks": 22,
+  "production_authority": false
+}

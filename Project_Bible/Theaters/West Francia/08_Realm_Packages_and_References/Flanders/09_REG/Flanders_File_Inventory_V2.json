@@ -1,0 +1,702 @@
+﻿{
+    "InventoryId":  "file_inventory.flanders.v2",
+    "FileCount":  116,
+    "Files":  [
+                  {
+                      "FileName":  "Flanders_Historical_Suite_Consistency_and_Coverage_Audit_V1.md",
+                      "Folder":  "00_CTL",
+                      "Bytes":  28665,
+                      "SHA256":  "5CB53573D18EBF77B6BC7055A39D944AE88400FD5B0046DBF0133CA5CE427765"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Suite_Consistency_and_Coverage_Audit_V1_Manifest.json",
+                      "Folder":  "00_CTL",
+                      "Bytes":  758,
+                      "SHA256":  "6CB2C5932151C2B7F2C1A756952DF25D484A82FFC53DEBB03CB27797FED69666"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Suite_Consistency_and_Coverage_Audit_V1_Static_Check.json",
+                      "Folder":  "00_CTL",
+                      "Bytes":  830,
+                      "SHA256":  "9F95CCF68D4CA94000CCDDA52CD4B8CC15C3A986A5485082834FEF2F443C7A04"
+                  },
+                  {
+                      "FileName":  "Flanders_Readiness_Integration_and_Blocker_Audit_V2_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "00_CTL",
+                      "Bytes":  19396,
+                      "SHA256":  "815F077801E2E0CA326C24134FE10124C3AAF50FE9DD0BF13B70ABD5F2777356"
+                  },
+                  {
+                      "FileName":  "Flanders_Readiness_Integration_and_Blocker_Audit_V2_Current_Authority_Modernization_FULL_Manifest.json",
+                      "Folder":  "00_CTL",
+                      "Bytes":  445,
+                      "SHA256":  "AAD53E5A47012945E26424765D62502907F3224B581E692B5187A2AF0D23672F"
+                  },
+                  {
+                      "FileName":  "Flanders_Readiness_Integration_and_Blocker_Audit_V2_Current_Authority_Modernization_FULL_Static_Check.json",
+                      "Folder":  "00_CTL",
+                      "Bytes":  285,
+                      "SHA256":  "C7B57B279B86FD14748886EF88A372ADBA26019E0A8D0107FFA38A2BE2065049"
+                  },
+                  {
+                      "FileName":  "Flanders_Source_Authority_Ownership_and_Package_Discovery_V1.md",
+                      "Folder":  "00_CTL",
+                      "Bytes":  31463,
+                      "SHA256":  "896D8EA7662629627BD1F5CB94796C57190D63E1BC1BC7E0FF4638D7F6EC811E"
+                  },
+                  {
+                      "FileName":  "Flanders_Source_Authority_Ownership_and_Package_Discovery_V1_Manifest.json",
+                      "Folder":  "00_CTL",
+                      "Bytes":  694,
+                      "SHA256":  "2DD998A623B9803AAC48135711B314921084E0D8161F73AD479170327EA9CB2E"
+                  },
+                  {
+                      "FileName":  "Flanders_Source_Authority_Ownership_and_Package_Discovery_V1_Static_Check.json",
+                      "Folder":  "00_CTL",
+                      "Bytes":  604,
+                      "SHA256":  "50FD868FA5EC7F669607F52F39468CA45A424DD2E4756D10BC542E7B04EF34E9"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Evidence_and_Chronology_Register_V1.md",
+                      "Folder":  "01_HIST",
+                      "Bytes":  57142,
+                      "SHA256":  "ECFB67B57117FACA58EEA68ED43E0CCAE2308B48E3B6B8EBC31CDE420CCFBF6A"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Evidence_and_Chronology_Register_V1_Manifest.json",
+                      "Folder":  "01_HIST",
+                      "Bytes":  778,
+                      "SHA256":  "1705BF6FEB98339F5CA466E261687B5874DC0E0671103D427A984C27D01B596C"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Evidence_and_Chronology_Register_V1_Static_Check.json",
+                      "Folder":  "01_HIST",
+                      "Bytes":  672,
+                      "SHA256":  "5D2649D59736DD48C17F55742FDEB9D3D74A56D043D867D60302AF3A2370857A"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Itinerary_and_Comital_Acts_Research_Authority_V1.md",
+                      "Folder":  "01_HIST",
+                      "Bytes":  23284,
+                      "SHA256":  "B4EA7E386812A613DD086CE34BA0A8AEB0AA9D7D4E30E15F4491B0527849AB51"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Reconciliation_V2_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "01_HIST",
+                      "Bytes":  66628,
+                      "SHA256":  "547C9CE3AF8CD7518CF43D3B79E14E1D9957286517F39C0D57DD934FB44F0BA4"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Reconciliation_V2_Current_Authority_Modernization_FULL_Manifest.json",
+                      "Folder":  "01_HIST",
+                      "Bytes":  1165,
+                      "SHA256":  "54CBD340878BAC6AB97509D7A714AA1FB038F68F7D7E98588521EE96E6F6FCFF"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Reconciliation_V2_Current_Authority_Modernization_FULL_Static_Check.json",
+                      "Folder":  "01_HIST",
+                      "Bytes":  911,
+                      "SHA256":  "944DE17F00D4CA14B449547E322A17642D844537DA011A30C2A3DB3DE4DE710D"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Uncertainty_Register_V1.md",
+                      "Folder":  "01_HIST",
+                      "Bytes":  65762,
+                      "SHA256":  "5A11CC0B525A33B99CAFC3DE14332BEA78B5CDF300149967ED8246A594419C8C"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Uncertainty_Register_V1_Manifest.json",
+                      "Folder":  "01_HIST",
+                      "Bytes":  852,
+                      "SHA256":  "E88725B823B2A543C49A889AAEC6D0B2A34A5F32DCAC06497310B20D0649C6B2"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Uncertainty_Register_V1_Static_Check.json",
+                      "Folder":  "01_HIST",
+                      "Bytes":  740,
+                      "SHA256":  "1F92999497A0A59EA39157D75D335867272BDB0A126C3FAF1CEDE29DA703EBC1"
+                  },
+                  {
+                      "FileName":  "Adela_of_France_Countess_of_Flanders_V1_Developed_Character_Profile_Authority.md",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  46671,
+                      "SHA256":  "B63A8D14088E537E500DDE4DA02583FCEAB4BAE5294FE0AE2E562A9334F8B026"
+                  },
+                  {
+                      "FileName":  "Adela_of_France_Countess_of_Flanders_V1_Developed_Character_Profile_Authority_Manifest.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  1068,
+                      "SHA256":  "3C03BA12C62E497DAC40C3615FA80FE98CE153E219C8566B19DFBF7954060621"
+                  },
+                  {
+                      "FileName":  "Adela_of_France_Countess_of_Flanders_V1_Developed_Character_Profile_Authority_Static_Check.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  505,
+                      "SHA256":  "A1FCE166D130DA0024F44821CC390200DCA3AECFEBAAD64667215C13FB2DCBD4"
+                  },
+                  {
+                      "FileName":  "Baldwin_of_Mons_V1_Developed_Character_Profile_Authority.md",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  48397,
+                      "SHA256":  "FF71F1704EDB3C9C6D0FFA36D60D200C4BB4666BC0D13C35EF1542545F812141"
+                  },
+                  {
+                      "FileName":  "Baldwin_of_Mons_V1_Developed_Character_Profile_Authority_Manifest.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  947,
+                      "SHA256":  "63092D3A43B0799AF675A97ACA91046B87C50DBF4855601F3BD7D5D4C6575069"
+                  },
+                  {
+                      "FileName":  "Baldwin_of_Mons_V1_Developed_Character_Profile_Authority_Static_Check.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  501,
+                      "SHA256":  "E49A2D72E1F7B7D2D0057E32E4CFBC58C068BC982DF6F5550D5A036C3479D197"
+                  },
+                  {
+                      "FileName":  "Baldwin_V_of_Flanders_V1_Developed_Character_Profile_Authority.md",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  63532,
+                      "SHA256":  "B44EBC2D6381B367DC55569E040D2370DF492C2C6015F66C0D4F3928410252F4"
+                  },
+                  {
+                      "FileName":  "Baldwin_V_of_Flanders_V1_Developed_Character_Profile_Authority_Manifest.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  1035,
+                      "SHA256":  "31EF98A13316B83692DED977951466DDB0B79900815417E98C7906394FE61DCE"
+                  },
+                  {
+                      "FileName":  "Baldwin_V_of_Flanders_V1_Developed_Character_Profile_Authority_Static_Check.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  503,
+                      "SHA256":  "01F1B7121C4466C186D96B2A8A8CBBE02995E29F2A2091AB96350167214351C8"
+                  },
+                  {
+                      "FileName":  "Flanders_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  74774,
+                      "SHA256":  "5AE5C6C9292B047A69D3A343B75F772FD588D10CDF7231F76F911D4A3FCBEB04"
+                  },
+                  {
+                      "FileName":  "Flanders_Character_Authorities_V2_Developed_Realm_Parity_Authority_Manifest.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  857,
+                      "SHA256":  "AB194FB1E22DA280495DB09A88C4C7C5865CF70699CF15175BE2B865264CCEF2"
+                  },
+                  {
+                      "FileName":  "Flanders_Character_Authorities_V2_Developed_Realm_Parity_Authority_Static_Check.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  743,
+                      "SHA256":  "8644D2B047517AF4ECF432B3BE5D2AAC37495492C9B4BA8FE9DBE8563FE76F6B"
+                  },
+                  {
+                      "FileName":  "Flanders_Character_Network_V1_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  61698,
+                      "SHA256":  "F5B2C83D4CCB3D417B547DCCB8372DFB701FC9D1C40C56F6DE50973CCCF74FF3"
+                  },
+                  {
+                      "FileName":  "Flanders_Character_Network_V1_Current_Authority_Modernization_FULL_Manifest.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  783,
+                      "SHA256":  "19AAD5364A01387090248F72B9E7FEB645A6E14B0E3D38AA59149E842FE57F66"
+                  },
+                  {
+                      "FileName":  "Flanders_Character_Network_V1_Current_Authority_Modernization_FULL_Static_Check.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  497,
+                      "SHA256":  "2D27ABF063E5F3B7C89694E0EC5C2F8B21CC71D4B2E9A83AD8A79013111813E1"
+                  },
+                  {
+                      "FileName":  "Flanders_Dynasty_and_Household_Authority_V2_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  51318,
+                      "SHA256":  "5B025605FC2E136E109639625108DD532274F771EF9DBF8C0E36D7472C4F74D4"
+                  },
+                  {
+                      "FileName":  "Flanders_Dynasty_and_Household_Authority_V2_Current_Authority_Modernization_FULL_Manifest.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  986,
+                      "SHA256":  "CB19B6FDA452D8562E8CFB91C7DA67E9454359B0870E4224F59B601719785FF6"
+                  },
+                  {
+                      "FileName":  "Flanders_Dynasty_and_Household_Authority_V2_Current_Authority_Modernization_FULL_Static_Check.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  552,
+                      "SHA256":  "C208CE845C210BCC67DA42E1CB79F5AF10FA46C07266638B802B015194727360"
+                  },
+                  {
+                      "FileName":  "Matilda_of_Flanders_Flanders_Cross_Realm_Profile_Interface_V1.md",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  27395,
+                      "SHA256":  "7E54DAD2B78FC5241406CB0B3DC440B242C835035FFEF568744F8C891D314C4B"
+                  },
+                  {
+                      "FileName":  "Matilda_of_Flanders_Flanders_Cross_Realm_Profile_Interface_V1_Manifest.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  835,
+                      "SHA256":  "2A4D6E472AC1A703D7B8C708482D1D88286BDF634CCACBC294F76E8593900C9B"
+                  },
+                  {
+                      "FileName":  "Matilda_of_Flanders_Flanders_Cross_Realm_Profile_Interface_V1_Static_Check.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  495,
+                      "SHA256":  "4DAFE2CEC6EB260513AF1B6CDFA09D630467BF9D50FF8AD681801F858B743F01"
+                  },
+                  {
+                      "FileName":  "Richilde_of_Hainaut_V1_Developed_Character_Profile_Authority.md",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  42070,
+                      "SHA256":  "09ED202D534DD51D1843AC3055AB372EF77D6FA1347E1D27E6CC8BB93CF324D2"
+                  },
+                  {
+                      "FileName":  "Richilde_of_Hainaut_V1_Developed_Character_Profile_Authority_Manifest.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  1106,
+                      "SHA256":  "8EA7D811B559C425AB6109411F6E9824E6D6FB0A785EF63EAA5557593F7A027A"
+                  },
+                  {
+                      "FileName":  "Richilde_of_Hainaut_V1_Developed_Character_Profile_Authority_Static_Check.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  481,
+                      "SHA256":  "474854B380918CB88C53D0823D9DA5C72C384198CE8A20C58BACF228143A1F19"
+                  },
+                  {
+                      "FileName":  "Robert_son_of_Baldwin_V_V1_Developed_Character_Profile_Authority.md",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  37875,
+                      "SHA256":  "8AC84C4311956CA3A999D154A7B0FAEA6AD7D2325F99BEC8247A809C573769FB"
+                  },
+                  {
+                      "FileName":  "Robert_son_of_Baldwin_V_V1_Developed_Character_Profile_Authority_Manifest.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  787,
+                      "SHA256":  "3E3D66FED8A01771C0C7D3F7DC82DF8795E0A296560413C8170D39C12765D665"
+                  },
+                  {
+                      "FileName":  "Robert_son_of_Baldwin_V_V1_Developed_Character_Profile_Authority_Static_Check.json",
+                      "Folder":  "02_CHAR",
+                      "Bytes":  484,
+                      "SHA256":  "47628AB884EC19D1505DDB7CE445F845D0A391436574FA51CE6CC7FEE84368AB"
+                  },
+                  {
+                      "FileName":  "Flanders_Governance_Offices_Law_and_Delegation_Authority_V2_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "03_GOV",
+                      "Bytes":  67521,
+                      "SHA256":  "36BA00BC491709801E4938094555C676ACBFA2E35BF6485AA50631F9CD9AA4B1"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Castellanies_Offices_and_Local_Power_Evidence_Authority_V1.md",
+                      "Folder":  "03_GOV",
+                      "Bytes":  34538,
+                      "SHA256":  "419EF5C04DF658CE384342F562FB3BA19D0D178C9985F83AA7FE8B9A1AE6D54C"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Castellanies_Offices_and_Local_Power_Evidence_Authority_V1_Manifest.json",
+                      "Folder":  "03_GOV",
+                      "Bytes":  609,
+                      "SHA256":  "88B1079616D8F634827031673153B98FC03B3B853045D22035BA4528A2031C94"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Castellanies_Offices_and_Local_Power_Evidence_Authority_V1_Static_Check.json",
+                      "Folder":  "03_GOV",
+                      "Bytes":  469,
+                      "SHA256":  "83F966DDB06CFA321A5B9324DA4F31452524C94E0C3DD8033BAF93B8C342D6C6"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Titles_Holdings_and_Dual_Lordship_Evidence_Authority_V1.md",
+                      "Folder":  "03_GOV",
+                      "Bytes":  31812,
+                      "SHA256":  "CFE73916FE4BC7B469E02A3B7C7BC5FFEFBCD9469BDE871049AA749491500A60"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Titles_Holdings_and_Dual_Lordship_Evidence_Authority_V1_Manifest.json",
+                      "Folder":  "03_GOV",
+                      "Bytes":  541,
+                      "SHA256":  "ADAB91D5DD183254EFC550378F542E6B571A2D342C176535A5B360AA916C163D"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Titles_Holdings_and_Dual_Lordship_Evidence_Authority_V1_Static_Check.json",
+                      "Folder":  "03_GOV",
+                      "Bytes":  511,
+                      "SHA256":  "F6ACD9918731CF739F941198098B145F243EE5152B19B9B272E19058B083FDBC"
+                  },
+                  {
+                      "FileName":  "Flanders_Households_Courts_Residence_Officers_and_Domestic_Politics_Authority_V1.md",
+                      "Folder":  "03_GOV",
+                      "Bytes":  70327,
+                      "SHA256":  "E0AD9269FAF4D1A2648A771A4BD8685D3145F3D04703CB236C0B9B879823CCFF"
+                  },
+                  {
+                      "FileName":  "Flanders_Households_Courts_Residence_Officers_and_Domestic_Politics_Authority_V1_Manifest.json",
+                      "Folder":  "03_GOV",
+                      "Bytes":  1199,
+                      "SHA256":  "6B2C7CD3CEF9FFB2E15D5AB7184293BB75E8FA51010E34EADE6E78C71BA51AEA"
+                  },
+                  {
+                      "FileName":  "Flanders_Households_Courts_Residence_Officers_and_Domestic_Politics_Authority_V1_Static_Check.json",
+                      "Folder":  "03_GOV",
+                      "Bytes":  660,
+                      "SHA256":  "0A55DBBD342EB5EB1FD020441686DFB7C8A1C7B0504DB4F73178D17091C76DD8"
+                  },
+                  {
+                      "FileName":  "Flanders_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+                      "Folder":  "03_GOV",
+                      "Bytes":  71118,
+                      "SHA256":  "7CBA58940F691898DA67AE0A65A4BB417CA48A2D84450A84E6977B0B625B2AD0"
+                  },
+                  {
+                      "FileName":  "Flanders_Law_Policy_Custom_and_Jurisdiction_Authority_V1_Manifest.json",
+                      "Folder":  "03_GOV",
+                      "Bytes":  997,
+                      "SHA256":  "1A0CF797596A98F9F96BB6EB374B19F2F5735AA0D34DD2B04D615F3C28D38097"
+                  },
+                  {
+                      "FileName":  "Flanders_Law_Policy_Custom_and_Jurisdiction_Authority_V1_Static_Check.json",
+                      "Folder":  "03_GOV",
+                      "Bytes":  587,
+                      "SHA256":  "84246A8E213D8E2546040D866BC237D93465112FEF7C18F9C203B1B8C34E157F"
+                  },
+                  {
+                      "FileName":  "Flanders_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+                      "Folder":  "03_GOV",
+                      "Bytes":  73066,
+                      "SHA256":  "AB74B297C0F3394B46B6FF93C55808F2271BF291A3B613093510DA21C23527C7"
+                  },
+                  {
+                      "FileName":  "Flanders_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1_Manifest.json",
+                      "Folder":  "03_GOV",
+                      "Bytes":  986,
+                      "SHA256":  "1911D5146F222FCF6094A530445DD57F5FA2119CD4645957B17A60CB94BC12C5"
+                  },
+                  {
+                      "FileName":  "Flanders_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1_Static_Check.json",
+                      "Folder":  "03_GOV",
+                      "Bytes":  606,
+                      "SHA256":  "9A5D5D34C281CD0BD8FEACD3D1A8FB7C7C4AFF4610FCD988C5468E279E313002"
+                  },
+                  {
+                      "FileName":  "Flanders_Economy_Property_Revenue_Treasury_and_Development_Authority_V1.md",
+                      "Folder":  "04_SOC",
+                      "Bytes":  82129,
+                      "SHA256":  "B08DD0E4EE97E6F0A0CD37568A9841AE0836257DB76B8DC33C6127C16FDE9444"
+                  },
+                  {
+                      "FileName":  "Flanders_Economy_Property_Revenue_Treasury_and_Development_Authority_V1_Manifest.json",
+                      "Folder":  "04_SOC",
+                      "Bytes":  1050,
+                      "SHA256":  "0E005F2744ABCEBEB066E6F5C653C3B69F244C682CF75C2BD9EB1CA228997547"
+                  },
+                  {
+                      "FileName":  "Flanders_Economy_Property_Revenue_Treasury_and_Development_Authority_V1_Static_Check.json",
+                      "Folder":  "04_SOC",
+                      "Bytes":  675,
+                      "SHA256":  "8B804AB87AC6FFB008245BAF00D39EF4E6D222E293A388F001A566AECC293A66"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Rural_Estates_Agriculture_Water_Management_and_Resource_Evidence_Authority_V1.md",
+                      "Folder":  "04_SOC",
+                      "Bytes":  27511,
+                      "SHA256":  "8FC88A256C72FD760DECF767074F01AB0263DE5D6B33B29AB9BB545F597F7ECD"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Rural_Estates_Agriculture_Water_Management_and_Resource_Evidence_Authority_V1_Manifest.json",
+                      "Folder":  "04_SOC",
+                      "Bytes":  766,
+                      "SHA256":  "78CD8A95829D030458590CB12AA8241DC2A3E2E2C5F58F2E743805743B090022"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Rural_Estates_Agriculture_Water_Management_and_Resource_Evidence_Authority_V1_Static_Check.json",
+                      "Folder":  "04_SOC",
+                      "Bytes":  544,
+                      "SHA256":  "4E2523182B2717C591FB5920EF265FE108C06D72E6A61E0A2825F3FEBEC4AA06"
+                  },
+                  {
+                      "FileName":  "Flanders_Population_Settlement_Society_Labor_and_Migration_Authority_V1.md",
+                      "Folder":  "04_SOC",
+                      "Bytes":  86569,
+                      "SHA256":  "EB8DD906550D79EE39D5AD14C8B6F777F86944A09B223F4CDAEA0F020E4062D2"
+                  },
+                  {
+                      "FileName":  "Flanders_Population_Settlement_Society_Labor_and_Migration_Authority_V1_Manifest.json",
+                      "Folder":  "04_SOC",
+                      "Bytes":  1163,
+                      "SHA256":  "F72BC0BD8EA7FFB3CA1490816C0F289DF850828EF9562B21960842E01A15B804"
+                  },
+                  {
+                      "FileName":  "Flanders_Population_Settlement_Society_Labor_and_Migration_Authority_V1_Static_Check.json",
+                      "Folder":  "04_SOC",
+                      "Bytes":  633,
+                      "SHA256":  "71D46EF8840BC3E4FDF3E72215A410D5006205BC32E5374C530A054CB2B12F49"
+                  },
+                  {
+                      "FileName":  "Flanders_Ecclesiastical_Character_Profile_Admission_and_Officeholder_Reconciliation_V1.md",
+                      "Folder":  "05_CHR",
+                      "Bytes":  25137,
+                      "SHA256":  "4CED7A0FD1E611FBD6A12A3B9A20DBBEDEFF37C3DF8616F8CBF66AB9159C3B8F"
+                  },
+                  {
+                      "FileName":  "Flanders_Ecclesiastical_Character_Profile_Admission_and_Officeholder_Reconciliation_V1_Manifest.json",
+                      "Folder":  "05_CHR",
+                      "Bytes":  1159,
+                      "SHA256":  "8B829148EF1BBD0A7FDD4EE3E68DF2545E7322CC28DCE736A1E0F062EB33BF3F"
+                  },
+                  {
+                      "FileName":  "Flanders_Ecclesiastical_Character_Profile_Admission_and_Officeholder_Reconciliation_V1_Static_Check.json",
+                      "Folder":  "05_CHR",
+                      "Bytes":  521,
+                      "SHA256":  "E266251BE15339493E1E4A83A799D99D8F2DD099C610B2C6BE64C2D510F3F582"
+                  },
+                  {
+                      "FileName":  "Flanders_Ecclesiastical_Institutions_Jurisdiction_Patronage_Advocacy_and_Reform_Authority_V2.md",
+                      "Folder":  "05_CHR",
+                      "Bytes":  77559,
+                      "SHA256":  "1CA4DB68ABB8C726C3C162B8B4C36A73132E4B030655549B79E56EE73F70044B"
+                  },
+                  {
+                      "FileName":  "Flanders_Ecclesiastical_Institutions_Jurisdiction_Patronage_Advocacy_and_Reform_Authority_V2_Manifest.json",
+                      "Folder":  "05_CHR",
+                      "Bytes":  1507,
+                      "SHA256":  "6ECEDA8EA5595AB2B4953BEC5767219A23695F289D8FB405127C336F1C0F6B79"
+                  },
+                  {
+                      "FileName":  "Flanders_Ecclesiastical_Institutions_Jurisdiction_Patronage_Advocacy_and_Reform_Authority_V2_Static_Check.json",
+                      "Folder":  "05_CHR",
+                      "Bytes":  600,
+                      "SHA256":  "47D73771ADB5770401659A5F448BA7AD951FF32406051F8235052D2C43FAB1D0"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Ecclesiastical_Institutions_and_Property_Evidence_Authority_V1.md",
+                      "Folder":  "05_CHR",
+                      "Bytes":  45700,
+                      "SHA256":  "38AFCB6AE719619BFF65C18A95137E1E4E60D75F1DD85ED1AEB7B64938263E1C"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Ecclesiastical_Institutions_and_Property_Evidence_Authority_V1_Manifest.json",
+                      "Folder":  "05_CHR",
+                      "Bytes":  1039,
+                      "SHA256":  "0BDB7ACF3CDEFC866A96FD0A658E580484109F27C4B4FB8959C229464525EE11"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Ecclesiastical_Institutions_and_Property_Evidence_Authority_V1_Static_Check.json",
+                      "Folder":  "05_CHR",
+                      "Bytes":  612,
+                      "SHA256":  "18883FC1892B3527D29D81F493E31EFEFD9BACEB929356F4E301066E234B6FED"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Routes_Rivers_Crossings_Ports_and_Seasonal_Access_Evidence_Authority_V1.md",
+                      "Folder":  "06_GEO",
+                      "Bytes":  28083,
+                      "SHA256":  "396F3F9606B13894EBBDAFAC5CBB3FED3E933E3559960D7CC21D31DFC516D1B9"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Routes_Rivers_Crossings_Ports_and_Seasonal_Access_Evidence_Authority_V1_Manifest.json",
+                      "Folder":  "06_GEO",
+                      "Bytes":  749,
+                      "SHA256":  "74A98541A14A9FF9A7383F5EB6FAD5EEFD2BC6F87C87E56DD9AEF0A805F8AC16"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Routes_Rivers_Crossings_Ports_and_Seasonal_Access_Evidence_Authority_V1_Static_Check.json",
+                      "Folder":  "06_GEO",
+                      "Bytes":  492,
+                      "SHA256":  "585ED5E508BC431ED6ED82B3064F764F0502F4C5F449FF9F39ABEA5A76FB3CBA"
+                  },
+                  {
+                      "FileName":  "Flanders_Realm_Authority_Portfolio_Gap_Audit_and_Modernization_Order_V1.md",
+                      "Folder":  "06_GEO",
+                      "Bytes":  35879,
+                      "SHA256":  "E5A83BA2E57C4E9CAEF0494342DFE2D21E877B92DC9DCD8B941F486BBBC370EC"
+                  },
+                  {
+                      "FileName":  "Flanders_Realm_Authority_Portfolio_Gap_Audit_and_Modernization_Order_V1_Manifest.json",
+                      "Folder":  "06_GEO",
+                      "Bytes":  753,
+                      "SHA256":  "0AED59B8614C5708B48C328409D7482B7F74B041003FBD8264B32C8792DE562E"
+                  },
+                  {
+                      "FileName":  "Flanders_Realm_Authority_Portfolio_Gap_Audit_and_Modernization_Order_V1_Static_Check.json",
+                      "Folder":  "06_GEO",
+                      "Bytes":  709,
+                      "SHA256":  "45A21B2D5413E8C99A5238A59EA262CDD8EE2BB0F8944AE78B641DC7FF96A821"
+                  },
+                  {
+                      "FileName":  "Flanders_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+                      "Folder":  "06_GEO",
+                      "Bytes":  45826,
+                      "SHA256":  "1F588B9B61A3339C634DFBE5E44D9EB0753F067486DE3BF66D805E712AB273C6"
+                  },
+                  {
+                      "FileName":  "Flanders_Supply_Logistics_Transport_and_Recovery_Authority_V1_Manifest.json",
+                      "Folder":  "06_GEO",
+                      "Bytes":  973,
+                      "SHA256":  "F35876600EFFA348B9AEED07860B2E76832255FC71E5EA64ED2BB90A9FFC8814"
+                  },
+                  {
+                      "FileName":  "Flanders_Supply_Logistics_Transport_and_Recovery_Authority_V1_Static_Check.json",
+                      "Folder":  "06_GEO",
+                      "Bytes":  592,
+                      "SHA256":  "E9A0B71715992823CE526D1CA08C332B86395D2778D90643DFA000096F833EFB"
+                  },
+                  {
+                      "FileName":  "Flanders_Territory_Settlements_Geography_and_Climate_Authority_V2_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "06_GEO",
+                      "Bytes":  66502,
+                      "SHA256":  "76286D7E7C3EBEDF4C06F5E0E37B11710DAD6A9F906D0515F3F66FD15DE641D2"
+                  },
+                  {
+                      "FileName":  "Flanders_Communities_Culture_Population_and_Institutions_Authority_V2_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "07_MIL",
+                      "Bytes":  58319,
+                      "SHA256":  "DBA1FA8ACD10B9E6ECD5B35FF5E1C678797C03B638B2FF00707B1E1354B17039"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Towns_Markets_Communities_and_Chartered_Custom_Evidence_Authority_V1.md",
+                      "Folder":  "07_MIL",
+                      "Bytes":  42168,
+                      "SHA256":  "EB11B2BCF5168D7CAA3653B07D1C7F05CDA8ADA1E2FE4B7BA8516D9B93116D72"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Towns_Markets_Communities_and_Chartered_Custom_Evidence_Authority_V1_Manifest.json",
+                      "Folder":  "07_MIL",
+                      "Bytes":  941,
+                      "SHA256":  "88BC2544CEC2812F27578524C6528E938C5379A3CAC74DBF4AC64D5D7858334F"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Towns_Markets_Communities_and_Chartered_Custom_Evidence_Authority_V1_Static_Check.json",
+                      "Folder":  "07_MIL",
+                      "Bytes":  547,
+                      "SHA256":  "A68B3A3DB8F02E1C4B35B023511494876740DAF85CA5F79A2B0F2226B5327BC3"
+                  },
+                  {
+                      "FileName":  "Flanders_Military_Exact_Roster_Recruitment_Pool_and_Opening_Inventory_Authority_V1.md",
+                      "Folder":  "07_MIL",
+                      "Bytes":  61122,
+                      "SHA256":  "64E0D443B7F6E937DF6512E17D694782EF410A3FB9BF96D3202A1FF75802CDFF"
+                  },
+                  {
+                      "FileName":  "Flanders_Military_Exact_Roster_Recruitment_Pool_and_Opening_Inventory_Authority_V1_Manifest.json",
+                      "Folder":  "07_MIL",
+                      "Bytes":  452,
+                      "SHA256":  "9FEF0A2C1D5AA5CFCBA74FA6CEFDDC02148B18EB17020FB9BFCD38E72288BEF2"
+                  },
+                  {
+                      "FileName":  "Flanders_Military_Exact_Roster_Recruitment_Pool_and_Opening_Inventory_Authority_V1_Static_Check.json",
+                      "Folder":  "07_MIL",
+                      "Bytes":  289,
+                      "SHA256":  "3A6C1F26CC0D17A80FE0B37E6729CAE7A61F1DD91D67DB77B6DA885CC14B9C5F"
+                  },
+                  {
+                      "FileName":  "Flanders_Military_Roster_Recruitment_Obligation_Command_and_Strategic_Access_Authority_V1_Current_Authority_Development_FULL.md",
+                      "Folder":  "07_MIL",
+                      "Bytes":  103541,
+                      "SHA256":  "35A09556B7D6D6A6758A844BFE6DE0999430F2EEF1E63375EDEBE2D06C925C2E"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Emergence_V2_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  100982,
+                      "SHA256":  "E18E2A8939890FD41D33D2181DB4B2C878BDA5EC618061F0561FC19DF5D47E25"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Emergence_V2_Current_Authority_Modernization_FULL_Manifest.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  928,
+                      "SHA256":  "FB2FE32D5FB12EBB975C22C70A0F431F4D08C105769F96161D9BBF09E19E2D02"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Emergence_V2_Current_Authority_Modernization_FULL_Static_Check.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  1052,
+                      "SHA256":  "0EDA33011E6A31FDC3E71F856C07661B64E675661753FB9C5C2BD1B3E539FB60"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Memory_V2_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  66498,
+                      "SHA256":  "0D2D015C560E80FD36EED0880ABA64839FD65EF34E402EB142CA26904BD5D6EF"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Memory_V2_Current_Authority_Modernization_FULL_Manifest.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  770,
+                      "SHA256":  "6F2118115E02A99C7617BD3EB773F854053C7E42EE724844EC9AEBC47EC0004C"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Memory_V2_Current_Authority_Modernization_FULL_Static_Check.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  718,
+                      "SHA256":  "7E521DB973EA9F7E76AFD8B45058DD1F403403531E56AC4BA86BEFB150DB25FC"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Momentum_V2_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  84435,
+                      "SHA256":  "844ADB5C5DE50EE9CE62BC6D6BBED48519543F5D777F61E62EC9945D6446B980"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Momentum_V2_Current_Authority_Modernization_FULL_Manifest.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  871,
+                      "SHA256":  "05344F773DCFAA3333857F06F9A4267B6B5DD1FE34E6DE39FDE9EAA53ADEB22E"
+                  },
+                  {
+                      "FileName":  "Flanders_Historical_Momentum_V2_Current_Authority_Modernization_FULL_Static_Check.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  1044,
+                      "SHA256":  "FB4C139C164D35A70027DA19EB0E513EF22A637E0BF104DC99E33BCCEF1DA0C2"
+                  },
+                  {
+                      "FileName":  "Flanders_Knowledge_Communication_Diplomacy_and_External_Interfaces_Authority_V1.md",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  53583,
+                      "SHA256":  "237D4CDD190C0160415CDAA4A47A98936D92A88CF2F683356B7948E8B569F662"
+                  },
+                  {
+                      "FileName":  "Flanders_Knowledge_Communication_Diplomacy_and_External_Interfaces_Authority_V1_Manifest.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  344,
+                      "SHA256":  "A8769A5C6EC8ED0328E33AACC73E8B4651976E4E926DB378AD97E8AEBFE95105"
+                  },
+                  {
+                      "FileName":  "Flanders_Knowledge_Communication_Diplomacy_and_External_Interfaces_Authority_V1_Static_Check.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  290,
+                      "SHA256":  "1DF51B3B9B131750D22BC77A48817FD8107B6393320014F179B220D0AAAB4689"
+                  },
+                  {
+                      "FileName":  "Flanders_Realm_Personality_and_AI_V2_Current_Authority_Modernization_FULL.md",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  96563,
+                      "SHA256":  "546B4EC0B90A7B110CBA8CE364CACB2C739F19CB5D9DE506C9A4B3F1E6DCCF39"
+                  },
+                  {
+                      "FileName":  "Flanders_Realm_Personality_and_AI_V2_Current_Authority_Modernization_FULL_Manifest.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  953,
+                      "SHA256":  "69F24DD9D155F9752CFF677F56D44F3BAF577E3EE2915E2CF4FB9B3481CCD87F"
+                  },
+                  {
+                      "FileName":  "Flanders_Realm_Personality_and_AI_V2_Current_Authority_Modernization_FULL_Static_Check.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  968,
+                      "SHA256":  "FCA9D8B9460C062D7286DB5BE44DB172061DB5B2D9D7A42745E33B958DD64FBB"
+                  },
+                  {
+                      "FileName":  "Flanders_Realm_Specialist_Authority_Integration_Gap_and_Opening_State_Readiness_Audit_V1.md",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  14752,
+                      "SHA256":  "CDB2F52ACB4C63516B256FA0E217E83EEF1952E1299F914A442260623B67325D"
+                  },
+                  {
+                      "FileName":  "Flanders_Realm_Specialist_Authority_Integration_Gap_and_Opening_State_Readiness_Audit_V1_Manifest.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  393,
+                      "SHA256":  "638859843DEF4EEBFAE416BC83C48E159DABFA3C9EE4636DDC6CCF9B02970641"
+                  },
+                  {
+                      "FileName":  "Flanders_Realm_Specialist_Authority_Integration_Gap_and_Opening_State_Readiness_Audit_V1_Static_Check.json",
+                      "Folder":  "08_OPEN",
+                      "Bytes":  270,
+                      "SHA256":  "DE49AA0BBAE56AF98B22153922E3652DB512C9D7E4AFFA0CB2E7A6CA304FC52C"
+                  }
+              ]
+}

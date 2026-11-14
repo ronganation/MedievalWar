@@ -1,0 +1,19 @@
+{
+  "document": "England_Polearm_Pike_Bill_and_Long_Shafted_Weapon_Family_Authority_V1.md",
+  "sha256": "d3e6d6f775722ca20b8e7e0349748510468260eff03ce78733dd7650e9c8c18b",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "opening_firewall": true,
+    "bill_progression": true,
+    "adaptation_states": true,
+    "cross_realm": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "phased_handoff": true,
+    "stable_footer": true
+  }
+}

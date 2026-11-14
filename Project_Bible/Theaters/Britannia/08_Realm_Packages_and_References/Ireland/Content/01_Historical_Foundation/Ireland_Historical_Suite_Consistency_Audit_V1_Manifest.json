@@ -1,0 +1,18 @@
+{
+  "filename": "Ireland_Historical_Suite_Consistency_Audit_V1.md",
+  "version": "1.0.0",
+  "bytes": 25331,
+  "physical_lines": 670,
+  "sha256": "1e201a2a50ac6038bd7ba260f475d184a8d214a629d4323af1376cd9e58f729a",
+  "status": "Static-Checked PASS WITH REQUIRED CORRECTIONS",
+  "primary_authorities_compared": 4,
+  "supporting_decisions_compared": 1,
+  "required_corrections": 4,
+  "controlled_followups": 5,
+  "consistent_controlling_momentum_ids": 7,
+  "unresolved_memory_ids": 4,
+  "promotion_ready": false,
+  "registry_mutations": 0,
+  "opening_state_mutations": 0,
+  "runtime_mutations": 0
+}

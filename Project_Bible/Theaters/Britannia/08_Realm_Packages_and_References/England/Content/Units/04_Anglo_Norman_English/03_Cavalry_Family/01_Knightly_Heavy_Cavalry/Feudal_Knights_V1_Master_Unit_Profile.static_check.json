@@ -1,0 +1,20 @@
+{
+  "document": "Feudal_Knights_V1_Master_Unit_Profile.md",
+  "sha256": "7a442b465482290d7cb9ec22c3b4540dc7902eeaa7831f7363dc1b2dde0e905f",
+  "checks": {
+    "substantive_length": true,
+    "sections_0_69": true,
+    "legacy_terrain_24": true,
+    "scale_deferred": true,
+    "mounted_thegns_not_auto": true,
+    "foot_assignment_firewall": true,
+    "recruitment_architecture": true,
+    "admission_duplicate_test": true,
+    "determinism_save_migration_replay": true,
+    "evidence_acceptance_gate": true,
+    "no_escaped_underscores": true,
+    "all_code_fences_balanced": true,
+    "footer_final": true,
+    "pass": true
+  }
+}

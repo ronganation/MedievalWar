@@ -1,0 +1,43 @@
+{
+  "document_id": "manifest.wales.network-decision-pass.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Wales_Network_Opening_Fixture_Minimal_Decision_Pass.md",
+    "bytes": 24389,
+    "physical_lines": 947,
+    "sha256": "1e0b94a51cfeb7dac87cef70a9b6f251bc16c1ec1d61143a1a23ace7e8ee1bd4"
+  },
+  "successor": {
+    "filename": "Wales_Network_Opening_Fixture_Minimal_Decision_Pass_V2_Current_Authority_Refinement.md",
+    "bytes": 39440,
+    "physical_lines": 1383,
+    "sha256": "3b06bb108e0202d44e47c584fac06ca4b39a5fc2648d03f25fbb8d2dafd32b7f"
+  },
+  "copy_method": "literal full-file prefix",
+  "removed_content": [],
+  "decision_contract": {
+    "candidates_reviewed": 8,
+    "InitializeBasisOnly": 8,
+    "OmitFromOpeningFixture": 0,
+    "edge_count": 8,
+    "mutable_dimension_count": 0,
+    "participation_guard_count": 2
+  },
+  "candidate_dependency": {
+    "full_source": "Wales_Network_Opening_Fixture_Candidate_Manifest.md",
+    "current_addendum": "Wales_Network_Opening_Fixture_Candidate_Manifest_V2_Current_Authority_Addendum.md",
+    "addendum_copy_first_status": false
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_Network_Opening_Fixture_Minimal_Decision_Pass_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

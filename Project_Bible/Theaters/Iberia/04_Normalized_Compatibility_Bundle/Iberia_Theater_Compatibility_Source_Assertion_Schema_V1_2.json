@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medieval-war:schema:iberia-compatibility-source-assertions-v1-2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_identity",
+    "records"
+  ],
+  "properties": {
+    "document_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "version",
+        "date",
+        "status"
+      ],
+      "properties": {
+        "document_id": {
+          "const": "mw.theater.iberia.compatibility.source_assertions.v1_2"
+        },
+        "version": {
+          "const": "1.2.0"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "const": "STRUCTURED_SOURCE_ASSERTIONS_STATIC_CHECKED"
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "line",
+        "excerpt"
+      ],
+      "properties": {
+        "line": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "excerpt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "classification": {
+          "type": "string"
+        }
+      }
+    },
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_file",
+        "source_sha256",
+        "legacy_theater_assertion",
+        "alias_policy_assertion",
+        "advanced_save_assertion",
+        "composite_monarchy_assertion"
+      ],
+      "properties": {
+        "source_file": {
+          "type": "string",
+          "pattern": "^[A-Za-z_]+_Iberia_Theater_Compatibility_Candidate_V1\\.md$"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "legacy_theater_assertion": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "legacy_id",
+            "mention_count",
+            "active_use",
+            "evidence"
+          ],
+          "properties": {
+            "legacy_id": {
+              "const": "theater.iberia.1062"
+            },
+            "mention_count": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "active_use": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/evidence"
+              }
+            }
+          }
+        },
+        "alias_policy_assertion": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "alias_chains_allowed",
+            "evidence"
+          ],
+          "properties": {
+            "alias_chains_allowed": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/evidence"
+              }
+            }
+          }
+        },
+        "advanced_save_assertion": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "opening_state_overwrite_allowed",
+            "evidence"
+          ],
+          "properties": {
+            "opening_state_overwrite_allowed": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/evidence"
+              }
+            }
+          }
+        },
+        "composite_monarchy_assertion": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "applicable",
+            "separation_retained",
+            "evidence"
+          ],
+          "properties": {
+            "applicable": {
+              "type": "boolean"
+            },
+            "separation_retained": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/evidence"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

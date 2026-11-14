@@ -1,0 +1,43 @@
+{
+  "document_id": "Manifest.RealmPackageRootREADME.LeonCastile.V1_2.Rebuilt",
+  "readme_file": "Leon_Castile_README.md",
+  "version": "1.2.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile package root",
+  "bytes": 32478,
+  "physical_lines": 626,
+  "sha256": "4381961F071D1D1EAFF7DD9DB9290A8F3CB9E0C137D57D185B99DD575A317B13",
+  "immediate_substantive_source": "Leon_Castile_README.md version 1.1.0",
+  "source_treatment": "CompleteCopyFirstAdditiveRebuildWithRestoredV1_1SectionsAndIntegratedBatchAUpdates",
+  "status": "StaticCheckedRebuiltConditionalImplementationHandoffNavigationAuthority",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "organization_restored": true,
+    "dependency_restored": true,
+    "four_phases": true,
+    "closeout_disposition": true,
+    "character_owner": true,
+    "dynasty_owner": true,
+    "v11_history": true,
+    "batch_a_chain": true,
+    "stable_filename": true
+  },
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Source": 0,
+    "Configuration": 0,
+    "Assets": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "all_static_checks_pass": true
+}

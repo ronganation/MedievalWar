@@ -1,0 +1,46 @@
+{
+  "FileName": "Aragon_Economy_Property_Population_and_Military_Supply_Authority_V1_FULL.md",
+  "Version": "1.0.0",
+  "SHA256": "27c1cecafc295cd6709cf2a77755fe06220f7238ec5a9cad88d54826145d0dfe",
+  "Bytes": 52045,
+  "Lines": 1218,
+  "Benchmarks": [
+    "Normandy_Population_Settlement_Economy_Property_Treasury_and_Production_Authority_V1.md",
+    "Burgundy_Economy_Property_Population_Production_Trade_and_Development_Authority_V1.md",
+    "Aquitaine_Economy_Property_Revenue_and_Treasury_Authority_V1.md",
+    "Aquitaine_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+    "Aquitaine_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+    "Brittany_Population_Settlement_Economy_Property_Treasury_and_Production_Authority_V1.md",
+    "Flanders_Economy_Property_Revenue_Treasury_and_Development_Authority_V1.md",
+    "Flanders_Population_Settlement_Society_Labor_and_Migration_Authority_V1.md",
+    "Flanders_Supply_Logistics_Transport_and_Recovery_Authority_V1.md"
+  ],
+  "Checks": {
+    "bytes": 52045,
+    "lines": 1218,
+    "portfolios": 22,
+    "three_track": true,
+    "core_records": true,
+    "finite_recruitment_boundary": true,
+    "save_migration_determinism": true,
+    "diagnostics": true,
+    "UE5": true,
+    "repeated_headings": {},
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "balanced_fences": true,
+    "footer": 1
+  },
+  "AllCriticalChecksPass": true,
+  "MutationReceipt": {
+    "ExistingFilesOverwritten": 0,
+    "Registry": 0,
+    "OpeningState": 0,
+    "EconomicRecordsActivated": 0,
+    "MilitaryRecordsCreated": 0,
+    "Unreal": 0,
+    "Runtime": 0
+  },
+  "NextCandidate": "Aragon_Routes_Crossings_Communication_and_Strategic_Access_Authority_V1_FULL.md"
+}

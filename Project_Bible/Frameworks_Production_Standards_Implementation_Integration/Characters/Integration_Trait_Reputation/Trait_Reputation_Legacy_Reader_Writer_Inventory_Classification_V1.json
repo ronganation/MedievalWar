@@ -1,0 +1,775 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationLegacyReaderWriterInventoryClassification",
+    "name": "Trait Reputation Legacy Reader Writer Inventory Classification V1",
+    "version": "1.0",
+    "status": "TextualRepositoryInventoryClassified_ImplementationAndBinaryClosurePending",
+    "authority_class": "Migration Inventory Classification"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Legacy_Reader_Writer_Inventory_Classification_V1.json"
+  },
+  "source_inventory": {
+    "file": "Trait_Reputation_Legacy_Reader_Writer_Inventory_V1.json",
+    "sha256": "ba8ff9f34fb4f2a92f89424487d5681d2a7106059dac32c6b8ad842f87f93af8",
+    "files_enumerated": 1113,
+    "text_files_scanned": 830,
+    "inventory_records": 6532,
+    "scan_errors": 0,
+    "binary_asset_candidates": 0
+  },
+  "exact_findings": {
+    "unique_matching_files": 347,
+    "source_text_matches": 0,
+    "content_text_matches": 0,
+    "project_bible_matches": 6532,
+    "all_matches_are_project_bible_text_or_json": true,
+    "config_root_scanned": false,
+    "plugins_root_scanned": false,
+    "tests_root_scanned": false,
+    "save_fixture_root_scanned": false,
+    "migration_fixture_root_scanned": false
+  },
+  "classification_summary": [
+    {
+      "classification": "AIDocumentCandidate",
+      "record_count": 54,
+      "unique_file_count": 22,
+      "high_risk_heuristic_count": 49,
+      "top_tokens": [
+        {
+          "token": "Reputation",
+          "count": 52
+        },
+        {
+          "token": "Epithet",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "classification": "CharacterNetworkBoundaryEvidence",
+      "record_count": 519,
+      "unique_file_count": 5,
+      "high_risk_heuristic_count": 0,
+      "top_tokens": [
+        {
+          "token": "Reputation",
+          "count": 516
+        },
+        {
+          "token": "Character Trait Library",
+          "count": 2
+        },
+        {
+          "token": "Epithet",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "classification": "ConsolidationEvidence",
+      "record_count": 2571,
+      "unique_file_count": 28,
+      "high_risk_heuristic_count": 155,
+      "top_tokens": [
+        {
+          "token": "Reputation",
+          "count": 2387
+        },
+        {
+          "token": "Quirk",
+          "count": 93
+        },
+        {
+          "token": "Epithet",
+          "count": 53
+        },
+        {
+          "token": "Character Trait Library",
+          "count": 25
+        },
+        {
+          "token": "TraitId",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "classification": "CurrentRegistryGovernanceEvidence",
+      "record_count": 1372,
+      "unique_file_count": 30,
+      "high_risk_heuristic_count": 273,
+      "top_tokens": [
+        {
+          "token": "Reputation",
+          "count": 720
+        },
+        {
+          "token": "Trait.Character.",
+          "count": 450
+        },
+        {
+          "token": "LegacyDisplayLabel",
+          "count": 93
+        },
+        {
+          "token": "Epithet",
+          "count": 58
+        },
+        {
+          "token": "Quirk",
+          "count": 25
+        },
+        {
+          "token": "LegacyReputation",
+          "count": 3
+        },
+        {
+          "token": "PoliticalTrait",
+          "count": 2
+        },
+        {
+          "token": "TraitId",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "classification": "GovernanceBoundaryEvidence",
+      "record_count": 151,
+      "unique_file_count": 9,
+      "high_risk_heuristic_count": 63,
+      "top_tokens": [
+        {
+          "token": "Reputation",
+          "count": 150
+        },
+        {
+          "token": "Epithet",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "classification": "HistoricalMemoryBoundaryEvidence",
+      "record_count": 320,
+      "unique_file_count": 5,
+      "high_risk_heuristic_count": 0,
+      "top_tokens": [
+        {
+          "token": "Reputation",
+          "count": 316
+        },
+        {
+          "token": "Epithet",
+          "count": 3
+        },
+        {
+          "token": "Character Trait Library",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "classification": "MigrationOrSaveDocumentCandidate",
+      "record_count": 55,
+      "unique_file_count": 9,
+      "high_risk_heuristic_count": 55,
+      "top_tokens": [
+        {
+          "token": "Reputation",
+          "count": 35
+        },
+        {
+          "token": "Epithet",
+          "count": 12
+        },
+        {
+          "token": "Quirk",
+          "count": 3
+        },
+        {
+          "token": "OfficeTrait",
+          "count": 1
+        },
+        {
+          "token": "TitleTrait",
+          "count": 1
+        },
+        {
+          "token": "LegacyTraits",
+          "count": 1
+        },
+        {
+          "token": "LegacyReputation",
+          "count": 1
+        },
+        {
+          "token": "Character Trait Library",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "classification": "OtherProjectBibleReference",
+      "record_count": 1407,
+      "unique_file_count": 222,
+      "high_risk_heuristic_count": 996,
+      "top_tokens": [
+        {
+          "token": "Reputation",
+          "count": 1185
+        },
+        {
+          "token": "Epithet",
+          "count": 149
+        },
+        {
+          "token": "Character Trait Library",
+          "count": 28
+        },
+        {
+          "token": "Quirk",
+          "count": 21
+        },
+        {
+          "token": "OfficeTrait",
+          "count": 4
+        },
+        {
+          "token": "TraitId",
+          "count": 3
+        },
+        {
+          "token": "TitleTrait",
+          "count": 3
+        },
+        {
+          "token": "TraitTag",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "classification": "ProfileDocumentCandidate",
+      "record_count": 29,
+      "unique_file_count": 1,
+      "high_risk_heuristic_count": 0,
+      "top_tokens": [
+        {
+          "token": "Reputation",
+          "count": 27
+        },
+        {
+          "token": "Epithet",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "classification": "ScenarioOrOpeningStateDocumentCandidate",
+      "record_count": 54,
+      "unique_file_count": 16,
+      "high_risk_heuristic_count": 54,
+      "top_tokens": [
+        {
+          "token": "Reputation",
+          "count": 38
+        },
+        {
+          "token": "Epithet",
+          "count": 14
+        },
+        {
+          "token": "OfficeTrait",
+          "count": 1
+        },
+        {
+          "token": "TitleTrait",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "high_value_manual_review_records": [
+    {
+      "inventory_record_id": "trrw-004352",
+      "file_path": "../Project_Bible/Design_Expansion_Checklist_V3.2.md",
+      "location": "line:140",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- `[LEGACY]` Character Trait Library is now migration provenance and an eventual archive candidate.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004361",
+      "file_path": "../Project_Bible/Design_Expansion_Checklist_V3.2.md",
+      "location": "line:372",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- `[LEGACY]` Character Trait Library; retain until catalogue extraction, IDs, migration, and validation are complete.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004360",
+      "file_path": "../Project_Bible/Design_Expansion_Checklist_V3.3.md",
+      "location": "line:141",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- `[LEGACY]` Character Trait Library is now migration provenance and an eventual archive candidate.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004343",
+      "file_path": "../Project_Bible/Design_Expansion_Checklist_V3.3.md",
+      "location": "line:443",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- `[LEGACY]` Character Trait Library; retain until catalogue extraction, IDs, migration, and validation are complete.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004348",
+      "file_path": "../Project_Bible/Design_Expansion_Checklist_V3.4.md",
+      "location": "line:141",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- `[LEGACY]` Character Trait Library is now migration provenance and an eventual archive candidate.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004345",
+      "file_path": "../Project_Bible/Design_Expansion_Checklist_V3.4.md",
+      "location": "line:481",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- `[LEGACY]` Character Trait Library; retain until catalogue extraction, IDs, migration, and validation are complete.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004382",
+      "file_path": "../Project_Bible/Design_Expansion_Checklist_V3.5.md",
+      "location": "line:162",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- `[LEGACY]` Character Trait Library is now migration provenance and an eventual archive candidate.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004380",
+      "file_path": "../Project_Bible/Design_Expansion_Checklist_V3.5.md",
+      "location": "line:482",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- `[LEGACY]` Character Trait Library; retain until catalogue extraction, IDs, migration, and validation are complete.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004294",
+      "file_path": "../Project_Bible/Frameworks/Character_System_Extraction_and_Migration_Checklist.md",
+      "location": "line:141",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- [ ] Audit every trait in Character Trait Library by category and owner.",
+      "classification": "MigrationOrSaveDocumentCandidate",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004450",
+      "file_path": "../Project_Bible/Frameworks/Characters/Character_Foundation_Framework_v1.md",
+      "location": "line:1831",
+      "matched_token": "Character Trait Library",
+      "observed_value": "Character Trait Library remains active as a legacy catalogue until Trait and Reputation Framework and data-table extraction are complete.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004321",
+      "file_path": "../Project_Bible/Frameworks/Characters/Character_Foundation_Framework_v1.md",
+      "location": "line:23",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- Character Trait Library",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004322",
+      "file_path": "../Project_Bible/Frameworks/Characters/Character_Foundation_Framework_v1.md",
+      "location": "line:37",
+      "matched_token": "Character Trait Library",
+      "observed_value": "The former Character System remains a legacy concept source until unique material and references have been migrated. The Character Trait Library remains a content and category source pending the planned Trait and Reputation refactor.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004848",
+      "file_path": "../Project_Bible/Frameworks/Characters/Character_Network_Reconciliation/Character_Network_Reconciliation_Audit.md",
+      "location": "line:10",
+      "matched_token": "Character Trait Library",
+      "observed_value": "| Supporting Authorities | Character Foundation Framework V1; Character Development Framework V2; Character Archetype Framework V2; Underage Character Framework V2; Historical Memory Framework V1; Historical Memory Reconciliation Audit; Trait and Reputation Authority Planning; Trait and Reputation Implementation Contract Matrix; Trait and Reputation Contract Field Inventory; Trait and Reputation Contract Validation Catalogue; Migration Registries; Character System Migration Audit; Character Trai",
+      "classification": "CharacterNetworkBoundaryEvidence",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004835",
+      "file_path": "../Project_Bible/Frameworks/Characters/Character_Network_Reconciliation/Character_Network_Reconciliation_Audit.md",
+      "location": "line:628",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- Character Trait Library entries such as Loyalist or Conspirator;",
+      "classification": "CharacterNetworkBoundaryEvidence",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-004493",
+      "file_path": "../Project_Bible/Frameworks/Characters/README_Characters.md",
+      "location": "line:145",
+      "matched_token": "Character Trait Library",
+      "observed_value": "Contains the legacy Character Trait Library consolidation package.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-001076",
+      "file_path": "../Project_Bible/Frameworks/Framework_Architecture_Map_v1.md",
+      "location": "line:1257",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- Character Trait Library into Trait and Reputation Framework plus data catalogue",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-001088",
+      "file_path": "../Project_Bible/Frameworks/Framework_Architecture_Map_v1.md",
+      "location": "line:429",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- Character Trait Library",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-001094",
+      "file_path": "../Project_Bible/Frameworks/Framework_Architecture_Map_v1.md",
+      "location": "line:474",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- Character Trait Library into a compact constitutional Trait and Reputation Framework plus data catalogue",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-001452",
+      "file_path": "../Project_Bible/Frameworks/Historical/Historical_Memory_Reconcilation/Historical_Memory_Reconciliation_Audit.md",
+      "location": "line:462",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- legacy Character Trait Library memories;",
+      "classification": "HistoricalMemoryBoundaryEvidence",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-001460",
+      "file_path": "../Project_Bible/Frameworks/README_Frameworks(1).md",
+      "location": "line:161",
+      "matched_token": "Character Trait Library",
+      "observed_value": "- Character Trait Library remains a legacy catalogue pending the Trait and Reputation refactor",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-001461",
+      "file_path": "../Project_Bible/Frameworks/README_Frameworks(1).md",
+      "location": "line:658",
+      "matched_token": "Character Trait Library",
+      "observed_value": "#### Character Trait Library",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002537",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:15",
+      "matched_token": "Character Trait Library",
+      "observed_value": "The Character Trait Library is a legacy source pending consolidation. It must not be revived as a universal character container or migrated field-for-field.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002460",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:292",
+      "matched_token": "TraitId",
+      "observed_value": "TraitId",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002493",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:300",
+      "matched_token": "OfficeTrait",
+      "observed_value": "OfficeTrait",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002494",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:301",
+      "matched_token": "TitleTrait",
+      "observed_value": "TitleTrait",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002495",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:302",
+      "matched_token": "HealthTrait",
+      "observed_value": "HealthTrait",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002490",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:303",
+      "matched_token": "EducationTrait",
+      "observed_value": "EducationTrait",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002535",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:33",
+      "matched_token": "Character Trait Library",
+      "observed_value": "This plan defines the smallest safe route from the legacy Character Trait Library and trait-like fields into the current Character architecture.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002480",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:359",
+      "matched_token": "TraitId",
+      "observed_value": "TraitId",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002482",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:388",
+      "matched_token": "TraitId",
+      "observed_value": "TraitId",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002468",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:68",
+      "matched_token": "Character Trait Library",
+      "observed_value": "15. legacy Character Trait Library and trait-like sources",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002648",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:726",
+      "matched_token": "Character Trait Library",
+      "observed_value": "1. exact Character Trait Library source file and version;",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002652",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:777",
+      "matched_token": "Character Trait Library",
+      "observed_value": "No supported content, save, code, data table, Blueprint, profile, AI rule, or UI path depends on the legacy Character Trait Library.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002653",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:783",
+      "matched_token": "Character Trait Library",
+      "observed_value": "The Character Trait Library remains read-only migration evidence until all acceptance gates relevant to supported content and saves pass.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002530",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:8",
+      "matched_token": "Character Trait Library",
+      "observed_value": "**Legacy Source:** Character Trait Library",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002650",
+      "file_path": "../Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation/Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "location": "line:821",
+      "matched_token": "Character Trait Library",
+      "observed_value": "**Smallest useful next action:** inspect the exact Character Trait Library source and create `Character_Trait_Library_Source_Inventory_V1.json` with zero mutations, recording every entry, group, field, symbol, consumer, and observed meaning without assigning canonical IDs by guesswork.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002634",
+      "file_path": "../Project_Bible/Migration Registries/Character System Migration/Character_System_Field_Level_Disposition_Manifest.md",
+      "location": "line:125",
+      "matched_token": "LegacyTraits",
+      "observed_value": "| Exact legacy type unavailable | `{LegacyTraits}` | Trait collection embedded in the monolithic character object. | Pending existing Trait/Reputation consolidation; not Character Foundation. | Existing bounded legacy migration/quarantine record or approved trait record | Existing source trait collection/provenance field | Refactor | Extract each trait for separate ownership review; do not make Foundation the interim trait owner. | No new trait defaults through this migration. | Until authorized",
+      "classification": "MigrationOrSaveDocumentCandidate",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002635",
+      "file_path": "../Project_Bible/Migration Registries/Character System Migration/Character_System_Field_Level_Disposition_Manifest.md",
+      "location": "line:126",
+      "matched_token": "LegacyReputation",
+      "observed_value": "| Exact legacy type unavailable | `{LegacyReputation}` | Reputation value embedded in Character System. | Existing or future authorized Trait/Reputation owner; not Character Foundation. | Existing reputation record or migration quarantine | Existing reputation/provenance field | Reassign | Migrate only if the approved owner and semantic contract exist. | No Foundation default. | Persist outside Foundation core. | Unclear trait-versus-reputation semantics quarantine. | Ownership contract present;",
+      "classification": "MigrationOrSaveDocumentCandidate",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002630",
+      "file_path": "../Project_Bible/Migration Registries/Character System Migration/Character_System_Field_Level_Disposition_Manifest.md",
+      "location": "line:127",
+      "matched_token": "OfficeTrait",
+      "observed_value": "| Exact legacy type unavailable | `{LegacyOfficeTrait}` | Trait used to indicate possession of an office. | Existing office or governance owner. | Existing office-holding record | Existing holder/person reference field | Reassign | Extract the office fact, canonicalize the person, and remove the trait representation after validation. | Opening States may initialize an opening office fact only through its owner. | Persist office holding under the office owner. | If the trait conflates office, ran",
+      "classification": "MigrationOrSaveDocumentCandidate",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002631",
+      "file_path": "../Project_Bible/Migration Registries/Character System Migration/Character_System_Field_Level_Disposition_Manifest.md",
+      "location": "line:128",
+      "matched_token": "TitleTrait",
+      "observed_value": "| Exact legacy type unavailable | `{LegacyTitleTrait}` | Trait used to indicate title ownership, claim, style, or rank. | Existing title/claim owner. | Existing title holding or claim record | Existing holder/claimant person-reference field | Reassign | Separate possession, claim, style, and rank only where source semantics prove them. | Opening titles/claims initialize through their authoritative owner. | Persist outside Foundation core and trait collection. | Conflated or uncertain meaning qua",
+      "classification": "MigrationOrSaveDocumentCandidate",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002575",
+      "file_path": "../Project_Bible/Realms/Brittany/Content/Brittany_Character_Authorities_V1.md",
+      "location": "line:1155",
+      "matched_token": "Character Trait Library",
+      "observed_value": "The legacy Character Trait Library is not authoritative for this file. This document records only bounded behavioral intent and interface needs.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002577",
+      "file_path": "../Project_Bible/Realms/Brittany/Content/Brittany_Character_Authorities_V1.md",
+      "location": "line:1394",
+      "matched_token": "TitleTrait",
+      "observed_value": "TitleTraits: Title Authority",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002572",
+      "file_path": "../Project_Bible/Realms/Brittany/Content/Brittany_Character_Authorities_V1.md",
+      "location": "line:1395",
+      "matched_token": "OfficeTrait",
+      "observed_value": "OfficeTraits: Delegated Authority",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002558",
+      "file_path": "../Project_Bible/Realms/Brittany/Content/Brittany_Opening_State_1062_V1.md",
+      "location": "line:1076",
+      "matched_token": "TitleTrait",
+      "observed_value": "CharacterTitleTraits: relocate_to_title_authority",
+      "classification": "ScenarioOrOpeningStateDocumentCandidate",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002553",
+      "file_path": "../Project_Bible/Realms/Brittany/Content/Brittany_Opening_State_1062_V1.md",
+      "location": "line:1077",
+      "matched_token": "OfficeTrait",
+      "observed_value": "CharacterOfficeTraits: relocate_to_office_authority",
+      "classification": "ScenarioOrOpeningStateDocumentCandidate",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-003229",
+      "file_path": "../Project_Bible/Realms/France/France_Character_Authorities_V1.md",
+      "location": "line:1402",
+      "matched_token": "TitleTrait",
+      "observed_value": "TitleTrait: relocate_to_title_authority",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-003230",
+      "file_path": "../Project_Bible/Realms/France/France_Character_Authorities_V1.md",
+      "location": "line:1403",
+      "matched_token": "OfficeTrait",
+      "observed_value": "OfficeTrait: relocate_to_office_tenure",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-003239",
+      "file_path": "../Project_Bible/Realms/France/France_Governance_Delegated_Authority_V1.md",
+      "location": "line:789",
+      "matched_token": "OfficeTrait",
+      "observed_value": "OfficeTrait: relocate_to_office_tenure",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002152",
+      "file_path": "../Project_Bible/Systems/Characters and Dynasties/Character_Trait_Library.md",
+      "location": "line:1",
+      "matched_token": "Character Trait Library",
+      "observed_value": "# Character Trait Library",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    },
+    {
+      "inventory_record_id": "trrw-002169",
+      "file_path": "../Project_Bible/Systems/Characters and Dynasties/Character_Trait_Library.md",
+      "location": "line:8",
+      "matched_token": "Character Trait Library",
+      "observed_value": "The Character Trait Library defines the personality, skills, flaws, quirks, memories, and reputation characteristics used throughout Medieval War.",
+      "classification": "OtherProjectBibleReference",
+      "review_status": "OpenManualReview"
+    }
+  ],
+  "interpretation": {
+    "source_and_content_text": "No searched token occurrences were recorded under Source or Content. This supports no discovered textual legacy dependency in those scanned roots, but does not prove absence inside serialized Unreal binary assets or unscanned roots.",
+    "project_bible": "All 6,532 matches are authority, consolidation, registry, framework, scenario, profile, AI, save or migration documentation references under Project_Bible. Keyword-based ReaderOrWriter labels are heuristic and do not prove executable behavior.",
+    "binary_assets": "Zero binary candidates were emitted by the path/name heuristic. Binary dependency closure still requires Unreal Asset Registry inspection or Blueprint/Data Asset text exports.",
+    "save_closure": "No save fixture root was scanned, so save migration readiness is not established."
+  },
+  "gate_result": {
+    "A_RepositoryInventory": "PartialPass_TextualProjectBibleInventoryComplete_SourceContentNoTextMatches_BinaryAndSaveClosurePending",
+    "B_ContentMappingDryRun": "PassNoTextualSourceOrContentMappingsObserved_ApplyStillBlocked",
+    "C_SaveSchemaDryRun": "BlockedNoSaveFixtureRoot",
+    "D_QuarantineAndRollback": "Pending",
+    "E_DeterminismReplay": "Pending",
+    "F_CompileValidation": "Pending",
+    "G_RuntimeAndSaveValidation": "Pending",
+    "H_ApplyAuthorization": "Blocked"
+  },
+  "run": {
+    "mode": "InventoryClassification",
+    "verdict": "PassWithBinarySaveAndUnscannedRootLocks",
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "registry_mutations": 0,
+    "migration_execution_authorized": false
+  },
+  "smallest_useful_next_action": "Run an Unreal-side Asset Registry or Blueprint/Data Asset export inventory and provide save schemas or fixture saves. Also scan Config, Plugins, Tests, SavedFixtures, and MigrationFixtures when those roots exist. Keep migration execution blocked."
+}

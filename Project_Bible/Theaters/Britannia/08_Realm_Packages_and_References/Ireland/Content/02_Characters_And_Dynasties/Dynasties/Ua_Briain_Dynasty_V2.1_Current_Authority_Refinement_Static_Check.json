@@ -1,0 +1,19 @@
+{
+  "target": "Ua_Briain_Dynasty_V2.1_Current_Authority_Refinement.md",
+  "status": "PASS",
+  "checks": {
+    "literal_source_prefix": true,
+    "controls": true,
+    "three_tracks": true,
+    "core_refs": true,
+    "momentum_correction": true,
+    "emergence_3": true,
+    "queries_5": true,
+    "minor_roles": true,
+    "honest_validation": true,
+    "no_mutation": true,
+    "next_dynasty": true,
+    "literal_formatting": true,
+    "all_pass": true
+  }
+}

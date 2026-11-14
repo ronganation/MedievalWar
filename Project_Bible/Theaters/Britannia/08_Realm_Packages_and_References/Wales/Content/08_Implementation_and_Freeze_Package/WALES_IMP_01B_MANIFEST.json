@@ -1,0 +1,22 @@
+{
+  "TaskId": "WALES-IMP-01B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "EntranceGate": "WALES-IMP-01A",
+  "EntranceDecision": "ReadyForBoundedWalesCampaignInitializationContract",
+  "ProposedFilesAdded": 8,
+  "ProposedFilesModified": 0,
+  "ProposedNewTests": 24,
+  "RegressionCounts": [
+    10,
+    5
+  ],
+  "PreservedSourceRecords": 20,
+  "ReadinessFamilies": 8,
+  "EligibleForImplementation": false,
+  "EligibleForApplication": false,
+  "ProductionAuthority": false,
+  "PlanSHA256": "4496B81A069E859CFEFB22BAE45F084766D8751FB5567430D601BFE7177FA6CF",
+  "PlanBytes": 8141,
+  "PlanLines": 304,
+  "NextGate": "WALES-IMP-01C"
+}

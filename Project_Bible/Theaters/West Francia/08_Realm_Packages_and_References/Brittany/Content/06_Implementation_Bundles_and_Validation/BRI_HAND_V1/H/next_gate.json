@@ -1,0 +1,9 @@
+{
+  "bulk_materialization_authorized": false,
+  "may_compile": false,
+  "may_hash": true,
+  "may_modify_project": false,
+  "may_open_editor": false,
+  "next_gate": "LocalReadOnlyProjectNativeDiscovery",
+  "project_root_expected": "C:/UnrealProjects/MedievalWar"
+}

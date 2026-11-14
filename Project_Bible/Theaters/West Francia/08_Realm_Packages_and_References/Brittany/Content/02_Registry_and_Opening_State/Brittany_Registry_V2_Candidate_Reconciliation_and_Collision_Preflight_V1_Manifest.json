@@ -1,0 +1,32 @@
+{
+  "artifact": "Brittany Registry V2 Candidate Reconciliation and Collision Preflight V1",
+  "filename": "Brittany_Registry_V2_Candidate_Reconciliation_and_Collision_Preflight_V1.md",
+  "version": "2.0.0",
+  "bytes": 70326,
+  "lines": 2414,
+  "sha256": "9FB8DD7BB491ACA95FC16118E7EF555CC10DE92EB48F7CF13BC81249CB0133FB",
+  "immediate_source": "Brittany_ID_Registry_V1_1_Current_Authority_Modernization_FULLCopy.md",
+  "immediate_source_bytes": 55671,
+  "immediate_source_lines": 2056,
+  "immediate_source_sha256": "08AC54B351EDA8FDD1A9386B6B6A5E14ACBF4B7F23753214EC62987A4A419D31",
+  "source_embedded_as_separate_annex": false,
+  "integrated_single_authority": true,
+  "substantive_content_removed": [],
+  "validation": {
+    "static_checked": true,
+    "project_wide_collision_validated": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false
+  },
+  "mutations": {
+    "registry_rows_created": 0,
+    "aliases_applied": 0,
+    "migrations_executed": 0,
+    "opening_state_mutations": 0,
+    "runtime_mutations": 0,
+    "unreal_project_mutations": 0
+  }
+}

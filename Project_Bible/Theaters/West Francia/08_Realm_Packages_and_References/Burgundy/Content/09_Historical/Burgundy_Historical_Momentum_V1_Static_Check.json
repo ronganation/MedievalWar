@@ -1,0 +1,26 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "definitions_14": true,
+    "operating_records_14": true,
+    "candidate_records_28": true,
+    "collision_groups_8": true,
+    "source_types_14": true,
+    "resistance_16": true,
+    "reinforcement_14": true,
+    "decay_10": true,
+    "recovery_10": true,
+    "positive_24": true,
+    "negative_30": true,
+    "reasons_26": true,
+    "three_tracks": true,
+    "opening_zero": true,
+    "balanced_fences": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker": true,
+    "honest_validation": true
+  }
+}

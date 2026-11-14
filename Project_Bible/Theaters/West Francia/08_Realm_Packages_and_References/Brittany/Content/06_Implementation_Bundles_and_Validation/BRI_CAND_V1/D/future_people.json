@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "display_name": "Alan IV of Brittany",
+      "disposition": "FuturePersonCandidateNotYetBorn",
+      "dormant_profile_ref": "Alan_IV_of_Brittany_V1_Underage_Character_Profile_Authority.md",
+      "exact_birth_date": "Unknown",
+      "first_turn_autofire": false,
+      "historical_birth_center": "circa_1063",
+      "historical_date_autofire": false,
+      "opening_character_instance": false,
+      "opening_claim": false,
+      "opening_compatibility": "NotYetBorn",
+      "opening_network_node": false,
+      "opening_successor": false,
+      "opening_title": false,
+      "owner_authority": "Alan_IV_of_Brittany_Future_Birth_and_Identity_Authority_V1.md",
+      "provenance_refs": [],
+      "quarantine_ids": [
+        "registry_entry.hawise_hoel_children_review"
+      ],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "FuturePersonCandidate",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Alan_IV_of_Brittany_Future_Birth_and_Identity_Authority_V1.md"
+      ],
+      "stable_id": "person.alan_iv_brittany",
+      "validation_state": "UnvalidatedCandidate"
+    }
+  ]
+}

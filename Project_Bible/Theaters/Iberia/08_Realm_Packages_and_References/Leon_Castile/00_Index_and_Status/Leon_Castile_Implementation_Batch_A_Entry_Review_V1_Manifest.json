@@ -1,0 +1,38 @@
+{
+  "document_id": "Manifest.Handoff.LeonCastile.ImplementationBatchAEntryReview.V1",
+  "authority_file": "Leon_Castile_Implementation_Batch_A_Entry_Review_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/00_Index_and_Status",
+  "bytes": 12075,
+  "physical_lines": 305,
+  "sha256": "5C893329ABC7B634EA603FF18D72C1CDD67E7DC56AE8F7EE8873EF7BC2B6A6D9",
+  "status": "StaticCheckedConditionalBatchAEntryReviewPauseMaintained",
+  "entry_disposition": "BLOCKED_ON_OFFLINE_EXECUTION_EVIDENCE_AND_SOURCE_INSPECTION_AUTHORIZATION",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "conceptual_owner_count": 13,
+    "required_output_count": 6,
+    "entry_block_present": true,
+    "no_mutation": true
+  },
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Source": 0,
+    "Configuration": 0,
+    "Assets": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "next_file_after_entry": "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+  "all_static_checks_pass": true
+}

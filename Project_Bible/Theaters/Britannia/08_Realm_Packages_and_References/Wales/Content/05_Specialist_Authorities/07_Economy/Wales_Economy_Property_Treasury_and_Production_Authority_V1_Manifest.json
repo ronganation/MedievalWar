@@ -1,0 +1,22 @@
+{
+  "filename": "Wales_Economy_Property_Treasury_and_Production_Authority_V1.md",
+  "bytes": 62164,
+  "lines": 1530,
+  "sha256": "97e88e95484d32bce467e0b03c3a0ce1dd23850c9e0eba312958aed182e88f92",
+  "checks": {
+    "filename": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "yaml_present": true,
+    "text_separations": true,
+    "modern_medieval_ii": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_em_dash": true,
+    "no_opening_activation": true
+  },
+  "all_checks_passed": true
+}

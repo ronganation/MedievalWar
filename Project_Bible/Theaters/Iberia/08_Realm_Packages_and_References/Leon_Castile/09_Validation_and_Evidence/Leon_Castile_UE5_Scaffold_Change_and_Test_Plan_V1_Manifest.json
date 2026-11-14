@@ -1,0 +1,44 @@
+{
+  "document_id": "Manifest.Plan.LeonCastile.UE5ScaffoldChangeTest.V1",
+  "plan_file": "Leon_Castile_UE5_Scaffold_Change_and_Test_Plan_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 16084,
+  "physical_lines": 467,
+  "sha256": "361FFEE9E265A461D0804F430BAC0596CEA32D3B0F4CF4A621E75FA9E143EEE7",
+  "status": "StaticCheckedProposalOnlyScaffoldPlanAllPhysicalPlacementsDeferred",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "batch_count": 7,
+    "test_family_count": 10,
+    "proposed_capability_count": 7,
+    "placement_deferred": true,
+    "batch0_blocked": true,
+    "no_mutation": true
+  },
+  "declared_counts": {
+    "Batches": 7,
+    "TestFamilies": 10,
+    "ProposedCapabilities": 7
+  },
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Source": 0,
+    "Configuration": 0,
+    "Assets": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "next_file": "Leon_Castile_UE5_Batch_A_Zero_Mutation_Receipt_V1.json",
+  "all_static_checks_pass": true
+}

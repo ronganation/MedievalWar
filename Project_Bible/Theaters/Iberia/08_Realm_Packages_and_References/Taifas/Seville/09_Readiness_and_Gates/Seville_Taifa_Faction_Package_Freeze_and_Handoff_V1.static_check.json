@@ -1,0 +1,110 @@
+{
+  "ArtifactId": "Seville_Taifa_Faction_Package_Freeze_and_Handoff_V1",
+  "InternalVersion": "1.1.0",
+  "StaticCheckVersion": "1.1.0",
+  "Status": "STATIC_CHECKED_CURRENT_HANDOFF_AND_MANIFEST_RECONCILED_VALIDATE_ONLY_GATE_OPEN",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Faction_Package_Freeze_and_Handoff_V1.md",
+    "InternalVersion": "1.1.0",
+    "SHA256": "a25bf5367532735e4bceb767f2782d8836667048d58e8b5aac5644e1b4c0e034",
+    "Bytes": 25264,
+    "HashSource": "Recorded from generated handoff before manifest creation"
+  },
+  "SourceManifest": {
+    "Filename": "Seville_Taifa_Faction_Package_Freeze_and_Handoff_V1.manifest.json",
+    "InternalVersion": "1.1.0",
+    "SHA256": "5a4b38e5ce32457c0ab4567297ae118b597bbd3ac9feddcf7221686585d60719",
+    "Bytes": 9606,
+    "JSONSyntax": "PASS"
+  },
+  "PhysicalReceiptBoundary": {
+    "SuppliedMachineReadableArtifacts": 19,
+    "UniqueArtifactFilenames": 19,
+    "DuplicateFilenames": 0,
+    "EveryArtifactHasByteCount": true,
+    "EveryArtifactHasSHA256": true,
+    "WholeSevillePhysicalPackageScanned": false,
+    "WholePackageFileCountClaimed": false,
+    "WholePackageHashClaimed": false
+  },
+  "OpeningStateAlignment": {
+    "HumanReadableInternalVersion": "1.3.0",
+    "MachineReadableContractInternalVersion": "1.2.0",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "OwnerRoutingRequests": 18,
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11,
+    "RetainedExplicitEmptyCollections": 51,
+    "AdditiveExplicitEmptyCollections": 19,
+    "TotalExplicitEmptyCollections": 70,
+    "UnsupportedActiveInstancesCreated": 0
+  },
+  "MachineReadableValidation": {
+    "OpeningPayloadSchemaErrors": 0,
+    "OpeningRequestIdParity": "PASS",
+    "OpeningStableOrderKeyParity": "PASS",
+    "OpeningFixtureDefinitions": 39,
+    "OpeningCurrentFixtureExecution": "NOT_RUN_0_OF_39",
+    "DefinitionManifestSchemaErrors": 0,
+    "DefinitionProfiles": 13,
+    "DefinitionObservationContracts": 7,
+    "DefinitionFirstTurnActions": 5,
+    "DefinitionFixtureDefinitions": 29,
+    "DefinitionCurrentFixtureExecution": "NOT_RUN_0_OF_29",
+    "CurrentFullFixturePassClaimed": false
+  },
+  "PredecessorEvidenceBoundary": {
+    "Opening22Of22AppliesToCurrentHashes": false,
+    "Definition29Of29AppliesToCurrentHashes": false,
+    "Registry31Of31AppliesToCurrentMachineSnapshot": false,
+    "PredecessorEvidencePreserved": true,
+    "PredecessorEvidenceRelabeledAsCurrent": false
+  },
+  "PromotionBoundary": {
+    "CurrentDisposition": "BLOCKED_PENDING_CURRENT_VALIDATE_ONLY_EXECUTION",
+    "RealCampaignPayloadAuthorized": false,
+    "RegistryMutationAuthorized": false,
+    "AdvancedSaveMutationAuthorized": false,
+    "BroadUnrealPromotionAuthorized": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "NextAuthorizedBatch": {
+    "BatchId": "SEV_VALIDATE_ONLY_CURRENT_FAMILY",
+    "OpeningFixturesRequired": 39,
+    "DefinitionFixturesRequired": 29,
+    "FatalFixtureMutationCountRequired": 0,
+    "DeterminismMismatchesRequired": 0,
+    "Rollback": "Discard staged responses and restore the pristine snapshot on any fatal result, mutation, hash mismatch, or nondeterminism.",
+    "OwnerGate": [
+      "Validation",
+      "Registry",
+      "CampaignDataArchitecture"
+    ]
+  },
+  "StaticCheckResults": {
+    "ManifestIdentityMatchesHandoff": "PASS",
+    "AuthorityChainCurrent": "PASS",
+    "OpeningStateCountsAligned": "PASS",
+    "MachineSnapshotCardinality": "PASS",
+    "CurrentAndPredecessorEvidenceSeparated": "PASS",
+    "ValidationClaimsBounded": "PASS",
+    "PromotionBoundaryPreserved": "PASS",
+    "FatalIssues": 0,
+    "Warnings": 0,
+    "Overall": "PASS_STATIC_ONLY"
+  },
+  "NextAction": "Execute the immutable-bundle validate-only gate and create Seville_Taifa_Opening_State_1062_V1_Importer_Validation_Report.md from actual results only."
+}

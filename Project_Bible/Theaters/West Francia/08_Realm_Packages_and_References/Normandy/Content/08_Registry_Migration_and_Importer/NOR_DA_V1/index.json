@@ -1,0 +1,147 @@
+{
+  "Name": "NOR_DA_V1",
+  "Version": "1.0.0",
+  "Source": "NOR_UE58_Handoff_V1.md",
+  "JSONDrafts": 26,
+  "BinaryAssets": 0,
+  "UnrealImport": false,
+  "CompileValidated": false,
+  "RuntimeValidated": false,
+  "Files": [
+    {
+      "p": "A01.json",
+      "b": 671,
+      "h": "8A31DB21837A852AB5C32D1B071213EEAE0E71B8C512125F88BA07A25F4663AD"
+    },
+    {
+      "p": "A02.json",
+      "b": 674,
+      "h": "79DD6E08D0472E0ADB07D053B97A705DF1118FFCD8DC3086286E47413811543C"
+    },
+    {
+      "p": "A03.json",
+      "b": 671,
+      "h": "88BDF96AB1F09652625BE38D568D7C542EB2EEAD3DA265FC22BA675823E277A6"
+    },
+    {
+      "p": "A04.json",
+      "b": 671,
+      "h": "4122C5E30B3C01BF8B1324530D19018FC72BB7F608999A0680439F26F5DB2B74"
+    },
+    {
+      "p": "A05.json",
+      "b": 662,
+      "h": "CA42FA98E7A0B82206CC14E42CA31F21BCE4B766768879401C10CA88E8B7B7C0"
+    },
+    {
+      "p": "A06.json",
+      "b": 668,
+      "h": "5D80CC6A8B4B222C0F9280A9F5DEF8F2BFCAFF0F177E493544102074A0EFC75D"
+    },
+    {
+      "p": "A07.json",
+      "b": 671,
+      "h": "A9984A29F9419DFDDE6D647E115ECFA0E252B0F610F85FCDE20AB9D096137946"
+    },
+    {
+      "p": "A08.json",
+      "b": 677,
+      "h": "5FFD300421A785BE497816A39CA965ADEE1643265329BE39A14B416B07AFA685"
+    },
+    {
+      "p": "A09.json",
+      "b": 668,
+      "h": "99329CCAED28C797E43031D9C9643BC1F030AD112A32F44C73D33F661463B13E"
+    },
+    {
+      "p": "A10.json",
+      "b": 680,
+      "h": "587B8C403654710310F95B13F2AEC3BDC11292C0D08DEC26B6C07345B97815CC"
+    },
+    {
+      "p": "A11.json",
+      "b": 659,
+      "h": "8A3A548E582A130D1BB72368C86B5F477821B7E8DBF02D6375D2784E542E95DD"
+    },
+    {
+      "p": "A12.json",
+      "b": 668,
+      "h": "46E105A1B1400B573E02494D409E0D943DBD145C330E30913A476B606DB1B436"
+    },
+    {
+      "p": "A13.json",
+      "b": 677,
+      "h": "EB5FBA91446BB13DF674021FCE24D50815FF75F36AEAC3BB082F1B6E8A1F7BC0"
+    },
+    {
+      "p": "A14.json",
+      "b": 671,
+      "h": "038AFE5A2EF669B040EAA45E6EDCA17CA9427BE29CC2D5413B18A0CB8CCA6604"
+    },
+    {
+      "p": "A15.json",
+      "b": 668,
+      "h": "26CD2E9B9027B7975ACA221EC78F0F29E9095BF23ABC2BFFB0548C6D2C5E31C7"
+    },
+    {
+      "p": "A16.json",
+      "b": 683,
+      "h": "1D7DB43E144264BC4A310AA8826741A953F609DF8FE82348EA4E948A8E635015"
+    },
+    {
+      "p": "A17.json",
+      "b": 686,
+      "h": "5EC5F6B579D7D2969514A85B77D352FBDB00AF9B90065F65A3E439012AF0A731"
+    },
+    {
+      "p": "A18.json",
+      "b": 692,
+      "h": "02D5CC11B97D4A5F5ABE1F56F3E650905F9280E3A82D661861BC7707B54D755A"
+    },
+    {
+      "p": "A19.json",
+      "b": 695,
+      "h": "FAD0EBB86EBA678900BEA3A178BBC890EA9C8D1F8B8AC213D9A31CC00F4E30A2"
+    },
+    {
+      "p": "A20.json",
+      "b": 680,
+      "h": "E362EB20AE5D217357BC306ECFD9C01D89F63C4D4E7C54F8EFB169C64E2560EF"
+    },
+    {
+      "p": "A21.json",
+      "b": 686,
+      "h": "DFCBCEC43F1F8162C31B045691A03147D3F88E6705608DA8F154C3B25330294B"
+    },
+    {
+      "p": "A22.json",
+      "b": 689,
+      "h": "78C5A2B8D89B03AB253D6F75A2FA2942840C2576767D65C136704143A45CB297"
+    },
+    {
+      "p": "A23.json",
+      "b": 671,
+      "h": "1AB71ED1C4EBA8B777872D1ECA365E03ACC2A2F7043E7292DAF5BB76624E91AC"
+    },
+    {
+      "p": "A24.json",
+      "b": 683,
+      "h": "17741DAFEF5C5680DE794899CA09F6E63FB9DA0517DD4370DD528211FDD0217F"
+    },
+    {
+      "p": "A25.json",
+      "b": 656,
+      "h": "F9E2330EE3090A7DE9569F5067F105043AD490BD2A266ECBE5799C3EA78E95F0"
+    },
+    {
+      "p": "A26.json",
+      "b": 668,
+      "h": "8C6C34CB09C61D98B355202276DF282E37920512068226E0B171D4209EDD242C"
+    },
+    {
+      "p": "README.md",
+      "b": 269,
+      "h": "A4169EDE0BBB645554A2B46E632D53D0B0D5DC9D0F4CFB5E8882528278AC35B1"
+    }
+  ]
+}

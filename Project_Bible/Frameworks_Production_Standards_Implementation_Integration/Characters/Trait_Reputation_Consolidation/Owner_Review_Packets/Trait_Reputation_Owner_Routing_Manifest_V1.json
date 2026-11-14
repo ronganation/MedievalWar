@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationOwnerRoutingManifest",
+    "name": "Trait Reputation Owner Routing Manifest V1",
+    "version": "1.2",
+    "status": "AllElevenStaticDecisionsMerged",
+    "authority_class": "Owner Review Dispatch Manifest"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Frameworks/Characters/Trait_Reputation_Consolidation/Owner_Review_Packets",
+    "master_manifest_file": "Trait_Reputation_Owner_Routing_Manifest_V1.json",
+    "bundle_file": "Trait_Reputation_Owner_Review_Routing_Package_V1.zip"
+  },
+  "source_submission": {
+    "file": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+    "sha256": "68d4f5ac33a69e25ca07ed2e0b11130e33994f9a195df7617b02083678887b60",
+    "owner_groups": 11,
+    "entries": 86
+  },
+  "routing_scope": {
+    "route_count": 11,
+    "packet_count": 11,
+    "entry_reference_count": 86,
+    "external_delivery_capability": "NotAvailable",
+    "routing_claim": "Repository-ready owner-specific packets were generated. No external message, workflow, approval, or owner decision was executed.",
+    "decided_route_count": 11,
+    "blocked_route_count": 0,
+    "resolved_entry_reference_count": 86,
+    "blocked_entry_reference_count": 0
+  },
+  "routes": [
+    {
+      "route_id": "trait-reputation.owner-route.001.v1",
+      "owner_group_id": "trait-reputation.owner-group.001",
+      "requested_destination_authority": "Character Archetype",
+      "entry_count": 10,
+      "packet_file": "01_Character_Archetype_Owner_Review_Packet_V1.json",
+      "packet_sha256": "aa40e7fa4e5d63d1b5b77d65600796b798f497257a3b1d455cd083d4802ebfc1",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "AcceptAsRouted",
+      "mutation_permitted": false
+    },
+    {
+      "route_id": "trait-reputation.owner-route.002.v1",
+      "owner_group_id": "trait-reputation.owner-group.002",
+      "requested_destination_authority": "Character Development",
+      "entry_count": 2,
+      "packet_file": "02_Character_Development_Owner_Review_Packet_V1.json",
+      "packet_sha256": "777e824a0a8657886365d3a09c19dee5be807c4fc039a050c8cde0cbfbb4eb8f",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "AcceptAsRouted",
+      "mutation_permitted": false
+    },
+    {
+      "route_id": "trait-reputation.owner-route.003.v1",
+      "owner_group_id": "trait-reputation.owner-group.003",
+      "requested_destination_authority": "Character Foundation health-state boundary; catalogue definition remains legacy pending Trait consolidation",
+      "entry_count": 6,
+      "packet_file": "03_Character_Foundation_health_state_boundary_catalogue_definition_remains_legacy_pending_Tra_Owner_Review_Packet_V1.json",
+      "packet_sha256": "779608b66ba6549cf81a0a7629fb31e6349d0cf3cf9daab8bdd366f2c9ebf7a1",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "AcceptWithChanges",
+      "mutation_permitted": false
+    },
+    {
+      "route_id": "trait-reputation.owner-route.004.v1",
+      "owner_group_id": "trait-reputation.owner-group.004",
+      "requested_destination_authority": "Character Network",
+      "entry_count": 2,
+      "packet_file": "04_Character_Network_Owner_Review_Packet_V1.json",
+      "packet_sha256": "b48660fcfb644d9dfc8414d7d7a461ef2d7c769c224d1547dbf767210031442d",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "AcceptAsRouted",
+      "mutation_permitted": false
+    },
+    {
+      "route_id": "trait-reputation.owner-route.005.v1",
+      "owner_group_id": "trait-reputation.owner-group.005",
+      "requested_destination_authority": "Existing office, governance, or revenue-administration owner",
+      "entry_count": 1,
+      "packet_file": "05_Existing_office_governance_or_revenue_administration_owner_Owner_Review_Packet_V1.json",
+      "packet_sha256": "71dd0c4ebe24023e62506db5ae3e13ff1a6b574f0d63cf8cb7ba8e6b4fde2716",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "AcceptWithChanges",
+      "mutation_permitted": false
+    },
+    {
+      "route_id": "trait-reputation.owner-route.006.v1",
+      "owner_group_id": "trait-reputation.owner-group.006",
+      "requested_destination_authority": "Historical Memory",
+      "entry_count": 6,
+      "packet_file": "06_Historical_Memory_Owner_Review_Packet_V1.json",
+      "packet_sha256": "a612fc59414d4c5f6ef1a887ee1ecd198b97609e70c161a1fa46b0dddd249faa",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "AcceptWithChanges",
+      "mutation_permitted": false
+    },
+    {
+      "route_id": "trait-reputation.owner-route.007.v1",
+      "owner_group_id": "trait-reputation.owner-group.007",
+      "requested_destination_authority": "Historical Memory for narrative, audience reception, later reputation, and legacy",
+      "entry_count": 9,
+      "packet_file": "07_Historical_Memory_for_narrative_audience_reception_later_reputation_and_legacy_Owner_Review_Packet_V1.json",
+      "packet_sha256": "871d6909bde1d14a2ab394249cb4e07a32e010628e2b57bfc827ed862163aae3",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "SplitAcrossNamedAuthorities",
+      "mutation_permitted": false
+    },
+    {
+      "route_id": "trait-reputation.owner-route.008.v1",
+      "owner_group_id": "trait-reputation.owner-group.008",
+      "requested_destination_authority": "Legacy Trait Catalogue pending authorized Trait/Reputation consolidation",
+      "entry_count": 42,
+      "packet_file": "08_Legacy_Trait_Catalogue_pending_authorized_Trait_Reputation_consolidation_Owner_Review_Packet_V1.json",
+      "packet_sha256": "b4bb8a9b2cc71920eafa5222262a27d8960746a226fb5febd5efbc6342b4c09a",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "AcceptWithChanges",
+      "mutation_permitted": false
+    },
+    {
+      "route_id": "trait-reputation.owner-route.009.v1",
+      "owner_group_id": "trait-reputation.owner-group.009",
+      "requested_destination_authority": "No live constitutional owner",
+      "entry_count": 1,
+      "packet_file": "09_No_live_constitutional_owner_Owner_Review_Packet_V1.json",
+      "packet_sha256": "fb10d19b8dfdd89cd54a6a9eea3106e478dca48814c26b9f0f3806b5f802e183",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "RejectOwnership",
+      "mutation_permitted": false
+    },
+    {
+      "route_id": "trait-reputation.owner-route.010.v1",
+      "owner_group_id": "trait-reputation.owner-group.010",
+      "requested_destination_authority": "No separate live owner; source provenance only",
+      "entry_count": 2,
+      "packet_file": "10_No_separate_live_owner_source_provenance_only_Owner_Review_Packet_V1.json",
+      "packet_sha256": "746a0d4c47a097ad40fa5ad14a76b034dd34c4eecac979f40c25d5632eff630f",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "AcceptWithChanges",
+      "mutation_permitted": false
+    },
+    {
+      "route_id": "trait-reputation.owner-route.011.v1",
+      "owner_group_id": "trait-reputation.owner-group.011",
+      "requested_destination_authority": "Underage Character for childhood education direction; Character Development consumes progress and milestones",
+      "entry_count": 5,
+      "packet_file": "11_Underage_Character_for_childhood_education_direction_Character_Development_consumes_progre_Owner_Review_Packet_V1.json",
+      "packet_sha256": "5393f17cf52d9b76cd864f7dc2013fb8b12b419b339efff93955f732ce3e7e2d",
+      "delivery_state": "StaticDecisionMerged",
+      "external_delivery_executed": false,
+      "decision_state": "SplitAcrossNamedAuthorities",
+      "mutation_permitted": false
+    }
+  ],
+  "mutation_audit": {
+    "ownership_decisions_recorded": 11,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "commit_attempted": false
+  },
+  "validation": {
+    "all_11_routes_present": true,
+    "all_86_entries_referenced": true,
+    "packet_hashes_recorded": true,
+    "all_delivery_states_repository_ready": true,
+    "external_delivery_executed": false,
+    "all_decisions_pending": false,
+    "all_mutations_prohibited": true,
+    "eight_static_decisions_merged": true,
+    "three_authority_blocks_preserved": false,
+    "all_86_entries_reconciled": true,
+    "all_11_static_decisions_merged": true
+  },
+  "smallest_useful_next_action": "Create Trait_Reputation_Canonical_ID_Submission_V1.json for retained Trait and Reputation definitions only, while preserving owner-specific IDs for Historical Memory, Governance, Development, Underage, Archetype, and Network records. Run a zero-mutation registry preflight before approval."
+}

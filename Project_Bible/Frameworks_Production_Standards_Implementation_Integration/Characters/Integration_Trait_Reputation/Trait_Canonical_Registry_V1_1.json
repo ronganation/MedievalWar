@@ -1,0 +1,1766 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitCanonicalRegistrySnapshot",
+    "name": "Trait Canonical Registry",
+    "version": "1.1.0",
+    "status": "CommittedCanonicalRegistry",
+    "authority_class": "Canonical Registry Snapshot",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Canonical_Registry_V1_1.json"
+  },
+  "registry": {
+    "registry_id": "trait-character.v1",
+    "namespace": "Trait.Character",
+    "record_kind": "TraitDefinition",
+    "registry_version": "1.1.0",
+    "schema_version": "1.0",
+    "owner_authority_id": "IntegrationAuthorities.Characters.TraitReputation.RegistryGovernance",
+    "previous_snapshot_file": "Trait_Canonical_Registry_V1.json",
+    "previous_snapshot_record_count": 0,
+    "commit_decision_file": "Trait_Reputation_Registry_Record_Commit_Decision_V1.json",
+    "records": [
+      {
+        "CanonicalId": "Trait.Character.CourageDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.CourageDisposition.name",
+        "DescriptionKey": "loc.trait.character.CourageDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.001",
+          "LegacyDisplayLabel": "Brave",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded courage tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.CourageDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.CowardiceDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.CowardiceDisposition.name",
+        "DescriptionKey": "loc.trait.character.CowardiceDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.002",
+          "LegacyDisplayLabel": "Cowardly",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded avoidance or fear tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.CowardiceDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.HonestyDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.HonestyDisposition.name",
+        "DescriptionKey": "loc.trait.character.HonestyDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.003",
+          "LegacyDisplayLabel": "Honest",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded truthfulness tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.HonestyDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.DeceitDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.DeceitDisposition.name",
+        "DescriptionKey": "loc.trait.character.DeceitDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.004",
+          "LegacyDisplayLabel": "Deceitful",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded deceptive tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.DeceitDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.JusticeDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.JusticeDisposition.name",
+        "DescriptionKey": "loc.trait.character.JusticeDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.005",
+          "LegacyDisplayLabel": "Just",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded justice-oriented tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.JusticeDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.CrueltyDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.CrueltyDisposition.name",
+        "DescriptionKey": "loc.trait.character.CrueltyDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.006",
+          "LegacyDisplayLabel": "Cruel",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded cruelty tendency, distinct from audience reception.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.CrueltyDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.PatienceDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.PatienceDisposition.name",
+        "DescriptionKey": "loc.trait.character.PatienceDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.007",
+          "LegacyDisplayLabel": "Patient",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded patience tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.PatienceDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.ImpulsivenessDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.ImpulsivenessDisposition.name",
+        "DescriptionKey": "loc.trait.character.ImpulsivenessDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.008",
+          "LegacyDisplayLabel": "Impulsive",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded impulsiveness tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.ImpulsivenessDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.MercyDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.MercyDisposition.name",
+        "DescriptionKey": "loc.trait.character.MercyDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.009",
+          "LegacyDisplayLabel": "Merciful",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded mercy tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.MercyDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.VengeanceDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.VengeanceDisposition.name",
+        "DescriptionKey": "loc.trait.character.VengeanceDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.010",
+          "LegacyDisplayLabel": "Vengeful",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded vengeance tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.VengeanceDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.AmbitionDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.AmbitionDisposition.name",
+        "DescriptionKey": "loc.trait.character.AmbitionDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.011",
+          "LegacyDisplayLabel": "Ambitious",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded ambition tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.AmbitionDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.ContentmentDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.ContentmentDisposition.name",
+        "DescriptionKey": "loc.trait.character.ContentmentDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.012",
+          "LegacyDisplayLabel": "Content",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded contentment tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.ContentmentDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.InspirationalDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredDisposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.InspirationalDisposition.name",
+        "DescriptionKey": "loc.trait.character.InspirationalDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.018",
+          "LegacyDisplayLabel": "Inspiring Commander",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Role-neutral persistent inspirational tendency, not commander office or role.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredDisposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.InspirationalDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.RecklessnessDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredDisposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.RecklessnessDisposition.name",
+        "DescriptionKey": "loc.trait.character.RecklessnessDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.019",
+          "LegacyDisplayLabel": "Reckless Commander",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Role-neutral persistent recklessness tendency, not commander office or role.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredDisposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.RecklessnessDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.ConstructiveDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredDisposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.ConstructiveDisposition.name",
+        "DescriptionKey": "loc.trait.character.ConstructiveDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.021",
+          "LegacyDisplayLabel": "Builder",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent constructive tendency, not office, project, or achievement reception.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredDisposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.ConstructiveDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.OrganizationDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.OrganizationDisposition.name",
+        "DescriptionKey": "loc.trait.character.OrganizationDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.022",
+          "LegacyDisplayLabel": "Organizer",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded organization tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.OrganizationDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.EfficiencyHabit",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredHabit",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.EfficiencyHabit.name",
+        "DescriptionKey": "loc.trait.character.EfficiencyHabit.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.023",
+          "LegacyDisplayLabel": "Efficient",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent work habit, not universal performance modifier.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredHabit",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.EfficiencyHabit"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.WastefulnessDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.WastefulnessDisposition.name",
+        "DescriptionKey": "loc.trait.character.WastefulnessDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.025",
+          "LegacyDisplayLabel": "Wasteful",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded wastefulness tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.WastefulnessDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.CorruptPracticeDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredDisposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.CorruptPracticeDisposition.name",
+        "DescriptionKey": "loc.trait.character.CorruptPracticeDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.026",
+          "LegacyDisplayLabel": "Corrupt",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent corrupt-practice tendency, not incident evidence or reputation.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredDisposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.CorruptPracticeDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.NeglectDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.NeglectDisposition.name",
+        "DescriptionKey": "loc.trait.character.NeglectDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.027",
+          "LegacyDisplayLabel": "Neglectful",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded neglect tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.NeglectDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.PietyDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.PietyDisposition.name",
+        "DescriptionKey": "loc.trait.character.PietyDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.028",
+          "LegacyDisplayLabel": "Pious",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded piety tendency, distinct from institutional recognition.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.PietyDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.ZealDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.ZealDisposition.name",
+        "DescriptionKey": "loc.trait.character.ZealDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.029",
+          "LegacyDisplayLabel": "Zealous",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded zeal tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.ZealDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.ToleranceDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.ToleranceDisposition.name",
+        "DescriptionKey": "loc.trait.character.ToleranceDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.032",
+          "LegacyDisplayLabel": "Tolerant",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded tolerance tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.ToleranceDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.CynicismDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.CynicismDisposition.name",
+        "DescriptionKey": "loc.trait.character.CynicismDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.033",
+          "LegacyDisplayLabel": "Cynical",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded cynicism tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.CynicismDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.FanaticalCommitmentDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredDisposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.FanaticalCommitmentDisposition.name",
+        "DescriptionKey": "loc.trait.character.FanaticalCommitmentDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.034",
+          "LegacyDisplayLabel": "Fanatic",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Extreme persistent commitment tendency, not deterministic conduct.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredDisposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.FanaticalCommitmentDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.StrategicDeceptionDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredDisposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.StrategicDeceptionDisposition.name",
+        "DescriptionKey": "loc.trait.character.StrategicDeceptionDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.038",
+          "LegacyDisplayLabel": "Schemer",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent strategic deception tendency, not active plot state.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredDisposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.StrategicDeceptionDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.ManipulationDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredDisposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.ManipulationDisposition.name",
+        "DescriptionKey": "loc.trait.character.ManipulationDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.039",
+          "LegacyDisplayLabel": "Manipulator",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent manipulation tendency, not Network access or influence state.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredDisposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.ManipulationDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.OpportunismDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.OpportunismDisposition.name",
+        "DescriptionKey": "loc.trait.character.OpportunismDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.040",
+          "LegacyDisplayLabel": "Opportunist",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded opportunism tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.OpportunismDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.CommercialDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.CommercialDisposition.name",
+        "DescriptionKey": "loc.trait.character.CommercialDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.042",
+          "LegacyDisplayLabel": "Merchant Minded",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded commercial tendency, not office or trade ownership.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.CommercialDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.FrugalityDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.FrugalityDisposition.name",
+        "DescriptionKey": "loc.trait.character.FrugalityDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.044",
+          "LegacyDisplayLabel": "Frugal",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded frugality tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.FrugalityDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.GreedDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.GreedDisposition.name",
+        "DescriptionKey": "loc.trait.character.GreedDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.045",
+          "LegacyDisplayLabel": "Greedy",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded greed tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.GreedDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.HuntingDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.HuntingDisposition.name",
+        "DescriptionKey": "loc.trait.character.HuntingDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.047",
+          "LegacyDisplayLabel": "Hunter",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded hunting-oriented tendency, not equipment or office.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.HuntingDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.FalconryDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.FalconryDisposition.name",
+        "DescriptionKey": "loc.trait.character.FalconryDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.048",
+          "LegacyDisplayLabel": "Falconer",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded falconry-oriented tendency, not possession state.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.FalconryDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.HeavyDrinkingHabit",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredHabit",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.HeavyDrinkingHabit.name",
+        "DescriptionKey": "loc.trait.character.HeavyDrinkingHabit.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.049",
+          "LegacyDisplayLabel": "Heavy Drinker",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent consumption habit, not current health or diplomacy state.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredHabit",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.HeavyDrinkingHabit"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.GamblingDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "Disposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.GamblingDisposition.name",
+        "DescriptionKey": "loc.trait.character.GamblingDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.050",
+          "LegacyDisplayLabel": "Gambler",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent bounded gambling tendency.",
+        "TraitFamilyId": "TraitFamily.Character.Disposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.GamblingDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.GluttonyHabit",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredHabit",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.GluttonyHabit.name",
+        "DescriptionKey": "loc.trait.character.GluttonyHabit.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.051",
+          "LegacyDisplayLabel": "Glutton",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Persistent consumption habit, not current health or popularity state.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredHabit",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.GluttonyHabit"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Trait.Character.LiteraryDisposition",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "RefactoredDisposition",
+        "OwningSystemId": "TraitAuthority.Character",
+        "DisplayKey": "loc.trait.character.LiteraryDisposition.name",
+        "DescriptionKey": "loc.trait.character.LiteraryDisposition.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.052",
+          "LegacyDisplayLabel": "Poet",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Learned literary characteristic, not office, archetype, or reputation.",
+        "TraitFamilyId": "TraitFamily.Character.RefactoredDisposition",
+        "AcquisitionEvidenceTypes": [
+          "AuthorizedScenarioEvidence",
+          "AuthorizedRuntimeEvidence"
+        ],
+        "RemovalConditions": [
+          "OwnerValidatedRemovalCondition"
+        ],
+        "PersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "VisibilityPolicy": "InformationPathRequired",
+        "ConsumerPermissions": [
+          "AuthorizedReadModelOnly"
+        ],
+        "StrategicEffectBindings": [],
+        "AIReasonTags": [
+          "TraitReason.LiteraryDisposition"
+        ],
+        "MutualExclusionSetIds": [],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "TraitIsNotDestiny",
+          "NoOfficeTitleHealthDevelopmentNetworkOrReputationOwnership"
+        ],
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      }
+    ],
+    "record_count": 37,
+    "deprecated_ids": [],
+    "deprecated_id_count": 0,
+    "direct_aliases": [],
+    "direct_alias_count": 0,
+    "quarantine": [],
+    "quarantine_count": 0
+  },
+  "write_policy": {
+    "future_record_write_requires_versioned_registry_decision": true,
+    "direct_alias_only": true,
+    "alias_chains_prohibited": true,
+    "deprecated_id_write_prohibited": true,
+    "display_name_matching_prohibited": true,
+    "filename_matching_prohibited": true,
+    "runtime_write_prohibited": true,
+    "save_write_prohibited": true
+  },
+  "run": {
+    "mode": "AuthoritativeRegistryCommit",
+    "execution_status": "Completed",
+    "verdict": "PassRegistrySnapshotCommitted",
+    "records_committed": 37,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "validation": {
+    "all_ids_unique": true,
+    "all_source_ids_unique": true,
+    "grammar_valid": true,
+    "mutable_runtime_state_absent": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_executed": false
+  }
+}

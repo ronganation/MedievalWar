@@ -1,0 +1,28 @@
+{
+  "document": "France_Opening_State_1062_V3_Developed_Realm_Parity_Authority.md",
+  "passed": true,
+  "checks": {
+    "source_exists": true,
+    "complete_source_embedded": true,
+    "all_source_headings_retained": true,
+    "successor_larger": true,
+    "historical_v3": true,
+    "britannia_benchmarks": true,
+    "west_francia_five_realms": true,
+    "atomic_commit": true,
+    "rollback": true,
+    "typed_bundles": true,
+    "three_track": true,
+    "no_escapes": true,
+    "no_em_dash": true,
+    "removal_zero": true,
+    "stable_footer": true,
+    "end_marker": true
+  },
+  "missing_source_headings": [],
+  "source_lines": 1296,
+  "successor_lines": 1982,
+  "source_bytes": 39694,
+  "successor_bytes": 65550,
+  "validation_scope": "Static content and parity checks only; no Registry mutation, Opening State activation, importer, compile, runtime, save-load, migration execution, replay, performance, battle, Unreal mutation, real payload, or physical promotion."
+}

@@ -1,0 +1,29 @@
+{
+  "FileName": "Sweden_Claims_Titles_and_Offices_Setup_V1_2_Current_Authority_Refinement_FULL.md",
+  "Version": "1.2.0",
+  "Status": "Static-Checked Current Authority Refinement with Controlled Dependencies",
+  "SHA256": "7581BFE44FEB410E1A965FB18147499FF67355A371C369B21BC61CAAC212EDCB",
+  "Bytes": 47252,
+  "Lines": 926,
+  "SourceFile": "Sweden_Claims_Titles_and_Offices_Setup_V1_1_FULL.md",
+  "SourceSHA256": "61BE40D2E4BBBABC08C8C667D198ED3554EB5B57FCF38B85C4554435AFE4A3C2",
+  "SourceManifest": "Sweden_Claims_Titles_and_Offices_Setup_V1_1_Manifest.json",
+  "SourceManifestSHA256": "CB0924D100787DB779DCE728165643C3949F7C9D1D2D8831683580ED00E72A21",
+  "CoordinatingAuthority": "Sweden_Crown_Claims_Titles_Offices_and_Succession_Authority_V1_1_FULL.md",
+  "CoordinatingAuthoritySHA256": "6E10B5398B9C6A983B294783C9CA6D8B2BDD613A8FEAC1D6753DC5604E26945D",
+  "Checks": {
+    "copy_first": true,
+    "continuous_sections_1_78": true,
+    "authority_roles_separated": true,
+    "opening_claims_safe": true,
+    "three_track": true,
+    "ue58": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "honest_validation": true
+  },
+  "OpeningStateModified": false,
+  "RegistryModified": false,
+  "PhysicalPromotionCompleted": false
+}

@@ -1,0 +1,13 @@
+Order,EvidenceArtifact,RequiredContent
+1,ENTRANCE_GATE_REPORT.csv,Accepted FRANCE-IMP-07B receipt status and source-hash verification
+2,AUTHORITY_IDENTITY_LOCK_REPORT.csv,All France and shared-framework authority identifiers paths bytes and hashes where available
+3,AUTOMATION_FILTER_DISCOVERY.csv,Discovered filter candidates counts and required-or-not-required disposition before mutation
+4,TARGET_COLLISION_REPORT.csv,All six 08B paths proven absent before installation
+5,PREDECESSOR_SOURCE_BASELINE.csv,Hashes for every accepted France implementation source file
+6,INSTALLED_SOURCE_MANIFEST.csv,Relative path bytes and SHA256 for exactly six 08B files
+7,BUILD_LOG.txt,Unreal Engine 5.8 MedievalWarEditor Win64 Development result
+8,AUTOMATION_SUMMARY.csv,Filter expected total failed and accepted fields
+9,BOUNDARY_VALIDATION_REPORT.csv,No prohibited mutation or activation detected
+10,EXECUTION_RECEIPT.json,Final status counts validation boundaries and evidence path
+11,EVIDENCE_MANIFEST.csv,Relative path bytes and SHA256 for every completed evidence artifact
+12,ROLLBACK_VERIFICATION.csv if needed,All six 08B paths absent and predecessor hashes unchanged

@@ -1,0 +1,15 @@
+{
+  "FileName": "Shared_Save_Source_Lineage_and_Ambiguity_Audit_V1.md",
+  "SHA256": "9EADC951D3A937760ACC7C7621E423DD7531C52308084BADE8234F19DA118A78",
+  "Bytes": 6647,
+  "Lines": 196,
+  "Checks": {
+    "ambiguity": true,
+    "schema": true,
+    "owner": true,
+    "not_complete": true,
+    "fences": true,
+    "literal": true,
+    "footer": true
+  }
+}

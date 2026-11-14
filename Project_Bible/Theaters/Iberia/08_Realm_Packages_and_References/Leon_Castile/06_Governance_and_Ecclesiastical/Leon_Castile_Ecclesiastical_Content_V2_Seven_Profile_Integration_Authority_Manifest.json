@@ -1,0 +1,28 @@
+{
+  "document_id": "Manifest.EcclesiasticalContent.Realm.LeonCastile.V2",
+  "authority_file": "Leon_Castile_Ecclesiastical_Content_V2_Seven_Profile_Integration_Authority.md",
+  "version": "2.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/Core_Authorities",
+  "bytes": 80947,
+  "physical_lines": 2054,
+  "words": 6425,
+  "sha256": "4A1EBDD783489B95AD77D5EB0BD1DE07E201DD21EFC76D3F8190E23B3A28A9C1",
+  "fence_count": 198,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "source_sections_check_present": true,
+  "source_retrieved_lines": 1713,
+  "status": "StaticCheckedCopyFirstSevenProfileIntegratedSuccessorReviewOnly",
+  "next_file": "Leon_Castile_Historical_Memory_V2_Seven_Profile_Integrated_Authority.md",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "all_checks_pass": true
+}

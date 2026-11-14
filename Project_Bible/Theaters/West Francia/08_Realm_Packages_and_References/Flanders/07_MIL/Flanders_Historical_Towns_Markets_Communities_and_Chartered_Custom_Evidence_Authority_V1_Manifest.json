@@ -1,0 +1,22 @@
+{
+  "artifact": "Flanders_Historical_Towns_Markets_Communities_and_Chartered_Custom_Evidence_Authority_V1.md",
+  "version": "1.0.0",
+  "sha256": "eb11b2bcf5168d7caa3653b07d1c7f05cda8ada1e2fe4b7ba8516d9b93116d72",
+  "bytes": 42168,
+  "lines": 877,
+  "immediate_substantive_source": "Flanders_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+  "source_lines_reviewed": 1199,
+  "source_treatment": "CompleteSectionBySectionSubstantiveCarryForwardWithIntegratedSpecialistExpansion",
+  "town_portfolios": 9,
+  "substantive_removals": [],
+  "source_files_modified": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "town_market_activations": 0,
+  "charter_custom_activations": 0,
+  "population_activations": 0,
+  "Unreal_mutations": 0,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "next_file": "Flanders_Historical_Rural_Estates_Agriculture_Water_Management_and_Resource_Evidence_Authority_V1.md"
+}

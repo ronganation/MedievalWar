@@ -1,0 +1,30 @@
+{
+  "document": "Holland_Dirk_V_Character_Authority_V1_2_Mature_Double_Checked.md",
+  "sha256": "94f1c74710e1e580e441ab73ebfa3b258372848b693b0ea79e29bdef37dfb925",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_47": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_hash_matches": true,
+    "predecessor_static_passed": true,
+    "opening_boundary": true,
+    "evidence_register": true,
+    "typed_roles": true,
+    "formation_readiness": true,
+    "knowledge": true,
+    "access": true,
+    "personality": true,
+    "directed_network": true,
+    "adult_paths": true,
+    "ai": true,
+    "player_contract": true,
+    "candidate_contract": true,
+    "validation_catalogue": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "active_no_citation_tokens": true
+  },
+  "pass": true
+}

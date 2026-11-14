@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationRegistryRecordStagingManifest",
+    "name": "Trait Reputation Registry Record Staging Manifest V1",
+    "version": "1.0",
+    "status": "All46RecordsAndMappingsStaged_CommitPending",
+    "authority_class": "Registry Staging Manifest"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+  },
+  "staging_outputs": [
+    {
+      "file": "Trait_Canonical_Registry_V1_1.staging.json",
+      "record_count": 37
+    },
+    {
+      "file": "Reputation_Dimension_Registry_V1_1.staging.json",
+      "record_count": 9
+    },
+    {
+      "file": "Trait_Reputation_Direct_Migration_Map_V1.staging.json",
+      "mapping_count": 46
+    },
+    {
+      "file": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.preflight.json",
+      "verdict": "PassStagingValidation_AuthoritativeCommitRequiresSeparateDecision"
+    }
+  ],
+  "count_contract": {
+    "trait_records_staged": 37,
+    "reputation_records_staged": 9,
+    "total_records_staged": 46,
+    "direct_mappings_staged": 46,
+    "records_committed": 0,
+    "mappings_executed": 0,
+    "reconciliation": "Pass"
+  },
+  "run": {
+    "mode": "RegistryRecordStagingManifest",
+    "verdict": "PassStagingComplete_CommitPending",
+    "registry_mutations": 0,
+    "migration_writes": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "smallest_useful_next_action": "Review and approve the staged version 1.1 registry records and 46 staged direct mappings as an authoritative registry commit. If approved, create committed Trait_Canonical_Registry_V1_1.json, Reputation_Dimension_Registry_V1_1.json, and Trait_Reputation_Direct_Migration_Map_V1.json while keeping content, runtime, and save migration execution separately locked."
+}

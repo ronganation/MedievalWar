@@ -1,0 +1,470 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationContentSaveMigrationDryRunContract",
+    "name": "Trait Reputation Content and Save Migration Dry Run Contract V1",
+    "version": "1.0",
+    "status": "PreparedForRepositoryInventory_MigrationExecutionLocked",
+    "authority_class": "Content and Save Migration Dry Run Contract",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Content_and_Save_Migration_Dry_Run_Contract_V1.json"
+  },
+  "purpose": "Define the exact zero-mutation discovery, compatibility, conversion, save, rollback, determinism, and validation gates required before any legacy Trait or Reputation content is rewritten or any save is migrated.",
+  "authority_bindings": [
+    {
+      "file": "Trait_Canonical_Registry_V1_1.json",
+      "sha256": "eedb7785f20507abae7e1789b4cc36a385db0411b98870513ba14275fed3cc7b",
+      "expected_record_count": 37,
+      "role": "CommittedTraitRegistry"
+    },
+    {
+      "file": "Reputation_Dimension_Registry_V1_1.json",
+      "sha256": "f390b72714e348184047f306b4c3d148abdf4c3308b81bbc14aa67743bd8fafe",
+      "expected_record_count": 9,
+      "role": "CommittedReputationRegistry"
+    },
+    {
+      "file": "Trait_Reputation_Direct_Migration_Map_V1.json",
+      "sha256": "c09dd7f58f01d8b1b606e2e9f6aaba28a744ca990d03a55111e868e7f650f7ab",
+      "expected_mapping_count": 46,
+      "role": "CommittedDirectMigrationMap"
+    },
+    {
+      "file": "Trait_Reputation_Registry_Record_Commit_Decision_V1.json",
+      "sha256": "9470150e60bed869ae8d5e4b26506beef24854709d6a05270c370af7016cfc5d",
+      "role": "RegistryCommitAuthority"
+    },
+    {
+      "file": "Trait_Reputation_Registry_Commit_Manifest_V1.preflight.json",
+      "sha256": "1550eab7714e03c858037d381dea96e0036de7eb553e9c207ad2370cf9763cd2",
+      "role": "RegistryCommitVerification"
+    },
+    {
+      "file": "Character_Trait_Library_Source_Inventory_V1.json",
+      "expected_entry_count": 86,
+      "role": "LegacySourceInventory"
+    }
+  ],
+  "scope": {
+    "committed_trait_definitions": 37,
+    "committed_reputation_dimensions": 9,
+    "committed_direct_mappings": 46,
+    "excluded_quirks": 5,
+    "owner_specific_or_archive_entries": 35,
+    "legacy_total": 86,
+    "migration_execution_authorized": false
+  },
+  "repository_inventory_contract": {
+    "search_roots": [
+      "Source",
+      "Content",
+      "Config",
+      "Plugins",
+      "Project_Bible",
+      "Tests",
+      "SavedFixtures",
+      "MigrationFixtures"
+    ],
+    "content_types": [
+      "Markdown",
+      "JSON",
+      "YAML",
+      "CSV",
+      "DataTable",
+      "DataAsset",
+      "C++ header",
+      "C++ source",
+      "Blueprint text export",
+      "Config",
+      "Test fixture",
+      "Opening State",
+      "Scenario",
+      "Profile",
+      "Save schema",
+      "Save fixture",
+      "Localization",
+      "Generated index"
+    ],
+    "required_search_tokens": [
+      "Character Trait Library",
+      "LegacyTraits",
+      "LegacyReputation",
+      "TraitId",
+      "TraitIds",
+      "TraitTag",
+      "TraitGroup",
+      "CharacterModifier",
+      "Reputation",
+      "Epithet",
+      "Quirk",
+      "OfficeTrait",
+      "TitleTrait",
+      "HealthTrait",
+      "EducationTrait",
+      "LifestyleTrait",
+      "ReligiousTrait",
+      "PoliticalTrait",
+      "MilitaryTrait",
+      "AdministrativeTrait",
+      "DiplomaticTrait",
+      "IntrigueTrait",
+      "LearningTrait",
+      "LogisticsTrait",
+      "LegacyDisplayLabel"
+    ],
+    "required_result_fields": [
+      "InventoryRecordId",
+      "FilePath",
+      "ContentType",
+      "LineOrRecordLocation",
+      "SymbolOrField",
+      "ObservedValue",
+      "ReaderOrWriter",
+      "OwningSystem",
+      "ScenarioOrSaveVersion",
+      "SourceHash",
+      "ProposedMapping",
+      "Disposition",
+      "Risk",
+      "ReviewStatus"
+    ],
+    "full_repository_search_required": true,
+    "filesystem_enumeration_order_must_not_affect_output": true
+  },
+  "reader_writer_inventory": [
+    {
+      "inventory_class": "LegacyTraitReaders",
+      "required": true,
+      "examples": [
+        "AI evaluation",
+        "UI display",
+        "event conditions",
+        "eligibility checks",
+        "scenario loading",
+        "profile loading",
+        "save loading",
+        "analytics or traces"
+      ],
+      "status": "NotExecuted"
+    },
+    {
+      "inventory_class": "LegacyTraitWriters",
+      "required": true,
+      "examples": [
+        "scenario authoring",
+        "runtime commands",
+        "events",
+        "Blueprint mutations",
+        "save serialization",
+        "migration tools"
+      ],
+      "status": "NotExecuted"
+    },
+    {
+      "inventory_class": "LegacyReputationReaders",
+      "required": true,
+      "examples": [
+        "AI audience evaluation",
+        "epithet presentation",
+        "diplomacy UI",
+        "event conditions",
+        "historical display",
+        "save loading"
+      ],
+      "status": "NotExecuted"
+    },
+    {
+      "inventory_class": "LegacyReputationWriters",
+      "required": true,
+      "examples": [
+        "runtime reception updates",
+        "narrative adoption",
+        "scenario defaults",
+        "save serialization",
+        "migration tools"
+      ],
+      "status": "NotExecuted"
+    },
+    {
+      "inventory_class": "OpeningStateAndScenarioFields",
+      "required": true,
+      "examples": [
+        "starting traits",
+        "starting evidence",
+        "starting audience reception",
+        "later outcomes incorrectly authored as opening facts"
+      ],
+      "status": "NotExecuted"
+    },
+    {
+      "inventory_class": "DataTablesDataAssetsAndBlueprints",
+      "required": true,
+      "examples": [
+        "row structs",
+        "asset references",
+        "Blueprint variables",
+        "Gameplay Tags",
+        "soft object paths"
+      ],
+      "status": "NotExecuted"
+    },
+    {
+      "inventory_class": "CppAndSubsystemSymbols",
+      "required": true,
+      "examples": [
+        "structs",
+        "enums",
+        "subsystems",
+        "commands",
+        "events",
+        "validators",
+        "serializers"
+      ],
+      "status": "NotExecuted"
+    },
+    {
+      "inventory_class": "ProfilesAIUiLocalization",
+      "required": true,
+      "examples": [
+        "character profiles",
+        "AI reason models",
+        "tooltips",
+        "epithet text",
+        "localization keys"
+      ],
+      "status": "NotExecuted"
+    },
+    {
+      "inventory_class": "SaveFieldsAndVersions",
+      "required": true,
+      "examples": [
+        "legacy trait arrays",
+        "legacy reputation fields",
+        "save version dispatch",
+        "fixture saves",
+        "advanced campaign state"
+      ],
+      "status": "NotExecuted"
+    }
+  ],
+  "conversion_rules": {
+    "direct_mapping_only": true,
+    "mapping_source": "Trait_Reputation_Direct_Migration_Map_V1.json",
+    "unknown_ids": "QuarantineAndFailSafelyWhenMandatory",
+    "ambiguous_values": "Quarantine_NoGuessing",
+    "excluded_quirks": "PreserveAsPresentationOrArchiveEvidence_NoCanonicalTraitMigration",
+    "owner_specific_entries": "RouteToOwningSubsystem_NoTraitReputationDuplication",
+    "advanced_save_state": "Preserve",
+    "source_content": "NeverModifyDuringDryRun",
+    "source_save": "NeverModify",
+    "opening_state_defaults": "NeverReapplyToAdvancedSave",
+    "historical_outcomes": "NeverCreateFromOpeningState",
+    "runtime_state_creation": "ProhibitedDuringDryRun",
+    "idempotence": "Required",
+    "rollback": "RequiredBeforeApplyAuthorization"
+  },
+  "save_migration_contract": {
+    "required_inputs": [
+      "Legacy save version",
+      "Target save version",
+      "Committed registry versions",
+      "Committed mapping version",
+      "Source save hash",
+      "Scenario ID",
+      "Campaign turn or date",
+      "Advanced state markers"
+    ],
+    "required_outputs": [
+      "Unchanged source hash",
+      "Proposed converted state",
+      "Quarantine records",
+      "Diagnostics",
+      "Normalized output hash",
+      "Rollback manifest",
+      "Migration provenance"
+    ],
+    "preserve": [
+      "person identity",
+      "offices",
+      "titles",
+      "claims",
+      "relationships",
+      "dynasty and household state",
+      "institutions",
+      "armies",
+      "territory",
+      "laws",
+      "advanced Trait state where mapped",
+      "audience-specific Reputation evidence and state where authorized"
+    ],
+    "reject": [
+      "Opening State overwrite",
+      "display-name ID matching",
+      "filename ID matching",
+      "alias chains",
+      "deprecated target IDs",
+      "universal reputation defaults",
+      "unknown converted to zero",
+      "historical narrative converted to fact"
+    ],
+    "version_dispatch_required": true,
+    "source_save_immutable": true
+  },
+  "determinism_contract": {
+    "equal_inputs_produce_equal_outputs": true,
+    "inputs": [
+      "source content or save bytes",
+      "source hash",
+      "source version",
+      "target version",
+      "registry versions",
+      "mapping version",
+      "scenario state",
+      "visibility inputs",
+      "seed"
+    ],
+    "outputs": [
+      "inventory ordering",
+      "mapping results",
+      "quarantine membership",
+      "diagnostic ordering",
+      "normalized proposed output hash",
+      "rollback manifest"
+    ],
+    "stable_ordering": [
+      "SourceFilePath",
+      "SourceLocation",
+      "SourceEntryId",
+      "TargetCanonicalId",
+      "DiagnosticCode"
+    ],
+    "prohibited_dependencies": [
+      "filesystem enumeration order",
+      "unordered map iteration",
+      "object address",
+      "thread completion order",
+      "frame timing",
+      "wall clock time",
+      "localized text",
+      "unseeded randomness"
+    ]
+  },
+  "performance_contract": {
+    "no_per_frame_full_repository_or_all_character_scan": true,
+    "migration_runs_offline_or_headless": true,
+    "bounded_fixture_sets_required": true,
+    "dirty_or_changed_content_only_after_baseline": true,
+    "lightweight_characters_remain_lightweight": true
+  },
+  "required_dry_run_outputs": [
+    "Trait_Reputation_Legacy_Reader_Writer_Inventory_V1.json",
+    "Trait_Reputation_Content_Migration_Dry_Run_Result_V1.json",
+    "Trait_Reputation_Save_Migration_Dry_Run_Result_V1.json",
+    "Trait_Reputation_Migration_Quarantine_V1.json",
+    "Trait_Reputation_Migration_Rollback_Manifest_V1.json",
+    "Trait_Reputation_Migration_Determinism_Replay_V1.json"
+  ],
+  "gate_sequence": [
+    {
+      "gate": "A_RepositoryInventory",
+      "status": "Pending",
+      "requires": [
+        "complete reader/writer inventory",
+        "source hashes",
+        "exact symbols and fields"
+      ]
+    },
+    {
+      "gate": "B_ContentMappingDryRun",
+      "status": "Pending",
+      "requires": [
+        "all observed legacy values classified",
+        "46 direct mappings applied in memory only",
+        "quirks and wrong-owner values handled"
+      ]
+    },
+    {
+      "gate": "C_SaveSchemaDryRun",
+      "status": "Pending",
+      "requires": [
+        "legacy save fixtures",
+        "version dispatch",
+        "source immutability",
+        "advanced state preservation"
+      ]
+    },
+    {
+      "gate": "D_QuarantineAndRollback",
+      "status": "Pending",
+      "requires": [
+        "unknown and ambiguous quarantine",
+        "rollback manifest",
+        "no guessed state"
+      ]
+    },
+    {
+      "gate": "E_DeterminismReplay",
+      "status": "Pending",
+      "requires": [
+        "two equal-input runs",
+        "equal normalized hashes",
+        "stable diagnostics"
+      ]
+    },
+    {
+      "gate": "F_CompileValidation",
+      "status": "Pending",
+      "requires": [
+        "exact UE5 types and migrator compile successfully"
+      ]
+    },
+    {
+      "gate": "G_RuntimeAndSaveValidation",
+      "status": "Pending",
+      "requires": [
+        "controlled fixtures execute",
+        "save round trip",
+        "idempotence",
+        "rollback"
+      ]
+    },
+    {
+      "gate": "H_ApplyAuthorization",
+      "status": "Blocked",
+      "requires": [
+        "all prior gates pass",
+        "named authority decision",
+        "staging apply before production"
+      ]
+    }
+  ],
+  "run": {
+    "mode": "MigrationDryRunContractGeneration",
+    "execution_status": "Completed",
+    "verdict": "PassContractPrepared_RepositoryInventoryPending",
+    "migration_execution_authorized": false,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "registry_mutations": 0,
+    "commit_attempted": false
+  },
+  "validation": {
+    "committed_registry_counts_reconcile": true,
+    "mapping_count_reconciles": true,
+    "legacy_total_reconciles": true,
+    "source_inventory_executed": false,
+    "content_dry_run_executed": false,
+    "save_dry_run_executed": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "determinism_validated": false,
+    "rollback_validated": false
+  },
+  "smallest_useful_next_action": "Run the zero-mutation repository inventory and create Trait_Reputation_Legacy_Reader_Writer_Inventory_V1.json. Search exact project sources, content, Blueprints, scenarios, profiles, AI, UI, localization, tests, save schemas, and save fixtures. Do not simulate missing repository results."
+}

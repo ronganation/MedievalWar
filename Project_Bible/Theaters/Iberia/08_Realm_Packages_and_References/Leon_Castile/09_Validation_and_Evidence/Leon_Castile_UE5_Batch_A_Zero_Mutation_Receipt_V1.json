@@ -1,0 +1,137 @@
+{
+  "ReceiptId": "receipt.leon_castile.ue5.batch_a.zero_mutation.v1",
+  "ReceiptVersion": "1.0.0",
+  "RevisionDate": "2026-09-08",
+  "Status": "PASS_DOCUMENTATION_PREPARATION_ZERO_MUTATION_BATCH_A_NOT_COMPLETE",
+  "Placement": "Leon_Castile/09_Validation_and_Evidence",
+  "Scope": "BatchADocumentationPreparationOnly",
+  "ActiveProjectRootReference": "C:\\UnrealProjects\\MedievalWar",
+  "ActiveProjectRootMountedInCurrentExecution": false,
+  "ControllingInputs": [
+    {
+      "File": "Leon_Castile_Implementation_Batch_A_Entry_Review_V1.md",
+      "Sha256": "5c893329abc7b634ea603ff18d72c1cdd67e7dc56ae8f7ee8873ef7bc2b6a6d9"
+    },
+    {
+      "File": "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+      "Sha256": "08f4f4af5462ee8c78088feb3e8cc3cc566dea8ec33eac22f44d7fd8fc24ee63"
+    },
+    {
+      "File": "Leon_Castile_UE5_Conceptual_to_Actual_Owner_Resolution_Matrix_V1.json",
+      "Sha256": "c4ef14fb72aacea3ba0374f8345d2cb324fa9853505d0e3587d993b2c71b0373"
+    },
+    {
+      "File": "Leon_Castile_UE5_Implementation_Gap_and_Dependency_Ledger_V1.md",
+      "Sha256": "b3be1994518f5067ece59e2591d039139bd6a8dd9d19d87374ab4b331c9a2bcf"
+    },
+    {
+      "File": "Leon_Castile_UE5_Scaffold_Change_and_Test_Plan_V1.md",
+      "Sha256": "361ffee9e265a461d0804f430bac0596cea32d3b0f4cf4a621e75fa9e143eee7"
+    }
+  ],
+  "PreparedArtifacts": [
+    {
+      "File": "Leon_Castile_Implementation_Batch_A_Entry_Review_V1.md",
+      "Role": "ConditionalEntryGate"
+    },
+    {
+      "File": "Leon_Castile_UE5_Architecture_and_Module_Inspection_Report_V1.md",
+      "Role": "PartialEnterpriseEvidenceArchitectureInspection"
+    },
+    {
+      "File": "Leon_Castile_UE5_Conceptual_to_Actual_Owner_Resolution_Matrix_V1.json",
+      "Role": "ThirteenOwnerGapMatrix"
+    },
+    {
+      "File": "Leon_Castile_UE5_Implementation_Gap_and_Dependency_Ledger_V1.md",
+      "Role": "GapAndDependencyClosureLedger"
+    },
+    {
+      "File": "Leon_Castile_UE5_Scaffold_Change_and_Test_Plan_V1.md",
+      "Role": "ProposalOnlyScaffoldPlan"
+    }
+  ],
+  "DeclaredCounts": {
+    "PreparedArtifactCount": 5,
+    "ConceptualOwnerCount": 13,
+    "ResolvedOwnerCount": 0,
+    "ExplicitGapCount": 13,
+    "ImplementationBatchCount": 7,
+    "TestFamilyCount": 10
+  },
+  "ObservedActions": {
+    "EnterpriseDocumentSearchPerformed": true,
+    "EnterpriseSourceHitReviewPerformed": true,
+    "EnterpriseBuildLogReviewPerformed": true,
+    "LiveActiveRootDirectoryWalkPerformed": false,
+    "UnrealSourceFileOpenedFromActiveRoot": false,
+    "BuildRulesInspected": false,
+    "TargetRulesInspected": false,
+    "PluginDescriptorsInspected": false
+  },
+  "MutationCounts": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Source": 0,
+    "Configuration": 0,
+    "Assets": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "ExecutionCounts": {
+    "OfflineSchemaExecution": 0,
+    "OfflineFixtureExecution": 0,
+    "UnrealBuild": 0,
+    "UnrealEditorLaunch": 0,
+    "UnrealRuntimeLaunch": 0,
+    "SaveLoadExecution": 0,
+    "ReplayExecution": 0,
+    "PerformanceExecution": 0
+  },
+  "CurrentGates": {
+    "OfflineExecutionEvidence": "BLOCKED_RESULTS_ABSENT",
+    "BatchAEntry": "BLOCKED",
+    "ActiveRootInspection": "NOT_AUTHORIZED_AND_NOT_RUN",
+    "ActualOwnerResolution": "BLOCKED_ALL_THIRTEEN_UNRESOLVED",
+    "ScaffoldMutation": "NOT_AUTHORIZED",
+    "PayloadImport": "NOT_AUTHORIZED",
+    "ActivePromotion": "PROHIBITED"
+  },
+  "IntegrityAssertions": {
+    "DocumentationOnlyArtifactsCreated": true,
+    "NoActiveRootMountUsed": true,
+    "NoUnrealSourceOrConfigurationMutation": true,
+    "NoAssetCreation": true,
+    "NoRegistryOrOpeningStateMutation": true,
+    "NoPayloadOrOverlayMutation": true,
+    "NoCompileOrRuntimeClaim": true,
+    "NoOwnerPromotedFromCandidateEvidence": true,
+    "NoPhysicalPlacementInvented": true,
+    "NoBatchCompletionClaimed": true
+  },
+  "RollbackPlan": "Remove this receipt and its manifest from current control. The prepared documentation artifacts may be removed independently. No Unreal, Registry, Opening State, machine-readable, asset, save, or runtime restoration is required because all mutation counts are zero.",
+  "Disposition": {
+    "DocumentationPreparation": "PASS",
+    "ZeroMutation": "PASS",
+    "BatchAEntryCompletion": "NOT_ACHIEVED",
+    "BatchAArchitectureCompletion": "NOT_ACHIEVED",
+    "AllowedLabel": "BatchADocumentationPackagePreparedPauseMaintained",
+    "NextGate": "OfflineEvidenceClosureThenAuthorizedActiveRootInspection"
+  },
+  "EvidenceBoundary": {
+    "EnterpriseEvidenceReview": "PERFORMED",
+    "PhysicalActiveRootInspection": "NOT_RUN",
+    "OfflineValidationExecution": "NOT_RUN",
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "Promotion": "PROHIBITED"
+  },
+  "NextFile": "Leon_Castile_UE5_Batch_A_Entry_Completion_Gate_V1.md"
+}

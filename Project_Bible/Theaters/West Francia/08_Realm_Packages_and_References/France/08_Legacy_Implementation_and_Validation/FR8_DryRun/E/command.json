@@ -1,0 +1,24 @@
+{
+  "Mode": "ReadOnlyCandidateDryRun",
+  "Input": "FixturePath",
+  "CommitAllowed": false,
+  "Outputs": [
+    "ParsedDocuments",
+    "CandidateRecords",
+    "ExternalReferences",
+    "Reviews",
+    "Quarantines",
+    "Errors",
+    "Warnings",
+    "SourceFingerprints",
+    "DeterministicTrace"
+  ],
+  "Prohibited": [
+    "RegistryMutation",
+    "AliasExecution",
+    "OpeningStateActivation",
+    "UnrealMutation",
+    "RuntimeMutation",
+    "RealPayloadImport"
+  ]
+}

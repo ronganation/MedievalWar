@@ -1,0 +1,33 @@
+{
+  "FileName": "Sweden_Settlement_Site_and_Facility_Setup_V1_1_Current_Authority_Refinement_FULL.md",
+  "Version": "1.1.0",
+  "Status": "Static-Checked Current Authority Refinement with Controlled Dependencies",
+  "SHA256": "D9057C4F94690BA1DDE423D7B8493AFCC01E780EF4D57E5EDDFE818E4E5249A9",
+  "Bytes": 44457,
+  "Lines": 926,
+  "SourceFile": "Sweden_Settlement_Site_and_Facility_Setup_V1.md",
+  "SourceSHA256": "9A43B53E6721478911839E17ACC438442D76A7D895DB5492CF459D597F40A3ED",
+  "SourceManifest": "Sweden_Settlement_Site_and_Facility_Setup_V1_Manifest.json",
+  "SourceManifestSHA256": "76BC4B72FB2709619CD4ADD2108D1A32D32377B7326A683A072A5A59BE1C6349",
+  "Checks": {
+    "copy_first": true,
+    "continuous_sections_1_57": true,
+    "six_candidate_places_preserved": true,
+    "facility_lifecycle": true,
+    "finite_recruitment": true,
+    "three_track": true,
+    "project_bible_2_4": true,
+    "design_expansion_checklist_3_7": true,
+    "full_Norse_Theater_wording": true,
+    "ue58": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "honest_validation": true,
+    "footer": true
+  },
+  "OpeningStateModified": false,
+  "RegistryModified": false,
+  "RuntimeStateCreated": false,
+  "PhysicalPromotionCompleted": false
+}

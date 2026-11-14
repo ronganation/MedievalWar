@@ -1,0 +1,20 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N05_active_candidate",
+  "mutated_candidate": {
+    "activation_state": "Active",
+    "candidate_or_published_status": "Candidate",
+    "disposition": "CandidateOpeningLivingPerson",
+    "owner_authority": "Brittany_Character_Authorities_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+    "realm_scope": "realm.brittany",
+    "record_kind": "PersonDefinition",
+    "scenario_scope": [
+      "Scenario.Brittany.1062January"
+    ],
+    "stable_id": "person.conan_ii_brittany",
+    "validation_state": "UnvalidatedCandidate"
+  },
+  "result": "PASS",
+  "rule": "ReviewOnlyNotActive"
+}

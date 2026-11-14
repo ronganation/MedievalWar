@@ -1,0 +1,15 @@
+{
+  "filename_control": true,
+  "sha256": "3c4e2e9e14b87dcc6395d7b11a7ba73d2191d03b314acb134367626209087a27",
+  "bytes": 75376,
+  "lines": 1164,
+  "operating_portfolios": 30,
+  "child_interfaces": 2,
+  "balanced_fences": true,
+  "Arnulf_not_backfilled": true,
+  "BaldwinII_not_backfilled": true,
+  "sibling_automatic_promotion_rejected": true,
+  "dual_order_firewall": true,
+  "nonmutation": true,
+  "overall": "Pass"
+}

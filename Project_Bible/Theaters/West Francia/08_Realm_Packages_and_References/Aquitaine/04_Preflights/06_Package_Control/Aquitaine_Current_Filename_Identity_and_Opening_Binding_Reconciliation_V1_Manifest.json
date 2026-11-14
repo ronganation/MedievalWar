@@ -1,0 +1,26 @@
+{
+  "ManifestId": "Manifest.Reconciliation.Realm.Aquitaine.CurrentFilenameIdentityOpeningBinding.V1",
+  "AuthorityFile": "Aquitaine_Current_Filename_Identity_and_Opening_Binding_Reconciliation_V1.md",
+  "Version": "1.0.0",
+  "GeneratedDate": "2026-09-05",
+  "SHA256": "c753757454389a1414faaaee7bee94631c0fc45a5e8a12b78b9759aaa47f6a2c",
+  "ByteCount": 19842,
+  "LineCount": 603,
+  "SourceAuthorities": [
+    "Aquitaine_Realm_Package_Current_Authority_Index_V1.md",
+    "Aquitaine_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md",
+    "Aquitaine_ID_Registry_V2_Current_Authority_Modernization.md",
+    "Aquitaine_Opening_State_1062_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_Opening_Campaign_Opportunity_and_Early_Conflict_Reservation_V1.md"
+  ],
+  "Disposition": "StaticCheckedBoundedReconciliationReviewOnly",
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

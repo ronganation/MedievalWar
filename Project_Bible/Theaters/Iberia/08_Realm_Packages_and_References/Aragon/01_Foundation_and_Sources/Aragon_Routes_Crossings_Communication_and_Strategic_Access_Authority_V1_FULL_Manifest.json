@@ -1,0 +1,33 @@
+{
+  "FileName": "Aragon_Routes_Crossings_Communication_and_Strategic_Access_Authority_V1_FULL.md",
+  "Version": "1.0.0",
+  "SHA256": "6f97ee98f59daa65f65baee7db4285f8d95f2bdac3656405043fc9d05f4dc6f9",
+  "Bytes": 41414,
+  "Lines": 952,
+  "Checks": {
+    "bytes": 41414,
+    "lines": 952,
+    "portfolios": 22,
+    "three_track": true,
+    "records": true,
+    "communication_security": true,
+    "save_migration": true,
+    "diagnostics": true,
+    "repeated_headings": {},
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "balanced_fences": true,
+    "footer": 1
+  },
+  "AllCriticalChecksPass": true,
+  "MutationReceipt": {
+    "ExistingFilesOverwritten": 0,
+    "Registry": 0,
+    "OpeningState": 0,
+    "RoutesActivated": 0,
+    "Unreal": 0,
+    "Runtime": 0
+  },
+  "NextCandidate": "Aragon_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md"
+}

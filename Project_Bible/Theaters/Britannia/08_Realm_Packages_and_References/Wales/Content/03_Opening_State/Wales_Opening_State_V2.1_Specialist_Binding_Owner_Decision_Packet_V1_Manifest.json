@@ -1,0 +1,29 @@
+{
+  "filename": "Wales_Opening_State_V2.1_Specialist_Binding_Owner_Decision_Packet_V1.md",
+  "bytes": 24420,
+  "lines": 756,
+  "sections": 27,
+  "sha256": "3a343ca7c57680dabefad6fdd3c4ca893190e53d23d8b931b52c7c14cc96c519",
+  "checks": {
+    "filename": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "balanced_fences": true,
+    "yaml_present": true,
+    "text_present": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "honest_validation": true,
+    "blocked_draft": true,
+    "seven_decisions": true,
+    "no_default": true,
+    "no_registry_mutation": true,
+    "no_opening_mutation": true,
+    "advanced_save_protected": true,
+    "next_safe_file": true,
+    "no_em_dash": true
+  },
+  "all_checks_passed": true
+}

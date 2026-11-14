@@ -1,0 +1,174 @@
+{
+  "DocumentControl": {
+    "DocumentId": "Package.FinalStaticCheck.Realm.France.V1",
+    "Filename": "France_Package_Final_Static_Check_V1.json",
+    "Version": "1.0.0",
+    "RevisionDate": "2026-09-03",
+    "Placement": "France/07_Manifests_and_Static_Checks/",
+    "Status": "ConditionalPassCurrentRoutedPortfolio"
+  },
+  "CheckedManifest": {
+    "Filename": "France_Package_Final_Manifest_V1.json",
+    "Bytes": 14846,
+    "Lines": 414,
+    "SHA256": "94aaf97a33368c0dcf83543c7b18f1ca6b95f8e30f36dc0300e8cea2a95edbc4",
+    "JSONParseStatus": "Pass"
+  },
+  "Checks": [
+    {
+      "CheckId": "FRA_PKG_001",
+      "Subject": "Ten numbered folders routed",
+      "Result": "Pass",
+      "Evidence": 10
+    },
+    {
+      "CheckId": "FRA_PKG_002",
+      "Subject": "Old material excluded",
+      "Result": "Pass",
+      "Evidence": 0
+    },
+    {
+      "CheckId": "FRA_PKG_003",
+      "Subject": "Current authority index route represented",
+      "Result": "Pass",
+      "Evidence": "France_Realm_Package_Current_Authority_Index_V1.md"
+    },
+    {
+      "CheckId": "FRA_PKG_004",
+      "Subject": "Current 27-item candidate bundle routed",
+      "Result": "Pass",
+      "Evidence": 27
+    },
+    {
+      "CheckId": "FRA_PKG_005",
+      "Subject": "Fifteen direct aliases recorded unexecuted",
+      "Result": "Pass",
+      "Evidence": 15
+    },
+    {
+      "CheckId": "FRA_PKG_006",
+      "Subject": "Visual concept closure represented",
+      "Result": "Pass",
+      "Evidence": "ClosedReviewOnly"
+    },
+    {
+      "CheckId": "FRA_PKG_007",
+      "Subject": "Implementation preparation closure represented",
+      "Result": "Pass",
+      "Evidence": "Closed"
+    },
+    {
+      "CheckId": "FRA_PKG_008",
+      "Subject": "Active France Unreal execution deferred",
+      "Result": "Pass",
+      "Evidence": true
+    },
+    {
+      "CheckId": "FRA_PKG_009",
+      "Subject": "Standalone France module rejected",
+      "Result": "Pass",
+      "Evidence": true
+    },
+    {
+      "CheckId": "FRA_PKG_010",
+      "Subject": "Registry promotion prohibited",
+      "Result": "Pass",
+      "Evidence": true
+    },
+    {
+      "CheckId": "FRA_PKG_011",
+      "Subject": "Opening State activation prohibited",
+      "Result": "Pass",
+      "Evidence": true
+    },
+    {
+      "CheckId": "FRA_PKG_012",
+      "Subject": "Alias execution prohibited",
+      "Result": "Pass",
+      "Evidence": true
+    },
+    {
+      "CheckId": "FRA_PKG_013",
+      "Subject": "Real payload import prohibited",
+      "Result": "Pass",
+      "Evidence": true
+    },
+    {
+      "CheckId": "FRA_PKG_014",
+      "Subject": "Three-track temporal contract recorded",
+      "Result": "Pass",
+      "Evidence": {
+        "HistoricalMonthsPerStrategicTurn": 21,
+        "BiologicalMonthsPerStrategicTurn": 7,
+        "CampaignSeasonStepsPerStrategicTurn": 1,
+        "CampaignSeasonOrder": [
+          "Winter",
+          "Spring",
+          "Summer",
+          "Autumn"
+        ]
+      }
+    },
+    {
+      "CheckId": "FRA_PKG_015",
+      "Subject": "Routed item statuses explicit",
+      "Result": "Pass",
+      "Evidence": true
+    },
+    {
+      "CheckId": "FRA_PKG_016",
+      "Subject": "Full physical package hash inventory",
+      "Result": "Warning",
+      "Evidence": "Not performed"
+    },
+    {
+      "CheckId": "FRA_PKG_017",
+      "Subject": "Characters subfolder physical inventory",
+      "Result": "Warning",
+      "Evidence": "Not performed"
+    },
+    {
+      "CheckId": "FRA_PKG_018",
+      "Subject": "Project-wide Registry scan",
+      "Result": "Warning",
+      "Evidence": "Incomplete"
+    },
+    {
+      "CheckId": "FRA_PKG_019",
+      "Subject": "External-owner receipts",
+      "Result": "Warning",
+      "Evidence": "Incomplete"
+    },
+    {
+      "CheckId": "FRA_PKG_020",
+      "Subject": "Compile runtime and persistence validation",
+      "Result": "Warning",
+      "Evidence": "Not executed for France"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 20,
+    "Passes": 15,
+    "Warnings": 5,
+    "Failures": 0,
+    "Result": "ConditionalPass",
+    "PackagePassClosed": true,
+    "ProductionPromotionApproved": false,
+    "ActiveUnrealExecutionApproved": false
+  },
+  "NextGate": {
+    "Primary": "France Current Package Pass Closed",
+    "FutureDesign": "Resume only for identified substantive authority work",
+    "FutureUnreal": "Resume only under dedicated single-writer authorization and fresh drift check"
+  },
+  "MutationStatus": {
+    "SourceFilesModified": 0,
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

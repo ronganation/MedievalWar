@@ -1,0 +1,450 @@
+# Valencia Taifa Sorted Package Read-Only Authority Inventory V1
+
+## 0. Inventory Control
+
+```yaml
+document_id: inventory.valencia_taifa.sorted_package.read_only.v1
+authority_id: audit.inventory.realm.valencia.read_only.v1
+filename: Valencia_Taifa_Sorted_Package_Read_Only_Authority_Inventory_V1.md
+version: 1.0.0
+inventory_date: 2026-09-13
+scenario_date: 1062-01-01
+realm_id: realm.valencia
+realm_label: Taifa of Valencia
+owning_theater: Iberia
+constitutional_authority: Project Bible 2.4
+operational_authority: Design Expansion Checklist 3.7
+implementation_target: Unreal Engine 5.8
+source_scope: RefreshedSortedOneDriveValenciaPackage
+inventory_method: ReadOnlyFolderAndExactFilenameSearch
+status: ReadOnlyInventoryStartedCurrentFilesVerifiedWhereReturnedByOneDriveSearch
+registry_mutation_authorized: false
+opening_state_runtime_mutation_authorized: false
+real_payload_import_authorized: false
+runtime_mutation_authorized: false
+unreal_project_mutation_authorized: false
+```
+
+## 1. Purpose and Evidence Boundary
+
+This inventory records the refreshed, sorted OneDrive Valencia package after the prior folder was replaced. It identifies verified current authorities, retained predecessors, machine-readable companions, validation evidence, stale control statements, and the next read-only audit gates.
+
+This file does not declare package freeze, commit Registry rows, change Opening State, activate profiles, import payloads, inspect Unreal, or claim completeness where OneDrive search did not return every physical file.
+
+```yaml
+verified_by_current_search:
+  - SortedFolderNamesAreDiscoverable
+  - CurrentSubstantiveAuthoritiesAreDiscoverableAcrossMostOwnerFolders
+  - CurrentRegistryAndMachineReadablePackageAreDiscoverable
+  - ValidationReportsAndHandoffsAreDiscoverable
+search_limitations:
+  - FolderSearchDoesNotGuaranteeExhaustivePhysicalEnumeration
+  - Folder03ReturnedCrossPackageNoiseUntilExactFilenameSearch
+  - Folder11RequiredExactDiplomacyFilenameSearch
+  - Folder00ContentsWereVerifiedByExactControlFilenameSearchRatherThanOneCompleteFolderListing
+  - NoLocalChecksumOrRecursiveFilesystemManifestWasAvailableThroughOneDriveSearch
+```
+
+## 2. Preliminary Package Verdict
+
+```yaml
+substantive_design_stack: StrongAndBroadlyCurrent
+historical_stack: DevelopedWithCurrentV2EvidenceRegisterAndSpecialistMemoryMomentumEmergenceAuthorities
+core_realm_authority: CurrentV3
+character_portfolio: CurrentV3_1WithFourIntegratedProfiles
+dynasty_government_religious_communities_territory_military: CurrentIntegratedSuccessors
+economy: CurrentV1_1DevelopedFactionBenchmarkReconciled
+diplomacy: CurrentV1_1DevelopedRealmBenchmarkReconciled
+realm_personality_ai: CurrentV1
+presentation: CurrentV4WithV3RetainedAsImmediateSource
+opening_state: CurrentV3_3
+registry_contract: PresentCandidateOnly
+machine_readable_package: PresentCandidateOnly
+static_validation_reports: PresentAndPassingAtDeclaredStaticScope
+importer_handoff: PresentPlanningOnly
+unreal_agent_handoff: PresentReadOnlyPlanningOnly
+package_specialist_integration_audit: NotYetFoundAsCurrentPostA5Authority
+package_readiness_freeze_handoff: NotYetFoundAsCurrentPostA5Authority
+runtime_implementation: NotProven
+```
+
+Valencia is no longer in broad missing-content development. The present work is authority selection, supersession, cross-owner consistency, Opening State and machine-readable freshness, readiness classification, and handoff reconciliation.
+
+## 3. Folder-by-Folder Preliminary Inventory
+
+### 3.1 00 Indexes, Plans, and Package Control
+
+```yaml
+folder: 00_Indexes_Plans_and_Package_Control
+verified_files:
+  - Valencia_Taifa_README_Authority_Index_and_Module_Status_V1.md
+  - Valencia_Taifa_Minimum_Authority_Stack_and_Missing_Module_Production_Authority_V1.md
+  - Valencia_Taifa_Current_Package_Authority_Disposition_and_File_by_File_Game_Plan_V1.md
+current_navigation_candidate: Valencia_Taifa_README_Authority_Index_and_Module_Status_V1.md
+stale_control_findings:
+  - READMEStillSaysRegistryMachineReadableImporterAndUnrealHandoffNotCreated
+  - FileByFilePlanStillSaysPhysicalSortCompletedFalse
+  - FileByFilePlanStillDescribesThirteenFileStartingPackage
+  - MinimumStackCoverageMatrixPredatesCompletedA2A3A4A5AndCreatedMachineReadableHandoffs
+required_treatment: TargetedCurrentInventoryAndStatusReconciliationAfterSpecialistAudit
+```
+
+### 3.2 01 Historical Evidence and Progression
+
+```yaml
+folder: 01_Historical_Evidence_and_Progression
+verified_files:
+  - Valencia_Taifa_Historical_Evidence_and_Chronology_Register_1062_V1.md
+  - Valencia_Taifa_Historical_Evidence_and_Chronology_Register_1062_V2_External_Research_Deepening_and_Implementation_Readiness_Authority.md
+  - Valencia_Taifa_Historical_Reconciliation_1062_V1_Developed_Realm_Parity_Authority.md
+  - Valencia_Taifa_Historical_Uncertainty_Contradiction_and_Exclusion_Register_1062_V1.md
+  - Valencia_Taifa_Historical_Memory_1062_V1_Developed_Realm_Parity_Authority.md
+  - Valencia_Taifa_Historical_Momentum_1062_V1_Developed_Realm_Parity_Authority.md
+  - Valencia_Taifa_Historical_Emergence_1062_V1_Developed_Realm_Parity_Authority.md
+  - Valencia_Taifa_Historical_Facts_Memories_Momentum_and_Pathways_Authority_1062_V2_Current_Authority_Modernization_FULL.md
+current_evidence_register: Valencia_Taifa_Historical_Evidence_and_Chronology_Register_1062_V2_External_Research_Deepening_and_Implementation_Readiness_Authority.md
+current_integrated_historical_authority: Valencia_Taifa_Historical_Facts_Memories_Momentum_and_Pathways_Authority_1062_V2_Current_Authority_Modernization_FULL.md
+retained_predecessor: Valencia_Taifa_Historical_Evidence_and_Chronology_Register_1062_V1.md
+preliminary_disposition: DevelopedCurrentWithExpectedSourceRetention
+```
+
+### 3.3 02 Core Realm and Faction Definition
+
+```yaml
+folder: 02_Core_Realm_and_Faction_Definition
+verified_files:
+  - Valencia_Core_Faction_Package_1062_V3_Current_Authority_Modernization_FULL.md
+current_controlling_authority: Valencia_Core_Faction_Package_1062_V3_Current_Authority_Modernization_FULL.md
+preliminary_disposition: CurrentButNeedsCrossReferenceRefreshAgainstA2ThroughA5
+```
+
+### 3.4 03 Characters
+
+```yaml
+folder: 03_Characters
+verified_files:
+  - Valencia_Taifa_Character_Authority_1062_V3_1_Individual_Profile_Integrated_Current_Authority_FULL.md
+  - Abd_al_Malik_ibn_Abd_al_Aziz_al_Muzaffar_V1_1_Principal_Playable_Leader_Character_Profile_Authority.md
+  - Abd_al_Aziz_al_Mansur_V1_Deceased_Predecessor_and_Legacy_Character_Profile_Authority.md
+  - Toledan_Consort_of_Abd_al_Malik_V1_Bounded_Unnamed_Character_Reference_Authority.md
+  - Ibn_Rawbash_V1_ReviewOnly_Historical_Candidate_Profile_Authority.md
+current_portfolio_authority: Valencia_Taifa_Character_Authority_1062_V3_1_Individual_Profile_Integrated_Current_Authority_FULL.md
+profile_count_verified: 4
+opening_character_dispositions:
+  AbdAlMalik: SupportedOpeningPrincipalPendingOwnerReceipts
+  AbdAlAziz: DeceasedLegacyOnly
+  ToledanConsort: BoundedUnnamedCandidatePendingOwners
+  IbnRawbash: ReviewOnlyNotAuthorizedForOpening
+preliminary_disposition: DevelopedCurrent
+```
+
+### 3.5 04 Dynasty, Household, and Succession
+
+```yaml
+folder: 04_Dynasty_Household_and_Succession
+verified_files:
+  - Valencia_Taifa_Dynasty_Authority_1062_V2_1_Individual_Profile_Integrated_Current_Authority_FULL.md
+current_controlling_authority: Valencia_Taifa_Dynasty_Authority_1062_V2_1_Individual_Profile_Integrated_Current_Authority_FULL.md
+preliminary_disposition: DevelopedCurrent
+```
+
+### 3.6 05 Government, Offices, Law, and Delegation
+
+```yaml
+folder: 05_Government_Offices_Law_and_Delegation
+verified_files:
+  - Valencia_Taifa_Government_Offices_Law_and_Delegation_Authority_1062_V2_1_Character_Dynasty_and_Profile_Integrated_Current_Authority_FULL.md
+current_controlling_authority: Valencia_Taifa_Government_Offices_Law_and_Delegation_Authority_1062_V2_1_Character_Dynasty_and_Profile_Integrated_Current_Authority_FULL.md
+preliminary_disposition: DevelopedCurrent
+```
+
+### 3.7 06 Religious, Juristic, and Ecclesiastical
+
+```yaml
+folder: 06_Religious_Juristic_and_Ecclesiastical
+verified_files:
+  - Valencia_Taifa_Ecclesiastical_Religious_and_Juristic_Authority_1062_V2_1_Character_Dynasty_Government_and_Profile_Integrated_Current_Authority_FULL.md
+current_controlling_authority: Valencia_Taifa_Ecclesiastical_Religious_and_Juristic_Authority_1062_V2_1_Character_Dynasty_Government_and_Profile_Integrated_Current_Authority_FULL.md
+preliminary_disposition: DevelopedCurrent
+```
+
+### 3.8 07 Communities, Culture, Population, and Institutions
+
+```yaml
+folder: 07_Communities_Culture_Population_and_Institutions
+verified_files:
+  - Valencia_Taifa_Communities_Culture_Population_and_Institutions_Authority_1062_V2_1_Character_Dynasty_Government_Religious_and_Profile_Integrated_Current_Authority_FULL.md
+current_controlling_authority: Valencia_Taifa_Communities_Culture_Population_and_Institutions_Authority_1062_V2_1_Character_Dynasty_Government_Religious_and_Profile_Integrated_Current_Authority_FULL.md
+preliminary_disposition: DevelopedCurrent
+```
+
+### 3.9 08 Territory, Settlements, Geography, and Climate
+
+```yaml
+folder: 08_Territory_Settlements_Geography_and_Climate
+verified_files:
+  - Valencia_Taifa_Territory_Settlements_Geography_and_Climate_Authority_1062_V2_1_Communities_Government_Military_and_Profile_Integrated_Current_Authority_FULL.md
+current_controlling_authority: Valencia_Taifa_Territory_Settlements_Geography_and_Climate_Authority_1062_V2_1_Communities_Government_Military_and_Profile_Integrated_Current_Authority_FULL.md
+preliminary_disposition: DevelopedCurrent
+```
+
+### 3.10 09 Military Forces, Recruitment, and Readiness
+
+```yaml
+folder: 09_Military_Forces_Recruitment_and_Readiness
+verified_files:
+  - Valencia_Taifa_Military_Forces_Garrisons_Recruitment_Command_and_Readiness_Authority_1062_V2_1_Integrated_Current_Authority_FULL.md
+current_controlling_authority: Valencia_Taifa_Military_Forces_Garrisons_Recruitment_Command_and_Readiness_Authority_1062_V2_1_Integrated_Current_Authority_FULL.md
+preliminary_disposition: DevelopedCurrent
+```
+
+### 3.11 10 Economy, Treasury, Property, and Provisioning
+
+```yaml
+folder: 10_Economy_Treasury_Property_and_Provisioning
+verified_files:
+  - Valencia_Taifa_Economy_Treasury_Property_Production_Markets_Trade_Stocks_and_Provisioning_Authority_1062_V1_1_Developed_Faction_Benchmark_Reconciled_FULL.md
+current_controlling_authority: Valencia_Taifa_Economy_Treasury_Property_Production_Markets_Trade_Stocks_and_Provisioning_Authority_1062_V1_1_Developed_Faction_Benchmark_Reconciled_FULL.md
+preliminary_disposition: DevelopedCurrent
+```
+
+### 3.12 11 Diplomacy and External Interfaces
+
+```yaml
+folder: 11_Diplomacy_and_External_Interfaces
+verified_files:
+  - Valencia_Taifa_Diplomacy_External_Relations_Agreements_Pressure_and_Cross_Realm_Lock_Authority_1062_V1_1_Developed_Realm_Benchmark_Reconciled_FULL.md
+current_controlling_authority: Valencia_Taifa_Diplomacy_External_Relations_Agreements_Pressure_and_Cross_Realm_Lock_Authority_1062_V1_1_Developed_Realm_Benchmark_Reconciled_FULL.md
+folder_query_result: EmptyUntilExactFilenameSearch
+preliminary_disposition: CurrentAuthorityVerifiedFolderEnumerationStillNeedsManifestCheck
+```
+
+### 3.13 12 Realm Personality, AI, and Decision Explanation
+
+```yaml
+folder: 12_Realm_Personality_AI_and_Decision_Explanation
+verified_files:
+  - Valencia_Taifa_Realm_Personality_AI_Information_Discipline_and_Decision_Explanation_Authority_1062_V1.md
+current_controlling_authority: Valencia_Taifa_Realm_Personality_AI_Information_Discipline_and_Decision_Explanation_Authority_1062_V1.md
+preliminary_disposition: DevelopedCurrent
+```
+
+### 3.14 13 Presentation, Visual Identity, Localization, and Accessibility
+
+```yaml
+folder: 13_Presentation_Visual_Identity_Localization_and_Accessibility
+verified_files:
+  - Valencia_Visual_Identity_and_Presentation_V3_Current_Authority_Modernization_FULL.md
+  - Valencia_Taifa_Presentation_Visual_Identity_Localization_and_Accessibility_Authority_1062_V4_Developed_Realm_Benchmark_Reconciled_FULL.md
+current_controlling_authority: Valencia_Taifa_Presentation_Visual_Identity_Localization_and_Accessibility_Authority_1062_V4_Developed_Realm_Benchmark_Reconciled_FULL.md
+immediate_substantive_source_retained: Valencia_Visual_Identity_and_Presentation_V3_Current_Authority_Modernization_FULL.md
+preliminary_disposition: CurrentV4WithCorrectSourceRetention
+```
+
+### 3.15 14 Opening State
+
+```yaml
+folder: 14_Opening_State
+verified_files:
+  - Valencia_Opening_State_1062_V3_3_Completed_Authority_Chain_Reconciled_Developed_Realm_Parity_Authority.md
+current_controlling_authority: Valencia_Opening_State_1062_V3_3_Completed_Authority_Chain_Reconciled_Developed_Realm_Parity_Authority.md
+preliminary_disposition: CurrentBeforePostA2A5FreshnessAudit
+```
+
+### 3.16 15 Registry, Manifests, and Machine-Readable
+
+```yaml
+folder: 15_Registry_Manifests_and_Machine_Readable
+verified_files:
+  - Valencia_Taifa_ID_Registry_and_External_Lock_Contract_V1.md
+  - Valencia_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md
+  - Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.json
+  - Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.json
+current_registry_contract: Valencia_Taifa_ID_Registry_and_External_Lock_Contract_V1.md
+current_serialization_contract: Valencia_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md
+payload_status: CandidateOnlyOrDefinitionCandidatesOnly
+registry_mutation_authorized: false
+runtime_mutation_authorized: false
+preliminary_disposition: PresentAndStaticallyStructuredNeedsPostA2A5SourceFreshnessAudit
+```
+
+### 3.17 16 Validation, Importer, and UE5 Handoffs
+
+```yaml
+folder: 16_Validation_Importer_and_UE5_Handoffs
+verified_files:
+  - Valencia_Opening_State_1062_V3_3_Package_V1_Importer_Handoff_and_UE5_Mapping_Authority.md
+  - Valencia_Opening_State_1062_V3_3_Package_V1_Unreal_Implementation_Agent_Handoff.md
+  - Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.schema.json
+  - Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.validation.json
+  - Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.owner_routing.json
+  - Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.fixtures.json
+  - Valencia_Opening_State_1062_V3_3_Machine_Readable_Package_V1.validation_report.json
+  - Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.schema.json
+  - Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.validation.json
+  - Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.owner_routing.json
+  - Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.fixtures.json
+  - Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.validation_report.json
+static_validation_evidence:
+  OpeningPackage: 18Of18DeclaredChecksPassed
+  DefinitionManifest: 14Of14DeclaredChecksPassed
+importer_status: NotImplementedAndValidateOnlyNotExecuted
+unreal_handoff_status: PlanningAndReadOnlyInspectionHandoff
+project_path_verified: false
+architecture_inspected: false
+preliminary_disposition: StrongStaticHandoffSetNeedsCurrentAuthorityChainReconciliationBeforePromotion
+```
+
+## 4. Current Authority Selection Map
+
+```yaml
+CurrentAuthorities:
+  HistoricalEvidence: Valencia_Taifa_Historical_Evidence_and_Chronology_Register_1062_V2_External_Research_Deepening_and_Implementation_Readiness_Authority.md
+  HistoricalSystems: Valencia_Taifa_Historical_Facts_Memories_Momentum_and_Pathways_Authority_1062_V2_Current_Authority_Modernization_FULL.md
+  Core: Valencia_Core_Faction_Package_1062_V3_Current_Authority_Modernization_FULL.md
+  Characters: Valencia_Taifa_Character_Authority_1062_V3_1_Individual_Profile_Integrated_Current_Authority_FULL.md
+  Dynasty: Valencia_Taifa_Dynasty_Authority_1062_V2_1_Individual_Profile_Integrated_Current_Authority_FULL.md
+  Government: Valencia_Taifa_Government_Offices_Law_and_Delegation_Authority_1062_V2_1_Character_Dynasty_and_Profile_Integrated_Current_Authority_FULL.md
+  ReligiousAndJuristic: Valencia_Taifa_Ecclesiastical_Religious_and_Juristic_Authority_1062_V2_1_Character_Dynasty_Government_and_Profile_Integrated_Current_Authority_FULL.md
+  Communities: Valencia_Taifa_Communities_Culture_Population_and_Institutions_Authority_1062_V2_1_Character_Dynasty_Government_Religious_and_Profile_Integrated_Current_Authority_FULL.md
+  Territory: Valencia_Taifa_Territory_Settlements_Geography_and_Climate_Authority_1062_V2_1_Communities_Government_Military_and_Profile_Integrated_Current_Authority_FULL.md
+  Military: Valencia_Taifa_Military_Forces_Garrisons_Recruitment_Command_and_Readiness_Authority_1062_V2_1_Integrated_Current_Authority_FULL.md
+  Economy: Valencia_Taifa_Economy_Treasury_Property_Production_Markets_Trade_Stocks_and_Provisioning_Authority_1062_V1_1_Developed_Faction_Benchmark_Reconciled_FULL.md
+  Diplomacy: Valencia_Taifa_Diplomacy_External_Relations_Agreements_Pressure_and_Cross_Realm_Lock_Authority_1062_V1_1_Developed_Realm_Benchmark_Reconciled_FULL.md
+  RealmPersonalityAI: Valencia_Taifa_Realm_Personality_AI_Information_Discipline_and_Decision_Explanation_Authority_1062_V1.md
+  Presentation: Valencia_Taifa_Presentation_Visual_Identity_Localization_and_Accessibility_Authority_1062_V4_Developed_Realm_Benchmark_Reconciled_FULL.md
+  OpeningState: Valencia_Opening_State_1062_V3_3_Completed_Authority_Chain_Reconciled_Developed_Realm_Parity_Authority.md
+  RegistryContract: Valencia_Taifa_ID_Registry_and_External_Lock_Contract_V1.md
+  MachineReadableContract: Valencia_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md
+```
+
+## 5. Verified Stale or Superseded Control Statements
+
+```yaml
+StaleStatements:
+  README:
+    - CanonicalRegistryPackageNotCreatedOrCommitted
+    - MachineReadableOpeningPackageNotCreated
+    - ImporterAndUE5MappingNotCreatedForValencia
+    - UnrealArchitectureInspectionNotExecutedForValencia
+  FileByFilePlan:
+    - CurrentFileCount13
+    - PhysicalOrganizationNotCompleted
+    - NavigationREADMEMissing
+    - CurrentAuthorityIndexMissing
+    - PackageManifestMissing
+    - CurrentStaticChecksMissing
+    - MachineReadableOpeningPackageMissing
+  MinimumStackPlan:
+    - EconomyMissing
+    - DiplomacyMissing
+    - RealmPersonalityAIMissing
+    - MachineReadableContractMissing
+    - SchemaValidationOwnerRoutingFixturesAndCandidatePayloadMissing
+    - ImporterAndUnrealHandoffsMissing
+```
+
+The statement that Unreal architecture inspection was not executed remains consistent with the current handoff. The statements that Registry contracts, machine-readable packages, validation companions, importer mapping, or Unreal handoffs do not exist are no longer current.
+
+## 6. Preliminary Cross-Owner Freshness Risks
+
+```yaml
+PriorityFreshnessChecks:
+  - OpeningStateV3_3VersusEconomyV1_1
+  - OpeningStateV3_3VersusDiplomacyV1_1
+  - OpeningStateV3_3VersusRealmPersonalityAIV1
+  - OpeningStateV3_3VersusPresentationV4
+  - MachineReadablePackageSourcesVersusCurrentA2A3A4A5
+  - DefinitionManifestSourcesAndOwnerRoutesVersusCurrentA2A3A4A5
+  - ImporterHandoffSourceChainVersusCurrentA2A3A4A5
+  - UnrealAgentHandoffSourceChainVersusCurrentA2A3A4A5
+  - READMEReadingOrderAndCurrentAuthorityMap
+  - CoreAuthorityRoutingReferences
+  - RetainedV3PresentationSourceVersusControllingV4Status
+```
+
+These are audit questions, not confirmed defects.
+
+## 7. Current Blocker Classes
+
+```yaml
+ConfirmedDocumentationBlockers:
+  - NavigationAndProductionPlansContainOutdatedCoverageStatements
+ConfirmedValidationBoundaries:
+  - RegistryNotCommitted
+  - RuntimeMutationNotAuthorized
+  - RealPayloadImportNotAuthorized
+  - ImporterNotImplemented
+  - ValidateOnlyExecutionNotExecuted
+  - UnrealProjectPathNotVerifiedByCurrentHandoff
+  - UnrealArchitectureNotInspected
+  - CompileRuntimeSaveLoadMigrationReplayPerformanceNotValidated
+  - FinalArtLocalizationAccessibilityNotValidated
+AuditOnlyQuestions:
+  - WhetherOpeningStateRequiresTargetedSuccessorOrOnlyCompatibilityAddendum
+  - WhetherMachineReadableArtifactsNeedRegenerationOrOnlySourceManifestRefresh
+  - WhetherAnyOwnerRoutingCollisionsRemain
+  - Whether99UnsortedReviewWasRemovedFromUploadedPackage
+```
+
+## 8. Next Read-Only Audit Sequence
+
+```yaml
+NextSequence:
+  B1:
+    action: OpenAndReconcileCurrentControlAuthorities
+    files:
+      - Valencia_Taifa_README_Authority_Index_and_Module_Status_V1.md
+      - Valencia_Taifa_Current_Package_Authority_Disposition_and_File_by_File_Game_Plan_V1.md
+      - Valencia_Taifa_Minimum_Authority_Stack_and_Missing_Module_Production_Authority_V1.md
+  B2:
+    action: CrossOwnerConsistencyMatrix
+    scope: CurrentAuthoritiesListedInSection4
+  B3:
+    action: OpeningStateCompatibilityAudit
+    scope: OpeningStateV3_3AgainstA2A3A4A5AndIntegratedSpecialists
+  B4:
+    action: MachineReadableAndValidationFreshnessAudit
+    scope: Folder15And16Companions
+  B5:
+    action: ReadinessClassification
+    outcome_options: [ReadyForTargetedReconciliation, HoldForBlockers, ReadyForBoundedFreezeHandoff]
+```
+
+No authority is promoted and no file is rewritten during this inventory phase.
+
+## 9. Inventory Acceptance
+
+```yaml
+sorted_OneDrive_package_used: true
+old_deleted_folder_used: false
+current_authority_candidates_identified: true
+predecessors_retained_where_verified: true
+stale_control_statements_identified: true
+machine_readable_and_handoff_files_verified: true
+full_recursive_physical_manifest_claimed: false
+cross_owner_consistency_completed: false
+opening_state_compatibility_completed: false
+machine_readable_freshness_completed: false
+package_freeze_authorized: false
+mutations_performed: 0
+```
+
+## 10. Stable Footer
+
+```yaml
+ConstitutionalAuthority: Project Bible 2.4
+OperationalAuthority: Design Expansion Checklist 3.7
+ImplementationTarget: Unreal Engine 5.8
+Realm: Taifa of Valencia
+OwningTheater: Iberia
+InventoryMode: ReadOnly
+RegistryMutationAuthorized: false
+OpeningStateRuntimeMutationAuthorized: false
+RealPayloadImportAuthorized: false
+RuntimeMutationAuthorized: false
+UnrealProjectMutationAuthorized: false
+NextFileCandidate: Valencia_Taifa_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md
+```
+
+**End of Valencia Taifa Sorted Package Read-Only Authority Inventory V1.**

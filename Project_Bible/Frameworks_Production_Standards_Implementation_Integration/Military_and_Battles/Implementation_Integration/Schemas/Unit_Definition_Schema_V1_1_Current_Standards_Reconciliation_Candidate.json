@@ -1,0 +1,2175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medieval-war:schema:unit-definition:v1.1-current-standards-reconciliation-candidate",
+  "title": "Medieval War Unit Definition Schema V1.1 Current Standards Reconciliation Candidate",
+  "description": "Copy-first successor candidate for noncanonical static Unit Definition records. It preserves the V1 definition contract while separating Master Unit Profile, its Stage 3 qualitative classification handoff, Faction Military Expression, Unit Specialization, later Game-Facing Unit Card, Opening State, and runtime state. Classification is transferred with source and evidence receipts and remains StaticReviewOnly. Validation does not establish Registry allocation, scenario availability, importer success, compilation, runtime behavior, save/load, migration, replay, performance, numerical balance, or battle validation. This corrected candidate preserves V1 donor coverage through direct fields or an explicit copy-first disposition ledger.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_control",
+    "identity_relationship",
+    "maturity_and_promotion",
+    "source_bindings",
+    "identity_and_ownership",
+    "semantic_classifications",
+    "faction_expression_bindings",
+    "unit_specialization",
+    "role_and_counterplay",
+    "equipment_and_protection",
+    "training_and_experience",
+    "formation_contract",
+    "operating_environment",
+    "recruitment_and_recovery_interfaces",
+    "lineage_and_progression",
+    "AI_guidance",
+    "presentation_handoff",
+    "historical_basis",
+    "validation_and_effect_boundaries",
+    "prohibited_assumptions"
+  ],
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "nonEmptyStringArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "evidenceReceipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_relative_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[A-Fa-f0-9]{64}$"
+        },
+        "source_section": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_record_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bounded_source_excerpt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "source_relative_path",
+        "source_sha256",
+        "source_section",
+        "source_record_key"
+      ]
+    },
+    "classificationState": {
+      "enum": [
+        "Explicit",
+        "NormalizedFromExplicitSource",
+        "InheritedFromFactionExpression",
+        "UnitSpecialized",
+        "NotApplicable",
+        "UnresolvedFromCurrentProfile",
+        "Unknown"
+      ]
+    },
+    "semanticClassification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "implementation_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "authored_description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "classification_state": {
+          "$ref": "#/$defs/classificationState"
+        },
+        "evidence_receipts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidenceReceipt"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "unit_exceptions": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "evidence_interpretation": {
+          "enum": [
+            "PositiveSupport",
+            "NegativeApplicabilityEvidence",
+            "UnresolvedSourceInspection",
+            "UnknownApplicabilityInspection"
+          ]
+        }
+      },
+      "required": [
+        "implementation_key",
+        "authored_description",
+        "classification_state",
+        "evidence_receipts",
+        "evidence_interpretation"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "classification_state": {
+                "const": "NotApplicable"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "evidence_interpretation": {
+                "const": "NegativeApplicabilityEvidence"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "classification_state": {
+                "const": "UnresolvedFromCurrentProfile"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "evidence_interpretation": {
+                "const": "UnresolvedSourceInspection"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "classification_state": {
+                "const": "Unknown"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "evidence_interpretation": {
+                "const": "UnknownApplicabilityInspection"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "classification_state": {
+                "enum": [
+                  "Explicit",
+                  "NormalizedFromExplicitSource",
+                  "InheritedFromFactionExpression",
+                  "UnitSpecialized"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "evidence_interpretation": {
+                "const": "PositiveSupport"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "reviewMarker": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "review_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "blocking_effect": {
+          "const": "FutureRefinement"
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/stringArray"
+        }
+      },
+      "required": [
+        "review_id",
+        "category",
+        "description",
+        "blocking_effect"
+      ]
+    },
+    "materialBlocker": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "review_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "blocking_effect": {
+          "const": "MaterialBlocker"
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/stringArray"
+        }
+      },
+      "required": [
+        "review_id",
+        "category",
+        "description",
+        "blocking_effect"
+      ]
+    },
+    "selectiveInheritanceRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "recovered_element": {
+          "type": "string",
+          "minLength": 1
+        },
+        "problem_or_opportunity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "proposed_medieval_war_adaptation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "additive_relationship": {
+          "type": "string",
+          "minLength": 1
+        },
+        "faction_uniqueness_value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "player_readability_value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "AI_and_implementation_impact": {
+          "type": "string",
+          "minLength": 1
+        },
+        "owner_boundary_impact": {
+          "type": "string",
+          "minLength": 1
+        },
+        "wholesale_copy": {
+          "const": false
+        },
+        "decision_status": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "source_name",
+        "source_type",
+        "recovered_element",
+        "problem_or_opportunity",
+        "proposed_medieval_war_adaptation",
+        "additive_relationship",
+        "faction_uniqueness_value",
+        "player_readability_value",
+        "AI_and_implementation_impact",
+        "owner_boundary_impact",
+        "wholesale_copy",
+        "decision_status"
+      ]
+    },
+    "recruitableUnitClassification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "applicability_scope_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "lifecycle_stage": {
+          "const": "StaticReviewOnly"
+        },
+        "quality": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "group_id": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "subgroup_id": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "faction_display_label": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "group_id",
+            "subgroup_id"
+          ]
+        },
+        "provider": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "primary_class_ids": {
+              "$ref": "#/$defs/nonEmptyStringArray"
+            },
+            "secondary_class_ids": {
+              "$ref": "#/$defs/stringArray"
+            },
+            "qualifier_ids": {
+              "$ref": "#/$defs/stringArray"
+            },
+            "binding_resolution_status": {
+              "enum": [
+                "Unresolved",
+                "PendingReview",
+                "HeldFromActivation",
+                "Resolved"
+              ]
+            },
+            "named_provider_binding_ids": {
+              "$ref": "#/$defs/stringArray"
+            }
+          },
+          "required": [
+            "primary_class_ids",
+            "secondary_class_ids",
+            "qualifier_ids",
+            "binding_resolution_status",
+            "named_provider_binding_ids"
+          ]
+        },
+        "development": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "minimum_state_ids": {
+              "$ref": "#/$defs/nonEmptyStringArray"
+            },
+            "alternative_paths": {
+              "$ref": "#/$defs/stringArray"
+            },
+            "calendar_alone_sufficient": {
+              "const": false
+            },
+            "building_alone_sufficient": {
+              "const": false
+            },
+            "research_alone_sufficient": {
+              "const": false
+            }
+          },
+          "required": [
+            "minimum_state_ids",
+            "alternative_paths",
+            "calendar_alone_sufficient",
+            "building_alone_sufficient",
+            "research_alone_sufficient"
+          ]
+        },
+        "pool": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "class_id": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "capacity_depth_id": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "recruitment_access_state_id": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "recovery_condition_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "scope_direction": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "depth_direction": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "overlap_group_ids": {
+              "$ref": "#/$defs/nonEmptyStringArray"
+            },
+            "new_recruitment_rule": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "replacement_rule": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "recovery_rule": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "depletion_rule": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "reopening_rule": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "closure_rule": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "survivor_persistence_rule": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "arbitrary_global_cap": {
+              "const": false
+            }
+          },
+          "required": [
+            "class_id",
+            "capacity_depth_id",
+            "recruitment_access_state_id",
+            "recovery_condition_id",
+            "scope_direction",
+            "depth_direction",
+            "overlap_group_ids",
+            "new_recruitment_rule",
+            "replacement_rule",
+            "recovery_rule",
+            "depletion_rule",
+            "reopening_rule",
+            "closure_rule",
+            "survivor_persistence_rule",
+            "arbitrary_global_cap"
+          ]
+        },
+        "era": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "opening_status_id": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "public_era_id": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "emergence_mode_id": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "persistence_rule": {
+              "$ref": "#/$defs/nonEmptyString"
+            }
+          },
+          "required": [
+            "opening_status_id",
+            "public_era_id",
+            "emergence_mode_id",
+            "persistence_rule"
+          ]
+        },
+        "battle": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "unit_type_id": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "primary_role_id": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "secondary_role_ids": {
+              "$ref": "#/$defs/stringArray"
+            },
+            "signature_behavior_ids": {
+              "$ref": "#/$defs/stringArray"
+            },
+            "formation_portfolio_ids": {
+              "$ref": "#/$defs/stringArray"
+            },
+            "strength_tags": {
+              "$ref": "#/$defs/stringArray"
+            },
+            "weakness_tags": {
+              "$ref": "#/$defs/stringArray"
+            },
+            "combat_card_evidence_refs": {
+              "$ref": "#/$defs/nonEmptyStringArray"
+            }
+          },
+          "required": [
+            "unit_type_id",
+            "primary_role_id",
+            "secondary_role_ids",
+            "signature_behavior_ids",
+            "formation_portfolio_ids",
+            "strength_tags",
+            "weakness_tags",
+            "combat_card_evidence_refs"
+          ]
+        }
+      },
+      "required": [
+        "applicability_scope_id",
+        "lifecycle_stage",
+        "quality",
+        "provider",
+        "development",
+        "pool",
+        "era",
+        "battle"
+      ]
+    },
+    "classificationTransferReceipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_master_profile_ref": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "source_master_profile_sha256": {
+          "type": "string",
+          "pattern": "^[A-Fa-f0-9]{64}$"
+        },
+        "source_classification_record_ref": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "source_classification_record_sha256": {
+          "type": "string",
+          "pattern": "^[A-Fa-f0-9]{64}$"
+        },
+        "applicability_scope_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "transferred_sections": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "quality",
+              "provider",
+              "development",
+              "pool",
+              "era",
+              "battle"
+            ]
+          },
+          "minItems": 6,
+          "maxItems": 6,
+          "uniqueItems": true
+        },
+        "source_evidence_receipts_preserved": {
+          "const": true
+        },
+        "source_content_preserved": {
+          "const": true
+        },
+        "summary_matches_full_record": {
+          "const": true
+        },
+        "semantic_and_source_cross_checks_passed": {
+          "const": true
+        },
+        "lifecycle_stage": {
+          "const": "StaticReviewOnly"
+        },
+        "unit_created": {
+          "const": false
+        },
+        "live_pool_created": {
+          "const": false
+        },
+        "runtime_binding_created": {
+          "const": false
+        },
+        "opening_state_changed": {
+          "const": false
+        }
+      },
+      "required": [
+        "source_master_profile_ref",
+        "source_master_profile_sha256",
+        "source_classification_record_ref",
+        "source_classification_record_sha256",
+        "applicability_scope_id",
+        "transferred_sections",
+        "source_evidence_receipts_preserved",
+        "source_content_preserved",
+        "summary_matches_full_record",
+        "semantic_and_source_cross_checks_passed",
+        "lifecycle_stage",
+        "unit_created",
+        "live_pool_created",
+        "runtime_binding_created",
+        "opening_state_changed"
+      ]
+    }
+  },
+  "properties": {
+    "document_control": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "document_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unit_definition_candidate_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stable_unit_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "registry_status": {
+          "enum": [
+            "Unresolved",
+            "Candidate",
+            "Reserved",
+            "Registered",
+            "Deprecated",
+            "Quarantined",
+            "ExternallyLocked"
+          ]
+        },
+        "filename": {
+          "type": "string",
+          "minLength": 1
+        },
+        "definition_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "schema_version": {
+          "const": "1.1.0"
+        },
+        "realm_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "roster_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unit_family_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "candidate_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scenario_scope": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "era_scope": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "Early",
+              "High",
+              "Late"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "status": {
+          "enum": [
+            "Draft",
+            "SourceReconciled",
+            "StaticChecked",
+            "ReviewRequired",
+            "Blocked",
+            "Quarantined"
+          ]
+        },
+        "authority_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "source_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "comparator_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "canonical_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "validation_status": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        }
+      },
+      "required": [
+        "document_id",
+        "unit_definition_candidate_id",
+        "registry_status",
+        "filename",
+        "definition_version",
+        "schema_version",
+        "realm_id",
+        "roster_id",
+        "unit_family_id",
+        "scenario_scope",
+        "era_scope",
+        "status",
+        "authority_refs",
+        "source_refs",
+        "validation_status"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "registry_status": {
+                "const": "Registered"
+              }
+            },
+            "required": [
+              "registry_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "stable_unit_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "canonical_path": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "stable_unit_id",
+              "canonical_path"
+            ]
+          }
+        }
+      ]
+    },
+    "maturity_and_promotion": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "maturity_stage": {
+          "enum": [
+            "MasterProfile",
+            "QualitativeImplementationReady",
+            "CrossFactionBalanceReady",
+            "NumericalDefinitionCandidate"
+          ]
+        },
+        "review_markers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/reviewMarker"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "material_blockers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/materialBlocker"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "classification_completeness_state": {
+          "enum": [
+            "NotStarted",
+            "InProgress",
+            "StaticClassificationComplete",
+            "Blocked"
+          ]
+        },
+        "classification_handoff_state": {
+          "enum": [
+            "NotReady",
+            "Blocked",
+            "QualitativeClassificationHandoffReady",
+            "CrossFactionComparisonReady"
+          ]
+        },
+        "exact_numerical_values_authorized": {
+          "const": false
+        },
+        "game_facing_card_embedded": {
+          "const": false
+        },
+        "canonical_promotion_authorized": {
+          "const": false
+        }
+      },
+      "required": [
+        "maturity_stage",
+        "review_markers",
+        "material_blockers",
+        "classification_completeness_state",
+        "classification_handoff_state",
+        "exact_numerical_values_authorized",
+        "game_facing_card_embedded",
+        "canonical_promotion_authorized"
+      ],
+      "description": "Noncanonical Unit Definition Candidate maturity only. GameFacingUnitCardReady and CanonicalImplementationReady are external later-stage contracts and are not states of this schema."
+    },
+    "source_bindings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "master_unit_profile_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "master_unit_profile_sha256": {
+          "type": "string",
+          "pattern": "^[A-Fa-f0-9]{64}$"
+        },
+        "qualitative_handoff_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "faction_expression_consolidation_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_evidence_receipts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidenceReceipt"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source_content_preserved": {
+          "const": true
+        }
+      },
+      "required": [
+        "master_unit_profile_ref",
+        "master_unit_profile_sha256",
+        "source_evidence_receipts",
+        "source_content_preserved"
+      ]
+    },
+    "classification_handoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_completeness_state": {
+          "const": "StaticClassificationComplete"
+        },
+        "source_handoff_state": {
+          "enum": [
+            "QualitativeClassificationHandoffReady",
+            "CrossFactionComparisonReady"
+          ]
+        },
+        "classification_material_blockers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/materialBlocker"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "classification_record": {
+          "$ref": "#/$defs/recruitableUnitClassification"
+        },
+        "transfer_receipt": {
+          "$ref": "#/$defs/classificationTransferReceipt"
+        },
+        "cross_consistency_checks": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "summary_matches_full_record": {
+              "const": true
+            },
+            "semantic_axes_consistent": {
+              "const": true
+            },
+            "specialist_source_fields_distinct": {
+              "const": true
+            },
+            "pool_axes_independent": {
+              "const": true
+            },
+            "applicability_and_card_basis_valid": {
+              "const": true
+            }
+          },
+          "required": [
+            "summary_matches_full_record",
+            "semantic_axes_consistent",
+            "specialist_source_fields_distinct",
+            "pool_axes_independent",
+            "applicability_and_card_basis_valid"
+          ]
+        }
+      },
+      "required": [
+        "source_completeness_state",
+        "source_handoff_state",
+        "classification_material_blockers",
+        "classification_record",
+        "transfer_receipt",
+        "cross_consistency_checks"
+      ]
+    },
+    "identity_and_ownership": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "display_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "short_display_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "legacy_names": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "realm_eligibility": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "regional_eligibility": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "cultural_and_social_basis": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "force_family": {
+          "type": "string",
+          "minLength": 1
+        },
+        "roster_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "definition_owner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "state_owner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "active_state_created_by_definition": {
+          "const": false
+        }
+      },
+      "required": [
+        "display_name",
+        "realm_eligibility",
+        "cultural_and_social_basis",
+        "force_family",
+        "roster_role",
+        "definition_owner",
+        "state_owner",
+        "active_state_created_by_definition"
+      ]
+    },
+    "semantic_classifications": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "troop_weight": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "training_character": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "provider_family": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "protection_family": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "shield_family": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "primary_weapon_family": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "secondary_weapon_families": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/semanticClassification"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "missile_weapon_family": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "formation_family": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/semanticClassification"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "battlefield_role_family": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/semanticClassification"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "cavalry_service_family": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "mount_service_family": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "availability_character": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "recovery_character": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "campaign_cost_character": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "command_character": {
+          "$ref": "#/$defs/semanticClassification"
+        },
+        "terrain_relationship": {
+          "$ref": "#/$defs/semanticClassification"
+        }
+      },
+      "required": [
+        "troop_weight",
+        "training_character",
+        "provider_family",
+        "protection_family",
+        "shield_family",
+        "primary_weapon_family",
+        "missile_weapon_family",
+        "formation_family",
+        "battlefield_role_family",
+        "cavalry_service_family",
+        "mount_service_family",
+        "availability_character",
+        "recovery_character",
+        "campaign_cost_character",
+        "command_character",
+        "terrain_relationship"
+      ]
+    },
+    "faction_expression_bindings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "expression_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "inherited_meaning": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "internal_variation": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "unit_exceptions": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "bindings_create_active_state": {
+          "const": false
+        }
+      },
+      "required": [
+        "expression_refs",
+        "inherited_meaning",
+        "unit_exceptions",
+        "bindings_create_active_state"
+      ]
+    },
+    "unit_specialization": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "authored_identity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provider_subset": {
+          "type": "string",
+          "minLength": 1
+        },
+        "equipment_specialization": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "formation_specialization": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "cavalry_or_mount_specialization": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "visual_specialization": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "campaign_specialization": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "adjacent_family_distinction": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        }
+      },
+      "required": [
+        "authored_identity",
+        "provider_subset",
+        "equipment_specialization",
+        "formation_specialization",
+        "visual_specialization",
+        "campaign_specialization",
+        "adjacent_family_distinction"
+      ]
+    },
+    "role_and_counterplay": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "primary_battlefield_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supporting_battlefield_roles": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "campaign_roles": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "strategic_value": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "strengths": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "weaknesses": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "misuse": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "counterplay": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "combined_arms_dependencies": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "deterministic_victory_claims": {
+          "const": false
+        },
+        "class_immunity_claims": {
+          "const": false
+        },
+        "hidden_AI_modifiers": {
+          "const": false
+        },
+        "local_defense_value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "expedition_suitability": {
+          "type": "string",
+          "minLength": 1
+        },
+        "garrison_suitability": {
+          "type": "string",
+          "minLength": 1
+        },
+        "maritime_compatibility": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "primary_battlefield_role",
+        "campaign_roles",
+        "strategic_value",
+        "strengths",
+        "weaknesses",
+        "misuse",
+        "counterplay",
+        "combined_arms_dependencies",
+        "deterministic_victory_claims",
+        "class_immunity_claims",
+        "hidden_AI_modifiers",
+        "local_defense_value",
+        "expedition_suitability",
+        "garrison_suitability"
+      ]
+    },
+    "equipment_and_protection": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "equipment_profile_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "primary_weapon": {
+          "type": "string",
+          "minLength": 1
+        },
+        "secondary_weapons": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "conditional_weapons": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "shield_presentation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "armor_presentation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "helmet_presentation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "clothing_and_materials": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ammunition_and_support_equipment": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "mount_profile_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rider_protection": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "horse_protection": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tack_and_harness": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "unsupported_exact_details": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "exact_equipment_stats_assigned": {
+          "const": false
+        }
+      },
+      "required": [
+        "equipment_profile_refs",
+        "primary_weapon",
+        "secondary_weapons",
+        "conditional_weapons",
+        "shield_presentation",
+        "armor_presentation",
+        "helmet_presentation",
+        "clothing_and_materials",
+        "ammunition_and_support_equipment",
+        "unsupported_exact_details",
+        "exact_equipment_stats_assigned"
+      ]
+    },
+    "training_and_experience": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "training_basis": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "experience_basis": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "cohesion_basis": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "command_dependency": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "replacement_training_burden": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "training_basis",
+        "experience_basis",
+        "cohesion_basis",
+        "command_dependency",
+        "replacement_training_burden"
+      ]
+    },
+    "formation_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "formation_definition_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "eligibility_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "proficiency_state": {
+          "enum": [
+            "Unresolved",
+            "Eligible",
+            "Practiced",
+            "Trained",
+            "Professional",
+            "Household",
+            "Elite"
+          ]
+        },
+        "readiness_owned_elsewhere": {
+          "const": true
+        },
+        "runtime_formation_state_owned_elsewhere": {
+          "const": true
+        },
+        "strongest_conditions": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "degradation_conditions": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "prohibited_bespoke_mechanics": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        }
+      },
+      "required": [
+        "formation_definition_refs",
+        "eligibility_refs",
+        "proficiency_state",
+        "readiness_owned_elsewhere",
+        "runtime_formation_state_owned_elsewhere",
+        "strongest_conditions",
+        "degradation_conditions",
+        "prohibited_bespoke_mechanics"
+      ]
+    },
+    "operating_environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "terrain_profile_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "route_profile_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "climate_profile_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "seasonal_limits": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "movement_burden": {
+          "type": "string",
+          "minLength": 1
+        },
+        "crossing_relationship": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "maritime_relationship": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "owner_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "concealment_or_scouting_relationship": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "terrain_profile_refs",
+        "route_profile_refs",
+        "climate_profile_refs",
+        "seasonal_limits",
+        "movement_burden",
+        "owner_refs"
+      ]
+    },
+    "recruitment_and_recovery_interfaces": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "provider_source_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "recruitment_pool_owner_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assignment_owner_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "muster_owner_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "recovery_owner_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "legal_service_or_contract_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "equipment_capacity_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "training_capacity_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "supply_and_route_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "availability_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "strongest_blocker": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "replacement_requirements": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "definition_creates_people": {
+          "const": false
+        },
+        "definition_creates_recruitment_pool": {
+          "const": false
+        },
+        "definition_creates_equipment_or_mounts": {
+          "const": false
+        },
+        "political_compliance_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "financial_capacity_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "regional_requirements": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "cultural_and_development_requirements": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        }
+      },
+      "required": [
+        "provider_source_refs",
+        "recruitment_pool_owner_ref",
+        "assignment_owner_ref",
+        "muster_owner_ref",
+        "recovery_owner_refs",
+        "legal_service_or_contract_refs",
+        "equipment_capacity_refs",
+        "training_capacity_refs",
+        "supply_and_route_refs",
+        "availability_summary",
+        "replacement_requirements",
+        "definition_creates_people",
+        "definition_creates_recruitment_pool",
+        "definition_creates_equipment_or_mounts",
+        "political_compliance_refs",
+        "financial_capacity_refs",
+        "regional_requirements",
+        "cultural_and_development_requirements"
+      ]
+    },
+    "lineage_and_progression": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "lineage_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "predecessor_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "successor_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "sibling_variant_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "development_outcome": {
+          "enum": [
+            "Continuity",
+            "Reform",
+            "SelectiveAdoption",
+            "Hybridization",
+            "EliteReplacement",
+            "RegionalCoexistence",
+            "Rejection",
+            "Fragmentation"
+          ]
+        },
+        "retained_elements": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "changed_elements": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "coexistence_policy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "obsolescence_policy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "migration_status": {
+          "enum": [
+            "Unresolved",
+            "NotApplicable",
+            "Candidate",
+            "DirectMigrationRequired",
+            "Registered",
+            "Blocked",
+            "Quarantined"
+          ]
+        }
+      },
+      "required": [
+        "lineage_id",
+        "predecessor_refs",
+        "successor_refs",
+        "sibling_variant_refs",
+        "development_outcome",
+        "retained_elements",
+        "changed_elements",
+        "coexistence_policy",
+        "obsolescence_policy",
+        "migration_status"
+      ]
+    },
+    "AI_guidance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "recruitment_priority_conditions": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "recruitment_avoidance_conditions": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "campaign_uses": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "battlefield_role_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "desired_support": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "terrain_and_route_preferences": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "reserve_or_commitment_guidance": {
+          "type": "string",
+          "minLength": 1
+        },
+        "garrison_guidance": {
+          "type": "string",
+          "minLength": 1
+        },
+        "replacement_and_supply_awareness": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "decisive_reasons": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "blockers": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "political_or_cultural_sensitivity": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        }
+      },
+      "required": [
+        "recruitment_priority_conditions",
+        "recruitment_avoidance_conditions",
+        "campaign_uses",
+        "battlefield_role_summary",
+        "desired_support",
+        "reserve_or_commitment_guidance",
+        "garrison_guidance",
+        "replacement_and_supply_awareness",
+        "decisive_reasons",
+        "blockers",
+        "political_or_cultural_sensitivity"
+      ]
+    },
+    "presentation_handoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "concise_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "availability_explanation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "recruitment_explanation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lineage_explanation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "player_use": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "historical_flavor": {
+          "type": "string",
+          "minLength": 1
+        },
+        "visual_brief_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "qualitative_card_brief": {
+          "type": "string",
+          "minLength": 1
+        },
+        "related_unit_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "game_facing_card_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "final_card_content_embedded": {
+          "const": false
+        },
+        "final_art_required_at_this_stage": {
+          "const": false
+        },
+        "cultural_path_explanation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "designer_notes": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "event_integration": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "objective_integration": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "animation_dependency_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "sound_dependency_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "model_and_material_dependency_refs": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "variation_limits": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "source_or_generation_evidence_refs": {
+          "$ref": "#/$defs/stringArray"
+        }
+      },
+      "required": [
+        "concise_role",
+        "description",
+        "availability_explanation",
+        "recruitment_explanation",
+        "lineage_explanation",
+        "player_use",
+        "historical_flavor",
+        "qualitative_card_brief",
+        "related_unit_refs",
+        "final_card_content_embedded",
+        "final_art_required_at_this_stage",
+        "cultural_path_explanation",
+        "designer_notes",
+        "event_integration",
+        "objective_integration",
+        "animation_dependency_refs",
+        "sound_dependency_refs",
+        "model_and_material_dependency_refs",
+        "variation_limits",
+        "source_or_generation_evidence_refs"
+      ]
+    },
+    "historical_basis": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "claim_status": {
+          "enum": [
+            "HistoricallyAttested",
+            "HistoricallySupportedRange",
+            "HistoricallyDisputed",
+            "HistoricallyAnachronistic",
+            "DesignInterpretation",
+            "GameplayAdaptation",
+            "CounterfactualDevelopment",
+            "Unresolved"
+          ]
+        },
+        "terminology_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "chronology_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_refs": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "design_adaptations": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "uncertainties": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "selective_inheritance_records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/selectiveInheritanceRecord"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "claim_status",
+        "terminology_status",
+        "chronology_status",
+        "source_refs",
+        "design_adaptations",
+        "uncertainties",
+        "selective_inheritance_records"
+      ]
+    },
+    "validation_and_effect_boundaries": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "intended_schema_version": {
+          "const": "1.1.0"
+        },
+        "validation_requirements": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "validation_performed": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "validation_not_performed": {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        },
+        "registry_mutation_authorized": {
+          "const": false
+        },
+        "opening_state_mutation_authorized": {
+          "const": false
+        },
+        "importer_execution_authorized": {
+          "const": false
+        },
+        "importer_authorized": {
+          "const": false
+        },
+        "schema_activation_authorized": {
+          "const": false
+        },
+        "payload_authorized": {
+          "const": false
+        },
+        "runtime_binding_created": {
+          "const": false
+        },
+        "runtime_mutation_authorized": {
+          "const": false
+        },
+        "save_or_migration_changed": {
+          "const": false
+        },
+        "unreal_asset_created": {
+          "const": false
+        },
+        "unreal_mutation_authorized": {
+          "const": false
+        },
+        "production_import_authorized": {
+          "const": false
+        }
+      },
+      "required": [
+        "intended_schema_version",
+        "validation_requirements",
+        "validation_performed",
+        "validation_not_performed",
+        "registry_mutation_authorized",
+        "opening_state_mutation_authorized",
+        "importer_execution_authorized",
+        "importer_authorized",
+        "schema_activation_authorized",
+        "payload_authorized",
+        "runtime_binding_created",
+        "runtime_mutation_authorized",
+        "save_or_migration_changed",
+        "unreal_asset_created",
+        "unreal_mutation_authorized",
+        "production_import_authorized"
+      ]
+    },
+    "prohibited_assumptions": {
+      "$ref": "#/$defs/nonEmptyStringArray"
+    },
+    "tactical_balance_evidence": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source_values_preserved": {
+          "type": "boolean"
+        },
+        "legacy_values": {
+          "type": "object",
+          "additionalProperties": true
+        },
+        "current_scale_owner_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "comparator_test_evidence": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "battle_validation_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "design_only_placeholders": {
+          "const": false
+        },
+        "unsupported_new_statistics": {
+          "const": false
+        }
+      },
+      "required": [
+        "source_values_preserved",
+        "current_scale_owner_ref",
+        "comparator_test_evidence",
+        "battle_validation_ref",
+        "design_only_placeholders",
+        "unsupported_new_statistics"
+      ]
+    },
+    "identity_relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Defines purpose separation among candidate, family, definition-candidate, and stable canonical identity.",
+      "properties": {
+        "unit_family_id_purpose": {
+          "const": "RosterAndLineageFamilyIdentity"
+        },
+        "candidate_id_purpose": {
+          "const": "AuthorityCandidateIdentityWhenPresent"
+        },
+        "unit_definition_candidate_id_purpose": {
+          "const": "PermanentOriginatingNoncanonicalDefinitionCandidateIdentity"
+        },
+        "stable_unit_id_purpose": {
+          "const": "CanonicalRegistryIdentityOnlyWhenRegistered"
+        },
+        "identities_are_interchangeable": {
+          "const": false
+        }
+      },
+      "required": [
+        "unit_family_id_purpose",
+        "candidate_id_purpose",
+        "unit_definition_candidate_id_purpose",
+        "stable_unit_id_purpose",
+        "identities_are_interchangeable"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "maturity_and_promotion": {
+            "properties": {
+              "maturity_stage": {
+                "enum": [
+                  "QualitativeImplementationReady",
+                  "CrossFactionBalanceReady",
+                  "NumericalDefinitionCandidate"
+                ]
+              }
+            },
+            "required": [
+              "maturity_stage"
+            ]
+          }
+        },
+        "required": [
+          "maturity_and_promotion"
+        ]
+      },
+      "then": {
+        "required": [
+          "classification_handoff"
+        ],
+        "properties": {
+          "maturity_and_promotion": {
+            "properties": {
+              "classification_completeness_state": {
+                "const": "StaticClassificationComplete"
+              }
+            }
+          },
+          "classification_handoff": {
+            "properties": {
+              "source_completeness_state": {
+                "const": "StaticClassificationComplete"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "maturity_and_promotion": {
+            "properties": {
+              "maturity_stage": {
+                "const": "QualitativeImplementationReady"
+              }
+            },
+            "required": [
+              "maturity_stage"
+            ]
+          }
+        },
+        "required": [
+          "maturity_and_promotion"
+        ]
+      },
+      "then": {
+        "properties": {
+          "maturity_and_promotion": {
+            "properties": {
+              "classification_handoff_state": {
+                "enum": [
+                  "QualitativeClassificationHandoffReady",
+                  "CrossFactionComparisonReady"
+                ]
+              }
+            }
+          },
+          "classification_handoff": {
+            "properties": {
+              "classification_material_blockers": {
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "maturity_and_promotion": {
+            "properties": {
+              "maturity_stage": {
+                "enum": [
+                  "CrossFactionBalanceReady",
+                  "NumericalDefinitionCandidate"
+                ]
+              }
+            },
+            "required": [
+              "maturity_stage"
+            ]
+          }
+        },
+        "required": [
+          "maturity_and_promotion"
+        ]
+      },
+      "then": {
+        "properties": {
+          "maturity_and_promotion": {
+            "properties": {
+              "classification_handoff_state": {
+                "const": "CrossFactionComparisonReady"
+              }
+            }
+          },
+          "classification_handoff": {
+            "properties": {
+              "source_handoff_state": {
+                "const": "CrossFactionComparisonReady"
+              },
+              "classification_material_blockers": {
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "x-copy-first-disposition": {
+    "source_schema": "Unit_Definition_Schema_V1.json",
+    "source_preserved_as_legacy_donor": true,
+    "preserved_directly": [
+      "identity",
+      "role",
+      "equipment",
+      "training_and_experience",
+      "formation_eligibility",
+      "operating_environment",
+      "recruitment",
+      "supply_and_replacement",
+      "combat_identity",
+      "tactical_balance_evidence",
+      "lineage",
+      "AI_guidance",
+      "presentation",
+      "historical_basis",
+      "implementation",
+      "prohibited_assumptions"
+    ],
+    "rehomed_or_renamed": {
+      "identity": "identity_and_ownership plus identity_relationship",
+      "role and combat_identity": "role_and_counterplay",
+      "equipment": "equipment_and_protection plus semantic_classifications",
+      "formation_eligibility": "formation_contract",
+      "recruitment and supply_and_replacement": "recruitment_and_recovery_interfaces",
+      "presentation": "presentation_handoff with final Game-Facing Unit Card excluded",
+      "implementation": "validation_and_effect_boundaries",
+      "Step 3 classification handoff": "classification_handoff with a source-bound StaticReviewOnly classification record and transfer receipt"
+    },
+    "removed_without_ledger": []
+  }
+}

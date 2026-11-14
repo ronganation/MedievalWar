@@ -1,0 +1,13 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N20_nondeterministic",
+  "mutated_candidate": {
+    "same_input_hashes": [
+      "A",
+      "B"
+    ]
+  },
+  "result": "PASS",
+  "rule": "DeterministicImport"
+}

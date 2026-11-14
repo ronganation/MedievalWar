@@ -1,0 +1,117 @@
+DocumentControl:
+  SchemaId: schema.france.characters.v1
+  SchemaVersion: 1.0.0
+  PackageId: package.france.current-candidate.v1
+  RealmIdCandidate: realm.france
+  ScenarioId: mw.scenario.grand_campaign.1062
+  RevisionDate: '2026-09-03'
+  SourceAuthorities:
+  - France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  CandidateOnly: true
+  OpeningStateActivation: false
+  RegistryPromotion: false
+  UnrealImport: false
+  RuntimeEligible: false
+Records:
+- RecordId: person.philip_i_france
+  RecordType: PersonCandidate
+  Disposition: FranceCanonicalCandidate
+  OwningAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  OwningRegistry: FranceCharacterOwner
+  SourceAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  EvidenceDisposition: AuthoritySupportedCandidateNotProjectCanonical
+  ExternalOwnerLock: false
+  OpeningStateEligibility: CandidateReviewOnly
+  RuntimeEligibility: NotEligible
+  StateVersion: 1
+  BlockingReviews:
+  - OpeningStateOwnerBinding
+  LifecycleCandidate: LivingUnderageCrowned
+  IndependentFieldCommandAuthorized: false
+  RuntimeAgencyAuthorized: null
+- RecordId: person.anne_kiev
+  RecordType: PersonCandidate
+  Disposition: FranceCanonicalCandidate
+  OwningAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  OwningRegistry: FranceCharacterOwner
+  SourceAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  EvidenceDisposition: AuthoritySupportedCandidateNotProjectCanonical
+  ExternalOwnerLock: false
+  OpeningStateEligibility: CandidateReviewOnly
+  RuntimeEligibility: NotEligible
+  StateVersion: 1
+  BlockingReviews:
+  - OpeningStateOwnerBinding
+  LifecycleCandidate: LivingAdult
+  IndependentFieldCommandAuthorized: null
+  RuntimeAgencyAuthorized: null
+- RecordId: person.hugh_france_1057
+  RecordType: PersonCandidate
+  Disposition: FranceCanonicalCandidate
+  OwningAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  OwningRegistry: FranceCharacterOwner
+  SourceAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  EvidenceDisposition: AuthoritySupportedCandidateNotProjectCanonical
+  ExternalOwnerLock: false
+  OpeningStateEligibility: CandidateReviewOnly
+  RuntimeEligibility: NotEligible
+  StateVersion: 1
+  BlockingReviews:
+  - OpeningStateOwnerBinding
+  LifecycleCandidate: LivingUnderageProtected
+  IndependentFieldCommandAuthorized: false
+  RuntimeAgencyAuthorized: null
+- RecordId: person.henry_i_france
+  RecordType: PersonCandidate
+  Disposition: HistoricalOnly
+  OwningAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  OwningRegistry: FranceCharacterOwner
+  SourceAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  EvidenceDisposition: AuthoritySupportedCandidateNotProjectCanonical
+  ExternalOwnerLock: false
+  OpeningStateEligibility: CandidateReviewOnly
+  RuntimeEligibility: NotEligible
+  StateVersion: 1
+  BlockingReviews:
+  - OpeningStateOwnerBinding
+  LifecycleCandidate: DeceasedNoRuntimeAgency
+  IndependentFieldCommandAuthorized: null
+  RuntimeAgencyAuthorized: false
+- RecordId: person.ralph_iv_valois
+  RecordType: PersonCandidate
+  Disposition: ReviewOnly
+  OwningAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  OwningRegistry: FranceCharacterOwner
+  SourceAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  EvidenceDisposition: AuthoritySupportedCandidateNotProjectCanonical
+  ExternalOwnerLock: false
+  OpeningStateEligibility: CandidateReviewOnly
+  RuntimeEligibility: NotEligible
+  StateVersion: 1
+  BlockingReviews:
+  - OpeningStateOwnerBinding
+  LifecycleCandidate: LivingAdult
+  IndependentFieldCommandAuthorized: null
+  RuntimeAgencyAuthorized: null
+- RecordId: person.theobald_iii_blois
+  RecordType: PersonCandidate
+  Disposition: ReviewOnly
+  OwningAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  OwningRegistry: FranceCharacterOwner
+  SourceAuthority: France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+  EvidenceDisposition: AuthoritySupportedCandidateNotProjectCanonical
+  ExternalOwnerLock: false
+  OpeningStateEligibility: CandidateReviewOnly
+  RuntimeEligibility: NotEligible
+  StateVersion: 1
+  BlockingReviews:
+  - OpeningStateOwnerBinding
+  LifecycleCandidate: LivingAdult
+  IndependentFieldCommandAuthorized: null
+  RuntimeAgencyAuthorized: null
+ReviewQueue: []
+Quarantine: []
+Validation:
+  ParseStatus: PendingFinalBundleValidation
+  SchemaStatus: CandidateSchema
+  OwnerStatus: PendingProjectAndExternalReceipts

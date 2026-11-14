@@ -1,0 +1,37 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstSubstantiveCarryForwardWithFormattingAndDiscoveryCorrection",
+  "source_folder": "https://cuny907-my.sharepoint.com/:f:/r/personal/bryan_ronga07_login_cuny_edu/Documents/Projects/Medieval%20War/Medieval%20War%20(England)/Project_Bible/Theaters/West%20Francia?d=w57f503fce16b45f1a494615a2a09aefe&csf=1&web=1&e=88a15Y",
+  "immediate_substantive_source": "Western_Francia_Theater_Source_Authority_Implementation_and_Package_Discovery_V1.1_Current_Authority_Correction.md",
+  "authority_file": "Western_Francia_Theater_Source_Authority_Implementation_and_Package_Discovery_V1.2_Current_Authority_Correction.md",
+  "authority_bytes": 18342,
+  "authority_lines": 530,
+  "authority_sections": 20,
+  "authority_sha256": "f893cb65794a711c118c40c74e0302f40a5105ade9ee78be2bcfffbaa5255088",
+  "verified_top_level_folders": 10,
+  "verified_realm_packages": [
+    "Aquitaine",
+    "Brittany",
+    "Flanders",
+    "France",
+    "Normandy"
+  ],
+  "superseded_outputs": [
+    "Western_Francia_Theater_Source_Authority_Implementation_and_Package_Discovery_V1.md",
+    "Western_Francia_Theater_Source_Authority_Implementation_and_Package_Discovery_V1.1_Current_Authority_Correction.md"
+  ],
+  "substantive_content_removed": false,
+  "source_files_modified": 0,
+  "folders_created": 0,
+  "files_moved": 0,
+  "files_deleted": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "migration_executions": 0,
+  "Unreal_mutations": 0,
+  "runtime_mutations": 0,
+  "static_check_file": "Western_Francia_Theater_Source_Authority_Implementation_and_Package_Discovery_V1.2_Current_Authority_Correction_Static_Check.json",
+  "static_check_sha256": "af82bb955a6b54eca3e0efdbf12905f3fa25b009373c9015e8425dbe1d6a6701",
+  "all_checks_passed": true,
+  "validation_scope": "corrected static discovery authority grounded in the supplied folder view and West Francia organization authorities; no recursive package scan, source opening for Theater V2, physical placement execution, Registry or Opening State mutation, importer, migration, Unreal, runtime, save, replay, performance, or battle validation"
+}

@@ -1,0 +1,19 @@
+{
+  "document": "Royal_Huscarl_Guard_V1_Master_Unit_Profile.md",
+  "sha256": "2f9efacdc286c3b9d6f92b4037fabbc2007e98f84dd46dc6ab5e502edfa4ce8e",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "size_strong": true,
+    "terrain_25": true,
+    "parent_reviewed": true,
+    "parent_persists": true,
+    "S05": true,
+    "royal_depth": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "detachment_scale": true
+  }
+}

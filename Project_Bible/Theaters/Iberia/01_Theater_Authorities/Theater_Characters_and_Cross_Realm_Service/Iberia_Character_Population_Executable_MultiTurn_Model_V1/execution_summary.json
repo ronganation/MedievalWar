@@ -1,0 +1,27 @@
+{
+  "base": {
+    "living": 23,
+    "dead": 2,
+    "exited": 2,
+    "active": 4,
+    "materialized": 3,
+    "hash": "5f819fd7f6328a1f4627f0f24e8bc41526605ca1b4bc02a4e2c0bf22c018044c"
+  },
+  "A": {
+    "living": 23,
+    "dead": 2,
+    "exited": 2,
+    "active": 4,
+    "materialized": 3,
+    "hash": "65c109bf84d6bee70eefad98d3a80fac45299904afa3bfd488b95257d776927b"
+  },
+  "B": {
+    "living": 23,
+    "dead": 2,
+    "exited": 2,
+    "active": 5,
+    "materialized": 3,
+    "hash": "7a6fcc7ad60e3062e3b52b93bd69838bc6437fbf4c728228fdd5eb41834b9f30"
+  },
+  "rollback": true
+}

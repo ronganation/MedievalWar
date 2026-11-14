@@ -1,0 +1,58 @@
+﻿{
+    "document_id":  "mw.shared-opening-state.runtime-bridge-scaffold.v1",
+    "generated_utc":  "2026-08-25T01:14:51.8012362Z",
+    "implementation_target":  "Unreal Engine 5.8",
+    "disposable_clone_root":  "C:\\temp2\\MedievalWar_SharedOpeningState_RuntimeBridge_Clone_V1",
+    "classification":  "RuntimeBridgeScaffoldCreatedNotCompiledNotExecuted",
+    "checks":  {
+                   "runtime_module_declared":  true,
+                   "runtime_module_type_declared":  true,
+                   "no_editor_module_dependency":  true,
+                   "active_turn_owner_invoked":  true,
+                   "active_save_owner_invoked":  true,
+                   "advanced_campaign_guard_present":  true,
+                   "apply_once_guard_present":  true,
+                   "owner_commit_guard_present":  true,
+                   "runtime_envelope_contains_campaign_state":  true,
+                   "InstallLoadedCampaignState_absent":  true,
+                   "active_source_mutation_performed":  false,
+                   "opening_state_application_performed":  false
+               },
+    "active_source_mutation_performed":  false,
+    "opening_state_application_performed":  false,
+    "compile_executed":  false,
+    "runtime_executed":  false,
+    "item_4_complete":  false,
+    "records":  [
+                    {
+                        "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedOpeningStateRuntimeBridge/MWSharedOpeningStateRuntimeBridge.Build.cs",
+                        "bytes":  480,
+                        "sha256":  "FAA6B4507CB621F6E3A1273264E7E7288B6D0AF45515E8F191ECFB869528DDAE"
+                    },
+                    {
+                        "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedOpeningStateRuntimeBridge/Private/MWSharedOpeningStateRuntimeBridgeModule.cpp",
+                        "bytes":  219,
+                        "sha256":  "415C50EE05BA4D403A421DB2EC8F81F95307412970E4CF364E3DE2BA41D8CBCC"
+                    },
+                    {
+                        "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedOpeningStateRuntimeBridge/Private/MWSharedOpeningStateRuntimeBridgeSubsystem.cpp",
+                        "bytes":  2975,
+                        "sha256":  "974B4559FBB509E5DBC9E716059CAAA712B118B0A3AD32B49B4320E6F39ABC3F"
+                    },
+                    {
+                        "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedOpeningStateRuntimeBridge/Private/Tests/MWSharedOpeningStateRuntimeBridgeContractTests.cpp",
+                        "bytes":  1273,
+                        "sha256":  "F56319442B9A97BAF1C0D33B7CD919A91F364DB6516B460AF4BB230526A5C75F"
+                    },
+                    {
+                        "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedOpeningStateRuntimeBridge/Public/MWSharedOpeningStateRuntimeBridgeSubsystem.h",
+                        "bytes":  793,
+                        "sha256":  "9A3A50379C758FBE783E666D4994D80B79C9F515CEADC50AC67CB860E6E3D0E7"
+                    },
+                    {
+                        "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedOpeningStateRuntimeBridge/Public/MWSharedOpeningStateRuntimeTypes.h",
+                        "bytes":  1400,
+                        "sha256":  "20ED2B1025076B32EBD52EB71F09484EB2B2B6D774A024775BCF4A0A161B8782"
+                    }
+                ]
+}

@@ -1,0 +1,14 @@
+{
+  "FileName": "Burgundy_Implementation_Acceptance_Evidence_and_Rollback_Matrix_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "80dc1f18531de5b0fcda2fd7edf57f34445ef06e37b02ad6dc4185041b034d5b",
+  "Bytes": 20249,
+  "Lines": 539,
+  "Placement": "Burgundy/13_Future_Implementation_Handoff",
+  "BatchMatrixRecords": 15,
+  "EvidenceClasses": 12,
+  "RollbackClasses": 6,
+  "StatusPromotionsExecuted": 0,
+  "ImplementationStarted": false,
+  "ValidationResult": "PassStaticMatrixChecksOnly"
+}

@@ -1,0 +1,29 @@
+{
+  "document_id": "mw.realm.scotland.army-fleet-military-capability.v1",
+  "authority_id": "authority.scotland.army-fleet-military-capability.v1",
+  "stable_document_id": "MilitaryCapability.Realm.Scotland",
+  "filename": "Scotland_Army_Fleet_and_Military_Capability_V1.md",
+  "version": "1.0.0",
+  "status": "Static-Checked Draft",
+  "sha256": "8b54869c0b57d0a24329a21cf62761fdf7852976b3fe3c050e312b5cac7c2698",
+  "bytes": 71966,
+  "lines": 1826,
+  "sections": 46,
+  "opening_forces_created": 0,
+  "opening_commands_created": 0,
+  "opening_fleets_created": 0,
+  "opening_garrisons_created": 0,
+  "Registry_mutation_performed": false,
+  "Opening_State_activation_performed": false,
+  "runtime_mutation_performed": false,
+  "validation": {
+    "compile": false,
+    "runtime": false,
+    "importer": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "performance": false
+  },
+  "next_file": "Scotland_Settlements_Ports_Islands_and_Strategic_Sites_V1.md"
+}

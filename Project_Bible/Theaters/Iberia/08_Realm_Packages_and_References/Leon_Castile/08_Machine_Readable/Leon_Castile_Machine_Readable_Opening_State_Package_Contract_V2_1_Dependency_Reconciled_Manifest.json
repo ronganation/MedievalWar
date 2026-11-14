@@ -1,0 +1,60 @@
+{
+  "document_id": "Manifest.Contract.LeonCastile.MachineReadableOpeningState.V2_1",
+  "authority_file": "Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_1_Dependency_Reconciled.md",
+  "version": "2.1.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/08_Machine_Readable",
+  "bytes": 32314,
+  "physical_lines": 731,
+  "sha256": "52162A8F961F701C0FC21289B1B7F7D67B49F3C365F20EE48AEDAD3CA1753A05",
+  "immediate_substantive_source": "Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_Brother_Mechanics_Integrated.md",
+  "source_version": "2.0.0",
+  "source_treatment": "CompleteSectionBySectionSubstantiveCarryForwardWithDependencyAndStatusReconciliation",
+  "controlling_opening_authority": "Leon_Castile_Opening_State_1062_V2_2_Dependency_Reconciled_Authority.md",
+  "controlling_opening_authority_sha256": "19ae743b4cdfd4255187735e60260c38971b996850bfd167a7fd8de39e3ac44c",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "all_prior_numbered_subjects_preserved": true,
+    "opening_v2_2_bound": true,
+    "v2_1_provenance_preserved": true,
+    "three_profiles_present": true,
+    "temporal_model_present": true,
+    "explicit_empty_count_present": true,
+    "promotion_block_present": true,
+    "removal_ledger_empty": true
+  },
+  "status": "StaticCheckedDependencyReconciledContractPromotionBlocked",
+  "removal_ledger": {
+    "SubstantiveSubjects": [],
+    "TemporalRules": [],
+    "ValidationBoundaries": [],
+    "ExplicitEmptyRequirements": [],
+    "MigrationOrDeterminismRules": []
+  },
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "validation_boundary": {
+    "ColocatedSchema": "NOT_RUN",
+    "OfflineFixtures": "NOT_RUN",
+    "Importer": "NOT_RUN",
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "Promotion": "PROHIBITED"
+  },
+  "next_file": "Leon_Castile_Opening_State_Package_Schema_V2_Manifest_V1_1.json",
+  "all_static_checks_pass": true
+}

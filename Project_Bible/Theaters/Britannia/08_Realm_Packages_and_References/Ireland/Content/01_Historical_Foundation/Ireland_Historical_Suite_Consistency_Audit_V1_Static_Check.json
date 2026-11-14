@@ -1,0 +1,16 @@
+{
+  "target": "Ireland_Historical_Suite_Consistency_Audit_V1.md",
+  "status": "PASS",
+  "checks": {
+    "four_primary_authorities": true,
+    "four_corrections": true,
+    "five_followups": true,
+    "seven_momentum_ids": true,
+    "three_tracks": true,
+    "pass_with_corrections": true,
+    "promotion_false": true,
+    "honest_validation": true,
+    "no_mutation": true,
+    "all_pass": true
+  }
+}

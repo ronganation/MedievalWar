@@ -1,0 +1,69 @@
+{
+  "ArtifactId": "Seville_Taifa_Historical_Uncertainty_Evidence_and_Chronology_Register_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_HISTORICAL_UNCERTAINTY_EVIDENCE_CHRONOLOGY_REGISTER",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "a12bc5f76dfc7d052a11db30f3cfbec188b27871f533d34ca4801556f4fb8ab5",
+  "SourceBytes": 35341,
+  "Counts": {
+    "RegisterProfiles": 1,
+    "SourceClasses": 10,
+    "ClaimStatuses": 10,
+    "ChronologyPrecisionClasses": 8,
+    "OpeningCoreClaimsReviewed": 15,
+    "OpeningUnresolvedClaimFamilies": 18,
+    "LaterCandidateClaimFamilies": 12,
+    "FatalOpeningContradictions": 0,
+    "OpeningPromotionsAuthorized": 0,
+    "OpeningStateMutations": 0
+  },
+  "OpeningCore": {
+    "ActiveRealmShells": 1,
+    "ActiveLivingCharacters": 2,
+    "DynastyDefinitionBindings": 1,
+    "CapitalBindings": 1,
+    "SuperiorPoliticalAuthorityBindings": 7,
+    "AcceptedDirectedKinshipEdges": 2,
+    "FormalHeirOffices": 0,
+    "GuaranteedAccessions": 0,
+    "ActiveFormerPolities": 0
+  },
+  "Protections": {
+    "SourceMentionEqualsFact": false,
+    "LaterFactEqualsOpeningFact": false,
+    "UnknownEqualsZero": false,
+    "DateWindowEqualsTrigger": false,
+    "AlMutamidFormalHeir": false,
+    "AlMutamidAccessionGuaranteed": false,
+    "IbnAmmar": "ReviewOnlyCandidate",
+    "AlRumaikiyya": "ReviewOnlyCandidate",
+    "AlmoravidIntervention": "ExternalOwnerLockedPostOpeningCandidate",
+    "OpeningStateReplay": false
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryMutated": false,
+    "OpeningStateMutated": false,
+    "HistoricalFactsPromoted": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Domestic_Order_Legitimacy_Grievance_and_Restoration_Authority_V1.md."
+}

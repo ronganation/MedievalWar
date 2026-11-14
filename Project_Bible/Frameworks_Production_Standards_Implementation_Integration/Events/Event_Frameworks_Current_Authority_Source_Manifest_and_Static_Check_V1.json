@@ -1,0 +1,283 @@
+{
+  "document_control": {
+    "document_id": "manifest.event-frameworks.current-authority-source-static-check.v1",
+    "stable_document_id": "Manifest.EventFrameworks.CurrentAuthoritySourceStaticCheck",
+    "filename": "Event_Frameworks_Current_Authority_Source_Manifest_and_Static_Check_V1.json",
+    "version": "1.0.0",
+    "revision_date": "2026-09-23",
+    "project": "Medieval War",
+    "document_type": [
+      "CurrentAuthoritySourceManifest",
+      "StaticCheckRecord",
+      "PredecessorDispositionRegister",
+      "OwnerReviewGate",
+      "NonmutationReceipt"
+    ],
+    "constitutional_authority": "Project Bible 2.4",
+    "operational_authority": "Design Expansion Checklist 3.7",
+    "architecture_authority": "Framework Architecture Map V2.1 owner-review candidate",
+    "framework_registry": "README Frameworks V5.1 owner-review candidate",
+    "integration_operating_guide": "README Integration Authorities V2.1 owner-review candidate",
+    "implementation_target": "Unreal Engine 5.8",
+    "scenario_opening": {
+      "historical_date": "1062-01-01",
+      "campaign_season": "Winter"
+    },
+    "historical_progression": "21MonthsPerStrategicTurn",
+    "biological_progression": "7MonthsPerStrategicTurn",
+    "campaign_season_progression": "OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn",
+    "status": "StaticCheckedEventsFamilySourceManifestOwnerReviewRequired",
+    "physical_recursive_inventory_complete": false,
+    "exact_physical_file_count_claimed": false,
+    "owner_adoption_complete": false,
+    "implementation_promotion_authorized": false
+  },
+  "purpose": "Bind the Events family current-authority candidate, additive predecessor chain, navigation index, authoring brief, and project-wide owner-adoption routing without treating search duplication as physical duplication or documentation closure as implementation evidence.",
+  "family_position": {
+    "family": "HistoricalEventsObjectivesDevelopmentsCrisesAndOpportunities",
+    "current_entry_point": "Event_Frameworks_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+    "current_substantive_authority_candidate": "Medieval_War_Historical_Event_Objective_Development_Crisis_and_Opportunity_Framework_V1_4_Authoring_Content_Packs_Presentation_and_Observability_Expansion_FULL.md",
+    "stable_framework_id": "Framework.HistoricalEventObjectiveDevelopmentCrisisOpportunity",
+    "candidate_version": "1.4.0",
+    "candidate_status": "StaticCheckedExpandedFrameworkCandidateOwnerReviewRequired",
+    "static_design_position": "CandidateFamilySpineCompleteForRecordedScopePendingIndependentClosureAndOwnerDisposition",
+    "runtime_status": "NotImplemented",
+    "design_reopening_default": false
+  },
+  "source_chain": [
+    {
+      "sequence": 1,
+      "filename": "Medieval_War_Historical_Event_Objective_and_Development_System_Framework_Chat_Handoff_Prompt_V1.md",
+      "classification": "AuthoringBrief",
+      "disposition": "RetainAsAuthoringProvenanceNotSubstantiveAuthority",
+      "sha256": null,
+      "hash_status": "UnknownPendingExactByteInventory"
+    },
+    {
+      "sequence": 2,
+      "filename": "Medieval_War_Historical_Event_Objective_Development_Crisis_and_Opportunity_Framework_V1.md",
+      "version": "1.0.0",
+      "classification": "InitialProjectWideIntegrationAuthority",
+      "disposition": "SupersededByV1_1RetainAsCompleteSubstantiveProvenance",
+      "physical_lines": 1007,
+      "bytes": 40919,
+      "sha256": "4e96fa669e117347ed0ec1c866cdccec06265a7a8b6f292dfc7a4fd448324d61",
+      "hash_status": "RecordedAndSuccessorVerified"
+    },
+    {
+      "sequence": 3,
+      "filename": "Medieval_War_Historical_Event_Objective_Development_Crisis_and_Opportunity_Framework_V1_1_Lifecycle_State_and_Historical_Interface_Expansion_FULL.md",
+      "version": "1.1.0",
+      "classification": "AdditiveLifecycleAndHistoricalInterfaceSuccessor",
+      "immediate_substantive_source": "Medieval_War_Historical_Event_Objective_Development_Crisis_and_Opportunity_Framework_V1.md",
+      "disposition": "SupersededByV1_2RetainAsCompleteSubstantiveProvenance",
+      "physical_lines": 1715,
+      "bytes": 65700,
+      "sha256": "954fddd1261c73b54c8f07701534a7d591b4b1db6ffe5a9dd7cfa1dec0e59c67",
+      "hash_status": "RecordedAndSuccessorVerified"
+    },
+    {
+      "sequence": 4,
+      "filename": "Medieval_War_Historical_Event_Objective_Development_Crisis_and_Opportunity_Framework_V1_2_Competition_Persistence_and_Validation_Expansion_FULL.md",
+      "version": "1.2.0",
+      "classification": "AdditiveCompetitionPersistenceAndValidationSuccessor",
+      "immediate_substantive_source": "Medieval_War_Historical_Event_Objective_Development_Crisis_and_Opportunity_Framework_V1_1_Lifecycle_State_and_Historical_Interface_Expansion_FULL.md",
+      "disposition": "SupersededByV1_3RetainAsCompleteSubstantiveProvenance",
+      "physical_lines": 2513,
+      "bytes": 94445,
+      "sha256": "0c1ab0d3d3a223ef22dd2e293f2d3d3563e2cce74f115585c32d0c37a8c4ab86",
+      "hash_status": "RecordedAndSuccessorVerified"
+    },
+    {
+      "sequence": 5,
+      "filename": "Medieval_War_Historical_Event_Objective_Development_Crisis_and_Opportunity_Framework_V1_3_Arbitration_Test_Cases_and_Execution_Checklist_FULL.md",
+      "version": "1.3.0",
+      "classification": "AdditiveArbitrationMigrationRollbackAndExecutionChecklistSuccessor",
+      "immediate_substantive_source": "Medieval_War_Historical_Event_Objective_Development_Crisis_and_Opportunity_Framework_V1_2_Competition_Persistence_and_Validation_Expansion_FULL.md",
+      "disposition": "SupersededByV1_4RetainAsCompleteSubstantiveProvenance",
+      "physical_lines": 3118,
+      "bytes": 117179,
+      "sha256": "9f1f729c1168ee5eac9d1bea93ed8fb8819df12fd1007fdb1ca3605f372645bd",
+      "hash_status": "RecordedAndSuccessorVerified"
+    },
+    {
+      "sequence": 6,
+      "filename": "Medieval_War_Historical_Event_Objective_Development_Crisis_and_Opportunity_Framework_V1_4_Authoring_Content_Packs_Presentation_and_Observability_Expansion_FULL.md",
+      "version": "1.4.0",
+      "classification": "CurrentSubstantiveAuthorityCandidate",
+      "immediate_substantive_source": "Medieval_War_Historical_Event_Objective_Development_Crisis_and_Opportunity_Framework_V1_3_Arbitration_Test_Cases_and_Execution_Checklist_FULL.md",
+      "disposition": "CurrentCandidatePendingOwnerAdoption",
+      "physical_lines": null,
+      "bytes": null,
+      "sha256": null,
+      "hash_status": "UnknownPendingExactByteInventory"
+    }
+  ],
+  "supporting_artifacts": [
+    {
+      "filename": "Event_Frameworks_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "classification": "CurrentAuthorityIndex",
+      "disposition": "CurrentNavigationCandidatePendingOwnerReview",
+      "sha256": null,
+      "hash_status": "UnknownPendingExactByteInventory"
+    },
+    {
+      "filename": "Project_Wide_Authority_Candidate_Owner_Adoption_and_Disposition_Preflight_Ledger_V1_1_Integrated_Events_Family_Update_FULL.md",
+      "classification": "ProjectWideOwnerAdoptionPreflightLedger",
+      "disposition": "CurrentProjectWideRoutingAndPreflightEvidenceNotSubstantiveFramework",
+      "sha256": null,
+      "hash_status": "UnknownInThisManifestPendingExactByteInventory"
+    }
+  ],
+  "copy_first_completeness": {
+    "stable_framework_id_preserved_across_v1_to_v1_4": true,
+    "v1_body_carried_into_v1_1": true,
+    "v1_1_complete_body_carried_into_v1_2": true,
+    "v1_2_complete_body_carried_into_v1_3": true,
+    "v1_3_complete_body_carried_into_v1_4": true,
+    "shorter_summary_replacement_detected": false,
+    "substantive_removal_claimed": false,
+    "predecessor_deletion_authorized": false,
+    "note": "Completeness findings are bounded to the explicit carry-forward and validation receipts recorded in the surfaced authority chain. They do not replace exact byte-by-byte comparison of every physical artifact."
+  },
+  "authority_and_ownership_static_checks": {
+    "event_definition_and_instance_lifecycle_owner_named": true,
+    "CampaignExperience_objective_ownership_preserved": true,
+    "CampaignHistory_occurrence_ownership_preserved": true,
+    "HistoricalMemory_ownership_preserved": true,
+    "HistoricalMomentum_ownership_preserved": true,
+    "HistoricalEmergence_ownership_preserved": true,
+    "InformationAndIntelligence_visibility_ownership_preserved": true,
+    "specialist_owner_consequence_mutation_preserved": true,
+    "AI_direct_mutation_prohibited": true,
+    "definition_instance_separation_present": true,
+    "owner_request_receipt_and_atomic_commit_boundaries_present": true,
+    "unknown_not_zero_boundary_present": true,
+    "silence_not_consent_boundary_present": true,
+    "date_not_trigger_boundary_present": true,
+    "nonoccurrence_supported": true,
+    "advanced_save_protection_present": true
+  },
+  "coverage_static_checks": {
+    "definition_and_instance_contracts": "PASS_RECORDED_SCOPE",
+    "lifecycle_state_transition_and_terminal_semantics": "PASS_RECORDED_SCOPE",
+    "competition_priority_collision_and_arbitration": "PASS_RECORDED_SCOPE",
+    "cooldown_saturation_and_attention_budget": "PASS_RECORDED_SCOPE",
+    "objective_history_memory_momentum_emergence_interfaces": "PASS_RECORDED_SCOPE",
+    "save_restore_migration_replay_rollback_and_quarantine": "PASS_RECORDED_SCOPE",
+    "authoring_admission_and_content_pack_contracts": "PASS_RECORDED_SCOPE",
+    "presentation_notification_Codex_localization_accessibility": "PASS_RECORDED_SCOPE",
+    "observability_reason_codes_defect_triage_and_tooling_boundaries": "PASS_RECORDED_SCOPE",
+    "synthetic_fixture_design_catalogue": "PASS_STATIC_DESIGN_ONLY",
+    "executed_fixture_evidence": "NOT_PERFORMED"
+  },
+  "literal_and_submission_hygiene": {
+    "V1_3_reported_template_placeholders_corrected": 4,
+    "V1_4_reported_literal_template_placeholder_count": 0,
+    "V1_4_reported_balanced_fences": true,
+    "V1_4_reported_escaped_underscore_count": 0,
+    "V1_4_reported_escaped_list_marker_count": 0,
+    "V1_4_reported_escaped_bracket_count": 0,
+    "V1_4_reported_stable_footer_count": 1,
+    "independent_local_rescan_performed_by_this_manifest": false,
+    "reason": "Exact source bytes were not available in the local execution workspace."
+  },
+  "known_search_and_inventory_limits": {
+    "enterprise_search_returned_duplicate_indexed_results": true,
+    "duplicate_search_results_counted_as_physical_duplicates": false,
+    "exact_paths_confirmed": false,
+    "all_inbound_references_scanned": false,
+    "all_physical_duplicates_resolved": false,
+    "current_candidate_exact_hash_captured": false,
+    "files_may_be_moved_renamed_or_deleted": false
+  },
+  "required_owner_dispositions": [
+    "AdoptRejectRetainCandidateOrQuarantineV1_4",
+    "AcceptOrCorrectEventFamilyPlacement",
+    "AcceptOrCorrectCrossFamilyInterfaceRouting",
+    "RetainV1ToV1_3AsSupersededProvenance",
+    "AcceptOrCorrectCurrentAuthorityIndex",
+    "KeepExecutionAndImplementationGatesClosedUnlessSeparatelyAuthorized"
+  ],
+  "remaining_closure_sequence": [
+    {
+      "order": 1,
+      "action": "CaptureExactBytesPathsAndSHA256ForIndexV1_4AndSupportingLedger",
+      "gate": "AuthorizedPhysicalInventory",
+      "rollback": "EvidenceOnlyNoSourceMutation"
+    },
+    {
+      "order": 2,
+      "action": "PerformIndependentStaticClosureReview",
+      "gate": "ManifestAndIndexAcceptedForReview",
+      "rollback": "ReturnCandidateForCorrectionWithoutPromotion"
+    },
+    {
+      "order": 3,
+      "action": "RecordOwnerAdoptionDisposition",
+      "gate": "NamedOwnerDecision",
+      "rollback": "RetainCandidateStateAndAllPredecessors"
+    },
+    {
+      "order": 4,
+      "action": "UpdateProjectWideNavigationOnlyIfAdoptionMateriallyChangesRouting",
+      "gate": "OwnerAdoptionReceipt",
+      "rollback": "RestorePriorNavigationReferences"
+    },
+    {
+      "order": 5,
+      "action": "AllowReadOnlyProjectNativeDiscoveryOnlyBySeparateAuthorization",
+      "gate": "ExactPilotScopeAndZeroMutationPlan",
+      "rollback": "DeleteDiscoveryArtifactsOnly"
+    }
+  ],
+  "nonmutation_receipt": {
+    "existing_enterprise_files_modified_moved_renamed_or_deleted": 0,
+    "framework_sources_modified": 0,
+    "registry_records_created_or_modified": 0,
+    "opening_state_records_created_or_modified": 0,
+    "event_definitions_or_instances_activated": 0,
+    "objective_instances_activated": 0,
+    "payloads_created_or_imported": 0,
+    "fixtures_executed": 0,
+    "save_files_created_or_migrated": 0,
+    "runtime_state_modified": false,
+    "unreal_project_modified": false,
+    "compile_executed": false,
+    "runtime_executed": false
+  },
+  "validation_receipt": {
+    "json_parse": "PASS",
+    "manifest_structure": "PASS",
+    "source_chain_order": "PASS",
+    "known_hash_format": "PASS",
+    "three_track_temporal_constitution": "PASS",
+    "owner_boundaries": "PASS_RECORDED_SCOPE",
+    "legacy_disposition": "PASS",
+    "activation_and_mutation_flags": "PASS_FALSE",
+    "compile_runtime_importer_save_load_migration_replay_rollback_performance_localization_accessibility_and_Unreal_validation": "NOT_PERFORMED",
+    "overall_disposition": "PASS_FOR_INDEPENDENT_STATIC_CLOSURE_REVIEW_PENDING_EXACT_BYTE_INVENTORY_AND_OWNER_REVIEW"
+  },
+  "stable_footer": {
+    "ConstitutionalAuthority": "Project Bible 2.4",
+    "OperationalAuthority": "Design Expansion Checklist 3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "ScenarioDate": "1062-01-01",
+    "OpeningCampaignSeason": "Winter",
+    "HistoricalProgression": "21MonthsPerStrategicTurn",
+    "BiologicalProgression": "7MonthsPerStrategicTurn",
+    "CampaignSeasonProgression": "OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn",
+    "Version": "1.0.0",
+    "Status": "StaticCheckedEventsFamilySourceManifestOwnerReviewRequired",
+    "PhysicalRecursiveInventoryComplete": false,
+    "OwnerAdoptionComplete": false,
+    "ImplementationPromotionAuthorized": false,
+    "RegistryMutationAuthorized": false,
+    "OpeningStateMutationAuthorized": false,
+    "EventInstanceActivationAuthorized": false,
+    "RealPayloadPromotionAuthorized": false,
+    "ImporterExecutionAuthorized": false,
+    "RuntimeMutationAuthorized": false,
+    "UnrealProjectMutationAuthorized": false
+  }
+}

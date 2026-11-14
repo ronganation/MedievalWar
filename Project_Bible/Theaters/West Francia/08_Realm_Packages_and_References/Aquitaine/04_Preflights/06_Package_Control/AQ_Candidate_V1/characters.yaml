@@ -1,0 +1,43 @@
+DocumentControl:
+  SchemaId: Schema.MedievalWar.CandidateDocument.v1
+  PackageId: package.aquitaine.candidate.v1
+  RealmCandidateId: realm.aquitaine.duchy
+  ScenarioId: mw.scenario.grand_campaign.1062
+  CandidateOnly: true
+  ReviewOnly: true
+  CommitPermitted: false
+  RegistryPromotionPermitted: false
+  AliasExecutionPermitted: false
+  OpeningStateActivationPermitted: false
+  MigrationExecutionPermitted: false
+  UnrealImportPermitted: false
+  RuntimeActivationPermitted: false
+  RealPayloadImportPermitted: false
+  SourceAuthority: Aquitaine_Current_Machine_Readable_Candidate_Bundle_V1.md
+  ContentVersion: 1.0.0
+  OwnerAuthority: Aquitaine_Character_Authorities_V2_Developed_Realm_Parity_Authority.md
+Characters:
+- CandidateId: person.william_viii_aquitaine
+  Disposition: ActiveBoundedRequest
+  RuntimeActivationPermitted: false
+- CandidateId: person.aimery_iv_thouars
+  Disposition: ReviewOnlyRequest
+  AutomaticService: false
+- CandidateId: person.hugh_vi_lusignan
+  Disposition: ReviewOnlyRequest
+  OpeningLaMarcheTitle: false
+- CandidateId: person.bernard_ii_tumapaler
+  Disposition: ReviewOnlyRequest
+  OpeningRebellion: false
+  ForcedMay1063Rising: false
+- CandidateId: review.person.matoeda_spouse_william_viii
+  Disposition: ReviewOnlyRequest
+  AutomaticRegency: false
+- CandidateId: person.agnes_aquitaine_leon_candidate
+  Disposition: ReviewOnlyRequest
+  AdultAgency: false
+- CandidateId: quarantine.person.william_ix_aquitaine_future
+  Disposition: Quarantined
+  OpeningAlive: false
+  GuaranteedBirth: false
+OpeningCharacterInstances: []

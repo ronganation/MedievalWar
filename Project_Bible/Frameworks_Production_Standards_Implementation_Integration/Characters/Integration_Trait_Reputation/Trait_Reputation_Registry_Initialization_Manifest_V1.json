@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationRegistryInitializationManifest",
+    "name": "Trait Reputation Registry Initialization Manifest V1",
+    "version": "1.0",
+    "status": "EmptySnapshotsInitialized_CandidateReviewPending",
+    "authority_class": "Registry Initialization Manifest"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Registry_Initialization_Manifest_V1.json"
+  },
+  "authority_decision": {
+    "file": "Trait_Reputation_Registry_Namespace_and_Grammar_Decision_V1.json",
+    "sha256": "22b684a74c8c662db3ce6e8ff22e985c6bac4f334ac87b31228f952cf657f5c7"
+  },
+  "snapshots": [
+    {
+      "file": "Trait_Canonical_Registry_V1.json",
+      "sha256": "d45482c7ae3ad5e01fee289e4b8ad250f4997f5d47bd960f6cf0c9e163824b29",
+      "namespace": "Trait.Character",
+      "record_count": 0,
+      "candidate_scope": 37
+    },
+    {
+      "file": "Reputation_Dimension_Registry_V1.json",
+      "sha256": "95c5370ea63da1179df1696bbbb48a17340ab059a0c7923819b47b93978d3e67",
+      "namespace": "Reputation.CharacterAudience",
+      "record_count": 0,
+      "candidate_scope": 9
+    }
+  ],
+  "count_contract": {
+    "registry_snapshots": 2,
+    "approved_namespaces": 2,
+    "approved_grammar_records": 1,
+    "individual_canonical_ids_approved": 0,
+    "registry_records": 0,
+    "candidate_scope": 46,
+    "excluded_quirks": 5,
+    "exact_reviewed_candidates": 51,
+    "reconciliation": "Pass"
+  },
+  "run": {
+    "mode": "RegistryInitializationDryRun",
+    "execution_status": "Completed",
+    "verdict": "PassEmptySnapshotsReadyForCollisionReview",
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "validation": {
+    "snapshot_hashes_recorded": true,
+    "both_snapshots_empty": true,
+    "candidate_scope_reconciles": true,
+    "individual_id_approval_not_inferred": true,
+    "compile_validated": false,
+    "runtime_validated": false
+  },
+  "smallest_useful_next_action": "Generate individual candidate ID proposals against these empty snapshots, then run semantic duplicate, namespace collision, deprecated-ID, wrong-owner, and direct-migration-map preflight. Keep all proposed IDs unapproved."
+}

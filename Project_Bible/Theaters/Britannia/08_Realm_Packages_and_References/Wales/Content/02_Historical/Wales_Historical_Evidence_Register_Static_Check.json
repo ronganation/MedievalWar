@@ -1,0 +1,25 @@
+{
+  "document_id": "static-check.wales.historical-evidence-register.v1",
+  "version": "1.0.0",
+  "filename": "Wales_Historical_Evidence_Register.md",
+  "bytes": 25685,
+  "physical_lines": 893,
+  "sha256": "d5a474f95d2e41aa5dab43f29b41672218fade15185e07d5b90d8c1b398b1448",
+  "checks": {
+    "record_count_30": true,
+    "contradiction_count_7": true,
+    "opening_date": true,
+    "gruffudd_alive": true,
+    "death_disagreement": true,
+    "underage_gate": true,
+    "st_davids_separation": true,
+    "network_zero_dimensions": true,
+    "temporal_tracks": true,
+    "validation_false": true,
+    "authorizations_false": true,
+    "removal_ledger": true,
+    "next_authority": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

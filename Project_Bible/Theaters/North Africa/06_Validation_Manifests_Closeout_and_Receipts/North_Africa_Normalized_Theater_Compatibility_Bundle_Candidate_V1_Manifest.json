@@ -1,0 +1,84 @@
+{
+  "document_id": "mw.manifest.north-africa.normalized-theater-compatibility-bundle-candidate.v1",
+  "stable_document_id": "CampaignTheater.NorthAfrica.NormalizedTheaterCompatibilityBundleCandidate.Manifest",
+  "manifest_id": "manifest.campaign-theater.north-africa.normalized-compatibility.candidate.v1",
+  "filename": "North_Africa_Normalized_Theater_Compatibility_Bundle_Candidate_V1_Manifest.json",
+  "version": "1.0.0",
+  "revision_date": "2026-09-14",
+  "placement": "Project_Bible/Theaters/North Africa/06_Validation_Manifests_Closeout_and_Receipts",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "status": "STATIC_CHECKED_MANIFEST_FOR_NONAUTHORITATIVE_CANDIDATE",
+  "subject": {
+    "filename": "North_Africa_Normalized_Theater_Compatibility_Bundle_Candidate_V1.json",
+    "document_id": "mw.bundle.north-africa.normalized-theater-compatibility.candidate.v1",
+    "bundle_id": "candidate.bundle.campaign-theater.north-africa.compatibility.v1",
+    "version": "1.0.0",
+    "bytes": 14256,
+    "lines": 368,
+    "sha256": "adc8258550bae7e304c21c97442f1ee6d37303aa4bcd633a1969276009f8d156",
+    "json_parse": "PASS"
+  },
+  "source_authority_receipt": {
+    "source_authority_count": 8,
+    "source_authorities": [
+      "North_Africa_Theater_README_and_Current_Authority_Index_V1.md",
+      "North_Africa_Theater_Foundation_Scope_and_Association_Authority_V1.md",
+      "North_Africa_Theater_Owner_and_Dependency_Preflight_V1.md",
+      "North_Africa_Source_Assertion_and_Registry_Collision_Inventory_V1.md",
+      "North_Africa_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md",
+      "North_Africa_Owner_and_Registry_Preflight_V1_Manifest.json",
+      "North_Africa_Almoravid_Primary_and_Iberia_External_Compatibility_Candidate_V1.md",
+      "Almoravid_Iberia_Theater_Compatibility_Candidate_V1.md"
+    ],
+    "copy_first_additive_treatment": "CopyFirstAdditiveNormalizationWithoutSourceRetirement",
+    "source_retirement_authorized": false,
+    "source_deletion_authorized": false
+  },
+  "normalized_content_receipt": {
+    "association_record_count": 2,
+    "primary_association_candidate_count": 1,
+    "expeditionary_external_association_candidate_count": 1,
+    "owner_decision_dependency_count": 10,
+    "accepted_owner_receipt_count": 0,
+    "all_required_receipts_present": false,
+    "canonical_source_realm_ref": "realm.almoravid_movement_state",
+    "shortened_candidate_realm_ref": "realm.almoravid",
+    "silent_normalization_allowed": false,
+    "alias_chains_allowed": false
+  },
+  "mutation_receipt": {
+    "registry_mutations": 0,
+    "association_activations": 0,
+    "realm_package_files_copied": 0,
+    "realm_package_files_moved": 0,
+    "realm_package_files_deleted": 0,
+    "opening_state_mutations": 0,
+    "payload_mutations": 0,
+    "unreal_project_mutations": 0,
+    "runtime_mutations": 0
+  },
+  "mutation_total": 0,
+  "validation_boundary": {
+    "json_parse_validated": true,
+    "static_content_checked": true,
+    "canonical_registry_validated": false,
+    "association_owner_validated": false,
+    "importer_validated": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "performance_validated": false
+  },
+  "promotion_boundary": {
+    "canonical_registry_promotion": "HOLD",
+    "association_activation": "HOLD",
+    "opening_state_execution": "HOLD",
+    "almoravid_package_migration": "HOLD",
+    "importer_consumption": "HOLD",
+    "unreal_implementation": "HOLD"
+  }
+}

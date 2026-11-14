@@ -1,0 +1,17 @@
+﻿Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" MedievalWarEditor Win64 Development -Project=C:\UnrealProjects\MedievalWar\MedievalWar.uproject -WaitMutex -NoHotReloadFromIDE -NoUBTMakefiles
+Log file: C:\Users\thetr\AppData\Local\UnrealBuildTool\Log.txt
+Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+  Executing up to 6 processes, one per physical core
+Using 'git status' to determine working set for adaptive non-unity build (C:\UnrealProjects\MedievalWar).
+UbaServer - Listening on 0.0.0.0:1345
+Plugin 'MWSharedImporter' depends on plugin 'StructUtils' which was deprecated in 5.5 and will soon be removed. Please update your dependencies.
+Project 'MedievalWarEditor' depends on plugin 'StructUtils' which was deprecated in 5.5 and will soon be removed. Please update your dependencies.
+Target is up to date
+Using Unreal Build Accelerator local executor to run 0 action(s)
+Total time in Unreal Build Accelerator local executor: 0.11 seconds
+Output binary: C:\Program Files\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 3.23 seconds
+Trace written to file C:\Users\thetr\AppData\Local\UnrealBuildTool\Trace.uba with size 2.9kb

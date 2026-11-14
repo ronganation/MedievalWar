@@ -1,0 +1,49 @@
+{
+  "document_id": "manifest.scotland.historical-emergence.v1",
+  "version": "1.0.0",
+  "file": "Scotland_Historical_Emergence_V1.md",
+  "bytes": 55580,
+  "physical_lines": 1705,
+  "sha256": "887f088ad542094fcf652efddae5cab88660a36a790ef2b9a68d6b9eaf1c5d3f",
+  "inputs": [
+    "Scotland_Historical_Momentum_V1.md",
+    "Scotland_Historical_Memory_V1.md",
+    "Scotland_Historical_Uncertainty_Register_V1.md",
+    "Scotland_Historical_Timeline_and_Chronology_V1.2_Current_Authority_Refinement.md",
+    "Scotland_Historical_Evidence_Register_V1.1_Current_Authority_Refinement.md",
+    "Scotland_Historical_Reconciliation_V1.2_Benchmark_Expansion.md"
+  ],
+  "content_inventory": {
+    "pathway_definitions": 14,
+    "validation_cases": 20,
+    "issue_codes": 20,
+    "eligibility_states": 10,
+    "lifecycle_states": 18
+  },
+  "opening_state": {
+    "active_pathway_states_created": 0,
+    "historical_events_scheduled": 0,
+    "emergent_characters_created": 0
+  },
+  "authorizations": {
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "replacement_character": false
+  },
+  "validation": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "static_check": {
+    "filename": "Scotland_Historical_Emergence_V1_Static_Check.json",
+    "passed": true
+  }
+}

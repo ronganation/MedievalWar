@@ -1,0 +1,50 @@
+{
+  "TaskId": "FRANCE-IMP-07A",
+  "Status": "ReadyForOwnerReview",
+  "RealmId": "Realm.France",
+  "Lane": "MilitaryRecruitmentSupplyProjection",
+  "PredecessorGate": "FRANCE-IMP-06B",
+  "PredecessorRequiredStatus": "TerritoryCommunitiesEconomyAutomationAccepted",
+  "PlannedFilesAdded": 6,
+  "ExistingFilesModified": 0,
+  "PlannedDirectTests": 24,
+  "ExecutionAuthorized": false,
+  "ProductionAuthority": false,
+  "Files": [
+    {
+      "Name": "FRANCE_IMP_07A_ACCEPTANCE_AND_ROLLBACK_MATRIX.csv",
+      "Bytes": 1103,
+      "SHA256": "C35E9EAC18DD003B9C40A42D5652E186924FF37A5FE2BD5A6A11D59BF738520C"
+    },
+    {
+      "Name": "FRANCE_IMP_07A_AUTHORITY_FINGERPRINT_PLAN.csv",
+      "Bytes": 2337,
+      "SHA256": "78F7AFD85926078F915D2D47D629D75D5FED07A4B90392AB11171DF4967DF34E"
+    },
+    {
+      "Name": "FRANCE_IMP_07A_DEPENDENCY_AND_BOUNDARY_MATRIX.csv",
+      "Bytes": 1040,
+      "SHA256": "857FDCFD9CEA1D864CC10FFC6639909EC0BC7C4096969AA6D0B4FB7F3000742B"
+    },
+    {
+      "Name": "FRANCE_IMP_07A_EXACT_FILE_PLAN.csv",
+      "Bytes": 754,
+      "SHA256": "B68D5E35007D570E05AD02D2A1FB2E395D657E3FC8AC23F48048410147AE3A8D"
+    },
+    {
+      "Name": "FRANCE_IMP_07A_MILITARY_RECRUITMENT_SUPPLY_BOUNDED_CONTRACT_2026-09-24.md",
+      "Bytes": 4855,
+      "SHA256": "FAA03FE2280CC3D0738284915A678C9A90F2E9FB5107ACFE76CA3E12062ED9BA"
+    },
+    {
+      "Name": "FRANCE_IMP_07A_TEST_AND_REGRESSION_PLAN.csv",
+      "Bytes": 1028,
+      "SHA256": "D35782E70A73F1DE5A5F14B39E99DEFD4F9DAE0EF7B1504A879925AAD4FC9130"
+    },
+    {
+      "Name": "README_FIRST_FRANCE_IMP_07A.txt",
+      "Bytes": 823,
+      "SHA256": "0DA5426CDCA54F7DDB188B8731E88BC85410BB72751011077E9EF2B1E4E575E8"
+    }
+  ]
+}

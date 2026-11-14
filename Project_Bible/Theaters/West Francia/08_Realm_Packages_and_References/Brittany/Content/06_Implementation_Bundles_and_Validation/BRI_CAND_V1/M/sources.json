@@ -1,0 +1,41 @@
+{
+  "sources": [
+    {
+      "available_in_build_environment": true,
+      "bytes": 29327,
+      "file": "Brittany_Current_Machine_Readable_Candidate_Bundle_V1.md",
+      "sha256": "4BB041201C87582E701DB572ED918ABD98EFD6F47656F6B3AB0D3199F8512E7C"
+    },
+    {
+      "available_in_build_environment": true,
+      "bytes": 1186,
+      "file": "Brittany_Current_Machine_Readable_Candidate_Bundle_V1_Manifest.json",
+      "sha256": "2A0F1C455DB1F89C72F960A8723844C5CE5BD813CBA20A42ADA2959C458635F2"
+    },
+    {
+      "available_in_build_environment": true,
+      "bytes": 32049,
+      "file": "Brittany_Realm_Implementation_Data_Contract_and_Importer_Preparation_V1.md",
+      "sha256": "17A2F77DE3081D05C87A90040DC9CCF9B3AE068817E14EEDFCEC16D3AF662ADC"
+    },
+    {
+      "available_in_build_environment": true,
+      "bytes": 1641,
+      "file": "Brittany_Realm_Implementation_Data_Contract_and_Importer_Preparation_V1_Manifest.json",
+      "sha256": "4A50980622FB0BC9BB39699FF2B1A945D019A938945636B21CA35884ADA53B4C"
+    },
+    {
+      "available_in_build_environment": true,
+      "bytes": 25076,
+      "file": "Brittany_Realm_Package_Current_Authority_Index_V1.md",
+      "sha256": "F736B53E70AE8A376A2853FA58F6B5DAB67AE8D1C3FF23E5D086F86C93F98FCB"
+    },
+    {
+      "available_in_build_environment": true,
+      "bytes": 1484,
+      "file": "Brittany_Realm_Package_Current_Authority_Index_V1_Manifest.json",
+      "sha256": "F688BA3505DC1E0D7CB10754E7717EBF630677B054244D1D710714B38604B440"
+    }
+  ],
+  "unavailable_current_authorities": "PendingLocalRecursiveSourceScan"
+}

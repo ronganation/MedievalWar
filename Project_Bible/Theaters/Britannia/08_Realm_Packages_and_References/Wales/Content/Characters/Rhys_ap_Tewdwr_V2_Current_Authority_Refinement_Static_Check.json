@@ -1,0 +1,35 @@
+{
+  "document_id": "StaticCheck.CharacterProfile.Wales.RhysApTewdwr.V2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Rhys_ap_Tewdwr.md",
+    "bytes": 46621,
+    "physical_lines": 1241,
+    "sha256": "97e9312615fcca45663d49cd3f4115d5eeba23c360f752b6432f44f56a9ad4fe"
+  },
+  "successor": {
+    "filename": "Rhys_ap_Tewdwr_V2_Current_Authority_Refinement.md",
+    "bytes": 66421,
+    "physical_lines": 1835,
+    "sha256": "d570c588562fbc1cc459774707a8563c549fad73b45c135935d1eecc46210b7c"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "required_current_metadata": true,
+    "canonical_identity_present": true,
+    "dormant_default_present": true,
+    "age_uncertainty_preserved": true,
+    "no_opening_claim": true,
+    "no_network_edges": true,
+    "later_history_firewall": true,
+    "cross_realm_locks": true,
+    "three_track_temporal_model": true,
+    "honest_validation_status": true,
+    "authorizations_false": true
+  },
+  "missing_source_headings": [],
+  "passed": true,
+  "failed_checks": []
+}

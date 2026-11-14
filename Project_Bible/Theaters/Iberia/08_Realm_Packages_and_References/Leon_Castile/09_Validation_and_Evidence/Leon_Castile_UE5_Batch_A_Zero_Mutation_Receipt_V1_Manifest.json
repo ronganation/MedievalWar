@@ -1,0 +1,46 @@
+{
+  "document_id": "Manifest.Receipt.LeonCastile.UE5BatchAZeroMutation.V1",
+  "receipt_file": "Leon_Castile_UE5_Batch_A_Zero_Mutation_Receipt_V1.json",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 4959,
+  "physical_lines": 137,
+  "sha256": "99EDB799076E2D21EF738E9525CD8FD00D248B282CF15EDA9FAFA590483328B4",
+  "status": "PASS_DOCUMENTATION_PREPARATION_ZERO_MUTATION_BATCH_A_NOT_COMPLETE",
+  "checks": {
+    "JsonParsePass": true,
+    "PreparedArtifactCountExact": true,
+    "ConceptualOwnerCountExact": true,
+    "ResolvedOwnerCountZero": true,
+    "AllMutationCountsZero": true,
+    "AllExecutionCountsZero": true,
+    "BatchACompletionNotClaimed": true,
+    "PromotionBlockPresent": true
+  },
+  "mutation_counts": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Source": 0,
+    "Configuration": 0,
+    "Assets": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "execution_counts": {
+    "OfflineSchemaExecution": 0,
+    "OfflineFixtureExecution": 0,
+    "UnrealBuild": 0,
+    "UnrealEditorLaunch": 0,
+    "UnrealRuntimeLaunch": 0,
+    "SaveLoadExecution": 0,
+    "ReplayExecution": 0,
+    "PerformanceExecution": 0
+  },
+  "next_file": "Leon_Castile_UE5_Batch_A_Entry_Completion_Gate_V1.md",
+  "all_static_checks_pass": true
+}

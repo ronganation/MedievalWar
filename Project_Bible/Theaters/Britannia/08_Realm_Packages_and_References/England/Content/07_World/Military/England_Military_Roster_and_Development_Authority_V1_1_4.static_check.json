@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "checks": {
+    "successor_hash_matches_manifest": true,
+    "immediate_source_hash_matches_manifest": true,
+    "current_filename_consistent": true,
+    "current_footer_consistent": true,
+    "logical_identity_explained": true,
+    "inaccurate_byte_preserving_claim_absent": true,
+    "literal_variable_absent": true,
+    "malformed_repair_phrase_absent": true,
+    "embedded_completion_record_current": true,
+    "repair_notes_consolidated": true,
+    "two_formal_directions": true,
+    "regional_ownership_boundary": true,
+    "three_track_model": true,
+    "substantive_change_false": true,
+    "source_files_unchanged": true,
+    "mutation_boundaries_empty": true
+  }
+}

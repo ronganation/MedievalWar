@@ -1,0 +1,24 @@
+{
+  "document_id": "static-check.england.historical_reconciliation.v2_1.current_authority_refinement",
+  "version": "1.0.0",
+  "source_file": "England_Historical_Reconciliation.md",
+  "output_file": "England_Historical_Reconciliation_V2.1_Current_Authority_Refinement.md",
+  "checks": {
+    "output_additive": true,
+    "source_preserved": true,
+    "all_source_headings_retained": true,
+    "all_aelfgar_states": true,
+    "historical_suite_declared": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "one_opening_boundary": true,
+    "current_authorities": true,
+    "temporal_model": true,
+    "ue_5_8": true,
+    "reviewonly": true,
+    "owners": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true
+}

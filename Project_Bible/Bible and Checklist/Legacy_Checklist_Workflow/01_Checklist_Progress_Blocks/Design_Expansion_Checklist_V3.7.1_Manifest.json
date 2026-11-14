@@ -1,0 +1,23 @@
+{
+  "FileName": "Design_Expansion_Checklist_V3.7.1.md",
+  "Version": "3.7.1",
+  "Status": "Controlling Operational Roadmap",
+  "SourceFile": "Design_Expansion_Checklist_V3.7.md",
+  "SHA256": "1E6B4CC5C0985E5D4DD39F37FA25AB26FE4E6F04D079044376C4A710EB1503AA",
+  "Checks": {
+    "version_371": true,
+    "adoption_complete": true,
+    "theater_wf_static": true,
+    "theater_norse_static": true,
+    "sweden_updated": true,
+    "badajoz_count": 1,
+    "seville_count": 1,
+    "valencia_count": 1,
+    "next_faction_count": 1,
+    "html_table_absent": true,
+    "final_action_updated": true,
+    "footer_count": 1,
+    "lines": 755,
+    "bytes": 47144
+  }
+}

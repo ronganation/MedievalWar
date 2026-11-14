@@ -1,0 +1,26 @@
+{
+  "package_id": "FRANCE-IMP-05A",
+  "package_title": "France Governance, Law, Titles, and Ecclesiastical Interfaces",
+  "revision_date": "2026-09-24",
+  "realm_id": "Realm.France",
+  "scenario_id": "mw.scenario.grand_campaign.1062",
+  "implementation_target": "Unreal Engine 5.8",
+  "predecessor_gate": "FRANCE-IMP-04A",
+  "status": "ReadyForOwnerReview",
+  "eligible_for_implementation": false,
+  "production_authority": false,
+  "source_installation_authorized": false,
+  "registry_promotion_authorized": false,
+  "opening_state_mutation_authorized": false,
+  "real_payload_authorized": false,
+  "files": [
+    "FRANCE_IMP_05A_GOVERNANCE_LAW_TITLES_ECCLESIASTICAL_BOUNDED_CONTRACT_2026-09-24.md",
+    "FRANCE_IMP_05A_EXACT_FILE_PLAN.csv",
+    "FRANCE_IMP_05A_DEPENDENCY_AND_BOUNDARY_MATRIX.csv",
+    "FRANCE_IMP_05A_ACCEPTANCE_AND_ROLLBACK_MATRIX.csv",
+    "FRANCE_IMP_05A_AUTHORITY_FINGERPRINT_PLAN.csv",
+    "FRANCE_IMP_05A_TEST_AND_REGRESSION_PLAN.csv",
+    "README_FIRST_FRANCE_IMP_05A.txt",
+    "FRANCE_IMP_05A_PACKAGE_MANIFEST.json"
+  ]
+}

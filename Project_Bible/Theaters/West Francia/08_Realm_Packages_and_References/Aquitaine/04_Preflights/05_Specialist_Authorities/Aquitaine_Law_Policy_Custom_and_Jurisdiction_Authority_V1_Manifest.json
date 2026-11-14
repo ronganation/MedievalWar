@@ -1,0 +1,34 @@
+{
+  "ManifestId": "Manifest.Aquitaine.LawPolicyCustomJurisdiction.V1",
+  "AuthorityFile": "Aquitaine_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+  "Version": "1.0.0",
+  "RevisionDate": "2026-09-05",
+  "ScenarioOpening": "1062-01-01",
+  "OpeningCampaignSeason": "Winter",
+  "OwningTheater": "West Francia",
+  "SHA256": "9d3b4dfb7a8366df088b65a97dad606a74d53196cf220014680c59b987b5f72c",
+  "ByteCount": 44173,
+  "LineCount": 1478,
+  "MarkdownFenceCount": 122,
+  "StaticCheckResult": "Pass",
+  "SourceTreatment": "NewSpecialistAuthorityNoImmediatePredecessor",
+  "BenchmarksUsedForStructureOnly": [
+    "France_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+    "Developed Wales law and custom patterns",
+    "Developed Ireland jurisdiction and settlement patterns",
+    "Developed Normandy governance and legal process patterns",
+    "Developed Norse evidence and owner boundary patterns"
+  ],
+  "ForeignContentTransferred": false,
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "LawActivations": 0,
+    "PolicyActivations": 0,
+    "JurisdictionActivations": 0,
+    "CaseActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "source_sha_recorded": true,
+    "source_size_recorded": true,
+    "records_31": true,
+    "required_fields_31": true,
+    "dilemmas_12": true,
+    "differentiated_dispositions": true,
+    "identity_split": true,
+    "robert_role": true,
+    "specific_recovery": true,
+    "no_compression": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "finite_recruitment": true,
+    "atomic": true,
+    "honest": true,
+    "one_footer": true,
+    "final_marker": true
+  },
+  "AuthoritySHA256": "1d6dd8eae6a210373c839edebe7760b97e61ad31dcb12757395ac51d662472e3",
+  "AuthorityBytes": 109802,
+  "AuthorityLines": 2327,
+  "SourceSHA256": "5de47472bd563c058cde34cd4feb4e82774f2e9d1b41490a7316b641c5e1c97c",
+  "SourceBytes": 84290,
+  "SourceLines": 1888
+}

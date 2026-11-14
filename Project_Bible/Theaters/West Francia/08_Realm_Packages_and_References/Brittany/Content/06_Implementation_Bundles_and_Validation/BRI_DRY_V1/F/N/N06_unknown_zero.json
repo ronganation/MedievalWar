@@ -1,0 +1,11 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N06_unknown_zero",
+  "mutated_candidate": {
+    "exact_treasury_balance": 0,
+    "source_state": "Unknown"
+  },
+  "result": "PASS",
+  "rule": "UnknownNotZero"
+}

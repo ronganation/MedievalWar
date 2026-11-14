@@ -1,0 +1,20 @@
+{
+  "document_id": "mw.manifest.unit-definition-schema-rules.v1",
+  "version": "1.0.0",
+  "date": "2026-08-28",
+  "status": "StaticCheckedArtifactManifest",
+  "files": [
+    {
+      "filename": "Unit_Definition_Schema_V1.json",
+      "bytes": 43009,
+      "lines": 1744,
+      "sha256": "3461c1a89d96acb992411955fdb72fe85368924e8fed57d6eec03a9a30111bfa"
+    },
+    {
+      "filename": "Unit_Definition_Validation_Rules_V1.json",
+      "bytes": 9868,
+      "lines": 251,
+      "sha256": "65afbfd60bad5b9aedb19eb186dbedc8b7599d9e5993a3fa288a4b6c22aa6fc5"
+    }
+  ]
+}

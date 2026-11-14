@@ -1,0 +1,27 @@
+{
+  "document_id": "static-check.england.character_network.v6_1.current_authority_reconciliation",
+  "version": "1.0.0",
+  "source_file": "England_Character_Network.md",
+  "output_file": "England_Character_Network_V6.1_Current_Authority_Reconciliation.md",
+  "repair_and_reconciliation_scope": "bounded additive current-authority reconciliation",
+  "checks": {
+    "original_substantive_length_preserved_or_expanded": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "one_consolidated_opening_boundary": true,
+    "ue_5_8_target": true,
+    "historical_21_months": true,
+    "biological_7_months": true,
+    "ordered_seasons": true,
+    "opening_state_owner_identified": true,
+    "bindings_owner_identified": true,
+    "no_activation_authorized": true,
+    "no_registry_mutation_authorized": true,
+    "no_runtime_mutation_authorized": true,
+    "all_validation_flags_false": true,
+    "formula_positive_signs_corrected": true,
+    "original_named_participants_retained": true,
+    "first_pass_file_is_reviewonly": true
+  },
+  "passed": true
+}

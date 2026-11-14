@@ -1,0 +1,39 @@
+{
+  "document": "Holland_Military_Roster_Foundation_V1_2.md",
+  "version": "1.2.0",
+  "status": "StaticReviewOnlyReconciledMilitaryRosterFoundationCandidate",
+  "size_bytes": 78799,
+  "line_count": 2495,
+  "active_line_count": 664,
+  "active_numbered_sections": 29,
+  "active_section_range": "0-28",
+  "complete_predecessor_embedded": true,
+  "immediate_substantive_source": "Holland_Military_Source_and_Roster_Foundation_V1_1_Double_Checked.md",
+  "source_sha256": "de8564a67e9f9ee3ec31551cfcf74149d17d78642c504bfddfcd543eead53173",
+  "current_holland_owned_profiles": 22,
+  "early_profiles": 10,
+  "high_profiles": 9,
+  "late_profiles": 3,
+  "progression_authorities": 3,
+  "next_substantive_work": [
+    "BoundedUnitFileHygiene",
+    "CrossEraProgressionReviewIncludingLateCandidates",
+    "OpeningMilitaryInventoryReconciliation",
+    "RegionalAccessMapRebuild"
+  ],
+  "files_created": [
+    "Holland_Military_Roster_Foundation_V1_2.md",
+    "Holland_Military_Roster_Foundation_V1_2.manifest.json",
+    "Holland_Military_Roster_Foundation_V1_2.static_check.json"
+  ],
+  "files_modified": [],
+  "files_deleted": [],
+  "unit_profiles_modified": [],
+  "progression_authorities_modified": [],
+  "opening_state_changes": [],
+  "registry_changes": [],
+  "payload_changes": [],
+  "runtime_changes": [],
+  "unreal_changes": [],
+  "sha256": "0392ad617f62e50acd45f82c959a0f8fb73c9460b4006eec82ec736b2138e7af"
+}

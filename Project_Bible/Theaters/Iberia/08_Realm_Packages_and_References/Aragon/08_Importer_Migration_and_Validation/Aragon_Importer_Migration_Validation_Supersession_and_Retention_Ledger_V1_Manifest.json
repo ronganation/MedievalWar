@@ -1,0 +1,27 @@
+{
+  "document_id": "Manifest.SupersessionRetention.ImporterMigrationValidation.Aragon.V1",
+  "authority_file": "Aragon_Importer_Migration_Validation_Supersession_and_Retention_Ledger_V1.md",
+  "sha256": "F32EA6D851D0FD07422E55FC72426B76B3F43C0702545BF8140EB770020FB248",
+  "status": "StaticCheckedRetentionAndSupersessionLedger",
+  "checks": {
+    "bytes": 6346,
+    "lines": 149,
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "mutation_receipt": {
+    "SourceOverwrite": 0,
+    "Deleted": 0,
+    "Moved": 0,
+    "Renamed": 0,
+    "Registry": 0,
+    "CandidatePromotion": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "next_gate": "Actual owner and external receipts before Owner Receipt Register or V2.1 candidate JSON"
+}

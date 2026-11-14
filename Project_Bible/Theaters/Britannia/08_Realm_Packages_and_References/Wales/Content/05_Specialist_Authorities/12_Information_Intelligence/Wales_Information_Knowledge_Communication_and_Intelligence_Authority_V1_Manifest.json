@@ -1,0 +1,25 @@
+{
+  "filename": "Wales_Information_Knowledge_Communication_and_Intelligence_Authority_V1.md",
+  "bytes": 35117,
+  "lines": 890,
+  "sections": 40,
+  "sha256": "9a2b15c07a7e8efc358e529c7632175c8050af417c27dba652d123cb5de215dd",
+  "checks": {
+    "filename": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "yaml_present": true,
+    "text_present": true,
+    "modern_medieval_ii": true,
+    "no_omniscience": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_em_dash": true,
+    "no_opening_activation": true,
+    "advanced_save_protected": true
+  },
+  "all_checks_passed": true
+}

@@ -1,0 +1,21 @@
+{
+  "document": "Woodsmen_V1_1_Double_Checked_Regional_Flavor_Refinement_Master_Unit_Profile.md",
+  "sha256": "d21d7756d67c46d788f015d781b1fa245ae4bb3b717b42950c56df1d89af291d",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_27": true,
+    "appendix_present": true,
+    "predecessor_content_present": true,
+    "single_active_footer": true,
+    "opening_not_guaranteed": true,
+    "regional_flavor_constitution": true,
+    "regional_expressions": true,
+    "identity_lock": true,
+    "fences_balanced": true,
+    "no_em_dash": true,
+    "nonmutation": true,
+    "complete_predecessor_byte_content_appended": true,
+    "terrain_matrix_preserved_in_complete_predecessor": true
+  },
+  "pass": true
+}

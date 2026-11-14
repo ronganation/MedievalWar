@@ -1,0 +1,573 @@
+{
+  "ManifestId": "owner_routing.leon_castile.opening_state.ue5.v1",
+  "ManifestVersion": "1.0.0",
+  "Date": "2026-09-08",
+  "Status": "PASS_STATIC_CHECKED_PROPOSAL",
+  "PackageId": "package.leon_castile.opening_state.1062.v1",
+  "OpeningStateId": "opening.leon_castile.1062",
+  "ScenarioId": "scenario.leon_castile.1062",
+  "EffectiveDate": "1062-01-01",
+  "EvidenceBoundary": {
+    "SourceReconciliation": "ATTACHED_OPENING_STATE_FAMILY_ONLY",
+    "ActualUE5ModuleInspection": "NOT_RUN",
+    "OwnerSubsystemInspection": "NOT_RUN",
+    "CompileValidation": "NOT_RUN",
+    "RuntimeValidation": "NOT_RUN",
+    "ImporterExecution": "NOT_RUN",
+    "SaveLoadValidation": "NOT_RUN",
+    "ReplayValidation": "NOT_RUN",
+    "PerformanceValidation": "NOT_RUN"
+  },
+  "ControllingInputs": [
+    {
+      "File": "Leon_Castile_Opening_State_1062_V1.md",
+      "Role": "ScenarioAuthority",
+      "Version": "1.0.0"
+    },
+    {
+      "File": "Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V1.md",
+      "Role": "MachineReadableContract",
+      "Version": "1.0.0"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_1062_V1.json",
+      "Role": "CanonicalContentPayload",
+      "Version": "1.0.0",
+      "Sha256": "01a818e1b696660e48b4a8ab3fdf4ae7662bd4967affc42ce1441eadbce1c4a2"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_Package_Schema_V1.json",
+      "Role": "PackageAndOverlaySchema",
+      "Version": "1.0.0",
+      "Sha256": "5a20c6a0cb7c7832bf0f8cefa7bf2dcb472e835c283cf979c3e8a5c7c412249a"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_Static_Validation_Profile_V1.json",
+      "Role": "ScenarioStaticValidation",
+      "Version": "1.0.0"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_Importer_Validation_Profile_V1.json",
+      "Role": "ImporterValidationProfile",
+      "Version": "1.0.0"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_Importer_Expected_Disposition_Manifest_V1.json",
+      "Role": "ExpectedFixtureDispositions",
+      "Version": "1.0.0"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_Importer_Static_Harness_Report_V1.json",
+      "Role": "StaticHarnessEvidence",
+      "Version": "1.0.0"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_Schema_and_Overlay_Validation_Report_V1.json",
+      "Role": "SchemaOverlayEvidence",
+      "Version": "1.0.0"
+    },
+    {
+      "File": "Leon_Castile_UE5_Opening_State_Importer_Handoff_Interface_V1.md",
+      "Role": "ImporterInterfaceProposal",
+      "Version": "1.0.0"
+    }
+  ],
+  "GlobalRules": {
+    "ImporterDirectMutationAllowed": false,
+    "ExactlyOneRoutePerMutableSource": true,
+    "DuplicateRoutesFatal": true,
+    "MissingRequiredRouteFatal": true,
+    "MissingRequiredAdapterFatal": true,
+    "StageAllBeforeCommit": true,
+    "AtomicCommitRequired": true,
+    "RollbackAllStagedOwnersOnFatal": true,
+    "ReceiptRequired": true,
+    "AlreadyAppliedMutationCount": 0,
+    "RejectedFatalMutationCount": 0,
+    "AdvancedSaveMutationCount": 0,
+    "OverlaySelectionOnly": true,
+    "OverlayMayMutateContent": false,
+    "OpeningApplicationAdvancesTemporalTracks": false,
+    "ExternalLocksEmitLocalDefinitions": false,
+    "ExplicitEmptyCollectionsGenerateMutationRequests": false
+  },
+  "StableOrdering": [
+    "PhaseOrdinal",
+    "OwnerId",
+    "RequestType",
+    "CanonicalEntityId",
+    "RecordId"
+  ],
+  "Owners": [
+    {
+      "OwnerId": "CampaignPerspectiveOwner",
+      "Required": true,
+      "PhaseOrdinal": 10,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "BindSelectedPerspective"
+      ],
+      "SourcePaths": [
+        "Overlay.SelectedPerspectiveRef",
+        "Overlay.SelectedPersonRef"
+      ],
+      "ProhibitedMutations": [
+        "Sovereignty",
+        "Titles",
+        "Commands",
+        "Offices",
+        "Property",
+        "Revenue",
+        "Armies",
+        "Relationships",
+        "Succession"
+      ]
+    },
+    {
+      "OwnerId": "TemporalOwner",
+      "Required": true,
+      "PhaseOrdinal": 20,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "BindHistoricalDate",
+        "BindHistoricalProgression",
+        "BindBiologicalProgression",
+        "BindCampaignSeason"
+      ],
+      "SourcePaths": [
+        "TemporalState"
+      ],
+      "ProhibitedMutations": [
+        "AdvanceHistoricalDate",
+        "AdvanceHistoricalProgression",
+        "AdvanceBiologicalProgression",
+        "AdvanceCampaignSeason",
+        "DeriveFixedTemporalRatio"
+      ]
+    },
+    {
+      "OwnerId": "RealmAndFactionOwner",
+      "Required": true,
+      "PhaseOrdinal": 30,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "BindFactionShell",
+        "BindRealmShell",
+        "BindRealmPersonality"
+      ],
+      "SourcePaths": [
+        "OpeningRecords.CampaignShell",
+        "OpeningRecords.RealmPersonalityBindings"
+      ],
+      "ProhibitedMutations": [
+        "ChangeSovereignFromOverlay",
+        "EmitExternalRealmDefinition"
+      ]
+    },
+    {
+      "OwnerId": "CharacterLifecycleOwner",
+      "Required": true,
+      "PhaseOrdinal": 40,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "InitializeCharacter"
+      ],
+      "SourcePaths": [
+        "OpeningRecords.Characters"
+      ],
+      "ProhibitedMutations": [
+        "ScheduleDeath",
+        "ScheduleIllness",
+        "InventExactBirthDate",
+        "ActivateReviewOnlyLocation"
+      ]
+    },
+    {
+      "OwnerId": "CharacterNetworkOwner",
+      "Required": true,
+      "PhaseOrdinal": 50,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "BindSpouseGenealogy",
+        "BindParentChildGenealogy"
+      ],
+      "SourcePaths": [
+        "OpeningRecords.SpousePropositions",
+        "OpeningRecords.ParentChildPropositions"
+      ],
+      "ProhibitedMutations": [
+        "CreatePoliticalNetworkEdge",
+        "CreateAutomaticReverseEdge",
+        "InferLoyalty",
+        "InferHostility",
+        "InferSuccessionSupport"
+      ]
+    },
+    {
+      "OwnerId": "HouseholdOwner",
+      "Required": true,
+      "PhaseOrdinal": 60,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "InitializeHousehold"
+      ],
+      "SourcePaths": [
+        "OpeningRecords.Households"
+      ],
+      "ProhibitedMutations": [
+        "InferSharedProperty",
+        "InferSharedTreasury",
+        "InferSharedResidence",
+        "InferPoliticalSupport"
+      ]
+    },
+    {
+      "OwnerId": "TitleOwner",
+      "Required": true,
+      "PhaseOrdinal": 70,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "BindTitleHolder"
+      ],
+      "SourcePaths": [
+        "OpeningRecords.TitleHolderBindings"
+      ],
+      "ProhibitedMutations": [
+        "ActivateLaterTitle",
+        "CreatePartition",
+        "GrantZamora",
+        "GrantToro",
+        "AssignGaliciaToGarcia"
+      ]
+    },
+    {
+      "OwnerId": "GovernanceOwner",
+      "Required": true,
+      "PhaseOrdinal": 80,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "BindGovernanceDefinition",
+        "BindAdministrativeChannel"
+      ],
+      "SourcePaths": [
+        "OpeningRecords.GovernanceDefinitions",
+        "OpeningRecords.AdministrativeChannels"
+      ],
+      "ProhibitedMutations": [
+        "CreateMandate",
+        "CreateDelegation",
+        "CreateOffice",
+        "AssignOfficer",
+        "CreateAssembly",
+        "CreateCouncil",
+        "CreateRegency",
+        "CreateProvisionalGovernment"
+      ]
+    },
+    {
+      "OwnerId": "EcclesiasticalOwner",
+      "Required": true,
+      "PhaseOrdinal": 90,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "BindEcclesiasticalDefinitionReference"
+      ],
+      "SourcePaths": [
+        "Definitions.EcclesiasticalDefinitionRefs"
+      ],
+      "EmptySourceDisposition": "NoMutationRequest",
+      "ProhibitedMutations": [
+        "AssignNamedBishop",
+        "CreateOfficeholder",
+        "TransferProperty",
+        "CreateSuccessionSupport",
+        "CreateRiteTransition"
+      ]
+    },
+    {
+      "OwnerId": "RealmAIOwner",
+      "Required": true,
+      "PhaseOrdinal": 100,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "BindAIProfile"
+      ],
+      "SourcePaths": [
+        "Definitions.AIProfileDefinitions",
+        "OpeningRecords.AIProfileBindings"
+      ],
+      "ProhibitedMutations": [
+        "CreateAIProposal",
+        "AcceptAICommand",
+        "ExecuteAIMutation"
+      ]
+    },
+    {
+      "OwnerId": "HistoricalMomentumOwner",
+      "Required": true,
+      "PhaseOrdinal": 110,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "BindSuccessionPressureDefinition"
+      ],
+      "SourcePaths": [
+        "Definitions.SuccessionPressureDefinitions",
+        "OpeningRecords.SuccessionPressureDefinitions"
+      ],
+      "ProhibitedMutations": [
+        "CreateHistoricalMemoryInstance",
+        "CreateHistoricalMomentumInstance",
+        "CreateHistoricalEmergenceInstance",
+        "ForcePartition",
+        "ScheduleCivilWar",
+        "DeclareSuccessorWinner"
+      ]
+    },
+    {
+      "OwnerId": "ValidationAndTraceOwner",
+      "Required": true,
+      "PhaseOrdinal": 120,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "ValidateExternalLocks",
+        "ValidateReviewOnlyReferences",
+        "ValidateQuarantinedReferences",
+        "ValidateRejectedLaterHistory",
+        "RecordExplicitEmptyEvidence",
+        "EmitValidationTrace"
+      ],
+      "SourcePaths": [
+        "ExternalLocks",
+        "ReviewOnlyReferences",
+        "QuarantinedReferences",
+        "RejectedLaterHistory",
+        "ExplicitEmptyCollections",
+        "DeclaredCounts"
+      ],
+      "ProhibitedMutations": [
+        "EmitExternalDefinition",
+        "ActivateReviewOnly",
+        "ActivateQuarantined",
+        "ActivateRejectedLaterHistory",
+        "MutateExplicitEmptyCollection"
+      ]
+    },
+    {
+      "OwnerId": "SaveAndMigrationOwner",
+      "Required": true,
+      "PhaseOrdinal": 130,
+      "AdapterRequirement": "Required",
+      "OwnedRequestTypes": [
+        "ValidateApplicationGuard",
+        "CheckPriorReceipt",
+        "PersistApplicationReceipt",
+        "PersistOwnerStateHashes",
+        "PersistTemporalStateHash"
+      ],
+      "SourcePaths": [
+        "ApplicationGuard"
+      ],
+      "ProhibitedMutations": [
+        "ReplayOpeningState",
+        "RepairAdvancedSave",
+        "ResetTemporalTracks",
+        "ChangeSelectedPerspective",
+        "ActivateDeferredRecord"
+      ]
+    }
+  ],
+  "SourceRouteCoverage": [
+    {
+      "SourcePath": "Overlay.SelectedPerspectiveRef",
+      "OwnerId": "CampaignPerspectiveOwner",
+      "MutationClass": "SelectionBinding"
+    },
+    {
+      "SourcePath": "Overlay.SelectedPersonRef",
+      "OwnerId": "CampaignPerspectiveOwner",
+      "MutationClass": "SelectionBinding"
+    },
+    {
+      "SourcePath": "TemporalState",
+      "OwnerId": "TemporalOwner",
+      "MutationClass": "OpeningBindingOnly"
+    },
+    {
+      "SourcePath": "OpeningRecords.CampaignShell",
+      "OwnerId": "RealmAndFactionOwner",
+      "MutationClass": "OwnerRouted"
+    },
+    {
+      "SourcePath": "OpeningRecords.Characters",
+      "OwnerId": "CharacterLifecycleOwner",
+      "MutationClass": "OwnerRouted"
+    },
+    {
+      "SourcePath": "OpeningRecords.Households",
+      "OwnerId": "HouseholdOwner",
+      "MutationClass": "OwnerRouted"
+    },
+    {
+      "SourcePath": "OpeningRecords.SpousePropositions",
+      "OwnerId": "CharacterNetworkOwner",
+      "MutationClass": "GenealogyOnly"
+    },
+    {
+      "SourcePath": "OpeningRecords.ParentChildPropositions",
+      "OwnerId": "CharacterNetworkOwner",
+      "MutationClass": "GenealogyOnly"
+    },
+    {
+      "SourcePath": "OpeningRecords.TitleHolderBindings",
+      "OwnerId": "TitleOwner",
+      "MutationClass": "OwnerRouted"
+    },
+    {
+      "SourcePath": "OpeningRecords.GovernanceDefinitions",
+      "OwnerId": "GovernanceOwner",
+      "MutationClass": "DefinitionBinding"
+    },
+    {
+      "SourcePath": "OpeningRecords.AdministrativeChannels",
+      "OwnerId": "GovernanceOwner",
+      "MutationClass": "DefinitionBinding"
+    },
+    {
+      "SourcePath": "OpeningRecords.RealmPersonalityBindings",
+      "OwnerId": "RealmAndFactionOwner",
+      "MutationClass": "DefinitionBinding"
+    },
+    {
+      "SourcePath": "OpeningRecords.AIProfileBindings",
+      "OwnerId": "RealmAIOwner",
+      "MutationClass": "DefinitionBinding"
+    },
+    {
+      "SourcePath": "OpeningRecords.SuccessionPressureDefinitions",
+      "OwnerId": "HistoricalMomentumOwner",
+      "MutationClass": "DefinitionBinding"
+    },
+    {
+      "SourcePath": "Definitions.EcclesiasticalDefinitionRefs",
+      "OwnerId": "EcclesiasticalOwner",
+      "MutationClass": "ReferenceBindingOnly"
+    },
+    {
+      "SourcePath": "ExternalLocks",
+      "OwnerId": "ValidationAndTraceOwner",
+      "MutationClass": "ValidationOnly"
+    },
+    {
+      "SourcePath": "ReviewOnlyReferences",
+      "OwnerId": "ValidationAndTraceOwner",
+      "MutationClass": "ValidationOnly"
+    },
+    {
+      "SourcePath": "QuarantinedReferences",
+      "OwnerId": "ValidationAndTraceOwner",
+      "MutationClass": "ValidationOnly"
+    },
+    {
+      "SourcePath": "RejectedLaterHistory",
+      "OwnerId": "ValidationAndTraceOwner",
+      "MutationClass": "ValidationOnly"
+    },
+    {
+      "SourcePath": "ExplicitEmptyCollections",
+      "OwnerId": "ValidationAndTraceOwner",
+      "MutationClass": "EvidenceOnly"
+    },
+    {
+      "SourcePath": "DeclaredCounts",
+      "OwnerId": "ValidationAndTraceOwner",
+      "MutationClass": "ValidationOnly"
+    },
+    {
+      "SourcePath": "ApplicationGuard",
+      "OwnerId": "SaveAndMigrationOwner",
+      "MutationClass": "GuardAndReceipt"
+    }
+  ],
+  "ExternalLocks": [
+    "external_lock.realm.taifa_toledo",
+    "external_lock.settlement.coimbra",
+    "external_lock.dynasty.jimenez",
+    "external_lock.dynasty.leonese_royal_line"
+  ],
+  "PerspectivePairs": [
+    {
+      "PerspectiveRef": "perspective.leon_castile.sancho",
+      "PersonRef": "person.sancho.ferdinand_sancha_son"
+    },
+    {
+      "PerspectiveRef": "perspective.leon_castile.alfonso",
+      "PersonRef": "person.alfonso.ferdinand_sancha_son"
+    },
+    {
+      "PerspectiveRef": "perspective.leon_castile.garcia",
+      "PersonRef": "person.garcia.ferdinand_sancha_son"
+    }
+  ],
+  "SovereigntyInvariant": {
+    "SovereignRef": "person.ferdinand.jimenez.muniadona_son",
+    "AppliesToAllPerspectivePairs": true
+  },
+  "TemporalInvariant": {
+    "HistoricalDate": "1062-01-01",
+    "HistoricalProgressionMonthsPerStrategicTurn": 21,
+    "HistoricalProgressionIndex": 0,
+    "BiologicalProgressionMonthsPerStrategicTurn": 7,
+    "BiologicalProgressionIndex": 0,
+    "CampaignSeason": "Winter",
+    "CampaignSeasonIndex": 0,
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "AdvanceDuringOpeningApplication": false
+  },
+  "DispositionContract": {
+    "Accepted": {
+      "MayCommit": true,
+      "RequiresAllRequiredOwnersAccepted": true
+    },
+    "AcceptedWithWarnings": {
+      "MayCommit": true,
+      "RequiresNoFatalIssues": true
+    },
+    "AlreadyApplied": {
+      "MayCommit": false,
+      "MutationCount": 0
+    },
+    "RejectedFatal": {
+      "MayCommit": false,
+      "MutationCount": 0,
+      "RollbackAllStagedOwners": true
+    }
+  },
+  "StaticChecks": {
+    "RequiredOwnerCount": 13,
+    "AllDeclaredOwnersHaveRoutes": true,
+    "MutableSourcePathsHaveExactlyOneOwner": true,
+    "ExplicitEmptyCollectionsValidationOnly": true,
+    "AllThreePerspectivePairsDeclared": true,
+    "FerdinandSovereigntyInvariantDeclared": true,
+    "IndependentTemporalTracksDeclared": true,
+    "ExternalLocksReferenceOnly": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false
+  },
+  "Gate": {
+    "OwnerRoutingManifest": "PASS_STATIC_CHECKED_PROPOSAL",
+    "RouteUniqueness": "PASS_STATIC_CHECKED",
+    "RequiredOwnerCoverage": "PASS_STATIC_CHECKED",
+    "ExplicitEmptyMutationSafety": "PASS_STATIC_CHECKED",
+    "ActualSubsystemReconciliation": "NOT_RUN",
+    "CompileValidation": "NOT_RUN",
+    "RuntimeValidation": "NOT_RUN",
+    "PromotionToActiveSource": "PROHIBITED_PENDING_RECONCILIATION"
+  },
+  "NextAction": "Reconcile owner IDs, adapter availability, module paths, save ownership, and transaction ownership against the actual MedievalWar UE5 source tree before creating a compile-ready shared importer scaffold."
+}

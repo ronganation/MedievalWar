@@ -1,0 +1,26 @@
+{
+  "DocumentId": "CharacterProfile.Aquitaine.AgnesOfAquitaine.V1.Manifest",
+  "AuthorityFile": "Agnes_of_Aquitaine_V1_Developed_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "Generated": "2026-09-03",
+  "ByteCount": 32198,
+  "LineCount": 954,
+  "SHA256": "68f3e03c3c269a88a59e2f8e383e8df7cb8d6ed559f4b07701105d3fa21474c0",
+  "ProfileTier": "DevelopingOrUnderagePrincipal",
+  "EvidenceBasis": [
+    "Aquitaine current historical, Registry, character, dynasty, Network, and governance authorities",
+    "Character_Profile_Authoring_Standard_V3.md",
+    "Robert_Curthose_v6_Refined.md",
+    "external historical cross-checks for later Agnes identity"
+  ],
+  "ValidationStatus": "StaticCheckedAuthorityCandidate",
+  "MutationStatus": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "CharacterActivations": 0,
+    "Relationships": 0,
+    "Unreal": 0,
+    "Runtime": 0,
+    "RealPayloadImports": 0
+  }
+}

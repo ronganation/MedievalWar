@@ -1,0 +1,26 @@
+{
+  "FileName": "Flanders_Historical_Suite_Registry_Mapping_and_Quarantine_Plan_V1.md",
+  "Version": "1.1.0",
+  "RevisionDate": "2026-10-12",
+  "SHA256": "a12d1a9e7ec658a1a6810882003f3ffd9e9c57bf6025fed2b19ccbbdb2af78cc",
+  "Bytes": 43612,
+  "Lines": 853,
+  "PreflightAuthority": "Flanders_Historical_Suite_Registry_Preflight_V1.md",
+  "PhysicalSourceSuccessorPairs": 3,
+  "CandidateMappings": 97,
+  "ChildPersonCandidates": 2,
+  "ChildPersonMappingsExecuted": 0,
+  "QuarantineClasses": 19,
+  "ChronologyDisposition": {
+    "Expected": 38,
+    "Observed": 38,
+    "Disposition": "PassAtLexicalPreflightScope",
+    "DeletionsAuthorized": 0
+  },
+  "Result": "Pass",
+  "RegistryMutations": 0,
+  "OpeningStateMutations": 0,
+  "RuntimeMutations": 0,
+  "UnrealMutations": 0,
+  "NextFile": "Flanders_Historical_Suite_Registry_Owner_Submission_Packet_V1.md"
+}

@@ -1,0 +1,27 @@
+{
+  "SchemaId": "mw.ue5.candidate-dataasset-draft.v1",
+  "SchemaVersion": "1.0.0",
+  "PackageId": "package.france.current-candidate.v1",
+  "RealmIdCandidate": "realm.france",
+  "ScenarioId": "mw.scenario.grand_campaign.1062",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "CandidateOnly": true,
+  "SourceDraftOnly": true,
+  "BinaryUAsset": false,
+  "RegistryPromotion": false,
+  "AliasExecution": false,
+  "OpeningStateActivation": false,
+  "UnrealImport": false,
+  "RuntimeEligible": false,
+  "ObjectName": "DA_MW_CandidateTemporalTracks_France_V1",
+  "CandidateRecordFamily": "TemporalTracks",
+  "SourceCandidateFile": "france_current_temporal_tracks_v1.yaml",
+  "ProposedClass": "UMWCampaignCandidateDataAsset",
+  "Records": [],
+  "ReviewQueue": [],
+  "Quarantine": [],
+  "Notes": [
+    "Records remain empty until importer dry-run maps and validates the current candidate YAML.",
+    "This JSON is a source draft, not an Unreal asset."
+  ]
+}

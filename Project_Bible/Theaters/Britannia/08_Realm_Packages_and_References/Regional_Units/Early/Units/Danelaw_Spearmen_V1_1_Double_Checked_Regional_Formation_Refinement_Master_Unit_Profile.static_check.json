@@ -1,0 +1,19 @@
+{
+  "document": "Danelaw_Spearmen_V1_1_Double_Checked_Regional_Formation_Refinement_Master_Unit_Profile.md",
+  "sha256": "6752fc0c447eef323e5bceb31b95889b75a709ce3b8d28a19b21bf2c92c2a11e",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_32": true,
+    "appendix_present": true,
+    "complete_predecessor_byte_content_appended": true,
+    "terrain_matrix_preserved": true,
+    "regional_flavor": true,
+    "formation_behaviors": true,
+    "identity_lock": true,
+    "opening_not_initialized": true,
+    "fences_balanced": true,
+    "no_em_dash": true,
+    "nonmutation": true
+  },
+  "pass": true
+}

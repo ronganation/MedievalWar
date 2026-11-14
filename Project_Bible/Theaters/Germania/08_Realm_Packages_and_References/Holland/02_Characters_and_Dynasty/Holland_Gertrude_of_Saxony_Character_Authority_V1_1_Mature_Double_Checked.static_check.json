@@ -1,0 +1,30 @@
+{
+  "document": "Holland_Gertrude_of_Saxony_Character_Authority_V1_1_Mature_Double_Checked.md",
+  "sha256": "84a70d280e5ce1bf65c196d64b1cb9d543ef40a4673e5823272be2d6d8cf732e",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_46": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_hash_matches": true,
+    "predecessor_static_passed": true,
+    "opening_boundary": true,
+    "evidence_register": true,
+    "formation_readiness": true,
+    "workload": true,
+    "continuity": true,
+    "knowledge": true,
+    "personality": true,
+    "directed_network": true,
+    "development": true,
+    "ai": true,
+    "player_contract": true,
+    "candidate_contract": true,
+    "validation_catalogue": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "active_no_citation_tokens": true
+  },
+  "pass": true
+}

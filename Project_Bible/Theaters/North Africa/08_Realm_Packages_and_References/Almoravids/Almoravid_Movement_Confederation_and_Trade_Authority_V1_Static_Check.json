@@ -1,0 +1,25 @@
+{
+  "file": "Almoravid_Movement_Confederation_and_Trade_Authority_V1.md",
+  "bytes": 62086,
+  "lines": 2383,
+  "words": 6841,
+  "sha256": "dd6a93c0a47cb382e7472260f4385f622513fc10adaf6d5693247c4215bee05a",
+  "checks": {
+    "filename": true,
+    "version": true,
+    "opening_date": true,
+    "authority_sections": true,
+    "groups": true,
+    "places": true,
+    "route_refs": true,
+    "zero_opening": true,
+    "temporal": true,
+    "apply_once": true,
+    "no_overclaims": true,
+    "classification": true,
+    "fences": true,
+    "no_em_dash": true,
+    "next_action": true
+  },
+  "allChecksPass": true
+}

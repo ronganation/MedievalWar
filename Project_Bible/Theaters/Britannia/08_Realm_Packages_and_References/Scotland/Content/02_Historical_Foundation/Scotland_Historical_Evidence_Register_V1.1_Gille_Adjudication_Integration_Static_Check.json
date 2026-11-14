@@ -1,0 +1,23 @@
+{
+  "document": "Scotland_Historical_Evidence_Register_V1.1_Gille_Adjudication_Integration.md",
+  "bytes": 51289,
+  "lines": 1164,
+  "sections": 35,
+  "sha256": "d69a6791e262fed0da719fbec190d748790c9343c96a8edcdd3e796537f4f879",
+  "checks": {
+    "gille_adjudication": true,
+    "u1032_2": true,
+    "equivalence_rejected": true,
+    "no_replacement": true,
+    "opening_blocked": true,
+    "registry_false": true,
+    "opening_false": true,
+    "migration_false": true,
+    "runtime_false": true,
+    "validation_false": true,
+    "no_escaped_underscore": true,
+    "stable_footer": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

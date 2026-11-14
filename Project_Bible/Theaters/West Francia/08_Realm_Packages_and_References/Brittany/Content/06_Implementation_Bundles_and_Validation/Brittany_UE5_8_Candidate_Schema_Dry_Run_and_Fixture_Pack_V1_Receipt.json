@@ -1,0 +1,14 @@
+{
+  "zip_file": "Brittany_UE5_8_Candidate_Schema_Dry_Run_and_Fixture_Pack_V1.zip",
+  "bytes": 28819,
+  "sha256": "35377F7E2016B9ECD9D3590AE29391DB7A08B062CAA5249165905B1CF341073B",
+  "member_count": 85,
+  "json_members_parsed": 83,
+  "testzip_bad_member": null,
+  "max_internal_path_length": 57,
+  "positive_fixtures_passed": 17,
+  "negative_fixtures_detected": 20,
+  "rollback_restored": true,
+  "result": "PASS_WITH_BLOCKERS",
+  "project_mutations": 0
+}

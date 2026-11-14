@@ -1,0 +1,1067 @@
+{
+  "authority_inputs": [
+    {
+      "file": "Norway_Opening_State_Refined.md",
+      "sha256": "490af15cc94cce061d5abd79ee8f567ee7a6ef5d73778354d00a57f4b310c113"
+    },
+    {
+      "file": "Norway_ID_Migration_Map_Refined.md",
+      "sha256": "0f6241c9b5da53b06b5b25508b2875e1188a76bb7ed4175e2374c714ecb814c2"
+    },
+    {
+      "file": "Norway_Importer_Readiness_and_Validation_Audit_Refined.md",
+      "sha256": "cc98e74cf0878fac45afdbf21be1cbfab296778ce00dc5f6ce6d7f0dc5420ccb"
+    }
+  ],
+  "context_sensitive_migrations": [
+    {
+      "deprecated_id": "Character.Norway.ArchbishopOfNidaros",
+      "disposition": "reject_standard_1062",
+      "possible_targets": [],
+      "required_context": [
+        "alternate_scenario_authority"
+      ]
+    },
+    {
+      "deprecated_id": "Character.Norway.Magnus",
+      "disposition": "quarantine",
+      "possible_targets": [
+        "Character.Norway.MagnusII",
+        "Legacy.Norway.MagnusTheGood"
+      ],
+      "required_context": [
+        "date",
+        "parentage",
+        "title",
+        "generation",
+        "source"
+      ]
+    },
+    {
+      "deprecated_id": "Character.Norway.OlafHaraldsson",
+      "disposition": "quarantine",
+      "possible_targets": [
+        "Character.Norway.OlafIII",
+        "Legacy.Norway.SaintOlaf"
+      ],
+      "required_context": [
+        "date",
+        "parentage",
+        "title",
+        "generation",
+        "source"
+      ]
+    },
+    {
+      "deprecated_id": "Character.Orkney.PaulAndErlend",
+      "disposition": "quarantine",
+      "possible_targets": [
+        "Character.Orkney.PaulThorfinnsson",
+        "Character.Orkney.ErlendThorfinnsson",
+        "PowerCenter.Orkney.NorthernIsles"
+      ],
+      "required_context": [
+        "record_type",
+        "action_subject",
+        "governance_context"
+      ]
+    },
+    {
+      "deprecated_id": "Institution.Norway.ArchdioceseNidaros",
+      "disposition": "reject_standard_1062",
+      "possible_targets": [],
+      "required_context": [
+        "alternate_scenario_authority"
+      ]
+    },
+    {
+      "deprecated_id": "Office.Norway.ArchbishopNidaros",
+      "disposition": "reject_standard_1062",
+      "possible_targets": [],
+      "required_context": [
+        "alternate_scenario_authority"
+      ]
+    }
+  ],
+  "derived_not_authoritative": [
+    "ScenarioFlag.Norway.HaraldIsKing",
+    "ScenarioFlag.Norway.HakonIsTraitor",
+    "ScenarioFlag.Norway.ThorfinnAlive",
+    "ScenarioFlag.Norway.NidarosArchbishopricExists",
+    "ScenarioFlag.Norway.RegencyPrepared",
+    "ScenarioFlag.Norway.EnglishRouteActive",
+    "ScenarioFlag.Norway.SwedishRouteActive"
+  ],
+  "direct_aliases": [
+    {
+      "canonical_id": "Character.Denmark.SweynII",
+      "deprecated_id": "Character.Denmark.SvendII",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Character.Norway.HakonIvarsson",
+      "deprecated_id": "Character.Norway.HaakonIvarsson",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Character.Norway.HaraldHardrada",
+      "deprecated_id": "Character.Norway.HaraldIII",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Character.Norway.HaraldHardrada",
+      "deprecated_id": "Character.Norway.HaraldSigurdsson",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Character.Scotland.IngibjorgFinnsdottir",
+      "deprecated_id": "Character.Norway.IngibjorgFinnsdottir",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Character.Norway.MagnusII",
+      "deprecated_id": "Character.Norway.MagnusIIOfNorway",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Character.Norway.OlafIII",
+      "deprecated_id": "Character.Norway.OlafIIIOfNorway",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Character.Orkney.ErlendThorfinnsson",
+      "deprecated_id": "Character.Orkney.Erlend",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Character.Orkney.PaulThorfinnsson",
+      "deprecated_id": "Character.Orkney.Paul",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Dynasty.Norway.HouseHardrada",
+      "deprecated_id": "Dynasty.Norway.Hardrada",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Momentum.Norway.DanishClaim",
+      "deprecated_id": "Momentum.Norway.DanishWar",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Momentum.Norway.EnglishRoute",
+      "deprecated_id": "Momentum.Norway.EnglandInvasion1066",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Momentum.Norway.HakonLoyaltyCrisis",
+      "deprecated_id": "Momentum.Norway.HakonBetrayal",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Momentum.Norway.BattleOfNisa1062",
+      "deprecated_id": "Momentum.Norway.Nisa",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Momentum.Norway.SwedishRoute",
+      "deprecated_id": "Momentum.Norway.SwedenExile",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Office.Norway.BishopNidaros",
+      "deprecated_id": "Office.Norway.NidarosBishop",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Title.Norway.King",
+      "deprecated_id": "Title.Norway.HighKing",
+      "disposition": "direct_alias"
+    },
+    {
+      "canonical_id": "Title.Orkney.Earl",
+      "deprecated_id": "Title.Orkney.Jarl",
+      "disposition": "direct_alias"
+    }
+  ],
+  "manifest_id": "Manifest.Norway.ImporterSource.1062.v1",
+  "manifest_version": "1.0.0-static-preflight",
+  "opening_date": "1062-01",
+  "prohibited_committed_ids": [
+    "Character.Norway.ArchbishopOfNidaros",
+    "Office.Norway.ArchbishopNidaros",
+    "Institution.Norway.ArchdioceseNidaros",
+    "Character.Orkney.PaulAndErlend"
+  ],
+  "purpose": "Dry importer preflight source manifest. No runtime state is created.",
+  "records": [
+    {
+      "canonical_id": "AI.Realm.Norway",
+      "owner": "RealmAI",
+      "record_type": "ai_profile",
+      "required": true,
+      "source": "Norway_AI_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Denmark.SweynII",
+      "opening_state": "living_external",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.England.TostigGodwinson",
+      "opening_state": "living_external_dormant",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Norway.ElisivOfKiev",
+      "opening_state": "living",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Norway.HakonIvarsson",
+      "opening_state": "living",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Norway.HaraldHardrada",
+      "opening_state": "living",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Norway.IngegerdHaraldsdotter",
+      "opening_state": "living_supporting_minor",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Norway.MagnusII",
+      "opening_state": "living_protected_minor",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Norway.MariaHaraldsdotter",
+      "opening_state": "living_supporting_minor",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Norway.OlafIII",
+      "opening_state": "living_protected_minor",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Norway.RagnhildMagnusdatter",
+      "opening_state": "living_supporting",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Norway.ToraTorbergsdatter",
+      "opening_state": "living",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.OfficeHolder.Norway.BishopNidaros1062",
+      "opening_state": "living_unidentified_office_holder",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Orkney.ErlendThorfinnsson",
+      "opening_state": "living",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Orkney.PaulThorfinnsson",
+      "opening_state": "living",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Scotland.IngibjorgFinnsdottir",
+      "opening_state": "living_cross_realm",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Sweden.Stenkil",
+      "opening_state": "living_external_dormant",
+      "owner": "CharacterFoundation",
+      "record_type": "character",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Network.Norway.Character",
+      "owner": "CharacterNetwork",
+      "record_type": "character_network",
+      "required": true,
+      "source": "Norway_Character_Network_Refined.md"
+    },
+    {
+      "canonical_id": "Claim.Denmark.Kingship.HaraldHardrada",
+      "opening_state": "active_unresolved",
+      "owner": "Claim",
+      "record_type": "claim",
+      "references": [
+        "Character.Norway.HaraldHardrada",
+        "Character.Denmark.SweynII"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Claim.England.Kingship.HaraldHardrada",
+      "opening_state": "latent_route_locked",
+      "owner": "Claim",
+      "record_type": "claim",
+      "references": [
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.BishopNidaros1062.To.HaraldHardrada",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.OfficeHolder.Norway.BishopNidaros1062",
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.ElisivOfKiev.To.HaraldHardrada",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.ElisivOfKiev",
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.ElisivOfKiev.To.ToraTorbergsdatter",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.ElisivOfKiev",
+        "Character.Norway.ToraTorbergsdatter"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.ErlendThorfinnsson.To.HaraldHardrada",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Orkney.ErlendThorfinnsson",
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.ErlendThorfinnsson.To.PaulThorfinnsson",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Orkney.ErlendThorfinnsson",
+        "Character.Orkney.PaulThorfinnsson"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.HakonIvarsson.To.HaraldHardrada",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.HakonIvarsson",
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.HakonIvarsson.To.SweynII",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.HakonIvarsson",
+        "Character.Denmark.SweynII"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.HaraldHardrada.To.BishopNidaros1062",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.HaraldHardrada",
+        "Character.OfficeHolder.Norway.BishopNidaros1062"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.HaraldHardrada.To.ElisivOfKiev",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.HaraldHardrada",
+        "Character.Norway.ElisivOfKiev"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.HaraldHardrada.To.ErlendThorfinnsson",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.HaraldHardrada",
+        "Character.Orkney.ErlendThorfinnsson"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.HaraldHardrada.To.HakonIvarsson",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.HaraldHardrada",
+        "Character.Norway.HakonIvarsson"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.HaraldHardrada.To.MagnusII",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.HaraldHardrada",
+        "Character.Norway.MagnusII"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.HaraldHardrada.To.OlafIII",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.HaraldHardrada",
+        "Character.Norway.OlafIII"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.HaraldHardrada.To.PaulThorfinnsson",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.HaraldHardrada",
+        "Character.Orkney.PaulThorfinnsson"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.HaraldHardrada.To.ToraTorbergsdatter",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.HaraldHardrada",
+        "Character.Norway.ToraTorbergsdatter"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.MagnusII.To.HaraldHardrada",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.MagnusII",
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.MagnusII.To.OlafIII",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.MagnusII",
+        "Character.Norway.OlafIII"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.OlafIII.To.HaraldHardrada",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.OlafIII",
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.OlafIII.To.MagnusII",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.OlafIII",
+        "Character.Norway.MagnusII"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.PaulThorfinnsson.To.ErlendThorfinnsson",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Orkney.PaulThorfinnsson",
+        "Character.Orkney.ErlendThorfinnsson"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.PaulThorfinnsson.To.HaraldHardrada",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Orkney.PaulThorfinnsson",
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.ToraTorbergsdatter.To.ElisivOfKiev",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.ToraTorbergsdatter",
+        "Character.Norway.ElisivOfKiev"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningEdge.ToraTorbergsdatter.To.HaraldHardrada",
+      "notes": "Exact dimensions and ranges belong to the canonical Character Network contract.",
+      "opening_state": "qualitative_baseline_reference",
+      "owner": "CharacterNetwork",
+      "record_type": "directed_relationship_baseline",
+      "references": [
+        "Character.Norway.ToraTorbergsdatter",
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Dynasty.Norway.HouseHardrada",
+      "owner": "Dynasty",
+      "record_type": "dynasty",
+      "references": [
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Dynasty.Orkney.Thorfinnsson",
+      "owner": "Dynasty",
+      "record_type": "dynasty",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningAssignment.Hardrada.Head.Harald",
+      "opening_state": {
+        "dynasty": "Dynasty.Norway.HouseHardrada",
+        "head": "Character.Norway.HaraldHardrada"
+      },
+      "owner": "Dynasty",
+      "record_type": "dynasty_headship",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Event.Norway.BattleOfNisa1062",
+      "opening_state": "eligibility_only_not_occurrence",
+      "owner": "Event",
+      "record_type": "event_definition",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Event.Norway.EstablishRegency",
+      "opening_state": "eligibility_only_not_occurrence",
+      "owner": "Event",
+      "record_type": "event_definition",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Event.Norway.HakonAcquitted",
+      "opening_state": "eligibility_only_not_occurrence",
+      "owner": "Event",
+      "record_type": "event_definition",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Event.Norway.HakonFlightToSweden",
+      "opening_state": "eligibility_only_not_occurrence",
+      "owner": "Event",
+      "record_type": "event_definition",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Event.Norway.HakonInquiry",
+      "opening_state": "eligibility_only_not_occurrence",
+      "owner": "Event",
+      "record_type": "event_definition",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Event.Norway.OrkneySupportNegotiation",
+      "opening_state": "eligibility_only_not_occurrence",
+      "owner": "Event",
+      "record_type": "event_definition",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Event.Norway.StenkilOffersProtection",
+      "opening_state": "eligibility_only_not_occurrence",
+      "owner": "Event",
+      "record_type": "event_definition",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Event.Norway.SweynEscapes",
+      "opening_state": "eligibility_only_not_occurrence",
+      "owner": "Event",
+      "record_type": "event_definition",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Event.Norway.TostigRequestsSupport",
+      "opening_state": "eligibility_only_not_occurrence",
+      "owner": "Event",
+      "record_type": "event_definition",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Momentum.Norway.BattleOfNisa1062",
+      "opening_state": "imminent",
+      "owner": "HistoricalMomentum",
+      "record_type": "historical_momentum",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Momentum.Norway.ChurchConsolidation",
+      "opening_state": "active",
+      "owner": "HistoricalMomentum",
+      "record_type": "historical_momentum",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Momentum.Norway.DanishClaim",
+      "opening_state": "active",
+      "owner": "HistoricalMomentum",
+      "record_type": "historical_momentum",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Momentum.Norway.EnglishRoute",
+      "opening_state": "locked",
+      "owner": "HistoricalMomentum",
+      "record_type": "historical_momentum",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Momentum.Norway.HakonLoyaltyCrisis",
+      "opening_state": "latent",
+      "owner": "HistoricalMomentum",
+      "record_type": "historical_momentum",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Momentum.Norway.HardradaSuccession",
+      "opening_state": "active_background",
+      "owner": "HistoricalMomentum",
+      "record_type": "historical_momentum",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Momentum.Norway.OrkneyCooperation",
+      "opening_state": "reactive",
+      "owner": "HistoricalMomentum",
+      "record_type": "historical_momentum",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Momentum.Norway.SwedishRoute",
+      "opening_state": "inactive_locked",
+      "owner": "HistoricalMomentum",
+      "record_type": "historical_momentum",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Character.Historical.Orkney.ThorfinnSigurdsson",
+      "opening_state": "deceased_before_opening",
+      "owner": "CharacterFoundation",
+      "record_type": "historical_person",
+      "required": false,
+      "source": "Norway_ID_Migration_Map_Refined.md"
+    },
+    {
+      "canonical_id": "Institution.Norway.SeeNidaros",
+      "owner": "EcclesiasticalAuthority",
+      "record_type": "institution",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningAssignment.Orkney.JointRule",
+      "opening_state": {
+        "controllers": [
+          "Character.Orkney.PaulThorfinnsson",
+          "Character.Orkney.ErlendThorfinnsson"
+        ],
+        "power_center": "PowerCenter.Orkney.NorthernIsles"
+      },
+      "owner": "Governance",
+      "record_type": "joint_governance",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Legacy.Norway.MagnusTheGood",
+      "opening_state": "legacy_only_no_agency",
+      "owner": "HistoricalMemory",
+      "record_type": "legacy",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Legacy.Norway.SaintOlaf",
+      "opening_state": "legacy_only_no_agency",
+      "owner": "HistoricalMemory",
+      "record_type": "legacy",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Legacy.Orkney.ThorfinnTheMighty",
+      "opening_state": "legacy_only_no_agency",
+      "owner": "HistoricalMemory",
+      "record_type": "legacy",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "LegacyLine.Norway.MagnusTheGood.Ragnhild",
+      "opening_state": "lineage_reference_not_claim",
+      "owner": "DynastyOrHistoricalMemory",
+      "record_type": "legacy_line",
+      "references": [
+        "Character.Norway.RagnhildMagnusdatter",
+        "Legacy.Norway.MagnusTheGood"
+      ],
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Migration.Norway.IDRegistry",
+      "owner": "MigrationRegistry",
+      "record_type": "migration_registry",
+      "required": true,
+      "source": "Norway_ID_Migration_Map_Refined.md"
+    },
+    {
+      "canonical_id": "Office.Norway.BishopNidaros",
+      "owner": "EcclesiasticalAuthority",
+      "record_type": "office",
+      "references": [
+        "Character.OfficeHolder.Norway.BishopNidaros1062"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningAssignment.Nidaros.Bishop.Holder1062",
+      "opening_state": {
+        "holder": "Character.OfficeHolder.Norway.BishopNidaros1062",
+        "office": "Office.Norway.BishopNidaros"
+      },
+      "owner": "EcclesiasticalAuthority",
+      "record_type": "office_occupancy",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "PowerCenter.Norway.Crown",
+      "owner": "Governance",
+      "record_type": "power_center",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "PowerCenter.Norway.RoyalCourt",
+      "owner": "HouseholdOrGovernance",
+      "record_type": "power_center",
+      "required": false,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "PowerCenter.Orkney.NorthernIsles",
+      "owner": "Governance",
+      "record_type": "power_center",
+      "references": [
+        "Character.Orkney.PaulThorfinnsson",
+        "Character.Orkney.ErlendThorfinnsson"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Realm.Norway",
+      "owner": "Realm",
+      "record_type": "realm",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "RealmContext.Norway.1062",
+      "owner": "Scenario",
+      "record_type": "realm_context",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningRoute.England.Locked",
+      "opening_state": {
+        "momentum": "Momentum.Norway.EnglishRoute",
+        "state": "locked"
+      },
+      "owner": "HistoricalMomentum",
+      "record_type": "route_gate",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningRoute.Sweden.Inactive",
+      "opening_state": {
+        "momentum": "Momentum.Norway.SwedishRoute",
+        "state": "inactive_locked"
+      },
+      "owner": "HistoricalMomentum",
+      "record_type": "route_gate",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningRestriction.Magnus.ProtectedMinor",
+      "opening_state": {
+        "restriction": "no_independent_major_command_or_regency",
+        "subject": "Character.Norway.MagnusII"
+      },
+      "owner": "Underage",
+      "record_type": "runtime_restriction",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningRestriction.Olaf.ProtectedMinor",
+      "opening_state": {
+        "restriction": "no_independent_major_command_or_regency",
+        "subject": "Character.Norway.OlafIII"
+      },
+      "owner": "Underage",
+      "record_type": "runtime_restriction",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Scenario.Norway.1062Opening",
+      "owner": "Scenario",
+      "record_type": "scenario",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningAssignment.Norway.Successor.Magnus",
+      "opening_state": {
+        "candidate": "Character.Norway.MagnusII",
+        "rank": "primary_developing"
+      },
+      "owner": "Succession",
+      "record_type": "succession_recognition",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningAssignment.Norway.Successor.Olaf",
+      "opening_state": {
+        "candidate": "Character.Norway.OlafIII",
+        "rank": "secondary_developing"
+      },
+      "owner": "Succession",
+      "record_type": "succession_recognition",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Title.Norway.King",
+      "owner": "Title",
+      "record_type": "title",
+      "references": [
+        "Character.Norway.HaraldHardrada"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "Title.Orkney.Earl",
+      "owner": "Title",
+      "record_type": "title",
+      "references": [
+        "Character.Orkney.PaulThorfinnsson",
+        "Character.Orkney.ErlendThorfinnsson"
+      ],
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    },
+    {
+      "canonical_id": "OpeningAssignment.Norway.King.Harald",
+      "opening_state": {
+        "holder": "Character.Norway.HaraldHardrada",
+        "title": "Title.Norway.King"
+      },
+      "owner": "Title",
+      "record_type": "title_occupancy",
+      "required": true,
+      "source": "Norway_Opening_State_Refined.md"
+    }
+  ],
+  "runtime_creation_permitted": false,
+  "scenario_id": "Scenario.Norway.1062Opening",
+  "turn_length_months": 7
+}

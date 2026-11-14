@@ -1,0 +1,150 @@
+{
+  "validation_id": "validation.opening_state.valencia.1062.v3_3.package_v1",
+  "version": "1.0.0",
+  "package_id": "opening_state.valencia.1062.v3_3.package_v1",
+  "source_authority": "Valencia_Opening_State_1062_V3_3_Completed_Authority_Chain_Reconciled_Developed_Realm_Parity_Authority.md",
+  "rules": [
+    {
+      "rule_id": "PKG001",
+      "severity": "Error",
+      "description": "Package source authority version is V3.3",
+      "expected": "3.3.0"
+    },
+    {
+      "rule_id": "PKG002",
+      "severity": "Error",
+      "description": "Package is candidate-only",
+      "expected": "CandidateOnly"
+    },
+    {
+      "rule_id": "TXN001",
+      "severity": "Error",
+      "description": "Application is NewCampaignOnly and ApplyOnce",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "TXN002",
+      "severity": "Error",
+      "description": "Advanced save overwrite is prohibited",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "TXN003",
+      "severity": "Error",
+      "description": "Mutation count is zero in this static batch",
+      "expected": 0
+    },
+    {
+      "rule_id": "ID001",
+      "severity": "Error",
+      "description": "Candidate IDs use semantic namespace syntax",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "ID002",
+      "severity": "Error",
+      "description": "Legacy IDs occur only as crosswalk aliases",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "UNC001",
+      "severity": "Error",
+      "description": "Unknown is never converted to zero false empty or generated data",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "PER001",
+      "severity": "Error",
+      "description": "Abd al-Aziz remains deceased before opening",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "PER002",
+      "severity": "Error",
+      "description": "Toledan consort personal name remains Unknown",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "PER003",
+      "severity": "Error",
+      "description": "Ibn Rawbash remains ReviewOnly and not activated",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "GOV001",
+      "severity": "Error",
+      "description": "Unknown officeholders have no generated person records",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "TER001",
+      "severity": "Error",
+      "description": "Eight site or region records are present",
+      "expected": 8
+    },
+    {
+      "rule_id": "TER002",
+      "severity": "Error",
+      "description": "ReviewOnly sites do not become possession",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "TER003",
+      "severity": "Error",
+      "description": "Four route definitions are present",
+      "expected": 4
+    },
+    {
+      "rule_id": "MIL001",
+      "severity": "Error",
+      "description": "Eight force family definitions are present",
+      "expected": 8
+    },
+    {
+      "rule_id": "MIL002",
+      "severity": "Error",
+      "description": "No force instances or recruitment pools are created",
+      "expected": 0
+    },
+    {
+      "rule_id": "OWN001",
+      "severity": "Error",
+      "description": "Six relation surfaces are present",
+      "expected": 6
+    },
+    {
+      "rule_id": "OWN002",
+      "severity": "Error",
+      "description": "External locks do not create consent agreement access force or knowledge",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "HIS001",
+      "severity": "Error",
+      "description": "Historical definitions do not create instances",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "PRB001",
+      "severity": "Error",
+      "description": "Nine problem definitions are present",
+      "expected": 9
+    },
+    {
+      "rule_id": "PRB002",
+      "severity": "Error",
+      "description": "No choice executes from payload",
+      "expected": "Required"
+    },
+    {
+      "rule_id": "TMP001",
+      "severity": "Error",
+      "description": "Three temporal tracks remain independent",
+      "expected": "Required"
+    }
+  ],
+  "execution_status": "ExecutedStaticChecksOnly",
+  "runtime_validation": "NotExecuted",
+  "registry_validation": "NotExecuted",
+  "unreal_validation": "NotExecuted"
+}

@@ -1,0 +1,26 @@
+{
+  "filename": "Wales_Strategic_Geography_Regions_Settlements_Routes_and_Control_Authority_V1.md",
+  "bytes": 50512,
+  "lines": 1234,
+  "sections": 47,
+  "sha256": "09544b6f7e67e202e594391d68788eba2660c6707b3b8b02e6f4fc7502e252b9",
+  "checks": {
+    "filename": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "yaml_present": true,
+    "text_separations": true,
+    "modern_medieval_ii": true,
+    "one_opening_realm": true,
+    "anti_clutter": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_em_dash": true,
+    "no_opening_activation": true,
+    "advanced_save_protected": true
+  },
+  "all_checks_passed": true
+}

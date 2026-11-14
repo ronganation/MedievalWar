@@ -1,0 +1,20 @@
+{
+  "authorized": false,
+  "requirements_remaining": [
+    "local_recursive_hash_scan",
+    "project_wide_registry_clearance",
+    "owner_decisions",
+    "external_owner_receipts",
+    "exact_opening_bindings",
+    "project_native_schema",
+    "importer_dry_run",
+    "deterministic_round_trip",
+    "rollback",
+    "compile",
+    "editor",
+    "save_reload",
+    "migration",
+    "replay",
+    "performance"
+  ]
+}

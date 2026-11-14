@@ -1,0 +1,33 @@
+{
+  "target": "France_Historical_Emergence_V2.1_Current_Authority_Correction.md",
+  "status": "PASS",
+  "passed": true,
+  "checks": {
+    "v2_literal_prefix": true,
+    "successor_larger_than_v2": true,
+    "all_fourteen_pathways": true,
+    "opening_zero_active": true,
+    "opening_zero_scheduled": true,
+    "opening_zero_instances": true,
+    "complete_record_schema": true,
+    "transition_invariants": true,
+    "participation_rules": true,
+    "competition_arbitration": true,
+    "positive_25": true,
+    "negative_30": true,
+    "issue_codes_20": true,
+    "owner_handoff_matrix": true,
+    "three_temporal_tracks": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "zero_removal": true,
+    "honest_validation": true,
+    "correct_end_marker": true
+  },
+  "source_file": "France_Historical_Emergence_V2_Current_Authority_Refinement.md",
+  "source_bytes": 39889,
+  "source_lines": 1031,
+  "output_bytes": 60341,
+  "output_lines": 1528,
+  "validation_scope": "Complete prior-artifact prefix plus additive current-authority correction. Static content checks only; no original V1 byte-for-byte claim, Registry mutation, Opening State activation, Emergence activation, migration execution, importer, compile, runtime, save-load, replay, performance, battle, Unreal mutation, real payload, or physical promotion."
+}

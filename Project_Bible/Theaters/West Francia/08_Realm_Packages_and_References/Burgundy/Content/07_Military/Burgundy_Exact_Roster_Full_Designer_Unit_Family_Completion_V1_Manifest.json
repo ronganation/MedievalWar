@@ -1,0 +1,17 @@
+{
+  "artifact": "Burgundy_Exact_Roster_Full_Designer_Unit_Family_Completion_V1.md",
+  "stableDocumentId": "ExactRosterDesignerCompletion.Realm.Burgundy",
+  "version": "1.0.0",
+  "revisionDate": "2026-09-08",
+  "placement": "Burgundy/07_Military",
+  "bytes": 35644,
+  "lines": 1038,
+  "sha256": "e0f87280ada309b0f8bd5f2e462616acdf6b4358c154e1cd2a62234632b352cc",
+  "verifiedSourceFamilySlots": 23,
+  "exactSourceFamilyNameMergeComplete": false,
+  "sourceLimitation": "Full immediate substantive source bytes were not returned by enterprise search in this pass; no family names or IDs were invented.",
+  "companions": [
+    "Burgundy_Exact_Roster_Full_Designer_Unit_Family_Completion_V1_Manifest.json",
+    "Burgundy_Exact_Roster_Full_Designer_Unit_Family_Completion_V1_Static_Check.json"
+  ]
+}

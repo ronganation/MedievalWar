@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationIndividualDecisionAndMigrationPreflight",
+    "name": "Trait Reputation Individual Decision and Migration Preflight V1",
+    "version": "1.0",
+    "status": "PassedDecisionsAndDirectMappings_RegistryStagingAuthorized",
+    "authority_class": "Canonical ID and Migration Decision Dry Preflight"
+  },
+  "inputs": {
+    "candidate_decision": {
+      "file": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json"
+    },
+    "mapping_decision": {
+      "file": "Trait_Reputation_Direct_Migration_Map_Decision_V1.json"
+    },
+    "trait_snapshot": {
+      "file": "Trait_Canonical_Registry_V1.json",
+      "record_count": 0
+    },
+    "reputation_snapshot": {
+      "file": "Reputation_Dimension_Registry_V1.json",
+      "record_count": 0
+    }
+  },
+  "checks": {
+    "approved_ids": 46,
+    "unique_ids": 46,
+    "approved_direct_mappings": 46,
+    "unique_mapping_sources": 46,
+    "mapping_targets_match_approved_ids": true,
+    "alias_chains": 0,
+    "empty_snapshot_collisions": 0,
+    "deprecated_id_matches": 0,
+    "wrong_owner_fatal_findings": 0,
+    "cross_registry_same_label_pairs_resolved": 2
+  },
+  "run": {
+    "mode": "IdDecisionAndMigrationMapDryPreflight",
+    "execution_status": "Completed",
+    "verdict": "PassRegistryRecordStagingAuthorized",
+    "canonical_ids_approved": 46,
+    "registry_records_created": 0,
+    "registry_mutations": 0,
+    "migration_writes": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "authorization_boundary": {
+    "registry_record_staging_authorized": true,
+    "authoritative_registry_commit_authorized": false,
+    "migration_execution_authorized": false,
+    "content_rewrite_authorized": false,
+    "runtime_state_authorized": false,
+    "save_write_authorized": false
+  },
+  "validation": {
+    "all_46_decisions_resolved": true,
+    "all_46_mappings_resolved": true,
+    "mapping_bijection_passed": true,
+    "grammar_passed": true,
+    "collision_review_passed_against_empty_snapshots": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false
+  },
+  "smallest_useful_next_action": "Stage 37 Trait definition records and nine Reputation dimension records in new version 1.1 registry snapshots, preserve the version 1.0 empty snapshots as provenance, and run registry-record plus migration-map commit preflight before any authoritative commit."
+}

@@ -1,0 +1,20 @@
+{
+  "FileName": "Burgundy_Character_Network_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "1d9f5c900240c5afce712169a055081b041802b84d5a72eb5ed7d1de5f0d4bc8",
+  "Bytes": 45696,
+  "Lines": 1346,
+  "Status": "StaticCheckedFullDevelopedRealmParityCharacterNetworkReviewOnly",
+  "CandidateNodes": 18,
+  "PersonNodes": 13,
+  "ExternalAndCounterpartNodes": 5,
+  "DirectedEdgeCandidates": 24,
+  "ActiveOpeningEdges": 0,
+  "RelationshipDimensions": 18,
+  "NetworkQuestions": 12,
+  "IssueCodes": 30,
+  "PositiveFixtures": 24,
+  "NegativeFixtures": 30,
+  "NextFile": "Burgundy_Governance_and_Delegated_Authority_V1.md",
+  "Mutations": 0
+}

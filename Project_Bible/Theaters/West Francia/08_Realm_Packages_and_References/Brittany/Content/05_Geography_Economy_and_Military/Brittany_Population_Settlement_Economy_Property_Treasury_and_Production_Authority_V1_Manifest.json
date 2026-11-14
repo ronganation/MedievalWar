@@ -1,0 +1,22 @@
+{
+  "filename": "Brittany_Population_Settlement_Economy_Property_Treasury_and_Production_Authority_V1.md",
+  "version": "1.0.0",
+  "bytes": 41662,
+  "lines": 1045,
+  "sha256": "8F27A7C6C5EBAD462F61475DAA4B0EBE16DC6944FCAE5A8364F613A7EF59C4AA",
+  "authority_type": "PopulationSettlementEconomyPropertyTreasuryProduction",
+  "realm": "Brittany",
+  "operating_portfolios": 33,
+  "regional_portfolios": 8,
+  "settlement_interfaces": 14,
+  "record_contracts": 9,
+  "positive_fixtures": 25,
+  "negative_fixtures": 30,
+  "opening_values_created": 0,
+  "registry_rows_created": 0,
+  "runtime_mutations": 0,
+  "unreal_project_mutations": 0,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "importer_validated": false
+}

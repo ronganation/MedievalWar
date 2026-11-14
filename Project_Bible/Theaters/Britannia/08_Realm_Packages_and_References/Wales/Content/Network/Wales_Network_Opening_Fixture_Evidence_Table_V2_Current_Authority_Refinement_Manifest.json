@@ -1,0 +1,51 @@
+{
+  "document_id": "manifest.wales.network-opening-evidence.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Wales_Network_Opening_Fixture_Evidence_Table.md",
+    "bytes": 19246,
+    "physical_lines": 614,
+    "sha256": "5e2f7a0325725c8ab15e40ebd6e6900722c7fe8ea84c7b427a6c65b2ea21fb9e",
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Wales_Network_Opening_Fixture_Evidence_Table_V2_Current_Authority_Refinement.md",
+    "bytes": 37042,
+    "physical_lines": 1088,
+    "sha256": "5a9e6890b239740a911cf61550301787dd8c845c7f11cbb16632d961c18f5a5f"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_headings_preserved": 48,
+    "source_candidate_ids_preserved": [
+      "WALES-NET-CAND-001",
+      "WALES-NET-CAND-002",
+      "WALES-NET-CAND-003",
+      "WALES-NET-CAND-004",
+      "WALES-NET-CAND-005",
+      "WALES-NET-CAND-006",
+      "WALES-NET-CAND-007",
+      "WALES-NET-CAND-008"
+    ],
+    "removed_content": []
+  },
+  "current_result": {
+    "opening_nodes": 9,
+    "eligible_directed_candidates": 8,
+    "BasisOnly_only_candidates": 8,
+    "mutable_dimensions_eligible": 0,
+    "participation_gated_candidates": 2
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_Network_Opening_Fixture_Evidence_Table_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

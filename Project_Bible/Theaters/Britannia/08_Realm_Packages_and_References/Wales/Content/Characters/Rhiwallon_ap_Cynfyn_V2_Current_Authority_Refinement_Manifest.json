@@ -1,0 +1,54 @@
+{
+  "document_id": "manifest.wales.rhiwallon-ap-cynfyn.v2.current-authority-refinement",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Rhiwallon_ap_Cynfyn.md",
+    "bytes": 38170,
+    "physical_lines": 992,
+    "sha256": "ae19b911c3fd29c03e2ff4656516f7dde5867729ee3945a5c4126579b8235abb"
+  },
+  "successor": {
+    "filename": "Rhiwallon_ap_Cynfyn_V2_Current_Authority_Refinement.md",
+    "bytes": 62960,
+    "physical_lines": 1688,
+    "sha256": "f608cbe183f80af60c20c40b2c06e9c0dc30261edeebefdaeefa10dc253bad27"
+  },
+  "copy_method": "literal full-file prefix plus additive current-authority refinement",
+  "source_fidelity": {
+    "literal_source_prefix": true,
+    "source_headings_preserved": 96,
+    "removed_content": []
+  },
+  "current_authority": {
+    "person_id": "Person.RhiwallonApCynfyn",
+    "opening_participation": "Active",
+    "opening_role": "IndependentAdultDynasticPartner",
+    "opening_title_refs": [],
+    "opening_claim_refs": [],
+    "opening_command_refs": [],
+    "opening_basis_only_edges": 4,
+    "opening_relationship_dimensions": 0
+  },
+  "validation": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Rhiwallon_ap_Cynfyn_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

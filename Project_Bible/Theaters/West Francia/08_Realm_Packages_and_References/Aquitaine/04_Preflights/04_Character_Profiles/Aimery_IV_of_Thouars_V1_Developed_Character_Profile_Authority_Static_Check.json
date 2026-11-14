@@ -1,0 +1,23 @@
+{
+  "StaticCheckId": "StaticCheck.AimeryIVThouars.V1",
+  "Document": "Aimery_IV_of_Thouars_V1_Developed_Character_Profile_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "required_numbered_sections_present": true,
+    "three_tracks_present": true,
+    "current_aquitaine_chain_present": true,
+    "normandy_norse_britannia_benchmarked": true,
+    "barbastro_conditional": true,
+    "normandy_1066_conditional": true,
+    "no_numeric_attribute_sheet": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "Lines": 1150,
+  "Bytes": 45306,
+  "SHA256": "5617b305b90b0c58ceeebba744a357c5c4c6e3425a2cc16666e8c4fbbbd888bf",
+  "ValidationScope": "Static design-authority checks only. No Registry, Opening State, relationship, title, command, Unreal, runtime, save, migration, replay, performance, battle, or real-payload validation."
+}

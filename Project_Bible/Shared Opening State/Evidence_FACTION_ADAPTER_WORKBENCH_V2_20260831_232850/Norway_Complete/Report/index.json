@@ -1,0 +1,2547 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "BABBAKANOOSH",
+			"instance": "1B3DEDC445C0C03105362D82DB2CDB23",
+			"instanceName": "BABBAKANOOSH-39076",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (25H2) [10.0.26200.9168] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 3060",
+			"cPUModel": "AMD Ryzen 5 5600X 6-Core Processor             ",
+			"rAMInGB": 16,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.09.01-03.29.39",
+	"succeeded": 163,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 1.3365697860717773,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Loader.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.007937900722026825,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CoreTagsRegistered",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.CharacterFoundation.CoreTagsRegistered",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0077720992267131805,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PartialProjection",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.CharacterFoundation.PartialProjection",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082217007875442505,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: character_attributes_and_state_tags_unresolved",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.36"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: character_biological_ages_unresolved",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.36"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: character_birth_dates_unresolved",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.36"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: character_realm_and_location_unresolved",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.36"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: character_titles_roles_and_eligibility_unresolved",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.36"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Projection blocker: characterfoundation_owner_not_committed",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.01-03.29.36"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PartialProjectionDeterminism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.CharacterFoundation.PartialProjectionDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0077900998294353485,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "KingTagRegistered",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.Title.KingTagRegistered",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0080145001411437988,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PartialProjection",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.Title.PartialProjection",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.00821710005402565,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PartialProjectionDeterminism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.Title.PartialProjectionDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0078375004231929779,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "BlockedContract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.BlockedContract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084322020411491394,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081663019955158234,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SourceBoundAccounting",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.SourceBoundAccounting",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081492029130458832,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SourceBoundDeterminism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.ProductionProjection.SourceBoundDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081554017961025238,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AdvancedSaveGuard",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicCommitReadiness.AdvancedSaveGuard",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0086437016725540161,
+			"dateTime": "2026.09.01-03.29.36",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicCommitReadiness.CompleteCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081105977296829224,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicCommitReadiness.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0076192989945411682,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ExplicitAuthorizationRequired",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicCommitReadiness.ExplicitAuthorizationRequired",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084337033331394196,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Identity",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicCommitReadiness.Identity",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008281998336315155,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoExecution",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicCommitReadiness.NoExecution",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082032978534698486,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OwnerPermissionRequired",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicCommitReadiness.OwnerPermissionRequired",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083540007472038269,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReceiptDestinationRequired",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicCommitReadiness.ReceiptDestinationRequired",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082426965236663818,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RollbackContractRequired",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicCommitReadiness.RollbackContractRequired",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081949010491371155,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TemporalGuards",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicCommitReadiness.TemporalGuards",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082705020904541016,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AllOwnersPrepared",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicStaging.AllOwnersPrepared",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008243899792432785,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicStaging.CompleteCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0085745006799697876,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicStaging.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0078171007335186005,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicStaging.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081200003623962402,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LiveStateUnchanged",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicStaging.LiveStateUnchanged",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081266984343528748,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoPersistentMutation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicStaging.NoPersistentMutation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083788000047206879,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PartialFailureDiscardsStage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicStaging.PartialFailureDiscardsStage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082299001514911652,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReceiptPrepared",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicStaging.ReceiptPrepared",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082478001713752747,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "StagedStateDiscarded",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.AtomicStaging.StagedStateDiscarded",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083226002752780914,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.FinalIsolatedCloseout.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083122998476028442,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Coverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.FinalIsolatedCloseout.Coverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0086290016770362854,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Identity",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.FinalIsolatedCloseout.Identity",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081661008298397064,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoProductionClaim",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.FinalIsolatedCloseout.NoProductionClaim",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082188025116920471,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ProductionBoundary",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.FinalIsolatedCloseout.ProductionBoundary",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081519000232219696,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RegressionEvidence",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.FinalIsolatedCloseout.RegressionEvidence",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082323029637336731,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RequiredGateRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.FinalIsolatedCloseout.RequiredGateRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083414986729621887,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TemporalBoundary",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.FinalIsolatedCloseout.TemporalBoundary",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0079282000660896301,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AuthorityEvidence",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.ImportReceiptPlan.AuthorityEvidence",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082434006035327911,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.ImportReceiptPlan.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082093998789787292,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.ImportReceiptPlan.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082425996661186218,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoWrite",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.ImportReceiptPlan.NoWrite",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0078988000750541687,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OperationCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.ImportReceiptPlan.OperationCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084852017462253571,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OwnerCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.ImportReceiptPlan.OwnerCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082697011530399323,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RollbackCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.ImportReceiptPlan.RollbackCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082510001957416534,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AllOrNothing",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedAtomicCommit.AllOrNothing",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082672014832496643,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AuthorizationRequired",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedAtomicCommit.AuthorizationRequired",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083025023341178894,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoProductionStateTouched",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedAtomicCommit.NoProductionStateTouched",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081323981285095215,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RepeatedCommitRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedAtomicCommit.RepeatedCommitRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082920975983142853,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Success",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedAtomicCommit.Success",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083221979439258575,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedCommitFingerprint.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083734020590782166,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ExternalFingerprintsUnchanged",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedCommitFingerprint.ExternalFingerprintsUnchanged",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083524025976657867,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FailedReceiptNotCommitted",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedCommitFingerprint.FailedReceiptNotCommitted",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083047002553939819,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReceiptCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedCommitFingerprint.ReceiptCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082773976027965546,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RollbackRestoresExactState",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedCommitFingerprint.RollbackRestoresExactState",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083788000047206879,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SuccessStateChanges",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedCommitFingerprint.SuccessStateChanges",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082705989480018616,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AdvancedSaveRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedMigration.AdvancedSaveRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081599988043308258,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DirectAlias",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedMigration.DirectAlias",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082076005637645721,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoProductionMutation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedMigration.NoProductionMutation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082265995442867279,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PartialFailurePreservesOriginal",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedMigration.PartialFailurePreservesOriginal",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082826018333435059,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ProtectedIdQuarantined",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedMigration.ProtectedIdQuarantined",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0079305022954940796,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "TraceAndDeterminism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedMigration.TraceAndDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083364024758338928,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "WrongScenarioRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedMigration.WrongScenarioRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0079124979674816132,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "WrongVersionRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedMigration.WrongVersionRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084520019590854645,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AdvancedSaveRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.AdvancedSaveRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081750005483627319,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Identity",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.Identity",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083798989653587341,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MigrationDeterminism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.MigrationDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081976018846035004,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoProductionMutation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.NoProductionMutation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083224028348922729,
+			"dateTime": "2026.09.01-03.29.37",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RepeatedReplayDeterminism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.RepeatedReplayDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084194988012313843,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SaveLoadMatchesDirect",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.SaveLoadMatchesDirect",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081992000341415405,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "WrongScenarioRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.WrongScenarioRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082869008183479309,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "WrongVersionRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedReplay.WrongVersionRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083367004990577698,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AdvancedSaveRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedSaveLoad.AdvancedSaveRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081771984696388245,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CorruptReceiptRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedSaveLoad.CorruptReceiptRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083343982696533203,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CorruptStateRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedSaveLoad.CorruptStateRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082443989813327789,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedSaveLoad.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082433968782424927,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoProductionPersistence",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedSaveLoad.NoProductionPersistence",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008177001029253006,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RoundTrip",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedSaveLoad.RoundTrip",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0080146007239818573,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "WrongScenarioRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.IsolatedSaveLoad.WrongScenarioRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0085120014846324921,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerAdapterBinding.CompleteCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0075662024319171906,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerAdapterBinding.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0076154991984367371,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerAdapterBinding.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082142017781734467,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DuplicateBindingRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerAdapterBinding.DuplicateBindingRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081788972020149231,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InterfaceMismatchRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerAdapterBinding.InterfaceMismatchRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0076336003839969635,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoInstantiation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerAdapterBinding.NoInstantiation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081392005085945129,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RecordTypeCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerAdapterBinding.RecordTypeCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081411004066467285,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerBatchPlan.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0079503990709781647,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Coverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerBatchPlan.Coverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0080701000988483429,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerBatchPlan.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084091983735561371,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InvalidOwnerRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerBatchPlan.InvalidOwnerRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0078539997339248657,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerCapabilityPreflight.CompleteCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0080199986696243286,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerCapabilityPreflight.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081417001783847809,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerCapabilityPreflight.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081732980906963348,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DuplicateDeclarationRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerCapabilityPreflight.DuplicateDeclarationRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081293992698192596,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoInvocation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerCapabilityPreflight.NoInvocation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081069990992546082,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RecordTypeMismatchRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerCapabilityPreflight.RecordTypeMismatchRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081686004996299744,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RequiredOwnerMissing",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerCapabilityPreflight.RequiredOwnerMissing",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081445015966892242,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerHandoffEnvelope.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081532001495361328,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerHandoffEnvelope.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081341974437236786,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InvalidEnvelopeRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerHandoffEnvelope.InvalidEnvelopeRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008299902081489563,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OwnerIsolation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerHandoffEnvelope.OwnerIsolation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008072197437286377,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PayloadPreservation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerHandoffEnvelope.PayloadPreservation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082250982522964478,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerResolutionPlan.CompleteCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0080629996955394745,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerResolutionPlan.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081581994891166687,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerResolutionPlan.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083122998476028442,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DuplicateOwnerRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerResolutionPlan.DuplicateOwnerRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082054995000362396,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MissingOwnerRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerResolutionPlan.MissingOwnerRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0087171979248523712,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoLookup",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerResolutionPlan.NoLookup",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0074808001518249512,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RequestIdentity",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerResolutionPlan.RequestIdentity",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081952996551990509,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AllOwnersConsulted",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerValidationInvocation.AllOwnersConsulted",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083151012659072876,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerValidationInvocation.CompleteCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0080549977719783783,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerValidationInvocation.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083254985511302948,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerValidationInvocation.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083652995526790619,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoOperationApplied",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerValidationInvocation.NoOperationApplied",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0079931020736694336,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoRuntimeCreation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerValidationInvocation.NoRuntimeCreation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082679986953735352,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OwnerRejectionPropagates",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerValidationInvocation.OwnerRejectionPropagates",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082550011575222015,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.PreMutationReadiness.CompleteCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0080927982926368713,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.PreMutationReadiness.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082000009715557098,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EvidenceChain",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.PreMutationReadiness.EvidenceChain",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082039013504981995,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Identity",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.PreMutationReadiness.Identity",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083070024847984314,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InvalidManifestRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.PreMutationReadiness.InvalidManifestRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084149986505508423,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OpenMutationGateRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.PreMutationReadiness.OpenMutationGateRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081325992941856384,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SafetyGatesClosed",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.PreMutationReadiness.SafetyGatesClosed",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083286985754966736,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.RollbackJournalPlan.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008239399641752243,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.RollbackJournalPlan.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083265975117683411,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MissingInverseRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.RollbackJournalPlan.MissingInverseRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083814971148967743,
+			"dateTime": "2026.09.01-03.29.38",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoMutation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.RollbackJournalPlan.NoMutation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081559009850025177,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OperationCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.RollbackJournalPlan.OperationCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008212599903345108,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OwnerIsolation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.RollbackJournalPlan.OwnerIsolation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008322499692440033,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReverseOrdering",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.RollbackJournalPlan.ReverseOrdering",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081417001783847809,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.SandboxOwnerResolution.CompleteCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081679001450538635,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.SandboxOwnerResolution.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0077713988721370697,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.SandboxOwnerResolution.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008237101137638092,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DuplicateEndpointRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.SandboxOwnerResolution.DuplicateEndpointRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083144977688789368,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InterfaceMismatchRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.SandboxOwnerResolution.InterfaceMismatchRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008324798196554184,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MissingEndpointRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.SandboxOwnerResolution.MissingEndpointRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008297700434923172,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoInvocation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.SandboxOwnerResolution.NoInvocation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082274973392486572,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CleanPlan",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionConflictPreflight.CleanPlan",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081886015832424164,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionConflictPreflight.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082012005150318146,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DuplicateTargetRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionConflictPreflight.DuplicateTargetRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082491002976894379,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MissingPrerequisiteRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionConflictPreflight.MissingPrerequisiteRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0079320035874843597,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoExecution",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionConflictPreflight.NoExecution",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082615017890930176,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OwnerCollisionRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionConflictPreflight.OwnerCollisionRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084090009331703186,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ProtectedIdRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionConflictPreflight.ProtectedIdRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082855001091957092,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AllOwnersAccepted",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionSimulation.AllOwnersAccepted",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082004033029079437,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionSimulation.CompleteCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082958973944187164,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionSimulation.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083164013922214508,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionSimulation.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0085314996540546417,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoPersistentMutation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionSimulation.NoPersistentMutation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0078654997050762177,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OwnerRejectsMidSequence",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionSimulation.OwnerRejectsMidSequence",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0085724033415317535,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReceiptPrepared",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionSimulation.ReceiptPrepared",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084800012409687042,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RollbackOrderPrepared",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionSimulation.RollbackOrderPrepared",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082721002399921417,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteCoverage",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionStaging.CompleteCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083006992936134338,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Contract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionStaging.Contract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084442980587482452,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DependencyOrdering",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionStaging.DependencyOrdering",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081492997705936432,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionStaging.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.008098699152469635,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DuplicateCandidateRejected",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionStaging.DuplicateCandidateRejected",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082693025469779968,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NoExecution",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionStaging.NoExecution",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0081298984587192535,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OwnerIsolation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.TransactionStaging.OwnerIsolation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0074384994804859161,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CandidateContract",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.CandidateContract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0083371996879577637,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DryRunNoMutation",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.DryRunNoMutation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0080948024988174438,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ManifestSubset",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.ManifestSubset",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0082979016005992889,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "OwnerRouting",
+			"fullTestPath": "MedievalWar.SharedImporter.Norway.Translation.OwnerRouting",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"1B3DEDC445C0C03105362D82DB2CDB23"
+			],
+			"duration": 0.0084039978682994843,
+			"dateTime": "2026.09.01-03.29.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

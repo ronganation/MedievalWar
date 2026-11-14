@@ -1,0 +1,19 @@
+{
+  "document": "Regional_Axe_Infantry_and_Controller_Access_Inventory_Gate_V1.md",
+  "sha256": "cfe283e8b1ef4afbcc67a8a415439a4bbc58ecaa3c9c4db58582f09a0bae691f",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "six_candidates": true,
+    "ownership_rule": true,
+    "three_thresholds": true,
+    "wessex_separate": true,
+    "mailed_profile": true,
+    "next_file": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationCanonicalIdSubmissionPreflight",
+    "name": "Trait Reputation Canonical ID Submission V1 Preflight",
+    "version": "1.1",
+    "status": "ExactBindingPassed_RegistrySnapshotsPending",
+    "authority_class": "Canonical Registry Dry Preflight"
+  },
+  "inputs": {
+    "canonical_id_submission": {
+      "file": "Trait_Reputation_Canonical_ID_Submission_V1.json",
+      "sha256": "8ca92d16a91b0689e14d4a9074635e9d8f65d9da8884dbf9cc27703aaccdd1cf",
+      "loaded": true,
+      "version": "1.1"
+    },
+    "final_owner_acceptance_submission": {
+      "file": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+      "version": "1.2",
+      "loaded": true,
+      "binding_status": "Pass"
+    },
+    "source_inventory": {
+      "file": "Character_Trait_Library_Source_Inventory_V1.json",
+      "entry_count": 86,
+      "loaded": true,
+      "binding_status": "Pass"
+    },
+    "final_owner_decision_pass": {
+      "file": "Trait_Reputation_Final_Static_Owner_Decision_Pass_V1.json",
+      "version": "1.0",
+      "loaded": true,
+      "binding_status": "Pass"
+    },
+    "trait_registry_snapshot": {
+      "file": null,
+      "loaded": false
+    },
+    "reputation_registry_snapshot": {
+      "file": null,
+      "loaded": false
+    }
+  },
+  "observed_binding": {
+    "trait_source_entry_ids_bound": 42,
+    "reputation_source_entry_ids_bound": 9,
+    "exact_candidate_records_classified": 51,
+    "unique_source_entry_ids": 51,
+    "requested_canonical_ids": 0,
+    "approved_canonical_ids": 0
+  },
+  "classification_summary": {
+    "trait_candidate_records": 42,
+    "reputation_candidate_records": 9,
+    "total_candidate_records": 51,
+    "trait_approve_candidate_for_id_assignment": 26,
+    "trait_approve_with_replacement_semantic_class": 11,
+    "trait_reject_presentation_only": 3,
+    "trait_require_more_evidence": 2,
+    "reputation_typed_split_review": 9,
+    "canonical_ids_requested": 0,
+    "canonical_ids_approved": 0
+  },
+  "run": {
+    "mode": "CanonicalRegistryDryPreflight",
+    "execution_status": "ExactBindingAndClassificationCompleted",
+    "verdict": "ValidRunWithRegistrySnapshotLocks",
+    "authoritative_mutation_permitted": false,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "commit_attempted": false
+  },
+  "diagnostics": [
+    {
+      "code": "TRCID-PREFLIGHT-0101",
+      "severity": "Info",
+      "stage": "BindCandidates",
+      "message": "All 42 Trait and nine Reputation source-entry records bound exactly.",
+      "mutation_effect": "None"
+    },
+    {
+      "code": "TRCID-PREFLIGHT-0102",
+      "severity": "Info",
+      "stage": "ClassifyCandidates",
+      "message": "All 51 candidate records received static registry-review classifications.",
+      "mutation_effect": "None"
+    },
+    {
+      "code": "TRCID-PREFLIGHT-0103",
+      "severity": "ReviewRequired",
+      "stage": "LoadRegistries",
+      "message": "Trait and Reputation registry snapshots are not supplied; namespace, collision, duplicate-meaning, deprecated-ID, and migration-map checks cannot execute.",
+      "mutation_effect": "BlocksCanonicalIdRequest"
+    }
+  ],
+  "validation": {
+    "exact_trait_candidates_bound": true,
+    "exact_reputation_candidates_bound": true,
+    "all_51_candidates_classified": true,
+    "source_entry_ids_unique": true,
+    "display_name_ids_generated": false,
+    "canonical_ids_assigned": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false
+  },
+  "smallest_useful_next_action": "Supply current Trait Canonical Registry and Reputation Dimension Registry snapshots. Run a zero-mutation namespace, collision, duplicate-meaning, deprecated-ID, and direct-migration-map preflight for the 26 retainable Trait candidates, 11 refactored Trait candidates, five presentation or evidence-gated quirks, and nine typed Reputation splits."
+}

@@ -1,0 +1,17 @@
+{
+  "document": "England_Pike_Versus_Long_Spear_Historical_and_Profile_Disposition_Gate_V1.md",
+  "sha256": "c013460e9f767c05c3a7d1d951d939f9d00ce20e262fc2a2da61d39e5395a336",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "controlling_decision": true,
+    "three_dispositions": true,
+    "fallback": true,
+    "next_file": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

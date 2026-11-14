@@ -1,0 +1,15 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "props_23": true,
+    "ambiguities_12": true,
+    "batches_4": true,
+    "zero_mutations": true,
+    "next_uncertainty": true,
+    "footer_once": true
+  }
+}

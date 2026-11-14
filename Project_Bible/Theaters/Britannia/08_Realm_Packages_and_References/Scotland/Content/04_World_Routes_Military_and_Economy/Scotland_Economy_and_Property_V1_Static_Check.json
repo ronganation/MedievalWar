@@ -1,0 +1,29 @@
+{
+  "file": "Scotland_Economy_and_Property_V1.md",
+  "bytes": 50316,
+  "lines": 1244,
+  "sha256": "a314104361400d9c640251dae4986a9c719364b947ae6c88c3a082611338e3da",
+  "sections": 61,
+  "checks": {
+    "large_enough": true,
+    "sections_at_least_55": true,
+    "property_schema": true,
+    "account_schema": true,
+    "obligation_schema": true,
+    "production_schema": true,
+    "market_schema": true,
+    "moray_uncertainty": true,
+    "gille_quarantine": true,
+    "duncan_underage": true,
+    "st_andrews_separation": true,
+    "intentional_empty": true,
+    "temporal_tracks": true,
+    "validations_false": true,
+    "authorizations_false": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true
+  },
+  "passed": true,
+  "failed": []
+}

@@ -1,0 +1,23 @@
+{
+  "FileName": "Flanders_Historical_Uncertainty_Register_V1.md",
+  "Version": "1.1.0",
+  "RevisionDate": "2026-10-12",
+  "SHA256": "08404ac81282e3c9489f9b4d2b093034b0e11e1d56ab3b160b0890127678e603",
+  "Bytes": 79027,
+  "Lines": 1899,
+  "CandidateUncertaintyRecords": 40,
+  "CandidateAlternativeGroups": 40,
+  "ChildSpecificRecordsAdded": 8,
+  "PositiveFixtures": 29,
+  "NegativeFixtures": 36,
+  "OpeningScenarioSelectionsApplied": 0,
+  "ProvisionallyResolvedRecords": 0,
+  "RetiredRecords": 0,
+  "RuntimeEventsScheduled": 0,
+  "NextFile": "Flanders_Historical_Suite_Consistency_and_Coverage_Audit_V1.md",
+  "RegistryMutations": 0,
+  "OpeningStateActivations": 0,
+  "UnrealMutations": 0,
+  "CompileValidated": false,
+  "RuntimeValidated": false
+}

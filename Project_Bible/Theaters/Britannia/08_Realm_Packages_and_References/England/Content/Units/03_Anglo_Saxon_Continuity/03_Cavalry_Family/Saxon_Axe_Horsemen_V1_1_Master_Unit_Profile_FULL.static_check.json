@@ -1,0 +1,20 @@
+{
+  "document": "Saxon_Axe_Horsemen_V1_1_Master_Unit_Profile_FULL.md",
+  "sha256": "2cc810f0f9b6083024c504ee0e818897ffa981d682de7e6b4dfd3ce25261c929",
+  "pass": true,
+  "checks": {
+    "single_title": true,
+    "successor_identity": true,
+    "positive_institution": true,
+    "achieved_profiles": true,
+    "all_cavalry_comparisons": true,
+    "signature_doctrine": true,
+    "horse_depth": true,
+    "late_huscarl_blocked": true,
+    "acceptance_criteria": true,
+    "terrain_rows_25": true,
+    "three_track": true,
+    "no_escaped_underscores": true,
+    "stable_footer": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "document_id": "manifest.england.house_godwin_dynasty.v4_2.current_authority_reconciliation",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "House_Godwin_Dynasty_V4.2_Current_Authority_Reconciliation.md",
+      "sha256": "2bda7e77fdd1fcee9322be8917cf5c600ab32f1d01ab8b2d536ef1228dc1b545",
+      "bytes": 51366
+    },
+    {
+      "filename": "House_Godwin_Dynasty_V4.2_Current_Authority_Reconciliation_Static_Check.json",
+      "sha256": "4b942fe0a6bb4e901f9b69789f5307981803e0253269f1ec018b4358e3e6c99a",
+      "bytes": 717
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false
+  }
+}

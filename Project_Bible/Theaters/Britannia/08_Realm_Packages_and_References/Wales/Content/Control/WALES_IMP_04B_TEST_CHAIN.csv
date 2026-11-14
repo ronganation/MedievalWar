@@ -1,0 +1,9 @@
+Order,Filter,Expected,Disposition
+1,MedievalWar.Wales.InformationIntelligence.,30,ExactNewTranche
+2,MedievalWar.Wales.HistoricalEmergence.,28,AcceptedRegression
+3,MedievalWar.Wales.TransactionRecovery.,24,AcceptedRegression
+4,MedievalWar.Wales.CampaignInitialization.,24,AcceptedRegression
+5,MedievalWar.Wales.Preview.,10,AcceptedRegression
+6,MedievalWar.Scotland.InformationIntelligence.,DISCOVER,VerifyExactDiscoveryBeforeAcceptance
+7,MedievalWar.Scotland.HistoricalEmergence.,24,AcceptedCrossRealmRegression
+8,MedievalWar.Scotland.Preview.,5,AcceptedCrossRealmRegression

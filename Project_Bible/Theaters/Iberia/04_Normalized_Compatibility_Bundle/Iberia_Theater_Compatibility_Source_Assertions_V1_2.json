@@ -1,0 +1,277 @@
+{
+  "document_identity": {
+    "document_id": "mw.theater.iberia.compatibility.source_assertions.v1_2",
+    "version": "1.2.0",
+    "date": "2026-08-22",
+    "status": "STRUCTURED_SOURCE_ASSERTIONS_STATIC_CHECKED"
+  },
+  "records": [
+    {
+      "source_file": "Leon_Castile_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "source_sha256": "f4f93a1a15ae81df866e8231eb3cbdb636c2aee89afc4a623e5efcca1c14a413",
+      "legacy_theater_assertion": {
+        "legacy_id": "theater.iberia.1062",
+        "mention_count": 0,
+        "active_use": false,
+        "evidence": []
+      },
+      "alias_policy_assertion": {
+        "alias_chains_allowed": false,
+        "evidence": [
+          {
+            "line": 241,
+            "excerpt": "Alias chains remain prohibited. Ambiguous migrations enter quarantine."
+          }
+        ]
+      },
+      "advanced_save_assertion": {
+        "opening_state_overwrite_allowed": false,
+        "evidence": [
+          {
+            "line": 268,
+            "excerpt": "reapply_to_advanced_save: false"
+          }
+        ]
+      },
+      "composite_monarchy_assertion": {
+        "applicable": true,
+        "separation_retained": true,
+        "evidence": [
+          {
+            "line": 96,
+            "excerpt": "The Realm is the package and composite-monarchy identity. It does not collapse León, Castile, or Galicia into one title and does not represent the later Crown of Castile."
+          }
+        ]
+      }
+    },
+    {
+      "source_file": "Barcelona_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "source_sha256": "7fc872311878bc65e9888848b7d73cb688247390800234fcc24fb2322832573c",
+      "legacy_theater_assertion": {
+        "legacy_id": "theater.iberia.1062",
+        "mention_count": 6,
+        "active_use": null,
+        "evidence": [
+          {
+            "line": 49,
+            "excerpt": "The older Barcelona Registry also references `theater.iberia.1062`. The corrected Iberia Theater authority reserves `theater.iberia` and treats `theater.iberia.1062` as a legacy migration source. This document therefore targets `theater.iberia`, records the older ID for migration review, and leaves ",
+            "classification": "ProhibitedOrMigrationOnly"
+          },
+          {
+            "line": 73,
+            "excerpt": "source_id: theater.iberia.1062",
+            "classification": "ReviewRequired"
+          },
+          {
+            "line": 230,
+            "excerpt": "source_id: theater.iberia.1062",
+            "classification": "ReviewRequired"
+          },
+          {
+            "line": 374,
+            "excerpt": "2. `theater.iberia.1062` receives an owner-approved direct migration disposition.",
+            "classification": "ProhibitedOrMigrationOnly"
+          },
+          {
+            "line": 393,
+            "excerpt": "- `theater.iberia.1062` as a new active Theater identity;",
+            "classification": "ReviewRequired"
+          },
+          {
+            "line": 444,
+            "excerpt": "- `theater.iberia.1062` to an owner-approved disposition relative to `theater.iberia`.",
+            "classification": "ReviewRequired"
+          }
+        ]
+      },
+      "alias_policy_assertion": {
+        "alias_chains_allowed": false,
+        "evidence": [
+          {
+            "line": 259,
+            "excerpt": "alias_chains: prohibited"
+          }
+        ]
+      },
+      "advanced_save_assertion": {
+        "opening_state_overwrite_allowed": false,
+        "evidence": [
+          {
+            "line": 239,
+            "excerpt": "A direct migration may be proposed only after the shared Theater Registry confirms entity type, semantic equivalence, source version, target ownership, collision behavior, ambiguity behavior, and advanced-save protection."
+          }
+        ]
+      },
+      "composite_monarchy_assertion": {
+        "applicable": false,
+        "separation_retained": null,
+        "evidence": []
+      }
+    },
+    {
+      "source_file": "Aragon_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "source_sha256": "42883b7c1fbe953d4565fb9845c8f665a8c9912ef58cf69e25203f9fdef28f4e",
+      "legacy_theater_assertion": {
+        "legacy_id": "theater.iberia.1062",
+        "mention_count": 0,
+        "active_use": false,
+        "evidence": []
+      },
+      "alias_policy_assertion": {
+        "alias_chains_allowed": false,
+        "evidence": [
+          {
+            "line": 391,
+            "excerpt": "alias_chains: prohibited"
+          }
+        ]
+      },
+      "advanced_save_assertion": {
+        "opening_state_overwrite_allowed": false,
+        "evidence": [
+          {
+            "line": 50,
+            "excerpt": "No approved `PrimaryTheaterRef` or equivalent active Theater association was located in the Aragon package. This document therefore records a compatibility candidate only. It does not edit the frozen package, activate an opening association, register a Gameplay Tag, create runtime state, authorize i"
+          }
+        ]
+      },
+      "composite_monarchy_assertion": {
+        "applicable": false,
+        "separation_retained": null,
+        "evidence": []
+      }
+    },
+    {
+      "source_file": "Almoravid_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "source_sha256": "6b639c85c23d2d97365aa4f020b26993bb48501f48a0e448871ba9e69ae8e329",
+      "legacy_theater_assertion": {
+        "legacy_id": "theater.iberia.1062",
+        "mention_count": 0,
+        "active_use": false,
+        "evidence": []
+      },
+      "alias_policy_assertion": {
+        "alias_chains_allowed": false,
+        "evidence": [
+          {
+            "line": 190,
+            "excerpt": "alias_chains: prohibited"
+          }
+        ]
+      },
+      "advanced_save_assertion": {
+        "opening_state_overwrite_allowed": false,
+        "evidence": [
+          {
+            "line": 496,
+            "excerpt": "## 14. Opening-State and Advanced-Save Protection"
+          }
+        ]
+      },
+      "composite_monarchy_assertion": {
+        "applicable": false,
+        "separation_retained": null,
+        "evidence": []
+      }
+    },
+    {
+      "source_file": "Badajoz_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "source_sha256": "3a6344928bb088cb621b6ea338f90e6ab205d4c19c0c4144b3634df8a9975d0b",
+      "legacy_theater_assertion": {
+        "legacy_id": "theater.iberia.1062",
+        "mention_count": 0,
+        "active_use": false,
+        "evidence": []
+      },
+      "alias_policy_assertion": {
+        "alias_chains_allowed": false,
+        "evidence": [
+          {
+            "line": 154,
+            "excerpt": "alias_chains: prohibited"
+          }
+        ]
+      },
+      "advanced_save_assertion": {
+        "opening_state_overwrite_allowed": false,
+        "evidence": [
+          {
+            "line": 296,
+            "excerpt": "- Opening State replay over an advanced save;"
+          }
+        ]
+      },
+      "composite_monarchy_assertion": {
+        "applicable": false,
+        "separation_retained": null,
+        "evidence": []
+      }
+    },
+    {
+      "source_file": "Seville_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "source_sha256": "86a50701e61fe63ab102e920a53566ffcfee0c5f07126cc86e2d5f7b66d9646f",
+      "legacy_theater_assertion": {
+        "legacy_id": "theater.iberia.1062",
+        "mention_count": 0,
+        "active_use": false,
+        "evidence": []
+      },
+      "alias_policy_assertion": {
+        "alias_chains_allowed": false,
+        "evidence": [
+          {
+            "line": 222,
+            "excerpt": "alias_chains_allowed: false"
+          }
+        ]
+      },
+      "advanced_save_assertion": {
+        "opening_state_overwrite_allowed": false,
+        "evidence": [
+          {
+            "line": 56,
+            "excerpt": "This candidate adds only an inactive Primary Theater association proposal. It does not modify the Seville package, Registry, Opening State, definition Registry, owner-routing manifest, payload, Gameplay Tags, runtime state, saves, or advanced saves."
+          }
+        ]
+      },
+      "composite_monarchy_assertion": {
+        "applicable": false,
+        "separation_retained": null,
+        "evidence": []
+      }
+    },
+    {
+      "source_file": "Valencia_Iberia_Theater_Compatibility_Candidate_V1.md",
+      "source_sha256": "b2fb56ce3b49e57b625a3052e2f650004f29f8565a3cf05a084307cf1ee0b367",
+      "legacy_theater_assertion": {
+        "legacy_id": "theater.iberia.1062",
+        "mention_count": 0,
+        "active_use": false,
+        "evidence": []
+      },
+      "alias_policy_assertion": {
+        "alias_chains_allowed": false,
+        "evidence": [
+          {
+            "line": 149,
+            "excerpt": "alias_chains: prohibited"
+          }
+        ]
+      },
+      "advanced_save_assertion": {
+        "opening_state_overwrite_allowed": false,
+        "evidence": [
+          {
+            "line": 540,
+            "excerpt": "- Opening State replay over an advanced save;"
+          }
+        ]
+      },
+      "composite_monarchy_assertion": {
+        "applicable": false,
+        "separation_retained": null,
+        "evidence": []
+      }
+    }
+  ]
+}

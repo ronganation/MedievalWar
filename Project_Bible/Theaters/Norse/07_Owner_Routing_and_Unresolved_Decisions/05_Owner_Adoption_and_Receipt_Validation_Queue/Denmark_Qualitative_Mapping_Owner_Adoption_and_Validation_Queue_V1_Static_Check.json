@@ -1,0 +1,18 @@
+{
+  "check_id": "check.denmark.qualitative_mapping.owner_adoption_validation_queue.v1",
+  "status": "PASS_PENDING_OWNER_ADOPTION_QUEUE_STATIC_CHECK",
+  "queue_entry_count_exactly_4": true,
+  "orders_exactly_10_30_40_60": true,
+  "all_pending_owner_adoption": true,
+  "all_owner_response_refs_null": true,
+  "all_validation_results_null": true,
+  "all_ledger_updates_closed": true,
+  "all_implementation_closed": true,
+  "all_runtime_mutation_closed": true,
+  "pending_response_empty": true,
+  "request_20_excluded": true,
+  "request_50_excluded": true,
+  "request_70_excluded": true,
+  "markdown_fences_balanced": true,
+  "no_escaped_underscores": true
+}

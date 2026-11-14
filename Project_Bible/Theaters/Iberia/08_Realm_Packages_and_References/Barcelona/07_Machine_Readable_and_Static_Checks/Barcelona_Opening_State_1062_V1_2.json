@@ -1,0 +1,463 @@
+{
+  "schemaId": "schema.realm_opening_state_package.v1_2",
+  "schemaVersion": "1.2.0",
+  "packageId": "package.barcelona.opening_state.1062.v1_2",
+  "packageVersion": "1.2.0",
+  "openingStateId": "opening.barcelona.1062",
+  "openingStateVersion": "1.2.0",
+  "scenarioId": "scenario.barcelona.1062",
+  "realmId": "realm.county_barcelona",
+  "factionId": "faction.county_barcelona",
+  "effectiveDate": "1062-01-01",
+  "registryId": "registry.barcelona.v1",
+  "registryVersion": "1.5.0",
+  "authorityVersions": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "BarcelonaRegistry": "1.5.0",
+    "RegistryExactAudit": "1.1.0",
+    "OpeningState": "1.2.0",
+    "PackageContract": "1.2.0",
+    "CalendarProfile": "1.0.0",
+    "HistoricalClockProfile": "1.0.0",
+    "BiologicalClockProfile": "1.0.0",
+    "TemporalRatioProfile": "1.0.0",
+    "HistoricalReconciliation": "2.0.0",
+    "HistoricalEvidenceChronology": "1.0.0",
+    "HistoricalUncertainty": "1.1.0",
+    "HistoricalMemory": "2.0.0",
+    "HistoricalMomentum": "2.0.0",
+    "HistoricalEmergence": "2.0.0",
+    "HistoricalSuiteAudit": "1.2.0"
+  },
+  "temporalBindings": {
+    "openingDate": "1062-01-01",
+    "currentSimulationDate": "1062-01-01",
+    "calendarProfileRef": "calendar_profile.campaign.continuous.v1",
+    "calendarProfileVersion": "1.0.0",
+    "historicalClockProfileRef": "clock_profile.historical.21_months.v1",
+    "historicalClockProfileVersion": "1.0.0",
+    "historicalClockStepMonths": 21,
+    "historicalClockStepIndex": 0,
+    "historicalElapsedMonths": 0,
+    "nextHistoricalBoundary": "calendar_authority_plus_21_months",
+    "biologicalClockProfileRef": "clock_profile.biological.7_months.v1",
+    "biologicalClockProfileVersion": "1.0.0",
+    "biologicalClockStepMonths": 7,
+    "biologicalClockStepIndex": 0,
+    "biologicalElapsedMonths": 0,
+    "nextBiologicalBoundary": "calendar_authority_plus_7_months",
+    "temporalRatioProfileRef": "temporal_ratio.historical_1.biological_3.v1",
+    "temporalRatioProfileVersion": "1.0.0",
+    "biologicalStepsPerHistoricalStep": 3,
+    "seasonResolutionPolicy": "DateAndGeography",
+    "realmCadenceOverride": false,
+    "campaignSeasonProfileRef": "campaign_season_profile.ordered_four_season.v1",
+    "campaignSeasonProfileVersion": "1.0.0",
+    "campaignSeasonOpeningValue": "Winter",
+    "campaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "campaignSeasonStepsPerStrategicTurn": 1,
+    "campaignSeasonStepIndex": 0
+  },
+  "applicationGuard": {
+    "requiredCampaignState": "NewCampaignUninitialized",
+    "applyAtMostOnce": true,
+    "reapplyOnLoad": false,
+    "reapplyAfterMigration": false,
+    "reapplyToAdvancedSave": false,
+    "rejectIfOpeningStateAlreadyApplied": true,
+    "rejectIfHistoricalClockStepGreaterThanZero": true,
+    "rejectIfBiologicalClockStepGreaterThanZero": true,
+    "rejectIfCurrentSimulationDateAfterOpeningDate": true,
+    "rejectIfMutableOwnerStateExists": true,
+    "atomicCommitRequired": true,
+    "receiptRequired": true,
+    "rejectIfCampaignSeasonStepGreaterThanZero": true,
+    "rejectIfAnyTemporalTrackHasAdvanced": true,
+    "fatalFailureMutationCount": 0
+  },
+  "records": {
+    "factions": [
+      {
+        "factionId": "faction.county_barcelona",
+        "activationState": "Active",
+        "realmRef": "realm.county_barcelona",
+        "independenceAtOpening": true
+      }
+    ],
+    "realms": [
+      {
+        "realmId": "realm.county_barcelona",
+        "activationState": "Active",
+        "factionRef": "faction.county_barcelona",
+        "primaryTitleRef": "title.county.barcelona",
+        "primaryCourtRef": "court.barcelona.comital",
+        "dynastyRef": "dynasty.barcelona",
+        "householdRef": "household.ramon_berenguer_i.barcelona",
+        "governanceRef": "governance.barcelona.comital_multi_surface",
+        "rulerPersonRef": "person.ramon_berenguer_i.barcelona"
+      }
+    ],
+    "titles": [
+      {
+        "titleId": "title.county.barcelona",
+        "holderPersonId": "person.ramon_berenguer_i.barcelona",
+        "effectiveFrom": "valid_on_or_before_1062_01_01",
+        "holderState": "ActiveOpeningHolder",
+        "successionStateRef": "omitted_reviewonly"
+      }
+    ],
+    "courts": [
+      "court.barcelona.comital"
+    ],
+    "dynasties": [
+      "dynasty.barcelona"
+    ],
+    "households": [
+      "household.ramon_berenguer_i.barcelona"
+    ],
+    "dynastyMemberships": [
+      {
+        "personId": "person.ramon_berenguer_i.barcelona",
+        "dynastyId": "dynasty.barcelona",
+        "status": "ActiveOpeningProposition"
+      }
+    ],
+    "spousePropositions": [
+      {
+        "sourcePersonId": "person.ramon_berenguer_i.barcelona",
+        "targetPersonId": "person.almodis.de_la_marche.barcelona",
+        "relationshipType": "spouse",
+        "effectiveAtOpening": true,
+        "createsAlliance": false,
+        "createsCoRulership": false,
+        "createsTitleSharing": false,
+        "createsPropertySharing": false,
+        "createsNetworkSymmetry": false
+      }
+    ],
+    "householdParticipation": [
+      {
+        "personId": "person.ramon_berenguer_i.barcelona",
+        "householdId": "household.ramon_berenguer_i.barcelona",
+        "participation": "ActiveCandidate"
+      },
+      {
+        "personId": "person.almodis.de_la_marche.barcelona",
+        "householdId": "household.ramon_berenguer_i.barcelona",
+        "participation": "ActiveCandidate"
+      }
+    ],
+    "characters": [
+      {
+        "personId": "person.ramon_berenguer_i.barcelona",
+        "lifecycleState": "Alive",
+        "ageState": "Adult",
+        "simulationTier": "TierA",
+        "activationState": "Active",
+        "exactPhysicalLocation": "Absent"
+      },
+      {
+        "personId": "person.almodis.de_la_marche.barcelona",
+        "lifecycleState": "Alive",
+        "ageState": "Adult",
+        "simulationTier": "TierA",
+        "activationState": "Active",
+        "exactPhysicalLocation": "Absent"
+      },
+      {
+        "personId": "person.guislabert_i.barcelona",
+        "lifecycleState": "Alive",
+        "ageState": "Adult",
+        "simulationTier": "TierB",
+        "activationState": "Active",
+        "exactPhysicalLocation": "Absent"
+      }
+    ],
+    "historicalPeople": [
+      {
+        "personId": "person.ermesenda.carcassonne.barcelona",
+        "lifecycleState": "DeceasedBeforeOpening",
+        "runtimeAgency": false
+      },
+      {
+        "personId": "person.mir_geribert.olerdola",
+        "lifecycleState": "DeceasedBeforeOpening",
+        "runtimeAgency": false
+      }
+    ],
+    "networkEdges": [
+      {
+        "edgeId": "edge.barcelona.ramon_to_almodis",
+        "sourcePersonId": "person.ramon_berenguer_i.barcelona",
+        "targetPersonId": "person.almodis.de_la_marche.barcelona",
+        "knownIdentityAccess": "Confirmed",
+        "spouseContextKnown": "Confirmed",
+        "communicationAccess": "DirectContextCandidate",
+        "personalDimensions": {}
+      },
+      {
+        "edgeId": "edge.barcelona.almodis_to_ramon",
+        "sourcePersonId": "person.almodis.de_la_marche.barcelona",
+        "targetPersonId": "person.ramon_berenguer_i.barcelona",
+        "knownIdentityAccess": "Confirmed",
+        "spouseContextKnown": "Confirmed",
+        "communicationAccess": "DirectContextCandidate",
+        "personalDimensions": {}
+      }
+    ],
+    "governanceDefinitions": [
+      "governance.barcelona.comital_multi_surface"
+    ],
+    "regions": [
+      "region.barcelona.barcelona",
+      "region.barcelona.girona",
+      "region.barcelona.osona"
+    ],
+    "reviewRegions": [
+      "region.barcelona.penedes"
+    ],
+    "settlements": [
+      "settlement.barcelona",
+      "settlement.girona",
+      "settlement.vic",
+      "settlement.olerdola"
+    ],
+    "sites": [
+      "site.barcelona.cathedral"
+    ],
+    "institutions": [
+      "institution.cathedral.barcelona"
+    ],
+    "buildings": [
+      "building.barcelona_cathedral.romanesque"
+    ],
+    "offices": [
+      {
+        "officeId": "office.bishop.barcelona",
+        "holderPersonId": "person.guislabert_i.barcelona",
+        "institutionRef": "institution.cathedral.barcelona",
+        "jurisdictionRef": "omitted_reviewonly",
+        "holderState": "ActiveOpeningHolder"
+      }
+    ],
+    "legalDefinitions": [
+      "legal_tradition.barcelona.usus_terrae",
+      "legal_collection.usatges_barcelona.layered"
+    ],
+    "realmAIProfiles": [
+      {
+        "profileId": "ai_profile.realm.barcelona.1062",
+        "realmId": "realm.county_barcelona",
+        "activationState": "ActiveDefinitionBinding",
+        "mutableDecisionState": "Empty",
+        "pendingProposalRefs": [],
+        "acceptedCommandRefs": [],
+        "rejectedProposalRefs": []
+      }
+    ],
+    "memoryDefinitions": [
+      "memory.barcelona.ermesenda_legacy",
+      "memory.barcelona.mir_conflict_and_submission",
+      "memory.barcelona.cathedral_consecration",
+      "memory.barcelona.paria_relationships",
+      "memory.barcelona.peace_truce_tradition"
+    ],
+    "momentumDefinitions": [
+      "pressure.barcelona.internal_consolidation",
+      "pressure.barcelona.succession_preparation",
+      "pressure.barcelona.girona_osona_integration",
+      "pressure.barcelona.paria_opportunity_obligation",
+      "pressure.barcelona.frontier_maritime_choice",
+      "pressure.barcelona.ecclesiastical_settlement"
+    ],
+    "localEmergenceDefinitions": [
+      "emergence.barcelona.girona_osona_settlement",
+      "emergence.barcelona.paria_renegotiation",
+      "emergence.barcelona.frontier_operation",
+      "emergence.barcelona.ecclesiastical_transition",
+      "emergence.barcelona.succession_preparation"
+    ],
+    "sharedEmergenceDefinitions": [
+      "emergence.shared.barbastro_coalition_1062_plus"
+    ]
+  },
+  "explicitEmptyCollections": {
+    "ActiveChildCharacterRecords": [],
+    "ActiveDelegationRecords": [],
+    "ActiveCastleCommandRecords": [],
+    "ActiveViscountHolderRecords": [],
+    "ActiveAdministrativeMandates": [],
+    "ActivePracticalCapacityRecords": [],
+    "ActivePropertyControlRecords": [],
+    "ActiveAgreementDefinitions": [],
+    "ActiveAgreementInstances": [],
+    "ActivePariaAgreements": [],
+    "OpeningPariaIncomeRecords": [],
+    "OpeningArrearsRecords": [],
+    "OpeningProtectionRecords": [],
+    "OpeningSafeConductRecords": [],
+    "ActiveRouteRecords": [],
+    "ActiveRouteAccessRecords": [],
+    "ActiveExternalAccessRecords": [],
+    "ActiveSafeConductRecords": [],
+    "ActivePortCapacityRecords": [],
+    "ActivePropertyRecords": [],
+    "ActiveTreasuryRecords": [],
+    "ActiveRevenueRecords": [],
+    "ActiveTaxRecords": [],
+    "ActiveTollRecords": [],
+    "ActiveMarketRightRecords": [],
+    "ActiveDebtRecords": [],
+    "ActiveDonationRecords": [],
+    "ActiveChurchPropertyRecords": [],
+    "ActiveArmyRecords": [],
+    "ActiveFleetRecords": [],
+    "ActiveForceRecords": [],
+    "ActiveCommanderAssignments": [],
+    "ActiveGarrisonRecords": [],
+    "ActiveLevyRecords": [],
+    "ActiveRetinueRecords": [],
+    "ActiveSupplyRecords": [],
+    "ActiveMilitaryAccessRecords": [],
+    "ActiveReadinessRecords": [],
+    "ActiveHistoricalMemoryInstances": [],
+    "ActiveHistoricalMomentumInstances": [],
+    "ActiveLocalEmergenceInstances": [],
+    "ActiveSharedEmergenceInstances": [],
+    "PendingEmergenceProposals": [],
+    "GrantedLocalConsents": [],
+    "GrantedExternalConsents": [],
+    "CommittedEmergenceResources": [],
+    "PreloadedEmergenceOutcomes": [],
+    "ActiveQuarantineRecords": [],
+    "ActiveDeprecatedRecords": [],
+    "ActiveProhibitedAliasRecords": [],
+    "ActiveHistoricalPropositionRecords": [],
+    "ActiveHistoricalEvidenceRecords": [],
+    "ActiveHistoricalChronologyRecords": [],
+    "ActiveHistoricalContradictionRecords": [],
+    "ActiveHistoricalUncertaintyRecords": [],
+    "SelectedOpeningUncertaintyAlternatives": [],
+    "AppliedOpeningUncertaintyReceipts": []
+  },
+  "externalLockRefs": [
+    "external.faction.aragon",
+    "external.faction.county_urgell",
+    "external.faction.pamplona",
+    "external.realm.county_urgell",
+    "external.person.ermengol_iii.urgell",
+    "external.authority.papacy",
+    "external.institution.holy_see",
+    "external.institution.narbonne_metropolitan"
+  ],
+  "reviewOnlyRefs": [
+    "review.title.county.girona",
+    "review.title.county.osona",
+    "review.person.peter_raymundi.barcelona",
+    "review.person.ramon_berenguer_ii.barcelona",
+    "review.person.berenguer_ramon_ii.barcelona",
+    "review.person.agnes.barcelona",
+    "review.person.sancha.barcelona",
+    "review.edge.barcelona.ramon_to_guislabert",
+    "review.edge.barcelona.guislabert_to_ramon",
+    "review.edge.barcelona.almodis_to_guislabert",
+    "review.edge.barcelona.guislabert_to_almodis",
+    "review.community.cathedral_chapter.barcelona",
+    "review.office.cathedral_chapter.barcelona",
+    "review.institution.cathedral_chapter.barcelona",
+    "review.jurisdiction.diocese.barcelona.1062",
+    "review.office.bishop.girona",
+    "review.office.bishop.vic",
+    "review.external.institution.narbonne_metropolitan",
+    "review.law.peace_truce.barcelona.1062",
+    "review.law.usatges.early_layer",
+    "review.agreement.paria.zaragoza_barcelona.1062",
+    "review.agreement.paria.lleida_barcelona.1062",
+    "review.agreement.paria.tortosa_barcelona.1062",
+    "review.route.barcelona_mediterranean_coast",
+    "review.route.barcelona_girona_narbonne",
+    "review.route.barcelona_osona_pyrenees",
+    "review.route.barcelona_penedes_tarragona",
+    "review.route.barcelona_lleida",
+    "review.route.barcelona_zaragoza",
+    "review.route.barcelona_tortosa",
+    "review.port.barcelona.1062"
+  ],
+  "quarantineRefs": [
+    "quarantine.person.ramon_berenguer_ambiguous",
+    "quarantine.person.guislabert_ambiguous",
+    "quarantine.person.peter_raymundi_ambiguous",
+    "quarantine.title.prince.olerdola"
+  ],
+  "prohibitedRefs": [
+    "quarantine.person.ramon_berenguer_ambiguous",
+    "quarantine.person.guislabert_ambiguous",
+    "quarantine.person.peter_raymundi_ambiguous",
+    "quarantine.title.prince.olerdola",
+    "building.barcelona_cathedral.gothic.opening"
+  ],
+  "declaredManifestCounts": {
+    "ActiveFactions": 1,
+    "ActiveRealms": 1,
+    "ActivePrimaryTitles": 1,
+    "ActiveCourts": 1,
+    "ActiveDynastyDefinitions": 1,
+    "ActiveHouseholdDefinitions": 1,
+    "ActiveLivingCharacters": 3,
+    "HistoricalOnlyCharacterDefinitions": 2,
+    "ActiveChildCharacters": 0,
+    "ActiveNetworkEdges": 2,
+    "ActiveGovernanceDefinitions": 1,
+    "ActiveRegionDefinitions": 3,
+    "ReviewOnlyRegionDefinitions": 1,
+    "ActiveSettlementDefinitions": 4,
+    "ActiveCathedralSites": 1,
+    "ActiveCathedralInstitutions": 1,
+    "ActiveCathedralBuildings": 1,
+    "ActiveBishopOffices": 1,
+    "ActiveDelegations": 0,
+    "ActiveAgreements": 0,
+    "ActiveRoutes": 0,
+    "ActivePropertyRecords": 0,
+    "ActiveMilitaryForces": 0,
+    "ActiveAIProfiles": 1,
+    "HistoricalMemoryDefinitions": 5,
+    "HistoricalMemoryInstances": 0,
+    "HistoricalMomentumDefinitions": 6,
+    "HistoricalMomentumInstances": 0,
+    "LocalEmergenceDefinitions": 5,
+    "SharedEmergenceDefinitionRefs": 1,
+    "ActiveEmergenceInstances": 0,
+    "ExternalConsents": 0,
+    "PreloadedOutcomes": 0,
+    "HistoricalClockStepMonths": 21,
+    "BiologicalClockStepMonths": 7,
+    "BiologicalStepsPerHistoricalStep": 3,
+    "HistoricalClockStepIndex": 0,
+    "BiologicalClockStepIndex": 0,
+    "RealmCadenceOverrides": 0,
+    "ActiveHistoricalPropositionRecords": 0,
+    "ActiveHistoricalEvidenceRecords": 0,
+    "ActiveHistoricalChronologyRecords": 0,
+    "ActiveHistoricalContradictionRecords": 0,
+    "ActiveHistoricalUncertaintyRecords": 0,
+    "SelectedOpeningUncertaintyAlternatives": 0,
+    "AppliedOpeningUncertaintyReceipts": 0,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "CampaignSeasonStepIndex": 0
+  },
+  "stableOrderPolicy": "opening_state.phase_type_id.v1",
+  "sourceManifestHash": "043ea3840dd9ac24645dd49c98340929802dedec7065f3bd0cecafde68360cb5",
+  "authorityHashes": {
+    "BarcelonaRegistry": "b26c8b043696e4ca88d6b199a770decf664c9c5eaae416154eee5c767fc006c2",
+    "RegistryExactAudit": "1616762643febe9f5bef7fc7d495a70d5576270e6a21eea3cdf77ac866c27803",
+    "OpeningState": "a2070b1f0047f31c59ded2ed306c5541dbd1fbcf329a1107cc44c5ea639940ae"
+  },
+  "compatibilityReceiptRefs": []
+}

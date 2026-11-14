@@ -1,0 +1,709 @@
+{
+  "document_identity": {
+    "document_id": "mw.theater.iberia.compatibility.index.v1_1",
+    "version": "1.1.0",
+    "date": "2026-08-22",
+    "status": "STATIC_CHECKED_WITH_VALIDATION_GAPS",
+    "theater_ref": "theater.iberia"
+  },
+  "summary": {
+    "candidate_count": 7,
+    "primary_candidate_count": 6,
+    "expeditionary_candidate_count": 1,
+    "active_associations_created": 0,
+    "realm_packages_modified": 0,
+    "opening_states_modified": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "migration_executions": 0,
+    "source_candidate_hash_count": 7,
+    "source_fidelity_validated": true,
+    "implemented_semantic_rule_count": 13,
+    "not_evaluable_semantic_rule_count": 4
+  },
+  "candidates": [
+    {
+      "stable_order": 10,
+      "candidate_identity": {
+        "compatibility_record_id": "candidate.theater_compatibility.leon_castile.iberia.v1",
+        "candidate_version": "1.1.0",
+        "record_status": "StaticCheckedCandidate",
+        "source_file": "Leon_Castile_Iberia_Theater_Compatibility_Candidate_V1.md"
+      },
+      "subject": {
+        "realm_ref": "realm.leon_castile",
+        "realm_ref_status": "CanonicalProposed",
+        "faction_ref": "faction.leon_castile",
+        "faction_ref_status": "CanonicalProposed",
+        "registry_ref": "registry.leon_castile.v1",
+        "registry_version": "1.1.0",
+        "registry_status": "CanonicalProposed",
+        "registry_ref_status": "CanonicalProposed"
+      },
+      "scenario_binding": {
+        "faction_package_ref": null,
+        "package_ref": "package.leon_castile.opening_state.1062.v1",
+        "opening_state_ref": "opening.leon_castile.1062",
+        "scenario_ref": "scenario.leon_castile.1062",
+        "identity_normalization_status": "None",
+        "normalization_issues": [],
+        "unresolved_identity_forms": []
+      },
+      "theater_binding": {
+        "theater_ref": "theater.iberia",
+        "association_type": "Primary",
+        "opening_association": false,
+        "activation_status": "Blocked",
+        "primary_theater_change": "NotApplicable"
+      },
+      "compatibility": {
+        "temporal_status": "Compatible",
+        "package_freeze_status": "Frozen",
+        "canonical_identity_status": "Proposed",
+        "association_fixture_readiness": "ReadyAfterCompatibilityPatch",
+        "activation_readiness": "Blocked",
+        "normalized_index_admission_readiness": "Ready",
+        "source_candidate_schema_validated": false
+      },
+      "blockers": {
+        "fatal_before_schema": [],
+        "fatal_before_import": [],
+        "fatal_before_activation": [
+          "shared Theater Registry adoption",
+          "association owner approval",
+          "scenario owner approval",
+          "Registry publication or owner receipt"
+        ],
+        "review_items": []
+      },
+      "authorization": {
+        "realm_package_mutation": "prohibited",
+        "opening_state_mutation": "prohibited",
+        "registry_mutation": "prohibited",
+        "importer_emission": "prohibited",
+        "runtime_emission": "prohibited",
+        "save_emission": "prohibited",
+        "migration_execution": "prohibited"
+      },
+      "validation_evidence": {
+        "schema_validated": false,
+        "importer_validated": false,
+        "compile_validated": false,
+        "runtime_validated": false,
+        "save_load_validated": false,
+        "migration_validated": false,
+        "replay_validated": false,
+        "performance_validated": false,
+        "static_checked": true
+      },
+      "provenance": {
+        "authority_files": [
+          "Leon_Castile_Iberia_Theater_Compatibility_Candidate_V1.md"
+        ],
+        "source_hashes": [
+          {
+            "filename": "Leon_Castile_Iberia_Theater_Compatibility_Candidate_V1.md",
+            "bytes": 12168,
+            "lines": 363,
+            "sha256": "f4f93a1a15ae81df866e8231eb3cbdb636c2aee89afc4a623e5efcca1c14a413"
+          }
+        ],
+        "notes": [
+          "Composite monarchy separation retained.",
+          "Perspective does not transfer sovereignty."
+        ]
+      }
+    },
+    {
+      "stable_order": 20,
+      "candidate_identity": {
+        "compatibility_record_id": "candidate.theater_compatibility.barcelona.iberia.v1",
+        "candidate_version": "1.1.0",
+        "record_status": "StaticCheckedCandidateWithNormalizationBlockers",
+        "source_file": "Barcelona_Iberia_Theater_Compatibility_Candidate_V1.md"
+      },
+      "subject": {
+        "realm_ref": "realm.county_barcelona",
+        "realm_ref_status": "CanonicalProposed",
+        "faction_ref": "faction.county_barcelona",
+        "faction_ref_status": "CanonicalProposed",
+        "registry_ref": "registry.barcelona.v1_4",
+        "registry_version": "1.4.0",
+        "registry_status": "NormalizationRequired",
+        "registry_ref_status": "CanonicalProposed"
+      },
+      "scenario_binding": {
+        "faction_package_ref": null,
+        "package_ref": "package.barcelona.opening_state.1062.v1_1_1",
+        "opening_state_ref": "opening.barcelona.1062",
+        "scenario_ref": "scenario.barcelona.1062",
+        "identity_normalization_status": "Required",
+        "normalization_issues": [
+          "registry.barcelona.v1 versus registry.barcelona.v1_4",
+          "legacy theater.iberia.1062 migration review"
+        ],
+        "unresolved_identity_forms": []
+      },
+      "theater_binding": {
+        "theater_ref": "theater.iberia",
+        "association_type": "Primary",
+        "opening_association": false,
+        "activation_status": "Blocked",
+        "primary_theater_change": "NotApplicable"
+      },
+      "compatibility": {
+        "temporal_status": "ModernizationRequired",
+        "package_freeze_status": "Frozen",
+        "canonical_identity_status": "Proposed",
+        "association_fixture_readiness": "ReadyAfterCompatibilityPatch",
+        "activation_readiness": "Blocked",
+        "normalized_index_admission_readiness": "ReadyWithNormalization",
+        "source_candidate_schema_validated": false
+      },
+      "blockers": {
+        "fatal_before_schema": [],
+        "fatal_before_import": [
+          "Registry identity normalization",
+          "bounded temporal compatibility patch"
+        ],
+        "fatal_before_activation": [
+          "shared Theater Registry adoption",
+          "scenario owner approval"
+        ],
+        "review_items": [
+          "Fixed cross-clock ratio prohibited",
+          "Independent Campaign Season track required"
+        ]
+      },
+      "authorization": {
+        "realm_package_mutation": "prohibited",
+        "opening_state_mutation": "prohibited",
+        "registry_mutation": "prohibited",
+        "importer_emission": "prohibited",
+        "runtime_emission": "prohibited",
+        "save_emission": "prohibited",
+        "migration_execution": "prohibited"
+      },
+      "validation_evidence": {
+        "schema_validated": false,
+        "importer_validated": false,
+        "compile_validated": false,
+        "runtime_validated": false,
+        "save_load_validated": false,
+        "migration_validated": false,
+        "replay_validated": false,
+        "performance_validated": false,
+        "static_checked": true
+      },
+      "provenance": {
+        "authority_files": [
+          "Barcelona_Iberia_Theater_Compatibility_Candidate_V1.md"
+        ],
+        "source_hashes": [
+          {
+            "filename": "Barcelona_Iberia_Theater_Compatibility_Candidate_V1.md",
+            "bytes": 19320,
+            "lines": 502,
+            "sha256": "7fc872311878bc65e9888848b7d73cb688247390800234fcc24fb2322832573c"
+          }
+        ],
+        "notes": [
+          "Legacy theater.iberia.1062 is not allowed as an active ID."
+        ]
+      }
+    },
+    {
+      "stable_order": 30,
+      "candidate_identity": {
+        "compatibility_record_id": "candidate.theater_compatibility.aragon.iberia.v1",
+        "candidate_version": "1.1.0",
+        "record_status": "StaticCheckedCandidate",
+        "source_file": "Aragon_Iberia_Theater_Compatibility_Candidate_V1.md"
+      },
+      "subject": {
+        "realm_ref": "realm.aragon",
+        "realm_ref_status": "CanonicalProposed",
+        "faction_ref": "faction.aragon",
+        "faction_ref_status": "CanonicalProposed",
+        "registry_ref": null,
+        "registry_version": "1.0.0",
+        "registry_status": "CanonicalProposed",
+        "registry_ref_status": "NotLocated"
+      },
+      "scenario_binding": {
+        "faction_package_ref": null,
+        "package_ref": "package.aragon.opening_state.1062.v1",
+        "opening_state_ref": "opening.aragon.1062.v1",
+        "scenario_ref": "scenario.grand_campaign.1062",
+        "identity_normalization_status": "Required",
+        "normalization_issues": [
+          "shared Campaign Registry refresh"
+        ],
+        "unresolved_identity_forms": []
+      },
+      "theater_binding": {
+        "theater_ref": "theater.iberia",
+        "association_type": "Primary",
+        "opening_association": false,
+        "activation_status": "Blocked",
+        "primary_theater_change": "NotApplicable"
+      },
+      "compatibility": {
+        "temporal_status": "ModernizationRequired",
+        "package_freeze_status": "Frozen",
+        "canonical_identity_status": "Proposed",
+        "association_fixture_readiness": "ReadyAfterCompatibilityPatch",
+        "activation_readiness": "Blocked",
+        "normalized_index_admission_readiness": "Ready",
+        "source_candidate_schema_validated": false
+      },
+      "blockers": {
+        "fatal_before_schema": [],
+        "fatal_before_import": [
+          "legacy TurnLengthMonths: 7 requires bounded versioned compatibility patch"
+        ],
+        "fatal_before_activation": [
+          "shared Theater Registry adoption",
+          "shared Dynasty, Route, and Emergence dependencies"
+        ],
+        "review_items": [
+          "Two-Sancho collision protection",
+          "CanonicalProposed remains an activation blocker"
+        ]
+      },
+      "authorization": {
+        "realm_package_mutation": "prohibited",
+        "opening_state_mutation": "prohibited",
+        "registry_mutation": "prohibited",
+        "importer_emission": "prohibited",
+        "runtime_emission": "prohibited",
+        "save_emission": "prohibited",
+        "migration_execution": "prohibited"
+      },
+      "validation_evidence": {
+        "schema_validated": false,
+        "importer_validated": false,
+        "compile_validated": false,
+        "runtime_validated": false,
+        "save_load_validated": false,
+        "migration_validated": false,
+        "replay_validated": false,
+        "performance_validated": false,
+        "static_checked": true
+      },
+      "provenance": {
+        "authority_files": [
+          "Aragon_Iberia_Theater_Compatibility_Candidate_V1.md"
+        ],
+        "source_hashes": [
+          {
+            "filename": "Aragon_Iberia_Theater_Compatibility_Candidate_V1.md",
+            "bytes": 19973,
+            "lines": 531,
+            "sha256": "42883b7c1fbe953d4565fb9845c8f665a8c9912ef58cf69e25203f9fdef28f4e"
+          }
+        ],
+        "notes": [
+          "Legacy turn length is prohibited for import.",
+          "Registry document authority is Aragon_ID_Registry_V1.md; canonical Registry ID was not located in the candidate."
+        ]
+      }
+    },
+    {
+      "stable_order": 40,
+      "candidate_identity": {
+        "compatibility_record_id": "candidate.theater_compatibility.almoravid.iberia.v1",
+        "candidate_version": "1.1.0",
+        "record_status": "StaticCheckedCandidateWithNormalizationBlockers",
+        "source_file": "Almoravid_Iberia_Theater_Compatibility_Candidate_V1.md"
+      },
+      "subject": {
+        "realm_ref": "realm.almoravid_movement_state",
+        "realm_ref_status": "CanonicalProposed",
+        "faction_ref": "faction.almoravid_movement",
+        "faction_ref_status": "CanonicalProposed",
+        "registry_ref": "registry.almoravid.v1",
+        "registry_version": "1.1.0",
+        "registry_status": "CanonicalProposed",
+        "registry_ref_status": "CanonicalProposed"
+      },
+      "scenario_binding": {
+        "faction_package_ref": null,
+        "package_ref": "package.almoravid.opening_state.1062.v1",
+        "opening_state_ref": "opening.almoravid.1062",
+        "scenario_ref": "scenario.almoravid.1062",
+        "identity_normalization_status": "Required",
+        "normalization_issues": [
+          "opening.almoravid.1062 versus opening.almoravid.1062.v1 versus opening_state.almoravid.1062.v1"
+        ],
+        "unresolved_identity_forms": []
+      },
+      "theater_binding": {
+        "theater_ref": "theater.iberia",
+        "association_type": "Expeditionary",
+        "opening_association": false,
+        "activation_status": "Blocked",
+        "primary_theater_change": "Prohibited"
+      },
+      "compatibility": {
+        "temporal_status": "Compatible",
+        "package_freeze_status": "Frozen",
+        "canonical_identity_status": "Proposed",
+        "association_fixture_readiness": "Blocked",
+        "activation_readiness": "Blocked",
+        "normalized_index_admission_readiness": "ReadyWithNormalization",
+        "source_candidate_schema_validated": false
+      },
+      "blockers": {
+        "fatal_before_schema": [
+          "Opening State identity owner disposition"
+        ],
+        "fatal_before_import": [],
+        "fatal_before_activation": [
+          "shared Theater Registry adoption",
+          "invitation or authority basis",
+          "route, access, landing, force, command, supply, return, expiry, termination"
+        ],
+        "review_items": [
+          "Preserve 66 explicit-empty collections"
+        ]
+      },
+      "authorization": {
+        "realm_package_mutation": "prohibited",
+        "opening_state_mutation": "prohibited",
+        "registry_mutation": "prohibited",
+        "importer_emission": "prohibited",
+        "runtime_emission": "prohibited",
+        "save_emission": "prohibited",
+        "migration_execution": "prohibited"
+      },
+      "validation_evidence": {
+        "schema_validated": false,
+        "importer_validated": false,
+        "compile_validated": false,
+        "runtime_validated": false,
+        "save_load_validated": false,
+        "migration_validated": false,
+        "replay_validated": false,
+        "performance_validated": false,
+        "static_checked": true
+      },
+      "provenance": {
+        "authority_files": [
+          "Almoravid_Iberia_Theater_Compatibility_Candidate_V1.md"
+        ],
+        "source_hashes": [
+          {
+            "filename": "Almoravid_Iberia_Theater_Compatibility_Candidate_V1.md",
+            "bytes": 26747,
+            "lines": 703,
+            "sha256": "6b639c85c23d2d97365aa4f020b26993bb48501f48a0e448871ba9e69ae8e329"
+          }
+        ],
+        "notes": [
+          "Primary Theater change is prohibited."
+        ]
+      }
+    },
+    {
+      "stable_order": 50,
+      "candidate_identity": {
+        "compatibility_record_id": "candidate.theater_compatibility.badajoz.iberia.v1",
+        "candidate_version": "1.1.0",
+        "record_status": "StaticCheckedCandidateWithRegistryBlockers",
+        "source_file": "Badajoz_Iberia_Theater_Compatibility_Candidate_V1.md"
+      },
+      "subject": {
+        "realm_ref": "realm.badajoz",
+        "realm_ref_status": "Candidate",
+        "faction_ref": "faction.badajoz.aftasid_taifa",
+        "faction_ref_status": "Candidate",
+        "registry_ref": "registry.badajoz_taifa.v1",
+        "registry_version": "1.0.0",
+        "registry_status": "ProjectWideCommitPending",
+        "registry_ref_status": "Candidate"
+      },
+      "scenario_binding": {
+        "faction_package_ref": null,
+        "package_ref": null,
+        "opening_state_ref": null,
+        "scenario_ref": "scenario.badajoz.opening_1062",
+        "identity_normalization_status": "Required",
+        "normalization_issues": [
+          "realm.badajoz versus realm.taifa_badajoz",
+          "scenario.badajoz.1062 versus scenario.badajoz.opening_1062",
+          "opening.badajoz.1062.v1.1 versus opening.badajoz.1062.v1_1"
+        ],
+        "unresolved_identity_forms": [
+          "opening.badajoz.1062.v1.1",
+          "opening.badajoz.1062.v1_1"
+        ]
+      },
+      "theater_binding": {
+        "theater_ref": "theater.iberia",
+        "association_type": "Primary",
+        "opening_association": false,
+        "activation_status": "Blocked",
+        "primary_theater_change": "NotApplicable"
+      },
+      "compatibility": {
+        "temporal_status": "Compatible",
+        "package_freeze_status": "Frozen",
+        "canonical_identity_status": "Unresolved",
+        "association_fixture_readiness": "Blocked",
+        "activation_readiness": "Blocked",
+        "normalized_index_admission_readiness": "Blocked",
+        "source_candidate_schema_validated": false
+      },
+      "blockers": {
+        "fatal_before_schema": [
+          "Realm identity normalization",
+          "Scenario identity normalization"
+        ],
+        "fatal_before_import": [
+          "Package identity normalization",
+          "Faction Registry status",
+          "owner validation"
+        ],
+        "fatal_before_activation": [
+          "project-wide Registry commit",
+          "shared Theater Registry adoption"
+        ],
+        "review_items": [
+          "82 candidate IDs and 82 owner bindings mapped; zero canonical IDs committed"
+        ]
+      },
+      "authorization": {
+        "realm_package_mutation": "prohibited",
+        "opening_state_mutation": "prohibited",
+        "registry_mutation": "prohibited",
+        "importer_emission": "prohibited",
+        "runtime_emission": "prohibited",
+        "save_emission": "prohibited",
+        "migration_execution": "prohibited"
+      },
+      "validation_evidence": {
+        "schema_validated": false,
+        "importer_validated": false,
+        "compile_validated": false,
+        "runtime_validated": false,
+        "save_load_validated": false,
+        "migration_validated": false,
+        "replay_validated": false,
+        "performance_validated": false,
+        "static_checked": true
+      },
+      "provenance": {
+        "authority_files": [
+          "Badajoz_Iberia_Theater_Compatibility_Candidate_V1.md"
+        ],
+        "source_hashes": [
+          {
+            "filename": "Badajoz_Iberia_Theater_Compatibility_Candidate_V1.md",
+            "bytes": 15920,
+            "lines": 393,
+            "sha256": "3a6344928bb088cb621b6ea338f90e6ab205d4c19c0c4144b3634df8a9975d0b"
+          }
+        ],
+        "notes": [
+          "No final canonical identity selected."
+        ]
+      }
+    },
+    {
+      "stable_order": 60,
+      "candidate_identity": {
+        "compatibility_record_id": "candidate.theater_compatibility.seville.iberia.v1",
+        "candidate_version": "1.1.0",
+        "record_status": "StaticCheckedCandidate",
+        "source_file": "Seville_Iberia_Theater_Compatibility_Candidate_V1.md"
+      },
+      "subject": {
+        "realm_ref": "realm.seville",
+        "realm_ref_status": "CanonicalLocked",
+        "faction_ref": null,
+        "faction_ref_status": "NotRequiredByCurrentPackage",
+        "registry_ref": "registry.seville_taifa.v1",
+        "registry_version": "1.0.0",
+        "registry_status": "CanonicalLocked",
+        "registry_ref_status": "CanonicalLocked"
+      },
+      "scenario_binding": {
+        "faction_package_ref": "faction_package.realm.seville.1062.v1",
+        "package_ref": "package.seville_taifa.opening_state.1062.v1",
+        "opening_state_ref": "opening.seville_taifa.1062.v1",
+        "scenario_ref": "scenario.grand_campaign.1062",
+        "identity_normalization_status": "Required",
+        "normalization_issues": [
+          "shared Campaign Registry refresh"
+        ],
+        "unresolved_identity_forms": []
+      },
+      "theater_binding": {
+        "theater_ref": "theater.iberia",
+        "association_type": "Primary",
+        "opening_association": false,
+        "activation_status": "Blocked",
+        "primary_theater_change": "NotApplicable"
+      },
+      "compatibility": {
+        "temporal_status": "Compatible",
+        "package_freeze_status": "Frozen",
+        "canonical_identity_status": "Locked",
+        "association_fixture_readiness": "ReadyAfterCompatibilityPatch",
+        "activation_readiness": "Blocked",
+        "normalized_index_admission_readiness": "Ready",
+        "source_candidate_schema_validated": false
+      },
+      "blockers": {
+        "fatal_before_schema": [],
+        "fatal_before_import": [],
+        "fatal_before_activation": [
+          "shared Theater Registry adoption",
+          "shared Campaign Registry refresh"
+        ],
+        "review_items": [
+          "Faction package is package and campaign-selection identity",
+          "No separate faction ID may be invented"
+        ]
+      },
+      "authorization": {
+        "realm_package_mutation": "prohibited",
+        "opening_state_mutation": "prohibited",
+        "registry_mutation": "prohibited",
+        "importer_emission": "prohibited",
+        "runtime_emission": "prohibited",
+        "save_emission": "prohibited",
+        "migration_execution": "prohibited"
+      },
+      "validation_evidence": {
+        "schema_validated": false,
+        "importer_validated": false,
+        "compile_validated": false,
+        "runtime_validated": false,
+        "save_load_validated": false,
+        "migration_validated": false,
+        "replay_validated": false,
+        "performance_validated": false,
+        "static_checked": true
+      },
+      "provenance": {
+        "authority_files": [
+          "Seville_Iberia_Theater_Compatibility_Candidate_V1.md"
+        ],
+        "source_hashes": [
+          {
+            "filename": "Seville_Iberia_Theater_Compatibility_Candidate_V1.md",
+            "bytes": 18235,
+            "lines": 461,
+            "sha256": "86a50701e61fe63ab102e920a53566ffcfee0c5f07126cc86e2d5f7b66d9646f"
+          }
+        ],
+        "notes": [
+          "Settlement collision protections retained."
+        ]
+      }
+    },
+    {
+      "stable_order": 70,
+      "candidate_identity": {
+        "compatibility_record_id": "candidate.theater_compatibility.valencia.iberia.v1",
+        "candidate_version": "1.1.0",
+        "record_status": "StaticCheckedCompatibilityBlockerCandidate",
+        "source_file": "Valencia_Iberia_Theater_Compatibility_Candidate_V1.md"
+      },
+      "subject": {
+        "realm_ref": "realm.valencia_taifa",
+        "realm_ref_status": "ExternalLock",
+        "faction_ref": "faction.valencia_taifa",
+        "faction_ref_status": "ExternalLock",
+        "registry_ref": null,
+        "registry_version": null,
+        "registry_status": "Unresolved",
+        "registry_ref_status": "NotLocated"
+      },
+      "scenario_binding": {
+        "faction_package_ref": null,
+        "package_ref": null,
+        "opening_state_ref": null,
+        "scenario_ref": null,
+        "identity_normalization_status": "Required",
+        "normalization_issues": [
+          "Realm, faction, ruler, Dynasty, capital, site, and region canonical bindings unresolved"
+        ],
+        "unresolved_identity_forms": []
+      },
+      "theater_binding": {
+        "theater_ref": "theater.iberia",
+        "association_type": "Primary",
+        "opening_association": false,
+        "activation_status": "Blocked",
+        "primary_theater_change": "NotApplicable"
+      },
+      "compatibility": {
+        "temporal_status": "Compatible",
+        "package_freeze_status": "FreezeForNow",
+        "canonical_identity_status": "Unresolved",
+        "association_fixture_readiness": "Blocked",
+        "activation_readiness": "Blocked",
+        "normalized_index_admission_readiness": "Blocked",
+        "source_candidate_schema_validated": false
+      },
+      "blockers": {
+        "fatal_before_schema": [
+          "canonical Realm and faction IDs",
+          "canonical Balansiya, ruler, and Dynasty IDs"
+        ],
+        "fatal_before_import": [
+          "owner schemas and Registry endpoints",
+          "static cross-reference validation"
+        ],
+        "fatal_before_activation": [
+          "shared Theater Registry adoption",
+          "all critical owner bindings"
+        ],
+        "review_items": [
+          "Blocked payload internal version 1.0.2",
+          "111 unique record IDs",
+          "locked regional nodes contribute no assets"
+        ]
+      },
+      "authorization": {
+        "realm_package_mutation": "prohibited",
+        "opening_state_mutation": "prohibited",
+        "registry_mutation": "prohibited",
+        "importer_emission": "prohibited",
+        "runtime_emission": "prohibited",
+        "save_emission": "prohibited",
+        "migration_execution": "prohibited"
+      },
+      "validation_evidence": {
+        "schema_validated": false,
+        "importer_validated": false,
+        "compile_validated": false,
+        "runtime_validated": false,
+        "save_load_validated": false,
+        "migration_validated": false,
+        "replay_validated": false,
+        "performance_validated": false,
+        "static_checked": true
+      },
+      "provenance": {
+        "authority_files": [
+          "Valencia_Iberia_Theater_Compatibility_Candidate_V1.md"
+        ],
+        "source_hashes": [
+          {
+            "filename": "Valencia_Iberia_Theater_Compatibility_Candidate_V1.md",
+            "bytes": 23045,
+            "lines": 642,
+            "sha256": "b2fb56ce3b49e57b625a3052e2f650004f29f8565a3cf05a084307cf1ee0b367"
+          }
+        ],
+        "notes": [
+          "Theater definition eligibility is supported; fixture and activation readiness remain blocked."
+        ]
+      }
+    }
+  ]
+}

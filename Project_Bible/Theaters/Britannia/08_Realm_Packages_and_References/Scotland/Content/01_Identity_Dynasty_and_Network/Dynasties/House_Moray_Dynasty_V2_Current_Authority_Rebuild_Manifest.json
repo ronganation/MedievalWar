@@ -1,0 +1,75 @@
+{
+  "document_id": "manifest.house-moray-dynasty.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "House_Moray_Dynasty_Modernized.md",
+    "bytes": 16649,
+    "lines": 415,
+    "sha256": "63ba547580125fe6316c64915134f4b2693d8a1cff448f73ed7a5167d399c0fe",
+    "complete_source_verified": true,
+    "source_copy_method": "normalized substantive copy with full section mapping"
+  },
+  "successor": {
+    "filename": "House_Moray_Dynasty_V2_Current_Authority_Rebuild.md",
+    "bytes": 52147,
+    "lines": 1249,
+    "sections": 72,
+    "sha256": "e277036ea05ae5e0675c8ac192525e10fbc538d5e4496ba7d4d8cb003fbb1e9d"
+  },
+  "preservation": {
+    "source_sections_mapped": true,
+    "protected_portfolios": [
+      "dynasty identity",
+      "historical formation",
+      "three-person source portfolio",
+      "Macbeth and Lulach references",
+      "strategy questions",
+      "leadership and succession boundary",
+      "claim boundary",
+      "regional governance boundary",
+      "Character Network boundary",
+      "House Dunkeld interface",
+      "ecclesiastical boundary",
+      "Historical Memory boundary",
+      "conditional development portfolio",
+      "AI interpretation",
+      "removal consequences",
+      "IDs migration save",
+      "determinism",
+      "validation",
+      "legacy disposition"
+    ],
+    "removed_or_superseded_items": [
+      "Gille opening participant treatment",
+      "Gille current dynasty membership eligibility",
+      "unresolved identity-resolution pathway"
+    ],
+    "source_fidelity_result": "pass at normalized substantive preservation level"
+  },
+  "additions": {
+    "Gille_identity_collision_gate": "CHCOL-SCOT-001",
+    "temporal_model": "Historical 21 months, Biological 7 months, one ordered Campaign Season step",
+    "current_specialist_interfaces": true,
+    "validation_cases": 22,
+    "issue_codes": 24,
+    "opening_bundle_state": "IntentionalEmptyPendingSelection",
+    "Gille_opening_disposition": "Rejected",
+    "supported_named_Moray_opening_people": 2,
+    "Gille_replacement_created": false,
+    "regional_service_role_template": "RoleTemplate.Scotland.MorayRegionalServiceOrganizer",
+    "controlling_character_network": "Scotland_Character_Network.md"
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "source_deletion": false,
+    "source_archival": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "House_Moray_Dynasty_V2_Current_Authority_Rebuild_Static_Check.json",
+    "passed": true
+  }
+}

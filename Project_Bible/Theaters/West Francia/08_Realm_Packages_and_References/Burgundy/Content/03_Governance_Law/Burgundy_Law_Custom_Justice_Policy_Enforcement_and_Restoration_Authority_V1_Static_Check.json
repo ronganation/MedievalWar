@@ -1,0 +1,34 @@
+{
+  "Result": "PASS",
+  "ObservedCounts": {
+    "venues": 10,
+    "case": 16,
+    "remedies": 18,
+    "restoration": 14,
+    "enforcement": 12
+  },
+  "Checks": {
+    "portfolios_26": true,
+    "venues_10": true,
+    "case_stages_16": true,
+    "remedies_18": true,
+    "restoration_14": true,
+    "enforcement_12": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "no_dalmace_guilt": true,
+    "no_semur_rebellion": true,
+    "claim_not_war": true,
+    "release_not_restoration": true,
+    "no_mutations": true,
+    "honest": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "AuthoritySHA256": "af8456ca4beea32902bd6bedffcaf822d47cdd47786bef3ad4a8d008e52a9959",
+  "AuthorityBytes": 68588,
+  "AuthorityLines": 1214,
+  "Scope": "Static law, custom, justice, policy, enforcement, restoration, save-safety, and submission-hygiene checks"
+}

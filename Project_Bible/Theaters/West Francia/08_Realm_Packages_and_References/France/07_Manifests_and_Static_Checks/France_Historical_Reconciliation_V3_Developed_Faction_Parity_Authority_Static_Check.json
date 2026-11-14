@@ -1,0 +1,29 @@
+{
+  "document": "France_Historical_Reconciliation_V3_Developed_Faction_Parity_Authority.md",
+  "passed": true,
+  "checks": {
+    "source_exists": true,
+    "complete_source_embedded": true,
+    "all_source_headings_retained": true,
+    "successor_longer_than_source": true,
+    "developed_faction_benchmarks_declared": true,
+    "political_topology_present": true,
+    "evidence_doctrine_present": true,
+    "military_recruitment_battle_present": true,
+    "economy_population_supply_present": true,
+    "authority_routing_present": true,
+    "expanded_validation_present": true,
+    "preservation_ledger_present": true,
+    "three_track_present": true,
+    "ue_5_8_present": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "correct_end_marker": true
+  },
+  "missing_source_headings": [],
+  "source_lines": 1048,
+  "successor_lines": 2122,
+  "source_bytes": 40894,
+  "successor_bytes": 80523,
+  "validation_scope": "Content-based static parity rebuild only. No Registry adoption or mutation, Opening State activation, importer, compile, runtime, save-load, migration, replay, performance, battle, or physical-promotion validation."
+}

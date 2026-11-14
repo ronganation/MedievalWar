@@ -1,0 +1,52 @@
+{
+  "document_id": "Manifest.ImplementationHandoffPauseGate.Realm.LeonCastile.V2",
+  "authority_file": "Leon_Castile_Implementation_Handoff_and_Pause_Gate_V2.md",
+  "version": "2.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/00_Index_and_Status",
+  "bytes": 27894,
+  "physical_lines": 614,
+  "sha256": "6AA100F1B181E40400AFA941CF692AE775DBD49CCA66E659D7863991C3599DA8",
+  "immediate_substantive_source": "Leon_Castile_Implementation_Handoff_and_Pause_Gate_V1.md",
+  "source_version": "1.0.0",
+  "source_treatment": "CompleteSubstantiveCarryForwardWithCurrentV2PackageReconciliation",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "v1_carry_forward_ledger_present": true,
+    "seven_profiles_present": true,
+    "temporal_model_present": true,
+    "phased_plan_present": true,
+    "rollback_present": true,
+    "owner_boundary_present": true,
+    "promotion_block_present": true
+  },
+  "status": "StaticCheckedV2ImplementationHandoffAndPauseGate",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningStateFacts": 0,
+    "MachineReadable": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "validation_boundary": {
+    "ExecutableSchema": "NOT_RUN",
+    "Importer": "NOT_RUN",
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "RollbackExecution": "NOT_RUN",
+    "ReceiptPersistence": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "ActivePromotion": "PROHIBITED"
+  },
+  "pause_gate": {
+    "LeonCastileOnlyImplementationPaused": true,
+    "ResumeRequiresSharedOwnerGateOrEvidenceBackedCorrection": true
+  },
+  "all_static_checks_pass": true
+}

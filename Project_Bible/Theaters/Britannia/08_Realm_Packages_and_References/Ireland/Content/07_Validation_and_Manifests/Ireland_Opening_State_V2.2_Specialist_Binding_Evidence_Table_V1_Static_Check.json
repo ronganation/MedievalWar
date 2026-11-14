@@ -1,0 +1,23 @@
+{
+  "document": "Ireland_Opening_State_V2.2_Specialist_Binding_Evidence_Table_V1.md",
+  "passed": true,
+  "checks": {
+    "evidence_rows_65": true,
+    "inventory_rows_65": true,
+    "unique_evidence_ids": true,
+    "three_track": true,
+    "opening_v21": true,
+    "registry_v23": true,
+    "binding_inventory": true,
+    "dublin_review": true,
+    "gofraid_external": true,
+    "advanced_save": true,
+    "no_activation": true,
+    "no_registry_mutation": true,
+    "no_em_dash": true,
+    "balanced_fences": true,
+    "removal_ledger_zero": true,
+    "stable_footer": true
+  },
+  "validation_scope": "read-only static specialist-binding evidence table; no Registry mutation, Opening State amendment or activation, owner decision fabrication, migration execution, importer, Unreal, runtime, save/load, replay, performance, or payload validation"
+}

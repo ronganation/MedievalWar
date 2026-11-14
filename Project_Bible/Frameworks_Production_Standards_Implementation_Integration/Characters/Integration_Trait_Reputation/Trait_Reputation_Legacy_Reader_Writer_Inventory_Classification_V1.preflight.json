@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationInventoryClassificationPreflight",
+    "name": "Trait Reputation Inventory Classification Preflight V1",
+    "version": "1.0",
+    "status": "PassedClassificationConsistency_BinaryAndSaveLocksRemain",
+    "authority_class": "Migration Inventory Classification Verification"
+  },
+  "checks": {
+    "source_inventory_record_count": 6532,
+    "classified_record_count": 6532,
+    "classification_reconciles": true,
+    "project_bible_only_matches": true,
+    "source_text_matches_zero": true,
+    "content_text_matches_zero": true,
+    "scan_errors_zero": true,
+    "mutations_zero": true
+  },
+  "run": {
+    "verdict": "PassWithClosureLocks",
+    "migration_execution_authorized": false,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "registry_mutations": 0
+  },
+  "smallest_useful_next_action": "Run an Unreal-side Asset Registry or Blueprint/Data Asset export inventory and provide save schemas or fixture saves. Also scan Config, Plugins, Tests, SavedFixtures, and MigrationFixtures when those roots exist. Keep migration execution blocked."
+}

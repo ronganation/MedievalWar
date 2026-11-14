@@ -1,0 +1,23 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "rows_30": true,
+    "source_count_30": true,
+    "prior_error_corrected": true,
+    "all_runtime_false": true,
+    "all_opening_false": true,
+    "all_registry_pending": true,
+    "destructive_zero": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "864da19174471beceefd3933b66a7e325395aa559300642427c238128a3652da",
+  "Bytes": 30470,
+  "Lines": 937,
+  "Scope": "Record-level classification of the source-authority-defined thirty chronology records with corrected count disposition and zero mutation"
+}

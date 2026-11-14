@@ -1,0 +1,55 @@
+{
+  "Dol_metropolitan_recognition_created": false,
+  "institution_candidates": [
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Ecclesiastical_Content_V1_1_Current_Authority_Modernization_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "EcclesiasticalInstitutionDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Ecclesiastical_Content_V1_1_Current_Authority_Modernization_FULL.md"
+      ],
+      "stable_id": "institution.church_dol",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "ExternalLock",
+      "external_owner": "Tours",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Ecclesiastical_Content_V1_1_Current_Authority_Modernization_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "EcclesiasticalInstitutionDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Ecclesiastical_Content_V1_1_Current_Authority_Modernization_FULL.md"
+      ],
+      "stable_id": "institution.church_tours_metropolitan",
+      "validation_state": "UnvalidatedCandidate"
+    }
+  ],
+  "office_occupancies": []
+}

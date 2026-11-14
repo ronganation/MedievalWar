@@ -1,0 +1,31 @@
+{
+  "document_id": "static-check.wales.opening-state.v2.current-authority-refinement",
+  "version": "2.0.0",
+  "source_sha256": "c0d4860d728b0a93643b75b3498327228af78ec4f2319dba36b57aa39cb030e4",
+  "artifact_sha256": "aaf169fc9b83ce941f7e5b156b4e5527b9d30383b637a95ea8e8b0fdf761711c",
+  "source_bytes": 27658,
+  "artifact_bytes": 51051,
+  "physical_lines": 1829,
+  "checks": {
+    "new_file_created": true,
+    "larger_than_source": true,
+    "source_hash_recorded": true,
+    "source_substantive_tail_preserved": true,
+    "opening_boundary": true,
+    "bleiddud_pending": true,
+    "mercian_pending": true,
+    "network_current": true,
+    "historical_inactive": true,
+    "temporal_three_track": true,
+    "ue58": true,
+    "honest_validation": true,
+    "no_activation": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "removal_ledger": true,
+    "exact_test_count": true,
+    "stable_footer": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

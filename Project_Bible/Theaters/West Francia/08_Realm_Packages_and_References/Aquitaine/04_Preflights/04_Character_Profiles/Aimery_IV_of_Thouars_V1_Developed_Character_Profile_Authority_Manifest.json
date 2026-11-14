@@ -1,0 +1,24 @@
+{
+  "ManifestId": "Manifest.AimeryIVThouars.V1",
+  "Document": "Aimery_IV_of_Thouars_V1_Developed_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "GeneratedDate": "2026-09-03",
+  "Character": "Aimery IV of Thouars",
+  "CanonicalPersonReference": "person.aimery_iv_thouars",
+  "SHA256": "5617b305b90b0c58ceeebba744a357c5c4c6e3425a2cc16666e8c4fbbbd888bf",
+  "Bytes": 45306,
+  "Lines": 1150,
+  "StaticCheckFile": "Aimery_IV_of_Thouars_V1_Developed_Character_Profile_Authority_Static_Check.json",
+  "StaticCheckSHA256": "0457f579f409ad5a62d676ac1d7bc5e39a59db147ad1224ddb77e1a4db39c36e",
+  "AllChecksPassed": true,
+  "BenchmarkMethod": "Normandy Norse and Britannia developed profile practice applied without identity copying",
+  "MutationStatus": {
+    "Registry": false,
+    "OpeningState": false,
+    "Relationships": false,
+    "TitlesOrCommands": false,
+    "Unreal": false,
+    "Runtime": false,
+    "RealPayload": false
+  }
+}

@@ -1,0 +1,3185 @@
+{
+  "operation": "RoyalSalian1062BoundedV1_1PhysicalPortfolioReconciliation",
+  "generated_at_utc": "2026-10-25T16:27:20.962923+00:00",
+  "method": "Direct repository reads; duplicate-key rejecting PyYAML; literal/dependency scans; per-section comparison against timestamped pre-edit snapshot",
+  "reviewer": "Copilot",
+  "current_authority_count": 8,
+  "yaml_parser": "PyYAML 6.0.3 with duplicate-key rejection",
+  "yaml_blocks_parsed": 197,
+  "unresolved_physical_findings": [],
+  "checks": [
+    {
+      "check": "current_authority_set",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_1_title_preserved",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_single_footer",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_1_footer_status_matches_control",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_1_identity",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_1_control_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_1_footer_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_1_canonical_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_1_fences_and_yaml",
+      "result": "PassedLiteralScan",
+      "detail": "8 parsed YAML blocks; duplicate-key rejecting loader"
+    },
+    {
+      "check": "file_1_escaped_underscores",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_1_chat_citations",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_1_legacy_folder",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_1_prose_fences",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_1_no_unfenced_records",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_retention",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_2.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_2.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_8.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_8.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_9_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_10_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_11_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_11.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_section_13_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_1_no_accidental_shortening",
+      "result": "PassedContentComparison",
+      "detail": "25787 -> 26211 bytes"
+    },
+    {
+      "check": "file_1_removal_ledger",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_1_dependencies",
+      "result": "PassedDependencyResolution",
+      "detail": "No upstream dependency"
+    },
+    {
+      "check": "file_1_no_current_v1_reference",
+      "result": "PassedDependencyResolution",
+      "detail": "V1 predecessor is lineage metadata, not a current dependency"
+    },
+    {
+      "check": "file_1_no_activation_or_implementation_claim",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_2_title_preserved",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_single_footer",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_2_footer_status_matches_control",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_2_identity",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_2_control_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_2_footer_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_2_canonical_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_2_fences_and_yaml",
+      "result": "PassedLiteralScan",
+      "detail": "16 parsed YAML blocks; duplicate-key rejecting loader"
+    },
+    {
+      "check": "file_2_escaped_underscores",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_2_chat_citations",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_2_legacy_folder",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_2_prose_fences",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_2_no_unfenced_records",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_retention",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_3.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_3.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_5.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_5.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_9_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_9.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_10_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_11_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_12_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_13_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_14_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_14.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_14.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_15_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_16_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_17_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_2_no_accidental_shortening",
+      "result": "PassedContentComparison",
+      "detail": "29064 -> 29202 bytes"
+    },
+    {
+      "check": "file_2_removal_ledger",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_2_dependencies",
+      "result": "PassedDependencyResolution",
+      "detail": "RS_1062_Historical_Foundation_and_Campaign_Context_Authority_V1_1.md"
+    },
+    {
+      "check": "file_2_no_current_v1_reference",
+      "result": "PassedDependencyResolution",
+      "detail": "V1 predecessor is lineage metadata, not a current dependency"
+    },
+    {
+      "check": "file_2_no_activation_or_implementation_claim",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_3_title_preserved",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_single_footer",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_3_footer_status_matches_control",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_3_identity",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_3_control_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_3_footer_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_3_canonical_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_3_fences_and_yaml",
+      "result": "PassedLiteralScan",
+      "detail": "23 parsed YAML blocks; duplicate-key rejecting loader"
+    },
+    {
+      "check": "file_3_escaped_underscores",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_3_chat_citations",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_3_legacy_folder",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_3_prose_fences",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_3_no_unfenced_records",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_retention",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_2.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_2.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_4.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_4.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_5.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_5.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_7.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_7.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_7.3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_9_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_9.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_9.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_10_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_11_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_12_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_13_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_13.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_14_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_14.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_14.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_15_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_15.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_16_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_16.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_17_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_17.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_17.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_18_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_19_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_20_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_section_20.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_3_no_accidental_shortening",
+      "result": "PassedContentComparison",
+      "detail": "30631 -> 30993 bytes"
+    },
+    {
+      "check": "file_3_removal_ledger",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_3_dependencies",
+      "result": "PassedDependencyResolution",
+      "detail": "RS_1062_Historical_Foundation_and_Campaign_Context_Authority_V1_1.md, RS_1062_Opening_Chronology_and_Historical_Runway_Authority_V1_1.md"
+    },
+    {
+      "check": "file_3_no_current_v1_reference",
+      "result": "PassedDependencyResolution",
+      "detail": "V1 predecessor is lineage metadata, not a current dependency"
+    },
+    {
+      "check": "file_3_no_activation_or_implementation_claim",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_4_title_preserved",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_single_footer",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_4_footer_status_matches_control",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_4_identity",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_4_control_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_4_footer_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_4_canonical_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_4_fences_and_yaml",
+      "result": "PassedLiteralScan",
+      "detail": "27 parsed YAML blocks; duplicate-key rejecting loader"
+    },
+    {
+      "check": "file_4_escaped_underscores",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_4_chat_citations",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_4_legacy_folder",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_4_prose_fences",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_4_no_unfenced_records",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_retention",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_3.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_5.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_6.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_6.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_7.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_8.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_8.8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_9_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_9.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_9.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_10_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_10.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_10.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_11_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_11.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_12_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_12.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_12.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_13_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_14_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_14.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_14.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_15_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_16_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_16.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_17_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_17.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_18_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_19_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_19.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_19.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_20_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_20.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_21_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_22_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_23_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_23.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_section_23.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_4_no_accidental_shortening",
+      "result": "PassedContentComparison",
+      "detail": "37898 -> 37898 bytes"
+    },
+    {
+      "check": "file_4_removal_ledger",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_4_dependencies",
+      "result": "PassedDependencyResolution",
+      "detail": "RS_1062_Historical_Foundation_and_Campaign_Context_Authority_V1_1.md, RS_1062_Opening_Chronology_and_Historical_Runway_Authority_V1_1.md, RS_1062_Historical_Source_Assertion_and_Contradiction_Authority_V1_1.md"
+    },
+    {
+      "check": "file_4_no_current_v1_reference",
+      "result": "PassedDependencyResolution",
+      "detail": "V1 predecessor is lineage metadata, not a current dependency"
+    },
+    {
+      "check": "file_4_no_activation_or_implementation_claim",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_5_title_preserved",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_single_footer",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_5_footer_status_matches_control",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_5_identity",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_5_control_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_5_footer_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_5_canonical_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_5_fences_and_yaml",
+      "result": "PassedLiteralScan",
+      "detail": "29 parsed YAML blocks; duplicate-key rejecting loader"
+    },
+    {
+      "check": "file_5_escaped_underscores",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_5_chat_citations",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_5_legacy_folder",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_5_prose_fences",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_5_no_unfenced_records",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_retention",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_3.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_3.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_4.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_5.8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_6.4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_6.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_7.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_7.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_8.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_8.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_9_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_9.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_9.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_10_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_10.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_10.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_11_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_11.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_11.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_12_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_12.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_12.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_13_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_13.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_13.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_14_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_14.4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_14.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_15_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_15.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_15.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_16_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_16.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_16.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_17_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_17.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_17.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_18_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_19_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_19.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_19.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_20_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_20.3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_20.4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_21_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_21.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_21.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_22_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_22.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_22.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_23_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_24_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_24.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_24.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_25_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_26_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_26.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_26.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_27_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_28_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_29_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_30_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_30.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_section_30.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_5_no_accidental_shortening",
+      "result": "PassedContentComparison",
+      "detail": "48108 -> 48102 bytes"
+    },
+    {
+      "check": "file_5_removal_ledger",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_5_dependencies",
+      "result": "PassedDependencyResolution",
+      "detail": "RS_1062_Historical_Foundation_and_Campaign_Context_Authority_V1_1.md, RS_1062_Opening_Chronology_and_Historical_Runway_Authority_V1_1.md, RS_1062_Historical_Source_Assertion_and_Contradiction_Authority_V1_1.md, RS_1062_Historical_Actors_Institutions_and_Political_Forces_Authority_V1_1.md"
+    },
+    {
+      "check": "file_5_no_current_v1_reference",
+      "result": "PassedDependencyResolution",
+      "detail": "V1 predecessor is lineage metadata, not a current dependency"
+    },
+    {
+      "check": "file_5_no_activation_or_implementation_claim",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_6_title_preserved",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_single_footer",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_6_footer_status_matches_control",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_6_identity",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_6_control_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_6_footer_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_6_canonical_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_6_fences_and_yaml",
+      "result": "PassedLiteralScan",
+      "detail": "31 parsed YAML blocks; duplicate-key rejecting loader"
+    },
+    {
+      "check": "file_6_escaped_underscores",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_6_chat_citations",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_6_legacy_folder",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_6_prose_fences",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_6_no_unfenced_records",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_retention",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_3.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_3.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_4.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_4.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_5.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_5.8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_6.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_6.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_7.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_8.4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_8.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_9_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_9.4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_9.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_10_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_10.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_10.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_11_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_11.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_11.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_12_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_12.4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_12.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_13_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_13.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_13.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_14_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_14.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_14.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_15_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_15.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_15.8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_16_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_16.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_16.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_17_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_17.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_17.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_18_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_18.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_19_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_19.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_19.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_20_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_20.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_21_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_21.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_22_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_22.4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_22.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_23_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_23.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_23.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_24_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_24.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_24.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_25_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_25.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_25.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_26_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_26.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_27_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_28_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_29_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_29.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_30_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_31_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_32_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_33_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_33.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_section_33.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_6_no_accidental_shortening",
+      "result": "PassedContentComparison",
+      "detail": "50707 -> 50705 bytes"
+    },
+    {
+      "check": "file_6_removal_ledger",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_6_dependencies",
+      "result": "PassedDependencyResolution",
+      "detail": "RS_1062_Historical_Foundation_and_Campaign_Context_Authority_V1_1.md, RS_1062_Opening_Chronology_and_Historical_Runway_Authority_V1_1.md, RS_1062_Historical_Source_Assertion_and_Contradiction_Authority_V1_1.md, RS_1062_Historical_Actors_Institutions_and_Political_Forces_Authority_V1_1.md, RS_1062_Historical_Crisis_Conflict_and_Transformation_Portfolio_Authority_V1_1.md"
+    },
+    {
+      "check": "file_6_no_current_v1_reference",
+      "result": "PassedDependencyResolution",
+      "detail": "V1 predecessor is lineage metadata, not a current dependency"
+    },
+    {
+      "check": "file_6_no_activation_or_implementation_claim",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_7_title_preserved",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_single_footer",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_footer_status_matches_control",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_identity",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_control_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_footer_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_canonical_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_fences_and_yaml",
+      "result": "PassedLiteralScan",
+      "detail": "36 parsed YAML blocks; duplicate-key rejecting loader"
+    },
+    {
+      "check": "file_7_escaped_underscores",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_7_chat_citations",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_7_legacy_folder",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_7_prose_fences",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_7_no_unfenced_records",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_retention",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_3.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_3.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_5.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_5.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_6.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_6.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_6.7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_7.3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_7.4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_8.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_8.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_9_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_9.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_10_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_10.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_10.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_11_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_11.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_11.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_12_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_12.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_12.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_13_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_13.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_13.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_14_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_14.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_14.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_15_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_15.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_15.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_16_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_16.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_16.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_17_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_17.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_17.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_18_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_18.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_18.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_19_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_19.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_19.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_20_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_20.4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_20.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_20.6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_21_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_21.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_21.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_22_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_22.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_22.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_23_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_23.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_23.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_24_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_24.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_24.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_26_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_26.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_26.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_27_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_27.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_28.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_28.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_29.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_30_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_31_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_32_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_32.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_section_32.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_7_no_accidental_shortening",
+      "result": "PassedContentComparison",
+      "detail": "45246 -> 47208 bytes"
+    },
+    {
+      "check": "file_7_removal_ledger",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_dependencies",
+      "result": "PassedDependencyResolution",
+      "detail": "RS_1062_Historical_Foundation_and_Campaign_Context_Authority_V1_1.md, RS_1062_Opening_Chronology_and_Historical_Runway_Authority_V1_1.md, RS_1062_Historical_Source_Assertion_and_Contradiction_Authority_V1_1.md, RS_1062_Historical_Actors_Institutions_and_Political_Forces_Authority_V1_1.md, RS_1062_Historical_Crisis_Conflict_and_Transformation_Portfolio_Authority_V1_1.md, RS_1062_Historical_Memory_Precedent_and_Conditional_Emergence_Authority_V1_1.md"
+    },
+    {
+      "check": "file_7_no_current_v1_reference",
+      "result": "PassedDependencyResolution",
+      "detail": "V1 predecessor is lineage metadata, not a current dependency"
+    },
+    {
+      "check": "file_7_no_activation_or_implementation_claim",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_8_title_preserved",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_single_footer",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_8_footer_status_matches_control",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_8_identity",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_8_control_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_8_footer_invariants",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_8_canonical_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_8_fences_and_yaml",
+      "result": "PassedLiteralScan",
+      "detail": "27 parsed YAML blocks; duplicate-key rejecting loader"
+    },
+    {
+      "check": "file_8_escaped_underscores",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_8_chat_citations",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_8_legacy_folder",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_8_prose_fences",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_8_no_unfenced_records",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_retention",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_3.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_3.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_5.4_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_5.5_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_6_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_6.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_6.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_7_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_8_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_8.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_8.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_9_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_9.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_9.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_10_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_10.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_10.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_11.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_12_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_12.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_12.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_13_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_13.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_13.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_14_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_14.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_14.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_15.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_15.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_16_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_16.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_16.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_17_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_17.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_17.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_18_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_18.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_18.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_18.3_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_19_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_20_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_21_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_21.1_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_section_21.2_content",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "file_8_no_accidental_shortening",
+      "result": "PassedContentComparison",
+      "detail": "32250 -> 35650 bytes"
+    },
+    {
+      "check": "file_8_removal_ledger",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_8_dependencies",
+      "result": "PassedDependencyResolution",
+      "detail": "No upstream dependency"
+    },
+    {
+      "check": "file_8_no_current_v1_reference",
+      "result": "PassedDependencyResolution",
+      "detail": "V1 predecessor is lineage metadata, not a current dependency"
+    },
+    {
+      "check": "file_8_no_activation_or_implementation_claim",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "stable_id_uniqueness",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_4_byte_identical",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "no_unapproved_successor_references",
+      "result": "PassedLiteralScan",
+      "detail": ""
+    },
+    {
+      "check": "file_2_section_4_order",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_8_exact_eight_index_entries",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_8_index_role",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "index_file_1_identity_and_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "index_file_1_role",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_order_file_1",
+      "result": "PassedDependencyResolution",
+      "detail": ""
+    },
+    {
+      "check": "index_file_2_identity_and_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "index_file_2_role",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_order_file_2",
+      "result": "PassedDependencyResolution",
+      "detail": ""
+    },
+    {
+      "check": "index_file_3_identity_and_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "index_file_3_role",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_order_file_3",
+      "result": "PassedDependencyResolution",
+      "detail": ""
+    },
+    {
+      "check": "index_file_4_identity_and_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "index_file_4_role",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_order_file_4",
+      "result": "PassedDependencyResolution",
+      "detail": ""
+    },
+    {
+      "check": "index_file_5_identity_and_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "index_file_5_role",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_order_file_5",
+      "result": "PassedDependencyResolution",
+      "detail": ""
+    },
+    {
+      "check": "index_file_6_identity_and_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "index_file_6_role",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_order_file_6",
+      "result": "PassedDependencyResolution",
+      "detail": ""
+    },
+    {
+      "check": "index_file_7_identity_and_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "index_file_7_role",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "file_7_order_file_7",
+      "result": "PassedDependencyResolution",
+      "detail": ""
+    },
+    {
+      "check": "index_file_8_identity_and_folder",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "active_is_vocabulary_only",
+      "result": "PassedPhysicalReview",
+      "detail": "[(6, 242, 'Active:'), (8, 695, '- unsupported `Active` classification scan;')]"
+    },
+    {
+      "check": "crisis_lifecycle_shape_and_rules",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "memory_lifecycle_shape_and_rule",
+      "result": "PassedContentComparison",
+      "detail": ""
+    },
+    {
+      "check": "final_status",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "reviewable_not_downstream_ready",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "static_handoff_incomplete",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "no_stale_pending_reconciliation",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "seven_honest_normalization_dispositions",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    },
+    {
+      "check": "index_status_matches_physical_control",
+      "result": "PassedPhysicalReview",
+      "detail": ""
+    }
+  ],
+  "files": [
+    {
+      "sequence": 1,
+      "filename": "RS_1062_Historical_Foundation_and_Campaign_Context_Authority_V1_1.md",
+      "version": "1.1.0",
+      "stable_document_id": "History.RoyalSalian.FoundationCampaignContext",
+      "byte_size": 26211,
+      "sha256": "B24836D0385C5AC731836E73D0EA6ACFAA40EEB8ABE2263EEB2C6E25B6E4136A",
+      "current_status": "RefinedSuccessorForHistoricalPortfolioReview",
+      "predecessor": "RS_1062_Historical_Foundation_and_Campaign_Context_Authority_V1.md",
+      "canonical_folder": "Project_Bible/Theaters/Germania/08_Realm_Packages_and_References/Royal_Salian_Government_and_Crownlands/08_HIST",
+      "authorization_boundaries": {
+        "opening_state_authorized": false,
+        "runtime_bindings_authorized": false,
+        "implementation_validation_status": "NotRun"
+      },
+      "modified": true,
+      "pre_edit_byte_size": 25787,
+      "pre_edit_sha256": "852CC677EB700965C5EAF21FAE009C75BA2486B78C381ADC6C6D123BA7F9BB67"
+    },
+    {
+      "sequence": 2,
+      "filename": "RS_1062_Opening_Chronology_and_Historical_Runway_Authority_V1_1.md",
+      "version": "1.1.0",
+      "stable_document_id": "History.RoyalSalian.OpeningChronologyRunway",
+      "byte_size": 29202,
+      "sha256": "2932292EA36C8B1174B1AD542C9811F31078F857BC25053B059476C33DD04CBD",
+      "current_status": "RefinedSuccessorForHistoricalPortfolioReview",
+      "predecessor": "RS_1062_Opening_Chronology_and_Historical_Runway_Authority_V1.md",
+      "canonical_folder": "Project_Bible/Theaters/Germania/08_Realm_Packages_and_References/Royal_Salian_Government_and_Crownlands/08_HIST",
+      "authorization_boundaries": {
+        "opening_state_authorized": false,
+        "runtime_bindings_authorized": false,
+        "implementation_validation_status": "NotRun"
+      },
+      "modified": true,
+      "pre_edit_byte_size": 29064,
+      "pre_edit_sha256": "DBF27AECFB500AB6C18B29C6CE6F5BCECA576CC220043C120A64515949F10621"
+    },
+    {
+      "sequence": 3,
+      "filename": "RS_1062_Historical_Source_Assertion_and_Contradiction_Authority_V1_1.md",
+      "version": "1.1.0",
+      "stable_document_id": "History.RoyalSalian.SourceAssertionContradiction",
+      "byte_size": 30993,
+      "sha256": "8A3CA5416B7DE876D4F98C2FED25058970219DBE8D99320298B574813E186430",
+      "current_status": "RefinedSuccessorForHistoricalPortfolioReview",
+      "predecessor": "RS_1062_Historical_Source_Assertion_and_Contradiction_Authority_V1.md",
+      "canonical_folder": "Project_Bible/Theaters/Germania/08_Realm_Packages_and_References/Royal_Salian_Government_and_Crownlands/08_HIST",
+      "authorization_boundaries": {
+        "opening_state_authorized": false,
+        "runtime_bindings_authorized": false,
+        "implementation_validation_status": "NotRun"
+      },
+      "modified": true,
+      "pre_edit_byte_size": 30631,
+      "pre_edit_sha256": "32FD399A58BD4C00B72D4DC15C686B500238D75ECB8D5A426F8C714A469D845C"
+    },
+    {
+      "sequence": 4,
+      "filename": "RS_1062_Historical_Actors_Institutions_and_Political_Forces_Authority_V1_1.md",
+      "version": "1.1.0",
+      "stable_document_id": "History.RoyalSalian.ActorsInstitutionsPoliticalForces",
+      "byte_size": 37898,
+      "sha256": "308539E83126C407F133E8691FB764C26F5528B7355F7792F9A9AE5E16BE6556",
+      "current_status": "RefinedSuccessorForHistoricalPortfolioReview",
+      "predecessor": "RS_1062_Historical_Actors_Institutions_and_Political_Forces_Authority_V1.md",
+      "canonical_folder": "Project_Bible/Theaters/Germania/08_Realm_Packages_and_References/Royal_Salian_Government_and_Crownlands/08_HIST",
+      "authorization_boundaries": {
+        "opening_state_authorized": false,
+        "runtime_bindings_authorized": false,
+        "implementation_validation_status": "NotRun"
+      },
+      "modified": false,
+      "pre_edit_byte_size": 37898,
+      "pre_edit_sha256": "308539E83126C407F133E8691FB764C26F5528B7355F7792F9A9AE5E16BE6556"
+    },
+    {
+      "sequence": 5,
+      "filename": "RS_1062_Historical_Crisis_Conflict_and_Transformation_Portfolio_Authority_V1_1.md",
+      "version": "1.1.0",
+      "stable_document_id": "History.RoyalSalian.CrisisConflictTransformation",
+      "byte_size": 48102,
+      "sha256": "10331A0172C5F781C1F12EC99297D3164884FF3435C1D8783E88ECF488316508",
+      "current_status": "RefinedSuccessorForHistoricalPortfolioReview",
+      "predecessor": "RS_1062_Historical_Crisis_Conflict_and_Transformation_Portfolio_Authority_V1.md",
+      "canonical_folder": "Project_Bible/Theaters/Germania/08_Realm_Packages_and_References/Royal_Salian_Government_and_Crownlands/08_HIST",
+      "authorization_boundaries": {
+        "opening_state_authorized": false,
+        "runtime_bindings_authorized": false,
+        "implementation_validation_status": "NotRun"
+      },
+      "modified": true,
+      "pre_edit_byte_size": 48108,
+      "pre_edit_sha256": "F6D4BE986BD29F1EB244EE3D007199B0F644BDAC9437C2E95DF0A1980971D2D4"
+    },
+    {
+      "sequence": 6,
+      "filename": "RS_1062_Historical_Memory_Precedent_and_Conditional_Emergence_Authority_V1_1.md",
+      "version": "1.1.0",
+      "stable_document_id": "History.RoyalSalian.MemoryPrecedentConditionalEmergence",
+      "byte_size": 50705,
+      "sha256": "5E80F5BD06F7F2BF8D0E0DDCDD47EB2DAEB3F348E5545FB416AED313A22B10AF",
+      "current_status": "RefinedSuccessorForHistoricalPortfolioReview",
+      "predecessor": "RS_1062_Historical_Memory_Precedent_and_Conditional_Emergence_Authority_V1.md",
+      "canonical_folder": "Project_Bible/Theaters/Germania/08_Realm_Packages_and_References/Royal_Salian_Government_and_Crownlands/08_HIST",
+      "authorization_boundaries": {
+        "opening_state_authorized": false,
+        "runtime_bindings_authorized": false,
+        "implementation_validation_status": "NotRun"
+      },
+      "modified": true,
+      "pre_edit_byte_size": 50707,
+      "pre_edit_sha256": "C824C0BCE2459A447360CE70B79B7497A1CB67E472D045C98418AE8D1C61F348"
+    },
+    {
+      "sequence": 7,
+      "filename": "RS_1062_Historical_Campaign_Integration_Traceability_and_Handoff_Authority_V1_1.md",
+      "version": "1.1.0",
+      "stable_document_id": "History.RoyalSalian.CampaignIntegrationTraceabilityHandoff",
+      "byte_size": 47208,
+      "sha256": "B9456A34AB1C3FE69ACB16B1BEE8A956693242CF5A158234C011AD7AC31465CA",
+      "current_status": "RefinedSuccessorForHistoricalPortfolioReview",
+      "predecessor": "RS_1062_Historical_Campaign_Integration_Traceability_and_Handoff_Authority_V1.md",
+      "canonical_folder": "Project_Bible/Theaters/Germania/08_Realm_Packages_and_References/Royal_Salian_Government_and_Crownlands/08_HIST",
+      "authorization_boundaries": {
+        "opening_state_authorized": false,
+        "runtime_bindings_authorized": false,
+        "implementation_validation_status": "NotRun"
+      },
+      "modified": true,
+      "pre_edit_byte_size": 45246,
+      "pre_edit_sha256": "E1026866190C68F11FDC03691788A538BB88DE289DB62117110F69192B1940F4"
+    },
+    {
+      "sequence": 8,
+      "filename": "README_RS_1062_Historical_Portfolio_Current_Authority_Index_and_Ownership_Map_V1_1.md",
+      "version": "1.1.0",
+      "stable_document_id": "History.RoyalSalian.CurrentAuthorityIndexOwnershipMap",
+      "byte_size": 35650,
+      "sha256": "D786686AB137CA6466DC617373F32345F3D5884070652AB63C0881C9AC28FA1D",
+      "current_status": "ReconciledStaticHistoryPortfolioIndex",
+      "predecessor": "README_RS_1062_Historical_Portfolio_Current_Authority_Index_and_Ownership_Map_V1.md",
+      "canonical_folder": "Project_Bible/Theaters/Germania/08_Realm_Packages_and_References/Royal_Salian_Government_and_Crownlands/08_HIST",
+      "authorization_boundaries": {
+        "opening_state_authorized": false,
+        "runtime_bindings_authorized": false,
+        "implementation_validation_status": "NotRun"
+      },
+      "modified": true,
+      "pre_edit_byte_size": 32250,
+      "pre_edit_sha256": "85AF9D2A95F99B35ABAFF952D57C5CDDA506431291B9F6ECE2457B01D87E0F92"
+    }
+  ],
+  "artifact_role": "PhysicalReconciliationManifestNotHistoryAuthority",
+  "authority_files_last_write_completed_before_manifest": true,
+  "backup_manifest": "RS_1062_Historical_Portfolio_Backup_Manifest.json",
+  "reconciliation_report": "RS_1062_Historical_Portfolio_Reconciliation_Report.md",
+  "portfolio_status": {
+    "history_document_sequence_complete": true,
+    "final_cross_file_reconciliation_complete": true,
+    "current_authority_version": "1.1.0",
+    "static_authority_set": "Reconciled",
+    "current_readiness": "Reviewable",
+    "complete_static_handoff": false,
+    "owner_acceptance_records_complete": false,
+    "opening_state_ready": false,
+    "implementation_ready": false,
+    "repository_integration_beyond_history_folder": false,
+    "unreal_validated": false
+  },
+  "downstream_findings": [
+    {
+      "id": "DOWNSTREAM_001",
+      "severity": "Material",
+      "status": "Open",
+      "finding": "Stable claim-level records and populated traceability matrices remain incomplete; blocks complete static handoff, not document reconciliation."
+    },
+    {
+      "id": "DOWNSTREAM_002",
+      "severity": "Material",
+      "status": "Open",
+      "finding": "Explicit owner-acceptance records remain incomplete; no downstream integration or Opening State readiness is inferred."
+    },
+    {
+      "id": "DOWNSTREAM_003",
+      "severity": "Material",
+      "status": "NotRun",
+      "finding": "Implementation and Unreal validation are absent and unauthorized in this operation."
+    },
+    {
+      "id": "ADVISORY_001",
+      "severity": "Advisory",
+      "status": "Open",
+      "finding": "V1 predecessor locatability and prior creation/refinement claims are retained as lineage, not revalidated or recovered in this bounded V1.1-only audit."
+    },
+    {
+      "id": "ADVISORY_002",
+      "severity": "Advisory",
+      "status": "Open",
+      "finding": "Inherited PassedDraftReview and predecessor-review labels describe prior reviews, not evidence for this physical reconciliation."
+    }
+  ]
+}

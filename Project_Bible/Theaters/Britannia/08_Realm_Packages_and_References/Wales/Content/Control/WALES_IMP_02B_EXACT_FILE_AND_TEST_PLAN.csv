@@ -1,0 +1,16 @@
+RelativeTarget,Category,Action,CollisionRequirement,TestCount
+Public/MWWalesTransactionSimulation.h,Production,Add,MustBeAbsent,0
+Private/MWWalesTransactionSimulation.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesConflictPreflight.h,Production,Add,MustBeAbsent,0
+Private/MWWalesConflictPreflight.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesStagingPlan.h,Production,Add,MustBeAbsent,0
+Private/MWWalesStagingPlan.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesRollbackJournalPlan.h,Production,Add,MustBeAbsent,0
+Private/MWWalesRollbackJournalPlan.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesImportReceiptPlan.h,Production,Add,MustBeAbsent,0
+Private/MWWalesImportReceiptPlan.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesSaveMigrationProtection.h,Production,Add,MustBeAbsent,0
+Private/MWWalesSaveMigrationProtection.cpp,Production,Add,MustBeAbsent,0
+Private/Tests/MWWalesTransactionRecoveryPlanningTests.cpp,Test,Add,MustBeAbsent,18
+Private/Tests/MWWalesReceiptAndProtectionTests.cpp,Test,Add,MustBeAbsent,5
+Private/Tests/MWWalesTransactionRecoveryBoundaryTests.cpp,Test,Add,MustBeAbsent,1

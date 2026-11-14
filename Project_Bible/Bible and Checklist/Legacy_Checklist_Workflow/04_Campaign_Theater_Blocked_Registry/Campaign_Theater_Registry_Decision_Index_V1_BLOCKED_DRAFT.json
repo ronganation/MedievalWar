@@ -1,0 +1,215 @@
+{
+  "document_identity": {
+    "document_id": "mw.campaign_theater.registry_decision_index.blocked_draft.v1",
+    "filename": "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT.json",
+    "version": "1.0.0",
+    "date": "2026-08-22",
+    "status": "BLOCKED_DRAFT_NON_AUTHORITATIVE"
+  },
+  "authority_boundary": {
+    "constitutional_authority": "Project Bible V2.4",
+    "operational_authority": "Design Expansion Checklist V3.7",
+    "reconciliation_authority": "Campaign_Theater_Registry_and_Association_Owner_Reconciliation_V1.md",
+    "decision_request_authority": "Campaign_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md"
+  },
+  "authorization": {
+    "registry_mutation_authorized": false,
+    "new_activation_authorized": false,
+    "scenario_execution_authorized": false,
+    "importer_consumption_authorized": false,
+    "runtime_mutation_authorized": false,
+    "save_persistence_authorized": false,
+    "migration_execution_authorized": false
+  },
+  "owner_response_status": {
+    "required_decision_count": 7,
+    "received_decision_count": 0,
+    "unresolved_decision_count": 7,
+    "all_required_receipts_present": false
+  },
+  "theater_records": [
+    {
+      "stable_order": 10,
+      "theater_ref": "theater.britania",
+      "content_authority": "Britania_Theater_Content_V1.md",
+      "implementation_status": "ImplementedAndRuntimeValidated",
+      "shared_registry_status": "OwnerDecisionRequired",
+      "gameplay_tag_status": "RegisteredAndExercisedPendingSharedRegistryDisposition",
+      "implementation_owner_identifier": "Owner.Campaign.TheaterDefinitions",
+      "architectural_owner_authorization_status": "OwnerDecisionRequired",
+      "architectural_owner_receipt_ref": null,
+      "scenario_binding_owner_ref": null,
+      "association_owner_ref": null,
+      "owner_receipt_refs": [],
+      "new_activation_authorized": false
+    },
+    {
+      "stable_order": 20,
+      "theater_ref": "theater.norse",
+      "content_authority": "Norse_Theater_Content_V1.md",
+      "implementation_status": "ImplementedAndRuntimeValidated",
+      "shared_registry_status": "OwnerDecisionRequired",
+      "gameplay_tag_status": "RegisteredAndExercisedPendingSharedRegistryDisposition",
+      "implementation_owner_identifier": "Owner.Campaign.TheaterDefinitions",
+      "architectural_owner_authorization_status": "OwnerDecisionRequired",
+      "architectural_owner_receipt_ref": null,
+      "scenario_binding_owner_ref": null,
+      "association_owner_ref": null,
+      "owner_receipt_refs": [],
+      "new_activation_authorized": false
+    },
+    {
+      "stable_order": 30,
+      "theater_ref": "theater.iberia",
+      "content_authority": "Iberia_Theater_Content_V1.md",
+      "implementation_status": "DesignCandidateOnly",
+      "shared_registry_status": "OwnerDecisionRequired",
+      "gameplay_tag_status": "NotRegisteredByThisPackage",
+      "implementation_owner_identifier": null,
+      "architectural_owner_authorization_status": "OwnerDecisionRequired",
+      "architectural_owner_receipt_ref": null,
+      "scenario_binding_owner_ref": null,
+      "association_owner_ref": null,
+      "owner_receipt_refs": [],
+      "new_activation_authorized": false
+    },
+    {
+      "stable_order": 40,
+      "theater_ref": "theater.western_francia",
+      "content_authority": "Western_Francia_Theater_Content_V1.md",
+      "implementation_status": "DesignCandidateOnly",
+      "shared_registry_status": "OwnerDecisionRequired",
+      "gameplay_tag_status": "NotRegisteredByThisPackage",
+      "implementation_owner_identifier": null,
+      "architectural_owner_authorization_status": "OwnerDecisionRequired",
+      "architectural_owner_receipt_ref": null,
+      "scenario_binding_owner_ref": null,
+      "association_owner_ref": null,
+      "owner_receipt_refs": [],
+      "new_activation_authorized": false
+    }
+  ],
+  "typed_association_candidates": [
+    {
+      "association_id": "association.denmark.britania.maritime.v1",
+      "realm_ref": "realm.denmark.kingdom",
+      "realm_package_owner_theater": "theater.norse",
+      "theater_ref": "theater.britania",
+      "association_class": "CrossTheater",
+      "association_type": "Maritime",
+      "opening_association": false,
+      "definition_status": "ImplementedAndRuntimeValidated",
+      "scenario_execution_status": "NotApplicableWhileOpeningFalse",
+      "owner_receipt_status": "OwnerDecisionRequired",
+      "owner_receipt_ref": null,
+      "activation_authorized": false,
+      "package_duplication_prohibited": true
+    },
+    {
+      "association_id": "association.norway.britania.maritime.v1",
+      "realm_ref": "realm.norway",
+      "realm_package_owner_theater": "theater.norse",
+      "theater_ref": "theater.britania",
+      "association_class": "CrossTheater",
+      "association_type": "Maritime",
+      "opening_association": false,
+      "definition_status": "ImplementedAndRuntimeValidated",
+      "scenario_execution_status": "NotApplicableWhileOpeningFalse",
+      "owner_receipt_status": "OwnerDecisionRequired",
+      "owner_receipt_ref": null,
+      "activation_authorized": false,
+      "package_duplication_prohibited": true
+    },
+    {
+      "association_id": "association.normandy.britania.expeditionary.v1",
+      "realm_ref": "realm.normandy",
+      "realm_package_owner_theater": "theater.western_francia",
+      "theater_ref": "theater.britania",
+      "association_class": "CrossTheater",
+      "association_type": "Expeditionary",
+      "opening_association": false,
+      "definition_status": "ImplementedAndRuntimeValidated",
+      "scenario_execution_status": "NotApplicableWhileOpeningFalse",
+      "owner_receipt_status": "OwnerDecisionRequired",
+      "owner_receipt_ref": null,
+      "activation_authorized": false,
+      "package_duplication_prohibited": true
+    },
+    {
+      "association_id": "association.almoravids.iberia.expeditionary.v1",
+      "realm_ref": "realm.almoravid_movement_state",
+      "realm_package_owner_theater": "theater.iberia",
+      "theater_ref": "theater.iberia",
+      "association_class": "SameTheaterTypedCandidate",
+      "association_type": "Expeditionary",
+      "opening_association": false,
+      "definition_status": "DesignCandidateOnly",
+      "scenario_execution_status": "Blocked",
+      "owner_receipt_status": "OwnerDecisionRequired",
+      "owner_receipt_ref": null,
+      "activation_authorized": false,
+      "package_duplication_prohibited": true
+    }
+  ],
+  "blocked_records": [
+    {
+      "record_ref": "realm.scotland",
+      "status": "ReviewOnly",
+      "reason": "Controlling Realm identity and owner evidence required"
+    },
+    {
+      "record_ref": "association.orkney.unresolved",
+      "status": "ExternalLock",
+      "reason": "Owner-approved association target required"
+    },
+    {
+      "record_ref": "realm.barcelona",
+      "status": "ModernizationRequired",
+      "reason": "Temporal and Registry normalization required"
+    },
+    {
+      "record_ref": "realm.aragon",
+      "status": "ModernizationRequired",
+      "reason": "Legacy turn-length compatibility patch and shared dependencies required"
+    },
+    {
+      "record_ref": "realm.badajoz",
+      "status": "Blocked",
+      "reason": "Realm, scenario, package, faction, Registry, and owner normalization required"
+    },
+    {
+      "record_ref": "realm.seville",
+      "status": "OwnerDecisionRequired",
+      "reason": "Shared Campaign Registry refresh required"
+    },
+    {
+      "record_ref": "realm.valencia_taifa",
+      "status": "CompatibilityBlockerCandidate",
+      "reason": "Canonical identities and owner bindings required"
+    },
+    {
+      "record_ref": "opening.almoravid.1062",
+      "status": "DirectOwnerDispositionRequired",
+      "reason": "Opening State identity forms unresolved"
+    }
+  ],
+  "validation_contract": {
+    "maximum_primary_associations_per_realm": 1,
+    "alias_chains_allowed": false,
+    "folder_placement_is_association_authority": false,
+    "duplicate_realm_packages_allowed": false,
+    "advanced_save_overwrite_allowed": false
+  },
+  "evidence_boundary": {
+    "britania_static_definition_compile_runtime_evidence": true,
+    "norse_static_definition_compile_runtime_evidence": true,
+    "shared_registry_adoption_validated": false,
+    "association_owner_authorization_validated": false,
+    "scenario_execution_validated": false,
+    "importer_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "performance_validated": false
+  }
+}

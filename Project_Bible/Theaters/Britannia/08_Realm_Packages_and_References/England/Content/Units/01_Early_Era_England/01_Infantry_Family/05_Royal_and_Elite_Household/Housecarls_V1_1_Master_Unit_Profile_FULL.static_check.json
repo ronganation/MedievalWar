@@ -1,0 +1,22 @@
+{
+  "document": "Housecarls_V1_1_Master_Unit_Profile_FULL.md",
+  "sha256": "ad98993d43a4fc04748eb4b59f04ad6cc3147b9dce7a01067a713e2c8d46420a",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "substantive_length": true,
+    "terrain_25": true,
+    "visual_color_system": true,
+    "family_comparison": true,
+    "tactical_modes": true,
+    "readiness_layers": true,
+    "accessibility": true,
+    "character_guard": true,
+    "regional_variation": true,
+    "source_caution": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

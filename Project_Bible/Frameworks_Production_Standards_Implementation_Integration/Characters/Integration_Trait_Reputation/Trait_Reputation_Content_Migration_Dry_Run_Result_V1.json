@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationContentMigrationDryRunResult",
+    "name": "Trait Reputation Content Migration Dry Run Result V1",
+    "version": "1.0",
+    "status": "TextualSourceContentDryRunPassed_NoMatchingOccurrences_ClosureIncomplete",
+    "authority_class": "Content Migration Dry Run Result"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Content_Migration_Dry_Run_Result_V1.json"
+  },
+  "inputs": {
+    "inventory": "Trait_Reputation_Legacy_Reader_Writer_Inventory_V1.json",
+    "committed_trait_registry": "Trait_Canonical_Registry_V1_1.json",
+    "committed_reputation_registry": "Reputation_Dimension_Registry_V1_1.json",
+    "committed_mapping": "Trait_Reputation_Direct_Migration_Map_V1.json"
+  },
+  "observed": {
+    "source_text_matches": 0,
+    "content_text_matches": 0,
+    "project_bible_document_matches": 6532,
+    "conversion_candidates_in_source_or_content": 0,
+    "proposed_in_memory_conversions": 0,
+    "quarantine_records_from_source_or_content": 0,
+    "binary_asset_candidates": 0
+  },
+  "verdict": "PassNoTextualLegacyTraitReputationUsesDiscoveredInScannedSourceOrContent",
+  "limitations": [
+    "Serialized Unreal assets were not semantically parsed.",
+    "No binary Blueprint/Data Asset export was supplied.",
+    "Config, Plugins, Tests, SavedFixtures, and MigrationFixtures were not among the scanned roots reported by this run.",
+    "No compile, runtime, save, migration, rollback, or determinism evidence exists."
+  ],
+  "authorization_boundary": {
+    "content_rewrite_authorized": false,
+    "runtime_write_authorized": false,
+    "save_write_authorized": false,
+    "migration_execution_authorized": false
+  },
+  "run": {
+    "mode": "TextualContentMappingDryRun",
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "registry_mutations": 0
+  },
+  "smallest_useful_next_action": "Run an Unreal-side Asset Registry or Blueprint/Data Asset export inventory and provide save schemas or fixture saves. Also scan Config, Plugins, Tests, SavedFixtures, and MigrationFixtures when those roots exist. Keep migration execution blocked."
+}

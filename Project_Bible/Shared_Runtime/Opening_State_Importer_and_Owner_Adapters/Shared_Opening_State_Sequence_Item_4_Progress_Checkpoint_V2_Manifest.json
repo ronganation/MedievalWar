@@ -1,0 +1,18 @@
+﻿{
+    "document_id":  "mw.shared-opening-state.sequence-item-4.progress-checkpoint-v2.manifest",
+    "generated_utc":  "2026-08-25T18:36:47.2769007Z",
+    "source_checkpoint":  "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Shared_Runtime\\Opening_State_Importer_and_Owner_Adapters\\Shared_Opening_State_Sequence_Item_4_Progress_Checkpoint_V1.md",
+    "installed_checkpoint":  "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Shared_Runtime\\Opening_State_Importer_and_Owner_Adapters\\Shared_Opening_State_Sequence_Item_4_Progress_Checkpoint_V2.md",
+    "prior_checkpoint_retained":  true,
+    "additive_successor":  true,
+    "source_bytes":  11083,
+    "successor_bytes":  19504,
+    "successor_sha256":  "C76F0427D59C7359FA47C48116F7066088D6035D4E9C5A1C5AFAEE3C27461280",
+    "active_source_mutation_performed":  false,
+    "active_source_promotion_authorized":  false,
+    "real_Realm_payload_application_performed":  false,
+    "Norway_real_opening_state_authorized":  false,
+    "Campaign_regression_rerun_status":  "Pending",
+    "Denmark_Network_regression_rerun_status":  "Pending",
+    "item_4_complete":  false
+}

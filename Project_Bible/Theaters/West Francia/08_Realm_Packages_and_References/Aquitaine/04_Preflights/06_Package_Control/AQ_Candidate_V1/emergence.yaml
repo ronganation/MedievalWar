@@ -1,0 +1,28 @@
+DocumentControl:
+  SchemaId: Schema.MedievalWar.CandidateDocument.v1
+  PackageId: package.aquitaine.candidate.v1
+  RealmCandidateId: realm.aquitaine.duchy
+  ScenarioId: mw.scenario.grand_campaign.1062
+  CandidateOnly: true
+  ReviewOnly: true
+  CommitPermitted: false
+  RegistryPromotionPermitted: false
+  AliasExecutionPermitted: false
+  OpeningStateActivationPermitted: false
+  MigrationExecutionPermitted: false
+  UnrealImportPermitted: false
+  RuntimeActivationPermitted: false
+  RealPayloadImportPermitted: false
+  SourceAuthority: Aquitaine_Current_Machine_Readable_Candidate_Bundle_V1.md
+  ContentVersion: 1.0.0
+  OwnerAuthority: Aquitaine_Historical_Emergence_V2_Developed_Realm_Parity_Authority.md
+Pathways:
+- emergence.aquitaine.composite_principality_settlement
+- emergence.aquitaine.succession_settlement
+- emergence.aquitaine.crown_service_or_refusal
+- emergence.aquitaine.corridor_assembly_and_access
+- emergence.aquitaine.atlantic_capacity_transition
+- emergence.aquitaine.neighbor_balance_transition
+- emergence.barbastro_expedition
+OpeningInstances: []
+OpeningAquitanianBarbastroCommitment: false

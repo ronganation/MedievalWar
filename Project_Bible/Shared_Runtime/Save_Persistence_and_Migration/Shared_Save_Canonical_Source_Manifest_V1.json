@@ -1,0 +1,74 @@
+﻿{
+    "document_id":  "mw.shared-save.canonical-source-manifest.v1",
+    "filename":  "Shared_Save_Canonical_Source_Manifest_V1.json",
+    "generated_utc":  "2026-08-24T15:54:44.5897476Z",
+    "project_root":  "C:\\Medieval War\\Medieval War (England)",
+    "implementation_target":  "Unreal Engine 5.8",
+    "source_mutation_performed":  false,
+    "all_required_files_present":  false,
+    "records":  [
+                    {
+                        "canonical_relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignSaveGame.h",
+                        "present":  false,
+                        "bytes":  null,
+                        "modified_utc":  null,
+                        "sha256":  null
+                    },
+                    {
+                        "canonical_relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignSaveSubsystem.h",
+                        "present":  false,
+                        "bytes":  null,
+                        "modified_utc":  null,
+                        "sha256":  null
+                    },
+                    {
+                        "canonical_relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignSaveSubsystem.cpp",
+                        "present":  false,
+                        "bytes":  null,
+                        "modified_utc":  null,
+                        "sha256":  null
+                    },
+                    {
+                        "canonical_relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTypes.h",
+                        "present":  false,
+                        "bytes":  null,
+                        "modified_utc":  null,
+                        "sha256":  null
+                    },
+                    {
+                        "canonical_relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTurnSubsystem.h",
+                        "present":  false,
+                        "bytes":  null,
+                        "modified_utc":  null,
+                        "sha256":  null
+                    },
+                    {
+                        "canonical_relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignTurnSubsystem.cpp",
+                        "present":  false,
+                        "bytes":  null,
+                        "modified_utc":  null,
+                        "sha256":  null
+                    },
+                    {
+                        "canonical_relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignValidationSubsystem.h",
+                        "present":  false,
+                        "bytes":  null,
+                        "modified_utc":  null,
+                        "sha256":  null
+                    },
+                    {
+                        "canonical_relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignValidationSubsystem.cpp",
+                        "present":  false,
+                        "bytes":  null,
+                        "modified_utc":  null,
+                        "sha256":  null
+                    },
+                    {
+                        "canonical_relative_path":  "Source/MedievalWarCampaign/Private/Tests/MWCampaignAutomationTests.cpp",
+                        "present":  false,
+                        "bytes":  null,
+                        "modified_utc":  null,
+                        "sha256":  null
+                    }
+                ]
+}

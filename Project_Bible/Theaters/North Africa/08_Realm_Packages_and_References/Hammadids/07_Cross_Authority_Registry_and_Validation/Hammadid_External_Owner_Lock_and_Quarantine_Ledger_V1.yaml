@@ -1,0 +1,326 @@
+ledger_version: 1.0.0
+ledger_status: PartialBatchCExternalOwnerLockAndQuarantineEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+scope:
+  external_lock_records: 9
+  quarantine_records: 10
+  owner_receipts_returned: 0
+  quarantines_released: 0
+  reciprocal_records_activated: 0
+  canonical_ids_allocated: 0
+sources:
+  - Hammadid_Alias_Ownership_and_Collision_Ledger_V1.yaml
+  - Hammadid_Candidate_to_Canonical_Identity_Mapping_Ledger_V1.yaml
+  - Hammadid_Entity_Kind_and_Owner_Validation_Ledger_V1.yaml
+  - Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+  - Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+rules:
+  - SilenceIsNotConsent
+  - ExternalReferenceRequiresVersionedOwnerReceipt
+  - ReciprocalStateRequiresBothOwnerSides
+  - ForeignPrivateStateIsNeverReconstructedLocally
+  - QuarantineIsNotRejection
+  - QuarantineReleaseRequiresNamedEvidenceAndOwnerDecision
+  - CandidateIdentityCannotBindWhileQuarantined
+  - ExternalLockDoesNotTransferDefinitionOrStateOwnership
+  - RegistryApprovalDoesNotApproveOpeningState
+  - OpeningStateApprovalDoesNotApproveForeignPrivateState
+external_locks:
+  - lock_ref: HMD_LOCK_SCENARIO_001
+    subject_ref: cand.scenario.grand_campaign.1062
+    external_owner: ScenarioOwner
+    lock_scope:
+      - CanonicalScenarioReference
+      - GlobalScenarioAnchor
+      - RealmSpecificVariantCompatibility
+    local_request: ConfirmScenarioReferenceAndDispositionHMD_DATE_001
+    evidence_required:
+      - ScenarioCanonicalReferenceReceipt
+      - BoundaryDecisionReceipt
+      - VariantSeparationReceipt
+    receipt_state: Pending
+    blocking_effect: RegistryAndOpeningState
+    rollback: RetainCandidateReferenceAndBothVariantsHeld
+  - lock_ref: HMD_LOCK_THEATER_001
+    subject_ref: cand.theater.north_africa
+    external_owner: CampaignTheaterOwner
+    lock_scope:
+      - CanonicalTheaterReference
+      - PrimaryTheaterAssociation
+      - SharedGeographicInterfaces
+    local_request: ConfirmNorthAfricaTheaterAssociation
+    evidence_required:
+      - TheaterCanonicalReferenceReceipt
+      - TheaterAssociationReceipt
+    receipt_state: Pending
+    blocking_effect: RegistryAndOpeningState
+    rollback: RetainCandidateTheaterReferenceWithoutAppliedAssociation
+  - lock_ref: HMD_LOCK_ZIRID_001
+    subject_ref: external.realm.zirid
+    external_owner: ZiridPackageOwner
+    lock_scope:
+      - NamedPeopleAndKinship
+      - DiplomaticRecognition
+      - AgreementsAndConflict
+      - ForcesAndPrivateKnowledge
+    local_request: ValidateOnlyReciprocalOrExternallyOwnedRecordsProposedByHammadidAuthorities
+    evidence_required:
+      - CounterpartyEntityReceipts
+      - ReciprocalRelationshipReceipts
+      - PrivateStateExclusionReceipt
+    receipt_state: Pending
+    blocking_effect: CrossRealmOpeningFacts
+    rollback: RemoveLocalReciprocalClaimsAndRetainHammadidDirectedStateOnly
+  - lock_ref: HMD_LOCK_ALMORAVID_001
+    subject_ref: external.realm.almoravid
+    external_owner: AlmoravidPackageOwner
+    lock_scope:
+      - WesternCampaignConsequences
+      - DiplomacyAndMilitaryResponse
+      - AccessAndAgreements
+      - PrivateKnowledge
+    local_request: ValidateCounterpartyAndReciprocalCandidates
+    evidence_required:
+      - CounterpartyEntityReceipts
+      - ReciprocalDiplomacyReceipts
+      - PrivateStateExclusionReceipt
+    receipt_state: Pending
+    blocking_effect: CrossRealmOpeningFacts
+    rollback: RetainOnlyHammadidMemoryAndDirectedKnowledge
+  - lock_ref: HMD_LOCK_BANUHILAL_001
+    subject_ref: external.actor_family.banu_hilal
+    external_owner: BanuHilalActorOwners
+    lock_scope:
+      - NamedActorsAndBranches
+      - CoalitionAndMovementState
+      - ServiceTributeAccessPressureAndConflict
+      - PrivateKnowledge
+    local_request: PreventUniformActorFlatteningAndSecureActorSpecificReceipts
+    evidence_required:
+      - BranchAndActorIdentityReceipts
+      - RelationshipDirectionReceipts
+      - MovementAndPrivateStateExclusionReceipt
+    receipt_state: Pending
+    blocking_effect: ActorSpecificOpeningFacts
+    rollback: RetainGenericPressureDefinitionWithoutActiveActorState
+  - lock_ref: HMD_LOCK_RELIGION_001
+    subject_ref: shared.religious_juristic_systems
+    external_owner: SharedReligionJuristicOwners
+    lock_scope:
+      - JuristicInstitutionKinds
+      - OfficeAndJurisdictionReferences
+      - RecognitionAndSharedDoctrine
+    local_request: ConfirmSharedKindsAndExternalReferences
+    evidence_required:
+      - InstitutionKindReceipt
+      - OfficeAndJurisdictionReceipt
+      - SharedReferenceReceipt
+    receipt_state: Pending
+    blocking_effect: InstitutionAndOfficeBinding
+    rollback: RetainDefinitionCandidatesWithoutActiveInstitutionOrOffice
+  - lock_ref: HMD_LOCK_REGISTRY_001
+    subject_ref: shared.registry_taxonomy
+    external_owner: SharedRegistryAndTaxonomyOwners
+    lock_scope:
+      - CanonicalIds
+      - EntityKinds
+      - DirectAliases
+      - CollisionAndMigrationDisposition
+    local_request: ReviewBatchCCandidateMappingsAndEntityKinds
+    evidence_required:
+      - CanonicalMappingReceipts
+      - EntityKindReceipts
+      - AliasAndCollisionDispositionReceipts
+    receipt_state: Pending
+    blocking_effect: AllCanonicalMappings
+    rollback: PreserveCandidateOnlyReferencesAndQuarantines
+  - lock_ref: HMD_LOCK_GEOGRAPHY_001
+    subject_ref: shared.geography_taxonomy
+    external_owner: GeographyRegistryOwner
+    lock_scope:
+      - PlaceSettlementFortressCapitalKinds
+      - SharedRoutesAndInterfaces
+      - QalatAndBejaiaCanonicalPlaceReferences
+    local_request: ConfirmTypedGeographicMappings
+    evidence_required:
+      - PlaceIdentityReceipts
+      - TypedFunctionMappings
+      - SharedRouteReceipts
+    receipt_state: Pending
+    blocking_effect: GeographicCanonicalAndOpeningBindings
+    rollback: PreserveCandidatePlacesWithoutOpeningInstances
+  - lock_ref: HMD_LOCK_FACTION_001
+    subject_ref: faction.hammadid
+    external_owner: FactionTaxonomyOwner
+    lock_scope:
+      - FactionVersusPlayableActorKind
+      - RealmFactionRelationship
+      - RuntimeActorReferenceClass
+    local_request: ReturnProjectNativeFactionTaxonomyDecision
+    evidence_required:
+      - EntityKindDecision
+      - RealmFactionSeparationReceipt
+      - RegistryOwnerReceipt
+    receipt_state: Pending
+    blocking_effect: FactionCanonicalMapping
+    rollback: RetainFactionReferenceAsUnresolvedPlanningLabel
+quarantines:
+  - quarantine_ref: HMD_QUAR_ANNASIR_ARTIFACTS_001
+    subject_ref: cand.person.hammadid.al_nasir_ibn_alnas
+    reason: ThreeProfileArtifactsShareStableIdentityAndInternalVersionEvidence
+    evidence_required:
+      - AllArtifactSHA256Values
+      - HeaderSectionAndLiteralComparison
+      - InboundReferenceSearch
+      - CurrentProfileOwnerDecision
+    release_owner: CharacterProfilePackageIndexRegistry
+    state: Active
+    opening_effect: Blocked
+  - quarantine_ref: HMD_QUAR_ANNASIR_REFS_001
+    subject_refs:
+      - character.hammadid.an_nasir_ibn_alnas
+      - cand.person.hammadid.al_nasir_ibn_alnas
+    reason: LegacyAndCandidateReferencesCouldSplitOnePerson
+    evidence_required:
+      - SamePersonReceipt
+      - DirectAliasDecision
+      - CanonicalMappingReceipt
+    release_owner: CharacterRegistryOwner
+    state: Active
+    opening_effect: Blocked
+  - quarantine_ref: HMD_QUAR_BEJAIA_OPENING_001
+    subject_ref: cand.place.hammadid.bejaia
+    reason: LaterHistoricalDevelopmentMustNotBeBackProjectedInto1062Opening
+    evidence_required:
+      - TemporalScopeReceipt
+      - OpeningExclusionOrConditionalEmergenceReceipt
+    release_owner: HistoricalResearchGeographyOpeningState
+    state: ActiveForOpeningOnly
+    opening_effect: Excluded
+  - quarantine_ref: HMD_QUAR_QALA_ALIAS_001
+    subject_refs:
+      - Qala
+      - Qal'a
+    reason: ShortLabelsAreAmbiguousOutsideBoundedHammadidContext
+    evidence_required:
+      - ContextBoundSearchAliasRule
+      - GeographyOwnerApproval
+    release_owner: GeographyRegistryOwner
+    state: ActiveAsGlobalDirectAlias
+    opening_effect: NoneUnlessUsedAsIdentity
+  - quarantine_ref: HMD_QUAR_QALAT_KIND_001
+    subject_ref: cand.place.hammadid.qalat_bani_hammad
+    reason: PlaceSettlementFortressCapitalBuildingInstitutionFunctionsNeedTypedSeparation
+    evidence_required:
+      - TypedEntityKindMatrix
+      - MultiOwnerReceipts
+      - OpeningControlAndInventoryReceipt
+    release_owner: GeographyPropertyReligionGovernanceRegistryOpeningState
+    state: ActiveForMachineReadableBinding
+    opening_effect: Blocked
+  - quarantine_ref: HMD_QUAR_GREAT_MOSQUE_001
+    subject_ref: cand.institution.hammadid.qalat_great_mosque
+    reason: InstitutionBuildingOfficeCongregationAndActiveStateSeparationPending
+    evidence_required:
+      - InstitutionKindReceipt
+      - BuildingPropertyReceipt
+      - OpeningInstanceReceipt
+    release_owner: ReligionPropertyRegistryOpeningState
+    state: Active
+    opening_effect: Blocked
+  - quarantine_ref: HMD_QUAR_COURT_001
+    subject_ref: cand.institution.hammadid.ruler_court
+    reason: InstitutionRelationshipContextGovernmentHouseholdAndMembershipKindsUnresolved
+    evidence_required:
+      - CourtEntityKindDecision
+      - MembershipAndAccessReceipt
+      - OpeningInstanceReceipt
+    release_owner: CharacterGovernanceRegistryOpeningState
+    state: Active
+    opening_effect: Blocked
+  - quarantine_ref: HMD_QUAR_CHANCERY_001
+    subject_ref: cand.institution.hammadid.chancery
+    reason: FunctionInstitutionOfficeBuildingArchiveAndCapacityKindsUnresolved
+    evidence_required:
+      - EntityKindDecision
+      - GovernanceAndRecordsOwnerReceipts
+      - OpeningInstanceAndOfficeReceipt
+    release_owner: GovernanceEducationRegistryOpeningState
+    state: Active
+    opening_effect: Blocked
+  - quarantine_ref: HMD_QUAR_VALIDATION_LINEAGE_001
+    subject_refs:
+      - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1.md
+      - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    reason: SuccessorCompletenessAndRemovalLedgerNotValidated
+    evidence_required:
+      - SourceAndSuccessorHashes
+      - SectionAndLiteralComparison
+      - RemovalLedger
+      - OwnerApproval
+    release_owner: PackageControlValidation
+    state: PreserveBothNoSupersession
+    opening_effect: ValidationFreezeBlocked
+  - quarantine_ref: HMD_QUAR_OPENING_LINEAGE_001
+    subject_refs:
+      - Hammadid_Opening_State_1062_V1.md
+      - Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+    reason: AdditiveSuccessorCompletenessNotDirectlyValidated
+    evidence_required:
+      - SourceAndSuccessorHashes
+      - SectionAndLiteralComparison
+      - RemovalLedger
+      - OwnerApproval
+    release_owner: OpeningStateValidation
+    state: PreserveBothNoSupersession
+    opening_effect: CurrentAuthorityPromotionBlocked
+release_requirements:
+  required_for_every_quarantine:
+    - NamedEvidenceRefs
+    - DefinitionOwnerApproval
+    - RegistryOwnerApprovalIfIdentityAffected
+    - OpeningStateApprovalIfOpeningAdmissionAffected
+    - RollbackRef
+    - ValidationReceipt
+  prohibited_release_basis:
+    - FilenamePreference
+    - HigherVersionAlone
+    - VisualSimilarity
+    - HistoricalPlausibility
+    - SearchNonreturn
+    - SilenceFromExternalOwner
+owner_receipt_queue:
+  - HMD_DATE_001ScenarioBoundaryDecision
+  - NorthAfricaTheaterAssociationReceipt
+  - ZiridCounterpartyAndReciprocalReceipts
+  - AlmoravidCounterpartyAndReciprocalReceipts
+  - BanuHilalActorSpecificReceipts
+  - SharedReligionJuristicKindReceipts
+  - RegistryCanonicalEntityAliasAndCollisionReceipts
+  - GeographyTypedPlaceAndRouteReceipts
+  - FactionTaxonomyReceipt
+  - CharacterProfileArtifactDispositionReceipt
+validation_summary:
+  external_lock_records: 9
+  quarantine_records: 10
+  owner_receipts_returned: 0
+  quarantines_released: 0
+  reciprocal_records_activated: 0
+  canonical_ids_allocated: 0
+  aliases_executed: 0
+  source_files_modified: 0
+  registry_mutations: 0
+  opening_state_mutations: 0
+  result: PASS_AS_PARTIAL_BATCH_C_EXTERNAL_LOCK_AND_QUARANTINE_LEDGER
+stable_footer:
+  stable_document_id: HMD_EXTERNAL_OWNER_LOCK_AND_QUARANTINE_LEDGER
+  version: 1.0.0
+  status: PartialBatchCExternalOwnerLockAndQuarantineEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  payload_authorized: false
+  importer_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false

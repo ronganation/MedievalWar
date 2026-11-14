@@ -1,0 +1,56 @@
+{
+  "ManifestId": "Manifest.Aquitaine.SpecialistIntegrationConsistencyAudit.V1",
+  "AuthorityFile": "Aquitaine_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md",
+  "SHA256": "8eb719c37e78479be11a448802342602aaad114bf10cdc623d701617dbb71dde",
+  "ByteCount": 28399,
+  "LineCount": 793,
+  "CoreAuthorities": [
+    "Aquitaine_Historical_Reconciliation_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_ID_Registry_V2_Current_Authority_Modernization.md",
+    "Aquitaine_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_Character_Network_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_Dynasty_Authority_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_Historical_Memory_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_Historical_Momentum_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_Historical_Emergence_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_Realm_Personality_AI_V2_Developed_Realm_Parity_Authority.md",
+    "Aquitaine_Opening_State_1062_V2_Developed_Realm_Parity_Authority.md"
+  ],
+  "SpecialistAuthorities": [
+    "Aquitaine_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+    "Aquitaine_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+    "Aquitaine_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+    "Aquitaine_Economy_Property_Revenue_and_Treasury_Authority_V1.md",
+    "Aquitaine_Army_Host_Garrisons_and_Military_Capability_Authority_V1.md",
+    "Aquitaine_Recruitment_Pools_Units_and_Replenishment_Authority_V1.md",
+    "Aquitaine_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+    "Aquitaine_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+    "Aquitaine_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+    "Aquitaine_Opening_Campaign_Opportunity_and_Early_Conflict_Reservation_V1.md"
+  ],
+  "CharacterProfiles": [
+    "William_VIII_of_Aquitaine_V1_Developed_Character_Profile_Authority.md",
+    "Aimery_IV_of_Thouars_V1_Developed_Character_Profile_Authority.md",
+    "Hugh_VI_of_Lusignan_V1.1_Current_Authority_Refinement.md",
+    "Bernard_II_Tumapaler_V1_Developed_Character_Profile_Authority.md",
+    "Matoeda_or_Mathilde_V1_Developed_Character_Profile_Authority.md",
+    "Agnes_of_Aquitaine_V1_Developed_Character_Profile_Authority.md"
+  ],
+  "Counts": {
+    "CoreAuthorities": 12,
+    "SpecialistAuthorities": 10,
+    "CharacterProfiles": 6
+  },
+  "AuditDisposition": "ConditionalPassWithBoundedCorrections",
+  "RemovedSubstantiveContent": [],
+  "MutationStatus": {
+    "SourceFilesOverwritten": 0,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

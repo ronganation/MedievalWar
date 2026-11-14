@@ -1,0 +1,226 @@
+{
+  "claim_records": [
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "ReviewOnly",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "ClaimBasisCandidate",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "claim_basis.hawise_duchy_brittany_collateral",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "ReviewOnly",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "ClaimBasisCandidate",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "claim_basis.odo_duchy_brittany_cadet",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "ReviewOnly",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "ClaimBasisCandidate",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "claim_basis.hoel_marriage_hawise_contingent",
+      "validation_state": "UnvalidatedCandidate"
+    }
+  ],
+  "static_successor_id": null,
+  "successor_declared": false,
+  "title_records": [
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "TitleDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "title.duchy_brittany",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "TitleDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "title.county_rennes",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "TitleDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "title.county_penthievre",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "TitleDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "title.county_cornouaille",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "TitleDefinition",
+      "review_ids": [
+        "review.hoel_nantes_holding_1062"
+      ],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "title.county_nantes",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "TitleDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Titles_Claims_Lordships_and_Succession_Authority_V1_1_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "title.lordship_combourg",
+      "validation_state": "UnvalidatedCandidate"
+    }
+  ]
+}

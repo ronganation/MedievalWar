@@ -1,0 +1,21 @@
+{
+  "file": "Teutonic_Knight_Brothers_V1_2_Mature_Faction_Benchmark_Parity_Full_Master_Unit_Profile.md",
+  "sha256": "937ca0dd0eac787b9c57a4a2b282080aca1e45f329ea141bf5936a06ea0e05fe",
+  "immediate_source": "Teutonic_Knight_Brothers_V1_Strong_First_Master_Unit_Profile_FULL.md",
+  "immediate_source_sha256": "46240b3d86bd6211169e7d38f3216e1e6b61fa765f6cb43c8ad385619479ddcb",
+  "source_bytes": 26563,
+  "successor_bytes": 55204,
+  "growth_bytes": 28641,
+  "word_count": 4684,
+  "h2_sections": 44,
+  "all_48_scenarios_present": true,
+  "yaml_fences_balanced": true,
+  "one_screen_card_present": true,
+  "stable_footer_present": true,
+  "opening_not_activated": true,
+  "implementation_not_authorized": true,
+  "escaped_underscore_absent": true,
+  "escaped_hyphen_absent": true,
+  "battle_tests_executed": false,
+  "unreal_runtime_validated": false
+}

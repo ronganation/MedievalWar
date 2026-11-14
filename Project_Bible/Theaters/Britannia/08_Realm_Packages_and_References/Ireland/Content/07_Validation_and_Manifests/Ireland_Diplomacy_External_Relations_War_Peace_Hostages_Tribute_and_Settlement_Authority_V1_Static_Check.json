@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Diplomacy_External_Relations_War_Peace_Hostages_Tribute_and_Settlement_Authority_V1.md",
+  "bytes": 57357,
+  "sections": 32,
+  "validation_cases": 30,
+  "checks": {
+    "bytes_above_45k": true,
+    "sections_at_least_32": true,
+    "opening_boundary": true,
+    "benchmark": true,
+    "modern_medieval_ii": true,
+    "entity_taxonomy": true,
+    "core_contracts": true,
+    "ireland_portfolios": true,
+    "implementation_inventory": true,
+    "validation_30": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_mutation": true,
+    "empty_removal": true,
+    "next_households": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "all_pass": true
+  }
+}

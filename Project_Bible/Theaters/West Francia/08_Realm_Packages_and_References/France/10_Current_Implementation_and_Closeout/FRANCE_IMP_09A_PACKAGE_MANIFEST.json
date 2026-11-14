@@ -1,0 +1,46 @@
+{
+  "TaskId": "FRANCE-IMP-09A",
+  "Status": "StaticCheckedImplementationSeriesClosedAtReviewAdapterScope",
+  "RealmId": "Realm.France",
+  "ScenarioId": "mw.scenario.grand_campaign.1062",
+  "AcceptedFranceFocusedTests": 202,
+  "FinalFixedAutomationTotal": 246,
+  "FinalAutomationFailures": 0,
+  "PredecessorSourceFilesAt08BEntrance": 42,
+  "Final08BFilesInstalled": 6,
+  "FrancePrefixedSourceFilesAtCloseout": 48,
+  "AdditionalFunctionalLaneAuthorized": false,
+  "ProductionAuthority": false,
+  "Files": [
+    {
+      "Name": "FRANCE_IMP_09A_ACCEPTED_LANE_LEDGER.csv",
+      "Bytes": 954,
+      "SHA256": "81AFCF2FB97164D369174CDF07B05A80A109F2E2CA6598A15342C19B7316C403"
+    },
+    {
+      "Name": "FRANCE_IMP_09A_EVIDENCE_INDEX.csv",
+      "Bytes": 922,
+      "SHA256": "09EC06954A2EBF388BA363022B1BE6BCD8C8773D2A29D2A30313134C78E578D2"
+    },
+    {
+      "Name": "FRANCE_IMP_09A_IMPLEMENTATION_SERIES_RECONCILIATION_AND_STOP_GATE_CLOSEOUT_2026-09-24.md",
+      "Bytes": 7791,
+      "SHA256": "894A4D9DD0EE05228F279384ED257448BD7A3DBA30743BE1580AF701FDC22B90"
+    },
+    {
+      "Name": "FRANCE_IMP_09A_STOP_GATE_MATRIX.csv",
+      "Bytes": 1028,
+      "SHA256": "E4CBCEE605AA8AC66D41D8E4F73050E85E4A895138C673ACE46CF137CF99CF56"
+    },
+    {
+      "Name": "FRANCE_IMP_09A_VALIDATION_CLAIM_MATRIX.csv",
+      "Bytes": 1109,
+      "SHA256": "D47DB10836F9CA23D0E262FBDFDF221FC1F1E651C2C460C98DAE116E3E9045F5"
+    },
+    {
+      "Name": "README_FIRST_FRANCE_IMP_09A.txt",
+      "Bytes": 684,
+      "SHA256": "57C4726BB7122E6E8A0389DC6492806092AACB3FD079D21729D0B4F80EA7AAF4"
+    }
+  ]
+}

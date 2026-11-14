@@ -1,0 +1,85 @@
+{
+  "StaticCheckId": "StaticCheck.Burgundy.IDRegistry.V1",
+  "AuthorityFile": "Burgundy_ID_Registry_V1.md",
+  "AuthoritySha256": "88d25fb9a74bfd6f6cb1cf7155ec365de0659d3c4d28c1ff57e9c361e14c0afd",
+  "Checks": [
+    {
+      "Name": "document_id_present",
+      "Pass": true
+    },
+    {
+      "Name": "preferred_realm_candidate",
+      "Pass": true
+    },
+    {
+      "Name": "duchy_county_firewall",
+      "Pass": true
+    },
+    {
+      "Name": "robert_identity_firewalls",
+      "Pass": true
+    },
+    {
+      "Name": "unresolved_spouse_not_fabricated",
+      "Pass": true
+    },
+    {
+      "Name": "future_people_quarantined",
+      "Pass": true
+    },
+    {
+      "Name": "external_owner_locks",
+      "Pass": true
+    },
+    {
+      "Name": "three_track_time",
+      "Pass": true
+    },
+    {
+      "Name": "war_permission_gate_rejected",
+      "Pass": true
+    },
+    {
+      "Name": "promotion_unauthorized",
+      "Pass": true
+    },
+    {
+      "Name": "opening_activation_unauthorized",
+      "Pass": true
+    },
+    {
+      "Name": "fences_balanced",
+      "Pass": true
+    },
+    {
+      "Name": "em_dashes_absent",
+      "Pass": true
+    },
+    {
+      "Name": "escaped_underscores_absent",
+      "Pass": true
+    },
+    {
+      "Name": "stable_footer_once",
+      "Pass": true
+    },
+    {
+      "Name": "final_marker_correct",
+      "Pass": true
+    }
+  ],
+  "TotalChecks": 16,
+  "Passes": 16,
+  "Failures": 0,
+  "Result": "Pass",
+  "MutationReceipt": {
+    "RegistryMutations": 0,
+    "CanonicalPromotions": 0,
+    "AliasExecutions": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

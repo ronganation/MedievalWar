@@ -1,0 +1,23 @@
+{
+  "SchemaId": "MW.Candidate.Review.V1",
+  "SchemaVersion": "1.0.0",
+  "PackageId": "Package.Normandy.CurrentCandidate.V1",
+  "RealmId": "Realm.Normandy",
+  "ScenarioId": "Scenario.Normandy.1062January",
+  "CandidateOnly": true,
+  "RegistryPromotion": false,
+  "OpeningStateActivation": false,
+  "UnrealImport": false,
+  "RuntimeEligible": false,
+  "ProposedAssetName": "DA_MW_CandidateReview_Normandy_V1",
+  "ProposedAssetClass": "ProjectNativeTypePendingInspection",
+  "SourceRoute": "Review",
+  "Records": [],
+  "ReviewQueue": [],
+  "Quarantine": [],
+  "Validation": {
+    "ParseStatus": "Pass",
+    "SchemaStatus": "Candidate",
+    "OwnerStatus": "Pending"
+  }
+}

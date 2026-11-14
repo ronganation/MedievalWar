@@ -1,0 +1,192 @@
+{
+  "document_id": "AuthorityPackageManifest.Realm.Brittany.V1_1.DiplomacyAdditiveUpdate",
+  "stable_document_id": "AuthorityPackageManifest.Realm.Brittany",
+  "filename": "Brittany_Current_Authority_Package_Manifest_V1_1_Diplomacy_Additive_Update.json",
+  "version": "1.1.0",
+  "revision_date": "2026-09-18",
+  "realm_id": "realm.brittany",
+  "scenario_id": "Scenario.Brittany.1062January",
+  "scenario_opening": "1062-01-01",
+  "opening_campaign_season": "Winter",
+  "owning_theater": "West Francia",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "status": "StaticCheckedAdditivePackageManifestUpdatePendingLocalRecursiveHashScan",
+  "update_mode": "CopyFirstAdditiveOverlayWithoutSourceEntryRemoval",
+  "immediate_substantive_source": "Brittany_Current_Authority_Package_Manifest_V1.json",
+  "source_revision_date": "2026-09-06",
+  "source_status": "StaticCheckedPackageManifestPendingLocalRecursiveHashScan",
+  "source_package_root": "Brittany/Content",
+  "source_folder_count_snapshot": 7,
+  "source_authority_or_reference_entries_snapshot": 34,
+  "source_current_or_candidate_entries_snapshot": 32,
+  "source_historical_implementation_references_snapshot": 2,
+  "source_snapshot_counts_recomputed": false,
+  "source_entries_removed": [],
+  "source_entries_reowned": [],
+  "source_folders_removed": [],
+  "justified_removals": [],
+  "current_general_Brittany_diplomacy_authority_count": 1,
+  "current_diplomacy_closure": "PASS_STATIC_CLOSURE_NO_IMMEDIATE_V1_2_REQUIRED",
+  "additive_entries": [
+    {
+      "folder": "00_Control_and_Audits",
+      "authority_file": "Brittany_Diplomacy_Current_Authority_Ownership_and_Developed_Realm_Parity_Audit_V1.md",
+      "companion_file": null,
+      "authority_family": "DiplomacyOwnershipAudit",
+      "status": "CurrentReviewRecord",
+      "physical_verification": "PendingLocalRecursiveHashScan",
+      "payload_eligible": false,
+      "opening_activation_authorized": false
+    },
+    {
+      "folder": "00_Control_and_Audits",
+      "authority_file": "Brittany_Diplomacy_Britannia_Norse_and_Developed_Realm_Parity_Review_V1.md",
+      "companion_file": null,
+      "authority_family": "DiplomacyCrossTheaterParityReview",
+      "status": "CurrentReviewRecord",
+      "physical_verification": "PendingLocalRecursiveHashScan",
+      "payload_eligible": false,
+      "opening_activation_authorized": false
+    },
+    {
+      "folder": "00_Control_and_Audits",
+      "authority_file": "Brittany_Diplomacy_V1_1_Independent_Static_Closure_Review_V1.md",
+      "companion_file": null,
+      "authority_family": "DiplomacyIndependentStaticClosure",
+      "status": "CurrentClosureRecord",
+      "content_hash_sha256": "0213e601148c28edd66aade2f137c16e86108a1b48833f5a304ec0b44f54401e",
+      "physical_verification": "ExactFilePreviouslyVerified",
+      "payload_eligible": false,
+      "opening_activation_authorized": false
+    },
+    {
+      "folder": "04_Politics_Institutions_and_Law",
+      "authority_file": "Brittany_Knowledge_Communication_Diplomacy_and_External_Relations_Authority_V1_1_Current_Authority_Additive_Strengthening_FULL.md",
+      "companion_file": "Brittany_Knowledge_Communication_Diplomacy_and_External_Relations_Authority_V1_1_Current_Authority_Additive_Strengthening_FULL_Manifest.json",
+      "static_check_file": "Brittany_Knowledge_Communication_Diplomacy_and_External_Relations_Authority_V1_1_Current_Authority_Additive_Strengthening_FULL_Static_Check.json",
+      "authority_family": "DiplomacyKnowledgeCommunicationExternalRelations",
+      "status": "CurrentStaticClosed",
+      "content_hash_sha256": "eec45e2da24ff09eaed87df623a318ff0d984e451f9095734075f7ee925b5615",
+      "companion_hash_sha256": "f21de6f3e49394a0128d9ce7f5d1005573a80b4bfcdb87594c892f55af410aca",
+      "static_check_hash_sha256": "06ca5ced3b221694e55b52da0a2c2f5ea0d26590d87549790edfcf5a922195fc",
+      "authority_bytes": 44328,
+      "authority_physical_lines": 920,
+      "authority_numbered_sections": 56,
+      "authority_validation_cases": 59,
+      "physical_verification": "ExactByteStaticClosurePassed",
+      "payload_eligible": false,
+      "opening_activation_authorized": false,
+      "immediate_predecessor": "Brittany_Knowledge_Communication_Diplomacy_and_External_Relations_Authority_V1.md",
+      "predecessor_disposition": "PreserveForTraceabilityAsDirectPredecessor",
+      "second_general_authority": "prohibited"
+    },
+    {
+      "folder": "06_Implementation_Bundles_and_Validation",
+      "authority_file": "Brittany_Knowledge_Communication_Diplomacy_and_External_Relations_Authority_V1_1_Current_Authority_Additive_Strengthening_FULL_Manifest.json",
+      "companion_file": null,
+      "authority_family": "DiplomacyAuthorityManifestEvidence",
+      "status": "CurrentEvidence",
+      "content_hash_sha256": "f21de6f3e49394a0128d9ce7f5d1005573a80b4bfcdb87594c892f55af410aca",
+      "physical_verification": "ExactFilePreviouslyVerified",
+      "payload_eligible": false,
+      "opening_activation_authorized": false
+    },
+    {
+      "folder": "06_Implementation_Bundles_and_Validation",
+      "authority_file": "Brittany_Knowledge_Communication_Diplomacy_and_External_Relations_Authority_V1_1_Current_Authority_Additive_Strengthening_FULL_Static_Check.json",
+      "companion_file": null,
+      "authority_family": "DiplomacyAuthorityStaticCheckEvidence",
+      "status": "CurrentEvidence",
+      "content_hash_sha256": "06ca5ced3b221694e55b52da0a2c2f5ea0d26590d87549790edfcf5a922195fc",
+      "physical_verification": "ExactFilePreviouslyVerified",
+      "payload_eligible": false,
+      "opening_activation_authorized": false
+    }
+  ],
+  "package_root_navigation_updates": [
+    {
+      "file": "Brittany_README_and_Current_Status_V1_1_Diplomacy_Additive_Update.md",
+      "sha256": "826b159170bf85fdf166816730a08ab170e4005e995da1f6727f2408cbc76658",
+      "status": "CurrentPackageREADME"
+    },
+    {
+      "file": "Brittany_README_and_Current_Status_V1_1_Diplomacy_Additive_Update_Manifest.json",
+      "sha256": "0331f5b20c2a375cff6187bf5799d09cdff4cba59c4f3870ce21694275896161",
+      "status": "CurrentREADMEEvidence"
+    },
+    {
+      "file": "Brittany_README_and_Current_Status_V1_1_Diplomacy_Additive_Update_Static_Check.json",
+      "sha256": "cf97546202249bea116a70eae863d7ce0d0af454fb7a4febf666cc4068d0db67",
+      "status": "CurrentREADMEEvidence"
+    }
+  ],
+  "control_navigation_updates": [
+    {
+      "folder": "00_Control_and_Audits",
+      "file": "Brittany_Realm_Package_Current_Authority_Index_V1_1_Diplomacy_Additive_Update.md",
+      "sha256": "6940083724bb6bef5c268dcdd9a56d6aa77a62ef7a18d85c3fb59ad15d51f35f",
+      "status": "CurrentAuthorityIndex"
+    },
+    {
+      "folder": "00_Control_and_Audits",
+      "file": "Brittany_Realm_Package_Current_Authority_Index_V1_1_Diplomacy_Additive_Update_Manifest.json",
+      "sha256": "d0898e5251d7f6652e5712fcfbcc74b28858dc69c152fa0c80a8797184e84d6a",
+      "status": "CurrentAuthorityIndexEvidence"
+    },
+    {
+      "folder": "00_Control_and_Audits",
+      "file": "Brittany_Realm_Package_Current_Authority_Index_V1_1_Diplomacy_Additive_Update_Static_Check.json",
+      "sha256": "0f512222a92bb8c88ba1cb32d785bf50fbd41cded9d8b6b2a4c241d7dd3a6e2a",
+      "status": "CurrentAuthorityIndexEvidence"
+    }
+  ],
+  "package_rules": {
+    "one_current_authority_per_family": true,
+    "keep_companion_with_authority": true,
+    "source_copies_are_not_current": true,
+    "legacy_implementation_files_are_not_current_validation": true,
+    "definitions_do_not_activate_opening_state": true,
+    "future_person_candidates_are_not_opening_people": true,
+    "quarantine_and_review_records_are_not_payload_active": true,
+    "current_Diplomacy_V1_1_controls_Diplomacy_V1": true,
+    "Diplomacy_V1_is_traceability_only": true,
+    "second_general_Brittany_diplomacy_authority_prohibited": true
+  },
+  "validation": {
+    "manifest_json_parse_valid": true,
+    "source_inventory_snapshot_preserved": true,
+    "additive_diplomacy_entries_declared": true,
+    "current_general_diplomacy_authority_declared": true,
+    "diplomacy_exact_byte_static_closure_passed": true,
+    "README_successor_declared": true,
+    "current_authority_index_successor_declared": true,
+    "local_recursive_file_presence_scan_executed": false,
+    "local_recursive_hash_scan_executed": false,
+    "project_wide_registry_scan_executed": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false
+  },
+  "nonmutation_receipt": {
+    "files_moved": 0,
+    "files_renamed": 0,
+    "files_deleted": 0,
+    "registry_rows_created": 0,
+    "opening_state_mutations": 0,
+    "external_owner_mutations": 0,
+    "migration_executions": 0,
+    "runtime_mutations": 0,
+    "real_payload_imports": 0,
+    "unreal_project_mutations": 0
+  },
+  "package_closure": {
+    "diplomacy_documentation_routing_complete": true,
+    "immediate_diplomacy_V1_2_required": false,
+    "additional_general_diplomacy_authority_required": false,
+    "package_status": "GOOD_STOPPING_POINT_AFTER_DIPLOMACY_ADDITIVE_UPDATE",
+    "next_action": "ContinueNextWestFranciaFactionDiplomacyReview",
+    "production_activation_authorized": false
+  }
+}

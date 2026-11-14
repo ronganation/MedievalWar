@@ -1,0 +1,15 @@
+{
+  "manifest_version": "1.0",
+  "document_type": "RealmDiplomacyExternalRelationsWarPeaceAuthority",
+  "file": "Ireland_Diplomacy_External_Relations_War_Peace_Hostages_Tribute_and_Settlement_Authority_V1.md",
+  "bytes": 57357,
+  "lines": 1312,
+  "sha256": "757345f2c59a0f7a74a7c7c318618173a2ebddf4106c5c9201acd0771d9ca3a7",
+  "substantive_sections": 32,
+  "validation_cases": 30,
+  "source_authorities_modified": 0,
+  "diplomatic_war_peace_agreement_hostage_tribute_clientage_settlement_records_activated": 0,
+  "static_check_file": "Ireland_Diplomacy_External_Relations_War_Peace_Hostages_Tribute_and_Settlement_Authority_V1_Static_Check.json",
+  "static_check_sha256": "8c006a1431b58af143e459c124f53326142bef3698f6726e54455b635753ad89",
+  "validation_scope": "content static checks only; no Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, external-state, or payload validation"
+}

@@ -1,0 +1,193 @@
+{
+  "routingId": "VEN_OPENING_STATE_1062_OWNER_ROUTING_V1",
+  "version": "1.0.0",
+  "routes": [
+    {
+      "sectionId": "OS-VEN-00",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    },
+    {
+      "sectionId": "OS-VEN-01",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    },
+    {
+      "sectionId": "OS-VEN-02",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    },
+    {
+      "sectionId": "OS-VEN-03",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    },
+    {
+      "sectionId": "OS-VEN-04",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    },
+    {
+      "sectionId": "OS-VEN-05",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": true
+    },
+    {
+      "sectionId": "OS-VEN-06",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    },
+    {
+      "sectionId": "OS-VEN-07",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": true
+    },
+    {
+      "sectionId": "OS-VEN-08",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    },
+    {
+      "sectionId": "OS-VEN-09",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    },
+    {
+      "sectionId": "OS-VEN-10",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": true
+    },
+    {
+      "sectionId": "OS-VEN-11",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": true
+    },
+    {
+      "sectionId": "OS-VEN-12",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": true
+    },
+    {
+      "sectionId": "OS-VEN-13",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": true
+    },
+    {
+      "sectionId": "OS-VEN-14",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": true
+    },
+    {
+      "sectionId": "OS-VEN-15",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    },
+    {
+      "sectionId": "OS-VEN-16",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    },
+    {
+      "sectionId": "OS-VEN-17",
+      "definitionOwner": "VeniceDomainOwner",
+      "instanceOwner": "OpeningStateOwner",
+      "registryOwner": "ApplicableRegistryOwner",
+      "validationOwner": "ValidationOwner",
+      "saveMigrationOwner": "SaveMigrationOwner",
+      "rollbackOwner": "OpeningStateOwner",
+      "externalOwnerRequired": false
+    }
+  ],
+  "rules": {
+    "directCrossOwnerMutation": false,
+    "missingRequiredOwner": "BlockRecord",
+    "ownerVersionMismatch": "QuarantineRecord",
+    "externalOwnerMissing": "PreserveExternalLock",
+    "openingStateOwnerMissing": "NoActiveBinding"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "activation_state": {
+      "enum": [
+        "Inactive",
+        "Dormant"
+      ]
+    },
+    "candidate_or_published_status": {
+      "const": "Candidate"
+    },
+    "disposition": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "owner_authority": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "realm_scope": {
+      "const": "realm.brittany"
+    },
+    "record_kind": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "scenario_scope": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "stable_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "validation_state": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "stable_id",
+    "record_kind",
+    "owner_authority",
+    "candidate_or_published_status",
+    "activation_state",
+    "disposition",
+    "validation_state"
+  ],
+  "title": "Brittany Candidate Record Envelope",
+  "type": "object"
+}

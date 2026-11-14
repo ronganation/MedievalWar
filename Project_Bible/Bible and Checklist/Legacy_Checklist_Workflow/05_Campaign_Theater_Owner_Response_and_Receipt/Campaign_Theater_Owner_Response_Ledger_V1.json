@@ -1,0 +1,122 @@
+{
+  "document_identity": {
+    "document_id": "mw.campaign_theater.owner_response_ledger.v1",
+    "filename": "Campaign_Theater_Owner_Response_Ledger_V1.json",
+    "version": "1.0.0",
+    "date": "2026-08-23",
+    "status": "STATIC_CHECKED_PENDING_OWNER_RESPONSES"
+  },
+  "authority_boundary": {
+    "constitutional_authority": "Project Bible V2.4",
+    "operational_authority": "Design Expansion Checklist V3.7",
+    "reconciliation_authority": "Campaign_Theater_Registry_and_Association_Owner_Reconciliation_V1.md",
+    "decision_request_authority": "Campaign_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md",
+    "blocked_draft_authority": "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT.json"
+  },
+  "summary": {
+    "required_request_count": 7,
+    "received_owner_response_count": 0,
+    "received_owner_receipt_count": 0,
+    "pending_no_owner_receipt_count": 7,
+    "approved_request_count": 0,
+    "rejected_request_count": 0,
+    "quarantined_request_count": 0,
+    "all_required_receipts_present": false,
+    "authoritative_registry_index_allowed": false
+  },
+  "authorization": {
+    "registry_mutation_authorized": false,
+    "new_activation_authorized": false,
+    "scenario_execution_authorized": false,
+    "importer_consumption_authorized": false,
+    "runtime_mutation_authorized": false,
+    "save_persistence_authorized": false,
+    "migration_execution_authorized": false
+  },
+  "requests": [
+    {
+      "stable_order": 10,
+      "request_id": "request.campaign_theater.registry_disposition.v1",
+      "subject": "Shared Registry status of the four Theater IDs",
+      "response_status": "PENDING_NO_OWNER_RECEIPT",
+      "owner_authority_ref": null,
+      "owner_receipt_id": null,
+      "disposition": null,
+      "authority_or_evidence_refs": [],
+      "approval_scope": "NoApprovalRecorded"
+    },
+    {
+      "stable_order": 20,
+      "request_id": "request.campaign_theater.definition_owner.v1",
+      "subject": "Static Theater definition owner",
+      "response_status": "PENDING_NO_OWNER_RECEIPT",
+      "owner_authority_ref": null,
+      "owner_receipt_id": null,
+      "disposition": null,
+      "authority_or_evidence_refs": [],
+      "approval_scope": "NoApprovalRecorded"
+    },
+    {
+      "stable_order": 30,
+      "request_id": "request.campaign_theater.association_owner.v1",
+      "subject": "Realm-to-Theater association owner",
+      "response_status": "PENDING_NO_OWNER_RECEIPT",
+      "owner_authority_ref": null,
+      "owner_receipt_id": null,
+      "disposition": null,
+      "authority_or_evidence_refs": [],
+      "approval_scope": "NoApprovalRecorded"
+    },
+    {
+      "stable_order": 40,
+      "request_id": "request.campaign_theater.scenario_binding_owner.v1",
+      "subject": "Opening association and scenario-binding owners",
+      "response_status": "PENDING_NO_OWNER_RECEIPT",
+      "owner_authority_ref": null,
+      "owner_receipt_id": null,
+      "disposition": null,
+      "authority_or_evidence_refs": [],
+      "approval_scope": "NoApprovalRecorded"
+    },
+    {
+      "stable_order": 50,
+      "request_id": "request.campaign_theater.primary_uniqueness_validator.v1",
+      "subject": "Primary Theater uniqueness validator",
+      "response_status": "PENDING_NO_OWNER_RECEIPT",
+      "owner_authority_ref": null,
+      "owner_receipt_id": null,
+      "disposition": null,
+      "authority_or_evidence_refs": [],
+      "approval_scope": "NoApprovalRecorded"
+    },
+    {
+      "stable_order": 60,
+      "request_id": "request.campaign_theater.direct_migration.v1",
+      "subject": "Direct migration and quarantine dispositions",
+      "response_status": "PENDING_NO_OWNER_RECEIPT",
+      "owner_authority_ref": null,
+      "owner_receipt_id": null,
+      "disposition": null,
+      "authority_or_evidence_refs": [],
+      "approval_scope": "NoApprovalRecorded"
+    },
+    {
+      "stable_order": 70,
+      "request_id": "request.campaign_theater.evidence_boundary.v1",
+      "subject": "Retained Britania and Norse evidence boundary",
+      "response_status": "PENDING_NO_OWNER_RECEIPT",
+      "owner_authority_ref": null,
+      "owner_receipt_id": null,
+      "disposition": null,
+      "authority_or_evidence_refs": [],
+      "approval_scope": "NoApprovalRecorded"
+    }
+  ],
+  "blocked_draft_relationship": {
+    "blocked_draft_file": "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT.json",
+    "blocked_draft_status": "BLOCKED_DRAFT_NON_AUTHORITATIVE",
+    "owner_decisions_received": 0,
+    "authoritative_registry_index_created": false,
+    "promotion_allowed": false
+  }
+}

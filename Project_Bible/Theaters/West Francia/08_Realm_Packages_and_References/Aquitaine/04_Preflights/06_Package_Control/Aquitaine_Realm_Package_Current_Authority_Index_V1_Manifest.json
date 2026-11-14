@@ -1,0 +1,23 @@
+{
+  "DocumentId": "Manifest.AuthorityIndex.Realm.Aquitaine.V1.2",
+  "AuthorityFile": "Aquitaine_Realm_Package_Current_Authority_Index_V1.md",
+  "Version": "1.2.0",
+  "RevisionDate": "2026-09-05",
+  "SHA256": "18e7c66b4478c2008b65795692a64e82ea21117b16909564a4eb626d1207e529",
+  "ByteCount": 19299,
+  "LineCount": 613,
+  "UpdateScope": [
+    "HistoricalEvidenceAndUncertaintyRouting",
+    "ThirtyFileCandidateBundleClosure",
+    "VisualWorkstreamClosure",
+    "FinalPackageClosureRouting"
+  ],
+  "MutationStatus": {
+    "SourceObjectModified": false,
+    "RegistryMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

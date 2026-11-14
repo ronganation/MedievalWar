@@ -1,0 +1,11 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N14_title_force",
+  "mutated_candidate": {
+    "created_force": "army.fake",
+    "title_id": "title.duchy_brittany"
+  },
+  "result": "PASS",
+  "rule": "TitleDoesNotCreateForce"
+}

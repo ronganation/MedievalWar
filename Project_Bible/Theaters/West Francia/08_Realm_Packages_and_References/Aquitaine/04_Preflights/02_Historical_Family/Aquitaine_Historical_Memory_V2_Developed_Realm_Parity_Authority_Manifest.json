@@ -1,0 +1,35 @@
+{
+  "ManifestId": "manifest.aquitaine.historical-memory.v2",
+  "AuthorityFile": "Aquitaine_Historical_Memory_V2_Developed_Realm_Parity_Authority.md",
+  "Version": "2.0.0",
+  "ImmediateSource": "Aquitaine_Historical_Memory_V1_1.md",
+  "Source": {
+    "LineCount": 886,
+    "ByteCount": 26934,
+    "SHA256": "81ed278a2d41c7741e35d366c2fbd69ec2c9c3d7df790d9b42e5852345b014a3"
+  },
+  "Successor": {
+    "LineCount": 1418,
+    "ByteCount": 46276,
+    "SHA256": "85c65309bcd08ff4b2b08be2c86f1ddd7951fba2a0bbac33ddacb6d3ba568e96"
+  },
+  "SourceTreatment": "CompleteSectionBySectionSubstantiveCarryForwardWithIntegratedExpansion",
+  "BenchmarkFiles": [
+    "France_Historical_Memory_V2_Developed_Realm_Parity_Authority.md",
+    "England_Historical_Memory_V1.1_Current_Authority_Refinement.md",
+    "Ireland_Historical_Memory_V1.2_Current_Authority_Correction.md",
+    "Wales_Historical_Memory.md",
+    "Normandy_Historical_Memory_Authority_V1.md"
+  ],
+  "MissingSourceHeadings": [],
+  "RemovedSubstantiveContent": [],
+  "ValidationResult": "Pass",
+  "MutationStatus": {
+    "MemoryActivations": 0,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

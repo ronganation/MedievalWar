@@ -1,0 +1,31 @@
+{
+  "artifact": "Scotland_Highland_Bow_Retainers_V1_2_Double_Checked_Selected_Highland_Archer_Master_Unit_Profile.md",
+  "version": "1.2.0",
+  "immediate_substantive_predecessor": "Scotland_Highland_Bow_Retainers_V1_1_Noble_Highland_Archer_Mature_Faction_Refinement_Full_Master_Unit_Profile.md",
+  "sha256": "6035c3ae55582e9d6ac3d13cb72a9641eb3b114a185dac6a322c8c67a7517052",
+  "source_lines": 817,
+  "output_lines": 1013,
+  "source_words": 5553,
+  "output_words": 6099,
+  "source_numbered_sections": 63,
+  "missing_source_sections": [],
+  "parsed_yaml_blocks": 31,
+  "checks": {
+    "source_read_full": true,
+    "source_not_overwritten": true,
+    "all_numbered_source_sections_represented": true,
+    "output_longer_than_source": true,
+    "yaml_valid": true,
+    "balanced_fences": true,
+    "title_version_consistent": true,
+    "postures_reconciled": true,
+    "weakness_contract": true,
+    "readiness_dimensions": true,
+    "casualty_location": true,
+    "anti_monoculture": true,
+    "separate_card_gate": true,
+    "no_activation": true
+  },
+  "pass": true,
+  "validation_scope": "Copy-first completeness, weakness and collision refinement, internal consistency, structured records, and nonactivation. Historical, material-culture, battle, balance, campaign, AI, and implementation validation not performed."
+}

@@ -1,0 +1,31 @@
+{
+  "FileName": "Sweden_Capital_and_Political_Center_Model_V1_1_Current_Authority_Refinement_FULL.md",
+  "Version": "1.1.0",
+  "Status": "Static-Checked Current Authority Refinement with Controlled Dependencies",
+  "SHA256": "FD7994289A1AE9DA1AEA7A21907F2E5968EA1240FD9D1570AAED4C57FBD2D2D4",
+  "Bytes": 35345,
+  "Lines": 906,
+  "SourceFile": "Sweden_Capital_and_Political_Center_Model_V1.md",
+  "SourceSHA256": "D85B2B6B88FDAB8262C10560F6518FD8D5F77F25E9CD2599A65DBCBAF015F90E",
+  "SourceManifest": "Sweden_Capital_and_Political_Center_Model_V1_Manifest.json",
+  "SourceManifestSHA256": "87CB85574A46678F5AA344DACD40DA2BC085AAA17B880B10EE2784B91C0E0849",
+  "Checks": {
+    "source_hash": true,
+    "source_manifest_hash": true,
+    "continuous_sections_1_63": true,
+    "no_fixed_capital": true,
+    "multiple_centers": true,
+    "ruler_location_unknown": true,
+    "household_residence_unknown": true,
+    "role_activation_contract": true,
+    "three_track": true,
+    "ue58": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "honest_validation": true
+  },
+  "OpeningStateModified": false,
+  "RegistryModified": false,
+  "PhysicalPromotionCompleted": false
+}

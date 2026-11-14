@@ -1,0 +1,28 @@
+{
+  "Artifact": {
+    "Filename": "Henry_the_Gallant_V1_Developed_Character_Profile_Authority.md",
+    "Bytes": 41312,
+    "Lines": 945,
+    "SHA256": "c1c713c35ab32e60cdf3802ef40e350a301c3951c75a480f47f4e2b0684d8710"
+  },
+  "Checks": {
+    "substantial_present_agency": true,
+    "household_not_erased": true,
+    "adult_transition_depth": true,
+    "peer_benchmarks": true,
+    "three_tracks": true,
+    "military_causality": true,
+    "relationship_directionality": true,
+    "future_not_scripted": true,
+    "save_migration": true,
+    "balanced_fences": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "footer_once": true,
+    "end_marker": true
+  },
+  "Passes": 14,
+  "Failures": 0,
+  "Result": "Pass",
+  "ValidationScope": "Static document checks only"
+}

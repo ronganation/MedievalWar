@@ -1,0 +1,19 @@
+{
+  "FileName": "Burgundy_Historical_Suite_Migration_Rollback_and_Validation_Plan_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "6c1bc42d53185847654977627b15120f488958679e38fb6788ebe182ff68ba96",
+  "Bytes": 54376,
+  "Lines": 1720,
+  "Status": "StaticCheckedNonExecutingMigrationRollbackAndValidationPlan",
+  "MigrationSources": 16,
+  "DirectAliasSources": 6,
+  "SplitMigrationSources": 10,
+  "ValidationStages": 18,
+  "ValidationCases": 72,
+  "RollbackScenarios": 12,
+  "AdvancedSaveCases": 12,
+  "EvidenceReceiptTypes": 14,
+  "GoodHistoricalDesignHandoff": true,
+  "NextRecommendedFile": "Burgundy_Dynasty_Authority_V1.md",
+  "Mutations": 0
+}

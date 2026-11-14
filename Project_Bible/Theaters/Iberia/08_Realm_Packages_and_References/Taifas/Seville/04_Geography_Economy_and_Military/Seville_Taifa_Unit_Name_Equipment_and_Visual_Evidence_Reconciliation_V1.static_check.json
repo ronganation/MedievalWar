@@ -1,0 +1,50 @@
+{
+  "ArtifactId": "Seville_Taifa_Unit_Name_Equipment_and_Visual_Evidence_Reconciliation_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_RESEARCH_RECONCILIATION_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "11101920011dac0732814f74a9b4fd2aff67b7771cc01feebdf03d39a7447b33",
+  "SourceBytes": 30310,
+  "Counts": {
+    "CandidateFamiliesReviewed": 14,
+    "PromotedFinalUnitNames": 0,
+    "RegistryReadyUnitIds": 0,
+    "StrongFamilyDirections": 5,
+    "ConditionalFamilyDirections": 6,
+    "QuarantinedOrUnsupportedFamilies": 3,
+    "SevilleSpecificEquipmentSetsValidated": 0,
+    "OpeningVisualLoadoutsValidated": 0,
+    "LegacySevilleUnitCardsRecovered": 0,
+    "OpeningMutations": 0
+  },
+  "Disposition": {
+    "CivicSpearMilitia": "ContinueResearch",
+    "LocalFootMilitia": "MergePresumptive",
+    "TrainedSpearInfantry": "ContinueResearch",
+    "UrbanArchers": "ContinueResearch",
+    "RegionalSkirmishFoot": "Conditional",
+    "LightCavalryScouts": "ContinueResearch",
+    "MountedRetainers": "Conditional",
+    "RestrictedGuardFoot": "Quarantine",
+    "RegionalSpearContingents": "Conditional",
+    "RegionalMissileContingents": "Conditional",
+    "HiredVeteranInfantry": "ExternalFrameworkOnly",
+    "HiredCavalrySpecialists": "ExternalFrameworkOnly",
+    "EngineerSiegeSupport": "Conditional",
+    "MaritimeFightingContingent": "Quarantine"
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryMutated": false,
+    "OpeningStateMutated": false,
+    "UnitProfilesAuthorized": false,
+    "HistoricalUnitNamesValidated": false,
+    "ExactEquipmentValidated": false,
+    "VisualProductionAuthorized": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "BattleValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Civic_and_Trained_Spear_Infantry_Evidence_Dossier_V1.md."
+}

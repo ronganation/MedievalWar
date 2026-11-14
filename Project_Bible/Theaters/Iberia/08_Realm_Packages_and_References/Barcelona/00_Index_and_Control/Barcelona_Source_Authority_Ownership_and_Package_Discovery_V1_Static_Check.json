@@ -1,0 +1,16 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "nine_core": true,
+    "eight_package": true,
+    "batches_8": true,
+    "blockers_9": true,
+    "zero_mutations": true,
+    "next_manifest": true,
+    "footer_once": true
+  }
+}

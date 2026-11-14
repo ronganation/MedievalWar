@@ -1,0 +1,26 @@
+{
+  "Positive": [
+    "bundle_directory_exists",
+    "exact_27_item_inventory",
+    "candidate_only_flags",
+    "three_track_time",
+    "15_direct_aliases",
+    "external_owner_locks",
+    "underage_guards",
+    "historical_henry"
+  ],
+  "Negative": [
+    "bare_active",
+    "alias_chain",
+    "alias_cycle",
+    "external_owner_collapse",
+    "universal_seven_month_turn",
+    "henry_runtime_agency",
+    "hugh_vermandois_opening",
+    "opening_activation",
+    "registry_promotion",
+    "unreal_import",
+    "default_from_empty",
+    "quarantine_instantiation"
+  ]
+}

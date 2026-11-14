@@ -1,0 +1,19 @@
+{
+  "filename": "Flanders_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+  "sha256": "1f588b9b61a3339c634dfbe5e44d9eb0753f067486de3bf66d805e712ab273c6",
+  "bytes": 45826,
+  "lines": 1080,
+  "balanced_fences": true,
+  "escaped_underscores_zero": true,
+  "escaped_hyphens_zero": true,
+  "em_dashes_zero": true,
+  "stable_footer_once": true,
+  "logistics_portfolios": 10,
+  "primary_benchmarks_full_open": true,
+  "exact_predecessor_found": false,
+  "positive_fixtures": true,
+  "negative_fixtures": true,
+  "unknown_opening_values": true,
+  "nonmutation": true,
+  "overall": "Pass"
+}

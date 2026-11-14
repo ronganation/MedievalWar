@@ -1,0 +1,6 @@
+﻿Root,RelativePath,Filename,Extension,Bytes,Lines,SHA256,LastModifiedUTC,StableDocumentId,AuthorityId,Version,PrimaryOwner,CurrentnessClass,ImplementationInputEligibility,OpenedInFull
+TEMPLATE_CONTROL,Barcelona/09_Future_Implementation_Handoff,Barcelona_Batch00_Source_Fingerprints_Template_V1.csv,.csv,,,,,Batch00SourceFingerprintsTemplate.Realm.Barcelona,template.batch00-source-fingerprints.realm.barcelona.v1,1.0.0,BarcelonaPackageOwner,SupportingAuthority,TemplateOnlyNotImplementationEvidence,false
+CURRENT_LIMITATION,Complete Barcelona package snapshot,,,,,,,,,,BarcelonaPackageOwner,Unclassified,BlockedByBAR-B00-BLOCK-001,false
+CURRENT_LIMITATION,Physical OneDrive file identities and hashes,,,,,,,,,,BarcelonaPackageOwner,Unclassified,NotVerifiedDoNotPopulateFromCreationTimeHashes,false
+CURRENT_LIMITATION,Full-open verification and owner classification,,,,,,,,,,BarcelonaPackageOwnerAndAuthorityOwners,Unclassified,NotCompletedBatch00ExitBlocked,false
+ENTRY_TEMPLATE,[relative folder from Barcelona root],[exact filename],[extension],[physical byte count],[physical line count or not_applicable],[physical SHA256],[last modified UTC],[stable document ID or not_applicable],[authority ID or not_applicable],[version or not_applicable],[verified owner or unknown],[approved Batch 00 class],[Eligible|Ineligible|Blocked|TemplateOnly],[true|false]

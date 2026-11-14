@@ -1,0 +1,81 @@
+{
+  "Ecclesiastical_Authority_Framework_V1.md": {
+    "exists": true,
+    "fences_balanced": true,
+    "bytes": 35187
+  },
+  "Aquitaine_ID_Registry_V1.md": {
+    "exists": true,
+    "fences_balanced": true,
+    "bytes": 57625
+  },
+  "Aquitaine_Opening_State_1062_V1.md": {
+    "exists": true,
+    "fences_balanced": true,
+    "bytes": 42453
+  },
+  "Aquitaine_Character_Authorities_V1.md": {
+    "exists": true,
+    "fences_balanced": true,
+    "bytes": 41443
+  },
+  "Aquitaine_Character_Network_V1.md": {
+    "exists": true,
+    "fences_balanced": true,
+    "bytes": 36151
+  },
+  "Aquitaine_Governance_Delegated_Authority_V1.md": {
+    "exists": true,
+    "fences_balanced": true,
+    "bytes": 27085
+  },
+  "Aquitaine_Historical_Memory_V1.md": {
+    "exists": true,
+    "fences_balanced": true,
+    "bytes": 25542
+  },
+  "France_Ecclesiastical_Content_V1.md": {
+    "exists": true,
+    "fences_balanced": true,
+    "bytes": 31269
+  },
+  "Denmark Ecclesiastical Content.md": {
+    "exists": true,
+    "fences_balanced": true,
+    "bytes": 25998
+  },
+  "Aquitaine_Ecclesiastical_Content_V1.md": {
+    "exists": true,
+    "fences_balanced": true,
+    "bytes": 22837
+  },
+  "registry_ids": {
+    "review.office.bishop_poitiers_1062": 1,
+    "review.office.archbishop_bordeaux_1062": 1,
+    "review.institution.diocese_aire_1062": 1,
+    "review.institution.diocese_dax_1062": 1,
+    "review.institution.diocese_condom_1062": 1,
+    "review.institution.diocese_lectoure_1062": 1,
+    "review.institution.diocese_lombez_1062": 1,
+    "review.institution.diocese_oloron_1062": 1,
+    "review.institution.diocese_lescar_1062": 1,
+    "review.institution.diocese_bayonne_1062": 1,
+    "review.group.aquitanian_monasteries_1062": 1
+  },
+  "opening_review_id_hits": {
+    "review.office.bishop_poitiers_1062": 0,
+    "review.office.archbishop_bordeaux_1062": 0,
+    "review.institution.diocese_aire_1062": 0,
+    "review.institution.diocese_dax_1062": 0,
+    "review.institution.diocese_condom_1062": 0,
+    "review.institution.diocese_lectoure_1062": 0,
+    "review.institution.diocese_lombez_1062": 0,
+    "review.institution.diocese_oloron_1062": 0,
+    "review.institution.diocese_lescar_1062": 0,
+    "review.institution.diocese_bayonne_1062": 0,
+    "review.group.aquitanian_monasteries_1062": 0
+  },
+  "all_ids_once": true,
+  "opening_zero_hits": true,
+  "all_fences_balanced": true
+}

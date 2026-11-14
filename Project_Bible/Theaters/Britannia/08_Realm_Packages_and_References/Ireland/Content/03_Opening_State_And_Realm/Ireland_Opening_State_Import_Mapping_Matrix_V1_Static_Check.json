@@ -1,0 +1,16 @@
+{
+  "document": "Ireland_Opening_State_Import_Mapping_Matrix_V1.md",
+  "passed": true,
+  "checks": {
+    "record_class_count_18": true,
+    "all_named_classes_present": true,
+    "three_track_time": true,
+    "registry_v23": true,
+    "advanced_save_firewall": true,
+    "atomic_commit": true,
+    "no_registry_mutation": true,
+    "no_importer_claim": true,
+    "stable_footer": true
+  },
+  "validation_scope": "content and static mapping checks only; no importer implementation, Registry mutation, migration execution, Opening State activation, Unreal modification, compile, runtime, save/load, replay, performance, or real-payload validation"
+}

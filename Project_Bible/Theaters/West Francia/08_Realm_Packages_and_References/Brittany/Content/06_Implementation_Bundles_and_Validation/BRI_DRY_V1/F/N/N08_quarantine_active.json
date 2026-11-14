@@ -1,0 +1,12 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N08_quarantine_active",
+  "mutated_candidate": {
+    "activation_state": "Active",
+    "disposition": "Quarantined",
+    "stable_id": "registry_entry.hawise_hoel_children_review"
+  },
+  "result": "PASS",
+  "rule": "QuarantinedNotActive"
+}

@@ -1,0 +1,20 @@
+{
+  "DocumentId": "CharacterProfile.Aquitaine.AgnesOfAquitaine.V1.StaticCheck",
+  "TargetFile": "Agnes_of_Aquitaine_V1_Developed_Character_Profile_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "FileExists": true,
+    "SHA256MatchesManifest": true,
+    "MarkdownFencesBalanced": true,
+    "ThreeTrackTimePresent": true,
+    "SameNameCollisionControlPresent": true,
+    "AdultRoleLeakageBlocked": true,
+    "IberianFutureConditional": true,
+    "NoEmDash": true,
+    "StableFooterCount": 1,
+    "FinalMarkerCorrect": true
+  },
+  "ByteCount": 32198,
+  "LineCount": 954,
+  "SHA256": "68f3e03c3c269a88a59e2f8e383e8df7cb8d6ed559f4b07701105d3fa21474c0"
+}

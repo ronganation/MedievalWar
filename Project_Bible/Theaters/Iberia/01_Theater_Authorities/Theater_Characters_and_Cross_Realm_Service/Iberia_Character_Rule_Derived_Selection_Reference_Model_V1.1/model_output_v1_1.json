@@ -1,0 +1,431 @@
+{
+  "model_version": "1.1.0",
+  "rule_mode": "selection_trial_activation_separated",
+  "results": [
+    {
+      "scenario_id": "A_CourtLogistics",
+      "decisions": [
+        {
+          "selection": {
+            "need_id": "PetitionBacklog",
+            "result": "CandidateSelectedForTrial",
+            "winner": {
+              "person_id": "IBP-005",
+              "fit": 31,
+              "evidence": 10,
+              "access": 10,
+              "obligation_penalty": 1,
+              "risk_penalty": 1,
+              "total": 49,
+              "tie": 211606300815205
+            },
+            "ranked": [
+              {
+                "person_id": "IBP-005",
+                "fit": 31,
+                "evidence": 10,
+                "access": 10,
+                "obligation_penalty": 1,
+                "risk_penalty": 1,
+                "total": 49,
+                "tie": 211606300815205
+              },
+              {
+                "person_id": "IBP-013",
+                "fit": 11,
+                "evidence": 10,
+                "access": 6,
+                "obligation_penalty": 1,
+                "risk_penalty": 1,
+                "total": 25,
+                "tie": 153044070640877
+              },
+              {
+                "person_id": "IBP-021",
+                "fit": 7,
+                "evidence": 4,
+                "access": 8,
+                "obligation_penalty": 2,
+                "risk_penalty": 2,
+                "total": 15,
+                "tie": 155130797605802
+              },
+              {
+                "person_id": "IBP-018",
+                "fit": 2,
+                "evidence": 6,
+                "access": 8,
+                "obligation_penalty": 1,
+                "risk_penalty": 1,
+                "total": 14,
+                "tie": 74737251374429
+              }
+            ]
+          },
+          "trial": {
+            "need_id": "PetitionBacklog",
+            "person_id": "IBP-005",
+            "result": "TrialPassed",
+            "evidence_after_trial": 6
+          },
+          "activation": {
+            "need_id": "PetitionBacklog",
+            "person_id": "IBP-005",
+            "result": "ActivationApproved",
+            "active_mandates": 1
+          }
+        },
+        {
+          "selection": {
+            "need_id": "CourtLogisticsMandate",
+            "result": "CandidateSelectedForTrial",
+            "winner": {
+              "person_id": "IBP-013",
+              "fit": 31,
+              "evidence": 10,
+              "access": 6,
+              "obligation_penalty": 1,
+              "risk_penalty": 1,
+              "total": 45,
+              "tie": 241298619857903
+            },
+            "ranked": [
+              {
+                "person_id": "IBP-013",
+                "fit": 31,
+                "evidence": 10,
+                "access": 6,
+                "obligation_penalty": 1,
+                "risk_penalty": 1,
+                "total": 45,
+                "tie": 241298619857903
+              },
+              {
+                "person_id": "IBP-018",
+                "fit": 12,
+                "evidence": 6,
+                "access": 8,
+                "obligation_penalty": 1,
+                "risk_penalty": 1,
+                "total": 24,
+                "tie": 120942171237164
+              },
+              {
+                "person_id": "IBP-021",
+                "fit": 7,
+                "evidence": 4,
+                "access": 8,
+                "obligation_penalty": 2,
+                "risk_penalty": 2,
+                "total": 15,
+                "tie": 158877083607085
+              }
+            ]
+          },
+          "trial": {
+            "need_id": "CourtLogisticsMandate",
+            "person_id": "IBP-013",
+            "result": "TrialPassed",
+            "evidence_after_trial": 6
+          },
+          "activation": {
+            "need_id": "CourtLogisticsMandate",
+            "person_id": "IBP-013",
+            "result": "ActivationApproved",
+            "active_mandates": 1
+          }
+        },
+        {
+          "selection": {
+            "need_id": "SeniorLegalOffice",
+            "result": "NoCandidate",
+            "resolution": "Keep office vacant and distribute duties temporarily",
+            "ranked": [
+              {
+                "person_id": "IBP-021",
+                "fit": 24,
+                "evidence": 4,
+                "access": 8,
+                "obligation_penalty": 2,
+                "risk_penalty": 2,
+                "total": 32,
+                "tie": 210747085345196
+              },
+              {
+                "person_id": "IBP-018",
+                "fit": 5,
+                "evidence": 6,
+                "access": 8,
+                "obligation_penalty": 1,
+                "risk_penalty": 1,
+                "total": 17,
+                "tie": 161667721590773
+              }
+            ]
+          },
+          "trial": {
+            "need_id": "SeniorLegalOffice",
+            "result": "NoTrial"
+          },
+          "activation": {
+            "need_id": "SeniorLegalOffice",
+            "result": "NoActivation"
+          }
+        }
+      ],
+      "closing_state": {
+        "IBP-005": {
+          "life": "Living",
+          "layer": "L3_ActiveCharacter",
+          "available": false,
+          "active_mandates": 1,
+          "dynamic_obligation_penalty": 3,
+          "trial_state": "ActivationApproved"
+        },
+        "IBP-009": {
+          "life": "Living",
+          "layer": "L2_LightweightPerson",
+          "available": true,
+          "active_mandates": 0,
+          "dynamic_obligation_penalty": 0,
+          "trial_state": "None"
+        },
+        "IBP-013": {
+          "life": "Living",
+          "layer": "L3_ActiveCharacter",
+          "available": false,
+          "active_mandates": 1,
+          "dynamic_obligation_penalty": 3,
+          "trial_state": "ActivationApproved"
+        },
+        "IBP-018": {
+          "life": "Living",
+          "layer": "L2_LightweightPerson",
+          "available": true,
+          "active_mandates": 0,
+          "dynamic_obligation_penalty": 0,
+          "trial_state": "None"
+        },
+        "IBP-021": {
+          "life": "Living",
+          "layer": "L2_LightweightPerson",
+          "available": true,
+          "active_mandates": 0,
+          "dynamic_obligation_penalty": 0,
+          "trial_state": "None"
+        },
+        "IBP-022": {
+          "life": "Living",
+          "layer": "L2_LightweightPerson",
+          "available": true,
+          "active_mandates": 0,
+          "dynamic_obligation_penalty": 0,
+          "trial_state": "None"
+        }
+      },
+      "replay_hash": "f382cec640c31a442be2e5bb331df521e1b7c41aa69f0ec4a4f1c746f2fbf653"
+    },
+    {
+      "scenario_id": "B_FrontierCrisis",
+      "decisions": [
+        {
+          "selection": {
+            "need_id": "FrontierReporting",
+            "result": "CandidateSelectedForTrial",
+            "winner": {
+              "person_id": "IBP-018",
+              "fit": 34,
+              "evidence": 12,
+              "access": 8,
+              "obligation_penalty": 1,
+              "risk_penalty": 1,
+              "total": 52,
+              "tie": 4853238274078
+            },
+            "ranked": [
+              {
+                "person_id": "IBP-018",
+                "fit": 34,
+                "evidence": 12,
+                "access": 8,
+                "obligation_penalty": 1,
+                "risk_penalty": 1,
+                "total": 52,
+                "tie": 4853238274078
+              },
+              {
+                "person_id": "IBP-021",
+                "fit": 20,
+                "evidence": 4,
+                "access": 8,
+                "obligation_penalty": 2,
+                "risk_penalty": 2,
+                "total": 28,
+                "tie": 91182404959092
+              },
+              {
+                "person_id": "IBP-022",
+                "fit": 12,
+                "evidence": 6,
+                "access": 4,
+                "obligation_penalty": 1,
+                "risk_penalty": 1,
+                "total": 20,
+                "tie": 8596621972155
+              }
+            ]
+          },
+          "trial": {
+            "need_id": "FrontierReporting",
+            "person_id": "IBP-018",
+            "result": "TrialPassed",
+            "evidence_after_trial": 7
+          },
+          "activation": {
+            "need_id": "FrontierReporting",
+            "person_id": "IBP-018",
+            "result": "ActivationApproved",
+            "active_mandates": 1
+          }
+        },
+        {
+          "selection": {
+            "need_id": "SettlementMediation",
+            "result": "CandidateSelectedForTrial",
+            "winner": {
+              "person_id": "IBP-022",
+              "fit": 34,
+              "evidence": 6,
+              "access": 4,
+              "obligation_penalty": 1,
+              "risk_penalty": 1,
+              "total": 42,
+              "tie": 169120338019574
+            },
+            "ranked": [
+              {
+                "person_id": "IBP-022",
+                "fit": 34,
+                "evidence": 6,
+                "access": 4,
+                "obligation_penalty": 1,
+                "risk_penalty": 1,
+                "total": 42,
+                "tie": 169120338019574
+              },
+              {
+                "person_id": "IBP-021",
+                "fit": 30,
+                "evidence": 4,
+                "access": 8,
+                "obligation_penalty": 2,
+                "risk_penalty": 2,
+                "total": 38,
+                "tie": 142585688632002
+              }
+            ]
+          },
+          "trial": {
+            "need_id": "SettlementMediation",
+            "person_id": "IBP-022",
+            "result": "TrialFailed",
+            "evidence_after_trial": 4
+          },
+          "activation": {
+            "need_id": "SettlementMediation",
+            "person_id": "IBP-022",
+            "result": "ActivationRejected"
+          }
+        },
+        {
+          "selection": {
+            "need_id": "CrisisHighCommand",
+            "result": "NoCandidate",
+            "resolution": "No individual command appointment; retain collective coordination",
+            "ranked": [
+              {
+                "person_id": "IBP-021",
+                "fit": 8,
+                "evidence": 2,
+                "access": 4,
+                "obligation_penalty": 2,
+                "risk_penalty": 2,
+                "total": 10,
+                "tie": 160640938596017
+              },
+              {
+                "person_id": "IBP-022",
+                "fit": 4,
+                "evidence": 4,
+                "access": 2,
+                "obligation_penalty": 1,
+                "risk_penalty": 1,
+                "total": 8,
+                "tie": 145699190654687
+              }
+            ]
+          },
+          "trial": {
+            "need_id": "CrisisHighCommand",
+            "result": "NoTrial"
+          },
+          "activation": {
+            "need_id": "CrisisHighCommand",
+            "result": "NoActivation"
+          }
+        }
+      ],
+      "closing_state": {
+        "IBP-005": {
+          "life": "Living",
+          "layer": "L2_LightweightPerson",
+          "available": true,
+          "active_mandates": 0,
+          "dynamic_obligation_penalty": 0,
+          "trial_state": "None"
+        },
+        "IBP-009": {
+          "life": "Living",
+          "layer": "L2_LightweightPerson",
+          "available": true,
+          "active_mandates": 0,
+          "dynamic_obligation_penalty": 0,
+          "trial_state": "None"
+        },
+        "IBP-013": {
+          "life": "Living",
+          "layer": "L2_LightweightPerson",
+          "available": true,
+          "active_mandates": 0,
+          "dynamic_obligation_penalty": 0,
+          "trial_state": "None"
+        },
+        "IBP-018": {
+          "life": "Living",
+          "layer": "L3_ActiveCharacter",
+          "available": false,
+          "active_mandates": 1,
+          "dynamic_obligation_penalty": 3,
+          "trial_state": "ActivationApproved"
+        },
+        "IBP-021": {
+          "life": "Living",
+          "layer": "L2_LightweightPerson",
+          "available": true,
+          "active_mandates": 0,
+          "dynamic_obligation_penalty": 0,
+          "trial_state": "None"
+        },
+        "IBP-022": {
+          "life": "Living",
+          "layer": "L2_LightweightPerson",
+          "available": true,
+          "active_mandates": 0,
+          "dynamic_obligation_penalty": 0,
+          "trial_state": "TrialFailed"
+        }
+      },
+      "replay_hash": "c8574220fecef126d7c427390b7c4048485d1c1524abe1e402a653f77c6532c3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "document_id": "static-check.wales.character.maredudd-ab-owain-ab-edwin.v2",
+  "version": "2.0.0",
+  "source": "Maredudd_ab_Owain_ab_Edwin.md",
+  "successor": "Maredudd_ab_Owain_ab_Edwin_V2_Current_Authority_Refinement.md",
+  "source_bytes": 45381,
+  "source_physical_lines": 1158,
+  "successor_bytes": 65655,
+  "successor_physical_lines": 1782,
+  "successor_sha256": "9348b698396624fb53d022d4826b448a242f7047c03bd1fbdfd257497617b33c",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger": true,
+    "all_source_headings_preserved": true,
+    "scenario_current": true,
+    "opening_active": true,
+    "no_opening_title": true,
+    "no_opening_claim": true,
+    "brotherhood_not_alignment": true,
+    "Dinefwr_separation": true,
+    "StDavids_separation": true,
+    "three_track_temporal": true,
+    "UE58": true,
+    "validation_false": true,
+    "authorizations_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

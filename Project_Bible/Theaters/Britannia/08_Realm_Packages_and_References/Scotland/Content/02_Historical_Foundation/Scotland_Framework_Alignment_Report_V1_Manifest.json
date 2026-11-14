@@ -1,0 +1,64 @@
+{
+  "document_id": "manifest.scotland.framework_alignment.v1",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "inputs": [
+    {
+      "filename": "Scotland_Authority_Coverage_and_Integration_Review_V1.md",
+      "sha256": "0f7e42e368f4da9209a5de55c29c04da6ea33b3fd428ab7ee1cc28af1c8983e2",
+      "bytes": 22602
+    },
+    {
+      "filename": "Scotland_Source_Inventory_V1.1_Current_Authority_Refinement.md",
+      "sha256": "fb9f3813ce3acc0846e393f26ec2e3772639ce8a6b167718fc68d036f424d120",
+      "bytes": 33411
+    },
+    {
+      "filename": "Scotland_README.md",
+      "sha256": "0ce270ac94bf91ad4d9d09ba5625b7439f2f96e7c895b8cc14f08b9d8e1b83f5",
+      "bytes": 11378
+    },
+    {
+      "filename": "Scotland_Opening_State.md",
+      "sha256": "7b5bd5a7d4b510b8e5146c8e8c27ef6c9d28641d6d453a9425387ee233e76457",
+      "bytes": 40725
+    },
+    {
+      "filename": "Scotland_Character_Network.md",
+      "sha256": "cc2c65d6467a789a8abc5741acb6e56f51e03cd4444b81bf99a895d8bb8a1435",
+      "bytes": 8477
+    },
+    {
+      "filename": "Scotland_AI.md",
+      "sha256": "d6769cd57f8ccced1f03d3cae02f869ce1542f173b19ae599514a11529409217",
+      "bytes": 8529
+    },
+    {
+      "filename": "Scotland_Personality.md",
+      "sha256": "5d0d170f6fcae175ae2c4b7aac577de8e2d55795318b5ef0a39800ee202c0fab",
+      "bytes": 6743
+    }
+  ],
+  "files": [
+    {
+      "filename": "Scotland_Framework_Alignment_Report_V1.md",
+      "sha256": "6170e1c9eb08c07b4412765f9de4e45154fca0d3361350e89960240521ba736d",
+      "bytes": 23169
+    },
+    {
+      "filename": "Scotland_Framework_Alignment_Report_V1_Static_Check.json",
+      "sha256": "827075a03d13b83c2f2ea0c1a8ebdd5ef9f2e98e1ec67f0a0f2e6a183845d5f6",
+      "bytes": 1868
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "file_move_or_delete": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  }
+}

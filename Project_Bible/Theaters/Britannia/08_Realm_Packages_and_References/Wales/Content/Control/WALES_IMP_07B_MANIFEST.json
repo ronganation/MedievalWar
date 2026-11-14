@@ -1,0 +1,53 @@
+{
+  "TaskId": "WALES-IMP-07B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "EntranceGate": "WALES-IMP-07A-R2",
+  "EntranceDecision": "ExistingWalesImporterTransactionSourceAndAuthorityRequireBoundedOwnerHandoffGapReview",
+  "AuthorityRecords": 84,
+  "AuthorityHits": 658,
+  "RequiredSourceFamilies": 7,
+  "MissingSourceFamilies": 0,
+  "PlannedAdditiveFiles": 14,
+  "PlannedDirectTests": 44,
+  "KnownRegressionSubtotal": 372,
+  "DiscoverySuites": 2,
+  "ImplementationAuthorized": false,
+  "ProductionAuthority": false,
+  "Files": [
+    {
+      "Path": "Control/WALES_IMP_07B_AUTHORITY_ROUTE.csv",
+      "Bytes": 808,
+      "SHA256": "119C63A09F6B31F7AFA47E3BDB2869CC7F4E1A01668FBFC403E64845D748670D"
+    },
+    {
+      "Path": "Control/WALES_IMP_07B_BOUNDARY_MATRIX.csv",
+      "Bytes": 393,
+      "SHA256": "346A3B0293EF0C8591BD9C7348600F77B60EBF1454C4BA613F2931BEAFD79FD0"
+    },
+    {
+      "Path": "Control/WALES_IMP_07B_EXACT_FILE_AND_TEST_PLAN.csv",
+      "Bytes": 1094,
+      "SHA256": "3560CCB03E1F30863C06AD244BBC344604C731C0E359ADBEA4F9AB78A69D01C6"
+    },
+    {
+      "Path": "Control/WALES_IMP_07B_PRESERVED_SOURCE_MATRIX.csv",
+      "Bytes": 362,
+      "SHA256": "673010B04FB5A4D294D2CCA61859D49703B6E45413CEDEC57755CE81B070DCC3"
+    },
+    {
+      "Path": "Control/WALES_IMP_07B_TEST_CHAIN.csv",
+      "Bytes": 768,
+      "SHA256": "E4E6F141A444EBAFE0B572F874A707783F108B18052BEE34EE61EF29EF508843"
+    },
+    {
+      "Path": "README_FIRST_WALES_IMP_07B.txt",
+      "Bytes": 414,
+      "SHA256": "DBBAD45BEEEBA6FD9A2BFF27D4758C186FFA0F42857BED8B72CC12D31DDD56E3"
+    },
+    {
+      "Path": "WALES_IMP_07B_OWNER_CAPABILITY_HANDOFF_BOUNDED_CONTRACT_2026-09-23.md",
+      "Bytes": 8692,
+      "SHA256": "1773029AAE294E1BD8E550A5AD9AD792FC6340D3C382B1626797A8110FD2C5C6"
+    }
+  ]
+}

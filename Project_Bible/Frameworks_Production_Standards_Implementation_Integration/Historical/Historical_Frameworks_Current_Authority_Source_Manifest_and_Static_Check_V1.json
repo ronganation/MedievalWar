@@ -1,0 +1,264 @@
+{
+  "document_control": {
+    "stable_document_id": "Manifest.Frameworks.Historical.CurrentAuthority.StaticCheck",
+    "filename": "Historical_Frameworks_Current_Authority_Source_Manifest_and_Static_Check_V1.json",
+    "version": "1.0.1",
+    "assessment_date": "2026-09-19",
+    "folder": "Project_Bible/Frameworks/Historical",
+    "constitutional_authority": "Project Bible 2.4",
+    "operational_authority": "Design Expansion Checklist 3.7",
+    "implementation_target": "Unreal Engine 5.8",
+    "status": "STATIC_CHECK_REISSUED_AFTER_EMERGENCE_SOURCE_RECONCILIATION",
+    "implementation_promotion_authorized": false,
+    "supersedes": "Historical_Frameworks_Current_Authority_Source_Manifest_and_Static_Check_V1.json version 1.0.0 blocked issue"
+  },
+  "scope": {
+    "current_authority_index": "Historical_Frameworks_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+    "historical_memory_authority": "Historical_Memory_Framework.md",
+    "historical_memory_reconciliation_package": [
+      "README_Historical_Memory_Reconciliation.md",
+      "Historical_Memory_Reconciliation_Audit.md",
+      "Historical_Memory_Implementation_Contract_Matrix.md",
+      "Historical_Memory_Contract_Field_Inventory.md",
+      "Historical_Memory_Contract_Validation_Catalogue.md"
+    ],
+    "momentum_predecessor": "Historical_Momentum_Framework.md",
+    "momentum_successor": "Historical_Momentum_Framework_V2_Current_Authority_Additive_Modernization.md",
+    "emergence_predecessor": "Historical_Emergence_Framework.md",
+    "emergence_successor": "Historical_Emergence_Framework_V2_Current_Authority_Additive_Modernization.md"
+  },
+  "files": [
+    {
+      "filename": "Historical_Momentum_Framework.md",
+      "availability": "LocalByteVerified",
+      "bytes": 7293,
+      "physical_lines": 480,
+      "sha256": "02e077f3b1d045769a60408ec8fef4dc34295c3ac49702b019ab0e96e3103c14",
+      "utf8_decode": "PASS",
+      "markdown_fence_count": 0,
+      "markdown_fences_balanced": true,
+      "authority_role": "ImmediateSubstantiveSource",
+      "disposition": "RetainedPredecessor",
+      "expected_successor": "Historical_Momentum_Framework_V2_Current_Authority_Additive_Modernization.md"
+    },
+    {
+      "filename": "Historical_Emergence_Framework.md",
+      "availability": "LocalByteVerified",
+      "bytes": 7271,
+      "physical_lines": 558,
+      "sha256": "2ab19550ec46d18f6b53369ad7fcf06026ae0c08457bc30c45690c7580bf97a4",
+      "utf8_decode": "PASS",
+      "markdown_fence_count": 0,
+      "markdown_fences_balanced": true,
+      "authority_role": "ImmediateSubstantiveSource",
+      "disposition": "RetainedPredecessor",
+      "expected_successor": "Historical_Emergence_Framework_V2_Current_Authority_Additive_Modernization.md"
+    },
+    {
+      "filename": "Historical_Momentum_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "authority_role": "CurrentMomentumAuthorityCandidate",
+      "availability": "GenerationReceiptVerified",
+      "bytes": 34735,
+      "physical_lines": 1414,
+      "sha256": "1c8f55523a72f1691b12f01a797a351796fb36a0f7aa6655c087de75317a35d0",
+      "recorded_source_filename": "Historical_Momentum_Framework.md",
+      "recorded_source_bytes": 7293,
+      "recorded_source_sha256": "02e077f3b1d045769a60408ec8fef4dc34295c3ac49702b019ab0e96e3103c14",
+      "exact_source_prefix_receipt": true,
+      "canonical_source_match": "PASS"
+    },
+    {
+      "filename": "Historical_Emergence_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "authority_role": "CurrentEmergenceAuthorityCandidate",
+      "availability": "RepairReceiptVerified",
+      "bytes": 32694,
+      "physical_lines": 1194,
+      "sha256": "dc45e3b3cbb4377f0326cb04911375836debcddac460cb6cf71e417087cd74e6",
+      "recorded_source_filename": "Historical_Emergence_Framework.md",
+      "canonical_source_match": "SOURCE_RECONCILED",
+      "source_treatment": "CompleteCurrentRepositoryContentPreservationPlusAdditiveModernization",
+      "repository_opened_source_lines": 344,
+      "preserved_opening_layer_bytes_utf8_lf": 6666,
+      "preserved_opening_layer_sha256_utf8_lf": "3a83ba399b0f46fc25fd85a472352b76b3701709295958d75b8e95b7f075dc06",
+      "prior_byte_serialization_claim": "RETIRED",
+      "substantive_source_sections_removed": 0,
+      "v2_modernization_sections_removed": 0,
+      "implementation_promotion_authorized": false
+    },
+    {
+      "filename": "Historical_Frameworks_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "authority_role": "CurrentNavigationAndPrecedenceAuthorityCandidate",
+      "availability": "GenerationReceiptVerified",
+      "bytes": 20626,
+      "physical_lines": 865,
+      "sha256": "dd06711c59b1cb2b70f7a4d8c4a9889768c132cb1998333d4f83d7e4194f0a28",
+      "markdown_fence_count": 70,
+      "markdown_fences_balanced": true,
+      "escaped_underscores": 0,
+      "em_dash_count": 0
+    },
+    {
+      "filename": "Historical_Memory_Framework.md",
+      "authority_role": "CurrentSubstantiveHistoricalMemoryAuthority",
+      "availability": "RepositoryContentAndSessionMetadataVerified",
+      "bytes_observed_in_session": 36481,
+      "sha256": null,
+      "sha256_status": "NOT_AVAILABLE_IN_CURRENT_BYTE_CONTEXT",
+      "static_content_status": "SEARCH_VERIFIED",
+      "compile_validated": false,
+      "runtime_validated": false
+    },
+    {
+      "filename": "README_Historical_Memory_Reconciliation.md",
+      "authority_role": "CurrentReconciliationNavigationAndFrozenScopeAuthority",
+      "availability": "RepositoryContentAndSessionMetadataVerified",
+      "bytes_observed_in_session": 6296,
+      "sha256": null,
+      "sha256_status": "NOT_AVAILABLE_IN_CURRENT_BYTE_CONTEXT",
+      "static_content_status": "SEARCH_VERIFIED",
+      "compile_validated": false,
+      "runtime_validated": false
+    },
+    {
+      "filename": "Historical_Memory_Reconciliation_Audit.md",
+      "authority_role": "CurrentOwnershipAndConstitutionalReconciliationAuthority",
+      "availability": "RepositoryContentAndSessionMetadataVerified",
+      "bytes_observed_in_session": 36585,
+      "sha256": null,
+      "sha256_status": "NOT_AVAILABLE_IN_CURRENT_BYTE_CONTEXT",
+      "static_content_status": "SEARCH_VERIFIED",
+      "compile_validated": false,
+      "runtime_validated": false
+    },
+    {
+      "filename": "Historical_Memory_Implementation_Contract_Matrix.md",
+      "authority_role": "CurrentImplementationReadinessContractAuthority",
+      "availability": "RepositoryContentAndSessionMetadataVerified",
+      "bytes_observed_in_session": 37189,
+      "sha256": null,
+      "sha256_status": "NOT_AVAILABLE_IN_CURRENT_BYTE_CONTEXT",
+      "static_content_status": "SEARCH_VERIFIED",
+      "compile_validated": false,
+      "runtime_validated": false
+    },
+    {
+      "filename": "Historical_Memory_Contract_Field_Inventory.md",
+      "authority_role": "CurrentSemanticFieldOwnershipInventory",
+      "availability": "RepositoryContentAndSessionMetadataVerified",
+      "bytes_observed_in_session": 122467,
+      "sha256": null,
+      "sha256_status": "NOT_AVAILABLE_IN_CURRENT_BYTE_CONTEXT",
+      "static_content_status": "SEARCH_VERIFIED",
+      "compile_validated": false,
+      "runtime_validated": false
+    },
+    {
+      "filename": "Historical_Memory_Contract_Validation_Catalogue.md",
+      "authority_role": "CurrentEngineAgnosticValidationCatalogue",
+      "availability": "RepositoryContentAndSessionMetadataVerified",
+      "bytes_observed_in_session": 328867,
+      "sha256": null,
+      "sha256_status": "NOT_AVAILABLE_IN_CURRENT_BYTE_CONTEXT",
+      "static_content_status": "SEARCH_VERIFIED",
+      "compile_validated": false,
+      "runtime_validated": false
+    }
+  ],
+  "static_checks": {
+    "current_authority_index_present_by_generation_receipt": "PASS",
+    "historical_memory_framework_and_reconciliation_package_repository_verified": "PASS",
+    "historical_memory_package_completeness": "PASS",
+    "historical_memory_broad_rewrite_required": "NO",
+    "momentum_predecessor_local_byte_verification": "PASS",
+    "momentum_successor_generation_receipt": "PASS",
+    "momentum_copy_first_exact_source_match": "PASS",
+    "emergence_predecessor_local_byte_verification": "PASS",
+    "emergence_successor_generation_receipt": "PASS",
+    "emergence_copy_first_exact_source_match": "SUPERSEDED_BY_SOURCE_RECONCILIATION",
+    "three_track_temporal_contract_present_in_current_successors": "PASS",
+    "historical_memory_compatibility_addendum_required": "NO",
+    "registry_opening_state_payload_importer_or_unreal_promotion_authorized": false,
+    "overall_static_closure": "PASS_WITH_OWNER_REVIEW_REQUIRED",
+    "emergence_current_repository_content_preservation": "PASS",
+    "emergence_repair_receipt_verified": "PASS"
+  },
+  "fatal_findings": [],
+  "warnings": [
+    {
+      "id": "HIST-STATIC-WARN-001",
+      "severity": "Warning",
+      "subject": "Historical Memory package fingerprints",
+      "finding": "Repository content and observed file sizes are verified, but byte-level SHA-256 values for the six Historical Memory files are not available in the current local byte context.",
+      "disposition": "Retain null hashes rather than fabricate byte fingerprints. Capture exact hashes when all six Historical Memory files are directly staged as bytes.",
+      "blocking": false
+    }
+  ],
+  "nonmutation_receipt": {
+    "historical_sources_modified": 0,
+    "historical_memory_files_modified": 0,
+    "registry_entries_modified": 0,
+    "opening_state_records_modified": 0,
+    "runtime_records_modified": 0,
+    "save_schemas_modified": 0,
+    "migration_executed": false,
+    "gameplay_payloads_imported": 0,
+    "unreal_files_modified": 0,
+    "compile_executed": false,
+    "runtime_executed": false
+  },
+  "historical_memory_package_coverage": {
+    "approved_contracts": 16,
+    "approved_contracts_coverage": "16 of 16",
+    "semantic_field_rows": 270,
+    "validation_rules": 270,
+    "validation_rule_coverage": "270 of 270",
+    "static_checked": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "frozen_scope": true,
+    "additional_constitutional_expansion_required": false
+  },
+  "closure_decision": {
+    "historical_memory": "PASS_STATIC_BASELINE_RETAIN_FROZEN",
+    "historical_momentum_v2": "PASS_CURRENT_STATIC_DESIGN_CANDIDATE",
+    "historical_emergence_v2": "PASS_SOURCE_RECONCILED_CURRENT_STATIC_DESIGN_CANDIDATE",
+    "authority_index": "PASS_RECHECKED_CURRENT_NAVIGATION_AND_PRECEDENCE",
+    "independent_static_closure_review_authorized_now": true,
+    "next_required_file_action": "Create Historical_Frameworks_Current_Authority_Independent_Static_Closure_Review_V1.md",
+    "implementation_promotion_authorized": false
+  },
+  "stable_footer": {
+    "status": "STATIC_CHECK_REISSUED_PASS_WITH_OWNER_REVIEW_REQUIRED",
+    "owner_review_required": true,
+    "implementation_promotion_authorized": false,
+    "next_gate": "IndependentHistoricalStaticClosureReview"
+  },
+  "resolved_findings": [
+    {
+      "id": "HIST-STATIC-FATAL-001",
+      "prior_severity": "Fatal",
+      "status": "RESOLVED_BY_SOURCE_RECONCILIATION_REPAIR",
+      "resolution": "The repaired successor preserves the complete repository-opened 344-line substantive predecessor content, retains the full approved V2 modernization layer, and replaces the unsupported byte-exact serialization claim with a content-preservation disposition.",
+      "repaired_file": "Historical_Emergence_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "repaired_sha256": "dc45e3b3cbb4377f0326cb04911375836debcddac460cb6cf71e417087cd74e6",
+      "remaining_implementation_promotion_authorized": false
+    }
+  ],
+  "emergence_repair_evidence": {
+    "repair_action": "HistoricalEmergenceV2CanonicalSourceReconciliation",
+    "repaired_filename": "Historical_Emergence_Framework_V2_Current_Authority_Additive_Modernization.md",
+    "repaired_bytes": 32694,
+    "repaired_physical_lines": 1194,
+    "repaired_sha256": "dc45e3b3cbb4377f0326cb04911375836debcddac460cb6cf71e417087cd74e6",
+    "repository_opened_source_lines": 344,
+    "preserved_opening_layer_bytes_utf8_lf": 6666,
+    "preserved_opening_layer_sha256_utf8_lf": "3a83ba399b0f46fc25fd85a472352b76b3701709295958d75b8e95b7f075dc06",
+    "substantive_source_sections_removed": 0,
+    "v2_modernization_sections_removed": 0,
+    "historical_memory_files_modified": 0,
+    "registry_entries_modified": 0,
+    "opening_state_records_modified": 0,
+    "runtime_characters_created": 0,
+    "implementation_promotion_authorized": false
+  }
+}

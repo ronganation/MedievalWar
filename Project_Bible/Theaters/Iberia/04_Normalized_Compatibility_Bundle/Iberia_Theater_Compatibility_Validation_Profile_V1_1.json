@@ -1,0 +1,182 @@
+{
+  "profile_id": "validation.iberia.theater_compatibility.v1_1",
+  "version": "1.1.0",
+  "schema_file": "Iberia_Theater_Compatibility_Candidate_Schema_V1_1.json",
+  "index_file": "Iberia_Theater_Compatibility_Index_V1_1.json",
+  "rule_order": [
+    "IBERIA_COUNT_001",
+    "IBERIA_ASSOC_001",
+    "IBERIA_ASSOC_002",
+    "IBERIA_READY_001",
+    "IBERIA_AUTH_001",
+    "IBERIA_ID_001",
+    "IBERIA_ORDER_001",
+    "IBERIA_ASSOC_003",
+    "IBERIA_ALM_001",
+    "IBERIA_ALM_002",
+    "IBERIA_TEMP_001",
+    "IBERIA_TEMP_002",
+    "IBERIA_SRC_001",
+    "IBERIA_LEGACY_001",
+    "IBERIA_ALIAS_001",
+    "IBERIA_SAVE_001",
+    "IBERIA_COMPOSITE_001"
+  ],
+  "rules": [
+    {
+      "code": "IBERIA_COUNT_001",
+      "severity": "Fatal",
+      "scope": "index",
+      "path": "$.candidates",
+      "operator": "length_equals",
+      "expected": 7
+    },
+    {
+      "code": "IBERIA_ASSOC_001",
+      "severity": "Fatal",
+      "scope": "candidate",
+      "path": "$.theater_binding.theater_ref",
+      "operator": "equals",
+      "expected": "theater.iberia"
+    },
+    {
+      "code": "IBERIA_ASSOC_002",
+      "severity": "Fatal",
+      "scope": "candidate",
+      "path": "$.theater_binding.opening_association",
+      "operator": "equals",
+      "expected": false
+    },
+    {
+      "code": "IBERIA_READY_001",
+      "severity": "Fatal",
+      "scope": "candidate",
+      "path": "$.compatibility.activation_readiness",
+      "operator": "equals",
+      "expected": "Blocked"
+    },
+    {
+      "code": "IBERIA_AUTH_001",
+      "severity": "Fatal",
+      "scope": "candidate",
+      "path": "$.authorization.*",
+      "operator": "all_equal",
+      "expected": "prohibited"
+    },
+    {
+      "code": "IBERIA_ID_001",
+      "severity": "Fatal",
+      "scope": "index",
+      "path": "$.candidates[*].candidate_identity.compatibility_record_id",
+      "operator": "unique",
+      "expected": true
+    },
+    {
+      "code": "IBERIA_ORDER_001",
+      "severity": "Fatal",
+      "scope": "index",
+      "path": "$.candidates[*].stable_order",
+      "operator": "equals_sequence",
+      "expected": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70
+      ]
+    },
+    {
+      "code": "IBERIA_ASSOC_003",
+      "severity": "Fatal",
+      "scope": "index",
+      "path": "$.candidates[*].theater_binding.association_type",
+      "operator": "count_equals",
+      "expected": {
+        "Primary": 6,
+        "Expeditionary": 1
+      }
+    },
+    {
+      "code": "IBERIA_ALM_001",
+      "severity": "Fatal",
+      "scope": "record_id",
+      "record_id": "candidate.theater_compatibility.almoravid.iberia.v1",
+      "path": "$.theater_binding.association_type",
+      "operator": "equals",
+      "expected": "Expeditionary"
+    },
+    {
+      "code": "IBERIA_ALM_002",
+      "severity": "Fatal",
+      "scope": "record_id",
+      "record_id": "candidate.theater_compatibility.almoravid.iberia.v1",
+      "path": "$.theater_binding.primary_theater_change",
+      "operator": "equals",
+      "expected": "Prohibited"
+    },
+    {
+      "code": "IBERIA_TEMP_001",
+      "severity": "Fatal",
+      "scope": "record_id",
+      "record_id": "candidate.theater_compatibility.aragon.iberia.v1",
+      "path": "$.compatibility.temporal_status",
+      "operator": "equals",
+      "expected": "ModernizationRequired"
+    },
+    {
+      "code": "IBERIA_TEMP_002",
+      "severity": "Fatal",
+      "scope": "record_id",
+      "record_id": "candidate.theater_compatibility.barcelona.iberia.v1",
+      "path": "$.compatibility.temporal_status",
+      "operator": "equals",
+      "expected": "ModernizationRequired"
+    },
+    {
+      "code": "IBERIA_SRC_001",
+      "severity": "Fatal",
+      "scope": "candidate",
+      "path": "$.provenance.source_hashes[0].sha256",
+      "operator": "matches",
+      "expected": "^[0-9a-f]{64}$"
+    },
+    {
+      "code": "IBERIA_LEGACY_001",
+      "severity": "Fatal",
+      "scope": "source_candidates",
+      "path": "source full text",
+      "operator": "active_legacy_theater_scan",
+      "expected": 0,
+      "evaluation": "NotEvaluableWithoutStructuredSourceParser"
+    },
+    {
+      "code": "IBERIA_ALIAS_001",
+      "severity": "Fatal",
+      "scope": "source_candidates",
+      "path": "source alias records",
+      "operator": "alias_chain_count",
+      "expected": 0,
+      "evaluation": "NotEvaluableWithoutStructuredSourceParser"
+    },
+    {
+      "code": "IBERIA_SAVE_001",
+      "severity": "Fatal",
+      "scope": "source_candidates",
+      "path": "source advanced-save policy",
+      "operator": "overwrite_allowed_count",
+      "expected": 0,
+      "evaluation": "NotEvaluableWithoutStructuredSourceParser"
+    },
+    {
+      "code": "IBERIA_COMPOSITE_001",
+      "severity": "Fatal",
+      "scope": "source_candidate",
+      "path": "Leon-Castile composite records",
+      "operator": "separation_retained",
+      "expected": true,
+      "evaluation": "NotEvaluableWithoutStructuredSourceParser"
+    }
+  ]
+}

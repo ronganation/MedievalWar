@@ -1,0 +1,18 @@
+{
+  "document": "Ceorl_Archers_V1_Master_Unit_Profile.md",
+  "sha256": "9959e76840ac1ea3114fd1360f6e9f391b0db9883b6f0b9250264dde63aa2183",
+  "checks": {
+    "file_hash_matches_manifest": true,
+    "single_title": true,
+    "terrain_rows_25": true,
+    "numbered_sections_unique": true,
+    "predecessor_not_embedded": true,
+    "feature_register_present": true,
+    "S02_S06_boundary_present": true,
+    "S08_support_only": true,
+    "legacy_values_present": true,
+    "no_runtime_promotion": true,
+    "footer_final": true
+  },
+  "pass": true
+}

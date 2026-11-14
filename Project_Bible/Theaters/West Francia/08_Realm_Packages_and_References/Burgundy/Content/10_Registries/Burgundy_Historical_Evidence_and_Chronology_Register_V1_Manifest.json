@@ -1,0 +1,30 @@
+{
+  "DocumentId": "manifest.historical-evidence-chronology.realm.burgundy.v1",
+  "AuthorityFile": "Burgundy_Historical_Evidence_and_Chronology_Register_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "f73419a1fc71515b373f221fd8448895c58e928242efec1a68cc75ea6e350154",
+  "ByteCount": 33412,
+  "LineCount": 1070,
+  "Status": "StaticCheckedInitialPopulationPassReviewOnly",
+  "Counts": {
+    "Propositions": 30,
+    "Sources": 12,
+    "ChronologyRecords": 26,
+    "Contradictions": 6
+  },
+  "ResearchStatus": {
+    "PrimarySourcesReadInFull": 0,
+    "ModernScholarlySourcesReadInFull": 0,
+    "ClaimLevelPageLocatorsVerified": 0,
+    "InitialPopulationComplete": true
+  },
+  "MutationStatus": {
+    "HistoricalFactsPromoted": 0,
+    "UncertaintySelectionsApplied": 0,
+    "RegistryMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "document_id": "manifest.wales.historical-suite-closeout.v1",
+  "version": "1.0.0",
+  "artifact": {
+    "filename": "Wales_Historical_Suite_Closeout_and_Readiness_V1.md",
+    "bytes": 15619,
+    "physical_lines": 456,
+    "sha256": "a9b438a7a7f79a491270b4b8452c1ccd04b9691bca1ca7335c0215f591272c82"
+  },
+  "scope": {
+    "historical_authorities": 7,
+    "package_controls": 3,
+    "owner_requests": 8,
+    "required_opening_selections": 2
+  },
+  "classification": {
+    "historical_design_complete": true,
+    "historical_owner_bound": false,
+    "historical_runtime_validated": false,
+    "next_workstream_may_begin": true
+  },
+  "authorizations": {
+    "Opening_State_mutation": false,
+    "Historical_Suite_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "real_payload_import": false
+  },
+  "static_check": {
+    "filename": "Wales_Historical_Suite_Closeout_and_Readiness_V1_Static_Check.json",
+    "passed": true
+  }
+}

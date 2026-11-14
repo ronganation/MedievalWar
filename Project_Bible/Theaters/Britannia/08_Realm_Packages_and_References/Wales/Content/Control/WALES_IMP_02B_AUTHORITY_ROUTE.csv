@@ -1,0 +1,7 @@
+Concern,ControllingAuthority,Disposition
+Campaign state ownership,Campaign_Data_Architecture.md,ReferenceOnly
+Transaction ordering,Campaign_Simulation_Turn_Pipeline.md,ReferenceOnly
+Wales source authority,Wales_Network_Opening_Fixture_Importer_Manifest.md,PreserveAndReconcile
+Wales entrance implementation,WALES-IMP-01C final acceptance evidence,PreserveAndRegress
+Scotland architecture,Scotland Transaction Recovery source and tests,AdaptWorkflowOnly
+Norway architecture,Mature Norway transaction and recovery surface,BenchmarkOnly

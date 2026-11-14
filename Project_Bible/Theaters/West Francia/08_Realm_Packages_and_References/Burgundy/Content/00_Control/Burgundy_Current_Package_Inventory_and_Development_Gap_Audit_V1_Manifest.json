@@ -1,0 +1,29 @@
+{
+  "DocumentId": "CurrentPackageInventoryDevelopmentGapAudit.Realm.Burgundy.V1",
+  "Filename": "Burgundy_Current_Package_Inventory_and_Development_Gap_Audit_V1.md",
+  "Version": "1.0.0",
+  "Status": "StaticCheckedInventoryAndDevelopmentGapAuditReviewOnly",
+  "ScenarioOpening": "1062-01-01",
+  "OwningTheater": "West Francia",
+  "PackageRoot": "Burgundy",
+  "ContentFolder": "Burgundy/Content",
+  "SourceAuthorities": [
+    "Burgundy_Separate_Realm_Development_Reservation_V1.md",
+    "Burgundy_Source_Authority_Ownership_and_Package_Discovery_V1.md"
+  ],
+  "ImmediateNextFile": "Burgundy_Historical_Reconciliation_V1.md",
+  "PhysicalReceipt": {
+    "Bytes": 28096,
+    "Lines": 898,
+    "SHA256": "94dd51aba96970c5e8bcd323d0d7db4c797fa0b6d7faf4006cbc117be4540c78",
+    "MarkdownFences": 70
+  },
+  "MutationBoundary": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "FranceFilesModified": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

@@ -1,0 +1,56 @@
+﻿{
+    "TaskId":  "OS-VIS-05A",
+    "Mode":  "ActivePreviewValidation",
+    "BuildExitCode":  0,
+    "AutomationRuns":  [
+                           {
+                               "Name":  "Preview",
+                               "Filter":  "MedievalWar.OpeningState.Preview",
+                               "ExitCode":  0,
+                               "ReportExists":  true,
+                               "Succeeded":  9,
+                               "Failed":  0,
+                               "NotRun":  0,
+                               "EngineLog":  "C:\\temp2\\OS_VIS_05A_Active_Preview_Validation\\Evidence_OS_VIS_05A_20260828_163745\\Preview\\Preview_Engine.log",
+                               "ConsoleLog":  "C:\\temp2\\OS_VIS_05A_Active_Preview_Validation\\Evidence_OS_VIS_05A_20260828_163745\\Preview\\Preview_Console.log",
+                               "Report":  "C:\\temp2\\OS_VIS_05A_Active_Preview_Validation\\Evidence_OS_VIS_05A_20260828_163745\\Preview\\Report"
+                           },
+                           {
+                               "Name":  "NorwayLoader",
+                               "Filter":  "MedievalWar.SharedImporter.Norway.Loader.Contract",
+                               "ExitCode":  0,
+                               "ReportExists":  true,
+                               "Succeeded":  1,
+                               "Failed":  0,
+                               "NotRun":  0,
+                               "EngineLog":  "C:\\temp2\\OS_VIS_05A_Active_Preview_Validation\\Evidence_OS_VIS_05A_20260828_163745\\NorwayLoader\\NorwayLoader_Engine.log",
+                               "ConsoleLog":  "C:\\temp2\\OS_VIS_05A_Active_Preview_Validation\\Evidence_OS_VIS_05A_20260828_163745\\NorwayLoader\\NorwayLoader_Console.log",
+                               "Report":  "C:\\temp2\\OS_VIS_05A_Active_Preview_Validation\\Evidence_OS_VIS_05A_20260828_163745\\NorwayLoader\\Report"
+                           },
+                           {
+                               "Name":  "NorwayIsolated",
+                               "Filter":  "MedievalWar.SharedImporter.Norway",
+                               "ExitCode":  0,
+                               "ReportExists":  true,
+                               "Succeeded":  153,
+                               "Failed":  0,
+                               "NotRun":  0,
+                               "EngineLog":  "C:\\temp2\\OS_VIS_05A_Active_Preview_Validation\\Evidence_OS_VIS_05A_20260828_163745\\NorwayIsolated\\NorwayIsolated_Engine.log",
+                               "ConsoleLog":  "C:\\temp2\\OS_VIS_05A_Active_Preview_Validation\\Evidence_OS_VIS_05A_20260828_163745\\NorwayIsolated\\NorwayIsolated_Console.log",
+                               "Report":  "C:\\temp2\\OS_VIS_05A_Active_Preview_Validation\\Evidence_OS_VIS_05A_20260828_163745\\NorwayIsolated\\Report"
+                           }
+                       ],
+    "FailedAutomationRunCount":  0,
+    "FingerprintChecks":  7,
+    "MissingFingerprintCheckCount":  0,
+    "ReadyForOwnerReview":  true,
+    "SourceFilesModifiedByScript":  0,
+    "TranslationInputModifiedByScript":  false,
+    "ManifestModifiedByScript":  false,
+    "RegistryMutated":  false,
+    "GameInstanceCreatedByScript":  false,
+    "ApplyCalled":  false,
+    "SaveWritten":  false,
+    "RealmPayloadApplied":  false,
+    "TheaterActivated":  false
+}

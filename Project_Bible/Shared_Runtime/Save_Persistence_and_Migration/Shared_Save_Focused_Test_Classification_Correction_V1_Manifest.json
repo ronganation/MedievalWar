@@ -1,0 +1,22 @@
+﻿{
+    "document_id":  "mw.shared-save.focused-test-classification-correction-manifest.v1",
+    "generated_utc":  "2026-08-24T19:23:07.0426757Z",
+    "active_source_mutation_performed":  false,
+    "records":  [
+                    {
+                        "file":  "Shared_Save_Focused_Test_Execution_Receipt_V1_Corrected.json",
+                        "bytes":  13711,
+                        "sha256":  "F311F1512268B8BE664D89051C16DA63F720C63557759FCD885F269ED931E1C2"
+                    },
+                    {
+                        "file":  "Shared_Save_Focused_Test_Authoring_Gap_V1.json",
+                        "bytes":  1558,
+                        "sha256":  "C797ECD33EB38E63185F4D7F2F700CDBFC8C4514A5D939BC487BE247831F2587"
+                    },
+                    {
+                        "file":  "Shared_Save_Focused_Test_Classification_Correction_V1.md",
+                        "bytes":  816,
+                        "sha256":  "E0711B32AE084543320AC06B4A8A25E7B31ED3C3042139AC9815ED715B437C66"
+                    }
+                ]
+}

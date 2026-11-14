@@ -1,0 +1,27 @@
+{
+  "document_id": "mw.manifest.military_content.phase2.v1",
+  "version": "1.0.1",
+  "status": "StaticCheckedPhase2Packet",
+  "files": [
+    {
+      "filename": "Military_Content_Preservation_and_Removal_Ledger_V1.md",
+      "bytes": 9820,
+      "sha256": "bbca76e4adbb4200afca3f0357bb26c5ebf91869a031117db6126b3ca8f488ff"
+    },
+    {
+      "filename": "Military_Content_Conflict_and_Decision_Queue_V1.md",
+      "bytes": 6799,
+      "sha256": "9e354f336a231da3150aa0e3f2c8bd1e35819b029c2d14a0e9621af4e06589b9"
+    },
+    {
+      "filename": "Military_Content_Coverage_Matrix_V1.xlsx",
+      "bytes": 8930,
+      "sha256": "2d699d5606308e22249b90244dbd057c4c7d8096f8cb735c7f72ed2e876f96cf"
+    },
+    {
+      "filename": "Military_Content_Authority_and_Source_Map_V1.md",
+      "bytes": 14472,
+      "sha256": "b5a0a46bd88a964f64f7ec8b5d136fe45cf43e2d0bd584db9132e9a67ad553c5"
+    }
+  ]
+}

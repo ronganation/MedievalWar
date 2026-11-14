@@ -1,0 +1,27 @@
+{
+  "document": "Holland_Regional_Portfolio_Consolidation_V1_3.md",
+  "sha256": "260da1f34b516b2eb42c082b9b632b867b9279ef7fc3caeea174a2ec6b2202e8",
+  "checks": {
+    "hash_matches": true,
+    "sections_sequential": true,
+    "balanced_fences": true,
+    "candidate_source_recorded": true,
+    "access_source_recorded": true,
+    "coequal_source_model": true,
+    "candidate_scorecard_preserved": true,
+    "candidate_dispositions_preserved": true,
+    "service_handoffs_preserved": true,
+    "later_family_ideas_preserved": true,
+    "access_states_preserved": true,
+    "controller_change_preserved": true,
+    "pool_firewall_preserved": true,
+    "opening_firewall_preserved": true,
+    "no_content_loss_ledger": true,
+    "three_regional_profiles": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_chat_citation_tokens": true,
+    "nonactivation": true
+  },
+  "pass": true
+}

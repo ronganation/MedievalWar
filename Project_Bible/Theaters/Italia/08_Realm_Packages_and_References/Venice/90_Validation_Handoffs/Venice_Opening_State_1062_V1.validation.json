@@ -1,0 +1,71 @@
+{
+  "profileId": "VEN_OPENING_STATE_1062_VALIDATION_V1",
+  "schemaVersion": "1.0.0",
+  "mode": "validateOnly",
+  "authoritativeMutationAllowed": false,
+  "severity": [
+    "info",
+    "warning",
+    "error",
+    "fatal"
+  ],
+  "rules": [
+    {
+      "id": "V-001",
+      "name": "SchemaValidation",
+      "severity": "fatal"
+    },
+    {
+      "id": "V-002",
+      "name": "EighteenUniqueSections",
+      "severity": "fatal"
+    },
+    {
+      "id": "V-003",
+      "name": "AllSectionsReviewOnly",
+      "severity": "fatal"
+    },
+    {
+      "id": "V-004",
+      "name": "AcceptedSetEmpty",
+      "severity": "fatal"
+    },
+    {
+      "id": "V-005",
+      "name": "NoPublishedCanonicalBindings",
+      "severity": "fatal"
+    },
+    {
+      "id": "V-006",
+      "name": "ApplicationUnauthorized",
+      "severity": "fatal"
+    },
+    {
+      "id": "V-007",
+      "name": "UnknownNotZero",
+      "severity": "fatal"
+    },
+    {
+      "id": "V-008",
+      "name": "DefinitionNotInstance",
+      "severity": "fatal"
+    },
+    {
+      "id": "V-009",
+      "name": "NoExternalPrivateState",
+      "severity": "fatal"
+    },
+    {
+      "id": "V-010",
+      "name": "ZeroAuthoritativeMutation",
+      "severity": "fatal"
+    }
+  ],
+  "promotionBlockedUntil": [
+    "AcceptedD3CurrentAuthority",
+    "PublishedRegistryManifest",
+    "AcceptedOwnerReceiptSet",
+    "AcceptedExternalReceiptSet",
+    "ExplicitE2PromotionAuthorization"
+  ]
+}

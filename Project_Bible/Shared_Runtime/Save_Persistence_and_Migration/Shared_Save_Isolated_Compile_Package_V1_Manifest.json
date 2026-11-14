@@ -1,0 +1,64 @@
+﻿{
+    "document_id":  "mw.shared-save.isolated-compile-package.v1",
+    "generated_utc":  "2026-08-24T18:46:08.4830455Z",
+    "owner_receipt_id":  "receipt.shared-save.hybrid-isolated-implementation.v1.4394f0e15ab946f588906b5ad4136b57",
+    "implementation_target":  "Unreal Engine 5.8",
+    "classification":  "CompilePackagePreparedNotExecuted",
+    "package_root":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Compile_Package_V1",
+    "compile_preparation_checks":  {
+                                       "friend_save_owner_present":  true,
+                                       "prepare_candidate_declared":  true,
+                                       "prepare_candidate_defined":  true,
+                                       "install_loaded_declared":  true,
+                                       "install_loaded_defined":  true,
+                                       "load_routes_to_install":  true,
+                                       "historical_replace_not_called":  true,
+                                       "blueprint_callable_not_added_to_load_api":  true,
+                                       "test_source_is_specification_only":  true,
+                                       "active_source_mutation_performed":  false,
+                                       "compile_executed":  false
+                                   },
+    "active_source_mutation_performed":  false,
+    "compile_executed":  false,
+    "compile_validated":  false,
+    "runtime_validated":  false,
+    "active_source_promotion_authorized":  false,
+    "item_3_complete":  false,
+    "records":  [
+                    {
+                        "relative_path":  "Overlay/Source/MedievalWarCampaign/Private/MWCampaignSaveSubsystem.cpp",
+                        "bytes":  2225,
+                        "sha256":  "6095E366E1D1D61DE0D87EBBE12772D26B4A016132BAD44A3886BF3745D097EC"
+                    },
+                    {
+                        "relative_path":  "Overlay/Source/MedievalWarCampaign/Private/MWCampaignTurnSubsystem.cpp",
+                        "bytes":  75091,
+                        "sha256":  "91761D4D613BA998935DFACADC201D6540974A592EB0CBDA9CC650787CE147E7"
+                    },
+                    {
+                        "relative_path":  "Overlay/Source/MedievalWarCampaign/Private/Tests/MWCampaignSaveRestorationTests.cpp",
+                        "bytes":  972,
+                        "sha256":  "65F8B5A336BF5CC92029416E725215E6DB4A4674BB7E84BEB6FF7D585574A3D9"
+                    },
+                    {
+                        "relative_path":  "Overlay/Source/MedievalWarCampaign/Public/MWCampaignSaveGame.h",
+                        "bytes":  784,
+                        "sha256":  "E76EFF658521DC7A8638919799190B0CEB5F39BB9A017491FDD101D1799C1BC9"
+                    },
+                    {
+                        "relative_path":  "Overlay/Source/MedievalWarCampaign/Public/MWCampaignSaveSubsystem.h",
+                        "bytes":  849,
+                        "sha256":  "DF562CD23DE41BA24E17038621E1BDFED91CD0F67E17C6E99E0D5EDCDA2046EB"
+                    },
+                    {
+                        "relative_path":  "Overlay/Source/MedievalWarCampaign/Public/MWCampaignTurnSubsystem.h",
+                        "bytes":  11822,
+                        "sha256":  "0A42BE9CBF7681F6C6B1582AC67ED8C843435471FB5A2C68A7E02049887DF225"
+                    },
+                    {
+                        "relative_path":  "Tools/Apply_Overlay_To_Disposable_Clone.ps1",
+                        "bytes":  2040,
+                        "sha256":  "965C490BFC8E553953806EBD37C547B3A8BA11A2616AF44464C52757B13D8973"
+                    }
+                ]
+}

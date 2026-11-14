@@ -1,0 +1,23 @@
+{
+  "DocumentId": "France.UE5.8.CandidateImporter.FixtureStaticCheck.V1.1",
+  "Result": "Pass",
+  "Checks": {
+    "ParseFailures": [],
+    "YAMLAnchorFiles": [],
+    "BOMFiles": [],
+    "UnsafeFilenameEntries": [],
+    "ValidFixtureCount": 6,
+    "InvalidFixtureCount": 12,
+    "ReasonCodeCount": 12,
+    "MutationAuthorized": false
+  },
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "AliasesExecuted": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

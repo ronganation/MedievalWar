@@ -1,0 +1,27 @@
+{
+  "hard_failures": [],
+  "warnings": 6,
+  "passes": 5,
+  "collisions": [
+    "title.county_poitiers",
+    "title.duchy_gascony"
+  ],
+  "unexpected_collisions": [],
+  "network": {
+    "CanonicalRuntimeEdges": true,
+    "ConditionalInternalDirections": true,
+    "ReviewOnlyHouseholdChurchDirections": true,
+    "ExternalLockedDirections": true,
+    "RegionalPlaceholderPairs": true,
+    "RuntimeMutations": true
+  },
+  "framework": {
+    "character_identity_owner": true,
+    "network_directionality": true,
+    "dynasty_membership": true,
+    "succession_separation": true,
+    "dynasty_relationship": true,
+    "ai_proposal_boundary": false
+  },
+  "mojibake": {}
+}

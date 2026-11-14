@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.england.historical_memory.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "England_Historical_Memory.md",
+    "version": "1.0",
+    "sha256": "39a73f5dc7f1eceae35980ce3316312adb8cec5d32d468665939556f50710ea3",
+    "bytes": 31152,
+    "copy_based_rebuild": true
+  },
+  "files": [
+    {
+      "filename": "England_Historical_Memory_V1.1_Current_Authority_Refinement.md",
+      "sha256": "2e0b32d3d8f95241fee07fe2751f6e33680f8ea523c2628a811407aa3d72b1dc",
+      "bytes": 51841
+    },
+    {
+      "filename": "England_Historical_Memory_V1.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "25433d4aa4b4eaadcbc6d0601a2b650be1e3fe68c0ce73fb08fc57197b48b455",
+      "bytes": 915
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "Memory_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

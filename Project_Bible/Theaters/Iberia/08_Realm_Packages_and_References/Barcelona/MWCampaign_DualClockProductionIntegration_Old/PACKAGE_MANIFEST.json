@@ -1,0 +1,40 @@
+{
+  "package": "MedievalWarCampaign_DualClockProductionIntegration_V1_0_1",
+  "status": "Complete replacement files from current uploaded source",
+  "checks": {
+    "types_include": true,
+    "schema3": true,
+    "temporal_field": true,
+    "header_operation": true,
+    "cpp_operation": true,
+    "removed_universal_month": true,
+    "hash_temporal": true
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 827,
+      "sha256": "c3e39138c196a45fc36168de7b658cd240276f288fb60447ffcdbfcde92775ba"
+    },
+    {
+      "path": "Source/MedievalWarCampaign/Private/MWCampaignTurnSubsystem.cpp",
+      "bytes": 12398,
+      "sha256": "3ae9d0b149efc4911c666472da0beb28ba9309969c5bd29c10f5f78a11f1ce20"
+    },
+    {
+      "path": "Source/MedievalWarCampaign/Private/Tests/MWDualClockProductionIntegrationTests.cpp",
+      "bytes": 2997,
+      "sha256": "be6cad2f0ef8f7322b2f662e70e3311637dd7b4d47b22ef56ab95d284b883c4e"
+    },
+    {
+      "path": "Source/MedievalWarCampaign/Public/MWCampaignTurnSubsystem.h",
+      "bytes": 2486,
+      "sha256": "f1078d91b1c7a6323ec8dfd1d8a0ec6f97dba6d9fd3160d0c55981c94ea03eda"
+    },
+    {
+      "path": "Source/MedievalWarCampaign/Public/MWCampaignTypes.h",
+      "bytes": 20058,
+      "sha256": "a5c488970b5b82f3676331ba94f57b64acc6604a23f2fe146bb630886984bc4c"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "manifest_id": "manifest.campaign_theater.owner_receipt_intake.v1",
+  "version": "1.0.0",
+  "status": "PASS_PENDING_RECEIPT_INTAKE_STATIC_CHECK",
+  "artifact_count": 6,
+  "hashed_artifact_count": 5,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "stable_order": 10,
+      "filename": "Campaign_Theater_Owner_Receipt_Intake_V1.md",
+      "bytes": 2998,
+      "lines": 106,
+      "sha256": "7772759B0CF8489BD06B4A4F0F2B15534EADCBAC7711623C0C3CD2567D75414C"
+    },
+    {
+      "stable_order": 20,
+      "filename": "Campaign_Theater_Owner_Receipt_Intake_V1_PENDING.json",
+      "bytes": 1449,
+      "lines": 40,
+      "sha256": "E5438B0B27381BE544A9C2A3FD4BF2BFE1E066CD508077E6BE6ACA615D8C86E3",
+      "canonical_sha256": "57CB15CB66483A72DA56EF22C022D1235A339A2137147E261C6D306B623CBDE4"
+    },
+    {
+      "stable_order": 30,
+      "filename": "Campaign_Theater_Owner_Receipt_Intake_V1_Schema.json",
+      "bytes": 13539,
+      "lines": 555,
+      "sha256": "935594473663F506FBF265D16B9DE4A5C1574612A940012A6A366E1674452EC8",
+      "canonical_sha256": "AE118CAEDEA287EB079AC38D2E15C52EC8E82789030C832034CDF4181A8B65FE"
+    },
+    {
+      "stable_order": 40,
+      "filename": "Campaign_Theater_Owner_Receipt_Intake_V1_Validation_Profile.json",
+      "bytes": 2384,
+      "lines": 79,
+      "sha256": "FF5EF9725315A6E05C521988C656AEA22174F0E055C2CED35FAA541EE524634A",
+      "canonical_sha256": "A3B50ADFC9F0680430E80C4C176BE1C3E7A0041D5FC764F72D3D59F7812B4008"
+    },
+    {
+      "stable_order": 50,
+      "filename": "Campaign_Theater_Owner_Receipt_Intake_V1_Static_Check.json",
+      "bytes": 882,
+      "lines": 27,
+      "sha256": "989248E69EE3DC6CA9C842FEE44B6932AE7DD9A47892DD871C79A0B94AC583B3",
+      "canonical_sha256": "67F514711EFA2B59587F713AAEA4E0E3E14FFDEB883AFF6D3C1492FB0B9AE64C"
+    }
+  ],
+  "source_authorities": [
+    "Campaign_Theater_Owner_Response_Ledger_V1.json",
+    "Campaign_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md"
+  ],
+  "authorization_closed": true,
+  "corrections_applied": [
+    "added explicit submitted-but-unvalidated schema branch",
+    "added CTORI-008",
+    "enforced disposition-to-response-status correspondence",
+    "cleaned Markdown formatting",
+    "preserved pending JSON content and closed authorization"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "fixture_set_id": "fixtures.definition_manifest.valencia.1062.v3_4.package_v1",
+  "version": "1.0.0",
+  "manifest_id": "definition_manifest.valencia.1062.v3_4.package_v1",
+  "fixture_type": "SyntheticMutatedManifests",
+  "fixtures": [
+    {
+      "fixture_id": "POS_MAN_001",
+      "mutation": null,
+      "expected_status": "PASS",
+      "expected_error_codes": [],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_MAN_001",
+      "mutation": {
+        "path": "/manifest/source_opening_authority_version",
+        "value": "3.3.0"
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "MAN_SOURCE_VERSION"
+      ],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_MAN_002",
+      "mutation": {
+        "path": "/manifest/definition_count",
+        "value": 80
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "MAN_DEFINITION_COUNT"
+      ],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_MAN_003",
+      "mutation": {
+        "path": "/definitions/1/record_id",
+        "value": "community.valencia.artisans"
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "MAN_DUPLICATE_ID"
+      ],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_MAN_004",
+      "mutation": {
+        "path": "/definitions/0/instance_creation",
+        "value": "Allowed"
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "MAN_INSTANCE_CREATION"
+      ],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_MAN_005",
+      "mutation": {
+        "path": "/crosswalks/0/creates_second_identity",
+        "value": true
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "MAN_SECOND_IDENTITY"
+      ],
+      "expected_mutation_count": 0
+    },
+    {
+      "fixture_id": "BND_MAN_001",
+      "mutation": {
+        "path": "/manifest/registry_mutation_authorized",
+        "value": true
+      },
+      "expected_status": "REJECT",
+      "expected_error_codes": [
+        "MAN_REGISTRY_MUTATION"
+      ],
+      "expected_mutation_count": 0
+    }
+  ]
+}

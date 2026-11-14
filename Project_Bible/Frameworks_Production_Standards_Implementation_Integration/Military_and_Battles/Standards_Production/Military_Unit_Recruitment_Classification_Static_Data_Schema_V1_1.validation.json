@@ -1,0 +1,406 @@
+{
+  "validation_document": {
+    "document_id": "mw.validation.military-unit-recruitment-classification-static-data-schema.v1_1",
+    "file_name": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1.validation.json",
+    "version": "1.1.0",
+    "status": "StaticSchemaValidatedReviewOnly",
+    "validation_type": "StaticSchemaValidationContractAndRefinementReport",
+    "source_validation_file": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1.validation.json",
+    "source_schema_file": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1.yaml",
+    "target_schema_file": "Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml",
+    "historical_validation": "NotPerformed",
+    "cross_faction_pilot_validation": "NotPerformed",
+    "runtime_validation": "NotPerformed",
+    "unreal_validation": "NotPerformed",
+    "owner_acceptance": "Pending"
+  },
+  "source_artifact_evidence": {
+    "schema_version": "1.0.0",
+    "sha256": "670d2927b3066a42caf33a52efd76f7c294a429af64b27068cd14282e152673f",
+    "bytes": 33197,
+    "lines": 1032,
+    "source_semantics": "V1.1 standard, reviewed",
+    "inherited_checks": {
+      "yaml_parse": "PASS",
+      "registry_uniqueness": "PASS",
+      "subgroup_parent_references": "PASS",
+      "identifier_syntax": "PASS",
+      "nonactivation": "PASS"
+    }
+  },
+  "source_registry_counts": {
+    "military_quality_groups": 4,
+    "military_quality_subgroups": 27,
+    "recruitment_provider_classes": 14,
+    "provider_development_states": 4,
+    "recruitment_qualifier_classes": 24,
+    "recruitment_pool_classes": 10,
+    "military_pool_states": 9,
+    "access_channel_types": 8,
+    "opening_statuses": 5,
+    "public_eras": 6,
+    "progression_emergence_modes": 7,
+    "visual_relationship_types": 8,
+    "applicability_scopes": 14
+  },
+  "target_registry_counts": {
+    "military_quality_groups": 4,
+    "military_quality_subgroups": 27,
+    "recruitment_provider_classes": 14,
+    "provider_development_states": 4,
+    "recruitment_qualifier_classes": 24,
+    "recruitment_pool_classes": 10,
+    "military_pool_capacity_depths": 4,
+    "military_pool_recruitment_access_states": 4,
+    "military_pool_recovery_conditions": 3,
+    "access_channel_types": 8,
+    "opening_statuses": 5,
+    "public_eras": 6,
+    "progression_emergence_modes": 7,
+    "visual_relationship_types": 8,
+    "applicability_scopes": 14
+  },
+  "registry_count_comparison": {
+    "source_registry_count": 13,
+    "target_registry_count": 15,
+    "source_shared_identifier_count": 140,
+    "target_shared_identifier_count": 142,
+    "sentinel_count": 1,
+    "identifier_changes": [],
+    "new_identifiers": [
+      "MPS.OpenToNewRecruitment",
+      "MPS.Stable"
+    ],
+    "removed_identifiers": []
+  },
+  "registry_migration_disposition": {
+    "source_registry": "military_pool_states",
+    "source_entry_count": 9,
+    "legacy_field_disposition": {
+      "source_field": "finite_recruitment_pool_record.state_id",
+      "target_fields": [
+        "capacity_depth_id",
+        "recruitment_access_state_id",
+        "recovery_condition_id"
+      ],
+      "rule": "Map each legacy identifier only to its corresponding axis; do not infer unspecified axis values",
+      "existing_live_pool_records": "NoneInThisStaticCandidate"
+    },
+    "mappings": [
+      {
+        "old_id": "MPS.Deep",
+        "new_id": "MPS.Deep",
+        "target_registry": "military_pool_capacity_depths",
+        "identifier_changed": false,
+        "meaning_changed": false
+      },
+      {
+        "old_id": "MPS.Serviceable",
+        "new_id": "MPS.Serviceable",
+        "target_registry": "military_pool_capacity_depths",
+        "identifier_changed": false,
+        "meaning_changed": false
+      },
+      {
+        "old_id": "MPS.Shallow",
+        "new_id": "MPS.Shallow",
+        "target_registry": "military_pool_capacity_depths",
+        "identifier_changed": false,
+        "meaning_changed": false
+      },
+      {
+        "old_id": "MPS.Depleted",
+        "new_id": "MPS.Depleted",
+        "target_registry": "military_pool_capacity_depths",
+        "identifier_changed": false,
+        "meaning_changed": false
+      },
+      {
+        "old_id": "MPS.ClosedToNewRecruitment",
+        "new_id": "MPS.ClosedToNewRecruitment",
+        "target_registry": "military_pool_recruitment_access_states",
+        "identifier_changed": false,
+        "meaning_changed": false
+      },
+      {
+        "old_id": "MPS.ReplacementRestricted",
+        "new_id": "MPS.ReplacementRestricted",
+        "target_registry": "military_pool_recruitment_access_states",
+        "identifier_changed": false,
+        "meaning_changed": false
+      },
+      {
+        "old_id": "MPS.AccessSuspended",
+        "new_id": "MPS.AccessSuspended",
+        "target_registry": "military_pool_recruitment_access_states",
+        "identifier_changed": false,
+        "meaning_changed": false
+      },
+      {
+        "old_id": "MPS.Recovering",
+        "new_id": "MPS.Recovering",
+        "target_registry": "military_pool_recovery_conditions",
+        "identifier_changed": false,
+        "meaning_changed": false
+      },
+      {
+        "old_id": "MPS.ProviderLost",
+        "new_id": "MPS.ProviderLost",
+        "target_registry": "military_pool_recovery_conditions",
+        "identifier_changed": false,
+        "meaning_changed": false
+      }
+    ],
+    "new_ids": [
+      {
+        "id": "MPS.OpenToNewRecruitment",
+        "target_registry": "military_pool_recruitment_access_states"
+      },
+      {
+        "id": "MPS.Stable",
+        "target_registry": "military_pool_recovery_conditions"
+      }
+    ],
+    "sentinel": {
+      "id": "MPS.NoKnownOverlap",
+      "disposition": "RemainsSchemaSentinelAndIsNotARuntimePoolState"
+    }
+  },
+  "required_record_definitions": [
+    "military_unit_recruitment_classification_record",
+    "named_provider_binding_record",
+    "finite_recruitment_pool_record",
+    "visualization_relationship_record",
+    "realm_military_classification_map"
+  ],
+  "v1_1_refinement_contract": {
+    "four_major_quality_groups_changed": false,
+    "quality_subgroups_changed": false,
+    "provider_classes_changed": false,
+    "provider_development_states_changed": false,
+    "qualifier_classes_changed": false,
+    "pool_classes_changed": false,
+    "required_fields_added": [
+      "development.calendar_alone_sufficient",
+      "development.building_alone_sufficient",
+      "development.research_alone_sufficient",
+      "pool.depletion_rule",
+      "pool.reopening_rule",
+      "implementation.schema_activation_authorized",
+      "implementation.importer_authorized",
+      "implementation.runtime_mutation_authorized",
+      "implementation.unreal_mutation_authorized"
+    ],
+    "cardinality_directions_added": [
+      "access_channel_ids_abstract",
+      "access_channel_ids_before_live_recruitment",
+      "scenario_era_overrides",
+      "signature_behavior_ids",
+      "formation_portfolio_ids",
+      "strength_tags",
+      "weakness_tags"
+    ],
+    "schema_sentinel_added": {
+      "id": "MPS.NoKnownOverlap",
+      "semantic_name": "NoKnownOverlap",
+      "adoption_status": "SchemaSentinel",
+      "not_a_runtime_pool_state": true
+    },
+    "positive_safeguards_required": {
+      "same_inputs_double_counting_prohibited": true,
+      "quality_does_not_override_battle_role": true
+    },
+    "semantic_name_required_on_all_shared_registry_records": true,
+    "access_channel_vocabulary_status": "ProposedSchemaVocabularyPendingCrossFactionPilot"
+  },
+  "target_validation_checks": {
+    "file_identity": {
+      "target_file_exists": "PASS",
+      "target_file_name_matches": "PASS",
+      "target_version_is_1_1_0": "PASS",
+      "target_sha256": "PASS",
+      "target_bytes": "PASS",
+      "target_lines": "PASS"
+    },
+    "syntax_and_structure": {
+      "yaml_parse": "PASS",
+      "duplicate_mapping_keys_prohibited": "PASS",
+      "empty_string_prohibited": "PASS",
+      "required_top_level_sections_present": "PASS",
+      "required_record_definitions_present": "PASS",
+      "required_nested_objects_and_fields_defined": "PASS",
+      "required_array_minimums_defined": "PASS"
+    },
+    "registry_integrity": {
+      "registry_uniqueness": "PASS",
+      "identifier_syntax": "PASS",
+      "registry_prefix_conformance": "PASS",
+      "registry_reference_targets_exist": "PASS",
+      "subgroup_parent_references": "PASS",
+      "semantic_name_coverage": "PASS",
+      "no_known_overlap_sentinel_present": "PASS",
+      "schema_sentinel_excluded_from_runtime_pool_states": "PASS",
+      "pool_state_axis_references_resolve": "PASS",
+      "pool_state_migration_disposition_complete": "PASS"
+    },
+    "record_contract": {
+      "development_safeguards_present": "PASS",
+      "pool_depletion_and_reopening_fields_present": "PASS",
+      "unit_nonactivation_fields_present": "PASS",
+      "authorization_flags_constrained_false": "PASS",
+      "cardinality_contract_complete": "PASS",
+      "static_activation_ready_live_pool_stages_distinguished": "PASS",
+      "provider_pool_owner_controller_settlement_separation_contract_defined": "PASS",
+      "pool_capacity_access_recovery_axes_independent": "PASS",
+      "conditional_cross_field_assertions_explicit": "PASS",
+      "quality_role_independence_preserved": "PASS",
+      "non_card_scope_and_transport_only_guards_defined": "PASS",
+      "mercenary_order_and_naval_evidence_guards_defined": "PASS",
+      "overlap_double_count_and_survivor_persistence_guards_defined": "PASS",
+      "record_instance_cross_field_execution": "NOT_PERFORMED"
+    },
+    "nonactivation": {
+      "registry_mutation_authorized_is_false": "PASS",
+      "opening_state_mutation_authorized_is_false": "PASS",
+      "schema_activation_authorized_is_false": "PASS",
+      "payload_authorized_is_false": "PASS",
+      "importer_authorized_is_false": "PASS",
+      "runtime_mutation_authorized_is_false": "PASS",
+      "unreal_mutation_authorized_is_false": "PASS",
+      "runtime_ids_unallocated": "PASS",
+      "candidate_registry_entries_not_runtime_bindings_contract_defined": "PASS"
+    },
+    "preservation_and_governance": {
+      "four_quality_groups_preserved": "PASS",
+      "provider_development_qualifier_and_pool_classes_preserved": "PASS",
+      "access_channels_remain_provisional": "PASS",
+      "opening_and_era_vocabulary_preserved": "PASS",
+      "progression_and_visualization_relationships_preserved": "PASS",
+      "all_required_record_definitions_preserved": "PASS",
+      "static_examples_and_extension_governance_preserved": "PASS",
+      "versioning_and_migration_rules_preserved": "PASS",
+      "player_visualization_contract_preserved": "PASS",
+      "nine_step_handoff_preserved": "PASS",
+      "historical_biological_and_campaign_season_steps_preserved": "PASS",
+      "review_only_nonactivation_boundaries_preserved": "PASS",
+      "substantive_removals": "PASS"
+    }
+  },
+  "not_performed_reasons": {
+    "record_instance_cross_field_execution": "The target contains schema definitions and explicitly synthetic partial examples, not populated Realm/provider/pool record instances; no live or runtime records were created for this bounded static correction.",
+    "historical_validation": "No historical source audit was authorized or performed for this schema-only correction.",
+    "cross_faction_pilot_validation": "Pilot is a later handoff stage and was not started.",
+    "unreal_validation": "No Unreal implementation was performed or authorized.",
+    "runtime_validation": "No runtime data or simulation was created or exercised."
+  },
+  "validation_severity_contract": {
+    "BLOCKER": [
+      "TargetSchemaMissingOrUnparseable",
+      "RequiredRegistryMissing",
+      "DuplicateSharedIdentifier",
+      "SubgroupParentMismatch",
+      "RequiredV1_1FieldMissing",
+      "ProviderPoolOwnerControllerConflated",
+      "RuntimeOrOpeningActivationAuthorized",
+      "SameInputDoubleCountingPermitted",
+      "ActivationReadyWithoutValidNamedProviderOrAuthorizedAccess",
+      "LivePoolWithoutValidNamedProviderOrAuthorizedAccess",
+      "NonCardScopeCreatesRecruitableUnitRecord",
+      "PoolCapacityAccessAndRecoveryConflated"
+    ],
+    "ERROR": [
+      "SemanticNameMissingFromSharedRegistryRecord",
+      "NoKnownOverlapSentinelMissingOrRuntimeEnabled",
+      "CardinalityContractIncomplete",
+      "AccessChannelVocabularyImproperlyFrozen",
+      "MigrationContractMissing",
+      "InvalidRegistryReference",
+      "StaticReviewOnlyZeroBindingsWithoutExplicitHold",
+      "MercenaryOrderOrNavalConditionalRequirementMissing",
+      "SurvivorPersistenceReopensNewRecruitment",
+      "MutationOrActivationFlagNotFalse"
+    ],
+    "WARNING": [
+      "RegistryCountChangedWithoutDisposition",
+      "NewSharedIDUsedByOnlyOneUnresolvedRecord",
+      "SyntheticExampleUsesUndeclaredReference",
+      "QualityGroupTreatedAsPowerTier"
+    ],
+    "REVIEW": [
+      "CrossFactionPilotNotPerformed",
+      "HistoricalValidationNotPerformed",
+      "UnrealRuntimeValidationNotPerformed",
+      "OwnerAcceptancePending"
+    ]
+  },
+  "validation_results": {
+    "static_schema_validation": "PASS",
+    "source_completeness_check": "PASS",
+    "BLOCKER": {
+      "status": "PASS",
+      "unresolved_findings": []
+    },
+    "ERROR": {
+      "status": "PASS",
+      "unresolved_findings": []
+    },
+    "WARNING": {
+      "status": "PASS",
+      "open_findings": []
+    },
+    "REVIEW": {
+      "status": "REVIEW",
+      "open_items": [
+        "CrossFactionPilotNotPerformed",
+        "HistoricalValidationNotPerformed",
+        "UnrealImplementationValidationNotPerformed",
+        "OwnerAcceptancePending"
+      ]
+    },
+    "NOT_PERFORMED": {
+      "checks": [
+        "record_instance_cross_field_execution",
+        "historical_validation",
+        "cross_faction_pilot_validation",
+        "unreal_validation",
+        "runtime_validation"
+      ]
+    }
+  },
+  "historical_step2_completion_rule": {
+    "evidence_scope": "HistoricalStep2ValidationMoment",
+    "prevalidation_status": "COMPLETE",
+    "target_schema_validation_status": "PASS",
+    "pass_condition": "All executed static BLOCKER and ERROR checks pass; record-instance and external validations remain explicitly NotPerformed; REVIEW items do not authorize promotion",
+    "step2_status": "CompleteForOwnerReview",
+    "owner_acceptance": "Pending",
+    "step3_authorized": false,
+    "next_authorized_gate": "OwnerReviewBeforeAnyPilotActivationPayloadImporterRuntimeOpeningStateOrUnrealWork"
+  },
+  "current_program_status": {
+    "step3_status": "CompleteForOwnerReviewAndStep4AuthorizationDecision",
+    "step3_authorized": true,
+    "step3_execution_complete": true,
+    "step4_cross_faction_pilot": "UnauthorizedPendingOwnerGate",
+    "scotland_mapping": "Unauthorized",
+    "owner_acceptance": "Pending",
+    "next_eligible_gate": "OwnerDecisionOnStep4CrossFactionPilot"
+  },
+  "nonactivation_boundary": {
+    "registry_mutation_authorized": false,
+    "opening_state_mutation_authorized": false,
+    "schema_activation_authorized": false,
+    "payload_authorized": false,
+    "importer_authorized": false,
+    "runtime_mutation_authorized": false,
+    "unreal_mutation_authorized": false
+  },
+  "artifact_evidence": {
+    "target_schema_sha256": "be635c28b243e0091d8fdeb33af95dacbe38722b4ce048575c37f0795ef61883",
+    "target_schema_bytes": 56892,
+    "target_schema_lines": 1658,
+    "parser": "PyYAML 6.0.3 SafeLoader subclass rejecting duplicate mapping keys",
+    "yaml_parse_and_duplicate_key_result": "PASS",
+    "json_parse_result": "PASS"
+  }
+}

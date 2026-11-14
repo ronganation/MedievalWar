@@ -1,0 +1,21 @@
+{
+  "document": "Wessex_Axemen_V1_2_Double_Checked_Mature_Regional_Counterattack_Refinement_Master_Unit_Profile.md",
+  "sha256": "ffae848985bfce4b489009bdde90e06ad0557da96cba9663e9739db9ffc473e7",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_41": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "terrain_matrix_preserved": true,
+    "regional_owner": true,
+    "three_threshold_gate": true,
+    "shield_direction_resolved": true,
+    "regional_flavor": true,
+    "identity_lock": true,
+    "stable_footer": true,
+    "fences_balanced": true,
+    "no_em_dash": true,
+    "nonmutation": true
+  },
+  "pass": true
+}

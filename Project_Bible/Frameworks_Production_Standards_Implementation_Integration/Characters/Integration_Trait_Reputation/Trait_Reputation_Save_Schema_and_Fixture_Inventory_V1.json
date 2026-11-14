@@ -1,0 +1,30 @@
+{
+    "$schema":  "https://json-schema.org/draft/2020-12/schema",
+    "artifact":  {
+                     "type":  "TraitReputationSaveSchemaFixtureInventory",
+                     "name":  "Trait Reputation Save Schema and Fixture Inventory V1",
+                     "version":  "1.0",
+                     "status":  "NoSaveCandidatesFound_SaveClosureBlocked"
+                 },
+    "repository":  {
+                       "root":  "C:\\Medieval War\\Medieval War (England)",
+                       "uproject":  "C:\\UnrealProjects\\MedievalWar\\MedievalWar.uproject",
+                       "scanned_save_roots":  [
+
+                                              ]
+                   },
+    "counts":  {
+                   "save_roots":  0,
+                   "save_or_fixture_candidates":  0
+               },
+    "records":  [
+
+                ],
+    "run":  {
+                "source_saves_modified":  0,
+                "save_mutations":  0,
+                "content_mutations":  0,
+                "runtime_mutations":  0,
+                "migration_execution_authorized":  false
+            }
+}

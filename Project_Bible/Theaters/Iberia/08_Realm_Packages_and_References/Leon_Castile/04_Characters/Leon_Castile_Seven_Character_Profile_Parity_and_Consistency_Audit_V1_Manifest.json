@@ -1,0 +1,43 @@
+{
+  "document_id": "Manifest.Audit.LeonCastile.SevenCharacterProfileParityConsistency.V1",
+  "audit_file": "Leon_Castile_Seven_Character_Profile_Parity_and_Consistency_Audit_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-07",
+  "placement": "Leon_Castile/Character_Profiles",
+  "bytes": 30228,
+  "physical_lines": 767,
+  "sha256": "627F07978B7BA841928C17A5AF9DB07AC0711A0BDA75A25F182D974402C69EFF",
+  "fence_count": 64,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "status": "StaticCheckedAuditReviewOnly",
+  "profiles_reviewed": [
+    "Ferdinand_I_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md",
+    "Sancha_of_Leon_V1_Developed_Character_Profile_Authority.md",
+    "Sancho_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md",
+    "Alfonso_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md",
+    "Garcia_of_Galicia_V1_Developed_Character_Profile_Authority.md",
+    "Urraca_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md",
+    "Elvira_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md"
+  ],
+  "successors_required": [
+    "Character Authorities V3",
+    "Character Network V2",
+    "Dynasty Authority V2",
+    "Governance Delegated Authority V2",
+    "Realm Personality AI V2",
+    "Ecclesiastical Content V2",
+    "Registry preflight",
+    "Opening State V2 reconciliation"
+  ],
+  "next_file": "Leon_Castile_Character_Authorities_V3_Seven_Profile_Integrated_Authority.md",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "ReputationDimensionRegistrySnapshot",
+    "name": "Reputation Dimension Registry",
+    "version": "1.1.0",
+    "status": "CommittedCanonicalRegistry",
+    "authority_class": "Canonical Registry Snapshot",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Reputation_Dimension_Registry_V1_1.json"
+  },
+  "registry": {
+    "registry_id": "reputation-characteraudience.v1",
+    "namespace": "Reputation.CharacterAudience",
+    "record_kind": "AudienceSpecificReputationDimension",
+    "registry_version": "1.1.0",
+    "schema_version": "1.0",
+    "owner_authority_id": "IntegrationAuthorities.Characters.TraitReputation.RegistryGovernance",
+    "previous_snapshot_file": "Reputation_Dimension_Registry_V1.json",
+    "previous_snapshot_record_count": 0,
+    "commit_decision_file": "Trait_Reputation_Registry_Record_Commit_Decision_V1.json",
+    "records": [
+      {
+        "CanonicalId": "Reputation.CharacterAudience.LionlikeValorReception",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "AudienceSpecificReputationDimension",
+        "OwningSystemId": "ReputationAuthority.CharacterAudience",
+        "DisplayKey": "loc.reputation.character_audience.LionlikeValorReception.name",
+        "DescriptionKey": "loc.reputation.character_audience.LionlikeValorReception.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.078",
+          "LegacyDisplayLabel": "The Lion",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Audience reception of verified valor, leadership, or protection.",
+        "AudienceKinds": [
+          "TypedAudienceScopeRequired"
+        ],
+        "EvidenceKinds": [
+          "HistoricalMemoryEvidenceReference"
+        ],
+        "KnowledgeVisibilityRules": [
+          "InformationPathRequired",
+          "UnknownIsNotZero"
+        ],
+        "AdoptionRules": [
+          "EvidenceBackedAudienceAdoption"
+        ],
+        "ConfidenceUncertaintyRules": [
+          "UncertaintyPreserved"
+        ],
+        "ContradictionRules": [
+          "ContradictoryEvidenceReevaluatesReception"
+        ],
+        "SuspensionRules": [
+          "OwnerValidatedSuspension"
+        ],
+        "DecayOrPersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "RemovalRules": [
+          "OwnerValidatedRemoval"
+        ],
+        "PresentationBands": [
+          "DerivedPresentationOnly"
+        ],
+        "StrategicConsumerBindings": [],
+        "AIReasonTags": [
+          "ReputationReason.LionlikeValorReception"
+        ],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "ReputationIsNotFact",
+          "AudienceRequired",
+          "HistoricalMemoryBoundaryRequired",
+          "EpithetIsNotPersonId"
+        ],
+        "HistoricalMemoryBoundaryRequired": true,
+        "DerivedEpithetOnly": true,
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Reputation.CharacterAudience.ConquestReception",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "AudienceSpecificReputationDimension",
+        "OwningSystemId": "ReputationAuthority.CharacterAudience",
+        "DisplayKey": "loc.reputation.character_audience.ConquestReception.name",
+        "DescriptionKey": "loc.reputation.character_audience.ConquestReception.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.079",
+          "LegacyDisplayLabel": "The Conqueror",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Audience reception of verified conquest.",
+        "AudienceKinds": [
+          "TypedAudienceScopeRequired"
+        ],
+        "EvidenceKinds": [
+          "HistoricalMemoryEvidenceReference"
+        ],
+        "KnowledgeVisibilityRules": [
+          "InformationPathRequired",
+          "UnknownIsNotZero"
+        ],
+        "AdoptionRules": [
+          "EvidenceBackedAudienceAdoption"
+        ],
+        "ConfidenceUncertaintyRules": [
+          "UncertaintyPreserved"
+        ],
+        "ContradictionRules": [
+          "ContradictoryEvidenceReevaluatesReception"
+        ],
+        "SuspensionRules": [
+          "OwnerValidatedSuspension"
+        ],
+        "DecayOrPersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "RemovalRules": [
+          "OwnerValidatedRemoval"
+        ],
+        "PresentationBands": [
+          "DerivedPresentationOnly"
+        ],
+        "StrategicConsumerBindings": [],
+        "AIReasonTags": [
+          "ReputationReason.ConquestReception"
+        ],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "ReputationIsNotFact",
+          "AudienceRequired",
+          "HistoricalMemoryBoundaryRequired",
+          "EpithetIsNotPersonId"
+        ],
+        "HistoricalMemoryBoundaryRequired": true,
+        "DerivedEpithetOnly": true,
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Reputation.CharacterAudience.PeacemakingReception",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "AudienceSpecificReputationDimension",
+        "OwningSystemId": "ReputationAuthority.CharacterAudience",
+        "DisplayKey": "loc.reputation.character_audience.PeacemakingReception.name",
+        "DescriptionKey": "loc.reputation.character_audience.PeacemakingReception.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.080",
+          "LegacyDisplayLabel": "The Peacemaker",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Audience reception of verified settlement or conflict resolution.",
+        "AudienceKinds": [
+          "TypedAudienceScopeRequired"
+        ],
+        "EvidenceKinds": [
+          "HistoricalMemoryEvidenceReference"
+        ],
+        "KnowledgeVisibilityRules": [
+          "InformationPathRequired",
+          "UnknownIsNotZero"
+        ],
+        "AdoptionRules": [
+          "EvidenceBackedAudienceAdoption"
+        ],
+        "ConfidenceUncertaintyRules": [
+          "UncertaintyPreserved"
+        ],
+        "ContradictionRules": [
+          "ContradictoryEvidenceReevaluatesReception"
+        ],
+        "SuspensionRules": [
+          "OwnerValidatedSuspension"
+        ],
+        "DecayOrPersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "RemovalRules": [
+          "OwnerValidatedRemoval"
+        ],
+        "PresentationBands": [
+          "DerivedPresentationOnly"
+        ],
+        "StrategicConsumerBindings": [],
+        "AIReasonTags": [
+          "ReputationReason.PeacemakingReception"
+        ],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "ReputationIsNotFact",
+          "AudienceRequired",
+          "HistoricalMemoryBoundaryRequired",
+          "EpithetIsNotPersonId"
+        ],
+        "HistoricalMemoryBoundaryRequired": true,
+        "DerivedEpithetOnly": true,
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Reputation.CharacterAudience.SaintlinessReception",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "AudienceSpecificReputationDimension",
+        "OwningSystemId": "ReputationAuthority.CharacterAudience",
+        "DisplayKey": "loc.reputation.character_audience.SaintlinessReception.name",
+        "DescriptionKey": "loc.reputation.character_audience.SaintlinessReception.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.081",
+          "LegacyDisplayLabel": "The Saintly",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Religious audience recognition subject to institutional and evidence rules.",
+        "AudienceKinds": [
+          "TypedAudienceScopeRequired"
+        ],
+        "EvidenceKinds": [
+          "HistoricalMemoryEvidenceReference"
+        ],
+        "KnowledgeVisibilityRules": [
+          "InformationPathRequired",
+          "UnknownIsNotZero"
+        ],
+        "AdoptionRules": [
+          "EvidenceBackedAudienceAdoption"
+        ],
+        "ConfidenceUncertaintyRules": [
+          "UncertaintyPreserved"
+        ],
+        "ContradictionRules": [
+          "ContradictoryEvidenceReevaluatesReception"
+        ],
+        "SuspensionRules": [
+          "OwnerValidatedSuspension"
+        ],
+        "DecayOrPersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "RemovalRules": [
+          "OwnerValidatedRemoval"
+        ],
+        "PresentationBands": [
+          "DerivedPresentationOnly"
+        ],
+        "StrategicConsumerBindings": [],
+        "AIReasonTags": [
+          "ReputationReason.SaintlinessReception"
+        ],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "ReputationIsNotFact",
+          "AudienceRequired",
+          "HistoricalMemoryBoundaryRequired",
+          "EpithetIsNotPersonId"
+        ],
+        "HistoricalMemoryBoundaryRequired": true,
+        "DerivedEpithetOnly": true,
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Reputation.CharacterAudience.ConstructionAchievementReception",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "AudienceSpecificReputationDimension",
+        "OwningSystemId": "ReputationAuthority.CharacterAudience",
+        "DisplayKey": "loc.reputation.character_audience.ConstructionAchievementReception.name",
+        "DescriptionKey": "loc.reputation.character_audience.ConstructionAchievementReception.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.082",
+          "LegacyDisplayLabel": "The Builder",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Audience reception of known construction or institutional achievement.",
+        "AudienceKinds": [
+          "TypedAudienceScopeRequired"
+        ],
+        "EvidenceKinds": [
+          "HistoricalMemoryEvidenceReference"
+        ],
+        "KnowledgeVisibilityRules": [
+          "InformationPathRequired",
+          "UnknownIsNotZero"
+        ],
+        "AdoptionRules": [
+          "EvidenceBackedAudienceAdoption"
+        ],
+        "ConfidenceUncertaintyRules": [
+          "UncertaintyPreserved"
+        ],
+        "ContradictionRules": [
+          "ContradictoryEvidenceReevaluatesReception"
+        ],
+        "SuspensionRules": [
+          "OwnerValidatedSuspension"
+        ],
+        "DecayOrPersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "RemovalRules": [
+          "OwnerValidatedRemoval"
+        ],
+        "PresentationBands": [
+          "DerivedPresentationOnly"
+        ],
+        "StrategicConsumerBindings": [],
+        "AIReasonTags": [
+          "ReputationReason.ConstructionAchievementReception"
+        ],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "ReputationIsNotFact",
+          "AudienceRequired",
+          "HistoricalMemoryBoundaryRequired",
+          "EpithetIsNotPersonId"
+        ],
+        "HistoricalMemoryBoundaryRequired": true,
+        "DerivedEpithetOnly": true,
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Reputation.CharacterAudience.WisdomReception",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "AudienceSpecificReputationDimension",
+        "OwningSystemId": "ReputationAuthority.CharacterAudience",
+        "DisplayKey": "loc.reputation.character_audience.WisdomReception.name",
+        "DescriptionKey": "loc.reputation.character_audience.WisdomReception.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.083",
+          "LegacyDisplayLabel": "The Wise",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Audience reception of judgment, learning, or outcomes, not learning capacity.",
+        "AudienceKinds": [
+          "TypedAudienceScopeRequired"
+        ],
+        "EvidenceKinds": [
+          "HistoricalMemoryEvidenceReference"
+        ],
+        "KnowledgeVisibilityRules": [
+          "InformationPathRequired",
+          "UnknownIsNotZero"
+        ],
+        "AdoptionRules": [
+          "EvidenceBackedAudienceAdoption"
+        ],
+        "ConfidenceUncertaintyRules": [
+          "UncertaintyPreserved"
+        ],
+        "ContradictionRules": [
+          "ContradictoryEvidenceReevaluatesReception"
+        ],
+        "SuspensionRules": [
+          "OwnerValidatedSuspension"
+        ],
+        "DecayOrPersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "RemovalRules": [
+          "OwnerValidatedRemoval"
+        ],
+        "PresentationBands": [
+          "DerivedPresentationOnly"
+        ],
+        "StrategicConsumerBindings": [],
+        "AIReasonTags": [
+          "ReputationReason.WisdomReception"
+        ],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "ReputationIsNotFact",
+          "AudienceRequired",
+          "HistoricalMemoryBoundaryRequired",
+          "EpithetIsNotPersonId"
+        ],
+        "HistoricalMemoryBoundaryRequired": true,
+        "DerivedEpithetOnly": true,
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Reputation.CharacterAudience.ViolenceInfamyReception",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "AudienceSpecificReputationDimension",
+        "OwningSystemId": "ReputationAuthority.CharacterAudience",
+        "DisplayKey": "loc.reputation.character_audience.ViolenceInfamyReception.name",
+        "DescriptionKey": "loc.reputation.character_audience.ViolenceInfamyReception.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.084",
+          "LegacyDisplayLabel": "The Butcher",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Hostile or fearful audience reception of known violence.",
+        "AudienceKinds": [
+          "TypedAudienceScopeRequired"
+        ],
+        "EvidenceKinds": [
+          "HistoricalMemoryEvidenceReference"
+        ],
+        "KnowledgeVisibilityRules": [
+          "InformationPathRequired",
+          "UnknownIsNotZero"
+        ],
+        "AdoptionRules": [
+          "EvidenceBackedAudienceAdoption"
+        ],
+        "ConfidenceUncertaintyRules": [
+          "UncertaintyPreserved"
+        ],
+        "ContradictionRules": [
+          "ContradictoryEvidenceReevaluatesReception"
+        ],
+        "SuspensionRules": [
+          "OwnerValidatedSuspension"
+        ],
+        "DecayOrPersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "RemovalRules": [
+          "OwnerValidatedRemoval"
+        ],
+        "PresentationBands": [
+          "DerivedPresentationOnly"
+        ],
+        "StrategicConsumerBindings": [],
+        "AIReasonTags": [
+          "ReputationReason.ViolenceInfamyReception"
+        ],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "ReputationIsNotFact",
+          "AudienceRequired",
+          "HistoricalMemoryBoundaryRequired",
+          "EpithetIsNotPersonId"
+        ],
+        "HistoricalMemoryBoundaryRequired": true,
+        "DerivedEpithetOnly": true,
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Reputation.CharacterAudience.CruelConductReception",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "AudienceSpecificReputationDimension",
+        "OwningSystemId": "ReputationAuthority.CharacterAudience",
+        "DisplayKey": "loc.reputation.character_audience.CruelConductReception.name",
+        "DescriptionKey": "loc.reputation.character_audience.CruelConductReception.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.085",
+          "LegacyDisplayLabel": "The Cruel",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Audience reception of known cruel conduct, distinct from cruelty disposition.",
+        "AudienceKinds": [
+          "TypedAudienceScopeRequired"
+        ],
+        "EvidenceKinds": [
+          "HistoricalMemoryEvidenceReference"
+        ],
+        "KnowledgeVisibilityRules": [
+          "InformationPathRequired",
+          "UnknownIsNotZero"
+        ],
+        "AdoptionRules": [
+          "EvidenceBackedAudienceAdoption"
+        ],
+        "ConfidenceUncertaintyRules": [
+          "UncertaintyPreserved"
+        ],
+        "ContradictionRules": [
+          "ContradictoryEvidenceReevaluatesReception"
+        ],
+        "SuspensionRules": [
+          "OwnerValidatedSuspension"
+        ],
+        "DecayOrPersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "RemovalRules": [
+          "OwnerValidatedRemoval"
+        ],
+        "PresentationBands": [
+          "DerivedPresentationOnly"
+        ],
+        "StrategicConsumerBindings": [],
+        "AIReasonTags": [
+          "ReputationReason.CruelConductReception"
+        ],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "ReputationIsNotFact",
+          "AudienceRequired",
+          "HistoricalMemoryBoundaryRequired",
+          "EpithetIsNotPersonId"
+        ],
+        "HistoricalMemoryBoundaryRequired": true,
+        "DerivedEpithetOnly": true,
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      },
+      {
+        "CanonicalId": "Reputation.CharacterAudience.UsurpationReception",
+        "RegistryVersion": "1.1.0",
+        "DefinitionVersion": "1.0.0",
+        "SemanticClass": "AudienceSpecificReputationDimension",
+        "OwningSystemId": "ReputationAuthority.CharacterAudience",
+        "DisplayKey": "loc.reputation.character_audience.UsurpationReception.name",
+        "DescriptionKey": "loc.reputation.character_audience.UsurpationReception.description",
+        "Status": "Canonical",
+        "Provenance": {
+          "SourceEntryId": "legacy.character_trait_library.entry.086",
+          "LegacyDisplayLabel": "The Usurper",
+          "DecisionFile": "Trait_Reputation_Individual_Candidate_ID_Decision_Pass_V1.json",
+          "StagingManifest": "Trait_Reputation_Registry_Record_Staging_Manifest_V1.json"
+        },
+        "Meaning": "Contested political reception of succession or title acquisition.",
+        "AudienceKinds": [
+          "TypedAudienceScopeRequired"
+        ],
+        "EvidenceKinds": [
+          "HistoricalMemoryEvidenceReference"
+        ],
+        "KnowledgeVisibilityRules": [
+          "InformationPathRequired",
+          "UnknownIsNotZero"
+        ],
+        "AdoptionRules": [
+          "EvidenceBackedAudienceAdoption"
+        ],
+        "ConfidenceUncertaintyRules": [
+          "UncertaintyPreserved"
+        ],
+        "ContradictionRules": [
+          "ContradictoryEvidenceReevaluatesReception"
+        ],
+        "SuspensionRules": [
+          "OwnerValidatedSuspension"
+        ],
+        "DecayOrPersistencePolicy": "DefinitionSpecific_PendingRuntimeContract",
+        "RemovalRules": [
+          "OwnerValidatedRemoval"
+        ],
+        "PresentationBands": [
+          "DerivedPresentationOnly"
+        ],
+        "StrategicConsumerBindings": [],
+        "AIReasonTags": [
+          "ReputationReason.UsurpationReception"
+        ],
+        "ValidationRules": [
+          "CanonicalIdMatchesApprovedNamespaceGrammar",
+          "SourceEntryIdRequired",
+          "MutableRuntimeStateProhibited",
+          "OwnerBoundaryRequired",
+          "VersionAndProvenanceRequired",
+          "ReputationIsNotFact",
+          "AudienceRequired",
+          "HistoricalMemoryBoundaryRequired",
+          "EpithetIsNotPersonId"
+        ],
+        "HistoricalMemoryBoundaryRequired": true,
+        "DerivedEpithetOnly": true,
+        "RuntimeWritePermitted": false,
+        "SaveWritePermitted": false
+      }
+    ],
+    "record_count": 9,
+    "deprecated_ids": [],
+    "deprecated_id_count": 0,
+    "direct_aliases": [],
+    "direct_alias_count": 0,
+    "quarantine": [],
+    "quarantine_count": 0
+  },
+  "write_policy": {
+    "future_record_write_requires_versioned_registry_decision": true,
+    "direct_alias_only": true,
+    "alias_chains_prohibited": true,
+    "deprecated_id_write_prohibited": true,
+    "display_name_matching_prohibited": true,
+    "filename_matching_prohibited": true,
+    "runtime_write_prohibited": true,
+    "save_write_prohibited": true
+  },
+  "run": {
+    "mode": "AuthoritativeRegistryCommit",
+    "execution_status": "Completed",
+    "verdict": "PassRegistrySnapshotCommitted",
+    "records_committed": 9,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "validation": {
+    "all_ids_unique": true,
+    "all_source_ids_unique": true,
+    "grammar_valid": true,
+    "mutable_runtime_state_absent": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_executed": false
+  }
+}

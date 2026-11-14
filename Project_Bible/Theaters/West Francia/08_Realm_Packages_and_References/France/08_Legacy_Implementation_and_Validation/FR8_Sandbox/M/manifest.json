@@ -1,0 +1,90 @@
+{
+  "DocumentId": "France.UE5.8.CandidateSandboxPatchManifest.V1",
+  "Package": "France_UE5_8_Candidate_Sandbox_Module_Patch_V1",
+  "Status": "SourcePatchOnlyNotApplied",
+  "Files": [
+    {
+      "File": "Config/candidate_settings.json",
+      "Bytes": 461,
+      "SHA256": "c526a45f437d78bb770a69fb6ed79d98cacd489e3545790ec0384110331da535"
+    },
+    {
+      "File": "README.md",
+      "Bytes": 559,
+      "SHA256": "7abc7b98dddd0f237485ecd922248f3baf9223fc320576a081ab91d6af09a5c8"
+    },
+    {
+      "File": "Source/MWFranceCandidate/MWFranceCandidate.Build.cs",
+      "Bytes": 340,
+      "SHA256": "58de705ac3f8fc4fd7faa4a8cd5a317852e69dac70a76d2f5682c415261d83d4"
+    },
+    {
+      "File": "Source/MWFranceCandidate/Private/MWFranceCandidateImporter.cpp",
+      "Bytes": 1402,
+      "SHA256": "3620961c2242cb8d61ea896ed3b2a9b446e367adefe43d6be628c04acb9df5cb"
+    },
+    {
+      "File": "Source/MWFranceCandidate/Private/MWFranceCandidateModule.cpp",
+      "Bytes": 237,
+      "SHA256": "4f0d7ca89388e8a5667ad86c3018a16d097ceac8df546c17d533979dd8e95f7c"
+    },
+    {
+      "File": "Source/MWFranceCandidate/Private/MWFranceCandidateValidation.cpp",
+      "Bytes": 508,
+      "SHA256": "9867954299c767617ff67f81292f54e2d9da80dffd052b968a9827a0b0a72800"
+    },
+    {
+      "File": "Source/MWFranceCandidate/Public/MWFranceCandidateDataAsset.h",
+      "Bytes": 698,
+      "SHA256": "9785b8ab072d11eabe4e4a7c2d8591edd7f881aa7853f68ead3e633cce76a9ce"
+    },
+    {
+      "File": "Source/MWFranceCandidate/Public/MWFranceCandidateImporter.h",
+      "Bytes": 326,
+      "SHA256": "8c2dc5e83308c50f717bb7ec7e3f8a039fcd8072b7b49d6902ede31dfac66d8e"
+    },
+    {
+      "File": "Source/MWFranceCandidate/Public/MWFranceCandidateModule.h",
+      "Bytes": 213,
+      "SHA256": "a085846c81c14dbd8e43e243afe9542cf811a0a2059744b59a280d212e20ea1b"
+    },
+    {
+      "File": "Source/MWFranceCandidate/Public/MWFranceCandidateTypes.h",
+      "Bytes": 1539,
+      "SHA256": "4a38b64ae4bd8e2e29a900e25d7dc67c36462a6ccbd2bcc91c2964f70aeec2ba"
+    },
+    {
+      "File": "Source/MWFranceCandidate/Public/MWFranceCandidateValidation.h",
+      "Bytes": 308,
+      "SHA256": "c102a5e679025d05b223dd9cb98d42ec885e3fad751d433eb25691e9adb3c452"
+    },
+    {
+      "File": "Tests/expected_checks.json",
+      "Bytes": 569,
+      "SHA256": "886f23d480d64cbf66952b6b708718f7cdc5179853d00be87777e9d90ca0fb73"
+    }
+  ],
+  "Counts": {
+    "SourceFiles": 8,
+    "ConfigFiles": 1,
+    "TestFiles": 1,
+    "ReadmeFiles": 1,
+    "ManifestFiles": 1
+  },
+  "Validation": {
+    "TextFilesDecodedUTF8": true,
+    "ArchiveCRCError": null,
+    "CompileValidated": false,
+    "EditorValidated": false,
+    "RuntimeValidated": false
+  },
+  "MutationStatus": {
+    "UnrealProjectFilesModified": 0,
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

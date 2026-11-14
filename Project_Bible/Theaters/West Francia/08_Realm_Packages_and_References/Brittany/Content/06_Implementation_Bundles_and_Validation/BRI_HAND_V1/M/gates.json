@@ -1,0 +1,39 @@
+{
+  "gates": [
+    {
+      "id": "G0",
+      "name": "PackageIntegrity",
+      "status": "PendingExternalInputs"
+    },
+    {
+      "id": "G1",
+      "name": "ReadOnlyProjectDiscovery",
+      "status": "ReadyToRunLocally"
+    },
+    {
+      "id": "G2",
+      "name": "NativeTypeAdjudication",
+      "status": "BlockedPendingG1"
+    },
+    {
+      "id": "G3",
+      "name": "ZeroWriteImporterDryRun",
+      "status": "BlockedPendingG2"
+    },
+    {
+      "id": "G4",
+      "name": "SandboxMaterialization",
+      "status": "NotAuthorized"
+    },
+    {
+      "id": "G5",
+      "name": "CompileEditorSaveMigrationReplayPerformance",
+      "status": "NotAuthorized"
+    },
+    {
+      "id": "G6",
+      "name": "ProductionPromotion",
+      "status": "NotAuthorized"
+    }
+  ]
+}

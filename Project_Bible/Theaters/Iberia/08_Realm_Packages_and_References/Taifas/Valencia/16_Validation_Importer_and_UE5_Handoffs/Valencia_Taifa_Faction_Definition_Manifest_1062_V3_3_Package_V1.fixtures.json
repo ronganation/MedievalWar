@@ -1,0 +1,197 @@
+{
+  "fixture_set_id": "fixtures.definition_manifest.valencia.1062.v3_3.package_v1",
+  "version": "1.0.0",
+  "synthetic_data_notice": "All patches are synthetic validation cases and are not campaign content.",
+  "fixtures": [
+    {
+      "fixture_id": "POS001",
+      "class": "Positive",
+      "description": "Unmodified definition manifest validates statically",
+      "mutation_patch": {},
+      "expected_status": "Pass",
+      "expected_error_codes": [],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "POS002",
+      "class": "Positive",
+      "description": "ReviewOnly site remains quarantined",
+      "mutation_patch": {
+        "definition_id": "site.valencia.xativa_shatiba",
+        "manifest_status": "DefinitionCandidate"
+      },
+      "expected_status": "PassWithQuarantine",
+      "expected_error_codes": [],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG001",
+      "class": "Negative",
+      "description": "Definition creates person instance",
+      "mutation_patch": {
+        "definition_creates_person": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "DEF001"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG002",
+      "class": "Negative",
+      "description": "Office definition creates appointment",
+      "mutation_patch": {
+        "definition_creates_appointment": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "DEF002"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG003",
+      "class": "Negative",
+      "description": "Force family creates force instance",
+      "mutation_patch": {
+        "definition_creates_force_instance": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "DEF003"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG004",
+      "class": "Negative",
+      "description": "Definition creates recruitment pool",
+      "mutation_patch": {
+        "definition_creates_recruitment_pool": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "DEF004"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG005",
+      "class": "Negative",
+      "description": "Route definition becomes operational",
+      "mutation_patch": {
+        "definition_creates_route_operation": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "DEF006"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG006",
+      "class": "Negative",
+      "description": "External relation creates agreement",
+      "mutation_patch": {
+        "definition_creates_external_agreement": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "DEF007"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG007",
+      "class": "Negative",
+      "description": "Legacy alias creates second identity",
+      "mutation_patch": {
+        "crosswalk.creates_second_identity": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "ID002"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG008",
+      "class": "Negative",
+      "description": "Unknown creates default value",
+      "mutation_patch": {
+        "unknown_creates_default": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "UNC001"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG009",
+      "class": "Negative",
+      "description": "ReviewOnly definition activates",
+      "mutation_patch": {
+        "review_only_creates_activation": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "REV001"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "NEG010",
+      "class": "Negative",
+      "description": "Historical summary count reconstructed as exact definitions",
+      "mutation_patch": {
+        "historical_exact_definitions_reconstructed": true
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "HIS001"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "BND001",
+      "class": "Boundary",
+      "description": "Historical namespaces remain quarantined pending exact owner import",
+      "mutation_patch": {
+        "definition_id": "memory.valencia"
+      },
+      "expected_status": "PassWithQuarantine",
+      "expected_error_codes": [],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    },
+    {
+      "fixture_id": "BND002",
+      "class": "Boundary",
+      "description": "Missing required realm definition rejects promotion",
+      "mutation_patch": {
+        "remove_definition_id": "realm.valencia"
+      },
+      "expected_status": "Reject",
+      "expected_error_codes": [
+        "MAN002"
+      ],
+      "expected_runtime_mutations": 0,
+      "execution_status": "DefinedNotExecuted"
+    }
+  ],
+  "execution_status": "DefinedNotExecuted"
+}

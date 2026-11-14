@@ -1,0 +1,26 @@
+{
+  "document_id": "StaticCheck.AuthorityControlContradictionLedger.Realm.SevilleTaifa.1062.V2",
+  "subject": "Seville_Taifa_January_1062_Authority_and_Control_Contradiction_Ledger_V2.md",
+  "subject_sha256": "1EB759D34DAF88B0E95D16A6AE37D63551B6FB77628B9C3C5C1D6C812F71F9B8",
+  "status": "PASS",
+  "checks": {
+    "source_bytes": 40760,
+    "source_lines": 969,
+    "source_sha256": "E7FBA51DDC6FC23288D9DC02EC9155B9BFE4D10AAEF94FEA69548B432C4FC0BD",
+    "historical_V2_sha256": "F90217D6E834EF97305220D5813AB29BF4C885B0D2B0CBB435CAF14E3BF4B896",
+    "successor_bytes": 51806,
+    "successor_lines": 1163,
+    "successor_sha256": "1EB759D34DAF88B0E95D16A6AE37D63551B6FB77628B9C3C5C1D6C812F71F9B8",
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "inherited_contradiction_families": 30,
+    "substantive_removals": 0,
+    "three_track": true,
+    "legacy_validation_promoted": false,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "result": "All thirty V1 contradiction families preserved; current owner routing and package-state reconciliation added; zero mutation."
+}

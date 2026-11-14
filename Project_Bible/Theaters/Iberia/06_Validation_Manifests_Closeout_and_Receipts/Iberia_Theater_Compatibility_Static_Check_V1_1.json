@@ -1,0 +1,252 @@
+{
+  "report_id": "static_check.iberia.theater_compatibility.v1_1",
+  "version": "1.1.0",
+  "status": "PASS_IMPLEMENTED_CHECKS_WITH_NOT_EVALUABLE_GAPS",
+  "schema_errors": [],
+  "rule_results": [
+    {
+      "code": "IBERIA_COUNT_001",
+      "status": "Pass",
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "code": "IBERIA_ASSOC_001",
+      "status": "Pass",
+      "actual": [
+        "theater.iberia",
+        "theater.iberia",
+        "theater.iberia",
+        "theater.iberia",
+        "theater.iberia",
+        "theater.iberia",
+        "theater.iberia"
+      ],
+      "expected": "theater.iberia"
+    },
+    {
+      "code": "IBERIA_ASSOC_002",
+      "status": "Pass",
+      "actual": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "expected": false
+    },
+    {
+      "code": "IBERIA_READY_001",
+      "status": "Pass",
+      "actual": [
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked",
+        "Blocked"
+      ],
+      "expected": "Blocked"
+    },
+    {
+      "code": "IBERIA_AUTH_001",
+      "status": "Pass",
+      "actual": [
+        [
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited"
+        ],
+        [
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited"
+        ],
+        [
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited"
+        ],
+        [
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited"
+        ],
+        [
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited"
+        ],
+        [
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited"
+        ],
+        [
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited",
+          "prohibited"
+        ]
+      ],
+      "expected": "prohibited"
+    },
+    {
+      "code": "IBERIA_ID_001",
+      "status": "Pass",
+      "actual": [
+        "candidate.theater_compatibility.leon_castile.iberia.v1",
+        "candidate.theater_compatibility.barcelona.iberia.v1",
+        "candidate.theater_compatibility.aragon.iberia.v1",
+        "candidate.theater_compatibility.almoravid.iberia.v1",
+        "candidate.theater_compatibility.badajoz.iberia.v1",
+        "candidate.theater_compatibility.seville.iberia.v1",
+        "candidate.theater_compatibility.valencia.iberia.v1"
+      ],
+      "expected": true
+    },
+    {
+      "code": "IBERIA_ORDER_001",
+      "status": "Pass",
+      "actual": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70
+      ],
+      "expected": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70
+      ]
+    },
+    {
+      "code": "IBERIA_ASSOC_003",
+      "status": "Pass",
+      "actual": {
+        "Primary": 6,
+        "Expeditionary": 1
+      },
+      "expected": {
+        "Primary": 6,
+        "Expeditionary": 1
+      }
+    },
+    {
+      "code": "IBERIA_ALM_001",
+      "status": "Pass",
+      "actual": "Expeditionary",
+      "expected": "Expeditionary"
+    },
+    {
+      "code": "IBERIA_ALM_002",
+      "status": "Pass",
+      "actual": "Prohibited",
+      "expected": "Prohibited"
+    },
+    {
+      "code": "IBERIA_TEMP_001",
+      "status": "Pass",
+      "actual": "ModernizationRequired",
+      "expected": "ModernizationRequired"
+    },
+    {
+      "code": "IBERIA_TEMP_002",
+      "status": "Pass",
+      "actual": "ModernizationRequired",
+      "expected": "ModernizationRequired"
+    },
+    {
+      "code": "IBERIA_SRC_001",
+      "status": "Pass",
+      "actual": [
+        "f4f93a1a15ae81df866e8231eb3cbdb636c2aee89afc4a623e5efcca1c14a413",
+        "7fc872311878bc65e9888848b7d73cb688247390800234fcc24fb2322832573c",
+        "42883b7c1fbe953d4565fb9845c8f665a8c9912ef58cf69e25203f9fdef28f4e",
+        "6b639c85c23d2d97365aa4f020b26993bb48501f48a0e448871ba9e69ae8e329",
+        "3a6344928bb088cb621b6ea338f90e6ab205d4c19c0c4144b3634df8a9975d0b",
+        "86a50701e61fe63ab102e920a53566ffcfee0c5f07126cc86e2d5f7b66d9646f",
+        "b2fb56ce3b49e57b625a3052e2f650004f29f8565a3cf05a084307cf1ee0b367"
+      ],
+      "expected": "^[0-9a-f]{64}$"
+    },
+    {
+      "code": "IBERIA_LEGACY_001",
+      "status": "NotEvaluable",
+      "reason": "NotEvaluableWithoutStructuredSourceParser"
+    },
+    {
+      "code": "IBERIA_ALIAS_001",
+      "status": "NotEvaluable",
+      "reason": "NotEvaluableWithoutStructuredSourceParser"
+    },
+    {
+      "code": "IBERIA_SAVE_001",
+      "status": "NotEvaluable",
+      "reason": "NotEvaluableWithoutStructuredSourceParser"
+    },
+    {
+      "code": "IBERIA_COMPOSITE_001",
+      "status": "NotEvaluable",
+      "reason": "NotEvaluableWithoutStructuredSourceParser"
+    }
+  ],
+  "counts": {
+    "implemented_rules": 13,
+    "not_evaluable_rules": 4,
+    "failed_rules": 0,
+    "schema_errors": 0
+  },
+  "evidence_boundary": {
+    "normalized_index_schema_validated": true,
+    "source_fidelity_hashes_validated": true,
+    "implemented_semantic_rules_passed": true,
+    "semantic_rule_execution_complete": false,
+    "individual_source_candidate_schema_validated": false,
+    "importer_validated": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "performance_validated": false
+  }
+}

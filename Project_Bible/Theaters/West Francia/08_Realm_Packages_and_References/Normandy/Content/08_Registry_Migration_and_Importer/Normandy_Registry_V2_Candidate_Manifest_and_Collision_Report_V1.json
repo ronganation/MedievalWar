@@ -1,0 +1,1126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "document": {
+    "filename": "Normandy_Registry_V2_Candidate_Manifest_and_Collision_Report_V1.json",
+    "version": "1.0.0",
+    "generated_date": "2026-09-05",
+    "realm": "Normandy",
+    "scenario": "Scenario.Normandy.1062January",
+    "owning_theater": "West Francia",
+    "constitutional_authority": "Project Bible 2.4",
+    "operational_authority": "Design Expansion Checklist 3.7",
+    "implementation_target": "Unreal Engine 5.8",
+    "status": "StaticCandidateManifestCollisionReport",
+    "source_preflight": "Normandy_Registry_V2_Candidate_Reconciliation_and_Collision_Preflight_V1.md",
+    "controlling_migration_authority": "Normandy_ID_Migration_Map.md"
+  },
+  "verdict": {
+    "result": "PASS_WITH_OWNER_PROJECT_REGISTRY_AND_PHYSICAL_SCAN_DEPENDENCIES",
+    "candidate_manifest_ready": true,
+    "known_semantic_collisions_classified": true,
+    "complete_project_registry_collision_scan_executed": false,
+    "complete_local_repository_scan_executed": false,
+    "canonical_publication_ready": false,
+    "opening_binding_ready": false,
+    "importer_ready": false,
+    "unreal_asset_generation_ready": false
+  },
+  "scope_and_evidence_limits": {
+    "basis": [
+      "Normandy_ID_Migration_Map.md",
+      "completed Normandy authority filenames and prior candidate preflight"
+    ],
+    "not_claimed": [
+      "complete local filesystem enumeration",
+      "project-wide Registry lookup",
+      "all file hashes",
+      "all alias occurrences",
+      "all external-owner receipts"
+    ],
+    "unknown_means_zero": false,
+    "filename_is_canonical_identity": false
+  },
+  "current_authority_inputs": [
+    "Normandy_Opening_State_1062_V3_2_Current_Authority_Integration_Refinement_FULL.md",
+    "Normandy_Historical_Reconciliation_V5_1_Current_Authority_Refinement_FULL.md",
+    "Normandy_Historical_Evidence_Register_Authority_V1.md",
+    "Normandy_Historical_Timeline_and_Chronology_Authority_V1.md",
+    "Normandy_Historical_Uncertainty_Register_Authority_V1.md",
+    "Normandy_Historical_Memory_Authority_V1_1_Developed_Theater_Parity_Refinement_FULL.md",
+    "Normandy_Historical_Momentum_Authority_V1_1_Developed_Theater_Parity_Refinement_FULL.md",
+    "Normandy_Historical_Emergence_Authority_V1_1_Developed_Theater_Parity_Refinement_FULL.md",
+    "Normandy_Realm_Governance_Political_Constitution_and_Delegated_Capacity_Authority_V1_1_Current_Authority_Refinement_FULL.md",
+    "Normandy_Titles_Claims_Lordships_and_Succession_Authority_V1.md",
+    "Normandy_Dynasty_Household_Branch_and_Succession_Integration_Authority_V1_1_Current_Authority_Refinement_FULL.md",
+    "Normandy_Households_Courts_Residence_Officers_and_Domestic_Politics_Authority_V1.md",
+    "Normandy_Law_Custom_Justice_Policy_Enforcement_and_Restoration_Authority_V1.md",
+    "Normandy_Ecclesiastical_Institutions_Patronage_Jurisdiction_and_Church_Politics_Authority_V1.md",
+    "Normandy_Strategic_Geography_Regions_Castles_Ports_Routes_and_Access_Authority_V1.md",
+    "Normandy_Population_Settlement_Economy_Property_Treasury_and_Production_Authority_V1.md",
+    "Normandy_Military_Roster_Recruitment_Obligation_and_Strategic_Access_Authority_V1_1_Current_Authority_Refinement_FULL.md",
+    "Normandy_Military_Exact_Roster_Recruitment_Pool_and_Opening_Inventory_Authority_V1.md",
+    "Norman_Character_Network_V5_2_Current_Authority_Integration_Refinement_FULL.md",
+    "Normandy_Realm_Personality_V5_2_Current_Authority_Integration_Refinement_FULL.md",
+    "Normandy_AI_V5_2_Current_Authority_Integration_Refinement_FULL.md",
+    "Normandy_Realm_Implementation_Data_Contract_and_Importer_Preparation_V1.md",
+    "Normandy_ID_Migration_Map.md"
+  ],
+  "candidate_records": [
+    {
+      "candidate_id": "Realm.Normandy",
+      "entity_kind": "Realm",
+      "display_label": "Normandy",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Scenario.Normandy.1062January",
+      "entity_kind": "Scenario",
+      "display_label": "January 1062 Normandy",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "RealmContext.Normandy.1062",
+      "entity_kind": "RealmContext",
+      "display_label": "Normandy 1062 Context",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Personality.Realm.Normandy",
+      "entity_kind": "RealmPersonality",
+      "display_label": "Normandy Realm Personality",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "AI.Realm.Normandy",
+      "entity_kind": "RealmAI",
+      "display_label": "Normandy Realm AI",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Network.Normandy.Character",
+      "entity_kind": "CharacterNetwork",
+      "display_label": "Norman Character Network",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Migration.Normandy.IDRegistry",
+      "entity_kind": "MigrationAuthority",
+      "display_label": "Normandy ID Registry Migration",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Normandy.WilliamOfNormandy",
+      "entity_kind": "Person",
+      "display_label": "William of Normandy",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Normandy.MatildaOfFlanders",
+      "entity_kind": "Person",
+      "display_label": "Matilda of Flanders",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Normandy.RobertCurthose",
+      "entity_kind": "Person",
+      "display_label": "Robert Curthose",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Normandy.OdoOfBayeux",
+      "entity_kind": "Person",
+      "display_label": "Odo of Bayeux",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Normandy.RobertOfMortain",
+      "entity_kind": "Person",
+      "display_label": "Robert of Mortain",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Normandy.WilliamFitzOsbern",
+      "entity_kind": "Person",
+      "display_label": "William FitzOsbern",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Normandy.RichardOfEvreux",
+      "entity_kind": "Person",
+      "display_label": "Richard of Evreux",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Normandy.WilliamOfEvreux",
+      "entity_kind": "Person",
+      "display_label": "William of Evreux",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Normandy.WilliamOfPoitiers",
+      "entity_kind": "Person",
+      "display_label": "William of Poitiers",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Brittany.AlanRufus",
+      "entity_kind": "Person",
+      "display_label": "Alan Rufus",
+      "owner_scope": "Brittany",
+      "disposition": "ExternalOwnerLock",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Character.Boulogne.EustaceII",
+      "entity_kind": "Person",
+      "display_label": "Eustace II of Boulogne",
+      "owner_scope": "Boulogne",
+      "disposition": "ExternalOwnerLock",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Dynasty.Normandy.HouseNormandy",
+      "entity_kind": "Dynasty",
+      "display_label": "House Normandy",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Dynasty.Normandy.HouseEvreux",
+      "entity_kind": "Dynasty",
+      "display_label": "House Evreux",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "NetworkBloc.Normandy.ContevilleKin",
+      "entity_kind": "NetworkBloc",
+      "display_label": "Conteville Kin",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Title.Normandy.DukeOfNormandy",
+      "entity_kind": "Title",
+      "display_label": "Duke of Normandy",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Title.Normandy.DuchessConsort",
+      "entity_kind": "Title",
+      "display_label": "Duchess Consort of Normandy",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Title.Normandy.CountOfMortain",
+      "entity_kind": "Title",
+      "display_label": "Count of Mortain",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Title.Normandy.CountOfEvreux",
+      "entity_kind": "Title",
+      "display_label": "Count of Evreux",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Title.Normandy.LordOfBreteuil",
+      "entity_kind": "Title",
+      "display_label": "Lord of Breteuil",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Office.Normandy.Seneschal",
+      "entity_kind": "Office",
+      "display_label": "Seneschal of Normandy",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Office.Church.Normandy.BishopOfBayeux",
+      "entity_kind": "Office",
+      "display_label": "Bishop of Bayeux",
+      "owner_scope": "NormandyChurch",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Institution.Normandy.SeeBayeux",
+      "entity_kind": "Institution",
+      "display_label": "See of Bayeux",
+      "owner_scope": "NormandyChurch",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Household.Normandy.Ducal",
+      "entity_kind": "Household",
+      "display_label": "Norman Ducal Household",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Claim.Normandy.Duchy.William",
+      "entity_kind": "Claim",
+      "display_label": "William ducal claim",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Claim.Normandy.Duchy.RobertCurthose",
+      "entity_kind": "Claim",
+      "display_label": "Robert Curthose ducal succession claim",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Claim.England.Kingship.WilliamOfNormandy",
+      "entity_kind": "Claim",
+      "display_label": "William English kingship claim",
+      "owner_scope": "England",
+      "disposition": "ExternalOwnerLock",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Investigation.Normandy.EnglishSuccession",
+      "entity_kind": "Investigation",
+      "display_label": "Norman English succession investigation",
+      "owner_scope": "Normandy",
+      "disposition": "RetainCandidate",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Legacy.Normandy.Rollo",
+      "entity_kind": "Legacy",
+      "display_label": "Rollo",
+      "owner_scope": "Normandy",
+      "disposition": "HistoricalOnly",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Legacy.Normandy.DucalSuccessionTradition",
+      "entity_kind": "Legacy",
+      "display_label": "Norman ducal succession tradition",
+      "owner_scope": "Normandy",
+      "disposition": "HistoricalOnly",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Legacy.Normandy.WilliamMinority",
+      "entity_kind": "Legacy",
+      "display_label": "William minority",
+      "owner_scope": "Normandy",
+      "disposition": "HistoricalOnly",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Legacy.Normandy.ContinentalConsolidation",
+      "entity_kind": "Legacy",
+      "display_label": "Norman continental consolidation",
+      "owner_scope": "Normandy",
+      "disposition": "HistoricalOnly",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    },
+    {
+      "candidate_id": "Legacy.Normandy.FamilyServiceMemory",
+      "entity_kind": "Legacy",
+      "display_label": "Norman family service memory",
+      "owner_scope": "Normandy",
+      "disposition": "HistoricalOnly",
+      "canonical_status": "PendingProjectRegistryOwnerReceipt",
+      "opening_activation": false,
+      "runtime_instance_created": false
+    }
+  ],
+  "candidate_namespace_families": [
+    {
+      "pattern": "Evidence.Normandy.*",
+      "entity_kind": "HistoricalEvidenceDefinition",
+      "disposition": "ReviewOnlyCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Proposition.Normandy.*",
+      "entity_kind": "HistoricalProposition",
+      "disposition": "ReviewOnlyCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "EvidenceSource.Normandy.*",
+      "entity_kind": "HistoricalSource",
+      "disposition": "ReviewOnlyCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Chronology.Normandy.*",
+      "entity_kind": "HistoricalChronologyDefinition",
+      "disposition": "ReviewOnlyCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Uncertainty.Normandy.*",
+      "entity_kind": "HistoricalUncertaintyDefinition",
+      "disposition": "ReviewOnlyCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "SelectionReceipt.Normandy.*",
+      "entity_kind": "OwnerReceipt",
+      "disposition": "IntentionallyUnallocated",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Memory.Normandy.*",
+      "entity_kind": "HistoricalMemoryDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Momentum.Normandy.*",
+      "entity_kind": "HistoricalMomentumDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Emergence.Normandy.*",
+      "entity_kind": "HistoricalEmergenceDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Government.Normandy.*",
+      "entity_kind": "GovernmentDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Mandate.Normandy.*",
+      "entity_kind": "MandateDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Court.Normandy.*",
+      "entity_kind": "CourtDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Residence.Normandy.*",
+      "entity_kind": "ResidenceDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "ProtectedRole.Normandy.*",
+      "entity_kind": "ProtectedRoleDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Law.Normandy.*",
+      "entity_kind": "LawDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Case.Normandy.*",
+      "entity_kind": "LegalCaseDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Restoration.Normandy.*",
+      "entity_kind": "RestorationDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Institution.Church.Normandy.*",
+      "entity_kind": "EcclesiasticalInstitutionDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Region.Normandy.*",
+      "entity_kind": "RegionDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Place.Normandy.*",
+      "entity_kind": "PlaceDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Settlement.Normandy.*",
+      "entity_kind": "SettlementDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Castle.Normandy.*",
+      "entity_kind": "CastleDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Port.Normandy.*",
+      "entity_kind": "PortDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Route.Normandy.*",
+      "entity_kind": "RouteDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Access.Normandy.*",
+      "entity_kind": "AccessDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "PopulationAggregate.Normandy.*",
+      "entity_kind": "PopulationAggregateDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Property.Normandy.*",
+      "entity_kind": "PropertyDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Production.Normandy.*",
+      "entity_kind": "ProductionDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "Market.Normandy.*",
+      "entity_kind": "MarketDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "TreasuryAccount.Normandy.*",
+      "entity_kind": "TreasuryAccountDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "UnitFamily.Normandy.*",
+      "entity_kind": "UnitFamilyDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "RecruitmentSource.Normandy.*",
+      "entity_kind": "RecruitmentSourceDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "RecruitmentPool.Normandy.*",
+      "entity_kind": "RecruitmentPoolDefinition",
+      "disposition": "CanonicalCandidate",
+      "opening_activation": false
+    },
+    {
+      "pattern": "UnitInstance.Normandy.*",
+      "entity_kind": "UnitInstance",
+      "disposition": "IntentionallyUnallocated",
+      "opening_activation": false
+    },
+    {
+      "pattern": "ForceInstance.Normandy.*",
+      "entity_kind": "ForceInstance",
+      "disposition": "IntentionallyUnallocated",
+      "opening_activation": false
+    },
+    {
+      "pattern": "CommandAssignment.Normandy.*",
+      "entity_kind": "CommandAssignment",
+      "disposition": "IntentionallyUnallocated",
+      "opening_activation": false
+    }
+  ],
+  "direct_alias_candidates": [
+    {
+      "deprecated_id": "REALM_NORMANDY",
+      "target_candidate_id": "Realm.Normandy",
+      "expected_kind": "Realm",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    },
+    {
+      "deprecated_id": "Scenario.Normandy.1062Opening",
+      "target_candidate_id": "Scenario.Normandy.1062January",
+      "expected_kind": "Scenario",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    },
+    {
+      "deprecated_id": "Network.Norman.Character",
+      "target_candidate_id": "Network.Normandy.Character",
+      "expected_kind": "CharacterNetwork",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    },
+    {
+      "deprecated_id": "NETWORK_NORMAN_CHARACTER",
+      "target_candidate_id": "Network.Normandy.Character",
+      "expected_kind": "CharacterNetwork",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    },
+    {
+      "deprecated_id": "Title.Normandy.Duke",
+      "target_candidate_id": "Title.Normandy.DukeOfNormandy",
+      "expected_kind": "Title",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    },
+    {
+      "deprecated_id": "Title.Normandy.CountMortain",
+      "target_candidate_id": "Title.Normandy.CountOfMortain",
+      "expected_kind": "Title",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    },
+    {
+      "deprecated_id": "Title.Normandy.CountEvreux",
+      "target_candidate_id": "Title.Normandy.CountOfEvreux",
+      "expected_kind": "Title",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    },
+    {
+      "deprecated_id": "Office.Normandy.FitzOsbernSeneschal",
+      "target_candidate_id": "Office.Normandy.Seneschal",
+      "expected_kind": "Office",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    },
+    {
+      "deprecated_id": "Title.Bayeux.Bishop",
+      "target_candidate_id": "Office.Church.Normandy.BishopOfBayeux",
+      "expected_kind": "Office",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    },
+    {
+      "deprecated_id": "Claim.Normandy.England",
+      "target_candidate_id": "Claim.England.Kingship.WilliamOfNormandy",
+      "expected_kind": "Claim",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    },
+    {
+      "deprecated_id": "Claim.England.William",
+      "target_candidate_id": "Claim.England.Kingship.WilliamOfNormandy",
+      "expected_kind": "Claim",
+      "status": "PendingOwnerAndCollisionReview",
+      "applied": false,
+      "alias_hops_allowed": 1
+    }
+  ],
+  "contextual_migration_candidates": [
+    {
+      "token": "William",
+      "possible_targets": [
+        "Character.Normandy.WilliamOfNormandy",
+        "Character.Normandy.WilliamFitzOsbern",
+        "Character.Normandy.WilliamOfEvreux",
+        "Character.Normandy.WilliamOfPoitiers"
+      ],
+      "disposition": "ContextualReviewRequired"
+    },
+    {
+      "token": "Robert",
+      "possible_targets": [
+        "Character.Normandy.RobertCurthose",
+        "Character.Normandy.RobertOfMortain"
+      ],
+      "disposition": "ContextualReviewRequired"
+    },
+    {
+      "token": "Odo",
+      "possible_targets": [
+        "Character.Normandy.OdoOfBayeux",
+        "Office.Church.Normandy.BishopOfBayeux",
+        "Institution.Normandy.SeeBayeux"
+      ],
+      "disposition": "ContextualReviewRequired"
+    },
+    {
+      "token": "Conteville",
+      "possible_targets": [
+        "NetworkBloc.Normandy.ContevilleKin",
+        "genealogical relationship records"
+      ],
+      "disposition": "ContextualReviewRequired"
+    },
+    {
+      "token": "EnglishClaim",
+      "possible_targets": [
+        "Investigation.Normandy.EnglishSuccession",
+        "Claim.England.Kingship.WilliamOfNormandy",
+        "HistoricalEvidence/Memory/Momentum/Emergence records"
+      ],
+      "disposition": "ContextualReviewRequired"
+    }
+  ],
+  "collision_report": {
+    "exact_duplicate_ids_in_embedded_candidate_rows": [],
+    "same_id_multiple_kinds_in_embedded_candidate_rows": {},
+    "known_semantic_collision_rules": [
+      {
+        "collision_id": "COL-NOR-001",
+        "class": "PersonOfficeInstitutionCollapse",
+        "severity": "Fatal",
+        "subjects": [
+          "Character.Normandy.OdoOfBayeux",
+          "Office.Church.Normandy.BishopOfBayeux",
+          "Institution.Normandy.SeeBayeux"
+        ],
+        "status": "ProtectedNoMerge"
+      },
+      {
+        "collision_id": "COL-NOR-002",
+        "class": "PersonTitleCollapse",
+        "severity": "Fatal",
+        "subjects": [
+          "Character.Normandy.WilliamOfNormandy",
+          "Title.Normandy.DukeOfNormandy"
+        ],
+        "status": "ProtectedNoMerge"
+      },
+      {
+        "collision_id": "COL-NOR-003",
+        "class": "PersonRoleCollapse",
+        "severity": "Fatal",
+        "subjects": [
+          "Character.Normandy.RobertCurthose",
+          "Claim.Normandy.Duchy.RobertCurthose"
+        ],
+        "status": "ProtectedNoMerge"
+      },
+      {
+        "collision_id": "COL-NOR-004",
+        "class": "DynastyPersonCollapse",
+        "severity": "Fatal",
+        "subjects": [
+          "Dynasty.Normandy.HouseEvreux",
+          "Character.Normandy.RichardOfEvreux",
+          "Character.Normandy.WilliamOfEvreux"
+        ],
+        "status": "ProtectedNoMerge"
+      },
+      {
+        "collision_id": "COL-NOR-005",
+        "class": "ExternalPersonDuplicate",
+        "severity": "Fatal",
+        "subjects": [
+          "Character.Brittany.AlanRufus",
+          "Character.Normandy.AlanRufus"
+        ],
+        "status": "QuarantineLocalDuplicate"
+      },
+      {
+        "collision_id": "COL-NOR-006",
+        "class": "ExternalPersonDuplicate",
+        "severity": "Fatal",
+        "subjects": [
+          "Character.Boulogne.EustaceII",
+          "Character.Normandy.EustaceII"
+        ],
+        "status": "QuarantineLocalDuplicate"
+      },
+      {
+        "collision_id": "COL-NOR-007",
+        "class": "DefinitionInstanceCollapse",
+        "severity": "Fatal",
+        "subjects": [
+          "Memory.Normandy.*",
+          "Momentum.Normandy.*",
+          "Emergence.Normandy.*"
+        ],
+        "status": "ProtectedByKind"
+      },
+      {
+        "collision_id": "COL-NOR-008",
+        "class": "OpeningRuntimeCollapse",
+        "severity": "Fatal",
+        "subjects": [
+          "Scenario.Normandy.1062January",
+          "*.Normandy.*Instance"
+        ],
+        "status": "ProtectedByLayer"
+      },
+      {
+        "collision_id": "COL-NOR-009",
+        "class": "TitleRegionPropertyCollapse",
+        "severity": "Fatal",
+        "subjects": [
+          "Title.Normandy.*",
+          "Region.Normandy.*",
+          "Property.Normandy.*"
+        ],
+        "status": "ProtectedByKind"
+      },
+      {
+        "collision_id": "COL-NOR-010",
+        "class": "RosterInstanceCollapse",
+        "severity": "Fatal",
+        "subjects": [
+          "UnitFamily.Normandy.*",
+          "UnitInstance.Normandy.*"
+        ],
+        "status": "ProtectedByKind"
+      }
+    ],
+    "project_wide_collision_scan": {
+      "status": "NotExecuted",
+      "fatal_count": null,
+      "error_count": null,
+      "warning_count": null,
+      "note": "No exact count is asserted without a project Registry and repository scan."
+    }
+  },
+  "external_owner_locks": [
+    {
+      "owner_scope": "England",
+      "protected_state": [
+        "people",
+        "titles",
+        "offices",
+        "institutions",
+        "public reception",
+        "reverse claim state"
+      ],
+      "receipt_present": false
+    },
+    {
+      "owner_scope": "France",
+      "protected_state": [
+        "internal intention",
+        "commitment",
+        "reverse relationship"
+      ],
+      "receipt_present": false
+    },
+    {
+      "owner_scope": "Maine",
+      "protected_state": [
+        "internal claim reception",
+        "alignment",
+        "territorial state"
+      ],
+      "receipt_present": false
+    },
+    {
+      "owner_scope": "Brittany",
+      "protected_state": [
+        "Alan Rufus",
+        "Breton internal participation"
+      ],
+      "receipt_present": false
+    },
+    {
+      "owner_scope": "Flanders",
+      "protected_state": [
+        "internal commitment",
+        "dynastic reception"
+      ],
+      "receipt_present": false
+    },
+    {
+      "owner_scope": "Boulogne",
+      "protected_state": [
+        "Eustace II",
+        "internal participation"
+      ],
+      "receipt_present": false
+    },
+    {
+      "owner_scope": "ExternalChurch",
+      "protected_state": [
+        "papal",
+        "canonical",
+        "institutional state"
+      ],
+      "receipt_present": false
+    }
+  ],
+  "quarantine_records": [
+    {
+      "record": "Character.Normandy.AlanRufus",
+      "reason": "External person must resolve to Brittany-owned Alan Rufus",
+      "status": "QuarantinedPendingOwnerReview",
+      "instantiable": false
+    },
+    {
+      "record": "Character.Normandy.EustaceII",
+      "reason": "External sovereign must resolve to Boulogne-owned Eustace II",
+      "status": "QuarantinedPendingOwnerReview",
+      "instantiable": false
+    },
+    {
+      "record": "Character.England.WilliamTheConqueror",
+      "reason": "Later epithet and English kingship are not January 1062 identity",
+      "status": "QuarantinedPendingOwnerReview",
+      "instantiable": false
+    },
+    {
+      "record": "Character.England.QueenMatilda",
+      "reason": "Later English queenship is not January 1062 identity",
+      "status": "QuarantinedPendingOwnerReview",
+      "instantiable": false
+    },
+    {
+      "record": "Character.England.EarlOdoKent",
+      "reason": "Later English office is not January 1062 identity",
+      "status": "QuarantinedPendingOwnerReview",
+      "instantiable": false
+    },
+    {
+      "record": "Character.England.EarlWilliamHereford",
+      "reason": "Later English office is not January 1062 identity",
+      "status": "QuarantinedPendingOwnerReview",
+      "instantiable": false
+    },
+    {
+      "record": "Character.England.LordRichmond",
+      "reason": "Later English dignity is not January 1062 Alan Rufus identity",
+      "status": "QuarantinedPendingOwnerReview",
+      "instantiable": false
+    },
+    {
+      "record": "Realm.NormanEngland",
+      "reason": "Normandy and England governments must remain institutionally distinct",
+      "status": "QuarantinedPendingOwnerReview",
+      "instantiable": false
+    },
+    {
+      "record": "Momentum.Normandy.EnglishConquest1066",
+      "reason": "Historical date cannot force conquest activation",
+      "status": "QuarantinedPendingOwnerReview",
+      "instantiable": false
+    },
+    {
+      "record": "Opening.Historical.*WithoutOwnerReceipt",
+      "reason": "Opening historical instances require owner receipts",
+      "status": "QuarantinedPendingOwnerReview",
+      "instantiable": false
+    }
+  ],
+  "promotion_gates": [
+    {
+      "gate": "ExistingMigrationAuthorityPreserved",
+      "result": "Pass"
+    },
+    {
+      "gate": "CurrentAuthorityCoverage",
+      "result": "Pass"
+    },
+    {
+      "gate": "EmbeddedCandidateRowUniqueness",
+      "result": "Pass"
+    },
+    {
+      "gate": "ExternalOwnerLocks",
+      "result": "ConditionalPass"
+    },
+    {
+      "gate": "CompleteProjectRegistryCollisionScan",
+      "result": "NotExecuted"
+    },
+    {
+      "gate": "OwnerAdjudication",
+      "result": "NotGranted"
+    },
+    {
+      "gate": "OpeningStateBinding",
+      "result": "NotAuthorized"
+    },
+    {
+      "gate": "ImporterAndUnreal",
+      "result": "NotValidated"
+    }
+  ],
+  "validation_summary": {
+    "candidate_record_count": 39,
+    "authority_input_count": 23,
+    "namespace_family_count": 36,
+    "direct_alias_candidate_count": 11,
+    "contextual_migration_candidate_count": 5,
+    "known_semantic_collision_rule_count": 10,
+    "external_owner_lock_count": 7,
+    "quarantine_record_count": 10,
+    "exact_duplicate_id_count": 0,
+    "same_id_multiple_kind_count": 0,
+    "canonical_ids_committed": 0,
+    "aliases_applied": 0,
+    "owner_decisions_fabricated": 0,
+    "opening_state_mutations": 0,
+    "migration_executions": 0,
+    "importer_runs": 0,
+    "runtime_instances_created": 0,
+    "real_payload_imports": 0,
+    "unreal_project_mutations": 0,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false
+  },
+  "next_handoff": {
+    "recommended_artifact": "Normandy_Current_Machine_Readable_Candidate_Bundle_V1.zip",
+    "prerequisites": [
+      "owner review of candidate rows and aliases",
+      "actual project Registry collision scan",
+      "physical file inventory and hash receipts"
+    ],
+    "mutation_authorized_by_this_report": false
+  },
+  "stable_footer": "END NORMANDY REGISTRY V2 CANDIDATE MANIFEST AND COLLISION REPORT V1"
+}

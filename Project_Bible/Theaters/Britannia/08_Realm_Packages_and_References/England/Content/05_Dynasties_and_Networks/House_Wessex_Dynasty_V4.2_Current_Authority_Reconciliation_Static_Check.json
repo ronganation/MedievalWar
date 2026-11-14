@@ -1,0 +1,27 @@
+{
+  "document_id": "static-check.england.house_wessex_dynasty.v4_2.current_authority_reconciliation",
+  "version": "1.0.0",
+  "source_file": "House_Wessex_Dynasty.md",
+  "output_file": "House_Wessex_Dynasty_V4.2_Current_Authority_Reconciliation.md",
+  "scope": "bounded additive current-authority reconciliation",
+  "checks": {
+    "output_additive": true,
+    "source_preserved": true,
+    "names_retained": true,
+    "sections_retained": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "one_opening_boundary": true,
+    "authority_current": true,
+    "temporal_model": true,
+    "ue_5_8": true,
+    "reviewonly": true,
+    "owners": true,
+    "no_active_character_yes": true,
+    "no_activation": true,
+    "validations_false": true,
+    "safe_struct_defaults": true,
+    "no_pass_claims": true
+  },
+  "passed": true
+}

@@ -1,0 +1,3 @@
+﻿"Faction","Scope","ControllingFilesExpected","ControllingFilesMissing","TagsExpected","TagsConfigPresent","RuntimeDumpAvailable","TagsRuntimeLoaded","FocusedParent","CompleteParent","LastDemonstratedCompletePassed","ReviewOnlyBaselineReady","ProductionComplete"
+"Norway","First multi-owner review-only faction adapter baseline","6","0","6","6","True","6","MedievalWar.SharedImporter.Norway.ProductionProjection","MedievalWar.SharedImporter.Norway","163","True","False"
+"Denmark","First review-only Denmark Character Network adapter baseline","6","0","7","7","True","7","MedievalWar.Denmark.Network.CommandEnvelope","MedievalWar.Denmark.Network","27","True","False"

@@ -1,0 +1,28 @@
+{
+  "ManifestId": "manifest.burgundy.ecclesiastical-content.v1",
+  "AuthorityFile": "Burgundy_Ecclesiastical_Content_V1.md",
+  "Version": "1.0.0",
+  "CreationMethod": "NewFromScratchUsingCurrentBurgundyAuthoritiesAndDevelopedRealmBenchmarks",
+  "Predecessor": null,
+  "LineCount": 1105,
+  "ByteCount": 51828,
+  "SHA256": "16fd8fb0c07bb0c4f8f1a902ffbc7f45bf39f45d2ebc55ac757ba1581d7ddc5b",
+  "BurgundyInstitutionPortfolios": [
+    "Autun",
+    "Langres",
+    "Saint-Benigne Dijon",
+    "Cluniac Network Burgundy Interface",
+    "Saint-Germain Auxerre Interface"
+  ],
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "InstitutionActivations": 0,
+    "OfficeholderActivations": 0,
+    "PapalSanctionExecutions": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "ValidationResult": "Pass"
+}

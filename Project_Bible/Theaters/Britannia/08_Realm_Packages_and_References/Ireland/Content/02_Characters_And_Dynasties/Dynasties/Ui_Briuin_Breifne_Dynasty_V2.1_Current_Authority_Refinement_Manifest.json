@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0",
+  "authority_file": "Ui_Briuin_Breifne_Dynasty_V2.1_Current_Authority_Refinement.md",
+  "source_file": "Ui_Briuin_Breifne_Dynasty_Refined.md",
+  "source_sha256": "93b5318148a4f28c8b891a398aa441e56ff20b16030ac6fa879aeba62c853c56",
+  "authority_sha256": "4d6a5a48b4b0d485e2a8f47792fcf688c4e1f673842521180f698269e412073e",
+  "static_check_file": "Ui_Briuin_Breifne_Dynasty_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "043a59ce815eeb0842aff8f9248fe8b57f941f9329ec101b3c702dd77ddce0ee",
+  "source_bytes": 34659,
+  "authority_bytes": 60820,
+  "copy_first_literal_prefix": true,
+  "files_created": [
+    "Ui_Briuin_Breifne_Dynasty_V2.1_Current_Authority_Refinement.md",
+    "Ui_Briuin_Breifne_Dynasty_V2.1_Current_Authority_Refinement_Manifest.json",
+    "Ui_Briuin_Breifne_Dynasty_V2.1_Current_Authority_Refinement_Static_Check.json"
+  ],
+  "source_files_modified": 0,
+  "validation_scope": "content-based static checks only; no compile or runtime validation"
+}

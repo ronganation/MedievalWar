@@ -1,0 +1,38 @@
+{
+  "DocumentId": "CharacterProfile.Aquitaine.MatoedaOrMathilde.V1",
+  "AuthorityFile": "Matoeda_or_Mathilde_V1_Developed_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "RevisionDate": "2026-09-03",
+  "EffectiveScenarioDate": "1062-01-01",
+  "LineCount": 870,
+  "ByteCount": 32694,
+  "SHA256": "17694ba51abd13454a1ae81393945cd21559d094d9e596523f7a8a3e962113f1",
+  "MajorSections": 58,
+  "ProfileTier": "StrategicHouseholdPrincipalReview",
+  "SourceTreatment": "NewDevelopedCharacterProfileFromCurrentAquitaineAuthorities",
+  "RemovedSubstantiveContent": [],
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "CharacterActivations": 0,
+    "RelationshipActivations": 0,
+    "MarriagesCreated": 0,
+    "ChildrenCreated": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "ValidationSummary": {
+    "required_sections_present": true,
+    "three_tracks_present": true,
+    "opening_marriage_supported": true,
+    "no_automatic_regency": false,
+    "Agnes_identity_separation": true,
+    "runtime_activation_prohibited": true,
+    "markdown_fences_balanced": true,
+    "escaped_underscores": true,
+    "em_dashes": true,
+    "stable_footer_count": true,
+    "final_marker_correct": true
+  }
+}

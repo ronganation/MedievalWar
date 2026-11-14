@@ -1,0 +1,16 @@
+﻿{
+    "document_id":  "mw.shared-save.active-source-promotion-readiness-candidate.v2",
+    "generated_utc":  "2026-08-25T00:20:21.6969018Z",
+    "controlling_owner":  "Bryan Ronga",
+    "implementation_target":  "Unreal Engine 5.8",
+    "isolated_compile_validated":  true,
+    "public_focused_save_tests_validated":  true,
+    "campaign_regression_validated":  true,
+    "denmark_network_regression_validated":  true,
+    "migration_validated":  true,
+    "replay_validated":  true,
+    "private_definition_and_trace_coverage":  "StaticAndRollbackImplementationReviewedNotDirectlyExposed",
+    "classification":  "ReadyForActiveSourcePromotionDecision",
+    "active_source_promotion_authorized":  false,
+    "item_3_complete":  false
+}

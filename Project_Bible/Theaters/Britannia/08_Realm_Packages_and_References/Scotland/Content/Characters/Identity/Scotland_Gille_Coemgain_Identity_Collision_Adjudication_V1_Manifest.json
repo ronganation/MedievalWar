@@ -1,0 +1,28 @@
+{
+  "document": "Scotland_Gille_Coemgain_Identity_Collision_Adjudication_V1.md",
+  "version": "1.0.0",
+  "status": "Static-Checked Adjudication Draft",
+  "collision_id": "CHCOL-SCOT-001",
+  "bytes": 22245,
+  "physical_lines": 520,
+  "section_count": 32,
+  "sha256": "3c60a6daa87b5e6bf0a7654b3ae85db44a32fade5bd38cad93d2ccf57feffa76",
+  "adjudication_result": "HistoricalMisidentificationConfirmed",
+  "historical_person_death_year": 1032,
+  "opening_compatibility": "Incompatible",
+  "project_node_treatment": "QuarantinePendingOwnerCorrection",
+  "replacement_character_created": false,
+  "registry_mutated": false,
+  "opening_state_mutated": false,
+  "migration_executed": false,
+  "runtime_mutated": false,
+  "implementation_validations": {
+    "compile": false,
+    "runtime": false,
+    "importer": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "performance": false
+  }
+}

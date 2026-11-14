@@ -1,0 +1,16 @@
+{
+  "document": "Barcelona_Batch00_Owner_Decision_Readiness_and_Unresolved_Evidence_Matrix_V1.md",
+  "result": "PASS",
+  "checks": {
+    "balanced_fences": true,
+    "ten_decisions": true,
+    "queue": true,
+    "waves": true,
+    "temporal": true,
+    "no_mutation": true,
+    "end": true
+  },
+  "lines": 566,
+  "bytes": 20155,
+  "sha256": "6a80eabad2cc6e732a3fb71eebdc6783923555b9fd33a84d53b892f52503f708"
+}

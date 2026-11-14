@@ -1,0 +1,63 @@
+{
+  "manifest_id": "denmark.qualitative.mapping.owner.response.and.intake.v1.manifest",
+  "version": "1.0.1",
+  "status": "PASS_SCHEMA_HARDENING_AND_DRAFT_RECONCILIATION_PACKAGE",
+  "artifact_count": 7,
+  "hashed_artifact_count": 6,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.md",
+      "bytes": 6503,
+      "sha256": "61F7BFC0C9F70EDC3E1AE6E8D494E3820F4A58BDA36E4F8FFD7CA00F2A5C107F",
+      "lines": 227,
+      "stable_order": 10
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.json",
+      "bytes": 6407,
+      "sha256": "B99AF1E92DAB6670ED9E1B431FA56E59DC0ADBD2AD7973349A8F8C6CDD1C8C2C",
+      "lines": 172,
+      "stable_order": 20
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json",
+      "bytes": 1962,
+      "sha256": "79E793A4A0D7A0379B61A0740AD0A29E2400A4CA3C4C1925B611FB9B2206C13A",
+      "lines": 56,
+      "stable_order": 30
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Schema.json",
+      "bytes": 40460,
+      "sha256": "A3AE59A1C82BB1C10B77C1D7571735F2FA79BD157C41214B1EDC75B1BBBC9184",
+      "lines": 1442,
+      "stable_order": 40
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Validation_Profile.json",
+      "bytes": 2399,
+      "sha256": "4CD28B89F6CC0E208D1BCA66A9AF324364232220340165FC8391BFE894296AAE",
+      "lines": 51,
+      "stable_order": 50
+    },
+    {
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Static_Check.json",
+      "bytes": 9542,
+      "sha256": "D9E5B6E9EC977FDEEA8BAEF74B7598BA9F370482465DB917E51EDEFF26C53099",
+      "lines": 186,
+      "stable_order": 60
+    }
+  ],
+  "checks": {
+    "request_count_exactly_7": true,
+    "pending_count_exactly_6": true,
+    "deferred_count_exactly_1": true,
+    "ledger_counts_unchanged": true,
+    "pending_fixture_valid": true,
+    "submitted_drafts_valid": true,
+    "all_negative_fixtures_rejected": true,
+    "authorization_closed": true
+  },
+  "authorization_closed": true
+}

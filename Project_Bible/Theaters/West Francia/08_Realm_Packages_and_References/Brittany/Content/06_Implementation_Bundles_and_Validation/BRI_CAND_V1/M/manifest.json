@@ -1,0 +1,199 @@
+{
+  "archive_root": "BRI_CAND_V1",
+  "bundle_id": "bundle.brittany.candidate.v1",
+  "file_count_excluding_manifest": 36,
+  "files": [
+    {
+      "bytes": 1371,
+      "path": "D/characters.json",
+      "sha256": "27800347E1F9F58ECF2542451886C0E2B7E67451AEBB9083104AE2990DD76B18"
+    },
+    {
+      "bytes": 1931,
+      "path": "D/church.json",
+      "sha256": "C94907022030EEF46186618DF0B6B9B585406A864FB473969D1EA808255EA65D"
+    },
+    {
+      "bytes": 3525,
+      "path": "D/dynasties.json",
+      "sha256": "91016DDF0B3E8E60E3A7D8B19A43DCD250B7CC3E56A354C6086215D4374042E4"
+    },
+    {
+      "bytes": 270,
+      "path": "D/economy.json",
+      "sha256": "3F503903366737C1455B4752A56ACC149936246E9F6C0059CC2C3CFF8ADF6AA0"
+    },
+    {
+      "bytes": 1419,
+      "path": "D/future_people.json",
+      "sha256": "64EB2F103A37472020F677CB1AF22557FAF2337896986B014E0F5C0828C68F48"
+    },
+    {
+      "bytes": 24367,
+      "path": "D/geography.json",
+      "sha256": "A38B3294AA6D6D7E7789DEF9BCC8C74452E42C61B18ADF647366BEF538CC80F3"
+    },
+    {
+      "bytes": 152,
+      "path": "D/governance.json",
+      "sha256": "A9E8E5D1FCB14DEEE6E0E838762BE242C90967F5C31F3313C6796790631205E9"
+    },
+    {
+      "bytes": 294,
+      "path": "D/historical.json",
+      "sha256": "2438E5A8E02883DF31B78F4492EB4D5D941EC6D148596189E539AA15D7C13114"
+    },
+    {
+      "bytes": 117,
+      "path": "D/households.json",
+      "sha256": "7856502C867B83367B9F1718FE4091C0603708B75D477E30D1AB3247F84058D7"
+    },
+    {
+      "bytes": 188,
+      "path": "D/law.json",
+      "sha256": "CC2C59D3AAADF9CA75B3F4D3E8E53FA208A6739D54C5E504B0928FDEA6041EDA"
+    },
+    {
+      "bytes": 457,
+      "path": "D/military.json",
+      "sha256": "B3F946127B5A50C0D50238A5F774BF7E3F49E81A882B3BA03D9E918AF9B111AD"
+    },
+    {
+      "bytes": 200,
+      "path": "D/network.json",
+      "sha256": "3BF4D9C9B42FF7E47758AA9F4FC1B7A647CE640D9520A2C835BE3B6C847737DF"
+    },
+    {
+      "bytes": 6380,
+      "path": "D/people.json",
+      "sha256": "FFCF225A1E7158B0EDBA1AA634ACA254F3F4F789750D685E80B20FCDA8C3411D"
+    },
+    {
+      "bytes": 286,
+      "path": "D/personality_ai.json",
+      "sha256": "33F472040EBF233862DBEE5EE0A13D74474161AA3ED18A23C8FFDF40C8243998"
+    },
+    {
+      "bytes": 1212,
+      "path": "D/realm.json",
+      "sha256": "6B7159BD8A1B570D93EB06A29FB6838EF7974ADD2FA66D28E66AB6B31F8DF8FB"
+    },
+    {
+      "bytes": 8629,
+      "path": "D/titles_claims.json",
+      "sha256": "5E7E343E62A0A6FADAAB994294E28C7C7330FD6E2DB4CFC50AB4D1BF83F55AEB"
+    },
+    {
+      "bytes": 447,
+      "path": "H/README.md",
+      "sha256": "413713614BCBB824C4AE3F89788B4BC4480A69E9E5D56E73744792E969F6F89A"
+    },
+    {
+      "bytes": 456,
+      "path": "H/owner_decisions.json",
+      "sha256": "89AEDFA4C9CFA56D703D7FFCFF6D6EA1E698C0A8957E75055B704FA8BC99556D"
+    },
+    {
+      "bytes": 415,
+      "path": "H/promotion.json",
+      "sha256": "9FA53D5E25D5F93B7194CB0850D1E4C00B5BED4357ADDFBEFA93FB2503537F09"
+    },
+    {
+      "bytes": 397,
+      "path": "H/unreal_map.json",
+      "sha256": "3854FC2BAF1A8408B412FA780265CE4088AB2818621B92FFEA2192EA051ED0FF"
+    },
+    {
+      "bytes": 487,
+      "path": "M/dependencies.json",
+      "sha256": "92FB990AB717F151F785BB62660CC459BAA0060104FB7BB49DBA7F93AD09C764"
+    },
+    {
+      "bytes": 387,
+      "path": "M/policy.json",
+      "sha256": "1428FF766AF313AE05157A34A5506E08A946412209DE6F009FC3A58A692F2CEB"
+    },
+    {
+      "bytes": 1580,
+      "path": "M/sources.json",
+      "sha256": "7ED7D21E176022767DCA1250787F1434BE4633A92A868CCB000C2A0C0BD7E2B7"
+    },
+    {
+      "bytes": 259,
+      "path": "O/blocked.json",
+      "sha256": "A15EE022925D07296B19D1CC34E44640EF09C74DF9BE89E148B6743C70AB0D27"
+    },
+    {
+      "bytes": 174,
+      "path": "O/intentional_empty.json",
+      "sha256": "6BFB293F6C3E77518779AEE8E13407140D00BF2EBB48C6A20320088CA0FD3249"
+    },
+    {
+      "bytes": 444,
+      "path": "O/opening.json",
+      "sha256": "7C15DB13B6EB74C84164E28CDAFC24DE2C548B0490D525B1D132C781A0C477E8"
+    },
+    {
+      "bytes": 200,
+      "path": "R/aliases.json",
+      "sha256": "C34FF02B16D3C40EE23E90B82DC7ADA8A17EB49E1E17C34687EFD1367E205A06"
+    },
+    {
+      "bytes": 254,
+      "path": "R/collisions.json",
+      "sha256": "6D141AA67A1F38D8CFFEDEC745DB6812AABBD2062047300120A4E55B6486217A"
+    },
+    {
+      "bytes": 1480,
+      "path": "R/entities.json",
+      "sha256": "81DA06972AEF71809A931C0A524D2CD92DE41ADB1E9F43BBD9A4F5E1DC70D0B0"
+    },
+    {
+      "bytes": 546,
+      "path": "R/external_locks.json",
+      "sha256": "F2B08A98A085FE8DE66B19ECAD5DB5B66451B9AC14DF9DED37FCD79B3D83650F"
+    },
+    {
+      "bytes": 311,
+      "path": "V/blockers.json",
+      "sha256": "0B29EBAACEBCD7A179F4ABD23672619CE381DEE469A308F216D0DA081704D9B8"
+    },
+    {
+      "bytes": 361,
+      "path": "V/dry_run.json",
+      "sha256": "152549B8BC33735F428F13764A022540BCDD9ECABE906730BAB1FD0E255F35EE"
+    },
+    {
+      "bytes": 431,
+      "path": "V/validation.json",
+      "sha256": "1429A1AFE7F0777ACE9F91CBBFFFF9E5ED84BD107FADE5B5B7E725FE495770F7"
+    },
+    {
+      "bytes": 160,
+      "path": "X/migrations.json",
+      "sha256": "1C6BC0A9151CC0F85207E99BA1156E45B55F62D950765030E16AAD586E228C69"
+    },
+    {
+      "bytes": 1097,
+      "path": "X/quarantine.json",
+      "sha256": "D79D49D6C0310CAAC3099140E457E9B1A38740E82E3F4DCC6E4A6E5541606067"
+    },
+    {
+      "bytes": 184,
+      "path": "X/reviews.json",
+      "sha256": "D2C5117D01AE5DCCCE9E3A0027549555D9B31FA365D0A822395647312901A6F4"
+    }
+  ],
+  "mode": "ReviewOnlyCandidate",
+  "nonmutation": {
+    "Opening_State_mutations": 0,
+    "Registry_rows_created": 0,
+    "Unreal_project_mutations": 0,
+    "aliases_applied": 0,
+    "migration_executions": 0,
+    "runtime_mutations": 0
+  },
+  "scenario_id": "Scenario.Brittany.1062January",
+  "validation_result": "PASS_WITH_BLOCKERS",
+  "version": "1.0.0"
+}

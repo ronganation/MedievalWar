@@ -1,0 +1,26 @@
+{
+  "document_id": "mw.manifest.military-content.phase1.search-grounded.v1",
+  "status": "PARTIAL_SEARCH_GROUNDED_NOT_REPOSITORY_COMPLETE",
+  "files": [
+    {
+      "filename": "Military_Content_Source_Inventory_V1_SEARCH_GROUNDED.csv",
+      "bytes": 16728,
+      "sha256": "e5da87c42a4f3d785c7ba395f87741aceb1f2279abfcb41669c360828c08d2e4"
+    },
+    {
+      "filename": "Military_Content_Source_Inventory_V1_SEARCH_GROUNDED.json",
+      "bytes": 42200,
+      "sha256": "0309987be397d4f20c345b618bb4e7927a332ab985f11119d053dc6cd57ec0aa"
+    },
+    {
+      "filename": "Military_Content_Duplicate_and_Conflict_Ledger_V1_SEARCH_GROUNDED.md",
+      "bytes": 1497,
+      "sha256": "e2c5d5e0088edfd1d1996adf6b91045344441332c8f4e1dcfb9e5e63e62dcfcf"
+    },
+    {
+      "filename": "GitHub_Copilot_Military_Content_Readiness_Gate_V1.md",
+      "bytes": 1693,
+      "sha256": "edb1e45646790c4f1538d7852fb1cdcf699f10b3b6d2df287179d2a6882433e0"
+    }
+  ]
+}

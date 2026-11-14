@@ -1,0 +1,119 @@
+﻿{
+    "AuditId":  "OS-VIS-CLOSEOUT-AND-OS-VIS-02-READINESS",
+    "GeneratedUtc":  "2026-08-27T04:08:06.5714248Z",
+    "ProjectRoot":  "C:\\UnrealProjects\\MedievalWar",
+    "Mode":  "ReadOnly",
+    "SourceFilesModified":  0,
+    "GameInstanceCreated":  false,
+    "CanApplyCalled":  false,
+    "ApplyCalled":  false,
+    "SaveRequested":  false,
+    "RegistryMutation":  false,
+    "RealmPayloadApplication":  false,
+    "TheaterActivation":  false,
+    "RequiredChecks":  11,
+    "PresentChecks":  11,
+    "MissingRequiredChecks":  0,
+    "ReadyForOwnerReview":  true,
+    "Results":  [
+                    {
+                        "Id":  "project",
+                        "RelativePath":  "MedievalWar.uproject",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  433,
+                        "ModifiedUtc":  "2026-08-15T19:06:04.8632760Z",
+                        "SHA256":  "923AEFA6D923F44CC28EC925942E1EC49774299CDD395A25F645CA21701AE97B"
+                    },
+                    {
+                        "Id":  "plugin_descriptor",
+                        "RelativePath":  "Plugins\\MWSharedImporter\\MWSharedImporter.uplugin",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  1257,
+                        "ModifiedUtc":  "2026-08-25T01:14:51.7122252Z",
+                        "SHA256":  "4CC0A18DCAFD1D1DE1DDDFFFB9863397159CE5A6A6DBA9C37F83FBF113A41ED3"
+                    },
+                    {
+                        "Id":  "norway_input",
+                        "RelativePath":  "Plugins\\MWSharedImporter\\Norway_Scenario_Translation_Input_1062.json",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  28635,
+                        "ModifiedUtc":  "2026-08-14T23:51:16.0000000Z",
+                        "SHA256":  "408E2C826EE63E813D8B0AECF2C4D42C55DF9199B70BD86A2D9870B2EAF8D6B1"
+                    },
+                    {
+                        "Id":  "norway_manifest",
+                        "RelativePath":  "Plugins\\MWSharedImporter\\Norway_Importer_Source_Manifest_1062.json",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  35997,
+                        "ModifiedUtc":  "2026-08-14T23:51:16.0000000Z",
+                        "SHA256":  "2C4DF42BE39F4C39FE1336EC22AD22FAECB5482A27A8121270F6B529904D221C"
+                    },
+                    {
+                        "Id":  "translator_header",
+                        "RelativePath":  "Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Public\\MWNorwayScenarioTranslator.h",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  34097,
+                        "ModifiedUtc":  "2026-08-24T02:43:18.7625571Z",
+                        "SHA256":  "6B375E8DBD325442197BD421C02ACE3335217958F306887C63436AD78EEAB750"
+                    },
+                    {
+                        "Id":  "translator_source",
+                        "RelativePath":  "Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\MWNorwayScenarioTranslator.cpp",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  117203,
+                        "ModifiedUtc":  "2026-08-24T02:43:18.7645571Z",
+                        "SHA256":  "8B632032B8A54B949C5108E05D301985F13173B4014C98AD7C7400F3C1CC89FA"
+                    },
+                    {
+                        "Id":  "candidate_contract_test",
+                        "RelativePath":  "Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayCandidateContractTests.cpp",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  5238,
+                        "ModifiedUtc":  "2026-08-22T20:30:13.5130762Z",
+                        "SHA256":  "4ADF1323C9E51C21B5FD23D051652BF09F6CAC9FA9533D7DFEA3F506E99F754A"
+                    },
+                    {
+                        "Id":  "dry_run_test",
+                        "RelativePath":  "Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\Tests\\MWNorwayDryRunNoMutationTests.cpp",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  7843,
+                        "ModifiedUtc":  "2026-08-23T16:21:11.2024881Z",
+                        "SHA256":  "EDABB6014A35D38C5CAEB656BF677584EC09FA75351D766B4E82A7961EB11D6B"
+                    },
+                    {
+                        "Id":  "preview_widget",
+                        "RelativePath":  "Plugins\\MWSharedImporter\\Source\\MWSharedImporter\\Private\\SMWOpeningStatePreviewTab.cpp",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  15306,
+                        "ModifiedUtc":  "2026-08-27T04:00:52.9498631Z",
+                        "SHA256":  "EB0FB01093D8B7F0F2AF8606ACE597DB0F065F1D625A2F7F7313E9114E8E5AAF"
+                    },
+                    {
+                        "Id":  "synthetic_projection",
+                        "RelativePath":  "Plugins\\MWSharedImporter\\Source\\MWSharedImporter\\Private\\MWOpeningStateSyntheticCandidateProjection.cpp",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  4053,
+                        "ModifiedUtc":  "2026-08-27T03:53:55.1190989Z",
+                        "SHA256":  "EAB7AF608AEB52CAC154962805E983F0A5B7BA59668558A0E130A202449CEB7E"
+                    },
+                    {
+                        "Id":  "editor_binary",
+                        "RelativePath":  "Plugins\\MWSharedImporter\\Binaries\\Win64\\UnrealEditor-MWSharedImporter.dll",
+                        "Required":  true,
+                        "Exists":  true,
+                        "Bytes":  434688,
+                        "ModifiedUtc":  "2026-08-27T04:01:18.0785231Z",
+                        "SHA256":  "A010621366C3E9087433C579AE0B8B3F7B9CD89B075B24A16735E066DD214971"
+                    }
+                ]
+}

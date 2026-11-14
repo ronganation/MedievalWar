@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationRegistryNamespaceApprovalPreflight",
+    "name": "Trait Reputation Registry Namespace Approval Preflight V1",
+    "version": "1.0",
+    "status": "StaticCheckedPlacementAndDecisionReadiness_AuthorityDecisionsPending",
+    "authority_class": "Registry Namespace and Grammar Approval Dry Preflight",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "file": "Trait_Reputation_Registry_Namespace_Approval_Submission_V1.preflight.json",
+    "path_correction": {
+      "previous_proposed_path": "Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation",
+      "observed_repository_path": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+      "decision": "UseObservedRepositoryConvention",
+      "reason": "The supplied screenshots show Characters as a first-level Integration_Authorities family and the Trait_Reputation folder beneath it."
+    }
+  },
+  "inputs": {
+    "registry_proposal": {
+      "file": "Trait_Reputation_Canonical_Registry_Proposal_V1.json",
+      "expected_sha256": "188110a56090b0638d8915ffe8780c30456d0fa98c626b8749411f0d1e5ae628",
+      "observed_in_repository": true,
+      "loaded_in_current_execution": true
+    },
+    "namespace_approval_submission": {
+      "file": "Trait_Reputation_Registry_Namespace_Approval_Submission_V1.json",
+      "expected_sha256": "dcdb16ed81b12f5771301c0d156bf8bb98159e82bb37dfa995cace8418ef8247",
+      "observed_in_repository": true,
+      "loaded_in_current_execution": true
+    },
+    "candidate_intake": {
+      "file": "Trait_Reputation_Canonical_ID_Submission_V1.json",
+      "expected_version": "1.1",
+      "canonical_location": "Project_Bible/Frameworks/Characters/Trait_Reputation_Consolidation",
+      "observed_in_repository": true
+    }
+  },
+  "decision_scope": {
+    "namespace_requests": [
+      {
+        "registry_key": "TraitCanonicalRegistry",
+        "requested_namespace": "Trait.Character",
+        "candidate_count": 37,
+        "decision": "Pending",
+        "approval_status": "NotApproved"
+      },
+      {
+        "registry_key": "ReputationDimensionRegistry",
+        "requested_namespace": "Reputation.CharacterAudience",
+        "candidate_count": 9,
+        "decision": "Pending",
+        "approval_status": "NotApproved"
+      }
+    ],
+    "grammar_request": {
+      "format": "<Namespace>.<StableSemanticToken>",
+      "token_case": "UpperCamelCase",
+      "decision": "Pending",
+      "approval_status": "NotApproved"
+    },
+    "excluded_quirks": 5,
+    "exact_candidate_records": 51
+  },
+  "static_checks": {
+    "proposal_file_visible": "Pass",
+    "approval_submission_file_visible": "Pass",
+    "governance_folder_separated_from_frameworks": "Pass",
+    "candidate_intake_remains_in_consolidation_workspace": "Pass",
+    "trait_and_reputation_namespaces_separate": "Pass",
+    "display_labels_are_not_ids": "Pass",
+    "filenames_are_not_ids": "Pass",
+    "alias_chains_prohibited": "Pass",
+    "deprecated_ids_prohibited_in_new_content_and_saves": "Pass",
+    "candidate_count_reconciliation": "Pass",
+    "named_registry_authority_identified": "Pending",
+    "trait_namespace_decision": "Pending",
+    "reputation_namespace_decision": "Pending",
+    "identifier_grammar_decision": "Pending"
+  },
+  "run": {
+    "mode": "RegistryNamespaceApprovalDryPreflight",
+    "execution_status": "PlacementAndSubmissionReadinessChecked",
+    "verdict": "PassWithNamedAuthorityAndThreeDecisionLocks",
+    "authoritative_mutation_permitted": false,
+    "namespace_approvals_recorded": 0,
+    "grammar_approvals_recorded": 0,
+    "canonical_ids_requested": 0,
+    "canonical_ids_approved": 0,
+    "registry_records_created": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "commit_attempted": false
+  },
+  "diagnostics": [
+    {
+      "code": "TRNS-PREFLIGHT-0001",
+      "severity": "Info",
+      "stage": "Placement",
+      "message": "Registry governance is separated from reusable Character frameworks.",
+      "result": "Pass"
+    },
+    {
+      "code": "TRNS-PREFLIGHT-0002",
+      "severity": "Info",
+      "stage": "PathConvention",
+      "message": "Canonical directory corrected to Integration_Authorities/Characters/Trait_Reputation.",
+      "result": "Pass"
+    },
+    {
+      "code": "TRNS-PREFLIGHT-0003",
+      "severity": "ReviewRequired",
+      "stage": "Authority",
+      "message": "A named Trait and Reputation registry authority has not recorded a decision.",
+      "result": "BlocksApproval"
+    },
+    {
+      "code": "TRNS-PREFLIGHT-0004",
+      "severity": "ReviewRequired",
+      "stage": "Namespaces",
+      "message": "Trait.Character and Reputation.CharacterAudience remain proposed and not approved.",
+      "result": "BlocksRegistrySnapshots"
+    },
+    {
+      "code": "TRNS-PREFLIGHT-0005",
+      "severity": "ReviewRequired",
+      "stage": "Grammar",
+      "message": "Identifier grammar remains proposed and not approved.",
+      "result": "BlocksCanonicalIdAssignment"
+    }
+  ],
+  "acceptance": {
+    "current_gate": "NamespaceAndGrammarAuthorityDecisionPending",
+    "gate_results": {
+      "RepositoryPlacement": "Pass",
+      "GovernanceFrameworkSeparation": "Pass",
+      "ProposalPresence": "Pass",
+      "DecisionSubmissionPresence": "Pass",
+      "NamedRegistryAuthority": "Pending",
+      "TraitNamespaceApproval": "Pending",
+      "ReputationNamespaceApproval": "Pending",
+      "IdentifierGrammarApproval": "Pending",
+      "InitialRegistrySnapshots": "NotAuthorized",
+      "CanonicalIdAssignment": "NotAuthorized"
+    }
+  },
+  "validation": {
+    "candidate_arithmetic_valid": true,
+    "all_decisions_pending": true,
+    "all_canonical_ids_null": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "determinism_validated": false
+  },
+  "smallest_useful_next_action": "Place this preflight beside the registry proposal and namespace approval submission in Project_Bible/Integration_Authorities/Characters/Trait_Reputation. The next authority action is to record a named decision for Trait.Character, Reputation.CharacterAudience, and the proposed identifier grammar. Do not create registry snapshots or canonical IDs before those decisions."
+}

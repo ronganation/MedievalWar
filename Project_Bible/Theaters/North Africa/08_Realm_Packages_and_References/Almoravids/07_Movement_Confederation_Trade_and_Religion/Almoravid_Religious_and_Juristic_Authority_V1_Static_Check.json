@@ -1,0 +1,26 @@
+{
+  "file": "Almoravid_Religious_and_Juristic_Authority_V1.md",
+  "bytes": 50934,
+  "lines": 1839,
+  "words": 5799,
+  "sha256": "07448855790c11571c376f203a8356f6070a6805554db80b6dff7fff2536b2dc",
+  "checks": {
+    "version": true,
+    "maliki": true,
+    "founder": true,
+    "no_ghost": true,
+    "zero_jurists": true,
+    "zero_offices": true,
+    "juristic_contract": true,
+    "owner_boundaries": true,
+    "temporal": true,
+    "save_migration": true,
+    "validation": true,
+    "classification": true,
+    "next": true,
+    "claims": true,
+    "fences": true,
+    "benchmark": true
+  },
+  "allChecksPass": true
+}

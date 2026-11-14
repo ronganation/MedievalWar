@@ -1,0 +1,23 @@
+{
+  "document": "Galloway_Spear_Warband_V1_2_Master_Unit_Profile.md",
+  "sha256": "93ab50411acc27762236c50146be832f6383fb03181690154599d47f00cbb964",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "copy_first_source_named": true,
+    "regional_owner": true,
+    "opening_controller_unresolved": true,
+    "three_threshold_gate": true,
+    "conquest_not_automatic": true,
+    "any_controller": true,
+    "buildings_not_population": true,
+    "controller_change": true,
+    "regional_folder": true,
+    "terrain_25": true,
+    "close_and_bind_preserved": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

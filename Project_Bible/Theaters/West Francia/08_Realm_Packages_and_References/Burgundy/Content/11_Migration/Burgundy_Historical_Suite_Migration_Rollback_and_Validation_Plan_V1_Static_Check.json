@@ -1,0 +1,24 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "sources_16": true,
+    "direct_6": true,
+    "splits_10": true,
+    "rollback_12": true,
+    "advanced_12": true,
+    "stages_18": true,
+    "cases_72": true,
+    "evidence_14": true,
+    "handoff": true,
+    "opening_deferred": true,
+    "three_tracks": true,
+    "balanced_fences": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker": true,
+    "honest_validation": true,
+    "next_file": true
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "report_id": "validation_report.definition_manifest.valencia.1062.v3_4.package_v1",
+  "version": "1.0.0",
+  "manifest_id": "definition_manifest.valencia.1062.v3_4.package_v1",
+  "source_authority_version": "3.4.0",
+  "definition_counts_by_section": {
+    "communities": 6,
+    "force_families": 8,
+    "households": 5,
+    "institutions": 6,
+    "offices": 9,
+    "people_and_references": 4,
+    "opening_problems": 9,
+    "sites_and_regions": 8,
+    "relation_surfaces": 6,
+    "routes": 4,
+    "core_realm_faction_dynasty_title": 5,
+    "resource_bands": 8,
+    "historical_system_namespaces": 3
+  },
+  "definition_count": 81,
+  "legacy_crosswalk_count": 35,
+  "quarantine_count": 8,
+  "input_checksums": {
+    "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_4_Package_V1.json": "18e4fc9fbabd7c5f1ab447fc159a943e17fd197f12b84aa9d25e3793cb5d770a",
+    "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_4_Package_V1.schema.json": "4e5aecfde65b3c5e5f52a8f42ca7a3c847b2c9638e07cabf287b2acc63afa0e9",
+    "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_4_Package_V1.validation.json": "deb9d63b60d53cf825ca55e4c1c46270de273d47b168f42245bc9cc5ffe5f200",
+    "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_4_Package_V1.owner_routing.json": "c8b787fbaee767233b94bd1d429dd5075007107927dc5d35d7f44f018244db58",
+    "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_4_Package_V1.fixtures.json": "33cd12f19be8460f7d73e70e86287d7162c310eac284aca6d9081c338f24aed5"
+  },
+  "validation_environment": "IsolatedLinuxContainerPythonJsonschema",
+  "validation_modes_executed": [
+    "JSONParse",
+    "Draft202012SchemaValidation",
+    "SemanticValidation",
+    "SyntheticMutatedFixtureExecution"
+  ],
+  "checks_defined": 6,
+  "checks_executed": 6,
+  "checks_passed": 6,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check_id": "JSON_PARSE_ALL",
+      "status": "PASS",
+      "detail": "Manifest and four companions parse as JSON"
+    },
+    {
+      "check_id": "SCHEMA_DRAFT_2020_12",
+      "status": "PASS",
+      "detail": "Manifest validates against corrected Draft 2020-12 schema"
+    },
+    {
+      "check_id": "DEFINITION_INVENTORY",
+      "status": "PASS",
+      "detail": "81 unique definitions; all corrected payload records represented at generation"
+    },
+    {
+      "check_id": "CROSSWALK",
+      "status": "PASS",
+      "detail": "35 legacy aliases create no second identities"
+    },
+    {
+      "check_id": "NON_CREATION",
+      "status": "PASS",
+      "detail": "Definition contract contains only false non-creation permissions"
+    },
+    {
+      "check_id": "FIXTURES",
+      "status": "PASS",
+      "detail": "Seven mutated synthetic manifests produced expected dispositions"
+    }
+  ],
+  "fixtures_defined": 7,
+  "fixtures_executed": 7,
+  "fixture_results": [
+    {
+      "fixture_id": "POS_MAN_001",
+      "status": "PASS",
+      "observed_status": "PASS",
+      "observed_error_codes": [],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_MAN_001",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "MAN_SOURCE_VERSION"
+      ],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_MAN_002",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "MAN_DEFINITION_COUNT"
+      ],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_MAN_003",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "MAN_DUPLICATE_ID"
+      ],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_MAN_004",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "MAN_INSTANCE_CREATION"
+      ],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "NEG_MAN_005",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "MAN_SECOND_IDENTITY"
+      ],
+      "observed_mutation_count": 0
+    },
+    {
+      "fixture_id": "BND_MAN_001",
+      "status": "PASS",
+      "observed_status": "REJECT",
+      "observed_error_codes": [
+        "MAN_REGISTRY_MUTATION"
+      ],
+      "observed_mutation_count": 0
+    }
+  ],
+  "mutation_count": 0,
+  "registry_validation": "NotExecuted",
+  "importer_validation": "NotExecuted",
+  "unreal_validation": "NotExecuted",
+  "runtime_validation": "NotExecuted",
+  "promotion_recommendation": "StaticDefinitionFamilyPassOwnerReviewRequiredNoRegistryOrRuntimeAuthorization",
+  "validation_limitations": [
+    "No canonical Registry lookup",
+    "No external owner receipt validation",
+    "No importer or Unreal execution"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "document": "Holland_Character_Portfolio_Current_Authority_Index_V1_0.md",
+  "version": "1.0.0",
+  "bytes": 12895,
+  "lines": 310,
+  "sha256": "c2166dfdcdb4de508742fe4750aecfe082eca16be0c8303a2b45d73bf3e14ac9",
+  "utf8_valid": true,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "escaped_list_marker_count": 0,
+  "stable_footer_count": 1,
+  "indexed_authorities": 7,
+  "implementation_validation": {
+    "compile": false,
+    "runtime": false,
+    "save_load": false,
+    "migration": false,
+    "unreal": false
+  },
+  "result": "PASS_AT_STATIC_AUTHORING_SCOPE"
+}

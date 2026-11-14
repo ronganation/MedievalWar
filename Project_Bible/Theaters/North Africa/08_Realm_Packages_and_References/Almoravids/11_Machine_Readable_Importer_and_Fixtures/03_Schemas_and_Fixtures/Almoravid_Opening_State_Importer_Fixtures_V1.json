@@ -1,0 +1,1423 @@
+{
+  "fixturePackageIdentity": {
+    "fixturePackageId": "fixtures.almoravid.opening_state.1062.importer.v1",
+    "fixturePackageVersion": "1.0.0",
+    "documentKind": "OpeningStateImporterFixturePackage",
+    "status": "STATIC_CHECKED_SIMULATED_FIXTURES"
+  },
+  "bindings": {
+    "schema": {
+      "file": "Almoravid_Opening_State_Package_Schema_V1.json",
+      "sha256": "7631579ea6f0977b757f18696edf6309f7db9b5eaf13141f9f998b007f832293",
+      "schemaId": "schema.almoravid.opening_state.package.v1",
+      "jsonSchemaDraft": "2020-12"
+    },
+    "validationProfile": {
+      "file": "Almoravid_Opening_State_Static_Validation_Profile_V1.json",
+      "sha256": "57b89af092d0852cfe19268cee52e01ff265a88e5d7621b35e4367320fbd6b6f",
+      "profileCanonicalHash": "5de34179a3e5c1b1f814884789fd9aff97da750d15622e3303b5dd1065c212af"
+    },
+    "canonicalPayload": {
+      "file": "Almoravid_Opening_State_1062_V1.json",
+      "fileSha256": "211b1a6936f3f801454690d4d0a2b3c234d5c45f7bf929aeee56ff310056e3a3",
+      "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97"
+    },
+    "abuBakrOverlay": {
+      "file": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "fileSha256": "9acdecd47bab2c7d3b78c44137edc9c4c6ebc231382d426c51a21c2bd06ba8fb",
+      "overlayHash": "1df2f98c26cc486da6af19abfdd8d9c4b92df320025494cdf87057d9022f0795"
+    },
+    "yusufOverlay": {
+      "file": "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json",
+      "fileSha256": "74658fa9da9b27fa93131e9eb1f85789d2f4a3a080a6a08fe8f5a3a39f652b99",
+      "overlayHash": "4bbd1371a078f1eace0c6c05aeb6c6b2cf59a1b46bbcb6117b9ec5d5b573338c"
+    },
+    "registry": {
+      "registryId": "registry.almoravid.v1",
+      "registryVersion": "1.1.0",
+      "file": "Almoravid_ID_Registry_V1.md",
+      "sha256": "e798c51865aa289eae5a72681b18a8e5e455c1ea669216904d2b33af9061989f"
+    }
+  },
+  "expectedSummary": {
+    "fixtureCount": 38,
+    "accepted": 2,
+    "alreadyApplied": 1,
+    "rejectedFatal": 35,
+    "committed": 2,
+    "nonCommitted": 36,
+    "authoritativeMutationsOnNonCommit": 0,
+    "deterministicRepeatRequired": true
+  },
+  "simulationBoundary": {
+    "simulatedOnly": true,
+    "realImporterExecuted": false,
+    "realOwnerMutations": 0,
+    "realOpeningStateReceipts": 0,
+    "registryMutations": 0,
+    "openingStateMutations": 0,
+    "runtimeMutations": 0
+  },
+  "fixtures": [
+    {
+      "fixtureId": "fixture.almoravid.opening.valid_abu_bakr.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Valid new campaign with Abu Bakr selection",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "Accepted",
+        "issueCodes": [],
+        "commit": true,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 1,
+        "validationLayer": "None",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.valid_yusuf.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Valid new campaign with Yusuf selection",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "Accepted",
+        "issueCodes": [],
+        "commit": true,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 1,
+        "validationLayer": "None",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.already_applied.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Matching valid receipt already exists",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "Initialized",
+        "openingStateReceipt": {
+          "openingStateId": "opening.almoravid.1062",
+          "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97",
+          "selectedPerspectiveRef": "perspective.almoravid.abu_bakr",
+          "perspectiveOverlayHash": "1df2f98c26cc486da6af19abfdd8d9c4b92df320025494cdf87057d9022f0795",
+          "valid": true
+        },
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "AlreadyApplied",
+        "issueCodes": [
+          "ALM_OSV_ALREADY_APPLIED"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ApplicationGuard",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.missing_perspective.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "No perspective overlay supplied",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": null,
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_PERSPECTIVE_REQUIRED"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.multiple_perspectives.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Both perspective overlays supplied",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_MULTIPLE_PERSPECTIVES"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.perspective_person_mismatch.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Abu Bakr perspective points to Yusuf",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/selectedPersonRef",
+          "value": "person.yusuf_ibn_tashfin"
+        }
+      ],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_PERSPECTIVE_PERSON_MISMATCH"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.payload_hash_mismatch.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Overlay payload hash changed",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/canonicalPayloadHash",
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_PAYLOAD_CANONICAL_HASH_MISMATCH"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "BindingAndRegistry",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.schema_hash_mismatch.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Harness schema binding changed",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_SCHEMA_HASH_MISMATCH"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "BindingAndRegistry",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.registry_hash_mismatch.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Payload Registry hash changed",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/registryBinding/registrySha256",
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_REGISTRY_HASH_MISMATCH"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "BindingAndRegistry",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.zaynab_runtime_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Zaynab added as opening runtime character",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "append",
+          "jsonPointer": "/openingCharacterRecords",
+          "value": {
+            "personRef": "person.zaynab_al_nafzawiyya",
+            "alive": true
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_ZAYNAB_RUNTIME_INJECTED"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.historical_person_runtime_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Deceased founder added as opening runtime character",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "append",
+          "jsonPointer": "/openingCharacterRecords",
+          "value": {
+            "personRef": "person.abdallah_ibn_yasin",
+            "alive": true
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_HISTORICAL_PERSON_RUNTIME_INJECTED"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.leader_location_invented.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Yusuf receives unsupported opening location",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/openingCharacterRecords/1/openingLocationRef",
+          "value": "settlement.aghmat"
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_LEADER_LOCATION_INVENTED"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.army_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "ActiveArmies receives an item",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "appendByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": {
+            "collectionRef": "ActiveArmies",
+            "item": {
+              "armyRef": "army.injected"
+            }
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.network_edge_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Character Network edge injected",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "appendByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": {
+            "collectionRef": "ActiveCharacterNetworkEdges",
+            "item": {
+              "edgeRef": "edge.injected"
+            }
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.commitment_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Confederational commitment injected",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "appendByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": {
+            "collectionRef": "ActiveConfederationalCommitments",
+            "item": {
+              "commitmentRef": "commitment.injected"
+            }
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.property_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Property instance injected",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "appendByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": {
+            "collectionRef": "ActivePropertyInstances",
+            "item": {
+              "propertyRef": "property.injected"
+            }
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.treasury_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Treasury injected",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "appendByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": {
+            "collectionRef": "ActiveTreasuries",
+            "item": {
+              "treasuryRef": "treasury.injected"
+            }
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.market_mint_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Market operation injected",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "appendByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": {
+            "collectionRef": "ActiveControlledMarkets",
+            "item": {
+              "marketRef": "market.sijilmasa"
+            }
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.caravan_supply_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Caravan injected",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "appendByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": {
+            "collectionRef": "ActiveCaravans",
+            "item": {
+              "caravanRef": "caravan.injected"
+            }
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.marrakesh_instance_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Marrakesh project runtime instance enabled",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/definitionOnlyPolicies/4/openingRuntimeInstance",
+          "value": true
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_MARRAKESH_INSTANCE_INJECTED"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.marrakesh_phase_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Marrakesh phase activated",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/definitionOnlyPolicies/4/activePhaseRef",
+          "value": "capital_phase.marrakesh.1_site_selected"
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_MARRAKESH_PHASE_INJECTED"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.religious_office_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Religious office injected",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "appendByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": {
+            "collectionRef": "ActiveReligiousOffices",
+            "item": {
+              "officeRef": "office.injected"
+            }
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.historical_instance_injected.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Historical Momentum instance injected",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "appendByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": {
+            "collectionRef": "ActiveHistoricalMomentumInstances",
+            "item": {
+              "instanceRef": "momentum.injected"
+            }
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.explicit_collection_missing.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "One explicit-empty record removed",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "removeByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": "ActiveArmies"
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NAME_MISSING"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.explicit_collection_duplicate.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "One explicit-empty record duplicated",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "duplicateByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": "ActiveArmies"
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_DUPLICATE"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.explicit_collection_nonempty.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Explicit-empty item added",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "appendByCollectionRef",
+          "jsonPointer": "/explicitEmptyCollections",
+          "value": {
+            "collectionRef": "ActiveCommands",
+            "item": {
+              "commandRef": "command.injected"
+            }
+          }
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ExplicitEmptyCatalogue",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.declared_count_mismatch.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Declared army count changed",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/declaredCounts/openingArmies",
+          "value": 1
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_DECLARED_COUNT_MISMATCH"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.temporal_corruption.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Historical Date advanced",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/temporalState/historicalDate",
+          "value": "1062-02-01"
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_HISTORICAL_DATE_INVALID"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "Temporal",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.fixed_ratio.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Fixed cross-clock ratio enabled",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/temporalState/fixedCrossClockRatioPresent",
+          "value": true
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_FIXED_CROSS_CLOCK_RATIO"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "Temporal",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.review_only_activation.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "ReviewOnly activation enabled",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/reviewOnlyExclusions/activationAllowed",
+          "value": true
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_UNSUPPORTED_OPENING_INSTANCE"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.quarantine_activation.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Quarantine activation enabled",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/quarantineExclusions/activationAllowed",
+          "value": true
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_UNSUPPORTED_OPENING_INSTANCE"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.external_lock_mutation.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "External settlement local universal mutation enabled",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "replace",
+          "jsonPointer": "/externalLocks/0/localUniversalMutationAllowed",
+          "value": true
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_UNSUPPORTED_OPENING_INSTANCE"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.later_history_activation.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Later-history exclusion removed",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [
+        {
+          "operation": "remove",
+          "jsonPointer": "/laterHistoryExclusions/0"
+        }
+      ],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_DECLARED_COUNT_MISMATCH"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "CrossRecordSemantics",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.advanced_save.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Opening State applied to advanced save",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "AdvancedSave",
+        "openingStateReceipt": null,
+        "historicalDate": "1065-01-01",
+        "historicalProgressionIndex": 2,
+        "biologicalProgressionIndex": 6,
+        "campaignSeasonIndex": 3,
+        "runtimeDivergencePresent": true
+      },
+      "ownerBehavior": "AllAccept",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_ADVANCED_SAVE_APPLICATION"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "ApplicationGuard",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.owner_rejection.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Required owner rejects staged request",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "RejectRequiredOwner",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_OWNER_REJECTED"
+        ],
+        "commit": false,
+        "rollbackRequired": true,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "OwnerRouting",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.partial_commit.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Owner transaction fails after partial staging",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "FailAfterPartialStage",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_PARTIAL_COMMIT"
+        ],
+        "commit": false,
+        "rollbackRequired": true,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "Transaction",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.receipt_failure.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Receipt write fails after owner acceptance",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "ReceiptWriteFailure",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_RECEIPT_WRITE_FAILED"
+        ],
+        "commit": false,
+        "rollbackRequired": true,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "Transaction",
+        "deterministicRepeatRequired": true
+      }
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.determinism_mismatch.v1",
+      "fixtureVersion": "1.0.0",
+      "description": "Equal inputs produce altered repeat trace",
+      "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+      "perspectiveOverlayFile": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "payloadMutations": [],
+      "overlayMutations": [],
+      "campaignContext": {
+        "campaignState": "NewCampaignUninitialized",
+        "openingStateReceipt": null,
+        "historicalDate": "1062-01-01",
+        "historicalProgressionIndex": 0,
+        "biologicalProgressionIndex": 0,
+        "campaignSeasonIndex": 0,
+        "runtimeDivergencePresent": false
+      },
+      "ownerBehavior": "ForceDeterminismMismatch",
+      "expected": {
+        "disposition": "RejectedFatal",
+        "issueCodes": [
+          "ALM_OSV_DETERMINISM_MISMATCH"
+        ],
+        "commit": false,
+        "rollbackRequired": false,
+        "authoritativeMutationCount": 0,
+        "validationLayer": "Determinism",
+        "deterministicRepeatRequired": true
+      }
+    }
+  ],
+  "fixturePackageCanonicalHash": "c795166ea28deea3fd090445d0357584efd2c061f8f625cc864a07843f775c20"
+}

@@ -1,0 +1,57 @@
+{
+  "document_identity": {
+    "document_id": "mw.denmark.qualitative_mapping.controlling_owner_discovery.v1",
+    "filename": "Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_and_Disposition_Candidate_V1.md",
+    "version": "1.0.0",
+    "date": "2026-08-24",
+    "status": "STATIC_CHECKED_OWNER_DISPOSITION_CANDIDATE"
+  },
+  "controlling_owner_candidate": {
+    "stable_id": "Framework.CharacterNetwork",
+    "runtime_binding_candidate": "Owner.Campaign.Relationships",
+    "owner_receipt_located": false
+  },
+  "request_dispositions": [
+    {
+      "stable_order": 10,
+      "status": "APPROVE_CANDIDATE_PENDING_OWNER_RECEIPT"
+    },
+    {
+      "stable_order": 20,
+      "status": "APPROVE_AUTHORITY_ONLY_CANDIDATE_PENDING_VALUES_AND_RECEIPT"
+    },
+    {
+      "stable_order": 30,
+      "status": "APPROVE_CANDIDATE_PENDING_OWNER_RECEIPT"
+    },
+    {
+      "stable_order": 40,
+      "status": "APPROVE_CANDIDATE_PENDING_OWNER_RECEIPT"
+    },
+    {
+      "stable_order": 50,
+      "status": "PARTIAL_AUTHORITY_LOCATED_PENDING_OWNER_RECEIPT"
+    },
+    {
+      "stable_order": 60,
+      "status": "APPROVE_CANDIDATE_PENDING_OWNER_RECEIPT"
+    },
+    {
+      "stable_order": 70,
+      "status": "DEFERRED_TO_SHARED_SAVE_WORKSTREAM"
+    }
+  ],
+  "unresolved": [
+    "actual_dimension_specific_numeric_values",
+    "complete_atomic_rollback_contract",
+    "controlling_owner_receipt"
+  ],
+  "authorization": {
+    "ledger_update_authorized": false,
+    "mapping_implementation_authorized": false,
+    "runtime_mutation_authorized": false,
+    "save_persistence_authorized": false,
+    "migration_execution_authorized": false,
+    "replay_validation_authorized": false
+  }
+}

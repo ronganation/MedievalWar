@@ -1,0 +1,60 @@
+{
+  "report_id": "static_check.iberia.theater_compatibility.source_assertions.v1_2",
+  "version": "1.2.0",
+  "status": "PASS_SOURCE_ASSERTION_RULES",
+  "schema_errors": [],
+  "rule_results": [
+    {
+      "code": "IBERIA_LEGACY_001",
+      "status": "Pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "code": "IBERIA_ALIAS_001",
+      "status": "Pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "code": "IBERIA_ALIAS_COVERAGE_001",
+      "status": "Pass",
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "code": "IBERIA_SAVE_001",
+      "status": "Pass",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "code": "IBERIA_SAVE_COVERAGE_001",
+      "status": "Pass",
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "code": "IBERIA_COMPOSITE_001",
+      "status": "Pass",
+      "actual": true,
+      "expected": true
+    }
+  ],
+  "counts": {
+    "records": 7,
+    "schema_errors": 0,
+    "rules_executed": 6,
+    "rules_failed": 0,
+    "not_evaluable_rules": 0
+  },
+  "evidence_boundary": {
+    "structured_source_assertion_schema_validated": true,
+    "source_assertion_rules_complete": true,
+    "realm_packages_modified": 0,
+    "opening_states_modified": 0,
+    "runtime_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false
+  }
+}

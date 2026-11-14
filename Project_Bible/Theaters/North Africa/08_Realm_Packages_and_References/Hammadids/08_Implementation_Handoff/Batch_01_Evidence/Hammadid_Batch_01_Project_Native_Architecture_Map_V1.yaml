@@ -1,0 +1,342 @@
+map_control:
+  document_id: map.realm.hammadid.batch-01.project-native-architecture.v1
+  stable_document_id: Batch01ProjectNativeArchitectureMap.Hammadids
+  file_name: Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+  version: 1.0.0
+  revision_date: 2026-09-22
+  realm: Hammadids
+  owning_theater: North Africa
+  scenario_id: mw.scenario.grand_campaign.1062
+  scenario_opening: 1062-01-01
+  opening_campaign_season: Winter
+  constitutional_authority: Project Bible 2.4
+  operational_authority: Design Expansion Checklist 3.7
+  implementation_target: Unreal Engine 5.8
+  controlling_handoff: Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+  controlling_gate: Hammadid_Unreal_Engine_5_8_Batch_01_Read_Only_Project_Discovery_Gate_V1.md
+  discovery_mode: OneDriveIndexedProjectEvidenceReadOnly
+  status: PartialPassVerifiedIndexedArchitectureEvidenceDirectLocalRepositoryInspectionUnavailable
+
+strong_verdict:
+  read_only_discipline: Pass
+  indexed_architecture_baseline: PartialPass
+  candidate_project_root_identified: PassFromIndexedEvidence
+  campaign_source_module_identified: PassFromIndexedEvidence
+  shared_importer_plugin_identified: PassFromIndexedEvidence
+  strategic_command_fixture_path_identified: PassFromIndexedEvidence
+  opening_state_preview_extension_point_identified: PassFromIndexedEvidence
+  source_hit_and_fingerprint_practices_identified: PassFromIndexedEvidence
+  direct_live_repository_recursive_inventory: NotAvailable
+  project_descriptor_verified: NotRun
+  controlling_unreal_readme_opened: NotRun
+  complete_module_plugin_and_owner_inventory: NotRun
+  exact_current_project_fingerprints: NotRun
+  Hammadid_native_targets_fully_resolved: false
+  Batch01_acceptance: Blocked
+  Batch02_promotion: Blocked
+  result: PartialPassNoMutationNoExecutionPromotion
+
+claim_boundary:
+  verified_means: ExplicitlyRecordedInIndexedProjectEvidence
+  not_verified_means: NotDirectlyInspectedInCurrentLiveWindowsRepository
+  rules:
+    - IndexedPathDoesNotProveCurrentLiveExistence
+    - SimilarRealmImplementationDoesNotAuthorizeHammadidInheritance
+    - SearchNonreturnDoesNotProveAbsence
+    - CandidatePathDoesNotAuthorizeCreationOrMutation
+    - GeneratedIntermediateSavedAndCacheSurfacesAreNotAuthoritativeByDefault
+    - DirectFileInspectionRequiredBeforeAnyExtensionOrWriteProposal
+
+project_root:
+  candidate_root: 'C:\UnrealProjects\MedievalWar'
+  evidence_class: IndexedSourceHitFromDevelopedRealmBatch01Evidence
+  live_root_exists: NotRun
+  canonical_root_verified_directly: false
+  project_descriptor_path: UnknownPendingLiveInspection
+  project_descriptor_verified: false
+  source_control_workspace_boundary: UnknownPendingLiveInspection
+
+verified_indexed_architecture:
+  CampaignSourceModule:
+    relative_path: 'Source\MedievalWarCampaign'
+    target_kind: SourceModule
+    evidence_state: VerifiedIndexedPathDirectInspectionPending
+  StrategicIntegrationPath:
+    relative_path: 'Source\MedievalWarCampaign\Private\StrategicIntegration'
+    target_kind: PrivateSourceSubpath
+    evidence_state: VerifiedIndexedPathDirectInspectionPending
+  StrategicCommandAdmissionFixtureProvider:
+    relative_path: 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    target_kind: CppFixtureProvider
+    evidence_state: VerifiedIndexedPathDirectInspectionPending
+    observed_contract_fields:
+      - runtime_mutation_count
+      - envelope_id
+      - proposal_id
+      - proposal_version
+      - command_request_id
+      - issuer_id
+      - owner_id
+      - command_type
+      - requested_phase
+      - target_ids
+      - precondition_ids
+      - evidence_ids
+      - idempotency_key
+    Hammadid_relevance: CandidatePatternForOwnerRoutedStrategicCommandAdmissionOnly
+  SharedImporterPlugin:
+    relative_path: 'Plugins\MWSharedImporter'
+    target_kind: SharedPlugin
+    evidence_state: VerifiedIndexedPathDirectInspectionPending
+  SharedImporterPrivateSource:
+    relative_path: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private'
+    target_kind: PluginPrivateSource
+    evidence_state: VerifiedIndexedPathDirectInspectionPending
+  NorwayOpeningStatePreviewPresentationCpp:
+    relative_path: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.cpp'
+    target_kind: DevelopedRealmPresentationExample
+    evidence_state: VerifiedIndexedPathMethodologyOnlyNoPrivateStateInheritance
+  NorwayOpeningStatePreviewPresentationHeader:
+    relative_path: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.h'
+    target_kind: DevelopedRealmPresentationExample
+    evidence_state: VerifiedIndexedPathMethodologyOnlyNoPrivateStateInheritance
+  OpeningStatePreviewTab:
+    relative_path: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+    target_kind: SharedPreviewSurfaceCandidate
+    evidence_state: VerifiedIndexedPathDirectInspectionPending
+
+verified_indexed_patterns:
+  StrategicCommandAdmission:
+    source_ref: MWStrategicCommandAdmissionFixtureProviders.cpp
+    observed_pattern: CommandEnvelopeOwnerAdmissionEvidenceIdempotencyAndRuntimeMutationCount
+    permitted_use: MethodologyAndCandidateExtensionPointReview
+    prohibited_use: HammadidMutationOrOwnerAssumption
+  OpeningStatePreviewPresentation:
+    source_refs:
+      - MWNorwayOpeningStatePreviewPresentation.cpp
+      - MWNorwayOpeningStatePreviewPresentation.h
+      - SMWOpeningStatePreviewTab.cpp
+    observed_pattern: ActiveUnitInventoryDispositionAndOpeningPreviewPresentation
+    permitted_use: SharedPresentationPatternReview
+    prohibited_use: NorwayPrivateOpeningStateInheritance
+  UnitAssetInventory:
+    source_ref: Norway_Unit_Asset_Inventory_V1.json
+    observed_pattern: AuthorityMappedPendingActiveUnrealAssetScan
+    permitted_use: InventoryMethodologyOnly
+    prohibited_use: HammadidAssetExistenceClaim
+  SourceEvidencePractice:
+    source_refs:
+      - OS_VIS_03G_Source_Hits.csv
+      - OS_REAL_01_Readiness_Source_Hits.csv
+      - DENMARK_00A_Relevant_File_Inventory.csv
+      - DENMARK_00A_Source_Fingerprints.csv
+    observed_pattern: SourceHitInventoryAndSHA256FingerprintEvidence
+    permitted_use: Batch01EvidenceMethod
+
+controlling_navigation_state:
+  DesignExpansionChecklist:
+    file_name: Design_Expansion_Checklist_V3.7.md
+    indexed_role: SingleOperationalChecklist
+    direct_current_content_review: NotRun
+  ProjectBibleREADME:
+    required_expected_name: README_Project_Bible.mdOrCurrentSuccessor
+    direct_current_content_review: NotRun
+  FrameworkClosureREADME:
+    required_expected_name: README_Frameworks_V5_1_Current_Authority_Family_Closure_and_Routing_Reconciliation.md
+    direct_current_content_review: NotRun
+  UnrealProjectREADME:
+    required_state: CurrentUnrealProjectREADMEAndImplementationNavigationAuthorities
+    direct_current_content_review: NotRun
+
+architecture_surface_inventory:
+  AuthoritativeSourceRoots:
+    known:
+      - 'Source\MedievalWarCampaign'
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter'
+    completeness: Incomplete
+  ConfigurationRoots:
+    known: []
+    state: NotRun
+  ContentAndDataRoots:
+    known: []
+    state: NotRun
+  PluginAndModuleRoots:
+    known:
+      - 'Source\MedievalWarCampaign'
+      - 'Plugins\MWSharedImporter'
+    completeness: Incomplete
+  TestAndAutomationRoots:
+    known:
+      - 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    completeness: Incomplete
+  ImporterValidatorAndMigrationRoots:
+    known:
+      - 'Plugins\MWSharedImporter'
+    validator_paths: UnknownPendingDirectInspection
+    migration_paths: UnknownPendingDirectInspection
+    completeness: Incomplete
+  EvidenceAndReceiptRoots:
+    known_patterns:
+      - OS_VIS_03G_Source_Hits.csv
+      - OS_REAL_01_Readiness_Source_Hits.csv
+      - DENMARK_00A_Relevant_File_Inventory.csv
+      - DENMARK_00A_Source_Fingerprints.csv
+    canonical_project_evidence_location: UnknownPendingOwnerAndREADMEReview
+  GeneratedAndExcludedRoots:
+    paths: []
+    state: NotRun
+  SaveReplayRollbackAndDeterminismSurfaces:
+    paths: []
+    state: NotRun
+
+Hammadid_architecture_crosswalk_seed:
+  RegistryAndTypedReferences:
+    native_path: MissingPendingDirectInspection
+    existing_owner: MissingPendingDirectInspection
+    disposition: HeldPendingEvidence
+    Batch02_relevance: Fatal
+  RealmFactionAndOpeningState:
+    native_path: 'Plugins\MWSharedImporter'
+    existing_pattern_refs:
+      - MWNorwayOpeningStatePreviewPresentation.cpp
+      - MWNorwayOpeningStatePreviewPresentation.h
+      - SMWOpeningStatePreviewTab.cpp
+    existing_owner: MissingPendingDirectOwnerInspection
+    disposition: ExistingPatternCandidateNoHammadidCreationAuthorized
+    private_state_risk: NorwayPrivateStateMustNotTransfer
+  StrategicCommandAndRealmAIProposalRouting:
+    native_path: 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    existing_owner: MissingPendingDirectOwnerInspection
+    disposition: ExistingPatternCandidateDirectInspectionRequiredBeforeExtension
+    private_state_risk: ExistingFixtureDoesNotAuthorizeHammadidRuntimeState
+  UnitDefinitionFiniteRecruitmentAndAssetInventory:
+    native_path: MissingPendingDirectInspection
+    methodology_ref: Norway_Unit_Asset_Inventory_V1.json
+    existing_owner: MissingPendingDirectInspection
+    disposition: HeldPendingEvidence
+    private_state_risk: NorwayOrOtherRealmUnitsPoolsAndAssetsMustNotTransfer
+  CampaignSystemsTransactionsAndPersistence:
+    native_path: MissingPendingDirectInspection
+    existing_owner: MissingPendingDirectInspection
+    disposition: HeldPendingEvidence
+  BattleSiegeAndCampaignReturn:
+    native_path: MissingPendingDirectInspection
+    existing_owner: MissingPendingDirectInspection
+    disposition: HeldPendingEvidence
+  PresentationLocalizationAccessibilityAndArt:
+    native_path: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private'
+    existing_owner: MissingPendingDirectOwnerInspection
+    disposition: ExistingSharedPresentationPatternCandidateDirectInspectionRequired
+  ImporterValidationSaveMigrationReplayRollback:
+    native_path: 'Plugins\MWSharedImporter'
+    existing_owner: MissingPendingDirectOwnerInspection
+    disposition: HeldPendingCompletePluginSchemaValidatorImporterAndPersistenceInspection
+
+missing_or_unverified:
+  - ProjectRootLiveExistence
+  - UnrealProjectDescriptor
+  - ControllingProjectREADME
+  - CompleteSourceModuleList
+  - CompletePluginList
+  - ConfigRoots
+  - ContentAndDataRoots
+  - TestAndAutomationRoots
+  - ImporterValidatorAndMigrationCommands
+  - RegistryOwnerAndPublishedRows
+  - OpeningStateSchemaAndInitializationOwner
+  - CharacterDynastyHouseholdOfficeRelationshipOwners
+  - GeographySettlementFortressRoutePropertyOwners
+  - PopulationCommunityEconomyHealthPublicOrderOwners
+  - UnitRecruitmentCommandLogisticsSiegeOwners
+  - BattleReturnPersistenceOwner
+  - HistoricalEventAndRealmAIOwners
+  - LocalizationAccessibilityArtAudioOwners
+  - SaveMigrationReplayRollbackAndDeterminismSurfaces
+  - CurrentBranchCommitAndTargetFingerprints
+  - GeneratedIntermediateSavedDerivedCacheExclusions
+  - ProjectApprovedEvidenceLocation
+
+collision_duplication_and_private_state_controls:
+  - NoHammadidStandalonePluginOrModuleWithoutVerifiedMissingOwnerAndArchitectureApproval
+  - NoNorwayOpeningStatePeopleUnitsPoolsRelationshipsOrPrivateStateInheritance
+  - NoZaragozaSevilleAlmoravidOrOtherRealmPrivateStateInheritance
+  - NoCandidateReferenceTreatedAsPublishedID
+  - NoAnNasirQuarantineRelease
+  - NoJanuaryAndPostJulyVariantBlend
+  - NoQalatPlaceFunctionFlattening
+  - NoBejaiaOpeningBackfill
+  - NoPopulationAsSpendableManpower
+  - NoDefinitionCreatesRuntimeOrOpeningInstance
+
+required_live_discovery_closure:
+  - VerifyCUnrealProjectsMedievalWarExists
+  - LocateAndRecordUnrealProjectDescriptor
+  - OpenControllingProjectREADMEAndImplementationNavigation
+  - InventoryAuthoritativeSourceConfigContentPluginsTestsScriptsAndEvidenceRoots
+  - SeparateGeneratedIntermediateSavedDerivedAndCacheLocations
+  - DirectlyInspectIndexedCandidatePathsAndOwnerFiles
+  - LocateNativeRegistryReferenceAliasCollisionExternalLockAndMigrationOwners
+  - LocateOpeningStateSchemaInitializationApplyOnceAdvancedSaveAndRollbackOwners
+  - LocateCampaignBattleHistoricalAIAndPresentationOwners
+  - RecordExactCurrentBranchCommitPathsBytesAndRelevantSHA256Values
+  - ProduceReadPathsWrittenPathsAccessDenialsAndZeroMutationEvidence
+
+acceptance_matrix:
+  exact_canonical_project_root_recorded: NotMet
+  project_descriptor_path_recorded: NotMet
+  controlling_READMEs_read: NotMet
+  authoritative_and_generated_surfaces_separated: NotMet
+  required_discovery_domains_covered: PartialIndexedEvidenceOnly
+  Hammadid_authority_to_native_target_crosswalk_complete: NotMet
+  existing_owner_or_explicit_missing_for_every_seed_target: PassAtSeedLevel
+  collision_duplication_and_private_state_risks_recorded: PassAtPlanningLevel
+  Batch02_registry_surface_bounded: Partial
+  project_files_changed: 0
+  registry_rows_changed: 0
+  opening_state_records_changed: 0
+  payloads_or_importers_executed: 0
+  compile_runtime_or_save_mutation_executed: 0
+  final_result: PartialPassBatch01AcceptanceBlocked
+
+nonmutation_receipt:
+  project_files_created_modified_moved_or_deleted: 0
+  registry_rows_created_or_modified: 0
+  canonical_ids_published_or_reserved: 0
+  opening_state_records_created_or_modified: 0
+  gameplay_payloads_created_or_imported: 0
+  importers_or_migrations_executed: 0
+  modules_plugins_classes_assets_configs_or_schemas_modified: 0
+  compile_or_runtime_execution: false
+  advanced_saves_modified: 0
+
+next_safe_action:
+  next_file: Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml
+  next_file_scope: ReconcileOnlyVerifiedIndexedOwnerCandidatesAndExplicitMissingOwnerDispositions
+  direct_live_repository_inspection_still_required: true
+  Batch02_promotion_authorized: false
+  Unreal_mutation_authorized: false
+
+stable_footer:
+  ConstitutionalAuthority: Project Bible 2.4
+  OperationalAuthority: Design Expansion Checklist 3.7
+  ImplementationTarget: Unreal Engine 5.8
+  Theater: North Africa
+  CandidateRealm: Hammadids
+  ScenarioOpening: 1062-01-01
+  OpeningCampaignSeason: Winter
+  PreferredPlayableBoundaryCandidate: post_1062-07-11
+  PlayableBoundaryStatus: HeldPendingScenarioOwnerDisposition
+  HistoricalProgression: 21MonthsPerStrategicTurn
+  BiologicalProgression: 7MonthsPerStrategicTurn
+  CampaignSeasonProgression: OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn
+  BatchID: Batch01
+  MapStatus: PartialPassVerifiedIndexedArchitectureEvidenceDirectLocalRepositoryInspectionUnavailable
+  ProjectMutationPerformed: false
+  DirectLiveRepositoryInventoryComplete: false
+  Batch01AcceptanceAuthorized: false
+  Batch02PromotionAuthorized: false
+  RegistryPublicationAuthorized: false
+  OpeningStateCreationAuthorized: false
+  PayloadOrImporterExecutionAuthorized: false
+  UnrealProjectMutationAuthorized: false
+  NextAction: DraftExistingOwnerAndExtensionPointMapFromVerifiedIndexedEvidenceAndExplicitMissingDispositions

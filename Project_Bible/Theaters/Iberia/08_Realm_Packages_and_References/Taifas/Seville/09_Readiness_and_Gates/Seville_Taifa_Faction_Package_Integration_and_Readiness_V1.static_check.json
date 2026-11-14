@@ -1,0 +1,39 @@
+{
+  "ArtifactId": "Seville_Taifa_Faction_Package_Integration_and_Readiness_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_INTEGRATION_REVIEW",
+  "RealmId": "realm.seville",
+  "DesignIntegrationStatus": "COHERENT_STATIC_CHECKED",
+  "PlayableRuntimeStatus": "NOT_READY",
+  "ProposedProfileIdsRequiringAdjudication": 13,
+  "ExternalInterfaceSubjectsUnresolved": 10,
+  "FatalCrossPackageContradictions": 0,
+  "PrimaryBlockers": [
+    "ProfileIdAdjudication",
+    "SharedDefinitionAudit",
+    "MinimumFirstTurnContract",
+    "ExternalLocks",
+    "OpeningEconomy",
+    "OpeningMilitary",
+    "FinalPresentationAssets",
+    "ExecutableValidation"
+  ],
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "OpeningSchemaValidated": true,
+    "OpeningSemanticValidated": true,
+    "FixtureExecutionValidated": true,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "BalanceValidated": false,
+    "AccessibilityValidated": false,
+    "LocalizationValidated": false,
+    "VisualSourceValidated": false,
+    "PerformanceValidated": false
+  },
+  "SHA256": "9d17783484528183b0fb4296f79a7339294ffe1476424af3a945c4b56a4669d1"
+}

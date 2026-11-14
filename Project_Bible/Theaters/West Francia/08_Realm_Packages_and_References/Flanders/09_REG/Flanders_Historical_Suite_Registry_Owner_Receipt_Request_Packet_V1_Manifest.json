@@ -1,0 +1,43 @@
+{
+  "FileName": "Flanders_Historical_Suite_Registry_Owner_Receipt_Request_Packet_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "feefaa6f40e24bf1d9fd9dd88a48b7a8c11684c5402011a747c5c56dd17e6271",
+  "Bytes": 19065,
+  "Lines": 604,
+  "ControllingEvidence": [
+    {
+      "file": "Flanders_Historical_Suite_Registry_Preflight_V1.md",
+      "bytes": 19635,
+      "lines": 609,
+      "sha256": "53ba516f95d251a21404e38786f3594f62c1cf1f17dd601dc7b868241105cfcb"
+    },
+    {
+      "file": "Flanders_Historical_Suite_Registry_Mapping_and_Quarantine_Plan_V1.md",
+      "bytes": 41794,
+      "lines": 826,
+      "sha256": "e6bb6a94d08412342fab6e7392123c5f8d7838f90b9ca35462b625cd666082fa"
+    },
+    {
+      "file": "Flanders_Historical_Suite_Registry_Owner_Submission_Packet_V1.md",
+      "bytes": 19415,
+      "lines": 566,
+      "sha256": "2acf630943083f0b1ef0fd3e24bfc0ecd3dbc2eaebd027be6e8a4352ecce7995"
+    },
+    {
+      "file": "Flanders_Historical_Suite_Registry_Owner_Decision_and_Disposition_Record_V1.md",
+      "bytes": 16244,
+      "lines": 523,
+      "sha256": "79e813b4f94fcb4d2c220fcc0d5e22924744e24cd9ec0b945def0e71b467a44d"
+    }
+  ],
+  "ChronologyRowsPrepared": 30,
+  "ReceiptRequestGroups": 10,
+  "ReceiptsReceived": 0,
+  "OwnerDecisionsRecorded": 0,
+  "Result": "Pass",
+  "RegistryMutations": 0,
+  "OpeningStateMutations": 0,
+  "RuntimeMutations": 0,
+  "UnrealMutations": 0,
+  "NextFile": "Flanders_Historical_Suite_Registry_Chronology_Record_Classification_Workbook_V1.md"
+}

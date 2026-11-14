@@ -1,0 +1,17 @@
+{
+  "manifest_version": "1.1",
+  "document_type": "RealmStrategicGeographyAuthorityFullRefinement",
+  "file": "Ireland_Strategic_Geography_Regions_Settlements_Routes_Ports_and_Control_Authority_V1_1_FULL.md",
+  "bytes": 43336,
+  "lines": 944,
+  "sha256": "d3105fb0a2def59501295e340248f65aaad7ff4e42e05733b617a4cab146b07f",
+  "direct_substantive_source": "Ireland_Strategic_Geography_Regions_Settlements_Routes_Ports_and_Control_Authority_V1.md",
+  "source_treatment": "PreserveAndEnrich",
+  "substantive_sections": 39,
+  "validation_cases": 36,
+  "source_authorities_modified": 0,
+  "records_activated": 0,
+  "static_check_file": "Ireland_Strategic_Geography_Regions_Settlements_Routes_Ports_and_Control_Authority_V1_1_FULL_Static_Check.json",
+  "static_check_sha256": "bc8439f6258595d682ea362bcf66a805cb21600acfaaf10a0f89c9f533499957",
+  "validation_scope": "content static and source-successor completeness checks only; no cartographic, owner promotion, Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, or payload validation"
+}

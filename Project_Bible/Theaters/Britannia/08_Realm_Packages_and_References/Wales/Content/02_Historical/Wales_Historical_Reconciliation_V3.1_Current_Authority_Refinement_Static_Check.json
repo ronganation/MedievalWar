@@ -1,0 +1,27 @@
+{
+  "document_id": "static-check.wales.historical-reconciliation.v3.1",
+  "version": "3.1.0",
+  "source": "Wales_Historical_Reconciliation_V3_Modern_Medieval_II_Integrated_Authority.md",
+  "successor": "Wales_Historical_Reconciliation_V3.1_Current_Authority_Refinement.md",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger": true,
+    "all_source_headings_preserved": true,
+    "no_escaped_underscores_in_refinement": true,
+    "no_escaped_hyphens_in_refinement": true,
+    "one_current_opening_boundary": true,
+    "current_evidence_authority": true,
+    "evidence_record_counts": true,
+    "current_authorities": true,
+    "opening_thesis": true,
+    "three_tracks": true,
+    "modern_medieval_ii": true,
+    "owners_and_nonowners": true,
+    "removal_ledger": true,
+    "honest_validation": true,
+    "no_activation": true,
+    "exact_stable_footer": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

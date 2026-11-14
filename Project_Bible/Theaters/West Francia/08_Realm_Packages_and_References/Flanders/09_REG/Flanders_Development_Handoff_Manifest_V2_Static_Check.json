@@ -1,0 +1,22 @@
+{
+  "FileName": "Flanders_Development_Handoff_Manifest_V2.json",
+  "Version": "2.0.0",
+  "SHA256": "718b071a7f2238329af614a1e88493843c1f9ed6119ea606718ee194499d65b0",
+  "Bytes": 14506,
+  "FileEntryCount": 22,
+  "RecordedHashes": 2,
+  "UnavailableHashes": 20,
+  "ValidationResult": "PASS",
+  "Checks": {
+    "json_parse": true,
+    "entry_count_matches": true,
+    "candidate_count_479": true,
+    "source_count_116": true,
+    "zero_canonical": true,
+    "zero_runtime": true,
+    "three_tracks": true,
+    "opening_v21_present": true,
+    "compressed_v2_superseded": true,
+    "no_fake_hashes": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "ArtifactId": "Seville_Taifa_Religion_Law_and_Institutional_Authority_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_DEVELOPED_REALM_RELIGION_LAW_INSTITUTION_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "ccc2eee3c08831095c9345806e75c68f089eda40d30416047efa9f67573f74cf",
+  "SourceBytes": 41921,
+  "CreationMethod": "NewAuthorityRequiredByConfirmedReligionLawInstitutionCoverageGap",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "GovernanceAuthority": "1.0.0",
+    "PopulationAuthority": "1.0.0"
+  },
+  "Counts": {
+    "ReligionLawProfiles": 1,
+    "InstitutionalFrameworks": 1,
+    "LegalProcessFrameworks": 1,
+    "ReligiousCommunityInterfaces": 3,
+    "SettlementInstitutionalSurfaces": 7,
+    "InstitutionTypeDefinitions": 10,
+    "OpeningNamedQadis": 0,
+    "OpeningNamedJurists": 0,
+    "OpeningNamedReligiousLeaders": 0,
+    "OpeningMosqueRecords": 0,
+    "OpeningCharitableFoundations": 0,
+    "OpeningJudicialInstitutions": 0,
+    "OpeningLegalStatusAssignments": 0,
+    "OpeningPropertyOrTaxRecords": 0,
+    "OpeningReligionLawMutations": 0
+  },
+  "Protections": {
+    "SovereignEqualsQadi": false,
+    "ReligionEqualsCulture": false,
+    "LegalStatusEqualsBelief": false,
+    "ReligiousDifferenceCreatesHostility": false,
+    "SharedReligionCreatesAlliance": false,
+    "InstitutionEqualsBuilding": false,
+    "FoundationEqualsTreasury": false,
+    "AlMutamidOpeningOffice": false,
+    "AIProposalOnly": true
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryMutated": false,
+    "OpeningStateMutated": false,
+    "InstitutionalEvidenceValidated": false,
+    "LegalDoctrineValidated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "BalanceValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Court_Culture_Patronage_and_Knowledge_V1.md."
+}

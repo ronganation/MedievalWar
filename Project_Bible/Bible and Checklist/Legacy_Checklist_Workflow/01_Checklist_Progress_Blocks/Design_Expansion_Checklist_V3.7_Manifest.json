@@ -1,0 +1,22 @@
+{
+  "FileName": "Design_Expansion_Checklist_V3.7.md",
+  "Version": "3.7",
+  "Status": "Controlling Operational Roadmap",
+  "NamingPolicy": "Stable authority name; changes recorded inside the document and Development Ledger rather than by incrementing the filename.",
+  "SHA256": "093721D1B1815AAD278D4B1BBA19E0146CDAA6F3F92C887B7D05700A9E171431",
+  "Checks": {
+    "version_37": true,
+    "no_371": true,
+    "authority_pair": true,
+    "footer_unique": true,
+    "campaign_345": true,
+    "norse_static": true,
+    "badajoz_unique": true,
+    "seville_unique": true,
+    "valencia_unique": true,
+    "next_faction_unique": true,
+    "html_table_absent": true,
+    "lines": 755,
+    "bytes": 47136
+  }
+}

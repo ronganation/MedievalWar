@@ -1,0 +1,24 @@
+{
+  "document_id": "static-check.wales.realm-political-order.v1",
+  "artifact": "Wales_Realm_and_Political_Order_Authority_V1.md",
+  "bytes": 52571,
+  "physical_lines": 1356,
+  "sha256": "72a035346f0194bfbe17d400c80f0463c5cf429b70eccd4cda660cb9d2a9cb63",
+  "checks": {
+    "required_literals": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "single_opening": true,
+    "three_track_temporal": true,
+    "opening_anchor_living": true,
+    "no_successor_preload": true,
+    "underage_gate": true,
+    "st_davids_separation": true,
+    "removal_ledger": true,
+    "validation_honest": true,
+    "non_mutating": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

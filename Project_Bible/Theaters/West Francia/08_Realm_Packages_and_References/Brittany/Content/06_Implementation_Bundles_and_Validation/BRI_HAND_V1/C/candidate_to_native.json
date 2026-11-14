@@ -1,0 +1,104 @@
+{
+  "mappings": [
+    {
+      "candidate": "RealmDefinition",
+      "native": "PendingDiscovery",
+      "owner": "RealmSubsystemOrEquivalent"
+    },
+    {
+      "candidate": "ScenarioDefinition",
+      "native": "PendingDiscovery",
+      "owner": "ScenarioSubsystemOrEquivalent"
+    },
+    {
+      "candidate": "RegistryCandidate",
+      "native": "PendingDiscovery",
+      "owner": "RegistryOwner"
+    },
+    {
+      "candidate": "PersonDefinition",
+      "native": "PendingDiscovery",
+      "owner": "CharacterFoundationOwner"
+    },
+    {
+      "candidate": "CharacterScenarioCandidate",
+      "native": "PendingDiscovery",
+      "owner": "OpeningStateAndCharacterOwners"
+    },
+    {
+      "candidate": "FuturePersonCandidate",
+      "native": "PendingDiscovery",
+      "owner": "CharacterDynastyHouseholdOwners"
+    },
+    {
+      "candidate": "DynastyDefinition",
+      "native": "PendingDiscovery",
+      "owner": "DynastyOwner"
+    },
+    {
+      "candidate": "HouseholdDefinition",
+      "native": "PendingDiscovery",
+      "owner": "HouseholdOwner"
+    },
+    {
+      "candidate": "TitleDefinition",
+      "native": "PendingDiscovery",
+      "owner": "TitlesOwner"
+    },
+    {
+      "candidate": "GovernanceDefinition",
+      "native": "PendingDiscovery",
+      "owner": "GovernanceOwner"
+    },
+    {
+      "candidate": "EcclesiasticalInstitutionDefinition",
+      "native": "PendingDiscovery",
+      "owner": "EcclesiasticalOwner"
+    },
+    {
+      "candidate": "GeographyDefinition",
+      "native": "PendingDiscovery",
+      "owner": "CampaignMapOrGeographyOwner"
+    },
+    {
+      "candidate": "PopulationEconomyDefinition",
+      "native": "PendingDiscovery",
+      "owner": "EconomyOwner"
+    },
+    {
+      "candidate": "UnitFamilyDefinition",
+      "native": "PendingDiscovery",
+      "owner": "MilitaryContentOwner"
+    },
+    {
+      "candidate": "RecruitmentPoolDefinition",
+      "native": "PendingDiscovery",
+      "owner": "RecruitmentOwner"
+    },
+    {
+      "candidate": "HistoricalDefinition",
+      "native": "PendingDiscovery",
+      "owner": "RespectiveHistoricalOwners"
+    },
+    {
+      "candidate": "DirectedNetworkDefinition",
+      "native": "PendingDiscovery",
+      "owner": "CharacterNetworkOwner"
+    },
+    {
+      "candidate": "RealmPersonalityDefinition",
+      "native": "PendingDiscovery",
+      "owner": "RealmPersonalityOwner"
+    },
+    {
+      "candidate": "RealmAIDefinition",
+      "native": "PendingDiscovery",
+      "owner": "RealmAIOwner"
+    },
+    {
+      "candidate": "OpeningStateCandidate",
+      "native": "PendingDiscovery",
+      "owner": "OpeningStateOwner"
+    }
+  ]
+}

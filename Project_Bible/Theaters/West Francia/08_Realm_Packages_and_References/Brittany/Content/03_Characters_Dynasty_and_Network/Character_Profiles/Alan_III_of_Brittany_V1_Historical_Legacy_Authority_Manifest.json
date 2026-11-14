@@ -1,0 +1,23 @@
+{
+  "filename": "Alan_III_of_Brittany_V1_Historical_Legacy_Authority.md",
+  "version": "1.0.0",
+  "bytes": 34417,
+  "lines": 831,
+  "sha256": "19BE671EBDF62A8EF887DCFC4D62F2EC5D37A08CC05EF4C2C747B32F4BC865A5",
+  "authority_type": "NewHistoricalLegacyCharacterAuthority",
+  "source_embedded": false,
+  "benchmarks": [
+    "Henry_I_of_France_V1_Historical_Legacy_Authority.md",
+    "Thorfinn_the_Mighty_Refined_V1_1_FULL.md",
+    "Ulf_Jarl_Historical_Legacy_V1.md"
+  ],
+  "canonical_person_ref": "person.alan_iii_brittany",
+  "opening_lifecycle": "DeceasedBeforeOpening",
+  "living_runtime_activation": false,
+  "registry_mutations": 0,
+  "opening_state_mutations": 0,
+  "unreal_project_mutations": 0,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "importer_validated": false
+}

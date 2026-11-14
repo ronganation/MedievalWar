@@ -1,0 +1,123 @@
+{
+  "ArtifactId": "Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1",
+  "InternalVersion": "1.2.0",
+  "Status": "STATIC_CHECKED_RECONCILED_TO_SUPPLIED_OPENING_AUTHORITY_1_3_0",
+  "ContractId": "contract.seville_taifa.opening_state.1062.v1",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8"
+  },
+  "SourceContract": {
+    "Filename": "Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md",
+    "SHA256": "eef4cf2bb081bbf99119f39186e5a668df5e2063a93b722d59575a6eb6cab2a5",
+    "Bytes": 28111,
+    "NumberedSections": 34
+  },
+  "Deliverables": {
+    "Schema": 1,
+    "CanonicalPayload": 1,
+    "ValidationProfile": 1,
+    "OwnerRoutingManifest": 1,
+    "FixturePackage": 1,
+    "ValidationReport": 1,
+    "AllRecordedPresent": true
+  },
+  "DeclaredCounts": {
+    "RealmRecords": 1,
+    "CharacterRecords": 2,
+    "DynastyDefinitionBindings": 1,
+    "CapitalBindings": 1,
+    "AuthorityBindings": 7,
+    "DefinitionOnlyReferences": 5,
+    "ReviewOnlyExclusions": 1,
+    "QuarantineExclusions": 18,
+    "ActiveArmies": 0,
+    "ActiveTreasuries": 0,
+    "ActiveAgreements": 0,
+    "ActivePoliticalEdges": 0
+  },
+  "ArtifactAlignment": {
+    "CanonicalPayloadCompatibilityVersion": "1.0.0",
+    "OwnerRoutingRequests": 18,
+    "ExplicitEmptyCollections": 70,
+    "LaterHistoryExclusions": 13,
+    "ExternalReferenceRequirements": 10,
+    "PriorFixtureEvidence": "22_OF_22_FOR_PRIOR_HASHES",
+    "CurrentFixtureDefinitions": 39,
+    "CurrentStrengthenedFixtureExecution": "NOT_RUN_0_OF_39",
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11
+  },
+  "TemporalContract": {
+    "HistoricalDate": "1062-01-01",
+    "HistoricalProgressionMonthsPerStrategicTurn": 21,
+    "BiologicalProgressionMonthsPerStrategicTurn": 7,
+    "CampaignSeasonOpeningValue": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "CampaignSeasonAdvancePerStrategicTurn": 1,
+    "OpeningApplicationAdvancesTemporalTracks": false
+  },
+  "Authorization": {
+    "SchemaMaintenanceAuthorized": true,
+    "ValidationProfileMaintenanceAuthorized": true,
+    "CanonicalPayloadIdentityChangeAuthorized": false,
+    "ImporterExecutionAuthorized": false,
+    "RealPayloadApplicationAuthorized": false,
+    "RegistryMutationAuthorized": false,
+    "AdvancedSaveMutationAuthorized": false,
+    "BroadUnrealPromotionAuthorized": false
+  },
+  "OwnerBoundary": {
+    "AIIsAuthoritativeOwner": false,
+    "PresentationIsAuthoritativeOwner": false,
+    "OwnersValidateAndExecute": true,
+    "FatalMutationCount": 0,
+    "PartialCommitAllowed": false
+  },
+  "CopyFirstLedger": {
+    "ImmediateSourceInternalVersion": "1.0.0",
+    "ImmediateSourceSectionsReviewed": 32,
+    "SubstantiveSourceSectionsCarriedForward": 32,
+    "CurrentNumberedSections": 34,
+    "RemovedSubstantiveSections": 0,
+    "RemovedIdentifiers": 0,
+    "RemovedFixtureFamilies": 0,
+    "RemovedDiagnosticCodes": 0
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "ContractHashRecorded": true,
+    "SectionCompletenessChecked": true,
+    "DeclaredCountsChecked": true,
+    "ThreeTrackTemporalContractChecked": true,
+    "OwnerBoundaryChecked": true,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "PromotionGate": {
+    "CurrentDisposition": "BLOCKED_PENDING_IMMUTABLE_BUNDLE_REHASH_AND_39_FIXTURE_RERUN",
+    "AcceptanceCriteria": [
+      "Every final artifact hash captured from one immutable workspace",
+      "Draft 2020-12 metaschema passes",
+      "Canonical payload has zero schema errors",
+      "Semantic assertions pass",
+      "All 39 fixture definitions execute and pass",
+      "Every fatal fixture yields zero authoritative mutations",
+      "Deterministic traces and receipts match",
+      "Validation owner approves promotion"
+    ],
+    "Rollback": "Discard the isolated workspace and all staged responses on any fatal result, mutation, hash mismatch, or nondeterministic output."
+  },
+  "NextAction": "Use the completed artifacts as one immutable read-only bundle, rehash them together, and execute the 39-fixture validate-only gate before importer or Unreal promotion."
+}

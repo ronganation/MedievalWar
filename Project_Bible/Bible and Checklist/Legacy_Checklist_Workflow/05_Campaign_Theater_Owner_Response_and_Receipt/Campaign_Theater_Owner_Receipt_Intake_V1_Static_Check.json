@@ -1,0 +1,27 @@
+{
+  "report_id": "static_check.campaign_theater.owner_receipt_intake.v1",
+  "version": "1.0.0",
+  "status": "PASS_PENDING_RECEIPT_INTAKE_STATIC_CHECK",
+  "schema_errors": [],
+  "intermediate_state_schema_errors": [],
+  "checks": {
+    "schema_valid": true,
+    "request_id_vocabulary_count": 7,
+    "pending_receipt_fields_empty": true,
+    "pending_status_correct": true,
+    "intake_closed": true,
+    "authorization_closed": true,
+    "blocked_index_promotion_false": true,
+    "submitted_unvalidated_valid_case_passes": true,
+    "submitted_unvalidated_ledger_update_rejected": true,
+    "ctori_008_present": true,
+    "markdown_fences_balanced": true,
+    "markdown_no_escape_artifacts": true
+  },
+  "evidence_boundary": {
+    "owner_receipt_received": false,
+    "ledger_row_updated": false,
+    "blocked_index_promoted": false,
+    "registry_mutation_performed": false
+  }
+}

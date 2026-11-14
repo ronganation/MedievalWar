@@ -1,0 +1,11 @@
+Gate,AcceptanceCriterion,RequiredEvidence,FailureAction,RollbackScope
+A1,Only six approved files added,Recursive changed-file list and diff,STOP and remove additions,All FRANCE-IMP-05A files
+A2,No predecessor files modified,Hash comparison for FRANCE-IMP-01A through 04A,STOP and restore predecessor hashes,Any modified predecessor file
+A3,Authority fingerprints match approved inputs,SHA256 ledger,STOP and refresh owner review,Whole package
+A4,No canonical registry or Opening State mutation,Path and diff scan,STOP and revert prohibited mutation,All prohibited changes
+A5,Governing target builds successfully,Build log with exit code zero,STOP and roll back,Whole implementation batch
+A6,Direct FRANCE-IMP-05A tests pass,Automation report,STOP and roll back,Whole implementation batch
+A7,Discovered France regressions pass,Before-and-after test counts and report,STOP and roll back,Whole implementation batch
+A8,Relevant shared-framework regressions pass,Automation report,STOP and roll back,Whole implementation batch
+A9,No fabricated live payload values,Literal and semantic review record,STOP and remove payload assumptions,Whole implementation batch
+A10,Evidence bundle complete,Manifest hashes logs and diff,Do not promote gate,No promotion

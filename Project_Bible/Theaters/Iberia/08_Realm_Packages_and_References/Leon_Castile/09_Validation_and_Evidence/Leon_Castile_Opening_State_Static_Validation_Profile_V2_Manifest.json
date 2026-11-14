@@ -1,0 +1,40 @@
+{
+  "ManifestId": "manifest.validation_profile.leon_castile.opening_state.static.v2",
+  "ManifestVersion": "1.0.0",
+  "ProfileFile": "Leon_Castile_Opening_State_Static_Validation_Profile_V2.json",
+  "ProfileSha256": "d9ecca3ff2720cdfa6a74b48018fe9a0214235a6b9fbbba23c8663e41e79ec42",
+  "ProfileBytes": 23217,
+  "ProfileLines": 604,
+  "Checks": {
+    "JsonParsePass": true,
+    "RuleCount": 39,
+    "PositiveFixtureCount": 4,
+    "NegativeFixtureCount": 27,
+    "AllFatalRulesZeroMutation": true,
+    "AllNegativeFixturesZeroMutation": true,
+    "ThreeValidBrotherFixtures": true,
+    "TemporalRulesPresent": true,
+    "BrotherRulesPresent": true,
+    "OpportunityGateRulesPresent": true,
+    "OverlayRulesPresent": true,
+    "PromotionBlockPresent": true,
+    "PayloadHashRecalculated": true,
+    "ReportHashRecalculated": true
+  },
+  "AllChecksPass": true,
+  "EvidenceBoundary": {
+    "ProfileConstruction": "PASS",
+    "RuleCompletenessStaticInspection": "PASS",
+    "ReportAndPayloadHashRecalculation": "PASS",
+    "FixtureExecution": "NOT_RUN_PROFILE_ONLY",
+    "Draft202012SchemaExecution": "NOT_RUN",
+    "ImporterExecution": "NOT_RUN",
+    "UE5Compile": "NOT_RUN",
+    "UE5Runtime": "NOT_RUN",
+    "RollbackExecution": "NOT_RUN",
+    "ReceiptPersistence": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN"
+  }
+}

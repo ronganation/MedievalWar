@@ -1,0 +1,186 @@
+{
+  "DocumentId": "France.UE5.8.CandidateImporter.FixtureManifest.V1.1",
+  "Package": "France_UE5_8_Candidate_Importer_Dry_Run_Specification_and_Fixture_Pack_V1_1",
+  "Status": "StaticCheckedPortableCandidateFixturePack",
+  "Files": [
+    {
+      "File": "Expected_Results/dry_run_command_contract.json",
+      "Bytes": 468,
+      "Lines": 24,
+      "SHA256": "e1feba353d32749202fa3e7d5e72fa124211c0e3d680f99d77b5f89ceeeea53a"
+    },
+    {
+      "File": "Expected_Results/expected_invalid_results.json",
+      "Bytes": 2476,
+      "Lines": 100,
+      "SHA256": "bffcaa215e936c49d92cf5ac5c3a6bbe2c05cfc0a6421d05cf24acba263661dc"
+    },
+    {
+      "File": "Expected_Results/expected_reason_codes.json",
+      "Bytes": 1132,
+      "Lines": 14,
+      "SHA256": "da48647a50a45988a0b005b706bc27825b0aac2de09c0f2032263f53741bdc6f"
+    },
+    {
+      "File": "Expected_Results/expected_valid_results.json",
+      "Bytes": 956,
+      "Lines": 40,
+      "SHA256": "660240ecaa405747d415b3ad6f8512250ae766c454d802a7bf576bff1855a6ac"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_alias_chain.yaml",
+      "Bytes": 508,
+      "Lines": 20,
+      "SHA256": "cd85a7a328cf706aa02737790b21b614c45431940948c2a0a464990612ee3846"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_alias_cycle.yaml",
+      "Bytes": 503,
+      "Lines": 20,
+      "SHA256": "fab4231ad429bf9a33a031e96b351766d0d5a233be44e7719ed1b8b56343ed80"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_bare_active.yaml",
+      "Bytes": 419,
+      "Lines": 16,
+      "SHA256": "8d495c4a5723bde559e94fc4268edb54cbda22658c1c8b2e3f46219a3f70e2cf"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_default_army_from_empty.yaml",
+      "Bytes": 456,
+      "Lines": 17,
+      "SHA256": "d4e3d7faa7040960302587459ac5ced8cf9f64770a770de3abebc9d3c2df0a5e"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_external_owner_collapse.yaml",
+      "Bytes": 503,
+      "Lines": 18,
+      "SHA256": "626dbcc10d48968d1c81c51abcd15b78a787325f74dc7010a4ac22592d71f9d5"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_henry_runtime_agency.yaml",
+      "Bytes": 449,
+      "Lines": 17,
+      "SHA256": "61e2585c906c70eb06a89ef113c8464cd9be290e9a0932eaa655b766044b4fee"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_hugh_vermandois_opening_title.yaml",
+      "Bytes": 451,
+      "Lines": 16,
+      "SHA256": "b9cbdb75eb2335fbfc025751eb5a00b3a568043d1a202e7cb1f6071233c12b55"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_opening_state_activation.yaml",
+      "Bytes": 375,
+      "Lines": 14,
+      "SHA256": "92d027f8e37d85189e5e5beff87cf32f7a3f812832886a6785975b3c2144d9ac"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_quarantine_instantiation.yaml",
+      "Bytes": 488,
+      "Lines": 18,
+      "SHA256": "7327bcd82a556bda8e70942751f81db9d1e3c7636899ef5aa926a2d77cd1aec0"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_registry_promotion.yaml",
+      "Bytes": 375,
+      "Lines": 14,
+      "SHA256": "9a651a70e4dd73cc8b4d85d65c13467365709d4d856aa0333896384702d32d02"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_universal_seven_month_turn.yaml",
+      "Bytes": 395,
+      "Lines": 15,
+      "SHA256": "8add0b12316e28bcc4bd08e874bb3db372fce6b4a6fa7c9b95db6871f875c4a1"
+    },
+    {
+      "File": "Invalid_Fixtures/invalid_unreal_import.yaml",
+      "Bytes": 375,
+      "Lines": 14,
+      "SHA256": "b84d14994acd8384a7db408b23198b285e10b5ffae90af8656f8a109bdf00de8"
+    },
+    {
+      "File": "README_France_UE5_8_Candidate_Importer_Dry_Run_Fixtures_V1_1.md",
+      "Bytes": 1084,
+      "Lines": 29,
+      "SHA256": "9e42287cc8c59b91e37e9d9a8ac41c2ebd4ae4b2e0b2f475284b51471300476e"
+    },
+    {
+      "File": "Schemas/france_candidate_document_control_v1.schema.json",
+      "Bytes": 1019,
+      "Lines": 50,
+      "SHA256": "68026f5d5bc9a58824b220e7ff9ba29d33803588c8a185b23927e530d178db6e"
+    },
+    {
+      "File": "Schemas/france_candidate_import_result_v1.schema.json",
+      "Bytes": 611,
+      "Lines": 33,
+      "SHA256": "0d1cf2770797190769e60e316940f3964bab3c5a4ded23487d45cfd3034608b5"
+    },
+    {
+      "File": "Schemas/france_candidate_record_envelope_v1.schema.json",
+      "Bytes": 584,
+      "Lines": 29,
+      "SHA256": "d572623b5d9f20834b6b0fb89dedc0ca1d415c8cd69cd3dcb3c27148310a6c33"
+    },
+    {
+      "File": "Valid_Fixtures/valid_candidate_document.yaml",
+      "Bytes": 376,
+      "Lines": 14,
+      "SHA256": "14c235a3ed9290553349f0adc0fe4db5a5c49a6d70e92905fc5794b71577737a"
+    },
+    {
+      "File": "Valid_Fixtures/valid_character_candidates.yaml",
+      "Bytes": 782,
+      "Lines": 28,
+      "SHA256": "db09d63f04abc09f8121296d8ced5cb99c816901d0f83e011d59fb32e2a021d6"
+    },
+    {
+      "File": "Valid_Fixtures/valid_direct_aliases.yaml",
+      "Bytes": 605,
+      "Lines": 22,
+      "SHA256": "add23bb41957bab55d476e6f1d892f5c800958a8ff10bd451c4688e391914fe2"
+    },
+    {
+      "File": "Valid_Fixtures/valid_external_owner_reference.yaml",
+      "Bytes": 531,
+      "Lines": 19,
+      "SHA256": "b89ef7df94a188e6aa5198b6b02f111bb479d17ccedcdff1caaf726379266e79"
+    },
+    {
+      "File": "Valid_Fixtures/valid_intentional_empty_opening_bundle.yaml",
+      "Bytes": 646,
+      "Lines": 23,
+      "SHA256": "b97246a688c828ff4e1c527b4f6bd0b91c921319256e5387be9c51c39163c884"
+    },
+    {
+      "File": "Valid_Fixtures/valid_three_track_time.yaml",
+      "Bytes": 613,
+      "Lines": 25,
+      "SHA256": "a7c4efdfadb3afc55af79767cdb79f1ccd438347ab827291641bac0305c0573d"
+    }
+  ],
+  "Counts": {
+    "Schemas": 3,
+    "ValidFixtures": 6,
+    "InvalidFixtures": 12,
+    "ExpectedResultFiles": 4,
+    "Readme": 1,
+    "ManifestFiles": 2
+  },
+  "Portability": {
+    "AsciiOnlyFilenames": true,
+    "UTF8WithoutBOM": true,
+    "YAMLAliasesOrAnchors": false,
+    "RelativePathsOnly": true
+  },
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "AliasesExecuted": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

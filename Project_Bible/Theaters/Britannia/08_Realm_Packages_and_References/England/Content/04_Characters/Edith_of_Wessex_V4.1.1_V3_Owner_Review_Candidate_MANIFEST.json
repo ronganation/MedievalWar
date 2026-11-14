@@ -1,0 +1,42 @@
+{
+  "document_id": "manifest.england.edith_of_wessex_v4.1.1_v3_owner_review_candidate",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "Edith_of_Wessex_V4.1.1_V3_Owner_Review_Candidate.md",
+      "sha256": "1d02117ad83c3528107168e12473870ae35d4441fc2b113456e82f3ed340c08c",
+      "bytes": 58432
+    },
+    {
+      "filename": "Edith_of_Wessex_V4.1.1_V3_Owner_Review_Candidate_VALIDATION.json",
+      "sha256": "6f452bb42767e4eb8f83a6a84996e53dfb8b663099018711fb35c2da2d1897db",
+      "bytes": 1390
+    },
+    {
+      "filename": "Edith_of_Wessex_V4.1.1_V3_Owner_Review_Candidate_SOURCE_TO_FINAL_MAP.json",
+      "sha256": "bfae9d91bd14bdfb30273349f0235eeba30a0a68a210e205e8dfcf453fcb514f",
+      "bytes": 31437
+    },
+    {
+      "filename": "Edith_of_Wessex_V4.1.1_V3_Owner_Review_Candidate_SOURCE_SNAPSHOT.json",
+      "sha256": "2cab79c212493c7197dfc11cf40ee030c1e3ed5a60f858f4098e0256f3063083",
+      "bytes": 653
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "physical_promotion": false
+  }
+}

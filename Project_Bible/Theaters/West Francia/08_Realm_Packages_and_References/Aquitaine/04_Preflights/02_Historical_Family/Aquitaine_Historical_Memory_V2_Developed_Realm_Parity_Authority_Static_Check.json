@@ -1,0 +1,29 @@
+{
+  "StaticCheckId": "static-check.aquitaine.historical-memory.v2",
+  "AuthorityFile": "Aquitaine_Historical_Memory_V2_Developed_Realm_Parity_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "source_exists": true,
+    "successor_larger_than_source": true,
+    "all_source_substantive_headings_retained": true,
+    "proposed_memory_count_retained": true,
+    "review_memory_count_retained": true,
+    "quarantine_count_retained": true,
+    "three_tracks_present": true,
+    "record_separation_present": true,
+    "current_characters_present": true,
+    "bernard_1063_not_opening": true,
+    "barbastro_quarantine_retained": true,
+    "cross_faction_benchmark_explicit": true,
+    "markdown_fences_balanced": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker_correct": true,
+    "removed_substantive_content_empty": true
+  },
+  "MissingSourceHeadings": [],
+  "AuthoritySHA256": "85c65309bcd08ff4b2b08be2c86f1ddd7951fba2a0bbac33ddacb6d3ba568e96",
+  "AuthorityLineCount": 1418,
+  "AuthorityByteCount": 46276,
+  "ValidationScope": "Static content and preservation checks only"
+}

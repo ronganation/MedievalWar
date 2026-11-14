@@ -1,0 +1,121 @@
+{
+  "DocumentId": "static-check.readme.realm.aquitaine.current.v1",
+  "FileName": "README.md",
+  "SHA256": "666d3004171dc30ae1321b444ef06b19517575a5f2ed49d6b522bd24c0f0ab82",
+  "Checks": [
+    {
+      "Name": "FilenameREADME",
+      "Result": "Pass"
+    },
+    {
+      "Name": "CurrentRouter",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FormerFrozenSuperseded",
+      "Result": "Pass"
+    },
+    {
+      "Name": "PackageClosed",
+      "Result": "Pass"
+    },
+    {
+      "Name": "SixProfiles",
+      "Result": "Pass"
+    },
+    {
+      "Name": "TenSpecialists",
+      "Result": "Pass"
+    },
+    {
+      "Name": "Evidence18",
+      "Result": "Pass"
+    },
+    {
+      "Name": "Uncertainty30",
+      "Result": "Pass"
+    },
+    {
+      "Name": "CandidateBundle30",
+      "Result": "Pass"
+    },
+    {
+      "Name": "Routed53",
+      "Result": "Pass"
+    },
+    {
+      "Name": "Final57",
+      "Result": "Pass"
+    },
+    {
+      "Name": "VisualClosed",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ThreeTrackTime",
+      "Result": "Pass"
+    },
+    {
+      "Name": "WarDoctrine",
+      "Result": "Pass"
+    },
+    {
+      "Name": "OpeningFirewalls",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRegistryMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoOpeningActivation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoUnrealMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRuntimeMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoPayloadImport",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FencesBalanced",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEscapedUnderscores",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEmDash",
+      "Result": "Pass"
+    },
+    {
+      "Name": "OneStableFooter",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FinalMarkerCorrect",
+      "Result": "Pass"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 25,
+    "Passes": 25,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "SourceAuthoritiesModified": 0,
+    "RegistryMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

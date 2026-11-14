@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_file": "Toirdelbach_Ua_Briain_Refined.md",
+  "source_reference": "turn13search25",
+  "source_bytes": 33897,
+  "source_sha256": "b9b1c1513fde2e174ad9479723fef0ed3e042e1741392d8b97bf9ba7dd324a08",
+  "source_heading_count": 87,
+  "authority_file": "Toirdelbach_Ua_Briain_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 57577,
+  "authority_sha256": "5e207b4d273293945b59415c16f3cecbc70f6ad0261f9ff6ffc016c1c6481d23",
+  "additive_bytes": 23680,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "static_check_file": "Toirdelbach_Ua_Briain_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "f73394fb10de60f56416287c581ea284083f162b4488189d962e56662c079665",
+  "validation_scope": "content static checks only; no compile runtime migration opening-state or payload validation"
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "authority_type": "HistoricalLegacyFigureAuthority",
+  "source_file": "Tadg_in_Eich_Gil_Refined.md",
+  "source_reference": "turn23search20",
+  "source_bytes": 13748,
+  "source_sha256": "b1393345843afd3066134ec5a8293f3fc0a865301bbd5cebba803d1f8d880aad",
+  "source_heading_count": 33,
+  "authority_file": "Tadg_in_Eich_Gil_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 31498,
+  "authority_sha256": "a14abf334ce4179f2cc82eb6882177ddb8e36a27363f37dea9a538f9e99c94e7",
+  "additive_bytes": 17750,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "active_character_records_created": 0,
+  "network_edges_created": 0,
+  "static_check_file": "Tadg_in_Eich_Gil_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "af39697cc988c9a035c36981855db496742ad66c10ede8c0defa8e010c59b3f5",
+  "validation_scope": "content static checks only; no compile runtime registry opening-state historical-memory-runtime migration-execution or payload validation"
+}

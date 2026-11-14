@@ -1,0 +1,47 @@
+{
+  "ArtifactId": "Seville_Taifa_ID_Registry_V1_Lock_and_Release_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_REGISTRY_LOCKED",
+  "CanonicalIds": [
+    "realm.seville",
+    "dynasty.abbadid",
+    "person.abbad_ibn_muhammad_al_mutadid",
+    "person.muhammad_ibn_abbad_al_mutamid",
+    "settlement.seville",
+    "settlement.mertola",
+    "settlement.niebla",
+    "settlement.huelva",
+    "settlement.saltes",
+    "settlement.santa_maria_algarve",
+    "settlement.algeciras",
+    "historical_polity.taifa_mertola_first",
+    "historical_polity.taifa_niebla_first",
+    "historical_polity.taifa_saltes_huelva",
+    "historical_polity.taifa_santa_maria_algarve",
+    "historical_polity.taifa_algeciras"
+  ],
+  "Counts": {
+    "CanonicalIds": 16,
+    "ReviewOnly": 1,
+    "Aliases": 0,
+    "Redirects": 0,
+    "Migrations": 0,
+    "ExternalLocks": 0,
+    "Quarantines": 18
+  },
+  "Authorization": {
+    "RegistryLocked": true,
+    "ImporterSchemaWorkAuthorized": true,
+    "OpeningStateAuthoringAuthorized": true,
+    "RuntimeStateCreated": false
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false
+  },
+  "SHA256": "325646bdf0e1e4460a5c033eb58b620eb1174b722910815c804c0cad6992de9a"
+}

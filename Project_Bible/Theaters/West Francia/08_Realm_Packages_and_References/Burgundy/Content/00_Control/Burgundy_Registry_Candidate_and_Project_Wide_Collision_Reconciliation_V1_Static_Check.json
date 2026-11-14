@@ -1,0 +1,23 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "families_16": true,
+    "observations_5": true,
+    "aliases_10": true,
+    "batches_12": true,
+    "blockers_9": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "source_preserved": true,
+    "scan_honest": true,
+    "no_mutations": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "AuthoritySHA256": "8c7714448aedbd2be82ae462a3a09da675c0c605c21ac8340ca39150178d176f",
+  "AuthorityBytes": 31609,
+  "AuthorityLines": 788,
+  "Scope": "Static candidate namespace, observed collision, alias, owner-lock, opening-eligibility, state-safety, and hygiene reconciliation"
+}

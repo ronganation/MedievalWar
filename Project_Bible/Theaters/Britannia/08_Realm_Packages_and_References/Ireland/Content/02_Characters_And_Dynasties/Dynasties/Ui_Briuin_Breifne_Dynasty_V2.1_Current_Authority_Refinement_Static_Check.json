@@ -1,0 +1,21 @@
+{
+  "filename": "Ui_Briuin_Breifne_Dynasty_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "target": "Ui_Briuin_Breifne_Dynasty_V2.1_Current_Authority_Refinement.md",
+  "status": "PASS",
+  "checks": {
+    "literal_source_prefix": true,
+    "source_size_preserved": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "britannia": true,
+    "three_track_time": true,
+    "canonical_dynasty": true,
+    "branch_quarantine": true,
+    "compile_false": true,
+    "runtime_false": true,
+    "no_mutation_claims": true,
+    "no_escaped_underscores": true,
+    "all_pass": true
+  }
+}

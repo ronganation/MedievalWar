@@ -1,0 +1,245 @@
+ledger_version: 1.0.0
+ledger_status: PartialBatchBFormattingAndLiteralEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+scope:
+  folder: 07_Cross_Authority_Registry_and_Validation
+  records_reviewed: 10
+  complete_raw_content_records: 2
+  complete_enterprise_content_records: 2
+  partial_or_snippet_records: 6
+  exact_literal_counts_permitted_for_all_records: false
+rules:
+  - CompleteContentRequiredForExactLiteralCounts
+  - EnterpriseRenderingEscapesMustNotBeAssumedToExistInRawFile
+  - FormattingDefectDoesNotAutomaticallyEqualSemanticDefect
+  - CodeFenceBalanceRequiresCompleteRawContent
+  - ConversationCitationMarkersAreProhibitedInSourceAuthorities
+  - MalformedEntityTagsAreProhibitedInSourceAuthorities
+  - LegacyDefectsAreReportedBeforeCorrection
+  - NoSourceRewriteAuthorizedByThisLedger
+acceptance_targets:
+  escaped_underscore_count: 0
+  escaped_list_marker_count: 0
+  escaped_empty_array_count: 0
+  conversation_citation_marker_count: 0
+  malformed_entity_tag_count: 0
+  code_fence_balance: Balanced
+  title_count: 1
+  stable_footer_count: 1
+records:
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    evidence_source: EnterprisePartialOpen
+    content_extent: PartialDisplayedLines0Through754Of1196
+    escaped_underscore_count: EnterpriseRenderingShowsEscapesExactRawCountUnknown
+    escaped_list_marker_count: EnterpriseRenderingShowsEscapesExactRawCountUnknown
+    escaped_empty_array_count: UnknownPendingRawScan
+    conversation_citation_marker_count: UnknownPendingCompleteRawScan
+    malformed_entity_tag_count: UnknownPendingCompleteRawScan
+    code_fence_count: UnknownPendingCompleteRawScan
+    code_fence_balance: UnknownPendingCompleteRawScan
+    encoding_state: UnknownPendingDirectRead
+    title_count: 1
+    stable_footer_count: UnknownPendingCompleteScan
+    result: WARNING_PARTIAL_ENTERPRISE_RENDERING_CANNOT_PROVE_RAW_LITERAL_STATE
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    evidence_source: EnterpriseFullOpen
+    content_extent: CompleteLines0Through459
+    escaped_underscore_count: EnterpriseRenderingShowsEscapesRawCountUnknown
+    escaped_list_marker_count: EnterpriseRenderingShowsEscapesRawCountUnknown
+    escaped_empty_array_count: UnknownPendingRawScan
+    conversation_citation_marker_count: PresentInEnterpriseContent
+    conversation_citation_examples:
+      - turn35search72
+      - turn35search65
+      - turn35search63
+    malformed_entity_tag_count: 0InDisplayedContent
+    code_fence_count: 0InDisplayedContent
+    code_fence_balance: BalancedAtZero
+    encoding_state: UnknownPendingDirectRead
+    title_count: 1
+    stable_footer_count: 1
+    result: WARNING_CONVERSATION_CITATION_MARKERS_REQUIRE_OWNER_REVIEW
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Developed_Realm_Full_Portfolio_Comparator_and_Missing_Capability_Audit_V1.md
+    evidence_source: EnterpriseSearchSnippet
+    content_extent: HeaderAndEarlySectionsOnly
+    escaped_underscore_count: UnknownPendingCompleteRawScan
+    escaped_list_marker_count: UnknownPendingCompleteRawScan
+    escaped_empty_array_count: UnknownPendingCompleteRawScan
+    conversation_citation_marker_count: UnknownPendingCompleteRawScan
+    malformed_entity_tag_count: UnknownPendingCompleteRawScan
+    code_fence_count: UnknownPendingCompleteRawScan
+    code_fence_balance: UnknownPendingCompleteRawScan
+    encoding_state: UnknownPendingDirectRead
+    title_count: 1
+    stable_footer_count: UnknownPendingCompleteScan
+    result: PARTIAL_NOT_RUN_FOR_EXACT_LITERALS
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    evidence_source: EnterpriseSearchSnippet
+    content_extent: HeaderAndEarlySectionsOnly
+    escaped_underscore_count: UnknownPendingCompleteRawScan
+    escaped_list_marker_count: UnknownPendingCompleteRawScan
+    escaped_empty_array_count: UnknownPendingCompleteRawScan
+    conversation_citation_marker_count: UnknownPendingCompleteRawScan
+    malformed_entity_tag_count: UnknownPendingCompleteRawScan
+    code_fence_count: UnknownPendingCompleteRawScan
+    code_fence_balance: UnknownPendingCompleteRawScan
+    encoding_state: UnknownPendingDirectRead
+    title_count: 1
+    stable_footer_count: UnknownPendingCompleteScan
+    result: PARTIAL_NOT_RUN_FOR_EXACT_LITERALS
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    evidence_source: EnterpriseSearchSnippet
+    content_extent: HeaderAndSubstantiveCoverageSections
+    escaped_underscore_count: UnknownPendingCompleteRawScan
+    escaped_list_marker_count: UnknownPendingCompleteRawScan
+    escaped_empty_array_count: UnknownPendingCompleteRawScan
+    conversation_citation_marker_count: PresentInEnterpriseSnippet
+    conversation_citation_examples:
+      - turn34search52
+      - turn34search53
+      - turn34search54
+    malformed_entity_tag_count: 0InDisplayedContent
+    code_fence_count: UnknownPendingCompleteRawScan
+    code_fence_balance: UnknownPendingCompleteRawScan
+    encoding_state: UnknownPendingDirectRead
+    title_count: 1
+    stable_footer_count: UnknownPendingCompleteScan
+    result: WARNING_CONVERSATION_CITATION_MARKERS_REQUIRE_OWNER_REVIEW
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    evidence_source: CurrentConversationRawArtifact
+    content_extent: Complete
+    escaped_underscore_count: 0
+    escaped_list_marker_count: 0
+    escaped_empty_array_count: 0
+    conversation_citation_marker_count: 0
+    malformed_entity_tag_count: 0
+    code_fence_count: 48
+    code_fence_balance: Balanced
+    encoding_state: UTF8
+    title_count: 1
+    stable_footer_count: 1
+    result: PASS
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Package_Wide_Missing_Authority_Audit_and_Next_Sequence_Disposition_V1.md
+    evidence_source: EnterpriseSearchSnippet
+    content_extent: HeaderAndHighLevelSynopsis
+    escaped_underscore_count: UnknownPendingCompleteRawScan
+    escaped_list_marker_count: UnknownPendingCompleteRawScan
+    escaped_empty_array_count: UnknownPendingCompleteRawScan
+    conversation_citation_marker_count: PresentInEnterpriseSnippet
+    conversation_citation_examples:
+      - turn35search53
+      - turn35search54
+      - turn35search55
+    malformed_entity_tag_count: 0InDisplayedContent
+    code_fence_count: UnknownPendingCompleteRawScan
+    code_fence_balance: UnknownPendingCompleteRawScan
+    encoding_state: UnknownPendingDirectRead
+    title_count: 1
+    stable_footer_count: 1InReturnedSynopsis
+    result: WARNING_CONVERSATION_CITATION_MARKERS_REQUIRE_OWNER_REVIEW
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    evidence_source: CurrentConversationRawArtifact
+    content_extent: Complete
+    escaped_underscore_count: 0
+    escaped_list_marker_count: 0
+    escaped_empty_array_count: 0
+    conversation_citation_marker_count: 0
+    malformed_entity_tag_count: 0
+    code_fence_count: 54
+    code_fence_balance: Balanced
+    encoding_state: UTF8
+    title_count: 1
+    stable_footer_count: 1
+    result: PASS
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    evidence_source: EnterpriseFullOpen
+    content_extent: CompleteLines0Through651
+    escaped_underscore_count: EnterpriseRenderingShowsEscapesRawCountUnknown
+    escaped_list_marker_count: EnterpriseRenderingShowsEscapesRawCountUnknown
+    escaped_empty_array_count: EnterpriseRenderingShowsEscapedEmptyArraysRawCountUnknown
+    conversation_citation_marker_count: 0InDisplayedCompleteContent
+    malformed_entity_tag_count: 0InDisplayedCompleteContent
+    code_fence_count: 0InDisplayedContent
+    code_fence_balance: BalancedAtZero
+    encoding_state: UnknownPendingDirectRead
+    title_count: 1
+    stable_footer_count: 1
+    result: WARNING_RAW_LITERAL_SCAN_REQUIRED_FOR_ESCAPES
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    evidence_source: EnterprisePartialOpen
+    content_extent: PartialDisplayedLines0Through907Of1192
+    escaped_underscore_count: EnterpriseRenderingShowsEscapesExactRawCountUnknown
+    escaped_list_marker_count: EnterpriseRenderingShowsEscapesExactRawCountUnknown
+    escaped_empty_array_count: UnknownPendingCompleteRawScan
+    conversation_citation_marker_count: UnknownPendingCompleteRawScan
+    malformed_entity_tag_count: 0InDisplayedContent
+    code_fence_count: UnknownPendingCompleteRawScan
+    code_fence_balance: UnknownPendingCompleteRawScan
+    encoding_state: UnknownPendingDirectRead
+    title_count: 1
+    stable_footer_count: UnknownPendingCompleteTailScan
+    result: WARNING_PARTIAL_ENTERPRISE_RENDERING_CANNOT_PROVE_RAW_LITERAL_STATE
+literal_issue_ledger:
+  HMD_FMT_001:
+    finding: ConversationCitationMarkersAppearInCurrentAuthorityIndex
+    severity: FORMATTING_AND_PORTABILITY_WARNING
+    affected_file: Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    evidence_state: ConfirmedInEnterpriseFullOpen
+    owner: PackageControlValidation
+    remedy: OwnerApprovedAdditiveCleanupOnlyAfterRawFileVerification
+  HMD_FMT_002:
+    finding: ConversationCitationMarkersAppearInJusticeOverlapReview
+    severity: FORMATTING_AND_PORTABILITY_WARNING
+    affected_file: Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    evidence_state: ConfirmedInEnterpriseSnippet
+    owner: PackageControlValidation
+    remedy: VerifyRawFileThenRemoveConversationOnlyMarkersWithoutChangingSubstance
+  HMD_FMT_003:
+    finding: ConversationCitationMarkersAppearInPackageWideMissingAuthorityAudit
+    severity: FORMATTING_AND_PORTABILITY_WARNING
+    affected_file: Hammadid_Package_Wide_Missing_Authority_Audit_and_Next_Sequence_Disposition_V1.md
+    evidence_state: ConfirmedInEnterpriseSnippet
+    owner: PackageControlValidation
+    remedy: VerifyRawFileThenRemoveConversationOnlyMarkersWithoutChangingSubstance
+  HMD_FMT_004:
+    finding: EscapedMarkdownIsVisibleAcrossEnterpriseRenderedLegacyAuthorities
+    severity: EVIDENCE_LIMITATION
+    affected_scope: MultipleLegacyFolder07Authorities
+    evidence_state: RawFileStateUnconfirmed
+    owner: Validation
+    remedy: DirectRawLiteralScanBeforeAnyCorrection
+  HMD_FMT_005:
+    finding: SixRecordsLackCompleteContentForFenceFooterAndLiteralClosure
+    severity: BLOCKING_FOR_COMPLETE_BATCH_B
+    affected_scope: SixFolder07Records
+    evidence_state: ConfirmedRetrievalLimitation
+    owner: PackageControlValidation
+    remedy: RetrieveCompleteRawContentAndRegenerateLedger
+cross_record_summary:
+  records_reviewed: 10
+  exact_raw_literal_records: 2
+  complete_enterprise_display_records: 2
+  partial_or_snippet_records: 6
+  pass: 2
+  warnings_or_partial: 8
+  confirmed_conversation_citation_marker_files: 3
+  confirmed_malformed_entity_tag_files: 0
+  confirmed_unbalanced_code_fence_files: 0
+  complete_raw_scan_pending_files: 8
+  source_files_modified: 0
+validation_summary:
+  result: PASS_AS_PARTIAL_BATCH_B_FORMATTING_LEDGER
+  complete_formatting_closure: false
+  automatic_correction_authorized: false
+  registry_or_opening_promotion_effect: NONE
+  runtime_or_unreal_effect: NONE
+stable_footer:
+  stable_document_id: HMD_FORMATTING_LITERAL_CONFORMANCE_LEDGER
+  version: 1.0.0
+  status: PartialBatchBFormattingAndLiteralEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false

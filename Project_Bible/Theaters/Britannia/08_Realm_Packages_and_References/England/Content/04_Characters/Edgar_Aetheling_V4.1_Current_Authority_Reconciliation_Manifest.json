@@ -1,0 +1,31 @@
+{
+  "document_id": "manifest.england.edgar_aetheling_v4.1_current_authority_reconciliation",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "Edgar_Aetheling_V4.1_Current_Authority_Reconciliation.md",
+      "sha256": "83611b6e6886c7aeae3272459f45aab440dbd1ae25b58cdfe2baf8285e1af72e",
+      "bytes": 36104
+    },
+    {
+      "filename": "Edgar_Aetheling_V4.1_Current_Authority_Reconciliation_Static_Check.json",
+      "sha256": "5c839b341209b0e74dbb34abaf232704666db2a41e324ee7e41ecd4601ff7fe7",
+      "bytes": 804
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "mw.realm.scotland.settlements-ports-islands-strategic-sites.v1",
+  "authority_id": "authority.scotland.settlements-ports-islands-strategic-sites.v1",
+  "stable_document_id": "StrategicSites.Realm.Scotland",
+  "filename": "Scotland_Settlements_Ports_Islands_and_Strategic_Sites_V1.md",
+  "version": "1.0.0",
+  "status": "Static-Checked Draft",
+  "sha256": "325b7e13dcc989629037f6b71d2769a3a182f0188a2c831f7a1443f3adc56c7a",
+  "bytes": 66144,
+  "lines": 1705,
+  "sections": 52,
+  "opening_sites_created": 0,
+  "opening_ports_created": 0,
+  "opening_islands_created": 0,
+  "opening_routes_created": 0,
+  "Registry_mutation_performed": false,
+  "Opening_State_activation_performed": false,
+  "runtime_mutation_performed": false,
+  "validation": {
+    "compile": false,
+    "runtime": false,
+    "importer": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "performance": false
+  },
+  "candidate_summary": {
+    "confirmed_identity_candidates": [
+      "Site.Scotland.St_Andrews"
+    ],
+    "review_only_candidates": [
+      "Site.Scotland.Scone",
+      "Site.Scotland.Dunfermline"
+    ],
+    "external_or_unresolved_island_interfaces": [
+      "Orkney",
+      "Hebrides",
+      "Shetland",
+      "Man"
+    ]
+  },
+  "next_file": "Scotland_Routes_Maritime_Access_and_Communication_V1.md"
+}

@@ -1,0 +1,64 @@
+﻿# Framework Update Move Verification
+
+- Verification timestamp: 2026-10-22 20:36:32 -04:00
+- Framework folders used: 15
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Campaign`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Characters`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Diplomacy`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Dynasties`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Ecclesiastical`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Economic_And_Resource`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Governance`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Historical`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Information_and_Intelligence`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Military_and_Battles`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\OS_VIS`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Public_Order_and_Resistance`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Realm`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Settlement_Development_and_Built_Environment`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Technology_Research_and_Realm_Development`
+- Files moved: 24
+  - Campaign: 4 file(s)
+  - Characters: 3 file(s)
+  - Diplomacy: 1 file(s)
+  - Dynasties: 1 file(s)
+  - Ecclesiastical: 1 file(s)
+  - Economic_And_Resource: 1 file(s)
+  - Governance: 1 file(s)
+  - Historical: 2 file(s)
+  - Information_and_Intelligence: 1 file(s)
+  - Military_and_Battles: 2 file(s)
+  - OS_VIS: 2 file(s)
+  - Public_Order_and_Resistance: 1 file(s)
+  - Realm: 1 file(s)
+  - Settlement_Development_and_Built_Environment: 1 file(s)
+  - Technology_Research_and_Realm_Development: 2 file(s)
+- Missing files: 0
+- Destination collisions: 0
+- Skipped files: 0
+- Companion groups preserved: True
+  - Campaign_Information_Shadow_Digest_2026-09-25: 3 file(s)
+  - Character_Emergence_Population_2026-10: 2 file(s)
+  - Historical_Frameworks_2026-09-19: 2 file(s)
+  - OS_VIS_2026-08-28: 2 file(s)
+  - Technology_Sequence_Versions: 2 file(s)
+- Predecessor-successor chains preserved: True
+  - Character October 12 -> October 15
+  - Historical baseline -> V1.1 successor
+- Matching byte sizes: True
+- Matching SHA-256 hashes: True
+- Source absence after successful moves: True
+- Destination presence after successful moves: True
+- Overwritten files: 0
+- Deleted files: 0
+- Content modifications: 0
+- Remaining content-file count in source: 14
+- Remaining bookkeeping-file count in source: 8
+- Remaining ambiguous-item count: 14
+- Ambiguous inventory contains only unresolved Theater-wide, cross-Theater, shared recruitment, shared implementation, and mixed England/shared military records: True
+  - Cross-Theater, regional-unit, equivalence, or Theater-wide: 9
+  - Mixed shared and England-specific military update: 2
+  - Shared implementation standard with Norway benchmark: 1
+  - Shared recruitment: 1
+  - Theater-wide: 1
+- Authorized filename list contained 24 files; task stated expected authorized moves: 23. All explicitly named files were present and moved; the enumerated list exceeds that stated count by 1.

@@ -1,0 +1,19 @@
+﻿{
+    "receipt_id":  "receipt.shared-opening-state.provisional-transaction.v1.a445dc985b404622b31719cff62da1ce",
+    "decision_date_utc":  "2026-08-25T03:35:05.9939563Z",
+    "controlling_owner":  "Bryan Ronga",
+    "decision_status":  "ApprovedForDisposableCloneImplementationBuildAndTestsOnly",
+    "implementation_target":  "Unreal Engine 5.8",
+    "disposable_clone_implementation_authorized":  true,
+    "disposable_clone_build_authorized":  true,
+    "disposable_clone_test_execution_authorized":  true,
+    "forced_persistence_failure_test_authorized":  true,
+    "synthetic_retry_test_authorized":  true,
+    "Campaign_regression_execution_authorized":  true,
+    "Denmark_Network_regression_execution_authorized":  true,
+    "active_source_promotion_authorized":  false,
+    "Norway_real_opening_state_authorized":  false,
+    "other_Realm_payload_authorized":  false,
+    "active_source_mutation_authorized":  false,
+    "item_4_complete":  false
+}

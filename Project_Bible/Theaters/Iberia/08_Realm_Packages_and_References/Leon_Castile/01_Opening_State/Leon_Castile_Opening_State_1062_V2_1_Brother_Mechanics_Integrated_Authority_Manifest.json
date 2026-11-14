@@ -1,0 +1,31 @@
+{
+  "ManifestId": "manifest.opening-state.realm.leon-castile.1062.v2.1",
+  "Version": "2.1.0",
+  "OutputFile": "Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority.md",
+  "OutputBytes": 66332,
+  "OutputLines": 1905,
+  "OutputSha256": "c58e40798768521d9ce3195f7bd35502224f661478efac4a1de73bff02e8d93a",
+  "ImmediateSource": "Leon_Castile_Opening_State_1062_V2_Developed_Realm_Parity_Authority.md",
+  "ImmediateSourceBytes": 49680,
+  "ImmediateSourceSha256": "c4476cd1142220efd158c8d859e774bc6d10b598c12bcad8fdb3e94f2c738ce7",
+  "Checks": {
+    "larger": true,
+    "brother_sections": true,
+    "counterweights": true,
+    "opportunity_deck": true,
+    "ui": true,
+    "temporal": true,
+    "no_auto_partition": true,
+    "no_opening_assets": true,
+    "evidence": true
+  },
+  "AllChecksPass": true,
+  "ValidationBoundary": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "document_id": "manifest.scotland.realm-political-order.v1",
+  "version": "1.0.0",
+  "source_authorities": [
+    {
+      "filename": "Scotland_Historical_Momentum_V1.md",
+      "bytes": 52532,
+      "lines": 1336,
+      "sha256": "cd4c00272b49cf866ce12ce212baa90e70043a70edbc196d79840be5bb327edd",
+      "complete_source_verified": true
+    },
+    {
+      "filename": "Scotland_Opening_State.md",
+      "bytes": 40725,
+      "lines": 1102,
+      "sha256": "7b5bd5a7d4b510b8e5146c8e8c27ef6c9d28641d6d453a9425387ee233e76457",
+      "complete_source_verified": true
+    },
+    {
+      "filename": "House_Dunkeld_Dynasty_Modernized.md",
+      "bytes": 17068,
+      "lines": 370,
+      "sha256": "94e2aba4889278b0d1abbf8e49604d9796af8933455f955bc9f3a9ba2e5c5d43",
+      "complete_source_verified": true
+    },
+    {
+      "filename": "House_Moray_Dynasty_Modernized.md",
+      "bytes": 16649,
+      "lines": 415,
+      "sha256": "63ba547580125fe6316c64915134f4b2693d8a1cff448f73ed7a5167d399c0fe",
+      "complete_source_verified": true
+    },
+    {
+      "filename": "Malcolm_III_Modernized.md",
+      "bytes": 38881,
+      "lines": 794,
+      "sha256": "b7ea4c2e11d8ef72e6a86828d225d78f4fd78c17af313755fe6fcef7692085e8",
+      "complete_source_verified": true
+    },
+    {
+      "filename": "Scotland_ID_Migration_Map.md",
+      "bytes": 3913,
+      "lines": 83,
+      "sha256": "036ada6fe727347faff9e3cebb29c9431cd64c31f6f19060039df94eb71a8760",
+      "complete_source_verified": true
+    },
+    {
+      "filename": "Duncan_II_Opening_Underage_Record.md",
+      "bytes": 3195,
+      "lines": 95,
+      "sha256": "3ddf6b6215ed02f9dfcafb1c4cd1109bb7529dd6b7b18f3ecd5dc6ab8c845148",
+      "complete_source_verified": true
+    },
+    {
+      "filename": "Fothad_II_Identity_Office_Institution_Review.md",
+      "bytes": 4126,
+      "lines": 135,
+      "sha256": "a8fe7bd26c977026045a8e87158581634ae5e2f7e7a7349b243358a445cc7602",
+      "complete_source_verified": true
+    }
+  ],
+  "successor": {
+    "filename": "Scotland_Realm_and_Political_Order_Authority_V1.md",
+    "bytes": 43703,
+    "lines": 1182,
+    "sha256": "b7f58f96b098d8d107c81490ba6f2aaad8998762850f296d283e6429bab09e89"
+  },
+  "content_inventory": {
+    "political_actor_classes": 14,
+    "political_order_states": 12,
+    "kingship_lifecycle_states": 11,
+    "continuity_gates": 10,
+    "regional_order_principles": 9,
+    "consolidation_alternatives": 6,
+    "validation_cases": 14,
+    "issue_codes": 16
+  },
+  "critical_boundaries": [
+    "Scotland Realm is not one political actor",
+    "Kingship does not own the Realm",
+    "House Dunkeld does not own the crown or succession",
+    "Moray is not one faction",
+    "Duncan II remains Underage",
+    "Fothad person, Bishop office, and St Andrews institution remain separate",
+    "Gille Coemgain identity equivalence remains quarantined",
+    "Governance remains inside Law and Policy",
+    "Supply remains separate"
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "source_deletion": false,
+    "source_archival": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Scotland_Realm_and_Political_Order_Authority_V1_Static_Check.json",
+    "sha256": "e941acd7c4261c947da2ecd6825753a64721179c69b450c280e6d56f7ec8c659",
+    "passed": true
+  }
+}

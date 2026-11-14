@@ -1,0 +1,1658 @@
+# Medieval War - review-only shared recruitment classification schema
+schema_document:
+  document_id: mw.schema.military-unit-recruitment-classification-static-data.v1.1
+  file_name: Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml
+  version: 1.1.0
+  revision_date: '2026-10-22'
+  project: Medieval War
+  status: DoubleCheckedRefinedReviewOnlyStaticDataSchemaCandidate
+  authority_effect: StaticCandidateOnly
+  placement_candidate: Project_Bible/Frameworks_Production_Standards_Implementation_Integration/Military_and_Battles/Standards_Production
+  controlling_standard: Military_Unit_Quality_Provider_Development_and_Recruitment_Pool_Implementation_Standard_V1_1.md
+  parent_authority: Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.md
+  recruitment_pool_authority: Military_Recruitment_Pool_Constitution_V1_2_Current_Authority_Refinement_FULL.md
+  implementation_target: Unreal Engine 5.8
+  historical_months_per_turn: 21
+  biological_months_per_turn: 7
+  campaign_season_steps_per_turn: 1
+  campaign_season_order:
+  - Winter
+  - Spring
+  - Summer
+  - Autumn
+  owner_acceptance: Pending
+  stable_runtime_ids_allocated: []
+  exact_values_promoted: []
+  existing_files_modified: []
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  schema_activation_authorized: false
+  payload_authorized: false
+  importer_authorized: false
+  runtime_mutation_authorized: false
+  unreal_mutation_authorized: false
+schema_contract:
+  principle: UniformImplementationGrammarFlexibleHistoricExpression
+  independent_axes:
+  - MilitaryQuality
+  - RecruitmentProvider
+  - ProviderDevelopment
+  - RecruitmentQualifier
+  - RecruitmentPool
+  - EraAndProgression
+  - BattleRole
+  - VisualizationRelationship
+  quality_is_power_ranking: false
+  provider_is_quality_ranking: false
+  provider_development_is_settlement_level: false
+  quality_overrides_battle_role: false
+  quality_does_not_override_battle_role: true
+  provider_class_grants_access: false
+  building_or_calendar_or_research_creates_complete_unit: false
+  one_provider_per_unit_required: false
+  one_quality_per_provider_required: false
+  finite_pool_accounting_required: true
+  same_inputs_double_counted: false
+  same_inputs_double_counting_prohibited: true
+  arbitrary_global_cap_default: false
+  survivors_persist_after_recruitment_closure: true
+  provider_pool_owner_controller_and_settlement_separate: true
+  no_fictitious_card_for_support_capability: true
+  pool_capacity_access_and_recovery_are_orthogonal: true
+identifier_contract:
+  candidate_ids_are_runtime_ids: false
+  shared_id_pattern: ^[A-Z][A-Z0-9]*\.[A-Z][A-Za-z0-9]*$
+  realm_id_pattern: ^[A-Za-z][A-Za-z0-9._-]*$
+  prefixes:
+    MQG: MilitaryQualityGroup
+    MQS: MilitaryQualitySubgroup
+    RPC: RecruitmentProviderClass
+    PDS: ProviderDevelopmentState
+    RQC: RecruitmentQualifierClass
+    RPCS: RecruitmentPoolClass
+    MPS: MilitaryPoolState
+    ACS: AccessChannelType
+    ORS: OpeningStatus
+    PERA: PublicEra
+    PEM: ProgressionEmergenceMode
+    VRT: VisualRelationshipType
+    APS: ApplicabilityScope
+  rules:
+  - ASCIIOnly
+  - PascalCaseAfterPrefix
+  - NoMutableDisplayNameInSemanticID
+  - NoTemporaryPathOrNumericBalanceValueInID
+  - NoDuplicateSemanticID
+  - AliasChangeDoesNotChangeID
+  - DeprecationRequiresDisposition
+unknown_and_null_policy:
+  unresolved_token: Unresolved
+  pending_review_token: PendingReview
+  not_applicable_token: NotApplicable
+  null_allowed_only_for_truly_inapplicable_fields: true
+  unknown_must_not_use_null: true
+  empty_string_prohibited: true
+  optional_arrays_default: []
+  invented_runtime_guid_prohibited: true
+cardinality_contract:
+  quality_group_id: ExactlyOne
+  quality_subgroup_id: ExactlyOne
+  primary_provider_class_ids: OneOrMore
+  secondary_provider_class_ids: ZeroOrMore
+  named_provider_binding_ids_static_review_only: ZeroOrMoreOnlyWhenBindingResolutionIsUnresolvedPendingReviewOrHeldFromActivation
+  named_provider_binding_ids_activation_ready: OneOrMoreValidNamedProviderBindings
+  named_provider_binding_ids_live_pool: OneOrMoreValidNamedProviderBindings
+  access_channel_ids_live_pool: OneOrMoreSeparatelyAuthorizedChannels
+  qualifier_ids: ZeroOrMore
+  minimum_development_state_ids: OneOrMore
+  alternative_development_paths: ZeroOrMore
+  pool_class_id: ExactlyOne
+  overlap_group_ids: OneOrMoreWithExplicitNoneSentinelAllowed
+  pool_capacity_depth_id: ExactlyOne
+  pool_recruitment_access_state_id: ExactlyOne
+  pool_recovery_condition_id: ZeroOrOne
+  opening_status_id: ExactlyOne
+  public_era_id: ExactlyOnePrimary
+  emergence_mode_id: ExactlyOnePrimary
+  unit_type_id: ExactlyOne
+  primary_role_id: ExactlyOne
+  secondary_role_ids: ZeroOrMore
+  access_channel_ids: ZeroOrMore
+  era_override_ids: ZeroOrMore
+  signature_behavior_ids: ZeroOrMore
+  formation_portfolio_ids: ZeroOrMore
+  strength_tags: ZeroOrMore
+  weakness_tags: ZeroOrMore
+record_lifecycle_contract:
+  stages:
+    StaticReviewOnly:
+      record: military_unit_recruitment_classification_record
+      bindings: ZeroOrMore
+      zero_binding_condition: BindingResolutionStatusIsUnresolvedPendingReviewOrHeldFromActivation
+      permits_activation: false
+      creates_live_pool: false
+    ActivationReady:
+      record: military_unit_recruitment_classification_record
+      bindings: OneOrMoreValidNamedProviderBindings
+      access_channels: OneOrMoreSeparatelyAuthorizedChannels
+      permits_activation_without_owner_authorization: false
+      creates_live_pool: false
+    LivePool:
+      record: finite_recruitment_pool_record
+      bindings: OneOrMoreValidNamedProviderBindings
+      access_channels: OneOrMoreSeparatelyAuthorizedChannels
+      unresolved_binding_or_access_satisfies_requirement: false
+      requires_separate_owner_authorization: true
+applicability_contract:
+  recruitable_unit_scopes:
+  - APS.RecruitableLandUnitFamily
+  - APS.RecruitableMountedUnitFamily
+  - APS.RecruitableMissileUnitFamily
+  - APS.RecruitableNavalCombatUnitFamily
+  - APS.MercenaryUnitFamily
+  - APS.AlliedContingentUnitFamily
+  - APS.RegionalUnitFamily
+  - APS.MilitaryOrderUnitFamily
+  non_card_scopes:
+  - APS.CampaignSupportCapability
+  - APS.TransportCapacityWithoutCombatCard
+  - APS.SiegeLaborWithoutDistinctFieldBody
+  - APS.VisualPackageOnlyExpression
+  - APS.BuildingOrDevelopmentEffect
+  - APS.ProviderRelationshipWithoutUnitCard
+  regional_owner_determined_by_separate_authority: true
+  mercenary_requires_contract_and_source: true
+  transport_alone_is_not_combat_card: true
+shared_value_registry:
+  military_quality_groups:
+  - id: MQG.LocalAndLevy
+    semantic_name: LocalAndLevy
+    ui_sort_ordinal: 1
+    meaning: BroadOrLowThresholdServiceWithLimitedPreparationSupportOrDuration
+    power_ranking: false
+    adoption_status: Candidate
+  - id: MQG.PracticedAndMilitia
+    semantic_name: PracticedAndMilitia
+    ui_sort_ordinal: 2
+    meaning: RepeatedCollectiveServiceWithRecognizedLeadersAndUsableMilitaryPractice
+    power_ranking: false
+    adoption_status: Candidate
+  - id: MQG.TrainedAndMaintained
+    semantic_name: TrainedAndMaintained
+    ui_sort_ordinal: 3
+    meaning: SustainedPracticeEquipmentSupportLeadershipAndFieldServiceCapacity
+    power_ranking: false
+    adoption_status: Candidate
+  - id: MQG.SelectedAndElite
+    semantic_name: SelectedAndElite
+    ui_sort_ordinal: 4
+    meaning: NarrowQualificationHighOpportunityCostAndConcentratedMilitaryCapability
+    power_ranking: false
+    adoption_status: Candidate
+  military_quality_subgroups:
+  - id: MQS.EmergencyLevy
+    parent_group_id: MQG.LocalAndLevy
+    semantic_name: EmergencyLevy
+    adoption_status: Candidate
+  - id: MQS.CommunalMuster
+    parent_group_id: MQG.LocalAndLevy
+    semantic_name: CommunalMuster
+    adoption_status: Candidate
+  - id: MQS.LocalCustody
+    parent_group_id: MQG.LocalAndLevy
+    semantic_name: LocalCustody
+    adoption_status: Candidate
+  - id: MQS.BasicCivicContribution
+    parent_group_id: MQG.LocalAndLevy
+    semantic_name: BasicCivicContribution
+    adoption_status: Candidate
+  - id: MQS.TownMilitia
+    parent_group_id: MQG.PracticedAndMilitia
+    semantic_name: TownMilitia
+    adoption_status: Candidate
+  - id: MQS.RegionalPracticed
+    parent_group_id: MQG.PracticedAndMilitia
+    semantic_name: RegionalPracticed
+    adoption_status: Candidate
+  - id: MQS.DistrictService
+    parent_group_id: MQG.PracticedAndMilitia
+    semantic_name: DistrictService
+    adoption_status: Candidate
+  - id: MQS.VeteranCommonHost
+    parent_group_id: MQG.PracticedAndMilitia
+    semantic_name: VeteranCommonHost
+    adoption_status: Candidate
+  - id: MQS.FrontierPracticed
+    parent_group_id: MQG.PracticedAndMilitia
+    semantic_name: FrontierPracticed
+    adoption_status: Candidate
+  - id: MQS.MaritimePracticed
+    parent_group_id: MQG.PracticedAndMilitia
+    semantic_name: MaritimePracticed
+    adoption_status: Candidate
+  - id: MQS.PracticedSpecialistBand
+    parent_group_id: MQG.PracticedAndMilitia
+    semantic_name: PracticedSpecialistBand
+    adoption_status: Candidate
+  - id: MQS.MaintainedField
+    parent_group_id: MQG.TrainedAndMaintained
+    semantic_name: MaintainedField
+    adoption_status: Candidate
+  - id: MQS.CivicTrained
+    parent_group_id: MQG.TrainedAndMaintained
+    semantic_name: CivicTrained
+    adoption_status: Candidate
+  - id: MQS.CastleSupported
+    parent_group_id: MQG.TrainedAndMaintained
+    semantic_name: CastleSupported
+    adoption_status: Candidate
+  - id: MQS.LongServiceRetainer
+    parent_group_id: MQG.TrainedAndMaintained
+    semantic_name: LongServiceRetainer
+    adoption_status: Candidate
+  - id: MQS.MaintainedMissile
+    parent_group_id: MQG.TrainedAndMaintained
+    semantic_name: MaintainedMissile
+    adoption_status: Candidate
+  - id: MQS.MaintainedMounted
+    parent_group_id: MQG.TrainedAndMaintained
+    semantic_name: MaintainedMounted
+    adoption_status: Candidate
+  - id: MQS.ProfessionalService
+    parent_group_id: MQG.TrainedAndMaintained
+    semantic_name: ProfessionalService
+    adoption_status: Candidate
+  - id: MQS.InstitutionalSpecialist
+    parent_group_id: MQG.TrainedAndMaintained
+    semantic_name: InstitutionalSpecialist
+    adoption_status: Candidate
+  - id: MQS.HouseholdSelected
+    parent_group_id: MQG.SelectedAndElite
+    semantic_name: HouseholdSelected
+    adoption_status: Candidate
+  - id: MQS.RoyalSelected
+    parent_group_id: MQG.SelectedAndElite
+    semantic_name: RoyalSelected
+    adoption_status: Candidate
+  - id: MQS.NobleFacing
+    parent_group_id: MQG.SelectedAndElite
+    semantic_name: NobleFacing
+    adoption_status: Candidate
+  - id: MQS.RareSpecialist
+    parent_group_id: MQG.SelectedAndElite
+    semantic_name: RareSpecialist
+    adoption_status: Candidate
+  - id: MQS.MilitaryOrderSelected
+    parent_group_id: MQG.SelectedAndElite
+    semantic_name: MilitaryOrderSelected
+    adoption_status: Candidate
+  - id: MQS.ExceptionalContract
+    parent_group_id: MQG.SelectedAndElite
+    semantic_name: ExceptionalContract
+    adoption_status: Candidate
+  - id: MQS.SelectedCivic
+    parent_group_id: MQG.SelectedAndElite
+    semantic_name: SelectedCivic
+    adoption_status: Candidate
+  - id: MQS.SelectedRegional
+    parent_group_id: MQG.SelectedAndElite
+    semantic_name: SelectedRegional
+    adoption_status: Candidate
+  recruitment_provider_classes:
+  - id: RPC.LocalCommunity
+    semantic_name: LocalCommunity
+    meaning: VillageParishEstateGlenNeighborhoodOrEquivalentLocalBody
+    adoption_status: Candidate
+  - id: RPC.RegionalDistrict
+    semantic_name: RegionalDistrict
+    meaning: DistrictLordshipCountyShireHundredRegionalNetworkOrEquivalent
+    adoption_status: Candidate
+  - id: RPC.TownBurgh
+    semantic_name: TownBurgh
+    meaning: TownBurghCommuneCivicCommunityGuildLinkedOrEquivalentUrbanProvider
+    adoption_status: Candidate
+  - id: RPC.CastleMaintained
+    semantic_name: CastleMaintained
+    meaning: CastleGarrisonAdministrativeCenterMaintainedDepotOrFortifiedProvider
+    adoption_status: Candidate
+  - id: RPC.RoyalHousehold
+    semantic_name: RoyalHousehold
+    meaning: RulerHouseholdCrownEstateRoyalOfficeOrDirectRoyalService
+    adoption_status: Candidate
+  - id: RPC.MagnateHousehold
+    semantic_name: MagnateHousehold
+    meaning: MagnateNobleLordlyOrHighStatusHouseholdAndFollowing
+    adoption_status: Candidate
+  - id: RPC.ReligiousInstitution
+    semantic_name: ReligiousInstitution
+    meaning: MonasteryBishopricChurchFoundationPilgrimageInstitutionOrEquivalent
+    adoption_status: Candidate
+  - id: RPC.MilitaryOrder
+    semantic_name: MilitaryOrder
+    meaning: MilitaryReligiousOrderWithSeparateAdmissionServiceAndOwnership
+    adoption_status: Candidate
+  - id: RPC.ResourceSite
+    semantic_name: ResourceSite
+    meaning: MineForestPastureHorseBreedingCenterWorkshopPortOrOtherResourceLinkedProvider
+    adoption_status: Candidate
+  - id: RPC.FrontierService
+    semantic_name: FrontierService
+    meaning: BorderMarchWatchRouteOrFrontierServiceNetwork
+    adoption_status: Candidate
+  - id: RPC.MaritimeCommunity
+    semantic_name: MaritimeCommunity
+    meaning: PortIslandCoastalRiverineCrewOrSeaRoadCommunity
+    adoption_status: Candidate
+  - id: RPC.ContractMercenary
+    semantic_name: ContractMercenary
+    meaning: ContractCompanyMercenaryMarketExternalServiceOrHiredProvider
+    adoption_status: Candidate
+  - id: RPC.AlliedExternal
+    semantic_name: AlliedExternal
+    meaning: AlliedContingentDiplomaticAccessExternalRealmOrNegotiatedContribution
+    adoption_status: Candidate
+  - id: RPC.CompositePolitical
+    semantic_name: CompositePolitical
+    meaning: UnionLeagueCompositeRealmSharedPackageOrMultiProviderPoliticalFormation
+    adoption_status: Candidate
+  provider_development_states:
+  - id: PDS.Foundational
+    semantic_name: Foundational
+    meaning: CommunityOrInstitutionExistsWithBasicCustodyObligationOrEmergencyCapacity
+    adoption_status: Candidate
+  - id: PDS.Organized
+    semantic_name: Organized
+    meaning: RecognizedAssemblyLeadershipRepeatedServiceAndImprovedEquipmentSupportExist
+    adoption_status: Candidate
+  - id: PDS.Maintained
+    semantic_name: Maintained
+    meaning: TrainingStorageRepairSupplyLongerServiceAndRecoveryCapacityAreSustained
+    adoption_status: Candidate
+  - id: PDS.Institutional
+    semantic_name: Institutional
+    meaning: StableSelectedQualificationAdvancedSupportAndDurableServiceRelationshipsExist
+    adoption_status: Candidate
+  recruitment_qualifier_classes:
+  - id: RQC.RoyalCharter
+    semantic_name: RoyalCharter
+    adoption_status: Candidate
+  - id: RQC.MagnatePatronage
+    semantic_name: MagnatePatronage
+    adoption_status: Candidate
+  - id: RQC.ReligiousPatronage
+    semantic_name: ReligiousPatronage
+    adoption_status: Candidate
+  - id: RQC.GuildSupport
+    semantic_name: GuildSupport
+    adoption_status: Candidate
+  - id: RQC.VeteranCadre
+    semantic_name: VeteranCadre
+    adoption_status: Candidate
+  - id: RQC.FrontierObligation
+    semantic_name: FrontierObligation
+    adoption_status: Candidate
+  - id: RQC.MaritimeTradition
+    semantic_name: MaritimeTradition
+    adoption_status: Candidate
+  - id: RQC.CastleService
+    semantic_name: CastleService
+    adoption_status: Candidate
+  - id: RQC.IronWorking
+    semantic_name: IronWorking
+    adoption_status: Candidate
+  - id: RQC.BowMaterialAccess
+    semantic_name: BowMaterialAccess
+    adoption_status: Candidate
+  - id: RQC.CrossbowEquipmentAccess
+    semantic_name: CrossbowEquipmentAccess
+    adoption_status: Candidate
+  - id: RQC.HorseBreeding
+    semantic_name: HorseBreeding
+    adoption_status: Candidate
+  - id: RQC.RemountNetwork
+    semantic_name: RemountNetwork
+    adoption_status: Candidate
+  - id: RQC.ForestAccess
+    semantic_name: ForestAccess
+    adoption_status: Candidate
+  - id: RQC.PastureAccess
+    semantic_name: PastureAccess
+    adoption_status: Candidate
+  - id: RQC.PortAccess
+    semantic_name: PortAccess
+    adoption_status: Candidate
+  - id: RQC.ShipyardSupport
+    semantic_name: ShipyardSupport
+    adoption_status: Candidate
+  - id: RQC.TradeNetwork
+    semantic_name: TradeNetwork
+    adoption_status: Candidate
+  - id: RQC.PilgrimageRoute
+    semantic_name: PilgrimageRoute
+    adoption_status: Candidate
+  - id: RQC.SiegeWorkshop
+    semantic_name: SiegeWorkshop
+    adoption_status: Candidate
+  - id: RQC.ContractMarket
+    semantic_name: ContractMarket
+    adoption_status: Candidate
+  - id: RQC.OrderChapter
+    semantic_name: OrderChapter
+    adoption_status: Candidate
+  - id: RQC.RegionalWeaponTradition
+    semantic_name: RegionalWeaponTradition
+    adoption_status: Candidate
+  - id: RQC.SpecialistLeaderCadre
+    semantic_name: SpecialistLeaderCadre
+    adoption_status: Candidate
+  recruitment_pool_classes:
+  - id: RPCS.BroadLocal
+    semantic_name: BroadLocal
+    meaning: BroadButShallowLocalContributionAcrossQualifiedCommunities
+    adoption_status: Candidate
+  - id: RPCS.RegionalFinite
+    semantic_name: RegionalFinite
+    meaning: RegionOrDistrictBoundFinitePool
+    adoption_status: Candidate
+  - id: RPCS.CivicFinite
+    semantic_name: CivicFinite
+    meaning: TownBurghOrCivicProviderBoundPool
+    adoption_status: Candidate
+  - id: RPCS.MaintainedFinite
+    semantic_name: MaintainedFinite
+    meaning: MaintainedInstitutionOrServiceBoundPool
+    adoption_status: Candidate
+  - id: RPCS.HouseholdFinite
+    semantic_name: HouseholdFinite
+    meaning: HouseholdPoliticalOrDirectServiceBoundPool
+    adoption_status: Candidate
+  - id: RPCS.SpecialistRare
+    semantic_name: SpecialistRare
+    meaning: NarrowQualificationEquipmentLeaderOrPracticeBoundPool
+    adoption_status: Candidate
+  - id: RPCS.MercenaryMarket
+    semantic_name: MercenaryMarket
+    meaning: ContractMarketAvailabilityAndRecoveryPool
+    adoption_status: Candidate
+  - id: RPCS.AlliedContingent
+    semantic_name: AlliedContingent
+    meaning: DiplomaticOrExternalServicePool
+    adoption_status: Candidate
+  - id: RPCS.OrderInstitutional
+    semantic_name: OrderInstitutional
+    meaning: MilitaryOrderAdmissionChapterAndServicePool
+    adoption_status: Candidate
+  - id: RPCS.CompositeShared
+    semantic_name: CompositeShared
+    meaning: MultiRealmUnionLeagueOrSharedPackagePool
+    adoption_status: Candidate
+  military_pool_capacity_depths:
+  - id: MPS.Deep
+    semantic_name: Deep
+    adoption_status: Candidate
+  - id: MPS.Serviceable
+    semantic_name: Serviceable
+    adoption_status: Candidate
+  - id: MPS.Shallow
+    semantic_name: Shallow
+    adoption_status: Candidate
+  - id: MPS.Depleted
+    semantic_name: Depleted
+    adoption_status: Candidate
+  military_pool_recruitment_access_states:
+  - id: MPS.OpenToNewRecruitment
+    semantic_name: OpenToNewRecruitment
+    adoption_status: Candidate
+  - id: MPS.ClosedToNewRecruitment
+    semantic_name: ClosedToNewRecruitment
+    adoption_status: Candidate
+  - id: MPS.ReplacementRestricted
+    semantic_name: ReplacementRestricted
+    adoption_status: Candidate
+  - id: MPS.AccessSuspended
+    semantic_name: AccessSuspended
+    adoption_status: Candidate
+  military_pool_recovery_conditions:
+  - id: MPS.Stable
+    semantic_name: Stable
+    adoption_status: Candidate
+  - id: MPS.Recovering
+    semantic_name: Recovering
+    adoption_status: Candidate
+  - id: MPS.ProviderLost
+    semantic_name: ProviderLost
+    adoption_status: Candidate
+  access_channel_types:
+  - id: ACS.DomesticObligation
+    semantic_name: DomesticObligation
+    adoption_status: ProposedSchemaVocabularyPendingPilot
+  - id: ACS.RegionalQualified
+    semantic_name: RegionalQualified
+    adoption_status: ProposedSchemaVocabularyPendingPilot
+  - id: ACS.AlliedContingent
+    semantic_name: AlliedContingent
+    adoption_status: ProposedSchemaVocabularyPendingPilot
+  - id: ACS.NegotiatedService
+    semantic_name: NegotiatedService
+    adoption_status: ProposedSchemaVocabularyPendingPilot
+  - id: ACS.HouseholdService
+    semantic_name: HouseholdService
+    adoption_status: ProposedSchemaVocabularyPendingPilot
+  - id: ACS.MercenaryContract
+    semantic_name: MercenaryContract
+    adoption_status: ProposedSchemaVocabularyPendingPilot
+  - id: ACS.MilitaryOrderService
+    semantic_name: MilitaryOrderService
+    adoption_status: ProposedSchemaVocabularyPendingPilot
+  - id: ACS.ExternalAccess
+    semantic_name: ExternalAccess
+    adoption_status: ProposedSchemaVocabularyPendingPilot
+  opening_statuses:
+  - id: ORS.Admitted
+    semantic_name: Admitted
+    adoption_status: Candidate
+  - id: ORS.CandidateNotInitialized
+    semantic_name: CandidateNotInitialized
+    adoption_status: Candidate
+  - id: ORS.NotAdmitted
+    semantic_name: NotAdmitted
+    adoption_status: Candidate
+  - id: ORS.Prohibited
+    semantic_name: Prohibited
+    adoption_status: Candidate
+  - id: ORS.ScenarioDependent
+    semantic_name: ScenarioDependent
+    adoption_status: Candidate
+  public_eras:
+  - id: PERA.Opening
+    semantic_name: Opening
+    adoption_status: Candidate
+  - id: PERA.Early
+    semantic_name: Early
+    adoption_status: Candidate
+  - id: PERA.High
+    semantic_name: High
+    adoption_status: Candidate
+  - id: PERA.LateHigh
+    semantic_name: LateHigh
+    adoption_status: Candidate
+  - id: PERA.Later
+    semantic_name: Later
+    adoption_status: Candidate
+  - id: PERA.ScenarioSpecific
+    semantic_name: ScenarioSpecific
+    adoption_status: Candidate
+  progression_emergence_modes:
+  - id: PEM.Persistent
+    semantic_name: Persistent
+    adoption_status: Candidate
+  - id: PEM.MaturesWithinFamily
+    semantic_name: MaturesWithinFamily
+    adoption_status: Candidate
+  - id: PEM.ProgressesToNewFamily
+    semantic_name: ProgressesToNewFamily
+    adoption_status: Candidate
+  - id: PEM.ConvergesFromQualifiedSources
+    semantic_name: ConvergesFromQualifiedSources
+    adoption_status: Candidate
+  - id: PEM.EmergesWithoutParent
+    semantic_name: EmergesWithoutParent
+    adoption_status: Candidate
+  - id: PEM.PackageOnly
+    semantic_name: PackageOnly
+    adoption_status: Candidate
+  - id: PEM.RetiresToRestrictedPersistence
+    semantic_name: RetiresToRestrictedPersistence
+    adoption_status: Candidate
+  visual_relationship_types:
+  - id: VRT.SolidProgression
+    semantic_name: SolidProgression
+    meaning: NewFamilyWithMaterialChange
+    adoption_status: Candidate
+  - id: VRT.ParallelPersistence
+    semantic_name: ParallelPersistence
+    meaning: EarlierFamilyRemainsUseful
+    adoption_status: Candidate
+  - id: VRT.DottedQualification
+    semantic_name: DottedQualification
+    meaning: IndividualsOrInputsMayQualifyConditionally
+    adoption_status: Candidate
+  - id: VRT.Convergence
+    semantic_name: Convergence
+    meaning: SeveralQualifiedSourcesSupportOneLaterFamily
+    adoption_status: Candidate
+  - id: VRT.NewRootEmergence
+    semantic_name: NewRootEmergence
+    meaning: FamilyAppearsWithoutCompulsoryParent
+    adoption_status: Candidate
+  - id: VRT.PackageOnly
+    semantic_name: PackageOnly
+    meaning: VisualEquipmentOrProviderExpressionWithoutNewCard
+    adoption_status: Candidate
+  - id: VRT.RestrictedPersistence
+    semantic_name: RestrictedPersistence
+    meaning: NewRecruitmentClosesButSurvivorsRemain
+    adoption_status: Candidate
+  - id: VRT.Blocked
+    semantic_name: Blocked
+    meaning: MissingProviderDevelopmentQualifierOrRecovery
+    adoption_status: Candidate
+  applicability_scopes:
+  - id: APS.RecruitableLandUnitFamily
+    semantic_name: RecruitableLandUnitFamily
+    adoption_status: Candidate
+  - id: APS.RecruitableMountedUnitFamily
+    semantic_name: RecruitableMountedUnitFamily
+    adoption_status: Candidate
+  - id: APS.RecruitableMissileUnitFamily
+    semantic_name: RecruitableMissileUnitFamily
+    adoption_status: Candidate
+  - id: APS.RecruitableNavalCombatUnitFamily
+    semantic_name: RecruitableNavalCombatUnitFamily
+    adoption_status: Candidate
+  - id: APS.MercenaryUnitFamily
+    semantic_name: MercenaryUnitFamily
+    adoption_status: Candidate
+  - id: APS.AlliedContingentUnitFamily
+    semantic_name: AlliedContingentUnitFamily
+    adoption_status: Candidate
+  - id: APS.RegionalUnitFamily
+    semantic_name: RegionalUnitFamily
+    adoption_status: Candidate
+  - id: APS.MilitaryOrderUnitFamily
+    semantic_name: MilitaryOrderUnitFamily
+    adoption_status: Candidate
+  - id: APS.CampaignSupportCapability
+    semantic_name: CampaignSupportCapability
+    adoption_status: Candidate
+  - id: APS.TransportCapacityWithoutCombatCard
+    semantic_name: TransportCapacityWithoutCombatCard
+    adoption_status: Candidate
+  - id: APS.SiegeLaborWithoutDistinctFieldBody
+    semantic_name: SiegeLaborWithoutDistinctFieldBody
+    adoption_status: Candidate
+  - id: APS.VisualPackageOnlyExpression
+    semantic_name: VisualPackageOnlyExpression
+    adoption_status: Candidate
+  - id: APS.BuildingOrDevelopmentEffect
+    semantic_name: BuildingOrDevelopmentEffect
+    adoption_status: Candidate
+  - id: APS.ProviderRelationshipWithoutUnitCard
+    semantic_name: ProviderRelationshipWithoutUnitCard
+    adoption_status: Candidate
+schema_sentinels:
+  - id: MPS.NoKnownOverlap
+    semantic_name: NoKnownOverlap
+    adoption_status: SchemaSentinel
+    not_a_runtime_pool_state: true
+pool_state_registry_migration:
+  source_registry: military_pool_states
+  disposition: ReplacedByIndependentCapacityAccessAndRecoveryRegistries
+  legacy_field_disposition:
+    source_field: finite_recruitment_pool_record.state_id
+    target_fields:
+    - capacity_depth_id
+    - recruitment_access_state_id
+    - recovery_condition_id
+    conversion_rule: MapEachLegacyIdentifierOnlyToItsCorrespondingAxis;DoNotInferUnspecifiedAxisValues
+    existing_live_pool_records: NoneInThisStaticCandidate
+  mappings:
+  - old_id: MPS.Deep
+    old_registry: military_pool_states
+    new_id: MPS.Deep
+    new_registry: military_pool_capacity_depths
+    semantic_change: false
+  - old_id: MPS.Serviceable
+    old_registry: military_pool_states
+    new_id: MPS.Serviceable
+    new_registry: military_pool_capacity_depths
+    semantic_change: false
+  - old_id: MPS.Shallow
+    old_registry: military_pool_states
+    new_id: MPS.Shallow
+    new_registry: military_pool_capacity_depths
+    semantic_change: false
+  - old_id: MPS.Depleted
+    old_registry: military_pool_states
+    new_id: MPS.Depleted
+    new_registry: military_pool_capacity_depths
+    semantic_change: false
+  - old_id: MPS.ClosedToNewRecruitment
+    old_registry: military_pool_states
+    new_id: MPS.ClosedToNewRecruitment
+    new_registry: military_pool_recruitment_access_states
+    semantic_change: false
+  - old_id: MPS.ReplacementRestricted
+    old_registry: military_pool_states
+    new_id: MPS.ReplacementRestricted
+    new_registry: military_pool_recruitment_access_states
+    semantic_change: false
+  - old_id: MPS.AccessSuspended
+    old_registry: military_pool_states
+    new_id: MPS.AccessSuspended
+    new_registry: military_pool_recruitment_access_states
+    semantic_change: false
+  - old_id: MPS.Recovering
+    old_registry: military_pool_states
+    new_id: MPS.Recovering
+    new_registry: military_pool_recovery_conditions
+    semantic_change: false
+  - old_id: MPS.ProviderLost
+    old_registry: military_pool_states
+    new_id: MPS.ProviderLost
+    new_registry: military_pool_recovery_conditions
+    semantic_change: false
+  added_ids:
+  - id: MPS.OpenToNewRecruitment
+    registry: military_pool_recruitment_access_states
+    disposition: NewIndependentAccessState
+  - id: MPS.Stable
+    registry: military_pool_recovery_conditions
+    disposition: NewIndependentRecoveryCondition
+  sentinel_disposition:
+    id: MPS.NoKnownOverlap
+    remains_in: schema_sentinels
+    runtime_pool_state: false
+pool_state_combination_examples:
+- capacity_depth_id: MPS.Shallow
+  recruitment_access_state_id: MPS.ReplacementRestricted
+  recovery_condition_id: MPS.Recovering
+- capacity_depth_id: MPS.Depleted
+  recruitment_access_state_id: MPS.ClosedToNewRecruitment
+  recovery_condition_id: MPS.Recovering
+- capacity_depth_id: MPS.Serviceable
+  recruitment_access_state_id: MPS.AccessSuspended
+  recovery_condition_id: MPS.Stable
+- capacity_depth_id: MPS.Shallow
+  recruitment_access_state_id: MPS.ClosedToNewRecruitment
+  recovery_condition_id: MPS.ProviderLost
+record_definitions:
+  military_unit_recruitment_classification_record:
+    description: Static family classification; no live company or pool created
+    fields:
+      record_kind:
+        type: enum
+        required: true
+        allowed_values:
+        - RecruitableUnitFamilyClassification
+      lifecycle_stage:
+        type: enum
+        required: true
+        allowed_values:
+        - StaticReviewOnly
+        - ActivationReady
+      record_id:
+        type: string
+        required: true
+      unit_family_id:
+        type: string
+        required: true
+      applicability_scope_id:
+        type: registry_id
+        required: true
+        reference_registry: applicability_scopes
+      realm_or_theater_owner_ref:
+        type: string
+        required: true
+      display_name:
+        type: string
+        required: true
+      quality:
+        type: object
+        required: true
+      quality.group_id:
+        type: registry_id
+        required: true
+        reference_registry: military_quality_groups
+      quality.subgroup_id:
+        type: registry_id
+        required: true
+        reference_registry: military_quality_subgroups
+      quality.faction_display_label:
+        type: string
+        required: true
+      provider:
+        type: object
+        required: true
+      provider.primary_class_ids:
+        type: array
+        required: true
+        min_items: 1
+        reference_registry: recruitment_provider_classes
+      provider.secondary_class_ids:
+        type: array
+        required: false
+        min_items: 0
+        reference_registry: recruitment_provider_classes
+      provider.qualifier_ids:
+        type: array
+        required: false
+        min_items: 0
+        reference_registry: recruitment_qualifier_classes
+      provider.binding_resolution_status:
+        type: enum
+        required: true
+        allowed_values:
+        - Unresolved
+        - PendingReview
+        - HeldFromActivation
+        - Resolved
+      provider.named_provider_binding_ids:
+        type: record_ref_array
+        required: true
+        min_items: 0
+        minimum_by_lifecycle_stage:
+          StaticReviewOnly: 0
+          ActivationReady: 1
+      development:
+        type: object
+        required: true
+      development.minimum_state_ids:
+        type: array
+        required: true
+        min_items: 1
+        reference_registry: provider_development_states
+      development.alternative_paths:
+        type: array
+        required: false
+        min_items: 0
+      development.calendar_alone_sufficient:
+        type: boolean
+        required: true
+      development.building_alone_sufficient:
+        type: boolean
+        required: true
+      development.research_alone_sufficient:
+        type: boolean
+        required: true
+      pool:
+        type: object
+        required: true
+      pool.class_id:
+        type: registry_id
+        required: true
+        reference_registry: recruitment_pool_classes
+      pool.capacity_depth_id:
+        type: registry_id
+        required: true
+        reference_registry: military_pool_capacity_depths
+      pool.recruitment_access_state_id:
+        type: registry_id
+        required: true
+        reference_registry: military_pool_recruitment_access_states
+      pool.recovery_condition_id:
+        type: registry_id
+        required: false
+        reference_registry: military_pool_recovery_conditions
+      pool.scope_direction:
+        type: string
+        required: true
+      pool.depth_direction:
+        type: string
+        required: true
+      pool.overlap_group_ids:
+        type: array
+        required: true
+        min_items: 1
+      pool.new_recruitment_rule:
+        type: string
+        required: true
+      pool.replacement_rule:
+        type: string
+        required: true
+      pool.recovery_rule:
+        type: string
+        required: true
+      pool.depletion_rule:
+        type: string
+        required: true
+      pool.reopening_rule:
+        type: string
+        required: true
+      pool.closure_rule:
+        type: string
+        required: true
+      pool.survivor_persistence_rule:
+        type: string
+        required: true
+      pool.arbitrary_global_cap:
+        type: boolean
+        required: true
+      era:
+        type: object
+        required: true
+      era.opening_status_id:
+        type: registry_id
+        required: true
+        reference_registry: opening_statuses
+      era.public_era_id:
+        type: registry_id
+        required: true
+        reference_registry: public_eras
+      era.emergence_mode_id:
+        type: registry_id
+        required: true
+        reference_registry: progression_emergence_modes
+      era.persistence_rule:
+        type: string
+        required: true
+      battle:
+        type: object
+        required: true
+      battle.unit_type_id:
+        type: external_semantic_ref
+        required: true
+      battle.primary_role_id:
+        type: external_semantic_ref
+        required: true
+      battle.secondary_role_ids:
+        type: array
+        required: false
+        min_items: 0
+      battle.signature_behavior_ids:
+        type: array
+        required: false
+        min_items: 0
+      battle.formation_portfolio_ids:
+        type: array
+        required: false
+        min_items: 0
+      battle.strength_tags:
+        type: array
+        required: false
+        min_items: 0
+      battle.weakness_tags:
+        type: array
+        required: false
+        min_items: 0
+      battle.combat_card_evidence_refs:
+        type: array
+        required: false
+        min_items: 0
+      implementation:
+        type: object
+        required: true
+      implementation.stable_runtime_id:
+        type: status_token
+        required: true
+      implementation.data_asset_status:
+        type: status_token
+        required: true
+      implementation.registry_status:
+        type: status_token
+        required: true
+      implementation.registry_mutation_authorized:
+        type: boolean
+        required: true
+        const: false
+      implementation.opening_state_mutation_authorized:
+        type: boolean
+        required: true
+        const: false
+      implementation.payload_authorized:
+        type: boolean
+        required: true
+        const: false
+      implementation.schema_activation_authorized:
+        type: boolean
+        required: true
+        const: false
+      implementation.importer_authorized:
+        type: boolean
+        required: true
+        const: false
+      implementation.runtime_mutation_authorized:
+        type: boolean
+        required: true
+        const: false
+      implementation.unreal_mutation_authorized:
+        type: boolean
+        required: true
+        const: false
+  named_provider_binding_record:
+    description: Exact provider identity distinct from controller, settlement and pool owner
+    fields:
+      binding_id:
+        type: string
+        required: true
+      provider_class_ids:
+        type: array
+        required: true
+        min_items: 1
+        reference_registry: recruitment_provider_classes
+      named_source_ref:
+        type: string
+        required: true
+      geographic_ref:
+        type: string
+        required: true
+      institution_ref:
+        type: string
+        required: false
+      settlement_host_ref:
+        type: string
+        required: false
+      external_authority_ref:
+        type: string
+        required: false
+      canonical_pool_owner_ref:
+        type: string
+        required: true
+      controller_ref:
+        type: string
+        required: false
+      access_channel_ids:
+        type: array
+        required: false
+        min_items: 0
+        reference_registry: access_channel_types
+      access_channel_authorization_status:
+        type: enum
+        required: true
+        allowed_values:
+        - Unresolved
+        - PendingReview
+        - HeldFromActivation
+        - Authorized
+      development_state_ids:
+        type: array
+        required: true
+        min_items: 1
+        reference_registry: provider_development_states
+      qualifier_ids:
+        type: array
+        required: false
+        min_items: 0
+        reference_registry: recruitment_qualifier_classes
+      protected_duties:
+        type: array
+        required: false
+        min_items: 0
+      source_status:
+        type: enum
+        required: true
+        allowed_values:
+        - Unresolved
+        - PendingReview
+        - HeldFromActivation
+        - ConfirmedStaticCandidate
+      source_evidence_refs:
+        type: array
+        required: false
+        min_items: 0
+      contract_source_evidence_refs:
+        type: array
+        required: false
+        min_items: 0
+  finite_recruitment_pool_record:
+    description: Static shape only; no live capacity values or pool creation
+    fields:
+      lifecycle_stage:
+        type: enum
+        required: true
+        allowed_values:
+        - LivePool
+      pool_record_id:
+        type: string
+        required: true
+      pool_class_id:
+        type: registry_id
+        required: true
+        reference_registry: recruitment_pool_classes
+      canonical_owner_ref:
+        type: string
+        required: true
+      named_provider_binding_ids:
+        type: record_ref_array
+        required: true
+        min_items: 1
+      access_channel_ids:
+        type: array
+        required: true
+        min_items: 1
+        reference_registry: access_channel_types
+      access_channel_authorization_status:
+        type: enum
+        required: true
+        allowed_values:
+        - Authorized
+      pool_scope:
+        type: string
+        required: true
+      capacity_depth_id:
+        type: registry_id
+        required: true
+        reference_registry: military_pool_capacity_depths
+      recruitment_access_state_id:
+        type: registry_id
+        required: true
+        reference_registry: military_pool_recruitment_access_states
+      recovery_condition_id:
+        type: registry_id
+        required: false
+        reference_registry: military_pool_recovery_conditions
+      overlap_group_ids:
+        type: array
+        required: true
+        min_items: 1
+      new_recruitment_rule:
+        type: string
+        required: true
+      replacement_rule:
+        type: string
+        required: true
+      recovery_rule:
+        type: string
+        required: true
+      depletion_rule:
+        type: string
+        required: true
+      closure_rule:
+        type: string
+        required: true
+      reopening_rule:
+        type: string
+        required: true
+      survivor_persistence_rule:
+        type: string
+        required: true
+      emergency_overdraw_rule:
+        type: string
+        required: false
+      arbitrary_global_cap:
+        type: boolean
+        required: true
+      live_capacity:
+        type: unallocated
+        required: false
+  visualization_relationship_record:
+    description: One edge in Quality Provider or Development view
+    fields:
+      relationship_id:
+        type: string
+        required: true
+      relationship_type_id:
+        type: registry_id
+        required: true
+        reference_registry: visual_relationship_types
+      source_ref:
+        type: string
+        required: true
+      target_ref:
+        type: string
+        required: true
+      condition_refs:
+        type: array
+        required: false
+        min_items: 0
+      visibility_status:
+        type: status_token
+        required: true
+      player_label:
+        type: string
+        required: false
+  realm_military_classification_map:
+    description: Realm translation into shared grammar without forced symmetrical coverage
+    fields:
+      realm_id:
+        type: string
+        required: true
+      controlling_shared_standard:
+        type: string
+        required: true
+      schema_version:
+        type: string
+        required: true
+      unit_family_record_ids:
+        type: array
+        required: true
+        min_items: 1
+      named_provider_binding_ids:
+        type: array
+        required: false
+        min_items: 0
+      realm_aliases:
+        type: object
+        required: false
+      deliberate_absences:
+        type: array
+        required: false
+        min_items: 0
+      unresolved_records:
+        type: array
+        required: false
+        min_items: 0
+      historical_holds:
+        type: array
+        required: false
+        min_items: 0
+      implementation_holds:
+        type: array
+        required: false
+        min_items: 0
+double_check_and_refinement:
+  source_artifact: Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml
+  refinement_mode: CopyFirstAdditive
+  substantive_source_sections_preserved: true
+  removal_ledger: []
+  semantic_id_changes: []
+  registry_entries_removed: []
+  runtime_ids_allocated: []
+  live_values_added: []
+  activation_boundary_changed: false
+  review_findings:
+  - LifecycleCardinalityClarifiedForNamedProviderBindings
+  - CrossFieldValidationRequirementsMadeExplicit
+  - RegistryReferentialIntegrityRechecked
+  - CandidateOnlyAndNoMutationBoundariesReconfirmed
+  - RequiredV11UnitRecordFieldsIntegrated
+  - SchemaSentinelSeparatedFromRuntimePoolStates
+  - SharedRegistrySemanticNamesNormalized
+  - CardinalityContractCompleted
+  - StableFooterArtifactCorrected
+  validation_scope:
+  - YAMLParse
+  - TopLevelSectionPresence
+  - SharedRegistryIDUniqueness
+  - SharedRegistryPrefixConformance
+  - SubgroupParentReferenceIntegrity
+  - RecordDefinitionRegistryReferenceIntegrity
+  - CandidateStatusAndActivationBoundaryScan
+  - StableFooterMetadataConsistency
+  disposition: ReviewOnlySuccessorValidatedForStep2ClosureReview
+
+cross_field_validation_contract:
+  quality_subgroup_parent_must_equal_quality_group: true
+  static_review_only_zero_bindings_require_unresolved_pending_review_or_hold: true
+  activation_ready_requires_one_or_more_valid_named_provider_bindings: true
+  live_pool_requires_one_or_more_valid_named_provider_bindings: true
+  live_pool_requires_one_or_more_separately_authorized_access_channels: true
+  unresolved_never_satisfies_live_binding_or_access: true
+  canonical_pool_owner_must_remain_distinctly_addressable: true
+  controller_and_settlement_host_must_remain_distinctly_addressable: true
+  pool_capacity_access_and_recovery_are_independent_axes: true
+  no_mutually_exclusive_single_pool_state_field: true
+  non_card_scope_must_not_create_recruitable_unit_record: true
+  mercenary_scope_requires_contract_provider_and_source_binding: true
+  military_order_scope_requires_order_provider_or_explicit_external_authority: true
+  naval_combat_scope_requires_combat_card_evidence: true
+  transport_capacity_alone_must_not_create_combat_card: true
+  opening_status_does_not_authorize_opening_state_mutation: true
+  candidate_registry_status_does_not_authorize_runtime_use: true
+  unresolved_token_must_not_satisfy_live_binding_requirement: true
+  same_overlap_group_must_not_be_counted_twice: true
+  survivor_persistence_must_not_reopen_new_recruitment: true
+  candidate_registry_entries_must_not_be_treated_as_confirmed_runtime_bindings: true
+  all_mutation_and_activation_flags_must_remain_false: true
+  conditional_assertions:
+  - id: StaticReviewOnlyZeroBindingGate
+    when: lifecycle_stage == StaticReviewOnly AND provider.named_provider_binding_ids.count == 0
+    require: provider.binding_resolution_status IN [Unresolved, PendingReview, HeldFromActivation]
+    forbid: runtime_or_opening_activation
+  - id: ActivationReadyBindingGate
+    when: lifecycle_stage == ActivationReady
+    require: provider.named_provider_binding_ids.count >= 1 AND every_binding_is_valid
+    require_all_bindings: source_status == ConfirmedStaticCandidate
+    require_all_access: at_least_one_named_binding.access_channel_ids.count >= 1 AND at_least_one_named_binding.access_channel_authorization_status == Authorized
+    forbid: unresolved_binding_or_candidate_registry_entry_as_runtime_confirmation
+  - id: LivePoolBindingAndAccessGate
+    when: record_type == finite_recruitment_pool_record AND lifecycle_stage == LivePool
+    require: named_provider_binding_ids.count >= 1 AND every_binding_is_valid
+    require_all_access: access_channel_ids.count >= 1 AND access_channel_authorization_status == Authorized
+    forbid: Unresolved
+  - id: NonCardScopeGate
+    when: applicability_scope_id IN non_card_scopes
+    require: no_recruitable_unit_family_record
+  - id: MercenarySourceGate
+    when: applicability_scope_id == APS.MercenaryUnitFamily
+    require: RPC.ContractMercenary IN provider.primary_class_ids OR provider.secondary_class_ids
+    require_all_bindings: named_source_ref_is_resolved AND contract_source_evidence_exists
+    require_all_access: ACS.MercenaryContract_is_authorized
+  - id: MilitaryOrderProviderGate
+    when: applicability_scope_id == APS.MilitaryOrderUnitFamily
+    require: RPC.MilitaryOrder IN provider.primary_class_ids OR provider.secondary_class_ids OR explicit_external_authority_ref_exists
+  - id: NavalCombatCardEvidenceGate
+    when: applicability_scope_id == APS.RecruitableNavalCombatUnitFamily
+    require: battle.combat_card_evidence_refs.count >= 1
+  - id: TransportOnlyGate
+    when: applicability_scope_id == APS.TransportCapacityWithoutCombatCard
+    require: no_recruitable_unit_family_record AND no_combat_card
+  - id: ProviderOwnershipSeparationGate
+    when: every_named_provider_binding
+    require: provider_source_ref AND canonical_pool_owner_ref_are_separately_addressable
+    require_all_bindings: controller_ref AND settlement_host_ref_remain_separately_addressable_even_if_same_entity
+  - id: NoDoubleCountingGate
+    when: pools_share_reserved_people_horses_equipment_leaders_or_crews
+    require: shared_inputs_debited_once_across_overlap_groups
+  - id: SurvivorPersistenceGate
+    when: new_recruitment_is_closed
+    require: survivor_persistence_may_continue
+    forbid: survivor_persistence_reopens_new_recruitment
+  - id: CandidateRegistryGate
+    when: shared_registry_entry.adoption_status == Candidate
+    forbid: candidate_entry_treated_as_confirmed_runtime_binding
+  - id: NonactivationGate
+    when: every_schema_record
+    require: all_seven_authorization_flags == false
+
+machine_validation_contract:
+  yaml:
+    parser: YAML
+    duplicate_mapping_keys: Reject
+    empty_string_values: Reject
+  required_top_level_sections:
+  - schema_document
+  - schema_contract
+  - identifier_contract
+  - unknown_and_null_policy
+  - cardinality_contract
+  - record_lifecycle_contract
+  - applicability_contract
+  - shared_value_registry
+  - schema_sentinels
+  - pool_state_registry_migration
+  - pool_state_combination_examples
+  - record_definitions
+  - double_check_and_refinement
+  - cross_field_validation_contract
+  - machine_validation_contract
+  - validation_rules
+  - extension_governance
+  - versioning_and_migration
+  - player_visualization_contract
+  - static_examples
+  - step2_handoff
+  - stable_footer
+  required_record_definitions:
+  - military_unit_recruitment_classification_record
+  - named_provider_binding_record
+  - finite_recruitment_pool_record
+  - visualization_relationship_record
+  - realm_military_classification_map
+  required_nested_objects:
+    military_unit_recruitment_classification_record:
+    - quality
+    - provider
+    - development
+    - pool
+    - era
+    - battle
+    - implementation
+    named_provider_binding_record:
+    - provider_class_ids
+    - access_channel_ids
+    - development_state_ids
+    finite_recruitment_pool_record:
+    - named_provider_binding_ids
+    - access_channel_ids
+    - capacity_depth_id
+    - recruitment_access_state_id
+  required_nested_fields:
+    military_unit_recruitment_classification_record:
+    - record_kind
+    - lifecycle_stage
+    - record_id
+    - unit_family_id
+    - applicability_scope_id
+    - quality.group_id
+    - quality.subgroup_id
+    - provider.primary_class_ids
+    - provider.binding_resolution_status
+    - provider.named_provider_binding_ids
+    - development.minimum_state_ids
+    - pool.class_id
+    - pool.capacity_depth_id
+    - pool.recruitment_access_state_id
+    - pool.overlap_group_ids
+    - era.opening_status_id
+    - era.public_era_id
+    - era.emergence_mode_id
+    - battle.unit_type_id
+    - battle.primary_role_id
+    - implementation.registry_mutation_authorized
+    - implementation.opening_state_mutation_authorized
+    - implementation.payload_authorized
+    - implementation.schema_activation_authorized
+    - implementation.importer_authorized
+    - implementation.runtime_mutation_authorized
+    - implementation.unreal_mutation_authorized
+    named_provider_binding_record:
+    - named_source_ref
+    - canonical_pool_owner_ref
+    - source_status
+    - access_channel_authorization_status
+    finite_recruitment_pool_record:
+    - lifecycle_stage
+    - canonical_owner_ref
+    - named_provider_binding_ids
+    - access_channel_ids
+    - access_channel_authorization_status
+    - capacity_depth_id
+    - recruitment_access_state_id
+    - new_recruitment_rule
+    - replacement_rule
+    - recovery_rule
+    - closure_rule
+    - reopening_rule
+    - survivor_persistence_rule
+  validation_requirements:
+  - shared_registry_identifier_uniqueness
+  - registry_prefix_conformance
+  - registry_reference_integrity
+  - quality_subgroup_parent_consistency
+  - minimum_array_cardinalities
+  - static_activation_ready_and_live_binding_lifecycle_rules
+  - provider_pool_owner_controller_and_settlement_host_separation
+  - non_card_scopes_do_not_create_recruitable_unit_records
+  - mercenary_contract_provider_and_source_binding
+  - military_order_provider
+  - naval_combat_card_evidence
+  - transport_only_capacity_does_not_create_combat_card
+  - same_input_and_overlap_double_counting_prohibition
+  - survivor_persistence_does_not_reopen_recruitment
+  - candidate_registry_entries_not_confirmed_runtime_bindings
+  - all_mutation_and_activation_flags_false
+  authorization_flags:
+  - field: registry_mutation_authorized
+    required_value: false
+  - field: opening_state_mutation_authorized
+    required_value: false
+  - field: schema_activation_authorized
+    required_value: false
+  - field: payload_authorized
+    required_value: false
+  - field: importer_authorized
+    required_value: false
+  - field: runtime_mutation_authorized
+    required_value: false
+  - field: unreal_mutation_authorized
+    required_value: false
+  conditional_assertions_are_explicit: true
+
+validation_rules:
+  BLOCKER:
+  - MissingRequiredQualityProviderDevelopmentPoolEraOrBattleField
+  - UnknownSharedIDOrDuplicateSharedID
+  - SubgroupParentMismatch
+  - InvalidCardinalityOrEmptyRequiredString
+  - ProviderPoolOwnerControllerConflatedWithoutExplicitSameRecordEvidence
+  - LivePoolWithoutNamedProviderAndAuthorizedAccess
+  - ActivationReadyWithoutNamedProviderOrAuthorizedAccess
+  - SameReservedPersonHorseEquipmentLeaderOrCrewDoubleCounted
+  - BuildingResearchCalendarOrQualifierAloneCreatesCompleteUnit
+  - NonRecruitableCapabilityForcedIntoUnitCard
+  - RuntimeOrOpeningActivationWithoutSeparateAuthorization
+  - LivePoolCreatedWithoutAuthorizedAccessChannel
+  - CandidateRegistryEntryUsedAsConfirmedRuntimeBinding
+  - NonCardScopeCreatesRecruitableUnitRecord
+  - StaticReviewOnlyHasZeroBindingsWithoutUnresolvedReviewOrActivationHold
+  - PoolCapacityAccessAndRecoveryAxesConflated
+  ERROR:
+  - PoolMissingClosureRecoveryReplacementOrSurvivorPersistence
+  - EmergenceMissingQualificationPath
+  - RoleAndQualityCollapsed
+  - MissingOverlapGroup
+  - UnresolvedUsedAsAuthorizedLiveBinding
+  - InvalidRegistryReference
+  - InvalidEraOrAccessRelationship
+  - StableFooterMetadataMismatch
+  - InvalidPoolStateAxisReferenceOrMissingDisposition
+  - MercenaryScopeMissingContractProviderOrSourceBinding
+  WARNING:
+  - NewSubgroupUsedByOnlyOneUnresolvedRecord
+  - HighQualitySaturationWithoutProviderCapacity
+  - ArbitraryGlobalCapInsteadOfSourceDepth
+  - ProviderClassMistakenForSettlementLevel
+  - MissingPlayerFacingBlocker
+  REVIEW:
+  - FactionAliasLocalization
+  - CrossCulturalSubgroupSplitOrMerge
+  - VisualComplexity
+  - HistoricalSourceAndEquipmentChronology
+  - OwnerAcceptance
+extension_governance:
+  shared_registry_owner: SharedMilitaryStandardsPortfolio
+  realm_alias_owner: OwningRealmMapping
+  major_group_addition_gate: PilotFailurePlusOwnerApprovalPlusMigrationPlan
+  subgroup_addition_gate: DemonstratedImplementationDifferenceNotRepresentableByExistingFields
+  provider_class_addition_gate: DistinctSourceStructureNotLocalTerminology
+  qualifier_addition_gate: ReusableEligibilityOrSupportConditionNotCompleteUnitRecipe
+  pool_class_addition_gate: DistinctFiniteAccountingBehavior
+  deprecation_requires: ReplacementOrTerminalDisposition
+  runtime_promotion_requires: SeparateOwnerGate
+versioning_and_migration:
+  major_change:
+  - RedefineMajorQualityGroup
+  - ChangeSemanticIDMeaning
+  - BreakingCardinalityChange
+  - CollapseProviderOwnerAccessSeparation
+  minor_change:
+  - AddSubgroup
+  - AddProviderClass
+  - AddQualifier
+  - AddPoolClass
+  - AddOptionalField
+  patch_change:
+  - Typo
+  - Alias
+  - NonNormativeExample
+  migration_receipt_required:
+  - source_version
+  - target_version
+  - id_replacement_map
+  - affected_realm_maps
+  - affected_unit_records
+  - rollback_disposition
+  - static_validation_evidence
+  - owner_approval_before_runtime_promotion
+  backward_compatibility_default: Additive
+player_visualization_contract:
+  views:
+    QualityView:
+    - FourMajorGroups
+    - Subgroups
+    - CurrentUnitFamilies
+    - PersistentEarlierOptions
+    ProviderView:
+    - ActualProviders
+    - SharedCapacity
+    - AccessAndClosure
+    - Overlap
+    DevelopmentView:
+    - ProviderCapacity
+    - Persistence
+    - Maturation
+    - Progression
+    - Convergence
+    - Emergence
+    - Retirement
+  uses_same_records: true
+  no_hand_authored_parallel_truth: true
+  quality_ordinal_is_sorting_only: true
+static_examples:
+- example_id: Example.PracticedTownInfantry
+  synthetic_design_example: true
+  lifecycle_stage: StaticReviewOnly
+  binding_resolution_status: PendingReview
+  named_provider_binding_ids: []
+  classification:
+    quality_group_id: MQG.PracticedAndMilitia
+    quality_subgroup_id: MQS.TownMilitia
+    provider_class_ids:
+    - RPC.TownBurgh
+    development_state_ids:
+    - PDS.Organized
+    pool_class_id: RPCS.CivicFinite
+    qualifier_ids:
+    - RQC.GuildSupport
+  unit_created: false
+- example_id: Example.MaintainedCivicMissile
+  synthetic_design_example: true
+  lifecycle_stage: StaticReviewOnly
+  binding_resolution_status: PendingReview
+  named_provider_binding_ids: []
+  classification:
+    quality_group_id: MQG.TrainedAndMaintained
+    quality_subgroup_id: MQS.CivicTrained
+    provider_class_ids:
+    - RPC.TownBurgh
+    development_state_ids:
+    - PDS.Maintained
+    pool_class_id: RPCS.CivicFinite
+    qualifier_ids:
+    - RQC.GuildSupport
+    - RQC.CrossbowEquipmentAccess
+    - RQC.TradeNetwork
+  unit_created: false
+- example_id: Example.RareGreatWeapon
+  synthetic_design_example: true
+  lifecycle_stage: StaticReviewOnly
+  binding_resolution_status: PendingReview
+  named_provider_binding_ids: []
+  classification:
+    quality_group_id: MQG.SelectedAndElite
+    quality_subgroup_id: MQS.RareSpecialist
+    provider_class_ids:
+    - RPC.MagnateHousehold
+    - RPC.RegionalDistrict
+    development_state_ids:
+    - PDS.Institutional
+    pool_class_id: RPCS.SpecialistRare
+    qualifier_ids:
+    - RQC.VeteranCadre
+    - RQC.RegionalWeaponTradition
+    - RQC.SpecialistLeaderCadre
+  unit_created: false
+step2_handoff:
+  step1_standard: CompleteReviewOnly
+  step2_static_schema: DoubleCheckedRefinedValidatedForOwnerReview
+  step3_unit_authoring_integration: CompleteForOwnerReviewAndStep4AuthorizationDecision
+  step3_authorized: true
+  step3_execution_complete: true
+  step4_cross_faction_pilot: UnauthorizedPendingOwnerGate
+  step5_scotland_map: Unauthorized
+  step6_scotland_authority_sync: Pending
+  step7_player_visualization: Pending
+  step8_faction_intake: Pending
+  step9_pilot_audit: Pending
+  live_schema_adoption: false
+  v1_1_refinement_review: CompleteBoundedConsistencyCorrection
+  next_eligible_gate: OwnerDecisionOnStep4CrossFactionPilot
+stable_footer:
+  artifact: Military_Unit_Recruitment_Classification_Static_Data_Schema_V1_1_Double_Checked_Refined.yaml
+  version: 1.1.0
+  status: DoubleCheckedRefinedReviewOnlyStaticDataSchemaCandidate
+  historical_validation: NotPerformed
+  cross_faction_pilot_validation: NotPerformed
+  unreal_implementation_validation: NotPerformed
+  owner_acceptance: Pending
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  schema_activation_authorized: false
+  payload_authorized: false
+  importer_authorized: false
+  runtime_mutation_authorized: false
+  unreal_mutation_authorized: false
+  static_schema_validation: Passed
+  source_completeness_check: Passed
+  removal_ledger_status: NoSubstantiveRemovals

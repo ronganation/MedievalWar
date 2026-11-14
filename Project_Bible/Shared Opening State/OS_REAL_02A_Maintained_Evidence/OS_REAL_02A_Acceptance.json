@@ -1,0 +1,15 @@
+{
+  "task_id": "OS-REAL-02A",
+  "status": "AcceptedWithinDemonstratedNonMutatingProjectionScope",
+  "build": {"result": "Succeeded", "execution_seconds": 28.58},
+  "focused_projection": {"passed": 2, "failed": 0, "skipped": 0},
+  "norway_loader": {"passed": 1, "failed": 0, "skipped": 0},
+  "isolated_norway": {"passed": 156, "failed": 0, "skipped": 0},
+  "owner_adapters_committed": false,
+  "runtime_envelope_eligible": false,
+  "apply_called": false,
+  "save_written": false,
+  "registry_mutated": false,
+  "realm_payload_applied": false,
+  "theater_activated": false
+}

@@ -1,0 +1,8 @@
+Order,AuthorityFile,Role,FingerprintRequirement,MissingOrChangedDisposition
+1,France_Territory_Settlements_Geography_and_Climate_Authority_V1.md,Territory and settlement authority,SHA256 before implementation,STOP owner review
+2,France_Communities_Culture_Population_and_Institutions_Authority_V1.md,Community and population authority,SHA256 before implementation,STOP owner review
+3,France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md,Routes and access authority,SHA256 before implementation,STOP owner review
+4,France_Economy_Property_Revenue_and_Treasury_Authority_V1.md,Economy and treasury authority,SHA256 before implementation,STOP owner review
+5,France_Opening_State_1062_V3_1_Current_Authority_Refinement_FULL.md,Read-only opening boundary,SHA256 before implementation,STOP owner review
+6,France_ID_Registry_V3_Developed_Realm_Parity_Candidate_Reconciliation.md,Review-only identifier boundary,SHA256 before implementation,STOP owner review
+7,FRANCE_IMP_05A_PACKAGE_MANIFEST.json,Predecessor package gate,SHA256 before implementation,STOP owner review

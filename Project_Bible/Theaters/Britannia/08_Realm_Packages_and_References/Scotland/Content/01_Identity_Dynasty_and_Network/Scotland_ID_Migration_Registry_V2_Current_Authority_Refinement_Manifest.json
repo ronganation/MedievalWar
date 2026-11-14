@@ -1,0 +1,106 @@
+{
+  "document_id": "manifest.scotland.id-migration-registry.v2.current-authority-refinement",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Scotland_ID_Migration_Map.md",
+    "bytes": 3913,
+    "physical_lines": 83,
+    "sha256": "036ada6fe727347faff9e3cebb29c9431cd64c31f6f19060039df94eb71a8760",
+    "complete_source_verified": true,
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Scotland_ID_Migration_Registry_V2_Current_Authority_Refinement.md",
+    "bytes": 57448,
+    "physical_lines": 1696,
+    "sha256": "B10F6264907D89466AC12AE0C3F39FA119B427BFFDE3587F147AE9359742E7F3"
+  },
+  "preservation": {
+    "source_fidelity_result": "pass",
+    "literal_source_prefix": true,
+    "protected_headings": [
+      "# Scotland ID Migration Map",
+      "## Registry Rule",
+      "## Canonical Person IDs",
+      "## Non-Person Canonical IDs",
+      "## Direct Alias Map",
+      "## Prohibited IDs",
+      "## Cross-Realm Rule",
+      "## Deterministic Migration",
+      "## Status"
+    ],
+    "protected_source_ids": [
+      "Bishop_of_St_Andrews",
+      "Character.Scotland.Bishop_of_St_Andrews",
+      "Character.Scotland.Donald_III",
+      "Character.Scotland.Duncan_II",
+      "Character.Scotland.Fothad_II",
+      "Character.Scotland.Gille_Coemgain_of_Moray",
+      "Character.Scotland.Ingibjorg_Finnsdottir",
+      "Character.Scotland.Mael_Muire_mac_Donnchada",
+      "Character.Scotland.Mael_Snechtai_mac_Lulaich",
+      "Character.Scotland.Malcolm_III",
+      "Donald_III",
+      "Duncan_II_of_Scotland",
+      "Dynasty.Scotland.House_Dunkeld",
+      "Dynasty.Scotland.House_Moray",
+      "Fothach",
+      "Fothad_II",
+      "Fothud",
+      "Gille_Coemgain_of_Moray",
+      "Ingibjorg_Finnsdottir",
+      "Institution.Scotland.St_Andrews_Ecclesiastical_Community",
+      "Mael_Muire_mac_Donnchada",
+      "Mael_Snechtai_mac_Lulaich",
+      "Malcolm_III",
+      "Office.Scotland.Bishop_St_Andrews",
+      "Scenario.Scotland.Opening_1062_01_01",
+      "UnderageRecord.Scotland.Duncan_II.Opening_1062"
+    ],
+    "removed_content": []
+  },
+  "additions": {
+    "current_person_registry_entries": 8,
+    "supported_opening_person_interfaces_without_replacement": 7,
+    "quarantined_person_ids": [
+      "Character.Scotland.Gille_Coemgain_of_Moray"
+    ],
+    "historical_person_ids": [
+      "HistoricalPerson.Scotland.Gille_Coemgain_mac_Mael_Brigte"
+    ],
+    "role_template_ids": [
+      "RoleTemplate.Scotland.MorayRegionalServiceOrganizer"
+    ],
+    "network_edge_ids": 4,
+    "network_omission_ids": 7,
+    "emergence_pathway_candidates": 14,
+    "uncertainty_candidates": 16,
+    "migration_phases": 9,
+    "Gille_replacement_created": false,
+    "character_network_current_authority": "Scotland_Character_Network.md",
+    "character_network_gille_reconciliation_design_scope": true,
+    "network_relationship_dimensions_initialized": 0,
+    "Gille_active_row_corrected": true,
+    "Gille_unqualified_direct_alias_removed": true,
+    "Gille_legacy_read_only_lookup_preserved": true,
+    "Gille_new_canonical_write_allowed": false,
+    "Gille_new_save_output_allowed": false,
+    "Gille_migration_target_allowed": false,
+    "repository_audit_completed": true,
+    "Opening_State_Gille_reconciliation_design_scope": true,
+    "House_Moray_Gille_reconciliation_design_scope": true
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "repository_mutation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "save_rewrite": false,
+    "Opening_State_activation": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Scotland_ID_Migration_Registry_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

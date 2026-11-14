@@ -1,0 +1,33 @@
+{
+  "document": "Holland_Character_Opening_State_Implementation_Register_V1_1_Mature_Double_Checked.md",
+  "validation_scope": "Static content, literal completeness, and internal consistency only",
+  "result": "Pass",
+  "checks": {
+    "filename": "Holland_Character_Opening_State_Implementation_Register_V1_1_Mature_Double_Checked.md",
+    "version": "1.1.0",
+    "bytes": 44250,
+    "lines": 1355,
+    "sha256": "a2b5a9fdb8dd885dcd97c9b22e95f08c67b1b1282c1ca72597a6bd38816596f7",
+    "fences_balanced": true,
+    "escaped_underscores": 0,
+    "opening_candidates": 4,
+    "underage_candidates": 3,
+    "adult_candidates": 1,
+    "basis_only_edges": 6,
+    "relationship_dimensions_zero": true,
+    "deferred_internal_directions": 6,
+    "Robert_omissions": 6,
+    "Robert_child_origin_noncandidates": 2,
+    "batch_count": 6,
+    "substantive_removals": 0,
+    "result": "Pass"
+  },
+  "compile_validation": "NotPerformed",
+  "runtime_validation": "NotPerformed",
+  "save_load_validation": "NotPerformed",
+  "migration_validation": "NotPerformed",
+  "replay_validation": "NotPerformed",
+  "performance_validation": "NotPerformed",
+  "unreal_validation": "NotPerformed",
+  "owner_review_required": true
+}

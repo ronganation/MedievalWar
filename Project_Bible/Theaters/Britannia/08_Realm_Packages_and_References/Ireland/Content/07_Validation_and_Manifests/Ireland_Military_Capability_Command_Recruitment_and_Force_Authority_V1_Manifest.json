@@ -1,0 +1,20 @@
+{
+  "manifest_version": "1.0",
+  "document_type": "RealmMilitaryCapabilityCommandRecruitmentForceAuthority",
+  "file": "Ireland_Military_Capability_Command_Recruitment_and_Force_Authority_V1.md",
+  "bytes": 40754,
+  "lines": 942,
+  "sha256": "f9477c6f6945dc1ff9fded169f7bfe00519f674181a215d6b47057af73a84ad2",
+  "authority_origin": "SourceFirstSpecialistGapDevelopment",
+  "gap_decision_source": "Ireland_Specialist_Authority_Inventory_and_Gap_Decision_V1.md",
+  "shared_military_authority": "Military_Content_Roster_Recruitment_and_Development_Authority_V1.md",
+  "strategic_integration_authority": "Military_Strategic_Decision_Inputs_V1.md",
+  "substantive_sections": 48,
+  "validation_cases": 50,
+  "opening_numeric_values_created": 0,
+  "source_authorities_modified": 0,
+  "records_activated": 0,
+  "static_check_file": "Ireland_Military_Capability_Command_Recruitment_and_Force_Authority_V1_Static_Check.json",
+  "static_check_sha256": "ca7f1621c65e123f3541c8e7b14ff71283cff68b8c5fb12206eacebbdd74a458",
+  "validation_scope": "content static checks only; no owner promotion, Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, battle, or payload validation"
+}

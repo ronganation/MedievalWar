@@ -1,0 +1,10 @@
+Surface,Dependency,RequiredState,MutationAuthorized
+CampaignInitialization,FRANCE-IMP-01C-R2,Accepted,false
+TransactionRecovery,FRANCE-IMP-02B,Accepted,false
+HistoricalReconciliation,France_Historical_Reconciliation_V3_Developed_Faction_Parity_Authority.md,ExactHashMatch,false
+HistoricalEmergence,France_Historical_Emergence_V2.1_Current_Authority_Correction.md,CurrentReadableHashLocked,false
+CharacterCreation,CharacterAndDynastyOwners,NoCreation,false
+Registry,ProjectRegistryOwner,NoMutation,false
+OpeningState,OpeningStateOwner,NoActivation,false
+Persistence,SaveAndMigrationOwners,NoWriteNoMigration,false
+Production,ProductionOwners,NoAuthority,false

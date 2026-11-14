@@ -1,0 +1,103 @@
+{
+  "registry_backup": "Aquitaine_ID_Registry_V1.pre_momentum_merge.md",
+  "primary_ids": {
+    "pressure.aquitaine.unfinished_union": {
+      "registry_total_occurrences": 3,
+      "typed_registry_occurrence": 1,
+      "momentum_occurrence": 2,
+      "opening_occurrence": 2
+    },
+    "pressure.aquitaine.succession_uncertainty": {
+      "registry_total_occurrences": 5,
+      "typed_registry_occurrence": 3,
+      "momentum_occurrence": 2,
+      "opening_occurrence": 3
+    },
+    "pressure.aquitaine.distant_crown": {
+      "registry_total_occurrences": 3,
+      "typed_registry_occurrence": 1,
+      "momentum_occurrence": 2,
+      "opening_occurrence": 2
+    },
+    "pressure.aquitaine.charente_garonne_corridor": {
+      "registry_total_occurrences": 3,
+      "typed_registry_occurrence": 1,
+      "momentum_occurrence": 2,
+      "opening_occurrence": 2
+    },
+    "pressure.aquitaine.atlantic_revenue_conversion": {
+      "registry_total_occurrences": 3,
+      "typed_registry_occurrence": 1,
+      "momentum_occurrence": 2,
+      "opening_occurrence": 3
+    },
+    "pressure.aquitaine.southern_road": {
+      "registry_total_occurrences": 3,
+      "typed_registry_occurrence": 1,
+      "momentum_occurrence": 2,
+      "opening_occurrence": 2
+    },
+    "pressure.aquitaine.angevin_watch": {
+      "registry_total_occurrences": 3,
+      "typed_registry_occurrence": 1,
+      "momentum_occurrence": 2,
+      "opening_occurrence": 2
+    },
+    "pressure.aquitaine.toulouse_balance": {
+      "registry_total_occurrences": 3,
+      "typed_registry_occurrence": 1,
+      "momentum_occurrence": 2,
+      "opening_occurrence": 2
+    }
+  },
+  "subpressure_ids": {
+    "pressure.aquitaine.marriage_continuity": {
+      "registry_total_occurrences": 5,
+      "typed_registry_occurrence": 2,
+      "momentum_occurrence": 2,
+      "opening_occurrence": 0
+    },
+    "pressure.aquitaine.collateral_uncertainty": {
+      "registry_total_occurrences": 5,
+      "typed_registry_occurrence": 2,
+      "momentum_occurrence": 2,
+      "opening_occurrence": 0
+    }
+  },
+  "typed_block_present": true,
+  "momentum_fences_balanced": true,
+  "registry_fences_balanced": true,
+  "opening_runtime_instance_lock": true,
+  "opening_has_no_active_momentum_state": true,
+  "external_collision_review": {
+    "pressure.aquitaine.unfinished_union": 0,
+    "pressure.aquitaine.succession_uncertainty": 0,
+    "pressure.aquitaine.distant_crown": 0,
+    "pressure.aquitaine.charente_garonne_corridor": 0,
+    "pressure.aquitaine.atlantic_revenue_conversion": 0,
+    "pressure.aquitaine.southern_road": 0,
+    "pressure.aquitaine.angevin_watch": 0,
+    "pressure.aquitaine.toulouse_balance": 0,
+    "pressure.aquitaine.marriage_continuity": 0,
+    "pressure.aquitaine.collateral_uncertainty": 0
+  },
+  "all_typed_once": true,
+  "all_defined_in_momentum": true,
+  "no_france_exact_collisions": true,
+  "static_pass": true,
+  "subpressure_parent_mapping_present": true,
+  "primary_list_entries": [
+    "pressure.aquitaine.unfinished_union",
+    "pressure.aquitaine.succession_uncertainty",
+    "pressure.aquitaine.distant_crown",
+    "pressure.aquitaine.charente_garonne_corridor",
+    "pressure.aquitaine.atlantic_revenue_conversion",
+    "pressure.aquitaine.southern_road",
+    "pressure.aquitaine.angevin_watch",
+    "pressure.aquitaine.toulouse_balance"
+  ],
+  "subpressure_list_entries": [
+    "pressure.aquitaine.marriage_continuity",
+    "pressure.aquitaine.collateral_uncertainty"
+  ]
+}

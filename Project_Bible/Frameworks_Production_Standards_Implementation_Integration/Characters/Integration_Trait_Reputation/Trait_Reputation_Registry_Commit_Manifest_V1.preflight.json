@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationRegistryCommitVerification",
+    "name": "Trait Reputation Registry Commit Verification V1",
+    "version": "1.0",
+    "status": "PassedRegistryCommitVerification_MigrationStillLocked",
+    "authority_class": "Registry Commit Verification"
+  },
+  "checks": {
+    "trait_record_count": 37,
+    "reputation_record_count": 9,
+    "total_record_count": 46,
+    "unique_canonical_ids": 46,
+    "unique_source_entry_ids": 46,
+    "mapping_count": 46,
+    "mapping_targets_equal_registry_ids": true,
+    "mapping_sources_equal_registry_provenance": true,
+    "alias_chains": 0,
+    "deprecated_ids": 0,
+    "quarantine_records": 0,
+    "previous_empty_snapshots_preserved": true,
+    "staging_snapshots_preserved": true,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "run": {
+    "mode": "RegistryCommitVerification",
+    "verdict": "Pass",
+    "registry_records_committed": 46,
+    "mappings_committed": 46,
+    "mappings_executed": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "validation": {
+    "registry_bijection_passed": true,
+    "mapping_bijection_passed": true,
+    "grammar_passed": true,
+    "owner_boundaries_passed": true,
+    "provenance_complete": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "determinism_validated": false
+  },
+  "smallest_useful_next_action": "Create a content and save migration dry-run contract using the committed registries and direct migration map. Inventory exact legacy Trait/Reputation readers and writes first; do not execute migration or create runtime state until compile, runtime, save, determinism, and rollback gates exist."
+}

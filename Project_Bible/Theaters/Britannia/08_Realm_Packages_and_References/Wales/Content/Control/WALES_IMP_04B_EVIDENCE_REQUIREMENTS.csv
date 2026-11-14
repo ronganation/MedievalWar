@@ -1,0 +1,14 @@
+EvidenceId,Requirement,FailureDisposition
+E01,04A receipt reports AssessmentCompleted,BlockBeforeMutation
+E02,04A decision equals WalesAuthorityBackedInformationIntelligenceSourceGapWithPrecedents,BlockBeforeMutation
+E03,All fourteen target paths absent,BlockBeforeMutation
+E04,All payload hashes match approved ledger,BlockBeforeMutation
+E05,All preserved source stems found,BlockBeforeMutation
+E06,UE 5.8 editor build succeeds,RejectAndRollback
+E07,Wales Information Intelligence discovers exactly 30 tests,RejectAndRollback
+E08,Accepted Wales regressions pass exact counts,RejectAndRollback
+E09,Scotland Information Intelligence exact discovery is recorded and all discovered tests pass,RejectAndRollback
+E10,Scotland Historical Emergence passes 24 of 24,RejectAndRollback
+E11,Scotland Preview passes 5 of 5,RejectAndRollback
+E12,All preserved source remains byte-identical,RejectAndRollback
+E13,Execution receipt retains all owner locks false,RejectAndRollback

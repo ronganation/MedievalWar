@@ -1,0 +1,14 @@
+{
+  "FileName": "Shared_Save_Owner_Decision_and_Current_Source_Validation_Packet_V1.md",
+  "SHA256": "394213E4EA85D4374A344B78E04F8D3BAD43D8DC5F1B396FE2213A6EFB09611E",
+  "Bytes": 8675,
+  "Lines": 280,
+  "Checks": {
+    "candidate": true,
+    "schema_conflict": true,
+    "no_claim": true,
+    "fences": true,
+    "escaped": true,
+    "footer": true
+  }
+}

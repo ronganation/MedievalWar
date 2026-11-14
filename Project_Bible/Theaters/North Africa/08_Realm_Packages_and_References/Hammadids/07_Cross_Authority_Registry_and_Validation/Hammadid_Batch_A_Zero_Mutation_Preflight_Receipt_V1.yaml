@@ -1,0 +1,125 @@
+receipt_version: 1.0.0
+receipt_status: PartialBatchAArtifactGenerationReceipt
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+receipt_scope:
+  - BatchAEvidenceFilesCreatedInCurrentConversation
+  - SourcePackageNonmutationBoundary
+  - Folder07VisualEvidenceReconciliation
+  - EnterpriseSearchAndOpenEvidenceUse
+source_package_root_candidate: Project_Bible/Theaters/North Africa/08_Realm_Packages_and_References/Hammadids
+source_package_direct_access: false
+source_package_recursive_scan_executed: false
+source_package_pre_scan_hash_set_captured: false
+source_package_post_scan_hash_set_captured: false
+source_package_zero_mutation_cryptographically_proven: false
+reason_full_zero_mutation_not_proven: CompleteLocalHammadidPackageWasNotMountedForDirectReadAndBeforeAfterHashComparison
+batch_a_files_created:
+  - file_name: Hammadid_Recursive_File_Manifest_V1.csv
+    role: Folder07PartialCSVManifest
+    status: CreatedAndValidated
+    record_count: 10
+    sha256: c2a3a73eb6806480e743c00bdfcad5d64824ad9e1e4b0220465f84633c5e0d93
+  - file_name: Hammadid_Recursive_File_Manifest_V1.yaml
+    role: Folder07PartialYAMLManifest
+    status: CreatedAndValidated
+    record_count: 10
+    sha256: 46ef2e07dd46c22d5553b0a4a058ce2a367312ee740f2f6d4fc2fd83619f7489
+  - file_name: Hammadid_SHA256_and_Duplicate_Hash_Ledger_V1.yaml
+    role: PartialHashAndDuplicateLedger
+    status: CreatedAndValidated
+    captured_hash_records: 2
+    unhashed_records: 8
+    sha256: e10d0ec3f7069c806f1f01f0577d42af346357a06cd042c1da2fb45df6cccbae
+artifact_generation_environment:
+  output_scope: CopilotWorkingDirectoryOutsideUserHammadidPackage
+  local_user_source_paths_mounted: false
+  user_source_files_opened_for_write: 0
+  user_source_files_modified: 0
+  user_source_files_created: 0
+  user_source_files_deleted: 0
+  user_source_files_moved: 0
+  user_source_files_renamed: 0
+  user_source_file_permissions_changed: 0
+  registry_mutations: 0
+  opening_state_mutations: 0
+  payloads_created: 0
+  importers_created_or_run: 0
+  runtime_mutations: 0
+  unreal_mutations: 0
+visual_evidence_receipt:
+  folder_observed: 07_Cross_Authority_Registry_and_Validation
+  visible_file_rows: 10
+  screenshot_used_read_only: true
+  screenshot_modified: false
+  package_wide_count_inferred: false
+enterprise_evidence_receipt:
+  search_and_open_operations: ReadOnly
+  enterprise_files_modified: 0
+  enterprise_files_deleted: 0
+  enterprise_files_moved: 0
+  enterprise_files_renamed: 0
+  raw_bytes_available_for_all_records: false
+integrity_checks:
+  csv_record_count_equals_10: PASS
+  yaml_record_count_equals_10: PASS
+  csv_all_records_scoped_to_folder07: PASS
+  yaml_package_wide_count_claimed_false: PASS
+  yaml_recursive_scan_executed_false: PASS
+  hash_ledger_captured_hash_count_equals_2: PASS
+  hash_ledger_unhashed_record_count_equals_8: PASS
+  folder07_duplicate_free_claimed_false: PASS
+  package_duplicate_free_claimed_false: PASS
+  unsupported_registry_or_opening_promotion_claims: 0
+mutation_claim_boundary:
+  proven:
+    - NoUserSourcePackageMutationWasPerformedByThisConversation
+    - BatchAEvidenceArtifactsWereCreatedOutsideTheUserSourcePackage
+    - NoRegistryOpeningStatePayloadImporterRuntimeOrUnrealMutationWasPerformed
+  not_proven:
+    - CompleteSourcePackageUnchangedAcrossAnExecutedRecursiveScan
+    - ExactSourceFileCountBeforeAndAfter
+    - AggregateSourcePathAndContentHashBeforeAndAfter
+    - FullPhysicalDuplicateState
+    - FullPackageReadabilityAndEncodingState
+result:
+  artifact_generation_zero_source_mutation: PASS
+  cryptographic_package_zero_mutation: NOT_RUN
+  recursive_batch_a_completion: PARTIAL
+  promotion_effect: NONE
+  owner_action_executed: NONE
+limitations:
+  - ReceiptAppliesToCurrentConversationArtifactGenerationOnly
+  - ReceiptDoesNotReplaceARealBeforeAndAfterPackageHashReceipt
+  - EightFolder07ManifestRecordsRemainWithoutRawByteHashes
+  - Folders00Through06WereNotPhysicallyInventoriedByThisBatch
+  - HiddenNestedUnreadableAndUnexpectedPackageItemsWereNotAssessed
+rollback:
+  source_package_rollback_required: false
+  reason: NoUserSourcePackageMutationPerformed
+  generated_artifact_rollback: RemoveOnlyTheDownloadedBatchAEvidenceFilesIfOwnerRejectsThem
+  source_authorities_to_restore: []
+owner_gate:
+  required_owner: PackageControlAndValidation
+  decision_state: Pending
+  permitted_decisions:
+    - AcceptAsPartialBatchAEvidence
+    - HoldPendingDirectPhysicalEvidence
+    - SupersedeWithExecutedRecursiveManifestAndHashReceipt
+next_required_evidence:
+  - ExactRecursiveManifestFromCompleteHammadidRoot
+  - SHA256ForEveryPhysicalFile
+  - BeforeAndAfterSourcePathAndContentHashSets
+  - DuplicateHashGroupsAcrossAllEightFolders
+  - FinalCryptographicZeroMutationReceipt
+stable_footer:
+  stable_document_id: HMD_BATCH_A_ZERO_MUTATION_PREFLIGHT_RECEIPT
+  version: 1.0.0
+  status: PartialBatchAArtifactGenerationReceiptOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  payload_authorized: false
+  importer_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false

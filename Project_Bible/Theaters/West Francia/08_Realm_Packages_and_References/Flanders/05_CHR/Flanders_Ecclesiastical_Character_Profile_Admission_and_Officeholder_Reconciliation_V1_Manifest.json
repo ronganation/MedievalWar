@@ -1,0 +1,37 @@
+{
+  "artifact": "Flanders_Ecclesiastical_Character_Profile_Admission_and_Officeholder_Reconciliation_V1.md",
+  "version": "1.0.0",
+  "sha256": "4ced7a0fd1e611fbd6a12a3b9a20dbbedeff37c3df8616f8cbf66ab9159c3b8f",
+  "bytes": 25137,
+  "lines": 684,
+  "authority_type": "NonMutatingProfileAdmissionOfficeholderReconciliationAndSequencing",
+  "principal_named_profiles_admitted": 6,
+  "new_named_ecclesiastical_officeholders_admitted": 0,
+  "role_based_office_families_retained": true,
+  "unknown_names_invented": 0,
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "stable_footer_count": 1,
+    "principal_admissions": 6,
+    "new_named_ecclesiastical_admissions": 0,
+    "unknown_names_invented": 0,
+    "Baldwin_first": true,
+    "nonmutation": true
+  },
+  "all_critical_checks_pass": true,
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "PersonActivations": 0,
+    "OfficeholderActivations": 0,
+    "Relationships": 0,
+    "Schema": 0,
+    "Save": 0,
+    "Unreal": 0,
+    "Runtime": 0
+  },
+  "next_file": "Baldwin_V_of_Flanders_V1_Character_Profile_Authority.md"
+}

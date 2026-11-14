@@ -1,0 +1,9 @@
+Dependency,RequiredState,PermittedUse,ForbiddenUse,FailureDisposition
+FRANCE-IMP-05A,Owner-accepted predecessor,Read-only governance interface dependency,Modification or bypass,STOP
+France territory authority,Fingerprint locked,Review provenance and reference validation,Coordinate or ownership invention,STOP
+France communities authority,Fingerprint locked,Review provenance and band references,Population total or identity invention,STOP
+France routes authority,Fingerprint locked,Review provenance and access references,Route activation or travel calculation,STOP
+France economy authority,Fingerprint locked,Review provenance and economic references,Treasury revenue property or development payload,STOP
+France candidate registry,Unresolved states preserved,Candidate reference validation,Canonical promotion,STOP
+France Opening State,Read-only boundary,Compatibility validation,Mutation activation or seed authoring,STOP
+Shared frameworks,Discovered before mutation,Regression reference,Undocumented ownership assumption,STOP

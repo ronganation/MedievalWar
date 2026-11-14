@@ -1,0 +1,2517 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "ArtifactType": "FranceRegistryV3CandidateManifestAndCollisionPreflight",
+  "Name": "France Registry V3 Candidate Manifest and Collision Preflight V1",
+  "Version": "1.0.0",
+  "GeneratedDate": "2026-09-02",
+  "ScenarioId": "mw.scenario.grand_campaign.1062",
+  "ScenarioOpening": "1062-01-01",
+  "OpeningCampaignSeason": "Winter",
+  "OwningTheater": "West Francia",
+  "ProjectBible": "2.4",
+  "DesignExpansionChecklist": "3.7",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "SourceAuthorities": [
+    "France_ID_Registry_V2_Current_Authority_Modernization.md",
+    "France_ID_Registry_V3_Developed_Realm_Parity_Candidate_Reconciliation.md",
+    "France_Realm_Package_Current_Authority_Index_V1.md",
+    "France_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md"
+  ],
+  "ArtifactStatus": "CandidateOnlyStaticPreflightProjectWideScanIncomplete",
+  "AuthorityBoundary": {
+    "RegistryMutationAuthorized": false,
+    "MigrationExecutionAuthorized": false,
+    "OpeningStateMutationAuthorized": false,
+    "UnrealMutationAuthorized": false,
+    "RuntimeMutationAuthorized": false,
+    "RealPayloadImportAuthorized": false,
+    "ThisArtifactIsProjectCanonicalRegistry": false
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "UniversalSevenMonthTurn": "Superseded"
+  },
+  "InventoryScope": {
+    "PhysicalSortedPackageHashInventoryComplete": false,
+    "ProjectRegistryScanComplete": false,
+    "ExternalOwnerRegistryScanComplete": false,
+    "UnrealIdSurfaceScanComplete": false,
+    "CandidateRecordsDerivedFromCurrentAuthorityAndV2Registry": true,
+    "AuthorityIndexSourcePathRoutingComplete": true
+  },
+  "CandidateRecords": [
+    {
+      "CandidateId": "realm.france",
+      "EntityType": "Realm",
+      "CanonicalLabel": "Kingdom of France",
+      "OwningRegistry": "ProjectRegistryOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ProposedLocalCanonicalRecord",
+      "DirectAliases": [
+        "realm.france.capetian",
+        "realm.franks.crown"
+      ],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "project_registry_owner_receipt",
+        "canonical_namespace_style"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "faction.france",
+      "EntityType": "Faction",
+      "CanonicalLabel": "Kingdom of France",
+      "OwningRegistry": "ProjectRegistryOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ProposedLocalCanonicalRecord",
+      "DirectAliases": [
+        "faction.capetian_france",
+        "faction.royal_french"
+      ],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "project_registry_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "dynasty.capet",
+      "EntityType": "Dynasty",
+      "CanonicalLabel": "House of Capet",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Dynasty_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/02_Characters_and_Dynasty/France_Dynasty_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ProposedLocalCanonicalRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "project_registry_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.philip_i_france",
+      "EntityType": "Person",
+      "CanonicalLabel": "Philip I of France",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/02_Characters_and_Dynasty/France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ProposedLocalCanonicalRecord",
+      "DirectAliases": [
+        "character.france.philip_i",
+        "person.philip_france",
+        "person.philip_i_franks"
+      ],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "person_id_style"
+      ],
+      "OpeningStateEligibility": "CandidatePendingOpeningStateOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.anne_kiev",
+      "EntityType": "Person",
+      "CanonicalLabel": "Anne of Kiev",
+      "OwningRegistry": "FranceContextWithExternalRurikInterface",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/02_Characters_and_Dynasty/France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ProposedLocalCanonicalRecord",
+      "DirectAliases": [
+        "character.france.anne_kiev",
+        "person.anna_yaroslavna"
+      ],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "birth_dynasty_owner_receipt"
+      ],
+      "OpeningStateEligibility": "CandidatePendingOpeningStateOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.hugh_france_1057",
+      "EntityType": "Person",
+      "CanonicalLabel": "Hugh of France",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/02_Characters_and_Dynasty/France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ProposedLocalCanonicalRecord",
+      "DirectAliases": [
+        "character.france.hugh_younger"
+      ],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "person_id_style"
+      ],
+      "OpeningStateEligibility": "CandidatePendingOpeningStateOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.henry_i_france",
+      "EntityType": "Person",
+      "CanonicalLabel": "Henry I of France",
+      "OwningRegistry": "FranceHistorical",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/02_Characters_and_Dynasty/France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "HistoricalIdentityWithoutRuntimeAgency",
+      "DirectAliases": [
+        "character.france.henry_i"
+      ],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [],
+      "OpeningStateEligibility": "HistoricalReferenceOnly",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.ralph_iv_valois",
+      "EntityType": "Person",
+      "CanonicalLabel": "Ralph IV of Valois",
+      "OwningRegistry": "ValoisRecordOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/02_Characters_and_Dynasty/France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [
+        "person.ralph_crepy",
+        "person.raoul_valois"
+      ],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "Valois_owner_topology",
+        "title_ledger_1062"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.theobald_iii_blois",
+      "EntityType": "Person",
+      "CanonicalLabel": "Theobald III of Blois",
+      "OwningRegistry": "BloisChampagneOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/02_Characters_and_Dynasty/France_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [
+        "person.thibaut_iii_blois"
+      ],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "Blois_Champagne_owner_topology",
+        "title_ledger_1062"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.baldwin_v_flanders",
+      "EntityType": "Person",
+      "CanonicalLabel": "Baldwin V of Flanders",
+      "OwningRegistry": "Flanders",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Flanders_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.baldwin_vi_flanders",
+      "EntityType": "Person",
+      "CanonicalLabel": "Baldwin VI of Flanders",
+      "OwningRegistry": "Flanders",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Flanders_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.richilde_hainaut",
+      "EntityType": "Person",
+      "CanonicalLabel": "Richilde of Hainaut",
+      "OwningRegistry": "Flanders",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Flanders_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.robert_frisian",
+      "EntityType": "Person",
+      "CanonicalLabel": "Robert the Frisian",
+      "OwningRegistry": "Flanders",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Flanders_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "Character.Normandy.WilliamOfNormandy",
+      "EntityType": "Person",
+      "CanonicalLabel": "William of Normandy",
+      "OwningRegistry": "Normandy",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Normandy_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "Character.Normandy.MatildaOfFlanders",
+      "EntityType": "Person",
+      "CanonicalLabel": "Matilda of Flanders",
+      "OwningRegistry": "Normandy",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Normandy_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.robert_i_burgundy",
+      "EntityType": "Person",
+      "CanonicalLabel": "Robert I of Burgundy",
+      "OwningRegistry": "Burgundy",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Burgundy_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.geoffrey_iii_anjou",
+      "EntityType": "Person",
+      "CanonicalLabel": "Geoffrey III of Anjou",
+      "OwningRegistry": "Anjou",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Anjou_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.william_viii_aquitaine",
+      "EntityType": "Person",
+      "CanonicalLabel": "William VIII of Aquitaine",
+      "OwningRegistry": "Aquitaine",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [
+        "person.guy_geoffrey_aquitaine"
+      ],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Aquitaine_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.conan_ii_brittany",
+      "EntityType": "Person",
+      "CanonicalLabel": "Conan II of Brittany",
+      "OwningRegistry": "Brittany",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Brittany_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.alan_iii_brittany",
+      "EntityType": "Person",
+      "CanonicalLabel": "Alan III of Brittany",
+      "OwningRegistry": "Brittany",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Brittany_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.hawise_brittany",
+      "EntityType": "Person",
+      "CanonicalLabel": "Hawise of Brittany",
+      "OwningRegistry": "Brittany",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Brittany_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.odo_penthievre",
+      "EntityType": "Person",
+      "CanonicalLabel": "Odo of Penthièvre",
+      "OwningRegistry": "Brittany",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Brittany_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.hoel_cornouaille",
+      "EntityType": "Person",
+      "CanonicalLabel": "Hoël of Cornouaille",
+      "OwningRegistry": "Brittany",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Brittany_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "person.rivallon_i_dol",
+      "EntityType": "Person",
+      "CanonicalLabel": "Rivallon I of Dol",
+      "OwningRegistry": "Brittany",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "Brittany_reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.kingdom_france",
+      "EntityType": "Title",
+      "CanonicalLabel": "King of the Franks",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "CandidatePendingOpeningStateOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_paris",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Paris",
+      "OwningRegistry": "FranceReview",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_orleans",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Orléans",
+      "OwningRegistry": "FranceReview",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_senlis",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Senlis",
+      "OwningRegistry": "FranceReview",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.lordship_etampes",
+      "EntityType": "Title",
+      "CanonicalLabel": "Lordship of Étampes",
+      "OwningRegistry": "FranceReview",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.lordship_melun",
+      "EntityType": "Title",
+      "CanonicalLabel": "Lordship of Melun",
+      "OwningRegistry": "FranceReview",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "Title.Normandy.Duke",
+      "EntityType": "Title",
+      "CanonicalLabel": "Duke of Normandy",
+      "OwningRegistry": "Normandy",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_flanders",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Flanders",
+      "OwningRegistry": "Flanders",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_hainaut",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Hainaut",
+      "OwningRegistry": "Flanders",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_valois",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Valois",
+      "OwningRegistry": "ValoisRecordOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_blois",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Blois",
+      "OwningRegistry": "BloisChampagneOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_chartres",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Chartres",
+      "OwningRegistry": "BloisChampagneOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_meaux",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Meaux",
+      "OwningRegistry": "BloisChampagneOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_troyes",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Troyes",
+      "OwningRegistry": "BloisChampagneOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.duchy_burgundy",
+      "EntityType": "Title",
+      "CanonicalLabel": "Duchy of Burgundy",
+      "OwningRegistry": "Burgundy",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_anjou",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Anjou",
+      "OwningRegistry": "Anjou",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.duchy_aquitaine",
+      "EntityType": "Title",
+      "CanonicalLabel": "Duchy of Aquitaine",
+      "OwningRegistry": "Aquitaine",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.duchy_gascony",
+      "EntityType": "Title",
+      "CanonicalLabel": "Duchy of Gascony",
+      "OwningRegistry": "Aquitaine",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "title.county_poitiers",
+      "EntityType": "Title",
+      "CanonicalLabel": "County of Poitiers",
+      "OwningRegistry": "Aquitaine",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_title_owner_holder_and_1062_ledger"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "office.france.chancellor",
+      "EntityType": "Office",
+      "CanonicalLabel": "Chancellor of France",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "office.france.seneschal",
+      "EntityType": "Office",
+      "CanonicalLabel": "Seneschal of France",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "office.france.constable",
+      "EntityType": "Office",
+      "CanonicalLabel": "Constable of France",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "office.france.chamberlain",
+      "EntityType": "Office",
+      "CanonicalLabel": "Chamberlain of France",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "authority.france.guardianship_royal_minor",
+      "EntityType": "AuthorityType",
+      "CanonicalLabel": "Royal Minor Guardianship",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "authority.france.custody_royal_minor",
+      "EntityType": "AuthorityType",
+      "CanonicalLabel": "Royal Minor Custody",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "authority.france.royal_seal_use",
+      "EntityType": "AuthorityType",
+      "CanonicalLabel": "Royal Seal Use",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "authority.france.diplomatic_representation",
+      "EntityType": "AuthorityType",
+      "CanonicalLabel": "Diplomatic Representation",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "authority.france.host_convocation",
+      "EntityType": "AuthorityType",
+      "CanonicalLabel": "Host Convocation",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "authority.france.household_access",
+      "EntityType": "AuthorityType",
+      "CanonicalLabel": "Royal Household Access",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "authority.france.patronage_minor_reign",
+      "EntityType": "AuthorityType",
+      "CanonicalLabel": "Minor-Reign Patronage",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "authority.france.emergency_defense",
+      "EntityType": "AuthorityType",
+      "CanonicalLabel": "Emergency Defense",
+      "OwningRegistry": "France",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Governance_Delegated_Authority_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "CandidateIdentityReservation",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_record_type_and_holder_or_mandate"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "institution.church_reims",
+      "EntityType": "EcclesiasticalInstitution",
+      "CanonicalLabel": "Church of Reims",
+      "OwningRegistry": "SharedEcclesiasticalOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "institution_place_office_property_jurisdiction_separation",
+        "owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "institution.abbey_saint_denis",
+      "EntityType": "EcclesiasticalInstitution",
+      "CanonicalLabel": "Abbey of Saint-Denis",
+      "OwningRegistry": "EcclesiasticalOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "institution_place_office_property_jurisdiction_separation",
+        "owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "institution.church_orleans",
+      "EntityType": "EcclesiasticalInstitution",
+      "CanonicalLabel": "Church of Orléans",
+      "OwningRegistry": "EcclesiasticalOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "institution_place_office_property_jurisdiction_separation",
+        "owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "institution.church_sens",
+      "EntityType": "EcclesiasticalInstitution",
+      "CanonicalLabel": "Church of Sens",
+      "OwningRegistry": "EcclesiasticalOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "institution_place_office_property_jurisdiction_separation",
+        "owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "institution.church_tours_metropolitan",
+      "EntityType": "EcclesiasticalInstitution",
+      "CanonicalLabel": "Metropolitan Church of Tours",
+      "OwningRegistry": "SharedCrossRealmEcclesiasticalOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Ecclesiastical_Content_V2_Developed_Realm_Parity_Authority.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "institution_place_office_property_jurisdiction_separation",
+        "owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "settlement.paris",
+      "EntityType": "Settlement",
+      "CanonicalLabel": "Paris",
+      "OwningRegistry": "FranceGeographyOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "settlement_class_owner_control_and_opening_binding"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "settlement.orleans",
+      "EntityType": "Settlement",
+      "CanonicalLabel": "Orléans",
+      "OwningRegistry": "FranceGeographyOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "settlement_class_owner_control_and_opening_binding"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "settlement.senlis",
+      "EntityType": "Settlement",
+      "CanonicalLabel": "Senlis",
+      "OwningRegistry": "FranceGeographyOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "settlement_class_owner_control_and_opening_binding"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "settlement.etampes",
+      "EntityType": "Settlement",
+      "CanonicalLabel": "Étampes",
+      "OwningRegistry": "FranceGeographyOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "settlement_class_owner_control_and_opening_binding"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "settlement.melun",
+      "EntityType": "Settlement",
+      "CanonicalLabel": "Melun",
+      "OwningRegistry": "FranceGeographyOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "settlement_class_owner_control_and_opening_binding"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "settlement.poissy",
+      "EntityType": "Settlement",
+      "CanonicalLabel": "Poissy",
+      "OwningRegistry": "FranceGeographyOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "settlement_class_owner_control_and_opening_binding"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "settlement.saint_denis",
+      "EntityType": "Settlement",
+      "CanonicalLabel": "Saint-Denis",
+      "OwningRegistry": "FranceGeographyOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "settlement_class_owner_control_and_opening_binding"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "settlement.reims",
+      "EntityType": "Settlement",
+      "CanonicalLabel": "Reims",
+      "OwningRegistry": "ExternalOrSharedOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "settlement.tours",
+      "EntityType": "Settlement",
+      "CanonicalLabel": "Tours",
+      "OwningRegistry": "ExternalOrSharedOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "reverse_owner_receipt"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "region.ile_de_france",
+      "EntityType": "Region",
+      "CanonicalLabel": "Île-de-France",
+      "OwningRegistry": "FranceGeographyOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_region_definition_and_owner"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "region.orleanais",
+      "EntityType": "Region",
+      "CanonicalLabel": "Orléanais",
+      "OwningRegistry": "FranceGeographyOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "exact_region_definition_and_owner"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "region.valois",
+      "EntityType": "Region",
+      "CanonicalLabel": "Valois",
+      "OwningRegistry": "ValoisRecordOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_region_definition_and_owner"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "region.vexin",
+      "EntityType": "Region",
+      "CanonicalLabel": "Vexin",
+      "OwningRegistry": "SharedOrLocalOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_region_definition_and_owner"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "region.blois_chartres",
+      "EntityType": "Region",
+      "CanonicalLabel": "Blois-Chartres",
+      "OwningRegistry": "BloisChampagneOwnerPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_region_definition_and_owner"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "region.burgundy_ducal",
+      "EntityType": "Region",
+      "CanonicalLabel": "Ducal Burgundy",
+      "OwningRegistry": "Burgundy",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_region_definition_and_owner"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "region.anjou",
+      "EntityType": "Region",
+      "CanonicalLabel": "Anjou",
+      "OwningRegistry": "Anjou",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_region_definition_and_owner"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "region.aquitaine",
+      "EntityType": "Region",
+      "CanonicalLabel": "Aquitaine",
+      "OwningRegistry": "Aquitaine",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_region_definition_and_owner"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "region.gascony",
+      "EntityType": "Region",
+      "CanonicalLabel": "Gascony",
+      "OwningRegistry": "Aquitaine",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "exact_region_definition_and_owner"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "route.paris_orleans_axis",
+      "EntityType": "RouteFamily",
+      "CanonicalLabel": "Paris-Orléans Axis",
+      "OwningRegistry": "FranceRoutesOwner",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "NonActivatingReviewRecord",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": false,
+      "BlockingReviews": [
+        "route_family_not_segment",
+        "endpoint_access_capacity_owner_receipts"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "route.paris_senlis_reims",
+      "EntityType": "RouteFamily",
+      "CanonicalLabel": "Paris-Senlis-Reims",
+      "OwningRegistry": "FranceAndExternalOwnersPending",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "route_family_not_segment",
+        "endpoint_access_capacity_owner_receipts"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "route.paris_normandy_approach",
+      "EntityType": "RouteFamily",
+      "CanonicalLabel": "Paris-Normandy Approach",
+      "OwningRegistry": "FranceAndNormandy",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "route_family_not_segment",
+        "endpoint_access_capacity_owner_receipts"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "route.loire_anjou_corridor",
+      "EntityType": "RouteFamily",
+      "CanonicalLabel": "Loire-Anjou Corridor",
+      "OwningRegistry": "SharedAnjou",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "route_family_not_segment",
+        "endpoint_access_capacity_owner_receipts"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "route.aquitaine_gascony_corridor",
+      "EntityType": "RouteFamily",
+      "CanonicalLabel": "Aquitaine-Gascony Corridor",
+      "OwningRegistry": "Aquitaine",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "route_family_not_segment",
+        "endpoint_access_capacity_owner_receipts"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    },
+    {
+      "CandidateId": "route.brittany_normandy_frontier",
+      "EntityType": "RouteFamily",
+      "CanonicalLabel": "Brittany-Normandy Frontier",
+      "OwningRegistry": "BrittanyOrSharedGeography",
+      "ConsumingPackages": [
+        "package.france.v1"
+      ],
+      "SourceAuthority": "France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "SourceVersion": "CurrentAuthorityIndexed",
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "EvidenceDisposition": "AuthoritySupportedCandidateNotProjectCanonical",
+      "CandidateStatus": "ExternalOwnerReferenceCandidate",
+      "DirectAliases": [],
+      "DeprecatedSources": [],
+      "ExternalLock": true,
+      "BlockingReviews": [
+        "route_family_not_segment",
+        "endpoint_access_capacity_owner_receipts"
+      ],
+      "OpeningStateEligibility": "NotEligibleWithoutOwnerBinding",
+      "RuntimeEligibility": "NotEligible",
+      "MigrationDisposition": "None",
+      "StateVersion": 1
+    }
+  ],
+  "DeferredEntityFamilies": [
+    {
+      "Family": "PlaceDefinition",
+      "OwningAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "OwningRegistry": "FranceGeographyOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "exact_places_and_composite_place_settlement_model",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md"
+    },
+    {
+      "Family": "StrategicSiteDefinition",
+      "OwningAuthority": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+      "OwningRegistry": "FranceGeographyOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "site_admission_and_map_cost",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Territory_Settlements_Geography_and_Climate_Authority_V1.md"
+    },
+    {
+      "Family": "RouteSegmentDefinition",
+      "OwningAuthority": "France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md",
+      "OwningRegistry": "FranceRoutesOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "operational_segments_and_external_access",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Routes_Crossings_Communication_and_Maritime_Access_Authority_V1.md"
+    },
+    {
+      "Family": "PopulationAggregateDefinition",
+      "OwningAuthority": "France_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+      "OwningRegistry": "FrancePopulationOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "bounded_demographic_evidence",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Communities_Culture_Population_and_Institutions_Authority_V1.md"
+    },
+    {
+      "Family": "CommunityDefinition",
+      "OwningAuthority": "France_Communities_Culture_Population_and_Institutions_Authority_V1.md",
+      "OwningRegistry": "FranceCommunityOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "exact_community_roster",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Communities_Culture_Population_and_Institutions_Authority_V1.md"
+    },
+    {
+      "Family": "PropertyDefinition",
+      "OwningAuthority": "France_Economy_Property_Revenue_and_Treasury_Authority_V1.md",
+      "OwningRegistry": "FranceEconomyOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "property_owner_possession_and_revenue_ledger",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Economy_Property_Revenue_and_Treasury_Authority_V1.md"
+    },
+    {
+      "Family": "MarketDefinition",
+      "OwningAuthority": "France_Economy_Property_Revenue_and_Treasury_Authority_V1.md",
+      "OwningRegistry": "FranceEconomyOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "market_basis_operator_and_place",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Economy_Property_Revenue_and_Treasury_Authority_V1.md"
+    },
+    {
+      "Family": "TreasuryAccountDefinition",
+      "OwningAuthority": "France_Economy_Property_Revenue_and_Treasury_Authority_V1.md",
+      "OwningRegistry": "FranceEconomyOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "account_owner_custodian_and_opening_balance",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/05_Geography_Communities_Economy_and_Infrastructure/France_Economy_Property_Revenue_and_Treasury_Authority_V1.md"
+    },
+    {
+      "Family": "ForceDefinition",
+      "OwningAuthority": "France_Army_Host_Garrisons_and_Military_Capability_Authority_V1.md",
+      "OwningRegistry": "FranceMilitaryOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "opening_force_and_owner_inventory",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/06_Military_Recruitment_and_Supply/France_Army_Host_Garrisons_and_Military_Capability_Authority_V1.md"
+    },
+    {
+      "Family": "GarrisonDefinition",
+      "OwningAuthority": "France_Army_Host_Garrisons_and_Military_Capability_Authority_V1.md",
+      "OwningRegistry": "FranceMilitaryOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "opening_garrison_inventory",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/06_Military_Recruitment_and_Supply/France_Army_Host_Garrisons_and_Military_Capability_Authority_V1.md"
+    },
+    {
+      "Family": "RecruitmentPoolDefinition",
+      "OwningAuthority": "France_Recruitment_Pools_Units_and_Replenishment_Authority_V1.md",
+      "OwningRegistry": "FranceRecruitmentOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "local_source_pool_and_refill_evidence",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/06_Military_Recruitment_and_Supply/France_Recruitment_Pools_Units_and_Replenishment_Authority_V1.md"
+    },
+    {
+      "Family": "SupplySourceDefinition",
+      "OwningAuthority": "France_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+      "OwningRegistry": "FranceSupplyOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "source_owner_stock_and_access",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/06_Military_Recruitment_and_Supply/France_Supply_Logistics_Transport_and_Recovery_Authority_V1.md"
+    },
+    {
+      "Family": "StockDefinition",
+      "OwningAuthority": "France_Supply_Logistics_Transport_and_Recovery_Authority_V1.md",
+      "OwningRegistry": "FranceSupplyOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "opening_stocks_storage_and_custody",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/06_Military_Recruitment_and_Supply/France_Supply_Logistics_Transport_and_Recovery_Authority_V1.md"
+    },
+    {
+      "Family": "LawDefinition",
+      "OwningAuthority": "France_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+      "OwningRegistry": "FranceLawOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "exact_law_and_scope",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md"
+    },
+    {
+      "Family": "CustomDefinition",
+      "OwningAuthority": "France_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+      "OwningRegistry": "FranceLawOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "local_custom_evidence",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md"
+    },
+    {
+      "Family": "PolicyDefinition",
+      "OwningAuthority": "France_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+      "OwningRegistry": "FranceLawOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "active_policy_portfolio",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md"
+    },
+    {
+      "Family": "JurisdictionDefinition",
+      "OwningAuthority": "France_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md",
+      "OwningRegistry": "FranceLawOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "forum_competence_and_scope",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Law_Policy_Custom_and_Jurisdiction_Authority_V1.md"
+    },
+    {
+      "Family": "ClaimDefinition",
+      "OwningAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "OwningRegistry": "FranceTitlesOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "actual_claimant_basis_and_evidence",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md"
+    },
+    {
+      "Family": "SuccessionRuleDefinition",
+      "OwningAuthority": "France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md",
+      "OwningRegistry": "FranceTitlesOwner",
+      "Disposition": "NamespaceAndSchemaCandidateOnly",
+      "ExactCandidateIds": [],
+      "BlockingReview": "title_specific_rule_and_recognition",
+      "OpeningStateActivation": false,
+      "SourcePath": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/03_Governance_Law_Titles_and_Ecclesiastical/France_Titles_Claims_Lordships_and_Succession_Interfaces_Authority_V1.md"
+    }
+  ],
+  "DirectMigrationMap": [
+    {
+      "SourceId": "character.france.anne_kiev",
+      "TargetId": "person.anne_kiev",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "character.france.henry_i",
+      "TargetId": "person.henry_i_france",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "character.france.hugh_younger",
+      "TargetId": "person.hugh_france_1057",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "character.france.philip_i",
+      "TargetId": "person.philip_i_france",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "faction.capetian_france",
+      "TargetId": "faction.france",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "faction.royal_french",
+      "TargetId": "faction.france",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "person.anna_yaroslavna",
+      "TargetId": "person.anne_kiev",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "person.guy_geoffrey_aquitaine",
+      "TargetId": "person.william_viii_aquitaine",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "person.philip_france",
+      "TargetId": "person.philip_i_france",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "person.philip_i_franks",
+      "TargetId": "person.philip_i_france",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "person.ralph_crepy",
+      "TargetId": "person.ralph_iv_valois",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "person.raoul_valois",
+      "TargetId": "person.ralph_iv_valois",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "person.thibaut_iii_blois",
+      "TargetId": "person.theobald_iii_blois",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "realm.france.capetian",
+      "TargetId": "realm.france",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    },
+    {
+      "SourceId": "realm.franks.crown",
+      "TargetId": "realm.france",
+      "Transform": "DirectAlias",
+      "ExecutionAuthorized": false
+    }
+  ],
+  "PreflightResults": {
+    "ManifestInternalDuplicateCanonicalIds": 0,
+    "ManifestInternalAliasMultipleTargets": 0,
+    "ManifestInternalAliasCanonicalConflicts": 0,
+    "ManifestInternalFatalCollisions": 0,
+    "ProjectWideCollisionCount": "UnknownNotScanned",
+    "ExternalOwnerCollisionCount": "UnknownPendingReverseReceipts",
+    "Collisions": [],
+    "Result": "PassInternalManifestOnly_ProjectWideBlocked"
+  },
+  "BlockingOwnerDecisions": [
+    "canonical_realm_faction_and_namespace_style",
+    "opening_state_v3_id_migration",
+    "France_owned_person_id_style",
+    "Valois_and_Blois_Champagne_owner_topology",
+    "Burgundy_Flanders_Normandy_Brittany_Anjou_Aquitaine_reverse_owner_receipts",
+    "Tours_metropolitan_owner",
+    "West_Francia_theater_canonical_id",
+    "Royal_Demesne_ledger",
+    "office_and_minority_government_record_types",
+    "specialist_exact_record_ids",
+    "project_native_registry_schema_and_owner"
+  ],
+  "QuarantineFamilies": [
+    "unsupported_royal_relatives",
+    "unsupported_named_officers",
+    "unsupported_clergy",
+    "later_Ralph_holdings",
+    "later_Theobald_holdings",
+    "future_Flemish_outcomes",
+    "future_marriages_epithets_crusading",
+    "duplicate_external_people",
+    "fantasy_Aquitaine_content",
+    "later_Plantagenet_content",
+    "invented_demesne_ledger",
+    "invented_settlement_route_population_recruitment_economy_military_supply_law_and_claim_payloads",
+    "legacy_machine_bundle_ownership_collapse"
+  ],
+  "Counts": {
+    "CandidateRecords": 84,
+    "ExternalLockedCandidates": 44,
+    "CandidatesWithBlockingReviews": 83,
+    "DeferredEntityFamilies": 19,
+    "DirectAliases": 15,
+    "InternalFatalCollisions": 0
+  },
+  "Validation": {
+    "JsonParsed": true,
+    "CandidateIdsUniqueWithinManifest": true,
+    "AliasesHaveSingleTargetWithinManifest": true,
+    "NoActivationStatusesUsed": true,
+    "NoRegistryMutationPerformed": true,
+    "NoOpeningStateMutationPerformed": true,
+    "NoUnrealMutationPerformed": true,
+    "NoRuntimeMutationPerformed": true,
+    "ProjectWideValidationClaimed": false,
+    "CandidateSourcePathsReconciledToAuthorityIndex": true,
+    "CandidateSourcePathsIncludeExactAuthorityFilename": true,
+    "PhysicalFileExistenceAndHashValidationClaimed": false,
+    "V3MigrationListFullyRepresented": true,
+    "CandidateDirectAliasesSynchronizedWithMigrationMap": true,
+    "AliasExecutionAuthorized": false
+  },
+  "NextGate": {
+    "Name": "ProjectRegistryExternalOwnerAndUnrealReadOnlyCollisionInventoryAndOwnerAdjudicationPreparation",
+    "RequiredInputs": [
+      "project Registry authorities",
+      "external owner registries",
+      "authorized Unreal ID surfaces"
+    ],
+    "SourcePathCorrectionComplete": true,
+    "AliasMigrationReconciliationComplete": true,
+    "MutationAuthorized": false
+  },
+  "SourceAuthorityPaths": {
+    "France_ID_Registry_V2_Current_Authority_Modernization.md": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V2_Current_Authority_Modernization.md",
+    "France_ID_Registry_V3_Developed_Realm_Parity_Candidate_Reconciliation.md": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_ID_Registry_V3_Developed_Realm_Parity_Candidate_Reconciliation.md",
+    "France_Realm_Package_Current_Authority_Index_V1.md": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_Realm_Package_Current_Authority_Index_V1.md",
+    "France_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md": "Project_Bible/Theaters/West Francia/08_Realm_Packages_and_References/France/00_Control_and_Audits/France_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md"
+  },
+  "SourcePathReconciliation": {
+    "ReconciliationDate": "2026-09-02",
+    "Method": "AuthorityIndexFolderRoutingWithExactAuthorityFilename",
+    "AuthorityIndex": "France_Realm_Package_Current_Authority_Index_V1.md",
+    "CandidateRecordsChecked": 84,
+    "CandidateRecordPathsCorrected": 84,
+    "DeferredEntityFamilyPathsAdded": 19,
+    "UnmappedCandidateAuthorities": [],
+    "UnmappedDeferredAuthorities": [],
+    "AllCandidateSourcePathsEndWithSourceAuthority": true,
+    "AllCandidateSourcePathsUseIndexedFolder": true,
+    "PhysicalFileHashInventoryComplete": false,
+    "RegistryMutationPerformed": false,
+    "OpeningStateMutationPerformed": false,
+    "UnrealMutationPerformed": false,
+    "RuntimeMutationPerformed": false,
+    "RealPayloadImportPerformed": false
+  },
+  "AliasMigrationReconciliation": {
+    "ReconciliationDate": "2026-09-02",
+    "Authority": "France_ID_Registry_V3_Developed_Realm_Parity_Candidate_Reconciliation.md",
+    "Method": "V3MigrationListUnionWithManifestDirectAliases",
+    "V3MigrationEntries": 9,
+    "ManifestEntriesBefore": 14,
+    "EntriesAddedFromV3": [
+      "person.guy_geoffrey_aquitaine"
+    ],
+    "ManifestOnlyAliasesRetained": [
+      "character.france.anne_kiev",
+      "character.france.henry_i",
+      "character.france.hugh_younger",
+      "character.france.philip_i",
+      "person.philip_i_franks",
+      "person.ralph_crepy"
+    ],
+    "ManifestEntriesAfter": 15,
+    "MissingV3EntriesAfterReconciliation": [],
+    "ConflictingTargets": [],
+    "AliasMultipleTargets": 0,
+    "AliasCanonicalConflicts": [],
+    "AllMappingsDirect": true,
+    "AliasChainsAuthorized": false,
+    "ExecutionAuthorized": false,
+    "RegistryMutationPerformed": false,
+    "MigrationExecutionPerformed": false,
+    "OpeningStateMutationPerformed": false,
+    "UnrealMutationPerformed": false,
+    "RuntimeMutationPerformed": false
+  }
+}

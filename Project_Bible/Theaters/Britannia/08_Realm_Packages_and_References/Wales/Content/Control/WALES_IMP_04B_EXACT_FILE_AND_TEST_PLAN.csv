@@ -1,0 +1,15 @@
+RelativeTarget,Category,Action,CollisionRequirement,TestCount
+Public/MWWalesInformationReference.h,Production,Add,MustBeAbsent,0
+Private/MWWalesInformationReference.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesIntelligenceReportCandidate.h,Production,Add,MustBeAbsent,0
+Private/MWWalesIntelligenceReportCandidate.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesInformationAccessReview.h,Production,Add,MustBeAbsent,0
+Private/MWWalesInformationAccessReview.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesIntelligenceSummary.h,Production,Add,MustBeAbsent,0
+Private/MWWalesIntelligenceSummary.cpp,Production,Add,MustBeAbsent,0
+Public/MWWalesInformationIntelligenceValidation.h,Production,Add,MustBeAbsent,0
+Private/MWWalesInformationIntelligenceValidation.cpp,Production,Add,MustBeAbsent,0
+Private/Tests/MWWalesInformationReferenceTests.cpp,Test,Add,MustBeAbsent,6
+Private/Tests/MWWalesIntelligenceReportTests.cpp,Test,Add,MustBeAbsent,7
+Private/Tests/MWWalesInformationAccessAndSummaryTests.cpp,Test,Add,MustBeAbsent,11
+Private/Tests/MWWalesInformationIntelligenceBoundaryTests.cpp,Test,Add,MustBeAbsent,6

@@ -1,0 +1,9 @@
+Order,Lane,FocusedFilter,AcceptedTests,FinalEvidenceStatus,MutationBoundary
+1,CampaignInitialization,MedievalWar.France.CampaignInitialization.,24,Accepted,ReviewOnlyNoProductionAuthority
+2,TransactionRecovery,MedievalWar.France.TransactionRecovery.,24,Accepted,ReviewOnlyNoProductionAuthority
+3,HistoricalEmergence,MedievalWar.France.HistoricalEmergence.,28,Accepted,ReviewOnlyNoProductionAuthority
+4,CharacterDynastyNetwork,MedievalWar.France.CharacterDynastyNetwork.,34,Accepted,ReviewOnlyNoProductionAuthority
+5,GovernanceInterface,MedievalWar.France.GovernanceInterface.,20,Accepted,ReviewOnlyNoProductionAuthority
+6,TerritoryCommunityEconomy,MedievalWar.France.TerritoryCommunityEconomy.,20,Accepted,ReviewOnlyNoProductionAuthority
+7,MilitaryRecruitmentSupply,MedievalWar.France.MilitaryRecruitmentSupply.,24,Accepted,ReviewOnlyNoProductionAuthority
+8,RealmAIProposal,MedievalWar.France.RealmAIProposal.,28,Accepted,ReviewOnlyNoProductionAuthority

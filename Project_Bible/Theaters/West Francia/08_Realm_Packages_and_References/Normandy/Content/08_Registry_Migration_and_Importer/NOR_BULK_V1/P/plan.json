@@ -1,0 +1,93 @@
+{
+  "package": "NOR_BULK_V1",
+  "version": "1.0.0",
+  "target": "C:\\UnrealProjects\\MedievalWar",
+  "mode": "ProjectNativeBulkImplementationHandoff",
+  "owners": {
+    "shared_importer": "MWSharedImporter",
+    "campaign_adapter": "MWSharedImporterCampaignAdapter",
+    "runtime": "MedievalWarCampaign"
+  },
+  "bulks": [
+    {
+      "id": "B01",
+      "name": "ProjectDiscovery",
+      "entry_gate": "ReadOnly",
+      "exit": [
+        "module inventory",
+        "owner map",
+        "baseline hashes",
+        "single writer"
+      ]
+    },
+    {
+      "id": "B02",
+      "name": "SchemaMapping",
+      "exit": [
+        "26 draft mappings",
+        "reuse adapter missing decision per family"
+      ]
+    },
+    {
+      "id": "B03",
+      "name": "ParserValidation",
+      "exit": [
+        "Normandy route parses",
+        "32 fixtures pass",
+        "zero writes"
+      ]
+    },
+    {
+      "id": "B04",
+      "name": "CampaignAdapter",
+      "exit": [
+        "typed candidate graph",
+        "definitions separate from instances",
+        "three tracks preserved"
+      ]
+    },
+    {
+      "id": "B05",
+      "name": "SandboxAssets",
+      "exit": [
+        "isolated candidate assets",
+        "no production Registry",
+        "no Opening activation"
+      ]
+    },
+    {
+      "id": "B06",
+      "name": "CompileTests",
+      "exit": [
+        "targeted compile receipt",
+        "fixture receipt",
+        "round-trip receipt",
+        "determinism receipt"
+      ]
+    },
+    {
+      "id": "B07",
+      "name": "SaveMigrationRollback",
+      "exit": [
+        "apply once",
+        "save reload",
+        "advanced save no reapply",
+        "migration dry run",
+        "rollback pass"
+      ]
+    },
+    {
+      "id": "B08",
+      "name": "FinalHandoff",
+      "exit": [
+        "diff",
+        "hashes",
+        "receipts",
+        "blockers",
+        "owner routing"
+      ]
+    }
+  ],
+  "promotion_authorized": false,
+  "real_payload_import_authorized": false
+}

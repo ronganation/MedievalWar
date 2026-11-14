@@ -1,0 +1,30 @@
+{
+  "document_id": "static-check.england.law_policy.v1_1.consolidated",
+  "version": "1.0.0",
+  "output_file": "England_Law_and_Policy_Package.md",
+  "source_files": [
+    "England_Law_and_Policy_Package.md Version 1.0",
+    "England_Law_and_Policy_Package_V1.1_Current_Authority_Refinement.md"
+  ],
+  "source_bytes": {
+    "version_1_0": 37482,
+    "version_1_1_refinement": 37312
+  },
+  "output_bytes": 72883,
+  "checks": {
+    "created": true,
+    "larger_than_sources": true,
+    "v1_content": true,
+    "v11_content": true,
+    "single_status": true,
+    "single_opening": true,
+    "single_footer": true,
+    "temporal": true,
+    "canonical": true,
+    "no_separate": true,
+    "no_activation": true,
+    "validation_false": true,
+    "no_escapes": true
+  },
+  "passed": true
+}

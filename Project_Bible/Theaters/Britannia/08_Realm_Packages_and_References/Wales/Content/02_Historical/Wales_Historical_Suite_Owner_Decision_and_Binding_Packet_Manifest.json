@@ -1,0 +1,72 @@
+{
+  "document_id": "manifest.wales.historical-suite-owner-decision-binding-packet.v1",
+  "version": "1.0.0",
+  "artifact": {
+    "filename": "Wales_Historical_Suite_Owner_Decision_and_Binding_Packet.md",
+    "bytes": 15495,
+    "physical_lines": 474,
+    "sha256": "54bd23a3c265751f3b266804295506f54d333136878a2b538cad0f8a4b8a2b62"
+  },
+  "inputs": [
+    {
+      "filename": "Wales_Historical_Suite_Consistency_Audit.md",
+      "bytes": 16138,
+      "lines": 451,
+      "sha256": "77ad27dfc65eff9b487abd44d7f136fb623f9b5b62b0b7a0ec28e2266b57a748"
+    },
+    {
+      "filename": "Wales_Historical_Suite_Importer_Manifest.md",
+      "bytes": 19111,
+      "lines": 537,
+      "sha256": "6c449091a4a889ad22f606968af2216e9ea97dc7d10f523c38e70b012e8e0f14"
+    },
+    {
+      "filename": "Wales_Historical_Uncertainty_V1.1_Current_Authority_Refinement.md",
+      "bytes": 61597,
+      "lines": 1767,
+      "sha256": "2f8dfbf3401daf6a80cc197b55e2e6183c3a72d9bda49b46dabbf40cdf514cac"
+    },
+    {
+      "filename": "Wales_Historical_Memory.md",
+      "bytes": 58695,
+      "lines": 1348,
+      "sha256": "55088541674a4f60edc6d31f0f612f7fd86446c708e84d717233da19b5239002"
+    },
+    {
+      "filename": "Wales_Historical_Momentum.md",
+      "bytes": 34468,
+      "lines": 785,
+      "sha256": "103d6662b1cdeb692005393cbcd0df47c7a3190d1598bedefd67e21bc823a2ce"
+    },
+    {
+      "filename": "Wales_Historical_Emergence.md",
+      "bytes": 42453,
+      "lines": 1033,
+      "sha256": "5bc68c412c9a9c82c64db2f41cae93c435ecb4868228a68c7a30b98d32cb4906"
+    }
+  ],
+  "content": {
+    "decision_requests": 8,
+    "pending_at_creation": 8,
+    "owner_responses_present": 0,
+    "bindings_applied": 0,
+    "validation_cases": 22
+  },
+  "classification": {
+    "final_planned_authoring_artifact_current_sequence": true,
+    "historical_package_closed": false,
+    "owner_receipts_required": true
+  },
+  "authorizations": {
+    "Opening_State_mutation": false,
+    "Historical_Suite_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "real_payload_import": false
+  },
+  "static_check": {
+    "filename": "Wales_Historical_Suite_Owner_Decision_and_Binding_Packet_Static_Check.json",
+    "passed": true
+  }
+}

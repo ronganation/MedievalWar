@@ -1,0 +1,25 @@
+DocumentControl:
+  SchemaId: schema.france.economy.v1
+  SchemaVersion: 1.0.0
+  PackageId: package.france.current-candidate.v1
+  RealmIdCandidate: realm.france
+  ScenarioId: mw.scenario.grand_campaign.1062
+  RevisionDate: '2026-09-03'
+  SourceAuthorities:
+  - France_Economy_Property_Revenue_and_Treasury_Authority_V1.md
+  CandidateOnly: true
+  OpeningStateActivation: false
+  RegistryPromotion: false
+  UnrealImport: false
+  RuntimeEligible: false
+Records: []
+ReviewQueue:
+- ReviewId: review.PropertyRevenueAndTreasuryLedger
+  Disposition: DeferredExactRecord
+  OwningAuthority: France_Economy_Property_Revenue_and_Treasury_Authority_V1.md
+  ActivationAuthorized: false
+Quarantine: []
+Validation:
+  ParseStatus: PendingFinalBundleValidation
+  SchemaStatus: CandidateSchema
+  OwnerStatus: PendingProjectAndExternalReceipts

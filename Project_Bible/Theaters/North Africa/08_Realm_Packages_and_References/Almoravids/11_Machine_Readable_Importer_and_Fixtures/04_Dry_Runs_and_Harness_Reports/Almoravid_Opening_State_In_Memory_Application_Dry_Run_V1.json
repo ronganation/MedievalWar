@@ -1,0 +1,1861 @@
+{
+  "dryRunIdentity": {
+    "dryRunId": "dryrun.almoravid.opening_state.1062.application.v1",
+    "dryRunVersion": "1.0.0",
+    "documentKind": "OpeningStateInMemoryApplicationDryRun",
+    "status": "PASS_STATIC_CHECKED_IN_MEMORY_DRY_RUN"
+  },
+  "bindings": {
+    "payload": {
+      "file": "Almoravid_Opening_State_1062_V1.json",
+      "sha256": "211b1a6936f3f801454690d4d0a2b3c234d5c45f7bf929aeee56ff310056e3a3"
+    },
+    "abu": {
+      "file": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "sha256": "9acdecd47bab2c7d3b78c44137edc9c4c6ebc231382d426c51a21c2bd06ba8fb"
+    },
+    "yusuf": {
+      "file": "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json",
+      "sha256": "74658fa9da9b27fa93131e9eb1f85789d2f4a3a080a6a08fe8f5a3a39f652b99"
+    },
+    "schema": {
+      "file": "Almoravid_Opening_State_Package_Schema_V1.json",
+      "sha256": "7631579ea6f0977b757f18696edf6309f7db9b5eaf13141f9f998b007f832293"
+    },
+    "profile": {
+      "file": "Almoravid_Opening_State_Static_Validation_Profile_V1.json",
+      "sha256": "57b89af092d0852cfe19268cee52e01ff265a88e5d7621b35e4367320fbd6b6f"
+    },
+    "routing": {
+      "file": "Almoravid_Opening_State_Owner_Routing_Manifest_V1.json",
+      "sha256": "9b70b5ea94093602691d80dfa579c2adc842c986258dd4e9b2764ad0800edfb3"
+    },
+    "fixturesReport": {
+      "file": "Almoravid_Opening_State_Importer_Fixtures_Static_Harness_Report_V1.json",
+      "sha256": "b10c42c2b83d77b4e7a543f6a2366a54d5fd780ada63fef42aca538b20baadad"
+    }
+  },
+  "executionBoundary": {
+    "inMemoryOnly": true,
+    "realImporterExecuted": false,
+    "realOwnerCommandsExecuted": false,
+    "realCampaignCreated": false,
+    "realApplicationReceiptPersisted": false,
+    "authoritativeRegistryMutations": 0,
+    "authoritativeOpeningStateMutations": 0,
+    "authoritativeRuntimeMutations": 0,
+    "compileValidated": false,
+    "runtimeValidated": false,
+    "saveLoadValidated": false,
+    "replayValidated": false
+  },
+  "inputInvariants": {
+    "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97",
+    "registryVersion": "1.1.0",
+    "requestTemplateCount": 32,
+    "resolvedRequestsPerApplication": 31,
+    "explicitEmptyCollections": 66,
+    "requestsFromExplicitEmptyCollections": 0,
+    "transactionPhaseOrder": [
+      "Prepare",
+      "Normalize",
+      "Stage",
+      "Commit",
+      "Receipt",
+      "Release",
+      "Rollback"
+    ]
+  },
+  "summary": {
+    "scenarios": 7,
+    "acceptedInMemoryCandidates": 2,
+    "alreadyApplied": 1,
+    "rejectedFatal": 4,
+    "rollbackScenarios": 3,
+    "advancedSaveRejections": 1,
+    "successfulReceiptsGenerated": 2,
+    "resolvedRequestsPerAcceptedPath": 31,
+    "explicitEmptyCollectionsValidatedPerPath": 66,
+    "requestsFromExplicitEmptyCollections": 0,
+    "authoritativeMutationCount": 0,
+    "allCandidatesDiscarded": true,
+    "deterministicRepeatEqual": true
+  },
+  "scenarios": [
+    {
+      "scenarioId": "dryrun.almoravid.abu_bakr.accepted.v1",
+      "selectedPerspectiveRef": "perspective.almoravid.abu_bakr",
+      "expectedDisposition": "Accepted",
+      "actualDisposition": "Accepted",
+      "issueCodes": [],
+      "commit": true,
+      "rollbackPerformed": false,
+      "candidateCreated": true,
+      "candidateDiscarded": true,
+      "resolvedRequestCount": 31,
+      "notApplicableRequestCount": 1,
+      "ownerResponseCount": 31,
+      "requiredOwnerAcceptanceComplete": true,
+      "explicitEmptyCollectionsValidated": 66,
+      "requestsGeneratedFromExplicitEmptyCollections": 0,
+      "simulatedOwnerMutationCount": 11,
+      "authoritativeMutationCount": 0,
+      "ownerStateHashesBefore": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "candidateOwnerStateHashes": {
+        "CampaignInitializationOwner": "89d56730bf175f5c2cf87682f612db78710e8541c516e1fdcb68cdc9190f2eab",
+        "RealmAndFactionOwner": "f94db718becc42a0fe27b91cf01b11d7388ae50a370d7ed08423c083bd3506a8",
+        "CharacterFoundation": "28abc7d8a9ff21c1fa58c8f2c7266a0a139e0646011d667febda478f17242c7b",
+        "CampaignPerspectiveOwner": "66a6de2dfc254f9a4169e137081b126c413caaf42af02511e543fd4f99b6c236",
+        "GeographyFacingRealmOwner": "414dd11fe05d28c8dc8aade3a1336d7cc223de9701633c653c45ba79a1306d17",
+        "ReligiousAndJuristicOwner": "5e81d04e9df2471c5e3231630c9f52aacc119627dc1e28e1edc22f03a6fefb9a",
+        "SharedReligiousRegistry": "80f7e21d11692df4734d925294deabba6c4c86d1cdae0ecfdebf1122e8111bb7",
+        "EconomyOwner": "aa9a40c7da2b36a02bc95b5f97f28a0ae7807d95cd814959d92f53d090e9df12",
+        "PropertyOwner": "4306a33e1b9890190a9c13ae73a8eab5f80864abf362c827f76ceb34d99f5604",
+        "SupplyAndLogisticsOwner": "97cbbea648f6effb1df72099cead8cc6407410853b822fdff4194e839c332b8e",
+        "CapitalFoundationOwner": "39e8679b1686435ae8bedc6f76569a2f3c5fa472b7caa9cde8dfb31eff28f3d0",
+        "SharedEconomyTradeRegistry": "f60ac03934860207adc4280c13efb2c443d5657a5ff59c02edda44b7c7caf080",
+        "HistoricalDateOwner": "b5c53742df7970ee4573759dbaff89d71758f5e3c6ddf8d9537f746ce6694c24",
+        "HistoricalProgressionOwner": "4ed98b834e4abe380d7f20d2d0260807038899b89aa8d4ef279924556f301ce2",
+        "BiologicalProgressionOwner": "bab278bfe52281a06557345f051583b41de9cbe26da457acce27ef529b2ef06d",
+        "CampaignSeasonOwner": "395e6388f917827cf5eef8531a0d0d4b73b1589451465825c0f553494b0a2d5c",
+        "SaveAndMigrationOwner": "8d7d8d9aeb9089178503eb3d5f61f8f7e4dabfe5097b810ff07b6c87c35a37a1"
+      },
+      "ownerStateHashesAfterDiscard": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "applicationReceipt": {
+        "openingStateId": "opening.almoravid.1062",
+        "openingStateVersion": "1.0.0",
+        "registryVersion": "1.1.0",
+        "schemaSha256": "7631579ea6f0977b757f18696edf6309f7db9b5eaf13141f9f998b007f832293",
+        "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97",
+        "selectedPerspectiveRef": "perspective.almoravid.abu_bakr",
+        "perspectiveOverlayHash": "1df2f98c26cc486da6af19abfdd8d9c4b92df320025494cdf87057d9022f0795",
+        "authorityManifestHash": "4e73865279350cb7a9690e2fba80d47db863870c39246bdd079d60665cd7f8c9",
+        "explicitEmptyCatalogueHash": "279204b7a84f24e6481a7863a44ab3cdc230884ecb489487d868cd0174d552ff",
+        "temporalStateHash": "712b4abcc94fecae29a4da7c781a48be9d1e080ba7c6c985d4257116c2587710",
+        "ownerStateHashes": {
+          "CampaignInitializationOwner": "89d56730bf175f5c2cf87682f612db78710e8541c516e1fdcb68cdc9190f2eab",
+          "RealmAndFactionOwner": "f94db718becc42a0fe27b91cf01b11d7388ae50a370d7ed08423c083bd3506a8",
+          "CharacterFoundation": "28abc7d8a9ff21c1fa58c8f2c7266a0a139e0646011d667febda478f17242c7b",
+          "CampaignPerspectiveOwner": "66a6de2dfc254f9a4169e137081b126c413caaf42af02511e543fd4f99b6c236",
+          "GeographyFacingRealmOwner": "414dd11fe05d28c8dc8aade3a1336d7cc223de9701633c653c45ba79a1306d17",
+          "ReligiousAndJuristicOwner": "5e81d04e9df2471c5e3231630c9f52aacc119627dc1e28e1edc22f03a6fefb9a",
+          "SharedReligiousRegistry": "80f7e21d11692df4734d925294deabba6c4c86d1cdae0ecfdebf1122e8111bb7",
+          "EconomyOwner": "aa9a40c7da2b36a02bc95b5f97f28a0ae7807d95cd814959d92f53d090e9df12",
+          "PropertyOwner": "4306a33e1b9890190a9c13ae73a8eab5f80864abf362c827f76ceb34d99f5604",
+          "SupplyAndLogisticsOwner": "97cbbea648f6effb1df72099cead8cc6407410853b822fdff4194e839c332b8e",
+          "CapitalFoundationOwner": "39e8679b1686435ae8bedc6f76569a2f3c5fa472b7caa9cde8dfb31eff28f3d0",
+          "SharedEconomyTradeRegistry": "f60ac03934860207adc4280c13efb2c443d5657a5ff59c02edda44b7c7caf080",
+          "HistoricalDateOwner": "b5c53742df7970ee4573759dbaff89d71758f5e3c6ddf8d9537f746ce6694c24",
+          "HistoricalProgressionOwner": "4ed98b834e4abe380d7f20d2d0260807038899b89aa8d4ef279924556f301ce2",
+          "BiologicalProgressionOwner": "bab278bfe52281a06557345f051583b41de9cbe26da457acce27ef529b2ef06d",
+          "CampaignSeasonOwner": "395e6388f917827cf5eef8531a0d0d4b73b1589451465825c0f553494b0a2d5c",
+          "SaveAndMigrationOwner": "8d7d8d9aeb9089178503eb3d5f61f8f7e4dabfe5097b810ff07b6c87c35a37a1"
+        },
+        "seed": 1062,
+        "disposition": "Accepted",
+        "traceHash": "70ee00b4518fef15f40403624283bee68c942aa0068531e47cb78477d215819b",
+        "receiptHash": "c34c2106ba158fb705642bcdd35f26f730179ed003ae736de4d8b4e67f800936"
+      },
+      "notApplicableRequests": [
+        {
+          "requestRef": "opening_request.almoravid.1062.021",
+          "disposition": "NotApplicable",
+          "reason": "UnselectedPerspectiveTemplate"
+        }
+      ],
+      "ownerResponses": [
+        {
+          "requestRef": "opening_request.almoravid.1062.001",
+          "ownerRef": "CampaignInitializationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 10,
+          "responseHash": "3ad983049d7a307cc7ead2c1ce3db0a235ef6f8695ba9fd39100040ec3f3645c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.002",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "2089dc9acff52f48ddadb6cf95e0e42b63e57f67fbdc1dbcdcea972c1888633a"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.003",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "a70602883764269d6f412d54ed317ad48d47f22a1bfcf228538ad496816ec5b0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.004",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "1269b71c11115aa16e8aba32b8e9d0cd7d2634b888b9908dcce31f8b5fdf636c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.005",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "3338473e7e8a8d9773790d43583b54efde923b87cf812e3ee43b9b60beb6ca92"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.006",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "62aa9eadf0560a66610a8f8d1b2de26e7aa4b3da38cdbd44fccdb4faed906fa2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.007",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "7ccda20d6de2b98e911c31f272e0b8a5f545c5a54cb96572e47a2e0d6ee977fc"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.008",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "0a4c5b63e6c09f4b362436d47cb6e40df1b7fdc92ab016045e4080d99e9ffea0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.009",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "66fc765a3c495c1f47f40a7a5a6d748c053d9f2ebf9a8c9c5c207424900d61c4"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.010",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "1caa4ab32014cc579ff0af70dc52ac73857d6b44b643ac73154243fd48125738"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.011",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "b21a8ea402f676368251e9c1134a5a84e9949c22a84f472e787cd8da9963c01e"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.012",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "88c812aa8b8328d4a2ac0abce6ad1ef26cc98b4aab050db9e95628c92f581a4c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.013",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "e2a97b6edf994141eaf3dea525ec76965ccc55cc4bba5f078e12a940edefe4ea"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.014",
+          "ownerRef": "EconomyOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 80,
+          "responseHash": "8b51944508ca8bf48004d8da10e7e1bde26a3ef866082c75706f00da91d3c411"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.015",
+          "ownerRef": "PropertyOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 90,
+          "responseHash": "8616c7b7b77e811ef2fbc969e1be1a13c0c21281e76953e9f77049e0529711c5"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.016",
+          "ownerRef": "SupplyAndLogisticsOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 100,
+          "responseHash": "b247898aa6b5d3a6298858491f3e76439de2d41702f3dd28189c96410a6b3ba2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.017",
+          "ownerRef": "CapitalFoundationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 110,
+          "responseHash": "4e44f35009c76296ec91a7314327a5c47d64cc84278f8802d4731526ae6956b6"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.018",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "ab5fc78d116cf41a0bee9983108ddc79b1a68ee88647de3f2b6722ff170fd8a0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.019",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "48e316d5e48ea99dcb7e9fedd4e520a4c036d29855ac5d6cfb3850af5f186fb2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.020",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "f712f15c46c6f0ed9ceb9872dbc1b58cc01eeb814133780beac3882676996bec"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.022",
+          "ownerRef": "GeographyFacingRealmOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 50,
+          "responseHash": "8c1fe1180af5bbc5b0a13cd40ea9cf9026f132d1a8c29b82f758af3b372c97fa"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.023",
+          "ownerRef": "ReligiousAndJuristicOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 60,
+          "responseHash": "96539351dfefcc4f90a478d0146bba726b709d522fcc6a7d885dbe5d44f109ef"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.024",
+          "ownerRef": "ReligiousAndJuristicOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 60,
+          "responseHash": "ff31ea250a5513bf2c4afdcd3c4f8bae47da8182b3545e177bc960378d908a02"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.025",
+          "ownerRef": "SharedReligiousRegistry",
+          "response": "AcceptedStaged",
+          "ownerOrder": 70,
+          "responseHash": "9018dfe462f583a19660e0598d9ffc94cd21dd622205ee2b5c5ed61fd269c8eb"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.026",
+          "ownerRef": "SharedEconomyTradeRegistry",
+          "response": "AcceptedStaged",
+          "ownerOrder": 120,
+          "responseHash": "b5cdbe09524576c441f215fd64c08c9fe9843bba45a78f8bb37e73ecb52b2341"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.027",
+          "ownerRef": "SharedEconomyTradeRegistry",
+          "response": "AcceptedStaged",
+          "ownerOrder": 120,
+          "responseHash": "de70b5ccd696146bcbd3ec5e3e30c616d9933aebc256520aa4fd63075d06c1fc"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.028",
+          "ownerRef": "HistoricalDateOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 130,
+          "responseHash": "e033ec9baf4d913208fd5a52dc580d71f26348df726ec0f114157b5b25c25dd4"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.029",
+          "ownerRef": "HistoricalProgressionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 140,
+          "responseHash": "f3ca47b846d0e591e9fba65e666b65b0d23c6d52e427afdd6c49e307824eec60"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.030",
+          "ownerRef": "BiologicalProgressionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 150,
+          "responseHash": "6daf0b18183f30c67cc0eadc586facc2571c9a0971c5017adbd345ae9c825986"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.031",
+          "ownerRef": "CampaignSeasonOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 160,
+          "responseHash": "ed33af9c68b17d8a3b36ab1d1e5f3da52d96946dc1a0fc8e38f9e90a848b1b60"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.032",
+          "ownerRef": "SaveAndMigrationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 170,
+          "responseHash": "9bb426212465c1d4a6859d2914c8a08943ce3ef8d9f00ce0a3fb82597d785982"
+        }
+      ],
+      "trace": [
+        {
+          "phase": "Prepare",
+          "step": 1,
+          "result": "Started"
+        },
+        {
+          "phase": "Normalize",
+          "step": 2,
+          "result": "Resolved",
+          "resolvedRequestCount": 31,
+          "notApplicableRequestCount": 1,
+          "emptyCollectionRequestCount": 0
+        },
+        {
+          "phase": "Stage",
+          "step": 3,
+          "result": "AllAccepted",
+          "responses": 31,
+          "stagedMutableRecords": 11
+        },
+        {
+          "phase": "Commit",
+          "step": 4,
+          "result": "CandidateCommittedInMemory"
+        },
+        {
+          "phase": "Receipt",
+          "step": 5,
+          "result": "WrittenInMemory",
+          "receiptHash": "c34c2106ba158fb705642bcdd35f26f730179ed003ae736de4d8b4e67f800936"
+        },
+        {
+          "phase": "Release",
+          "step": 6,
+          "result": "CandidateReadyForDiscard"
+        },
+        {
+          "phase": "Discard",
+          "step": 7,
+          "result": "CandidateDiscardedZeroAuthoritativeMutation"
+        }
+      ],
+      "traceHash": "1df4be88f6bc92ae7772401688fcde0db7a088e7a7b2277e3afe7bf8c328eb46",
+      "resultHash": "f9a7f567ae4057ad7871d6e2cae7e430065fad31e2ead71064b7ddd420534037"
+    },
+    {
+      "scenarioId": "dryrun.almoravid.yusuf.accepted.v1",
+      "selectedPerspectiveRef": "perspective.almoravid.yusuf",
+      "expectedDisposition": "Accepted",
+      "actualDisposition": "Accepted",
+      "issueCodes": [],
+      "commit": true,
+      "rollbackPerformed": false,
+      "candidateCreated": true,
+      "candidateDiscarded": true,
+      "resolvedRequestCount": 31,
+      "notApplicableRequestCount": 1,
+      "ownerResponseCount": 31,
+      "requiredOwnerAcceptanceComplete": true,
+      "explicitEmptyCollectionsValidated": 66,
+      "requestsGeneratedFromExplicitEmptyCollections": 0,
+      "simulatedOwnerMutationCount": 11,
+      "authoritativeMutationCount": 0,
+      "ownerStateHashesBefore": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "candidateOwnerStateHashes": {
+        "CampaignInitializationOwner": "89d56730bf175f5c2cf87682f612db78710e8541c516e1fdcb68cdc9190f2eab",
+        "RealmAndFactionOwner": "f94db718becc42a0fe27b91cf01b11d7388ae50a370d7ed08423c083bd3506a8",
+        "CharacterFoundation": "28abc7d8a9ff21c1fa58c8f2c7266a0a139e0646011d667febda478f17242c7b",
+        "CampaignPerspectiveOwner": "af407873c33aa3a7cdb31a9d051dc9af971ff5a336806d1ca690e5a8ef3ed34c",
+        "GeographyFacingRealmOwner": "414dd11fe05d28c8dc8aade3a1336d7cc223de9701633c653c45ba79a1306d17",
+        "ReligiousAndJuristicOwner": "5e81d04e9df2471c5e3231630c9f52aacc119627dc1e28e1edc22f03a6fefb9a",
+        "SharedReligiousRegistry": "80f7e21d11692df4734d925294deabba6c4c86d1cdae0ecfdebf1122e8111bb7",
+        "EconomyOwner": "aa9a40c7da2b36a02bc95b5f97f28a0ae7807d95cd814959d92f53d090e9df12",
+        "PropertyOwner": "4306a33e1b9890190a9c13ae73a8eab5f80864abf362c827f76ceb34d99f5604",
+        "SupplyAndLogisticsOwner": "97cbbea648f6effb1df72099cead8cc6407410853b822fdff4194e839c332b8e",
+        "CapitalFoundationOwner": "39e8679b1686435ae8bedc6f76569a2f3c5fa472b7caa9cde8dfb31eff28f3d0",
+        "SharedEconomyTradeRegistry": "f60ac03934860207adc4280c13efb2c443d5657a5ff59c02edda44b7c7caf080",
+        "HistoricalDateOwner": "b5c53742df7970ee4573759dbaff89d71758f5e3c6ddf8d9537f746ce6694c24",
+        "HistoricalProgressionOwner": "4ed98b834e4abe380d7f20d2d0260807038899b89aa8d4ef279924556f301ce2",
+        "BiologicalProgressionOwner": "bab278bfe52281a06557345f051583b41de9cbe26da457acce27ef529b2ef06d",
+        "CampaignSeasonOwner": "395e6388f917827cf5eef8531a0d0d4b73b1589451465825c0f553494b0a2d5c",
+        "SaveAndMigrationOwner": "8d7d8d9aeb9089178503eb3d5f61f8f7e4dabfe5097b810ff07b6c87c35a37a1"
+      },
+      "ownerStateHashesAfterDiscard": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "applicationReceipt": {
+        "openingStateId": "opening.almoravid.1062",
+        "openingStateVersion": "1.0.0",
+        "registryVersion": "1.1.0",
+        "schemaSha256": "7631579ea6f0977b757f18696edf6309f7db9b5eaf13141f9f998b007f832293",
+        "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97",
+        "selectedPerspectiveRef": "perspective.almoravid.yusuf",
+        "perspectiveOverlayHash": "4bbd1371a078f1eace0c6c05aeb6c6b2cf59a1b46bbcb6117b9ec5d5b573338c",
+        "authorityManifestHash": "4e73865279350cb7a9690e2fba80d47db863870c39246bdd079d60665cd7f8c9",
+        "explicitEmptyCatalogueHash": "279204b7a84f24e6481a7863a44ab3cdc230884ecb489487d868cd0174d552ff",
+        "temporalStateHash": "712b4abcc94fecae29a4da7c781a48be9d1e080ba7c6c985d4257116c2587710",
+        "ownerStateHashes": {
+          "CampaignInitializationOwner": "89d56730bf175f5c2cf87682f612db78710e8541c516e1fdcb68cdc9190f2eab",
+          "RealmAndFactionOwner": "f94db718becc42a0fe27b91cf01b11d7388ae50a370d7ed08423c083bd3506a8",
+          "CharacterFoundation": "28abc7d8a9ff21c1fa58c8f2c7266a0a139e0646011d667febda478f17242c7b",
+          "CampaignPerspectiveOwner": "af407873c33aa3a7cdb31a9d051dc9af971ff5a336806d1ca690e5a8ef3ed34c",
+          "GeographyFacingRealmOwner": "414dd11fe05d28c8dc8aade3a1336d7cc223de9701633c653c45ba79a1306d17",
+          "ReligiousAndJuristicOwner": "5e81d04e9df2471c5e3231630c9f52aacc119627dc1e28e1edc22f03a6fefb9a",
+          "SharedReligiousRegistry": "80f7e21d11692df4734d925294deabba6c4c86d1cdae0ecfdebf1122e8111bb7",
+          "EconomyOwner": "aa9a40c7da2b36a02bc95b5f97f28a0ae7807d95cd814959d92f53d090e9df12",
+          "PropertyOwner": "4306a33e1b9890190a9c13ae73a8eab5f80864abf362c827f76ceb34d99f5604",
+          "SupplyAndLogisticsOwner": "97cbbea648f6effb1df72099cead8cc6407410853b822fdff4194e839c332b8e",
+          "CapitalFoundationOwner": "39e8679b1686435ae8bedc6f76569a2f3c5fa472b7caa9cde8dfb31eff28f3d0",
+          "SharedEconomyTradeRegistry": "f60ac03934860207adc4280c13efb2c443d5657a5ff59c02edda44b7c7caf080",
+          "HistoricalDateOwner": "b5c53742df7970ee4573759dbaff89d71758f5e3c6ddf8d9537f746ce6694c24",
+          "HistoricalProgressionOwner": "4ed98b834e4abe380d7f20d2d0260807038899b89aa8d4ef279924556f301ce2",
+          "BiologicalProgressionOwner": "bab278bfe52281a06557345f051583b41de9cbe26da457acce27ef529b2ef06d",
+          "CampaignSeasonOwner": "395e6388f917827cf5eef8531a0d0d4b73b1589451465825c0f553494b0a2d5c",
+          "SaveAndMigrationOwner": "8d7d8d9aeb9089178503eb3d5f61f8f7e4dabfe5097b810ff07b6c87c35a37a1"
+        },
+        "seed": 1062,
+        "disposition": "Accepted",
+        "traceHash": "70ee00b4518fef15f40403624283bee68c942aa0068531e47cb78477d215819b",
+        "receiptHash": "33be76cdfbe5890886a0e6dc0ca265f7a85cdb41e433739489aaa0c0330ea14a"
+      },
+      "notApplicableRequests": [
+        {
+          "requestRef": "opening_request.almoravid.1062.020",
+          "disposition": "NotApplicable",
+          "reason": "UnselectedPerspectiveTemplate"
+        }
+      ],
+      "ownerResponses": [
+        {
+          "requestRef": "opening_request.almoravid.1062.001",
+          "ownerRef": "CampaignInitializationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 10,
+          "responseHash": "3ad983049d7a307cc7ead2c1ce3db0a235ef6f8695ba9fd39100040ec3f3645c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.002",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "2089dc9acff52f48ddadb6cf95e0e42b63e57f67fbdc1dbcdcea972c1888633a"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.003",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "a70602883764269d6f412d54ed317ad48d47f22a1bfcf228538ad496816ec5b0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.004",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "1269b71c11115aa16e8aba32b8e9d0cd7d2634b888b9908dcce31f8b5fdf636c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.005",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "3338473e7e8a8d9773790d43583b54efde923b87cf812e3ee43b9b60beb6ca92"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.006",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "62aa9eadf0560a66610a8f8d1b2de26e7aa4b3da38cdbd44fccdb4faed906fa2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.007",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "7ccda20d6de2b98e911c31f272e0b8a5f545c5a54cb96572e47a2e0d6ee977fc"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.008",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "0a4c5b63e6c09f4b362436d47cb6e40df1b7fdc92ab016045e4080d99e9ffea0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.009",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "66fc765a3c495c1f47f40a7a5a6d748c053d9f2ebf9a8c9c5c207424900d61c4"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.010",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "1caa4ab32014cc579ff0af70dc52ac73857d6b44b643ac73154243fd48125738"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.011",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "b21a8ea402f676368251e9c1134a5a84e9949c22a84f472e787cd8da9963c01e"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.012",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "88c812aa8b8328d4a2ac0abce6ad1ef26cc98b4aab050db9e95628c92f581a4c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.013",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "e2a97b6edf994141eaf3dea525ec76965ccc55cc4bba5f078e12a940edefe4ea"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.014",
+          "ownerRef": "EconomyOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 80,
+          "responseHash": "8b51944508ca8bf48004d8da10e7e1bde26a3ef866082c75706f00da91d3c411"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.015",
+          "ownerRef": "PropertyOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 90,
+          "responseHash": "8616c7b7b77e811ef2fbc969e1be1a13c0c21281e76953e9f77049e0529711c5"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.016",
+          "ownerRef": "SupplyAndLogisticsOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 100,
+          "responseHash": "b247898aa6b5d3a6298858491f3e76439de2d41702f3dd28189c96410a6b3ba2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.017",
+          "ownerRef": "CapitalFoundationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 110,
+          "responseHash": "4e44f35009c76296ec91a7314327a5c47d64cc84278f8802d4731526ae6956b6"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.018",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "ab5fc78d116cf41a0bee9983108ddc79b1a68ee88647de3f2b6722ff170fd8a0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.019",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "48e316d5e48ea99dcb7e9fedd4e520a4c036d29855ac5d6cfb3850af5f186fb2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.021",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "df9127fa5d5a8bc8feb17c5a3fc1ae4702b13179ca71e33d0e83cd81e53b3494"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.022",
+          "ownerRef": "GeographyFacingRealmOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 50,
+          "responseHash": "8c1fe1180af5bbc5b0a13cd40ea9cf9026f132d1a8c29b82f758af3b372c97fa"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.023",
+          "ownerRef": "ReligiousAndJuristicOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 60,
+          "responseHash": "96539351dfefcc4f90a478d0146bba726b709d522fcc6a7d885dbe5d44f109ef"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.024",
+          "ownerRef": "ReligiousAndJuristicOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 60,
+          "responseHash": "ff31ea250a5513bf2c4afdcd3c4f8bae47da8182b3545e177bc960378d908a02"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.025",
+          "ownerRef": "SharedReligiousRegistry",
+          "response": "AcceptedStaged",
+          "ownerOrder": 70,
+          "responseHash": "9018dfe462f583a19660e0598d9ffc94cd21dd622205ee2b5c5ed61fd269c8eb"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.026",
+          "ownerRef": "SharedEconomyTradeRegistry",
+          "response": "AcceptedStaged",
+          "ownerOrder": 120,
+          "responseHash": "b5cdbe09524576c441f215fd64c08c9fe9843bba45a78f8bb37e73ecb52b2341"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.027",
+          "ownerRef": "SharedEconomyTradeRegistry",
+          "response": "AcceptedStaged",
+          "ownerOrder": 120,
+          "responseHash": "de70b5ccd696146bcbd3ec5e3e30c616d9933aebc256520aa4fd63075d06c1fc"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.028",
+          "ownerRef": "HistoricalDateOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 130,
+          "responseHash": "e033ec9baf4d913208fd5a52dc580d71f26348df726ec0f114157b5b25c25dd4"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.029",
+          "ownerRef": "HistoricalProgressionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 140,
+          "responseHash": "f3ca47b846d0e591e9fba65e666b65b0d23c6d52e427afdd6c49e307824eec60"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.030",
+          "ownerRef": "BiologicalProgressionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 150,
+          "responseHash": "6daf0b18183f30c67cc0eadc586facc2571c9a0971c5017adbd345ae9c825986"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.031",
+          "ownerRef": "CampaignSeasonOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 160,
+          "responseHash": "ed33af9c68b17d8a3b36ab1d1e5f3da52d96946dc1a0fc8e38f9e90a848b1b60"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.032",
+          "ownerRef": "SaveAndMigrationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 170,
+          "responseHash": "9bb426212465c1d4a6859d2914c8a08943ce3ef8d9f00ce0a3fb82597d785982"
+        }
+      ],
+      "trace": [
+        {
+          "phase": "Prepare",
+          "step": 1,
+          "result": "Started"
+        },
+        {
+          "phase": "Normalize",
+          "step": 2,
+          "result": "Resolved",
+          "resolvedRequestCount": 31,
+          "notApplicableRequestCount": 1,
+          "emptyCollectionRequestCount": 0
+        },
+        {
+          "phase": "Stage",
+          "step": 3,
+          "result": "AllAccepted",
+          "responses": 31,
+          "stagedMutableRecords": 11
+        },
+        {
+          "phase": "Commit",
+          "step": 4,
+          "result": "CandidateCommittedInMemory"
+        },
+        {
+          "phase": "Receipt",
+          "step": 5,
+          "result": "WrittenInMemory",
+          "receiptHash": "33be76cdfbe5890886a0e6dc0ca265f7a85cdb41e433739489aaa0c0330ea14a"
+        },
+        {
+          "phase": "Release",
+          "step": 6,
+          "result": "CandidateReadyForDiscard"
+        },
+        {
+          "phase": "Discard",
+          "step": 7,
+          "result": "CandidateDiscardedZeroAuthoritativeMutation"
+        }
+      ],
+      "traceHash": "9c7311f84714f574f1a85a02c44890051484f37cd8f737ce79c13570f961af10",
+      "resultHash": "4e7a67d9274655563f7b82e25d24a1f3d36bbb6e315e2b156e7162956c95d7fd"
+    },
+    {
+      "scenarioId": "dryrun.almoravid.already_applied.v1",
+      "selectedPerspectiveRef": "perspective.almoravid.abu_bakr",
+      "expectedDisposition": "AlreadyApplied",
+      "actualDisposition": "AlreadyApplied",
+      "issueCodes": [
+        "ALM_OSV_ALREADY_APPLIED"
+      ],
+      "commit": false,
+      "rollbackPerformed": false,
+      "candidateCreated": false,
+      "candidateDiscarded": true,
+      "resolvedRequestCount": 0,
+      "notApplicableRequestCount": 0,
+      "explicitEmptyCollectionsValidated": 66,
+      "requestsGeneratedFromExplicitEmptyCollections": 0,
+      "simulatedOwnerMutationCount": 0,
+      "authoritativeMutationCount": 0,
+      "ownerStateHashesBefore": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "ownerStateHashesAfterDiscard": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "applicationReceipt": null,
+      "trace": [
+        {
+          "phase": "Prepare",
+          "step": 1,
+          "result": "Started"
+        },
+        {
+          "phase": "Prepare",
+          "step": 2,
+          "result": "AlreadyApplied"
+        }
+      ],
+      "traceHash": "dd15c9cef1700b1519e231d5c107065789bcd230deadc7e78f63d62f5148119d",
+      "resultHash": "06c737814a5a14c1b333e465414ac0937962d20b5463a80dfe393fb35d602f1c"
+    },
+    {
+      "scenarioId": "dryrun.almoravid.owner_rejection.v1",
+      "selectedPerspectiveRef": "perspective.almoravid.abu_bakr",
+      "expectedDisposition": "RejectedFatal",
+      "actualDisposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_OWNER_REJECTED"
+      ],
+      "commit": false,
+      "rollbackPerformed": true,
+      "candidateCreated": true,
+      "candidateDiscarded": true,
+      "resolvedRequestCount": 31,
+      "notApplicableRequestCount": 1,
+      "ownerResponseCount": 21,
+      "requiredOwnerAcceptanceComplete": false,
+      "explicitEmptyCollectionsValidated": 66,
+      "requestsGeneratedFromExplicitEmptyCollections": 0,
+      "simulatedOwnerMutationCount": 5,
+      "authoritativeMutationCount": 0,
+      "ownerStateHashesBefore": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "candidateOwnerStateHashes": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "ownerStateHashesAfterDiscard": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "applicationReceipt": null,
+      "notApplicableRequests": [
+        {
+          "requestRef": "opening_request.almoravid.1062.021",
+          "disposition": "NotApplicable",
+          "reason": "UnselectedPerspectiveTemplate"
+        }
+      ],
+      "ownerResponses": [
+        {
+          "requestRef": "opening_request.almoravid.1062.001",
+          "ownerRef": "CampaignInitializationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 10,
+          "responseHash": "3ad983049d7a307cc7ead2c1ce3db0a235ef6f8695ba9fd39100040ec3f3645c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.002",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "2089dc9acff52f48ddadb6cf95e0e42b63e57f67fbdc1dbcdcea972c1888633a"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.003",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "a70602883764269d6f412d54ed317ad48d47f22a1bfcf228538ad496816ec5b0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.004",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "1269b71c11115aa16e8aba32b8e9d0cd7d2634b888b9908dcce31f8b5fdf636c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.005",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "3338473e7e8a8d9773790d43583b54efde923b87cf812e3ee43b9b60beb6ca92"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.006",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "62aa9eadf0560a66610a8f8d1b2de26e7aa4b3da38cdbd44fccdb4faed906fa2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.007",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "7ccda20d6de2b98e911c31f272e0b8a5f545c5a54cb96572e47a2e0d6ee977fc"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.008",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "0a4c5b63e6c09f4b362436d47cb6e40df1b7fdc92ab016045e4080d99e9ffea0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.009",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "66fc765a3c495c1f47f40a7a5a6d748c053d9f2ebf9a8c9c5c207424900d61c4"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.010",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "1caa4ab32014cc579ff0af70dc52ac73857d6b44b643ac73154243fd48125738"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.011",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "b21a8ea402f676368251e9c1134a5a84e9949c22a84f472e787cd8da9963c01e"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.012",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "88c812aa8b8328d4a2ac0abce6ad1ef26cc98b4aab050db9e95628c92f581a4c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.013",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "e2a97b6edf994141eaf3dea525ec76965ccc55cc4bba5f078e12a940edefe4ea"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.014",
+          "ownerRef": "EconomyOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 80,
+          "responseHash": "8b51944508ca8bf48004d8da10e7e1bde26a3ef866082c75706f00da91d3c411"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.015",
+          "ownerRef": "PropertyOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 90,
+          "responseHash": "8616c7b7b77e811ef2fbc969e1be1a13c0c21281e76953e9f77049e0529711c5"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.016",
+          "ownerRef": "SupplyAndLogisticsOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 100,
+          "responseHash": "b247898aa6b5d3a6298858491f3e76439de2d41702f3dd28189c96410a6b3ba2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.017",
+          "ownerRef": "CapitalFoundationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 110,
+          "responseHash": "4e44f35009c76296ec91a7314327a5c47d64cc84278f8802d4731526ae6956b6"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.018",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "ab5fc78d116cf41a0bee9983108ddc79b1a68ee88647de3f2b6722ff170fd8a0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.019",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "48e316d5e48ea99dcb7e9fedd4e520a4c036d29855ac5d6cfb3850af5f186fb2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.020",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "f712f15c46c6f0ed9ceb9872dbc1b58cc01eeb814133780beac3882676996bec"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.022",
+          "ownerRef": "GeographyFacingRealmOwner",
+          "response": "Rejected",
+          "ownerOrder": 50,
+          "responseHash": "e7ef9836983e904d3c1fc8ade3b3ce6e7659296b59b1dd25206cafb7f0e056eb"
+        }
+      ],
+      "trace": [
+        {
+          "phase": "Prepare",
+          "step": 1,
+          "result": "Started"
+        },
+        {
+          "phase": "Normalize",
+          "step": 2,
+          "result": "Resolved",
+          "resolvedRequestCount": 31,
+          "notApplicableRequestCount": 1,
+          "emptyCollectionRequestCount": 0
+        },
+        {
+          "phase": "Stage",
+          "step": 3,
+          "result": "Rejected",
+          "responses": 21,
+          "stagedMutableRecords": 5
+        },
+        {
+          "phase": "Rollback",
+          "step": 4,
+          "result": "RestoredPreTransactionHashes"
+        },
+        {
+          "phase": "Discard",
+          "step": 7,
+          "result": "CandidateDiscardedZeroAuthoritativeMutation"
+        }
+      ],
+      "traceHash": "10cef35a31af27a04040462ee6f01b60616bec1ff6e08a9c7b02fc5aee5fe07f",
+      "resultHash": "704b8f6db1721875b7b77c95f2739c02514e2d4602291c2dab3134241dd45807"
+    },
+    {
+      "scenarioId": "dryrun.almoravid.partial_stage_failure.v1",
+      "selectedPerspectiveRef": "perspective.almoravid.yusuf",
+      "expectedDisposition": "RejectedFatal",
+      "actualDisposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_PARTIAL_COMMIT"
+      ],
+      "commit": false,
+      "rollbackPerformed": true,
+      "candidateCreated": true,
+      "candidateDiscarded": true,
+      "resolvedRequestCount": 31,
+      "notApplicableRequestCount": 1,
+      "ownerResponseCount": 18,
+      "requiredOwnerAcceptanceComplete": false,
+      "explicitEmptyCollectionsValidated": 66,
+      "requestsGeneratedFromExplicitEmptyCollections": 0,
+      "simulatedOwnerMutationCount": 4,
+      "authoritativeMutationCount": 0,
+      "ownerStateHashesBefore": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "candidateOwnerStateHashes": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "ownerStateHashesAfterDiscard": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "applicationReceipt": null,
+      "notApplicableRequests": [
+        {
+          "requestRef": "opening_request.almoravid.1062.020",
+          "disposition": "NotApplicable",
+          "reason": "UnselectedPerspectiveTemplate"
+        }
+      ],
+      "ownerResponses": [
+        {
+          "requestRef": "opening_request.almoravid.1062.001",
+          "ownerRef": "CampaignInitializationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 10,
+          "responseHash": "3ad983049d7a307cc7ead2c1ce3db0a235ef6f8695ba9fd39100040ec3f3645c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.002",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "2089dc9acff52f48ddadb6cf95e0e42b63e57f67fbdc1dbcdcea972c1888633a"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.003",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "a70602883764269d6f412d54ed317ad48d47f22a1bfcf228538ad496816ec5b0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.004",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "1269b71c11115aa16e8aba32b8e9d0cd7d2634b888b9908dcce31f8b5fdf636c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.005",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "3338473e7e8a8d9773790d43583b54efde923b87cf812e3ee43b9b60beb6ca92"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.006",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "62aa9eadf0560a66610a8f8d1b2de26e7aa4b3da38cdbd44fccdb4faed906fa2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.007",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "7ccda20d6de2b98e911c31f272e0b8a5f545c5a54cb96572e47a2e0d6ee977fc"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.008",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "0a4c5b63e6c09f4b362436d47cb6e40df1b7fdc92ab016045e4080d99e9ffea0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.009",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "66fc765a3c495c1f47f40a7a5a6d748c053d9f2ebf9a8c9c5c207424900d61c4"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.010",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "1caa4ab32014cc579ff0af70dc52ac73857d6b44b643ac73154243fd48125738"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.011",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "b21a8ea402f676368251e9c1134a5a84e9949c22a84f472e787cd8da9963c01e"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.012",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "88c812aa8b8328d4a2ac0abce6ad1ef26cc98b4aab050db9e95628c92f581a4c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.013",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "e2a97b6edf994141eaf3dea525ec76965ccc55cc4bba5f078e12a940edefe4ea"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.014",
+          "ownerRef": "EconomyOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 80,
+          "responseHash": "8b51944508ca8bf48004d8da10e7e1bde26a3ef866082c75706f00da91d3c411"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.015",
+          "ownerRef": "PropertyOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 90,
+          "responseHash": "8616c7b7b77e811ef2fbc969e1be1a13c0c21281e76953e9f77049e0529711c5"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.016",
+          "ownerRef": "SupplyAndLogisticsOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 100,
+          "responseHash": "b247898aa6b5d3a6298858491f3e76439de2d41702f3dd28189c96410a6b3ba2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.017",
+          "ownerRef": "CapitalFoundationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 110,
+          "responseHash": "4e44f35009c76296ec91a7314327a5c47d64cc84278f8802d4731526ae6956b6"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.018",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "ab5fc78d116cf41a0bee9983108ddc79b1a68ee88647de3f2b6722ff170fd8a0"
+        }
+      ],
+      "trace": [
+        {
+          "phase": "Prepare",
+          "step": 1,
+          "result": "Started"
+        },
+        {
+          "phase": "Normalize",
+          "step": 2,
+          "result": "Resolved",
+          "resolvedRequestCount": 31,
+          "notApplicableRequestCount": 1,
+          "emptyCollectionRequestCount": 0
+        },
+        {
+          "phase": "Stage",
+          "step": 3,
+          "result": "Rejected",
+          "responses": 18,
+          "stagedMutableRecords": 4
+        },
+        {
+          "phase": "Rollback",
+          "step": 4,
+          "result": "RestoredPreTransactionHashes"
+        },
+        {
+          "phase": "Discard",
+          "step": 7,
+          "result": "CandidateDiscardedZeroAuthoritativeMutation"
+        }
+      ],
+      "traceHash": "9be90721aeef7819d0d893694f35da7c66a2a8561ccac54b607c1f0da0c3fe6b",
+      "resultHash": "7f6b5a3023bc3c656c7fa434b258659c807fa5eb303cf807cbdbaceec0477eec"
+    },
+    {
+      "scenarioId": "dryrun.almoravid.receipt_write_failure.v1",
+      "selectedPerspectiveRef": "perspective.almoravid.abu_bakr",
+      "expectedDisposition": "RejectedFatal",
+      "actualDisposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_RECEIPT_WRITE_FAILED"
+      ],
+      "commit": false,
+      "rollbackPerformed": true,
+      "candidateCreated": true,
+      "candidateDiscarded": true,
+      "resolvedRequestCount": 31,
+      "notApplicableRequestCount": 1,
+      "ownerResponseCount": 31,
+      "requiredOwnerAcceptanceComplete": true,
+      "explicitEmptyCollectionsValidated": 66,
+      "requestsGeneratedFromExplicitEmptyCollections": 0,
+      "simulatedOwnerMutationCount": 11,
+      "authoritativeMutationCount": 0,
+      "ownerStateHashesBefore": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "candidateOwnerStateHashes": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "ownerStateHashesAfterDiscard": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "applicationReceipt": null,
+      "notApplicableRequests": [
+        {
+          "requestRef": "opening_request.almoravid.1062.021",
+          "disposition": "NotApplicable",
+          "reason": "UnselectedPerspectiveTemplate"
+        }
+      ],
+      "ownerResponses": [
+        {
+          "requestRef": "opening_request.almoravid.1062.001",
+          "ownerRef": "CampaignInitializationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 10,
+          "responseHash": "3ad983049d7a307cc7ead2c1ce3db0a235ef6f8695ba9fd39100040ec3f3645c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.002",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "2089dc9acff52f48ddadb6cf95e0e42b63e57f67fbdc1dbcdcea972c1888633a"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.003",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "a70602883764269d6f412d54ed317ad48d47f22a1bfcf228538ad496816ec5b0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.004",
+          "ownerRef": "RealmAndFactionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 20,
+          "responseHash": "1269b71c11115aa16e8aba32b8e9d0cd7d2634b888b9908dcce31f8b5fdf636c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.005",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "3338473e7e8a8d9773790d43583b54efde923b87cf812e3ee43b9b60beb6ca92"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.006",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "62aa9eadf0560a66610a8f8d1b2de26e7aa4b3da38cdbd44fccdb4faed906fa2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.007",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "7ccda20d6de2b98e911c31f272e0b8a5f545c5a54cb96572e47a2e0d6ee977fc"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.008",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "0a4c5b63e6c09f4b362436d47cb6e40df1b7fdc92ab016045e4080d99e9ffea0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.009",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "66fc765a3c495c1f47f40a7a5a6d748c053d9f2ebf9a8c9c5c207424900d61c4"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.010",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "1caa4ab32014cc579ff0af70dc52ac73857d6b44b643ac73154243fd48125738"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.011",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "b21a8ea402f676368251e9c1134a5a84e9949c22a84f472e787cd8da9963c01e"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.012",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "88c812aa8b8328d4a2ac0abce6ad1ef26cc98b4aab050db9e95628c92f581a4c"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.013",
+          "ownerRef": "CharacterFoundation",
+          "response": "AcceptedStaged",
+          "ownerOrder": 30,
+          "responseHash": "e2a97b6edf994141eaf3dea525ec76965ccc55cc4bba5f078e12a940edefe4ea"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.014",
+          "ownerRef": "EconomyOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 80,
+          "responseHash": "8b51944508ca8bf48004d8da10e7e1bde26a3ef866082c75706f00da91d3c411"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.015",
+          "ownerRef": "PropertyOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 90,
+          "responseHash": "8616c7b7b77e811ef2fbc969e1be1a13c0c21281e76953e9f77049e0529711c5"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.016",
+          "ownerRef": "SupplyAndLogisticsOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 100,
+          "responseHash": "b247898aa6b5d3a6298858491f3e76439de2d41702f3dd28189c96410a6b3ba2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.017",
+          "ownerRef": "CapitalFoundationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 110,
+          "responseHash": "4e44f35009c76296ec91a7314327a5c47d64cc84278f8802d4731526ae6956b6"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.018",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "ab5fc78d116cf41a0bee9983108ddc79b1a68ee88647de3f2b6722ff170fd8a0"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.019",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "48e316d5e48ea99dcb7e9fedd4e520a4c036d29855ac5d6cfb3850af5f186fb2"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.020",
+          "ownerRef": "CampaignPerspectiveOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 40,
+          "responseHash": "f712f15c46c6f0ed9ceb9872dbc1b58cc01eeb814133780beac3882676996bec"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.022",
+          "ownerRef": "GeographyFacingRealmOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 50,
+          "responseHash": "8c1fe1180af5bbc5b0a13cd40ea9cf9026f132d1a8c29b82f758af3b372c97fa"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.023",
+          "ownerRef": "ReligiousAndJuristicOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 60,
+          "responseHash": "96539351dfefcc4f90a478d0146bba726b709d522fcc6a7d885dbe5d44f109ef"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.024",
+          "ownerRef": "ReligiousAndJuristicOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 60,
+          "responseHash": "ff31ea250a5513bf2c4afdcd3c4f8bae47da8182b3545e177bc960378d908a02"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.025",
+          "ownerRef": "SharedReligiousRegistry",
+          "response": "AcceptedStaged",
+          "ownerOrder": 70,
+          "responseHash": "9018dfe462f583a19660e0598d9ffc94cd21dd622205ee2b5c5ed61fd269c8eb"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.026",
+          "ownerRef": "SharedEconomyTradeRegistry",
+          "response": "AcceptedStaged",
+          "ownerOrder": 120,
+          "responseHash": "b5cdbe09524576c441f215fd64c08c9fe9843bba45a78f8bb37e73ecb52b2341"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.027",
+          "ownerRef": "SharedEconomyTradeRegistry",
+          "response": "AcceptedStaged",
+          "ownerOrder": 120,
+          "responseHash": "de70b5ccd696146bcbd3ec5e3e30c616d9933aebc256520aa4fd63075d06c1fc"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.028",
+          "ownerRef": "HistoricalDateOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 130,
+          "responseHash": "e033ec9baf4d913208fd5a52dc580d71f26348df726ec0f114157b5b25c25dd4"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.029",
+          "ownerRef": "HistoricalProgressionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 140,
+          "responseHash": "f3ca47b846d0e591e9fba65e666b65b0d23c6d52e427afdd6c49e307824eec60"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.030",
+          "ownerRef": "BiologicalProgressionOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 150,
+          "responseHash": "6daf0b18183f30c67cc0eadc586facc2571c9a0971c5017adbd345ae9c825986"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.031",
+          "ownerRef": "CampaignSeasonOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 160,
+          "responseHash": "ed33af9c68b17d8a3b36ab1d1e5f3da52d96946dc1a0fc8e38f9e90a848b1b60"
+        },
+        {
+          "requestRef": "opening_request.almoravid.1062.032",
+          "ownerRef": "SaveAndMigrationOwner",
+          "response": "AcceptedStaged",
+          "ownerOrder": 170,
+          "responseHash": "9bb426212465c1d4a6859d2914c8a08943ce3ef8d9f00ce0a3fb82597d785982"
+        }
+      ],
+      "trace": [
+        {
+          "phase": "Prepare",
+          "step": 1,
+          "result": "Started"
+        },
+        {
+          "phase": "Normalize",
+          "step": 2,
+          "result": "Resolved",
+          "resolvedRequestCount": 31,
+          "notApplicableRequestCount": 1,
+          "emptyCollectionRequestCount": 0
+        },
+        {
+          "phase": "Stage",
+          "step": 3,
+          "result": "AllAccepted",
+          "responses": 31,
+          "stagedMutableRecords": 11
+        },
+        {
+          "phase": "Commit",
+          "step": 4,
+          "result": "CandidateCommittedInMemory"
+        },
+        {
+          "phase": "Receipt",
+          "step": 5,
+          "result": "WriteFailed"
+        },
+        {
+          "phase": "Rollback",
+          "step": 6,
+          "result": "RestoredPreTransactionHashes"
+        },
+        {
+          "phase": "Discard",
+          "step": 7,
+          "result": "CandidateDiscardedZeroAuthoritativeMutation"
+        }
+      ],
+      "traceHash": "6291d2a19a1cb1b7d5be1ad5bd32f405478b9a872eed4fd68d310e551d474e78",
+      "resultHash": "4a57056aa94f8c3a01df4f61b7937b038c99fc1e4275e70cbe7d31934209eb30"
+    },
+    {
+      "scenarioId": "dryrun.almoravid.advanced_save_rejection.v1",
+      "selectedPerspectiveRef": "perspective.almoravid.yusuf",
+      "expectedDisposition": "RejectedFatal",
+      "actualDisposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_ADVANCED_SAVE_APPLICATION"
+      ],
+      "commit": false,
+      "rollbackPerformed": false,
+      "candidateCreated": false,
+      "candidateDiscarded": true,
+      "resolvedRequestCount": 0,
+      "notApplicableRequestCount": 0,
+      "explicitEmptyCollectionsValidated": 66,
+      "requestsGeneratedFromExplicitEmptyCollections": 0,
+      "simulatedOwnerMutationCount": 0,
+      "authoritativeMutationCount": 0,
+      "ownerStateHashesBefore": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "ownerStateHashesAfterDiscard": {
+        "CampaignInitializationOwner": "975d03fe9f44051e44e1afdcf533fd29cf6473fb46f01535dd0f825fd70eaac4",
+        "RealmAndFactionOwner": "266dc14107306aa24cf8558af0b653d9fb1f86fdc9dd835ac7e6cd3574e37f7e",
+        "CharacterFoundation": "4f2014682d6c369dfd0fef924949034da2c67caaa285203284b00dfcc86f38d4",
+        "CampaignPerspectiveOwner": "31793256699f4dfe59b6f99bc0099f01c54a91d9a7504de04debe444dfbec5e5",
+        "GeographyFacingRealmOwner": "582e7a946050aac1ac77b58f646f1afe40c693b94857bfdd83e2eb498f4059df",
+        "ReligiousAndJuristicOwner": "54ee76ce9a77b0bd1390fce0b6d42ead693d4f07ef4fe77512316cf73e7c31ff",
+        "SharedReligiousRegistry": "7ac3f485dfcbd9149845396e124fc5c0ced6847e43e49956d0250fbf76dddd59",
+        "EconomyOwner": "443e4a4d6af1ce97b4686555334e5f86ba35ec4e31bd4004feb019599625c625",
+        "PropertyOwner": "19e66938ae338f7f1b6a39a2e33858d5b27eb61afe69382c7a3a271bbb92f857",
+        "SupplyAndLogisticsOwner": "f59bbcec86678c6a32080cf7062c73cc77bf478176087df3870ea6ecaaa9209d",
+        "CapitalFoundationOwner": "ffa38a80c8c4e7eb27336af2372dfba13b2ec13b1fb1d8239f861663ea31a3e0",
+        "SharedEconomyTradeRegistry": "e633043e16430fc8a98033218713d394374b9590fb91ed4633858e58c85dae06",
+        "HistoricalDateOwner": "cbb0c8faeed8e1052660376a2edcb31f16db0c95b734f9213ce8d1528dd77752",
+        "HistoricalProgressionOwner": "b778711831775e880076112ee94a5a4ccab66715b1e5e4900f14a80d7c9e12b2",
+        "BiologicalProgressionOwner": "c875cec25284a02679ac26142ef4b1010ab0e5e24c099d71f93afc6b035534bf",
+        "CampaignSeasonOwner": "e70d326ae4f784aee573d44646681ce61673094a078518e7f762f4198d8bd3e2",
+        "SaveAndMigrationOwner": "bf2c1b413a9e217be865c1fcb770897d7b43883042085e31dfb698a915110f91"
+      },
+      "applicationReceipt": null,
+      "trace": [
+        {
+          "phase": "Prepare",
+          "step": 1,
+          "result": "Started"
+        },
+        {
+          "phase": "Prepare",
+          "step": 2,
+          "result": "RejectedAdvancedSave"
+        }
+      ],
+      "traceHash": "001ae9e1af3ae76022788b6b31d980317a19ff91b6a11ecdc522892a3ea0a68e",
+      "resultHash": "7092b9712873387e51f41d23a8f1fb843aa5d44943c9d9df630274e90033db9e"
+    }
+  ],
+  "dryRunCanonicalHash": "e8e811de773e9bd32ccc8713bb7c8da6ee36dbdaeda8f0b3588705974475b8d4"
+}

@@ -1,0 +1,56 @@
+{
+  "document_identity": {
+    "document_id": "mw.denmark.qualitative_mapping.request10.owner_adoption_request.v1",
+    "filename": "Denmark_Qualitative_Mapping_Request_10_Owner_Adoption_Request_V1_PENDING.json",
+    "version": "1.0.0",
+    "date": "2026-08-24",
+    "status": "PENDING_OWNER_ADOPTION"
+  },
+  "submission": {
+    "request_id": "request.denmark.qualitative_mapping.vocabulary_owner.v1",
+    "candidate_owner_authority_ref": "Framework.CharacterNetwork",
+    "runtime_binding_candidate": "Owner.Campaign.Relationships",
+    "denmark_source_authority": "Denmark Character Network",
+    "draft_receipt_ref": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json",
+    "proposed_disposition": "APPROVE"
+  },
+  "approved_dimensions_candidate": [
+    "Trust",
+    "Loyalty",
+    "Respect",
+    "Fear",
+    "Obligation",
+    "Kinship",
+    "ClaimConflict",
+    "PoliticalAlignment"
+  ],
+  "band_vocabulary": {
+    "approved_bands": [],
+    "vocabulary_contract_ref": "ReviewOnly:PendingApprovedBandVocabulary",
+    "blocking_validation_reasons": [
+      "MissingApprovedBandVocabulary"
+    ],
+    "receipt_validation_allowed": false
+  },
+  "authority_boundary": {
+    "importer_role": "ProposalOnly",
+    "shared_owner_validate_and_mutate_only_after_separate_authorization": true,
+    "unknown_is_zero": false,
+    "absent_is_zero": false,
+    "not_applicable_creates_dimension": false,
+    "unsupported_band_disposition": "REJECT_OR_QUARANTINE"
+  },
+  "authorization": {
+    "controlling_owner_receipt_received": false,
+    "owner_signature_received": false,
+    "receipt_validated": false,
+    "ledger_update_authorized": false,
+    "mapping_implementation_authorized": false,
+    "owner_submission_authorized": false,
+    "runtime_mutation_authorized": false,
+    "opening_state_execution_authorized": false,
+    "save_persistence_authorized": false,
+    "migration_execution_authorized": false,
+    "replay_validation_authorized": false
+  }
+}

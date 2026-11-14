@@ -1,0 +1,32 @@
+{
+  "FileName": "Sancho_Ramirez_Legitimate_V1_1_Playable_Successor_Principal_Character_Profile_Authority.md",
+  "SHA256": "3e10bd867dc61669cdfdbf055de3faaf8db784b807d6a228bee2569710824dd3",
+  "Bytes": 49785,
+  "Lines": 868,
+  "Result": "Pass",
+  "Checks": {
+    "source_bytes": 33322,
+    "successor_bytes": 49785,
+    "source_lines": 612,
+    "successor_lines": 868,
+    "successor_larger": true,
+    "peer_depth_floor": true,
+    "modules": true,
+    "validation_50": true,
+    "repeated_headings": {},
+    "duplicate_paragraphs": [],
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "balanced_fences": true,
+    "footer": 1,
+    "end": 1
+  },
+  "MutationReceipt": {
+    "SourceOverwritten": false,
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  }
+}

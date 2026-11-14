@@ -1,0 +1,1543 @@
+﻿{
+    "document_id":  "mw.shared-save.isolated-patch-surface-inspection.v2",
+    "generated_utc":  "2026-08-24T17:53:58.8170335Z",
+    "implementation_target":  "Unreal Engine 5.8",
+    "patch_root":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1",
+    "active_source_mutation_performed":  false,
+    "isolated_patch_mutation_performed":  false,
+    "owner_decision_complete":  false,
+    "file_records":  [
+                         {
+                             "key":  "SaveGameHeader",
+                             "path":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Source\\MedievalWarCampaign\\Public\\MWCampaignSaveGame.h",
+                             "bytes":  784,
+                             "lines":  22,
+                             "modified_utc":  "2026-08-24T16:10:34.7439091Z",
+                             "sha256":  "E76EFF658521DC7A8638919799190B0CEB5F39BB9A017491FDD101D1799C1BC9"
+                         },
+                         {
+                             "key":  "SaveSubsystemHeader",
+                             "path":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Source\\MedievalWarCampaign\\Public\\MWCampaignSaveSubsystem.h",
+                             "bytes":  849,
+                             "lines":  19,
+                             "modified_utc":  "2026-08-24T16:10:34.7939179Z",
+                             "sha256":  "DF562CD23DE41BA24E17038621E1BDFED91CD0F67E17C6E99E0D5EDCDA2046EB"
+                         },
+                         {
+                             "key":  "SaveSubsystemSource",
+                             "path":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Source\\MedievalWarCampaign\\Private\\MWCampaignSaveSubsystem.cpp",
+                             "bytes":  2736,
+                             "lines":  59,
+                             "modified_utc":  "2026-08-24T16:10:34.8419278Z",
+                             "sha256":  "E702F11298F2C846EA6F28A44DB60E299BA3EB55E70DDB5B4863982A602980D8"
+                         },
+                         {
+                             "key":  "TurnHeader",
+                             "path":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Source\\MedievalWarCampaign\\Public\\MWCampaignTurnSubsystem.h",
+                             "bytes":  11512,
+                             "lines":  173,
+                             "modified_utc":  "2026-08-21T23:15:59.9316189Z",
+                             "sha256":  "D55A3BAEA19E3F60BFCF2AC17BAE3C4F0274819D89FD45D73FC3F7EC0993474E"
+                         },
+                         {
+                             "key":  "TurnSource",
+                             "path":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Source\\MedievalWarCampaign\\Private\\MWCampaignTurnSubsystem.cpp",
+                             "bytes":  64880,
+                             "lines":  1142,
+                             "modified_utc":  "2026-08-21T23:16:05.1237961Z",
+                             "sha256":  "70ABF8569A363BD749262545E5F3546A8B80883DF520C0D4F8D1DC226767E0E3"
+                         },
+                         {
+                             "key":  "CampaignTypes",
+                             "path":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Source\\MedievalWarCampaign\\Public\\MWCampaignTypes.h",
+                             "bytes":  33402,
+                             "lines":  1035,
+                             "modified_utc":  "2026-08-21T23:15:59.9406198Z",
+                             "sha256":  "DB41B84AF4212545AB5904C95DF596E91B43A4583A90B15C80080337C5063656"
+                         }
+                     ],
+    "function_ranges":  {
+                            "InitializeCampaign":  {
+                                                       "found":  true,
+                                                       "start_line":  93,
+                                                       "end_line":  169,
+                                                       "line_count":  77
+                                                   },
+                            "ReplaceCampaignState":  {
+                                                         "found":  false,
+                                                         "start_line":  null,
+                                                         "end_line":  null,
+                                                         "line_count":  0
+                                                     },
+                            "SaveCampaignToSlot":  {
+                                                       "found":  true,
+                                                       "start_line":  6,
+                                                       "end_line":  21,
+                                                       "line_count":  16
+                                                   },
+                            "LoadCampaignFromSlot":  {
+                                                         "found":  true,
+                                                         "start_line":  23,
+                                                         "end_line":  49,
+                                                         "line_count":  27
+                                                     }
+                        },
+    "token_records":  [
+                          {
+                              "token":  "SaveFormatVersion",
+                              "found":  true,
+                              "match_count":  3,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "SaveGameHeader",
+                                                  "line":  13,
+                                                  "literal":  "int32 SaveFormatVersion = 1;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  15,
+                                                  "literal":  "Save-\u003eSaveFormatVersion = 1;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  27,
+                                                  "literal":  "if (!Save || Save-\u003eSaveFormatVersion != 1) return false;"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "CampaignSchemaVersion",
+                              "found":  true,
+                              "match_count":  4,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "SaveGameHeader",
+                                                  "line":  15,
+                                                  "literal":  "int32 CampaignSchemaVersion = 5;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  17,
+                                                  "literal":  "Save-\u003eCampaignSchemaVersion = Save-\u003eCampaignState.SchemaVersion;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  28,
+                                                  "literal":  "if (Save-\u003eCampaignSchemaVersion \u003c 2 || Save-\u003eCampaignSchemaVersion \u003e 6) return false;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  29,
+                                                  "literal":  "if (Save-\u003eCampaignState.SchemaVersion != Save-\u003eCampaignSchemaVersion) return false;"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "SavedStateHash",
+                              "found":  true,
+                              "match_count":  3,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "SaveGameHeader",
+                                                  "line":  17,
+                                                  "literal":  "FString SavedStateHash;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  18,
+                                                  "literal":  "Save-\u003eSavedStateHash = Turn-\u003eGetCurrentStateHash();"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  40,
+                                                  "literal":  "if (!Save-\u003eSavedStateHash.IsEmpty() \u0026\u0026 Turn-\u003eGetCurrentStateHash() != Save-\u003eSavedStateHash)"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "SavedAtUtc",
+                              "found":  true,
+                              "match_count":  2,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "SaveGameHeader",
+                                                  "line":  19,
+                                                  "literal":  "FDateTime SavedAtUtc;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  19,
+                                                  "literal":  "Save-\u003eSavedAtUtc = FDateTime::UtcNow();"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "CampaignState",
+                              "found":  true,
+                              "match_count":  161,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "SaveGameHeader",
+                                                  "line":  21,
+                                                  "literal":  "FMWCampaignState CampaignState;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  16,
+                                                  "literal":  "Save-\u003eCampaignState = Turn-\u003eGetCampaignState();"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  17,
+                                                  "literal":  "Save-\u003eCampaignSchemaVersion = Save-\u003eCampaignState.SchemaVersion;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  29,
+                                                  "literal":  "if (Save-\u003eCampaignState.SchemaVersion != Save-\u003eCampaignSchemaVersion) return false;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  36,
+                                                  "literal":  "const FMWCampaignState PreviousState = bHadCampaign ? Turn-\u003eGetCampaignState() : FMWCampaignState();"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  37,
+                                                  "literal":  "if (!Turn-\u003eReplaceCampaignState(Save-\u003eCampaignState)) return false;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  44,
+                                                  "literal":  "Turn-\u003eReplaceCampaignState(PreviousState);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  23,
+                                                  "literal":  "bool InitializeCampaign(const FMWCampaignState\u0026 InitialState);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  43,
+                                                  "literal":  "const FMWCampaignState\u0026 GetCampaignState() const { return CampaignState; }"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  82,
+                                                  "literal":  "bool ApplyCommand(FMWCampaignState\u0026 WorkingState, const FMWCampaignCommand\u0026 Command, FMWCampaignCommandResult\u0026 Result) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  84,
+                                                  "literal":  "bool ApplyCrossedDatedFacts(FMWCampaignState\u0026 WorkingState, const FMWCampaignDate\u0026 PreviousDate, const FMWCampaignDate\u0026 NewDate, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  85,
+                                                  "literal":  "bool ApplyBiologicalLifecycle(FMWCampaignState\u0026 WorkingState, TArray\u003cFGameplayTag\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  86,
+                                                  "literal":  "bool RouteBiologicalEligibilityReviews(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  87,
+                                                  "literal":  "bool ConsumeUnderagePowerRestrictionReviews(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  88,
+                                                  "literal":  "bool ConsumeCommandEligibilityReviews(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  89,
+                                                  "literal":  "bool ConsumeGovernanceEligibilityReviews(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  90,
+                                                  "literal":  "bool ApplyHistoricalMomentum(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  91,
+                                                  "literal":  "bool ApplyHistoricalEmergence(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  92,
+                                                  "literal":  "bool RouteHistoricalEmergenceCandidates(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  93,
+                                                  "literal":  "bool ConsumePoliticalRealignmentReviews(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  94,
+                                                  "literal":  "bool BuildPoliticalRealignmentProposals(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  95,
+                                                  "literal":  "bool EvaluatePoliticalRealignmentProposals(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  96,
+                                                  "literal":  "bool ReviewPoliticalRealignmentRecommendations(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  97,
+                                                  "literal":  "bool RoutePoliticalAdditionalAssessments(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  98,
+                                                  "literal":  "bool ConsumePoliticalLegitimacyAssessments(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  99,
+                                                  "literal":  "bool ConsumePoliticalCouncilAssessments(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  100,
+                                                  "literal":  "bool AssessPoliticalTypedCouncilEvidence(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  101,
+                                                  "literal":  "bool ConsumePoliticalDiplomacyAssessments(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  102,
+                                                  "literal":  "bool AssessPoliticalTypedDiplomacyEvidence(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  103,
+                                                  "literal":  "bool ReviewPoliticalLegitimacyEvidence(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  104,
+                                                  "literal":  "bool AssessPoliticalTypedLegitimacyEvidence(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  105,
+                                                  "literal":  "bool ReviewPoliticalLegitimacyRecommendations(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  106,
+                                                  "literal":  "bool ApplyRegionalClimate(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  111,
+                                                  "literal":  "FMWCampaignState CampaignState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  40,
+                                                  "literal":  "static void SyncLegacyDateFromTemporal(FMWCampaignState\u0026 State)"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  47,
+                                                  "literal":  "static void InitializeTemporalDateFromLegacy(FMWCampaignState\u0026 State)"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  93,
+                                                  "literal":  "bool UMWCampaignTurnSubsystem::InitializeCampaign(const FMWCampaignState\u0026 InitialState)"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  97,
+                                                  "literal":  "FMWCampaignState Candidate = InitialState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  136,
+                                                  "literal":  "CampaignState = MoveTemp(Candidate);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  203,
+                                                  "literal":  "CampaignState.TemporalState.CampaignSeason,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  214,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  225,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  236,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  247,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  258,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  269,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  277,
+                                                  "literal":  "bool UMWCampaignTurnSubsystem::ApplyHistoricalEmergence(FMWCampaignState\u0026 WorkingState,TArray\u003cFName\u003e\u0026 OutTrace) const"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  280,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  291,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  302,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  313,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  324,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  334,
+                                                  "literal":  "bool UMWCampaignTurnSubsystem::RoutePoliticalAdditionalAssessments(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  343,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  353,
+                                                  "literal":  "bool UMWCampaignTurnSubsystem::ConsumePoliticalCouncilAssessments(FMWCampaignState\u0026 WorkingState,TArray\u003cFName\u003e\u0026 OutTrace) const"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  360,
+                                                  "literal":  "bool UMWCampaignTurnSubsystem::AssessPoliticalTypedCouncilEvidence(FMWCampaignState\u0026 WorkingState,TArray\u003cFName\u003e\u0026 OutTrace) const"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  365,
+                                                  "literal":  "bool UMWCampaignTurnSubsystem::ConsumePoliticalDiplomacyAssessments(FMWCampaignState\u0026 WorkingState,TArray\u003cFName\u003e\u0026 OutTrace) const"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  373,
+                                                  "literal":  "bool UMWCampaignTurnSubsystem::AssessPoliticalTypedDiplomacyEvidence(FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  382,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  391,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  400,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState, TArray\u003cFName\u003e\u0026 OutTrace) const"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  410,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  431,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  464,
+                                                  "literal":  "const FMWCampaignState OriginalState = CampaignState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  466,
+                                                  "literal":  "FMWDualClockContract::AdvanceOneStrategicTurn(CampaignState.TemporalState);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  468,
+                                                  "literal":  "CampaignState.TemporalState = Advance.State;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  469,
+                                                  "literal":  "CampaignState.StrategicTurnIndex = Advance.State.StrategicTurnIndex;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  470,
+                                                  "literal":  "CampaignState.CurrentTurn = static_cast\u003cint32\u003e(Advance.State.StrategicTurnIndex);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  471,
+                                                  "literal":  "MWTurn::SyncLegacyDateFromTemporal(CampaignState);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  473,
+                                                  "literal":  "if (!ApplyCrossedDatedFacts(CampaignState, OriginalState.CurrentDate, CampaignState.CurrentDate, WorkingDatedFactTrace))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  475,
+                                                  "literal":  "CampaignState = OriginalState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  481,
+                                                  "literal":  "if (!ApplyBiologicalLifecycle(CampaignState, WorkingBiologicalLifecycleTrace))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  483,
+                                                  "literal":  "CampaignState = OriginalState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  489,
+                                                  "literal":  "if (!RouteBiologicalEligibilityReviews(CampaignState, WorkingEligibilityReviewTrace))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  491,
+                                                  "literal":  "CampaignState = OriginalState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  497,
+                                                  "literal":  "if (!ConsumeUnderagePowerRestrictionReviews(CampaignState, WorkingUnderageReviewTrace))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  499,
+                                                  "literal":  "CampaignState = OriginalState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  505,
+                                                  "literal":  "if (!ConsumeCommandEligibilityReviews(CampaignState, WorkingCommandEligibilityTrace))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  507,
+                                                  "literal":  "CampaignState = OriginalState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  513,
+                                                  "literal":  "if (!ConsumeGovernanceEligibilityReviews(CampaignState, WorkingGovernanceEligibilityTrace))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  515,
+                                                  "literal":  "CampaignState = OriginalState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  521,
+                                                  "literal":  "if (!ApplyRegionalClimate(CampaignState, WorkingSeasonalTrace))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  523,
+                                                  "literal":  "CampaignState = OriginalState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  561,
+                                                  "literal":  "(!ApplyHistoricalMomentum(CampaignState, WorkingHistoricalMomentumTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  562,
+                                                  "literal":  "!ApplyHistoricalEmergence(CampaignState, WorkingHistoricalEmergenceTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  563,
+                                                  "literal":  "!RouteHistoricalEmergenceCandidates(CampaignState, WorkingHistoricalEmergenceRoutingTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  564,
+                                                  "literal":  "!ConsumePoliticalRealignmentReviews(CampaignState, WorkingPoliticalRealignmentReviewTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  565,
+                                                  "literal":  "!BuildPoliticalRealignmentProposals(CampaignState, WorkingPoliticalRealignmentProposalTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  566,
+                                                  "literal":  "!EvaluatePoliticalRealignmentProposals(CampaignState, WorkingPoliticalRealignmentRecommendationTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  567,
+                                                  "literal":  "!ReviewPoliticalRealignmentRecommendations(CampaignState, WorkingPoliticalRealignmentRecommendationReviewTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  568,
+                                                  "literal":  "!RoutePoliticalAdditionalAssessments(CampaignState, WorkingPoliticalAdditionalAssessmentRoutingTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  569,
+                                                  "literal":  "!ConsumePoliticalLegitimacyAssessments(CampaignState, WorkingPoliticalLegitimacyAssessmentTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  570,
+                                                  "literal":  "!ConsumePoliticalCouncilAssessments(CampaignState, WorkingPoliticalCouncilAssessmentTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  571,
+                                                  "literal":  "!AssessPoliticalTypedCouncilEvidence(CampaignState, WorkingPoliticalTypedCouncilEvidenceAssessmentTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  572,
+                                                  "literal":  "!ConsumePoliticalDiplomacyAssessments(CampaignState, WorkingPoliticalDiplomacyAssessmentTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  573,
+                                                  "literal":  "!AssessPoliticalTypedDiplomacyEvidence(CampaignState, WorkingPoliticalTypedDiplomacyEvidenceAssessmentTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  574,
+                                                  "literal":  "!ReviewPoliticalLegitimacyEvidence(CampaignState, WorkingPoliticalLegitimacyEvidenceReviewTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  575,
+                                                  "literal":  "!AssessPoliticalTypedLegitimacyEvidence(CampaignState, WorkingPoliticalTypedLegitimacyEvidenceAssessmentTrace) ||"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  576,
+                                                  "literal":  "!ReviewPoliticalLegitimacyRecommendations(CampaignState, WorkingPoliticalLegitimacyRecommendationReviewTrace)))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  577,
+                                                  "literal":  "{ CampaignState = OriginalState; CurrentPhase = EMWCampaignTurnPhase::Complete; return false; }"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  580,
+                                                  "literal":  "CampaignState = OriginalState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  610,
+                                                  "literal":  "OnTurnCompleted.Broadcast(CampaignState.CurrentTurn, GetCurrentStateHash());"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  617,
+                                                  "literal":  "FMWCampaignState Working = CampaignState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  626,
+                                                  "literal":  "if (!ApplyCrossedDatedFacts(Working, CampaignState.CurrentDate, Working.CurrentDate, WorkingDatedFactTrace)) return false;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  681,
+                                                  "literal":  "CampaignState = MoveTemp(Working);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  705,
+                                                  "literal":  "OnTurnCompleted.Broadcast(CampaignState.CurrentTurn, GetCurrentStateHash());"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  717,
+                                                  "literal":  "CampaignState.CampaignSeed = Seed;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  732,
+                                                  "literal":  "\u0026\u0026 Validator \u0026\u0026 !Validator-\u003eIsStateValidForTurn(CampaignState))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  748,
+                                                  "literal":  "for (const FMWDeferredCampaignCommand\u0026 Deferred : CampaignState.DeferredCommands)"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  750,
+                                                  "literal":  "if (Deferred.ExecuteOnTurn == CampaignState.CurrentTurn \u0026\u0026 Deferred.Command.Phase == Phase)"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  760,
+                                                  "literal":  "FMWCampaignState Working = CampaignState;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  770,
+                                                  "literal":  "CampaignState = MoveTemp(Working);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  775,
+                                                  "literal":  "FMWCampaignState\u0026 WorkingState, const FMWCampaignCommand\u0026 Command,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  828,
+                                                  "literal":  "CampaignState.SchemaVersion, CampaignState.DefinitionContentVersion, CampaignState.ScenarioVersion,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  829,
+                                                  "literal":  "CampaignState.CurrentTurn, CampaignState.StrategicTurnIndex,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  830,
+                                                  "literal":  "CampaignState.RegionalClimateModelVersion, CampaignState.BiologicalLifecycleModelVersion,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  831,
+                                                  "literal":  "CampaignState.BiologicalEligibilityRoutingModelVersion,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  832,
+                                                  "literal":  "CampaignState.UnderagePowerRestrictionReviewModelVersion,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  833,
+                                                  "literal":  "CampaignState.CommandEligibilityReviewModelVersion,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  834,
+                                                  "literal":  "CampaignState.GovernanceEligibilityReviewModelVersion,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  835,
+                                                  "literal":  "CampaignState.HistoricalMomentumModelVersion, CampaignState.HistoricalEmergenceModelVersion, CampaignState.HistoricalEmergenceRoutingModelVersion, CampaignState.PoliticalRealignmentReviewModelVersion, CampaignState.PoliticalRealignmentProposalModelVersion, CampaignState.PoliticalRealignmentProposalEvaluationModelVersion, CampaignState.PoliticalRealignmentRecommendationReviewModelVersion, CampaignState.PoliticalAdditionalAssessmentRoutingModelVersion, CampaignState.PoliticalLegitimacyAssessmentModelVersion, CampaignState.PoliticalLegitimacyEvidenceReviewModelVersion, CampaignState.PoliticalTypedLegitimacyEvidenceAssessmentModelVersion, CampaignState.PoliticalLegitimacyRecommendationReviewModelVersion, CampaignState.PoliticalCouncilAssessmentModelVersion, CampaignState.PoliticalTypedCouncilEvidenceAssessmentModelVersion, CampaignState.PoliticalDiplomacyAssessmentModelVersion, CampaignState.PoliticalTypedDiplomacyEvidenceAssessmentModelVersion, CampaignState.CampaignSeed, *MWTurn::TagString(CampaignState.ScenarioId),"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  836,
+                                                  "literal":  "*CampaignState.CurrentDate.ToStableString(),"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  837,
+                                                  "literal":  "*FMWDualClockContract::BuildTemporalHash(CampaignState.TemporalState)));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  840,
+                                                  "literal":  "for (const FGameplayTag\u0026 Key : SortedKeys(CampaignState.Characters))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  842,
+                                                  "literal":  "const auto\u0026 V=CampaignState.Characters[Key];"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  845,
+                                                  "literal":  "for (const FGameplayTag\u0026 Key : SortedKeys(CampaignState.Titles))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  846,
+                                                  "literal":  "{ const auto\u0026 V=CampaignState.Titles[Key]; Lines.Add(FString::Printf(TEXT(\"T|%s|%s|%.3f\"),*Key.ToString(),*MWTurn::TagString(V.HolderId),V.Recognition)); }"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  847,
+                                                  "literal":  "for (const FGameplayTag\u0026 Key : SortedKeys(CampaignState.Claims))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  848,
+                                                  "literal":  "{ const auto\u0026 V=CampaignState.Claims[Key]; Lines.Add(FString::Printf(TEXT(\"Q|%s|%s|%s|%.3f|%d\"),*Key.ToString(),*MWTurn::TagString(V.ClaimantId),*MWTurn::TagString(V.TargetId),V.Strength,V.bActive)); }"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  849,
+                                                  "literal":  "for (const FGameplayTag\u0026 Key : SortedKeys(CampaignState.Momentum))"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  850,
+                                                  "literal":  "{ const auto\u0026 V=CampaignState.Momentum[Key]; Lines.Add(FString::Printf(TEXT(\"M|%s|%s|%.3f|%d\"),*Key.ToString(),*MWTurn::TagString(V.CurrentStage),V.Pressure,V.bActive)); }"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  856,
+                                                  "literal":  "TArray\u003cFMWDatedFactReceipt\u003e Receipts = CampaignState.DatedFactReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  863,
+                                                  "literal":  "TArray\u003cFMWBiologicalLifecycleObservation\u003e LifecycleObservations = CampaignState.BiologicalLifecycleObservations;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  877,
+                                                  "literal":  "TArray\u003cFMWBiologicalEligibilityReviewRequest\u003e EligibilityRequests = CampaignState.BiologicalEligibilityReviewRequests;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  891,
+                                                  "literal":  "CampaignState.UnderagePowerRestrictionDecisionReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  905,
+                                                  "literal":  "CampaignState.CommandEligibilityDecisionReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  920,
+                                                  "literal":  "CampaignState.GovernanceEligibilityDecisionReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  937,
+                                                  "literal":  "for(const auto\u0026 O:CampaignState.HistoricalMomentumObservations) Lines.Add(FString::Printf(TEXT(\"MO|%s|%s|%s|%s|%d|%d|%lld|%lld|%s\"),*O.ObservationId.ToString(),*O.EvidenceId.ToString(),*O.SourceFactId.ToString(),*O.SubjectId.ToString(),static_cast\u003cint32\u003e(O.PressureChannel),O.PressureValue,O.HistoricalStepIndex,O.StrategicTurnIndex,*O.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  938,
+                                                  "literal":  "for(const auto\u0026 R:CampaignState.HistoricalMomentumReceipts) Lines.Add(FString::Printf(TEXT(\"MR|%s|%s|%s|%s|%lld|%lld|%s\"),*R.ReceiptId.ToString(),*R.ObservationId.ToString(),*R.EvidenceId.ToString(),*R.SubjectId.ToString(),R.HistoricalStepIndex,R.StrategicTurnIndex,*R.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  939,
+                                                  "literal":  "for(const auto\u0026 C:CampaignState.HistoricalEmergenceCandidates) Lines.Add(FString::Printf(TEXT(\"EC|%s|%s|%s|%d|%lld|%lld|%d|%s\"),*C.CandidateId.ToString(),*C.RuleId.ToString(),*C.SubjectId.ToString(),static_cast\u003cint32\u003e(C.CandidateType),C.HistoricalStepIndex,C.StrategicTurnIndex,static_cast\u003cint32\u003e(C.Disposition),*C.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  940,
+                                                  "literal":  "for(const auto\u0026 R:CampaignState.HistoricalEmergenceReceipts) Lines.Add(FString::Printf(TEXT(\"EX|%s|%s|%s|%s|%lld|%lld|%s\"),*R.ReceiptId.ToString(),*R.CandidateId.ToString(),*R.RuleId.ToString(),*R.SubjectId.ToString(),R.HistoricalStepIndex,R.StrategicTurnIndex,*R.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  941,
+                                                  "literal":  "TArray\u003cFMWHistoricalEmergenceReviewRequest\u003e EmergenceRequests = CampaignState.HistoricalEmergenceReviewRequests;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  957,
+                                                  "literal":  "CampaignState.PoliticalRealignmentReviewDecisionReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  972,
+                                                  "literal":  "TArray\u003cFMWPoliticalRealignmentProposal\u003e PoliticalProposals = CampaignState.PoliticalRealignmentProposals;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  986,
+                                                  "literal":  "TArray\u003cFMWPoliticalRealignmentProposalReceipt\u003e PoliticalProposalReceipts = CampaignState.PoliticalRealignmentProposalReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  999,
+                                                  "literal":  "TArray\u003cFMWPoliticalRealignmentRecommendationRecord\u003e PoliticalRecommendations = CampaignState.PoliticalRealignmentRecommendations;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1007,
+                                                  "literal":  "TArray\u003cFMWPoliticalRealignmentRecommendationReceipt\u003e RecommendationReceipts = CampaignState.PoliticalRealignmentRecommendationReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1015,
+                                                  "literal":  "TArray\u003cFMWPoliticalRealignmentRecommendationReviewReceipt\u003e RecommendationReviews = CampaignState.PoliticalRealignmentRecommendationReviewReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1024,
+                                                  "literal":  "TArray\u003cFMWPoliticalAdditionalAssessmentRequest\u003e AssessmentRequests = CampaignState.PoliticalAdditionalAssessmentRequests;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1033,
+                                                  "literal":  "TArray\u003cFMWPoliticalLegitimacyAssessmentDecisionReceipt\u003e LegitimacyDecisions = CampaignState.PoliticalLegitimacyAssessmentDecisionReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1044,
+                                                  "literal":  "CampaignState.PoliticalTypedLegitimacyEvidenceAssessmentReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1068,
+                                                  "literal":  "CampaignState.PoliticalLegitimacyRecommendationReviewReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1082,
+                                                  "literal":  "TArray\u003cFMWPoliticalCouncilAssessmentDecisionReceipt\u003e CouncilAssessments=CampaignState.PoliticalCouncilAssessmentDecisionReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1089,
+                                                  "literal":  "TArray\u003cFMWPoliticalTypedCouncilEvidenceAssessmentReceipt\u003e TypedCouncil=CampaignState.PoliticalTypedCouncilEvidenceAssessmentReceipts;TypedCouncil.Sort([](const auto\u0026A,const auto\u0026B){return A.AssessmentId.ToString()\u003cB.AssessmentId.ToString();});for(const auto\u0026A:TypedCouncil){TArray\u003cFString\u003eF;for(const auto\u0026X:A.Findings)F.Add(FString::Printf(TEXT(\"%d:%s:%s:%d:%s\"),static_cast\u003cint32\u003e(X.EvidenceType),*X.EvidenceId.ToString(),*X.OwnerId.ToString(),static_cast\u003cint32\u003e(X.Finding),*X.InterpretationBasis));Lines.Add(FString::Printf(TEXT(\"TCA|%s|%s|%s|%s|%d|%lld|%lld|%s|%s\"),*A.AssessmentId.ToString(),*A.SourceCouncilAssessmentDecisionId.ToString(),*A.RequestId.ToString(),*A.SubjectId.ToString(),static_cast\u003cint32\u003e(A.Decision),A.HistoricalStepIndex,A.StrategicTurnIndex,*FString::Join(F,TEXT(\",\")),*A.ResultHash));}"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1090,
+                                                  "literal":  "TArray\u003cFMWPoliticalDiplomacyAssessmentDecisionReceipt\u003e DiplomacyAssessments=CampaignState.PoliticalDiplomacyAssessmentDecisionReceipts;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1094,
+                                                  "literal":  "TArray\u003cFMWRegionalSeasonalEffect\u003e SeasonalEffects = CampaignState.RegionalSeasonalEffects;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1100,
+                                                  "literal":  "for (const auto\u0026 R : CampaignState.PoliticalLegitimacyEvidenceReviewReceipts)"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1132,
+                                                  "literal":  "TArray\u003cFMWRelationshipState\u003e Relationships=CampaignState.Relationships;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1138,
+                                                  "literal":  "Lines.Add(FString::Printf(TEXT(\"TDA_MODEL|%d\"), CampaignState.PoliticalTypedDiplomacyEvidenceAssessmentModelVersion));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1139,
+                                                  "literal":  "Lines.Add(FMWPoliticalTypedDiplomacyEvidenceAssessmentContract::BuildAssessmentHash(CampaignState));"
+                                              },
+                                              {
+                                                  "file_key":  "CampaignTypes",
+                                                  "line":  832,
+                                                  "literal":  "struct MEDIEVALWARCAMPAIGN_API FMWCampaignState"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "InitializeCampaign",
+                              "found":  true,
+                              "match_count":  2,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  23,
+                                                  "literal":  "bool InitializeCampaign(const FMWCampaignState\u0026 InitialState);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  93,
+                                                  "literal":  "bool UMWCampaignTurnSubsystem::InitializeCampaign(const FMWCampaignState\u0026 InitialState)"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "ReplaceCampaignState",
+                              "found":  true,
+                              "match_count":  2,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  37,
+                                                  "literal":  "if (!Turn-\u003eReplaceCampaignState(Save-\u003eCampaignState)) return false;"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  44,
+                                                  "literal":  "Turn-\u003eReplaceCampaignState(PreviousState);"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "GetCampaignState",
+                              "found":  true,
+                              "match_count":  3,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  16,
+                                                  "literal":  "Save-\u003eCampaignState = Turn-\u003eGetCampaignState();"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  36,
+                                                  "literal":  "const FMWCampaignState PreviousState = bHadCampaign ? Turn-\u003eGetCampaignState() : FMWCampaignState();"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  43,
+                                                  "literal":  "const FMWCampaignState\u0026 GetCampaignState() const { return CampaignState; }"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "GetCurrentStateHash",
+                              "found":  true,
+                              "match_count":  6,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  18,
+                                                  "literal":  "Save-\u003eSavedStateHash = Turn-\u003eGetCurrentStateHash();"
+                                              },
+                                              {
+                                                  "file_key":  "SaveSubsystemSource",
+                                                  "line":  40,
+                                                  "literal":  "if (!Save-\u003eSavedStateHash.IsEmpty() \u0026\u0026 Turn-\u003eGetCurrentStateHash() != Save-\u003eSavedStateHash)"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  46,
+                                                  "literal":  "FString GetCurrentStateHash() const;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  610,
+                                                  "literal":  "OnTurnCompleted.Broadcast(CampaignState.CurrentTurn, GetCurrentStateHash());"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  705,
+                                                  "literal":  "OnTurnCompleted.Broadcast(CampaignState.CurrentTurn, GetCurrentStateHash());"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  812,
+                                                  "literal":  "FString UMWCampaignTurnSubsystem::GetCurrentStateHash() const"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "LastCommittedPhaseTrace",
+                              "found":  true,
+                              "match_count":  4,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  77,
+                                                  "literal":  "const TArray\u003cEMWCampaignTurnPhase\u003e\u0026 GetLastCommittedPhaseTrace() const { return LastCommittedPhaseTrace; }"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  120,
+                                                  "literal":  "TArray\u003cEMWCampaignTurnPhase\u003e LastCommittedPhaseTrace;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  139,
+                                                  "literal":  "LastCommittedPhaseTrace.Reset();"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  586,
+                                                  "literal":  "LastCommittedPhaseTrace = MoveTemp(WorkingTrace);"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "LastCommittedDatedFactTrace",
+                              "found":  true,
+                              "match_count":  5,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  53,
+                                                  "literal":  "const TArray\u003cFName\u003e\u0026 GetLastCommittedDatedFactTrace() const { return LastCommittedDatedFactTrace; }"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  124,
+                                                  "literal":  "TArray\u003cFName\u003e LastCommittedDatedFactTrace;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  140,
+                                                  "literal":  "LastCommittedDatedFactTrace.Reset();"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  587,
+                                                  "literal":  "LastCommittedDatedFactTrace = MoveTemp(WorkingDatedFactTrace);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  682,
+                                                  "literal":  "LastCommittedDatedFactTrace = MoveTemp(WorkingDatedFactTrace);"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "DatedFactDefinitions",
+                              "found":  true,
+                              "match_count":  5,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  122,
+                                                  "literal":  "TArray\u003cFMWDatedFactDefinition\u003e DatedFactDefinitions;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  141,
+                                                  "literal":  "DatedFactDefinitions.Reset();"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  183,
+                                                  "literal":  "DatedFactDefinitions = MoveTemp(Candidate);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  443,
+                                                  "literal":  "for (const FMWDatedFactDefinition\u0026 Fact : DatedFactDefinitions)"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  851,
+                                                  "literal":  "for (const FMWDatedFactDefinition\u0026 Fact : DatedFactDefinitions)"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "RegionalClimateProfiles",
+                              "found":  true,
+                              "match_count":  4,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  127,
+                                                  "literal":  "TArray\u003cFMWRegionalClimateProfile\u003e RegionalClimateProfiles;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  142,
+                                                  "literal":  "RegionalClimateProfiles.Reset();"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  208,
+                                                  "literal":  "RegionalClimateProfiles = Profiles;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  421,
+                                                  "literal":  "RegionalClimateProfiles,"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "RegionClimateAssignments",
+                              "found":  true,
+                              "match_count":  4,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  130,
+                                                  "literal":  "TArray\u003cFMWRegionClimateAssignment\u003e RegionClimateAssignments;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  143,
+                                                  "literal":  "RegionClimateAssignments.Reset();"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  209,
+                                                  "literal":  "RegionClimateAssignments = Assignments;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  422,
+                                                  "literal":  "RegionClimateAssignments);"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "HistoricalMomentumEvidenceDefinitions",
+                              "found":  true,
+                              "match_count":  5,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  145,
+                                                  "literal":  "TArray\u003cFMWHistoricalMomentumEvidenceDefinition\u003e HistoricalMomentumEvidenceDefinitions;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  150,
+                                                  "literal":  "HistoricalMomentumEvidenceDefinitions.Reset();"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  192,
+                                                  "literal":  "HistoricalMomentumEvidenceDefinitions = Definitions;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  271,
+                                                  "literal":  "const FMWHistoricalMomentumResolution Resolution = FMWHistoricalMomentumContract::Process(WorkingState, HistoricalMomentumEvidenceDefinitions);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  934,
+                                                  "literal":  "TArray\u003cFMWHistoricalMomentumEvidenceDefinition\u003e MomentumDefinitions = HistoricalMomentumEvidenceDefinitions;"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "HistoricalEmergenceRules",
+                              "found":  true,
+                              "match_count":  6,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  49,
+                                                  "literal":  "bool RegisterHistoricalEmergenceRules(const TArray\u003cFMWHistoricalEmergenceRuleDefinition\u003e\u0026 Rules);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnHeader",
+                                                  "line":  149,
+                                                  "literal":  "TArray\u003cFMWHistoricalEmergenceRuleDefinition\u003e HistoricalEmergenceRules;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  152,
+                                                  "literal":  "HistoricalEmergenceRules.Reset();"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  196,
+                                                  "literal":  "bool UMWCampaignTurnSubsystem::RegisterHistoricalEmergenceRules(const TArray\u003cFMWHistoricalEmergenceRuleDefinition\u003e\u0026 Rules)"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  197,
+                                                  "literal":  "{ FString Reason; if(!FMWHistoricalEmergenceCandidateContract::ValidateRules(Rules,Reason)) return false; HistoricalEmergenceRules=Rules; return true; }"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  278,
+                                                  "literal":  "{ const auto R=FMWHistoricalEmergenceCandidateContract::Evaluate(WorkingState,HistoricalEmergenceRules); if(!R.bAccepted)return false; OutTrace=R.OrderedCandidateTrace; return true; }"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "HistoricalElapsedMonths",
+                              "found":  false,
+                              "match_count":  0,
+                              "matches":  [
+
+                                          ]
+                          },
+                          {
+                              "token":  "BiologicalElapsedMonths",
+                              "found":  false,
+                              "match_count":  0,
+                              "matches":  [
+
+                                          ]
+                          },
+                          {
+                              "token":  "CampaignSeason",
+                              "found":  true,
+                              "match_count":  3,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  203,
+                                                  "literal":  "CampaignState.TemporalState.CampaignSeason,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  420,
+                                                  "literal":  "WorkingState.TemporalState.CampaignSeason,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1122,
+                                                  "literal":  "static_cast\u003cint32\u003e(Effect.CampaignSeason),"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "StrategicTurnIndex",
+                              "found":  true,
+                              "match_count":  36,
+                              "matches":  [
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  70,
+                                                  "literal":  "static FString DatedFactResultHash(const FMWDatedFactDefinition\u0026 Fact, const int64 StrategicTurnIndex)"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  74,
+                                                  "literal":  "*Fact.PayloadId.ToString(), Fact.ContentVersion, StrategicTurnIndex);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  117,
+                                                  "literal":  "Candidate.StrategicTurnIndex = Candidate.TemporalState.StrategicTurnIndex;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  452,
+                                                  "literal":  "Receipt.AppliedStrategicTurnIndex = WorkingState.StrategicTurnIndex;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  453,
+                                                  "literal":  "Receipt.ResultHash = MWTurn::DatedFactResultHash(Fact, WorkingState.StrategicTurnIndex);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  469,
+                                                  "literal":  "CampaignState.StrategicTurnIndex = Advance.State.StrategicTurnIndex;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  470,
+                                                  "literal":  "CampaignState.CurrentTurn = static_cast\u003cint32\u003e(Advance.State.StrategicTurnIndex);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  622,
+                                                  "literal":  "Working.StrategicTurnIndex = Advance.State.StrategicTurnIndex;"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  623,
+                                                  "literal":  "Working.CurrentTurn = static_cast\u003cint32\u003e(Advance.State.StrategicTurnIndex);"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  829,
+                                                  "literal":  "CampaignState.CurrentTurn, CampaignState.StrategicTurnIndex,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  861,
+                                                  "literal":  "*Receipt.AppliedDate.ToStableString(), Receipt.AppliedStrategicTurnIndex, *Receipt.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  886,
+                                                  "literal":  "static_cast\u003cint32\u003e(Request.Domain), *Request.OwnerId.ToString(), Request.StrategicTurnIndex,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  901,
+                                                  "literal":  "Receipt.StrategicTurnIndex, *Receipt.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  915,
+                                                  "literal":  "static_cast\u003cint32\u003e(Receipt.Decision), Receipt.StrategicTurnIndex,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  930,
+                                                  "literal":  "static_cast\u003cint32\u003e(Receipt.Decision), Receipt.StrategicTurnIndex,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  937,
+                                                  "literal":  "for(const auto\u0026 O:CampaignState.HistoricalMomentumObservations) Lines.Add(FString::Printf(TEXT(\"MO|%s|%s|%s|%s|%d|%d|%lld|%lld|%s\"),*O.ObservationId.ToString(),*O.EvidenceId.ToString(),*O.SourceFactId.ToString(),*O.SubjectId.ToString(),static_cast\u003cint32\u003e(O.PressureChannel),O.PressureValue,O.HistoricalStepIndex,O.StrategicTurnIndex,*O.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  938,
+                                                  "literal":  "for(const auto\u0026 R:CampaignState.HistoricalMomentumReceipts) Lines.Add(FString::Printf(TEXT(\"MR|%s|%s|%s|%s|%lld|%lld|%s\"),*R.ReceiptId.ToString(),*R.ObservationId.ToString(),*R.EvidenceId.ToString(),*R.SubjectId.ToString(),R.HistoricalStepIndex,R.StrategicTurnIndex,*R.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  939,
+                                                  "literal":  "for(const auto\u0026 C:CampaignState.HistoricalEmergenceCandidates) Lines.Add(FString::Printf(TEXT(\"EC|%s|%s|%s|%d|%lld|%lld|%d|%s\"),*C.CandidateId.ToString(),*C.RuleId.ToString(),*C.SubjectId.ToString(),static_cast\u003cint32\u003e(C.CandidateType),C.HistoricalStepIndex,C.StrategicTurnIndex,static_cast\u003cint32\u003e(C.Disposition),*C.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  940,
+                                                  "literal":  "for(const auto\u0026 R:CampaignState.HistoricalEmergenceReceipts) Lines.Add(FString::Printf(TEXT(\"EX|%s|%s|%s|%s|%lld|%lld|%s\"),*R.ReceiptId.ToString(),*R.CandidateId.ToString(),*R.RuleId.ToString(),*R.SubjectId.ToString(),R.HistoricalStepIndex,R.StrategicTurnIndex,*R.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  952,
+                                                  "literal":  "Request.HistoricalStepIndex, Request.StrategicTurnIndex,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  968,
+                                                  "literal":  "Receipt.HistoricalStepIndex, Receipt.StrategicTurnIndex,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  984,
+                                                  "literal":  "Proposal.HistoricalStepIndex, Proposal.StrategicTurnIndex, *Proposal.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  996,
+                                                  "literal":  "Receipt.StrategicTurnIndex, *Receipt.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1006,
+                                                  "literal":  "Item.HistoricalStepIndex, Item.StrategicTurnIndex, *Item.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1013,
+                                                  "literal":  "Receipt.StrategicTurnIndex, *Receipt.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1022,
+                                                  "literal":  "Review.HistoricalStepIndex, Review.StrategicTurnIndex, *Review.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1031,
+                                                  "literal":  "Request.StrategicTurnIndex, static_cast\u003cint32\u003e(Request.Disposition), *Request.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1041,
+                                                  "literal":  "Receipt.StrategicTurnIndex, *Receipt.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1064,
+                                                  "literal":  "Assessment.HistoricalStepIndex, Assessment.StrategicTurnIndex,"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1079,
+                                                  "literal":  "Review.HistoricalStepIndex, Review.StrategicTurnIndex, *Review.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1087,
+                                                  "literal":  "Lines.Add(FString::Printf(TEXT(\"CAD|%s|%s|%s|%d|%lld|%lld|%s|%s\"),*Assessment.DecisionId.ToString(),*Assessment.RequestId.ToString(),*Assessment.SubjectId.ToString(),static_cast\u003cint32\u003e(Assessment.Decision),Assessment.HistoricalStepIndex,Assessment.StrategicTurnIndex,*FString::Join(EvidenceLines,TEXT(\",\")),*Assessment.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1089,
+                                                  "literal":  "TArray\u003cFMWPoliticalTypedCouncilEvidenceAssessmentReceipt\u003e TypedCouncil=CampaignState.PoliticalTypedCouncilEvidenceAssessmentReceipts;TypedCouncil.Sort([](const auto\u0026A,const auto\u0026B){return A.AssessmentId.ToString()\u003cB.AssessmentId.ToString();});for(const auto\u0026A:TypedCouncil){TArray\u003cFString\u003eF;for(const auto\u0026X:A.Findings)F.Add(FString::Printf(TEXT(\"%d:%s:%s:%d:%s\"),static_cast\u003cint32\u003e(X.EvidenceType),*X.EvidenceId.ToString(),*X.OwnerId.ToString(),static_cast\u003cint32\u003e(X.Finding),*X.InterpretationBasis));Lines.Add(FString::Printf(TEXT(\"TCA|%s|%s|%s|%s|%d|%lld|%lld|%s|%s\"),*A.AssessmentId.ToString(),*A.SourceCouncilAssessmentDecisionId.ToString(),*A.RequestId.ToString(),*A.SubjectId.ToString(),static_cast\u003cint32\u003e(A.Decision),A.HistoricalStepIndex,A.StrategicTurnIndex,*FString::Join(F,TEXT(\",\")),*A.ResultHash));}"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1092,
+                                                  "literal":  "for(const auto\u0026R:DiplomacyAssessments){TArray\u003cFString\u003eE;for(const auto\u0026X:R.Evidence)E.Add(FString::Printf(TEXT(\"%d:%s:%s:%s\"),static_cast\u003cint32\u003e(X.EvidenceType),*X.SourceId.ToString(),*X.TargetId.ToString(),*X.OwnerId.ToString()));Lines.Add(FString::Printf(TEXT(\"DAD|%s|%s|%s|%s|%s|%s|%s|%d|%lld|%lld|%s|%s\"),*R.DecisionId.ToString(),*R.RequestId.ToString(),*R.SourceReviewId.ToString(),*R.RecommendationId.ToString(),*R.ProposalId.ToString(),*R.SourceDecisionId.ToString(),*R.SubjectId.ToString(),static_cast\u003cint32\u003e(R.Decision),R.HistoricalStepIndex,R.StrategicTurnIndex,*FString::Join(E,TEXT(\",\")),*R.ResultHash));}"
+                                              },
+                                              {
+                                                  "file_key":  "TurnSource",
+                                                  "line":  1114,
+                                                  "literal":  "R.StrategicTurnIndex, *E, *R.ResultHash));"
+                                              },
+                                              {
+                                                  "file_key":  "CampaignTypes",
+                                                  "line":  697,
+                                                  "literal":  "int64 AppliedStrategicTurnIndex = 0;"
+                                              },
+                                              {
+                                                  "file_key":  "CampaignTypes",
+                                                  "line":  849,
+                                                  "literal":  "int64 StrategicTurnIndex = 0;"
+                                              }
+                                          ]
+                          },
+                          {
+                              "token":  "UpgradeCampaignState",
+                              "found":  false,
+                              "match_count":  0,
+                              "matches":  [
+
+                                          ]
+                          },
+                          {
+                              "token":  "ValidateCampaignState",
+                              "found":  false,
+                              "match_count":  0,
+                              "matches":  [
+
+                                          ]
+                          },
+                          {
+                              "token":  "ReconcileBiologicalLifecycleState",
+                              "found":  false,
+                              "match_count":  0,
+                              "matches":  [
+
+                                          ]
+                          }
+                      ]
+}

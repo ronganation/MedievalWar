@@ -1,0 +1,20 @@
+{
+  "target": "Ireland_Personality_V2.2_Current_Authority_Refinement.md",
+  "status": "PASS",
+  "checks": {
+    "literal_source_prefix": true,
+    "identity_preserved": true,
+    "project_controls": true,
+    "three_tracks": true,
+    "historical_interfaces": true,
+    "preference_8": true,
+    "contradictions_7": true,
+    "momentum_7": true,
+    "locks": true,
+    "honest_validation": true,
+    "no_mutation": true,
+    "next_ai": true,
+    "literal_formatting": true,
+    "all_pass": true
+  }
+}

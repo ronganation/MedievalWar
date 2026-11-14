@@ -1,0 +1,15 @@
+Order,FilterOrCheck,Expectation,Phase
+1,Discover current military recruitment supply and logistics automation catalog,DISCOVER_AND_RECORD,PreMutation
+2,Discover developed-Realm military recruitment supply comparators,LOCK_VERIFIED_NONZERO_ONLY,PreMutation
+3,Prove all six FRANCE-IMP-07B paths absent,ALL_ABSENT,PreMutation
+4,MedievalWar.France.MilitaryRecruitmentSupply.,24,PostBuild
+5,MedievalWar.France.TerritoryCommunityEconomy.,20,PostBuild
+6,MedievalWar.France.GovernanceInterface.,20,PostBuild
+7,MedievalWar.France.CharacterDynastyNetwork.,34,PostBuild
+8,MedievalWar.France.HistoricalEmergence.,28,PostBuild
+9,MedievalWar.France.TransactionRecovery.,24,PostBuild
+10,MedievalWar.France.CampaignInitialization.,24,PostBuild
+11,MedievalWar.Campaign.Theater.Definition.,4,PostBuild
+12,Verified nonzero developed-Realm comparator filters,PRESERVE_LOCKED_COUNTS,PostBuild
+13,Registry Opening State predecessor and payload boundary scan,NO_CHANGES,Closeout
+14,Rollback rehearsal or failure cleanup,EXACT_PRE_BATCH_STATE,Closeout

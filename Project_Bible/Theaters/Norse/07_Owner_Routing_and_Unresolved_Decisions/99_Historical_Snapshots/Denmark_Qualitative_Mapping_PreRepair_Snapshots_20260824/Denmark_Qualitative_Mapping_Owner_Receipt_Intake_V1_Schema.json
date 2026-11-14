@@ -1,0 +1,452 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medieval-war:schema:denmark-qualitative-mapping-owner-receipt-intake-v1",
+  "title": "Denmark Qualitative Mapping Owner Receipt Intake V1, Hardened Intermediate-State Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_identity",
+    "authority_boundary",
+    "intake_state",
+    "receipt",
+    "authorization"
+  ],
+  "properties": {
+    "document_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "filename",
+        "version",
+        "date",
+        "status"
+      ],
+      "properties": {
+        "document_id": {
+          "const": "mw.denmark.qualitative_mapping.owner_receipt_intake.v1"
+        },
+        "filename": {
+          "const": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json"
+        },
+        "version": {
+          "const": "1.0.0"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "enum": [
+            "PENDING_NO_OWNER_RECEIPT",
+            "RECEIPT_SUBMITTED_UNVALIDATED",
+            "RECEIPT_VALIDATED"
+          ]
+        }
+      }
+    },
+    "authority_boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "constitutional_authority",
+        "operational_authority",
+        "owner_response_ledger",
+        "decision_request_packet"
+      ],
+      "properties": {
+        "constitutional_authority": {
+          "const": "Project Bible 2.4"
+        },
+        "operational_authority": {
+          "const": "Design Expansion Checklist 3.7"
+        },
+        "owner_response_ledger": {
+          "const": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.json"
+        },
+        "decision_request_packet": {
+          "const": "Denmark_Qualitative_Mapping_Authority_and_Owner_Receipt_Decision_Packet_V1.md"
+        }
+      }
+    },
+    "intake_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "receipt_submitted",
+        "receipt_validated",
+        "ledger_update_authorized",
+        "implementation_authorized",
+        "runtime_mutation_authorized"
+      ],
+      "properties": {
+        "receipt_submitted": {
+          "type": "boolean"
+        },
+        "receipt_validated": {
+          "type": "boolean"
+        },
+        "ledger_update_authorized": {
+          "type": "boolean"
+        },
+        "implementation_authorized": {
+          "type": "boolean"
+        },
+        "runtime_mutation_authorized": {
+          "type": "boolean"
+        }
+      }
+    },
+    "receipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "request_id",
+        "owner_authority_ref",
+        "owner_receipt_id",
+        "disposition",
+        "authority_or_evidence_refs",
+        "approval_scope",
+        "approved_dimensions",
+        "approved_bands",
+        "mapping_contract_ref",
+        "receiving_owner_ref",
+        "rollback_contract_ref",
+        "receipt_contract_ref",
+        "effective_version"
+      ],
+      "properties": {
+        "request_id": {
+          "type": "string"
+        },
+        "owner_authority_ref": {
+          "type": "string"
+        },
+        "owner_receipt_id": {
+          "type": "string"
+        },
+        "disposition": {
+          "type": "string"
+        },
+        "authority_or_evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "approval_scope": {
+          "type": "string"
+        },
+        "approved_dimensions": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "Trust",
+              "Loyalty",
+              "Respect",
+              "Fear",
+              "Obligation",
+              "Kinship",
+              "ClaimConflict",
+              "PoliticalAlignment"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "approved_bands": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "mapping_contract_ref": {
+          "type": "string"
+        },
+        "receiving_owner_ref": {
+          "type": "string"
+        },
+        "rollback_contract_ref": {
+          "type": "string"
+        },
+        "receipt_contract_ref": {
+          "type": "string"
+        },
+        "effective_version": {
+          "type": "string"
+        }
+      }
+    },
+    "authorization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "vocabulary_adoption_authorized",
+        "numeric_mapping_adoption_authorized",
+        "relationship_owner_approval_authorized",
+        "owner_submission_authorized",
+        "runtime_mutation_authorized",
+        "opening_state_execution_authorized",
+        "save_persistence_authorized",
+        "migration_execution_authorized",
+        "replay_validation_authorized"
+      ],
+      "properties": {
+        "vocabulary_adoption_authorized": {
+          "const": false
+        },
+        "numeric_mapping_adoption_authorized": {
+          "const": false
+        },
+        "relationship_owner_approval_authorized": {
+          "const": false
+        },
+        "owner_submission_authorized": {
+          "const": false
+        },
+        "runtime_mutation_authorized": {
+          "const": false
+        },
+        "opening_state_execution_authorized": {
+          "const": false
+        },
+        "save_persistence_authorized": {
+          "const": false
+        },
+        "migration_execution_authorized": {
+          "const": false
+        },
+        "replay_validation_authorized": {
+          "const": false
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "PENDING_NO_OWNER_RECEIPT"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_submitted": {
+                "const": false
+              },
+              "receipt_validated": {
+                "const": false
+              },
+              "ledger_update_authorized": {
+                "const": false
+              },
+              "implementation_authorized": {
+                "const": false
+              },
+              "runtime_mutation_authorized": {
+                "const": false
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": ""
+              },
+              "owner_authority_ref": {
+                "const": ""
+              },
+              "owner_receipt_id": {
+                "const": ""
+              },
+              "disposition": {
+                "const": ""
+              },
+              "authority_or_evidence_refs": {
+                "maxItems": 0
+              },
+              "approval_scope": {
+                "const": ""
+              },
+              "approved_dimensions": {
+                "maxItems": 0
+              },
+              "approved_bands": {
+                "maxItems": 0
+              },
+              "mapping_contract_ref": {
+                "const": ""
+              },
+              "receiving_owner_ref": {
+                "const": ""
+              },
+              "rollback_contract_ref": {
+                "const": ""
+              },
+              "receipt_contract_ref": {
+                "const": ""
+              },
+              "effective_version": {
+                "const": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_SUBMITTED_UNVALIDATED"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_submitted": {
+                "const": true
+              },
+              "receipt_validated": {
+                "const": false
+              },
+              "ledger_update_authorized": {
+                "const": false
+              },
+              "implementation_authorized": {
+                "const": false
+              },
+              "runtime_mutation_authorized": {
+                "const": false
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "enum": [
+                  "request.denmark.qualitative_mapping.vocabulary_owner.v1",
+                  "request.denmark.qualitative_mapping.dimension_mapping.v1",
+                  "request.denmark.qualitative_mapping.receiving_owner.v1",
+                  "request.denmark.qualitative_mapping.zero_absence_rule.v1",
+                  "request.denmark.qualitative_mapping.atomic_rollback.v1",
+                  "request.denmark.qualitative_mapping.receipt_trace_hash.v1"
+                ]
+              },
+              "owner_authority_ref": {
+                "minLength": 1
+              },
+              "owner_receipt_id": {
+                "minLength": 1
+              },
+              "disposition": {
+                "enum": [
+                  "APPROVE",
+                  "REJECT",
+                  "QUARANTINE"
+                ]
+              },
+              "authority_or_evidence_refs": {
+                "minItems": 1
+              },
+              "approval_scope": {
+                "minLength": 1
+              },
+              "effective_version": {
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_VALIDATED"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_submitted": {
+                "const": true
+              },
+              "receipt_validated": {
+                "const": true
+              },
+              "ledger_update_authorized": {
+                "const": true
+              },
+              "implementation_authorized": {
+                "const": false
+              },
+              "runtime_mutation_authorized": {
+                "const": false
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "enum": [
+                  "request.denmark.qualitative_mapping.vocabulary_owner.v1",
+                  "request.denmark.qualitative_mapping.dimension_mapping.v1",
+                  "request.denmark.qualitative_mapping.receiving_owner.v1",
+                  "request.denmark.qualitative_mapping.zero_absence_rule.v1",
+                  "request.denmark.qualitative_mapping.atomic_rollback.v1",
+                  "request.denmark.qualitative_mapping.receipt_trace_hash.v1"
+                ]
+              },
+              "owner_authority_ref": {
+                "minLength": 1
+              },
+              "owner_receipt_id": {
+                "minLength": 1
+              },
+              "disposition": {
+                "enum": [
+                  "APPROVE",
+                  "REJECT",
+                  "QUARANTINE"
+                ]
+              },
+              "authority_or_evidence_refs": {
+                "minItems": 1
+              },
+              "approval_scope": {
+                "minLength": 1
+              },
+              "effective_version": {
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

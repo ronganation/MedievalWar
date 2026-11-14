@@ -1,0 +1,32 @@
+{
+  "file": "Almoravid_Economy_Property_and_Military_Supply_Authority_V1.md",
+  "bytes": 69550,
+  "lines": 2978,
+  "words": 7944,
+  "sha256": "eeacbb12291f0c512b2992a133925ca5e0ab5ca5acc4ea118e7400a4920772c0",
+  "checks": {
+    "version": true,
+    "zero": true,
+    "owner_query": true,
+    "transaction": true,
+    "accounts": true,
+    "caravan": true,
+    "supply": true,
+    "water": true,
+    "capital": true,
+    "ai": true,
+    "opening": true,
+    "commands": true,
+    "save": true,
+    "determinism": true,
+    "performance": true,
+    "fixtures": true,
+    "validation": true,
+    "acceptance": true,
+    "next": true,
+    "claims": true,
+    "fences": true,
+    "benchmark": true
+  },
+  "allChecksPass": true
+}

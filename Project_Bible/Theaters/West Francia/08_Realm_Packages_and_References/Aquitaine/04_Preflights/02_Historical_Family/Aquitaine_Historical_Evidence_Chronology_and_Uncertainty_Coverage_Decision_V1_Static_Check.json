@@ -1,0 +1,41 @@
+{
+  "DocumentType": "HistoricalSuiteCoverageDecisionStaticCheck",
+  "AuthorityFile": "Aquitaine_Historical_Evidence_Chronology_and_Uncertainty_Coverage_Decision_V1.md",
+  "AuthoritySHA256": "5cda42f39f205aaa257e15214f404e3aea1ea91995e098d979db387c54f9b92c",
+  "ByteCount": 29030,
+  "LineCount": 967,
+  "Checks": {
+    "FilenameControlPresent": true,
+    "OptionBApproved": true,
+    "UncertaintyRegisterRequired": true,
+    "SeparateChronologyRejectedNow": true,
+    "EvidenceSchemaPresent": true,
+    "ChronologySchemaPresent": true,
+    "UncertaintySchemaPresent": true,
+    "ScenarioSelectionRulesPresent": true,
+    "AquitainePriorityPortfolioPresent": true,
+    "ThreeTrackTimePresent": true,
+    "WarPermissionGateRejected": true,
+    "RegionalPowerProtectionPresent": true,
+    "StableFooterCountOne": true,
+    "FinalMarkerCorrect": true,
+    "MarkdownFencesBalanced": true,
+    "EmDashesAbsent": true,
+    "EscapedUnderscoresAbsent": true
+  },
+  "Summary": {
+    "TotalChecks": 17,
+    "Passes": 17,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "SourceFilesModified": 0,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

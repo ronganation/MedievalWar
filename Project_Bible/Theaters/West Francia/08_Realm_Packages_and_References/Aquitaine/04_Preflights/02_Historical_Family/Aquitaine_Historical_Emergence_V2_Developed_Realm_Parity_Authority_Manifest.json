@@ -1,0 +1,36 @@
+{
+  "DocumentId": "HistoricalEmergence.Realm.Aquitaine.V2.Manifest",
+  "AuthorityFile": "Aquitaine_Historical_Emergence_V2_Developed_Realm_Parity_Authority.md",
+  "Version": "2.0.0",
+  "ImmediateSubstantiveSource": "Aquitaine_Historical_Emergence_V1_1.md",
+  "Source": {
+    "LineCount": 597,
+    "ByteCount": 28319,
+    "SHA256": "bf4e47f942700ca17ec11280c1fe9c783fb0c6f8df7bd8dd493e6dad0d830bfa"
+  },
+  "Successor": {
+    "LineCount": 1524,
+    "ByteCount": 59953,
+    "SHA256": "7d79c49544b23a0f7235924a038cb21f4b1a2360c7029fce976d4da42807dfc1"
+  },
+  "SourceTreatment": "CompleteSubstantiveCarryForwardWithIntegratedModernization",
+  "CrossFactionBenchmarks": [
+    "France Historical Emergence V2.1",
+    "strongest available Normandy Historical Emergence",
+    "strongest available Britannia Historical Emergence",
+    "strongest available Norse and Sweden Historical Emergence"
+  ],
+  "PathwayDefinitions": 7,
+  "OpeningRuntimeInstancesCreated": 0,
+  "RemovedSubstantiveContent": [],
+  "MutationStatus": {
+    "SourceOverwrites": 0,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "EmergenceActivations": 0,
+    "MigrationExecutions": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

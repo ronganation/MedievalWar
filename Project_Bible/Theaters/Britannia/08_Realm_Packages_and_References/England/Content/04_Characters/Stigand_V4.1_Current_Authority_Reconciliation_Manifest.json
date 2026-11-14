@@ -1,0 +1,31 @@
+{
+  "document_id": "manifest.england.stigand_v4.1_current_authority_reconciliation",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "Stigand_V4.1_Current_Authority_Reconciliation.md",
+      "sha256": "752edaa4fed29159f19fce1640a825f9e4f1f9b6b615f7bed4ba6194164310f2",
+      "bytes": 49097
+    },
+    {
+      "filename": "Stigand_V4.1_Current_Authority_Reconciliation_Static_Check.json",
+      "sha256": "65165ae6101544c3f5b5baa7f3d12a776b9780c0d35d81b21eed068078209eca",
+      "bytes": 780
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false
+  }
+}

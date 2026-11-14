@@ -1,0 +1,21 @@
+{
+  "document": "Holland_Floris_Son_of_Floris_I_Character_Authority_V1_1_Mature_Double_Checked.md",
+  "version": "1.1.0",
+  "bytes": 50223,
+  "lines": 1469,
+  "sha256": "ce82517d7da371e70c680d96940f8f0a6b88bb36a65cf849921bd7efff1edfff",
+  "utf8_valid": true,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "escaped_list_marker_count": 0,
+  "stable_footer_count": 1,
+  "source_preserved": true,
+  "implementation_validation": {
+    "compile": false,
+    "runtime": false,
+    "save_load": false,
+    "migration": false,
+    "unreal": false
+  },
+  "result": "PASS_AT_STATIC_AUTHORING_SCOPE"
+}

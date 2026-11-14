@@ -1,0 +1,18 @@
+{
+  "document": "Mounted_Men_at_Arms_V1_Master_Unit_Profile.md",
+  "sha256": "8f02943a1b06082c7254869b97c3f1e0b716d872cbe48d6c062d663dfcfcfb8a",
+  "checks": {
+    "size_over_40000": true,
+    "sections_at_least_80": true,
+    "sections_consecutive": true,
+    "terrain_25": true,
+    "foot_mounted_firewall": true,
+    "comparators": true,
+    "handoff": true,
+    "three_track": true,
+    "no_escaped_underscores": true,
+    "fences_balanced": true,
+    "footer_final": true,
+    "pass": true
+  }
+}

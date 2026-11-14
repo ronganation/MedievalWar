@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.england.opening_state.v2_2.current_authority_refinement.corrected",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "England_Opening_State_V2.1_Current_Authority_Refinement.md",
+    "version": "2.1",
+    "manifest_sha256": "0bf5019737e033929d7e16d48e37c4e28fa5884b069d68e24ac839b7810e08a4",
+    "manifest_bytes": 56811,
+    "copy_based_rebuild": true
+  },
+  "files": [
+    {
+      "filename": "England_Opening_State_V2.2_Current_Authority_Refinement.md",
+      "sha256": "848e151dc9db46ab6486e39907cda38591aeaa61ba2be39ec2f83bce4ee38125",
+      "bytes": 78962
+    },
+    {
+      "filename": "England_Opening_State_V2.2_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "a3c3a6f200f51794760634b5b941cab70550d68a7d7297765bc6e483f192116a",
+      "bytes": 809
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_activation": false,
+    "repository_mutation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "save_rewrite": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

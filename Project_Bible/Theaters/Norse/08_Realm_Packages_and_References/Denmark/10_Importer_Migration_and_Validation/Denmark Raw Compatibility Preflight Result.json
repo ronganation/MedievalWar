@@ -1,0 +1,111 @@
+{
+  "report_id": "mw.preflight.raw.denmark.character-network.v1.1",
+  "report_version": "1.1.0",
+  "manifest_file": "Denmark_Character_Network_Importer_Manifest_V1_REBUILT.json",
+  "manifest_sha256": "754565472fd1ffb7b3a1db3f7669cab34c261beec84a14ed7b21eab1bf6c5fa6",
+  "scenario_id": "mw.scenario.grand_campaign.1062",
+  "effective_date": "1062-01-01",
+  "turn_length_months": 7,
+  "status": "PASS_WITH_REVIEW_DEPENDENCIES",
+  "evidence_status": {
+    "static_checked": true,
+    "dry_preflight_validated": true,
+    "machine_readable_parsed": true,
+    "compile_validated": false,
+    "runtime_validated": false
+  },
+  "runtime_state_created": false,
+  "runtime_mutation_count": 0,
+  "counts": {
+    "total_directions": 20,
+    "denmark_owned": 12,
+    "conditional_or_external": 8,
+    "active": 4,
+    "basis_only": 2,
+    "denmark_conditional": 6,
+    "conditional_external": 4,
+    "external_owner_reverse": 4,
+    "unique_external_identities": 3
+  },
+  "checks_passed": [
+    "Total direction count is 20",
+    "Denmark-owned count is 12",
+    "Conditional/external count is 8",
+    "Active count is 4",
+    "Basis-only count is 2",
+    "Denmark conditional count is 6",
+    "Conditional external count is 4",
+    "External reverse count is 4",
+    "All direction IDs are unique and nonempty",
+    "Runtime creation is disabled",
+    "Reverse auto-generation is disabled",
+    "Unknown is not zero",
+    "Manifest version is 1.1.0",
+    "Three unique external identity locks are present",
+    "Harald Hardrada resolves to Norway canonical ID"
+  ],
+  "fatal_count": 0,
+  "review_count": 4,
+  "warning_count": 0,
+  "fatal_findings": [],
+  "review_findings": [
+    {
+      "Code": "MachineReadableCanonicalNamespaceNormalization",
+      "Disposition": "ReviewSafe",
+      "Blocks": "shared_importer_compatibility"
+    },
+    {
+      "Code": "AdalbertExternalRegistryReconciliation",
+      "Disposition": "ReviewSafe",
+      "Blocks": "adalbert_direction_activation"
+    },
+    {
+      "Code": "GottschalkExternalRegistryReconciliation",
+      "Disposition": "ReviewSafe",
+      "Blocks": "gottschalk_direction_activation"
+    },
+    {
+      "Code": "QualitativeRuntimeMappingUnavailable",
+      "Disposition": "ReviewSafe",
+      "Blocks": "numeric_runtime_mapping"
+    }
+  ],
+  "warnings": [],
+  "external_lock_results": [
+    {
+      "LockId": "review.denmark.external.norway.harald_hardrada",
+      "CanonicalPersonId": "Character.Norway.HaraldHardrada",
+      "OwnerRegistryId": "Migration.Norway.IDRegistry",
+      "ResolutionState": "ResolvedCanonical",
+      "AffectedDirectionIds": [
+        "network.denmark.sweyn_to_external_harald_hardrada"
+      ]
+    },
+    {
+      "LockId": "review.denmark.external.hamburg_bremen.adalbert",
+      "CanonicalPersonId": null,
+      "OwnerRegistryId": "Migration.HRE.GlobalIDRegistry",
+      "ResolutionState": "ReviewExternalRegistry",
+      "AffectedDirectionIds": [
+        "network.denmark.sweyn_to_external_adalbert",
+        "network.denmark.william_to_external_adalbert"
+      ]
+    },
+    {
+      "LockId": "review.denmark.external.obotrite.gottschalk",
+      "CanonicalPersonId": null,
+      "OwnerRegistryId": "Migration.Obotrite.IDRegistry",
+      "ResolutionState": "ReviewExternalRegistry",
+      "AffectedDirectionIds": [
+        "network.denmark.sigrid_to_external_gottschalk"
+      ]
+    }
+  ],
+  "status_boundaries": {
+    "compile_validation": "not_run",
+    "runtime_validation": "not_run",
+    "save_load_validation": "not_run",
+    "determinism_replay": "not_run",
+    "project_native_schema_validation": "not_run"
+  }
+}

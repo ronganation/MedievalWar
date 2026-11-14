@@ -1,0 +1,21 @@
+{
+  "document": "Kings_Men_V1_1_Master_Unit_Profile.md",
+  "sha256": "9fe26beb4dc56584ee7249f239b2b4fb509ec501d3577d5c98aa0a76a27c8a87",
+  "checks": {
+    "substantive_length": true,
+    "sections_consecutive": true,
+    "sections_at_least_105": true,
+    "terrain_25": true,
+    "V1_preservation_register": true,
+    "reconstruction_disclosed": true,
+    "rolling_availability": true,
+    "retinue_matrix": true,
+    "charge_cycle": true,
+    "implementation_depth": true,
+    "external_values": true,
+    "no_escaped_underscores": true,
+    "fences_balanced": true,
+    "footer_final": true,
+    "pass": true
+  }
+}

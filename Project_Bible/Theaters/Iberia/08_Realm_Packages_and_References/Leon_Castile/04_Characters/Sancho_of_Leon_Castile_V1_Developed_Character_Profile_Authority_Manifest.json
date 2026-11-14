@@ -1,0 +1,35 @@
+{
+  "document_id": "Manifest.CharacterProfile.LeonCastile.Sancho.V1",
+  "authority_file": "Sancho_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-07",
+  "placement": "Leon_Castile/Character_Profiles",
+  "bytes": 55919,
+  "physical_lines": 1412,
+  "sha256": "94D70D14D97CBB703EA1A1A995BE8D3E33826B62608FC3DA144DCB3224A4F658",
+  "fence_count": 56,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "status": "StaticCheckedDevelopedCharacterProfileReviewOnly",
+  "benchmarks": [
+    "Ferdinand I of Leon-Castile",
+    "Sancha of Leon",
+    "mature Iberian authorities",
+    "William of Normandy",
+    "Harald Hardrada",
+    "Malcolm III",
+    "Sweyn Estridsen",
+    "Bernard II Tumapaler",
+    "Robert of Mortain"
+  ],
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "next_file": "Alfonso_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md"
+}

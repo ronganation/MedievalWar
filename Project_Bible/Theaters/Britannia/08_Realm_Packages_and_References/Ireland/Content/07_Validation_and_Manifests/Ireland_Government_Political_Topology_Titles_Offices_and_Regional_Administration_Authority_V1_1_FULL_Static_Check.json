@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Government_Political_Topology_Titles_Offices_and_Regional_Administration_Authority_V1_1_FULL.md",
+  "bytes": 50975,
+  "lines": 1278,
+  "sections": 31,
+  "validation_cases": 36,
+  "checks": {
+    "large_successor": true,
+    "sections_at_least_30": true,
+    "source_named": true,
+    "preserve_enrich": true,
+    "core_regions": true,
+    "expanded_domains": true,
+    "validation_36": true,
+    "preservation_ledger": true,
+    "promotion_conditions": true,
+    "three_track": true,
+    "honest_validation": true,
+    "no_mutation": true,
+    "next_ecclesiastical": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "all_pass": true
+  }
+}

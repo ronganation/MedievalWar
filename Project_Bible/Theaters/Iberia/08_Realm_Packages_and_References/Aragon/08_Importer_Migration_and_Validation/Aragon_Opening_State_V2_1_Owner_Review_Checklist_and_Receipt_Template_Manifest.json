@@ -1,0 +1,38 @@
+{
+  "document_id": "Manifest.Template.OwnerReviewReceipt.OpeningState.Aragon.V2.1",
+  "template_file": "Aragon_Opening_State_V2_1_Owner_Review_Checklist_and_Receipt_Template.md",
+  "sha256": "F8E83677CCF178CA544D9AB7806F7C0B4E8D6753CEB58A82D54017014F906A34",
+  "version": "1.0.0",
+  "revision_date": "2026-09-09",
+  "placement": "Aragon/08_Importer_Migration_and_Validation",
+  "status": "StaticCheckedUnexecutedOwnerReviewTemplate",
+  "checks": {
+    "bytes": 14376,
+    "lines": 453,
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "character_sections": 5,
+    "memory_records": 5,
+    "momentum_records": 11,
+    "emergence_records": 11,
+    "no_approval_claim": true,
+    "candidate_json_blocked": true,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "mutation_receipt": {
+    "SourceOverwrite": 0,
+    "OwnerReceipt": 0,
+    "OwnerApprovalClaim": 0,
+    "ExternalReceipt": 0,
+    "CandidatePromotion": 0,
+    "CandidateJson": 0,
+    "Registry": 0,
+    "Runtime": 0,
+    "AdvancedSave": 0,
+    "Unreal": 0
+  },
+  "next_gate": "Populate a copy only with actual owner and external evidence"
+}

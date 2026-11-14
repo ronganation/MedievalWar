@@ -1,0 +1,31 @@
+{
+  "profile_id": "profile.denmark.qualitative_mapping.owner_receipt_intake.v1",
+  "schema": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Schema.json",
+  "pending_fixture": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json",
+  "allowed_statuses": [
+    "PENDING_NO_OWNER_RECEIPT",
+    "RECEIPT_SUBMITTED_UNVALIDATED",
+    "RECEIPT_VALIDATED"
+  ],
+  "allowed_dispositions": [
+    "APPROVE",
+    "REJECT",
+    "QUARANTINE"
+  ],
+  "request_ids": [
+    "request.denmark.qualitative_mapping.vocabulary_owner.v1",
+    "request.denmark.qualitative_mapping.dimension_mapping.v1",
+    "request.denmark.qualitative_mapping.receiving_owner.v1",
+    "request.denmark.qualitative_mapping.zero_absence_rule.v1",
+    "request.denmark.qualitative_mapping.atomic_rollback.v1",
+    "request.denmark.qualitative_mapping.receipt_trace_hash.v1"
+  ],
+  "deferred_request_id": "request.denmark.qualitative_mapping.persistence_replay.v1",
+  "deferred_request_intake_allowed": false,
+  "pending_state_requires_empty_receipt": true,
+  "submitted_state_keeps_implementation_closed": true,
+  "validated_state_allows_ledger_update_only": true,
+  "runtime_mutation_authorized_by_intake": false,
+  "numeric_mapping_authorized_by_intake": false,
+  "cross_request_approval_inference": false
+}

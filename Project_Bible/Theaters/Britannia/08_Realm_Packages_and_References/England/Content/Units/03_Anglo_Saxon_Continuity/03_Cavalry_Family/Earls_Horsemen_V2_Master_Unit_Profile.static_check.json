@@ -1,0 +1,21 @@
+{
+  "document": "Earls_Horsemen_V2_Master_Unit_Profile.md",
+  "sha256": "c56e3bc7171e3f42fa4906d33ceed997b2ac5320240ae9f67bdb41ac8abe05eb",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "size_at_least_40kb": true,
+    "terrain_25": true,
+    "complete_parent_reviewed": true,
+    "dual_source": true,
+    "parent_persists": true,
+    "horse_depth": true,
+    "comital_depth": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "player_burden_control": true,
+    "emergence_states": true
+  }
+}

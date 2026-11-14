@@ -1,0 +1,15 @@
+{
+  "document": "Saxon_Swordmasters_V1_Master_Unit_Profile.md",
+  "sha256": "6d2f81e5b423111a49cc3b0badfd1a3f1d5facefea2058091af180490492790f",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "duplicate_assertions_removed": true,
+    "integrated_assertion_once": true,
+    "completion_footer_final": true,
+    "terrain_25": true,
+    "parent_persists": true,
+    "three_track": true,
+    "nonmutation": true
+  }
+}

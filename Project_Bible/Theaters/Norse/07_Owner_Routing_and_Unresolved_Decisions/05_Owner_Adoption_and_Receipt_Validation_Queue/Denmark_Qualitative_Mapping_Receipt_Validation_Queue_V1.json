@@ -1,0 +1,81 @@
+{
+  "document_identity": {
+    "document_id": "mw.denmark.qualitative_mapping.receipt_validation_queue.v1",
+    "filename": "Denmark_Qualitative_Mapping_Receipt_Validation_Queue_V1.json",
+    "version": "1.0.0",
+    "date": "2026-08-24",
+    "status": "PENDING_OWNER_ADOPTION"
+  },
+  "authority_boundary": {
+    "controlling_owner_candidate": "Framework.CharacterNetwork",
+    "owner_adoption_request": "Denmark_Qualitative_Mapping_Owner_Adoption_Request_and_Validation_Queue_V1.md",
+    "pending_owner_response": "Denmark_Qualitative_Mapping_Owner_Adoption_Response_V1_PENDING.json",
+    "owner_response_ledger": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.json"
+  },
+  "summary": {
+    "queue_entry_count": 4,
+    "pending_owner_adoption_count": 4,
+    "owner_response_submitted_count": 0,
+    "validated_receipt_count": 0,
+    "ledger_update_authorized_count": 0
+  },
+  "entries": [
+    {
+      "stable_order": 10,
+      "request_id": "request.denmark.qualitative_mapping.vocabulary_owner.v1",
+      "draft_file": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json",
+      "queue_status": "PENDING_OWNER_ADOPTION",
+      "owner_response_ref": null,
+      "validation_result": null,
+      "validated_receipt_ref": null,
+      "ledger_update_authorized": false,
+      "implementation_authorized": false,
+      "runtime_mutation_authorized": false
+    },
+    {
+      "stable_order": 30,
+      "request_id": "request.denmark.qualitative_mapping.receiving_owner.v1",
+      "draft_file": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_30_V1_SUBMITTED_UNVALIDATED.json",
+      "queue_status": "PENDING_OWNER_ADOPTION",
+      "owner_response_ref": null,
+      "validation_result": null,
+      "validated_receipt_ref": null,
+      "ledger_update_authorized": false,
+      "implementation_authorized": false,
+      "runtime_mutation_authorized": false
+    },
+    {
+      "stable_order": 40,
+      "request_id": "request.denmark.qualitative_mapping.zero_absence_rule.v1",
+      "draft_file": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_40_V1_SUBMITTED_UNVALIDATED.json",
+      "queue_status": "PENDING_OWNER_ADOPTION",
+      "owner_response_ref": null,
+      "validation_result": null,
+      "validated_receipt_ref": null,
+      "ledger_update_authorized": false,
+      "implementation_authorized": false,
+      "runtime_mutation_authorized": false
+    },
+    {
+      "stable_order": 60,
+      "request_id": "request.denmark.qualitative_mapping.receipt_trace_hash.v1",
+      "draft_file": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_60_V1_SUBMITTED_UNVALIDATED.json",
+      "queue_status": "PENDING_OWNER_ADOPTION",
+      "owner_response_ref": null,
+      "validation_result": null,
+      "validated_receipt_ref": null,
+      "ledger_update_authorized": false,
+      "implementation_authorized": false,
+      "runtime_mutation_authorized": false
+    }
+  ],
+  "authorization": {
+    "receipt_validation_authorized": false,
+    "ledger_update_authorized": false,
+    "mapping_implementation_authorized": false,
+    "runtime_mutation_authorized": false,
+    "save_persistence_authorized": false,
+    "migration_execution_authorized": false,
+    "replay_validation_authorized": false
+  }
+}

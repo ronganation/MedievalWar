@@ -1,0 +1,99 @@
+{
+  "ArtifactId": "Seville_Taifa_January_1062_Authority_and_Control_Contradiction_Ledger_V1",
+  "ArtifactType": "PreRegistryAuthorityAndControlContradictionLedger",
+  "Status": "STATIC_CHECKED",
+  "OpeningDateUnderReview": "1062-01-01",
+  "GeneratedDate": "2026-08-18",
+  "Authorities": {
+    "ProjectBible": "2.3.8",
+    "DesignExpansionChecklist": "3.6.8",
+    "AlmoravidHandoff": "1.0.0",
+    "TaifaMatrix": "V1",
+    "SevilleHistoricalReconciliation": "V1"
+  },
+  "Boundary": {
+    "CreatesCanonicalIds": false,
+    "CreatesRegistryEntries": false,
+    "CreatesOpeningState": false,
+    "CreatesRuntimeInstances": false,
+    "CreatesArmies": false,
+    "CreatesTreasuries": false,
+    "CreatesPariaAgreements": false,
+    "CreatesRelationships": false,
+    "CreatesPortOperations": false,
+    "CreatesMintOperations": false,
+    "ReopensAlmoravid": false
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ]
+  },
+  "Adjudications": [
+    {
+      "Id": "SEV-ACL-001",
+      "Disposition": "ClosedWithSeparation",
+      "Finding": "Al-Mutamid is principal succession candidate; formal opening heir office unproved"
+    },
+    {
+      "Id": "SEV-ACL-002",
+      "Disposition": "ClosedKeep",
+      "Finding": "Huelva and Saltes are distinct places in one former paired taifa"
+    },
+    {
+      "Id": "SEV-ACL-003",
+      "Disposition": "ClosedKeep",
+      "Finding": "Santa Maria do Algarve is Shantamariyya al-Gharb/Faro; Seville superior authority by opening"
+    },
+    {
+      "Id": "SEV-ACL-004",
+      "Disposition": "ClosedKeep",
+      "Finding": "Algeciras under Seville political authority by opening; operations separate"
+    },
+    {
+      "Id": "SEV-ACL-005",
+      "Disposition": "ClosedWithSeparation",
+      "Finding": "Contemporary coin-issuing authority supported; physical mint and operation unproved"
+    },
+    {
+      "Id": "SEV-ACL-006",
+      "Disposition": "Quarantine",
+      "Finding": "Named high officeholders unproved"
+    },
+    {
+      "Id": "SEV-ACL-007",
+      "Disposition": "Quarantine",
+      "Finding": "Exact Seville port location, facilities and operator unproved"
+    },
+    {
+      "Id": "SEV-ACL-008",
+      "Disposition": "Quarantine",
+      "Finding": "Absorbed-city administration unproved"
+    },
+    {
+      "Id": "SEV-ACL-009",
+      "Disposition": "ClosedWithSeparation",
+      "Finding": "Personal laqab kept; sovereign office and proxy-caliphal semantics quarantined"
+    }
+  ],
+  "Readiness": {
+    "DefinitionAndExternalLockPlanningAuthorized": true,
+    "RegistryAuthoringAuthorized": false,
+    "OpeningStateAuthoringAuthorized": false
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false
+  },
+  "SmallestUsefulNextAction": "Seville_Taifa_Definition_and_External_Lock_Planning_V1.md"
+}

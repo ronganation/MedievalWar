@@ -1,0 +1,39 @@
+{
+  "registry_entries": [
+    "emergence.aquitaine.composite_principality_settlement",
+    "emergence.aquitaine.succession_settlement",
+    "emergence.aquitaine.crown_service_or_refusal",
+    "emergence.aquitaine.corridor_assembly_and_access",
+    "emergence.aquitaine.atlantic_capacity_transition",
+    "emergence.aquitaine.neighbor_balance_transition",
+    "emergence.barbastro_expedition"
+  ],
+  "expected_entries": [
+    "emergence.aquitaine.composite_principality_settlement",
+    "emergence.aquitaine.succession_settlement",
+    "emergence.aquitaine.crown_service_or_refusal",
+    "emergence.aquitaine.corridor_assembly_and_access",
+    "emergence.aquitaine.atlantic_capacity_transition",
+    "emergence.aquitaine.neighbor_balance_transition",
+    "emergence.barbastro_expedition"
+  ],
+  "entries_match": true,
+  "all_defined": true,
+  "opening_zero_instances": true,
+  "opening_no_active_instance_fields": true,
+  "france_exact_collisions": {
+    "emergence.aquitaine.composite_principality_settlement": 0,
+    "emergence.aquitaine.succession_settlement": 0,
+    "emergence.aquitaine.crown_service_or_refusal": 0,
+    "emergence.aquitaine.corridor_assembly_and_access": 0,
+    "emergence.aquitaine.atlantic_capacity_transition": 0,
+    "emergence.aquitaine.neighbor_balance_transition": 0,
+    "emergence.barbastro_expedition": 0
+  },
+  "no_france_exact_collisions": true,
+  "registry_fences_balanced": true,
+  "emergence_fences_balanced": true,
+  "barbastro_inactive_optional": true,
+  "person_creation_boundary": true,
+  "static_pass": true
+}

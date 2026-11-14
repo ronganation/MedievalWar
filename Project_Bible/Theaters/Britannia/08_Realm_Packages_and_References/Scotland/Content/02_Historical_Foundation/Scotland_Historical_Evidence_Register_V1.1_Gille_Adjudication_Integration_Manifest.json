@@ -1,0 +1,36 @@
+{
+  "document": "Scotland_Historical_Evidence_Register_V1.1_Gille_Adjudication_Integration.md",
+  "version": "1.1.0",
+  "status": "Static-Checked Draft",
+  "source": {
+    "filename": "Scotland_Historical_Evidence_Register_V1.md",
+    "bytes": 39094,
+    "sha256": "3e17f7c70d9c0d629ce5605538156019ee83175e945659ba9fe02f4c28f4b2d1",
+    "literal_source_prefix": true
+  },
+  "successor": {
+    "bytes": 51289,
+    "lines": 1164,
+    "sections": 35,
+    "sha256": "d69a6791e262fed0da719fbec190d748790c9343c96a8edcdd3e796537f4f879"
+  },
+  "inventory": {
+    "version": "1.1.0",
+    "new_external_sources": 1,
+    "new_evidence_records": 2,
+    "superseded_records": 1,
+    "new_contradictions": 1,
+    "new_dependencies": 1,
+    "additional_validation_cases": 6
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "passed": true
+  }
+}

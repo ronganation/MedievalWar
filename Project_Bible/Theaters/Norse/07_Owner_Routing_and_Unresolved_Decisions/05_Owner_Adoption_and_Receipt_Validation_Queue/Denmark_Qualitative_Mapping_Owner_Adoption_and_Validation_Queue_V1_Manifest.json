@@ -1,0 +1,57 @@
+{
+  "manifest_id": "manifest.denmark.qualitative_mapping.owner_adoption_validation_queue.v1",
+  "version": "1.0.0",
+  "status": "PASS_PENDING_OWNER_ADOPTION_QUEUE_PACKAGE_STATIC_CHECK",
+  "artifact_count": 5,
+  "hashed_artifact_count": 4,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "stable_order": 10,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Adoption_Request_and_Validation_Queue_V1.md",
+      "bytes": 4459,
+      "lines": 137,
+      "sha256": "D65D182F2CAE4738AD1C6E29C3DE1F96E062BC24F1F7B4F26215CF8778076E9E"
+    },
+    {
+      "stable_order": 20,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Adoption_Response_V1_PENDING.json",
+      "bytes": 952,
+      "lines": 31,
+      "sha256": "5E2C9B028680236A699D95F20ECC5204B00961B5C5668EA95402C323687EF835"
+    },
+    {
+      "stable_order": 30,
+      "filename": "Denmark_Qualitative_Mapping_Receipt_Validation_Queue_V1.json",
+      "bytes": 3263,
+      "lines": 81,
+      "sha256": "1E85FA14A409764B5990AC14528C1056B67045AC04F6BB9451EF1BFBEF8EAABB"
+    },
+    {
+      "stable_order": 40,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Adoption_and_Validation_Queue_V1_Static_Check.json",
+      "bytes": 655,
+      "lines": 18,
+      "sha256": "2CF42C637EE4D099D2D510AE1B98672519444AB272303B1CA62CDD6BEE9EB35F"
+    }
+  ],
+  "checks": {
+    "check_id": "check.denmark.qualitative_mapping.owner_adoption_validation_queue.v1",
+    "status": "PASS_PENDING_OWNER_ADOPTION_QUEUE_STATIC_CHECK",
+    "queue_entry_count_exactly_4": true,
+    "orders_exactly_10_30_40_60": true,
+    "all_pending_owner_adoption": true,
+    "all_owner_response_refs_null": true,
+    "all_validation_results_null": true,
+    "all_ledger_updates_closed": true,
+    "all_implementation_closed": true,
+    "all_runtime_mutation_closed": true,
+    "pending_response_empty": true,
+    "request_20_excluded": true,
+    "request_50_excluded": true,
+    "request_70_excluded": true,
+    "markdown_fences_balanced": true,
+    "no_escaped_underscores": true
+  },
+  "authorization_closed": true
+}

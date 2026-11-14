@@ -1,0 +1,20 @@
+{
+  "filename": "Wales_AI_V3_Copy_First_Rebuild.md",
+  "status": "STATIC_CHECKED_REVIEW_ARTIFACT_BLOCKED_ON_EXACT_SOURCE_BYTE_INCLUSION",
+  "bytes": 49628,
+  "line_count": 1133,
+  "sha256": "1c720a049a65efbfd86f8abcf1a1a3c6fcb82a12a179d2a83e78bf09eaf27c87",
+  "attached_source_reference": "turn5search176",
+  "summary_only_preservation_layer_removed": true,
+  "additive_v3_layer_present": true,
+  "source_overwrite_performed": false,
+  "physical_promotion_performed": false,
+  "runtime_mutation_performed": false,
+  "exact_source_bytes_included": false,
+  "promotion_ready": false,
+  "promotion_blocker": "Exact attached Wales_AI.md bytes were not staged in the artifact container.",
+  "literal_backslash_underscore_count": 0,
+  "balanced_fences": true,
+  "three_track_temporal_model": true,
+  "all_ten_source_scenarios_represented": true
+}

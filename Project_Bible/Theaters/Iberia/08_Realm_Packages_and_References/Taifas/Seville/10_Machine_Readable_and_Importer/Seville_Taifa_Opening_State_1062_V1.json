@@ -1,0 +1,1711 @@
+{
+  "PackageIdentity": {
+    "ContractId": "contract.seville_taifa.opening_state.1062.v1",
+    "ContractVersion": "1.2.0",
+    "PackageId": "package.seville_taifa.opening_state.1062.v1",
+    "PackageVersion": "1.0.0",
+    "OpeningStateId": "opening.seville_taifa.1062.v1",
+    "OpeningStateVersion": "1.3.0",
+    "ScenarioId": "scenario.grand_campaign.1062",
+    "EffectiveDate": "1062-01-01",
+    "RealmRef": "realm.seville",
+    "NewCampaignOnly": true,
+    "ApplyAtMostOnce": true
+  },
+  "AuthorityManifest": [
+    {
+      "AuthorityId": "authority.project_bible.2_4",
+      "AuthorityType": "ProjectBible",
+      "Filename": "Project_Bible_2.4.md",
+      "InternalVersion": "2.4",
+      "ContentHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "Required": true,
+      "StableOrder": 0
+    },
+    {
+      "AuthorityId": "authority.design_expansion_checklist.3_7",
+      "AuthorityType": "Checklist",
+      "Filename": "Design_Expansion_Checklist_V3.7.md",
+      "InternalVersion": "3.7",
+      "ContentHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "Required": true,
+      "StableOrder": 1
+    },
+    {
+      "AuthorityId": "authority.seville.historical_reconciliation.v2",
+      "AuthorityType": "HistoricalReconciliation",
+      "Filename": "Seville_Taifa_January_1062_Historical_Reconciliation_and_Source_Inventory_V2.md",
+      "InternalVersion": "2.0.0",
+      "ContentHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "Required": true,
+      "StableOrder": 2
+    },
+    {
+      "AuthorityId": "authority.seville.contradiction_ledger.v2",
+      "AuthorityType": "ContradictionLedger",
+      "Filename": "Seville_Taifa_January_1062_Authority_and_Control_Contradiction_Ledger_V2.md",
+      "InternalVersion": "2.0.0",
+      "ContentHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "Required": true,
+      "StableOrder": 3
+    },
+    {
+      "AuthorityId": "authority.seville.registry_lock.v1",
+      "AuthorityType": "RegistryLock",
+      "Filename": "Seville_Taifa_ID_Registry_V1_Lock_and_Release_V1.md",
+      "InternalVersion": "1.0.0",
+      "ContentHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "Required": true,
+      "StableOrder": 4
+    },
+    {
+      "AuthorityId": "authority.seville.opening_state.v1",
+      "AuthorityType": "OpeningState",
+      "Filename": "Seville_Taifa_January_1062_Opening_State_V1.md",
+      "InternalVersion": "1.3.0",
+      "ContentHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "Required": true,
+      "StableOrder": 5
+    }
+  ],
+  "RegistryBinding": {
+    "RegistryId": "registry.seville.taifa.v1",
+    "RegistryVersion": "1.0.0-locked",
+    "RequiredCanonicalIds": 16,
+    "AllowDeprecatedIds": false,
+    "AllowAliasChains": false,
+    "AllowDisplayNamesAsKeys": false,
+    "AllowCrossTypeResolution": false
+  },
+  "TemporalState": {
+    "HistoricalDateState": {
+      "CurrentDate": "1062-01-01",
+      "PreviousDate": null,
+      "AdvancesDuringOpeningApplication": false
+    },
+    "HistoricalProgressionState": {
+      "StepDurationMonths": 21,
+      "StepIndex": 0,
+      "ElapsedMonthsWithinStep": 0,
+      "AdvancesDuringOpeningApplication": false
+    },
+    "BiologicalProgressionState": {
+      "StepDurationMonths": 7,
+      "StepIndex": 0,
+      "ElapsedMonthsWithinStep": 0,
+      "AdvancesDuringOpeningApplication": false
+    },
+    "CampaignSeasonState": {
+      "CurrentSeason": "Winter",
+      "SeasonIndex": 0,
+      "SeasonOrder": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ],
+      "AdvancesOneSeasonPerStrategicTurn": true,
+      "AdvancesDuringOpeningApplication": false
+    }
+  },
+  "ApplicationGuard": {
+    "RequiredCampaignState": "NewCampaignUninitialized",
+    "ApplyAtMostOnce": true,
+    "RejectIfOpeningReceiptExists": true,
+    "RejectIfHistoricalDateAdvanced": true,
+    "RejectIfHistoricalProgressionAdvanced": true,
+    "RejectIfBiologicalProgressionAdvanced": true,
+    "RejectIfCampaignSeasonAdvanced": true,
+    "RejectIfRuntimeDivergenceExists": true,
+    "ReapplyOnLoad": false,
+    "ReapplyAfterMigration": false,
+    "ReapplyToAdvancedSave": false,
+    "AtomicCommitRequired": true,
+    "ApplicationReceiptRequired": true
+  },
+  "RealmRecords": [
+    {
+      "RecordId": "realm_record.seville.1062",
+      "RealmRef": "realm.seville",
+      "LifecycleState": "Active",
+      "PlayableState": "Active",
+      "EffectiveDate": "1062-01-01",
+      "OpeningSovereignRef": "person.abbad_ibn_muhammad_al_mutadid",
+      "CapitalSettlementRef": "settlement.seville",
+      "DynastyDefinitionRef": "dynasty.abbadid",
+      "PoliticalForm": "UrbanDynasticTaifa",
+      "UniformAdministrationAssumed": false,
+      "CompleteTerritorialPolygonAvailable": false,
+      "StableOrderKey": "000:realm.seville",
+      "OwnerSubsystem": "Realm"
+    }
+  ],
+  "CharacterRecords": [
+    {
+      "RecordId": "character_record.al_mutadid.1062",
+      "PersonRef": "person.abbad_ibn_muhammad_al_mutadid",
+      "Alive": true,
+      "ActiveAtOpening": true,
+      "SimulationTier": "TierA",
+      "OpeningRole": "Sovereign",
+      "RealmRef": "realm.seville",
+      "DynastyDefinitionRef": "dynasty.abbadid",
+      "FormalHeirOfficeRef": null,
+      "GuaranteedAccession": false,
+      "ExactAgeYears": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "AgeResidualMonths": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "CurrentLocationRef": null,
+      "HouseholdRef": null,
+      "OfficeRef": null,
+      "CommandRef": null,
+      "PropertyRefs": [],
+      "StableOrderKey": "000:person.abbad_ibn_muhammad_al_mutadid",
+      "OwnerSubsystem": "CharacterFoundation"
+    },
+    {
+      "RecordId": "character_record.al_mutamid.1062",
+      "PersonRef": "person.muhammad_ibn_abbad_al_mutamid",
+      "Alive": true,
+      "ActiveAtOpening": true,
+      "SimulationTier": "TierA",
+      "OpeningRole": "SuccessionRelevantDynast",
+      "RealmRef": "realm.seville",
+      "DynastyDefinitionRef": "dynasty.abbadid",
+      "FormalHeirOfficeRef": null,
+      "GuaranteedAccession": false,
+      "ExactAgeYears": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "AgeResidualMonths": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "CurrentLocationRef": null,
+      "HouseholdRef": null,
+      "OfficeRef": null,
+      "CommandRef": null,
+      "PropertyRefs": [],
+      "StableOrderKey": "001:person.muhammad_ibn_abbad_al_mutamid",
+      "OwnerSubsystem": "CharacterFoundation"
+    }
+  ],
+  "DynastyDefinitionBindings": [
+    {
+      "BindingId": "dynasty_binding.abbadid.1062",
+      "DynastyRef": "dynasty.abbadid",
+      "RealmRef": "realm.seville",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeDynastyStateCreated": false,
+      "OpeningHeadRecordCreated": false,
+      "SuccessionRuleCreated": false,
+      "HouseholdCreated": false,
+      "PropertyCreated": false,
+      "StableOrderKey": "000:dynasty.abbadid",
+      "OwnerSubsystem": "Dynasty"
+    }
+  ],
+  "DirectedKinshipBindings": [
+    {
+      "SourcePersonRef": "person.abbad_ibn_muhammad_al_mutadid",
+      "TargetPersonRef": "person.muhammad_ibn_abbad_al_mutamid",
+      "RelationshipType": "ParentOf",
+      "OpeningStatus": "AcceptedDirectedKinship",
+      "CreatesPoliticalEdge": false,
+      "StableOrderKey": "000:parent"
+    },
+    {
+      "SourcePersonRef": "person.muhammad_ibn_abbad_al_mutamid",
+      "TargetPersonRef": "person.abbad_ibn_muhammad_al_mutadid",
+      "RelationshipType": "ChildOf",
+      "OpeningStatus": "AcceptedDirectedKinship",
+      "CreatesPoliticalEdge": false,
+      "StableOrderKey": "001:child"
+    }
+  ],
+  "CapitalBindings": [
+    {
+      "BindingId": "capital_binding.seville.1062",
+      "RealmRef": "realm.seville",
+      "SettlementRef": "settlement.seville",
+      "BindingType": "CapitalAndPrincipalPoliticalCenter",
+      "EffectiveDate": "1062-01-01",
+      "StableOrderKey": "000:settlement.seville",
+      "OwnerSubsystem": "Realm"
+    }
+  ],
+  "AuthorityBindings": [
+    {
+      "BindingId": "authority_binding.seville.1062",
+      "SettlementRef": "settlement.seville",
+      "SuperiorRealmRef": "realm.seville",
+      "EffectiveDate": "1062-01-01",
+      "AuthorityClass": "CoreCapitalAuthority",
+      "LocalControllerRef": null,
+      "LocalAdministratorRef": null,
+      "FortressControllerRef": null,
+      "FiscalReach": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "GarrisonRef": null,
+      "RouteOperationRefs": [],
+      "PortOperationRef": null,
+      "CustomsOperationRef": null,
+      "StraitRouteRef": null,
+      "StableOrderKey": "000:settlement.seville",
+      "OwnerSubsystem": "Governance"
+    },
+    {
+      "BindingId": "authority_binding.mertola.1062",
+      "SettlementRef": "settlement.mertola",
+      "SuperiorRealmRef": "realm.seville",
+      "EffectiveDate": "1062-01-01",
+      "AuthorityClass": "AbsorbedSettlementSuperiorAuthority",
+      "LocalControllerRef": null,
+      "LocalAdministratorRef": null,
+      "FortressControllerRef": null,
+      "FiscalReach": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "GarrisonRef": null,
+      "RouteOperationRefs": [],
+      "PortOperationRef": null,
+      "CustomsOperationRef": null,
+      "StraitRouteRef": null,
+      "StableOrderKey": "001:settlement.mertola",
+      "OwnerSubsystem": "Governance"
+    },
+    {
+      "BindingId": "authority_binding.niebla.1062",
+      "SettlementRef": "settlement.niebla",
+      "SuperiorRealmRef": "realm.seville",
+      "EffectiveDate": "1062-01-01",
+      "AuthorityClass": "AbsorbedSettlementSuperiorAuthority",
+      "LocalControllerRef": null,
+      "LocalAdministratorRef": null,
+      "FortressControllerRef": null,
+      "FiscalReach": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "GarrisonRef": null,
+      "RouteOperationRefs": [],
+      "PortOperationRef": null,
+      "CustomsOperationRef": null,
+      "StraitRouteRef": null,
+      "StableOrderKey": "002:settlement.niebla",
+      "OwnerSubsystem": "Governance"
+    },
+    {
+      "BindingId": "authority_binding.huelva.1062",
+      "SettlementRef": "settlement.huelva",
+      "SuperiorRealmRef": "realm.seville",
+      "EffectiveDate": "1062-01-01",
+      "AuthorityClass": "AbsorbedSettlementSuperiorAuthority",
+      "LocalControllerRef": null,
+      "LocalAdministratorRef": null,
+      "FortressControllerRef": null,
+      "FiscalReach": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "GarrisonRef": null,
+      "RouteOperationRefs": [],
+      "PortOperationRef": null,
+      "CustomsOperationRef": null,
+      "StraitRouteRef": null,
+      "StableOrderKey": "003:settlement.huelva",
+      "OwnerSubsystem": "Governance"
+    },
+    {
+      "BindingId": "authority_binding.saltes.1062",
+      "SettlementRef": "settlement.saltes",
+      "SuperiorRealmRef": "realm.seville",
+      "EffectiveDate": "1062-01-01",
+      "AuthorityClass": "AbsorbedSettlementSuperiorAuthority",
+      "LocalControllerRef": null,
+      "LocalAdministratorRef": null,
+      "FortressControllerRef": null,
+      "FiscalReach": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "GarrisonRef": null,
+      "RouteOperationRefs": [],
+      "PortOperationRef": null,
+      "CustomsOperationRef": null,
+      "StraitRouteRef": null,
+      "StableOrderKey": "004:settlement.saltes",
+      "OwnerSubsystem": "Governance"
+    },
+    {
+      "BindingId": "authority_binding.santa_maria_algarve.1062",
+      "SettlementRef": "settlement.santa_maria_algarve",
+      "SuperiorRealmRef": "realm.seville",
+      "EffectiveDate": "1062-01-01",
+      "AuthorityClass": "AbsorbedSettlementSuperiorAuthority",
+      "LocalControllerRef": null,
+      "LocalAdministratorRef": null,
+      "FortressControllerRef": null,
+      "FiscalReach": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "GarrisonRef": null,
+      "RouteOperationRefs": [],
+      "PortOperationRef": null,
+      "CustomsOperationRef": null,
+      "StraitRouteRef": null,
+      "StableOrderKey": "005:settlement.santa_maria_algarve",
+      "OwnerSubsystem": "Governance"
+    },
+    {
+      "BindingId": "authority_binding.algeciras.1062",
+      "SettlementRef": "settlement.algeciras",
+      "SuperiorRealmRef": "realm.seville",
+      "EffectiveDate": "1062-01-01",
+      "AuthorityClass": "AbsorbedSettlementSuperiorAuthority",
+      "LocalControllerRef": null,
+      "LocalAdministratorRef": null,
+      "FortressControllerRef": null,
+      "FiscalReach": {
+        "State": "Unknown",
+        "ReasonCode": "EvidenceUnresolved",
+        "SourceRefs": []
+      },
+      "GarrisonRef": null,
+      "RouteOperationRefs": [],
+      "PortOperationRef": null,
+      "CustomsOperationRef": null,
+      "StraitRouteRef": null,
+      "StableOrderKey": "006:settlement.algeciras",
+      "OwnerSubsystem": "Governance"
+    }
+  ],
+  "DefinitionOnlyReferences": [
+    {
+      "CanonicalRef": "historical_polity.taifa_mertola_first",
+      "DefinitionOnly": true,
+      "OpeningActive": false,
+      "MayCreateController": false,
+      "MayCreateRuler": false,
+      "MayCreateGovernment": false,
+      "MayCreateArmy": false,
+      "MayCreateRevolt": false,
+      "MayCreateRestorationPath": false,
+      "StableOrderKey": "000:historical_polity.taifa_mertola_first"
+    },
+    {
+      "CanonicalRef": "historical_polity.taifa_niebla_first",
+      "DefinitionOnly": true,
+      "OpeningActive": false,
+      "MayCreateController": false,
+      "MayCreateRuler": false,
+      "MayCreateGovernment": false,
+      "MayCreateArmy": false,
+      "MayCreateRevolt": false,
+      "MayCreateRestorationPath": false,
+      "StableOrderKey": "001:historical_polity.taifa_niebla_first"
+    },
+    {
+      "CanonicalRef": "historical_polity.taifa_saltes_huelva",
+      "DefinitionOnly": true,
+      "OpeningActive": false,
+      "MayCreateController": false,
+      "MayCreateRuler": false,
+      "MayCreateGovernment": false,
+      "MayCreateArmy": false,
+      "MayCreateRevolt": false,
+      "MayCreateRestorationPath": false,
+      "StableOrderKey": "002:historical_polity.taifa_saltes_huelva"
+    },
+    {
+      "CanonicalRef": "historical_polity.taifa_santa_maria_algarve",
+      "DefinitionOnly": true,
+      "OpeningActive": false,
+      "MayCreateController": false,
+      "MayCreateRuler": false,
+      "MayCreateGovernment": false,
+      "MayCreateArmy": false,
+      "MayCreateRevolt": false,
+      "MayCreateRestorationPath": false,
+      "StableOrderKey": "003:historical_polity.taifa_santa_maria_algarve"
+    },
+    {
+      "CanonicalRef": "historical_polity.taifa_algeciras",
+      "DefinitionOnly": true,
+      "OpeningActive": false,
+      "MayCreateController": false,
+      "MayCreateRuler": false,
+      "MayCreateGovernment": false,
+      "MayCreateArmy": false,
+      "MayCreateRevolt": false,
+      "MayCreateRestorationPath": false,
+      "StableOrderKey": "004:historical_polity.taifa_algeciras"
+    }
+  ],
+  "DefinitionFamilyBindings": [
+    {
+      "FamilyId": "PopulationCommunitiesSocialStructure",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "000:PopulationCommunitiesSocialStructure"
+    },
+    {
+      "FamilyId": "ReligionLawInstitutions",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "001:ReligionLawInstitutions"
+    },
+    {
+      "FamilyId": "CourtCulturePatronageKnowledge",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "002:CourtCulturePatronageKnowledge"
+    },
+    {
+      "FamilyId": "CharacterNetworkHouseholdRelationship",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "003:CharacterNetworkHouseholdRelationship"
+    },
+    {
+      "FamilyId": "InfrastructureRoutesPortsLogistics",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "004:InfrastructureRoutesPortsLogistics"
+    },
+    {
+      "FamilyId": "PropertyLandholdingBuildingsProductiveInfrastructure",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "005:PropertyLandholdingBuildingsProductiveInfrastructure"
+    },
+    {
+      "FamilyId": "HistoricalMemoryMomentumConditionalEmergence",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "006:HistoricalMemoryMomentumConditionalEmergence"
+    },
+    {
+      "FamilyId": "HistoricalUncertaintyEvidenceChronology",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "007:HistoricalUncertaintyEvidenceChronology"
+    },
+    {
+      "FamilyId": "DomesticOrderLegitimacyGrievanceRestoration",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "008:DomesticOrderLegitimacyGrievanceRestoration"
+    },
+    {
+      "FamilyId": "CampaignObjectivesOpeningPressuresPlayerProgression",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "009:CampaignObjectivesOpeningPressuresPlayerProgression"
+    },
+    {
+      "FamilyId": "DevelopedUnitRosterPlanning",
+      "DefinitionAvailable": true,
+      "OpeningRuntimeInstancesCreated": 0,
+      "StableOrderKey": "010:DevelopedUnitRosterPlanning"
+    }
+  ],
+  "StrategicCondition": {
+    "CoreIdentity": "expanding_urban_dynastic_taifa",
+    "PoliticalCenter": "settlement.seville",
+    "SovereignContinuity": "active_but_person_dependent",
+    "SuccessionRelevance": "present_without_formal_heir_office",
+    "TerritorialAuthority": "broad_but_operationally_uneven",
+    "LocalAdministration": "unresolved_by_settlement",
+    "FiscalReach": "unresolved",
+    "RouteAndPortCapacity": "unresolved",
+    "MilitaryReadiness": "uninstantiated_not_zero",
+    "ExternalPressure": "present_without_active_agreement",
+    "HistoricalOutcomePolicy": "conditional_not_scripted",
+    "UniversalNumericScoreCreated": false
+  },
+  "ExplicitEmptyCollections": [
+    {
+      "CollectionName": "ActiveOffices",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Governance",
+      "StableOrderKey": "000:ActiveOffices"
+    },
+    {
+      "CollectionName": "ActiveLocalAdministrators",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Governance",
+      "StableOrderKey": "001:ActiveLocalAdministrators"
+    },
+    {
+      "CollectionName": "ActiveCharacterNetworkEdges",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "CharacterNetwork",
+      "StableOrderKey": "002:ActiveCharacterNetworkEdges"
+    },
+    {
+      "CollectionName": "ActiveExternalNetworkEdges",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "CharacterNetwork",
+      "StableOrderKey": "003:ActiveExternalNetworkEdges"
+    },
+    {
+      "CollectionName": "ActiveKnowledgeEdges",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "CharacterNetwork",
+      "StableOrderKey": "004:ActiveKnowledgeEdges"
+    },
+    {
+      "CollectionName": "ActiveSuccessionSupportEdges",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "CharacterNetwork",
+      "StableOrderKey": "005:ActiveSuccessionSupportEdges"
+    },
+    {
+      "CollectionName": "ActiveArmies",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Realm",
+      "StableOrderKey": "006:ActiveArmies"
+    },
+    {
+      "CollectionName": "ActiveCommands",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Military",
+      "StableOrderKey": "007:ActiveCommands"
+    },
+    {
+      "CollectionName": "ActiveGarrisons",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Military",
+      "StableOrderKey": "008:ActiveGarrisons"
+    },
+    {
+      "CollectionName": "ActiveFleets",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Military",
+      "StableOrderKey": "009:ActiveFleets"
+    },
+    {
+      "CollectionName": "ActiveCampaigns",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Military",
+      "StableOrderKey": "010:ActiveCampaigns"
+    },
+    {
+      "CollectionName": "ActiveMusters",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Military",
+      "StableOrderKey": "011:ActiveMusters"
+    },
+    {
+      "CollectionName": "ActiveRecruitmentAuthorities",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Military",
+      "StableOrderKey": "012:ActiveRecruitmentAuthorities"
+    },
+    {
+      "CollectionName": "ActiveMilitaryAccessAgreements",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Military",
+      "StableOrderKey": "013:ActiveMilitaryAccessAgreements"
+    },
+    {
+      "CollectionName": "ActiveSieges",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Military",
+      "StableOrderKey": "014:ActiveSieges"
+    },
+    {
+      "CollectionName": "ActiveOccupations",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Military",
+      "StableOrderKey": "015:ActiveOccupations"
+    },
+    {
+      "CollectionName": "ActiveAccounts",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "016:ActiveAccounts"
+    },
+    {
+      "CollectionName": "ActiveTreasuries",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "017:ActiveTreasuries"
+    },
+    {
+      "CollectionName": "ActiveProperties",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "018:ActiveProperties"
+    },
+    {
+      "CollectionName": "ActiveTaxRates",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "019:ActiveTaxRates"
+    },
+    {
+      "CollectionName": "ActiveRevenueReceipts",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "020:ActiveRevenueReceipts"
+    },
+    {
+      "CollectionName": "ActiveMarketOperations",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "021:ActiveMarketOperations"
+    },
+    {
+      "CollectionName": "ActiveMintOperations",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "022:ActiveMintOperations"
+    },
+    {
+      "CollectionName": "ActiveCoinIssueInstances",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "023:ActiveCoinIssueInstances"
+    },
+    {
+      "CollectionName": "ActiveShipments",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "024:ActiveShipments"
+    },
+    {
+      "CollectionName": "ActiveStockpiles",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "025:ActiveStockpiles"
+    },
+    {
+      "CollectionName": "ActiveSupplyContracts",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Economy",
+      "StableOrderKey": "026:ActiveSupplyContracts"
+    },
+    {
+      "CollectionName": "ActiveRouteOperations",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "StrategicGeography",
+      "StableOrderKey": "027:ActiveRouteOperations"
+    },
+    {
+      "CollectionName": "ActivePortOperations",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "StrategicGeography",
+      "StableOrderKey": "028:ActivePortOperations"
+    },
+    {
+      "CollectionName": "ActiveLandings",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "StrategicGeography",
+      "StableOrderKey": "029:ActiveLandings"
+    },
+    {
+      "CollectionName": "ActiveCrossings",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "StrategicGeography",
+      "StableOrderKey": "030:ActiveCrossings"
+    },
+    {
+      "CollectionName": "ActiveBlockades",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "StrategicGeography",
+      "StableOrderKey": "031:ActiveBlockades"
+    },
+    {
+      "CollectionName": "ActiveCustomsOperations",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "StrategicGeography",
+      "StableOrderKey": "032:ActiveCustomsOperations"
+    },
+    {
+      "CollectionName": "ActivePariaAgreements",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "033:ActivePariaAgreements"
+    },
+    {
+      "CollectionName": "ActiveProtectionAgreements",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "034:ActiveProtectionAgreements"
+    },
+    {
+      "CollectionName": "ActiveWars",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "035:ActiveWars"
+    },
+    {
+      "CollectionName": "ActiveTruces",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "036:ActiveTruces"
+    },
+    {
+      "CollectionName": "ActiveAlliances",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "037:ActiveAlliances"
+    },
+    {
+      "CollectionName": "ActiveAccessAgreements",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "038:ActiveAccessAgreements"
+    },
+    {
+      "CollectionName": "ActiveHostageAgreements",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "039:ActiveHostageAgreements"
+    },
+    {
+      "CollectionName": "ActiveInvitations",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "040:ActiveInvitations"
+    },
+    {
+      "CollectionName": "ActiveInterventions",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "041:ActiveInterventions"
+    },
+    {
+      "CollectionName": "ActiveHistoricalMemoryInstances",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "HistoricalEmergence",
+      "StableOrderKey": "042:ActiveHistoricalMemoryInstances"
+    },
+    {
+      "CollectionName": "ActiveHistoricalMomentumInstances",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "HistoricalEmergence",
+      "StableOrderKey": "043:ActiveHistoricalMomentumInstances"
+    },
+    {
+      "CollectionName": "ActiveHistoricalEmergenceInstances",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "HistoricalEmergence",
+      "StableOrderKey": "044:ActiveHistoricalEmergenceInstances"
+    },
+    {
+      "CollectionName": "ScheduledHistoricalDeaths",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "HistoricalEmergence",
+      "StableOrderKey": "045:ScheduledHistoricalDeaths"
+    },
+    {
+      "CollectionName": "ScheduledHistoricalIllnesses",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "HistoricalEmergence",
+      "StableOrderKey": "046:ScheduledHistoricalIllnesses"
+    },
+    {
+      "CollectionName": "PredeterminedSuccessionTransfers",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "HistoricalEmergence",
+      "StableOrderKey": "047:PredeterminedSuccessionTransfers"
+    },
+    {
+      "CollectionName": "PredeterminedConquests",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "HistoricalEmergence",
+      "StableOrderKey": "048:PredeterminedConquests"
+    },
+    {
+      "CollectionName": "PredeterminedWars",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "049:PredeterminedWars"
+    },
+    {
+      "CollectionName": "PredeterminedAlmoravidInterventions",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Diplomacy",
+      "StableOrderKey": "050:PredeterminedAlmoravidInterventions"
+    },
+    {
+      "CollectionName": "ActivePopulationRuntimeProfiles",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Population",
+      "StableOrderKey": "051:ActivePopulationRuntimeProfiles"
+    },
+    {
+      "CollectionName": "ActiveCommunityAttitudeRecords",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Population",
+      "StableOrderKey": "052:ActiveCommunityAttitudeRecords"
+    },
+    {
+      "CollectionName": "ActiveInstitutionRuntimeRecords",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "ReligionLawInstitutions",
+      "StableOrderKey": "053:ActiveInstitutionRuntimeRecords"
+    },
+    {
+      "CollectionName": "ActiveHouseholdRuntimeRecords",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Household",
+      "StableOrderKey": "054:ActiveHouseholdRuntimeRecords"
+    },
+    {
+      "CollectionName": "ActiveNonKinshipRelationshipRecords",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "CharacterNetwork",
+      "StableOrderKey": "055:ActiveNonKinshipRelationshipRecords"
+    },
+    {
+      "CollectionName": "ActiveBuildingInstances",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Property",
+      "StableOrderKey": "056:ActiveBuildingInstances"
+    },
+    {
+      "CollectionName": "ActiveProductiveSiteInstances",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "Property",
+      "StableOrderKey": "057:ActiveProductiveSiteInstances"
+    },
+    {
+      "CollectionName": "ActiveDomesticOrderRecords",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "DomesticOrder",
+      "StableOrderKey": "058:ActiveDomesticOrderRecords"
+    },
+    {
+      "CollectionName": "ActiveLegitimacyValues",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "DomesticOrder",
+      "StableOrderKey": "059:ActiveLegitimacyValues"
+    },
+    {
+      "CollectionName": "ActiveGrievanceRecords",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "DomesticOrder",
+      "StableOrderKey": "060:ActiveGrievanceRecords"
+    },
+    {
+      "CollectionName": "ActiveDomesticFactions",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "DomesticOrder",
+      "StableOrderKey": "061:ActiveDomesticFactions"
+    },
+    {
+      "CollectionName": "ActiveUnrestEvents",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "DomesticOrder",
+      "StableOrderKey": "062:ActiveUnrestEvents"
+    },
+    {
+      "CollectionName": "ActiveRebellions",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "DomesticOrder",
+      "StableOrderKey": "063:ActiveRebellions"
+    },
+    {
+      "CollectionName": "ActiveRemedies",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "DomesticOrder",
+      "StableOrderKey": "064:ActiveRemedies"
+    },
+    {
+      "CollectionName": "ActiveRestorationProjects",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "DomesticOrder",
+      "StableOrderKey": "065:ActiveRestorationProjects"
+    },
+    {
+      "CollectionName": "ActiveCampaignObjectives",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "DomesticOrder",
+      "StableOrderKey": "066:ActiveCampaignObjectives"
+    },
+    {
+      "CollectionName": "ActiveOpeningRecommendations",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "CampaignObjectives",
+      "StableOrderKey": "067:ActiveOpeningRecommendations"
+    },
+    {
+      "CollectionName": "ActiveObjectiveRewards",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "CampaignObjectives",
+      "StableOrderKey": "068:ActiveObjectiveRewards"
+    },
+    {
+      "CollectionName": "ActiveVictoryConditions",
+      "State": "IntentionalEmpty",
+      "ReasonCode": "NoSupportedOpeningInstance",
+      "OwnerSubsystem": "CampaignObjectives",
+      "StableOrderKey": "069:ActiveVictoryConditions"
+    }
+  ],
+  "ReviewOnlyExclusions": [
+    {
+      "ExclusionId": "review.ismail_ibn_abbad",
+      "Category": "ReviewOnly",
+      "Subject": "Ismail ibn Abbad",
+      "ReasonCode": "IdentityAndOpeningStateUnresolved",
+      "StableOrderKey": "000:Ismail ibn Abbad"
+    }
+  ],
+  "QuarantineExclusions": [
+    {
+      "ExclusionId": "SEV-Q-001",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-001",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "001:SEV-Q-001"
+    },
+    {
+      "ExclusionId": "SEV-Q-002",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-002",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "002:SEV-Q-002"
+    },
+    {
+      "ExclusionId": "SEV-Q-003",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-003",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "003:SEV-Q-003"
+    },
+    {
+      "ExclusionId": "SEV-Q-004",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-004",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "004:SEV-Q-004"
+    },
+    {
+      "ExclusionId": "SEV-Q-005",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-005",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "005:SEV-Q-005"
+    },
+    {
+      "ExclusionId": "SEV-Q-006",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-006",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "006:SEV-Q-006"
+    },
+    {
+      "ExclusionId": "SEV-Q-007",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-007",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "007:SEV-Q-007"
+    },
+    {
+      "ExclusionId": "SEV-Q-008",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-008",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "008:SEV-Q-008"
+    },
+    {
+      "ExclusionId": "SEV-Q-009",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-009",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "009:SEV-Q-009"
+    },
+    {
+      "ExclusionId": "SEV-Q-010",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-010",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "010:SEV-Q-010"
+    },
+    {
+      "ExclusionId": "SEV-Q-011",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-011",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "011:SEV-Q-011"
+    },
+    {
+      "ExclusionId": "SEV-Q-012",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-012",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "012:SEV-Q-012"
+    },
+    {
+      "ExclusionId": "SEV-Q-013",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-013",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "013:SEV-Q-013"
+    },
+    {
+      "ExclusionId": "SEV-Q-014",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-014",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "014:SEV-Q-014"
+    },
+    {
+      "ExclusionId": "SEV-Q-015",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-015",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "015:SEV-Q-015"
+    },
+    {
+      "ExclusionId": "SEV-Q-016",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-016",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "016:SEV-Q-016"
+    },
+    {
+      "ExclusionId": "SEV-Q-017",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-017",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "017:SEV-Q-017"
+    },
+    {
+      "ExclusionId": "SEV-Q-018",
+      "Category": "Quarantine",
+      "Subject": "SEV-Q-018",
+      "ReasonCode": "PreserveUnresolvedClaim",
+      "StableOrderKey": "018:SEV-Q-018"
+    }
+  ],
+  "LaterHistoryExclusions": [
+    {
+      "ExclusionId": "later.SilvesOpeningHolding",
+      "Category": "LaterHistory",
+      "Subject": "Silves as a Seville opening holding",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "000:SilvesOpeningHolding"
+    },
+    {
+      "ExclusionId": "later.RondaOpeningHolding",
+      "Category": "LaterHistory",
+      "Subject": "Ronda as a Seville opening holding",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "001:RondaOpeningHolding"
+    },
+    {
+      "ExclusionId": "later.MoronOpeningHolding",
+      "Category": "LaterHistory",
+      "Subject": "Morón as a Seville opening holding",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "002:MoronOpeningHolding"
+    },
+    {
+      "ExclusionId": "later.CarmonaOpeningHolding",
+      "Category": "LaterHistory",
+      "Subject": "Carmona as a Seville opening holding",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "003:CarmonaOpeningHolding"
+    },
+    {
+      "ExclusionId": "later.ArcosOpeningHolding",
+      "Category": "LaterHistory",
+      "Subject": "Arcos as a Seville opening holding",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "004:ArcosOpeningHolding"
+    },
+    {
+      "ExclusionId": "later.CordobaOpeningHolding",
+      "Category": "LaterHistory",
+      "Subject": "Córdoba as a Seville opening holding",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "005:CordobaOpeningHolding"
+    },
+    {
+      "ExclusionId": "later.Paria1063",
+      "Category": "LaterHistory",
+      "Subject": "Active 1063 paria at opening",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "006:Paria1063"
+    },
+    {
+      "ExclusionId": "later.ScheduledMutadidDeath",
+      "Category": "LaterHistory",
+      "Subject": "Scheduled al-Mu'tadid death",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "007:ScheduledMutadidDeath"
+    },
+    {
+      "ExclusionId": "later.GuaranteedMutamidAccession",
+      "Category": "LaterHistory",
+      "Subject": "Guaranteed al-Mu'tamid accession",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "008:GuaranteedMutamidAccession"
+    },
+    {
+      "ExclusionId": "later.AlmoravidInvitation",
+      "Category": "LaterHistory",
+      "Subject": "Almoravid invitation",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "009:AlmoravidInvitation"
+    },
+    {
+      "ExclusionId": "later.AlmoravidIntervention",
+      "Category": "LaterHistory",
+      "Subject": "Almoravid intervention",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "010:AlmoravidIntervention"
+    },
+    {
+      "ExclusionId": "later.AlmoravidAnnexation",
+      "Category": "LaterHistory",
+      "Subject": "Almoravid annexation",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "011:AlmoravidAnnexation"
+    },
+    {
+      "ExclusionId": "later.PredeterminedOutcomes",
+      "Category": "LaterHistory",
+      "Subject": "Predetermined conquests, wars, marriages, titles, offices, or deaths",
+      "ReasonCode": "NotOpeningFact",
+      "StableOrderKey": "012:PredeterminedOutcomes"
+    }
+  ],
+  "ExternalReferenceRequirements": [
+    {
+      "Subject": "León-Castile",
+      "ResolutionState": "Unresolved",
+      "BlocksLocalShell": false,
+      "MayCreateLocalDuplicate": false,
+      "StableOrderKey": "000:León-Castile"
+    },
+    {
+      "Subject": "Badajoz",
+      "ResolutionState": "Unresolved",
+      "BlocksLocalShell": false,
+      "MayCreateLocalDuplicate": false,
+      "StableOrderKey": "001:Badajoz"
+    },
+    {
+      "Subject": "Granada",
+      "ResolutionState": "Unresolved",
+      "BlocksLocalShell": false,
+      "MayCreateLocalDuplicate": false,
+      "StableOrderKey": "002:Granada"
+    },
+    {
+      "Subject": "Córdoba",
+      "ResolutionState": "Unresolved",
+      "BlocksLocalShell": false,
+      "MayCreateLocalDuplicate": false,
+      "StableOrderKey": "003:Córdoba"
+    },
+    {
+      "Subject": "Carmona",
+      "ResolutionState": "Unresolved",
+      "BlocksLocalShell": false,
+      "MayCreateLocalDuplicate": false,
+      "StableOrderKey": "004:Carmona"
+    },
+    {
+      "Subject": "Morón",
+      "ResolutionState": "Unresolved",
+      "BlocksLocalShell": false,
+      "MayCreateLocalDuplicate": false,
+      "StableOrderKey": "005:Morón"
+    },
+    {
+      "Subject": "Ronda",
+      "ResolutionState": "Unresolved",
+      "BlocksLocalShell": false,
+      "MayCreateLocalDuplicate": false,
+      "StableOrderKey": "006:Ronda"
+    },
+    {
+      "Subject": "Arcos",
+      "ResolutionState": "Unresolved",
+      "BlocksLocalShell": false,
+      "MayCreateLocalDuplicate": false,
+      "StableOrderKey": "007:Arcos"
+    },
+    {
+      "Subject": "Silves",
+      "ResolutionState": "Unresolved",
+      "BlocksLocalShell": false,
+      "MayCreateLocalDuplicate": false,
+      "StableOrderKey": "008:Silves"
+    },
+    {
+      "Subject": "Almoravids",
+      "ResolutionState": "ReferenceOnly",
+      "BlocksLocalShell": false,
+      "MayCreateLocalDuplicate": false,
+      "StableOrderKey": "009:Almoravids"
+    }
+  ],
+  "DeclaredCounts": {
+    "RealmRecords": 1,
+    "CharacterRecords": 2,
+    "DynastyDefinitionBindings": 1,
+    "CapitalBindings": 1,
+    "AuthorityBindings": 7,
+    "DefinitionOnlyReferences": 5,
+    "ReviewOnlyExclusions": 1,
+    "QuarantineExclusions": 18,
+    "ActiveArmies": 0,
+    "ActiveTreasuries": 0,
+    "ActiveAgreements": 0,
+    "ActivePoliticalEdges": 0,
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11,
+    "ExplicitEmptyCollections": 70
+  },
+  "OwnerRouting": [
+    {
+      "RequestId": "req.temporal.initialize",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Temporal",
+      "RecordType": "TemporalState",
+      "CanonicalTargetRef": null,
+      "InitialStatePayload": {
+        "HistoricalDate": "1062-01-01",
+        "HistoricalMonths": 21,
+        "BiologicalMonths": 7,
+        "CampaignSeason": "Winter"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "000:req.temporal.initialize"
+    },
+    {
+      "RequestId": "req.realm.seville.activate",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Realm",
+      "RecordType": "RealmRecord",
+      "CanonicalTargetRef": "realm.seville",
+      "InitialStatePayload": {
+        "LifecycleState": "Active",
+        "PlayableState": "Active"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "001:req.realm.seville.activate"
+    },
+    {
+      "RequestId": "req.character.al_mutadid.activate",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "CharacterFoundation",
+      "RecordType": "CharacterRecord",
+      "CanonicalTargetRef": "person.abbad_ibn_muhammad_al_mutadid",
+      "InitialStatePayload": {
+        "Alive": true,
+        "OpeningRole": "Sovereign"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "002:req.character.al_mutadid.activate"
+    },
+    {
+      "RequestId": "req.character.al_mutamid.activate",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "CharacterFoundation",
+      "RecordType": "CharacterRecord",
+      "CanonicalTargetRef": "person.muhammad_ibn_abbad_al_mutamid",
+      "InitialStatePayload": {
+        "Alive": true,
+        "OpeningRole": "SuccessionRelevantDynast"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "003:req.character.al_mutamid.activate"
+    },
+    {
+      "RequestId": "req.dynasty.abbadid.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Dynasty",
+      "RecordType": "DefinitionBinding",
+      "CanonicalTargetRef": "dynasty.abbadid",
+      "InitialStatePayload": {
+        "DefinitionAvailable": true
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "004:req.dynasty.abbadid.bind"
+    },
+    {
+      "RequestId": "req.capital.seville.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Realm",
+      "RecordType": "CapitalBinding",
+      "CanonicalTargetRef": "settlement.seville",
+      "InitialStatePayload": {
+        "RealmRef": "realm.seville"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "005:req.capital.seville.bind"
+    },
+    {
+      "RequestId": "req.authority.seville.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.seville",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "CoreCapitalAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "010:req.authority.seville.bind"
+    },
+    {
+      "RequestId": "req.authority.mertola.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.mertola",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "011:req.authority.mertola.bind"
+    },
+    {
+      "RequestId": "req.authority.niebla.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.niebla",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "012:req.authority.niebla.bind"
+    },
+    {
+      "RequestId": "req.authority.huelva.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.huelva",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "013:req.authority.huelva.bind"
+    },
+    {
+      "RequestId": "req.authority.saltes.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.saltes",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "014:req.authority.saltes.bind"
+    },
+    {
+      "RequestId": "req.authority.santa_maria_algarve.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.santa_maria_algarve",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "015:req.authority.santa_maria_algarve.bind"
+    },
+    {
+      "RequestId": "req.authority.algeciras.bind",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "Governance",
+      "RecordType": "AuthorityBinding",
+      "CanonicalTargetRef": "settlement.algeciras",
+      "InitialStatePayload": {
+        "SuperiorRealmRef": "realm.seville",
+        "AuthorityClass": "AbsorbedSettlementSuperiorAuthority"
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "016:req.authority.algeciras.bind"
+    },
+    {
+      "RequestId": "req.definition_only.taifa_mertola_first",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "SettlementRegistry",
+      "RecordType": "DefinitionOnlyReference",
+      "CanonicalTargetRef": "historical_polity.taifa_mertola_first",
+      "InitialStatePayload": {
+        "DefinitionOnly": true,
+        "OpeningActive": false
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "030:req.definition_only.taifa_mertola_first"
+    },
+    {
+      "RequestId": "req.definition_only.taifa_niebla_first",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "SettlementRegistry",
+      "RecordType": "DefinitionOnlyReference",
+      "CanonicalTargetRef": "historical_polity.taifa_niebla_first",
+      "InitialStatePayload": {
+        "DefinitionOnly": true,
+        "OpeningActive": false
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "031:req.definition_only.taifa_niebla_first"
+    },
+    {
+      "RequestId": "req.definition_only.taifa_saltes_huelva",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "SettlementRegistry",
+      "RecordType": "DefinitionOnlyReference",
+      "CanonicalTargetRef": "historical_polity.taifa_saltes_huelva",
+      "InitialStatePayload": {
+        "DefinitionOnly": true,
+        "OpeningActive": false
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "032:req.definition_only.taifa_saltes_huelva"
+    },
+    {
+      "RequestId": "req.definition_only.taifa_santa_maria_algarve",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "SettlementRegistry",
+      "RecordType": "DefinitionOnlyReference",
+      "CanonicalTargetRef": "historical_polity.taifa_santa_maria_algarve",
+      "InitialStatePayload": {
+        "DefinitionOnly": true,
+        "OpeningActive": false
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "033:req.definition_only.taifa_santa_maria_algarve"
+    },
+    {
+      "RequestId": "req.definition_only.taifa_algeciras",
+      "OpeningStateId": "opening.seville_taifa.1062.v1",
+      "OwnerSubsystem": "SettlementRegistry",
+      "RecordType": "DefinitionOnlyReference",
+      "CanonicalTargetRef": "historical_polity.taifa_algeciras",
+      "InitialStatePayload": {
+        "DefinitionOnly": true,
+        "OpeningActive": false
+      },
+      "PrerequisiteRefs": [],
+      "AuthorityRefs": [
+        "authority.seville.opening_state.v1",
+        "authority.seville.registry_lock.v1"
+      ],
+      "StableOrderKey": "034:req.definition_only.taifa_algeciras"
+    }
+  ],
+  "Determinism": {
+    "Ordering": [
+      "ValidationPhase",
+      "OwnerOrdinal",
+      "RecordTypeOrdinal",
+      "CanonicalTargetRef",
+      "RequestId"
+    ],
+    "HashExclusions": [
+      "LocalizedDisplayText",
+      "FilePaths",
+      "WallClockTime",
+      "ModifiedTime",
+      "UploadOrder",
+      "WorkstationData",
+      "MemoryAddress",
+      "UnorderedIteration"
+    ],
+    "EqualInputsProduceEqualResults": true
+  },
+  "ReceiptContract": {
+    "ReceiptFields": [
+      "ReceiptRef",
+      "TransactionRef",
+      "OpeningStateId",
+      "ScenarioId",
+      "PackageVersion",
+      "SchemaVersion",
+      "ValidationProfileVersion",
+      "RegistryId",
+      "RegistryVersion",
+      "AuthorityManifestHash",
+      "CanonicalPayloadHash",
+      "TemporalStateHash",
+      "ExplicitEmptyHash",
+      "OwnerRoutingHash",
+      "CreatedOrBoundRecordRefs",
+      "OwnerStateHashes",
+      "ApplicationDisposition",
+      "ReceiptHash"
+    ],
+    "AlreadyAppliedDisposition": "AlreadyApplied",
+    "AlreadyAppliedMutationCount": 0,
+    "ConflictingReceiptFailsClosed": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "TargetFile": "Hugh_VI_of_Lusignan_V1.1_Current_Authority_Refinement.md",
+  "Result": "Pass",
+  "Checks": {
+    "source_sha256_recorded": true,
+    "v1_1_identity_present": true,
+    "claim_register_present": true,
+    "formation_boundary_present": true,
+    "opening_function_present": true,
+    "operating_base_present": true,
+    "institutional_pipeline_present": true,
+    "removal_matrix_present": true,
+    "module_conformance_present": true,
+    "three_tracks_present": true,
+    "no_opening_LaMarche": true,
+    "markdown_fences_balanced": true,
+    "stable_footer_count": true,
+    "final_marker_correct": true,
+    "em_dashes_absent": true
+  },
+  "LineCount": 1505,
+  "ByteCount": 52882,
+  "SHA256": "5767e42962405438b888f19a418f33f8bff4789bef31bbad7347443f59446263",
+  "NoMutation": true,
+  "Notes": [
+    "Design-authority static check only",
+    "No compile, importer, runtime, save/load, migration, replay, performance, or battle validation claimed"
+  ]
+}

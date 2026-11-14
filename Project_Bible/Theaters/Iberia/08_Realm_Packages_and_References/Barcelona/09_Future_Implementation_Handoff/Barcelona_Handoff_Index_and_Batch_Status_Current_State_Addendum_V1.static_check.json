@@ -1,0 +1,25 @@
+{
+  "checkId": "static-check.barcelona.handoff-index-batch-status-addendum.v1",
+  "document": "Barcelona_Handoff_Index_and_Batch_Status_Current_State_Addendum_V1.md",
+  "version": "1.0.0",
+  "revisionDate": "2026-09-11",
+  "result": "PASS",
+  "checks": {
+    "folder09": true,
+    "suite": true,
+    "grouping": true,
+    "registry": true,
+    "tracks": true,
+    "noimpl": true,
+    "fences": true,
+    "end": true
+  },
+  "physicalLines": 335,
+  "bytes": 13353,
+  "sha256": "20c70ae34f82f4bc13f6e5afc24a37852855012f95682d53ac72959bf75049a7",
+  "sourceFilesOverwritten": 0,
+  "registryMutations": 0,
+  "openingStateMutations": 0,
+  "unrealMutations": 0,
+  "implementationStarted": false
+}

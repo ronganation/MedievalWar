@@ -1,0 +1,21 @@
+﻿{
+    "document_id":  "mw.shared-opening-state.runtime-placement-manifest.v1",
+    "generated_utc":  "2026-08-25T01:09:42.0138517Z",
+    "classification":  "NewRuntimeBridgeModuleRequiredEditorPreparationMustRemainSeparate",
+    "recommended_runtime_module":  "MWSharedOpeningStateRuntimeBridge",
+    "active_source_mutation_performed":  false,
+    "opening_state_application_performed":  false,
+    "item_4_complete":  false,
+    "records":  [
+                    {
+                        "file":  "Shared_Opening_State_Runtime_Placement_Analysis_V1.json",
+                        "bytes":  4807,
+                        "sha256":  "39075A840C1B99AE250C69A27DE706E711137F1F019E12482C3632BFA77619A7"
+                    },
+                    {
+                        "file":  "Shared_Opening_State_Runtime_Bridge_Module_Boundary_V1.md",
+                        "bytes":  1712,
+                        "sha256":  "4196CBDED20B67411113D56621A8889C7CF15B84F9D9BBFA6832643424DE8166"
+                    }
+                ]
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "collision_report": {
+    "files_searched": 21,
+    "subjects": 13,
+    "confirmed_external_reuse": [
+      "realm.seville"
+    ],
+    "deprecated_ids_found_outside_badajoz": 0,
+    "project_wide_scope_complete": false
+  },
+  "ledger_updates": {
+    "seville_endpoint": "REUSE_EXISTING_CANONICAL_ID",
+    "pending_owner_responses": 41
+  },
+  "faction_foundation": {
+    "lines": 755,
+    "words": 2291,
+    "bytes": 18954,
+    "runtime_instances": 0,
+    "opening_state": false
+  },
+  "files": {
+    "Badajoz_Taifa_Minimum_Decision_Collision_and_Deprecated_ID_Search_Report_V1.md": {
+      "bytes": 3990,
+      "sha256": "da969d8d6f3ac3189e9150139972442ead6f59594f03a47f947dd712e86b0ddb"
+    },
+    "Badajoz_Taifa_ID_Registry_V1_Owner_Decision_Ledger_V1.md": {
+      "bytes": 10280,
+      "sha256": "0b012944dc97ab23c1f19e26ffaa50c9e896a78a6c6c828240f20602c9b339ab"
+    },
+    "Badajoz_Taifa_Character_Dynasty_Household_Relationship_and_Succession_Foundation_V1.md": {
+      "bytes": 18954,
+      "sha256": "2166a0f6e354f754c78a0b2bd63c43155f925854a29ce612a714a2a599629807"
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "document_id": "mw.design-expansion-checklist.3.7.mercenary-design-closeout.manifest.2026-09-26",
+  "version": "1.0.0",
+  "manifest_type": "bounded_source_and_deliverable_manifest",
+  "scope": "Mercenary static-design closeout and future implementation-discovery handoff",
+  "source_review_limit": "Selected directly reviewed controlling documents, current authorities, relevant Checklist updates, and prior bounded handoffs only; not a complete repository inventory or broad source survey.",
+  "implementation_target": "Unreal Engine 5.8",
+  "scenario_opening": "1062-01-01",
+  "temporal_tracks": {
+    "historical_progression": "21 months per strategic turn",
+    "biological_progression": "7 months per strategic turn",
+    "campaign_season_progression": "one ordered Winter, Spring, Summer, Autumn step per strategic turn",
+    "independent": true
+  },
+  "reviewed_sources": [
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Project_Bible_2.4.md",
+      "role": "constitutional authority",
+      "evidence_scope": "Project principles, authority order, temporal tracks, ownership, status vocabulary, implementation evidence boundaries"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Design_Expansion_Checklist_V3.7.md",
+      "role": "operational authority",
+      "evidence_scope": "Current progress, implementation status language, current phase, Unreal 5.8 target, production truth"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Framework_Architecture_Map_V2_2_Economic_Closure_and_Currentness_Precedence_Reconciliation.md",
+      "role": "architecture and currentness authority",
+      "evidence_scope": "Current authority order, family boundaries, workstream currentness, military/economic owner routing"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Military_and_Battles\\Military_and_Battles_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "role": "military and battles current-authority index",
+      "evidence_scope": "Candidate status and separate routes for pools, access, assignment, allied service, logistics, command, and opening state"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Military_and_Battles\\Military_Content\\Authorities\\Mercenary_Service_and_Contract_Integration_Framework_V1_Current_Authority_Copy_First_Modernization.md",
+      "role": "shared Mercenary service framework",
+      "evidence_scope": "Static owner-routed service lifecycle, nonownership and candidate status"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Military_and_Battles\\Military_Content\\Authorities\\Mercenary_Regional_Ecosystems_Circulation_Identity_and_Content_Variation_Standard_V1.md",
+      "role": "regional content and benchmark standard",
+      "evidence_scope": "Evidence-first identity, circulation/access distinction, content admission and benchmark constraints"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Military_and_Battles\\Military_Content\\Authorities\\Southern_Italy_and_Sicily_Mercenary_Ecosystem_Evidence_Service_Form_Identity_and_Content_Benchmark_V1.md",
+      "role": "corrected first regional benchmark",
+      "evidence_scope": "66 numbered sections, 17 portfolio dispositions, readiness, final disposition, next batch, source paths and non-admission limits"
+    },
+    {
+      "path": "C:\\UnrealProjects\\MedievalWar\\Mercenary_System_Current_State_Authority_Source_Regional_and_Unreal_Gap_Assessment.md",
+      "role": "prior bounded due-diligence handoff",
+      "evidence_scope": "Earlier source/owner gaps and Unreal discovery boundary; historical findings only"
+    },
+    {
+      "path": "C:\\UnrealProjects\\MedievalWar\\Mercenary_System_Source_Recovery_Currentness_and_Authority_Modernization_Entrance_Gate.md",
+      "role": "prior currentness and entrance-gate handoff",
+      "evidence_scope": "Later owner/source closures, bounded source recovery recommendation, current anti-churn boundaries"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Military_and_Battles_Authority_Family_Progress_Update_2026-09-20.md",
+      "role": "relevant Checklist progress update",
+      "evidence_scope": "Military family static closure and owner-adoption boundary"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Southern_Norman_Realm_Package_Static_Handoff_Progress_Update_2026-09-22.md",
+      "role": "relevant Checklist progress update",
+      "evidence_scope": "Southern Norman documentation closure and retained implementation blockers"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Diplomacy_Realm_Audit_and_Authority_Fill_Progress_Update_2026-09-19.md",
+      "role": "relevant Checklist progress update",
+      "evidence_scope": "Diplomacy current-baseline closure and separate owner boundaries"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Ecclesiastical_and_Religious_Authority_Family_Progress_Update_2026-09-19.md",
+      "role": "relevant Checklist progress update",
+      "evidence_scope": "Religious/institutional service remains owner-routed; static and implementation boundaries"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Information_and_Intelligence_Authority_Family_Progress_Update_2026-09-19.md",
+      "role": "relevant Checklist progress update",
+      "evidence_scope": "Information visibility and intelligence family currentness"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Historical_Frameworks_Progress_Update_2026-09-19.md",
+      "role": "relevant Checklist progress update",
+      "evidence_scope": "Historical Memory and related evidence ownership boundaries"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Character_Frameworks_Progress_Update_2026-09-18.md",
+      "role": "relevant Checklist progress update",
+      "evidence_scope": "Character identity, network, retainer ownership and static closure status"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3_7_Economic_and_Material_Flow_Developed_Realm_Current_Baseline_Closure_Progress_Update_2026-09-21.md",
+      "role": "relevant Checklist progress update",
+      "evidence_scope": "Economic/material-flow family existence, static closure, owner boundaries, no implementation claim"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Military_and_Battles\\Military_Content\\Authorities\\Military_Assignment_and_Reservation_Constitution_V1_1_Current_Framework_Reconciliation.md",
+      "role": "military owner authority",
+      "evidence_scope": "Assignment/reservation is distinct from source capacity and service"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Military_and_Battles\\Military_Content\\Authorities\\Military_Campaign_Logistics_Supply_Distribution_Transport_Baggage_Depot_and_Sustainment_Operations_Framework_V1.md",
+      "role": "military logistics owner authority",
+      "evidence_scope": "Supply, transport, distribution and sustainment routes remain separate owners"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Military_and_Battles\\Military_Content\\Authorities\\Military_Campaign_Command_Control_Communication_Orders_and_Operational_Coordination_Framework_V1.md",
+      "role": "military command owner authority",
+      "evidence_scope": "Command and order interface boundaries"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Characters\\Character_Foundation_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "role": "character identity owner authority",
+      "evidence_scope": "Canonical person identity, lifecycle and activation boundaries"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Characters\\Character_Network_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "role": "character relationship/contact owner authority",
+      "evidence_scope": "Directed relationship, contact and information boundaries"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Characters\\Ancillary_and_Retainer_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "role": "retainer and attachment owner authority",
+      "evidence_scope": "Retainer/household attachment is not a mercenary company or army unit"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Economic_And_Resource\\Economic_and_Material_Flow_Foundation_Framework_V1.md",
+      "role": "economic and material-flow owner authority",
+      "evidence_scope": "Shared economic/material-flow contracts do not create active state"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Economic_And_Resource\\Markets_Treasury_and_Fiscal_Flow_Framework_V1.md",
+      "role": "markets and fiscal owner authority",
+      "evidence_scope": "Markets, treasury and fiscal flow remain distinct"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Governance\\Law_and_Policy_Framework.md",
+      "role": "law and policy owner authority",
+      "evidence_scope": "Lawful authorization, obligation and enforcement remain owned"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Information_and_Intelligence\\Information_Knowledge_Communication_Secrecy_and_Deception_Shared_Constitution_V1.md",
+      "role": "information owner authority",
+      "evidence_scope": "Actor-visible knowledge, observation, reports, secrecy, truth and evidence distinctions"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Historical\\Historical_Memory_Framework.md",
+      "role": "historical memory owner authority",
+      "evidence_scope": "Evidence, narrative, memory and fact remain distinct"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Frameworks_And_Integration_Authorites\\Historical\\Historical_Memory_Current_Authority_Compatibility_and_Currentness_Addendum_V1.md",
+      "role": "historical memory currentness authority",
+      "evidence_scope": "Currentness and memory-owner boundary"
+    }
+  ],
+  "review_scope_limitations": [
+    "The source inventory is scoped to the documents and currentness updates listed here; it does not claim complete Project Bible or repository coverage.",
+    "Prior Unreal search findings are historical evidence from the named due-diligence handoffs; no fresh project-native scan was performed for this closeout.",
+    "No source hashes, complete recursive inventory, owner signatures, or owner receipts are asserted."
+  ],
+  "closeout_outputs": [
+    {
+      "path": "C:\\UnrealProjects\\MedievalWar\\Mercenary_Design_Closeout_and_Unreal_Implementation_Entrance_Handoff.md",
+      "kind": "markdown_handoff",
+      "expected_numbered_sections": 42
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Mercenary_Shared_Framework_Regional_Standard_and_First_Benchmark_Design_Closeout_Progress_Update_2026-09-26.md",
+      "kind": "markdown_checklist_progress_update",
+      "expected_numbered_sections": 23
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Mercenary_Shared_Framework_Regional_Standard_and_First_Benchmark_Design_Closeout_Progress_Update_2026-09-26_manifest.json",
+      "kind": "json_source_manifest"
+    },
+    {
+      "path": "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Mercenary_Shared_Framework_Regional_Standard_and_First_Benchmark_Design_Closeout_Progress_Update_2026-09-26_static_check.json",
+      "kind": "json_static_check"
+    }
+  ],
+  "not_performed": [
+    "ADDITIONAL_SOURCE_RECOVERY",
+    "project-native Unreal discovery",
+    "C++ module, namespace, type, tag, schema, Registry, or path selection",
+    "compile, test, Editor, runtime, importer, save/load, migration, replay, rollback, performance, accessibility, localization, or balance validation"
+  ]
+}

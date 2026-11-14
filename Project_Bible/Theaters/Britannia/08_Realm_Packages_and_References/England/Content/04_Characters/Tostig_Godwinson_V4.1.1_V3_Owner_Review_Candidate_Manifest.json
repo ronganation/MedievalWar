@@ -1,0 +1,42 @@
+{
+  "document_id": "manifest.england.tostig_godwinson_v4.1.1_v3_owner_review_candidate",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "Tostig_Godwinson_V4.1.1_V3_Owner_Review_Candidate.md",
+      "sha256": "d8bd0506e93b2d4b08ccaef5822a4872486b33bdcb957bde549fbf5343baf55d",
+      "bytes": 56549
+    },
+    {
+      "filename": "Tostig_Godwinson_V4.1.1_V3_Owner_Review_Candidate_VALIDATION.json",
+      "sha256": "b1141e488c823da4467bc755a8c489352a7da4f19cd37e597a2d67000ec2e112",
+      "bytes": 1424
+    },
+    {
+      "filename": "Tostig_Godwinson_V4.1.1_V3_Owner_Review_Candidate_SOURCE_TO_FINAL_MAP.json",
+      "sha256": "6e64182bf38f9964d56d7e21408274e4c33a56f6cee2d78d3ea3c4be6744d724",
+      "bytes": 32723
+    },
+    {
+      "filename": "Tostig_Godwinson_V4.1.1_V3_Owner_Review_Candidate_PRE_REPAIR_SNAPSHOT.json",
+      "sha256": "d0b17ab45b2f100c2774034db8274436949b9cf9809266b1aad6da5a8ce9805d",
+      "bytes": 661
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "physical_promotion": false
+  }
+}

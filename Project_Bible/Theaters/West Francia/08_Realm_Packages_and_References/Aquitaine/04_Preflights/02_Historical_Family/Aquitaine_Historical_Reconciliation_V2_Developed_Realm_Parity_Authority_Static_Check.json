@@ -1,0 +1,23 @@
+{
+  "document": "Aquitaine_Historical_Reconciliation_V2_Developed_Realm_Parity_Authority.md",
+  "passed": true,
+  "checks": {
+    "source_exists": true,
+    "successor_larger": true,
+    "all_source_headings_retained": true,
+    "three_track_time": true,
+    "barbastro_optional": true,
+    "escaped_underscores_zero": true,
+    "escaped_hyphens_zero": true,
+    "em_dashes_zero": true,
+    "stable_footer_once": true,
+    "final_marker": true,
+    "zero_removal": true
+  },
+  "missing_source_headings": [],
+  "source_lines": 1136,
+  "successor_lines": 1485,
+  "source_bytes": 36010,
+  "successor_bytes": 49407,
+  "validation_scope": "Static copy-first and content checks only. No promotion, activation, compile, runtime, save, migration, replay, performance, battle, Unreal mutation, or real payload."
+}

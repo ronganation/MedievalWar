@@ -1,0 +1,18 @@
+{
+  "document": "Ceorl_Spearmen_V2_1_Master_Unit_Profile.md",
+  "sha256": "85a75e9293357f58408086ca05e08c252ba351e8f264846ebb1ebbb4d5b9b610",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "larger_than_source": true,
+    "terrain_matrix_preserved": true,
+    "legacy_evidence_preserved": true,
+    "controller_gate": true,
+    "AI_UI": true,
+    "phased_handoff": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

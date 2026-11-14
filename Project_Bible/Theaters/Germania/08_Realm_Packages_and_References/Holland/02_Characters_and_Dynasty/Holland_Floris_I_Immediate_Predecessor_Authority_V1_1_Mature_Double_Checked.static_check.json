@@ -1,0 +1,31 @@
+{
+  "document": "Holland_Floris_I_Immediate_Predecessor_Authority_V1_1_Mature_Double_Checked.md",
+  "sha256": "47a02e89167b6a84f76982f5ac4777838846de73c75e08a11b9b6284d4ff285b",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_41": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_hash_matches": true,
+    "predecessor_static_passed": true,
+    "predecessor_receipt_passed": true,
+    "taxonomy": true,
+    "settlement": true,
+    "archive": true,
+    "estate": true,
+    "mandate": true,
+    "novation": true,
+    "survivor": true,
+    "narrative": true,
+    "burial": true,
+    "antighost": true,
+    "antiinheritance": true,
+    "ui": true,
+    "validation": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "active_no_citation_tokens": true
+  },
+  "pass": true
+}

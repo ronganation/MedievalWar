@@ -1,0 +1,230 @@
+{
+  "document_id": "manifest.scotland.source_inventory.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "scope": {
+    "folder_url_supplied": true,
+    "complete_remote_listing_claimed": false,
+    "local_literal_file_count": 39
+  },
+  "files": [
+    {
+      "filename": "Scotland_Source_Inventory_V1.1_Current_Authority_Refinement.md",
+      "sha256": "fb9f3813ce3acc0846e393f26ec2e3772639ce8a6b167718fc68d036f424d120",
+      "bytes": 33411
+    },
+    {
+      "filename": "Scotland_Source_Inventory_V1.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "766b777c36bc0750638dd02515f18718796e59f4a0b7ee31b2abb720896f7afc",
+      "bytes": 1011
+    }
+  ],
+  "source_files": [
+    {
+      "filename": "Bishop_of_St_Andrews.md",
+      "sha256": "b6be3454f9f1a73147795ea5f268ceb29524c6170cd64e1479d6b3ce9a122f23",
+      "bytes": 3524
+    },
+    {
+      "filename": "Bishop_of_St_Andrews_Identity_Quarantined_Shell.md",
+      "sha256": "dc03e853ae9dc89926c7d4562bc9c5635b9f61915d266c5c80ca640d47c58728",
+      "bytes": 14005
+    },
+    {
+      "filename": "Donald_III(1).md",
+      "sha256": "d277a92050301d263f0e8db06773041dfaf6fb09c47118afddb73c7ea0b60282",
+      "bytes": 39852
+    },
+    {
+      "filename": "Donald_III.md",
+      "sha256": "6272f38bbd450c92d0516776bac577928c154fa1db3f84d1c5f38f0e12001d4b",
+      "bytes": 5341
+    },
+    {
+      "filename": "Duncan_II_Opening_Underage_Record.md",
+      "sha256": "3ddf6b6215ed02f9dfcafb1c4cd1109bb7529dd6b7b18f3ecd5dc6ab8c845148",
+      "bytes": 3195
+    },
+    {
+      "filename": "Duncan_II_of_Scotland.md",
+      "sha256": "1491ee1cee46e9cc20c7fd19550880e7c864ded05d05da32cb1f96557484b7b1",
+      "bytes": 38503
+    },
+    {
+      "filename": "Fothad_II_Identity_Office_Institution_Review.md",
+      "sha256": "a8fe7bd26c977026045a8e87158581634ae5e2f7e7a7349b243358a445cc7602",
+      "bytes": 4126
+    },
+    {
+      "filename": "Gille_Coemgain_of_Moray(1).md",
+      "sha256": "8dcc62ea148f2a814d9245904921932ae358ba83fbb43392042afc786b475195",
+      "bytes": 30045
+    },
+    {
+      "filename": "Gille_Coemgain_of_Moray.md",
+      "sha256": "27d237b87a0cf65a3b25c4066681dade897484c139612fc676263110ecd916bc",
+      "bytes": 3916
+    },
+    {
+      "filename": "House_Dunkeld_Dynasty.md",
+      "sha256": "ab78e7610ca9d30d755135459be7930fe13e0c96a08800f56cf60b2816718ad6",
+      "bytes": 7634
+    },
+    {
+      "filename": "House_Dunkeld_Dynasty_Modernized.md",
+      "sha256": "94e2aba4889278b0d1abbf8e49604d9796af8933455f955bc9f3a9ba2e5c5d43",
+      "bytes": 17068
+    },
+    {
+      "filename": "House_Moray_Dynasty.md",
+      "sha256": "03759cfd9727fd72f8688ee598d054182fc0c20d229990d23cbaca0a6d9e30c6",
+      "bytes": 7286
+    },
+    {
+      "filename": "House_Moray_Dynasty_Modernized.md",
+      "sha256": "63ba547580125fe6316c64915134f4b2693d8a1cff448f73ed7a5167d399c0fe",
+      "bytes": 16649
+    },
+    {
+      "filename": "Ingibjorg_Finnsdottir(1).md",
+      "sha256": "069695acb01ccc8811129e4f21dd0b8dca18365534b444d735dd5f3196a81a75",
+      "bytes": 50052
+    },
+    {
+      "filename": "Ingibjorg_Finnsdottir.md",
+      "sha256": "843333794337609b26c1ea2d94815ffe8f1d709b10fb14aedc70f377a306f197",
+      "bytes": 11331
+    },
+    {
+      "filename": "Mael_Muire_mac_Donnchada(1).md",
+      "sha256": "b2e06c68341cba34e939f9bb9ee889982c44fc458975b4f7334a67327e233b57",
+      "bytes": 32688
+    },
+    {
+      "filename": "Mael_Muire_mac_Donnchada.md",
+      "sha256": "c2e824a347465f1fe885843507659ed22d0112f66008edc85f9c75390480b9cc",
+      "bytes": 5399
+    },
+    {
+      "filename": "Mael_Snechtai_mac_Lulaich(1).md",
+      "sha256": "b80b99140682ffdaa475a0852b9fa2aaa9cb8faa17466b13b09961410759e213",
+      "bytes": 30783
+    },
+    {
+      "filename": "Mael_Snechtai_mac_Lulaich.md",
+      "sha256": "ab14541d79d875d324320995785a8884b2a0ce8b007957c1d2bc98e11faad01f",
+      "bytes": 5363
+    },
+    {
+      "filename": "Malcolm_III.md",
+      "sha256": "34ec868fefc2cea3765f38862307f73656637f32cc4a5b53734f99f4239d60f5",
+      "bytes": 4526
+    },
+    {
+      "filename": "Malcolm_III_Modernized(1).md",
+      "sha256": "6fcf01a5a7b53d33d1e08156145860bcc927ffec344a543e3697b548dc6cd43d",
+      "bytes": 45585
+    },
+    {
+      "filename": "Malcolm_III_Modernized.md",
+      "sha256": "b7ea4c2e11d8ef72e6a86828d225d78f4fd78c17af313755fe6fcef7692085e8",
+      "bytes": 38881
+    },
+    {
+      "filename": "Scotland_AI.md",
+      "sha256": "d6769cd57f8ccced1f03d3cae02f869ce1542f173b19ae599514a11529409217",
+      "bytes": 8529
+    },
+    {
+      "filename": "Scotland_Character_Network.md",
+      "sha256": "cc2c65d6467a789a8abc5741acb6e56f51e03cd4444b81bf99a895d8bb8a1435",
+      "bytes": 8477
+    },
+    {
+      "filename": "Scotland_Character_Portfolio_Consistency_Review.md",
+      "sha256": "0ab471cd5dc5dde38760a38101120bb46d2d6e7a78f38cf41c62c706ff86389a",
+      "bytes": 43650
+    },
+    {
+      "filename": "Scotland_Dependency_Resolution_Pass.md",
+      "sha256": "f74827a9d632f97aa4c9fd60680b41b00e1195a2feff8683d6400f479caffef8",
+      "bytes": 4794
+    },
+    {
+      "filename": "Scotland_Historical_Reconciliation.md",
+      "sha256": "30099b31e103c04f8dd464de0e29a3962292982fa07a07841c4150e258f51215",
+      "bytes": 4919
+    },
+    {
+      "filename": "Scotland_ID_Migration_Map.md",
+      "sha256": "036ada6fe727347faff9e3cebb29c9431cd64c31f6f19060039df94eb71a8760",
+      "bytes": 3913
+    },
+    {
+      "filename": "Scotland_Network_Edge_Existence_vs_Dimension_Initialization_Review.md",
+      "sha256": "87af731272bb9245995f36c0f8f9dbe300ab7b5b8c3ba63ec167d44003f31fd5",
+      "bytes": 15205
+    },
+    {
+      "filename": "Scotland_Network_Opening_Fixture_Candidate_Manifest.md",
+      "sha256": "fa42ede87c7c7af7698f3b472d40abb15e7b36b455fa268e1ce7ebac3f478052",
+      "bytes": 30790
+    },
+    {
+      "filename": "Scotland_Network_Opening_Fixture_Evidence_Table.md",
+      "sha256": "9694993341220bcb6b4c1499f73035e00425696b35982a60541de3eb438be834",
+      "bytes": 43961
+    },
+    {
+      "filename": "Scotland_Network_Opening_Fixture_Importer_Manifest.md",
+      "sha256": "601890697b9cb2692fec65c5a3c2945ee12d2618e88bf282465ba04394a614a6",
+      "bytes": 27424
+    },
+    {
+      "filename": "Scotland_Network_Opening_Fixture_Minimal_Decision_Pass.md",
+      "sha256": "7c3b84c3e595acf33d15a33e072a00b99eb8242ece443bf7ded9fe2b48864b9d",
+      "bytes": 14571
+    },
+    {
+      "filename": "Scotland_Opening_State.md",
+      "sha256": "7b5bd5a7d4b510b8e5146c8e8c27ef6c9d28641d6d453a9425387ee233e76457",
+      "bytes": 40725
+    },
+    {
+      "filename": "Scotland_Opening_State_Authority_Decision_Pass.md",
+      "sha256": "593efb817751cbf4fd95185dc4778fa3b525dce4c4df41b2054123985ed8fb90",
+      "bytes": 33955
+    },
+    {
+      "filename": "Scotland_Opening_State_Evidence_Table.md",
+      "sha256": "bdc361935524b20d862101634d573c65e76bc32b968a5d7b2f7985a496b0467a",
+      "bytes": 49192
+    },
+    {
+      "filename": "Scotland_Personality.md",
+      "sha256": "5d0d170f6fcae175ae2c4b7aac577de8e2d55795318b5ef0a39800ee202c0fab",
+      "bytes": 6743
+    },
+    {
+      "filename": "Scotland_README.md",
+      "sha256": "0ce270ac94bf91ad4d9d09ba5625b7439f2f96e7c895b8cc14f08b9d8e1b83f5",
+      "bytes": 11378
+    },
+    {
+      "filename": "Scotland_Source_Authority_Gap_and_Identity_Review.md",
+      "sha256": "f9096f74e92e3a8e09ade035121bd91ff0471354a40f6b5d049cf0055a242a23",
+      "bytes": 37517
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "file_move_or_delete": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

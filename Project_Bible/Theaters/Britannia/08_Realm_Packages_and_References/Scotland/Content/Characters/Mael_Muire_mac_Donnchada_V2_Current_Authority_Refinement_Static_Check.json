@@ -1,0 +1,32 @@
+{
+  "document_id": "static-check.scotland.character.mael-muire.v2",
+  "version": "2.0.0",
+  "source": "Mael_Muire_mac_Donnchada.md",
+  "successor": "Mael_Muire_mac_Donnchada_V2_Current_Authority_Refinement.md",
+  "source_meta": {
+    "bytes": 32688,
+    "physical_lines": 638,
+    "sha256": "b2e06c68341cba34e939f9bb9ee889982c44fc458975b4f7334a67327e233b57"
+  },
+  "successor_meta": {
+    "bytes": 47943,
+    "physical_lines": 1113,
+    "sha256": "45483fcf29655c16d7d84773923305a3509b275dccfbde4848fbbfab7c76afe7"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "current_metadata_present": true,
+    "moray_uncertainty_present": true,
+    "gille_quarantine_present": true,
+    "title_not_activated": true,
+    "network_dimensions_zero": true,
+    "honest_status": true,
+    "authorizations_false": true
+  },
+  "missing_source_headings": [],
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

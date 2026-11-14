@@ -1,0 +1,34 @@
+{
+  "document_id": "Manifest.Discovery.Aragon.CurrentPackageAuthorityReconciliation.V1",
+  "authority_file": "Aragon_Current_Package_Discovery_and_Authority_Reconciliation_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Aragon/00_README_and_Indexes",
+  "bytes": 13396,
+  "physical_lines": 308,
+  "sha256": "1ACB19992AA0ABEA1A0044E1490AE625D3D24BCE56415F17C16106F63BF7B37E",
+  "status": "StaticCheckedDiscoveryCompleteForSearchVisiblePackage",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "attached_count": 17,
+    "duplicate_recreation_prohibited": true,
+    "papal_shared": true,
+    "next_file": true
+  },
+  "mutation_receipt": {
+    "AragonRealmPackage": 0,
+    "OpeningState": 0,
+    "Registry": 0,
+    "MachineReadablePayload": 0,
+    "Importer": 0,
+    "Unreal": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "next_file": "Aragon_Current_Package_Inventory_and_Accepted_Source_Manifest_V1.md",
+  "all_static_checks_pass": true
+}

@@ -1,0 +1,83 @@
+{
+  "validation_id": "validation.definition_manifest.valencia.1062.v3_4.package_v1",
+  "version": "1.0.0",
+  "manifest_id": "definition_manifest.valencia.1062.v3_4.package_v1",
+  "source_authority": "Valencia_Opening_State_1062_V3_4_A2_A3_A4_A5_Compatibility_Current_Authority.md",
+  "rules": [
+    {
+      "rule_id": "MAN_001",
+      "severity": "Error",
+      "description": "Manifest source authority is V3.4",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "MAN_002",
+      "severity": "Error",
+      "description": "Manifest is definition candidates only",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "MAN_003",
+      "severity": "Error",
+      "description": "Definition count is 81",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "MAN_004",
+      "severity": "Error",
+      "description": "All definition IDs are unique",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "MAN_005",
+      "severity": "Error",
+      "description": "Every definition has owner and source reference",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "MAN_006",
+      "severity": "Error",
+      "description": "All corrected payload record IDs represented",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "MAN_007",
+      "severity": "Error",
+      "description": "Legacy crosswalk aliases do not create second identities",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "MAN_008",
+      "severity": "Error",
+      "description": "Definitions create no persons appointments forces pools institutions route operations agreements historical instances selected choices AI execution or presentation world state",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "MAN_009",
+      "severity": "Error",
+      "description": "Unknown ReviewOnly and ExternalLock create no default activation or consent",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "MAN_010",
+      "severity": "Error",
+      "description": "Three temporal tracks remain independent",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "MAN_011",
+      "severity": "Error",
+      "description": "Mutation count is zero",
+      "expected": "PASS"
+    }
+  ],
+  "validation_modes": [
+    "JSONParse",
+    "Draft202012SchemaValidation",
+    "SemanticValidation",
+    "SyntheticMutatedFixtureExecution"
+  ],
+  "runtime_validation": "NotExecuted",
+  "registry_validation": "NotExecuted",
+  "unreal_validation": "NotExecuted"
+}

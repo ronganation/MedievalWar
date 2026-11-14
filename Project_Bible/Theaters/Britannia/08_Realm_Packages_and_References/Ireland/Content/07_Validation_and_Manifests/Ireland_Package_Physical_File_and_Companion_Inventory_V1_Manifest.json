@@ -1,0 +1,19 @@
+{
+  "manifest_version": "1.0",
+  "method": "EvidenceBoundedIrelandPackagePhysicalAndCompanionInventory",
+  "authority_file": "Ireland_Package_Physical_File_and_Companion_Inventory_V1.md",
+  "authority_bytes": 22460,
+  "authority_sha256": "098232a0c90780e6202db8dbdfd32a05abcba2872ad68e4976e31fa231c78df3",
+  "evidenced_inventory_entries": 32,
+  "generated_files_requiring_placement_verification": 13,
+  "physical_local_filesystem_scan_completed": false,
+  "local_paths_verified": 0,
+  "source_files_modified": 0,
+  "folders_created": 0,
+  "files_moved": 0,
+  "files_deleted": 0,
+  "static_check_file": "Ireland_Package_Physical_File_and_Companion_Inventory_V1_Static_Check.json",
+  "static_check_sha256": "cb8de7bb5198f4ace891ab61f5378dfbf66ee7b733bca54e61e25da7cbe0ef2b",
+  "all_checks_passed": true,
+  "validation_scope": "enterprise-search and manifest-evidence inventory only; direct recursive local filesystem enumeration, hashes, duplicate scan, companion closure, and link validation remain pending"
+}

@@ -1,0 +1,28 @@
+﻿{
+    "document_id":  "mw.shared-save.isolated-cpp-draft.v1",
+    "generated_utc":  "2026-08-24T18:25:28.4086939Z",
+    "implementation_target":  "Unreal Engine 5.8",
+    "draft_root":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Proposal\\Draft_V1",
+    "active_source_mutation_performed":  false,
+    "isolated_baseline_source_mutation_performed":  false,
+    "owner_decision_complete":  false,
+    "compile_validated":  false,
+    "runtime_validated":  false,
+    "files":  [
+                  {
+                      "file":  "MWCampaignSaveSubsystem_Proposed_Load.cpp.txt",
+                      "bytes":  1488,
+                      "sha256":  "C10B265A872B569D1E6B4B0E8B5B434F9A8BECEE499B4A7E7666530804B475A9"
+                  },
+                  {
+                      "file":  "MWCampaignTurnSubsystem_Proposed_Additions.cpp.txt",
+                      "bytes":  4160,
+                      "sha256":  "0C70CD7FE81D8168ABFD3799B40A69DDEBF948B0D9821D5A9199600E10A376FB"
+                  },
+                  {
+                      "file":  "MWCampaignTurnSubsystem_Proposed_Additions.h.txt",
+                      "bytes":  2667,
+                      "sha256":  "0E7160126B2650D19E3811837F525504E96E6B86AEADD6CF1C5283F2574DDCA0"
+                  }
+              ]
+}

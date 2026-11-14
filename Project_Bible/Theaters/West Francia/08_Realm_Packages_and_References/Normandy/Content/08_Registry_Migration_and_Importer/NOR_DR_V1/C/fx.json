@@ -1,0 +1,27 @@
+{
+  "required": [
+    "package_id",
+    "realm_id",
+    "scenario_id",
+    "status",
+    "flags",
+    "temporal",
+    "records",
+    "aliases",
+    "opening_instances",
+    "writes_allowed",
+    "commit_allowed",
+    "fixture"
+  ],
+  "state_tokens": [
+    "Unknown",
+    "IntentionalEmpty",
+    "Deferred",
+    "ReviewOnly",
+    "BlockedPendingOwner",
+    "ExternalLock",
+    "Quarantined",
+    "Candidate",
+    "Active"
+  ]
+}

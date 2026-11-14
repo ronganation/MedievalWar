@@ -1,0 +1,181 @@
+{
+  "DocumentId": "France.UE5.8.ProjectNativeTranslator.PreChangeInventory.V1",
+  "Filename": "France_UE5_8_Project_Native_Translator_PreChange_Inventory_V1.json",
+  "Version": "1.0.0",
+  "GeneratedDate": "2026-09-03",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "ActiveProjectRoot": "C:\\UnrealProjects\\MedievalWar",
+  "Mode": "ReadOnlyEvidenceBackedInventory",
+  "FreshLiveDiskScanPerformed": false,
+  "Reason": "Available enterprise evidence was reconciled; this artifact does not impersonate a new local disk scan.",
+  "ControllingPlan": "France_UE5_8_Project_Native_Translator_Patch_Plan_V1.md",
+  "Files": [
+    {
+      "Path": "Plugins/MWSharedImporter/MWSharedImporter.uplugin",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\MWSharedImporter.uplugin",
+      "PresentInEvidence": true,
+      "Bytes": null,
+      "SHA256": "39423BE53766FB5506EF11A9F753ABF46A7554FE3257CBD83C3D4A39478E4BD3",
+      "Evidence": "MWSharedImporter_Module_Configuration.txt",
+      "Disposition": "FingerprintKnownFromPriorReadOnlyEvidence_FreshLiveVerificationRequired"
+    },
+    {
+      "Path": "Plugins/MWSharedImporter/Source/MWSharedImporter/MWSharedImporter.Build.cs",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporter\\MWSharedImporter.Build.cs",
+      "PresentInEvidence": true,
+      "Bytes": null,
+      "SHA256": "209AD71BBCFF1E8EAC2DC06D3B3B821EE13A9A4BFD5E0187BB539B2C7E6B16EA",
+      "Evidence": "MWSharedImporter_Module_Configuration.txt",
+      "Disposition": "FingerprintKnownFromPriorReadOnlyEvidence_FreshLiveVerificationRequired"
+    },
+    {
+      "Path": "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/MWSharedImporterCampaignAdapter.Build.cs",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\MWSharedImporterCampaignAdapter.Build.cs",
+      "PresentInEvidence": true,
+      "Bytes": null,
+      "SHA256": "3521758636EDF810C46A521F2E7C1FDBD8F5CBD53398436CBA6DBBB4FED26AD2",
+      "Evidence": "MWSharedImporter_Module_Configuration.txt",
+      "Disposition": "FingerprintKnownFromPriorReadOnlyEvidence_FreshLiveVerificationRequired"
+    },
+    {
+      "Path": "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Public/MWNorwayScenarioTranslator.h",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Public\\MWNorwayScenarioTranslator.h",
+      "PresentInEvidence": true,
+      "Bytes": 34097,
+      "SHA256": "6B375E8DBD325442197BD421C02ACE3335217958F306887C63436AD78EEAB750",
+      "Evidence": "OS_VIS_03G_Source_Fingerprints.csv",
+      "Disposition": "ReusableTranslatorReference_FreshLiveVerificationRequired"
+    },
+    {
+      "Path": "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/MWNorwayScenarioTranslator.cpp",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\MWNorwayScenarioTranslator.cpp",
+      "PresentInEvidence": true,
+      "Bytes": 117203,
+      "SHA256": "8B632032B8A54B949C5108E05D301985F13173B4014C98AD7C7400F3C1CC89FA",
+      "Evidence": "OS_VIS_03G_Source_Fingerprints.csv",
+      "Disposition": "ReusableTranslatorReference_FreshLiveVerificationRequired"
+    },
+    {
+      "Path": "Plugins/MWSharedImporter/Shared_Importer_Record_Bindings_v1.json",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Shared_Importer_Record_Bindings_v1.json",
+      "PresentInEvidence": true,
+      "Bytes": null,
+      "SHA256": null,
+      "Evidence": "Shared_Importer_Record_Bindings_v1.json search surface",
+      "Disposition": "BindingSurfacePresent_HashRequiredBeforeWrite"
+    },
+    {
+      "Path": "Source/MedievalWarCampaign/MedievalWarCampaign.Build.cs",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\Source\\MedievalWarCampaign\\MedievalWarCampaign.Build.cs",
+      "PresentInEvidence": true,
+      "Bytes": null,
+      "SHA256": null,
+      "Evidence": "MedievalWarModuleRulesManifest.json",
+      "Disposition": "RuntimeModuleNoChangeExpected_HashRequiredBeforeWrite"
+    },
+    {
+      "Path": "Source/MedievalWarEditor.Target.cs",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\Source\\MedievalWarEditor.Target.cs",
+      "PresentInEvidence": true,
+      "Bytes": null,
+      "SHA256": null,
+      "Evidence": "MedievalWarModuleRulesManifest.json",
+      "Disposition": "BuildTargetReferenceOnly_HashRequiredBeforeCompile"
+    },
+    {
+      "Path": "MedievalWar.uproject",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\MedievalWar.uproject",
+      "PresentInEvidence": true,
+      "Bytes": null,
+      "SHA256": null,
+      "Evidence": "MedievalWarEditor_Build.log",
+      "Disposition": "NoChangeExpected_HashRequiredBeforeWrite"
+    },
+    {
+      "Path": "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Public/MWFranceScenarioTranslator.h",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Public\\MWFranceScenarioTranslator.h",
+      "PresentInEvidence": false,
+      "Bytes": null,
+      "SHA256": null,
+      "Evidence": "No France translator surfaced by reviewed evidence",
+      "Disposition": "ProposedNewFile_MustConfirmAbsentOnLiveDisk"
+    },
+    {
+      "Path": "Plugins/MWSharedImporter/Source/MWSharedImporterCampaignAdapter/Private/MWFranceScenarioTranslator.cpp",
+      "FullPath": "C:\\UnrealProjects\\MedievalWar\\Plugins\\MWSharedImporter\\Source\\MWSharedImporterCampaignAdapter\\Private\\MWFranceScenarioTranslator.cpp",
+      "PresentInEvidence": false,
+      "Bytes": null,
+      "SHA256": null,
+      "Evidence": "No France translator surfaced by reviewed evidence",
+      "Disposition": "ProposedNewFile_MustConfirmAbsentOnLiveDisk"
+    }
+  ],
+  "VerifiedArchitecture": {
+    "ProjectModule": "MedievalWarCampaign",
+    "SharedImporterPlugin": "MWSharedImporter",
+    "CampaignAdapterModule": "MWSharedImporterCampaignAdapter",
+    "EditorTarget": "MedievalWarEditor",
+    "EngineVersionEvidence": "5.8.1",
+    "ExistingTranslatorReference": "MWNorwayScenarioTranslator",
+    "StandaloneFranceModuleNeeded": false
+  },
+  "KnownInterfaces": {
+    "MWNorwayTranslatorIssueType": "FMWCampaignImportTranslationIssue",
+    "MWNorwayTranslatorRecordType": "FMWNorwayTranslationRecord",
+    "MWNorwayReportType": "FMWCampaignImportTranslationReport",
+    "SharedBindingSchemaId": "Schema.MedievalWar.SharedImporter.Binding.v1",
+    "SharedBindingRecordTypesReported": 26
+  },
+  "BuildCommandEvidence": {
+    "Target": "MedievalWarEditor",
+    "Platform": "Win64",
+    "Configuration": "Development",
+    "Project": "C:\\UnrealProjects\\MedievalWar\\MedievalWar.uproject",
+    "CommonFlags": [
+      "-WaitMutex",
+      "-NoHotReloadFromIDE"
+    ],
+    "ExecutionAuthorizedByThisInventory": false
+  },
+  "Warnings": [
+    {
+      "Code": "FR_PRE_001",
+      "Message": "Fresh live-disk hashes are still required before any source write."
+    },
+    {
+      "Code": "FR_PRE_002",
+      "Message": "Shared_Importer_Record_Bindings_v1.json current bytes and hash were not available in the reviewed evidence."
+    },
+    {
+      "Code": "FR_PRE_003",
+      "Message": "Current build evidence reports that StructUtils is deprecated; no dependency change is authorized here."
+    },
+    {
+      "Code": "FR_PRE_004",
+      "Message": "Proposed France translator files must be confirmed absent on current live disk before creation."
+    }
+  ],
+  "Blockers": [
+    "FreshLiveDiskFingerprintRequired",
+    "ControllingReadmeReviewRequired",
+    "ExactCurrentTranslatorInterfaceOpenRequired",
+    "SingleWriterAuthorizationRequired",
+    "RollbackCopyRequired"
+  ],
+  "MutationStatus": {
+    "SourceFilesModified": 0,
+    "NewUnrealFilesCreated": 0,
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0,
+    "CompileExecuted": false
+  },
+  "NextGate": {
+    "Name": "FreshLiveDiskFingerprintAndInterfaceCapture",
+    "Output": "France_UE5_8_Project_Native_Translator_Live_Fingerprint_Packet_V1.json",
+    "MutationAuthorized": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "branches_8": true,
+    "people_13": true,
+    "succession_10": true,
+    "marriages_6": true,
+    "founder_8": true,
+    "issues_28": true,
+    "positive_24": true,
+    "negative_30": true,
+    "opening_zero": true,
+    "three_tracks": true,
+    "balanced_fences": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker": true,
+    "honest_validation": true,
+    "next_file": true
+  }
+}

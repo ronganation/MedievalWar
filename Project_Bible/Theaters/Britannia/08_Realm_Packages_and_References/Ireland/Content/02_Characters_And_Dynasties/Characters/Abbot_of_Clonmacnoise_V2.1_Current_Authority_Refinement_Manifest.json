@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_file": "Abbot_of_Clonmacnoise_Refined.md",
+  "source_reference": "turn21search54",
+  "source_bytes": 38961,
+  "source_sha256": "a802c27857f3f840afe218a7058b16eb973e6bd2188925d67a386a1fd0708a4a",
+  "source_heading_count": 92,
+  "authority_file": "Abbot_of_Clonmacnoise_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 63414,
+  "authority_sha256": "0aa1c634ded57ee6cb8781788044d6ccc8293538e0b7ae4e84aaa275333541a8",
+  "additive_bytes": 24453,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "static_check_file": "Abbot_of_Clonmacnoise_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "92108573cb0be4c9aae10fc2f48bd21c1dd0800aa5695e025105079efb8faf61",
+  "validation_scope": "content static checks only; no compile runtime migration opening-state office-runtime institution-runtime or payload validation"
+}

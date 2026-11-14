@@ -1,0 +1,32 @@
+{
+  "FileName": "Sweden_Ecclesiastical_Institution_Church_and_Religious_Authority_V1_2_Current_Authority_Refinement_FULL.md",
+  "Version": "1.2.0",
+  "Status": "Static-Checked Current Authority Refinement with Controlled Dependencies",
+  "SHA256": "3BBF048E767518291BD5E91433A02CCD36427301C77F6AB04A75ABEDF8E26CB9",
+  "Bytes": 78921,
+  "Lines": 1886,
+  "SourceFile": "Sweden_Ecclesiastical_Institution_Church_and_Religious_Authority_V1_1_FULL.md",
+  "SourceSHA256": "1489ECAC2FD4CB264A17F0110D47702775E7397D093EB3AA00231E6FAA843C31",
+  "SourceBytes": 36918,
+  "SourceLines": 645,
+  "Checks": {
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "one_integrated_successor": true,
+    "no_addendum": true,
+    "complete_V1_source_preserved": true,
+    "corrected_V1_1_refinement_integrated": true,
+    "three_track": true,
+    "project_bible_2_4": true,
+    "design_expansion_checklist_3_7": true,
+    "full_Norse_Theater_wording": true,
+    "ue58": true,
+    "honest_validation": true,
+    "footer": true
+  },
+  "OpeningStateModified": false,
+  "RegistryModified": false,
+  "RuntimeStateCreated": false,
+  "PhysicalPromotionCompleted": false
+}

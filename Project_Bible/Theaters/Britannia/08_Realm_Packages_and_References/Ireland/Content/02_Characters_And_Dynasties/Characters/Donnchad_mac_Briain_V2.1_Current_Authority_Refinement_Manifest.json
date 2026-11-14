@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_file": "Donnchad_mac_Briain_Refined.md",
+  "source_reference": "turn12search88",
+  "source_bytes": 49592,
+  "source_sha256": "7f3b4228ea88fac998312f39aa622ea76eb2f6cd6ccca3a0862f0d75d19411ad",
+  "source_heading_count": 91,
+  "authority_file": "Donnchad_mac_Briain_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 75310,
+  "authority_sha256": "37b4123fd072d2c12512a11be36596021ff5893a878ab8264293172e1a5c7bb2",
+  "additive_bytes": 25718,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "static_check_file": "Donnchad_mac_Briain_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "d69d2d061e0c1d8bb69bb8cd640ec06e5c4b2789bd7188faab320530160d8973",
+  "validation_scope": "content static checks only; no compile runtime migration opening-state or payload validation"
+}

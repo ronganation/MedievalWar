@@ -1,0 +1,27 @@
+DocumentControl:
+  SchemaId: Schema.MedievalWar.CandidateDocument.v1
+  PackageId: package.aquitaine.candidate.v1
+  RealmCandidateId: realm.aquitaine.duchy
+  ScenarioId: mw.scenario.grand_campaign.1062
+  CandidateOnly: true
+  ReviewOnly: true
+  CommitPermitted: false
+  RegistryPromotionPermitted: false
+  AliasExecutionPermitted: false
+  OpeningStateActivationPermitted: false
+  MigrationExecutionPermitted: false
+  UnrealImportPermitted: false
+  RuntimeActivationPermitted: false
+  RealPayloadImportPermitted: false
+  SourceAuthority: Aquitaine_Current_Machine_Readable_Candidate_Bundle_V1.md
+  ContentVersion: 1.0.0
+  OwnerAuthority: Aquitaine_Dynasty_Authority_V2_Developed_Realm_Parity_Authority.md
+DynastyCandidates:
+- CandidateId: dynasty.house_poitiers
+  Disposition: CanonicalCandidate
+SeparateSuccessionReviews:
+- review.succession.duchy_aquitaine_1062
+- review.succession.duchy_gascony_1062
+- review.succession.county_poitiers_1062
+OneCommonHeirByDefault: false
+OpeningInstances: []

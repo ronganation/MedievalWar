@@ -1,0 +1,267 @@
+{
+  "documentId": "VEN_OPENING_STATE_1062_V1_REVIEW_ONLY_CANDIDATE",
+  "stableDocumentId": "VEN_OPENING_STATE_1062",
+  "packageType": "ReviewOnlyOpeningStateCandidate",
+  "packageVersion": "1.0.0-candidate",
+  "schemaVersion": "1.0.0",
+  "scenarioId": {
+    "disposition": "reviewOnly",
+    "value": null,
+    "workingValue": "mw.scenario.grand_campaign.1062",
+    "reason": "Published Registry identity unavailable"
+  },
+  "realmId": {
+    "disposition": "reviewOnly",
+    "value": null,
+    "workingLabel": "Venice",
+    "reason": "Published Registry identity unavailable"
+  },
+  "realmContextId": {
+    "disposition": "reviewOnly",
+    "value": null,
+    "reason": "Published Registry identity unavailable"
+  },
+  "openingDate": "1062-01-01",
+  "openingCampaignSeason": "Winter",
+  "temporalContract": {
+    "historical": {
+      "progressionPerStrategicTurn": "21Months"
+    },
+    "biological": {
+      "progressionPerStrategicTurn": "7Months"
+    },
+    "campaignSeason": {
+      "progressionPerStrategicTurn": "OneOrderedStep",
+      "order": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ]
+    }
+  },
+  "sourceAuthority": {
+    "file": "Venice_Opening_State_1062_Copy_First_Current_Authority_Draft_V1.md",
+    "version": "1.0.0-draft",
+    "accepted": false,
+    "hash": null
+  },
+  "registryVersion": null,
+  "packageFingerprint": null,
+  "ownerReceiptSetId": null,
+  "externalReceiptSetId": null,
+  "deterministicSeedContract": {
+    "requiredAtCampaignCreation": true,
+    "selected": false,
+    "value": null
+  },
+  "transactionContract": {
+    "mode": "validateOnly",
+    "applicationAuthorized": false,
+    "newCampaignOnly": true,
+    "applyExactlyOnce": true,
+    "transactionId": null
+  },
+  "dispositionSets": {
+    "accepted": [],
+    "rejected": [],
+    "reviewOnly": [
+      "OS-VEN-00",
+      "OS-VEN-01",
+      "OS-VEN-02",
+      "OS-VEN-03",
+      "OS-VEN-04",
+      "OS-VEN-05",
+      "OS-VEN-06",
+      "OS-VEN-07",
+      "OS-VEN-08",
+      "OS-VEN-09",
+      "OS-VEN-10",
+      "OS-VEN-11",
+      "OS-VEN-12",
+      "OS-VEN-13",
+      "OS-VEN-14",
+      "OS-VEN-15",
+      "OS-VEN-16",
+      "OS-VEN-17"
+    ],
+    "quarantined": [],
+    "unknown": [],
+    "intentionalEmpty": [],
+    "externalLock": [],
+    "conditional": []
+  },
+  "sections": [
+    {
+      "sectionId": "OS-VEN-00",
+      "key": "scenarioHeader",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-01",
+      "key": "realmIdentity",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-02",
+      "key": "rulerHousehold",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-03",
+      "key": "ducalContinuity",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-04",
+      "key": "governmentAdministration",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-05",
+      "key": "church",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-06",
+      "key": "lawJustice",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-07",
+      "key": "geographySettlements",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-08",
+      "key": "populationSocialStatus",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-09",
+      "key": "healthEnvironment",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-10",
+      "key": "economyMaterials",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-11",
+      "key": "militaryUnits",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-12",
+      "key": "diplomacyExternal",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-13",
+      "key": "informationOrder",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-14",
+      "key": "historicalSystems",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-15",
+      "key": "educationCultureCustodyCourt",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-16",
+      "key": "presentation",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    },
+    {
+      "sectionId": "OS-VEN-17",
+      "key": "firstTurnProposals",
+      "disposition": "reviewOnly",
+      "definitionOrInstance": "definition",
+      "records": [],
+      "activeBindingEligible": false,
+      "fallback": "NoActiveBinding"
+    }
+  ],
+  "validationMetadata": {
+    "candidateOnly": true,
+    "syntheticFixturesOnly": true,
+    "realImportAuthorized": false
+  },
+  "rollbackMetadata": {
+    "authoritativeMutationCount": 0,
+    "rollbackAction": "DeleteUnacceptedCandidateArtifacts"
+  }
+}

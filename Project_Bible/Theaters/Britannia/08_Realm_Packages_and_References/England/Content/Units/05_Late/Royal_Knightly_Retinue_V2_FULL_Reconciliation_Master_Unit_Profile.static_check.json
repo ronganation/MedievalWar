@@ -1,0 +1,19 @@
+{
+  "document": "Royal_Knightly_Retinue_V2_FULL_Reconciliation_Master_Unit_Profile.md",
+  "sha256": "cc8ce288ebcd8bd9d44ce0042ce3e200a05120ef23de01bea5ee37f63b6891e6",
+  "checks": {
+    "size_over_40000": true,
+    "sections_at_least_90": true,
+    "sections_consecutive": true,
+    "terrain_25": true,
+    "one_card_resolution": true,
+    "aliases_preserved": true,
+    "succession_depth": true,
+    "handoff": true,
+    "three_track": true,
+    "no_escaped_underscores": true,
+    "fences_balanced": true,
+    "footer_final": true,
+    "pass": true
+  }
+}

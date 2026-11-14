@@ -1,0 +1,31 @@
+{
+  "document_id": "manifest.england.house_mercia_dynasty.v4_2.current_authority_reconciliation",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "House_Mercia_Dynasty_V4.2_Current_Authority_Reconciliation.md",
+      "sha256": "6608c6ddb129f459cac79529fe3574c3d90f8c92f8610787216fdb476324a9db",
+      "bytes": 56687
+    },
+    {
+      "filename": "House_Mercia_Dynasty_V4.2_Current_Authority_Reconciliation_Static_Check.json",
+      "sha256": "505bc76d806fe3ce4265aec8106f82c2c25a14564665b89fa584e97c4c1b8bd1",
+      "bytes": 749
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "document_id": "static-check.wales.historical-suite-importer.v1",
+  "version": "1.0.0",
+  "filename": "Wales_Historical_Suite_Importer_Manifest.md",
+  "bytes": 19111,
+  "physical_lines": 537,
+  "sha256": "6c449091a4a889ad22f606968af2216e9ea97dc7d10f523c38e70b012e8e0f14",
+  "checks": {
+    "artifact_count_7": true,
+    "all_hashes_embedded": true,
+    "dependency_order": true,
+    "opening_boundary": true,
+    "no_active_historical_state": true,
+    "st_davids_gate": true,
+    "underage_network_gates": true,
+    "three_tracks": true,
+    "validation_25": true,
+    "honest_not_run": true,
+    "no_authorization": true,
+    "removed_empty": true,
+    "no_escaped_underscore": true,
+    "next_phase": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

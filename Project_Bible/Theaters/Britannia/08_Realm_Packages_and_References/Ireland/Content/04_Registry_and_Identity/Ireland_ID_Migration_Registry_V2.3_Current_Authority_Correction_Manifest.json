@@ -1,0 +1,22 @@
+{
+  "manifest_version": "1.0",
+  "method": "CompleteSubstantiveSourcePreservedWithFocusedAuthorityCorrection",
+  "source_file": "Ireland_ID_Migration_Registry_V2.1_Current_Authority_Refinement.md",
+  "source_bytes": 38568,
+  "source_sha256": "e72fe600787a7656f9df9e39aac9890833ac3ddc639d0d3f3c4cdd4482e50e54",
+  "source_heading_count": 78,
+  "authority_file": "Ireland_ID_Migration_Registry_V2.3_Current_Authority_Correction.md",
+  "authority_bytes": 68048,
+  "authority_sha256": "dfd8051591764ccfecc96a7c3eac0eeaf3c071edfe0efd4b8fc09c1455cf6675",
+  "additive_bytes": 29480,
+  "source_preserved_in_full": true,
+  "rejected_intermediate": "Ireland_ID_Migration_Registry_V2.2_Current_Authority_Correction.md",
+  "rejected_intermediate_status": "SupersededFailedOvercorrection",
+  "source_files_modified": 0,
+  "Registry_rows_created": 0,
+  "aliases_activated_in_Unreal": 0,
+  "migrations_executed": 0,
+  "static_check_file": "Ireland_ID_Migration_Registry_V2.3_Current_Authority_Correction_Static_Check.json",
+  "static_check_sha256": "1212c91ed1440492ef26622f9d0f1103386c9a1711e2b1baead68895006553c6",
+  "validation_scope": "content and static authority correction only; no Registry mutation, Unreal alias activation, migration execution, importer, compile, runtime, save/load, replay, performance, or repository-wide physical collision validation"
+}

@@ -1,0 +1,24 @@
+{
+  "file": "Scotland_Army_Fleet_and_Military_Capability_V1.md",
+  "bytes": 71967,
+  "lines": 1826,
+  "sha256": "b764b0321733844b3fdac9bd5cf5899a637da623941aca14cd538048a76cef74",
+  "sections": 46,
+  "checks": {
+    "large_enough": true,
+    "sections_44": true,
+    "has_force_schema": true,
+    "has_command": true,
+    "has_moray": true,
+    "has_duncan": true,
+    "has_temporal": true,
+    "opening_intentional_empty": true,
+    "status_false": true,
+    "auth_false": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true
+  },
+  "passed": true,
+  "failed": []
+}

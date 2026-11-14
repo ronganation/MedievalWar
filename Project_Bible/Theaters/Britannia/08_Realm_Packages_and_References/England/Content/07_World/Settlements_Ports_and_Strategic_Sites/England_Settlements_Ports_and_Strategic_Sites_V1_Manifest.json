@@ -1,0 +1,33 @@
+{
+  "document_id": "manifest.england.settlements_ports_sites.v1",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Settlements_Ports_and_Strategic_Sites_V1.md",
+      "sha256": "87ed56863df25e6f938b6fb697f0eed95a2255ca993314284b6c726c8f69ee43",
+      "bytes": 49762
+    },
+    {
+      "filename": "England_Settlements_Ports_and_Strategic_Sites_V1_Static_Check.json",
+      "sha256": "660bdce7a35ff705e3c4ef4b5b3aa7019a6677a66d8d2b1a851ce61ef6593fde",
+      "bytes": 470
+    }
+  ],
+  "authorizations": {
+    "settlement_activation": false,
+    "port_activation": false,
+    "site_activation": false,
+    "capital_activation": false,
+    "strategic_node_activation": false,
+    "province_activation": false,
+    "opening_state_activation": false,
+    "repository_mutation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "save_rewrite": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "document_id": "manifest.england.house_wessex_dynasty.v4_2.current_authority_reconciliation",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "House_Wessex_Dynasty_V4.2_Current_Authority_Reconciliation.md",
+      "sha256": "aed3078a70f099c2eb155db53491a6413dabac25401a0b9b5ffdf0bdbe4bdeef",
+      "bytes": 53639
+    },
+    {
+      "filename": "House_Wessex_Dynasty_V4.2_Current_Authority_Reconciliation_Static_Check.json",
+      "sha256": "5f1918339de65e76d2cca760788d10355aa3df6ee4a3ba43e3c26fc30b09287e",
+      "bytes": 851
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false
+  }
+}

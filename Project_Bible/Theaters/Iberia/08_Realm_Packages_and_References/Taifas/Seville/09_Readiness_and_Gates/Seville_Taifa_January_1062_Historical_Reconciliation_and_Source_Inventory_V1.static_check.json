@@ -1,0 +1,91 @@
+{
+  "ArtifactId": "Seville_Taifa_January_1062_Historical_Reconciliation_and_Source_Inventory_V1",
+  "ArtifactType": "HistoricalReconciliationAndSourceInventory",
+  "Status": "STATIC_CHECKED",
+  "OpeningDateUnderReview": "1062-01-01",
+  "GeneratedDate": "2026-08-18",
+  "Authorities": {
+    "ProjectBible": "2.3.8",
+    "DesignExpansionChecklist": "3.6.8",
+    "AlmoravidHandoff": "1.0.0",
+    "TaifaMatrix": "V1"
+  },
+  "Boundary": {
+    "CreatesRegistryEntries": false,
+    "CreatesOpeningState": false,
+    "CreatesRuntimeInstances": false,
+    "CreatesArmies": false,
+    "CreatesTreasuries": false,
+    "CreatesPariaAgreements": false,
+    "CreatesRelationships": false,
+    "ReopensAlmoravid": false
+  },
+  "Resolved": {
+    "OpeningSovereign": "Abu Amr Abbad ibn Muhammad al-Mutadid",
+    "PoliticalForm": "UrbanDynasticExpansionistEmirate",
+    "FirstCompleteTaifaRecommendation": "Seville"
+  },
+  "TemporalContract": {
+    "HistoricalMonthsPerStrategicTurn": 21,
+    "BiologicalMonthsPerStrategicTurn": 7,
+    "CampaignSeasonStepsPerStrategicTurn": 1,
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ]
+  },
+  "Readiness": {
+    "RegistryAuthorized": false,
+    "OpeningStateAuthorized": false,
+    "Reason": "ValidateBeforeRegistry questions remain"
+  },
+  "Gates": [
+    {
+      "Id": "AUTHORITIES_READ",
+      "Result": "Pass"
+    },
+    {
+      "Id": "ALMORAVID_PRESERVATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "CORRECT_OPENING_RULER",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NO_LATER_HISTORY_LEAKAGE",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NO_RUNTIME_CREATION",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NO_OPENING_PARIA",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NO_TREASURY_INFERENCE",
+      "Result": "Pass"
+    },
+    {
+      "Id": "NO_MAP_CONTROL_INFERENCE",
+      "Result": "Pass"
+    },
+    {
+      "Id": "REGISTRY_READINESS",
+      "Result": "NotYet"
+    }
+  ],
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false
+  },
+  "SmallestUsefulNextAction": "Seville_Taifa_January_1062_Authority_and_Control_Contradiction_Ledger_V1.md"
+}

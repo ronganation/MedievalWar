@@ -1,0 +1,900 @@
+package:
+  index_id: mw.denmark.canonical_authority_index.v1_1
+  filename: Denmark_Canonical_Authority_Index_V1_1.yaml
+  canonical_file: Denmark_Canonical_Authority_Index_V1_1.yaml
+  version: 1.1.0
+  date: '2026-09-29'
+  realm_id: realm.denmark.kingdom
+  package_id: package.denmark.v1
+  scenario_id: mw.scenario.grand_campaign.1062
+  status: Static-Checked / Current Authority Surface and Technology Portfolio Indexed
+  compile_validated: false
+  runtime_validated: false
+  authority_type: Realm Canonical Authority and Filing Index
+  authority_scope: Discovery, relative path, status, supersession, archive class, and validation-state index. Does not replace subject authorities
+    or Registry.
+  runtime_creation_permitted: false
+  implementation_target: Unreal Engine 5.8
+  constitutional_authority: Project Bible 2.4
+  operational_authority: Design Expansion Checklist 3.7
+  architecture_authority: Framework Architecture Map V2.1
+  immediate_substantive_source: Denmark_Canonical_Authority_Index_V1.yaml
+  source_preservation_method: Copy-first additive structured successor
+  opening_campaign_season: Winter
+  historical_progression: 21 months per strategic turn
+  biological_progression: 7 months per strategic turn
+  campaign_season_progression: one ordered Winter, Spring, Summer, Autumn step per strategic turn
+  physical_recursive_inventory_complete: false
+  opening_state_mutation_permitted: false
+  payload_generation_permitted: false
+  unreal_project_mutation_permitted: false
+folder_structure:
+- 00_README_and_Indexes
+- 01_Foundation_and_Sources
+- 02_Identity_and_Registry
+- 03_Characters_and_Dynasty
+- 04_Character_Network_and_External
+- 05_Governance_Church_and_AI
+- 06_Historical_Systems
+- 07_World_Geography_and_Sites
+- 08_Military_Routes_and_Logistics
+- 09_Economy_Property_and_Supply
+- 10_Importer_Migration_and_Validation
+- 11_Supporting_and_Workflow
+- 12_Diplomacy
+- 13_Realm_Development_and_Specialist_Authorities
+index_policy:
+  one_canonical_file_per_subject: true
+  registry_owns_entity_ids: true
+  subject_authorities_remain_binding: true
+  archive_files_may_supply_production_inputs: false
+  duplicate_suffix_is_independent_authority: false
+  rebuilt_copy_is_canonical_without_promotion: false
+  review_and_quarantine_are_instantiating: false
+  runtime_mutation_permitted: false
+  exact_byte_hash_refresh_after_final_file_placement: true
+  clean_filename_rules:
+    spaces_in_new_canonical_filenames: false
+    url_encoded_percent20: false
+    download_prefix: false
+    duplicate_suffixes: false
+    rebuilt_suffix_after_promotion: false
+    double_extensions: false
+  current_README: 00_README_and_Indexes/Denmark_README_V1_2_Authority_Surface_and_Technology_Portfolio_Additive_Rebuild.md
+  root_should_contain_loose_files: false
+  owner_reported_manual_folder_move_complete: true
+  recursive_inventory_required_after_move: true
+  silent_filename_substitution_permitted: false
+  technology_portfolio_creates_runtime_state: false
+  additional_preportfolio_authority_chain: Closed unless a new complete owner gap is proven
+summary:
+  indexed_entries: 55
+  canonical_authorities: 30
+  canonical_authority_candidates: 4
+  review_only_authority_decisions: 2
+  supporting_authorities: 3
+  conditional_external_authorities: 2
+  machine_readable_artifacts: 6
+  validation_evidence_artifacts: 7
+  workflow_supporting_files: 1
+  compile_validated_entries: 0
+  runtime_validated_entries: 0
+  runtime_mutation_count: 0
+  new_current_surface_entries_added_by_v1_1: 7
+authorities:
+- authority_id: mw.denmark.readme.v1_2
+  canonical_file: Denmark_README_V1_2_Authority_Surface_and_Technology_Portfolio_Additive_Rebuild.md
+  relative_path: 00_README_and_Indexes/Denmark_README_V1_2_Authority_Surface_and_Technology_Portfolio_Additive_Rebuild.md
+  version: 1.2.0
+  status: Static-Checked / Current Package Entry Point Candidate / Technology Portfolio Complete
+  authority_type: Realm Package Entry Point, Current Authority, Physical Navigation, and Technology Portfolio Index
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark_README_V1_1_Current_Authority_Diplomacy_and_Character_Portfolio_Additive_Rebuild.md
+  - Denmark_README.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: KnownGeneratedSuccessorHash
+  notes: Complete V1.1 source preserved byte-identically as prefix; folder organization and Denmark Technology sequence integrated.
+  sha256: 720ebff271b92d2276f46a170984a706639efba3c26fe65512008d3a86e803bc
+- authority_id: mw.denmark.foundation_review.v1
+  canonical_file: Denmark_Foundation_Review_V1.md
+  relative_path: 01_Foundation_and_Sources/Denmark_Foundation_Review_V1.md
+  version: 1.0.0
+  status: Static-Checked / Foundation Complete with Controlled Dependencies
+  authority_type: Realm Foundation Completion and Handoff Review
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.historical_reconciliation.v1
+  canonical_file: Denmark_Historical_Reconciliation_V1.md
+  relative_path: 01_Foundation_and_Sources/Denmark_Historical_Reconciliation_V1.md
+  version: 1.1.2
+  status: Static-Checked
+  authority_type: Historical Reconciliation
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark_Historical_Reconciliation_V1_REBUILT.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.norse_theater.discovery_owner_closeout.v1
+  canonical_file: Denmark_Norse_Theater_Discovery_and_Owner_Reconciliation_Closeout_V1.md
+  relative_path: 01_Foundation_and_Sources/Denmark_Norse_Theater_Discovery_and_Owner_Reconciliation_Closeout_V1.md
+  version: 1.0.0
+  status: Static-Checked
+  authority_type: Norse Theater Discovery and Owner Reconciliation Closeout
+  authority_class: CanonicalAuthority
+  supersedes: []
+  hash_status: PendingExactByteHash
+  notes: null
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+- authority_id: mw.denmark.realm_work_plan.v1
+  canonical_file: Denmark_Realm_Work_Plan_V1.md
+  relative_path: 01_Foundation_and_Sources/Denmark_Realm_Work_Plan_V1.md
+  version: 1.1.2
+  status: Static-Checked
+  authority_type: Realm Work Plan
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark Realm Work Plan V1, Rebuilt.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.source_authority_review.v1
+  canonical_file: Denmark_Source_Authority_Gap_and_Identity_Review_V1.md
+  relative_path: 01_Foundation_and_Sources/Denmark_Source_Authority_Gap_and_Identity_Review_V1.md
+  version: 1.1.x
+  status: Static-Checked
+  authority_type: Source Authority, Gap, and Identity Review
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark_Source_Authority_Gap_and_Identity_Review_V1_REBUILT.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.source_inventory.v1
+  canonical_file: Denmark_Source_Inventory_V1.md
+  relative_path: 01_Foundation_and_Sources/Denmark_Source_Inventory_V1.md
+  version: 1.1.x
+  status: Static-Checked
+  authority_type: Source Inventory
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark Source Inventory V1, Rebuilt.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.external_lock_ledger.v1
+  canonical_file: Denmark_External_Lock_Resolution_Ledger_V1.md
+  relative_path: 02_Identity_and_Registry/Denmark_External_Lock_Resolution_Ledger_V1.md
+  version: 1.3.0
+  status: Static-Checked
+  authority_type: External Lock Resolution Ledger
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark External Lock Resolution Ledger V1.1.md
+  - Denmark External Lock Resolution Ledger V1.2.md
+  - Older External Lock ledgers.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.id_registry.v1
+  canonical_file: Denmark_ID_Registry_V1.md
+  relative_path: 02_Identity_and_Registry/Denmark_ID_Registry_V1.md
+  version: 1.1.2
+  status: Static-Checked
+  authority_type: Canonical ID and Migration Registry
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark ID Registry V1, Rebuilt.md
+  - Denmark_ID_Registry_V1_REBUILT.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.character_authorities.v1
+  canonical_file: Denmark_Character_Authorities_V1.md
+  relative_path: 03_Characters_and_Dynasty/Denmark_Character_Authorities_V1.md
+  version: 1.1.2
+  status: Static-Checked
+  authority_type: Character Authorities
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark Character Authorities V1, Rebuilt.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.character_portfolio_review.v1
+  canonical_file: Denmark_Character_Portfolio_Consistency_Review_V1.md
+  relative_path: 03_Characters_and_Dynasty/Denmark_Character_Portfolio_Consistency_Review_V1.md
+  version: 1.1.x
+  status: Static-Checked
+  authority_type: Character Portfolio Consistency Review
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark Character Portfolio Consistency Review V1, Rebuilt.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.dynasty_authority.v1
+  canonical_file: Denmark_Dynasty_Authority_V1.md
+  relative_path: 03_Characters_and_Dynasty/Denmark_Dynasty_Authority_V1.md
+  version: 1.1.x
+  status: Static-Checked
+  authority_type: Dynasty Authority
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark Dynasty Authority V1, Rebuilt.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.external.adalbert_hamburg_bremen.v1
+  canonical_file: Adalbert_Hamburg_Bremen_External_Authority_V1.md
+  relative_path: 04_Character_Network_and_External/Adalbert_Hamburg_Bremen_External_Authority_V1.md
+  version: 1.1.x
+  status: ReviewExternalRegistry
+  authority_type: External Character, Office, and Institution Authority
+  authority_class: ConditionalExternalAuthority
+  supersedes:
+  - Adalbert Hamburg-Bremen External Authority V1 (1).md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.network_decision_pass.v1
+  canonical_file: Denmark_Character_Network_Decision_Pass_V1.md
+  relative_path: 04_Character_Network_and_External/Denmark_Character_Network_Decision_Pass_V1.md
+  version: 1.1.x
+  status: Static-Checked
+  authority_type: Character Network Decision Pass
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.network_dry_preflight.v1
+  canonical_file: Denmark_Character_Network_Dry_Preflight_Report_V1.md
+  relative_path: 04_Character_Network_and_External/Denmark_Character_Network_Dry_Preflight_Report_V1.md
+  version: 1.1.x
+  status: Dry-Preflight-Validated
+  authority_type: Character Network Dry Preflight Report
+  authority_class: GeneratedValidationEvidence
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.network_evidence_review.v1
+  canonical_file: Denmark_Character_Network_Evidence_Review_V1.md
+  relative_path: 04_Character_Network_and_External/Denmark_Character_Network_Evidence_Review_V1.md
+  version: 1.1.x
+  status: Static-Checked
+  authority_type: Character Network Evidence Review
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.network_importer_manifest.machine.v1
+  canonical_file: Denmark_Character_Network_Importer_Manifest_V1.json
+  relative_path: 04_Character_Network_and_External/Denmark_Character_Network_Importer_Manifest_V1.json
+  version: 1.1.0
+  status: Static-Checked / Machine-Readable
+  authority_type: Character Network Machine-Readable Manifest
+  authority_class: GeneratedMachineReadableContent
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.network_importer_manifest.v1
+  canonical_file: Denmark_Character_Network_Importer_Manifest_V1.md
+  relative_path: 04_Character_Network_and_External/Denmark_Character_Network_Importer_Manifest_V1.md
+  version: 1.1.0
+  status: Static-Checked
+  authority_type: Character Network Importer Manifest
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.network_integration_contract.v1
+  canonical_file: Denmark_Character_Network_Integration_Contract_V1.md
+  relative_path: 04_Character_Network_and_External/Denmark_Character_Network_Integration_Contract_V1.md
+  version: 1.1.x
+  status: Static-Checked
+  authority_type: Character Network Integration Contract
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.shared_network_adapter.v1
+  canonical_file: Denmark_Shared_Character_Network_Adapter_V1.json
+  relative_path: 04_Character_Network_and_External/Denmark_Shared_Character_Network_Adapter_V1.json
+  version: 1.0.x
+  status: Static-Checked / Adapter Baseline
+  authority_type: Shared Character Network Adapter
+  authority_class: GeneratedMachineReadableContent
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.external.gottschalk_obotrite.v1
+  canonical_file: Gottschalk_Obotrite_External_Authority_V1.md
+  relative_path: 04_Character_Network_and_External/Gottschalk_Obotrite_External_Authority_V1.md
+  version: 1.1.x
+  status: ReviewExternalRegistry
+  authority_type: External Character and Rulership Authority
+  authority_class: ConditionalExternalAuthority
+  supersedes:
+  - Gottschalk Obotrite External Authority V1 (1).md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.ecclesiastical.v1
+  canonical_file: Denmark_Ecclesiastical_Content_V1.md
+  relative_path: 05_Governance_Church_and_AI/Denmark_Ecclesiastical_Content_V1.md
+  version: 1.1.2
+  status: Static-Checked
+  authority_type: Ecclesiastical Content Authority
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark_Ecclesiastical_Content_V1_REBUILT.md
+  - Denmark Ecclesiastical Content V1 (1).md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.governance.v1
+  canonical_file: Denmark_Governance_and_Delegated_Authority_V1.md
+  relative_path: 05_Governance_Church_and_AI/Denmark_Governance_and_Delegated_Authority_V1.md
+  version: 1.0.1
+  status: Static-Checked
+  authority_type: Governance and Delegated Authority Content
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: authority.law-custom-assembly-recognition-obligation-dispute.realm.denmark.v1
+  canonical_file: Denmark_Law_Custom_Assembly_Recognition_Obligation_and_Dispute_Authority_V1_FULL.md
+  relative_path: 05_Governance_Church_and_AI/Denmark_Law_Custom_Assembly_Recognition_Obligation_and_Dispute_Authority_V1_FULL.md
+  version: 1.0.0
+  status: StaticSourceGroundedRealmAuthorityCandidateOwnerReviewRequired
+  authority_type: Law, Custom, Assembly, Recognition, Obligation, and Dispute Authority
+  authority_class: CanonicalAuthorityCandidate
+  supersedes: []
+  hash_status: KnownGeneratedAuthorityHash
+  sha256: 5c3f566a1ed9f977a385824210236e2268f8f83feddd3e569bf525c310be4f52
+  notes: Definition-only. Creates no active law, assembly session, recognition, obligation, dispute, Opening State, or runtime state.
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+- authority_id: mw.denmark.opening_state.v1
+  canonical_file: Denmark_Opening_State_V1.md
+  relative_path: 05_Governance_Church_and_AI/Denmark_Opening_State_V1.md
+  version: 1.1.x
+  status: Static-Checked / Controlled Dependencies
+  authority_type: Opening State Authority
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.realm_ai.v1
+  canonical_file: Denmark_Realm_Personality_and_AI_V1.md
+  relative_path: 05_Governance_Church_and_AI/Denmark_Realm_Personality_and_AI_V1.md
+  version: 1.0.x
+  status: Static-Checked
+  authority_type: Realm Personality and AI Authority
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.historical_emergence.v1
+  canonical_file: Denmark_Historical_Emergence_V1.md
+  relative_path: 06_Historical_Systems/Denmark_Historical_Emergence_V1.md
+  version: 1.0.x
+  status: Static-Checked
+  authority_type: Historical Emergence Content
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.historical_memory.v1
+  canonical_file: Denmark_Historical_Memory_V1.md
+  relative_path: 06_Historical_Systems/Denmark_Historical_Memory_V1.md
+  version: 1.0.x
+  status: Static-Checked
+  authority_type: Historical Memory Content
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.historical_momentum.v1
+  canonical_file: Denmark_Historical_Momentum_V1.md
+  relative_path: 06_Historical_Systems/Denmark_Historical_Momentum_V1.md
+  version: 1.0.x
+  status: Static-Checked
+  authority_type: Historical Momentum Content
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.regions_geography.v1
+  canonical_file: Denmark_Regions_and_Strategic_Geography_V1.md
+  relative_path: 07_World_Geography_and_Sites/Denmark_Regions_and_Strategic_Geography_V1.md
+  version: 1.0.1
+  status: Static-Checked / World Instances Pending
+  authority_type: Regions and Strategic Geography Authority
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.sites.v1
+  canonical_file: Denmark_Settlements_Ports_and_Strategic_Sites_V1.md
+  relative_path: 07_World_Geography_and_Sites/Denmark_Settlements_Ports_and_Strategic_Sites_V1.md
+  version: 1.0.0
+  status: Static-Checked / World Instances Pending
+  authority_type: Settlements, Ports, and Strategic Sites Authority
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.military.v1
+  canonical_file: Denmark_Army_Fleet_and_Maritime_Military_V1.md
+  relative_path: 08_Military_Routes_and_Logistics/Denmark_Army_Fleet_and_Maritime_Military_V1.md
+  version: 1.0.1
+  status: Static-Checked / Force Instances Pending
+  authority_type: Army, Fleet, and Maritime Military Authority
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.routes.v1
+  canonical_file: Denmark_Routes_Maritime_Access_and_Communication_V1.md
+  relative_path: 08_Military_Routes_and_Logistics/Denmark_Routes_Maritime_Access_and_Communication_V1.md
+  version: 1.0.1
+  status: Static-Checked / Runtime Instances Pending
+  authority_type: Routes, Maritime Access, and Communication Authority
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.eps.hashes.v1
+  canonical_file: Denmark_Economy_Property_Supply_Authority_Hashes_V1.yaml
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Authority_Hashes_V1.yaml
+  version: 1.0.0
+  status: Partial Exact-Byte Coverage
+  authority_type: Authority Hash Manifest
+  authority_class: GeneratedValidationEvidence
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: NineCanonicalAuthorityHashesPending
+  notes: null
+- authority_id: mw.denmark.eps.staging_preflight.v1
+  canonical_file: Denmark_Economy_Property_Supply_Authority_Staging_Dry_Preflight_Report_V1.yaml
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Authority_Staging_Dry_Preflight_Report_V1.yaml
+  version: 1.1.1
+  status: Dry-Preflight-Validated / Exact-Byte Hashes Pending
+  authority_type: Authority Staging Dry Preflight Report
+  authority_class: GeneratedValidationEvidence
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: NineCanonicalAuthorityHashesPending
+  notes: Canonical authorities 9 present, 0 missing, 0 warnings, 9 exact-byte hashes pending, 0 runtime mutations.
+- authority_id: mw.denmark.eps.staging_manifest.v1
+  canonical_file: Denmark_Economy_Property_Supply_Authority_Staging_Manifest_V1.yaml
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Authority_Staging_Manifest_V1.yaml
+  version: 1.0.0
+  status: Static-Checked
+  authority_type: Authority Staging Manifest
+  authority_class: GeneratedValidationEvidence
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.eps.content_records.v1
+  canonical_file: Denmark_Economy_Property_Supply_Content_Records_V1.yaml
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Content_Records_V1.yaml
+  version: 1.0.1
+  status: Static-Checked / Machine-Readable
+  authority_type: Economy/Property/Supply Content Records
+  authority_class: GeneratedMachineReadableContent
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.eps.opening_reconciliation.v1
+  canonical_file: Denmark_Economy_Property_Supply_Opening_State_Reconciliation_V1.md
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Opening_State_Reconciliation_V1.md
+  version: 1.1.1
+  status: Static-Checked
+  authority_type: Economy/Property/Supply Opening State Reconciliation Contract
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.eps.package_manifest.v1
+  canonical_file: Denmark_Economy_Property_Supply_Package_Manifest_V1.yaml
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Package_Manifest_V1.yaml
+  version: 1.0.0
+  status: Static-Checked
+  authority_type: Economy/Property/Supply Package Manifest
+  authority_class: GeneratedMachineReadableContent
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.eps.review_quarantine.v1
+  canonical_file: Denmark_Economy_Property_Supply_Review_Quarantine_Manifest_V1.yaml
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Review_Quarantine_Manifest_V1.yaml
+  version: 1.0.0
+  status: Static-Checked
+  authority_type: Review and Quarantine Manifest
+  authority_class: GeneratedMachineReadableContent
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.eps.shared_adapter.v1
+  canonical_file: Denmark_Economy_Property_Supply_Shared_Importer_Adapter_V1.json
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Shared_Importer_Adapter_V1.json
+  version: 1.0.0
+  status: Dry-Preflight-Ready / Hash-Gated
+  authority_type: Shared Importer Adapter
+  authority_class: GeneratedMachineReadableContent
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.eps.shared_preflight.v1
+  canonical_file: Denmark_Economy_Property_Supply_Shared_Importer_Dry_Preflight_Report_V1.yaml
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Shared_Importer_Dry_Preflight_Report_V1.yaml
+  version: 1.0.0
+  status: Dry-Preflight-Validated / Import Not Executed
+  authority_type: Shared Importer Dry Preflight Report
+  authority_class: GeneratedValidationEvidence
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.eps.validation.v1
+  canonical_file: Denmark_Economy_Property_Supply_Validation_Manifest_V1.yaml
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_Supply_Validation_Manifest_V1.yaml
+  version: 1.0.0
+  status: Dry-Preflight-Validated
+  authority_type: Validation Manifest
+  authority_class: GeneratedValidationEvidence
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.eps.v1_3
+  canonical_file: Denmark_Economy_Property_and_Military_Supply_V1_3.md
+  relative_path: 09_Economy_Property_and_Supply/Denmark_Economy_Property_and_Military_Supply_V1_3.md
+  version: 1.3.0
+  status: Static-Checked / Current Additive Successor
+  authority_type: Economy, Property, and Military Supply Authority
+  authority_class: CanonicalAuthority
+  supersedes:
+  - Denmark_Economy_Property_and_Military_Supply_V1_2.md
+  - Denmark_Economy_Property_and_Military_Supply_V1.md
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: Current V1.3 successor located; prior package artifacts require later reconciliation against V1.3.
+- authority_id: mw.denmark.network_importer_workplan.v1
+  canonical_file: Denmark_Network_Importer_Workplan.md
+  relative_path: 10_Importer_Migration_and_Validation/Denmark_Network_Importer_Workplan.md
+  version: 1.0.x
+  status: Static-Checked
+  authority_type: Network Importer Workplan
+  authority_class: SupportingAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.network_source_checklist.v1
+  canonical_file: Denmark_Network_Source_File_Checklist.md
+  relative_path: 10_Importer_Migration_and_Validation/Denmark_Network_Source_File_Checklist.md
+  version: 1.0.x
+  status: Static-Checked
+  authority_type: Network Source File Checklist
+  authority_class: SupportingAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.raw_compat_preflight.v1
+  canonical_file: Denmark_Raw_Compatibility_Preflight_Result.json
+  relative_path: 10_Importer_Migration_and_Validation/Denmark_Raw_Compatibility_Preflight_Result.json
+  version: 1.0.x
+  status: Dry-Preflight-Validated / Review Dependencies
+  authority_type: Raw Compatibility Preflight Result
+  authority_class: GeneratedValidationEvidence
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.shared_importer_compatibility.v1
+  canonical_file: Denmark_Shared_Importer_Compatibility_Assessment.md
+  relative_path: 10_Importer_Migration_and_Validation/Denmark_Shared_Importer_Compatibility_Assessment.md
+  version: 1.0.x
+  status: Static-Checked
+  authority_type: Shared Importer Compatibility Assessment
+  authority_class: SupportingAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.folder_organization.v1
+  canonical_file: Denmark_Folder_Organization_Plan_V1.md
+  relative_path: 11_Supporting_and_Workflow/Denmark_Folder_Organization_Plan_V1.md
+  version: 1.0.0
+  status: Static-Checked
+  authority_type: Folder Organization and Supersession Plan
+  authority_class: CanonicalAuthority
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: PendingExactByteHash
+  notes: null
+- authority_id: mw.denmark.workflow.historical_world_pointers
+  canonical_file: Historical_and_World_Chain_Next_Action_Pointers.md
+  relative_path: 11_Supporting_and_Workflow/Historical_and_World_Chain_Next_Action_Pointers.md
+  version: Unversioned
+  status: Supporting / Non-Authoritative
+  authority_type: Workflow and Next-Action Notes
+  authority_class: WorkflowSupportingFile
+  supersedes: []
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+  hash_status: NotRequired
+  notes: Cannot override canonical authorities or README.
+- authority_id: review.denmark.diplomacy.current-coverage-gap.v1
+  canonical_file: Denmark_Diplomacy_Current_Authority_Full_Coverage_Ownership_and_Gap_Decision_V1.md
+  relative_path: 12_Diplomacy/Denmark_Diplomacy_Current_Authority_Full_Coverage_Ownership_and_Gap_Decision_V1.md
+  version: 1.0.0
+  status: ReviewOnlyGapDecision
+  authority_type: Diplomacy Current Authority Coverage, Ownership, and Gap Decision
+  authority_class: ReviewOnlyAuthorityDecision
+  supersedes: []
+  hash_status: PendingExactByteHash
+  notes: Review and admission control only; not a second diplomacy authority.
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+- authority_id: authority.realm.denmark.diplomacy-external-relations.v1
+  canonical_file: Denmark_Diplomacy_External_Relations_Recognition_Access_Agreement_War_Peace_and_Political_Settlement_Authority_V1_FULL.md
+  relative_path: 12_Diplomacy/Denmark_Diplomacy_External_Relations_Recognition_Access_Agreement_War_Peace_and_Political_Settlement_Authority_V1_FULL.md
+  version: 1.0.0
+  status: StaticSourceGroundedRealmAuthorityCandidateOwnerReviewRequired
+  authority_type: Diplomacy, External Relations, Recognition, Access, Agreement, War, Peace, and Political Settlement Authority
+  authority_class: CanonicalAuthorityCandidate
+  supersedes: []
+  hash_status: KnownGeneratedAuthorityHash
+  sha256: dc059fb2cac5d459d5e9d7a63cc95180c9ce8dd6fe247e66d9ec033ea8204137
+  notes: External counterpart receipts required. Creates no foreign private state, agreement performance, Opening State, or runtime state.
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+- authority_id: authority.portfolio.denmark.knowledge-technology-adoption-reform-development.v1
+  canonical_file: Denmark_Knowledge_Technology_Adoption_Reform_and_Realm_Development_Portfolio_V1_FULL.md
+  relative_path: 13_Realm_Development_and_Specialist_Authorities/Denmark_Knowledge_Technology_Adoption_Reform_and_Realm_Development_Portfolio_V1_FULL.md
+  version: 1.0.0
+  status: StaticSourceGroundedRealmPortfolioCandidateOwnerReviewRequired
+  authority_type: Knowledge, Technology, Adoption, Reform, and Realm Development Portfolio
+  authority_class: CanonicalAuthorityCandidate
+  supersedes: []
+  hash_status: KnownGeneratedAuthorityHash
+  sha256: dd60d7c2130406a32c614d424758cf683f8e4b960722bfd201c40c5268d7f605
+  notes: Static development portfolio. Exact costs, durations, modifiers, prerequisites, Opening State selections, payloads, and implementation
+    remain deferred.
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+- authority_id: authority.realm.denmark.population-recruitment-training-military-obligation-recovery.v1
+  canonical_file: Denmark_Population_Recruitment_Training_Military_Obligation_and_Recovery_Authority_V1_FULL.md
+  relative_path: 13_Realm_Development_and_Specialist_Authorities/Denmark_Population_Recruitment_Training_Military_Obligation_and_Recovery_Authority_V1_FULL.md
+  version: 1.0.0
+  status: StaticSourceGroundedRealmAuthorityCandidateOwnerReviewRequired
+  authority_type: Population, Recruitment, Training, Military Obligation, and Recovery Authority
+  authority_class: CanonicalAuthorityCandidate
+  supersedes: []
+  hash_status: KnownGeneratedAuthorityHash
+  sha256: 5c96aec97a6e0de1e0f44301a073cae7211b04b95334450d601a92c011d23d26
+  notes: Finite pools and conservation. Creates no people, pools, units, fleets, equipment, Opening State, or runtime state.
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+- authority_id: assessment.realm.denmark.technology-portfolio-authority-surface.v1
+  canonical_file: Denmark_Technology_Portfolio_Bounded_Authority_Surface_Assessment_V1_FULL.md
+  relative_path: 13_Realm_Development_and_Specialist_Authorities/Denmark_Technology_Portfolio_Bounded_Authority_Surface_Assessment_V1_FULL.md
+  version: 1.0.0
+  status: StaticSourceGroundedAssessmentOwnerReviewRequired
+  authority_type: Bounded Technology Portfolio Authority-Surface Assessment
+  authority_class: ReviewOnlyAuthorityDecision
+  supersedes: []
+  hash_status: KnownGeneratedAuthorityHash
+  sha256: 0be9c699f2b205ac323914879191510dc6afe8e480761f928111092cdf001fb6
+  notes: Admitted exactly three pre-portfolio owner gaps and blocked speculative expansion.
+  archive_class: null
+  compile_validated: false
+  runtime_validated: false
+archive_rules:
+  archive_root: 99_Archive_and_Superseded
+  archive_classes:
+  - Registry_and_Identity
+  - Characters_and_Dynasty
+  - Character_Network
+  - Governance_and_Church
+  - Historical
+  - World_and_Military
+  - Economy_Property_Supply
+  - Workflow_and_Duplicates
+  must_archive_patterns:
+  - '*_REBUILT*'
+  - '* (1).*'
+  - '* (2).*'
+  - Download *
+  archive_is_read_only_reference: true
+  archive_may_supply_ids_or_runtime_content: false
+  archive_root_status: Retained policy; physical root presence not verified in current screenshot
+controlled_gates:
+  foundation_verdict: Foundation Complete with Controlled Dependencies
+  economy_property_supply_authorities_resolved: 9
+  economy_property_supply_authorities_missing: 0
+  economy_property_supply_warning_count: 0
+  economy_property_supply_exact_byte_hashes_pending: 9
+  import_execution: NOT_PERFORMED
+  compile_validation: NOT_PERFORMED
+  runtime_validation: NOT_PERFORMED
+  save_load_validation: NOT_PERFORMED
+  migration_execution: NOT_PERFORMED
+  deterministic_replay_validation: NOT_PERFORMED
+  performance_profiling: NOT_PERFORMED
+  law_custom_assembly_authority: STATIC_CANDIDATE_OWNER_REVIEW_REQUIRED
+  population_recruitment_training_authority: STATIC_CANDIDATE_OWNER_REVIEW_REQUIRED
+  diplomacy_external_relations_authority: STATIC_CANDIDATE_OWNER_REVIEW_REQUIRED
+  technology_portfolio: STATIC_CANDIDATE_OWNER_REVIEW_REQUIRED
+  technology_entrance_gate: CLOSED_COMPLETE
+  additional_preportfolio_authority_chain: CLOSED
+  registry_mutation: NOT_AUTHORIZED
+  opening_state_mutation: NOT_AUTHORIZED
+  payload_generation: NOT_AUTHORIZED
+  unreal_project_mutation: NOT_AUTHORIZED
+validation:
+  duplicate_authority_ids: 0
+  duplicate_relative_paths: 0
+  canonical_files_with_percent20: []
+  canonical_files_with_download_prefix: []
+  canonical_files_with_duplicate_suffix: []
+  canonical_files_with_rebuilt_suffix: []
+  folder_structure_currentness: PASS
+  new_authority_surface_indexed: PASS
+  three_track_temporal_model: PASS
+  recursive_physical_inventory: NOT_PERFORMED
+  exact_post_move_hash_reconciliation: PARTIAL
+  result: PASS_STATIC_INDEX_STRUCTURE
+  fatal_count: 0
+  warning_count: 2
+  warnings:
+  - Recursive physical inventory after manual moves not performed
+  - Exact post-move hashes remain pending for files without generated hashes
+next_action: Perform recursive physical inventory and collision check, reconcile earlier diplomacy and economy predecessor families, refresh remaining
+  exact-byte hashes, then accept this V1.1 index as current navigation. No Registry, Opening State, payload, runtime, save, or Unreal mutation
+  is authorized.
+end_marker: End of Denmark_Canonical_Authority_Index_V1_1
+mutation_receipt:
+  source_index_overwritten: false
+  source_entries_preserved_and_integrated: 48
+  existing_subject_authorities_modified: 0
+  files_moved_or_renamed_by_index: 0
+  folders_created_by_index: 0
+  registry_rows_modified: 0
+  opening_state_records_modified: 0
+  payloads_created: 0
+  runtime_save_or_unreal_mutations: 0

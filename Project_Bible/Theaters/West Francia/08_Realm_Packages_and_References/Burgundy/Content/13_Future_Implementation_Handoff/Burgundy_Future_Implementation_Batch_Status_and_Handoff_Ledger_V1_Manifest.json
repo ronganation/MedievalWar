@@ -1,0 +1,13 @@
+{
+  "FileName": "Burgundy_Future_Implementation_Batch_Status_and_Handoff_Ledger_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "531e42a484af1df6eef0381c2006c6519c985df4063c50955b25fc6616441141",
+  "Bytes": 17843,
+  "Lines": 609,
+  "Placement": "Burgundy/13_Future_Implementation_Handoff",
+  "BatchStatusRecords": 15,
+  "ActiveBlockers": 3,
+  "StatusTransitionsApplied": 0,
+  "ImplementationStarted": false,
+  "ValidationResult": "PassStaticLedgerChecksOnly"
+}

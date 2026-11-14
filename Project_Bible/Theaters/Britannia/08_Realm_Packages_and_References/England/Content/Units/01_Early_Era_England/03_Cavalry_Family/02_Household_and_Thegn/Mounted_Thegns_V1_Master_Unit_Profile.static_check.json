@@ -1,0 +1,19 @@
+{
+  "document": "Mounted_Thegns_V1_Master_Unit_Profile.md",
+  "sha256": "a0513719ac66a33837f62705e9524b4046b9d50588a33b7890cc5e67e6878605",
+  "pass": true,
+  "checks": {
+    "hash_matches_manifest": true,
+    "terrain_rows_25": true,
+    "legacy_appendix_present": true,
+    "dual_source": true,
+    "horse_separations": true,
+    "shared_source_competition": true,
+    "dismount_boundary": true,
+    "lineage": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true
+  }
+}

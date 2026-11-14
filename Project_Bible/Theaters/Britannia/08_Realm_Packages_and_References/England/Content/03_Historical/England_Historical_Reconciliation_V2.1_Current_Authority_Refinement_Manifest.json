@@ -1,0 +1,28 @@
+{
+  "document_id": "manifest.england.historical_reconciliation.v2_1.current_authority_refinement",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Historical_Reconciliation_V2.1_Current_Authority_Refinement.md",
+      "sha256": "7bf2a8115ee3db5c008e3ca6e6cb706c81c00e79aa6d51940a4655b7cb58a671",
+      "bytes": 35770
+    },
+    {
+      "filename": "England_Historical_Reconciliation_V2.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "aab0a669bc44cced8cfa510d1b90a714ca33463ac1adf1c04b60ebae4104644e",
+      "bytes": 766
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "specialist_historical_file_creation": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

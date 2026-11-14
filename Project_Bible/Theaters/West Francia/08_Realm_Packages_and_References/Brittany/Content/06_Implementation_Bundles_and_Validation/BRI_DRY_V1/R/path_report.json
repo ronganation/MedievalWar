@@ -1,0 +1,6 @@
+{
+  "candidate_member_max_length": 36,
+  "compact_archive_root": "BRI_DRY_V1",
+  "dry_pack_member_max_length_before_zip": 57,
+  "windows_long_path_risk": "LowByDesign"
+}

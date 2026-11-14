@@ -1,0 +1,61 @@
+{
+  "receipt_id": "receipt.iberia.theater_compatibility.bundle_closeout.v1_2",
+  "version": "1.2.0",
+  "status": "PASS_CLOSEOUT_STATIC_COMPATIBILITY",
+  "closeout_file": "Iberia_Theater_Compatibility_Bundle_Closeout_V1_2.md",
+  "closeout_sha256": "7e6a5d4544ea976b99bc6e27ebef709328ffae7728aba303843a3a1e0ae5e79c",
+  "closeout_bytes": 12477,
+  "closeout_lines": 349,
+  "inputs": [
+    {
+      "filename": "Iberia_Theater_Compatibility_Index_V1_1.json",
+      "sha256": "92b96b3286188449da869169f35da29e251ca706fa93164af0443169192b71bd"
+    },
+    {
+      "filename": "Iberia_Theater_Compatibility_Static_Check_V1_1.json",
+      "sha256": "62779f7bcca8b8470fe435ad567da9791d12e2ce646192bed3d951b55201d319"
+    },
+    {
+      "filename": "Iberia_Theater_Compatibility_Manifest_V1_1.json",
+      "sha256": "2cb08ea55bac9288377c91c631651fd7239d01da2fa740b00655adc9c2a7a874"
+    },
+    {
+      "filename": "Iberia_Theater_Compatibility_Source_Assertions_V1_2.json",
+      "sha256": "98231077fb475685df703097d187e3d88ca34eda0e8713271ad0286c1641a28e"
+    },
+    {
+      "filename": "Iberia_Theater_Compatibility_Source_Assertion_Static_Check_V1_2.json",
+      "sha256": "24b0598d4876e107200f423aa26b35bede1e705fb956fd20be198d66f116f6f8"
+    },
+    {
+      "filename": "Iberia_Theater_Compatibility_Source_Assertion_Manifest_V1_2.json",
+      "sha256": "0cd34b61cff0f3d1e660ec269140d8a9cfee2efd801b35d12cbe52721ad42ba1"
+    }
+  ],
+  "checks": {
+    "candidate_count": 7,
+    "base_schema_errors": 0,
+    "base_failed_rules": 0,
+    "source_schema_errors": 0,
+    "source_failed_rules": 0,
+    "source_not_evaluable_rules": 0,
+    "all_opening_associations_false": true,
+    "all_activations_blocked": true
+  },
+  "mutations": {
+    "realm_packages_modified": 0,
+    "opening_states_modified": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "migration_executions": 0
+  },
+  "evidence_boundary": {
+    "importer_validated": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "performance_validated": false
+  }
+}

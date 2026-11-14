@@ -1,0 +1,15 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "propositions_46": true,
+    "sources_19": true,
+    "chronology_38": true,
+    "contradictions_16": true,
+    "child_reconciliation_present": true,
+    "later_history_not_scheduled": true,
+    "nonmutation": true
+  },
+  "SHA256": "a4c6234e8f37b1ba8169abce5dae3c7a7f1833a52386462f88508356313187f8",
+  "Bytes": 66191,
+  "Lines": 1883
+}

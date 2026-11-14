@@ -1,0 +1,22 @@
+{
+  "task_id": "SCOT-IMP-02B",
+  "status": "ReadyForBoundedOwnerReview",
+  "selected_lane": "CampaignInitialization",
+  "implementation_target": "Unreal Engine 5.8",
+  "plan_file": "SCOT_IMP_02B_CAMPAIGN_INITIALIZATION_BOUNDED_IMPLEMENTATION_PLAN_2026-09-21.md",
+  "plan_sha256": "B8CAA576265C6A802C9D7F06C30163BECFC5BA85FF978F3CAA22F366CEE45B5E",
+  "plan_bytes": 10779,
+  "plan_lines": 301,
+  "selected_authority_rows": 5,
+  "next_task": "SCOT-IMP-02B1 source-only Unreal seam narrowing",
+  "scotland_files_modified": 0,
+  "unreal_files_modified": 0,
+  "registry_mutations": 0,
+  "opening_state_activations": 0,
+  "save_writes": 0,
+  "migration_executions": 0,
+  "ai_turns": 0,
+  "battle_generations": 0,
+  "real_payloads": 0,
+  "production_authority": false
+}

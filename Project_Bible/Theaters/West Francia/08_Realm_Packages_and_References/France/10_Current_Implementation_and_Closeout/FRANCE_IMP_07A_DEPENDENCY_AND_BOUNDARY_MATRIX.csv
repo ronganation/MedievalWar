@@ -1,0 +1,13 @@
+Surface,Dependency,RequiredState,MutationAuthorized,FailureDisposition
+Predecessor,FRANCE-IMP-06B,TerritoryCommunitiesEconomyAutomationAccepted,false,STOP
+MilitaryCapability,France Army Host Garrisons authority,Readable and locked,false,STOP
+Recruitment,France Recruitment Pools Units authority,Readable and locked,false,STOP
+Supply,France Supply Logistics Transport Recovery authority,Readable and locked,false,STOP
+Territory,FRANCE-IMP-06B projection,Accepted read-only dependency,false,STOP
+Population,Communities authority,Reference-only no direct manpower conversion,false,STOP
+Economy,Economy authority,Reference-only no invented resource values,false,STOP
+Routes,Routes authority,Reference-only no activation or travel calculation,false,STOP
+Registry,Project Registry owner,No mutation,false,STOP
+OpeningState,Opening State owner,No activation or inventory seeding,false,STOP
+Runtime,Military Recruitment Supply owners,No command muster recruitment or supply execution,false,STOP
+Production,Production owners,No authority,false,STOP

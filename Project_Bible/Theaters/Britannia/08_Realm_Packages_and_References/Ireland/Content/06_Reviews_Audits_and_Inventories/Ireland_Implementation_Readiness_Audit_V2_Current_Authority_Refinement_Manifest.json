@@ -1,0 +1,17 @@
+{
+  "manifest_version": "1.0",
+  "method": "CurrentAuthorityReadinessRefinementWithCompleteV1RetainedSeparately",
+  "immediate_substantive_source": "Ireland_Implementation_Readiness_Audit.md",
+  "source_preservation_mode": "SeparateCompleteSourceRetainedUnmodified",
+  "authority_file": "Ireland_Implementation_Readiness_Audit_V2_Current_Authority_Refinement.md",
+  "authority_bytes": 17591,
+  "authority_sha256": "c3e4a88568e9ef849b6864f22a929d727124ca29e7752962cdd43ce887fb3af7",
+  "source_files_modified": 0,
+  "Registry_mutations": 0,
+  "migration_executions": 0,
+  "Opening_State_mutations": 0,
+  "Unreal_mutations": 0,
+  "static_check_file": "Ireland_Implementation_Readiness_Audit_V2_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "ef0a053009f00b6df1ef7d5ea58c109050c470c22d734dac712ba16810752ad6",
+  "validation_scope": "static readiness audit only; complete V1 remains separate and unchanged; no machine-readable fixture, Registry asset, importer, compile, runtime, migration, save/load, replay, performance, battle, or payload validation"
+}

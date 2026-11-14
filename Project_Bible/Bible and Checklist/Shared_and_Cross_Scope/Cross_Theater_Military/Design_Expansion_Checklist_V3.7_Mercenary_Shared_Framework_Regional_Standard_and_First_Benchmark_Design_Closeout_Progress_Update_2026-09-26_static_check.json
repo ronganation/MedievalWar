@@ -1,0 +1,98 @@
+{
+  "document_id": "mw.design-expansion-checklist.3.7.mercenary-design-closeout.static-check.2026-09-26",
+  "version": "1.0.0",
+  "check_type": "bounded_documentary_structural_check",
+  "overall_result": "PASS_WITH_REVIEW_AND_VALIDATION_LIMITATIONS",
+  "checks": [
+    {
+      "id": "handoff_section_count",
+      "expected": 42,
+      "actual": 42,
+      "result": "PASS",
+      "method": "Counted consecutive numbered Markdown headings 01 through 42"
+    },
+    {
+      "id": "checklist_update_section_count",
+      "expected": 23,
+      "actual": 23,
+      "result": "PASS",
+      "method": "Counted consecutive numbered Markdown headings 01 through 23"
+    },
+    {
+      "id": "required_handoff_disposition",
+      "token": "MERCENARY_DESIGN_PHASE_CLOSED_IMPLEMENTATION_DISCOVERY_HANDOFF_READY",
+      "count_in_handoff": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "required_checklist_disposition",
+      "token": "MERCENARY_SHARED_DESIGN_AND_FIRST_BENCHMARK_CLOSEOUT_COMPLETE_IMPLEMENTATION_DISCOVERY_HANDOFF_READY",
+      "count_in_checklist_update": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "next_batch_not_executed",
+      "token": "ADDITIONAL_SOURCE_RECOVERY",
+      "action_status": "NOT_PERFORMED",
+      "result": "PASS"
+    },
+    {
+      "id": "unreal_discovery_not_performed",
+      "result": "PASS",
+      "evidence": "Both Markdown deliverables state project-native discovery was not performed; no Unreal source inspection action was taken in this closeout."
+    },
+    {
+      "id": "implementation_target",
+      "expected": "Unreal Engine 5.8",
+      "result": "PASS"
+    },
+    {
+      "id": "three_track_temporal_contract",
+      "expected": [
+        "Historical progression: 21 months per strategic turn",
+        "Biological progression: 7 months per strategic turn",
+        "Campaign Season: one ordered Winter, Spring, Summer, Autumn step per strategic turn"
+      ],
+      "result": "PASS"
+    },
+    {
+      "id": "nonmutation_scope",
+      "result": "PASS",
+      "evidence": "No source authority, Realm package, shared Mercenary authority, unit draft, stable Checklist, README/index, or Unreal implementation file was edited."
+    },
+    {
+      "id": "only_four_closeout_outputs",
+      "expected": 4,
+      "actual": 4,
+      "result": "PASS",
+      "paths": [
+        "C:\\UnrealProjects\\MedievalWar\\Mercenary_Design_Closeout_and_Unreal_Implementation_Entrance_Handoff.md",
+        "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Mercenary_Shared_Framework_Regional_Standard_and_First_Benchmark_Design_Closeout_Progress_Update_2026-09-26.md",
+        "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Mercenary_Shared_Framework_Regional_Standard_and_First_Benchmark_Design_Closeout_Progress_Update_2026-09-26_manifest.json",
+        "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Bible and Checklist\\Post_08_26 Design_Checklist_Updates\\Design_Expansion_Checklist_V3.7_Mercenary_Shared_Framework_Regional_Standard_and_First_Benchmark_Design_Closeout_Progress_Update_2026-09-26_static_check.json"
+      ]
+    },
+    {
+      "id": "json_syntax",
+      "result": "PASS",
+      "method": "Parsed both manifest and static-check JSON from disk with ConvertFrom-Json using long-path-aware file reads"
+    },
+    {
+      "id": "source_coverage_completeness",
+      "result": "NOT_CLAIMED"
+    },
+    {
+      "id": "owner_adoption",
+      "result": "NOT_PERFORMED"
+    },
+    {
+      "id": "compile_tests_editor_runtime_import_save_migration_replay_rollback_performance_accessibility_localization_balance",
+      "result": "NOT_PERFORMED"
+    }
+  ],
+  "limits": [
+    "This is a documentation/structure check, not independent historical fact validation.",
+    "No complete physical source inventory or full source coverage is claimed.",
+    "No implementation or project-native validation is claimed."
+  ]
+}

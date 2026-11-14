@@ -1,0 +1,17 @@
+{
+  "document": "English_Foot_Knights_V1_Master_Unit_Profile.md",
+  "sha256": "83862d79a08fe6a09882af5584ecb2a29d5181af5080bc6089b2195c432ab0db",
+  "checks": {
+    "substantive_length": true,
+    "sections_0_73": true,
+    "terrain_25": true,
+    "scale_deferred": true,
+    "housecarls_not_auto": true,
+    "kings_men_later": true,
+    "city_guard_preserved": true,
+    "visuals_three": true,
+    "no_loss": true,
+    "footer_final": true
+  },
+  "pass": true
+}

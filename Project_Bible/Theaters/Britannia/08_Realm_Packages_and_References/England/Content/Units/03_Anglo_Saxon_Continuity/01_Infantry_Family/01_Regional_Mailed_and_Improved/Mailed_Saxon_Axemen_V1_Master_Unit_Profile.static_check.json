@@ -1,0 +1,16 @@
+{
+  "document": "Mailed_Saxon_Axemen_V1_Master_Unit_Profile.md",
+  "sha256": "befc37797804bb966b7287cdf4d8004ab841180acd95e9c59601a9ce23d9c858",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "terrain_25": true,
+    "three_track": true,
+    "nonmutation": true,
+    "parent_persists": true,
+    "distinct_unit_fallback": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "literal_v1_1_limit_honest": true
+  }
+}

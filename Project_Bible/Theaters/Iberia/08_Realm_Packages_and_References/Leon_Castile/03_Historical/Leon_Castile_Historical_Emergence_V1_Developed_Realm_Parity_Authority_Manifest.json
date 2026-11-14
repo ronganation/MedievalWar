@@ -1,0 +1,33 @@
+{
+  "document_id": "Manifest.HistoricalEmergence.Realm.LeonCastile.V1",
+  "authority_file": "Leon_Castile_Historical_Emergence_V1_Developed_Realm_Parity_Authority.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/Historical",
+  "bytes": 94989,
+  "physical_lines": 1783,
+  "words": 5020,
+  "sha256": "BD46D4C285A60A5BC876589A1442974C4CB4BAA03E30BEA8040AC6E4F4AB652B",
+  "fence_count": 104,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "escaped_hyphen_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "creation_method_present": true,
+  "pathway_definition_count": 18,
+  "active_candidate_count": 14,
+  "review_only_count": 4,
+  "competition_group_count": 7,
+  "validation_case_count": 80,
+  "status": "StaticCheckedNewDevelopedRealmParityAuthorityReviewOnly",
+  "next_action": "LeonCastile Registry and Historical Suite Preflight then Opening State V2",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "all_checks_pass": true
+}

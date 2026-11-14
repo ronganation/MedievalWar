@@ -1,0 +1,49 @@
+{
+  "document": "House_Dunkeld_Dynasty_V2_Current_Authority_Rebuild.md",
+  "version": "2.0.0",
+  "status": "Static-Checked Draft",
+  "stable_document_id": "DynastyAuthority.Scotland.HouseDunkeld",
+  "stable_dynasty_id": "Dynasty.Scotland.House_Dunkeld",
+  "source": {
+    "filename": "House_Dunkeld_Dynasty_Modernized.md",
+    "bytes": 17068,
+    "sha256": "94e2aba4889278b0d1abbf8e49604d9796af8933455f955bc9f3a9ba2e5c5d43",
+    "complete_substantive_source_preserved": true
+  },
+  "successor": {
+    "bytes": 44064,
+    "physical_lines": 1096,
+    "sections": 54,
+    "sha256": "b58e6b65d51ceb3142a9dfa725ac6c71ebd81d28430a55cd677592d214782cb8"
+  },
+  "preservation": {
+    "source_sections_mapped": true,
+    "useful_content_removed": false,
+    "removal_ledger": []
+  },
+  "opening": {
+    "active_head": null,
+    "active_heir": null,
+    "active_successor": null,
+    "active_claims": 0,
+    "active_branches": 0,
+    "active_households": 0,
+    "active_specialist_bindings": 0
+  },
+  "approved_definition_interfaces": [
+    "Character.Scotland.Malcolm_III",
+    "Character.Scotland.Donald_III",
+    "Character.Scotland.Duncan_II",
+    "Character.Scotland.IngibjorgFinnsdottir"
+  ],
+  "validation": {
+    "compile": false,
+    "runtime": false,
+    "importer": false,
+    "save_load": false,
+    "migration": false,
+    "replay": false,
+    "performance": false
+  },
+  "next_file": "House_Moray_Dynasty_V2_Current_Authority_Rebuild.md"
+}

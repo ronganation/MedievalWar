@@ -1,0 +1,29 @@
+{
+  "document": "Aquitaine_Character_Network_V2_Developed_Realm_Parity_Authority.md",
+  "passed": true,
+  "checks": {
+    "source_exists": true,
+    "successor_larger": true,
+    "all_source_headings_retained": true,
+    "source_hash_recorded": true,
+    "Project_Bible_2_4": true,
+    "Checklist_3_7": true,
+    "UE_5_8": true,
+    "three_track": true,
+    "barbastro_uncommitted": true,
+    "direction_independence": true,
+    "zero_escaped_underscores": true,
+    "zero_escaped_hyphens": true,
+    "zero_em_dash": true,
+    "balanced_fences": true,
+    "stable_footer_once": true,
+    "final_marker": true,
+    "zero_removal": true
+  },
+  "missing_source_headings": [],
+  "source_lines": 1266,
+  "successor_lines": 1750,
+  "source_bytes": 37585,
+  "successor_bytes": 54944,
+  "validation_scope": "Static copy-first and content checks only. No Registry mutation, Opening State activation, Network activation, importer, compile, runtime, save-load, migration, replay, performance, Unreal mutation, or real payload."
+}

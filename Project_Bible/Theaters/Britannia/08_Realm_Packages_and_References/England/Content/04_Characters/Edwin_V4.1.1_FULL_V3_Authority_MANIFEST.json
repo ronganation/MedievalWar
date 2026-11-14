@@ -1,0 +1,42 @@
+{
+  "document_id": "manifest.england.edwin_v4.1.1_full_v3_authority",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "Edwin_V4.1.1_FULL_V3_Authority.md",
+      "sha256": "8bea3d697be88e8a7f8885be38b0992ba3dd88123b88dba6ed40d28a91f372b5",
+      "bytes": 60953
+    },
+    {
+      "filename": "Edwin_V4.1.1_FULL_V3_Authority_VALIDATION.json",
+      "sha256": "5c6e7753cd1d8ad758d2349641b2e8a3c8668fc782370795cf40b5322df8b46a",
+      "bytes": 1351
+    },
+    {
+      "filename": "Edwin_V4.1.1_FULL_V3_Authority_SOURCE_TO_FINAL_MAP.json",
+      "sha256": "778600f5ca2e80dd4377be9d8754d06a863cec2cd739360ef2d85b2093ce8552",
+      "bytes": 17190
+    },
+    {
+      "filename": "Edwin_V4.1.1_FULL_V3_Authority_SOURCE_RECEIPT.json",
+      "sha256": "829bf48e4978ac02f9c62510cdbcbcc7a90d1ce838de642228fedeb24cfd5251",
+      "bytes": 593
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "owner_receipt": false,
+    "importer_work": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false,
+    "save_load": false,
+    "replay": false,
+    "physical_promotion": false
+  }
+}

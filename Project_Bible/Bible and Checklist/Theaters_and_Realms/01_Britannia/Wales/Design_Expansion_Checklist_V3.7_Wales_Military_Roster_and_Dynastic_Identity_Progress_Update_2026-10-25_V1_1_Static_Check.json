@@ -1,0 +1,19 @@
+{
+  "check_id": "WALES-CHECKLIST-MILITARY-ROSTER-DYNASTIC-IDENTITY-2026-10-25-V1-1",
+  "result": "PASS",
+  "checks": {
+    "title": true,
+    "copy": true,
+    "counts": true,
+    "evidence": true,
+    "scope_clean": true,
+    "wales_only": true,
+    "nonactivation": true,
+    "format": true
+  },
+  "balanced_fences": true,
+  "next_realm_scope_found": false,
+  "unsupported_activation_claims_found": false,
+  "unsupported_production_claims_found": false,
+  "sha256": "e240dd84f06d87bcb3b7d413c288974022546316a2d8f00bc6121368f1ba4440"
+}

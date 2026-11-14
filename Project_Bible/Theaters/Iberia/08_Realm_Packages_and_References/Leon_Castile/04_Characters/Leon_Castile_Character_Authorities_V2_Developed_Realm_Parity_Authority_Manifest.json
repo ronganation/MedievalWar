@@ -1,0 +1,27 @@
+{
+  "artifact": "Leon_Castile_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+  "version": "2.0.0",
+  "created_date": "2026-09-07",
+  "bytes": 53226,
+  "physical_lines": 1035,
+  "sha256": "8BB51B862EB7F9AC3CAABD18C2AAD1210873FD8D029110A3A0977DADFF56D80E",
+  "immediate_substantive_source": "Leon_Castile_Character_Authorities_V1.md",
+  "source_version": "1.1.0",
+  "source_physical_lines_reviewed": 1238,
+  "source_treatment": "CompleteSectionBySectionSubstantiveCarryForwardWithIntegratedExpansion",
+  "status": "StaticCheckedDevelopedRealmParitySuccessorReviewOnly",
+  "placement": "Leon_Castile/03_Core_Authorities",
+  "validation": {
+    "utf8": true,
+    "balanced_fenced_blocks": true,
+    "stable_footer_count": 1,
+    "em_dash_count": 0,
+    "escaped_underscore_count": 0
+  },
+  "mutation_receipt": {
+    "Registry_rows_created": 0,
+    "Opening_State_mutations": 0,
+    "runtime_mutations": 0,
+    "Unreal_project_mutations": 0
+  }
+}

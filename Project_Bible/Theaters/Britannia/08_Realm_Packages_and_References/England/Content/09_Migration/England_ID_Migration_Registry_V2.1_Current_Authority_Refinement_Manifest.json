@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.england.ID_migration_registry.v2_1.current_authority_refinement",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "England_ID_Migration_Registry_V2.0_Full_Rebuild.md",
+    "version": "2.0 full additive rebuild",
+    "sha256": "a71aac62d5176cd5b75ca9d306473582ec445119a301e3c06093bf702a0df85b",
+    "bytes": 41569,
+    "copy_based_rebuild": true
+  },
+  "files": [
+    {
+      "filename": "England_ID_Migration_Registry_V2.1_Current_Authority_Refinement.md",
+      "sha256": "307c44e4c3ba1a11a27bd89f1963a2579080a5f5ca602bd5ec7944231c32688a",
+      "bytes": 60406
+    },
+    {
+      "filename": "England_ID_Migration_Registry_V2.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "f634f6f9074092a87e2932b01735856f964e69ead61447edf64ce79745282eb4",
+      "bytes": 878
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "repository_mutation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "save_rewrite": false,
+    "opening_state_activation": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

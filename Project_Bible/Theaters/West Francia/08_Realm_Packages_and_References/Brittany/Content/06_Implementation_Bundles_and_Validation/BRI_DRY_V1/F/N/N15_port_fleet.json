@@ -1,0 +1,11 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N15_port_fleet",
+  "mutated_candidate": {
+    "created_fleet": "fleet.fake",
+    "port_id": "port.fake"
+  },
+  "result": "PASS",
+  "rule": "PortDoesNotCreateFleet"
+}

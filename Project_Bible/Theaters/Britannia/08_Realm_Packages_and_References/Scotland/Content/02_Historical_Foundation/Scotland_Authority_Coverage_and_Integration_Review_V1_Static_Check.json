@@ -1,0 +1,35 @@
+{
+  "document_id": "static-check.scotland.authority_coverage_integration.v1",
+  "version": "1.0.0",
+  "inputs": [
+    {
+      "filename": "Scotland_Source_Inventory_V1.1_Current_Authority_Refinement.md",
+      "sha256": "fb9f3813ce3acc0846e393f26ec2e3772639ce8a6b167718fc68d036f424d120",
+      "bytes": 33411
+    },
+    {
+      "filename": "Scotland_Source_Authority_Gap_and_Identity_Review.md",
+      "sha256": "f9096f74e92e3a8e09ade035121bd91ff0471354a40f6b5d049cf0055a242a23",
+      "bytes": 37517
+    }
+  ],
+  "output_file": "Scotland_Authority_Coverage_and_Integration_Review_V1.md",
+  "output_sha256": "0f7e42e368f4da9209a5de55c29c04da6ea33b3fd428ab7ee1cc28af1c8983e2",
+  "output_bytes": 22602,
+  "checks": {
+    "new_file_created": true,
+    "source_hashes_present": true,
+    "all_coverage_domains": true,
+    "build_sequence_present": true,
+    "three_track_model": true,
+    "ingibjorg_not_duplicated": true,
+    "supply_not_reowned": true,
+    "governance_inside_law_policy": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

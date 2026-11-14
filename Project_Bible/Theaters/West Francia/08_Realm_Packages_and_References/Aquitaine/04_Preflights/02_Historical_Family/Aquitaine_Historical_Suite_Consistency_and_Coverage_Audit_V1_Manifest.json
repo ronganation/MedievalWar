@@ -1,0 +1,51 @@
+{
+  "Schema": "MedievalWar.AuthorityManifest.V1",
+  "AuthorityFile": "Aquitaine_Historical_Suite_Consistency_and_Coverage_Audit_V1.md",
+  "AuthorityType": "HistoricalSuiteConsistencyAndCoverageAudit",
+  "Version": "1.0.0",
+  "RevisionDate": "2026-09-05",
+  "ScenarioId": "mw.scenario.grand_campaign.1062",
+  "RealmCandidate": "realm.aquitaine.duchy",
+  "OwningTheater": "West Francia",
+  "SHA256": "c86643f4b9557ef46ff18df82c0aeb8939163facb876d31cc3621e69f3ed2cf8",
+  "ByteCount": 34556,
+  "LineCount": 1087,
+  "HeadingCount": 69,
+  "MarkdownFenceCount": 82,
+  "AuditResult": "ConditionalPass",
+  "PrimaryHistoricalAuthorities": 6,
+  "HistoricalUncertaintyCandidateRecords": 30,
+  "CandidateBundleRequiredFilesAfterCorrection": 30,
+  "BlockingDefects": 0,
+  "BoundedMaintenanceItems": [
+    "CurrentDependencyReferences",
+    "RealmIdNormalization",
+    "EvidencePopulation",
+    "SelectionReceiptsWhereNeeded",
+    "CandidateBundleSpecificationUpdate"
+  ],
+  "MutationStatus": {
+    "HistoricalFactsActivated": 0,
+    "SourceRecordsFabricated": 0,
+    "UncertaintySelectionsApplied": 0,
+    "MemoryInstancesActivated": 0,
+    "MomentumInstancesActivated": 0,
+    "EmergenceInstancesActivated": 0,
+    "OpeningStateMutations": 0,
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "ValidationStatus": {
+    "StaticChecked": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  }
+}

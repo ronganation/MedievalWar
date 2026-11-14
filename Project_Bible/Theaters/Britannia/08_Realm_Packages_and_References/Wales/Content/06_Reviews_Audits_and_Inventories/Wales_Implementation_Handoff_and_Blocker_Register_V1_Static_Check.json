@@ -1,0 +1,23 @@
+{
+  "filename": "Wales_Implementation_Handoff_and_Blocker_Register_V1.md",
+  "sha256": "c8669db654478679322b21a5ef00b79afc3e0c76348ad648a3ab394708184375",
+  "bytes": 35184,
+  "physical_lines": 1067,
+  "checks": {
+    "filename": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "balanced_fences": true,
+    "yaml_present": true,
+    "text_present": true,
+    "no_em_dash": true,
+    "required_literals": true,
+    "blocker_count_10": true,
+    "validation_cases_30": true,
+    "honest_validation": true,
+    "advanced_save_protection": true,
+    "no_mutation": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

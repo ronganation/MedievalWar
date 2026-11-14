@@ -1,0 +1,26 @@
+{
+  "FileName": "Campaign_Theater_Registry_and_Association_Owner_Reconciliation_V1.md",
+  "Version": "1.0.0",
+  "Status": "STATIC-CHECKED OWNER-DECISION CANDIDATE",
+  "SHA256": "2CEC6CF31ED75B508EAE2778598C28727261C7E1452F1F7A6E6E874CC6EAF8D8",
+  "Bytes": 21964,
+  "Lines": 618,
+  "Checks": {
+    "authority_pair": true,
+    "four_theater_ids": true,
+    "britania_status_updated": true,
+    "norse_status_updated": true,
+    "owner_identifier_split": true,
+    "state_separation": true,
+    "denmark_owner_receipt_normalized": true,
+    "deprecated_denmark_field_absent": true,
+    "realm_ownership_preserved": true,
+    "external_status_updated": true,
+    "no_new_activation": true,
+    "no_registry_mutation": true,
+    "no_alias_chains": true,
+    "advanced_save_protected": true,
+    "blocked_records_retained": true,
+    "next_action_bounded": true
+  }
+}

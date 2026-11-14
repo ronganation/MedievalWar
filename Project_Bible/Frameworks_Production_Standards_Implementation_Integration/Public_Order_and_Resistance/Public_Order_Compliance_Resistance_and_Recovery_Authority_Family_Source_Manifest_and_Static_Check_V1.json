@@ -1,0 +1,358 @@
+{
+  "document_control": {
+    "document_id": "manifest.shared.public-order-compliance-resistance-rebellion-recovery.authority-family.v1",
+    "stable_document_id": "Manifest.PublicOrderComplianceResistanceRebellionRecovery.AuthorityFamily",
+    "filename": "Public_Order_Compliance_Resistance_and_Recovery_Authority_Family_Source_Manifest_and_Static_Check_V1.json",
+    "version": "1.0.0",
+    "manifest_date": "2026-09-19",
+    "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Public_Order_and_Resistance",
+    "document_type": [
+      "CurrentAuthoritySourceManifest",
+      "StaticCheckReceipt",
+      "DistributedOwnerEvidenceLedger",
+      "LegacySourceDiscoveryDisposition",
+      "DevelopedRealmCoverageReceipt"
+    ],
+    "constitutional_authority": "Project Bible 2.4",
+    "operational_authority": "Design Expansion Checklist 3.7",
+    "implementation_target": "Unreal Engine 5.8",
+    "status": "StaticManifestPassWithRepositoryEvidenceLimitationsOwnerReviewRequired",
+    "implementation_promotion_authorized": false
+  },
+  "family_decision": {
+    "architecture": "DistributedSpecialistOwnersWithBoundedPublicResponseIntegration",
+    "broad_framework_gap_remaining": false,
+    "universal_public_order_sole_writer": "Rejected",
+    "universal_loyalty_or_unrest_score": "Prohibited",
+    "mass_realm_rewrite_required": false,
+    "identical_realm_file_shape_required": false,
+    "implementation_ready": false
+  },
+  "current_family_authorities": [
+    {
+      "record_id": "PUBORD-ASSESSMENT-V1",
+      "filename": "Public_Order_Compliance_Resistance_Rebellion_and_Recovery_Authority_Family_Bounded_Assessment_and_Development_Disposition_V1.md",
+      "role": "ControllingBoundedAssessmentAndDevelopmentDisposition",
+      "disposition": "CURRENT_DECISION_PROVENANCE",
+      "current_control": true,
+      "repository_status": "OneDriveExactFileLocated",
+      "bytes": 39799,
+      "physical_lines": 1226,
+      "sha256": "00e8f17e13bce95b85dba503cc9d4549c4773214ddf800852ce958fdd15ba375",
+      "evidence_reference": "turn111search71"
+    },
+    {
+      "record_id": "PUBORD-INTEGRATION-V1",
+      "filename": "Public_Order_Compliance_Resistance_Rebellion_and_Recovery_Integration_Authority_V1.md",
+      "role": "CurrentSharedPublicResponseIntegrationAuthorityCandidate",
+      "disposition": "CURRENT_STATIC_DESIGN_AUTHORITY_CANDIDATE",
+      "current_control": true,
+      "repository_status": "OneDriveExactFileLocated",
+      "bytes": 47263,
+      "physical_lines": 1471,
+      "sha256": "489a26398ad4743a0e6ed958a82248fd3701417162b68beb313b120ec9f3be29",
+      "evidence_reference": "turn111search64"
+    },
+    {
+      "record_id": "PUBORD-REALM-COMPAT-V1",
+      "filename": "Developed_Realm_Public_Order_Compliance_Resistance_and_Recovery_Compatibility_Review_V1.md",
+      "role": "CurrentDevelopedRealmCompatibilityReview",
+      "disposition": "CURRENT_STATIC_REVIEW_OWNER_REVIEW_REQUIRED",
+      "current_control": true,
+      "repository_status": "CreationReceiptPendingExactOneDriveIndexConfirmation",
+      "bytes": 27108,
+      "physical_lines": 810,
+      "sha256": "a3c12aeefaa46c12d0e8057db0c3c1247d9cd7337a9cd33e95445a67455b704e",
+      "evidence_reference": null
+    },
+    {
+      "record_id": "PUBORD-INDEX-V1",
+      "filename": "Public_Order_Compliance_Resistance_and_Recovery_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "role": "CurrentNavigationOwnershipAndLegacyDispositionAuthority",
+      "disposition": "CURRENT_STATIC_NAVIGATION_AUTHORITY_OWNER_REVIEW_REQUIRED",
+      "current_control": true,
+      "repository_status": "CreationReceiptPendingExactOneDriveIndexConfirmation",
+      "bytes": 26123,
+      "physical_lines": 877,
+      "sha256": "ec337114cdfeebd7436cb48bc0dcc514559db5be0263689a3e66e20d0a581316",
+      "evidence_reference": null
+    }
+  ],
+  "distributed_specialist_owners": [
+    {
+      "record_id": "OWNER-PROVINCE-V2",
+      "filename": "Province_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "owner_role": "RegionalAdministrationIntegrationAutonomyPublicOrderSummaryDevastationAndRecoveryReferenceOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "OneDriveExactFileLocated",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": "turn111search65"
+    },
+    {
+      "record_id": "OWNER-POPULATION-V2",
+      "filename": "Population_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "owner_role": "DemographyCommunityMigrationDisplacementResettlementAndDemographicRecoveryOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "OneDriveExactFileLocated",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": "turn111search63"
+    },
+    {
+      "record_id": "OWNER-LAW-POLICY-V1",
+      "filename": "Law_and_Policy_Framework.md",
+      "owner_role": "LawCustomPolicyJurisdictionPromulgationEnforcementExemptionAppealAndSpecificComplianceOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "OneDriveExactFileLocatedMultipleResults",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": "turn111search66"
+    },
+    {
+      "record_id": "OWNER-POLITICAL-CONSTITUTION-V1",
+      "filename": "Political_Constitution_Authority_Participation_Recognition_Legitimacy_and_Government_Transformation_Integration_Framework_V1.md",
+      "owner_role": "ParticipationRecognitionLegitimacyPoliticalEscalationSettlementAndGovernmentTransformationOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "OneDriveExactFileLocatedMultipleResults",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": "turn111search69"
+    },
+    {
+      "record_id": "OWNER-GOVERNMENT",
+      "filename": "Realm_Governance_Framework.md",
+      "owner_role": "OfficeDelegationAdministrativeCapacityContinuityAndLawfulActionRequestOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "ReferencedByCurrentAuthoritiesFingerprintNotRecheckedInThisManifestPass",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": null
+    },
+    {
+      "record_id": "OWNER-MILITARY-OCCUPATION",
+      "filename": "Military_Campaign_Occupation_Garrison_Pacification_and_Territorial_Control_Framework_V1.md",
+      "owner_role": "OccupationGarrisonSecuritySuppressionAttemptMilitaryControlAndTerritorialControlOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "ReferencedByCurrentAuthoritiesFingerprintNotRecheckedInThisManifestPass",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": null
+    },
+    {
+      "record_id": "OWNER-HISTORICAL-MEMORY",
+      "filename": "Historical_Memory_Framework.md",
+      "owner_role": "EvidenceNarrativeReceptionCommemorationSuppressionRevivalGrievanceMemoryAndLegacyOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "CurrentHistoricalFamilyAuthorityFingerprintNotRecheckedInThisManifestPass",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": null
+    },
+    {
+      "record_id": "OWNER-HISTORICAL-MOMENTUM",
+      "filename": "Historical_Momentum_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "owner_role": "PressureOpportunityThreatConstraintEscalationDeclineAndDormancyInterpretationOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "CurrentHistoricalFamilyAuthorityFingerprintNotRecheckedInThisManifestPass",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": null
+    },
+    {
+      "record_id": "OWNER-INFORMATION",
+      "filename": "Information_Knowledge_Communication_Secrecy_and_Deception_Shared_Constitution_V1.md",
+      "owner_role": "ObservationClaimReportMessageWarningAssessmentBeliefTruthProvenanceRumorSecrecyAndDeceptionOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "CurrentInformationFamilyAuthorityFingerprintNotRecheckedInThisManifestPass",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": null
+    },
+    {
+      "record_id": "OWNER-ECONOMIC-MATERIAL",
+      "filename": "Economic_and_Material_Flow_Foundation_Framework_V1.md",
+      "owner_role": "EconomicEntityMaterialConservationTransactionReceiptAndRecoveryFoundationOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "ConcurrentEconomicFamilyAuthorityFingerprintNotRecheckedInThisManifestPass",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": null
+    },
+    {
+      "record_id": "OWNER-RELIGIOUS-CONSTITUTION",
+      "filename": "Religious_and_Ecclesiastical_Political_Systems_Shared_Constitution_V1.md",
+      "owner_role": "CrossTraditionReligiousPoliticalConstitutionAndCommunityBoundaryOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "CurrentEcclesiasticalFamilyAuthorityFingerprintNotRecheckedInThisManifestPass",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": null
+    },
+    {
+      "record_id": "OWNER-AGENT-V2",
+      "filename": "Agent_System_V2_Current_Authority_Additive_Modernization.md",
+      "owner_role": "AgentRoleEligibilityCapabilityMissionAttemptCoverAccessExposureCaptureAndRiskOwner",
+      "disposition": "RETAIN_CURRENT_SPECIALIST_OWNER",
+      "repository_status": "CurrentInformationFamilyAuthorityFingerprintNotRecheckedInThisManifestPass",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "evidence_reference": null
+    }
+  ],
+  "legacy_disposition": {
+    "loyalty_and_public_order_source": {
+      "expected_filenames": [
+        "Loyalty_and_Public_Order_System.md",
+        "Loyalty_and_Public_Order_System.pdf"
+      ],
+      "physical_source_verified": false,
+      "references_verified": true,
+      "current_control": false,
+      "disposition": "REFERENCED_NOT_LOCATED_PENDING_PHYSICAL_SOURCE_DISCOVERY",
+      "absence_claim_authorized": false,
+      "copy_first_successor_claim_authorized": false,
+      "supersession_authorized": false,
+      "deletion_authorized": false
+    },
+    "Court_Politics_System.md": "RETAIN_AS_LEGACY_IDEA_SOURCE_NOT_CURRENT_SOLE_WRITER",
+    "Event_System.md": "RETAIN_AS_LEGACY_EVENT_PRESENTATION_AND_TRIGGER_IDEA_SOURCE_NOT_CURRENT_SOLE_WRITER",
+    "Agent_System.md": "CONTROLLED_BY_AGENT_SYSTEM_V2_CURRENT_AUTHORITY",
+    "Religious_System.pdf": "CONTROLLED_BY_ECCLESIASTICAL_AND_RELIGIOUS_CURRENT_AUTHORITIES"
+  },
+  "developed_realm_coverage": {
+    "Britania": {
+      "England": "ExactOwnerRequiresCurrentPackageIndexReview",
+      "Ireland": "ExactOwnerRequiresCurrentPackageIndexReview",
+      "Scotland": "ExactOwnerRequiresCurrentPackageIndexReview",
+      "Wales": "ExistingAuthorityNeedsBoundedParentReferenceUpdate"
+    },
+    "WestFrancia": {
+      "France": "ExactOwnerRequiresCurrentPackageIndexReview",
+      "Normandy": "AlreadyCoveredByCurrentAuthorities",
+      "Flanders": "AlreadyCoveredByCurrentAuthorities",
+      "Aquitaine": "ExistingAuthorityNeedsBoundedParentReferenceUpdate",
+      "Brittany": "AlreadyCoveredByCurrentAuthorities",
+      "Burgundy": "ExistingAuthorityNeedsBoundedParentReferenceUpdate"
+    },
+    "Norse": {
+      "Norway": "ExactOwnerRequiresCurrentPackageIndexReview",
+      "Denmark": "ExistingAuthorityNeedsAdditiveModernizationWhenNextOpened",
+      "Sweden": "ExactOwnerRequiresCurrentPackageIndexReview"
+    },
+    "IberianChristianRealms": {
+      "Aragon": "ExistingAuthorityNeedsBoundedParentReferenceUpdate",
+      "LeonCastile": "ExactOwnerRequiresCurrentPackageIndexReview",
+      "Barcelona": "DevelopedRealmPackageIndexMappingRequired"
+    },
+    "Taifas": {
+      "Valencia": "AlreadyCoveredByCurrentAuthorities",
+      "Zaragoza": "AlreadyCoveredByCurrentAuthorities",
+      "Badajoz": "ExistingBlockersRetained",
+      "Seville": "AlreadyCoveredByCurrentAuthorities"
+    },
+    "NorthAfrica": {
+      "AlmoravidMovementState": "ExistingAuthorityNeedsBoundedParentReferenceUpdate"
+    }
+  },
+  "coverage_receipt": {
+    "theaters_reviewed": 6,
+    "developed_realms_listed": 21,
+    "barcelona_included": true,
+    "material_realm_gap_proven": false,
+    "mass_realm_rewrite_required": false,
+    "symmetry_only_files_required": false
+  },
+  "evidence_policy": {
+    "rules": [
+      "ExactLocatedRepositoryResultMaySupportLocatedStatus",
+      "CreationReceiptMaySupportBytesLinesAndSHA256OnlyWhenExplicitlyRecorded",
+      "SearchAbsenceIsNotEvidenceOfFileNonexistence",
+      "UnknownFingerprintFieldsRemainNull",
+      "NoMissingLegacySourceOrFingerprintIsFabricated",
+      "DuplicateSearchResultsDoNotAuthorizeDeletion",
+      "CurrentAuthorityIndexControlsDispositionWhereRepositorySearchIsIncomplete"
+    ]
+  },
+  "static_checks": {
+    "json_parse": "PASS",
+    "unique_record_ids": "PASS",
+    "all_current_records_have_disposition": "PASS",
+    "all_current_records_have_owner_role": "PASS",
+    "sha256_format": "PASS",
+    "unknown_fingerprints_are_null": "PASS",
+    "distributed_owner_map_present": "PASS",
+    "legacy_source_limitation_preserved": "PASS",
+    "barcelona_coverage_present": "PASS",
+    "universal_public_order_sole_writer_rejected": "PASS",
+    "overall_result": "PASS_WITH_REPOSITORY_EVIDENCE_LIMITATIONS"
+  },
+  "nonblocking_findings": [
+    {
+      "id": "PUBORD-MAN-NB-001",
+      "subject": "ExactOneDriveIndexingOfRecentArtifacts",
+      "finding": "The developed-Realm compatibility review and current-authority index have complete creation receipts but did not surface under exact filenames in the current search pass.",
+      "required_before": "IndependentClosureFinalEvidenceAndByteExactImplementationPromotion",
+      "static_design_impact": "None"
+    },
+    {
+      "id": "PUBORD-MAN-NB-002",
+      "subject": "IncompleteRepositoryFingerprints",
+      "finding": "Several distributed specialist owner files were located or referenced without fresh byte-level repository fingerprints in this manifest pass.",
+      "required_before": "ByteExactImplementationPromotionOrMigrationExecution",
+      "static_design_impact": "None"
+    },
+    {
+      "id": "PUBORD-MAN-NB-003",
+      "subject": "UnlocatedLegacyLoyaltyAndPublicOrderSource",
+      "finding": "Legacy systems reference a Loyalty and Public Order System, but the exact physical source remains unverified.",
+      "required_before": "AnyCopyFirstSuccessorSupersessionOrDeletionClaim",
+      "static_design_impact": "None"
+    }
+  ],
+  "validation_boundary": {
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false,
+    "rollback_executed": false,
+    "performance_validated": false,
+    "registry_validated": false,
+    "opening_state_validated": false,
+    "real_payload_validated": false,
+    "implementation_promotion_authorized": false
+  },
+  "nonmutation_receipt": {
+    "shared_authorities_modified": 0,
+    "realm_authorities_modified": 0,
+    "legacy_files_modified_or_deleted": 0,
+    "registry_entries_created_or_modified": 0,
+    "opening_state_records_created_or_modified": 0,
+    "public_response_records_created_or_modified": 0,
+    "revolt_or_rebellion_instances_created_or_modified": 0,
+    "save_schemas_created_or_modified": 0,
+    "migration_executed": false,
+    "gameplay_payloads_created_or_imported": 0,
+    "unreal_files_modified": 0,
+    "compile_executed": false,
+    "runtime_executed": false
+  },
+  "next_gate": {
+    "file": "Public_Order_Compliance_Resistance_and_Recovery_Authority_Family_Independent_Static_Closure_Review_V1.md",
+    "authorized": true,
+    "implementation_promotion_authorized": false
+  }
+}

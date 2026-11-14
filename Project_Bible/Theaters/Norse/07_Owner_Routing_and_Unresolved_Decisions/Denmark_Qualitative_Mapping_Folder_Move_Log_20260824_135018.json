@@ -1,0 +1,169 @@
+﻿{
+    "operation":  "Organize Denmark Qualitative Mapping owner-routing package",
+    "timestamp":  "20260824_135018",
+    "root":  "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Theaters\\Norse\\07_Owner_Routing_and_Unresolved_Decisions",
+    "source_content_modified":  false,
+    "authority_status_changed":  false,
+    "folders_created":  [
+                            "01_Decision_and_Controlling_Owner_Discovery",
+                            "02_Owner_Response_Ledger",
+                            "03_Receipt_Intake_Schema_and_Validation",
+                            "04_Submitted_Unvalidated_Receipt_Drafts",
+                            "05_Owner_Adoption_and_Receipt_Validation_Queue",
+                            "06_Schema_Hardening_and_Reconciliation",
+                            "99_Historical_Snapshots"
+                        ],
+    "results":  [
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Authority_and_Owner_Receipt_Decision_Packet_V1.md",
+                        "destination_folder":  "01_Decision_and_Controlling_Owner_Discovery",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "14539245488A1449CB6A7A325CC7C9C21FDF1EA8AA70ECEAAA7CD637454D7382"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_and_Disposition_Candidate_V1.md",
+                        "destination_folder":  "01_Decision_and_Controlling_Owner_Discovery",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "5A686E807A5193C74B485DAA62CED9C130D0571F59F6FA4819882C0F49E385CD"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_V1.json",
+                        "destination_folder":  "01_Decision_and_Controlling_Owner_Discovery",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "FFAA1C9C34A2F16F4F01BDC2BD1A1B680D735AB9CB01B969389B91FD0C194037"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Controlling_Owner_Discovery_V1_Manifest.json",
+                        "destination_folder":  "01_Decision_and_Controlling_Owner_Discovery",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "6568162F33CB4CE65A7E0AC4536402D31B51BBFBFB286B001D2297AF40D22540"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.md",
+                        "destination_folder":  "02_Owner_Response_Ledger",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "89E064BF56A31D749A8E325A79AE8DC7E259085E3B45761651713FD5E5E2375B"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.json",
+                        "destination_folder":  "02_Owner_Response_Ledger",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "25858F646CF13DC3194F8F0569FC56E5C89CFD16EEE6F41628E59C2828F59250"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json",
+                        "destination_folder":  "03_Receipt_Intake_Schema_and_Validation",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "79E793A4A0D7A0379B61A0740AD0A29E2400A4CA3C4C1925B611FB9B2206C13A"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Schema.json",
+                        "destination_folder":  "03_Receipt_Intake_Schema_and_Validation",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "A3AE59A1C82BB1C10B77C1D7571735F2FA79BD157C41214B1EDC75B1BBBC9184"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Validation_Profile.json",
+                        "destination_folder":  "03_Receipt_Intake_Schema_and_Validation",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "BDCFC059BBC3225501F8579D9E29B308D1EAEB5ADD72EAEA2346A3921860B0DB"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_Static_Check.json",
+                        "destination_folder":  "03_Receipt_Intake_Schema_and_Validation",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "D9E5B6E9EC977FDEEA8BAEF74B7598BA9F370482465DB917E51EDEFF26C53099"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Response_and_Intake_V1_Manifest.json",
+                        "destination_folder":  "03_Receipt_Intake_Schema_and_Validation",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "57E00C557BAB80A8733E6D0CB53835D130A57BAEA99B54B9E8ADB17FCC6CBB9B"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Bounded_Owner_Receipt_Draft_Packet_V1.md",
+                        "destination_folder":  "04_Submitted_Unvalidated_Receipt_Drafts",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "F7D7984AA39647A2C69BD19E515CD74755AAD4A85D52F70EE8F6EDC7353EA06B"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Bounded_Owner_Receipt_Draft_Packet_V1_Manifest.json",
+                        "destination_folder":  "04_Submitted_Unvalidated_Receipt_Drafts",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "B927E5D98EC57E72020BFA47650B9BF1553204BFC0655A004C82D95EF0404571"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json",
+                        "destination_folder":  "04_Submitted_Unvalidated_Receipt_Drafts",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "8CBD439B9994596B30BA97233A0CC7C00450D5AB833344E02666A4118F83775E"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_30_V1_SUBMITTED_UNVALIDATED.json",
+                        "destination_folder":  "04_Submitted_Unvalidated_Receipt_Drafts",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "CC47176646496BB67A64B5A0C30B792CC8047267286538E69BB6984409328059"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_40_V1_SUBMITTED_UNVALIDATED.json",
+                        "destination_folder":  "04_Submitted_Unvalidated_Receipt_Drafts",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "45B4904001E77CFB73A1C2EC69791E3E4E90EEFB54AD6214E920DB89AB3CF145"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_60_V1_SUBMITTED_UNVALIDATED.json",
+                        "destination_folder":  "04_Submitted_Unvalidated_Receipt_Drafts",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "D62CF57CAABFD5648D7F1A497E4330F96E9B12FA7D6783C8405FE27B9BD58E2A"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Adoption_Request_and_Validation_Queue_V1.md",
+                        "destination_folder":  "05_Owner_Adoption_and_Receipt_Validation_Queue",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "D65D182F2CAE4738AD1C6E29C3DE1F96E062BC24F1F7B4F26215CF8778076E9E"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Adoption_Response_V1_PENDING.json",
+                        "destination_folder":  "05_Owner_Adoption_and_Receipt_Validation_Queue",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "5E2C9B028680236A699D95F20ECC5204B00961B5C5668EA95402C323687EF835"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Receipt_Validation_Queue_V1.json",
+                        "destination_folder":  "05_Owner_Adoption_and_Receipt_Validation_Queue",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "1E85FA14A409764B5990AC14528C1056B67045AC04F6BB9451EF1BFBEF8EAABB"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Adoption_and_Validation_Queue_V1_Static_Check.json",
+                        "destination_folder":  "05_Owner_Adoption_and_Receipt_Validation_Queue",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "2CF42C637EE4D099D2D510AE1B98672519444AB272303B1CA62CDD6BEE9EB35F"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Owner_Adoption_and_Validation_Queue_V1_Manifest.json",
+                        "destination_folder":  "05_Owner_Adoption_and_Receipt_Validation_Queue",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "F5C9EDCE919033F12B52CC1DFFF5ACC190194C0CA02F5B2F96E454B3FFBA3919"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Schema_Hardening_and_Draft_Reconciliation_Change_Ledger_V1.md",
+                        "destination_folder":  "06_Schema_Hardening_and_Reconciliation",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "E6357A2A5AB9E5D8D4A60D0562146E06A31D6DE19243189B46350FFC25F8F0B7"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_Schema_Hardening_and_Draft_Reconciliation_V1_Manifest.json",
+                        "destination_folder":  "06_Schema_Hardening_and_Reconciliation",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "E7AEB5CC5E24F2717C9E156B2868E55F1A417585E96DFAE84273B837B1C71C58"
+                    },
+                    {
+                        "file":  "Denmark_Qualitative_Mapping_PreRepair_Snapshots_20260824.zip",
+                        "destination_folder":  "99_Historical_Snapshots",
+                        "status":  "MovedAndHashVerified",
+                        "sha256":  "2E0B704124BAA8857D4AD9969AD6493E39F2E075920B8AAB26F9723E96BB3049"
+                    }
+                ],
+    "index_file":  "C:\\Medieval War\\Medieval War (England)\\Project_Bible\\Theaters\\Norse\\07_Owner_Routing_and_Unresolved_Decisions\\README_Denmark_Qualitative_Mapping_Owner_Routing_V1.md"
+}

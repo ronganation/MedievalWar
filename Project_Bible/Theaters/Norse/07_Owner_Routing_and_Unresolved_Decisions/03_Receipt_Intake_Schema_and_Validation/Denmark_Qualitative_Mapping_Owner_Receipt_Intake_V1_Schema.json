@@ -1,0 +1,1442 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medieval-war:schema:denmark-qualitative-mapping-owner-receipt-intake-v1",
+  "title": "Denmark Qualitative Mapping Owner Receipt Intake V1, Hardened Pending and Draft Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_identity",
+    "authority_boundary",
+    "intake_state",
+    "receipt",
+    "authorization"
+  ],
+  "properties": {
+    "document_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "filename",
+        "version",
+        "date",
+        "status"
+      ],
+      "properties": {
+        "document_id": {
+          "const": "mw.denmark.qualitative_mapping.owner_receipt_intake.v1"
+        },
+        "filename": {
+          "enum": [
+            "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json",
+            "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json",
+            "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_30_V1_SUBMITTED_UNVALIDATED.json",
+            "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_40_V1_SUBMITTED_UNVALIDATED.json",
+            "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_60_V1_SUBMITTED_UNVALIDATED.json"
+          ]
+        },
+        "version": {
+          "enum": [
+            "1.0.0",
+            "1.0.1"
+          ]
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "enum": [
+            "PENDING_NO_OWNER_RECEIPT",
+            "RECEIPT_SUBMITTED_UNVALIDATED",
+            "RECEIPT_VALIDATED"
+          ]
+        }
+      }
+    },
+    "authority_boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "constitutional_authority",
+        "operational_authority",
+        "owner_response_ledger",
+        "decision_request_packet"
+      ],
+      "properties": {
+        "constitutional_authority": {
+          "const": "Project Bible 2.4"
+        },
+        "operational_authority": {
+          "const": "Design Expansion Checklist 3.7"
+        },
+        "owner_response_ledger": {
+          "const": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.json"
+        },
+        "decision_request_packet": {
+          "const": "Denmark_Qualitative_Mapping_Authority_and_Owner_Receipt_Decision_Packet_V1.md"
+        }
+      }
+    },
+    "intake_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "receipt_submitted",
+        "receipt_validated",
+        "ledger_update_authorized",
+        "implementation_authorized",
+        "runtime_mutation_authorized"
+      ],
+      "properties": {
+        "receipt_submitted": {
+          "type": "boolean"
+        },
+        "receipt_validated": {
+          "type": "boolean"
+        },
+        "ledger_update_authorized": {
+          "type": "boolean"
+        },
+        "implementation_authorized": {
+          "type": "boolean"
+        },
+        "runtime_mutation_authorized": {
+          "type": "boolean"
+        }
+      }
+    },
+    "receipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "request_id",
+        "owner_authority_ref",
+        "owner_receipt_id",
+        "disposition",
+        "authority_or_evidence_refs",
+        "approval_scope",
+        "approved_dimensions",
+        "approved_bands",
+        "vocabulary_contract_ref",
+        "mapping_contract_ref",
+        "receiving_owner_ref",
+        "runtime_binding_authority_ref",
+        "rollback_contract_ref",
+        "receipt_contract_ref",
+        "effective_version",
+        "reason_codes",
+        "blocking_validation_reasons",
+        "zero_absence_semantics",
+        "trace_hash_coverage",
+        "atomic_rollback_coverage",
+        "owner_adoption_evidence"
+      ],
+      "properties": {
+        "request_id": {
+          "type": "string"
+        },
+        "owner_authority_ref": {
+          "type": "string"
+        },
+        "owner_receipt_id": {
+          "type": "string"
+        },
+        "disposition": {
+          "type": "string"
+        },
+        "authority_or_evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "approval_scope": {
+          "type": "string"
+        },
+        "approved_dimensions": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "Trust",
+              "Loyalty",
+              "Respect",
+              "Fear",
+              "Obligation",
+              "Kinship",
+              "ClaimConflict",
+              "PoliticalAlignment"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "approved_bands": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "vocabulary_contract_ref": {
+          "type": "string"
+        },
+        "mapping_contract_ref": {
+          "type": "string"
+        },
+        "receiving_owner_ref": {
+          "type": "string"
+        },
+        "runtime_binding_authority_ref": {
+          "type": "string"
+        },
+        "rollback_contract_ref": {
+          "type": "string"
+        },
+        "receipt_contract_ref": {
+          "type": "string"
+        },
+        "effective_version": {
+          "type": "string"
+        },
+        "reason_codes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "blocking_validation_reasons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "zero_absence_semantics": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "absent_dimension_remains_absent",
+                "explicit_numeric_zero_distinct_from_absent",
+                "unknown_has_runtime_value",
+                "unknown_maps_to_zero",
+                "not_applicable_creates_dimension",
+                "unmapped_band_maps_to_zero",
+                "unsupported_band_disposition",
+                "invalid_band_disposition"
+              ],
+              "properties": {
+                "absent_dimension_remains_absent": {
+                  "const": true
+                },
+                "explicit_numeric_zero_distinct_from_absent": {
+                  "const": true
+                },
+                "unknown_has_runtime_value": {
+                  "const": false
+                },
+                "unknown_maps_to_zero": {
+                  "const": false
+                },
+                "not_applicable_creates_dimension": {
+                  "const": false
+                },
+                "unmapped_band_maps_to_zero": {
+                  "const": false
+                },
+                "unsupported_band_disposition": {
+                  "const": "REJECT_OR_QUARANTINE"
+                },
+                "invalid_band_disposition": {
+                  "const": "FATAL_OR_QUARANTINE"
+                }
+              }
+            }
+          ]
+        },
+        "trace_hash_coverage": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "request_id",
+                "source_authority_ref",
+                "mapping_authority_ref",
+                "owner_authority_ref",
+                "scenario_id",
+                "source_id",
+                "target_id",
+                "relationship_id_where_applicable",
+                "dimension",
+                "qualitative_band",
+                "mapped_native_value",
+                "mapping_version",
+                "before_state_hash",
+                "after_state_hash",
+                "import_disposition",
+                "gate_results",
+                "external_lock_result",
+                "result_code",
+                "runtime_mutation_count",
+                "stable_command_or_event_ids",
+                "owner_receipt_id"
+              ],
+              "properties": {
+                "request_id": {
+                  "type": "boolean"
+                },
+                "source_authority_ref": {
+                  "type": "boolean"
+                },
+                "mapping_authority_ref": {
+                  "type": "boolean"
+                },
+                "owner_authority_ref": {
+                  "type": "boolean"
+                },
+                "scenario_id": {
+                  "type": "boolean"
+                },
+                "source_id": {
+                  "type": "boolean"
+                },
+                "target_id": {
+                  "type": "boolean"
+                },
+                "relationship_id_where_applicable": {
+                  "type": "boolean"
+                },
+                "dimension": {
+                  "type": "boolean"
+                },
+                "qualitative_band": {
+                  "type": "boolean"
+                },
+                "mapped_native_value": {
+                  "type": "boolean"
+                },
+                "mapping_version": {
+                  "type": "boolean"
+                },
+                "before_state_hash": {
+                  "type": "boolean"
+                },
+                "after_state_hash": {
+                  "type": "boolean"
+                },
+                "import_disposition": {
+                  "type": "boolean"
+                },
+                "gate_results": {
+                  "type": "boolean"
+                },
+                "external_lock_result": {
+                  "type": "boolean"
+                },
+                "result_code": {
+                  "type": "boolean"
+                },
+                "runtime_mutation_count": {
+                  "type": "boolean"
+                },
+                "stable_command_or_event_ids": {
+                  "type": "boolean"
+                },
+                "owner_receipt_id": {
+                  "type": "boolean"
+                }
+              }
+            }
+          ]
+        },
+        "atomic_rollback_coverage": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "before_state_fingerprint",
+                "all_or_nothing_application",
+                "exact_reverse_operation",
+                "reverse_dependency_order",
+                "no_partial_relationship_state",
+                "rollback_result_hash",
+                "rollback_receipt",
+                "abort_conditions",
+                "protected_id_behavior",
+                "owner_collision_behavior"
+              ],
+              "properties": {
+                "before_state_fingerprint": {
+                  "type": "boolean"
+                },
+                "all_or_nothing_application": {
+                  "type": "boolean"
+                },
+                "exact_reverse_operation": {
+                  "type": "boolean"
+                },
+                "reverse_dependency_order": {
+                  "type": "boolean"
+                },
+                "no_partial_relationship_state": {
+                  "type": "boolean"
+                },
+                "rollback_result_hash": {
+                  "type": "boolean"
+                },
+                "rollback_receipt": {
+                  "type": "boolean"
+                },
+                "abort_conditions": {
+                  "type": "boolean"
+                },
+                "protected_id_behavior": {
+                  "type": "boolean"
+                },
+                "owner_collision_behavior": {
+                  "type": "boolean"
+                }
+              }
+            }
+          ]
+        },
+        "owner_adoption_evidence": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "evidence_type",
+                "evidence_ref"
+              ],
+              "properties": {
+                "evidence_type": {
+                  "enum": [
+                    "OWNER_SIGNATURE",
+                    "OWNER_ADOPTION",
+                    "EQUIVALENT_CONTROLLING_RECEIPT"
+                  ]
+                },
+                "evidence_ref": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "authorization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "vocabulary_adoption_authorized",
+        "numeric_mapping_adoption_authorized",
+        "relationship_owner_approval_authorized",
+        "owner_submission_authorized",
+        "runtime_mutation_authorized",
+        "opening_state_execution_authorized",
+        "save_persistence_authorized",
+        "migration_execution_authorized",
+        "replay_validation_authorized"
+      ],
+      "properties": {
+        "vocabulary_adoption_authorized": {
+          "const": false
+        },
+        "numeric_mapping_adoption_authorized": {
+          "const": false
+        },
+        "relationship_owner_approval_authorized": {
+          "const": false
+        },
+        "owner_submission_authorized": {
+          "const": false
+        },
+        "runtime_mutation_authorized": {
+          "const": false
+        },
+        "opening_state_execution_authorized": {
+          "const": false
+        },
+        "save_persistence_authorized": {
+          "const": false
+        },
+        "migration_execution_authorized": {
+          "const": false
+        },
+        "replay_validation_authorized": {
+          "const": false
+        }
+      }
+    },
+    "draft_boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "is_controlling_owner_receipt",
+        "is_owner_signed",
+        "is_validated",
+        "ledger_update_authorized",
+        "implementation_authorized",
+        "runtime_mutation_authorized",
+        "cross_request_approval_inference"
+      ],
+      "properties": {
+        "is_controlling_owner_receipt": {
+          "type": "boolean"
+        },
+        "is_owner_signed": {
+          "type": "boolean"
+        },
+        "is_validated": {
+          "type": "boolean"
+        },
+        "ledger_update_authorized": {
+          "type": "boolean"
+        },
+        "implementation_authorized": {
+          "type": "boolean"
+        },
+        "runtime_mutation_authorized": {
+          "type": "boolean"
+        },
+        "cross_request_approval_inference": {
+          "type": "boolean"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "filename": {
+                "const": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_SUBMITTED_UNVALIDATED"
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": "request.denmark.qualitative_mapping.vocabulary_owner.v1"
+              }
+            }
+          }
+        },
+        "required": [
+          "draft_boundary"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "filename": {
+                "const": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_30_V1_SUBMITTED_UNVALIDATED.json"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_SUBMITTED_UNVALIDATED"
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": "request.denmark.qualitative_mapping.receiving_owner.v1"
+              }
+            }
+          }
+        },
+        "required": [
+          "draft_boundary"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "filename": {
+                "const": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_40_V1_SUBMITTED_UNVALIDATED.json"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_SUBMITTED_UNVALIDATED"
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": "request.denmark.qualitative_mapping.zero_absence_rule.v1"
+              }
+            }
+          }
+        },
+        "required": [
+          "draft_boundary"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "filename": {
+                "const": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_60_V1_SUBMITTED_UNVALIDATED.json"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_SUBMITTED_UNVALIDATED"
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": "request.denmark.qualitative_mapping.receipt_trace_hash.v1"
+              }
+            }
+          }
+        },
+        "required": [
+          "draft_boundary"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "PENDING_NO_OWNER_RECEIPT"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "filename": {
+                "const": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json"
+              }
+            }
+          },
+          "intake_state": {
+            "properties": {
+              "receipt_submitted": {
+                "const": false
+              },
+              "receipt_validated": {
+                "const": false
+              },
+              "ledger_update_authorized": {
+                "const": false
+              },
+              "implementation_authorized": {
+                "const": false
+              },
+              "runtime_mutation_authorized": {
+                "const": false
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": ""
+              },
+              "owner_authority_ref": {
+                "const": ""
+              },
+              "owner_receipt_id": {
+                "const": ""
+              },
+              "disposition": {
+                "const": ""
+              },
+              "authority_or_evidence_refs": {
+                "maxItems": 0
+              },
+              "approval_scope": {
+                "const": ""
+              },
+              "approved_dimensions": {
+                "maxItems": 0
+              },
+              "approved_bands": {
+                "maxItems": 0
+              },
+              "vocabulary_contract_ref": {
+                "const": ""
+              },
+              "mapping_contract_ref": {
+                "const": ""
+              },
+              "receiving_owner_ref": {
+                "const": ""
+              },
+              "runtime_binding_authority_ref": {
+                "const": ""
+              },
+              "rollback_contract_ref": {
+                "const": ""
+              },
+              "receipt_contract_ref": {
+                "const": ""
+              },
+              "effective_version": {
+                "const": ""
+              },
+              "reason_codes": {
+                "maxItems": 0
+              },
+              "blocking_validation_reasons": {
+                "maxItems": 0
+              },
+              "zero_absence_semantics": {
+                "type": "null"
+              },
+              "trace_hash_coverage": {
+                "type": "null"
+              },
+              "atomic_rollback_coverage": {
+                "type": "null"
+              },
+              "owner_adoption_evidence": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        "not": {
+          "required": [
+            "draft_boundary"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_SUBMITTED_UNVALIDATED"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "draft_boundary"
+        ],
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_submitted": {
+                "const": true
+              },
+              "receipt_validated": {
+                "const": false
+              },
+              "ledger_update_authorized": {
+                "const": false
+              },
+              "implementation_authorized": {
+                "const": false
+              },
+              "runtime_mutation_authorized": {
+                "const": false
+              }
+            }
+          },
+          "draft_boundary": {
+            "properties": {
+              "is_controlling_owner_receipt": {
+                "const": false
+              },
+              "is_owner_signed": {
+                "const": false
+              },
+              "is_validated": {
+                "const": false
+              },
+              "ledger_update_authorized": {
+                "const": false
+              },
+              "implementation_authorized": {
+                "const": false
+              },
+              "runtime_mutation_authorized": {
+                "const": false
+              },
+              "cross_request_approval_inference": {
+                "const": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_VALIDATED"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_submitted": {
+                "const": true
+              },
+              "receipt_validated": {
+                "const": true
+              },
+              "ledger_update_authorized": {
+                "const": true
+              },
+              "implementation_authorized": {
+                "const": false
+              },
+              "runtime_mutation_authorized": {
+                "const": false
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "owner_adoption_evidence": {
+                "allOf": [
+                  {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "evidence_type",
+                      "evidence_ref"
+                    ],
+                    "properties": {
+                      "evidence_type": {
+                        "enum": [
+                          "OWNER_SIGNATURE",
+                          "OWNER_ADOPTION",
+                          "EQUIVALENT_CONTROLLING_RECEIPT"
+                        ]
+                      },
+                      "evidence_ref": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "not": {
+          "required": [
+            "draft_boundary"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_SUBMITTED_UNVALIDATED"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "enum": [
+                  "request.denmark.qualitative_mapping.vocabulary_owner.v1",
+                  "request.denmark.qualitative_mapping.receiving_owner.v1",
+                  "request.denmark.qualitative_mapping.zero_absence_rule.v1",
+                  "request.denmark.qualitative_mapping.receipt_trace_hash.v1"
+                ]
+              },
+              "owner_authority_ref": {
+                "const": "Framework.CharacterNetwork"
+              },
+              "owner_receipt_id": {
+                "minLength": 1
+              },
+              "disposition": {
+                "enum": [
+                  "APPROVE",
+                  "REJECT",
+                  "QUARANTINE"
+                ]
+              },
+              "authority_or_evidence_refs": {
+                "minItems": 1
+              },
+              "approval_scope": {
+                "minLength": 1
+              },
+              "effective_version": {
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_VALIDATED"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "enum": [
+                  "request.denmark.qualitative_mapping.vocabulary_owner.v1",
+                  "request.denmark.qualitative_mapping.receiving_owner.v1",
+                  "request.denmark.qualitative_mapping.zero_absence_rule.v1",
+                  "request.denmark.qualitative_mapping.receipt_trace_hash.v1"
+                ]
+              },
+              "owner_authority_ref": {
+                "const": "Framework.CharacterNetwork"
+              },
+              "owner_receipt_id": {
+                "minLength": 1
+              },
+              "disposition": {
+                "enum": [
+                  "APPROVE",
+                  "REJECT",
+                  "QUARANTINE"
+                ]
+              },
+              "authority_or_evidence_refs": {
+                "minItems": 1
+              },
+              "approval_scope": {
+                "minLength": 1
+              },
+              "effective_version": {
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "disposition": {
+                "enum": [
+                  "REJECT",
+                  "QUARANTINE"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "reason_codes": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_VALIDATED"
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": "request.denmark.qualitative_mapping.vocabulary_owner.v1"
+              },
+              "disposition": {
+                "const": "APPROVE"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "approved_dimensions": {
+                "minItems": 1
+              },
+              "approval_scope": {
+                "pattern": "^(?!.*(?:exact numeric|hidden Denmark-specific|runtime mutation|owner submission)).+$"
+              }
+            },
+            "anyOf": [
+              {
+                "properties": {
+                  "approved_bands": {
+                    "minItems": 1
+                  }
+                }
+              },
+              {
+                "properties": {
+                  "vocabulary_contract_ref": {
+                    "minLength": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_VALIDATED"
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": "request.denmark.qualitative_mapping.receiving_owner.v1"
+              },
+              "disposition": {
+                "const": "APPROVE"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "receiving_owner_ref": {
+                "const": "Owner.Campaign.Relationships"
+              },
+              "runtime_binding_authority_ref": {
+                "const": "Framework.CharacterNetwork"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_VALIDATED"
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": "request.denmark.qualitative_mapping.zero_absence_rule.v1"
+              },
+              "disposition": {
+                "const": "APPROVE"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "zero_absence_semantics": {
+                "allOf": [
+                  {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "absent_dimension_remains_absent",
+                      "explicit_numeric_zero_distinct_from_absent",
+                      "unknown_has_runtime_value",
+                      "unknown_maps_to_zero",
+                      "not_applicable_creates_dimension",
+                      "unmapped_band_maps_to_zero",
+                      "unsupported_band_disposition",
+                      "invalid_band_disposition"
+                    ],
+                    "properties": {
+                      "absent_dimension_remains_absent": {
+                        "const": true
+                      },
+                      "explicit_numeric_zero_distinct_from_absent": {
+                        "const": true
+                      },
+                      "unknown_has_runtime_value": {
+                        "const": false
+                      },
+                      "unknown_maps_to_zero": {
+                        "const": false
+                      },
+                      "not_applicable_creates_dimension": {
+                        "const": false
+                      },
+                      "unmapped_band_maps_to_zero": {
+                        "const": false
+                      },
+                      "unsupported_band_disposition": {
+                        "const": "REJECT_OR_QUARANTINE"
+                      },
+                      "invalid_band_disposition": {
+                        "const": "FATAL_OR_QUARANTINE"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": "request.denmark.qualitative_mapping.atomic_rollback.v1"
+              },
+              "disposition": {
+                "const": "APPROVE"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "atomic_rollback_coverage": {
+                "allOf": [
+                  {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "before_state_fingerprint",
+                      "all_or_nothing_application",
+                      "exact_reverse_operation",
+                      "reverse_dependency_order",
+                      "no_partial_relationship_state",
+                      "rollback_result_hash",
+                      "rollback_receipt",
+                      "abort_conditions",
+                      "protected_id_behavior",
+                      "owner_collision_behavior"
+                    ],
+                    "properties": {
+                      "before_state_fingerprint": {
+                        "const": true
+                      },
+                      "all_or_nothing_application": {
+                        "const": true
+                      },
+                      "exact_reverse_operation": {
+                        "const": true
+                      },
+                      "reverse_dependency_order": {
+                        "const": true
+                      },
+                      "no_partial_relationship_state": {
+                        "const": true
+                      },
+                      "rollback_result_hash": {
+                        "const": true
+                      },
+                      "rollback_receipt": {
+                        "const": true
+                      },
+                      "abort_conditions": {
+                        "const": true
+                      },
+                      "protected_id_behavior": {
+                        "const": true
+                      },
+                      "owner_collision_behavior": {
+                        "const": true
+                      }
+                    }
+                  }
+                ]
+              },
+              "rollback_contract_ref": {
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_VALIDATED"
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "const": "request.denmark.qualitative_mapping.receipt_trace_hash.v1"
+              },
+              "disposition": {
+                "const": "APPROVE"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "trace_hash_coverage": {
+                "allOf": [
+                  {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "request_id",
+                      "source_authority_ref",
+                      "mapping_authority_ref",
+                      "owner_authority_ref",
+                      "scenario_id",
+                      "source_id",
+                      "target_id",
+                      "relationship_id_where_applicable",
+                      "dimension",
+                      "qualitative_band",
+                      "mapped_native_value",
+                      "mapping_version",
+                      "before_state_hash",
+                      "after_state_hash",
+                      "import_disposition",
+                      "gate_results",
+                      "external_lock_result",
+                      "result_code",
+                      "runtime_mutation_count",
+                      "stable_command_or_event_ids",
+                      "owner_receipt_id"
+                    ],
+                    "properties": {
+                      "request_id": {
+                        "const": true
+                      },
+                      "source_authority_ref": {
+                        "const": true
+                      },
+                      "mapping_authority_ref": {
+                        "const": true
+                      },
+                      "owner_authority_ref": {
+                        "const": true
+                      },
+                      "scenario_id": {
+                        "const": true
+                      },
+                      "source_id": {
+                        "const": true
+                      },
+                      "target_id": {
+                        "const": true
+                      },
+                      "relationship_id_where_applicable": {
+                        "const": true
+                      },
+                      "dimension": {
+                        "const": true
+                      },
+                      "qualitative_band": {
+                        "const": true
+                      },
+                      "mapped_native_value": {
+                        "const": true
+                      },
+                      "mapping_version": {
+                        "const": true
+                      },
+                      "before_state_hash": {
+                        "const": true
+                      },
+                      "after_state_hash": {
+                        "const": true
+                      },
+                      "import_disposition": {
+                        "const": true
+                      },
+                      "gate_results": {
+                        "const": true
+                      },
+                      "external_lock_result": {
+                        "const": true
+                      },
+                      "result_code": {
+                        "const": true
+                      },
+                      "runtime_mutation_count": {
+                        "const": true
+                      },
+                      "stable_command_or_event_ids": {
+                        "const": true
+                      },
+                      "owner_receipt_id": {
+                        "const": true
+                      }
+                    }
+                  }
+                ]
+              },
+              "receipt_contract_ref": {
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

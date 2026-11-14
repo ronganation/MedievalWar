@@ -1,0 +1,561 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "DenmarkNetworkIntegrationPreflight",
+    "name": "Denmark Network Integration Contract V1 Preflight",
+    "version": "1.1",
+    "status": "ExactSourceBound",
+    "authority_class": "Strategic Integration Authority Preflight",
+    "contract": "Denmark_Network_Integration_Contract_V1.md",
+    "owner": "Character Network",
+    "realm_scope": "Denmark",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Strategic/Denmark",
+    "contract_file": "Denmark_Network_Integration_Contract_V1.md",
+    "preflight_file": "Denmark_Network_Integration_Contract_V1.preflight.json"
+  },
+  "inputs": {
+    "integration_contract": {
+      "file": "Denmark_Network_Integration_Contract_V1.md",
+      "sha256": "ff1055f86c01725ccdc21cbb7c0a4ce788b81231ebc6bc62fd485e9bd036dddc",
+      "loaded": true
+    },
+    "transport_authority": {
+      "file": "Denmark Character Network Importer Manifest.json",
+      "manifest_id": "mw.import-manifest.denmark.character-network.v1",
+      "version": "1.1.0",
+      "declared_rebuilt_sha256": "754565472fd1ffb7b3a1db3f7669cab34c261beec84a14ed7b21eab1bf6c5fa6",
+      "loaded": true
+    },
+    "design_authority": {
+      "file": "Denmark Character Network Decision Pass.md",
+      "version": "1.1.0",
+      "loaded": true
+    },
+    "evidence_authority": {
+      "file": "Denmark Character Network Evidence Review.md",
+      "version": "1.1.0",
+      "loaded": true
+    },
+    "prior_preflight": {
+      "file": "Denmark_Character_Network_Dry_Preflight_Report.md",
+      "version": "1.1.1",
+      "result": "PASS_WITH_REVIEW_DEPENDENCIES",
+      "loaded": true
+    },
+    "shared_adapter": {
+      "file": "Denmark Shared Character Network Adapter.json",
+      "version": "1.0.0",
+      "loaded": true,
+      "runtime_creation_permitted": false,
+      "runtime_mutation_permitted": false
+    },
+    "external_authorities": [
+      "Adalbert Hamburg-Bremen External Authority V1.md",
+      "Gottschalk Obotrite External Authority.md",
+      "Canonical external authority files.md"
+    ],
+    "scenario_id": "mw.scenario.grand_campaign.1062",
+    "effective_date": "1062-01-01",
+    "turn_length_months": 7,
+    "realm_id": "realm.denmark.kingdom",
+    "package_id": "package.denmark.v1"
+  },
+  "terminology_correction": {
+    "previous_phrase": "four unresolved external locks",
+    "correct_model": {
+      "review_dependencies_total": 4,
+      "external_identity_locks_total": 3,
+      "external_identity_locks_resolved": 1,
+      "external_identity_locks_unresolved": 2
+    },
+    "explanation": "The passed source preflight has four review dependencies. Only three are external identity locks; Harald Hardrada is resolved canonically, leaving Adalbert and Gottschalk unresolved."
+  },
+  "run": {
+    "mode": "DryIntegration",
+    "execution_status": "ExactDocumentAndMachineReadableBindingCompleted",
+    "verdict": "PassWithReviewDependencies",
+    "verdict_scope": "StaticAndDryPreflightSourceIntegration",
+    "authoritative_mutation_permitted": false,
+    "proposed_mutation_count": 0,
+    "actual_mutation_count": 0,
+    "runtime_state_created": false,
+    "staging_write_count": 0,
+    "save_write_count": 0,
+    "commit_attempted": false,
+    "commit_succeeded": false
+  },
+  "count_contract": {
+    "total_directions": 20,
+    "denmark_owned": 12,
+    "conditional_or_external": 8,
+    "active": 4,
+    "basis_only": 2,
+    "denmark_owned_conditional": 6,
+    "conditional_external": 4,
+    "external_owner_reverse": 4,
+    "unique_external_identities": 3,
+    "review_dependencies": 4,
+    "resolved_external_identity_locks": 1,
+    "unresolved_external_identity_locks": 2
+  },
+  "direction_inventory": {
+    "binding_status": "ExactFromManifestV1.1.0",
+    "expected_count": 20,
+    "bound_exact_count": 20,
+    "records": [
+      {
+        "ordinal": 1,
+        "direction_id": "network.denmark.sweyn_to_harald_sweynson",
+        "category": "denmark_owned_active",
+        "source_person_id": "person.denmark.sweyn_estridsen",
+        "target_person_id": "person.denmark.harald_sweynson",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 2,
+        "direction_id": "network.denmark.harald_sweynson_to_sweyn",
+        "category": "denmark_owned_active",
+        "source_person_id": "person.denmark.harald_sweynson",
+        "target_person_id": "person.denmark.sweyn_estridsen",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 3,
+        "direction_id": "network.denmark.sweyn_to_canute_sweynson",
+        "category": "denmark_owned_active",
+        "source_person_id": "person.denmark.sweyn_estridsen",
+        "target_person_id": "person.denmark.canute_sweynson",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 4,
+        "direction_id": "network.denmark.canute_sweynson_to_sweyn",
+        "category": "denmark_owned_active",
+        "source_person_id": "person.denmark.canute_sweynson",
+        "target_person_id": "person.denmark.sweyn_estridsen",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 5,
+        "direction_id": "network.denmark.harald_to_canute_sweynson",
+        "category": "denmark_owned_basis_only",
+        "source_person_id": "person.denmark.harald_sweynson",
+        "target_person_id": "person.denmark.canute_sweynson",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 6,
+        "direction_id": "network.denmark.canute_to_harald_sweynson",
+        "category": "denmark_owned_basis_only",
+        "source_person_id": "person.denmark.canute_sweynson",
+        "target_person_id": "person.denmark.harald_sweynson",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 7,
+        "direction_id": "network.denmark.sweyn_to_eric_sweynson",
+        "category": "denmark_owned_conditional",
+        "source_person_id": "person.denmark.sweyn_estridsen",
+        "target_person_id": "person.denmark.eric_sweynson",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active",
+          "underage_roles_valid",
+          "household_state_known"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 8,
+        "direction_id": "network.denmark.eric_to_sweyn",
+        "category": "denmark_owned_conditional",
+        "source_person_id": "person.denmark.eric_sweynson",
+        "target_person_id": "person.denmark.sweyn_estridsen",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active",
+          "underage_roles_valid",
+          "household_state_known"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 9,
+        "direction_id": "network.denmark.sweyn_to_sigrid_sweynsdaughter",
+        "category": "denmark_owned_conditional",
+        "source_person_id": "person.denmark.sweyn_estridsen",
+        "target_person_id": "person.denmark.sigrid_sweynsdaughter",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active",
+          "target_location_known"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 10,
+        "direction_id": "network.denmark.sigrid_to_sweyn",
+        "category": "denmark_owned_conditional",
+        "source_person_id": "person.denmark.sigrid_sweynsdaughter",
+        "target_person_id": "person.denmark.sweyn_estridsen",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active",
+          "source_location_known"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 11,
+        "direction_id": "network.denmark.sweyn_to_william_roskilde",
+        "category": "denmark_owned_conditional",
+        "source_person_id": "person.denmark.sweyn_estridsen",
+        "target_person_id": "person.denmark.william_roskilde",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active",
+          "target_holds_office.denmark.bishop_roskilde"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 12,
+        "direction_id": "network.denmark.william_roskilde_to_sweyn",
+        "category": "denmark_owned_conditional",
+        "source_person_id": "person.denmark.william_roskilde",
+        "target_person_id": "person.denmark.sweyn_estridsen",
+        "external_lock_id": null,
+        "owner": "Denmark.CharacterNetwork",
+        "activation_requirements": [
+          "source_active",
+          "target_active",
+          "source_holds_office.denmark.bishop_roskilde"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 13,
+        "direction_id": "network.denmark.sigrid_to_external_gottschalk",
+        "category": "conditional_external",
+        "source_person_id": "person.denmark.sigrid_sweynsdaughter",
+        "target_person_id": null,
+        "external_lock_id": "review.denmark.external.obotrite.gottschalk",
+        "owner": "Migration.Obotrite.IDRegistry",
+        "activation_requirements": [
+          "external_lock_resolved",
+          "marriage_active",
+          "source_active",
+          "household_location_known"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 14,
+        "direction_id": "external.gottschalk_to_sigrid",
+        "category": "external_owner_reverse",
+        "source_person_id": null,
+        "target_person_id": "person.denmark.sigrid_sweynsdaughter",
+        "external_lock_id": "review.denmark.external.obotrite.gottschalk",
+        "owner": "Migration.Obotrite.IDRegistry",
+        "activation_requirements": [],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 15,
+        "direction_id": "network.denmark.william_to_external_adalbert",
+        "category": "conditional_external",
+        "source_person_id": "person.denmark.william_roskilde",
+        "target_person_id": null,
+        "external_lock_id": "review.denmark.external.hamburg_bremen.adalbert",
+        "owner": "Migration.HRE.GlobalIDRegistry",
+        "activation_requirements": [
+          "external_lock_resolved",
+          "source_holds_office.denmark.bishop_roskilde"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 16,
+        "direction_id": "external.adalbert_to_william",
+        "category": "external_owner_reverse",
+        "source_person_id": null,
+        "target_person_id": "person.denmark.william_roskilde",
+        "external_lock_id": "review.denmark.external.hamburg_bremen.adalbert",
+        "owner": "Migration.HRE.GlobalIDRegistry",
+        "activation_requirements": [],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 17,
+        "direction_id": "network.denmark.sweyn_to_external_adalbert",
+        "category": "conditional_external",
+        "source_person_id": "person.denmark.sweyn_estridsen",
+        "target_person_id": null,
+        "external_lock_id": "review.denmark.external.hamburg_bremen.adalbert",
+        "owner": "Migration.HRE.GlobalIDRegistry",
+        "activation_requirements": [
+          "external_lock_resolved",
+          "source_active"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 18,
+        "direction_id": "external.adalbert_to_sweyn",
+        "category": "external_owner_reverse",
+        "source_person_id": null,
+        "target_person_id": "person.denmark.sweyn_estridsen",
+        "external_lock_id": "review.denmark.external.hamburg_bremen.adalbert",
+        "owner": "Migration.HRE.GlobalIDRegistry",
+        "activation_requirements": [],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 19,
+        "direction_id": "network.denmark.sweyn_to_external_harald_hardrada",
+        "category": "conditional_external",
+        "source_person_id": "person.denmark.sweyn_estridsen",
+        "target_person_id": "Character.Norway.HaraldHardrada",
+        "external_lock_id": "review.denmark.external.norway.harald_hardrada",
+        "owner": "Migration.Norway.IDRegistry",
+        "activation_requirements": [
+          "external_lock_resolved",
+          "source_active",
+          "target_active",
+          "claim_war_context_active"
+        ],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      },
+      {
+        "ordinal": 20,
+        "direction_id": "external.harald_hardrada_to_sweyn",
+        "category": "external_owner_reverse",
+        "source_person_id": "Character.Norway.HaraldHardrada",
+        "target_person_id": "person.denmark.sweyn_estridsen",
+        "external_lock_id": "review.denmark.external.norway.harald_hardrada",
+        "owner": "Migration.Norway.IDRegistry",
+        "activation_requirements": [],
+        "commit_permitted": false,
+        "binding_status": "ExactFromManifestV1.1.0"
+      }
+    ],
+    "auto_generate_reverse_edges": false,
+    "unknown_band_is_zero": false
+  },
+  "external_identity_locks": {
+    "binding_status": "ExactFromManifestV1.1.0",
+    "total_count": 3,
+    "resolved_count": 1,
+    "unresolved_count": 2,
+    "records": [
+      {
+        "lock_id": "review.denmark.external.norway.harald_hardrada",
+        "canonical_person_id": "Character.Norway.HaraldHardrada",
+        "owner_registry_id": "Migration.Norway.IDRegistry",
+        "resolution_state": "ResolvedCanonical",
+        "affected_direction_ids": [
+          "network.denmark.sweyn_to_external_harald_hardrada"
+        ],
+        "unresolved": false
+      },
+      {
+        "lock_id": "review.denmark.external.hamburg_bremen.adalbert",
+        "canonical_person_id": null,
+        "proposed_person_id": "Character.HRE.AdalbertOfHamburgBremen",
+        "owner_registry_id": "Migration.HRE.GlobalIDRegistry",
+        "resolution_state": "ReviewExternalRegistry",
+        "affected_direction_ids": [
+          "network.denmark.sweyn_to_external_adalbert",
+          "network.denmark.william_to_external_adalbert"
+        ],
+        "unresolved": true
+      },
+      {
+        "lock_id": "review.denmark.external.obotrite.gottschalk",
+        "canonical_person_id": null,
+        "proposed_person_id": "Character.Obotrite.Gottschalk",
+        "owner_registry_id": "Migration.Obotrite.IDRegistry",
+        "resolution_state": "ReviewExternalRegistry",
+        "affected_direction_ids": [
+          "network.denmark.sigrid_to_external_gottschalk"
+        ],
+        "unresolved": true
+      }
+    ]
+  },
+  "review_dependencies": [
+    {
+      "code": "MachineReadableCanonicalNamespaceNormalization",
+      "disposition": "ReviewSafe",
+      "blocks": "shared_importer_compatibility"
+    },
+    {
+      "code": "AdalbertExternalRegistryReconciliation",
+      "disposition": "ReviewSafe",
+      "blocks": "adalbert_direction_activation"
+    },
+    {
+      "code": "GottschalkExternalRegistryReconciliation",
+      "disposition": "ReviewSafe",
+      "blocks": "gottschalk_direction_activation"
+    },
+    {
+      "code": "QualitativeRuntimeMappingUnavailable",
+      "disposition": "ReviewSafe",
+      "blocks": "numeric_runtime_mapping"
+    }
+  ],
+  "validation": {
+    "contract_loaded": true,
+    "exact_source_bound": true,
+    "prior_preflight_reconciled": true,
+    "manifest_count_contract_passed": true,
+    "direction_ids_unique": true,
+    "self_edges_detected": 0,
+    "reverse_auto_generation_disabled": true,
+    "external_reverse_owned_by_denmark": 0,
+    "unknown_preserved": true,
+    "underage_gate_static_checked": true,
+    "roskilde_office_gate_static_checked": true,
+    "sigrid_household_route_marriage_gates_static_checked": true,
+    "harald_claim_war_gate_static_checked": true,
+    "fatal_count": 0,
+    "warning_count": 0,
+    "review_count": 4,
+    "dry_preflight_validated": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "determinism_replay_validated": false,
+    "performance_validated": false
+  },
+  "status_boundaries": {
+    "static_checked": true,
+    "dry_preflight_validated": true,
+    "machine_readable_parsed": true,
+    "compile_validation": "not_run",
+    "runtime_validation": "not_run",
+    "save_load_validation": "not_run",
+    "determinism_replay": "not_run",
+    "project_native_schema_validation": "not_run"
+  },
+  "canonical_identity": {
+    "source_namespace": "person.*",
+    "shared_namespace": "Character.*",
+    "normalization_required": true,
+    "normalization_rule": "one_step_typed_direct_mapping",
+    "guess_by_display_name": false,
+    "alias_chains_permitted": false,
+    "deprecated_ids_permitted_in_new_content_or_saves": false,
+    "harald_hardrada": "Character.Norway.HaraldHardrada",
+    "adalbert_status": "ProjectRegistryProposalNotApproved",
+    "gottschalk_status": "ProjectRegistryProposalNotApproved"
+  },
+  "mutation_audit": {
+    "unreal_project_opened": false,
+    "unreal_importer_executed": false,
+    "runtime_subsystem_invoked": false,
+    "directed_runtime_records_created": 0,
+    "external_placeholders_created": 0,
+    "reverse_records_generated": 0,
+    "saves_written_or_modified": 0,
+    "opening_state_executed": false,
+    "runtime_hashes_compared": false
+  },
+  "determinism": {
+    "stable_order": [
+      "EffectiveFrom",
+      "RelationshipIdOrDirectionId",
+      "SourcePersonId",
+      "TargetPersonId",
+      "TargetExternalLockId",
+      "DimensionId"
+    ],
+    "contract_level_ordering_passed": true,
+    "replay_test_status": "NotRun",
+    "normalized_output_hash": null
+  },
+  "acceptance": {
+    "current_gate": "DryPreflightValidatedWithReviewDependencies",
+    "gate_results": {
+      "ExactSourceBound": "Pass",
+      "PriorPreflightReconciled": "Pass",
+      "CountContract": "Pass",
+      "ExternalLockReconciliation": "PassWithTwoUnresolvedIdentityLocks",
+      "CompileValidated": "NotClaimed",
+      "RuntimeValidated": "NotClaimed",
+      "SaveValidated": "NotClaimed",
+      "DeterminismReplayValidated": "NotClaimed"
+    }
+  },
+  "smallest_useful_next_action": "Proceed to Network reconciliation: normalize Denmark person.* IDs through direct typed mappings, approve or retain review status for Adalbert and Gottschalk registries, and preserve zero mutation until the shared importer implementation gate."
+}

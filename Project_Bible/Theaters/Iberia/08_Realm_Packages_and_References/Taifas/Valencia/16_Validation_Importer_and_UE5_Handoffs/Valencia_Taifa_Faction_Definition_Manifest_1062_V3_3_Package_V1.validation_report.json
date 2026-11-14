@@ -1,0 +1,125 @@
+{
+  "report_id": "validation_report.definition_manifest.valencia.1062.v3_3.package_v1",
+  "version": "1.0.0",
+  "manifest_id": "definition_manifest.valencia.1062.v3_3.package_v1",
+  "source_authority": "Valencia_Opening_State_1062_V3_3_Completed_Authority_Chain_Reconciled_Developed_Realm_Parity_Authority.md",
+  "source_authority_version": "3.3.0",
+  "definition_counts_by_section": {
+    "people_and_references": 4,
+    "offices": 9,
+    "communities": 6,
+    "institutions": 6,
+    "sites_and_regions": 8,
+    "routes": 4,
+    "force_families": 8,
+    "relation_surfaces": 6,
+    "opening_problems": 9,
+    "core_realm_faction_dynasty_title": 5,
+    "households": 5,
+    "resource_bands": 8,
+    "historical_system_namespaces": 3
+  },
+  "definition_count": 81,
+  "legacy_crosswalk_count": 35,
+  "quarantine_count": 11,
+  "input_checksums": {
+    "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.json": "860725b9b569c63e82582a8459c9729c0dfc0ca570070c5a48205e9de9651455",
+    "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.schema.json": "1f686c9864364da9dcc02ba374ef182e0e728a4c5e907c03ac53b52de895aa6d",
+    "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.validation.json": "880aa3381c4bcbeeaf05611683519d51ee7d0cffcbf2c7035da20857b963c917",
+    "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.owner_routing.json": "617d021b5413040dd824f48ea19d048afebc80e0ded0a9b828887a89e8a26456",
+    "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.fixtures.json": "110ba17d1d991003bd9ee82b15ebc5f9bb55ed1b9d1b4412a8ef5adf401a96e9"
+  },
+  "validation_environment": "IsolatedLinuxContainer",
+  "checks_defined": 14,
+  "checks_executed": 14,
+  "checks_passed": 14,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check_id": "JSON_PARSE_Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.json",
+      "status": "PASS",
+      "detail": "Valid JSON"
+    },
+    {
+      "check_id": "JSON_PARSE_Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.schema.json",
+      "status": "PASS",
+      "detail": "Valid JSON"
+    },
+    {
+      "check_id": "JSON_PARSE_Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.validation.json",
+      "status": "PASS",
+      "detail": "Valid JSON"
+    },
+    {
+      "check_id": "JSON_PARSE_Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.owner_routing.json",
+      "status": "PASS",
+      "detail": "Valid JSON"
+    },
+    {
+      "check_id": "JSON_PARSE_Valencia_Taifa_Faction_Definition_Manifest_1062_V3_3_Package_V1.fixtures.json",
+      "status": "PASS",
+      "detail": "Valid JSON"
+    },
+    {
+      "check_id": "SCHEMA_SELF_VALIDATION",
+      "status": "PASS",
+      "detail": "Draft 2020-12 schema valid"
+    },
+    {
+      "check_id": "MANIFEST_SCHEMA_VALIDATION",
+      "status": "PASS",
+      "detail": "No schema errors"
+    },
+    {
+      "check_id": "UNIQUE_DEFINITION_IDS",
+      "status": "PASS",
+      "detail": "81 definitions; 81 unique"
+    },
+    {
+      "check_id": "ALL_HAVE_OWNERS",
+      "status": "PASS",
+      "detail": "81 of 81"
+    },
+    {
+      "check_id": "ALL_HAVE_SOURCES",
+      "status": "PASS",
+      "detail": "81 of 81"
+    },
+    {
+      "check_id": "NO_INSTANCE_CREATION",
+      "status": "PASS",
+      "detail": "All definitions non-instantiating"
+    },
+    {
+      "check_id": "CROSSWALKS_NON_CREATING",
+      "status": "PASS",
+      "detail": "35 crosswalks"
+    },
+    {
+      "check_id": "HISTORICAL_NAMESPACES_QUARANTINED",
+      "status": "PASS",
+      "detail": "3 namespace reservations quarantined"
+    },
+    {
+      "check_id": "MUTATION_FLAGS_FALSE",
+      "status": "PASS",
+      "detail": "All mutation authorizations false"
+    }
+  ],
+  "fixtures_defined": 14,
+  "fixtures_executed": 0,
+  "fixture_execution_status": "DefinedNotExecuted",
+  "registry_mutations": 0,
+  "runtime_mutations": 0,
+  "unreal_project_mutations": 0,
+  "promotion_recommendation": "StaticDefinitionManifestFamilyReviewOnly",
+  "validation_limitations": [
+    "CanonicalRegistryValidationNotExecuted",
+    "CrossRealmOwnerValidationNotExecuted",
+    "ExactHistoricalDefinitionImportNotExecuted",
+    "FixtureExecutionNotExecuted",
+    "ImporterCompileRuntimeSaveLoadMigrationReplayPerformanceValidationNotExecuted",
+    "UnrealArchitectureInspectionNotExecuted",
+    "PrimaryAttachedOpeningStateTransportChecksumUnavailable"
+  ]
+}

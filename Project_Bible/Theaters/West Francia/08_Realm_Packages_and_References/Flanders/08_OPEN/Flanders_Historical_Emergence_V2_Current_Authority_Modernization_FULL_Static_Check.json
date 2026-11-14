@@ -1,0 +1,22 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "source_hash_recorded": true,
+    "pathways_12": true,
+    "binding_dossiers_12": true,
+    "reason_codes_23": true,
+    "underage_firewall": true,
+    "child_pathway_refs": true,
+    "child_participants_zero": true,
+    "child_consent_zero": true,
+    "eleven_gates": true,
+    "opening_zero": true,
+    "substantive_removals_zero": true,
+    "three_tracks": true,
+    "footer_once": true
+  },
+  "SHA256": "32e61386b670174fa72b64f2f85e5f7bd5f72b61576456cb89e22840f9424234",
+  "Bytes": 103628,
+  "Lines": 2320,
+  "Scope": "Copy-first child Emergence reconciliation and nonmutation"
+}

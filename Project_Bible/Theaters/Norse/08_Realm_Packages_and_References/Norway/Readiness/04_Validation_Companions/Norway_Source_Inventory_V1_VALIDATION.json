@@ -1,0 +1,43 @@
+{
+  "filename": "Norway_Source_Inventory_V1.md",
+  "location": "/mnt/data/Norway_Source_Inventory_V1.md",
+  "bytes": 38501,
+  "lines": 1248,
+  "nonblank_lines": 1100,
+  "substantive_characters": 35096,
+  "sha256": "8DDAD34B56990B2E7A48765FE9D10BE4B881AD919CD9B25D6C08E2C05E2672FE",
+  "first_pass": {
+    "escaped_underscores": 0,
+    "escaped_list_markers": 0,
+    "escaped_plus": 0,
+    "escaped_gt": 0,
+    "escaped_lbracket": 0,
+    "escaped_rbracket": 0,
+    "html_gt": 0,
+    "balanced_fences": true,
+    "duplicate_numbered_headings": [],
+    "unsupported_active_status": 0,
+    "ue58": true,
+    "three_tracks": true,
+    "all_major_families": true,
+    "implementation_boundary": true,
+    "next_handoff": true
+  },
+  "second_pass": {
+    "escaped_underscores": 0,
+    "escaped_list_markers": 0,
+    "escaped_plus": 0,
+    "escaped_gt": 0,
+    "escaped_lbracket": 0,
+    "escaped_rbracket": 0,
+    "html_gt": 0,
+    "balanced_fences": true,
+    "duplicate_numbered_headings": [],
+    "unsupported_active_status": 0,
+    "ue58": true,
+    "three_tracks": true,
+    "all_major_families": true,
+    "implementation_boundary": true,
+    "next_handoff": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "document_id": "static-check.england.harold_godwinson.v4_1.v3_targeted_conformance",
+  "version": "2.0.0",
+  "source_file": "Harold_Godwinson_V4.1_Current_Authority_Reconciliation_PRE_V3_FULL.md",
+  "output_file": "Harold_Godwinson_V4.1_Current_Authority_Reconciliation.md",
+  "checks": {
+    "output_additive": true,
+    "full_source_snapshot_preserved": true,
+    "all_source_lines_preserved_in_order": true,
+    "all_source_headings_accounted_for": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "one_opening_boundary": true,
+    "authority_current": true,
+    "temporal_model": true,
+    "ue_5_8": true,
+    "reviewonly": true,
+    "owners": true,
+    "no_active_classification_added": true,
+    "inequalities_fenced": true,
+    "no_pass_claims_for_implementation": true,
+    "formula_signs": true,
+    "no_activation": true,
+    "validation_false": true,
+    "V3_targeted_conformance": true,
+    "global_V3_adoption_created": false
+  },
+  "passed": true
+}

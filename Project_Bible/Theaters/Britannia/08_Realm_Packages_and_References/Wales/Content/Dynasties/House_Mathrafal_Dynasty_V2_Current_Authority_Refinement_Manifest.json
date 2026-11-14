@@ -1,0 +1,39 @@
+{
+  "document_id": "Manifest.Dynasty.Wales.HouseMathrafal.V2",
+  "version": "2.0.0",
+  "source": {
+    "filename": "House_Mathrafal_Dynasty.md",
+    "bytes": 34441,
+    "physical_lines": 1150,
+    "sha256": "bd31a0c8f531467922ddeecb53a95ef8866e3b6d5ab66e9e0a6aed7b13ccb163"
+  },
+  "successor": {
+    "filename": "House_Mathrafal_Dynasty_V2_Current_Authority_Refinement.md",
+    "bytes": 56792,
+    "physical_lines": 1836,
+    "sha256": "e26fb71a8194adc084f34fc4a1f91fc15c6b725ce04b3a84fc45f14209c8599c"
+  },
+  "copy_method": "literal full-file prefix",
+  "removed_content": [],
+  "opening_members": [
+    "Person.BleddynApCynfyn",
+    "Person.RhiwallonApCynfyn"
+  ],
+  "excluded_pending_genealogy": [
+    "Person.TrahaearnApCaradog"
+  ],
+  "opening_head": null,
+  "opening_titles": 0,
+  "opening_claims": 0,
+  "opening_governments": 0,
+  "BasisOnly_edges": [
+    "WALES-NET-EDGE-001",
+    "WALES-NET-EDGE-002",
+    "WALES-NET-EDGE-003",
+    "WALES-NET-EDGE-004",
+    "WALES-NET-EDGE-005",
+    "WALES-NET-EDGE-006"
+  ],
+  "mutable_dimensions": 0,
+  "static_check_passed": true
+}

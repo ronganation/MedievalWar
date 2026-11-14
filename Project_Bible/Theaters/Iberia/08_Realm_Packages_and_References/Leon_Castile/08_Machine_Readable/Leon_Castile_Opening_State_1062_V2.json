@@ -1,0 +1,869 @@
+{
+  "$schema": "Leon_Castile_Opening_State_Package_Schema_V2.json",
+  "PackageKind": "ContentPackage",
+  "PackageId": "package.leon_castile.opening_state.1062.v2",
+  "PackageVersion": "2.0.0",
+  "OpeningStateId": "opening.leon_castile.1062",
+  "OpeningStateVersion": "2.1.0",
+  "ScenarioId": "mw.scenario.grand_campaign.1062",
+  "EffectiveDate": "1062-01-01",
+  "PoliticalForm": "CompositeMonarchy",
+  "AuthorityManifest": {
+    "Project_Bible_2.4.md": "2.4.0",
+    "Design_Expansion_Checklist_V3.7.md": "3.7.0",
+    "Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority.md": "2.1.0",
+    "Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_Brother_Mechanics_Integrated.md": "2.0.0",
+    "Leon_Castile_Opening_State_Package_Schema_V2.json": "2.0.0"
+  },
+  "RegistryBinding": {
+    "RegistryId": "registry.leon_castile.v1",
+    "RegistryVersion": "1.1.0",
+    "RegistryHash": "5a20c6a0cb7c7832bf0f8cefa7bf2dcb472e835c283cf979c3e8a5c7c412249a",
+    "AllowDeprecatedIds": false,
+    "AllowAliasChains": false,
+    "AllowReviewOnlyActivation": false,
+    "AllowQuarantineActivation": false,
+    "AllowExternalDefinitionEmission": false,
+    "AllowRejectedLaterHistoryActivation": false,
+    "AllowUnapprovedBrotherMechanicIds": false
+  },
+  "OverlayRequirement": {
+    "RequiredAtCampaignCreation": true,
+    "ExactlyOneOverlay": true,
+    "DefaultPerspectiveRef": null,
+    "AllowedPerspectiveRefs": [
+      "perspective.leon_castile.sancho",
+      "perspective.leon_castile.alfonso",
+      "perspective.leon_castile.garcia"
+    ],
+    "OverlayMayMutateContent": false,
+    "OverlayMayChangeSovereign": false,
+    "OverlayMayChangeTitles": false,
+    "OverlayMayCreateRecords": false,
+    "OverlayMayCreateAuthority": false
+  },
+  "TemporalState": {
+    "HistoricalDate": "1062-01-01",
+    "HistoricalProgressionMonthsPerStrategicTurn": 21,
+    "HistoricalProgressionIndex": 0,
+    "HistoricalElapsedMonths": 0,
+    "BiologicalProgressionMonthsPerStrategicTurn": 7,
+    "BiologicalProgressionIndex": 0,
+    "BiologicalElapsedMonths": 0,
+    "CampaignSeason": "Winter",
+    "CampaignSeasonIndex": 0,
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "OpeningApplicationAdvancesTemporalTracks": false,
+    "GeographyClimateOwnLocalSeasonalEffects": true
+  },
+  "ApplicationGuard": {
+    "RequiredCampaignState": "NewCampaignUninitialized",
+    "ApplyAtMostOnce": true,
+    "RejectIfAlreadyApplied": true,
+    "RejectIfAnyTemporalTrackAdvanced": true,
+    "RejectIfMutableOwnerStateExists": true,
+    "RejectIfVersionOrHashMismatch": true,
+    "RejectIfReviewOrQuarantineWouldActivate": true,
+    "RejectIfExternalDefinitionWouldEmit": true,
+    "RejectIfLaterHistoryWouldActivate": true,
+    "RejectIfBrotherRouteMismatch": true,
+    "RejectIfOpportunityResultPreloaded": true,
+    "RejectIfConversionAutomatic": true,
+    "AtomicCommitRequired": true,
+    "ApplicationReceiptRequired": true,
+    "ReapplyOnLoad": false,
+    "ReapplyAfterMigration": false,
+    "ReapplyToAdvancedSave": false
+  },
+  "Definitions": {
+    "BrotherRouteDefinitions": [
+      {
+        "BrotherRouteRef": "brother_route.leon_castile.sancho",
+        "PersonRef": "person.sancho.ferdinand_sancha_son",
+        "PerspectiveRef": "perspective.leon_castile.sancho",
+        "PrimaryRouteRef": "route.leon_castile.castilian_military_service",
+        "SecondaryRouteRefs": [
+          "route.leon_castile.royal_household_access",
+          "route.leon_castile.castilian_regional_recognition",
+          "route.leon_castile.administrative_responsibility",
+          "route.leon_castile.negotiated_reward",
+          "route.leon_castile.claim_continuity_preparation"
+        ],
+        "InitialStrengthRefs": [
+          "strength.adult_dynastic_stakeholder",
+          "strength.castilian_military_relevance",
+          "strength.royal_service_eligibility"
+        ],
+        "InitialBlockerRefs": [
+          "blocker.no_kingdom",
+          "blocker.no_army_command",
+          "blocker.no_recruitment_authority",
+          "blocker.no_territorial_ownership",
+          "blocker.no_guaranteed_castilian_obedience",
+          "blocker.no_guaranteed_leonese_recognition"
+        ],
+        "OpportunityWeightProfileRef": "opportunity_weight.leon_castile.sancho",
+        "ConversionGateProfileRef": "conversion_gate.leon_castile.sancho",
+        "ExplainabilityProfileRef": "explainability.leon_castile.sancho",
+        "OwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.character_lifecycle",
+          "owner.governance",
+          "owner.realm_ai",
+          "owner.validation_and_trace"
+        ],
+        "OpeningAuthorityState": "EligibleButUnappointed",
+        "CreatesTitle": false,
+        "CreatesOffice": false,
+        "CreatesCommand": false,
+        "CreatesForce": false,
+        "CreatesProperty": false,
+        "CreatesAgreement": false,
+        "CreatesPoliticalRelationship": false,
+        "PredeterminesSuccession": false
+      },
+      {
+        "BrotherRouteRef": "brother_route.leon_castile.alfonso",
+        "PersonRef": "person.alfonso.ferdinand_sancha_son",
+        "PerspectiveRef": "perspective.leon_castile.alfonso",
+        "PrimaryRouteRef": "route.leon_castile.leonese_political_administrative_service",
+        "SecondaryRouteRefs": [
+          "route.leon_castile.diplomatic_mission",
+          "route.leon_castile.institutional_sponsorship",
+          "route.leon_castile.royal_household_influence",
+          "route.leon_castile.military_credibility",
+          "route.leon_castile.territorial_administration",
+          "route.leon_castile.claim_continuity_preparation"
+        ],
+        "InitialStrengthRefs": [
+          "strength.adult_dynastic_stakeholder",
+          "strength.leonese_political_relevance",
+          "strength.administrative_institutional_eligibility"
+        ],
+        "InitialBlockerRefs": [
+          "blocker.no_kingdom",
+          "blocker.no_toledo_mission",
+          "blocker.no_office",
+          "blocker.no_army_command",
+          "blocker.no_territorial_base",
+          "blocker.no_guaranteed_institutional_obedience"
+        ],
+        "OpportunityWeightProfileRef": "opportunity_weight.leon_castile.alfonso",
+        "ConversionGateProfileRef": "conversion_gate.leon_castile.alfonso",
+        "ExplainabilityProfileRef": "explainability.leon_castile.alfonso",
+        "OwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.character_lifecycle",
+          "owner.governance",
+          "owner.realm_ai",
+          "owner.validation_and_trace"
+        ],
+        "OpeningAuthorityState": "EligibleButUnappointed",
+        "CreatesTitle": false,
+        "CreatesOffice": false,
+        "CreatesCommand": false,
+        "CreatesForce": false,
+        "CreatesProperty": false,
+        "CreatesAgreement": false,
+        "CreatesPoliticalRelationship": false,
+        "PredeterminesSuccession": false
+      },
+      {
+        "BrotherRouteRef": "brother_route.leon_castile.garcia",
+        "PersonRef": "person.garcia.ferdinand_sancha_son",
+        "PerspectiveRef": "perspective.leon_castile.garcia",
+        "PrimaryRouteRef": "route.leon_castile.galician_regional_coordination",
+        "SecondaryRouteRefs": [
+          "route.leon_castile.ecclesiastical_coordination",
+          "route.leon_castile.route_messenger_development",
+          "route.leon_castile.western_frontier_service",
+          "route.leon_castile.court_representation",
+          "route.leon_castile.diplomatic_mission",
+          "route.leon_castile.conditional_command",
+          "route.leon_castile.noninheritance_continuity"
+        ],
+        "InitialStrengthRefs": [
+          "strength.adult_dynastic_stakeholder",
+          "strength.galician_regional_relevance",
+          "strength.ecclesiastical_route_coordination_eligibility",
+          "strength.western_frontier_eligibility"
+        ],
+        "InitialBlockerRefs": [
+          "blocker.no_kingdom",
+          "blocker.no_galician_administration",
+          "blocker.no_western_mandate",
+          "blocker.no_coimbra_control",
+          "blocker.no_portugal_mondego_ownership",
+          "blocker.no_army_command",
+          "blocker.no_universal_galician_church_support"
+        ],
+        "OpportunityWeightProfileRef": "opportunity_weight.leon_castile.garcia",
+        "ConversionGateProfileRef": "conversion_gate.leon_castile.garcia",
+        "ExplainabilityProfileRef": "explainability.leon_castile.garcia",
+        "OwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.character_lifecycle",
+          "owner.governance",
+          "owner.realm_ai",
+          "owner.validation_and_trace"
+        ],
+        "OpeningAuthorityState": "EligibleButUnappointed",
+        "CreatesTitle": false,
+        "CreatesOffice": false,
+        "CreatesCommand": false,
+        "CreatesForce": false,
+        "CreatesProperty": false,
+        "CreatesAgreement": false,
+        "CreatesPoliticalRelationship": false,
+        "PredeterminesSuccession": false
+      }
+    ],
+    "OpportunityDefinitions": [
+      {
+        "OpportunityRef": "opportunity.leon_castile.royal_audience",
+        "FamilyRef": "opportunity_family.royal_audience",
+        "EligiblePerspectiveRefs": [
+          "perspective.leon_castile.sancho",
+          "perspective.leon_castile.alfonso",
+          "perspective.leon_castile.garcia"
+        ],
+        "RequiredOwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.governance",
+          "owner.validation_and_trace"
+        ],
+        "PrerequisiteStateRefs": [],
+        "BlockerRefs": [
+          "blocker.sovereign_access_required"
+        ],
+        "InformationVisibilityRuleRef": "visibility.opening.owner_authorized",
+        "WeightProfileRef": "opportunity_weight.leon_castile.shared",
+        "MayCreateProposal": true,
+        "MayCreateAuthorityDirectly": false,
+        "MayCreateRewardDirectly": false,
+        "MayCreateFreeForce": false,
+        "MayPredetermineOutcome": false
+      },
+      {
+        "OpportunityRef": "opportunity.leon_castile.bounded_service_petition",
+        "FamilyRef": "opportunity_family.bounded_service_petition",
+        "EligiblePerspectiveRefs": [
+          "perspective.leon_castile.sancho",
+          "perspective.leon_castile.alfonso",
+          "perspective.leon_castile.garcia"
+        ],
+        "RequiredOwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.governance",
+          "owner.validation_and_trace"
+        ],
+        "PrerequisiteStateRefs": [],
+        "BlockerRefs": [
+          "blocker.mandate_scope_unresolved"
+        ],
+        "InformationVisibilityRuleRef": "visibility.opening.owner_authorized",
+        "WeightProfileRef": "opportunity_weight.leon_castile.shared",
+        "MayCreateProposal": true,
+        "MayCreateAuthorityDirectly": false,
+        "MayCreateRewardDirectly": false,
+        "MayCreateFreeForce": false,
+        "MayPredetermineOutcome": false
+      },
+      {
+        "OpportunityRef": "opportunity.leon_castile.household_mediation",
+        "FamilyRef": "opportunity_family.household_mediation",
+        "EligiblePerspectiveRefs": [
+          "perspective.leon_castile.sancho",
+          "perspective.leon_castile.alfonso",
+          "perspective.leon_castile.garcia"
+        ],
+        "RequiredOwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.governance",
+          "owner.validation_and_trace"
+        ],
+        "PrerequisiteStateRefs": [],
+        "BlockerRefs": [
+          "blocker.relationship_state_unresolved"
+        ],
+        "InformationVisibilityRuleRef": "visibility.opening.owner_authorized",
+        "WeightProfileRef": "opportunity_weight.leon_castile.shared",
+        "MayCreateProposal": true,
+        "MayCreateAuthorityDirectly": false,
+        "MayCreateRewardDirectly": false,
+        "MayCreateFreeForce": false,
+        "MayPredetermineOutcome": false
+      },
+      {
+        "OpportunityRef": "opportunity.leon_castile.institutional_patronage",
+        "FamilyRef": "opportunity_family.institutional_patronage",
+        "EligiblePerspectiveRefs": [
+          "perspective.leon_castile.sancho",
+          "perspective.leon_castile.alfonso",
+          "perspective.leon_castile.garcia"
+        ],
+        "RequiredOwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.governance",
+          "owner.validation_and_trace"
+        ],
+        "PrerequisiteStateRefs": [],
+        "BlockerRefs": [
+          "blocker.institutional_sponsor_required"
+        ],
+        "InformationVisibilityRuleRef": "visibility.opening.owner_authorized",
+        "WeightProfileRef": "opportunity_weight.leon_castile.shared",
+        "MayCreateProposal": true,
+        "MayCreateAuthorityDirectly": false,
+        "MayCreateRewardDirectly": false,
+        "MayCreateFreeForce": false,
+        "MayPredetermineOutcome": false
+      },
+      {
+        "OpportunityRef": "opportunity.leon_castile.messenger_preparation",
+        "FamilyRef": "opportunity_family.information_messenger_preparation",
+        "EligiblePerspectiveRefs": [
+          "perspective.leon_castile.sancho",
+          "perspective.leon_castile.alfonso",
+          "perspective.leon_castile.garcia"
+        ],
+        "RequiredOwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.governance",
+          "owner.validation_and_trace"
+        ],
+        "PrerequisiteStateRefs": [],
+        "BlockerRefs": [
+          "blocker.route_and_resource_review"
+        ],
+        "InformationVisibilityRuleRef": "visibility.opening.owner_authorized",
+        "WeightProfileRef": "opportunity_weight.leon_castile.shared",
+        "MayCreateProposal": true,
+        "MayCreateAuthorityDirectly": false,
+        "MayCreateRewardDirectly": false,
+        "MayCreateFreeForce": false,
+        "MayPredetermineOutcome": false
+      },
+      {
+        "OpportunityRef": "opportunity.leon_castile.retinue_preparation",
+        "FamilyRef": "opportunity_family.resource_retinue_preparation",
+        "EligiblePerspectiveRefs": [
+          "perspective.leon_castile.sancho",
+          "perspective.leon_castile.alfonso",
+          "perspective.leon_castile.garcia"
+        ],
+        "RequiredOwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.governance",
+          "owner.validation_and_trace"
+        ],
+        "PrerequisiteStateRefs": [],
+        "BlockerRefs": [
+          "blocker.resource_owner_approval"
+        ],
+        "InformationVisibilityRuleRef": "visibility.opening.owner_authorized",
+        "WeightProfileRef": "opportunity_weight.leon_castile.shared",
+        "MayCreateProposal": true,
+        "MayCreateAuthorityDirectly": false,
+        "MayCreateRewardDirectly": false,
+        "MayCreateFreeForce": false,
+        "MayPredetermineOutcome": false
+      },
+      {
+        "OpportunityRef": "opportunity.leon_castile.castilian_service",
+        "FamilyRef": "opportunity_family.castilian_service",
+        "EligiblePerspectiveRefs": [
+          "perspective.leon_castile.sancho"
+        ],
+        "RequiredOwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.governance",
+          "owner.validation_and_trace"
+        ],
+        "PrerequisiteStateRefs": [],
+        "BlockerRefs": [
+          "blocker.no_army_command",
+          "blocker.no_recruitment_authority"
+        ],
+        "InformationVisibilityRuleRef": "visibility.opening.owner_authorized",
+        "WeightProfileRef": "opportunity_weight.leon_castile.sancho",
+        "MayCreateProposal": true,
+        "MayCreateAuthorityDirectly": false,
+        "MayCreateRewardDirectly": false,
+        "MayCreateFreeForce": false,
+        "MayPredetermineOutcome": false
+      },
+      {
+        "OpportunityRef": "opportunity.leon_castile.leonese_administration",
+        "FamilyRef": "opportunity_family.leonese_administration",
+        "EligiblePerspectiveRefs": [
+          "perspective.leon_castile.alfonso"
+        ],
+        "RequiredOwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.governance",
+          "owner.validation_and_trace"
+        ],
+        "PrerequisiteStateRefs": [],
+        "BlockerRefs": [
+          "blocker.no_office",
+          "blocker.no_territorial_base"
+        ],
+        "InformationVisibilityRuleRef": "visibility.opening.owner_authorized",
+        "WeightProfileRef": "opportunity_weight.leon_castile.alfonso",
+        "MayCreateProposal": true,
+        "MayCreateAuthorityDirectly": false,
+        "MayCreateRewardDirectly": false,
+        "MayCreateFreeForce": false,
+        "MayPredetermineOutcome": false
+      },
+      {
+        "OpportunityRef": "opportunity.leon_castile.galician_coordination",
+        "FamilyRef": "opportunity_family.galician_coordination",
+        "EligiblePerspectiveRefs": [
+          "perspective.leon_castile.garcia"
+        ],
+        "RequiredOwnerRefs": [
+          "owner.campaign_perspective",
+          "owner.governance",
+          "owner.validation_and_trace"
+        ],
+        "PrerequisiteStateRefs": [],
+        "BlockerRefs": [
+          "blocker.no_galician_administration",
+          "blocker.no_western_mandate"
+        ],
+        "InformationVisibilityRuleRef": "visibility.opening.owner_authorized",
+        "WeightProfileRef": "opportunity_weight.leon_castile.garcia",
+        "MayCreateProposal": true,
+        "MayCreateAuthorityDirectly": false,
+        "MayCreateRewardDirectly": false,
+        "MayCreateFreeForce": false,
+        "MayPredetermineOutcome": false
+      }
+    ],
+    "ConversionGateDefinitions": [
+      {
+        "GateRef": "conversion_gate.leon_castile.sancho",
+        "PersonRef": "person.sancho.ferdinand_sancha_son",
+        "SourceStateRef": "state.command_readiness.sancho",
+        "TargetAuthorityType": "Command",
+        "RequiredOwnerDecisionRefs": [
+          "decision.sovereign.command_assignment",
+          "decision.military.owner_acceptance"
+        ],
+        "RequiredEvidenceRefs": [
+          "evidence.service_record",
+          "evidence.resource_readiness"
+        ],
+        "BlockerRefs": [
+          "blocker.no_army_command",
+          "blocker.no_recruitment_authority"
+        ],
+        "AutomaticConversionAllowed": false,
+        "HistoricalOutcomeMaySatisfyOpeningGate": false
+      },
+      {
+        "GateRef": "conversion_gate.leon_castile.alfonso",
+        "PersonRef": "person.alfonso.ferdinand_sancha_son",
+        "SourceStateRef": "state.administrative_readiness.alfonso",
+        "TargetAuthorityType": "Office",
+        "RequiredOwnerDecisionRefs": [
+          "decision.sovereign.office_assignment",
+          "decision.governance.owner_acceptance"
+        ],
+        "RequiredEvidenceRefs": [
+          "evidence.institutional_recognition",
+          "evidence.enforceable_scope"
+        ],
+        "BlockerRefs": [
+          "blocker.no_office",
+          "blocker.no_territorial_base"
+        ],
+        "AutomaticConversionAllowed": false,
+        "HistoricalOutcomeMaySatisfyOpeningGate": false
+      },
+      {
+        "GateRef": "conversion_gate.leon_castile.garcia",
+        "PersonRef": "person.garcia.ferdinand_sancha_son",
+        "SourceStateRef": "state.regional_recognition.garcia",
+        "TargetAuthorityType": "TerritorialAdministration",
+        "RequiredOwnerDecisionRefs": [
+          "decision.sovereign.regional_mandate",
+          "decision.governance.owner_acceptance"
+        ],
+        "RequiredEvidenceRefs": [
+          "evidence.regional_coordination",
+          "evidence.route_readiness",
+          "evidence.resource_readiness"
+        ],
+        "BlockerRefs": [
+          "blocker.no_galician_administration",
+          "blocker.no_western_mandate"
+        ],
+        "AutomaticConversionAllowed": false,
+        "HistoricalOutcomeMaySatisfyOpeningGate": false
+      }
+    ],
+    "OpportunityWeightProfileRefs": [
+      "opportunity_weight.leon_castile.sancho",
+      "opportunity_weight.leon_castile.alfonso",
+      "opportunity_weight.leon_castile.garcia"
+    ],
+    "ExplainabilityProfileRefs": [
+      "explainability.leon_castile.sancho",
+      "explainability.leon_castile.alfonso",
+      "explainability.leon_castile.garcia"
+    ],
+    "TutorialProfileRefs": [
+      "tutorial.leon_castile.sancho",
+      "tutorial.leon_castile.alfonso",
+      "tutorial.leon_castile.garcia"
+    ],
+    "InformationViewRefs": [
+      "information_view.leon_castile.sancho",
+      "information_view.leon_castile.alfonso",
+      "information_view.leon_castile.garcia"
+    ],
+    "AdditionalDefinitionRefs": [
+      "realm_personality.leon_castile.composite_monarchy.1062",
+      "pressure.leon_castile.succession_transition"
+    ]
+  },
+  "OpeningRecords": {
+    "CampaignShell": {
+      "FactionRef": "faction.leon_castile",
+      "RealmRef": "realm.leon_castile",
+      "OpeningSovereignRef": "person.ferdinand.jimenez.muniadona_son"
+    },
+    "CharacterRefs": [
+      "person.ferdinand.jimenez.muniadona_son",
+      "person.sancha.leon.alfonso_v_daughter",
+      "person.urraca.ferdinand_sancha_daughter",
+      "person.sancho.ferdinand_sancha_son",
+      "person.elvira.ferdinand_sancha_daughter",
+      "person.alfonso.ferdinand_sancha_son",
+      "person.garcia.ferdinand_sancha_son"
+    ],
+    "TitleHolderBindings": [
+      {
+        "TitleRef": "title.kingdom.leon",
+        "HolderRef": "person.ferdinand.jimenez.muniadona_son"
+      },
+      {
+        "TitleRef": "title.county.castile",
+        "HolderRef": "person.ferdinand.jimenez.muniadona_son"
+      }
+    ],
+    "BrotherRouteBindings": [
+      {
+        "PersonRef": "person.sancho.ferdinand_sancha_son",
+        "PerspectiveRef": "perspective.leon_castile.sancho",
+        "BrotherRouteRef": "brother_route.leon_castile.sancho"
+      },
+      {
+        "PersonRef": "person.alfonso.ferdinand_sancha_son",
+        "PerspectiveRef": "perspective.leon_castile.alfonso",
+        "BrotherRouteRef": "brother_route.leon_castile.alfonso"
+      },
+      {
+        "PersonRef": "person.garcia.ferdinand_sancha_son",
+        "PerspectiveRef": "perspective.leon_castile.garcia",
+        "BrotherRouteRef": "brother_route.leon_castile.garcia"
+      }
+    ],
+    "SiblingCompetition": {
+      "ParticipantRefs": [
+        "person.sancho.ferdinand_sancha_son",
+        "person.alfonso.ferdinand_sancha_son",
+        "person.garcia.ferdinand_sancha_son"
+      ],
+      "ComparisonEnabled": true,
+      "PoliticalRelationshipEdgeRefs": [],
+      "SuccessionSupportEdgeRefs": [],
+      "CoalitionRefs": [],
+      "RivalryRefs": [],
+      "CooperationRefs": [],
+      "AutomaticSymmetry": false,
+      "ComparisonOwnerRef": "owner.realm_ai",
+      "RelationshipOwnerRef": "owner.character_network",
+      "SuccessionOwnerRef": "owner.title"
+    },
+    "FamilyCounterweights": {
+      "FerdinandPreferenceAtOpening": "Unknown",
+      "SanchaAutomaticRegency": false,
+      "SanchaAutomaticCandidateSupport": false,
+      "UrracaOpeningZamoraOwnership": false,
+      "ElviraOpeningToroOwnership": false,
+      "WomenAutomaticMarriageAssets": false,
+      "HouseholdMembershipCreatesPoliticalSupport": false,
+      "MediationOutcomePredetermined": false
+    },
+    "AdditionalOpeningRecordRefs": [
+      "household.royal.leon_castile.ferdinand_sancha",
+      "governance.composite_monarchy.leon_castile.1062"
+    ]
+  },
+  "BrotherMechanics": {
+    "SharedStakeholderEngine": {
+      "SovereignGatekeeper": "person.ferdinand.jimenez.muniadona_son",
+      "OpeningAuthorityState": "EligibleButUnappointed",
+      "StateHandles": {
+        "RoyalConfidenceStateRef": null,
+        "RegionalRecognitionStateRef": null,
+        "InstitutionalRecognitionStateRef": null,
+        "ServiceRecordStateRef": null,
+        "HouseholdAccessStateRef": null,
+        "InformationAccessStateRef": null,
+        "ResourceReadinessStateRef": null,
+        "CommandReadinessStateRef": null,
+        "AdministrativeReadinessStateRef": null,
+        "ClaimRecognitionStateRef": null,
+        "ContinuityPreparednessStateRef": null
+      },
+      "AutomaticConversionToTitleOrOffice": false,
+      "AutomaticSiblingHostility": false,
+      "AutomaticPartition": false
+    },
+    "OpeningOpportunityEligibilityRefs": [
+      "opportunity.leon_castile.royal_audience",
+      "opportunity.leon_castile.bounded_service_petition",
+      "opportunity.leon_castile.household_mediation",
+      "opportunity.leon_castile.institutional_patronage",
+      "opportunity.leon_castile.messenger_preparation",
+      "opportunity.leon_castile.retinue_preparation",
+      "opportunity.leon_castile.castilian_service",
+      "opportunity.leon_castile.leonese_administration",
+      "opportunity.leon_castile.galician_coordination"
+    ],
+    "BlockedOpportunityReasonRefs": [
+      "blocker.institutional_sponsor_required",
+      "blocker.mandate_scope_unresolved",
+      "blocker.no_army_command",
+      "blocker.no_galician_administration",
+      "blocker.no_office",
+      "blocker.no_recruitment_authority",
+      "blocker.no_territorial_base",
+      "blocker.no_western_mandate",
+      "blocker.relationship_state_unresolved",
+      "blocker.resource_owner_approval",
+      "blocker.route_and_resource_review",
+      "blocker.sovereign_access_required"
+    ],
+    "OpeningExplanationRequired": true
+  },
+  "ExternalLocks": [
+    "external_lock.realm.taifa_toledo",
+    "external_lock.settlement.coimbra",
+    "external_lock.dynasty.jimenez",
+    "external_lock.dynasty.leonese_royal_line"
+  ],
+  "ReviewOnlyReferences": [
+    "review.jurisdiction.portugal.1062",
+    "review.frontier.mondego.1062",
+    "review.registry.owner_routing_manifest.hash"
+  ],
+  "QuarantinedReferences": [
+    "review.mandate.leon_castile.sancho.military",
+    "review.mandate.leon_castile.alfonso.diplomatic_mission",
+    "review.mandate.leon_castile.garcia.western_frontier"
+  ],
+  "RejectedLaterHistory": [
+    "later.kingdom.castile.sancho",
+    "later.kingdom.leon.alfonso",
+    "later.kingdom.galicia.garcia",
+    "later.grant.zamora.urraca",
+    "later.grant.toro.elvira",
+    "later.capture.coimbra.1064",
+    "later.death.ferdinand.1065",
+    "later.partition.ferdinand_children"
+  ],
+  "ExplicitEmptyCollections": {
+    "ActiveCharacterNetworkEdges": [],
+    "ActiveExternalNetworkEdges": [],
+    "ActiveDynastyRelationshipInstances": [],
+    "ActiveSiblingCoalitions": [],
+    "ActiveClaimSupportInstances": [],
+    "ActiveSuccessionSettlements": [],
+    "ActiveStakeholderMandates": [],
+    "ActiveDelegations": [],
+    "ActiveGovernanceOffices": [],
+    "ActiveOfficerAssignments": [],
+    "ActiveAssemblies": [],
+    "ActiveCouncilMemberships": [],
+    "ActiveRegencies": [],
+    "ActiveProvisionalGovernments": [],
+    "ActiveAIProposals": [],
+    "ActiveAcceptedAICommands": [],
+    "ActiveNamedBishopAssignments": [],
+    "ActiveEcclesiasticalOfficeholders": [],
+    "ActiveEcclesiasticalPropertyTransfers": [],
+    "ActiveEcclesiasticalSuccessionSupport": [],
+    "ActiveRiteTransitions": [],
+    "ActiveExternalAgreements": [],
+    "ActivePariaAgreements": [],
+    "ActiveProtectionAgreements": [],
+    "ActiveMilitaryAccessAgreements": [],
+    "ActiveStakeholderPropertyGrants": [],
+    "ActiveStakeholderRevenueAssignments": [],
+    "ActiveStakeholderTreasuryAccess": [],
+    "ActiveStakeholderArmyCommands": [],
+    "ActiveStakeholderRecruitmentAuthorities": [],
+    "ActiveArmies": [],
+    "ActiveFleets": [],
+    "ActiveGarrisons": [],
+    "ActiveHistoricalMemoryInstances": [],
+    "ActiveHistoricalMomentumInstances": [],
+    "ActiveHistoricalEmergenceInstances": [],
+    "ScheduledHistoricalDeaths": [],
+    "ScheduledHistoricalIllnesses": [],
+    "PredeterminedMarriages": [],
+    "PredeterminedTitleTransfers": [],
+    "PredeterminedPartitions": [],
+    "PredeterminedCivilWars": [],
+    "ActiveBrotherRivalries": [],
+    "ActiveBrotherCooperationAgreements": [],
+    "ActiveBrotherCoalitions": [],
+    "ActiveBrotherComparisonResults": [],
+    "ActiveBrotherRewardPromises": [],
+    "ActiveBrotherPerformanceAwards": [],
+    "ActiveBrotherAuthorityConversions": [],
+    "ActiveBrotherRecoveryStates": [],
+    "ActiveOpportunityAcceptances": [],
+    "ActiveOpportunityRefusals": [],
+    "ActiveOpportunityFailures": [],
+    "ActiveOpportunityRewards": [],
+    "ActiveSovereignPreferenceBindings": []
+  },
+  "DeclaredCounts": {
+    "ActiveFactionShells": 1,
+    "ActiveRealms": 1,
+    "ActiveCharacterRecords": 7,
+    "ActivePlayablePerspectiveDefinitions": 3,
+    "ActivePrincipalTitleBindings": 2,
+    "BrotherRouteDefinitions": 3,
+    "ConversionGateProfiles": 3,
+    "ExplainabilityProfiles": 3,
+    "OverlayPresentationProfiles": 3,
+    "SharedStakeholderEngineDefinitions": 1,
+    "SiblingComparisonEligibilityRecords": 1,
+    "FamilyCounterweightRuleSets": 1,
+    "ActiveCharacterNetworkEdges": 0,
+    "ActiveExternalNetworkEdges": 0,
+    "ActiveDynastyRelationshipInstances": 0,
+    "ActiveSiblingCoalitions": 0,
+    "ActiveClaimSupportInstances": 0,
+    "ActiveSuccessionSettlements": 0,
+    "ActiveStakeholderMandates": 0,
+    "ActiveDelegations": 0,
+    "ActiveGovernanceOffices": 0,
+    "ActiveOfficerAssignments": 0,
+    "ActiveAssemblies": 0,
+    "ActiveCouncilMemberships": 0,
+    "ActiveRegencies": 0,
+    "ActiveProvisionalGovernments": 0,
+    "ActiveAIProposals": 0,
+    "ActiveAcceptedAICommands": 0,
+    "ActiveNamedBishopAssignments": 0,
+    "ActiveEcclesiasticalOfficeholders": 0,
+    "ActiveEcclesiasticalPropertyTransfers": 0,
+    "ActiveEcclesiasticalSuccessionSupport": 0,
+    "ActiveRiteTransitions": 0,
+    "ActiveExternalAgreements": 0,
+    "ActivePariaAgreements": 0,
+    "ActiveProtectionAgreements": 0,
+    "ActiveMilitaryAccessAgreements": 0,
+    "ActiveStakeholderPropertyGrants": 0,
+    "ActiveStakeholderRevenueAssignments": 0,
+    "ActiveStakeholderTreasuryAccess": 0,
+    "ActiveStakeholderArmyCommands": 0,
+    "ActiveStakeholderRecruitmentAuthorities": 0,
+    "ActiveArmies": 0,
+    "ActiveFleets": 0,
+    "ActiveGarrisons": 0,
+    "ActiveHistoricalMemoryInstances": 0,
+    "ActiveHistoricalMomentumInstances": 0,
+    "ActiveHistoricalEmergenceInstances": 0,
+    "ScheduledHistoricalDeaths": 0,
+    "ScheduledHistoricalIllnesses": 0,
+    "PredeterminedMarriages": 0,
+    "PredeterminedTitleTransfers": 0,
+    "PredeterminedPartitions": 0,
+    "PredeterminedCivilWars": 0,
+    "ActiveBrotherRivalries": 0,
+    "ActiveBrotherCooperationAgreements": 0,
+    "ActiveBrotherCoalitions": 0,
+    "ActiveBrotherComparisonResults": 0,
+    "ActiveBrotherRewardPromises": 0,
+    "ActiveBrotherPerformanceAwards": 0,
+    "ActiveBrotherAuthorityConversions": 0,
+    "ActiveBrotherRecoveryStates": 0,
+    "ActiveOpportunityAcceptances": 0,
+    "ActiveOpportunityRefusals": 0,
+    "ActiveOpportunityFailures": 0,
+    "ActiveOpportunityRewards": 0,
+    "ActiveSovereignPreferenceBindings": 0
+  },
+  "SourceManifest": [
+    {
+      "File": "Leon_Castile_Opening_State_Package_Schema_V1.json",
+      "AuthorityType": "PredecessorPackageSchema",
+      "InternalVersion": "1.0.0",
+      "Sha256": "5a20c6a0cb7c7832bf0f8cefa7bf2dcb472e835c283cf979c3e8a5c7c412249a",
+      "Required": false,
+      "Owner": "owner.validation_and_trace",
+      "CompatibilityDisposition": "Compatible"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_1062_V1.json",
+      "AuthorityType": "PredecessorCanonicalPayload",
+      "InternalVersion": "1.0.0",
+      "Sha256": "01a818e1b696660e48b4a8ab3fdf4ae7662bd4967affc42ce1441eadbce1c4a2",
+      "Required": false,
+      "Owner": "owner.validation_and_trace",
+      "CompatibilityDisposition": "Compatible"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority.md",
+      "AuthorityType": "ControllingOpeningAuthority",
+      "InternalVersion": "2.1.0",
+      "Sha256": "c58e40798768521d9ce3195f7bd35502224f661478efac4a1de73bff02e8d93a",
+      "Required": true,
+      "Owner": "owner.validation_and_trace",
+      "CompatibilityDisposition": "Required"
+    },
+    {
+      "File": "Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_Brother_Mechanics_Integrated.md",
+      "AuthorityType": "MachineReadableContract",
+      "InternalVersion": "2.0.0",
+      "Sha256": "2faa9c2234c372028e37ae4a79b88fa56fddf761ca46bc9713de5deb26e702a6",
+      "Required": true,
+      "Owner": "owner.validation_and_trace",
+      "CompatibilityDisposition": "Required"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_Package_Schema_V2.json",
+      "AuthorityType": "PackageSchema",
+      "InternalVersion": "2.0.0",
+      "Sha256": "d76fc2ecfe743ef47516ce0096f921f155cfa83de3518f22892f6c4e0ea1b39b",
+      "Required": true,
+      "Owner": "owner.validation_and_trace",
+      "CompatibilityDisposition": "Required"
+    },
+    {
+      "File": "Leon_Castile_Opening_State_UE5_Owner_Routing_Manifest_V1.json",
+      "AuthorityType": "OwnerRoutingProposal",
+      "InternalVersion": "1.0.0",
+      "Sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "Required": false,
+      "Owner": "owner.validation_and_trace",
+      "CompatibilityDisposition": "ReviewOnly"
+    }
+  ],
+  "SourceManifestHash": "3e4120b3862ccc761c76eaf9b7aed381e7985d59e59729b251376a5dc299d7d7"
+}

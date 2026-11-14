@@ -1,0 +1,33 @@
+{
+  "DocumentId": "manifest.historical-uncertainty.realm.burgundy.v1",
+  "AuthorityFile": "Burgundy_Historical_Uncertainty_Register_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "d04fd2bd42dca11753114f2d5b0a26e1492491883c49657ed5fe69539955a718",
+  "ByteCount": 57201,
+  "LineCount": 1531,
+  "Status": "StaticCheckedNewUncertaintyAuthorityPendingOwnerSelectionBindingAndPromotion",
+  "Counts": {
+    "CandidateUncertaintyRecords": 32,
+    "AlternativeGroups": 32,
+    "OpeningScenarioSelectionsApplied": 0,
+    "ProvisionallyResolvedRecords": 0,
+    "RetiredRecords": 0,
+    "RuntimeEventsScheduled": 0
+  },
+  "Benchmarks": [
+    "Aquitaine Historical Uncertainty Register",
+    "Normandy Historical Uncertainty Register",
+    "England Historical Uncertainty Register",
+    "Scotland Historical Uncertainty Register",
+    "Brittany Historical Uncertainty Register"
+  ],
+  "MutationStatus": {
+    "HistoricalFactsPromoted": 0,
+    "UncertaintySelectionsApplied": 0,
+    "RegistryMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

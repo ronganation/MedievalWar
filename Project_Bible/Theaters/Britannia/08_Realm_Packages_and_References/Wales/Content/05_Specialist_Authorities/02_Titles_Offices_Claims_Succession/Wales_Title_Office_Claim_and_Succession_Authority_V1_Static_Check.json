@@ -1,0 +1,33 @@
+{
+  "document_id": "static-check.wales.title-office-claim-succession.v1",
+  "version": "1.0.0",
+  "successor": "Wales_Title_Office_Claim_and_Succession_Authority_V1.md",
+  "successor_bytes": 43081,
+  "successor_physical_lines": 1421,
+  "successor_sha256": "feb306150db5267e5469c5267850dcc2498c7aa88bdb43a5fd7b5fc01d2b7353",
+  "checks": {
+    "file_exists": true,
+    "Wales_specific_people": true,
+    "dynasties_3": true,
+    "title_schema": true,
+    "office_schema": true,
+    "claim_schema": true,
+    "candidate_schema": true,
+    "claim_lifecycle": true,
+    "succession_lifecycle": true,
+    "eligibility_gates": true,
+    "opening_no_claims": true,
+    "opening_no_candidates": true,
+    "underage_gate": true,
+    "St_Davids_separation": true,
+    "three_track": true,
+    "UE58": true,
+    "honest_status": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "removal_ledger": true,
+    "one_footer": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

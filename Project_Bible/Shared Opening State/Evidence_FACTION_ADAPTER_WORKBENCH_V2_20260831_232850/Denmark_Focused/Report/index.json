@@ -1,0 +1,89 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "BABBAKANOOSH",
+			"instance": "E6C531A547C9599B3CA564868D973D1D",
+			"instanceName": "BABBAKANOOSH-48004",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (25H2) [10.0.26200.9168] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 3060",
+			"cPUModel": "AMD Ryzen 5 5600X 6-Core Processor             ",
+			"rAMInGB": 16,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.09.01-03.29.56",
+	"succeeded": 4,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.032202001661062241,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "Accounting",
+			"fullTestPath": "MedievalWar.Denmark.Network.CommandEnvelope.Accounting",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E6C531A547C9599B3CA564868D973D1D"
+			],
+			"duration": 0.0077346004545688629,
+			"dateTime": "2026.09.01-03.29.56",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Boundary",
+			"fullTestPath": "MedievalWar.Denmark.Network.CommandEnvelope.Boundary",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E6C531A547C9599B3CA564868D973D1D"
+			],
+			"duration": 0.0081828981637954712,
+			"dateTime": "2026.09.01-03.29.56",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Determinism",
+			"fullTestPath": "MedievalWar.Denmark.Network.CommandEnvelope.Determinism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E6C531A547C9599B3CA564868D973D1D"
+			],
+			"duration": 0.0084579028189182281,
+			"dateTime": "2026.09.01-03.29.56",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Provenance",
+			"fullTestPath": "MedievalWar.Denmark.Network.CommandEnvelope.Provenance",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"E6C531A547C9599B3CA564868D973D1D"
+			],
+			"duration": 0.0078266002237796783,
+			"dateTime": "2026.09.01-03.29.56",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

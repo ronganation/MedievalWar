@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "ArtifactType": "AquitaineTerritorySettlementsGeographyClimateStaticCheck",
+  "AuthorityFile": "Aquitaine_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+  "AuthoritySHA256": "d08ac21dd357ea8c1cc4d92478e1b396b3b929c58cf1681f13838c4eaeb53ce8",
+  "TotalChecks": 13,
+  "Passes": 13,
+  "Failures": 0,
+  "Result": "Pass",
+  "Checks": [
+    {
+      "Id": "AQGEO001",
+      "Result": "Pass",
+      "Detail": "Aquitaine target named at document start"
+    },
+    {
+      "Id": "AQGEO002",
+      "Result": "Pass",
+      "Detail": "France file used as benchmark only"
+    },
+    {
+      "Id": "AQGEO003",
+      "Result": "Pass",
+      "Detail": "Foreign state transfer prohibited"
+    },
+    {
+      "Id": "AQGEO004",
+      "Result": "Pass",
+      "Detail": "Three-track time present"
+    },
+    {
+      "Id": "AQGEO005",
+      "Result": "Pass",
+      "Detail": "Aquitaine-specific regional portfolios present"
+    },
+    {
+      "Id": "AQGEO006",
+      "Result": "Pass",
+      "Detail": "Regional Power distinction present"
+    },
+    {
+      "Id": "AQGEO007",
+      "Result": "Pass",
+      "Detail": "War permission not gated"
+    },
+    {
+      "Id": "AQGEO008",
+      "Result": "Pass",
+      "Detail": "Bernard rebellion not preloaded"
+    },
+    {
+      "Id": "AQGEO009",
+      "Result": "Pass",
+      "Detail": "Opening activations remain zero"
+    },
+    {
+      "Id": "AQGEO010",
+      "Result": "Pass",
+      "Detail": "Markdown fences balanced"
+    },
+    {
+      "Id": "AQGEO011",
+      "Result": "Pass",
+      "Detail": "No em dashes"
+    },
+    {
+      "Id": "AQGEO012",
+      "Result": "Pass",
+      "Detail": "One stable footer"
+    },
+    {
+      "Id": "AQGEO013",
+      "Result": "Pass",
+      "Detail": "Final marker correct"
+    }
+  ]
+}

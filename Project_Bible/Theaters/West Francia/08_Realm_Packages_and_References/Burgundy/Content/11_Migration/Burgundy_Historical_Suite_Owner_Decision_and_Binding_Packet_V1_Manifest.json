@@ -1,0 +1,22 @@
+{
+  "FileName": "Burgundy_Historical_Suite_Owner_Decision_and_Binding_Packet_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "67378da54eb02538a3e5ebf9392371c4aa9c0581ed576f47895e06a54e572a29",
+  "Bytes": 58926,
+  "Lines": 1719,
+  "Status": "StaticCheckedReadyForOwnerRoutingWithAllResponsesPending",
+  "DecisionRequests": 12,
+  "PendingAtCreation": 12,
+  "OwnerResponsesPresent": 0,
+  "CandidateDefinitionDecisions": 44,
+  "CandidateBindingsPrepared": 44,
+  "BindingsApplied": 0,
+  "AliasDecisions": 6,
+  "SplitMigrationDecisions": 10,
+  "UncertaintyRoutes": 32,
+  "OpeningMemoryInstances": 0,
+  "OpeningMomentumInstances": 0,
+  "OpeningEmergenceInstances": 0,
+  "NextFile": "Burgundy_Historical_Suite_Importer_Manifest_V1.md",
+  "Mutations": 0
+}

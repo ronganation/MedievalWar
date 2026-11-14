@@ -1,0 +1,18 @@
+{
+  "document": "Burgh_Pikemen_V1_2_Master_Unit_Profile.md",
+  "sha256": "ff3476e8c19bf5f29d00f0927b7cb02bfc34ee0e3e50f4f5eeb84c0b12b7bee8",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "larger_than_both": true,
+    "v1_deep_sections": true,
+    "v11_profiles": true,
+    "single_family": true,
+    "terrain_25": true,
+    "legacy_11": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

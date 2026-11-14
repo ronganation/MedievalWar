@@ -1,0 +1,12 @@
+EvidenceId,Requirement,FailureDisposition
+E01,06A receipt reports AssessmentCompleted,BlockBeforeMutation
+E02,06A decision equals WalesAuthorityBackedCrossRealmTheaterSourceGapWithPrecedents,BlockBeforeMutation
+E03,All eighteen target paths absent,BlockBeforeMutation
+E04,All payload hashes match approved ledger,BlockBeforeMutation
+E05,All preserved source stems found,BlockBeforeMutation
+E06,Three discovery suites pass before mutation,BlockBeforeMutation
+E07,UE 5.8 editor build succeeds,RejectAndRollback
+E08,Wales CrossRealmTheater discovers and passes exactly 38 tests,RejectAndRollback
+E09,All accepted regressions pass exact counts,RejectAndRollback
+E10,All preserved records retain exact byte length and real SHA256,RejectAndRollback
+E11,Every owner and activation boundary remains false,RejectAndRollback

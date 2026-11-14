@@ -1,0 +1,104 @@
+{
+  "manifest_id": "source_fingerprint_preflight.valencia.opening_state.v3_4.package_v1",
+  "version": "1.0.0",
+  "created_date": "2026-09-13",
+  "realm_id": "realm.valencia",
+  "scenario_id": "mw.scenario.grand_campaign.1062",
+  "purpose": "Record exact current source requirements and block substantive JSON generation until physical package fingerprints are available.",
+  "mode": "ReadOnlyPreflight",
+  "sources": [
+    {
+      "source_key": "OpeningStateV3_4",
+      "filename": "Valencia_Opening_State_1062_V3_4_A2_A3_A4_A5_Compatibility_Current_Authority.md",
+      "document_id": "OpeningState.Realm.Valencia.1062.V3.4",
+      "version": "3.4.0",
+      "owner": "ValenciaOpeningStateOwner",
+      "one_drive_search_status": "NotReturnedInCurrentExactFilenameSearch",
+      "creation_sha256": "2256f222d3a23849ddc3835ba9893fba93e418223745ef152549c49cfab71204",
+      "physical_package_sha256": null,
+      "checksum_status": "PendingPhysicalPackageReopenAndRehash",
+      "generation_eligible": false
+    },
+    {
+      "source_key": "MachineReadableContractV1_1",
+      "filename": "Valencia_Taifa_Machine_Readable_Opening_State_Package_Contract_V1_1_Current_Source_Chain_Reconciliation.md",
+      "document_id": "MachineReadableOpeningStateContract.Realm.Valencia.1062.V1.1",
+      "version": "1.1.0",
+      "owner": "ValenciaMachineReadableContractOwner",
+      "one_drive_search_status": "NotReturnedInCurrentExactFilenameSearch",
+      "creation_sha256": "43861d3ba19beb0736487d057d741ba4110e189c973afbb93290070f3ccb7c2c",
+      "physical_package_sha256": null,
+      "checksum_status": "PendingPhysicalPackageReopenAndRehash",
+      "generation_eligible": false
+    },
+    {
+      "source_key": "EconomyA2",
+      "filename": "Valencia_Taifa_Economy_Treasury_Property_Production_Markets_Trade_Stocks_and_Provisioning_Authority_1062_V1_1_Developed_Faction_Benchmark_Reconciled_FULL.md",
+      "document_id": "authority.valencia_taifa.economy_treasury_property_production_markets_trade_stocks_provisioning.1062.v1.1",
+      "version": "1.1.0",
+      "owner": "ValenciaEconomyOwner",
+      "one_drive_search_status": "Found",
+      "office365_reference_id": "turn30search25",
+      "physical_package_sha256": null,
+      "checksum_status": "NotAvailableFromSearchResult",
+      "generation_eligible": false
+    },
+    {
+      "source_key": "DiplomacyA3",
+      "filename": "Valencia_Taifa_Diplomacy_External_Relations_Agreements_Pressure_and_Cross_Realm_Lock_Authority_1062_V1_1_Developed_Realm_Benchmark_Reconciled_FULL.md",
+      "document_id": "authority.valencia_taifa.diplomacy_external_relations_agreements_pressure_cross_realm_lock.1062.v1.1",
+      "version": "1.1.0",
+      "owner": "ValenciaDiplomacyOwner",
+      "one_drive_search_status": "Found",
+      "office365_reference_id": "turn30search26",
+      "physical_package_sha256": null,
+      "checksum_status": "NotAvailableFromSearchResult",
+      "generation_eligible": false
+    },
+    {
+      "source_key": "RealmPersonalityA4",
+      "filename": "Valencia_Taifa_Realm_Personality_AI_Information_Discipline_and_Decision_Explanation_Authority_1062_V1.md",
+      "document_id": "authority.valencia_taifa.realm_personality_ai_information_discipline_decision_explanation.1062.v1",
+      "version": "1.0.0",
+      "owner": "ValenciaRealmPersonalityAIOwner",
+      "one_drive_search_status": "Found",
+      "office365_reference_id": "turn30search24",
+      "physical_package_sha256": null,
+      "checksum_status": "NotAvailableFromSearchResult",
+      "generation_eligible": false
+    },
+    {
+      "source_key": "PresentationA5",
+      "filename": "Valencia_Taifa_Presentation_Visual_Identity_Localization_and_Accessibility_Authority_1062_V4_Developed_Realm_Benchmark_Reconciled_FULL.md",
+      "document_id": "authority.realm.valencia.presentation_visual_identity_localization_accessibility.1062.v4",
+      "version": "4.0.0",
+      "owner": "ValenciaPresentationOwner",
+      "one_drive_search_status": "Found",
+      "office365_reference_id": "turn30search23",
+      "physical_package_sha256": null,
+      "checksum_status": "NotAvailableFromSearchResult",
+      "generation_eligible": false
+    }
+  ],
+  "required_additional_source_families": [
+    "Current historical evidence and historical systems",
+    "Current Core, Character, Dynasty, Government, Religious and Juristic, Communities, Territory, and Military authorities",
+    "Valencia ID Registry and External Lock Contract V1",
+    "Current package inventory and specialist integration audit"
+  ],
+  "generation_gate": {
+    "status": "BLOCKED_PENDING_EXACT_PHYSICAL_SOURCE_FINGERPRINTS",
+    "all_required_sources_physically_reopened": false,
+    "all_required_sha256_values_available": false,
+    "v3_4_opening_family_generation_authorized": false,
+    "v3_4_definition_manifest_generation_authorized": false
+  },
+  "mutations": {
+    "source_files_overwritten": 0,
+    "registry": 0,
+    "opening_state": 0,
+    "runtime": 0,
+    "real_payload_imports": 0,
+    "unreal_project": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "TaskId": "WALES-IMP-04B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "EntranceDecision": "WalesAuthorityBackedInformationIntelligenceSourceGapWithPrecedents",
+  "ImplementationAuthorized": false,
+  "ApplicationAuthorized": false,
+  "ProductionAuthority": false,
+  "PlannedAdditiveFiles": 14,
+  "PlannedNewTests": 30,
+  "KnownRegressionSubtotal": 145,
+  "ScotlandInformationIntelligence": "DISCOVER",
+  "Files": [
+    {
+      "Path": "Control/WALES_IMP_04B_AUTHORITY_ROUTE.csv",
+      "Bytes": 1018,
+      "SHA256": "C66BEA3FC82BDB48C23687E3FDB2B20B58E7D060A763B054A739340FE3FC59A9"
+    },
+    {
+      "Path": "Control/WALES_IMP_04B_BOUNDARY_MATRIX.csv",
+      "Bytes": 802,
+      "SHA256": "F4DC52511ADD950EBB63B8A04FE0829F053BABC68F0AF2A7B494581D71569791"
+    },
+    {
+      "Path": "Control/WALES_IMP_04B_EVIDENCE_REQUIREMENTS.csv",
+      "Bytes": 965,
+      "SHA256": "601A915DA211CE5F07ABAE47BD433FE918964F50E79759B13DF03B880CA26E21"
+    },
+    {
+      "Path": "Control/WALES_IMP_04B_EXACT_FILE_AND_TEST_PLAN.csv",
+      "Bytes": 1108,
+      "SHA256": "A1DA43EA917281BAAFB5A5552D34B94D751A5A5B9CC657D6904C82C4B9131378"
+    },
+    {
+      "Path": "Control/WALES_IMP_04B_TEST_CHAIN.csv",
+      "Bytes": 574,
+      "SHA256": "68E3AD4D5AF209CD5B87449BBA248F16EE4BD3E8B64786FF2A91E286A49FF010"
+    },
+    {
+      "Path": "README_FIRST_WALES_IMP_04B.txt",
+      "Bytes": 511,
+      "SHA256": "9D22430738099A118FFC6BD9D731A775DD564EA2CCF86A24E94294FF9AFEE074"
+    },
+    {
+      "Path": "WALES_IMP_04B_INFORMATION_INTELLIGENCE_BOUNDED_CONTRACT_2026-09-23.md",
+      "Bytes": 11286,
+      "SHA256": "722900C349549C5A4B0A3BEA973861717C24B32C4AB68CBC902C9812B11A063D"
+    }
+  ]
+}

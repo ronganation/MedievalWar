@@ -1,0 +1,214 @@
+{
+  "records": [
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "ai_profile",
+      "ue_owner_enum": "EMWImporterOwner::RealmAI",
+      "ue_record_enum": "EMWImporterRecordType::AIProfile"
+    },
+    {
+      "data_layer": "definition_or_scenario",
+      "payload_struct": "FMWCharacterDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "character",
+      "ue_owner_enum": "EMWImporterOwner::CharacterFoundation",
+      "ue_record_enum": "EMWImporterRecordType::Character"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "character_network",
+      "ue_owner_enum": "EMWImporterOwner::CharacterNetwork",
+      "ue_record_enum": "EMWImporterRecordType::CharacterNetwork"
+    },
+    {
+      "data_layer": "definition_or_scenario",
+      "payload_struct": "FMWClaimDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "claim",
+      "ue_owner_enum": "EMWImporterOwner::Claim",
+      "ue_record_enum": "EMWImporterRecordType::Claim"
+    },
+    {
+      "data_layer": "scenario",
+      "payload_struct": "FMWDirectedRelationshipOpeningPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "directed_relationship_baseline",
+      "ue_owner_enum": "EMWImporterOwner::CharacterNetwork",
+      "ue_record_enum": "EMWImporterRecordType::DirectedRelationshipBaseline"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "dynasty",
+      "ue_owner_enum": "EMWImporterOwner::Dynasty",
+      "ue_record_enum": "EMWImporterRecordType::Dynasty"
+    },
+    {
+      "data_layer": "scenario",
+      "payload_struct": "FMWDynastyHeadshipOpeningPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "dynasty_headship",
+      "ue_owner_enum": "EMWImporterOwner::Dynasty",
+      "ue_record_enum": "EMWImporterRecordType::DynastyHeadship"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWEventDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "event_definition",
+      "ue_owner_enum": "EMWImporterOwner::Event",
+      "ue_record_enum": "EMWImporterRecordType::EventDefinition"
+    },
+    {
+      "data_layer": "scenario",
+      "payload_struct": "FMWMomentumDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "historical_momentum",
+      "ue_owner_enum": "EMWImporterOwner::HistoricalMomentum",
+      "ue_record_enum": "EMWImporterRecordType::HistoricalMomentum"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWCharacterDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "historical_person",
+      "ue_owner_enum": "EMWImporterOwner::CharacterFoundation",
+      "ue_record_enum": "EMWImporterRecordType::HistoricalPerson"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "institution",
+      "ue_owner_enum": "EMWImporterOwner::EcclesiasticalAuthority",
+      "ue_record_enum": "EMWImporterRecordType::Institution"
+    },
+    {
+      "data_layer": "scenario",
+      "payload_struct": "FMWJointGovernanceOpeningPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "joint_governance",
+      "ue_owner_enum": "EMWImporterOwner::Governance",
+      "ue_record_enum": "EMWImporterRecordType::JointGovernance"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "legacy",
+      "ue_owner_enum": "EMWImporterOwner::HistoricalMemory",
+      "ue_record_enum": "EMWImporterRecordType::Legacy"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWLegacyLinePayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "legacy_line",
+      "ue_owner_enum": "EMWImporterOwner::DynastyOrHistoricalMemory",
+      "ue_record_enum": "EMWImporterRecordType::LegacyLine"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "migration_registry",
+      "ue_owner_enum": "EMWImporterOwner::MigrationRegistry",
+      "ue_record_enum": "EMWImporterRecordType::MigrationRegistry"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "office",
+      "ue_owner_enum": "EMWImporterOwner::EcclesiasticalAuthority",
+      "ue_record_enum": "EMWImporterRecordType::Office"
+    },
+    {
+      "data_layer": "scenario",
+      "payload_struct": "FMWOfficeOccupancyOpeningPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "office_occupancy",
+      "ue_owner_enum": "EMWImporterOwner::EcclesiasticalAuthority",
+      "ue_record_enum": "EMWImporterRecordType::OfficeOccupancy"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "power_center",
+      "ue_owner_enum": "EMWImporterOwner::Governance",
+      "ue_record_enum": "EMWImporterRecordType::PowerCenter"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "realm",
+      "ue_owner_enum": "EMWImporterOwner::Realm",
+      "ue_record_enum": "EMWImporterRecordType::Realm"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "realm_context",
+      "ue_owner_enum": "EMWImporterOwner::Scenario",
+      "ue_record_enum": "EMWImporterRecordType::RealmContext"
+    },
+    {
+      "data_layer": "scenario",
+      "payload_struct": "FMWRouteGateOpeningPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "route_gate",
+      "ue_owner_enum": "EMWImporterOwner::HistoricalMomentum",
+      "ue_record_enum": "EMWImporterRecordType::RouteGate"
+    },
+    {
+      "data_layer": "scenario",
+      "payload_struct": "FMWUnderageRestrictionOpeningPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "runtime_restriction",
+      "ue_owner_enum": "EMWImporterOwner::Underage",
+      "ue_record_enum": "EMWImporterRecordType::RuntimeRestriction"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "scenario",
+      "ue_owner_enum": "EMWImporterOwner::Scenario",
+      "ue_record_enum": "EMWImporterRecordType::Scenario"
+    },
+    {
+      "data_layer": "scenario",
+      "payload_struct": "FMWSuccessionRecognitionOpeningPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "succession_recognition",
+      "ue_owner_enum": "EMWImporterOwner::Succession",
+      "ue_record_enum": "EMWImporterRecordType::SuccessionRecognition"
+    },
+    {
+      "data_layer": "definition",
+      "payload_struct": "FMWNamedDefinitionPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "title",
+      "ue_owner_enum": "EMWImporterOwner::Title",
+      "ue_record_enum": "EMWImporterRecordType::Title"
+    },
+    {
+      "data_layer": "scenario",
+      "payload_struct": "FMWTitleOccupancyOpeningPayload",
+      "preflight_commit_permitted": false,
+      "source_record_type": "title_occupancy",
+      "ue_owner_enum": "EMWImporterOwner::Title",
+      "ue_record_enum": "EMWImporterRecordType::TitleOccupancy"
+    }
+  ],
+  "source_binding_sha256": "b2fa1acf0d57fe9d8b9511e03a41d89f7bace6f8a826dc9597af0277d3b72d10",
+  "version": "1.0.0-static-reference"
+}

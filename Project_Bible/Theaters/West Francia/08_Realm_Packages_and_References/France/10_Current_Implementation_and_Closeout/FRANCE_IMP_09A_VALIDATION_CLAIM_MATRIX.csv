@@ -1,0 +1,13 @@
+Surface,Status,ClaimAllowed,Notes
+FranceReviewAdapterCompile,CompileValidated,true,MedievalWarEditor Win64 Development succeeded under Unreal Engine 5.8
+FranceFocusedAutomation,RuntimeValidatedAtAutomationScope,true,Eight France focused filters accepted
+FinalFixedRegressionExecution,Accepted,true,246 passed zero failed in final 08B execution
+ProjectRegistryPromotion,Blocked,false,Project owner and collision gates remain separate
+OpeningStateActivation,Blocked,false,Review surface does not authorize activation
+RealPayloadImporter,NotExecuted,false,Candidate and review records were not imported as real state
+RuntimeRealmAI,NotExecuted,false,Proposal review does not activate AI or issue commands
+DiplomaticExecution,NotExecuted,false,No diplomatic mutation occurred
+CampaignOpportunityActivation,NotExecuted,false,Reservation does not create a battle or event
+SaveMigrationReplay,NotExecuted,false,No real save or migration evidence claimed
+BattleIntegration,Deferred,false,Exact owner-approved battle-facing records remain required
+ProductionAuthority,Unauthorized,false,No promotion or package freeze

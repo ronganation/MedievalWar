@@ -1,0 +1,34 @@
+{
+  "document_id": "static-check.wales.character.bleiddud.v2",
+  "version": "2.0.0",
+  "source": {
+    "filename": "Bleiddud.md",
+    "bytes": 43453,
+    "physical_lines": 1143,
+    "sha256": "025d644a010535974b7c04a69e32257ef140cb9c9cd02be6e7e2ee21e7b64e1b"
+  },
+  "successor": {
+    "filename": "Bleiddud_V2_Current_Authority_Refinement.md",
+    "bytes": 64397,
+    "physical_lines": 1755,
+    "sha256": "73f51f0a80c9da9e58dd34a510f3775abe0e2c9f9140b5ea9ef29a228455841f"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "current_metadata": true,
+    "opening_date_and_season": true,
+    "entity_separation": true,
+    "occupancy_bounded": true,
+    "no_profile_edges": true,
+    "underage_boundary": true,
+    "three_track_temporal_model": true,
+    "later_history_firewall": true,
+    "honest_validation_status": true,
+    "authorizations_false": true,
+    "no_escaped_underscores_in_v2": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

@@ -1,0 +1,29 @@
+{
+  "document_id": "manifest.england.AI.v3_1.current_authority_refinement",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source_reference_id": "turn30search38",
+  "files": [
+    {
+      "filename": "England_AI_V3.1_Current_Authority_Refinement.md",
+      "sha256": "76feaa95e6fdde4d2fb659a18dff6597584b4189d77dc91f9b120c05d217ca73",
+      "bytes": 39905
+    },
+    {
+      "filename": "England_AI_V3.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "96f7f228d95ee2b05ca6cbdda262e25d17be9969f9b98b0f747edc0964804866",
+      "bytes": 651
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "AI_state_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

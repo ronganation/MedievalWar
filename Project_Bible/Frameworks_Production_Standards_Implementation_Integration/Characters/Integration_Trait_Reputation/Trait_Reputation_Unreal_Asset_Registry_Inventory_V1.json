@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationUnrealAssetRegistryInventory",
+    "name": "Trait Reputation Unreal Asset Registry Inventory V1",
+    "version": "1.0",
+    "status": "UnrealAssetRegistryInventoryExecuted_ManualClassificationPending"
+  },
+  "repository": {
+    "project_file": "../../../../../../UnrealProjects/MedievalWar/MedievalWar.uproject",
+    "generated_utc": "2026-08-13T20:53:03.575855+00:00"
+  },
+  "counts": {
+    "all_assets_seen": 9066,
+    "relevant_assets": 0,
+    "unique_relevant_packages": 0
+  },
+  "records": [],
+  "run": {
+    "asset_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "migration_execution_authorized": false
+  }
+}

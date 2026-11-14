@@ -1,0 +1,21 @@
+{
+  "document": "Holland_Floris_I_Immediate_Predecessor_Authority_V1_1_Mature_Double_Checked.md",
+  "version": "1.1.0",
+  "bytes": 42380,
+  "lines": 1402,
+  "sha256": "47a02e89167b6a84f76982f5ac4777838846de73c75e08a11b9b6284d4ff285b",
+  "utf8_valid": true,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "escaped_list_marker_count": 0,
+  "stable_footer_count": 1,
+  "source_preserved": true,
+  "implementation_validation": {
+    "compile": false,
+    "runtime": false,
+    "save_load": false,
+    "migration": false,
+    "unreal": false
+  },
+  "result": "PASS_AT_STATIC_AUTHORING_SCOPE"
+}

@@ -1,0 +1,86 @@
+{
+  "ArtifactId": "Seville_Taifa_Dynasty_and_Succession_Setup_V1",
+  "InternalVersion": "1.1.0",
+  "Status": "STATIC_CHECKED_CURRENT_DYNASTY_AND_SUCCESSION_AUTHORITY",
+  "RealmId": "realm.seville",
+  "DynastyId": "dynasty.abbadid",
+  "SourceSHA256": "5c33b1167a170aa9cd47e51138cc5acf0686fec152a3d0e6123b9b13c9e56847",
+  "SourceBytes": 44955,
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "RegistryModernization": "2.0.0"
+  },
+  "CharacterAuthorities": {
+    "AlMutadid": "Seville_Taifa_Al_Mutadid_Character_Authority_V1.md",
+    "AlMutamid": "Seville_Taifa_Al_Mutamid_Character_Authority_V1.md"
+  },
+  "OpeningState": {
+    "ConfirmedOpeningDynastyContextPersons": 2,
+    "OpeningSovereignBindings": 1,
+    "OpeningSuccessionRelevantPersons": 1,
+    "OpeningFormalHeirBindings": 0,
+    "OpeningDeclaredSuccessors": 0,
+    "OpeningSuccessionPressureDefinitions": 1,
+    "OpeningSuccessionMutations": 0,
+    "OpeningPredeterminedDeaths": 0,
+    "OpeningPredeterminedTransfers": 0
+  },
+  "CharacterReconciliation": {
+    "AlMutadidOpeningRole": "Sovereign",
+    "AlMutamidOpeningRole": "SuccessionRelevantDynast",
+    "AlMutamidBirthYearClaims": [
+      1027,
+      "circa_1040"
+    ],
+    "BirthYearResolution": "Unresolved",
+    "EarlyCommandStatus": "ResearchCandidate",
+    "SilvesRoleStatus": "ResearchCandidate",
+    "IsmailStatus": "ReviewOnly",
+    "FutureResearchCandidates": [
+      "Muhammad ibn Ammar",
+      "I'timad al-Rumaikiyya",
+      "Abu al-Qasim Muhammad ibn Abbad"
+    ]
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "CopyFirstLedger": {
+    "OriginalNumberedSectionsReviewed": 45,
+    "OriginalNumberedSectionsRetained": 45,
+    "RemovedSubstantiveSections": 0,
+    "RemovedProposalFamilies": 0,
+    "RemovedReasonCodes": 0,
+    "RemovedValidationTests": 0
+  },
+  "FormattingChecks": {
+    "EscapedUnderscoresFound": 0,
+    "StableFooter": "PASS",
+    "StructuredRecordsFencedAsYAML": true
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CharacterAuthoritiesIntegrated": true,
+    "CopyFirstCompletenessChecked": true,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "BehaviorValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Strategic_Geography_and_Settlement_Setup_V1.md; keep Opening State unchanged until later reconciliation."
+}

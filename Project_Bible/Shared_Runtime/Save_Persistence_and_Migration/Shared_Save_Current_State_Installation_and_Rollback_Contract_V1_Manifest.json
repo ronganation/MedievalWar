@@ -1,0 +1,16 @@
+{
+  "FileName": "Shared_Save_Current_State_Installation_and_Rollback_Contract_V1.md",
+  "SHA256": "6C8CC6447E44D523A0CBFC0239C20D6B043213CF642FE5B76727F6E61676105E",
+  "Bytes": 9631,
+  "Lines": 271,
+  "Checks": {
+    "no_false_restore": true,
+    "rollback_gap": true,
+    "current_api": true,
+    "not_complete": true,
+    "ue58": true,
+    "fences": true,
+    "no_escaped": true,
+    "footer": true
+  }
+}

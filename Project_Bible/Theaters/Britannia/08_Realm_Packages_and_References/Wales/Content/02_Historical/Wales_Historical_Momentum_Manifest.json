@@ -1,0 +1,39 @@
+{
+  "document_id": "manifest.wales.historical-momentum.v1",
+  "version": "1.0.0",
+  "sources": [
+    "Wales_Historical_Reconciliation_V3.1_Current_Authority_Refinement.md",
+    "Wales_Historical_Evidence_Register.md",
+    "Wales_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement.md",
+    "Wales_Historical_Uncertainty_V1.1_Current_Authority_Refinement.md",
+    "Wales_Historical_Memory.md"
+  ],
+  "artifact": {
+    "filename": "Wales_Historical_Momentum.md",
+    "bytes": 34468,
+    "physical_lines": 785,
+    "sha256": "103d6662b1cdeb692005393cbcd0df47c7a3190d1598bedefd67e21bc823a2ce"
+  },
+  "content": {
+    "momentum_portfolios": 12,
+    "collision_records": 6,
+    "validation_cases": 20,
+    "active_opening_records": 0,
+    "runtime_commands_created": 0
+  },
+  "benchmarks": [
+    "England_Historical_Momentum_V1.1_Current_Authority_Refinement.md",
+    "Scotland_Historical_Momentum_V1.md"
+  ],
+  "authorizations": {
+    "Opening_State_activation": false,
+    "Momentum_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_Historical_Momentum_Static_Check.json",
+    "passed": true
+  }
+}

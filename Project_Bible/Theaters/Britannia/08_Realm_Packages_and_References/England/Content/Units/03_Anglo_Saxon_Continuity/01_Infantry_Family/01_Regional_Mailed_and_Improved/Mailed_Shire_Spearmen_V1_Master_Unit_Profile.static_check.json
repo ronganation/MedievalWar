@@ -1,0 +1,18 @@
+{
+  "document": "Mailed_Shire_Spearmen_V1_Master_Unit_Profile.md",
+  "sha256": "57cfcce123582ab79378dc3574bfc8d29e3a2862fd6834a2c976d2b27fc4e3c4",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "size_strong": true,
+    "terrain_25": true,
+    "parent_persists": true,
+    "S03": true,
+    "progression": true,
+    "spear_depth": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

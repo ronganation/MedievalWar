@@ -1,0 +1,232 @@
+{
+  "baselineId": "freeze.aquitaine.package.v1_1",
+  "version": "1.1.0",
+  "date": "2026-08-16",
+  "status": "FROZEN_STATIC_CHECKED_V1_1",
+  "scenarioId": "scenario.aquitaine.1062",
+  "effectiveDate": "1062-01-01",
+  "packageScope": "Aquitaine realm package dual-clock and authority compatibility baseline",
+  "authorityBasis": {
+    "projectBible": "2.3",
+    "designExpansionChecklist": "3.6",
+    "compatibilityReview": "Aquitaine_Dual_Clock_and_Authority_Compatibility_Review_V1.md",
+    "packagePreflight": "Aquitaine_Package_Preflight_V1_1.json"
+  },
+  "temporalBindings": {
+    "calendarProfileRef": "calendar_profile.campaign.continuous.v1",
+    "calendarProfileVersion": "1.0.0",
+    "historicalClockProfileRef": "clock_profile.historical.21_months.v1",
+    "historicalClockProfileVersion": "1.0.0",
+    "historicalClockStepMonths": 21,
+    "biologicalClockProfileRef": "clock_profile.biological.7_months.v1",
+    "biologicalClockProfileVersion": "1.0.0",
+    "biologicalClockStepMonths": 7,
+    "temporalRatioProfileRef": "temporal_ratio.historical_1.biological_3.v1",
+    "temporalRatioProfileVersion": "1.0.0",
+    "biologicalStepsPerHistoricalStep": 3,
+    "seasonResolutionPolicy": "DateAndGeography",
+    "realmCadenceOverride": false
+  },
+  "canonicalOwnerLocks": [
+    "person.william_viii_aquitaine",
+    "title.duchy_aquitaine",
+    "title.duchy_gascony",
+    "title.county_poitiers"
+  ],
+  "zeroStateCounts": {
+    "activeMemoryInstances": 0,
+    "activeMomentumInstances": 0,
+    "activeEmergenceInstances": 0,
+    "activeDelegations": 0,
+    "activeOfficers": 0,
+    "activeAssemblies": 0,
+    "activeEcclesiasticalHolders": 0,
+    "automaticNetworkClockMutations": 0
+  },
+  "freezePolicy": {
+    "frozen": true,
+    "broadRedesignAllowed": false,
+    "newOpeningRuntimeInstancesAllowed": false,
+    "allowedChanges": [
+      "compatibility correction",
+      "migration correction",
+      "validation correction",
+      "constitutional correction supported by stronger authority",
+      "smallest safe patch after affected preflight"
+    ],
+    "requiredForAnyChange": [
+      "named correction scope",
+      "owning authority",
+      "affected specialist preflight rerun",
+      "package preflight rerun",
+      "baseline and manifest regeneration",
+      "retained V1 provenance"
+    ]
+  },
+  "checks": {
+    "package_preflight_pass": true,
+    "package_preflight_32_of_32": true,
+    "specialist_preflights_pass": true,
+    "authority_count_12": true,
+    "all_files_present": true,
+    "all_authorities_version_1_1": true,
+    "all_shared_profiles_present": true,
+    "owner_locks_four": true,
+    "opening_guards": true,
+    "no_active_universal_turn": true,
+    "zero_state_preserved": true,
+    "runtime_not_claimed": true,
+    "compile_not_claimed": true
+  },
+  "summary": {
+    "authorityCount": 12,
+    "specialistPreflightFileCount": 6,
+    "packagePreflightChecksPassed": 32,
+    "packagePreflightChecksFailed": 0,
+    "runtimeInstancesAdded": 0
+  },
+  "files": [
+    {
+      "file": "Aquitaine_Historical_Reconciliation_V1_1.md",
+      "sha256": "c9207da8d9b1ac95c9773000813ba0096abaacbeb43432525d9b3c840e070d7e",
+      "bytes": 36010,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_ID_Registry_V1_1.md",
+      "sha256": "7b00382ffae54f6d2d3930dae79f28f49d56b8063db5a10bcb2ce03c0e591093",
+      "bytes": 66914,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Opening_State_1062_V1_1.md",
+      "sha256": "44b2311876ac7b213d1aebf0d55386e9967dd1174de099cc1992d210bc26faf8",
+      "bytes": 47998,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Character_Authorities_V1_1.md",
+      "sha256": "308eaf37b8bb8f2e5d85899526d6ab8be4c161800af8464248ecf31f493477d8",
+      "bytes": 42976,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Character_Network_V1_1.md",
+      "sha256": "1e6614328da19345502d7223a65b6c932371f2189c5669bbec5e88072bb7fb9b",
+      "bytes": 37585,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Dynasty_Authority_V1_1.md",
+      "sha256": "0c13106bc2b89ad20a10672c9d1a9ac77c177cfb0a659a736e35c00cf41ed353",
+      "bytes": 30462,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Governance_Delegated_Authority_V1_1.md",
+      "sha256": "cacd8701872be4851ab9505c5227a9e8ce4af4d31f5c9f1e2f249651bd05e7c4",
+      "bytes": 28660,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Realm_Personality_AI_V1_1.md",
+      "sha256": "fcba2716264441f880f63a0a26f64c537b2d4989ec8ce96238a14b5f75023759",
+      "bytes": 23109,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Historical_Memory_V1_1.md",
+      "sha256": "81ed278a2d41c7741e35d366c2fbd69ec2c9c3d7df790d9b42e5852345b014a3",
+      "bytes": 26934,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Historical_Momentum_V1_1.md",
+      "sha256": "4fa75fc89eee02ca781c60ed1978c98c23b1d30214d6f5843e1a67a14d29d7aa",
+      "bytes": 33794,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Historical_Emergence_V1_1.md",
+      "sha256": "bf4e47f942700ca17ec11280c1fe9c783fb0c6f8df7bd8dd493e6dad0d830bfa",
+      "bytes": 28319,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Ecclesiastical_Content_V1_1.md",
+      "sha256": "01ce487a5b431c262f5844b3fd2f0aee2f3eadd40c1140e089891a491ae9e6b0",
+      "bytes": 24520,
+      "role": "authority"
+    },
+    {
+      "file": "Aquitaine_Historical_Momentum_Preflight_V1_1.md",
+      "sha256": "bd089397cc570c2ec336232ca245ced8a836143711f35b8586613efc8467801f",
+      "bytes": 2596,
+      "role": "specialistPreflight"
+    },
+    {
+      "file": "Aquitaine_Historical_Momentum_Preflight_V1_1.json",
+      "sha256": "13c09ac7ebbf093d691d95584fbc93a1cc10c5c30f661585d647c8c9b62df16d",
+      "bytes": 1884,
+      "role": "specialistPreflight"
+    },
+    {
+      "file": "Aquitaine_Historical_Emergence_Preflight_V1_1.md",
+      "sha256": "1b97c1a1d58102f0e820011770187f354096c166b951269f8a98028efd7cd24c",
+      "bytes": 2595,
+      "role": "specialistPreflight"
+    },
+    {
+      "file": "Aquitaine_Historical_Emergence_Preflight_V1_1.json",
+      "sha256": "f52161f4e71d4b200d21aa88eab7993e4653e2ffc5ce1c65775debfc7e95791c",
+      "bytes": 1884,
+      "role": "specialistPreflight"
+    },
+    {
+      "file": "Aquitaine_Ecclesiastical_Preflight_V1_1.md",
+      "sha256": "93cdd4f332610b8b1aeede9924d2f676b51df5cc91f017657ecd0c286799b4a5",
+      "bytes": 2583,
+      "role": "specialistPreflight"
+    },
+    {
+      "file": "Aquitaine_Ecclesiastical_Preflight_V1_1.json",
+      "sha256": "6eaaebbb2c2f0ef46bccc42a040eb0e00c1a0a788cea82c432b1609e7c9372bd",
+      "bytes": 1874,
+      "role": "specialistPreflight"
+    },
+    {
+      "file": "Aquitaine_Dual_Clock_and_Authority_Compatibility_Review_V1.md",
+      "sha256": "dfdb73875e1e0afaa5df80371451994e1c0f7d0062c89b3c1d7ffd044f7700cc",
+      "bytes": 20417,
+      "role": "freezeControl"
+    },
+    {
+      "file": "Aquitaine_Package_Preflight_V1_1.md",
+      "sha256": "8175b3710f282a4452e99cb725fd2278b15655deb6e59f3aa1687f422cd1543d",
+      "bytes": 7452,
+      "role": "freezeControl"
+    },
+    {
+      "file": "Aquitaine_Package_Preflight_V1_1.json",
+      "sha256": "914f720c5e258284cbfcbc25c9657fb24d6f06a16e92ea7741314eb700066345",
+      "bytes": 7800,
+      "role": "freezeControl"
+    }
+  ],
+  "evidenceBoundary": {
+    "staticChecked": true,
+    "compileValidation": "NOT_RUN",
+    "runtimeValidation": "NOT_RUN",
+    "importerValidation": "NOT_RUN",
+    "saveLoadValidation": "NOT_RUN",
+    "replayValidation": "NOT_RUN",
+    "performanceValidation": "NOT_RUN"
+  },
+  "gate": {
+    "freezeBaselineV1_1": "PASS_STATIC_CHECKED",
+    "frozenManifestV1_1": "READY_TO_GENERATE",
+    "readmeAndIndex": "UPDATE_AFTER_MANIFEST",
+    "machineReadableSchema": "BLOCKED_PENDING_MANIFEST",
+    "importer": "BLOCKED"
+  }
+}

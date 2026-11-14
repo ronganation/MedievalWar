@@ -1,0 +1,26 @@
+{
+  "document_id": "static-check.scotland.source_authority_gap_identity.v1_1.current_authority_refinement",
+  "version": "2.0.2",
+  "source_file": "Scotland_Source_Authority_Gap_and_Identity_Review.md",
+  "source_sha256": "f9096f74e92e3a8e09ade035121bd91ff0471354a40f6b5d049cf0055a242a23",
+  "source_bytes": 37517,
+  "output_file": "Scotland_Source_Authority_Gap_and_Identity_Review_V1.1_Current_Authority_Refinement.md",
+  "output_bytes": 66264,
+  "checks": {
+    "new_file_created": true,
+    "larger_than_source": true,
+    "complete_source_and_current_work_present": true,
+    "all_four_current_network_edges": true,
+    "eight_canonical_people": true,
+    "specialist_gap_categories": true,
+    "three_track_model": true,
+    "ingibjorg_not_duplicated": true,
+    "supply_not_reowned": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

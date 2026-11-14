@@ -1,0 +1,38 @@
+{
+  "package": "Venice E2 machine-readable candidate family",
+  "files": [
+    {
+      "name": "Venice_Opening_State_1062_V1.json",
+      "sha256": "9b33751c472c07ee9e7fbbc1bc5647960a3f007477c9ff3412d9518d08337b2b",
+      "bytes": 7105
+    },
+    {
+      "name": "Venice_Opening_State_1062_V1.schema.json",
+      "sha256": "90fa6adc3c5383fee57b9d31e07faa7118cf760a1ad313856f30f341d7a8d763",
+      "bytes": 6367
+    },
+    {
+      "name": "Venice_Opening_State_1062_V1.validation.json",
+      "sha256": "f325abfb5a318137d222bed655544777af7fec4b0513f374d6e9dc5072baf02a",
+      "bytes": 1436
+    },
+    {
+      "name": "Venice_Opening_State_1062_V1.owner_routing.json",
+      "sha256": "a3378969916931cbdb1f15c98f0dc6cf081d691313386b086cd247782f5591fd",
+      "bytes": 6824
+    },
+    {
+      "name": "Venice_Opening_State_1062_V1.fixtures.json",
+      "sha256": "34981c7476057946719d9bd7e5429875693ffe7e498c36826bfcf20f284ff840",
+      "bytes": 10700
+    },
+    {
+      "name": "Venice_Opening_State_1062_V1.validation_report.json",
+      "sha256": "58a98dc01fb83b5925d2cb2a2417072c547fccdb87d6b0a040e0cb8e48edf857",
+      "bytes": 1856
+    }
+  ],
+  "authoritativeMutationCount": 0,
+  "realPayload": false,
+  "candidateOnly": true
+}

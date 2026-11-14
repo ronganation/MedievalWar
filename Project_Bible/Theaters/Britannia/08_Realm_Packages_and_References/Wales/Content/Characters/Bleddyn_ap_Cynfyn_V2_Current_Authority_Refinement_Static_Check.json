@@ -1,0 +1,30 @@
+{
+  "document_id": "static-check.wales.bleddyn-ap-cynfyn.v2.current-authority-refinement",
+  "version": "2.0.0",
+  "source": "Bleddyn_ap_Cynfyn.md",
+  "successor": "Bleddyn_ap_Cynfyn_V2_Current_Authority_Refinement.md",
+  "source_bytes": 45892,
+  "source_physical_lines": 1060,
+  "source_sha256": "448814d12f34e146d453207b0aa847497a746c4dd766343a2970aa23458223a4",
+  "successor_bytes": 66031,
+  "successor_physical_lines": 1670,
+  "successor_sha256": "1845902d73546028fcacf893292b5836f8f4f180275ff18d983b6c4f92063a1e",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "protected_source_content_present": true,
+    "canonical_id_present": true,
+    "opening_participation_active": true,
+    "title_and_succession_blocked": true,
+    "network_edges_present": true,
+    "network_dimensions_zero": true,
+    "three_track_temporal_model": true,
+    "ue_5_8": true,
+    "honest_validations": true,
+    "authorizations_false": true,
+    "required_literals": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

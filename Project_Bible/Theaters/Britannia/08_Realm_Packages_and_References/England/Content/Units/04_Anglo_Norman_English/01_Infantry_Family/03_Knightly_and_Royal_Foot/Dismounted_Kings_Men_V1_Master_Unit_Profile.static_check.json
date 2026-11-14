@@ -1,0 +1,20 @@
+{
+  "document": "Dismounted_Kings_Men_V1_Master_Unit_Profile.md",
+  "sha256": "2379ba3d0783ca14ced3514e0c957158040746ce3f6203fb018384fe2ec9d9d0",
+  "checks": {
+    "substantive_length": true,
+    "sections_consecutive": true,
+    "sections_at_least_95": true,
+    "terrain_25": true,
+    "external_values": true,
+    "mounted_foot_firewall": true,
+    "rolling_availability": true,
+    "poleaxe_depth": true,
+    "survival_test": true,
+    "batches": true,
+    "no_escaped_underscores": true,
+    "fences_balanced": true,
+    "footer_final": true,
+    "pass": true
+  }
+}

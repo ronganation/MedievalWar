@@ -1,0 +1,56 @@
+{
+  "document_id": "Manifest.Dynasty.Wales.HouseAberffraw.V2",
+  "version": "2.0.0",
+  "status": "Static-Checked Draft",
+  "immediate_source": {
+    "filename": "House_Aberffraw_Dynasty.md",
+    "bytes": 41313,
+    "physical_lines": 1482,
+    "sha256": "087f139842f9c6d8717a5321daeaec3fa3511e2dc173362c1dbcdb2e98931672"
+  },
+  "successor": {
+    "filename": "House_Aberffraw_Dynasty_V2_Current_Authority_Refinement.md",
+    "bytes": 62770,
+    "physical_lines": 2185,
+    "sha256": "6c0496acfca1a941d00bc1a9a23ace8c0e9fcb3f99aafa6629bcc27c9f53a534"
+  },
+  "copy_method": "literal full-file prefix plus additive current-authority refinement",
+  "source_fidelity": {
+    "literal_source_prefix": true,
+    "source_headings_preserved": 109,
+    "removed_content": []
+  },
+  "opening_contract": {
+    "dynasty_id": "Dynasty.HouseAberffraw",
+    "political_state": "Displaced",
+    "continuity_state": "FragileUnderageContinuity",
+    "living_members": [
+      "Person.GruffuddApCynan"
+    ],
+    "historical_references": [
+      "Person.CynanApIago",
+      "Person.IagoAbIdwalApMeurig"
+    ],
+    "adult_representative": null,
+    "opening_titles": 0,
+    "opening_claims": 0,
+    "opening_governments": 0,
+    "opening_edges": 0,
+    "opening_dimensions": 0
+  },
+  "validation": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "static_check": {
+    "filename": "House_Aberffraw_Dynasty_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true,
+    "failed_checks": []
+  }
+}

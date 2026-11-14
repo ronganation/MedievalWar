@@ -1,0 +1,111 @@
+{
+  "manifest_id": "mw.manifest.military_content_roster_recruitment_development.v1_2",
+  "manifest_version": "1.1.0",
+  "document": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.md",
+  "version": "1.2.0",
+  "status": "StaticCheckedCurrentFrameworkReconciliationCandidate",
+  "created_utc": "2026-09-15T00:00:00-04:00",
+  "refreshed_date": "2026-10-19",
+  "sha256": "52279012535a3da8963061bae63ae25c2ef9c8bc41991f59bc37093ab6a168ed",
+  "size_bytes": 104358,
+  "evidence_status": "FreshlyVerifiedFromLiveSubjectFile",
+  "previous_output_fingerprint": {
+    "sha256": "e35589993c0a3a54de3ccd8b93ea9e542f0c5f0663e062e59cded1b8295930bc",
+    "size_bytes": 103524,
+    "evidence_status": "HistoricalOnlySupersededManifestOutputFingerprint"
+  },
+  "correction_receipt": "../Reviews/Military_Content_V1_2_Source_Lineage_and_Duplicate_Hash_Metadata_Correction_Receipt_V1.md",
+  "immediate_source": {
+    "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_1.md",
+    "sha256": "68d4f098aef265a2e053e7c13e65b0c08adf0a92d2bb46f62962dcd77ab1a2fe",
+    "preserved_complete": true,
+    "preservation_evidence_status": "RetainedDocumentedClaimNotFreshDonorByteComparison",
+    "evidence_status": "DocumentedLineageEvidenceNotFreshlyRehashedDonorBytes",
+    "donor_availability_verified": false
+  },
+  "historical_source": {
+    "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1.md",
+    "sha256": "fe5561c874820a0466ecab090ee29d8052014ae3053ba8e4f29a0a36a806835f",
+    "evidence_status": "DocumentedLineageEvidenceNotFreshlyRehashedDonorBytes",
+    "donor_availability_verified": false
+  },
+  "coverage_integration_source": {
+    "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_1_Coverage_Integration.md",
+    "sha256": "1e8e1961203661280e158b568f729230c0c0cf94b9a6e0824063385e8f9a1f46",
+    "evidence_status": "DocumentedLineageEvidenceNotFreshlyRehashedDonorBytes",
+    "donor_availability_verified": false
+  },
+  "supporting_framework": {
+    "file": "Regional_Military_Enclave_and_Controller_Recruitment_Framework_V1_1_Authority_Reference_Correction.md",
+    "sha256": "580acff6ee2aef06de1726037b3fe36570cc062acaeb702d21085f6174e7dce5",
+    "size_bytes": 37911,
+    "evidence_status": "FreshlyVerifiedFromLiveSupportingSpecialistFile",
+    "previous_file_label": {
+      "file": "regional_v11.md",
+      "evidence_status": "HistoricalManifestLabelOnlyNotCurrentFilename"
+    },
+    "merged": false,
+    "relationship": "SpecialistChildFramework"
+  },
+  "historical_supporting_framework": {
+    "file": "Regional_Military_Enclave_and_Controller_Recruitment_Framework_V1.md",
+    "relationship": "HistoricalSpecialistSource"
+  },
+  "manifest_currentness_note": [
+    "Refreshed after the 2026-10-19 metadata-only authority correction, which changed source-role key names and added a correction note.",
+    "The correction receipt records that the complete substantive authority body was preserved; this refresh does not claim a new donor-byte preservation comparison.",
+    "This manifest supersedes its own former output fingerprint only. The subject version and candidate status are unchanged.",
+    "The unchanged static-check companion still records the pre-correction fingerprint and remains historical until separately refreshed; its pass result is not validation of the current authority bytes.",
+    "No owner adoption, promotion, Registry, Opening State, runtime, importer, save, migration, payload, asset, or Unreal activity occurred."
+  ],
+  "static_check_currentness": {
+    "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.static_check.json",
+    "evidence_status": "UnchangedHistoricalPreCorrectionValidationOnly",
+    "attests_current_subject_bytes": false
+  },
+  "validation_performed": [
+    "Live subject file existence",
+    "Current subject byte size and SHA-256 recalculated directly from the live file",
+    "Manifest JSON parsing and duplicate-key rejection",
+    "Exact subject filename, version, and candidate status matching",
+    "Source-role metadata matching against the corrected authority and correction receipt",
+    "Live supporting regional specialist existence, byte size, and independent SHA-256 rehash",
+    "Zero-effect boundary checks, including unchanged protected-file hashes"
+  ],
+  "validation_not_performed": [
+    "Donor-source byte rehash",
+    "Historical research validation",
+    "Owner adoption",
+    "Registry validation",
+    "Opening State validation",
+    "Importer validation",
+    "Compile validation",
+    "Runtime validation",
+    "Save/load validation",
+    "Migration validation",
+    "Replay validation",
+    "Performance validation",
+    "Battle validation"
+  ],
+  "effect_permissions": {
+    "owner_adoption_authorized": false,
+    "promotion_authorized": false,
+    "stable_ID_allocation_authorized": false,
+    "Registry_mutation_authorized": false,
+    "Opening_State_mutation_authorized": false,
+    "runtime_mutation_authorized": false,
+    "importer_activity_authorized": false,
+    "save_mutation_authorized": false,
+    "migration_activity_authorized": false,
+    "payload_mutation_authorized": false,
+    "asset_mutation_authorized": false,
+    "Unreal_activity_authorized": false
+  },
+  "source_files_modified": [],
+  "source_files_deleted": [],
+  "stable_IDs_allocated": [],
+  "Registry_changes": [],
+  "Opening_State_changes": [],
+  "runtime_changes": [],
+  "Unreal_changes": []
+}

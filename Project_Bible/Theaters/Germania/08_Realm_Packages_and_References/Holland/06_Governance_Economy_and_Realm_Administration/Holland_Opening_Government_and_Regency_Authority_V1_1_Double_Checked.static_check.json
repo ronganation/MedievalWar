@@ -1,0 +1,26 @@
+{
+  "document": "Holland_Opening_Government_and_Regency_Authority_V1_1_Double_Checked.md",
+  "sha256": "1acdc4ba1604b124a97d349e94d54f0bcd8ace4bdbc6837f7f40dc3464af1744",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_33": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_manifest_hash_matches": true,
+    "predecessor_static_passed": true,
+    "decision_validity": true,
+    "consent_architecture": true,
+    "delegation_lifecycle": true,
+    "fiscal_refinement": true,
+    "protector_ladder": true,
+    "emergency_levels": true,
+    "personal_rule": true,
+    "ai_scoring": true,
+    "exploit_firewalls": true,
+    "next_authority": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true
+  },
+  "pass": true
+}

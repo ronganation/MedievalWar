@@ -1,0 +1,91 @@
+{
+  "report_id": "static_check.campaign_theater.registry_decision_index.blocked_draft.v1_1",
+  "version": "1.1.0",
+  "status": "PASS_BLOCKED_DRAFT_STATIC_CHECK",
+  "schema_errors": [],
+  "rule_results": [
+    {
+      "code": "CTRIDX-001",
+      "status": "Pass",
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "code": "CTRIDX-002",
+      "status": "Pass",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "code": "CTRIDX-003",
+      "status": "Pass",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "code": "CTRIDX-004",
+      "status": "Pass",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "code": "CTRIDX-005",
+      "status": "Pass",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "code": "CTRIDX-006",
+      "status": "Pass",
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "code": "CTRIDX-007",
+      "status": "Pass",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "code": "CTRIDX-008",
+      "status": "Pass",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "code": "CTRIDX-009",
+      "status": "Pass",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "code": "CTRIDX-010",
+      "status": "Pass",
+      "actual": true,
+      "expected": true
+    }
+  ],
+  "checks": {
+    "schema_valid": true,
+    "theater_record_count": 4,
+    "typed_association_candidate_count": 4,
+    "cross_theater_association_count": 3,
+    "same_theater_typed_candidate_count": 1,
+    "blocked_record_count": 8,
+    "duplicate_theater_ref_count": 0,
+    "duplicate_association_id_count": 0,
+    "failed_semantic_rule_count": 0,
+    "all_architectural_receipts_absent": true,
+    "all_activation_false": true,
+    "authorization_closed": true,
+    "association_class_semantics_valid": true
+  },
+  "evidence_boundary": {
+    "owner_decisions_received": false,
+    "authoritative_registry_index_created": false,
+    "registry_mutation_performed": false,
+    "association_activation_performed": false,
+    "scenario_execution_performed": false,
+    "migration_performed": false
+  }
+}

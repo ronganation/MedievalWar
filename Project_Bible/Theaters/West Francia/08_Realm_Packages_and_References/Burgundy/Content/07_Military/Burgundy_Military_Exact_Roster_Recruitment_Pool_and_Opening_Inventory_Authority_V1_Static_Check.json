@@ -1,0 +1,25 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "families_23": true,
+    "sources_11": true,
+    "availability_8": true,
+    "recovery_8": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "finite_pools": true,
+    "exact_arrays_empty": true,
+    "no_mutations": true,
+    "women_boundary": true,
+    "crossbow_honest": true,
+    "footer_once": true,
+    "honest": true,
+    "final_marker": true
+  },
+  "AuthoritySHA256": "7c8c4985ee65a292c748b72b5261991e6d957798339808ad4629e738b0b4d00e",
+  "AuthorityBytes": 60942,
+  "AuthorityLines": 1118,
+  "Scope": "Static exact-roster identity, finite-pool, opening-inventory, owner-boundary, save-safety, and hygiene checks"
+}

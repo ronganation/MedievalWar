@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationLegacyReaderWriterInventoryRunnerManifest",
+    "name": "Trait Reputation Legacy Reader Writer Inventory Runner Manifest V1",
+    "version": "1.0",
+    "status": "ReadOnlyRunnerPrepared_LocalRepositoryExecutionRequired",
+    "authority_class": "Migration Inventory Tool Manifest"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Characters/Trait_Reputation",
+    "files": [
+      "Trait_Reputation_Run_Legacy_Reader_Writer_Inventory_V1.ps1",
+      "README_Trait_Reputation_Legacy_Reader_Writer_Inventory_Runner_V1.md"
+    ]
+  },
+  "authorization_boundary": {
+    "repository_read_authorized": true,
+    "single_inventory_output_write_authorized": true,
+    "source_content_write_authorized": false,
+    "runtime_write_authorized": false,
+    "save_write_authorized": false,
+    "registry_write_authorized": false,
+    "migration_execution_authorized": false
+  },
+  "expected_output": "Trait_Reputation_Legacy_Reader_Writer_Inventory_V1.json",
+  "run": {
+    "mode": "InventoryRunnerPackaging",
+    "execution_status": "Completed",
+    "repository_inventory_executed": false,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "registry_mutations": 0
+  },
+  "smallest_useful_next_action": "Run the PowerShell inventory runner from the actual repository root, then provide Trait_Reputation_Legacy_Reader_Writer_Inventory_V1.json for classification and content/save dry-run planning."
+}

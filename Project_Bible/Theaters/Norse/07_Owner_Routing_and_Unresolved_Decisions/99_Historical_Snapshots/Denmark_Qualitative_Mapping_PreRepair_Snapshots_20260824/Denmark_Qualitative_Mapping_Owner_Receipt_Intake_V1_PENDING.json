@@ -1,0 +1,48 @@
+{
+  "document_identity": {
+    "document_id": "mw.denmark.qualitative_mapping.owner_receipt_intake.v1",
+    "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Intake_V1_PENDING.json",
+    "version": "1.0.0",
+    "date": "2026-08-24",
+    "status": "PENDING_NO_OWNER_RECEIPT"
+  },
+  "authority_boundary": {
+    "constitutional_authority": "Project Bible 2.4",
+    "operational_authority": "Design Expansion Checklist 3.7",
+    "owner_response_ledger": "Denmark_Qualitative_Mapping_Owner_Response_Ledger_V1.json",
+    "decision_request_packet": "Denmark_Qualitative_Mapping_Authority_and_Owner_Receipt_Decision_Packet_V1.md"
+  },
+  "intake_state": {
+    "receipt_submitted": false,
+    "receipt_validated": false,
+    "ledger_update_authorized": false,
+    "implementation_authorized": false,
+    "runtime_mutation_authorized": false
+  },
+  "receipt": {
+    "request_id": "",
+    "owner_authority_ref": "",
+    "owner_receipt_id": "",
+    "disposition": "",
+    "authority_or_evidence_refs": [],
+    "approval_scope": "",
+    "approved_dimensions": [],
+    "approved_bands": [],
+    "mapping_contract_ref": "",
+    "receiving_owner_ref": "",
+    "rollback_contract_ref": "",
+    "receipt_contract_ref": "",
+    "effective_version": ""
+  },
+  "authorization": {
+    "vocabulary_adoption_authorized": false,
+    "numeric_mapping_adoption_authorized": false,
+    "relationship_owner_approval_authorized": false,
+    "owner_submission_authorized": false,
+    "runtime_mutation_authorized": false,
+    "opening_state_execution_authorized": false,
+    "save_persistence_authorized": false,
+    "migration_execution_authorized": false,
+    "replay_validation_authorized": false
+  }
+}

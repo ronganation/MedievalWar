@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.england.historical_momentum.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "England_Historical_Momentum.md",
+    "version": "1.0",
+    "sha256": "f281058ef1385e81d197893587b0b1a842ca0922d848fc2d7765c7112e443e85",
+    "bytes": 34385,
+    "copy_based_rebuild": true
+  },
+  "files": [
+    {
+      "filename": "England_Historical_Momentum_V1.1_Current_Authority_Refinement.md",
+      "sha256": "7bfc2f755a6ff453ce5ce486ace2dc739a33cd7252f1c6a13ad2e293ea9c38b8",
+      "bytes": 54311
+    },
+    {
+      "filename": "England_Historical_Momentum_V1.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "20f1c3fb26f62357803e6629268acbc75074050c8e870a2a8cd96957a7b9b54a",
+      "bytes": 912
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "Momentum_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

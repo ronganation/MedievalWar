@@ -1,0 +1,14 @@
+{
+  "FileName": "Shared_Save_Current_Source_Evidence_Receipt_V1.md",
+  "SHA256": "39802DEA7F002C7E18D959E1D859CA4247E844F6A98F25E608F9A5F1D8D30DB0",
+  "Bytes": 8094,
+  "Lines": 229,
+  "Checks": {
+    "no_false_complete": true,
+    "schema_unresolved": true,
+    "candidate": true,
+    "fences": true,
+    "literal": true,
+    "footer": true
+  }
+}

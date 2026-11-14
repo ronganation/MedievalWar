@@ -1,0 +1,37 @@
+{
+  "ManifestId": "manifest.aquitaine.opening-campaign-opportunity.v1",
+  "Version": "1.0.0",
+  "GeneratedDate": "2026-09-05",
+  "AuthorityFile": "Aquitaine_Opening_Campaign_Opportunity_and_Early_Conflict_Reservation_V1.md",
+  "AuthoritySHA256": "f981fb12c69ebc39d7d017c361ce115be91385bdbc06472987410318ad08b8f8",
+  "AuthorityLines": 1242,
+  "AuthorityBytes": 43277,
+  "MarkdownHeadings": 55,
+  "MarkdownFences": 82,
+  "Status": "StaticCheckedReservationReviewOnly",
+  "ReviewTarget": "Aquitaine",
+  "PrimaryBenchmark": "France_Opening_Campaign_Opportunity_and_Early_Conflict_Reservation_V1.md",
+  "ForeignContentTransferred": false,
+  "ValidationSummary": {
+    "Checks": 22,
+    "Passes": 22,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "SourceFilesOverwritten": 0,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "OpportunityInstancesCreated": 0,
+    "MapBindingsCreated": 0,
+    "WarActivations": 0,
+    "RebelActivations": 0,
+    "BattleInstancesCreated": 0,
+    "PapalRequestsCreated": 0,
+    "BarbastroInvitationsCreated": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "NextRecommendedFile": "Aquitaine_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md"
+}

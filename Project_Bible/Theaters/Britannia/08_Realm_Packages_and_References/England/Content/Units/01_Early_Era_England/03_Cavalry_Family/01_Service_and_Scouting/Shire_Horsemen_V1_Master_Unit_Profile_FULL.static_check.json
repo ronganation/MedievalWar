@@ -1,0 +1,27 @@
+{
+  "document": "Shire_Horsemen_V1_Master_Unit_Profile_FULL.md",
+  "sha256": "58ba3862754b5018c8c60248f039804e188a6cc0f7a23e9f96225fc76015fc48",
+  "pass": true,
+  "checks": {
+    "hash_matches_manifest": true,
+    "single_title": true,
+    "display_name_present": true,
+    "early_local_role_present": true,
+    "mounted_thegn_distinction_present": true,
+    "mounted_sergeant_distinction_present": true,
+    "hobilars_boundary_present": true,
+    "guild_boundary_present": true,
+    "layered_population_present": true,
+    "finite_pool_boundary_present": true,
+    "terrain_rows_25": true,
+    "three_track_model": true,
+    "opening_not_activated": true,
+    "no_stable_id_allocated": true,
+    "no_mutation": true,
+    "no_escaped_underscores": true,
+    "no_escaped_list_hyphens": true,
+    "stable_footer_final": true,
+    "mounted_thegn_comparator_confirms_noble_role": true,
+    "mounted_thegn_comparator_confirms_s04_s07": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "manifest_version": "1.0",
+  "method": "EvidenceBoundedFranceRealmDiscovery",
+  "authority_file": "France_Realm_Source_Authority_Portfolio_and_Implementation_Discovery_V1.md",
+  "authority_bytes": 17996,
+  "authority_lines": 491,
+  "authority_sha256": "dc63a95d1df2810b8a61b867f590c36105f104820c50b0e0b91fe48e319c4578",
+  "verified_primary_source": "France_Character_Authorities_V1.md",
+  "recursive_package_inventory_completed": false,
+  "source_files_modified": 0,
+  "files_moved": 0,
+  "files_deleted": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "migration_executions": 0,
+  "Unreal_mutations": 0,
+  "runtime_mutations": 0,
+  "static_check_file": "France_Realm_Source_Authority_Portfolio_and_Implementation_Discovery_V1_Static_Check.json",
+  "static_check_sha256": "f808871a01b52e3553f6b6822c5a05c51423a8242bd6d6cb168f03ba43f5227c",
+  "all_checks_passed": true,
+  "validation_scope": "content-based static partial France discovery; no recursive package access, Registry mutation, Opening State activation, importer, migration, compile, runtime, save-load, replay, performance, battle, or physical promotion validation"
+}

@@ -1,0 +1,17 @@
+{
+  "Mode": "ReadOnlyCandidateDryRun",
+  "ExpectedBundleItems": 27,
+  "ExpectedDirectAliases": 15,
+  "ExpectedPackageId": "package.france.current-candidate.v1",
+  "ExpectedRealmIdCandidate": "realm.france",
+  "ExpectedScenarioId": "mw.scenario.grand_campaign.1062",
+  "CommitAllowed": false,
+  "Prohibited": [
+    "RegistryMutation",
+    "AliasExecution",
+    "OpeningStateActivation",
+    "UnrealMutation",
+    "RuntimeMutation",
+    "RealPayloadImport"
+  ]
+}

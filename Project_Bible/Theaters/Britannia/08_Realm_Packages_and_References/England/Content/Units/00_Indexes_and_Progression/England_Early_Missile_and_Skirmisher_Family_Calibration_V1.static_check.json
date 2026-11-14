@@ -1,0 +1,12 @@
+{
+  "document": "England_Early_Missile_and_Skirmisher_Family_Calibration_V1.md",
+  "sha256": "e0e58e52b5295b9c06294674ea56c14cbaee476250b3133d5ae64e7bf4e01554",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "single_title": true,
+    "no_runtime_mutation": true,
+    "three_track": true,
+    "no_source_changes": true
+  }
+}

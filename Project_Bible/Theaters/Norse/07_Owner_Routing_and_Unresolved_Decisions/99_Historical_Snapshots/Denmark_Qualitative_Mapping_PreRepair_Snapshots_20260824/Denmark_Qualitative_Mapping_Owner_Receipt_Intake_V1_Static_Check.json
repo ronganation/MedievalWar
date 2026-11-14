@@ -1,0 +1,20 @@
+{
+  "check_id": "check.denmark.qualitative_mapping.owner_response_and_intake.v1",
+  "status": "PASS_PENDING_OWNER_RESPONSE_AND_RECEIPT_STATIC_CHECK",
+  "request_count_exactly_7": true,
+  "stable_order_exact": true,
+  "request_ids_unique": true,
+  "pending_count_exactly_6": true,
+  "deferred_count_exactly_1": true,
+  "all_owner_authorities_null": true,
+  "all_owner_receipts_null": true,
+  "all_dispositions_null": true,
+  "no_approval_scope_granted": true,
+  "authorization_closed": true,
+  "pending_intake_empty": true,
+  "schema_additional_properties_closed": true,
+  "schema_runtime_mutation_forced_false": true,
+  "ledger_summary_consistent": true,
+  "markdown_fences_balanced": true,
+  "no_escaped_underscores": true
+}

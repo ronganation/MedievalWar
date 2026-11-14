@@ -1,0 +1,26 @@
+{
+  "document_id": "static-check.england.historical_momentum.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "source_file": "England_Historical_Momentum.md",
+  "source_sha256": "f281058ef1385e81d197893587b0b1a842ca0922d848fc2d7765c7112e443e85",
+  "source_bytes": 34385,
+  "output_file": "England_Historical_Momentum_V1.1_Current_Authority_Refinement.md",
+  "output_bytes": 54311,
+  "checks": {
+    "new_file_created": true,
+    "larger_than_source": true,
+    "full_source_portfolios_present": true,
+    "eleven_momentum_portfolios": true,
+    "all_four_Aelfgar_states": true,
+    "specialist_integrations": true,
+    "opening_registry_AI_handoffs": true,
+    "governance_inside_law_policy": true,
+    "supply_not_reowned": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

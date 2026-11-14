@@ -1,0 +1,941 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "CharacterSystemToCharacterFoundationMigrationPreflight",
+    "name": "Character System to Character Foundation Migration Contract V1.1 Preflight",
+    "version": "1.2",
+    "status": "DocumentSourceInspectedControlMetadataReconciledToContractV1_1",
+    "authority_class": "Migration Preflight Companion and Evidence Record",
+    "contract": "Character_System_to_Character_Foundation_V1_Migration_Contract_V1.md",
+    "owner": "Character Foundation",
+    "target": "Unreal Engine 5.8",
+    "current_destination_authority": "Character_Foundation_Framework_V2_Current_Authority_Additive_Modernization.md",
+    "current_destination_authority_version": "2.1.0",
+    "physical_folder": "Project_Bible/Frameworks_And_Integration_Authorites/Characters/Foundation"
+  },
+  "scope": {
+    "inspection_level": "LegacyMarkdownDesignDocument",
+    "included": [
+      "Character_System.md document structure",
+      "named conceptual attribute families",
+      "conceptual role, trait, relationship, office, health, lifecycle, integration, and AI sections"
+    ],
+    "excluded": [
+      "C++ declarations",
+      "Blueprint property exports",
+      "DataTable row structs and columns",
+      "Data Asset schemas",
+      "custom serializers",
+      "SaveGame classes and GUIDs",
+      "runtime mutation sites",
+      "tests and fixtures",
+      "exact owner API symbols"
+    ],
+    "scope_rule": "Observed Markdown names are conceptual source evidence, not proof of serialized UE5 field symbols."
+  },
+  "source": {
+    "file": "Character_System.md",
+    "displayed_repository_path": "C:\\Medieval War\\Medieval War (England)\\Project_Bi...",
+    "path_status": "ScreenshotTruncated",
+    "document_declared_path": "Medieval War \u2014 Systems/Character_System.md",
+    "filesystem_modified_local": "2026-07-26T21:15:00",
+    "filesystem_modified_timezone": null,
+    "timestamp_type": "FilesystemModifiedDate",
+    "timestamp_evidence": "Windows File Explorer screenshot supplied by project owner",
+    "displayed_size": "7.34 KB",
+    "raw_byte_size": null,
+    "sha256": null,
+    "hash_status": "UnavailableBecauseRawSourceBytesWereNotExportedToExecutionEnvironment",
+    "creation_date": null,
+    "creation_date_status": "NotEstablished",
+    "legacy_classification_date": "2026-08-02",
+    "authority_status": "SupersededLegacySource",
+    "constitutional_successor": "Character_Foundation_Framework_v1.md"
+  },
+  "run": {
+    "mode": "DryRun",
+    "execution_status": "DocumentInspectionExecuted",
+    "verdict": "PassWithReviewItems",
+    "verdict_scope": "DocumentLevelConceptualInventoryOnly",
+    "verdict_reason": "The supplied legacy Markdown source was inspected and its conceptual field families were classified. Exact UE5 source-schema, records, registries, save versions, and runtime migration were not available and remain blocked.",
+    "authoritative_mutation_permitted": false,
+    "proposed_mutation_count": 0,
+    "actual_mutation_count": 0,
+    "staging_write_count": 0,
+    "save_write_count": 0,
+    "commit_attempted": false,
+    "commit_succeeded": false
+  },
+  "versions": {
+    "migration_contract_version": "1.1.0",
+    "preflight_version": "1.2.0",
+    "source_document_schema_version": "UnversionedMarkdownLegacyDesign",
+    "source_ue5_schema_version": null,
+    "destination_character_foundation_design_version": "2.1.0",
+    "destination_character_foundation_ue5_schema_version": null,
+    "migration_registry_version": null,
+    "canonical_character_registry_version": null,
+    "campaign_version": null,
+    "save_schema_source_version": null,
+    "save_schema_destination_version": null,
+    "project_bible_version": "2.4",
+    "design_expansion_checklist_version": "3.7",
+    "implementation_target": "Unreal Engine 5.8",
+    "scenario_opening": "1062-01-01 Winter",
+    "three_track_temporal_model": {
+      "historical_progression": "21MonthsPerStrategicTurn",
+      "biological_progression": "7MonthsPerStrategicTurn",
+      "campaign_season_progression": "OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn"
+    }
+  },
+  "inspection_results": {
+    "source_document_inspection": "Complete",
+    "conceptual_field_family_inventory": "CompleteForSuppliedMarkdown",
+    "exact_ue5_source_schema_inventory": "NotAvailable",
+    "runtime_record_inventory": "NotAvailable",
+    "identity_record_inventory": "NotApplicableToConceptualDocument",
+    "source_sections_classified": 21,
+    "exact_names_observed_not_schema_confirmed": [
+      "Martial",
+      "Administration",
+      "Diplomacy",
+      "Intrigue",
+      "Learning",
+      "Logistics",
+      "Authority"
+    ],
+    "guardian_id_observed_in_character_system_markdown": false,
+    "guardian_id_note": "GuardianId is referenced by migration authorities as a legacy exact field, but it is not present in the supplied Character_System.md design text. Exact declaration evidence remains required.",
+    "universal_attribute_scale_observed": "0-10",
+    "monolithic_governance_language_observed": true,
+    "linear_lifecycle_observed": true,
+    "flat_relationship_type_list_observed": true,
+    "single_authority_attribute_observed": true
+  },
+  "field_classification": {
+    "allowed_classes": [
+      "FoundationOwned",
+      "SpecialistOwned",
+      "ScenarioFact",
+      "RuntimeState",
+      "DerivedValue",
+      "PresentationOnly",
+      "Deprecated",
+      "Unknown"
+    ],
+    "inventory_status": "ConceptualDocumentInventoryComplete_ExactSchemaPending",
+    "fields": [
+      {
+        "source_path": "Character System > Overview",
+        "source_symbol": null,
+        "source_kind": "ConceptualSection",
+        "observed_concepts": [
+          "individuals influencing the medieval world",
+          "personal layer beneath larger systems",
+          "characters are not merely trait containers"
+        ],
+        "classification": "FoundationOwned",
+        "constitutional_owner": "Character Foundation",
+        "disposition": "RetainAndReframe",
+        "destination": "Foundation purpose and core design thesis",
+        "population_count": null,
+        "representative_value_types": [
+          "prose",
+          "role list"
+        ],
+        "review_owner": "Character Foundation",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Categories",
+        "source_symbol": null,
+        "source_kind": "ConceptualCategorySet",
+        "observed_concepts": [
+          "Rulers",
+          "Heirs",
+          "Nobles",
+          "Governors",
+          "Military Characters",
+          "Religious Figures",
+          "Guild Leaders",
+          "Agents"
+        ],
+        "classification": "SpecialistOwned",
+        "constitutional_owner": "Character Foundation simulation tiers, Character Archetype, offices, institutions, titles, succession, and future agent/mission owners",
+        "disposition": "Refactor",
+        "destination": "Typed roles and owner-specific records; not hard character classes",
+        "population_count": 8,
+        "representative_value_types": [
+          "named conceptual category"
+        ],
+        "review_owner": "Character Foundation and specialist owners",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Attributes > Martial",
+        "source_symbol": "Martial",
+        "source_kind": "NamedConceptualAttribute",
+        "observed_concepts": [
+          "0-10 scale",
+          "battle effectiveness",
+          "army morale",
+          "recruitment quality"
+        ],
+        "classification": "DerivedValue",
+        "constitutional_owner": "Character Development and military specialist owners",
+        "disposition": "ArchiveAsAuthoritative; derive presentation summary only if later authorized",
+        "destination": "Command readiness, strategic judgment, military experience, health, and support inputs",
+        "population_count": null,
+        "representative_value_types": [
+          "integer 0-10 described, no records supplied"
+        ],
+        "review_owner": "Character Development",
+        "evidence_status": "ExactNameObservedInMarkdown_NotSchemaSymbol",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Attributes > Administration",
+        "source_symbol": "Administration",
+        "source_kind": "NamedConceptualAttribute",
+        "observed_concepts": [
+          "0-10 scale",
+          "taxes",
+          "public order",
+          "building efficiency"
+        ],
+        "classification": "DerivedValue",
+        "constitutional_owner": "Character Development, Governance, and institutional owners",
+        "disposition": "ArchiveAsAuthoritative; decompose only with typed evidence",
+        "destination": "Governance readiness, institutional familiarity, staff, workload, and jurisdiction inputs",
+        "population_count": null,
+        "representative_value_types": [
+          "integer 0-10 described, no records supplied"
+        ],
+        "review_owner": "Character Development and Governance",
+        "evidence_status": "ExactNameObservedInMarkdown_NotSchemaSymbol",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Attributes > Diplomacy",
+        "source_symbol": "Diplomacy",
+        "source_kind": "NamedConceptualAttribute",
+        "observed_concepts": [
+          "0-10 scale",
+          "negotiations",
+          "treaties",
+          "court interactions"
+        ],
+        "classification": "DerivedValue",
+        "constitutional_owner": "Character Development, Character Network, and diplomacy owners",
+        "disposition": "ArchiveAsAuthoritative; decompose only with typed evidence",
+        "destination": "Diplomatic readiness, cultural familiarity, network access, mandate, and information inputs",
+        "population_count": null,
+        "representative_value_types": [
+          "integer 0-10 described, no records supplied"
+        ],
+        "review_owner": "Character Development and Diplomacy",
+        "evidence_status": "ExactNameObservedInMarkdown_NotSchemaSymbol",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Attributes > Intrigue",
+        "source_symbol": "Intrigue",
+        "source_kind": "NamedConceptualAttribute",
+        "observed_concepts": [
+          "0-10 scale",
+          "assassination",
+          "schemes",
+          "court politics"
+        ],
+        "classification": "DerivedValue",
+        "constitutional_owner": "Information, mission, Character Network, Trait, and specialist owners",
+        "disposition": "ArchiveAsAuthoritative; quarantine until exact specialist contracts exist",
+        "destination": "Information access, secrecy, network position, traits, and mission capability",
+        "population_count": null,
+        "representative_value_types": [
+          "integer 0-10 described, no records supplied"
+        ],
+        "review_owner": "Future agent/mission and information owners",
+        "evidence_status": "ExactNameObservedInMarkdown_NotSchemaSymbol",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Attributes > Learning",
+        "source_symbol": "Learning",
+        "source_kind": "NamedConceptualAttribute",
+        "observed_concepts": [
+          "0-10 scale",
+          "innovation",
+          "religious debate",
+          "governance"
+        ],
+        "classification": "DerivedValue",
+        "constitutional_owner": "Character Development and institutional specialists",
+        "disposition": "ArchiveAsAuthoritative; decompose only with typed evidence",
+        "destination": "Education, institutional familiarity, literacy, and development domains",
+        "population_count": null,
+        "representative_value_types": [
+          "integer 0-10 described, no records supplied"
+        ],
+        "review_owner": "Character Development",
+        "evidence_status": "ExactNameObservedInMarkdown_NotSchemaSymbol",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Attributes > Logistics",
+        "source_symbol": "Logistics",
+        "source_kind": "NamedConceptualAttribute",
+        "observed_concepts": [
+          "0-10 scale",
+          "attrition",
+          "reinforcement",
+          "movement"
+        ],
+        "classification": "DerivedValue",
+        "constitutional_owner": "Character Development and logistics/supply owners",
+        "disposition": "ArchiveAsAuthoritative; decompose only with typed evidence",
+        "destination": "Logistical readiness, regional familiarity, staff, supply, and transport context",
+        "population_count": null,
+        "representative_value_types": [
+          "integer 0-10 described, no records supplied"
+        ],
+        "review_owner": "Character Development and Logistics",
+        "evidence_status": "ExactNameObservedInMarkdown_NotSchemaSymbol",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Attributes > Authority",
+        "source_symbol": "Authority",
+        "source_kind": "NamedConceptualAttribute",
+        "observed_concepts": [
+          "0-10 scale",
+          "leadership and legitimacy",
+          "loyalty",
+          "court stability",
+          "succession"
+        ],
+        "classification": "Deprecated",
+        "constitutional_owner": "No single future owner",
+        "disposition": "SupersedeAndArchive",
+        "destination": "Typed title, office, mandate, law, custom, regency, institutional recognition, and performance owners",
+        "population_count": null,
+        "representative_value_types": [
+          "integer 0-10 described, no records supplied"
+        ],
+        "review_owner": "Authority-owning specialist systems",
+        "evidence_status": "ExactNameObservedInMarkdown_NotSchemaSymbol",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Education System",
+        "source_symbol": null,
+        "source_kind": "ConceptualSubsystem",
+        "observed_concepts": [
+          "Military Education",
+          "Noble Education",
+          "Religious Education",
+          "Guild Education",
+          "Cultural Education",
+          "education influences but does not guarantee outcomes"
+        ],
+        "classification": "SpecialistOwned",
+        "constitutional_owner": "Underage Character and Character Development",
+        "disposition": "RelocateAndRefactor",
+        "destination": "Education paths, mentorship, exposure, opportunity, milestones, and development evidence",
+        "population_count": 5,
+        "representative_value_types": [
+          "named education path",
+          "possible tendency list"
+        ],
+        "review_owner": "Underage and Character Development",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Traits and Trait Groups",
+        "source_symbol": null,
+        "source_kind": "ConceptualCollection",
+        "observed_concepts": [
+          "Personality",
+          "Military",
+          "Administrative",
+          "Religious",
+          "Political",
+          "Lifestyle",
+          "Health"
+        ],
+        "classification": "SpecialistOwned",
+        "constitutional_owner": "Future Trait/Reputation authority and health/development specialists",
+        "disposition": "ExtractToStagingOnly",
+        "destination": "Per-trait disposition after Trait/Reputation consolidation",
+        "population_count": 7,
+        "representative_value_types": [
+          "named trait group",
+          "example trait label"
+        ],
+        "review_owner": "Trait/Reputation consolidation",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Quirks",
+        "source_symbol": null,
+        "source_kind": "ConceptualCollection",
+        "observed_concepts": [
+          "immersion",
+          "storytelling",
+          "not all quirks are useful"
+        ],
+        "classification": "PresentationOnly",
+        "constitutional_owner": "Trait/Reputation or presentation owner if strategically retained",
+        "disposition": "ReviewThenArchiveOrRelocate",
+        "destination": "No Foundation runtime destination",
+        "population_count": 8,
+        "representative_value_types": [
+          "example quirk label"
+        ],
+        "review_owner": "Trait/Reputation and Presentation",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Memories",
+        "source_symbol": null,
+        "source_kind": "ConceptualCollection",
+        "observed_concepts": [
+          "important life events",
+          "influences traits, reputation, relationships, and events"
+        ],
+        "classification": "SpecialistOwned",
+        "constitutional_owner": "Historical Memory",
+        "disposition": "RelocateAndRefactor",
+        "destination": "Fact, evidence, witness, narrative, reception, and memory records",
+        "population_count": 5,
+        "representative_value_types": [
+          "example memory label"
+        ],
+        "review_owner": "Historical Memory",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Reputation",
+        "source_symbol": null,
+        "source_kind": "ConceptualCollection",
+        "observed_concepts": [
+          "public perception",
+          "epithet examples",
+          "loyalty",
+          "recruitment",
+          "diplomacy",
+          "dynasty prestige"
+        ],
+        "classification": "SpecialistOwned",
+        "constitutional_owner": "Trait/Reputation and Historical Memory",
+        "disposition": "RelocateAndRefactor",
+        "destination": "Audience-specific reputation derived from evidence, known action, service, narrative, and recognition",
+        "population_count": 6,
+        "representative_value_types": [
+          "example epithet/reputation label"
+        ],
+        "review_owner": "Trait/Reputation consolidation",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Relationships",
+        "source_symbol": null,
+        "source_kind": "ConceptualCollection",
+        "observed_concepts": [
+          "Friend",
+          "Rival",
+          "Enemy",
+          "Mentor",
+          "Student",
+          "Ally",
+          "Spouse",
+          "Sibling"
+        ],
+        "classification": "SpecialistOwned",
+        "constitutional_owner": "Character Network and typed underlying owners",
+        "disposition": "RelocateAndConvert",
+        "destination": "Directed relationship edges and typed records; no inferred reciprocity",
+        "population_count": 8,
+        "representative_value_types": [
+          "flat relationship type label"
+        ],
+        "review_owner": "Character Network",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Offices",
+        "source_symbol": null,
+        "source_kind": "ConceptualCollection",
+        "observed_concepts": [
+          "Chancellor",
+          "Marshal",
+          "Master of Horse",
+          "Treasurer",
+          "Spymaster",
+          "High Judge",
+          "Royal Archivist",
+          "Lord Admiral",
+          "bonuses",
+          "prestige",
+          "court influence"
+        ],
+        "classification": "SpecialistOwned",
+        "constitutional_owner": "Title/Office, Delegated Authority, Ecclesiastical Authority, Governance",
+        "disposition": "RelocateAndRefactor",
+        "destination": "Typed office, appointment, jurisdiction, mandate, resource, and performance records",
+        "population_count": 8,
+        "representative_value_types": [
+          "office label",
+          "effect prose"
+        ],
+        "review_owner": "Office and Governance owners",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Health and Aging",
+        "source_symbol": null,
+        "source_kind": "ConceptualStateSet",
+        "observed_concepts": [
+          "Healthy",
+          "Wounded",
+          "Injured",
+          "Sick",
+          "Infirm",
+          "Dying",
+          "fertility",
+          "military performance",
+          "succession risk"
+        ],
+        "classification": "RuntimeState",
+        "constitutional_owner": "Character Foundation core boundary and Character Development/health integration",
+        "disposition": "RetainAndReframe",
+        "destination": "Typed health, injury, illness, recovery, incapacity, aging, and lifecycle interfaces",
+        "population_count": 6,
+        "representative_value_types": [
+          "named health state",
+          "effect prose"
+        ],
+        "review_owner": "Character Foundation and health owner",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Lifecycle",
+        "source_symbol": null,
+        "source_kind": "ConceptualLinearSequence",
+        "observed_concepts": [
+          "Birth",
+          "Childhood",
+          "Education",
+          "Adulthood",
+          "Office Holding",
+          "Marriage",
+          "Children",
+          "Titles",
+          "Retirement",
+          "Death"
+        ],
+        "classification": "Deprecated",
+        "constitutional_owner": "Character Foundation lifecycle with specialist owners",
+        "disposition": "RemoveAndReplace",
+        "destination": "Definition, unborn, lightweight childhood, active underage, transitional adulthood, active adult, aging, incapacity/retirement/death, legacy",
+        "population_count": 10,
+        "representative_value_types": [
+          "ordered lifecycle stage label"
+        ],
+        "review_owner": "Character Foundation",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Death",
+        "source_symbol": null,
+        "source_kind": "ConceptualEventFamily",
+        "observed_concepts": [
+          "Battle",
+          "Illness",
+          "Assassination",
+          "Old age",
+          "Events",
+          "succession crises",
+          "loyalty shifts",
+          "event chains"
+        ],
+        "classification": "RuntimeState",
+        "constitutional_owner": "Character Foundation lifecycle; effects consumed by Office, Succession, Household, Dynasty, Underage, Delegated Authority, and Historical Memory",
+        "disposition": "RetainAndReframe",
+        "destination": "One validated death transition/event with owner-specific consequences",
+        "population_count": 5,
+        "representative_value_types": [
+          "cause category",
+          "consequence prose"
+        ],
+        "review_owner": "Character Foundation and consuming owners",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > Character Integration",
+        "source_symbol": null,
+        "source_kind": "ConceptualIntegrationList",
+        "observed_concepts": [
+          "Dynasty",
+          "Court Politics",
+          "Recruitment",
+          "Religion",
+          "Cultural Geography",
+          "Government Types",
+          "Vassalage",
+          "War Weariness",
+          "Province Management",
+          "Military Command"
+        ],
+        "classification": "SpecialistOwned",
+        "constitutional_owner": "Framework Architecture Map, Character Foundation interfaces, and owning subsystems",
+        "disposition": "ReplaceWithExplicitOwnershipInterfaces",
+        "destination": "Typed references, commands, events, and owner-specific records",
+        "population_count": 10,
+        "representative_value_types": [
+          "integration target label"
+        ],
+        "review_owner": "Framework governance and runtime architecture",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      },
+      {
+        "source_path": "Character System > AI Character Logic",
+        "source_symbol": null,
+        "source_kind": "ConceptualAILogic",
+        "observed_concepts": [
+          "trait suitability",
+          "office assignment",
+          "education paths",
+          "succession",
+          "marriage",
+          "rivalries",
+          "loyalty",
+          "Warrior King",
+          "Bureaucrat",
+          "Zealot",
+          "Diplomat",
+          "Merchant Prince",
+          "Schemer"
+        ],
+        "classification": "SpecialistOwned",
+        "constitutional_owner": "Character AI, Character Archetype, Character Development, Character Network, authority owners, Realm AI, and Dynasty AI",
+        "disposition": "Refactor",
+        "destination": "State-aware, information-bounded, authority-checked, explainable command proposals",
+        "population_count": 6,
+        "representative_value_types": [
+          "AI evaluation topic",
+          "fixed personality label"
+        ],
+        "review_owner": "AI and specialist owners",
+        "evidence_status": "ObservedInMarkdown",
+        "mutation_count": 0
+      }
+    ],
+    "unknown_field_policy": "Do not copy. Exact implementation fields not represented by this document must be reported and quarantined until ownership and destination contracts are proven."
+  },
+  "counts": {
+    "source_documents_discovered": 1,
+    "source_documents_inspected": 1,
+    "conceptual_inventory_entries": 21,
+    "exact_ue5_fields_discovered": 0,
+    "runtime_records_discovered": 0,
+    "identities_resolved": 0,
+    "identities_unresolved": 0,
+    "identities_ambiguous": 0,
+    "deprecated_ids_found": 0,
+    "alias_chains_found": 0,
+    "duplicate_source_identities": 0,
+    "foundation_proposals_produced": 0,
+    "specialist_payloads_produced": 0,
+    "unknown_exact_schema_fields": 0,
+    "quarantined_records": 0,
+    "warnings": 3,
+    "review_required": 7,
+    "blocking_errors_for_document_inspection": 0,
+    "blocking_errors_for_implementation_migration": 7,
+    "fatal_errors": 0
+  },
+  "review_locks": [
+    {
+      "code": "CFM-PREFLIGHT-LOCK-002",
+      "item": "Direct legacy-to-canonical person mappings",
+      "owner": "Migration Registries",
+      "status": "Open",
+      "blocks": "RecordMigration"
+    },
+    {
+      "code": "CFM-PREFLIGHT-LOCK-003",
+      "item": "Supported legacy save versions",
+      "owner": "Save Migration",
+      "status": "Open",
+      "blocks": "SaveUpgrade"
+    },
+    {
+      "code": "CFM-PREFLIGHT-LOCK-004",
+      "item": "Legacy importance/detail to simulation-tier mappings",
+      "owner": "Character Foundation",
+      "status": "Open",
+      "blocks": "SimulationTierMigration"
+    },
+    {
+      "code": "CFM-PREFLIGHT-LOCK-005",
+      "item": "Exact decomposition rules for populated universal attributes and Authority values",
+      "owner": "Character Development and authority owners",
+      "status": "Open",
+      "blocks": "AttributeValueMigration"
+    },
+    {
+      "code": "CFM-PREFLIGHT-LOCK-006",
+      "item": "Exact declaration and typed interpretations of legacy GuardianId or equivalent underage roles",
+      "owner": "Underage",
+      "status": "Open",
+      "blocks": "UnderageRoleMigration"
+    },
+    {
+      "code": "CFM-PREFLIGHT-LOCK-007",
+      "item": "Trait/Reputation destination authority and per-trait disposition",
+      "owner": "Trait/Reputation consolidation",
+      "status": "Open",
+      "blocks": "TraitReputationMigration"
+    },
+    {
+      "code": "CFM-PREFLIGHT-LOCK-008",
+      "item": "Exact legacy UE5 declarations, serializers, save fields, owner APIs, and destination symbols",
+      "owner": "UE5 Implementation",
+      "status": "Open",
+      "blocks": "CompileAndRuntimeMigration"
+    }
+  ],
+  "closed_review_locks": [
+    {
+      "code": "CFM-PREFLIGHT-LOCK-001",
+      "item": "Legacy design-document field-family inventory",
+      "status": "ClosedForSuppliedMarkdownOnly",
+      "evidence": "Character_System.md inspected; conceptual inventory populated",
+      "does_not_close": "Exact UE5 source-schema inventory"
+    }
+  ],
+  "diagnostics": [
+    {
+      "code": "CFM-PREFLIGHT-0101",
+      "severity": "Info",
+      "stage": "DiscoverSourceRecords",
+      "message": "One legacy Markdown design document was discovered and inspected.",
+      "mutation_effect": "None"
+    },
+    {
+      "code": "CFM-PREFLIGHT-0102",
+      "severity": "Warning",
+      "stage": "HashInputs",
+      "message": "The source filesystem modified timestamp and displayed size are known, but raw source bytes were not available for a SHA-256 calculation.",
+      "mutation_effect": "BlocksHashBoundExecution"
+    },
+    {
+      "code": "CFM-PREFLIGHT-0103",
+      "severity": "Warning",
+      "stage": "ValidateSourceSchema",
+      "message": "Character_System.md is a conceptual design source and does not define a serialized UE5 schema.",
+      "mutation_effect": "BlocksExactSchemaMigration"
+    },
+    {
+      "code": "CFM-PREFLIGHT-0104",
+      "severity": "Warning",
+      "stage": "ClassifyFields",
+      "message": "Named attributes are observed exactly in prose but are not confirmed C++, Blueprint, DataTable, Data Asset, importer, or save symbols.",
+      "mutation_effect": "BlocksExactFieldBinding"
+    },
+    {
+      "code": "CFM-PREFLIGHT-0105",
+      "severity": "ReviewRequired",
+      "stage": "ResolveCanonicalIdentities",
+      "message": "No legacy person records or canonical registry snapshot were supplied; identity resolution was not attempted.",
+      "mutation_effect": "BlockedBeforeMutation"
+    },
+    {
+      "code": "CFM-PREFLIGHT-0106",
+      "severity": "ReviewRequired",
+      "stage": "BuildSpecialistOwnerPayloads",
+      "message": "No source records containing concrete values were supplied; no specialist payloads were produced.",
+      "mutation_effect": "NoPayloads"
+    },
+    {
+      "code": "CFM-PREFLIGHT-0107",
+      "severity": "ReviewRequired",
+      "stage": "ValidateDestinationSchema",
+      "message": "No compiled or exported destination UE5 symbols were supplied.",
+      "mutation_effect": "BlocksCompileValidation"
+    }
+  ],
+  "pipeline": {
+    "required_order": [
+      "LoadContract",
+      "LoadVersionsAndRegistries",
+      "HashInputs",
+      "DiscoverSourceRecords",
+      "ValidateSourceSchema",
+      "ResolveCanonicalIdentities",
+      "ClassifyFields",
+      "BuildFoundationProposals",
+      "BuildSpecialistOwnerPayloads",
+      "ValidateReferences",
+      "ValidateRealmConstraints",
+      "ValidateDestinationSchema",
+      "ValidateInvariants",
+      "ProduceDryRunReport",
+      "ApplyToStaging",
+      "RevalidateStaging",
+      "EmitManifestAndTrace",
+      "Commit"
+    ],
+    "completed_for_document_scope": [
+      "LoadContract",
+      "DiscoverSourceRecords",
+      "ClassifyFields",
+      "ProduceDryRunReport"
+    ],
+    "partially_completed": [
+      "HashInputs",
+      "ValidateSourceSchema"
+    ],
+    "not_executed": [
+      "LoadVersionsAndRegistries",
+      "ResolveCanonicalIdentities",
+      "BuildFoundationProposals",
+      "BuildSpecialistOwnerPayloads",
+      "ValidateReferences",
+      "ValidateRealmConstraints",
+      "ValidateDestinationSchema",
+      "ValidateInvariants",
+      "ApplyToStaging",
+      "RevalidateStaging",
+      "EmitManifestAndTrace",
+      "Commit"
+    ],
+    "next_stage": "ExactSourceSchemaReconciliation",
+    "mutation_barrier": "All implementation-level locks must be resolved before staging or commit."
+  },
+  "prohibited_restorations": [
+    "UniversalCharacterLevels",
+    "UniversalAttributes",
+    "SingleAggregateAuthorityScore",
+    "FlatMutualRelationships",
+    "OfficeOrTitleAsTrait",
+    "UniversalGuardianId",
+    "AutomaticAdultAgency",
+    "MonolithicMutableCharacterObject",
+    "NameOrFilenameAsPrimaryId",
+    "DeprecatedIdInContentOrSave",
+    "AliasChainResolution",
+    "OpeningStateOverwriteOfAdvancedSave"
+  ],
+  "validation": {
+    "document_source_inspection_validated": true,
+    "conceptual_inventory_static_checked": true,
+    "exact_source_schema_validated": false,
+    "dry_preflight_passed_for_document_scope": true,
+    "dry_preflight_passed_for_runtime_migration": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "determinism_validated": false,
+    "performance_validated": false,
+    "claims_note": "Only document-level inspection and conceptual classification are claimed. No implementation, record migration, compile, runtime, save, or repeated-run evidence exists."
+  },
+  "determinism": {
+    "required": true,
+    "test_status": "NotExecuted",
+    "normalized_output_hash": null,
+    "comparison_run_ids": [],
+    "seeded_choice_authorized": false
+  },
+  "save_migration": {
+    "status": "NotExecuted",
+    "source_save_mutated": false,
+    "opening_state_defaults_applied": false,
+    "advanced_runtime_state_preserved": null,
+    "rollback_source_retained": null
+  },
+  "quarantine": {
+    "enabled": true,
+    "record_count": 0,
+    "records": [],
+    "note": "No concrete runtime records were supplied. Conceptual uncertainty is represented by review locks rather than fabricated quarantine records."
+  },
+  "outputs": {
+    "foundation_proposals": [],
+    "specialist_owner_payloads": [],
+    "mutation_ledger": [],
+    "quarantine_manifest": [],
+    "dry_run_report": "EmbeddedDocumentScopeReport",
+    "migration_manifest": null
+  },
+  "acceptance": {
+    "current_gate": "DocumentSourceStaticChecked",
+    "gate_results": {
+      "DocumentSourceInspected": "Pass",
+      "ConceptualInventory": "PassWithReviewItems",
+      "ExactSourceSchema": "NotClaimed",
+      "RuntimeMigrationDryRun": "NotClaimed",
+      "CompileValidated": "NotClaimed",
+      "RuntimeValidated": "NotClaimed",
+      "SaveValidated": "NotClaimed",
+      "DeterminismValidated": "NotClaimed",
+      "MigrationValidated": "NotClaimed"
+    }
+  },
+  "smallest_useful_next_action": "Retain Character_System (read_only).md unchanged. Perform exact implementation-schema reconciliation only when legacy C++, Blueprint, DataTable, Data Asset, serializer, SaveGame, registry, or live repository evidence becomes available. Until then, do not stage, commit, archive, or mutate runtime data.",
+  "parent_contract_fingerprint": {
+    "file": "Character_System_to_Character_Foundation_V1_Migration_Contract_V1.md",
+    "bytes": 34261,
+    "lines": 980,
+    "sha256": "58ec0c8c8df32dedff1812fcc37098045253c42396d4ad0ec8982d1a7ca911a6",
+    "fingerprint_scope": "ExactDeliveredV1_1ParentBytes"
+  },
+  "metadata_reconciliation": {
+    "type": "ControlMetadataOnly",
+    "performed_against_contract_version": "1.1.0",
+    "legacy_document_reinspected": false,
+    "exact_ue5_schema_newly_inspected": false,
+    "runtime_migration_executed": false,
+    "inventory_counts_diagnostics_and_review_locks_preserved": true,
+    "authoritative_mutation_permitted": false,
+    "implementation_promotion_authorized": false,
+    "note": "Existing document-level inspection evidence is preserved. This is not a new source inspection, UE5 schema inspection, compile, runtime, save, determinism, staging, commit, or migration run."
+  },
+  "current_authority_routing": {
+    "CharacterFoundationV2_1": "IdentityLifecycleSimulationTierActivationRuntimeCoreAndAdmission",
+    "CharacterNetworkV2_1": "DirectedRelationshipKnowledgeAccessAndRecommendationProposals",
+    "UnderageCharacterV3_1": "TypedMinorRolesProtectionCustodyFormationAndMajorityTransition",
+    "CharacterDevelopmentV3_1": "QualifiedExperienceReadinessSetbackRecoveryAndDevelopmentEvidence",
+    "CharacterArchetypeV3_1": "CurrentStrategicFunctionAndTransformationInterpretation",
+    "AncillaryAndRetainerV2_1": "AttachmentDefinitionsLifecycleCapacityAndBoundedSupport",
+    "TraitReputationOwnersAndRegistry": "TraitAndReputationDefinitionMigrationAndRuntimeConsequences",
+    "CharacterEmergenceSupportingWorkstream": "OpportunityAndAdmissionProposalWithoutIdentityOrActivationCreation"
+  },
+  "metadata_reconciliation_acceptance": {
+    "parent_contract_v1_1_fingerprint_recorded": true,
+    "conceptual_inventory_entries_preserved": true,
+    "warnings_preserved": true,
+    "review_required_preserved": true,
+    "implementation_blockers_preserved": true,
+    "open_review_locks_preserved": true,
+    "closed_review_locks_preserved": true,
+    "actual_mutation_count_preserved": true,
+    "compile_runtime_save_migration_determinism_claims_unchanged": true,
+    "metadata_reconciliation_pass": true
+  }
+}

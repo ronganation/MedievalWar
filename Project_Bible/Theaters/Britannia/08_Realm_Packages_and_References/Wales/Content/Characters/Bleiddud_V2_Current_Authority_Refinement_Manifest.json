@@ -1,0 +1,60 @@
+{
+  "document_id": "manifest.wales.character.bleiddud.v2",
+  "version": "2.0.0",
+  "status": "Static-Checked Draft",
+  "immediate_source": {
+    "filename": "Bleiddud.md",
+    "bytes": 43453,
+    "physical_lines": 1143,
+    "sha256": "025d644a010535974b7c04a69e32257ef140cb9c9cd02be6e7e2ee21e7b64e1b",
+    "copy_method": "literal full-file prefix",
+    "complete_source_preserved": true
+  },
+  "successor": {
+    "filename": "Bleiddud_V2_Current_Authority_Refinement.md",
+    "bytes": 64397,
+    "physical_lines": 1755,
+    "sha256": "73f51f0a80c9da9e58dd34a510f3775abe0e2c9f9140b5ea9ef29a228455841f"
+  },
+  "source_fidelity": {
+    "result": "pass",
+    "removed_content": [],
+    "source_headings_preserved": 96
+  },
+  "current_authority_additions": [
+    "Project Bible 2.4",
+    "Checklist 3.7",
+    "Character Standard 3.0",
+    "UE 5.8",
+    "1 January 1062 opening",
+    "three-track temporal model",
+    "canonical identity",
+    "person-office-institution-site separation",
+    "bounded occupancy",
+    "Network and Underage boundaries",
+    "external locks",
+    "save and migration contracts"
+  ],
+  "activation_counts": {
+    "profile_created_edges": 0,
+    "profile_created_relationship_dimensions": 0,
+    "titles_created": 0,
+    "claims_created": 0,
+    "commands_created": 0,
+    "property_records_created": 0
+  },
+  "validation": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "static_check": {
+    "filename": "Bleiddud_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

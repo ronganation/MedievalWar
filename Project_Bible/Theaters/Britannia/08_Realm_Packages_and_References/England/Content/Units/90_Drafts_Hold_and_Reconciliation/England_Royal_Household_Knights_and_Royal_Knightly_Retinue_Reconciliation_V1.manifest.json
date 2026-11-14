@@ -1,0 +1,23 @@
+{
+  "document": "England_Royal_Household_Knights_and_Royal_Knightly_Retinue_Reconciliation_V1.md",
+  "version": "1.0.0",
+  "status": "ReviewOnlyIntegratedBenchmarkParityFullDepthRoyalMountedReconciliationCandidate",
+  "size_bytes": 30007,
+  "line_count": 567,
+  "word_count": 3200,
+  "numbered_sections": 66,
+  "terrain_rows": 25,
+  "sha256": "f498dc5cf26059d224c61f4f1bd1198b984f80bcc80b13d6e0e473c3c217add4",
+  "immediate_substantive_sources": [
+    "Royal_Knightly_Retinue_V1_Master_Unit_Profile.md",
+    "England_Mounted_Men_at_Arms_Knights_and_Royal_Household_Cavalry_Reconciliation_V1.md"
+  ],
+  "decision": "OneRoyalKnightlyCavalryCard;NoParallelRoyalHouseholdKnightsV1",
+  "source_files_modified": [],
+  "source_files_deleted": [],
+  "new_unit_profiles_created": [],
+  "Registry_changes": [],
+  "Opening_State_changes": [],
+  "runtime_changes": [],
+  "Unreal_changes": []
+}

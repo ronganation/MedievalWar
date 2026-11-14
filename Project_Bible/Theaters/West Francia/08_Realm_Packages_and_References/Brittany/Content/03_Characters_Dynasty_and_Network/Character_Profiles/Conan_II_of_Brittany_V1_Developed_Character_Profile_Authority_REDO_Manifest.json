@@ -1,0 +1,36 @@
+{
+  "Document": "Conan_II_of_Brittany_V1_Developed_Character_Profile_Authority_REDO.md",
+  "Version": "1.0.1-redo",
+  "Character": "Conan II of Brittany",
+  "CanonicalPersonReference": "person.conan_ii_brittany",
+  "Bytes": 43614,
+  "Lines": 906,
+  "SHA256": "BE6CA4B41641F45D16F3A6C0800911E2AE8095CB45209A7B23AE65CC4246B284",
+  "SourceDisposition": "Supersedes shallow 471-line profile draft",
+  "BenchmarkFiles": [
+    "Philip_I_of_France_V1.1_Developed_Character_Profile_Authority.md",
+    "William_VIII_of_Aquitaine_V1_Developed_Character_Profile_Authority.md",
+    "Bernard_II_Tumapaler_V1_Developed_Character_Profile_Authority.md",
+    "William_of_Normandy_V6_1_Current_Authority_Refinement_FULL.md",
+    "Stenkil_Refined_V1_3_Current_Authority_Refinement_FULL.md"
+  ],
+  "Checks": {
+    "major_sections_48": true,
+    "three_tracks_present": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer_once": true,
+    "opening_mutation_false": true
+  },
+  "MutationStatus": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Relationships": 0,
+    "TitlesOfficesHouseholdsClaimsCommands": 0,
+    "ArmyAndMilitaryState": 0,
+    "Unreal": 0,
+    "Runtime": 0,
+    "RealPayload": 0
+  }
+}

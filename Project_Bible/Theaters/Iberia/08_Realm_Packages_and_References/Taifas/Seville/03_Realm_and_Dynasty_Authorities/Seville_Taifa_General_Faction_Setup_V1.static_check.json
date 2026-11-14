@@ -1,0 +1,24 @@
+{
+  "ArtifactId": "Seville_Taifa_General_Faction_Setup_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_DESIGN",
+  "FactionId": "realm.seville",
+  "OpeningDate": "1062-01-01",
+  "StrategicIdentity": "ExpandingUrbanDynasticTaifa",
+  "OpeningNodes": 7,
+  "SignatureMechanics": [
+    "AuthorityIntegration",
+    "CourtPrestigeAndCoercion",
+    "TributePressure",
+    "SuccessionGameplay"
+  ],
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "BalanceValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false
+  },
+  "SHA256": "f0bb8afae25718e3edde3258cf3d22bf65bb061112254d92a6e5dbc980bcfe52"
+}

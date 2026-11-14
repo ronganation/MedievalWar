@@ -1,0 +1,112 @@
+{
+  "validation_id": "validation.opening_state.valencia.1062.v3_4.package_v1.copy_first_rebuild",
+  "version": "1.1.0",
+  "package_id": "opening_state.valencia.1062.v3_4.package_v1",
+  "rules": [
+    {
+      "rule_id": "RULE_001",
+      "severity": "Error",
+      "description": "V3.4 source parity",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_002",
+      "severity": "Error",
+      "description": "V3.3 root preservation",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_003",
+      "severity": "Error",
+      "description": "V3.3 record ID preservation",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_004",
+      "severity": "Error",
+      "description": "Unique record IDs",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_005",
+      "severity": "Error",
+      "description": "Office-person-appointment separation",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_006",
+      "severity": "Error",
+      "description": "Eight sites or regions",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_007",
+      "severity": "Error",
+      "description": "Four established routes",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_008",
+      "severity": "Error",
+      "description": "Eight established force families",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_009",
+      "severity": "Error",
+      "description": "No force or pool instances",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_010",
+      "severity": "Error",
+      "description": "Economy band and quantity separation",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_011",
+      "severity": "Error",
+      "description": "Diplomacy proposal and agreement separation",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_012",
+      "severity": "Error",
+      "description": "AI proposal and execution separation",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_013",
+      "severity": "Error",
+      "description": "Presentation and world-state separation",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_014",
+      "severity": "Error",
+      "description": "Three-track temporal independence",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_015",
+      "severity": "Error",
+      "description": "Nine established opening problems",
+      "expected": "PASS"
+    },
+    {
+      "rule_id": "RULE_016",
+      "severity": "Error",
+      "description": "Apply-once and zero-mutation boundary",
+      "expected": "PASS"
+    }
+  ],
+  "validation_modes": [
+    "JSONParse",
+    "Draft202012SchemaValidation",
+    "SemanticValidation",
+    "SyntheticMutatedFixtureExecution"
+  ],
+  "runtime_validation": "NotExecuted",
+  "registry_validation": "NotExecuted",
+  "unreal_validation": "NotExecuted"
+}

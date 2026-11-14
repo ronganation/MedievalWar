@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.wales.historical-memory.v1",
+  "version": "1.0.0",
+  "source_authorities": [
+    "Wales_Historical_Reconciliation_V3.1_Current_Authority_Refinement.md",
+    "Wales_Historical_Evidence_Register.md",
+    "Wales_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement.md",
+    "Wales_Historical_Uncertainty_V1.1_Current_Authority_Refinement.md"
+  ],
+  "successor": {
+    "filename": "Wales_Historical_Memory.md",
+    "bytes": 58695,
+    "physical_lines": 1348,
+    "sha256": "55088541674a4f60edc6d31f0f612f7fd86446c708e84d717233da19b5239002"
+  },
+  "content_inventory": {
+    "memory_families": 8,
+    "candidate_memory_records": 24,
+    "audience_scopes": 12,
+    "transmission_channels": 10,
+    "interpretation_groups": 12,
+    "validation_cases": 20
+  },
+  "authorizations": {
+    "Opening_State_activation": false,
+    "Memory_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_Historical_Memory_Static_Check.json",
+    "passed": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "document": "Longbowmen_V1_Master_Unit_Profile.md",
+  "sha256": "67ca9283e84ef800da959a7d11adf93a33dbf3d73fd3a3e0ec60b34354e53318",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "terrain_25": true,
+    "legacy_complete": true,
+    "unit_locked": true,
+    "stakes": true,
+    "ammo": true,
+    "retraining": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

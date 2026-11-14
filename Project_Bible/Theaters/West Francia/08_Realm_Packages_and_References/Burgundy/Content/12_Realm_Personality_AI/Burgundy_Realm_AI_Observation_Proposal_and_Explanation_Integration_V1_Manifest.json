@@ -1,0 +1,18 @@
+{
+  "FileName": "Burgundy_Realm_AI_Observation_Proposal_and_Explanation_Integration_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "adfcfd1a89edfa00ccb365f75a49f4c19ab51e7804d7dfda8408a80c1a0c2014",
+  "Bytes": 34701,
+  "Lines": 1019,
+  "ImmediateSource": "Burgundy_Realm_Personality_AI_V1.md",
+  "ImmediateSourceSHA256": "4e6988859fc9e80a7591fdfd6abe9b60a93e55eabfd9d8de4e395d1003a5efc8",
+  "PreferenceDefinitionsPreserved": 14,
+  "StrategicPosturesPreserved": 8,
+  "ReasonCodesPreserved": 26,
+  "ActiveOpeningPersonalityInstancesCreated": 0,
+  "ActiveOpeningPosturesCreated": 0,
+  "ObjectivesActivated": 0,
+  "CommandsExecuted": 0,
+  "Placement": "Burgundy/12_Realm_Personality_AI",
+  "ValidationResult": "PassStaticContentChecksOnly"
+}

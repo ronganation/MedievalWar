@@ -1,0 +1,33 @@
+{
+  "FileName": "Norse_Theater_Content_V1.md",
+  "Version": "1.0.0",
+  "Status": "Static-Checked Design Baseline",
+  "SHA256": "9A8B2352CE40638E50AA2FCE9D793BC6C87CDA29E4145D761A52741A055F5E71",
+  "Bytes": 50797,
+  "Checks": {
+    "version": true,
+    "bible_24": true,
+    "checklist_37": true,
+    "three_track": true,
+    "denmark": true,
+    "norway": true,
+    "sweden": true,
+    "no_runtime_claim": true,
+    "balanced_fences": true,
+    "lines": 1069,
+    "headings": 138
+  },
+  "PrincipalRealmAssociations": [
+    "realm.denmark.kingdom",
+    "Norway frozen Realm authority",
+    "realm.sweden.kingdom"
+  ],
+  "ValidationClaims": {
+    "Compile": false,
+    "Runtime": false,
+    "Importer": false,
+    "SaveLoad": false,
+    "Migration": false,
+    "Replay": false
+  }
+}

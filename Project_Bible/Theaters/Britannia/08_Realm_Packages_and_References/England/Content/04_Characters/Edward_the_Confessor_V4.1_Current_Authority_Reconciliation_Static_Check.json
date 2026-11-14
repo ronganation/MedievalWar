@@ -1,0 +1,33 @@
+{
+  "exact_physical_filename": "Edward_the_Confessor_V4.1_Current_Authority_Reconciliation.md",
+  "internal_version": "4.1.1",
+  "source_internal_version": "4.1 additive reconciliation",
+  "source_byte_count": 60924,
+  "source_line_count": 2656,
+  "source_sha256": "5ac054516b4652b66bf89227bc1f76861418a297c66feba90cda62440bcee17a",
+  "final_byte_count": 77328,
+  "final_line_count": 3027,
+  "final_sha256": "9687262e8309754dfe5b0f7d95af47e0b915823c3416ea73f902a0f92e3bea51",
+  "source_heading_count": 142,
+  "final_heading_count": 161,
+  "checks": {
+    "utf8_valid": true,
+    "literal_escaped_underscore_count": 0,
+    "literal_escaped_list_marker_count": 0,
+    "balanced_fences": true,
+    "exact_footer_count": 1,
+    "source_hash_verified": true,
+    "all_source_headings_preserved": true,
+    "source_body_not_shortened": true,
+    "one_V3_consolidated_opening_boundary": true,
+    "three_track_temporal_model": true,
+    "Unreal_Engine_5_8_present": true,
+    "utility_formula_signs_corrected": true,
+    "yaml_parse_error_count": 0,
+    "Registry_mutation_not_performed": true,
+    "Opening_State_mutation_not_performed": true,
+    "runtime_state_not_created": true,
+    "physical_promotion_not_performed": true
+  },
+  "validation_result": "Passed"
+}

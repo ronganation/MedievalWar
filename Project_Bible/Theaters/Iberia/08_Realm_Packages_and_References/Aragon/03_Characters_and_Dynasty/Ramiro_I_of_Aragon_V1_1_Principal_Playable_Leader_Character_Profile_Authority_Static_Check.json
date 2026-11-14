@@ -1,0 +1,37 @@
+{
+  "FileName": "Ramiro_I_of_Aragon_V1_1_Principal_Playable_Leader_Character_Profile_Authority.md",
+  "SHA256": "34882bc87a0a8193749f29ee1abe8b316a34b85c35265c0ba5469e1dc722b6b3",
+  "Bytes": 56436,
+  "Lines": 1217,
+  "Result": "Pass",
+  "Checks": {
+    "source_exists": true,
+    "successor_larger_than_source": true,
+    "source_bytes": 48045,
+    "successor_bytes": 56436,
+    "source_lines": 1038,
+    "successor_lines": 1217,
+    "principal_playable_standard_present": true,
+    "regional_leadership_model_present": true,
+    "battlefield_doctrine_present": true,
+    "conduct_reputation_progression_present": true,
+    "decision_loops_present": true,
+    "validation_001_050": true,
+    "repeated_heading_titles": {},
+    "duplicate_long_paragraphs": [],
+    "escaped_underscores": 0,
+    "escaped_hyphens": 0,
+    "em_dashes": 0,
+    "balanced_fences": true,
+    "stable_footer_count": 1,
+    "end_marker_count": 1
+  },
+  "MutationReceipt": {
+    "SourceOverwritten": false,
+    "Registry": 0,
+    "OpeningState": 0,
+    "Relations": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  }
+}

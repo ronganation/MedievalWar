@@ -1,0 +1,293 @@
+ledger_version: 1.0.0
+ledger_status: PartialBatchBHeaderIdentityEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+scope:
+  folder: 07_Cross_Authority_Registry_and_Validation
+  manifest_records_reviewed: 10
+  full_raw_file_header_extraction_executed: false
+  enterprise_header_evidence_used: true
+  current_conversation_artifact_headers_used: true
+  visual_only_records: 0
+rules:
+  - HeaderEvidenceMustNameItsSource
+  - MissingFieldDoesNotMeanFieldIsAbsentUnlessFullHeaderWasRead
+  - FilenameMatchRequiresPhysicalAndHeaderEvidence
+  - StableDocumentIdReuseRequiresLineageOrCollisionDisposition
+  - ReviewOnlyStatusDoesNotAuthorizePromotion
+  - NotRunMustNotBeRenderedAsPass
+  - NoSourceFileRewriteAuthorized
+header_records:
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    physical_file_name: Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    header_file_name: Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    document_id: HMD_CROSS_AUTHORITY_REFERENCE_MAP_V1
+    stable_document_id: HMD_CROSS_AUTHORITY_REFERENCE_MAP
+    authority_id: NotSpecifiedInRetrievedHeader
+    version: 1.0.0
+    revision_date: 2026-09-21
+    realm: Hammadids
+    theater_field: owning_theater
+    theater_value: North Africa
+    scenario_id: mw.scenario.grand_campaign.1062
+    status: ReviewOnlyStaticCandidateMapOwnerReviewRequired
+    constitutional_authority: Project Bible 2.4
+    operational_authority: Design Expansion Checklist 3.7
+    implementation_target: Unreal Engine 5.8
+    immediate_substantive_source: Hammadid_Faction_Decisions_Dilemmas_Events_Crises_and_Conditional_Emergence_Authority_V1.md
+    evidence_source: EnterprisePartialOpen
+    header_result: PASS_WITH_RAW_FILE_VERIFICATION_PENDING
+    issues:
+      - FullRawFileHeaderNotDirectlyRead
+      - LegacyEscapedMarkdownVisibleInEnterpriseRendering
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    physical_file_name: Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    header_file_name: Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+    document_id: HMD_CURRENT_AUTHORITY_INDEX_CLOSEOUT_V1
+    stable_document_id: HMD_CURRENT_AUTHORITY_INDEX_CLOSEOUT
+    authority_id: NotSpecifiedInRetrievedHeader
+    version: 1.0.0
+    revision_date: 2026-09-21
+    realm: Hammadids
+    theater_field: owning_theater
+    theater_value: North Africa
+    scenario_id: mw.scenario.grand_campaign.1062
+    status: ReviewOnlyVerifiedIndexOwnerReviewRequired
+    constitutional_authority: Project Bible 2.4
+    operational_authority: Design Expansion Checklist 3.7
+    implementation_target: Unreal Engine 5.8
+    immediate_substantive_source: NotSpecifiedInRetrievedHeader
+    evidence_source: EnterpriseFullOpen
+    header_result: PASS_WITH_SOURCE_FIELD_NOT_APPLICABLE_OR_UNSPECIFIED
+    issues:
+      - HeaderUsesIndexScopeAndSourceMethodRatherThanImmediateSubstantiveSource
+      - RawByteHeaderVerificationPending
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Developed_Realm_Full_Portfolio_Comparator_and_Missing_Capability_Audit_V1.md
+    physical_file_name: Hammadid_Developed_Realm_Full_Portfolio_Comparator_and_Missing_Capability_Audit_V1.md
+    header_file_name: Hammadid_Developed_Realm_Full_Portfolio_Comparator_and_Missing_Capability_Audit_V1.md
+    document_id: HMD_DEVELOPED_REALM_FULL_PORTFOLIO_COMPARATOR_V1
+    stable_document_id: HMD_DEVELOPED_REALM_FULL_PORTFOLIO_COMPARATOR
+    authority_id: NotSpecifiedInRetrievedHeader
+    version: 1.0.0
+    revision_date: 2026-09-21
+    realm: Hammadids
+    theater_field: owning_theater
+    theater_value: North Africa
+    scenario_id: mw.scenario.grand_campaign.1062
+    status: ReviewOnlySearchVisibleComparatorAuditOwnerReviewRequired
+    constitutional_authority: Project Bible 2.4
+    operational_authority: Design Expansion Checklist 3.7
+    implementation_target: Unreal Engine 5.8
+    immediate_substantive_source: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    evidence_source: EnterpriseSearchSnippet
+    header_result: PASS_WITH_FULL_HEADER_EXTRACTION_PENDING
+    issues:
+      - SearchSnippetOnly
+      - PhysicalComparatorManifestsUnavailableByDeclaredHeader
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    physical_file_name: Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    header_file_name: Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+    document_id: HMD_ID_MIGRATION_REGISTRY_CANDIDATE_V1
+    stable_document_id: HMD_ID_MIGRATION_REGISTRY_CANDIDATE
+    authority_id: authority.hammadid.id-migration-registry-candidate.v1
+    version: 1.0.0
+    revision_date: 2026-09-21
+    realm: Hammadids
+    theater_field: owning_theater
+    theater_value: North Africa
+    scenario_id: mw.scenario.grand_campaign.1062
+    status: ReviewOnlyNonCanonicalRegistryCandidateOwnerReviewRequired
+    constitutional_authority: Project Bible 2.4
+    operational_authority: Design Expansion Checklist 3.7
+    implementation_target: Unreal Engine 5.8
+    immediate_substantive_source: Hammadid_Opening_State_Assembly_and_Binding_Plan_V1.md
+    evidence_source: EnterpriseSearchSnippetAndOwnerVisualPresence
+    header_result: PASS_WITH_IMMEDIATE_SOURCE_PRESENCE_REVIEW_REQUIRED
+    issues:
+      - ImmediateSubstantiveSourceWasNotLocatedByPriorExactSearch
+      - CandidateMapSourceIsSeparateFromImmediateSubstantiveSource
+      - CanonicalRegistryMutationExplicitlyUnauthorized
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    physical_file_name: Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    header_file_name: Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    document_id: HMD_JUSTICE_ENFORCEMENT_OVERLAP_REVIEW_V1
+    stable_document_id: HMD_JUSTICE_ENFORCEMENT_OVERLAP_REVIEW
+    authority_id: NotSpecifiedInRetrievedHeader
+    version: 1.0.0
+    revision_date: 2026-09-21
+    realm: Hammadids
+    theater_field: owning_theater
+    theater_value: North Africa
+    scenario_id: mw.scenario.grand_campaign.1062
+    status: ReviewOnlyStaticComparisonComplete
+    constitutional_authority: Project Bible 2.4
+    operational_authority: Design Expansion Checklist 3.7
+    implementation_target: Unreal Engine 5.8
+    immediate_substantive_source: NotSpecifiedInRetrievedHeader
+    evidence_source: EnterpriseSearchSnippet
+    header_result: PASS_WITH_FULL_HEADER_EXTRACTION_PENDING
+    issues:
+      - CandidateDispositionIsRejectAsStandaloneAuthority
+      - ControllingSourcesMustRemainPreserved
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    physical_file_name: Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    header_file_name: Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    document_id: OpeningBoundaryIdentityCurrentAuthorityClosurePreflight.Realm.Hammadid.V1
+    stable_document_id: OpeningBoundaryIdentityCurrentAuthorityClosurePreflight.Realm.Hammadid
+    authority_id: preflight.opening-boundary-identity-current-authority.realm.hammadid.v1
+    version: 1.0.0
+    revision_date: 2026-09-22
+    realm: Hammadid Realm
+    theater_field: owning_theater
+    theater_value: North Africa
+    scenario_id: mw.scenario.grand_campaign.1062
+    status: StaticCheckedReviewOnlyBoundaryIdentityClosurePreflightOwnerDecisionsRequired
+    constitutional_authority: Project Bible 2.4
+    operational_authority: Design Expansion Checklist 3.7
+    implementation_target: Unreal Engine 5.8
+    immediate_substantive_source: Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    evidence_source: CurrentConversationArtifactAndEnterpriseSearch
+    header_result: PASS_WITH_REALM_FIELD_NORMALIZATION_WARNING
+    issues:
+      - HeaderUsesRealmLabelEquivalentRatherThanRealmField
+      - BoundaryDecisionReturnedFalse
+      - CurrentAuthorityInventoryCompleteFalse
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Package_Wide_Missing_Authority_Audit_and_Next_Sequence_Disposition_V1.md
+    physical_file_name: Hammadid_Package_Wide_Missing_Authority_Audit_and_Next_Sequence_Disposition_V1.md
+    header_file_name: Hammadid_Package_Wide_Missing_Authority_Audit_and_Next_Sequence_Disposition_V1.md
+    document_id: HMD_PACKAGE_MISSING_AUTHORITY_AUDIT_V1
+    stable_document_id: HMD_PACKAGE_MISSING_AUTHORITY_AUDIT
+    authority_id: NotSpecifiedInRetrievedHeader
+    version: 1.0.0
+    revision_date: 2026-09-21
+    realm: Hammadids
+    theater_field: owning_theater
+    theater_value: North Africa
+    scenario_id: mw.scenario.grand_campaign.1062
+    status: ReviewOnlyStaticCoverageAuditOwnerReviewRequired
+    constitutional_authority: Project Bible 2.4
+    operational_authority: Design Expansion Checklist 3.7
+    implementation_target: Unreal Engine 5.8
+    immediate_substantive_source: Hammadid_Justice_Enforcement_Candidate_Overlap_and_Authority_Disposition_Review_V1.md
+    evidence_source: EnterpriseSearchSnippet
+    header_result: PASS_WITH_FULL_HEADER_EXTRACTION_PENDING
+    issues:
+      - StaticCoverageAuditOnly
+      - NewSubstantiveGapDemonstratedFalse
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    physical_file_name: Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    header_file_name: Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    document_id: RealmFoundationReadinessIntegrationBlockerAudit.Realm.Hammadid.V1
+    stable_document_id: RealmFoundationReadinessIntegrationBlockerAudit.Realm.Hammadid
+    authority_id: audit.realm-foundation-readiness-integration-blockers.realm.hammadid.v1
+    version: 1.0.0
+    revision_date: 2026-09-22
+    realm: Hammadid Realm
+    theater_field: owning_theater
+    theater_value: North Africa
+    scenario_id: mw.scenario.grand_campaign.1062
+    status: StaticCheckedReviewOnlyFoundationReadinessAuditOwnerReviewRequired
+    constitutional_authority: Project Bible 2.4
+    operational_authority: Design Expansion Checklist 3.7
+    implementation_target: Unreal Engine 5.8
+    immediate_substantive_source: Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+    evidence_source: CurrentConversationArtifactAndEnterpriseSearch
+    header_result: PASS_WITH_PLACEMENT_AND_REALM_FIELD_WARNINGS
+    issues:
+      - HeaderUsesRealmLabelEquivalentRatherThanRealmField
+      - PlacementCandidateDiffersFromObservedFolder07
+      - OpeningRegistryAndImplementationReadinessRemainNotReady
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    physical_file_name: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    header_file_name: Hammadid_Recursive_Manifest_and_Literal_Conformance_Evidence_Pack_V1.md
+    document_id: HMD_RECURSIVE_MANIFEST_LITERAL_CONFORMANCE_V1
+    stable_document_id: HMD_RECURSIVE_MANIFEST_LITERAL_CONFORMANCE
+    authority_id: NotSpecifiedInRetrievedHeader
+    version: 1.0.0
+    revision_date: 2026-09-21
+    realm: Hammadids
+    theater_field: owning_theater
+    theater_value: North Africa
+    scenario_id: mw.scenario.grand_campaign.1062
+    status: ReviewOnlyExecutionReadyEvidencePackOwnerReviewRequired
+    constitutional_authority: Project Bible 2.4
+    operational_authority: Design Expansion Checklist 3.7
+    implementation_target: Unreal Engine 5.8
+    immediate_substantive_source: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    evidence_source: EnterpriseFullOpen
+    header_result: PASS_WITH_EXECUTION_STATES_NOT_RUN
+    issues:
+      - RecursiveManifestStatusNotRun
+      - HashLedgerStatusNotRun
+      - HeaderLedgerStatusNotRunBeforeThisPartialLedger
+  - file_ref: 07_Cross_Authority_Registry_and_Validation/Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    physical_file_name: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    header_file_name: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    document_id: HMD_VALIDATION_MIGRATION_FREEZE_ROLLBACK_V1_1
+    stable_document_id: HMD_VALIDATION_MIGRATION_FREEZE_ROLLBACK
+    authority_id: NotSpecifiedInRetrievedHeader
+    version: 1.1.0
+    revision_date: 2026-09-21
+    realm: Hammadids
+    theater_field: owning_theater
+    theater_value: North Africa
+    scenario_id: mw.scenario.grand_campaign.1062
+    status: ReviewOnlyCopyFirstAdditiveValidationAuthorityOwnerReviewRequired
+    constitutional_authority: Project Bible 2.4
+    operational_authority: Design Expansion Checklist 3.7
+    implementation_target: Unreal Engine 5.8
+    immediate_substantive_source: Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+    previous_version: Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1.md
+    evidence_source: EnterprisePartialOpen
+    header_result: PASS_WITH_SOURCE_SUCCESSOR_VALIDATION_PENDING
+    issues:
+      - ActualRecursiveManifestStatusNotRun
+      - ActualHashManifestStatusNotRun
+      - FullContentComparisonStatusNotRun
+      - FreezeStatusNotFrozen
+cross_record_checks:
+  physical_filename_matches_retrieved_header_filename:
+    pass: 10
+    fail: 0
+    limitation: BasedOnVisualPhysicalNamesAndEnterpriseOrArtifactHeaderEvidence
+  duplicate_document_ids_detected_within_ten_records: 0
+  duplicate_stable_document_ids_detected_within_ten_records: 0
+  version_values_present: 10
+  revision_dates_present: 10
+  scenario_ids_present_and_consistent: 10
+  theater_values_present_and_consistent: 10
+  statuses_present: 10
+  constitutional_authorities_present: 10
+  operational_authorities_present: 10
+  implementation_targets_present: 10
+  immediate_substantive_source_present:
+    confirmed: 8
+    not_specified_or_not_applicable: 2
+  raw_file_headers_directly_extracted: 2
+  enterprise_header_evidence_records: 10
+issue_summary:
+  - FullRawFileHeaderExtractionRemainsIncomplete
+  - RealmFieldVariantExistsOnTwoCurrentConversationArtifacts
+  - RealmFoundationPlacementCandidateDiffersFromObservedFolder07
+  - IDMigrationImmediateSourcePresenceRequiresDirectVerification
+  - ValidationV1ToV1_1LineageRequiresContentAndHashComparison
+  - LegacyEscapedMarkdownRemainsAFormattingIssueNotAHeaderIdentityFailure
+validation_summary:
+  records_reviewed: 10
+  pass_without_warning: 0
+  pass_with_warning_or_pending_evidence: 10
+  fail: 0
+  blocked: 0
+  source_files_modified: 0
+  registry_mutations: 0
+  opening_state_mutations: 0
+  result: PASS_AS_PARTIAL_BATCH_B_HEADER_LEDGER_WITH_RAW_EXTRACTION_PENDING
+stable_footer:
+  stable_document_id: HMD_HEADER_IDENTITY_LEDGER
+  version: 1.0.0
+  status: PartialBatchBHeaderIdentityEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false

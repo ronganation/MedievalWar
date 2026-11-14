@@ -1,0 +1,270 @@
+{
+  "DocumentControl": {
+    "DocumentId": "VisualCulmination.StaticCheck.Realm.France.V1",
+    "StableDocumentId": "VisualCulmination.StaticCheck.Realm.France",
+    "AuthorityId": "authority.visual-culmination.static-check.realm.france.v1",
+    "Filename": "France_Visual_Culmination_Static_Check_V1.json",
+    "Version": "1.0.0",
+    "RevisionDate": "2026-09-03",
+    "RealmLabel": "Kingdom of France",
+    "ScenarioId": "mw.scenario.grand_campaign.1062",
+    "ScenarioOpening": "1062-01-01",
+    "CampaignSeason": "Winter",
+    "OwningTheater": "West Francia",
+    "Placement": "France/07_Manifests_and_Static_Checks/",
+    "ConstitutionalAuthority": "Project Bible 2.4",
+    "OperationalAuthority": "Design Expansion Checklist 3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "CheckStatus": "StaticCheckedConditionalPassReviewOnly",
+    "ProductionApproval": false
+  },
+  "CheckedManifest": {
+    "Filename": "France_Visual_Culmination_Asset_Manifest_V1.json",
+    "RecordedLineCount": 207,
+    "RecordedByteCount": 8705,
+    "RecordedSHA256": "32de79aa9b3d641e1c65b37f1f47a554e304b7ceb5191a98e0456529b62aa277",
+    "JSONParseStatus": "PassAtManifestCreation",
+    "PhysicalRevalidationDuringThisStaticCheck": false
+  },
+  "ExpectedArtifacts": [
+    "France_Faction_Visual_Culmination_and_Presentation_Authority_V1.md",
+    "France_Faction_Designer_Input_Packet_V1.md",
+    "France_Internal_Faction_Authority_One_Sheet_V1.png",
+    "France_Visual_Board_Static_Inspection_and_Asset_Metadata_V1.md",
+    "France_Player_Facing_Faction_Sheet_V1.jpeg",
+    "France_Player_Facing_Faction_Sheet_Static_Inspection_and_Asset_Metadata_V1.md"
+  ],
+  "RecordedArtifactChecks": [
+    {
+      "CheckId": "FRA_VIS_STATIC_001",
+      "Subject": "Expected artifact count",
+      "Expected": 6,
+      "Recorded": 6,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_002",
+      "Subject": "Visual authority recorded",
+      "ExpectedFilename": "France_Faction_Visual_Culmination_and_Presentation_Authority_V1.md",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_003",
+      "Subject": "Designer input packet recorded",
+      "ExpectedFilename": "France_Faction_Designer_Input_Packet_V1.md",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_004",
+      "Subject": "Internal authority board recorded",
+      "ExpectedFilename": "France_Internal_Faction_Authority_One_Sheet_V1.png",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_005",
+      "Subject": "Internal board inspection recorded",
+      "ExpectedFilename": "France_Visual_Board_Static_Inspection_and_Asset_Metadata_V1.md",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_006",
+      "Subject": "Player-facing faction sheet recorded",
+      "ExpectedFilename": "France_Player_Facing_Faction_Sheet_V1.jpeg",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_007",
+      "Subject": "Player-facing inspection recorded",
+      "ExpectedFilename": "France_Player_Facing_Faction_Sheet_Static_Inspection_and_Asset_Metadata_V1.md",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_008",
+      "Subject": "All artifacts have review dispositions",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_009",
+      "Subject": "All artifacts prohibit unreviewed production promotion",
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_010",
+      "Subject": "Player-facing binary metadata",
+      "Expected": {
+        "Format": "JPEG",
+        "WidthPixels": 1536,
+        "HeightPixels": 1024,
+        "ByteCount": 984101,
+        "SHA256": "50d54da4fe071cae8026919fa02ae398c9bd4c7d37419fc6657ffd268fd14c2f"
+      },
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_011",
+      "Subject": "Internal board physical hash",
+      "Expected": "VerifiedSHA256",
+      "Recorded": "PendingPhysicalAssetVerification",
+      "Result": "Warning"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_012",
+      "Subject": "Internal board pixel dimensions",
+      "Expected": "VerifiedDimensions",
+      "Recorded": "PendingPhysicalAssetVerification",
+      "Result": "Warning"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_013",
+      "Subject": "Historical art approval",
+      "Expected": false,
+      "Recorded": false,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_014",
+      "Subject": "Heraldry approval",
+      "Expected": false,
+      "Recorded": false,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_015",
+      "Subject": "Source and license review",
+      "Expected": false,
+      "Recorded": false,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_016",
+      "Subject": "Localization validation",
+      "Expected": false,
+      "Recorded": false,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_017",
+      "Subject": "Accessibility validation",
+      "Expected": false,
+      "Recorded": false,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_018",
+      "Subject": "Unreal import validation",
+      "Expected": false,
+      "Recorded": false,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_019",
+      "Subject": "Runtime validation",
+      "Expected": false,
+      "Recorded": false,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_020",
+      "Subject": "Registry mutation",
+      "Expected": 0,
+      "Recorded": 0,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_021",
+      "Subject": "Opening State mutation",
+      "Expected": 0,
+      "Recorded": 0,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_022",
+      "Subject": "Unreal mutation",
+      "Expected": 0,
+      "Recorded": 0,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_023",
+      "Subject": "Runtime mutation",
+      "Expected": 0,
+      "Recorded": 0,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_024",
+      "Subject": "Real payload import",
+      "Expected": 0,
+      "Recorded": 0,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_025",
+      "Subject": "Immediate visual regeneration requirement",
+      "Expected": false,
+      "Recorded": false,
+      "Result": "Pass"
+    },
+    {
+      "CheckId": "FRA_VIS_STATIC_026",
+      "Subject": "Production-approved asset count",
+      "Expected": 0,
+      "Recorded": 0,
+      "Result": "Pass"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 26,
+    "Passes": 24,
+    "Warnings": 2,
+    "Failures": 0,
+    "Result": "ConditionalPassReviewOnly",
+    "BlockingProductionIssues": [
+      "Internal board SHA256 not physically verified in the closure manifest",
+      "Internal board pixel dimensions not physically verified in the closure manifest",
+      "Historical art and heraldry remain unapproved",
+      "Source and license review remains incomplete",
+      "Localization and accessibility remain unvalidated",
+      "Generated maps heraldry portraits costume and architecture are not production evidence"
+    ],
+    "BlocksInternalReferenceUse": false,
+    "BlocksPlayerFacingConceptReferenceUse": false,
+    "BlocksProductionPromotion": true,
+    "BlocksUnrealImport": true,
+    "RequiresImmediateRegeneration": false
+  },
+  "ReviewOnlyClosure": {
+    "VisualAuthority": "CompleteReviewOnly",
+    "DesignerInputPacket": "CompleteReviewOnly",
+    "InternalBoard": "CompleteReviewOnlyAccepted",
+    "InternalBoardInspection": "Complete",
+    "PlayerFacingSheet": "CompleteReviewOnlyAcceptedWithRequiredPreProductionCorrections",
+    "PlayerFacingInspection": "Complete",
+    "AssetManifest": "Complete",
+    "StaticCheck": "CompleteConditionalPass",
+    "ConceptPassClosed": true,
+    "ProductionPassClosed": false
+  },
+  "NextGate": {
+    "PrimaryAction": "Update France_Realm_Package_Current_Authority_Index_V1.md with visual-workstream closure metadata",
+    "FollowingNonvisualGate": "France current machine-readable candidate bundle preparation",
+    "ImmediateVisualRegenerationRequired": false,
+    "MutationAuthorized": false
+  },
+  "StableFooter": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "UnrealEngineTarget": "5.8",
+    "OwningTheater": "West Francia",
+    "Opening": "1062-01-01 Winter",
+    "HistoricalProgressionPerStrategicTurn": "+21 months",
+    "BiologicalProgressionPerStrategicTurn": "+7 months",
+    "CampaignSeasonProgressionPerStrategicTurn": "+1 ordered Winter Spring Summer Autumn step",
+    "StaticCheckDisposition": "ConditionalPassReviewOnly",
+    "ProductionApproval": false,
+    "RegistryMutation": false,
+    "OpeningStateMutation": false,
+    "UnrealMutation": false,
+    "RuntimeMutation": false
+  }
+}

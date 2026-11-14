@@ -1,0 +1,26 @@
+{
+  "document_id": "static-check.readme.characters.scotland.v2",
+  "version": "2.0.0",
+  "successor": "README_Characters_Scotland_V2.md",
+  "bytes": 22968,
+  "physical_lines": 658,
+  "sha256": "7b42b5d6d7542d68944a0a424aac67952d52c7ddf2c5fc24b3b22ba512645d88",
+  "checks": {
+    "README_identity": true,
+    "seven_supported_people": true,
+    "all_supported_successors_listed": true,
+    "Duncan_underage_companion": true,
+    "Gille_quarantine": true,
+    "Fothad_entity_separation": true,
+    "Network_counts": true,
+    "three_track_temporal_model": true,
+    "honest_validation_state": true,
+    "no_activation_claims": true,
+    "folder_structure_current": true,
+    "next_audit_named": true,
+    "no_em_dash": true
+  },
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

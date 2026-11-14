@@ -1,0 +1,426 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medieval-war:schema:campaign-theater-registry-decision-index-blocked-draft-v1-1",
+  "title": "Campaign Theater Registry Decision Index V1 Blocked Draft, Hardened Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_identity",
+    "authority_boundary",
+    "authorization",
+    "owner_response_status",
+    "theater_records",
+    "typed_association_candidates",
+    "blocked_records",
+    "validation_contract",
+    "evidence_boundary"
+  ],
+  "properties": {
+    "document_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "filename",
+        "version",
+        "date",
+        "status"
+      ],
+      "properties": {
+        "document_id": {
+          "const": "mw.campaign_theater.registry_decision_index.blocked_draft.v1"
+        },
+        "filename": {
+          "const": "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT.json"
+        },
+        "version": {
+          "const": "1.0.0"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "const": "BLOCKED_DRAFT_NON_AUTHORITATIVE"
+        }
+      }
+    },
+    "authority_boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "constitutional_authority",
+        "operational_authority",
+        "reconciliation_authority",
+        "decision_request_authority"
+      ],
+      "properties": {
+        "constitutional_authority": {
+          "const": "Project Bible V2.4"
+        },
+        "operational_authority": {
+          "const": "Design Expansion Checklist V3.7"
+        },
+        "reconciliation_authority": {
+          "const": "Campaign_Theater_Registry_and_Association_Owner_Reconciliation_V1.md"
+        },
+        "decision_request_authority": {
+          "const": "Campaign_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md"
+        }
+      }
+    },
+    "authorization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "registry_mutation_authorized",
+        "new_activation_authorized",
+        "scenario_execution_authorized",
+        "importer_consumption_authorized",
+        "runtime_mutation_authorized",
+        "save_persistence_authorized",
+        "migration_execution_authorized"
+      ],
+      "properties": {
+        "registry_mutation_authorized": {
+          "const": false
+        },
+        "new_activation_authorized": {
+          "const": false
+        },
+        "scenario_execution_authorized": {
+          "const": false
+        },
+        "importer_consumption_authorized": {
+          "const": false
+        },
+        "runtime_mutation_authorized": {
+          "const": false
+        },
+        "save_persistence_authorized": {
+          "const": false
+        },
+        "migration_execution_authorized": {
+          "const": false
+        }
+      }
+    },
+    "owner_response_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required_decision_count",
+        "received_decision_count",
+        "unresolved_decision_count",
+        "all_required_receipts_present"
+      ],
+      "properties": {
+        "required_decision_count": {
+          "const": 7
+        },
+        "received_decision_count": {
+          "const": 0
+        },
+        "unresolved_decision_count": {
+          "const": 7
+        },
+        "all_required_receipts_present": {
+          "const": false
+        }
+      }
+    },
+    "theater_records": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "$ref": "#/$defs/theater"
+      }
+    },
+    "typed_association_candidates": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "$ref": "#/$defs/association"
+      }
+    },
+    "blocked_records": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "$ref": "#/$defs/blocked"
+      }
+    },
+    "validation_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "maximum_primary_associations_per_realm",
+        "alias_chains_allowed",
+        "folder_placement_is_association_authority",
+        "duplicate_realm_packages_allowed",
+        "advanced_save_overwrite_allowed"
+      ],
+      "properties": {
+        "maximum_primary_associations_per_realm": {
+          "const": 1
+        },
+        "alias_chains_allowed": {
+          "const": false
+        },
+        "folder_placement_is_association_authority": {
+          "const": false
+        },
+        "duplicate_realm_packages_allowed": {
+          "const": false
+        },
+        "advanced_save_overwrite_allowed": {
+          "const": false
+        }
+      }
+    },
+    "evidence_boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "britania_static_definition_compile_runtime_evidence",
+        "norse_static_definition_compile_runtime_evidence",
+        "shared_registry_adoption_validated",
+        "association_owner_authorization_validated",
+        "scenario_execution_validated",
+        "importer_validated",
+        "save_load_validated",
+        "migration_validated",
+        "replay_validated",
+        "performance_validated"
+      ],
+      "properties": {
+        "britania_static_definition_compile_runtime_evidence": {
+          "const": true
+        },
+        "norse_static_definition_compile_runtime_evidence": {
+          "const": true
+        },
+        "shared_registry_adoption_validated": {
+          "const": false
+        },
+        "association_owner_authorization_validated": {
+          "const": false
+        },
+        "scenario_execution_validated": {
+          "const": false
+        },
+        "importer_validated": {
+          "const": false
+        },
+        "save_load_validated": {
+          "const": false
+        },
+        "migration_validated": {
+          "const": false
+        },
+        "replay_validated": {
+          "const": false
+        },
+        "performance_validated": {
+          "const": false
+        }
+      }
+    }
+  },
+  "$defs": {
+    "theater": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stable_order",
+        "theater_ref",
+        "content_authority",
+        "implementation_status",
+        "shared_registry_status",
+        "gameplay_tag_status",
+        "implementation_owner_identifier",
+        "architectural_owner_authorization_status",
+        "architectural_owner_receipt_ref",
+        "scenario_binding_owner_ref",
+        "association_owner_ref",
+        "owner_receipt_refs",
+        "new_activation_authorized"
+      ],
+      "properties": {
+        "stable_order": {
+          "type": "integer",
+          "enum": [
+            10,
+            20,
+            30,
+            40
+          ]
+        },
+        "theater_ref": {
+          "enum": [
+            "theater.britania",
+            "theater.norse",
+            "theater.iberia",
+            "theater.western_francia"
+          ]
+        },
+        "content_authority": {
+          "type": "string",
+          "minLength": 1
+        },
+        "implementation_status": {
+          "enum": [
+            "ImplementedAndRuntimeValidated",
+            "DesignCandidateOnly"
+          ]
+        },
+        "shared_registry_status": {
+          "const": "OwnerDecisionRequired"
+        },
+        "gameplay_tag_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "implementation_owner_identifier": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "architectural_owner_authorization_status": {
+          "const": "OwnerDecisionRequired"
+        },
+        "architectural_owner_receipt_ref": {
+          "type": "null"
+        },
+        "scenario_binding_owner_ref": {
+          "type": "null"
+        },
+        "association_owner_ref": {
+          "type": "null"
+        },
+        "owner_receipt_refs": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "new_activation_authorized": {
+          "const": false
+        }
+      }
+    },
+    "association": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "association_id",
+        "realm_ref",
+        "realm_package_owner_theater",
+        "theater_ref",
+        "association_class",
+        "association_type",
+        "opening_association",
+        "definition_status",
+        "scenario_execution_status",
+        "owner_receipt_status",
+        "owner_receipt_ref",
+        "activation_authorized",
+        "package_duplication_prohibited"
+      ],
+      "properties": {
+        "association_id": {
+          "type": "string",
+          "pattern": "^association\\.[a-z0-9_]+\\.[a-z0-9_]+\\.[a-z_]+\\.v1$"
+        },
+        "realm_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "realm_package_owner_theater": {
+          "enum": [
+            "theater.norse",
+            "theater.western_francia",
+            "theater.iberia"
+          ]
+        },
+        "theater_ref": {
+          "enum": [
+            "theater.britania",
+            "theater.iberia"
+          ]
+        },
+        "association_class": {
+          "enum": [
+            "CrossTheater",
+            "SameTheaterTypedCandidate"
+          ]
+        },
+        "association_type": {
+          "enum": [
+            "Maritime",
+            "Expeditionary"
+          ]
+        },
+        "opening_association": {
+          "const": false
+        },
+        "definition_status": {
+          "enum": [
+            "ImplementedAndRuntimeValidated",
+            "DesignCandidateOnly"
+          ]
+        },
+        "scenario_execution_status": {
+          "enum": [
+            "NotApplicableWhileOpeningFalse",
+            "Blocked"
+          ]
+        },
+        "owner_receipt_status": {
+          "const": "OwnerDecisionRequired"
+        },
+        "owner_receipt_ref": {
+          "type": "null"
+        },
+        "activation_authorized": {
+          "const": false
+        },
+        "package_duplication_prohibited": {
+          "const": true
+        }
+      }
+    },
+    "blocked": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record_ref",
+        "status",
+        "reason"
+      ],
+      "properties": {
+        "record_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "ReviewOnly",
+            "ExternalLock",
+            "ModernizationRequired",
+            "Blocked",
+            "OwnerDecisionRequired",
+            "CompatibilityBlockerCandidate",
+            "DirectOwnerDispositionRequired"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

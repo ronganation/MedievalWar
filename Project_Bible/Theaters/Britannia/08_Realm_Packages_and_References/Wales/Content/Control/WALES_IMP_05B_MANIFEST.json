@@ -1,0 +1,48 @@
+{
+  "TaskId": "WALES-IMP-05B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "EntranceDecision": "ExistingWalesRealmAIPersonalitySourceRequiresReconciliation",
+  "ImplementationAuthorized": false,
+  "ProductionAuthority": false,
+  "PlannedAdditiveFiles": 18,
+  "PlannedNewTests": 38,
+  "KnownRegressionSubtotal": 207,
+  "ScotlandAIPersonality": "DISCOVER",
+  "Files": [
+    {
+      "Path": "Control/WALES_IMP_05B_AUTHORITY_ROUTE.csv",
+      "Bytes": 818,
+      "SHA256": "0D8C2248510BC8A75E46DE256CF19F7AF777487835CEDA574F3ABFF147860169"
+    },
+    {
+      "Path": "Control/WALES_IMP_05B_BOUNDARY_MATRIX.csv",
+      "Bytes": 504,
+      "SHA256": "ACAFD211D909CDE0F6561C5B8AE557B2DE55E2E69E30553C4994C6B97CCF0DCB"
+    },
+    {
+      "Path": "Control/WALES_IMP_05B_EVIDENCE_REQUIREMENTS.csv",
+      "Bytes": 808,
+      "SHA256": "283215C9394A6CD796BE72ACCF146DE2072B5BF8E97CB4CD6E762FDFD588FE48"
+    },
+    {
+      "Path": "Control/WALES_IMP_05B_EXACT_FILE_AND_TEST_PLAN.csv",
+      "Bytes": 1351,
+      "SHA256": "4842187DD3D30495C1CCB5F2771760FCDF3828D870ED5887E55CC7F7BF63CFB9"
+    },
+    {
+      "Path": "Control/WALES_IMP_05B_TEST_CHAIN.csv",
+      "Bytes": 670,
+      "SHA256": "C70B8BA981E31B7C6EE1705F63600C3C3CB6534581DBCCED19832256FCFA9020"
+    },
+    {
+      "Path": "README_FIRST_WALES_IMP_05B.txt",
+      "Bytes": 412,
+      "SHA256": "DFAE80E339B7E2BD71DC766E3682DF52B8C91D990FBD356ECA2F4C729D6FF442"
+    },
+    {
+      "Path": "WALES_IMP_05B_REALM_AI_PERSONALITY_RECONCILIATION_CONTRACT_2026-09-23.md",
+      "Bytes": 8485,
+      "SHA256": "7318B16D30C0AABC88E537985707D78EBA11203B714002A2CE543EA27F0FC41D"
+    }
+  ]
+}

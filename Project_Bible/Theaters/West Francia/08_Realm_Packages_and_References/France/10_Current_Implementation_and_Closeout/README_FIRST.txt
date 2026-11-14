@@ -1,0 +1,1 @@
+FRANCE-IMP-01A is a planning contract only. It contains no executable script and authorizes no Unreal mutation. Retain it as the approved six-file, 24-test Campaign Initialization plan. The next package is FRANCE-IMP-01B.

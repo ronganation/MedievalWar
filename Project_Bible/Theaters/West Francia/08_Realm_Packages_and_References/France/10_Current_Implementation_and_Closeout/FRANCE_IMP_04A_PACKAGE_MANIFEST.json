@@ -1,0 +1,53 @@
+{
+  "TaskId": "FRANCE-IMP-04A",
+  "Status": "ReadyForOwnerReview",
+  "RealmId": "Realm.France",
+  "Lane": "CharacterDynastyNetwork",
+  "EntranceGate": "FRANCE-IMP-03C-R2",
+  "EntranceStatus": "HistoricalEmergenceAutomationAccepted",
+  "AcceptedPriorRegression": "132_of_132",
+  "PlannedFilesAdded": 6,
+  "ExistingFilesModified": 0,
+  "DirectFranceTests": 34,
+  "ComparatorPolicy": "EnumerateAndLockVerifiedNonzeroOnly",
+  "ExecutionAuthorized": false,
+  "NextGate": "FRANCE-IMP-04B",
+  "ProductionAuthority": false,
+  "Files": [
+    {
+      "Name": "FRANCE_IMP_04A_ACCEPTANCE_AND_ROLLBACK_MATRIX.csv",
+      "Bytes": 946,
+      "SHA256": "DF290055549FBFBCF06DA7AF01B89CB969E091F641ACE5EB0C41A464E7E1BE5B"
+    },
+    {
+      "Name": "FRANCE_IMP_04A_AUTHORITY_FINGERPRINT_PLAN.csv",
+      "Bytes": 388,
+      "SHA256": "D5E4BFDF9773B2C9639D19E3BF73416EDF24952BA391F8165B08CC074F19B4C0"
+    },
+    {
+      "Name": "FRANCE_IMP_04A_CHARACTER_DYNASTY_NETWORK_BOUNDED_CONTRACT_2026-09-24.md",
+      "Bytes": 14104,
+      "SHA256": "A62CC406A76963A0FC7FCE20BC204825A1682E8F7F62F697D5C808C7E861BD71"
+    },
+    {
+      "Name": "FRANCE_IMP_04A_DEPENDENCY_AND_BOUNDARY_MATRIX.csv",
+      "Bytes": 915,
+      "SHA256": "397B0922E26736F5BA0F74FA88F58C1EEC667DC0A1EA6A041CDB56EFEABDF009"
+    },
+    {
+      "Name": "FRANCE_IMP_04A_EXACT_FILE_PLAN.csv",
+      "Bytes": 696,
+      "SHA256": "56FF938B24DC30833629CB0C772AA59FEFEEC265E61EA0C6F78C5237160E982B"
+    },
+    {
+      "Name": "FRANCE_IMP_04A_TEST_AND_REGRESSION_PLAN.csv",
+      "Bytes": 665,
+      "SHA256": "24485AFBFFF20F6E469D6E1E79F72B2A1E04DABEDC7A8230DA19767C1CD77247"
+    },
+    {
+      "Name": "README_FIRST_FRANCE_IMP_04A.txt",
+      "Bytes": 494,
+      "SHA256": "D0C814ADE215161574DDE32C43C845A6778208E8D1F622A67F4DAF2797F6494C"
+    }
+  ]
+}

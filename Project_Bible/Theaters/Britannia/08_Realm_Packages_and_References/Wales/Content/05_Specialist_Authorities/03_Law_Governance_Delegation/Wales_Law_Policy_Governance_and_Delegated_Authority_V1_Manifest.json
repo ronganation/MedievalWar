@@ -1,0 +1,50 @@
+{
+  "document_id": "manifest.wales.law-policy-governance-delegated-authority.v1",
+  "version": "1.0.0",
+  "artifact": {
+    "filename": "Wales_Law_Policy_Governance_and_Delegated_Authority_V1.md",
+    "bytes": 42614,
+    "physical_lines": 1474,
+    "sha256": "47da16d5f1b860984a60c3c9c366b7d55e2568b40803660cfbebdc3f52307b1f"
+  },
+  "source_and_benchmarks": {
+    "Wales_foundation": [
+      "Wales_Realm_and_Political_Order_Authority_V1.md",
+      "Wales_Title_Office_Claim_and_Succession_Authority_V1.md",
+      "Wales_Opening_State_V2_Current_Authority_Refinement.md",
+      "Wales_Ecclesiastical_Content_V1.md"
+    ],
+    "structural_benchmarks": [
+      "Scotland_Law_and_Policy_V1_Corrected.md",
+      "England_Law_and_Policy_Package.md",
+      "Law_and_Policy_Framework.md",
+      "Regency_and_Delegated_Authority_Framework.md"
+    ],
+    "foreign_realm_facts_transferred": false
+  },
+  "inventory": {
+    "legal_source_classes": 10,
+    "law_lifecycle_states": 15,
+    "policy_lifecycle_states": 14,
+    "validation_cases": 25,
+    "active_opening_records": 0,
+    "governance_candidate_portfolios": 5,
+    "policy_candidate_families": 6
+  },
+  "removed_content": [],
+  "authorizations": {
+    "law_activation": false,
+    "policy_activation": false,
+    "mandate_activation": false,
+    "delegation_activation": false,
+    "regency_activation": false,
+    "council_activation": false,
+    "emergency_activation": false,
+    "Registry_mutation": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_Law_Policy_Governance_and_Delegated_Authority_V1_Static_Check.json",
+    "passed": true
+  }
+}

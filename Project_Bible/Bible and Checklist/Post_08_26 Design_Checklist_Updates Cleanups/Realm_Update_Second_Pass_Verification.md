@@ -1,0 +1,35 @@
+﻿# Realm Update Second-Pass Verification
+
+- Verification timestamp: 2026-10-22 20:21:04 -04:00
+- Folders created: 7
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\02_Germania\Royal_Salian_Government_and_Crownlands`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\03_Iberia\Taifas\Badajoz`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\04_Italia\Apulia_and_Calabria`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\04_Italia\Genoa`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\04_Italia\Pisa`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\04_Italia\Venice`
+  - `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\06_North_Africa\Hammadids`
+- Folders already present: 0
+- Files moved: 10
+  - Design_Expansion_Checklist_V3.7_Badajoz_Designer_Progress_Update_2026-09-14.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\03_Iberia\Taifas\Badajoz\Design_Expansion_Checklist_V3.7_Badajoz_Designer_Progress_Update_2026-09-14.md`
+  - Design_Expansion_Checklist_V3.7_Genoa_Realm_Package_Static_Handoff_Progress_Update_2026-09-24.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\04_Italia\Genoa\Design_Expansion_Checklist_V3.7_Genoa_Realm_Package_Static_Handoff_Progress_Update_2026-09-24.md`
+  - Design_Expansion_Checklist_V3.7_Hammadid_Realm_Progress_Update_2026-09-22.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\06_North_Africa\Hammadids\Design_Expansion_Checklist_V3.7_Hammadid_Realm_Progress_Update_2026-09-22.md`
+  - Design_Expansion_Checklist_V3.7_Hammadid_Realm_Progress_Update_2026-09-22_Manifest.json -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\06_North_Africa\Hammadids\Design_Expansion_Checklist_V3.7_Hammadid_Realm_Progress_Update_2026-09-22_Manifest.json`
+  - Design_Expansion_Checklist_V3.7_Hammadid_Realm_Progress_Update_2026-09-22_Static_Check.json -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\06_North_Africa\Hammadids\Design_Expansion_Checklist_V3.7_Hammadid_Realm_Progress_Update_2026-09-22_Static_Check.json`
+  - Design_Expansion_Checklist_V3.7_Hammadid_Realm_Review_Only_Implementation_Closeout_Progress_Update_2026-10-04.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\06_North_Africa\Hammadids\Design_Expansion_Checklist_V3.7_Hammadid_Realm_Review_Only_Implementation_Closeout_Progress_Update_2026-10-04.md`
+  - Design_Expansion_Checklist_V3.7_Pisa_Realm_Package_Static_Handoff_Progress_Update_2026-09-23.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\04_Italia\Pisa\Design_Expansion_Checklist_V3.7_Pisa_Realm_Package_Static_Handoff_Progress_Update_2026-09-23.md`
+  - Design_Expansion_Checklist_V3.7_Southern_Norman_Realm_Package_Static_Handoff_Progress_Update_2026-09-22.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\04_Italia\Apulia_and_Calabria\Design_Expansion_Checklist_V3.7_Southern_Norman_Realm_Package_Static_Handoff_Progress_Update_2026-09-22.md`
+  - Design_Expansion_Checklist_V3.7_Venice_Realm_Package_Static_Handoff_Progress_Update_2026-09-23.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\04_Italia\Venice\Design_Expansion_Checklist_V3.7_Venice_Realm_Package_Static_Handoff_Progress_Update_2026-09-23.md`
+  - Design_Expansion_Checklist_V3.7_Royal_Salian_Government_and_Crownlands_Static_Authority_Handoff_Progress_Update_2026-10-10.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Realms\02_Germania\Royal_Salian_Government_and_Crownlands\Design_Expansion_Checklist_V3.7_Royal_Salian_Government_and_Crownlands_Static_Authority_Handoff_Progress_Update_2026-10-10.md`
+- Files not found: 0
+- Files skipped because a destination existed: 0
+- September Hammadid Markdown/manifest/static-check companion group kept together: True
+- Size verification (source bytes = destination bytes for every moved file): True
+- SHA-256 verification (source = destination for every moved file): True
+- Source absence after every successful move: True
+- Destination presence after every successful move: True
+- Overwritten files: 0
+- Deleted files: 0
+- Content modifications: 0
+- Files remaining in refreshed ambiguous inventory: 38
+- Second-pass log rows: 10; columns: Timestamp, SourcePath, DestinationPath, Filename, Theater, Realm, CompanionGroup, SourceBytes, DestinationBytes, SourceSHA256, DestinationSHA256, Result, PostMoveVerified

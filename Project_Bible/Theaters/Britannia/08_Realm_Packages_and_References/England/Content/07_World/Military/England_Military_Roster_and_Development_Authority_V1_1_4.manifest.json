@@ -1,0 +1,18 @@
+{
+  "document": "England_Military_Roster_and_Development_Authority_V1_1_4.md",
+  "logical_authority_id": "MilitaryRoster.Realm.England.V1_1",
+  "patch_revision": "1.1.4",
+  "created_utc": "2026-09-03T00:19:50.180487+00:00",
+  "immediate_source": "England_Military_Roster_and_Development_Authority_V1_1_3.md",
+  "immediate_source_sha256": "e6a20fd31639fcab8f857c9db519b31addee2e89831d4626f5b927388487a8de",
+  "preserved_V1_source_sha256": "ddff00e1751db8ea8a5e29ef4d1ffd6e951c748689338eafba830efbce803e54",
+  "successor_sha256": "92e15576cd0ff332a72b425dc62307e08ed2b2808cfa066a49beda37f5557510",
+  "repair_scope": "metadata_consistency_and_prose_cleanup_only",
+  "substantive_roster_content_changed": false,
+  "source_files_modified": [],
+  "source_files_deleted": [],
+  "Registry_changes": [],
+  "Opening_State_changes": [],
+  "runtime_changes": [],
+  "Unreal_changes": []
+}

@@ -1,0 +1,220 @@
+{
+  "name": "NOR_UE58_DryRun_V1.zip",
+  "version": "1.0.1-shortpath",
+  "replaces": "Normandy_UE5_8_Candidate_Importer_Dry_Run_Specification_and_Fixture_Pack_V1.zip",
+  "root": "NOR_DR_V1",
+  "fixtures": {
+    "pass": 12,
+    "fail": 20,
+    "total": 32
+  },
+  "all_expectations_matched": true,
+  "mutations": 0,
+  "files": [
+    {
+      "p": "C/fx.json",
+      "b": 427,
+      "h": "0F9AC74AFFFB9EA944BF645BAF6E278D460893594A4299F07DDB01B3905971D9"
+    },
+    {
+      "p": "C/receipt.json",
+      "b": 203,
+      "h": "5C7386B1D49D4FADEE26BF834A99B54003DB6567355601EBB00591C1D2DC0296"
+    },
+    {
+      "p": "C/rollback.json",
+      "b": 255,
+      "h": "2AC4980900587BD5FC399F372BA7A122E013951C73324A6B7FE9DC1E02F055DD"
+    },
+    {
+      "p": "E/expected.json",
+      "b": 4041,
+      "h": "D907E14D2BB891FB01C7C0A95430C6E775A6F79C7D6952D751DC18FE49F0CC62"
+    },
+    {
+      "p": "F/N/N01.json",
+      "b": 1892,
+      "h": "9B402402103C2F9E2E3CE7CFF506BC04844599516C0F5241E6B6F9431A1D54A3"
+    },
+    {
+      "p": "F/N/N02.json",
+      "b": 1892,
+      "h": "04BC553C4050DE6274A0E4D815D3A7D90A97B3907237C9ED3FAAC679B0966FD6"
+    },
+    {
+      "p": "F/N/N03.json",
+      "b": 1887,
+      "h": "3A431F99DB85BDF21136CD6B73C43C4BC3E00F525C145396D680967E8D984E3B"
+    },
+    {
+      "p": "F/N/N04.json",
+      "b": 1890,
+      "h": "CCB96BF779A774A621F5282DF152F23076ACA9FC8AAD2405DADDBB34E3A2CFF9"
+    },
+    {
+      "p": "F/N/N05.json",
+      "b": 1927,
+      "h": "A83DA111D9771A22103D2DB9C9D9D1234CBCEC5303083242EC933F363CD944B0"
+    },
+    {
+      "p": "F/N/N06.json",
+      "b": 1899,
+      "h": "7F16C288765A86F69EDBC3E1F0F033B9E2DEF43F2FC290FC20DF0D8799F530D1"
+    },
+    {
+      "p": "F/N/N07.json",
+      "b": 2039,
+      "h": "8A61366922868D68F2BB26D7508328D3928548445BBDBE271791C2FF7A2C1B27"
+    },
+    {
+      "p": "F/N/N08.json",
+      "b": 2034,
+      "h": "26E79D25EE2B23EC37228301800CEC9EFB6927F4367882B5E5CF42A7F1661054"
+    },
+    {
+      "p": "F/N/N09.json",
+      "b": 2028,
+      "h": "CE14403692566C90D81F24034D72F95339032B63CFC72A05FE5AA4BBD05E174E"
+    },
+    {
+      "p": "F/N/N10.json",
+      "b": 2033,
+      "h": "024123D9E53F57DFC8C9236CD08CB3C8766763B8227D44FCD358259FCCEEB9FE"
+    },
+    {
+      "p": "F/N/N11.json",
+      "b": 2084,
+      "h": "6559B7FF7D271D12BEFA40ACBA9808B06781A723B4E4B4C13E2ACCB6F50EF1D5"
+    },
+    {
+      "p": "F/N/N12.json",
+      "b": 2022,
+      "h": "B6CE8AADE2E590070146C9F189C25DA1AAE566134FEA0842FBA626CA007F4733"
+    },
+    {
+      "p": "F/N/N13.json",
+      "b": 2048,
+      "h": "6434EF1B357F7A1E302FF79F13B624673982FD320C97F99BA5A815FB3E93D011"
+    },
+    {
+      "p": "F/N/N14.json",
+      "b": 2042,
+      "h": "4ED6D4F6212757E05A4216751A46EE6025301FFC08362A416CAED87155D1E745"
+    },
+    {
+      "p": "F/N/N15.json",
+      "b": 1924,
+      "h": "F115B9ED46335B2F95A83029007433FFFEA28BD52CABE98431735E97DBAA40DE"
+    },
+    {
+      "p": "F/N/N16.json",
+      "b": 1883,
+      "h": "9254FC224F1B1B5F122AF88DA11FBAB11815696FFBBDE32D9CED3501BCDF8015"
+    },
+    {
+      "p": "F/N/N17.json",
+      "b": 1883,
+      "h": "C36F007586155EBFCFEF7573FE1E1EBC664F1901B2233474D678C69E73AB4314"
+    },
+    {
+      "p": "F/N/N18.json",
+      "b": 2027,
+      "h": "56706B3C2A4CF2EF0FF0D480394B1E1792439F0CCD95F2D6F9853F9C290EEB8A"
+    },
+    {
+      "p": "F/N/N19.json",
+      "b": 1996,
+      "h": "4EC7D364D7951A9EA17209C697F9ADD6E505B7589ED70BB764C9AA8C5192AD58"
+    },
+    {
+      "p": "F/N/N20.json",
+      "b": 2055,
+      "h": "DB90DD2C598E1B602D707C85DC66DBD3D606453BAF30CAF6A9743D2A2AAC2209"
+    },
+    {
+      "p": "F/P/P01.json",
+      "b": 1858,
+      "h": "D7CF10B2264BF5557C66399DE3E2818477BB60B82736583DC16D0AE23210B308"
+    },
+    {
+      "p": "F/P/P02.json",
+      "b": 1861,
+      "h": "E625BD4EFAF124E0B6F385AC82D2D3A0A97C4C3BAB8C7DFBCC67D431F3C9C5C5"
+    },
+    {
+      "p": "F/P/P03.json",
+      "b": 1865,
+      "h": "5BE1282E34F938AD82D912A349F1FBF398BA6B8D58C40BD12C6F16478E319AA4"
+    },
+    {
+      "p": "F/P/P04.json",
+      "b": 1865,
+      "h": "5449E8DA68EF1D2C548B9BE64FC6A82F8CD9DBB94A2B989C613373E9934FBBD5"
+    },
+    {
+      "p": "F/P/P05.json",
+      "b": 1863,
+      "h": "F4BE494F0D313FFAE8A5E3C07F4A615F4E0FB78E0A3480CA9DB02465FA1DBF5F"
+    },
+    {
+      "p": "F/P/P06.json",
+      "b": 1875,
+      "h": "8BDE72E0B6EBBFB5A210C581FCC49780F9BAAB69B3E2BE0869E5CF7430EE7119"
+    },
+    {
+      "p": "F/P/P07.json",
+      "b": 1978,
+      "h": "BCB593E6BF3AED83A30BCA0C07CD8929EF82865AD31C2C10E4D96858E0133769"
+    },
+    {
+      "p": "F/P/P08.json",
+      "b": 2029,
+      "h": "9DDA92CA0664D3D7ACD5FEDB28A69BD2C2BD1CBB29B7CDC68C95E23266E13056"
+    },
+    {
+      "p": "F/P/P09.json",
+      "b": 2019,
+      "h": "516F267363267164F9D59DAF1CD4D6EF53E1F28F71B9E4C5F6A6979F8872B1A0"
+    },
+    {
+      "p": "F/P/P10.json",
+      "b": 2016,
+      "h": "7CF20CC2A46001F33279C03B4E89EE037403794328DC4EADE6A210F5EAEAD6D5"
+    },
+    {
+      "p": "F/P/P11.json",
+      "b": 2020,
+      "h": "6B9C3AE5AFB8B14309872049BDD02252D565A81496C4B7EF3F8B52DAAF2BE82E"
+    },
+    {
+      "p": "F/P/P12.json",
+      "b": 1859,
+      "h": "D12DB4C9ACB523A1FF686EEED2A3FD9902E0B442489EAE78C5CD931B50A9DA1D"
+    },
+    {
+      "p": "O/results.json",
+      "b": 13737,
+      "h": "970BE92E68DF23FBF3AF7A23F1CD9665E4807B6ECD2464ED441437A283FDF1B8"
+    },
+    {
+      "p": "R/run.py",
+      "b": 2644,
+      "h": "25679F5B6D708F2B241CB599597E919D313AF1344845A3A500286E0D36E75902"
+    },
+    {
+      "p": "README.md",
+      "b": 204,
+      "h": "D304468AA6F092C4AB51F9DA122C88A4625E1BB5634E63498264A6712FE04232"
+    },
+    {
+      "p": "S/cmd.json",
+      "b": 378,
+      "h": "63877FEDF29435DDDAB091DC713B6645477B2DC1EC50CCB35A50B072035667A6"
+    },
+    {
+      "p": "S/spec.md",
+      "b": 1178,
+      "h": "AF7B96B79F3D60DD95BB8029B662BA79261EE22EB23FE0B57629CDED2B6A6256"
+    }
+  ]
+}

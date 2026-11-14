@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_file": "Aed_in_Gai_Bernaig_Refined.md",
+  "source_reference": "turn15search24",
+  "source_bytes": 30064,
+  "source_sha256": "1e2c758f08908b2aaf94b23efa325e3841d8ac6e6c842e609e5549fe2952dfa9",
+  "source_heading_count": 85,
+  "authority_file": "Aed_in_Gai_Bernaig_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 54400,
+  "authority_sha256": "acd1d00c092fa7983c8c6aa049d50ad8250ef7aa94595fa6cee3135a8a7c8580",
+  "additive_bytes": 24336,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "static_check_file": "Aed_in_Gai_Bernaig_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "5633265d077be38726d3239dc62fe92bbec75a4e2098b90b88233c05d8b6f64b",
+  "validation_scope": "content static checks only; no compile runtime migration opening-state or payload validation"
+}

@@ -1,0 +1,42 @@
+{
+  "document_id": "manifest.england.law_policy.v1_1.consolidated",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "binding": {
+    "source_version_1_0": "England_Law_and_Policy_Package.md",
+    "source_version_1_1_refinement": "England_Law_and_Policy_Package_V1.1_Current_Authority_Refinement.md",
+    "canonical_output": "England_Law_and_Policy_Package.md",
+    "sources_preserved_in_output": true
+  },
+  "files": [
+    {
+      "filename": "England_Law_and_Policy_Package.md",
+      "sha256": "e62ba0a0d48da1164acbc3d67fb2e94df5ef7ae2402245c418d60f8172d67d3c",
+      "bytes": 72883
+    },
+    {
+      "filename": "England_Law_and_Policy_Package_Static_Check.json",
+      "sha256": "1b6021641d4cb03238388b5506ba2099f1b4097fb9604018ddff8c79ea242883",
+      "bytes": 785
+    }
+  ],
+  "authorizations": {
+    "source_archival": false,
+    "source_deletion": false,
+    "law_activation": false,
+    "policy_activation": false,
+    "mandate_activation": false,
+    "delegation_activation": false,
+    "regency_activation": false,
+    "council_activation": false,
+    "emergency_activation": false,
+    "opening_state_activation": false,
+    "repository_mutation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "save_rewrite": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

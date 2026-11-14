@@ -1,0 +1,23 @@
+{
+  "filename": "Ireland_Supply_Logistics_Transport_and_Strategic_Endurance_Authority_V1_Static_Check.json",
+  "target": "Ireland_Supply_Logistics_Transport_and_Strategic_Endurance_Authority_V1.md",
+  "target_sha256": "ede0a0cbf3ca79ea91c0d1f1d3f246901bd07a1105de2e06f5dec8cb4650b974",
+  "passed": true,
+  "failed_checks": [],
+  "checks": {
+    "correct_title": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "britannia": true,
+    "three_tracks": true,
+    "framework": true,
+    "regional_portfolios": true,
+    "validation_50": true,
+    "no_em_dash": true,
+    "balanced_fences": true,
+    "numbered_sections_49": true,
+    "no_mutation": true,
+    "honest_validation": true
+  }
+}

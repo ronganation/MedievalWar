@@ -1,0 +1,46 @@
+﻿# Root Cleanup Verification
+
+- Legacy_Checklist_Workflow created: True; already present before cleanup: False.
+- Older workflow folders moved intact; recursive original inventories checked by relative file path, byte size, and SHA-256:
+- 01_Checklist_Progress_Blocks: 10 original files; all original relative paths preserved: True; original source folder absent/new folder present: True; plus one separately moved progress-block file
+- 02_Campaign_Theater_Progress_and_Reconciliation: 4 original files; all original relative paths preserved: True; original source folder absent/new folder present: True
+- 03_Campaign_Theater_Owner_Decisions: 2 original files; all original relative paths preserved: True; original source folder absent/new folder present: True
+- 04_Campaign_Theater_Blocked_Registry: 5 original files; all original relative paths preserved: True; original source folder absent/new folder present: True
+- 05_Campaign_Theater_Owner_Response_and_Receipt: 9 original files; all original relative paths preserved: True; original source folder absent/new folder present: True
+- Recursive original file counts per workflow folder:
+  - 01_Checklist_Progress_Blocks: 10
+  - 02_Campaign_Theater_Progress_and_Reconciliation: 4
+  - 03_Campaign_Theater_Owner_Decisions: 2
+  - 04_Campaign_Theater_Blocked_Registry: 5
+  - 05_Campaign_Theater_Owner_Response_and_Receipt: 9
+- Individually moved root files: 7
+  - Britannia_and_West_Francia_Regional_Mercenary_Canonical_Ownership_Access_and_Collision_Gap_Audit_V1.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Shared_and_Cross_Scope\Cross_Theater_Military\Britannia_and_West_Francia_Regional_Mercenary_Canonical_Ownership_Access_and_Collision_Gap_Audit_V1.md`
+  - Campaign_Theater_Registry_and_Association_Owner_Reconciliation_V2.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Campaign\Campaign_Theater_Registry_and_Association_Owner_Reconciliation_V2.md`
+  - Design_Expansion_Checklist_V3.7_Progress_Block_2026-08-26.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Legacy_Checklist_Workflow\01_Checklist_Progress_Blocks\Design_Expansion_Checklist_V3.7_Progress_Block_2026-08-26.md`
+  - Shared_Opening_State_Sequence_Item_4_Progress_Checkpoint_V1.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Shared_and_Cross_Scope\Shared_Implementation\Shared_Opening_State_Sequence_Item_4_Progress_Checkpoint_V1.md`
+  - Sweden_Progress_Update_Addendum_2026-08-23.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Theaters_and_Realms\05_Norse\Sweden\Sweden_Progress_Update_Addendum_2026-08-23.md`
+  - Temporal_Authority_and_Realm_Progress_Refresh_V1.md -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Frameworks\Temporal\Temporal_Authority_and_Realm_Progress_Refresh_V1.md`
+  - Bible_and_Checklist_Organization_Move_Log_20260823_163414.csv -> `C:\Medieval War\Medieval War (England)\Project_Bible\Bible and Checklist\Post_08_26 Design_Checklist_Updates\Bible_and_Checklist_Organization_Move_Log_20260823_163414.csv`
+- Missing sources: 0
+- Destination collisions: 0
+- Skipped items: 0
+- Matching byte sizes: True
+- Matching SHA-256 hashes: True
+- Source absence after successful moves: True
+- Destination presence after successful moves: True
+- Overwrites: 0
+- Deletions: 0
+- Content modifications: 0
+- Final visible root inventory:
+  - Checklist_Repair_Backups
+  - Design_Expansion_Checklist_V3.7.md
+  - Frameworks
+  - Legacy_Checklist_Workflow
+  - Post_08_26 Design_Checklist_Updates
+  - Project_Bible_2.4.md
+  - Shared_and_Cross_Scope
+  - Theaters_and_Realms
+- Unexpected visible root items: 0
+- Expected visible root items missing: 0
+- Hidden/system metadata at root: 0
+- Total file-level log rows: 37 (30 original workflow-folder files; 7 authorized root files).

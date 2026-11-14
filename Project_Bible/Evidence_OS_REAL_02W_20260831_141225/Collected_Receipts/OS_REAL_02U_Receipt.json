@@ -1,0 +1,25 @@
+﻿{
+    "TaskId":  "OS-REAL-02U",
+    "Status":  "InstalledReviewOnlyKingTitleProjection",
+    "TitleTag":  "Title.Norway.King",
+    "TitleTagConfigChanged":  true,
+    "FilesAdded":  3,
+    "ExistingSourceFilesReplaced":  0,
+    "ProjectedFields":  [
+                            "TitleId",
+                            "HolderId"
+                        ],
+    "UnresolvedFields":  [
+                             "Recognition",
+                             "ContestedByClaims",
+                             "StateTags"
+                         ],
+    "TitleOwnerCommitted":  false,
+    "RuntimeEnvelopeEligible":  false,
+    "LiveCampaignTitlesModified":  false,
+    "ApplyCalled":  false,
+    "SaveWritten":  false,
+    "RegistryMutated":  false,
+    "RealmPayloadApplied":  false,
+    "TheaterActivated":  false
+}

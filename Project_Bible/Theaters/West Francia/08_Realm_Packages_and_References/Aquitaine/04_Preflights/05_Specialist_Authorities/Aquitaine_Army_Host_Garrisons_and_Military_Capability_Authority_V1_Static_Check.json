@@ -1,0 +1,102 @@
+{
+  "DocumentId": "StaticCheck.MilitaryCapability.Realm.Aquitaine.V1",
+  "TargetFile": "Aquitaine_Army_Host_Garrisons_and_Military_Capability_Authority_V1.md",
+  "TargetSHA256": "d5fce4134fdb77d1acbf294c2c8b1ec73e0e04b2fcd7e97cb8f02b153113b328",
+  "TargetBytes": 53857,
+  "TargetLines": 1457,
+  "Checks": [
+    {
+      "Check": "OutputUsesCleanRequestedFilename",
+      "Passed": true
+    },
+    {
+      "Check": "RenamedSourcePreserved",
+      "Passed": true
+    },
+    {
+      "Check": "SourceNotOverwritten",
+      "Passed": true
+    },
+    {
+      "Check": "SuccessorLargerThanSource",
+      "Passed": true
+    },
+    {
+      "Check": "SourceSectionsRetained",
+      "Passed": true
+    },
+    {
+      "Check": "SharedMilitaryContentV1_1",
+      "Passed": true
+    },
+    {
+      "Check": "ForceInstanceContract",
+      "Passed": true
+    },
+    {
+      "Check": "ServiceContributionContract",
+      "Passed": true
+    },
+    {
+      "Check": "CommandEligibilityAndAssignment",
+      "Passed": true
+    },
+    {
+      "Check": "GarrisonAssignment",
+      "Passed": true
+    },
+    {
+      "Check": "OperationPlan",
+      "Passed": true
+    },
+    {
+      "Check": "ReserveReinforcementRelief",
+      "Passed": true
+    },
+    {
+      "Check": "RegionalMilitaryFramework",
+      "Passed": true
+    },
+    {
+      "Check": "SemanticCommandsAndEvents",
+      "Passed": true
+    },
+    {
+      "Check": "DecisionTrace",
+      "Passed": true
+    },
+    {
+      "Check": "PerformanceContract",
+      "Passed": true
+    },
+    {
+      "Check": "MigrationContract",
+      "Passed": true
+    },
+    {
+      "Check": "ModernMedievalII",
+      "Passed": true
+    },
+    {
+      "Check": "MarkdownFencesBalanced",
+      "Passed": true
+    },
+    {
+      "Check": "NoEmDash",
+      "Passed": true
+    },
+    {
+      "Check": "StableFooterOnce",
+      "Passed": true
+    },
+    {
+      "Check": "FinalMarkerCorrect",
+      "Passed": true
+    }
+  ],
+  "TotalChecks": 22,
+  "Passes": 22,
+  "Failures": 0,
+  "Result": "Pass",
+  "MutationPerformed": false
+}

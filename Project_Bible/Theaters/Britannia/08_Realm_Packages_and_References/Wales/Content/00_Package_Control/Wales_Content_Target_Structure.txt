@@ -1,0 +1,27 @@
+Wales/Content/
+|-- 00_Package_Control/
+|-- 01_Realm/
+|-- 02_Historical/
+|-- 03_Opening_State/
+|-- 04_Registry_and_Identity/
+|-- 05_Specialist_Authorities/
+|   |-- 01_Political_Order/
+|   |-- 02_Titles_Offices_Claims_Succession/
+|   |-- 03_Law_Governance_Delegation/
+|   |-- 04_Ecclesiastical/
+|   |-- 05_Military/
+|   |-- 06_Population/
+|   |-- 07_Economy/
+|   |-- 08_Supply_Logistics/
+|   |-- 09_Strategic_Geography/
+|   |-- 10_Diplomacy/
+|   |-- 11_Culture_Language/
+|   `-- 12_Information_Intelligence/
+|-- 06_Reviews_Audits_and_Inventories/
+|-- 07_Validation_and_Manifests/
+|-- 99_Tools_and_Scripts/
+|-- Characters/        (existing folder retained)
+|-- Dynasties/         (existing folder retained)
+|-- Identity/          (existing folder retained)
+|-- Network/           (existing folder retained)
+`-- Reviews/           (existing folder retained pending later reconciliation)

@@ -1,0 +1,430 @@
+{
+  "document_id": "manifest.shared.ecclesiastical-religious-authority-family.source-static-check.v1",
+  "stable_document_id": "Manifest.EcclesiasticalReligiousAuthorityFamily.SourceStaticCheck",
+  "filename": "Ecclesiastical_and_Religious_Authority_Family_Source_Manifest_and_Static_Check_V1.json",
+  "version": "1.0.0",
+  "generated_date": "2026-09-19",
+  "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "scenario_opening": {
+    "historical_date": "1062-01-01",
+    "campaign_season": "Winter"
+  },
+  "temporal_constitution": {
+    "historical_progression_months_per_strategic_turn": 21,
+    "biological_progression_months_per_strategic_turn": 7,
+    "campaign_season_steps_per_strategic_turn": 1,
+    "campaign_season_order": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "tracks_independent": true
+  },
+  "manifest_scope": "Shared authority-family source inventory, fingerprint ledger, current-versus-legacy disposition check, and static closure preflight",
+  "records": [
+    {
+      "filename": "Religious_and_Ecclesiastical_Authority_Family_Bounded_Assessment_and_Development_Disposition_V1.md",
+      "authority_role": "FoundationalAssessmentAndDevelopmentDisposition",
+      "classification": "decision_provenance",
+      "version": "1.0.0",
+      "date": "2026-09-19",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search76",
+        "item_id": "48858",
+        "modified_utc": "2026-09-20T00:56:28Z"
+      },
+      "fingerprint": {
+        "bytes": null,
+        "physical_lines": null,
+        "sha256": null,
+        "evidence_basis": "Not exposed by current OneDrive result"
+      },
+      "disposition": "RETAIN_AS_FOUNDATIONAL_ASSESSMENT_AND_DEVELOPMENT_DECISION",
+      "current_control": false
+    },
+    {
+      "filename": "Religious_and_Ecclesiastical_Political_Systems_Shared_Constitution_V1.md",
+      "authority_role": "CrossTraditionReligiousPoliticalConstitution",
+      "classification": "current_authority",
+      "version": "1.0.0",
+      "date": "2026-09-19",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search67",
+        "item_id": "48856",
+        "modified_utc": "2026-09-20T01:09:21Z"
+      },
+      "fingerprint": {
+        "bytes": 33070,
+        "physical_lines": 1045,
+        "sha256": "069aad8cfe9f6a41533e23b3f1e1c0ecf49a6539854c82f18b29fc718d1f7ef5",
+        "evidence_basis": "Creation receipt; OneDrive exact file located"
+      },
+      "disposition": "CURRENT_SHARED_CONSTITUTION",
+      "current_control": true
+    },
+    {
+      "filename": "Ecclesiastical_Authority_Framework_V1.md",
+      "authority_role": "ImmediateSubstantiveSourceForEcclesiasticalV2",
+      "classification": "immutable_provenance",
+      "version": "1.0.0",
+      "date": "2026-08-12",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search64",
+        "item_id": "48659",
+        "modified_utc": "2026-09-20T01:19:30Z",
+        "duplicate_or_prior_copy_reference_id": "turn216search66",
+        "duplicate_or_prior_copy_item_id": "4162"
+      },
+      "fingerprint": {
+        "bytes": null,
+        "physical_lines": 1118,
+        "sha256": null,
+        "evidence_basis": "V2 declares 1118 source physical lines; current OneDrive result does not expose bytes or SHA-256"
+      },
+      "disposition": "RETAIN_IMMUTABLE_PROVENANCE",
+      "current_control": false,
+      "superseded_by": "Ecclesiastical_Authority_Framework_V2_Current_Authority_Additive_Modernization.md"
+    },
+    {
+      "filename": "Ecclesiastical_Authority_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "authority_role": "SharedEcclesiasticalInstitutionalFoundation",
+      "classification": "current_authority_candidate",
+      "version": "2.0.0",
+      "date": "2026-09-19",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search74",
+        "item_id": "48873",
+        "modified_utc": "2026-09-20T01:25:16Z"
+      },
+      "fingerprint": {
+        "bytes": 42967,
+        "physical_lines": 1353,
+        "sha256": "3e848d51659adf5377fe2154b1957b4d97ec4b87006082b47063360480903913",
+        "evidence_basis": "Creation receipt; OneDrive exact file located"
+      },
+      "disposition": "CURRENT_ADDITIVE_MODERNIZATION_CANDIDATE",
+      "current_control": true
+    },
+    {
+      "filename": "Ecclesiastical_Authority_Framework_V2_Independent_Static_Review_V1.md",
+      "authority_role": "EcclesiasticalV2IndependentStaticReview",
+      "classification": "current_review",
+      "version": "1.0.0",
+      "date": "2026-09-19",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search73",
+        "item_id": "48872",
+        "modified_utc": "2026-09-20T01:29:26Z"
+      },
+      "fingerprint": {
+        "bytes": 26046,
+        "physical_lines": 824,
+        "sha256": "29e507dd0efa7d2c3aae249c4e8939dcd3f387694730ffb023a647d68bbd5981",
+        "evidence_basis": "Creation receipt; OneDrive exact file located"
+      },
+      "disposition": "RETAIN_CURRENT_REVIEW",
+      "current_control": false,
+      "review_decision": "PASS_STATIC_DESIGN_OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "filename": "Islamic_Religious_Juristic_and_Institutional_Authority_V1.md",
+      "authority_role": "SharedIslamicReligiousJuristicInstitutionalAuthority",
+      "classification": "current_authority_candidate",
+      "version": "1.0.0",
+      "date": "2026-09-19",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search77",
+        "item_id": "48860",
+        "modified_utc": "2026-09-20T01:14:01Z"
+      },
+      "fingerprint": {
+        "bytes": 43471,
+        "physical_lines": 1260,
+        "sha256": "267662f1099905846d09aa40f8c0b9dd3ee4e01f7741861b829174e50fad171d",
+        "evidence_basis": "Creation receipt; OneDrive exact file located"
+      },
+      "disposition": "CURRENT_SHARED_ISLAMIC_AUTHORITY",
+      "current_control": true
+    },
+    {
+      "filename": "Islamic_Shared_Authority_Developed_Realm_Compatibility_Review_Valencia_Zaragoza_Badajoz_Seville_Almoravids_V1.md",
+      "authority_role": "IslamicFiveRealmCompatibilityReview",
+      "classification": "current_review",
+      "version": "1.0.0",
+      "date": "2026-09-19",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search80",
+        "item_id": "48857",
+        "modified_utc": "2026-09-20T01:19:08Z"
+      },
+      "fingerprint": {
+        "bytes": 25558,
+        "physical_lines": 596,
+        "sha256": "d4a68d7ee538730322d70f2123d1250260facb3e8977bd34bbdad0c6df6d4239",
+        "evidence_basis": "Creation receipt; OneDrive exact file located"
+      },
+      "disposition": "RETAIN_CURRENT_REVIEW",
+      "current_control": false,
+      "review_decision": "PASS"
+    },
+    {
+      "filename": "Latin_Catholic_Ecclesiastical_and_Papal_Authority_Compatibility_and_Placement_Review_V1.md",
+      "authority_role": "LatinCatholicCompatibilityAndPlacementReview",
+      "classification": "current_review",
+      "version": "1.0.0",
+      "date": "2026-09-19",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical",
+      "onedrive": {
+        "located": false,
+        "reference_id": null,
+        "item_id": null,
+        "modified_utc": null
+      },
+      "fingerprint": {
+        "bytes": 30336,
+        "physical_lines": 847,
+        "sha256": "3a5df8086193af31c400afcc073f1e6138bafb251614897faf898e02771685ac",
+        "evidence_basis": "Creation receipt; exact file not surfaced in current OneDrive search pass"
+      },
+      "disposition": "RETAIN_CURRENT_REVIEW_PENDING_ONEDRIVE_INDEX_CONFIRMATION",
+      "current_control": false,
+      "review_decision": "PASS_STATIC_DESIGN_OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "filename": "Ecclesiastical_and_Religious_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "authority_role": "CurrentAuthorityIndexAndLegacyDisposition",
+      "classification": "current_navigation_authority",
+      "version": "1.0.0",
+      "date": "2026-09-19",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical",
+      "onedrive": {
+        "located": false,
+        "reference_id": null,
+        "item_id": null,
+        "modified_utc": null
+      },
+      "fingerprint": {
+        "bytes": 32723,
+        "physical_lines": 1009,
+        "sha256": "826f42410f4711378e0aba93a264314651ce4327775b45cb4c119a1394eb8eee",
+        "evidence_basis": "Creation receipt; exact file not surfaced in current OneDrive search pass"
+      },
+      "disposition": "CURRENT_NAVIGATION_AUTHORITY_PENDING_ONEDRIVE_INDEX_CONFIRMATION",
+      "current_control": true
+    },
+    {
+      "filename": "Ecclesiastical_Authority_and_Papal_Relations_V2_Modern_Medieval_II_Current_Authority.md",
+      "authority_role": "LatinCatholicEcclesiasticalAndPapalSpecialist",
+      "classification": "current_authority_candidate",
+      "version": "2.0.0",
+      "date": "2026-09-08",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical/Integration",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search84",
+        "item_id": "37004",
+        "modified_utc": "2026-09-20T00:31:23Z",
+        "manifest_reference_id": "turn216search90",
+        "manifest_item_id": "37005"
+      },
+      "fingerprint": {
+        "bytes": 71068,
+        "physical_lines": 2595,
+        "sha256": "eab3938ab32343e007c838d7de8efb244a52f0c5da17226ac061b8246286e9ce",
+        "evidence_basis": "Companion manifest located in OneDrive"
+      },
+      "disposition": "RETAIN_CURRENT_SPECIALIST_AUTHORITY",
+      "current_control": true
+    },
+    {
+      "filename": "Papal_Favor_and_Latin_Church_Relations_Framework_Reconciliation_V1.md",
+      "authority_role": "PapalFavorDoctrineDerivedSummaryAndSuccessorPlanning",
+      "classification": "current_reconciliation",
+      "version": "1.0.0",
+      "date": "2026-09-08",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical/Integration",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search97",
+        "item_id": null,
+        "modified_utc": null,
+        "manifest_reference_id": "turn216search95",
+        "manifest_item_id": "48859"
+      },
+      "fingerprint": {
+        "bytes": 36382,
+        "physical_lines": 919,
+        "sha256": "f15997342e6527790f474ef8c3b88ceeae1bcf9604972db8a10c33840ad570a0",
+        "evidence_basis": "Companion manifest located in OneDrive"
+      },
+      "disposition": "RETAIN_CURRENT_RECONCILIATION_AND_DERIVED_SUMMARY_AUTHORITY",
+      "current_control": true
+    },
+    {
+      "filename": "Medieval_War_Papacy_Catholic_War_Independent_Powers_and_Conflict_Doctrine_Handoff_V1.md",
+      "authority_role": "PapacyCatholicWarConflictDoctrineHandoff",
+      "classification": "deferred_scope_handoff",
+      "version": "1.0.0",
+      "date": "2026-09-04",
+      "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Ecclesiastical/Integration",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search93",
+        "item_id": null,
+        "modified_utc": null
+      },
+      "fingerprint": {
+        "bytes": 31804,
+        "physical_lines": 941,
+        "sha256": "65ba9a7cdd99eb3ec004e233a40d24d4f1b9c9d60e3951509614a6902a9bd422",
+        "evidence_basis": "Referenced and fingerprinted by the Latin Catholic V2 companion manifest"
+      },
+      "disposition": "RETAIN_DEFERRED_SCOPE_AND_DOCTRINE_HANDOFF",
+      "current_control": false
+    },
+    {
+      "filename": "Religious_System.pdf",
+      "authority_role": "LegacyReligiousSystemIdeaSource",
+      "classification": "legacy_noncontrolling",
+      "version": null,
+      "date": null,
+      "placement": "LegacyOrOriginalSystemLocationRequiresRepositoryConfirmation",
+      "onedrive": {
+        "located": true,
+        "reference_id": "turn216search68",
+        "item_id": null,
+        "modified_utc": null
+      },
+      "fingerprint": {
+        "bytes": null,
+        "physical_lines": null,
+        "sha256": null,
+        "evidence_basis": "Current OneDrive result exposes content snippet but not file fingerprint"
+      },
+      "disposition": "RETAIN_AS_LEGACY_IDEA_SOURCE_NOT_CONTROLLING_AUTHORITY",
+      "current_control": false,
+      "note": "Repository result is PDF. Earlier authority prose used Religious_System.md as the logical legacy source name. Exact physical-format disposition must preserve the located PDF and must not fabricate an MD twin."
+    }
+  ],
+  "deferred_scopes": [
+    {
+      "scope": "OrthodoxAuthorityFamily",
+      "status": "EXPLICITLY_DEFERRED",
+      "likely_first_major_consumer": "ByzantineEmpire"
+    },
+    {
+      "scope": "OtherEasternChristianTraditions",
+      "status": "RESERVED_FOR_EVIDENCE_LED_DEVELOPMENT"
+    },
+    {
+      "scope": "JewishCommunalAndInstitutionalAuthorities",
+      "status": "RESERVED_WHERE_STRATEGICALLY_REQUIRED"
+    },
+    {
+      "scope": "NorseBalticSteppeAndOtherRegionalReligiousTraditions",
+      "status": "RESERVED_FOR_EVIDENCE_LED_DEVELOPMENT"
+    },
+    {
+      "scope": "PapacyInstitutionOpeningPackage",
+      "status": "DEFERRED_SEPARATE_PACKAGE"
+    },
+    {
+      "scope": "PapalStatesRealmPackage",
+      "status": "DEFERRED_SEPARATE_REALM"
+    },
+    {
+      "scope": "PapalElectionAndCollegeOfCardinals",
+      "status": "DEFERRED_SEPARATE_SYSTEM"
+    },
+    {
+      "scope": "CrusadeAndJihadExecution",
+      "status": "DEFERRED_SEPARATE_SYSTEMS"
+    }
+  ],
+  "static_checks": {
+    "json_schema_parse": "PASS",
+    "record_count": 13,
+    "current_control_record_count": 6,
+    "onedrive_located_record_count": 11,
+    "complete_fingerprint_record_count": 10,
+    "unique_filename_count": 13,
+    "duplicate_filename_records": 0,
+    "all_records_have_disposition": true,
+    "all_current_records_have_owner_role": true,
+    "all_sha256_values_lowercase_64_hex_or_null": true,
+    "shared_constitution_present": true,
+    "ecclesiastical_v2_present": true,
+    "islamic_shared_authority_present": true,
+    "latin_catholic_specialist_present": true,
+    "legacy_religious_system_noncontrolling": true,
+    "orthodox_deferred_explicit": true,
+    "three_track_temporal_contract": "PASS",
+    "implementation_promotion_authorized": false,
+    "overall_static_result": "PASS_WITH_EVIDENCE_LIMITATIONS"
+  },
+  "findings": [
+    {
+      "finding_id": "REL-FAM-MAN-NB-001",
+      "severity": "NonblockingForStaticClosurePreflight",
+      "subject": "OneDriveIndexConfirmation",
+      "files": [
+        "Latin_Catholic_Ecclesiastical_and_Papal_Authority_Compatibility_and_Placement_Review_V1.md",
+        "Ecclesiastical_and_Religious_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md"
+      ],
+      "required_action": "Confirm exact OneDrive indexing and placement before independent family closure is finalized."
+    },
+    {
+      "finding_id": "REL-FAM-MAN-NB-002",
+      "severity": "NonblockingForStaticClosurePreflight",
+      "subject": "IncompleteRepositoryFingerprints",
+      "files": [
+        "Religious_and_Ecclesiastical_Authority_Family_Bounded_Assessment_and_Development_Disposition_V1.md",
+        "Ecclesiastical_Authority_Framework_V1.md",
+        "Religious_System.pdf"
+      ],
+      "required_action": "Record byte count, physical lines, and SHA-256 from exact repository files before byte-exact implementation or migration promotion."
+    },
+    {
+      "finding_id": "REL-FAM-MAN-NB-003",
+      "severity": "Nonblocking",
+      "subject": "LegacyPhysicalFormat",
+      "files": [
+        "Religious_System.pdf"
+      ],
+      "required_action": "Treat the located PDF as the physical legacy source unless an exact Markdown twin is separately located. Do not fabricate or infer a Markdown file."
+    }
+  ],
+  "mutation_receipt": {
+    "substantive_authorities_modified": 0,
+    "realm_authorities_modified": 0,
+    "legacy_files_modified": 0,
+    "registry_entries_modified": 0,
+    "opening_state_records_modified": 0,
+    "save_schemas_modified": 0,
+    "migration_executed": false,
+    "gameplay_payloads_imported": 0,
+    "unreal_files_modified": 0,
+    "compile_executed": false,
+    "runtime_executed": false
+  },
+  "implementation_promotion_authorized": false,
+  "next_file": "Ecclesiastical_and_Religious_Authority_Family_Independent_Static_Closure_Review_V1.md"
+}

@@ -1,0 +1,33 @@
+{
+  "document_id": "manifest.england.army_fleet_military.v1",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Army_Fleet_and_Military_V1.md",
+      "sha256": "c10ae80eb417297571f1444a333a13bbb036d2fdaa23eaa5cd79c7eaf16ecdea",
+      "bytes": 44666
+    },
+    {
+      "filename": "England_Army_Fleet_and_Military_V1_Static_Check.json",
+      "sha256": "68643e77a73f4944278f89fb523dcacca2de689ae8fadb04b2d5035ec973812e",
+      "bytes": 499
+    }
+  ],
+  "authorizations": {
+    "force_activation": false,
+    "command_activation": false,
+    "muster_activation": false,
+    "fleet_activation": false,
+    "garrison_activation": false,
+    "war_activation": false,
+    "opening_state_activation": false,
+    "repository_mutation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "save_rewrite": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

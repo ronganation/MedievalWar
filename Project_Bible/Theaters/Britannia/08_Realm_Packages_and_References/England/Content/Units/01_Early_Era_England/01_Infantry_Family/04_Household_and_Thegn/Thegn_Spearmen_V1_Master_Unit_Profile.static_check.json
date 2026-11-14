@@ -1,0 +1,16 @@
+{
+  "document": "Thegn_Spearmen_V1_Master_Unit_Profile.md",
+  "sha256": "8a608af8b7a92ea1cee2f91f4120a99bf9aed488499da9a1e6534c12fc0cc164",
+  "pass": true,
+  "checks": {
+    "hash_matches_manifest": true,
+    "terrain_rows_25": true,
+    "legacy_appendix_present": true,
+    "S04_no_double_counting": true,
+    "loyalty_culture_population_integrated": true,
+    "shared_source_competition": true,
+    "housecarl_separation": true,
+    "nonmutation": true,
+    "no_escaped_underlines": true
+  }
+}

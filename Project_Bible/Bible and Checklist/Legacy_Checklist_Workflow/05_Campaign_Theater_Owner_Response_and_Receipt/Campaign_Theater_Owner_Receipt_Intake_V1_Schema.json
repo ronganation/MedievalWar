@@ -1,0 +1,555 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medieval-war:schema:campaign-theater-owner-receipt-intake-v1",
+  "title": "Campaign Theater Owner Receipt Intake V1, Hardened Intermediate-State Schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_identity",
+    "authority_boundary",
+    "intake_state",
+    "receipt",
+    "authorization"
+  ],
+  "properties": {
+    "document_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "filename",
+        "version",
+        "date",
+        "status"
+      ],
+      "properties": {
+        "document_id": {
+          "const": "mw.campaign_theater.owner_receipt_intake.v1"
+        },
+        "filename": {
+          "const": "Campaign_Theater_Owner_Receipt_Intake_V1_PENDING.json"
+        },
+        "version": {
+          "const": "1.0.0"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "enum": [
+            "PENDING_NO_OWNER_RECEIPT",
+            "RECEIPT_SUBMITTED_UNVALIDATED",
+            "RECEIPT_VALIDATED"
+          ]
+        }
+      }
+    },
+    "authority_boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "constitutional_authority",
+        "operational_authority",
+        "owner_response_ledger",
+        "decision_request_packet",
+        "blocked_registry_index"
+      ],
+      "properties": {
+        "constitutional_authority": {
+          "const": "Project Bible V2.4"
+        },
+        "operational_authority": {
+          "const": "Design Expansion Checklist V3.7"
+        },
+        "owner_response_ledger": {
+          "const": "Campaign_Theater_Owner_Response_Ledger_V1.json"
+        },
+        "decision_request_packet": {
+          "const": "Campaign_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md"
+        },
+        "blocked_registry_index": {
+          "const": "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT.json"
+        }
+      }
+    },
+    "intake_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "receipt_submitted",
+        "receipt_validated",
+        "ledger_update_authorized",
+        "blocked_index_promotion_authorized"
+      ],
+      "properties": {
+        "receipt_submitted": {
+          "type": "boolean"
+        },
+        "receipt_validated": {
+          "type": "boolean"
+        },
+        "ledger_update_authorized": {
+          "type": "boolean"
+        },
+        "blocked_index_promotion_authorized": {
+          "const": false
+        }
+      }
+    },
+    "receipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "request_id",
+        "owner_authority_ref",
+        "owner_receipt_id",
+        "disposition",
+        "authority_or_evidence_refs",
+        "approval_scope",
+        "response_status"
+      ],
+      "properties": {
+        "request_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "request.campaign_theater.registry_disposition.v1",
+            "request.campaign_theater.definition_owner.v1",
+            "request.campaign_theater.association_owner.v1",
+            "request.campaign_theater.scenario_binding_owner.v1",
+            "request.campaign_theater.primary_uniqueness_validator.v1",
+            "request.campaign_theater.direct_migration.v1",
+            "request.campaign_theater.evidence_boundary.v1",
+            null
+          ]
+        },
+        "owner_authority_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "owner_receipt_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "disposition": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "APPROVE",
+            "REJECT",
+            "QUARANTINE",
+            null
+          ]
+        },
+        "authority_or_evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "approval_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "response_status": {
+          "enum": [
+            "PENDING_NO_OWNER_RECEIPT",
+            "APPROVED_WITH_OWNER_RECEIPT",
+            "REJECTED_WITH_OWNER_RECEIPT",
+            "QUARANTINED_WITH_OWNER_RECEIPT"
+          ]
+        }
+      }
+    },
+    "authorization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "registry_mutation_authorized",
+        "new_activation_authorized",
+        "scenario_execution_authorized",
+        "importer_consumption_authorized",
+        "runtime_mutation_authorized",
+        "save_persistence_authorized",
+        "migration_execution_authorized"
+      ],
+      "properties": {
+        "registry_mutation_authorized": {
+          "const": false
+        },
+        "new_activation_authorized": {
+          "const": false
+        },
+        "scenario_execution_authorized": {
+          "const": false
+        },
+        "importer_consumption_authorized": {
+          "const": false
+        },
+        "runtime_mutation_authorized": {
+          "const": false
+        },
+        "save_persistence_authorized": {
+          "const": false
+        },
+        "migration_execution_authorized": {
+          "const": false
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_submitted": {
+                "const": false
+              }
+            },
+            "required": [
+              "receipt_submitted"
+            ]
+          }
+        },
+        "required": [
+          "intake_state"
+        ]
+      },
+      "then": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "PENDING_NO_OWNER_RECEIPT"
+              }
+            }
+          },
+          "intake_state": {
+            "properties": {
+              "receipt_validated": {
+                "const": false
+              },
+              "ledger_update_authorized": {
+                "const": false
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "type": "null"
+              },
+              "owner_authority_ref": {
+                "type": "null"
+              },
+              "owner_receipt_id": {
+                "type": "null"
+              },
+              "disposition": {
+                "type": "null"
+              },
+              "authority_or_evidence_refs": {
+                "maxItems": 0
+              },
+              "approval_scope": {
+                "type": "null"
+              },
+              "response_status": {
+                "const": "PENDING_NO_OWNER_RECEIPT"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_submitted": {
+                "const": true
+              },
+              "receipt_validated": {
+                "const": false
+              }
+            },
+            "required": [
+              "receipt_submitted",
+              "receipt_validated"
+            ]
+          }
+        },
+        "required": [
+          "intake_state"
+        ]
+      },
+      "then": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_SUBMITTED_UNVALIDATED"
+              }
+            }
+          },
+          "intake_state": {
+            "properties": {
+              "ledger_update_authorized": {
+                "const": false
+              },
+              "blocked_index_promotion_authorized": {
+                "const": false
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "type": "string"
+              },
+              "owner_authority_ref": {
+                "type": "string",
+                "minLength": 1
+              },
+              "owner_receipt_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "disposition": {
+                "enum": [
+                  "APPROVE",
+                  "REJECT",
+                  "QUARANTINE"
+                ]
+              },
+              "authority_or_evidence_refs": {
+                "minItems": 1
+              },
+              "approval_scope": {
+                "type": "string",
+                "minLength": 1
+              },
+              "response_status": {
+                "const": "PENDING_NO_OWNER_RECEIPT"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_validated": {
+                "const": true
+              }
+            },
+            "required": [
+              "receipt_validated"
+            ]
+          }
+        },
+        "required": [
+          "intake_state"
+        ]
+      },
+      "then": {
+        "properties": {
+          "document_identity": {
+            "properties": {
+              "status": {
+                "const": "RECEIPT_VALIDATED"
+              }
+            }
+          },
+          "intake_state": {
+            "properties": {
+              "receipt_submitted": {
+                "const": true
+              },
+              "ledger_update_authorized": {
+                "const": true
+              }
+            }
+          },
+          "receipt": {
+            "properties": {
+              "request_id": {
+                "type": "string"
+              },
+              "owner_authority_ref": {
+                "type": "string",
+                "minLength": 1
+              },
+              "owner_receipt_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "disposition": {
+                "enum": [
+                  "APPROVE",
+                  "REJECT",
+                  "QUARANTINE"
+                ]
+              },
+              "authority_or_evidence_refs": {
+                "minItems": 1
+              },
+              "approval_scope": {
+                "type": "string",
+                "minLength": 1
+              },
+              "response_status": {
+                "enum": [
+                  "APPROVED_WITH_OWNER_RECEIPT",
+                  "REJECTED_WITH_OWNER_RECEIPT",
+                  "QUARANTINED_WITH_OWNER_RECEIPT"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_validated": {
+                "const": true
+              }
+            },
+            "required": [
+              "receipt_validated"
+            ]
+          },
+          "receipt": {
+            "properties": {
+              "disposition": {
+                "const": "APPROVE"
+              }
+            },
+            "required": [
+              "disposition"
+            ]
+          }
+        },
+        "required": [
+          "intake_state",
+          "receipt"
+        ]
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "response_status": {
+                "const": "APPROVED_WITH_OWNER_RECEIPT"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_validated": {
+                "const": true
+              }
+            },
+            "required": [
+              "receipt_validated"
+            ]
+          },
+          "receipt": {
+            "properties": {
+              "disposition": {
+                "const": "REJECT"
+              }
+            },
+            "required": [
+              "disposition"
+            ]
+          }
+        },
+        "required": [
+          "intake_state",
+          "receipt"
+        ]
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "response_status": {
+                "const": "REJECTED_WITH_OWNER_RECEIPT"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "intake_state": {
+            "properties": {
+              "receipt_validated": {
+                "const": true
+              }
+            },
+            "required": [
+              "receipt_validated"
+            ]
+          },
+          "receipt": {
+            "properties": {
+              "disposition": {
+                "const": "QUARANTINE"
+              }
+            },
+            "required": [
+              "disposition"
+            ]
+          }
+        },
+        "required": [
+          "intake_state",
+          "receipt"
+        ]
+      },
+      "then": {
+        "properties": {
+          "receipt": {
+            "properties": {
+              "response_status": {
+                "const": "QUARANTINED_WITH_OWNER_RECEIPT"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

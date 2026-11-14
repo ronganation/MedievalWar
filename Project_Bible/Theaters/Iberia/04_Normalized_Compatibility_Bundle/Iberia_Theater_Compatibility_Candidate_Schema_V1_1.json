@@ -1,0 +1,588 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medieval-war:schema:iberia-theater-compatibility-index-v1-1",
+  "title": "Iberia Theater Compatibility Index V1.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_identity",
+    "summary",
+    "candidates"
+  ],
+  "properties": {
+    "document_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "version",
+        "date",
+        "status",
+        "theater_ref"
+      ],
+      "properties": {
+        "document_id": {
+          "const": "mw.theater.iberia.compatibility.index.v1_1"
+        },
+        "version": {
+          "const": "1.1.0"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "const": "STATIC_CHECKED_WITH_VALIDATION_GAPS"
+        },
+        "theater_ref": {
+          "const": "theater.iberia"
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "candidate_count",
+        "primary_candidate_count",
+        "expeditionary_candidate_count",
+        "active_associations_created",
+        "realm_packages_modified",
+        "opening_states_modified",
+        "runtime_mutations",
+        "save_mutations",
+        "migration_executions",
+        "source_candidate_hash_count",
+        "source_fidelity_validated",
+        "implemented_semantic_rule_count",
+        "not_evaluable_semantic_rule_count"
+      ],
+      "properties": {
+        "candidate_count": {
+          "const": 7
+        },
+        "primary_candidate_count": {
+          "const": 6
+        },
+        "expeditionary_candidate_count": {
+          "const": 1
+        },
+        "active_associations_created": {
+          "const": 0
+        },
+        "realm_packages_modified": {
+          "const": 0
+        },
+        "opening_states_modified": {
+          "const": 0
+        },
+        "runtime_mutations": {
+          "const": 0
+        },
+        "save_mutations": {
+          "const": 0
+        },
+        "migration_executions": {
+          "const": 0
+        },
+        "source_candidate_hash_count": {
+          "const": 7
+        },
+        "source_fidelity_validated": {
+          "const": true
+        },
+        "implemented_semantic_rule_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "not_evaluable_semantic_rule_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "$ref": "#/$defs/candidate"
+      }
+    }
+  },
+  "$defs": {
+    "sourceHash": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "filename",
+        "bytes",
+        "lines",
+        "sha256"
+      ],
+      "properties": {
+        "filename": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "lines": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stable_order",
+        "candidate_identity",
+        "subject",
+        "scenario_binding",
+        "theater_binding",
+        "compatibility",
+        "blockers",
+        "authorization",
+        "validation_evidence",
+        "provenance"
+      ],
+      "properties": {
+        "stable_order": {
+          "type": "integer",
+          "enum": [
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+          ]
+        },
+        "candidate_identity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "compatibility_record_id",
+            "candidate_version",
+            "record_status",
+            "source_file"
+          ],
+          "properties": {
+            "compatibility_record_id": {
+              "type": "string",
+              "pattern": "^candidate\\.theater_compatibility\\.[a-z0-9_]+\\.iberia\\.v1$"
+            },
+            "candidate_version": {
+              "const": "1.1.0"
+            },
+            "record_status": {
+              "enum": [
+                "StaticCheckedCandidate",
+                "StaticCheckedCandidateWithNormalizationBlockers",
+                "StaticCheckedCandidateWithRegistryBlockers",
+                "StaticCheckedCompatibilityBlockerCandidate"
+              ]
+            },
+            "source_file": {
+              "type": "string"
+            }
+          }
+        },
+        "subject": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "realm_ref",
+            "realm_ref_status",
+            "faction_ref",
+            "faction_ref_status",
+            "registry_ref",
+            "registry_version",
+            "registry_status",
+            "registry_ref_status"
+          ],
+          "properties": {
+            "realm_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "realm_ref_status": {
+              "enum": [
+                "CanonicalLocked",
+                "CanonicalExisting",
+                "CanonicalProposed",
+                "Candidate",
+                "BoundedCandidate",
+                "ExternalLock",
+                "ReviewOnly",
+                "Quarantined",
+                "NotLocated",
+                "NotRequiredByCurrentPackage"
+              ]
+            },
+            "faction_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "faction_ref_status": {
+              "enum": [
+                "CanonicalLocked",
+                "CanonicalExisting",
+                "CanonicalProposed",
+                "Candidate",
+                "BoundedCandidate",
+                "ExternalLock",
+                "ReviewOnly",
+                "Quarantined",
+                "NotLocated",
+                "NotRequiredByCurrentPackage"
+              ]
+            },
+            "registry_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "registry_version": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "registry_status": {
+              "type": "string"
+            },
+            "registry_ref_status": {
+              "enum": [
+                "CanonicalLocked",
+                "CanonicalExisting",
+                "CanonicalProposed",
+                "Candidate",
+                "BoundedCandidate",
+                "ExternalLock",
+                "ReviewOnly",
+                "Quarantined",
+                "NotLocated",
+                "NotRequiredByCurrentPackage"
+              ]
+            }
+          }
+        },
+        "scenario_binding": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "faction_package_ref",
+            "package_ref",
+            "opening_state_ref",
+            "scenario_ref",
+            "identity_normalization_status",
+            "normalization_issues",
+            "unresolved_identity_forms"
+          ],
+          "properties": {
+            "faction_package_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "package_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "opening_state_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "scenario_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "identity_normalization_status": {
+              "enum": [
+                "None",
+                "Required"
+              ]
+            },
+            "normalization_issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "unresolved_identity_forms": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "theater_binding": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "theater_ref",
+            "association_type",
+            "opening_association",
+            "activation_status",
+            "primary_theater_change"
+          ],
+          "properties": {
+            "theater_ref": {
+              "const": "theater.iberia"
+            },
+            "association_type": {
+              "enum": [
+                "Primary",
+                "Secondary",
+                "Frontier",
+                "Maritime",
+                "Expeditionary",
+                "HistoricalLegacy",
+                "ReviewOnly"
+              ]
+            },
+            "opening_association": {
+              "const": false
+            },
+            "activation_status": {
+              "const": "Blocked"
+            },
+            "primary_theater_change": {
+              "enum": [
+                "Prohibited",
+                "NotApplicable"
+              ]
+            }
+          }
+        },
+        "compatibility": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "temporal_status",
+            "package_freeze_status",
+            "canonical_identity_status",
+            "normalized_index_admission_readiness",
+            "source_candidate_schema_validated",
+            "association_fixture_readiness",
+            "activation_readiness"
+          ],
+          "properties": {
+            "temporal_status": {
+              "enum": [
+                "Compatible",
+                "ReviewRequired",
+                "ModernizationRequired"
+              ]
+            },
+            "package_freeze_status": {
+              "enum": [
+                "Frozen",
+                "FreezeForNow"
+              ]
+            },
+            "canonical_identity_status": {
+              "enum": [
+                "Locked",
+                "Existing",
+                "Proposed",
+                "Unresolved"
+              ]
+            },
+            "normalized_index_admission_readiness": {
+              "enum": [
+                "Ready",
+                "ReadyWithNormalization",
+                "Blocked"
+              ]
+            },
+            "source_candidate_schema_validated": {
+              "const": false
+            },
+            "association_fixture_readiness": {
+              "enum": [
+                "Ready",
+                "ReadyAfterCompatibilityPatch",
+                "Blocked"
+              ]
+            },
+            "activation_readiness": {
+              "const": "Blocked"
+            }
+          }
+        },
+        "blockers": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "fatal_before_schema",
+            "fatal_before_import",
+            "fatal_before_activation",
+            "review_items"
+          ],
+          "properties": {
+            "fatal_before_schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "fatal_before_import": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "fatal_before_activation": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "review_items": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "authorization": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "realm_package_mutation",
+            "opening_state_mutation",
+            "registry_mutation",
+            "importer_emission",
+            "runtime_emission",
+            "save_emission",
+            "migration_execution"
+          ],
+          "properties": {
+            "realm_package_mutation": {
+              "const": "prohibited"
+            },
+            "opening_state_mutation": {
+              "const": "prohibited"
+            },
+            "registry_mutation": {
+              "const": "prohibited"
+            },
+            "importer_emission": {
+              "const": "prohibited"
+            },
+            "runtime_emission": {
+              "const": "prohibited"
+            },
+            "save_emission": {
+              "const": "prohibited"
+            },
+            "migration_execution": {
+              "const": "prohibited"
+            }
+          }
+        },
+        "validation_evidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "schema_validated",
+            "importer_validated",
+            "compile_validated",
+            "runtime_validated",
+            "save_load_validated",
+            "migration_validated",
+            "replay_validated",
+            "performance_validated",
+            "static_checked"
+          ],
+          "properties": {
+            "schema_validated": {
+              "const": false
+            },
+            "importer_validated": {
+              "const": false
+            },
+            "compile_validated": {
+              "const": false
+            },
+            "runtime_validated": {
+              "const": false
+            },
+            "save_load_validated": {
+              "const": false
+            },
+            "migration_validated": {
+              "const": false
+            },
+            "replay_validated": {
+              "const": false
+            },
+            "performance_validated": {
+              "const": false
+            },
+            "static_checked": {
+              "const": true
+            }
+          }
+        },
+        "provenance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "authority_files",
+            "source_hashes",
+            "notes"
+          ],
+          "properties": {
+            "authority_files": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_hashes": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 1,
+              "items": {
+                "$ref": "#/$defs/sourceHash"
+              }
+            },
+            "notes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

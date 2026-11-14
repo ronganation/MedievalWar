@@ -1,0 +1,12 @@
+Order,FilterOrCheck,ExpectedResult,Phase
+1,MedievalWar.France.GovernanceInterface.,DISCOVER,PreMutation
+2,MedievalWar.France.CharacterDynastyNetwork.,DISCOVER,PreMutation
+3,MedievalWar.France.HistoricalEmergence.,DISCOVER,PreMutation
+4,MedievalWar.France.TransactionRecovery.,DISCOVER,PreMutation
+5,MedievalWar.France.CampaignInitialization.,DISCOVER,PreMutation
+6,Changed-file boundary scan,Only approved six source files,PostMutationPreBuild
+7,MedievalWar.France.GovernanceInterface.,ALL_PASS,PostBuild
+8,All discovered France predecessor filters,PRESERVE_DISCOVERED_COUNTS_AND_PASS,PostBuild
+9,Relevant shared governance title succession and ecclesiastical filters,PRESERVE_DISCOVERED_COUNTS_AND_PASS,PostBuild
+10,Canonical registry and Opening State diff scan,NO_CHANGES,PostBuild
+11,Rollback rehearsal,RESTORES_EXACT_PRE_BATCH_STATE,Closeout

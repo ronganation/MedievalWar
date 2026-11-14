@@ -1,0 +1,49 @@
+{
+  "document_id": "Manifest.Ledger.LeonCastile.UE5ImplementationGapDependency.V1",
+  "ledger_file": "Leon_Castile_UE5_Implementation_Gap_and_Dependency_Ledger_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/09_Validation_and_Evidence",
+  "bytes": 14977,
+  "physical_lines": 449,
+  "sha256": "B3BE1994518F5067ECE59E2591D039139BD6A8DD9D19D87374AB4B331C9A2BCF",
+  "status": "StaticCheckedImplementationGapLedgerPauseMaintained",
+  "checks": {
+    "balanced_fences": true,
+    "escaped_underscore_count": 0,
+    "escaped_hyphen_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "gate_gap_count": 2,
+    "architecture_gap_count": 9,
+    "owner_gap_count": 13,
+    "transaction_gap_count": 5,
+    "validation_gap_count": 8,
+    "risk_count": 1,
+    "no_mutation": true,
+    "entry_block": true
+  },
+  "declared_counts": {
+    "GateGaps": 2,
+    "ArchitectureGaps": 9,
+    "OwnerGaps": 13,
+    "TransactionGaps": 5,
+    "ValidationGaps": 8,
+    "DependencyRisks": 1
+  },
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Contract": 0,
+    "Schema": 0,
+    "Payload": 0,
+    "Overlays": 0,
+    "Source": 0,
+    "Configuration": 0,
+    "Assets": 0,
+    "Save": 0,
+    "Runtime": 0
+  },
+  "next_file": "Leon_Castile_UE5_Scaffold_Change_and_Test_Plan_V1.md",
+  "all_static_checks_pass": true
+}

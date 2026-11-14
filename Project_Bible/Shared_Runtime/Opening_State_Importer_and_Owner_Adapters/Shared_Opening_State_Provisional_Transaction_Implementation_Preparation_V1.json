@@ -1,0 +1,61 @@
+﻿{
+    "document_id":  "mw.shared-opening-state.provisional-transaction-implementation-preparation.v1",
+    "generated_utc":  "2026-08-25T03:32:23.1798995Z",
+    "implementation_target":  "Unreal Engine 5.8",
+    "disposable_clone_root":  "C:\\temp2\\MedievalWar_SharedOpeningState_RuntimeBridge_Clone_V1",
+    "implementation_root":  "C:\\temp2\\Shared_Opening_State_Reconciliation_V1\\Provisional_Transaction_Implementation_V1",
+    "plan_sha256":  "65ED123A7C68E1434885879B5BE0A6DDDC7836790B7EDE616DF0022A9D3CB8ED",
+    "classification":  "ImplementationWorkspacePreparedNoSourceMutation",
+    "owner_implementation_authorization":  "Pending",
+    "clone_source_mutation_performed":  false,
+    "active_source_mutation_performed":  false,
+    "opening_state_application_performed":  false,
+    "Norway_opening_state_application_performed":  false,
+    "compile_executed":  false,
+    "runtime_executed":  false,
+    "item_4_complete":  false,
+    "pre_change_source":  [
+                              {
+                                  "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignTurnSubsystem.h",
+                                  "bytes":  11822,
+                                  "modified_utc":  "2026-08-24T18:43:02.7042900Z",
+                                  "sha256":  "0A42BE9CBF7681F6C6B1582AC67ED8C843435471FB5A2C68A7E02049887DF225",
+                                  "backup_path":  "C:\\temp2\\Shared_Opening_State_Reconciliation_V1\\Provisional_Transaction_Implementation_V1\\PreChange_Backup\\Source\\MedievalWarCampaign\\Public\\MWCampaignTurnSubsystem.h"
+                              },
+                              {
+                                  "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignTurnSubsystem.cpp",
+                                  "bytes":  75091,
+                                  "modified_utc":  "2026-08-24T18:43:02.7102902Z",
+                                  "sha256":  "91761D4D613BA998935DFACADC201D6540974A592EB0CBDA9CC650787CE147E7",
+                                  "backup_path":  "C:\\temp2\\Shared_Opening_State_Reconciliation_V1\\Provisional_Transaction_Implementation_V1\\PreChange_Backup\\Source\\MedievalWarCampaign\\Private\\MWCampaignTurnSubsystem.cpp"
+                              },
+                              {
+                                  "relative_path":  "Source/MedievalWarCampaign/Public/MWCampaignSaveSubsystem.h",
+                                  "bytes":  849,
+                                  "modified_utc":  "2026-08-24T16:10:34.7939179Z",
+                                  "sha256":  "DF562CD23DE41BA24E17038621E1BDFED91CD0F67E17C6E99E0D5EDCDA2046EB",
+                                  "backup_path":  "C:\\temp2\\Shared_Opening_State_Reconciliation_V1\\Provisional_Transaction_Implementation_V1\\PreChange_Backup\\Source\\MedievalWarCampaign\\Public\\MWCampaignSaveSubsystem.h"
+                              },
+                              {
+                                  "relative_path":  "Source/MedievalWarCampaign/Private/MWCampaignSaveSubsystem.cpp",
+                                  "bytes":  2225,
+                                  "modified_utc":  "2026-08-24T18:43:02.7292900Z",
+                                  "sha256":  "6095E366E1D1D61DE0D87EBBE12772D26B4A016132BAD44A3886BF3745D097EC",
+                                  "backup_path":  "C:\\temp2\\Shared_Opening_State_Reconciliation_V1\\Provisional_Transaction_Implementation_V1\\PreChange_Backup\\Source\\MedievalWarCampaign\\Private\\MWCampaignSaveSubsystem.cpp"
+                              },
+                              {
+                                  "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedOpeningStateRuntimeBridge/Public/MWSharedOpeningStateRuntimeBridgeSubsystem.h",
+                                  "bytes":  793,
+                                  "modified_utc":  "2026-08-25T01:14:51.7222272Z",
+                                  "sha256":  "9A3A50379C758FBE783E666D4994D80B79C9F515CEADC50AC67CB860E6E3D0E7",
+                                  "backup_path":  "C:\\temp2\\Shared_Opening_State_Reconciliation_V1\\Provisional_Transaction_Implementation_V1\\PreChange_Backup\\Plugins\\MWSharedImporter\\Source\\MWSharedOpeningStateRuntimeBridge\\Public\\MWSharedOpeningStateRuntimeBridgeSubsystem.h"
+                              },
+                              {
+                                  "relative_path":  "Plugins/MWSharedImporter/Source/MWSharedOpeningStateRuntimeBridge/Private/MWSharedOpeningStateRuntimeBridgeSubsystem.cpp",
+                                  "bytes":  2975,
+                                  "modified_utc":  "2026-08-25T01:14:51.7232273Z",
+                                  "sha256":  "974B4559FBB509E5DBC9E716059CAAA712B118B0A3AD32B49B4320E6F39ABC3F",
+                                  "backup_path":  "C:\\temp2\\Shared_Opening_State_Reconciliation_V1\\Provisional_Transaction_Implementation_V1\\PreChange_Backup\\Plugins\\MWSharedImporter\\Source\\MWSharedOpeningStateRuntimeBridge\\Private\\MWSharedOpeningStateRuntimeBridgeSubsystem.cpp"
+                              }
+                          ]
+}

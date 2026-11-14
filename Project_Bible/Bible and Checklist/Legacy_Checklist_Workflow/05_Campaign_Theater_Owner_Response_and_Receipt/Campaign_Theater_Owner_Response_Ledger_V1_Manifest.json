@@ -1,0 +1,56 @@
+{
+  "manifest_id": "manifest.campaign_theater.owner_response_ledger.v1",
+  "version": "1.0.0",
+  "status": "PASS_PENDING_OWNER_RESPONSE_LEDGER_STATIC_CHECK",
+  "artifact_count": 3,
+  "hashed_artifact_count": 2,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "stable_order": 10,
+      "filename": "Campaign_Theater_Owner_Response_Ledger_V1.md",
+      "bytes": 10661,
+      "lines": 292,
+      "sha256": "9998E42C271B46FA0B8129A429AB0F9FE4840A2EE5500914FEF5F9D37D39D23F"
+    },
+    {
+      "stable_order": 20,
+      "filename": "Campaign_Theater_Owner_Response_Ledger_V1.json",
+      "bytes": 4589,
+      "lines": 122,
+      "sha256": "71B32561CED33A7CB9621D1281C975A6C1E10F9B4944B4DC6474368A00FA873D",
+      "canonical_sha256": "0AF7ADF4A4C982AE7D877F141918797DE13908662E1A49FE2C3978C861203196"
+    }
+  ],
+  "checks": {
+    "request_count_exactly_7": true,
+    "all_pending_no_owner_receipt": true,
+    "all_owner_authorities_null": true,
+    "all_owner_receipts_null": true,
+    "all_dispositions_null": true,
+    "all_evidence_arrays_empty": true,
+    "no_approval_scope_granted": true,
+    "stable_order_exact": true,
+    "request_ids_unique": true,
+    "authorization_closed": true,
+    "summary_counts_consistent": true,
+    "blocked_draft_retained": true,
+    "markdown_status_count": true,
+    "markdown_fences_balanced": true,
+    "no_raw_html_table": true,
+    "no_escaped_pseudo_yaml": true
+  },
+  "source_authorities": [
+    "Campaign_Theater_Registry_and_Association_Owner_Reconciliation_V1.md",
+    "Campaign_Theater_Registry_and_Association_Owner_Decision_Request_Packet_V1.md",
+    "Campaign_Theater_Registry_Decision_Index_V1_BLOCKED_DRAFT.json"
+  ],
+  "authorization_closed": true,
+  "corrections_applied": [
+    "renamed misleading all_approval_scopes_empty check to no_approval_scope_granted",
+    "converted raw HTML response table to Markdown",
+    "converted pseudo-YAML to fenced YAML",
+    "removed unnecessary escape artifacts",
+    "preserved all seven pending request states and closed authorization"
+  ]
+}

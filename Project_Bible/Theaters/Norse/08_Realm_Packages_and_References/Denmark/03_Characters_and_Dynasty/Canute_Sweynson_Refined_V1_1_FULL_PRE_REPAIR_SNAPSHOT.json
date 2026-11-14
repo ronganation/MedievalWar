@@ -1,0 +1,15 @@
+{
+  "filename": "Canute_Sweynson_Refined_V1_1_FULL_PRE_REPAIR_SNAPSHOT.json",
+  "profile_filename": "Canute_Sweynson_Refined_V1_1_FULL.md",
+  "snapshot_role": "PreRepairMetadataReceipt",
+  "captured_from": "Canute_Sweynson_Refined_V1_1_FULL_VALIDATION.json",
+  "pre_repair_internal_version": "1.1.1",
+  "pre_repair_byte_count": 40216,
+  "pre_repair_line_count": 1018,
+  "pre_repair_sha256": "C1AFEF2496D7A5C9B1FEFDB6355B42A23F3FF3445EC911794F74944E6FD7DCFB",
+  "retained_Old_filename": "Canute_Sweynson_Refined_V1_1_Old.md",
+  "retained_Old_internal_version": "1.1.0",
+  "retained_Old_sha256": "44345123EB22ECDEE49AF46A606674C5566673B174C42E6F8EE56DA105CD501B",
+  "physical_source_files_modified": false,
+  "result": "Recorded"
+}

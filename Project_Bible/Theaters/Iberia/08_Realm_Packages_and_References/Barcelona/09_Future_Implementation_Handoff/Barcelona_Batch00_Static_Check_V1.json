@@ -1,0 +1,260 @@
+{
+  "CheckId": "static-check.barcelona.bar-imp-00.v1",
+  "DocumentId": "Batch00StaticCheck.Realm.Barcelona.V1",
+  "StableDocumentId": "Batch00StaticCheck.Realm.Barcelona",
+  "AuthorityId": "static-check.batch00.realm.barcelona.v1",
+  "Filename": "Barcelona_Batch00_Static_Check_V1.json",
+  "Version": "1.0.0",
+  "RevisionDate": "2026-09-10",
+  "BatchId": "BAR-IMP-00",
+  "Realm": "County of Barcelona",
+  "OwningTheater": "Iberia",
+  "Placement": "Barcelona/09_Future_Implementation_Handoff",
+  "ConstitutionalAuthority": "Project Bible 2.4",
+  "OperationalAuthority": "Design Expansion Checklist 3.7",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "Status": "PASS_WITH_REQUIRED_BLOCKERS_STATIC_HANDOFF_SUBSET_ONLY",
+  "Scope": {
+    "Description": "Static consistency check of the eleven attached handoff and partial Batch 00 evidence artifacts visible in 09_Future_Implementation_Handoff",
+    "AttachedArtifactsChecked": 11,
+    "CompleteBarcelonaRealmPackageChecked": false,
+    "PhysicalOneDriveHashesRecomputed": false,
+    "FullBatch00ExitCheck": false,
+    "OwnerAcceptanceCheck": false,
+    "RuntimeOrUnrealCheck": false
+  },
+  "CheckedArtifacts": [
+    "Barcelona_Batch00_Blocker_Register_V1.md",
+    "Barcelona_Batch00_Nonmutation_Receipt_V1.json",
+    "Barcelona_Batch00_Partial_Evidence_Output_Manifest_V1.json",
+    "Barcelona_Design_to_Implementation_Handoff_Index_V1.md",
+    "Barcelona_Future_Implementation_Batch_and_Dependency_Plan_V1.md",
+    "Barcelona_Future_Implementation_Batch_Status_and_Handoff_Ledger_V1.md",
+    "Barcelona_Implementation_Acceptance_Evidence_and_Rollback_Matrix_V1.md",
+    "Barcelona_Implementation_Batch_00_Authority_Source_and_Handoff_Intake_Packet_V1.md",
+    "Barcelona_Implementation_Batch_Packet_Template_V1.md",
+    "Barcelona_Implementation_Cross_Batch_Owner_and_Reference_Map_V1.md",
+    "Barcelona_Unreal_Engine_5_8_Preflight_Plan_V1.md"
+  ],
+  "Checks": [
+    {
+      "CheckId": "BAR_B00_STATIC_001",
+      "Subject": "Attached handoff artifact count",
+      "Result": "PASS",
+      "Observed": 11,
+      "Expected": 11
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_002",
+      "Subject": "Realm and Theater identity",
+      "Result": "PASS",
+      "Observed": "County of Barcelona / Iberia",
+      "Expected": "County of Barcelona / Iberia"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_003",
+      "Subject": "Scenario opening",
+      "Result": "PASS",
+      "Observed": "1062-01-01 / Winter",
+      "Expected": "1062-01-01 / Winter"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_004",
+      "Subject": "Three-track temporal contract",
+      "Result": "PASS",
+      "Observed": "Historical 21 months; Biological 7 months; Campaign Season 1 ordered Winter-Spring-Summer-Autumn step",
+      "Expected": "Historical 21 months; Biological 7 months; Campaign Season 1 ordered Winter-Spring-Summer-Autumn step"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_005",
+      "Subject": "Batch sequence coverage",
+      "Result": "PASS",
+      "Observed": "BAR-IMP-00 through BAR-IMP-14",
+      "Expected": "15 batches"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_006",
+      "Subject": "Batch 00 execution state",
+      "Result": "PASS",
+      "Observed": "Packet prepared; execution not started; exit not passed",
+      "Expected": "No execution or exit claim"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_007",
+      "Subject": "Successor authorization",
+      "Result": "PASS",
+      "Observed": "BAR-IMP-01 not authorized",
+      "Expected": "No automatic successor authorization"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_008",
+      "Subject": "Registry binding boundary",
+      "Result": "PASS",
+      "Observed": "Opening State V1.2 remains bound to Registry V1.5; Registry V1.6 remains a local candidate on hold for shared clearance",
+      "Expected": "No silent V1.6 downstream rebind"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_009",
+      "Subject": "Opening State boundary",
+      "Result": "PASS",
+      "Observed": "New-campaign-only; no activation; no advanced-save reconstruction",
+      "Expected": "Opening State activation unauthorized"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_010",
+      "Subject": "Unreal boundary",
+      "Result": "PASS",
+      "Observed": "UE 5.8 preflight plan exists but remains deferred and ineligible for execution",
+      "Expected": "No Unreal access, mutation, compile, or runtime claim"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_011",
+      "Subject": "Owner receipt boundary",
+      "Result": "PASS",
+      "Observed": "No owner receipts or approvals claimed present",
+      "Expected": "Owner decisions remain unrecorded until actual gates"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_012",
+      "Subject": "Cross-batch ownership routes",
+      "Result": "PASS",
+      "Observed": 42,
+      "Expected": "42 producer-consumer edges"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_013",
+      "Subject": "Acceptance and rollback framework",
+      "Result": "PASS",
+      "Observed": "15 batches, 12 evidence classes, 5 rollback classes",
+      "Expected": "Claim-specific acceptance and rollback boundaries"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_014",
+      "Subject": "Nonmutation claim",
+      "Result": "PASS",
+      "Observed": "All recorded mutation counts are zero for the current handoff action",
+      "Expected": "No Registry, Opening State, payload, Unreal, runtime, save, or import mutation"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_015",
+      "Subject": "Access limitation treatment",
+      "Result": "PASS",
+      "Observed": "Complete package not retrieved and repository absence not inferred",
+      "Expected": "Access limitation must not become an absence claim"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_016",
+      "Subject": "Batch 00 physical source fingerprints",
+      "Result": "BLOCKED",
+      "Observed": "Not created",
+      "RequiredForExit": true,
+      "Blocker": "BAR-B00-BLOCK-001"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_017",
+      "Subject": "Batch 00 relevant-file inventory",
+      "Result": "BLOCKED",
+      "Observed": "Not created",
+      "RequiredForExit": true,
+      "Blocker": "BAR-B00-BLOCK-001"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_018",
+      "Subject": "Full-open verification receipts for current package",
+      "Result": "BLOCKED",
+      "Observed": "Not complete",
+      "RequiredForExit": true,
+      "Blocker": "BAR-B00-BLOCK-001"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_019",
+      "Subject": "Authority classification and supersession ledger",
+      "Result": "BLOCKED",
+      "Observed": "Not created from a complete current package snapshot",
+      "RequiredForExit": true,
+      "Blocker": "BAR_HANDOFF_BLOCK_001"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_020",
+      "Subject": "Companion-family and collision report",
+      "Result": "BLOCKED",
+      "Observed": "Not created",
+      "RequiredForExit": true,
+      "Blocker": "BAR_HANDOFF_BLOCK_001"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_021",
+      "Subject": "Package-owner exit decision",
+      "Result": "BLOCKED",
+      "Observed": "Not recorded",
+      "RequiredForExit": true,
+      "Blocker": "BAR_HANDOFF_BLOCK_001"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_022",
+      "Subject": "Stale embedded next-file instructions",
+      "Result": "WARNING",
+      "Observed": "Earlier control documents retain creation-order next-file fields that are now historically stale",
+      "Disposition": "Do not follow embedded predecessor next-file fields; use the current status ledger, blocker register, and this static check"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_023",
+      "Subject": "Partial manifest identity boundary",
+      "Result": "PASS",
+      "Observed": "Creation-time identities are listed but current OneDrive byte identity is not claimed",
+      "Expected": "No substitution for physical Batch 00 fingerprints"
+    },
+    {
+      "CheckId": "BAR_B00_STATIC_024",
+      "Subject": "Production readiness",
+      "Result": "PASS",
+      "Observed": "Not claimed",
+      "Expected": "Production remains outside current plan"
+    }
+  ],
+  "Summary": {
+    "Pass": 17,
+    "Blocked": 6,
+    "Warning": 1,
+    "Fail": 0,
+    "OverallResult": "PASS_WITH_REQUIRED_BLOCKERS",
+    "Batch00ExitReady": false,
+    "Batch01Authorized": false,
+    "ImplementationStarted": false
+  },
+  "RequiredNextEvidence": [
+    "Barcelona_Batch00_Source_Fingerprints_V1.csv",
+    "Barcelona_Batch00_Relevant_File_Inventory_V1.csv",
+    "Barcelona_Batch00_Full_Open_Verification_Receipts_V1.json",
+    "Barcelona_Batch00_Authority_Classification_and_Supersession_Ledger_V1.md",
+    "Barcelona_Batch00_Owner_Dependency_and_Receipt_Map_V1.md",
+    "Barcelona_Batch00_Companion_Family_and_Collision_Report_V1.md",
+    "Batch 00 package-owner exit decision"
+  ],
+  "Decision": {
+    "CurrentHandoffPoint": "Batch00PartialEvidenceRecordedPhysicalPackageIntakeStillBlocked",
+    "StatusTransitionApplied": false,
+    "BlockersClosed": 0,
+    "NextBatchAuthorized": false,
+    "NextValidAction": "Generate the physical Batch 00 evidence set from one retrievable current Barcelona package snapshot"
+  },
+  "StableFooter": {
+    "StableDocumentId": "Batch00StaticCheck.Realm.Barcelona",
+    "AuthorityId": "static-check.batch00.realm.barcelona.v1",
+    "Artifact": "Barcelona_Batch00_Static_Check_V1.json",
+    "Version": "1.0.0",
+    "BatchId": "BAR-IMP-00",
+    "ScenarioOpening": "1062-01-01",
+    "OpeningCampaignSeason": "Winter",
+    "HistoricalProgressionMonthsPerStrategicTurn": 21,
+    "BiologicalProgressionMonthsPerStrategicTurn": 7,
+    "CampaignSeasonProgressionStepsPerStrategicTurn": 1,
+    "CampaignSeasonOrder": ["Winter", "Spring", "Summer", "Autumn"],
+    "OwningTheater": "Iberia",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "Status": "PASS_WITH_REQUIRED_BLOCKERS_STATIC_HANDOFF_SUBSET_ONLY",
+    "Batch00ExitReady": false,
+    "Batch01Authorized": false,
+    "ImplementationStarted": false
+  }
+}

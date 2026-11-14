@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "ArtifactType": "AquitaineTerritorySettlementsGeographyClimateAuthorityManifest",
+  "AuthorityFile": "Aquitaine_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+  "Version": "1.0.0",
+  "GeneratedDate": "2026-09-04",
+  "ByteCount": 62630,
+  "LineCount": 2013,
+  "SHA256": "d08ac21dd357ea8c1cc4d92478e1b396b3b929c58cf1681f13838c4eaeb53ce8",
+  "ReviewTarget": "Aquitaine_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+  "PrimaryBenchmark": "France_Territory_Settlements_Geography_and_Climate_Authority_V1.md",
+  "ForeignGeographyTransferred": false,
+  "NamedRegionalPortfolios": 9,
+  "OpeningActivations": 0,
+  "RemovedSubstantiveContent": [],
+  "ValidationStatus": {
+    "StaticChecked": true,
+    "CartographicValidated": false,
+    "RegistryValidated": false,
+    "OpeningStateBound": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "ImporterValidated": false
+  },
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "MapMutations": 0,
+    "SettlementActivations": 0,
+    "RouteActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

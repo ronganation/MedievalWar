@@ -1,0 +1,40 @@
+{
+  "static_check_id": "StaticCheck.CharacterIntegrationControl.Barcelona.EightProfiles.V1",
+  "document": "Barcelona_Eight_Profile_Character_Authority_Integration_Control_Matrix_V1.md",
+  "version": "1.0.0",
+  "result": "Pass",
+  "physical_lines": 720,
+  "words": 3672,
+  "bytes": 30943,
+  "sha256": "b328ebab2ff28182c3236e3622ac7b7289b3528967c2627469739470a0fbf1db",
+  "checks": {
+    "sections_1_through_36_present": true,
+    "eight_profiles_listed": true,
+    "three_temporal_tracks_present": true,
+    "reviewonly_child_gate_present": true,
+    "twin_independence_present": true,
+    "daughter_independence_present": true,
+    "owner_routing_matrix_present": true,
+    "successor_authority_set_present": true,
+    "sequencing_present": true,
+    "negative_tests_present": true,
+    "nonmutation_receipt_present": true,
+    "balanced_fences": true,
+    "fence_count": 32,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "final_marker_count": 1
+  },
+  "mutation_receipt": {
+    "source_file_overwrites": 0,
+    "registry_mutations": 0,
+    "opening_state_mutations": 0,
+    "character_activations": 0,
+    "relationship_activations": 0,
+    "title_office_force_or_property_mutations": 0,
+    "unreal_project_mutations": 0,
+    "real_payload_imports": 0
+  },
+  "validation_scope": "Static design integration and file-hygiene checks only. No source authority replacement, owner promotion, Registry, Opening State, runtime, Unreal, save, migration, replay, battle, or performance validation."
+}

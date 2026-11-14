@@ -1,0 +1,27 @@
+{
+  "document_id": "static-check.england.aethelwine_of_durham_v4.2_current_authority_reconciliation",
+  "version": "1.0.0",
+  "source_file": "Aethelwine_of_Durham.md",
+  "output_file": "Aethelwine_of_Durham_V4.2_Current_Authority_Reconciliation.md",
+  "checks": {
+    "output_additive": true,
+    "source_preserved": true,
+    "names_retained": true,
+    "sections_retained": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "one_opening_boundary": true,
+    "current_authorities": true,
+    "temporal_model": true,
+    "ue_5_8": true,
+    "reviewonly": true,
+    "owners": true,
+    "no_unsupported_active_status": true,
+    "no_pass_claims": true,
+    "formula_signs": true,
+    "no_activation": true,
+    "validation_false": true,
+    "person_office_inequality_fenced": true
+  },
+  "passed": true
+}

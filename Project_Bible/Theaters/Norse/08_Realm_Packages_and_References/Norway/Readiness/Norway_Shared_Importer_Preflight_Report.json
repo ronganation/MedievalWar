@@ -1,0 +1,100 @@
+{
+  "authority_hash_results": [
+    {
+      "actual": "490af15cc94cce061d5abd79ee8f567ee7a6ef5d73778354d00a57f4b310c113",
+      "expected": "490af15cc94cce061d5abd79ee8f567ee7a6ef5d73778354d00a57f4b310c113",
+      "file": "Norway_Opening_State_Refined.md",
+      "match": true
+    },
+    {
+      "actual": "0f6241c9b5da53b06b5b25508b2875e1188a76bb7ed4175e2374c714ecb814c2",
+      "expected": "0f6241c9b5da53b06b5b25508b2875e1188a76bb7ed4175e2374c714ecb814c2",
+      "file": "Norway_ID_Migration_Map_Refined.md",
+      "match": true
+    },
+    {
+      "actual": "cc98e74cf0878fac45afdbf21be1cbfab296778ce00dc5f6ce6d7f0dc5420ccb",
+      "expected": "cc98e74cf0878fac45afdbf21be1cbfab296778ce00dc5f6ce6d7f0dc5420ccb",
+      "file": "Norway_Importer_Readiness_and_Validation_Audit_Refined.md",
+      "match": true
+    }
+  ],
+  "bindings_sha256": "b2fa1acf0d57fe9d8b9511e03a41d89f7bace6f8a826dc9597af0277d3b72d10",
+  "counts_by_type": {
+    "ai_profile": 1,
+    "character": 16,
+    "character_network": 1,
+    "claim": 2,
+    "directed_relationship_baseline": 23,
+    "dynasty": 2,
+    "dynasty_headship": 1,
+    "event_definition": 9,
+    "historical_momentum": 8,
+    "historical_person": 1,
+    "institution": 1,
+    "joint_governance": 1,
+    "legacy": 3,
+    "legacy_line": 1,
+    "migration_registry": 1,
+    "office": 1,
+    "office_occupancy": 1,
+    "power_center": 3,
+    "realm": 1,
+    "realm_context": 1,
+    "route_gate": 2,
+    "runtime_restriction": 2,
+    "scenario": 1,
+    "succession_recognition": 2,
+    "title": 2,
+    "title_occupancy": 1
+  },
+  "direct_alias_count": 18,
+  "evidence_status": {
+    "compile_validated": false,
+    "import_validated": false,
+    "runtime_validated": false,
+    "static_checked": true
+  },
+  "fatal_error_count": 0,
+  "fatal_errors": [],
+  "manifest_sha256": "2c4df42be39f4c39fe1336ec22ad22faecb5482a27a8121270f6b529904d221c",
+  "quarantine_count": 6,
+  "quarantines": [
+    {
+      "disposition": "reject_standard_1062",
+      "id": "Character.Norway.ArchbishopOfNidaros",
+      "runtime_state_created": false
+    },
+    {
+      "disposition": "quarantine",
+      "id": "Character.Norway.Magnus",
+      "runtime_state_created": false
+    },
+    {
+      "disposition": "quarantine",
+      "id": "Character.Norway.OlafHaraldsson",
+      "runtime_state_created": false
+    },
+    {
+      "disposition": "quarantine",
+      "id": "Character.Orkney.PaulAndErlend",
+      "runtime_state_created": false
+    },
+    {
+      "disposition": "reject_standard_1062",
+      "id": "Institution.Norway.ArchdioceseNidaros",
+      "runtime_state_created": false
+    },
+    {
+      "disposition": "reject_standard_1062",
+      "id": "Office.Norway.ArchbishopNidaros",
+      "runtime_state_created": false
+    }
+  ],
+  "record_count": 88,
+  "report_id": "SharedPreflight.Manifest.Norway.ImporterSource.1062.v1",
+  "runtime_state_created": false,
+  "status": "PASS_SHARED_IMPORTER_PREFLIGHT",
+  "warning_count": 0,
+  "warnings": []
+}

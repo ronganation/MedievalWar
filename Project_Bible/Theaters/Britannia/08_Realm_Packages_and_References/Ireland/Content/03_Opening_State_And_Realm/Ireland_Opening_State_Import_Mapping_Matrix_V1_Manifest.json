@@ -1,0 +1,16 @@
+{
+  "manifest_version": "1.0",
+  "method": "NewImporterHandoffMappingFromCurrentIrelandAuthorities",
+  "authority_file": "Ireland_Opening_State_Import_Mapping_Matrix_V1.md",
+  "authority_bytes": 21621,
+  "authority_sha256": "d7001c980e8e5a09cbc5a073ccff548aca494245294f24cfebb8b0dd0193dfbf",
+  "mapped_record_classes": 18,
+  "source_files_modified": 0,
+  "Registry_rows_created": 0,
+  "migrations_executed": 0,
+  "Opening_State_mutations": 0,
+  "Unreal_mutations": 0,
+  "static_check_file": "Ireland_Opening_State_Import_Mapping_Matrix_V1_Static_Check.json",
+  "static_check_sha256": "c18ce50984094b1eb738625e16f3731cabbeecae4edd9f91ed0c12a8728779ce",
+  "validation_scope": "content and static mapping checks only; no importer implementation, Registry mutation, migration execution, Opening State activation, Unreal modification, compile, runtime, save/load, replay, performance, or real-payload validation"
+}

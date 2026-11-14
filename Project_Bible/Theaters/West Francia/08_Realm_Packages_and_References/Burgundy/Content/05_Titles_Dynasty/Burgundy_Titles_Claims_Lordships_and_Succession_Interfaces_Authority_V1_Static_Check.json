@@ -1,0 +1,24 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "records_16": true,
+    "claim_classes_12": true,
+    "succession_stages_14": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "robert_firm": true,
+    "henry_not_installed": true,
+    "county_firewall": true,
+    "claim_not_war": true,
+    "no_mutations": true,
+    "honest": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "AuthoritySHA256": "25014e6bded20ed10ac0acc5664c6172f53ce5a0fde306fcb1edfeaac3fddb9c",
+  "AuthorityBytes": 50946,
+  "AuthorityLines": 1061,
+  "Scope": "Static content, title-claim-succession separation, owner routing, save safety, and submission hygiene"
+}

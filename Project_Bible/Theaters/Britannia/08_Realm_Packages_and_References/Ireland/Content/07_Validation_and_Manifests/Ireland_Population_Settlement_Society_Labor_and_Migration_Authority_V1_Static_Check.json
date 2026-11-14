@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Population_Settlement_Society_Labor_and_Migration_Authority_V1.md",
+  "bytes": 40512,
+  "lines": 911,
+  "sections": 46,
+  "validation_cases": 46,
+  "checks": {
+    "depth": true,
+    "sections": true,
+    "validations": true,
+    "gap": true,
+    "benchmark": true,
+    "military": true,
+    "regions": true,
+    "finite": true,
+    "implementation": true,
+    "unknown": true,
+    "three": true,
+    "honest": true,
+    "format": true,
+    "all_pass": true
+  }
+}

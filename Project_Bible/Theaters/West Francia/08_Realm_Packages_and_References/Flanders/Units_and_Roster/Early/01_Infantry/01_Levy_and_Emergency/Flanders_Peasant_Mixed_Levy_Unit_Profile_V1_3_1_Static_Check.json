@@ -1,0 +1,16 @@
+{
+  "Result": "PASS",
+  "Checks": {
+    "stable_authority_filename_restored": true,
+    "minimum_compatible_version_1_3_1": true,
+    "profile_version_1_3_1": true,
+    "candidate_23_preserved": true,
+    "no_versioned_authority_filename_dependency": true,
+    "canonical_admission_false": true,
+    "zero_mutations": true,
+    "balanced_fences": true
+  },
+  "SHA256": "957b6d62cb90f88f18eb5ede6dae432b569dd4885bd28e056ec4b2b9ff64c32d",
+  "Bytes": 46076,
+  "Lines": 1167
+}

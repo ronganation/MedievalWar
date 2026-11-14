@@ -1,0 +1,96 @@
+{
+  "ArtifactId": "Seville_Taifa_Military_and_Roster_Setup_V1",
+  "InternalVersion": "1.1.0",
+  "Status": "STATIC_CHECKED_CURRENT_MILITARY_AND_ROSTER_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "fd917b6b6c3920fa5f9dd9bba699df8d6055f6463d8dd2ff01740edfbc5d4f2f",
+  "SourceBytes": 57539,
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "RegistryModernization": "2.0.0",
+    "DynastyAuthority": "1.1.0",
+    "GeographyAuthority": "1.1.0",
+    "EconomyAuthority": "1.1.0"
+  },
+  "Counts": {
+    "MilitaryProfiles": 1,
+    "RosterDirectionProfiles": 1,
+    "RosterFamilies": 8,
+    "SettlementMilitaryOpportunityProfiles": 7,
+    "OpeningArmyRecords": 0,
+    "OpeningUnitOrContingentInstances": 0,
+    "OpeningCommandRecords": 0,
+    "OpeningCommanderAssignments": 0,
+    "OpeningGarrisonRecords": 0,
+    "OpeningFleetRecords": 0,
+    "OpeningMusterRecords": 0,
+    "OpeningRecruitmentPoolRecords": 0,
+    "OpeningSiegeAssetRecords": 0,
+    "OpeningMilitarySupplyStockpiles": 0,
+    "OpeningHiredForceAgreements": 0,
+    "OpeningAlliedContingentAgreements": 0,
+    "OpeningMilitaryAccessAgreements": 0,
+    "OpeningMilitaryMutations": 0
+  },
+  "RecruitmentDoctrine": {
+    "FinitePools": true,
+    "PopulationInformsPools": true,
+    "PopulationSpentDirectlyAsArmyManpower": false,
+    "UnlimitedGlobalQueue": false,
+    "EliteScarcityRequired": true,
+    "LossesAffectAvailability": true
+  },
+  "CharacterBoundaries": {
+    "AlMutadidAutomaticCommand": false,
+    "AlMutadidAutomaticBodyguard": false,
+    "AlMutamidAutomaticCommand": false,
+    "AlMutamidAutomaticGovernorship": false,
+    "AlMutamidEarlyMilitaryClaim": "RequiresFocusedAdjudication"
+  },
+  "IdentityChecks": {
+    "HuelvaAndSaltesDistinct": true,
+    "SiteSaltesProhibited": true,
+    "SantaMariaAndFaroSingleIdentity": true,
+    "AlgecirasDoesNotGrantStraitControlOrFleet": true
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "CopyFirstLedger": {
+    "OriginalNumberedSectionsReviewed": 51,
+    "OriginalNumberedSectionsRetained": 51,
+    "RemovedSubstantiveSections": 0,
+    "RemovedRosterFamilies": 0,
+    "RemovedSettlementOpportunityProfiles": 0,
+    "RemovedDecisionFamilies": 0,
+    "RemovedReasonCodes": 0,
+    "RemovedValidationTests": 0
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CopyFirstCompletenessChecked": true,
+    "FiniteRecruitmentDoctrineIntegrated": true,
+    "CharacterEconomyGeographyInterfacesChecked": true,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "BalanceValidated": false,
+    "BattleValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Diplomacy_and_External_Pressure_Setup_V1.md; keep Opening State deferred."
+}

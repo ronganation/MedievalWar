@@ -1,0 +1,29 @@
+{
+  "FileName": "Sweden_Regional_Community_and_Assembly_Setup_V1_1_Current_Authority_Refinement_FULL.md",
+  "Version": "1.1.0",
+  "Status": "Static-Checked Current Authority Refinement with Controlled Dependencies",
+  "SHA256": "6DE8E3D92D7A5FF19A867C222AB227E4CF5B4C617847D586B239CF52B2C05906",
+  "Bytes": 42146,
+  "Lines": 989,
+  "SourceFile": "Sweden_Regional_Community_and_Assembly_Setup_V1.md",
+  "SourceSHA256": "207CCC357F3E6FCBDF7818CDA5C881B2B6C3A6592A762CB9158CDBF29D99C3A7",
+  "SourceManifest": "Sweden_Regional_Community_and_Assembly_Setup_V1_Manifest.json",
+  "SourceManifestSHA256": "7B3F15217541B18B6C77E0982A061BD3FC02C0D8FE1835D7DFEC53DF57B97DBE",
+  "Checks": {
+    "copy_first": true,
+    "continuous_sections_1_72": true,
+    "all_regional_surfaces": true,
+    "institution_session_separation": true,
+    "participation_representation_separation": true,
+    "finite_recruitment": true,
+    "three_track": true,
+    "ue58": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "honest_validation": true
+  },
+  "OpeningStateModified": false,
+  "RegistryModified": false,
+  "PhysicalPromotionCompleted": false
+}

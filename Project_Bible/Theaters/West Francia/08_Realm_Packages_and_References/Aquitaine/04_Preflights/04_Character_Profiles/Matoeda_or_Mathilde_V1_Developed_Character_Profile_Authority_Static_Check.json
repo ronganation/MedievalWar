@@ -1,0 +1,25 @@
+{
+  "TargetFile": "Matoeda_or_Mathilde_V1_Developed_Character_Profile_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "required_sections_present": true,
+    "three_tracks_present": true,
+    "opening_marriage_supported": true,
+    "no_automatic_regency": false,
+    "Agnes_identity_separation": true,
+    "runtime_activation_prohibited": true,
+    "markdown_fences_balanced": true,
+    "escaped_underscores": true,
+    "em_dashes": true,
+    "stable_footer_count": true,
+    "final_marker_correct": true
+  },
+  "LineCount": 870,
+  "ByteCount": 32694,
+  "SHA256": "17694ba51abd13454a1ae81393945cd21559d094d9e596523f7a8a3e962113f1",
+  "NoMutation": true,
+  "Notes": [
+    "Design-authority static check only",
+    "No compile, importer, runtime, save/load, migration, replay, performance, or battle validation claimed"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "TaskId": "SCOT-IMP-07B",
+  "Status": "ReadyForBoundedOwnerReview",
+  "Date": "2026-09-22",
+  "EntranceGate": "SCOT-IMP-07A",
+  "Assessment": "ReadyForBoundedRealmAIPersonalityContract",
+  "ProposedFilesAdded": 14,
+  "ProposedFilesModified": 0,
+  "ProposedNewTests": 32,
+  "RequiredRegressionCounts": [
+    24,
+    24,
+    16,
+    16,
+    12,
+    13,
+    5,
+    10
+  ],
+  "PlanSHA256": "2E5046697B42C8F41E04FDDA98CE9AA5FCACB32669E68811D18B59B003D1314A",
+  "PlanBytes": 13974,
+  "PlanLines": 462,
+  "EligibleForImplementation": false,
+  "EligibleForApplication": false,
+  "AICommandExecution": false,
+  "DecisionExecution": false,
+  "ProductionAuthority": false,
+  "NextGate": "SCOT-IMP-07C"
+}

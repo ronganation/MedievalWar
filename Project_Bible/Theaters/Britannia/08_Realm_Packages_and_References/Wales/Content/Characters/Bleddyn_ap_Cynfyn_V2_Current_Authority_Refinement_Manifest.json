@@ -1,0 +1,56 @@
+{
+  "document_id": "manifest.wales.bleddyn-ap-cynfyn.v2.current-authority-refinement",
+  "version": "2.0.0",
+  "status": "Static-Checked Draft",
+  "immediate_source": {
+    "filename": "Bleddyn_ap_Cynfyn.md",
+    "bytes": 45892,
+    "physical_lines": 1060,
+    "sha256": "448814d12f34e146d453207b0aa847497a746c4dd766343a2970aa23458223a4",
+    "copy_method": "literal full-file prefix",
+    "complete_source_verified": true
+  },
+  "successor": {
+    "filename": "Bleddyn_ap_Cynfyn_V2_Current_Authority_Refinement.md",
+    "bytes": 66031,
+    "physical_lines": 1670,
+    "sha256": "1845902d73546028fcacf893292b5836f8f4f180275ff18d983b6c4f92063a1e"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_headings_preserved": 99,
+    "removed_content": []
+  },
+  "current_opening": {
+    "person_id": "Person.BleddynApCynfyn",
+    "participation": "Active",
+    "life_stage": "Adult",
+    "opening_title_count": 0,
+    "opening_claim_count": 0,
+    "opening_command_count": 0,
+    "relationship_dimension_count": 0,
+    "BasisOnly_edges_involving_person": 4
+  },
+  "validation_status": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Bleddyn_ap_Cynfyn_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

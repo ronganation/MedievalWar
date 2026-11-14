@@ -1,0 +1,40 @@
+{
+  "ArtifactId": "Seville_Taifa_Faction_Definition_Manifest_1062_V1",
+  "StaticCheckVersion": "1.2.0",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8"
+  },
+  "Results": {
+    "SchemaSyntax": "PASS",
+    "ManifestSchemaValidation": "PASS",
+    "SemanticConsistency": "PASS",
+    "Profiles": 13,
+    "Observations": 7,
+    "Actions": 5,
+    "RuntimeInstances": 0,
+    "ProfileRouteParity": "PASS",
+    "ObservationRouteParity": "PASS",
+    "ActionRouteParity": "PASS"
+  },
+  "Hashes": {
+    "ManifestSHA256": "e4bdabcb9b35733502da5569196a96eefc15a98b5e2c6dcd90128931b4b8a7da",
+    "SchemaSHA256": "8384af5aca0ae76abf0d9aa1bba443385f7b08e27c9053655801cdba15a66921",
+    "ValidationSHA256": "7014b610e7899f0124892f5db2e8edc2d0ed869226db3a293e9a7169616ffa1f",
+    "OwnerRoutingSHA256": "477daaddbc976ea86816956f80c3960766c900799b452fc4b7a881449c954633",
+    "FixturesSHA256": "c5d9dc95f9bc100d13932a5e03be9dab1a5abc30024b29507c8db6c6dbb4d474"
+  },
+  "EvidenceBoundary": {
+    "PriorFixtureEvidence": "29_OF_29_FOR_PRIOR_HASH",
+    "CurrentFixtureRerun": "NOT_RUN",
+    "RegistryInsertion": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false,
+    "BalanceValidated": false
+  },
+  "PromotionGate": "CURRENT_STATIC_ALIGNMENT_PASS_FIXTURE_RERUN_REQUIRED_BEFORE_PROMOTION"
+}

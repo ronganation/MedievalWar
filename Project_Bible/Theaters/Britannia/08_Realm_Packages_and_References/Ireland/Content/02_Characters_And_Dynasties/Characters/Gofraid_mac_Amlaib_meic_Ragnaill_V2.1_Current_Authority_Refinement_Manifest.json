@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_file": "Gofraid_mac_Amlaib_meic_Ragnaill_Refined.md",
+  "source_reference": "turn22search16",
+  "source_bytes": 38427,
+  "source_sha256": "9d480e2c12b0eabfbc0055cbd59f2c5ad1ba6ef0b23d0844da16c6a3a7acfec5",
+  "source_heading_count": 87,
+  "authority_file": "Gofraid_mac_Amlaib_meic_Ragnaill_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 63209,
+  "authority_sha256": "e22ffda29d3a5c9268fa0935f79867ec97f65b9496deaf7d0037c79e28289229",
+  "additive_bytes": 24782,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "static_check_file": "Gofraid_mac_Amlaib_meic_Ragnaill_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "79066f683c26f12b84caf7f9ad3eb922898efa2ecbeb407194a7d2b3797f1856",
+  "validation_scope": "content static checks only; no compile runtime registry opening-state migration-execution or payload validation"
+}

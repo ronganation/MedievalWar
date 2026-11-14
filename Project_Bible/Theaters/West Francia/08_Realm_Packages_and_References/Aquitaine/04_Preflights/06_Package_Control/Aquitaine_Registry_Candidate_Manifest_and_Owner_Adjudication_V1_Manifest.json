@@ -1,0 +1,27 @@
+{
+  "ManifestId": "Manifest.Aquitaine.RegistryCandidateOwnerAdjudication.V1",
+  "AuthorityFile": "Aquitaine_Registry_Candidate_Manifest_and_Owner_Adjudication_V1.md",
+  "Version": "1.0.0",
+  "RevisionDate": "2026-09-05",
+  "SHA256": "0822965cacdad6c4a086562ef9363bb3e4930784ba782f9568c639436d5004f2",
+  "ByteCount": 14353,
+  "LineCount": 443,
+  "ValidationSummary": {
+    "Checks": 11,
+    "Passes": 10,
+    "Failures": 1,
+    "Result": "Fail"
+  },
+  "MutationStatus": {
+    "SourceFilesModified": 0,
+    "RegistryMutations": 0,
+    "CanonicalPromotions": 0,
+    "AliasExecutions": 0,
+    "MigrationExecutions": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "document": "Pavise_Crossbowmen_V2_Master_Unit_Profile.md",
+  "sha256": "c19d4379b936c702b2b941668282065cadcc53c55bbad228383f5d0c1a5ff201",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "terrain_25": true,
+    "no_repeated_v1_placeholder": true,
+    "survival_gate": true,
+    "directional_cover": true,
+    "ammo_architecture": true,
+    "gunpowder_excluded": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "yaml_fenced": true,
+    "complete_footer": true
+  }
+}

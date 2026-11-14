@@ -1,0 +1,23 @@
+{
+  "document": "README_Normandy_Early_Era_Units_and_Progression_Index_V1_1_Current_Authority_Refinement.md",
+  "version": "1.1.0",
+  "source_document": "README_Normandy_Early_Era_Units_and_Progression_Index_V1.md",
+  "source_version": "1.0.1",
+  "source_lines": 1064,
+  "successor_lines": 2030,
+  "source_bytes": 37366,
+  "successor_bytes": 72608,
+  "sha256": "11b6ff01e9ed8a72d2c8047840929bf3bf9452159a483d888998801685d432e1",
+  "verified_root": "Content/Units/01_Early_Era_Norman",
+  "verified_child_folders": [
+    "01_Infantry",
+    "02_Foot_Missile_And_Skirmishers",
+    "03_Cavalry",
+    "04_Mounted_Missile_And_Skirmishers"
+  ],
+  "complete_recursive_inventory_claimed": false,
+  "physical_moves": [],
+  "source_deletions": [],
+  "next_gate": "Exact High and LateHigh Normandy roster index current-authority refinement",
+  "complete_immediate_source_appendix": true
+}

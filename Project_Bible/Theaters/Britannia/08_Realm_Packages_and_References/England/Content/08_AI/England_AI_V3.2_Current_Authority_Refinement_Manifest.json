@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.england.AI.v3_2.current_authority_refinement",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "England_AI_V3.1_Current_Authority_Refinement.md",
+    "version": "3.1 additive current-authority refinement",
+    "sha256": "76feaa95e6fdde4d2fb659a18dff6597584b4189d77dc91f9b120c05d217ca73",
+    "bytes": 39905,
+    "copy_based_rebuild": true
+  },
+  "files": [
+    {
+      "filename": "England_AI_V3.2_Current_Authority_Refinement.md",
+      "sha256": "5afc408136069dc5cd19290aaa0dbbb8d5e32998b2318b6f28e94d5fc62c277f",
+      "bytes": 60761
+    },
+    {
+      "filename": "England_AI_V3.2_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "ecc8abbbd2768c9fae6f6072d3e9c2739fa0dc603fd8fa60fa47ae7a85217baa",
+      "bytes": 915
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "AI_state_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

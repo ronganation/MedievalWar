@@ -1,0 +1,35 @@
+{
+  "document_id": "manifest.england.historical_timeline_and_chronology.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "source": {
+    "filename": "England_Historical_Timeline_and_Chronology.md",
+    "version": "1.0",
+    "sha256": "9b6381c273d8686d4edc10081976225236e927dcf6d7cb4a3139aa6a7f65c148",
+    "bytes": 29290,
+    "copy_based_rebuild": true
+  },
+  "files": [
+    {
+      "filename": "England_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement.md",
+      "sha256": "d2e07b1dec6e774f8feaa18c950a6fc8ca0239a49cf75ab53984873ccad67a51",
+      "bytes": 44344
+    },
+    {
+      "filename": "England_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "390286660e45d68fd651fe8f660d9a267b216a3869935e146ffd62ff5e346da6",
+      "bytes": 963
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "Chronology_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

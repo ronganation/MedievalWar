@@ -1,0 +1,128 @@
+{
+  "Schema": "MedievalWar.StaticCheck.V1",
+  "AuthorityFile": "Aquitaine_Historical_Suite_Consistency_and_Coverage_Audit_V1.md",
+  "AuthoritySHA256": "c86643f4b9557ef46ff18df82c0aeb8939163facb876d31cc3621e69f3ed2cf8",
+  "AuthorityByteCount": 34556,
+  "AuthorityLineCount": 1087,
+  "CheckFile": "Aquitaine_Historical_Suite_Consistency_and_Coverage_Audit_V1_Static_Check.json",
+  "Result": "Pass",
+  "TotalChecks": 25,
+  "Passes": 25,
+  "Failures": 0,
+  "Checks": [
+    {
+      "Id": "document_control_present",
+      "Result": "Pass"
+    },
+    {
+      "Id": "six_primary_historical_authorities_named",
+      "Result": "Pass"
+    },
+    {
+      "Id": "ownership_layers_separate",
+      "Result": "Pass"
+    },
+    {
+      "Id": "thirty_uncertainty_records_acknowledged",
+      "Result": "Pass"
+    },
+    {
+      "Id": "evidence_population_not_overstated",
+      "Result": "Pass"
+    },
+    {
+      "Id": "memory_counts_present",
+      "Result": "Pass"
+    },
+    {
+      "Id": "momentum_portfolio_present",
+      "Result": "Pass"
+    },
+    {
+      "Id": "seven_emergence_pathways_present",
+      "Result": "Pass"
+    },
+    {
+      "Id": "barbastro_inactive",
+      "Result": "Pass"
+    },
+    {
+      "Id": "bernard_rising_not_forced",
+      "Result": "Pass"
+    },
+    {
+      "Id": "william_ix_excluded",
+      "Result": "Pass"
+    },
+    {
+      "Id": "matoeda_no_regency",
+      "Result": "Pass"
+    },
+    {
+      "Id": "agnes_no_adult_agency",
+      "Result": "Pass"
+    },
+    {
+      "Id": "three_title_successions_separate",
+      "Result": "Pass"
+    },
+    {
+      "Id": "three_track_time",
+      "Result": "Pass"
+    },
+    {
+      "Id": "war_not_claim_gated",
+      "Result": "Pass"
+    },
+    {
+      "Id": "papal_reliability_separate",
+      "Result": "Pass"
+    },
+    {
+      "Id": "external_owner_boundary",
+      "Result": "Pass"
+    },
+    {
+      "Id": "later_history_firewall",
+      "Result": "Pass"
+    },
+    {
+      "Id": "thirty_file_bundle_correction",
+      "Result": "Pass"
+    },
+    {
+      "Id": "markdown_fences_balanced",
+      "Result": "Pass"
+    },
+    {
+      "Id": "no_em_dash",
+      "Result": "Pass"
+    },
+    {
+      "Id": "no_escaped_underscores",
+      "Result": "Pass"
+    },
+    {
+      "Id": "stable_footer_once",
+      "Result": "Pass"
+    },
+    {
+      "Id": "final_marker_correct",
+      "Result": "Pass"
+    }
+  ],
+  "MutationStatus": {
+    "HistoricalFactsActivated": 0,
+    "SourceRecordsFabricated": 0,
+    "UncertaintySelectionsApplied": 0,
+    "MemoryInstancesActivated": 0,
+    "MomentumInstancesActivated": 0,
+    "EmergenceInstancesActivated": 0,
+    "OpeningStateMutations": 0,
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

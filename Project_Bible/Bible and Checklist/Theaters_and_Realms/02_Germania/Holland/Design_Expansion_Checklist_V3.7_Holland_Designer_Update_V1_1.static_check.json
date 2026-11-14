@@ -1,0 +1,22 @@
+{
+  "document": "Design_Expansion_Checklist_V3.7_Holland_Designer_Update_V1_1.md",
+  "sha256": "999de534c7805409e26dee75a06bb076801866cc617bf8c7a311ff94f6b9c280",
+  "yaml_errors": [],
+  "checks": {
+    "copy_first_source_preserved": true,
+    "yaml_blocks_parse": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_tabs": true,
+    "no_trailing_spaces": true,
+    "twenty_two_profiles_preserved": true,
+    "character_status_ambiguity_repaired": true,
+    "military_binding_status_precise": true,
+    "first_slice_nonactivation": true,
+    "handoff_acceptance_present": true,
+    "closeout_matrix_present": true,
+    "stable_checklist_not_replaced": true
+  },
+  "pass": true
+}

@@ -1,0 +1,26 @@
+{
+  "document_id": "static-check.scotland.duncan-ii.character.v2",
+  "version": "2.0.0",
+  "source": "Duncan_II_of_Scotland.md",
+  "successor": "Duncan_II_of_Scotland_V2_Current_Authority_Refinement.md",
+  "source_bytes": 38503,
+  "source_physical_lines": 756,
+  "source_sha256": "1491ee1cee46e9cc20c7fd19550880e7c864ded05d05da32cb1f96557484b7b1",
+  "successor_bytes": 55099,
+  "successor_physical_lines": 1262,
+  "successor_sha256": "d2c0d63a1c788c5a7cbca2f814f6f60bb198fcc82835ad020ed15314f55d5482",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "protected_material_preserved": true,
+    "current_metadata_present": true,
+    "implementation_status_honest": true,
+    "authorizations_false": true
+  },
+  "missing_source_headings": [],
+  "missing_protected_literals": [],
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

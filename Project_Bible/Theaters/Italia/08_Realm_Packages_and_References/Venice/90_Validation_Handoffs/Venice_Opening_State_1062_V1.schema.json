@@ -1,0 +1,303 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medieval-war:venice:opening-state:1062:v1:schema",
+  "title": "Venice Opening State 1062 Review-Only Candidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "documentId",
+    "stableDocumentId",
+    "packageType",
+    "packageVersion",
+    "schemaVersion",
+    "scenarioId",
+    "realmId",
+    "realmContextId",
+    "openingDate",
+    "openingCampaignSeason",
+    "temporalContract",
+    "sourceAuthority",
+    "registryVersion",
+    "packageFingerprint",
+    "ownerReceiptSetId",
+    "externalReceiptSetId",
+    "deterministicSeedContract",
+    "transactionContract",
+    "dispositionSets",
+    "sections",
+    "validationMetadata",
+    "rollbackMetadata"
+  ],
+  "properties": {
+    "documentId": {
+      "type": "string"
+    },
+    "stableDocumentId": {
+      "type": "string"
+    },
+    "packageType": {
+      "const": "ReviewOnlyOpeningStateCandidate"
+    },
+    "packageVersion": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "scenarioId": {
+      "$ref": "#/$defs/reviewIdentity"
+    },
+    "realmId": {
+      "$ref": "#/$defs/reviewIdentity"
+    },
+    "realmContextId": {
+      "$ref": "#/$defs/reviewIdentity"
+    },
+    "openingDate": {
+      "const": "1062-01-01"
+    },
+    "openingCampaignSeason": {
+      "const": "Winter"
+    },
+    "temporalContract": {
+      "type": "object",
+      "required": [
+        "historical",
+        "biological",
+        "campaignSeason"
+      ]
+    },
+    "sourceAuthority": {
+      "type": "object",
+      "required": [
+        "file",
+        "version",
+        "accepted",
+        "hash"
+      ],
+      "properties": {
+        "accepted": {
+          "const": false
+        }
+      }
+    },
+    "registryVersion": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "packageFingerprint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ownerReceiptSetId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "externalReceiptSetId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "deterministicSeedContract": {
+      "type": "object",
+      "required": [
+        "requiredAtCampaignCreation",
+        "selected",
+        "value"
+      ],
+      "properties": {
+        "selected": {
+          "const": false
+        },
+        "value": {
+          "type": "null"
+        }
+      }
+    },
+    "transactionContract": {
+      "type": "object",
+      "required": [
+        "mode",
+        "applicationAuthorized",
+        "newCampaignOnly",
+        "applyExactlyOnce",
+        "transactionId"
+      ],
+      "properties": {
+        "mode": {
+          "const": "validateOnly"
+        },
+        "applicationAuthorized": {
+          "const": false
+        },
+        "newCampaignOnly": {
+          "const": true
+        },
+        "applyExactlyOnce": {
+          "const": true
+        },
+        "transactionId": {
+          "type": "null"
+        }
+      }
+    },
+    "dispositionSets": {
+      "type": "object",
+      "required": [
+        "accepted",
+        "rejected",
+        "reviewOnly",
+        "quarantined",
+        "unknown",
+        "intentionalEmpty",
+        "externalLock",
+        "conditional"
+      ],
+      "properties": {
+        "accepted": {
+          "maxItems": 0
+        },
+        "reviewOnly": {
+          "type": "array",
+          "minItems": 18,
+          "maxItems": 18,
+          "uniqueItems": true
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "$ref": "#/$defs/section"
+      }
+    },
+    "validationMetadata": {
+      "type": "object",
+      "properties": {
+        "candidateOnly": {
+          "const": true
+        },
+        "syntheticFixturesOnly": {
+          "const": true
+        },
+        "realImportAuthorized": {
+          "const": false
+        }
+      }
+    },
+    "rollbackMetadata": {
+      "type": "object",
+      "properties": {
+        "authoritativeMutationCount": {
+          "const": 0
+        }
+      }
+    }
+  },
+  "$defs": {
+    "reviewIdentity": {
+      "type": "object",
+      "required": [
+        "disposition",
+        "value",
+        "reason"
+      ],
+      "properties": {
+        "disposition": {
+          "const": "reviewOnly"
+        },
+        "value": {
+          "type": "null"
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sectionId",
+        "key",
+        "disposition",
+        "definitionOrInstance",
+        "records",
+        "activeBindingEligible",
+        "fallback"
+      ],
+      "properties": {
+        "sectionId": {
+          "enum": [
+            "OS-VEN-00",
+            "OS-VEN-01",
+            "OS-VEN-02",
+            "OS-VEN-03",
+            "OS-VEN-04",
+            "OS-VEN-05",
+            "OS-VEN-06",
+            "OS-VEN-07",
+            "OS-VEN-08",
+            "OS-VEN-09",
+            "OS-VEN-10",
+            "OS-VEN-11",
+            "OS-VEN-12",
+            "OS-VEN-13",
+            "OS-VEN-14",
+            "OS-VEN-15",
+            "OS-VEN-16",
+            "OS-VEN-17"
+          ]
+        },
+        "key": {
+          "enum": [
+            "scenarioHeader",
+            "realmIdentity",
+            "rulerHousehold",
+            "ducalContinuity",
+            "governmentAdministration",
+            "church",
+            "lawJustice",
+            "geographySettlements",
+            "populationSocialStatus",
+            "healthEnvironment",
+            "economyMaterials",
+            "militaryUnits",
+            "diplomacyExternal",
+            "informationOrder",
+            "historicalSystems",
+            "educationCultureCustodyCourt",
+            "presentation",
+            "firstTurnProposals"
+          ]
+        },
+        "disposition": {
+          "const": "reviewOnly"
+        },
+        "definitionOrInstance": {
+          "const": "definition"
+        },
+        "records": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "activeBindingEligible": {
+          "const": false
+        },
+        "fallback": {
+          "const": "NoActiveBinding"
+        }
+      }
+    }
+  }
+}

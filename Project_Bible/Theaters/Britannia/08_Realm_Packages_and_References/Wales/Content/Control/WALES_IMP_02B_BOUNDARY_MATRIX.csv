@@ -1,0 +1,15 @@
+Boundary,RequiredValue,Enforcement
+ExistingSourceModification,False,Collision and hash gates
+TransactionExecution,False,Contract and tests
+OwnerInvocation,False,Contract and tests
+StagingExecution,False,Contract and tests
+CommitAuthority,False,Contract and tests
+RollbackExecution,False,Contract and tests
+ReceiptAuthority,False,Contract and tests
+SaveWrite,False,Contract and tests
+SaveLoad,False,Contract and tests
+MigrationExecution,False,Contract and tests
+RegistryMutation,False,Contract and tests
+OpeningStateActivation,False,Contract and tests
+RealPayloadApplication,False,Contract and tests
+ProductionAuthority,False,Contract and tests

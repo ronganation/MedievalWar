@@ -1,0 +1,22 @@
+{
+  "FileName": "Flanders_Historical_Suite_Consistency_and_Coverage_Audit_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "5cb53573d18ebf77b6bc7055a39d944ae88400fd5b0046dbf0133ca5ce427765",
+  "Bytes": 28665,
+  "Lines": 728,
+  "Verdict": "CONDITIONAL_PASS_AT_DESIGN_SCOPE",
+  "PrimaryNewHistoricalAuthorities": 3,
+  "AuditedHistoricalOrConsumingAuthorities": 10,
+  "MemoryFamilies": 12,
+  "MomentumFamilies": 12,
+  "EmergencePathways": 12,
+  "UncertaintyRecords": 32,
+  "OpeningSelectionsApplied": 0,
+  "OpenBlockers": 12,
+  "ModernizationBatches": 10,
+  "VisualBoardStatus": "ReviewOnlyConceptAsset",
+  "NextFile": "Flanders_Historical_Memory_V2_Current_Authority_Modernization_FULL.md",
+  "Mutations": 0,
+  "CompileValidated": false,
+  "RuntimeValidated": false
+}

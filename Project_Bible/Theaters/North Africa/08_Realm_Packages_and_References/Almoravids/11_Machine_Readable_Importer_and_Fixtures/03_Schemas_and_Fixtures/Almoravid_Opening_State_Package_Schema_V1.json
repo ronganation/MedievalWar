@@ -1,0 +1,4132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema.almoravid.opening_state.package.v1",
+  "title": "Almoravid Opening State Package Schema V1",
+  "description": "Strict immutable-package schema derived from the three finalized V1 JSON documents. It accepts exactly the canonical payload or one of the two selection-only overlays. Any content change requires a versioned schema and payload update.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/canonicalPayload"
+    },
+    {
+      "$ref": "#/$defs/abuBakrOverlay"
+    },
+    {
+      "$ref": "#/$defs/yusufOverlay"
+    }
+  ],
+  "$defs": {
+    "canonicalPayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "packageIdentity",
+        "authorityManifest",
+        "registryBinding",
+        "temporalState",
+        "applicationGuard",
+        "politicalShell",
+        "characterDefinitions",
+        "openingCharacterRecords",
+        "perspectiveDefinitions",
+        "perspectiveSelectionPolicy",
+        "principalBaseBinding",
+        "definitionOnlyPolicies",
+        "religiousDefinitionBindings",
+        "sharedReferences",
+        "externalLocks",
+        "reviewOnlyExclusions",
+        "quarantineExclusions",
+        "laterHistoryExclusions",
+        "explicitEmptyCollections",
+        "declaredCounts",
+        "contentHashes"
+      ],
+      "properties": {
+        "packageIdentity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "packageId",
+            "packageVersion",
+            "documentKind",
+            "openingStateId",
+            "scenarioId",
+            "effectiveDate",
+            "status"
+          ],
+          "properties": {
+            "packageId": {
+              "type": "string",
+              "const": "package.almoravid.opening_state.1062.v1"
+            },
+            "packageVersion": {
+              "type": "string",
+              "const": "1.0.0"
+            },
+            "documentKind": {
+              "type": "string",
+              "const": "CanonicalOpeningStateContent"
+            },
+            "openingStateId": {
+              "type": "string",
+              "const": "opening.almoravid.1062"
+            },
+            "scenarioId": {
+              "type": "string",
+              "const": "scenario.almoravid.1062"
+            },
+            "effectiveDate": {
+              "type": "string",
+              "const": "1062-01-01"
+            },
+            "status": {
+              "type": "string",
+              "const": "STATIC_CHECKED_CONTENT_PAYLOAD"
+            }
+          }
+        },
+        "authorityManifest": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "prefixItems": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "file",
+                "role",
+                "sha256"
+              ],
+              "properties": {
+                "file": {
+                  "type": "string",
+                  "const": "Almoravid_Opening_State_1062_V1.md"
+                },
+                "role": {
+                  "type": "string",
+                  "const": "OpeningStateAuthority"
+                },
+                "sha256": {
+                  "type": "string",
+                  "const": "4b72e947085dbed04bf6ea5d8c5c33d96ebb14be948477cb30fc992fa7b0dcb6"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "file",
+                "role",
+                "sha256"
+              ],
+              "properties": {
+                "file": {
+                  "type": "string",
+                  "const": "Almoravid_Machine_Readable_Opening_State_Package_Contract_V1.md"
+                },
+                "role": {
+                  "type": "string",
+                  "const": "MachineReadableContract"
+                },
+                "sha256": {
+                  "type": "string",
+                  "const": "7bde78921eda33b3d43753b0bf249bdaefad88598e2161eaed7a4e48df20618f"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "file",
+                "role",
+                "sha256"
+              ],
+              "properties": {
+                "file": {
+                  "type": "string",
+                  "const": "Almoravid_Opening_State_Authority_and_Registry_Preflight_V1.md"
+                },
+                "role": {
+                  "type": "string",
+                  "const": "OpeningStatePreflight"
+                },
+                "sha256": {
+                  "type": "string",
+                  "const": "bc7d69525e562ea07b936934419ce9e3f598121aa555caaaa7fb55ccbc973812"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "file",
+                "role",
+                "sha256"
+              ],
+              "properties": {
+                "file": {
+                  "type": "string",
+                  "const": "Almoravid_ID_Registry_V1.md"
+                },
+                "role": {
+                  "type": "string",
+                  "const": "RegistryAuthority"
+                },
+                "sha256": {
+                  "type": "string",
+                  "const": "e798c51865aa289eae5a72681b18a8e5e455c1ea669216904d2b33af9061989f"
+                }
+              }
+            }
+          ],
+          "items": false
+        },
+        "registryBinding": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "registryId",
+            "registryVersion",
+            "registryFile",
+            "registrySha256",
+            "deprecatedIdsAllowed",
+            "aliasChainsAllowed"
+          ],
+          "properties": {
+            "registryId": {
+              "type": "string",
+              "const": "registry.almoravid.v1"
+            },
+            "registryVersion": {
+              "type": "string",
+              "const": "1.1.0"
+            },
+            "registryFile": {
+              "type": "string",
+              "const": "Almoravid_ID_Registry_V1.md"
+            },
+            "registrySha256": {
+              "type": "string",
+              "const": "e798c51865aa289eae5a72681b18a8e5e455c1ea669216904d2b33af9061989f"
+            },
+            "deprecatedIdsAllowed": {
+              "type": "boolean",
+              "const": false
+            },
+            "aliasChainsAllowed": {
+              "type": "boolean",
+              "const": false
+            }
+          }
+        },
+        "temporalState": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "historicalDate",
+            "historicalProgression",
+            "biologicalProgression",
+            "campaignSeason",
+            "universalTurnFieldPresent",
+            "fixedCrossClockRatioPresent"
+          ],
+          "properties": {
+            "historicalDate": {
+              "type": "string",
+              "const": "1062-01-01"
+            },
+            "historicalProgression": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "stepDurationMonths",
+                "index",
+                "elapsedMonths",
+                "agesCharacters"
+              ],
+              "properties": {
+                "stepDurationMonths": {
+                  "type": "integer",
+                  "const": 21
+                },
+                "index": {
+                  "type": "integer",
+                  "const": 0
+                },
+                "elapsedMonths": {
+                  "type": "integer",
+                  "const": 0
+                },
+                "agesCharacters": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            "biologicalProgression": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "stepDurationMonths",
+                "index",
+                "elapsedMonths",
+                "resolvesRealmStrategy"
+              ],
+              "properties": {
+                "stepDurationMonths": {
+                  "type": "integer",
+                  "const": 7
+                },
+                "index": {
+                  "type": "integer",
+                  "const": 0
+                },
+                "elapsedMonths": {
+                  "type": "integer",
+                  "const": 0
+                },
+                "resolvesRealmStrategy": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            "campaignSeason": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "current",
+                "index",
+                "seasonOrder",
+                "derivedFromHistoricalMonth"
+              ],
+              "properties": {
+                "current": {
+                  "type": "string",
+                  "const": "Winter"
+                },
+                "index": {
+                  "type": "integer",
+                  "const": 0
+                },
+                "seasonOrder": {
+                  "type": "array",
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "prefixItems": [
+                    {
+                      "type": "string",
+                      "const": "Winter"
+                    },
+                    {
+                      "type": "string",
+                      "const": "Spring"
+                    },
+                    {
+                      "type": "string",
+                      "const": "Summer"
+                    },
+                    {
+                      "type": "string",
+                      "const": "Autumn"
+                    }
+                  ],
+                  "items": false
+                },
+                "derivedFromHistoricalMonth": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            "universalTurnFieldPresent": {
+              "type": "boolean",
+              "const": false
+            },
+            "fixedCrossClockRatioPresent": {
+              "type": "boolean",
+              "const": false
+            }
+          }
+        },
+        "applicationGuard": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "requiredCampaignState",
+            "applyAtMostOnce",
+            "rejectIfReceiptExists",
+            "rejectIfHistoricalDateAdvanced",
+            "rejectIfHistoricalProgressionAdvanced",
+            "rejectIfBiologicalProgressionAdvanced",
+            "rejectIfCampaignSeasonAdvanced",
+            "rejectIfRuntimeDivergenceExists",
+            "reapplyOnLoad",
+            "reapplyAfterMigration",
+            "reapplyToAdvancedSave",
+            "atomicCommitRequired",
+            "applicationReceiptRequired"
+          ],
+          "properties": {
+            "requiredCampaignState": {
+              "type": "string",
+              "const": "NewCampaignUninitialized"
+            },
+            "applyAtMostOnce": {
+              "type": "boolean",
+              "const": true
+            },
+            "rejectIfReceiptExists": {
+              "type": "boolean",
+              "const": true
+            },
+            "rejectIfHistoricalDateAdvanced": {
+              "type": "boolean",
+              "const": true
+            },
+            "rejectIfHistoricalProgressionAdvanced": {
+              "type": "boolean",
+              "const": true
+            },
+            "rejectIfBiologicalProgressionAdvanced": {
+              "type": "boolean",
+              "const": true
+            },
+            "rejectIfCampaignSeasonAdvanced": {
+              "type": "boolean",
+              "const": true
+            },
+            "rejectIfRuntimeDivergenceExists": {
+              "type": "boolean",
+              "const": true
+            },
+            "reapplyOnLoad": {
+              "type": "boolean",
+              "const": false
+            },
+            "reapplyAfterMigration": {
+              "type": "boolean",
+              "const": false
+            },
+            "reapplyToAdvancedSave": {
+              "type": "boolean",
+              "const": false
+            },
+            "atomicCommitRequired": {
+              "type": "boolean",
+              "const": true
+            },
+            "applicationReceiptRequired": {
+              "type": "boolean",
+              "const": true
+            }
+          }
+        },
+        "politicalShell": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "factionRef",
+            "realmRef",
+            "movementRef",
+            "politicalForm",
+            "openingEmpireComplete",
+            "openingAlAndalusAuthority"
+          ],
+          "properties": {
+            "factionRef": {
+              "type": "string",
+              "const": "faction.almoravid_movement"
+            },
+            "realmRef": {
+              "type": "string",
+              "const": "realm.almoravid_movement_state"
+            },
+            "movementRef": {
+              "type": "string",
+              "const": "movement.almoravid_reform_confederation"
+            },
+            "politicalForm": {
+              "type": "string",
+              "const": "MovementConfederationState"
+            },
+            "openingEmpireComplete": {
+              "type": "boolean",
+              "const": false
+            },
+            "openingAlAndalusAuthority": {
+              "type": "boolean",
+              "const": false
+            }
+          }
+        },
+        "characterDefinitions": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "prefixItems": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "personRef",
+                "openingDefinitionDisposition"
+              ],
+              "properties": {
+                "personRef": {
+                  "type": "string",
+                  "const": "person.abu_bakr_ibn_umar"
+                },
+                "openingDefinitionDisposition": {
+                  "type": "string",
+                  "const": "LivingOpeningCandidate"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "personRef",
+                "openingDefinitionDisposition"
+              ],
+              "properties": {
+                "personRef": {
+                  "type": "string",
+                  "const": "person.yusuf_ibn_tashfin"
+                },
+                "openingDefinitionDisposition": {
+                  "type": "string",
+                  "const": "LivingOpeningCandidate"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "personRef",
+                "openingDefinitionDisposition"
+              ],
+              "properties": {
+                "personRef": {
+                  "type": "string",
+                  "const": "person.zaynab_al_nafzawiyya"
+                },
+                "openingDefinitionDisposition": {
+                  "type": "string",
+                  "const": "DefinitionOnlyReview"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "personRef",
+                "openingDefinitionDisposition"
+              ],
+              "properties": {
+                "personRef": {
+                  "type": "string",
+                  "const": "person.abdallah_ibn_yasin"
+                },
+                "openingDefinitionDisposition": {
+                  "type": "string",
+                  "const": "HistoricalNonRuntime"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "personRef",
+                "openingDefinitionDisposition"
+              ],
+              "properties": {
+                "personRef": {
+                  "type": "string",
+                  "const": "person.yahya_ibn_umar"
+                },
+                "openingDefinitionDisposition": {
+                  "type": "string",
+                  "const": "HistoricalNonRuntime"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "personRef",
+                "openingDefinitionDisposition"
+              ],
+              "properties": {
+                "personRef": {
+                  "type": "string",
+                  "const": "person.yahya_ibn_ibrahim"
+                },
+                "openingDefinitionDisposition": {
+                  "type": "string",
+                  "const": "HistoricalNonRuntime"
+                }
+              }
+            }
+          ],
+          "items": false
+        },
+        "openingCharacterRecords": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "prefixItems": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "personRef",
+                "alive",
+                "simulationTier",
+                "openingRole",
+                "ageYears",
+                "ageResidualMonths",
+                "ageProvenance",
+                "exactBirthDateAccepted",
+                "openingLocationRef",
+                "openingCommandRef",
+                "openingPropertyRefs",
+                "openingRelationshipRefs"
+              ],
+              "properties": {
+                "personRef": {
+                  "type": "string",
+                  "const": "person.abu_bakr_ibn_umar"
+                },
+                "alive": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "simulationTier": {
+                  "type": "string",
+                  "const": "TierA"
+                },
+                "openingRole": {
+                  "type": "string",
+                  "const": "SeniorConfederationalAndMilitaryAuthority"
+                },
+                "ageYears": {
+                  "type": "null"
+                },
+                "ageResidualMonths": {
+                  "type": "null"
+                },
+                "ageProvenance": {
+                  "type": "string",
+                  "const": "ReviewOnlyRange"
+                },
+                "exactBirthDateAccepted": {
+                  "type": "boolean",
+                  "const": false
+                },
+                "openingLocationRef": {
+                  "type": "null"
+                },
+                "openingCommandRef": {
+                  "type": "null"
+                },
+                "openingPropertyRefs": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "openingRelationshipRefs": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "personRef",
+                "alive",
+                "simulationTier",
+                "openingRole",
+                "ageYears",
+                "ageResidualMonths",
+                "ageProvenance",
+                "exactBirthDateAccepted",
+                "openingLocationRef",
+                "openingCommandRef",
+                "openingPropertyRefs",
+                "openingRelationshipRefs"
+              ],
+              "properties": {
+                "personRef": {
+                  "type": "string",
+                  "const": "person.yusuf_ibn_tashfin"
+                },
+                "alive": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "simulationTier": {
+                  "type": "string",
+                  "const": "TierA"
+                },
+                "openingRole": {
+                  "type": "string",
+                  "const": "NorthernOperationalAuthority"
+                },
+                "ageYears": {
+                  "type": "null"
+                },
+                "ageResidualMonths": {
+                  "type": "null"
+                },
+                "ageProvenance": {
+                  "type": "string",
+                  "const": "ReviewOnlyRange"
+                },
+                "exactBirthDateAccepted": {
+                  "type": "boolean",
+                  "const": false
+                },
+                "openingLocationRef": {
+                  "type": "null"
+                },
+                "openingCommandRef": {
+                  "type": "null"
+                },
+                "openingPropertyRefs": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "openingRelationshipRefs": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                }
+              }
+            }
+          ],
+          "items": false
+        },
+        "perspectiveDefinitions": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "prefixItems": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "perspectiveRef",
+                "personRef",
+                "campaignType",
+                "openingSelectable"
+              ],
+              "properties": {
+                "perspectiveRef": {
+                  "type": "string",
+                  "const": "perspective.almoravid.abu_bakr"
+                },
+                "personRef": {
+                  "type": "string",
+                  "const": "person.abu_bakr_ibn_umar"
+                },
+                "campaignType": {
+                  "type": "string",
+                  "const": "MovementConfederationStakeholder"
+                },
+                "openingSelectable": {
+                  "type": "boolean",
+                  "const": true
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "perspectiveRef",
+                "personRef",
+                "campaignType",
+                "openingSelectable"
+              ],
+              "properties": {
+                "perspectiveRef": {
+                  "type": "string",
+                  "const": "perspective.almoravid.yusuf"
+                },
+                "personRef": {
+                  "type": "string",
+                  "const": "person.yusuf_ibn_tashfin"
+                },
+                "campaignType": {
+                  "type": "string",
+                  "const": "DelegatedNorthernAuthorityStakeholder"
+                },
+                "openingSelectable": {
+                  "type": "boolean",
+                  "const": true
+                }
+              }
+            }
+          ],
+          "items": false
+        },
+        "perspectiveSelectionPolicy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "selectionRequired",
+            "defaultPerspectiveRef",
+            "selectedPerspectiveStoredInPayload",
+            "validPerspectiveRefs"
+          ],
+          "properties": {
+            "selectionRequired": {
+              "type": "boolean",
+              "const": true
+            },
+            "defaultPerspectiveRef": {
+              "type": "null"
+            },
+            "selectedPerspectiveStoredInPayload": {
+              "type": "boolean",
+              "const": false
+            },
+            "validPerspectiveRefs": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "prefixItems": [
+                {
+                  "type": "string",
+                  "const": "perspective.almoravid.abu_bakr"
+                },
+                {
+                  "type": "string",
+                  "const": "perspective.almoravid.yusuf"
+                }
+              ],
+              "items": false
+            }
+          }
+        },
+        "principalBaseBinding": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "settlementRef",
+            "bindingType",
+            "definitionOwnerRef",
+            "uniformHaouzControl",
+            "marketControlRef",
+            "mintControlRef",
+            "garrisonRef",
+            "treasuryRef"
+          ],
+          "properties": {
+            "settlementRef": {
+              "type": "string",
+              "const": "settlement.aghmat"
+            },
+            "bindingType": {
+              "type": "string",
+              "const": "PrincipalUrbanBase"
+            },
+            "definitionOwnerRef": {
+              "type": "string",
+              "const": "GlobalGeographyRegistry"
+            },
+            "uniformHaouzControl": {
+              "type": "boolean",
+              "const": false
+            },
+            "marketControlRef": {
+              "type": "null"
+            },
+            "mintControlRef": {
+              "type": "null"
+            },
+            "garrisonRef": {
+              "type": "null"
+            },
+            "treasuryRef": {
+              "type": "null"
+            }
+          }
+        },
+        "definitionOnlyPolicies": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "prefixItems": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "policyRef",
+                "subjectRef",
+                "policy",
+                "openingRuntimeCharacter",
+                "laterActivationAllowed",
+                "activationOwnerRef"
+              ],
+              "properties": {
+                "policyRef": {
+                  "type": "string",
+                  "const": "policy.almoravid.opening.zaynab_policy_b"
+                },
+                "subjectRef": {
+                  "type": "string",
+                  "const": "person.zaynab_al_nafzawiyya"
+                },
+                "policy": {
+                  "type": "string",
+                  "const": "PolicyBDefinitionOnly"
+                },
+                "openingRuntimeCharacter": {
+                  "type": "boolean",
+                  "const": false
+                },
+                "laterActivationAllowed": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "activationOwnerRef": {
+                  "type": "string",
+                  "const": "CharacterFoundation"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "policyRef",
+                "subjectRef",
+                "policy",
+                "openingRuntimeInstance"
+              ],
+              "properties": {
+                "policyRef": {
+                  "type": "string",
+                  "const": "economy_profile.almoravid.1062"
+                },
+                "subjectRef": {
+                  "type": "string",
+                  "const": "realm.almoravid_movement_state"
+                },
+                "policy": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                },
+                "openingRuntimeInstance": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "policyRef",
+                "subjectRef",
+                "policy",
+                "openingRuntimeInstance"
+              ],
+              "properties": {
+                "policyRef": {
+                  "type": "string",
+                  "const": "property_policy.almoravid.1062"
+                },
+                "subjectRef": {
+                  "type": "string",
+                  "const": "realm.almoravid_movement_state"
+                },
+                "policy": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                },
+                "openingRuntimeInstance": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "policyRef",
+                "subjectRef",
+                "policy",
+                "openingRuntimeInstance"
+              ],
+              "properties": {
+                "policyRef": {
+                  "type": "string",
+                  "const": "supply_policy.almoravid.1062"
+                },
+                "subjectRef": {
+                  "type": "string",
+                  "const": "realm.almoravid_movement_state"
+                },
+                "policy": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                },
+                "openingRuntimeInstance": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "policyRef",
+                "subjectRef",
+                "policy",
+                "openingRuntimeInstance",
+                "activePhaseRef"
+              ],
+              "properties": {
+                "policyRef": {
+                  "type": "string",
+                  "const": "capital_project.marrakesh_foundation"
+                },
+                "subjectRef": {
+                  "type": "string",
+                  "const": "site.marrakesh_foundation"
+                },
+                "policy": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                },
+                "openingRuntimeInstance": {
+                  "type": "boolean",
+                  "const": false
+                },
+                "activePhaseRef": {
+                  "type": "null"
+                }
+              }
+            }
+          ],
+          "items": false
+        },
+        "religiousDefinitionBindings": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "prefixItems": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "openingRuntimeInstance"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "religious_authority.almoravid.reform_tradition"
+                },
+                "openingRuntimeInstance": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "openingRuntimeInstance"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "religious_authority.almoravid.founder_legacy_ibn_yasin"
+                },
+                "openingRuntimeInstance": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            }
+          ],
+          "items": false
+        },
+        "sharedReferences": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "prefixItems": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "definitionOwnerRef",
+                "openingRuntimeInstance"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "juristic_tradition.maliki"
+                },
+                "definitionOwnerRef": {
+                  "type": "string",
+                  "const": "SharedReligiousRegistry"
+                },
+                "openingRuntimeInstance": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "definitionOwnerRef",
+                "openingRuntimeInstance"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "market.sijilmasa"
+                },
+                "definitionOwnerRef": {
+                  "type": "string",
+                  "const": "SharedEconomyTradeRegistry"
+                },
+                "openingRuntimeInstance": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "definitionOwnerRef",
+                "openingRuntimeInstance"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "mint.sijilmasa"
+                },
+                "definitionOwnerRef": {
+                  "type": "string",
+                  "const": "SharedEconomyTradeRegistry"
+                },
+                "openingRuntimeInstance": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            }
+          ],
+          "items": false
+        },
+        "externalLocks": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "prefixItems": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "definitionOwnerRef",
+                "openingActivationAllowed",
+                "localUniversalMutationAllowed"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "settlement.ceuta"
+                },
+                "definitionOwnerRef": {
+                  "type": "string",
+                  "const": "GlobalGeographyRegistry"
+                },
+                "openingActivationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                },
+                "localUniversalMutationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "definitionOwnerRef",
+                "openingActivationAllowed",
+                "localUniversalMutationAllowed"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "settlement.fes"
+                },
+                "definitionOwnerRef": {
+                  "type": "string",
+                  "const": "GlobalGeographyRegistry"
+                },
+                "openingActivationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                },
+                "localUniversalMutationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "definitionOwnerRef",
+                "openingActivationAllowed",
+                "localUniversalMutationAllowed"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "settlement.meknes"
+                },
+                "definitionOwnerRef": {
+                  "type": "string",
+                  "const": "GlobalGeographyRegistry"
+                },
+                "openingActivationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                },
+                "localUniversalMutationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "definitionOwnerRef",
+                "openingActivationAllowed",
+                "localUniversalMutationAllowed"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "settlement.sale"
+                },
+                "definitionOwnerRef": {
+                  "type": "string",
+                  "const": "GlobalGeographyRegistry"
+                },
+                "openingActivationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                },
+                "localUniversalMutationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "definitionOwnerRef",
+                "openingActivationAllowed",
+                "localUniversalMutationAllowed"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "settlement.tangier"
+                },
+                "definitionOwnerRef": {
+                  "type": "string",
+                  "const": "GlobalGeographyRegistry"
+                },
+                "openingActivationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                },
+                "localUniversalMutationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "definitionRef",
+                "definitionOwnerRef",
+                "openingActivationAllowed",
+                "localUniversalMutationAllowed"
+              ],
+              "properties": {
+                "definitionRef": {
+                  "type": "string",
+                  "const": "settlement.tlemcen"
+                },
+                "definitionOwnerRef": {
+                  "type": "string",
+                  "const": "GlobalGeographyRegistry"
+                },
+                "openingActivationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                },
+                "localUniversalMutationAllowed": {
+                  "type": "boolean",
+                  "const": false
+                }
+              }
+            }
+          ],
+          "items": false
+        },
+        "reviewOnlyExclusions": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "activationAllowed",
+            "registryDispositionCount",
+            "items"
+          ],
+          "properties": {
+            "activationAllowed": {
+              "type": "boolean",
+              "const": false
+            },
+            "registryDispositionCount": {
+              "type": "integer",
+              "const": 136
+            },
+            "items": {
+              "type": "array",
+              "minItems": 0,
+              "maxItems": 0,
+              "prefixItems": [],
+              "items": false
+            }
+          }
+        },
+        "quarantineExclusions": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "activationAllowed",
+            "registryDispositionCount",
+            "items"
+          ],
+          "properties": {
+            "activationAllowed": {
+              "type": "boolean",
+              "const": false
+            },
+            "registryDispositionCount": {
+              "type": "integer",
+              "const": 17
+            },
+            "items": {
+              "type": "array",
+              "minItems": 0,
+              "maxItems": 0,
+              "prefixItems": [],
+              "items": false
+            }
+          }
+        },
+        "laterHistoryExclusions": {
+          "type": "array",
+          "minItems": 7,
+          "maxItems": 7,
+          "prefixItems": [
+            {
+              "type": "string",
+              "const": "CompletedMarrakeshCapital"
+            },
+            {
+              "type": "string",
+              "const": "YusufSoleUniversalSovereignty"
+            },
+            {
+              "type": "string",
+              "const": "AbuBakrPermanentNorthernRenunciation"
+            },
+            {
+              "type": "string",
+              "const": "AlAndalusIntervention"
+            },
+            {
+              "type": "string",
+              "const": "BattleOfSagrajas"
+            },
+            {
+              "type": "string",
+              "const": "TaifaAnnexation"
+            },
+            {
+              "type": "string",
+              "const": "PredeterminedEmpireCompletion"
+            }
+          ],
+          "items": false
+        },
+        "explicitEmptyCollections": {
+          "type": "array",
+          "minItems": 66,
+          "maxItems": 66,
+          "prefixItems": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCharacterNetworkEdges"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CharacterNetworkOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveExternalNetworkEdges"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CharacterNetworkOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveTrustEdges"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CharacterNetworkOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveLoyaltyEdges"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CharacterNetworkOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveHostilityEdges"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CharacterNetworkOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveRivalryEdges"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CharacterNetworkOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveMarriageEdges"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CharacterNetworkOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCommandSupportEdges"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CharacterNetworkOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCommunicationRecords"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CharacterNetworkOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveConfederationalCommitments"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MovementConfederationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveMobilizationObligations"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MovementConfederationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveLeadershipRecognitions"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MovementConfederationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActivePastureRights"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MovementConfederationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveWaterRights"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MovementConfederationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveSpoilsAgreements"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MovementConfederationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveRouteCommitments"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MovementConfederationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveBreachRecords"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MovementConfederationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveArmies"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MilitaryOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCommands"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MilitaryOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCampaignInstances"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MilitaryOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveForceLocations"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MilitaryOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveRecruitmentAuthorities"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MilitaryOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveGarrisons"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MilitaryOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveMilitaryAccessAgreements"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "MilitaryOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveSieges"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "ScenarioValidationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveOccupations"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "ScenarioValidationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveAccounts"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveTreasuries"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActivePropertyInstances"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveTaxRates"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveRevenueReceipts"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveControlledMarkets"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveMintOperations"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCaravans"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveShipments"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveStockpiles"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveTransportInventories"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveSupplyContracts"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveForceSupplyLedgers"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCapitalProjectInstances"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CapitalFoundationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCapitalPhases"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CapitalFoundationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCapitalWorkPackages"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CapitalFoundationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCapitalAccounts"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCapitalProperties"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CapitalFoundationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCapitalLaborContracts"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CapitalFoundationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCapitalMaterialStocks"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CapitalFoundationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCapitalSupplyContracts"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "EconomyPropertyTradeLogisticsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveCapitalSecurityForces"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "CapitalFoundationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "AdministrativeTransfers"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "ScenarioValidationOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveNamedJurists"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "ReligiousJuristicOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveReligiousOffices"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "ReligiousJuristicOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveJuristicInstitutions"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "ReligiousJuristicOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveFatwas"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "ReligiousJuristicOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveJudgments"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "ReligiousJuristicOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveDisciplineCases"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "ReligiousJuristicOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveAbbasidRecognitionRecords"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "ReligiousJuristicOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveHistoricalMemoryInstances"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "HistoricalSystemsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveHistoricalMomentumInstances"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "HistoricalSystemsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ActiveHistoricalEmergenceInstances"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "HistoricalSystemsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ScheduledHistoricalDeaths"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "HistoricalSystemsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "ScheduledHistoricalIllnesses"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "HistoricalSystemsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "PredeterminedMarriages"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "HistoricalSystemsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "PredeterminedTitleTransfers"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "HistoricalSystemsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "PredeterminedPartitions"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "HistoricalSystemsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "PredeterminedCivilWars"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "HistoricalSystemsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "collectionRef",
+                "ownerRef",
+                "items",
+                "intentionalEmpty",
+                "reasonCode"
+              ],
+              "properties": {
+                "collectionRef": {
+                  "type": "string",
+                  "const": "PredeterminedAlAndalusInterventions"
+                },
+                "ownerRef": {
+                  "type": "string",
+                  "const": "HistoricalSystemsOwner"
+                },
+                "items": {
+                  "type": "array",
+                  "minItems": 0,
+                  "maxItems": 0,
+                  "prefixItems": [],
+                  "items": false
+                },
+                "intentionalEmpty": {
+                  "type": "boolean",
+                  "const": true
+                },
+                "reasonCode": {
+                  "type": "string",
+                  "const": "DefinitionOnlyNoInstance"
+                }
+              }
+            }
+          ],
+          "items": false
+        },
+        "declaredCounts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "canonicalPayloads",
+            "perspectiveDefinitions",
+            "livingCharacters",
+            "definitionOnlyReviewCharacters",
+            "historicalNonRuntimeCharacters",
+            "principalBaseBindings",
+            "explicitEmptyCollections",
+            "openingArmies",
+            "openingCommands",
+            "openingCampaignInstances",
+            "openingPoliticalEdges",
+            "openingEconomicInstances",
+            "openingCapitalProjectInstances",
+            "openingCapitalPhases"
+          ],
+          "properties": {
+            "canonicalPayloads": {
+              "type": "integer",
+              "const": 1
+            },
+            "perspectiveDefinitions": {
+              "type": "integer",
+              "const": 2
+            },
+            "livingCharacters": {
+              "type": "integer",
+              "const": 2
+            },
+            "definitionOnlyReviewCharacters": {
+              "type": "integer",
+              "const": 1
+            },
+            "historicalNonRuntimeCharacters": {
+              "type": "integer",
+              "const": 3
+            },
+            "principalBaseBindings": {
+              "type": "integer",
+              "const": 1
+            },
+            "explicitEmptyCollections": {
+              "type": "integer",
+              "const": 66
+            },
+            "openingArmies": {
+              "type": "integer",
+              "const": 0
+            },
+            "openingCommands": {
+              "type": "integer",
+              "const": 0
+            },
+            "openingCampaignInstances": {
+              "type": "integer",
+              "const": 0
+            },
+            "openingPoliticalEdges": {
+              "type": "integer",
+              "const": 0
+            },
+            "openingEconomicInstances": {
+              "type": "integer",
+              "const": 0
+            },
+            "openingCapitalProjectInstances": {
+              "type": "integer",
+              "const": 0
+            },
+            "openingCapitalPhases": {
+              "type": "integer",
+              "const": 0
+            }
+          }
+        },
+        "contentHashes": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "sourceManifestHash",
+            "explicitEmptyCatalogueHash",
+            "canonicalPayloadHash"
+          ],
+          "properties": {
+            "sourceManifestHash": {
+              "type": "string",
+              "const": "4e73865279350cb7a9690e2fba80d47db863870c39246bdd079d60665cd7f8c9"
+            },
+            "explicitEmptyCatalogueHash": {
+              "type": "string",
+              "const": "f2c34bbdc7b4155089919c3d35af8ced3b23d549ddf3b258d9f5fedcc79c7c8c"
+            },
+            "canonicalPayloadHash": {
+              "type": "string",
+              "const": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97"
+            }
+          }
+        }
+      },
+      "title": "Canonical Almoravid Opening State 1062 V1 content payload"
+    },
+    "abuBakrOverlay": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "overlayIdentity",
+        "openingStateId",
+        "canonicalPayloadFile",
+        "canonicalPayloadHash",
+        "selectedPerspectiveRef",
+        "selectedPersonRef",
+        "selectionOnly",
+        "mayMutateContent",
+        "mayChangeHistory",
+        "mayChangePrincipalBase",
+        "mayCreateRecords",
+        "overlayHash"
+      ],
+      "properties": {
+        "overlayIdentity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "overlayId",
+            "overlayVersion",
+            "documentKind",
+            "status"
+          ],
+          "properties": {
+            "overlayId": {
+              "type": "string",
+              "const": "overlay.almoravid.opening_state.1062.abu_bakr.v1"
+            },
+            "overlayVersion": {
+              "type": "string",
+              "const": "1.0.0"
+            },
+            "documentKind": {
+              "type": "string",
+              "const": "OpeningStatePerspectiveSelectionOverlay"
+            },
+            "status": {
+              "type": "string",
+              "const": "STATIC_CHECKED_SELECTION_OVERLAY"
+            }
+          }
+        },
+        "openingStateId": {
+          "type": "string",
+          "const": "opening.almoravid.1062"
+        },
+        "canonicalPayloadFile": {
+          "type": "string",
+          "const": "Almoravid_Opening_State_1062_V1.json"
+        },
+        "canonicalPayloadHash": {
+          "type": "string",
+          "const": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97"
+        },
+        "selectedPerspectiveRef": {
+          "type": "string",
+          "const": "perspective.almoravid.abu_bakr"
+        },
+        "selectedPersonRef": {
+          "type": "string",
+          "const": "person.abu_bakr_ibn_umar"
+        },
+        "selectionOnly": {
+          "type": "boolean",
+          "const": true
+        },
+        "mayMutateContent": {
+          "type": "boolean",
+          "const": false
+        },
+        "mayChangeHistory": {
+          "type": "boolean",
+          "const": false
+        },
+        "mayChangePrincipalBase": {
+          "type": "boolean",
+          "const": false
+        },
+        "mayCreateRecords": {
+          "type": "boolean",
+          "const": false
+        },
+        "overlayHash": {
+          "type": "string",
+          "const": "1df2f98c26cc486da6af19abfdd8d9c4b92df320025494cdf87057d9022f0795"
+        }
+      },
+      "title": "Abu Bakr perspective-selection overlay V1"
+    },
+    "yusufOverlay": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "overlayIdentity",
+        "openingStateId",
+        "canonicalPayloadFile",
+        "canonicalPayloadHash",
+        "selectedPerspectiveRef",
+        "selectedPersonRef",
+        "selectionOnly",
+        "mayMutateContent",
+        "mayChangeHistory",
+        "mayChangePrincipalBase",
+        "mayCreateRecords",
+        "overlayHash"
+      ],
+      "properties": {
+        "overlayIdentity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "overlayId",
+            "overlayVersion",
+            "documentKind",
+            "status"
+          ],
+          "properties": {
+            "overlayId": {
+              "type": "string",
+              "const": "overlay.almoravid.opening_state.1062.yusuf.v1"
+            },
+            "overlayVersion": {
+              "type": "string",
+              "const": "1.0.0"
+            },
+            "documentKind": {
+              "type": "string",
+              "const": "OpeningStatePerspectiveSelectionOverlay"
+            },
+            "status": {
+              "type": "string",
+              "const": "STATIC_CHECKED_SELECTION_OVERLAY"
+            }
+          }
+        },
+        "openingStateId": {
+          "type": "string",
+          "const": "opening.almoravid.1062"
+        },
+        "canonicalPayloadFile": {
+          "type": "string",
+          "const": "Almoravid_Opening_State_1062_V1.json"
+        },
+        "canonicalPayloadHash": {
+          "type": "string",
+          "const": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97"
+        },
+        "selectedPerspectiveRef": {
+          "type": "string",
+          "const": "perspective.almoravid.yusuf"
+        },
+        "selectedPersonRef": {
+          "type": "string",
+          "const": "person.yusuf_ibn_tashfin"
+        },
+        "selectionOnly": {
+          "type": "boolean",
+          "const": true
+        },
+        "mayMutateContent": {
+          "type": "boolean",
+          "const": false
+        },
+        "mayChangeHistory": {
+          "type": "boolean",
+          "const": false
+        },
+        "mayChangePrincipalBase": {
+          "type": "boolean",
+          "const": false
+        },
+        "mayCreateRecords": {
+          "type": "boolean",
+          "const": false
+        },
+        "overlayHash": {
+          "type": "string",
+          "const": "4bbd1371a078f1eace0c6c05aeb6c6b2cf59a1b46bbcb6117b9ec5d5b573338c"
+        }
+      },
+      "title": "Yusuf perspective-selection overlay V1"
+    }
+  },
+  "x-packageInvariants": {
+    "canonicalPayloadFile": "Almoravid_Opening_State_1062_V1.json",
+    "perspectiveOverlayFiles": [
+      "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json"
+    ],
+    "canonicalPayloadCount": 1,
+    "perspectiveOverlayCount": 2,
+    "livingCharacterCount": 2,
+    "definitionOnlyReviewCharacterCount": 1,
+    "historicalNonRuntimeCharacterCount": 3,
+    "principalBaseRef": "settlement.aghmat",
+    "zaynabPolicy": "PolicyBDefinitionOnly",
+    "explicitEmptyCollectionCount": 66,
+    "openingArmyCount": 0,
+    "openingPoliticalEdgeCount": 0,
+    "openingEconomicInstanceCount": 0,
+    "openingCapitalProjectInstanceCount": 0,
+    "openingCapitalPhaseCount": 0,
+    "historicalDate": "1062-01-01",
+    "historicalProgressionMonthsPerStep": 21,
+    "biologicalProgressionMonthsPerStep": 7,
+    "campaignSeason": "Winter",
+    "campaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "selectedPerspectiveStoredInCanonicalPayload": false,
+    "advancedSaveReplayAllowed": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Military_Capability_Command_Recruitment_and_Force_Authority_V1.md",
+  "bytes": 40754,
+  "lines": 942,
+  "sections": 48,
+  "validation_cases": 50,
+  "checks": {
+    "depth": true,
+    "sections": true,
+    "validations": true,
+    "gap": true,
+    "shared": true,
+    "strategic": true,
+    "modern": true,
+    "regions": true,
+    "finite": true,
+    "implementation": true,
+    "unknown": true,
+    "three": true,
+    "honest": true,
+    "format": true,
+    "all_pass": true
+  }
+}

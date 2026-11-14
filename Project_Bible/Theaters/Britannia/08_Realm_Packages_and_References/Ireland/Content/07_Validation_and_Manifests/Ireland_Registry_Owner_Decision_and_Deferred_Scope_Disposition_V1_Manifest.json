@@ -1,0 +1,23 @@
+{
+  "manifest_version": "1.0",
+  "method": "IrelandRegistryOwnerDecisionAndDeferredScopeDisposition",
+  "authority_file": "Ireland_Registry_Owner_Decision_and_Deferred_Scope_Disposition_V1.md",
+  "authority_bytes": 17010,
+  "authority_lines": 476,
+  "authority_sections": 13,
+  "specialist_domains_reconciled": 15,
+  "genuine_authority_gaps_blocking_closeout": 0,
+  "historical_requests_pending": 10,
+  "AI_schema_requests_pending": 3,
+  "owner_responses_fabricated": 0,
+  "authority_sha256": "2b3083035d3456f8974e43c9cef321ba6a4db55e4929cd666afcea5376f7e34e",
+  "source_files_modified": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "migration_executions": 0,
+  "Unreal_mutations": 0,
+  "static_check_file": "Ireland_Registry_Owner_Decision_and_Deferred_Scope_Disposition_V1_Static_Check.json",
+  "static_check_sha256": "2c6ed1efeab147df924ad9fe897d9b77c47d72a9511e60f928a6f00c44c5c3ce",
+  "all_checks_passed": true,
+  "validation_scope": "static Registry, owner-decision, and deferred-scope disposition only; no authenticated decision creation, Registry mutation, Opening State activation, implementation, migration, compile, runtime, save/load, replay, battle, or physical promotion"
+}

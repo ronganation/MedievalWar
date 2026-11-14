@@ -1,0 +1,39 @@
+DocumentControl:
+  SchemaId: Schema.MedievalWar.CandidateDocument.v1
+  PackageId: package.aquitaine.candidate.v1
+  RealmCandidateId: realm.aquitaine.duchy
+  ScenarioId: mw.scenario.grand_campaign.1062
+  CandidateOnly: true
+  ReviewOnly: true
+  CommitPermitted: false
+  RegistryPromotionPermitted: false
+  AliasExecutionPermitted: false
+  OpeningStateActivationPermitted: false
+  MigrationExecutionPermitted: false
+  UnrealImportPermitted: false
+  RuntimeActivationPermitted: false
+  RealPayloadImportPermitted: false
+  SourceAuthority: Aquitaine_Current_Machine_Readable_Candidate_Bundle_V1.md
+  ContentVersion: 1.0.0
+  OwnerAuthority: Aquitaine_ID_Registry_V2_Current_Authority_Modernization.md
+RealmCandidate:
+  CandidateId: realm.aquitaine.duchy
+  Disposition: PreferredCanonicalCandidate
+  ProjectCanonicalStatus: PendingProjectRegistryOwner
+OwnerLockedCandidates:
+- person.william_viii_aquitaine
+- title.duchy_aquitaine
+- title.duchy_gascony
+- title.county_poitiers
+CanonicalPromotions: []
+ExternalLocks:
+- France
+- Anjou
+- Toulouse
+- Burgundy
+- Brittany
+- Aragon
+- Navarre
+- PapalAuthority
+- RelevantTaifaOwners
+- BarbastroSiteOwner

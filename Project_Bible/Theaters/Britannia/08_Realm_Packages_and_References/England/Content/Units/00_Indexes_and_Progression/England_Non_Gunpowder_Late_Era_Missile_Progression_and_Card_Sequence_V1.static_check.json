@@ -1,0 +1,16 @@
+{
+  "document": "England_Non_Gunpowder_Late_Era_Missile_Progression_and_Card_Sequence_V1.md",
+  "sha256": "a03cc78fcdf76e9d865bd68c1cb08e3076ac6587ba4f3dc74742b789f49a436a",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "gunpowder_excluded": true,
+    "persistence": true,
+    "next_card": true,
+    "pavise_conditional": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

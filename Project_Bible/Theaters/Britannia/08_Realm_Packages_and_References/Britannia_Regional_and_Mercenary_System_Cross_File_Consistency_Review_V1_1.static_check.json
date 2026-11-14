@@ -1,0 +1,24 @@
+{
+  "document": "Britannia_Regional_and_Mercenary_System_Cross_File_Consistency_Review_V1_1.md",
+  "sha256": "34a80fd86efa4a451fda0380b750c6e99f3fc0cd16b8b4fec5c0ed64ce0c3a1d",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "copy_first_source_named": true,
+    "current_successors_named": true,
+    "former_nine_preserved": true,
+    "five_regionals_reviewed": true,
+    "profile_counts": true,
+    "rights_and_lifecycle": true,
+    "contract_company_alignment": true,
+    "realm_boundaries": true,
+    "anti_exploit": true,
+    "AI_receipt": true,
+    "opening_quarantine": true,
+    "no_blocking_defects": true,
+    "no_reclassification": true,
+    "no_escaped_formatting": true,
+    "no_em_dash": true,
+    "single_footer": true
+  }
+}

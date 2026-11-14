@@ -1,0 +1,17 @@
+{
+  "document": "Crossbow_Sergeants_V1_Master_Unit_Profile.md",
+  "sha256": "ed3d9cb07bfa968fa694e46fe47c23f1664eb91f1ef39bee786df9e7661b425b",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "terrain_25": true,
+    "legacy_complete": true,
+    "unit_locked": true,
+    "ammo": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

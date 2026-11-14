@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "artifact": "Badajoz_Taifa_Character_Authorities_V1.md",
+  "task_scope": "CHARACTER_AUTHORITY_DIRECT_ADDITIVE_UPDATE",
+  "version": "1.1.0",
+  "supersedes_prior_same_filename": true,
+  "lines": 1947,
+  "words": 5775,
+  "bytes": 51448,
+  "sha256": "2debc458e58c6519b17733a41819ee64d12b35c536f3d50b81845a67b4b91e60",
+  "portfolio_identities": 4,
+  "opening_profile_candidates": 3,
+  "historical_lifecycle_gated": 1,
+  "developed_profiles_integrated": 4,
+  "updated_positive_fixtures": 12,
+  "updated_negative_fixtures": 12,
+  "runtime_instances_created": 0,
+  "opening_state_created": false,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "next_authority": "Badajoz_Taifa_Character_Network_V1.md"
+}

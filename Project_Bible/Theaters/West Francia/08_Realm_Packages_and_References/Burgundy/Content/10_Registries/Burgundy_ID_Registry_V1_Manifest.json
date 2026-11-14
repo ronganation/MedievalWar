@@ -1,0 +1,19 @@
+{
+  "ManifestId": "Manifest.Burgundy.IDRegistry.V1",
+  "AuthorityFile": "Burgundy_ID_Registry_V1.md",
+  "AuthoritySha256": "88d25fb9a74bfd6f6cb1cf7155ec365de0659d3c4d28c1ff57e9c361e14c0afd",
+  "AuthorityBytes": 25589,
+  "AuthorityLines": 847,
+  "AuthorityStatus": "StaticCheckedReviewOnlyCandidateAuthority",
+  "ControllingSources": [
+    "Burgundy_Separate_Realm_Development_Reservation_V1.md",
+    "Burgundy_Historical_Reconciliation_V1.md",
+    "Burgundy_Historical_Evidence_and_Chronology_Register_V1.md",
+    "Burgundy_Historical_Uncertainty_Register_V1.md"
+  ],
+  "PreferredRealmCandidate": "realm.burgundy.duchy",
+  "OpeningRuntimeActivations": 0,
+  "RegistryMutationAuthorized": false,
+  "OpeningStateActivationAuthorized": false,
+  "UnrealMutationAuthorized": false
+}

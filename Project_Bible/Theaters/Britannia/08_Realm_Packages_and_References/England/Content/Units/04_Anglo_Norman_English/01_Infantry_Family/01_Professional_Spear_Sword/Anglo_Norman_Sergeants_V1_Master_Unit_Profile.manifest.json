@@ -1,0 +1,17 @@
+{
+  "document": "Anglo_Norman_Sergeants_V1_Master_Unit_Profile.md",
+  "version": "1.0.0",
+  "status": "ReviewOnlyIntegratedFullDepthMasterUnitProfileCandidate",
+  "size_bytes": 34433,
+  "line_count": 698,
+  "numbered_sections": 69,
+  "terrain_rows": 25,
+  "sha256": "a3418f22d13346c3f527d0bd4cab15999cfc29fb995ccd38576dcae73a4fa765",
+  "foundation": "Trained_Shire_Spearmen_V1_Master_Unit_Profile.md",
+  "legacy_sources": [
+    "Norman_Heavy_Spearmen.md",
+    "Norman_Heavy_Infantry.md"
+  ],
+  "scale_values_promoted": false,
+  "removed_without_replacement": []
+}

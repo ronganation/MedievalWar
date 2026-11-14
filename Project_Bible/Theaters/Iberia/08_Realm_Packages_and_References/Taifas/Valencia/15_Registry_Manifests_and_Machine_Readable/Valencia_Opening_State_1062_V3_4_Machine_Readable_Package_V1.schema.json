@@ -1,0 +1,269 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:medievalwar:valencia:opening-state:1062:v3_4:package-v1",
+  "title": "Valencia Opening State V3.4 Copy-First Rebuild",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "package",
+    "sources",
+    "temporal_tracks",
+    "identity_bindings",
+    "realm_state",
+    "people",
+    "dynasty_and_households",
+    "offices_and_appointments",
+    "communities_and_institutions",
+    "sites_regions_routes_and_infrastructure",
+    "forces_recruitment_command_and_supply",
+    "economy_resources_and_stocks",
+    "diplomacy_knowledge_and_external_locks",
+    "historical_systems",
+    "opening_problems",
+    "owner_requests",
+    "quarantine",
+    "validation_expectations",
+    "transaction_policy",
+    "realm_personality_ai_and_explanation",
+    "presentation_localization_and_accessibility"
+  ],
+  "properties": {
+    "package": {
+      "type": "object",
+      "required": [
+        "package_id",
+        "source_authority_version",
+        "payload_class",
+        "opening_state_activation_authorized",
+        "reconciliation_ledger"
+      ],
+      "properties": {
+        "package_id": {
+          "const": "opening_state.valencia.1062.v3_4.package_v1"
+        },
+        "source_authority_version": {
+          "const": "3.4.0"
+        },
+        "payload_class": {
+          "const": "CandidateOnly"
+        },
+        "opening_state_activation_authorized": {
+          "const": false
+        },
+        "reconciliation_ledger": {
+          "type": "object",
+          "required": [
+            "preservation_check_status",
+            "predecessor_record_ids_removed",
+            "predecessor_fields_removed"
+          ],
+          "properties": {
+            "preservation_check_status": {
+              "const": "PASS"
+            },
+            "predecessor_record_ids_removed": {
+              "maxItems": 0
+            },
+            "predecessor_fields_removed": {
+              "maxItems": 0
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "sources": {
+      "type": "array"
+    },
+    "temporal_tracks": {
+      "type": "object"
+    },
+    "identity_bindings": {
+      "type": "object"
+    },
+    "realm_state": {
+      "type": "object"
+    },
+    "people": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "$ref": "#/$defs/recordEnvelope"
+      }
+    },
+    "dynasty_and_households": {
+      "type": "object"
+    },
+    "offices_and_appointments": {
+      "type": "object",
+      "required": [
+        "offices"
+      ],
+      "properties": {
+        "offices": {
+          "type": "array",
+          "minItems": 9,
+          "items": {
+            "$ref": "#/$defs/recordEnvelope"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "communities_and_institutions": {
+      "type": "object",
+      "required": [
+        "communities"
+      ],
+      "properties": {
+        "communities": {
+          "type": "array",
+          "minItems": 6,
+          "items": {
+            "$ref": "#/$defs/recordEnvelope"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "sites_regions_routes_and_infrastructure": {
+      "type": "object",
+      "required": [
+        "sites_and_regions"
+      ],
+      "properties": {
+        "sites_and_regions": {
+          "type": "array",
+          "minItems": 8,
+          "maxItems": 8,
+          "items": {
+            "$ref": "#/$defs/recordEnvelope"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "forces_recruitment_command_and_supply": {
+      "type": "object",
+      "required": [
+        "force_families"
+      ],
+      "properties": {
+        "force_families": {
+          "type": "array",
+          "minItems": 8,
+          "maxItems": 8,
+          "items": {
+            "$ref": "#/$defs/recordEnvelope"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "economy_resources_and_stocks": {
+      "type": "object"
+    },
+    "diplomacy_knowledge_and_external_locks": {
+      "type": "object",
+      "required": [
+        "relations"
+      ],
+      "properties": {
+        "relations": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": {
+            "$ref": "#/$defs/recordEnvelope"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "historical_systems": {
+      "type": "object"
+    },
+    "opening_problems": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9,
+      "items": {
+        "$ref": "#/$defs/recordEnvelope"
+      }
+    },
+    "owner_requests": {
+      "type": "array"
+    },
+    "quarantine": {
+      "type": "array"
+    },
+    "validation_expectations": {
+      "type": "object"
+    },
+    "transaction_policy": {
+      "type": "object"
+    },
+    "realm_personality_ai_and_explanation": {
+      "type": "object"
+    },
+    "presentation_localization_and_accessibility": {
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "recordEnvelope": {
+      "type": "object",
+      "required": [
+        "record_id",
+        "object_type",
+        "record_class",
+        "stable_label",
+        "owner",
+        "source_refs",
+        "historical_confidence",
+        "opening_applicability",
+        "activation_status",
+        "runtime_effect",
+        "local_or_external_ownership",
+        "validation_status"
+      ],
+      "properties": {
+        "record_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*(\\.[a-z0-9_]+)+$"
+        },
+        "record_class": {
+          "enum": [
+            "CanonicalCandidate",
+            "StableReferenceCandidate",
+            "DefinitionOnly",
+            "ActiveVerifiedOpeningBindingCandidate",
+            "FunctionalRoleWithoutNamedHolder",
+            "HolderEligibilityOnly",
+            "ProposalOnly",
+            "ReviewOnly",
+            "Unknown",
+            "IntentionalEmpty",
+            "ExternalLock",
+            "LaterHistoryExcluded",
+            "Quarantined"
+          ]
+        },
+        "activation_status": {
+          "const": "NotPerformed"
+        },
+        "runtime_effect": {
+          "const": "None"
+        },
+        "local_or_external_ownership": {
+          "enum": [
+            "Local",
+            "External"
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

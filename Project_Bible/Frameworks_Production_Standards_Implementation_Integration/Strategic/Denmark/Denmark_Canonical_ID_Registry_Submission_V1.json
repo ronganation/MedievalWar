@@ -1,0 +1,268 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "DenmarkCanonicalIdRegistrySubmission",
+    "name": "Denmark Canonical ID Registry Submission V1",
+    "version": "1.0",
+    "status": "SubmittedForAuthorityReview_NotApproved",
+    "authority_class": "Canonical Registry Decision Intake",
+    "submitting_owner": "Character Network Integration",
+    "decision_owner": "Denmark Canonical Registry",
+    "realm_scope": "Denmark",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Strategic/Denmark",
+    "file": "Denmark_Canonical_ID_Registry_Submission_V1.json",
+    "placement_note": "Submission remains beside the integration evidence until the registry accepts, rejects, or replaces the requested IDs. Approved mappings should later be copied into the authoritative migration registry, not left owned by this integration folder."
+  },
+  "purpose": "Submit six bounded direct typed Denmark person-ID normalization requests for authoritative registry review without presuming approval or mutating content, registries, saves, or runtime state.",
+  "authority_inputs": [
+    {
+      "file": "Denmark_Network_Canonical_ID_Reconciliation_V1.json",
+      "sha256": "d47059dc13d08a4cf7129eb29390c1111da28ff33ca79d50da7c61c76bf064f8",
+      "role": "MappingProposal"
+    },
+    {
+      "file": "Denmark_Network_Integration_Contract_V1.preflight.json",
+      "sha256": "c95febed6204ec425e53421688b83ef7dd1aa5ac65a7612bc95dae64042d8760",
+      "role": "ExactSourceBoundPreflight"
+    },
+    {
+      "file": "Denmark_Network_Integration_Contract_V1.md",
+      "sha256": "ff1055f86c01725ccdc21cbb7c0a4ce788b81231ebc6bc62fd485e9bd036dddc",
+      "role": "IntegrationContract"
+    },
+    {
+      "file": "Denmark Character Network Importer Manifest.json",
+      "version": "1.1.0",
+      "role": "TransportAuthority"
+    },
+    {
+      "file": "Denmark_Character_Network_Dry_Preflight_Report.md",
+      "version": "1.1.1",
+      "role": "PassedDryPreflight"
+    }
+  ],
+  "submission": {
+    "submission_mode": "ReviewOnly",
+    "requested_decisions": 6,
+    "approved_decisions": 0,
+    "rejected_decisions": 0,
+    "replacement_required_decisions": 0,
+    "pending_decisions": 6,
+    "records": [
+      {
+        "ordinal": 1,
+        "submission_id": "registry-submission.denmark.character.01.v1",
+        "mapping_id": "migration.denmark.character.sweyn_estridsen.v1",
+        "source_id": "person.denmark.sweyn_estridsen",
+        "source_entity_kind": "Person",
+        "requested_canonical_id": "Character.Denmark.SweynEstridsen",
+        "target_entity_kind": "Person",
+        "mapping_type": "DirectTypedOneStep",
+        "requested_registry_action": "ReserveAndApproveCanonicalPersonId",
+        "current_status": "PendingDenmarkCanonicalRegistryDecision",
+        "approval_status": "NotApproved",
+        "canonical_write_permitted": false,
+        "content_rewrite_permitted": false,
+        "save_migration_permitted": false,
+        "runtime_activation_permitted": false,
+        "separation_note": "Adult person identity only; kingship, title, dynasty, office, authority, and relationships remain separate.",
+        "decision": null,
+        "decision_authority": null,
+        "decision_evidence": null
+      },
+      {
+        "ordinal": 2,
+        "submission_id": "registry-submission.denmark.character.02.v1",
+        "mapping_id": "migration.denmark.character.harald_sweynson.v1",
+        "source_id": "person.denmark.harald_sweynson",
+        "source_entity_kind": "Person",
+        "requested_canonical_id": "Character.Denmark.HaraldSweynson",
+        "target_entity_kind": "Person",
+        "mapping_type": "DirectTypedOneStep",
+        "requested_registry_action": "ReserveAndApproveCanonicalPersonId",
+        "current_status": "PendingDenmarkCanonicalRegistryDecision",
+        "approval_status": "NotApproved",
+        "canonical_write_permitted": false,
+        "content_rewrite_permitted": false,
+        "save_migration_permitted": false,
+        "runtime_activation_permitted": false,
+        "separation_note": "Person identity only; succession eligibility, support, title, office, and later outcomes remain separate.",
+        "decision": null,
+        "decision_authority": null,
+        "decision_evidence": null
+      },
+      {
+        "ordinal": 3,
+        "submission_id": "registry-submission.denmark.character.03.v1",
+        "mapping_id": "migration.denmark.character.canute_sweynson.v1",
+        "source_id": "person.denmark.canute_sweynson",
+        "source_entity_kind": "Person",
+        "requested_canonical_id": "Character.Denmark.CanuteSweynson",
+        "target_entity_kind": "Person",
+        "mapping_type": "DirectTypedOneStep",
+        "requested_registry_action": "ReserveAndApproveCanonicalPersonId",
+        "current_status": "PendingDenmarkCanonicalRegistryDecision",
+        "approval_status": "NotApproved",
+        "canonical_write_permitted": false,
+        "content_rewrite_permitted": false,
+        "save_migration_permitted": false,
+        "runtime_activation_permitted": false,
+        "separation_note": "Person identity only; later kingship, reputation, sainthood, office, and succession remain separate.",
+        "decision": null,
+        "decision_authority": null,
+        "decision_evidence": null
+      },
+      {
+        "ordinal": 4,
+        "submission_id": "registry-submission.denmark.character.04.v1",
+        "mapping_id": "migration.denmark.character.eric_sweynson.v1",
+        "source_id": "person.denmark.eric_sweynson",
+        "source_entity_kind": "Person",
+        "requested_canonical_id": "Character.Denmark.EricSweynson",
+        "target_entity_kind": "Person",
+        "mapping_type": "DirectTypedOneStep",
+        "requested_registry_action": "ReserveAndApproveCanonicalPersonId",
+        "current_status": "PendingDenmarkCanonicalRegistryDecision",
+        "approval_status": "NotApproved",
+        "canonical_write_permitted": false,
+        "content_rewrite_permitted": false,
+        "save_migration_permitted": false,
+        "runtime_activation_permitted": false,
+        "separation_note": "Person identity only; lifecycle, underage roles, household, activation, and agency remain separately validated.",
+        "decision": null,
+        "decision_authority": null,
+        "decision_evidence": null
+      },
+      {
+        "ordinal": 5,
+        "submission_id": "registry-submission.denmark.character.05.v1",
+        "mapping_id": "migration.denmark.character.sigrid_sweynsdaughter.v1",
+        "source_id": "person.denmark.sigrid_sweynsdaughter",
+        "source_entity_kind": "Person",
+        "requested_canonical_id": "Character.Denmark.SigridSweynsdaughter",
+        "target_entity_kind": "Person",
+        "mapping_type": "DirectTypedOneStep",
+        "requested_registry_action": "ReserveAndApproveCanonicalPersonId",
+        "current_status": "PendingDenmarkCanonicalRegistryDecision",
+        "approval_status": "NotApproved",
+        "canonical_write_permitted": false,
+        "content_rewrite_permitted": false,
+        "save_migration_permitted": false,
+        "runtime_activation_permitted": false,
+        "separation_note": "Person identity only; marriage, household, location, external polity, dynasty interfaces, and relationships remain separate.",
+        "decision": null,
+        "decision_authority": null,
+        "decision_evidence": null
+      },
+      {
+        "ordinal": 6,
+        "submission_id": "registry-submission.denmark.character.06.v1",
+        "mapping_id": "migration.denmark.character.william_roskilde.v1",
+        "source_id": "person.denmark.william_roskilde",
+        "source_entity_kind": "Person",
+        "requested_canonical_id": "Character.Denmark.WilliamOfRoskilde",
+        "target_entity_kind": "Person",
+        "mapping_type": "DirectTypedOneStep",
+        "requested_registry_action": "ReserveAndApproveCanonicalPersonId",
+        "current_status": "PendingDenmarkCanonicalRegistryDecision",
+        "approval_status": "NotApproved",
+        "canonical_write_permitted": false,
+        "content_rewrite_permitted": false,
+        "save_migration_permitted": false,
+        "runtime_activation_permitted": false,
+        "separation_note": "Person identity only; Bishop of Roskilde office, institution, jurisdiction, tenure, and patronage remain separate.",
+        "decision": null,
+        "decision_authority": null,
+        "decision_evidence": null
+      }
+    ]
+  },
+  "decision_vocabulary": [
+    "ApprovedAsRequested",
+    "ApprovedWithReplacementId",
+    "RejectedIdentityConflict",
+    "RejectedEntityKindConflict",
+    "MoreEvidenceRequired"
+  ],
+  "registry_acceptance_rules": {
+    "one_source_to_one_canonical_person": true,
+    "one_canonical_person_to_one_historical_person": true,
+    "direct_mapping_only": true,
+    "alias_chains_prohibited": true,
+    "display_names_are_not_ids": true,
+    "filenames_are_not_ids": true,
+    "deprecated_ids_prohibited_in_new_content_and_saves": true,
+    "cross_realm_identity_must_remain_single": true,
+    "person_office_title_dynasty_household_institution_realm_separation_required": true,
+    "approval_requires_registry_evidence": true,
+    "silence_is_not_approval": true
+  },
+  "collision_review": {
+    "source_ids_unique_within_submission": true,
+    "requested_target_ids_unique_within_submission": true,
+    "source_target_entity_kinds_match": true,
+    "cross_realm_registry_search_executed": false,
+    "existing_canonical_collision_search_executed": false,
+    "deprecated_id_search_executed": false,
+    "alias_chain_search_executed": false,
+    "verdict": "PassInternalSubmissionChecks_ExternalRegistryChecksPending"
+  },
+  "external_identity_context": {
+    "total_external_identity_locks": 3,
+    "resolved_canonical": [
+      {
+        "lock_id": "review.denmark.external.norway.harald_hardrada",
+        "canonical_person_id": "Character.Norway.HaraldHardrada",
+        "owner_registry": "Migration.Norway.IDRegistry"
+      }
+    ],
+    "review_external_registry": [
+      {
+        "lock_id": "review.denmark.external.hamburg_bremen.adalbert",
+        "proposed_person_id": "Character.HRE.AdalbertOfHamburgBremen",
+        "owner_registry": "Migration.HRE.GlobalIDRegistry",
+        "submission_action": "NoDenmarkRegistryDecisionRequested"
+      },
+      {
+        "lock_id": "review.denmark.external.obotrite.gottschalk",
+        "proposed_person_id": "Character.Obotrite.Gottschalk",
+        "owner_registry": "Migration.Obotrite.IDRegistry",
+        "submission_action": "NoDenmarkRegistryDecisionRequested"
+      }
+    ]
+  },
+  "mutation_audit": {
+    "registry_records_created": 0,
+    "registry_records_changed": 0,
+    "network_content_ids_rewritten": 0,
+    "runtime_records_created": 0,
+    "save_records_changed": 0,
+    "external_placeholders_created": 0,
+    "commit_attempted": false
+  },
+  "validation": {
+    "submission_record_count_valid": true,
+    "unique_source_ids": true,
+    "unique_requested_target_ids": true,
+    "all_records_person_to_person": true,
+    "all_records_direct_typed_one_step": true,
+    "all_records_pending": true,
+    "no_record_marked_approved": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "migration_executed": false,
+    "determinism_replay_validated": false
+  },
+  "post_decision_process": [
+    "Record the registry decision and authority evidence for each submission.",
+    "For approved or replacement IDs, create a versioned direct-alias migration table under the owning migration registry.",
+    "Reject any alias chain, duplicate canonical person, wrong entity kind, or deprecated target.",
+    "Regenerate the Denmark shared adapter with canonical-only normalized target IDs.",
+    "Rerun the exact 20-direction dry preflight with zero mutations.",
+    "Do not rewrite advanced saves through Opening State; use explicit save migration only."
+  ],
+  "smallest_useful_next_action": "Place this submission beside the Denmark integration artifacts and route the six records to the Denmark canonical registry authority. No mapping becomes canonical until a decision and evidence are written into this submission or an authoritative registry artifact."
+}

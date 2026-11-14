@@ -1,0 +1,24 @@
+{
+  "document_id": "static-check.england.ID_migration_registry.v2_1.current_authority_refinement",
+  "version": "2.0.0",
+  "source_file": "England_ID_Migration_Registry_V2.0_Full_Rebuild.md",
+  "source_manifest_sha256": "a71aac62d5176cd5b75ca9d306473582ec445119a301e3c06093bf702a0df85b",
+  "source_manifest_bytes": 41569,
+  "output_file": "England_ID_Migration_Registry_V2.1_Current_Authority_Refinement.md",
+  "output_bytes": 60406,
+  "checks": {
+    "new_file_created": true,
+    "larger_than_source_manifest_bytes": true,
+    "full_source_portfolios_present": true,
+    "character_entries_present": true,
+    "seven_route_ids": true,
+    "specialist_namespaces": true,
+    "opening_state_v2_2": true,
+    "governance_inside_law_policy": true,
+    "supply_not_reowned": true,
+    "no_mutation": true,
+    "validation_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

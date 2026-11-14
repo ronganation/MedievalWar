@@ -1,0 +1,660 @@
+crosswalk_control:
+  document_id: crosswalk.realm.hammadid.batch-01.authority-native-target.v1
+  stable_document_id: Batch01AuthorityToNativeTargetCrosswalk.Hammadids
+  file_name: Hammadid_Batch_01_Authority_to_Native_Target_Crosswalk_V1.yaml
+  version: 1.0.0
+  revision_date: 2026-09-22
+  realm: Hammadids
+  owning_theater: North Africa
+  scenario_id: mw.scenario.grand_campaign.1062
+  scenario_opening: 1062-01-01
+  opening_campaign_season: Winter
+  constitutional_authority: Project Bible 2.4
+  operational_authority: Design Expansion Checklist 3.7
+  implementation_target: Unreal Engine 5.8
+  controlling_handoff: Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+  controlling_gate: Hammadid_Unreal_Engine_5_8_Batch_01_Read_Only_Project_Discovery_Gate_V1.md
+  preceding_outputs:
+    - Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+    - Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml
+  discovery_mode: OneDriveIndexedProjectEvidenceReadOnly
+  status: StrongPartialAuthorityToIndexedTargetCrosswalkDirectLiveInspectionPendingNoMutation
+
+strong_verdict:
+  crosswalk_records: 24
+  authority_families_covered: 24
+  verified_live_native_targets: 0
+  verified_indexed_target_candidates: 5
+  explicit_missing_native_targets: 19
+  reuse_existing_owner_approved: 0
+  extend_existing_owner_approved: 0
+  new_owner_candidates_proposed: 0
+  shared_owner_receipts_returned: 0
+  external_locks_released: 0
+  mutation_required_later_records: 18
+  definition_or_planning_only_records: 6
+  Batch01_acceptance: Blocked
+  Batch02_promotion: Blocked
+  result: CompleteAtIndexedCrosswalkScopeNoNativeApprovalNoExecution
+
+claim_boundary:
+  rules:
+    - VerifiedIndexedTargetCandidateIsNotVerifiedLiveNativeTarget
+    - SearchResultIsCandidateEvidenceAndRequiresDirectInspection
+    - AuthorityOwnershipDoesNotProveNativeImplementationOwnership
+    - MissingTargetDoesNotAuthorizeNewModulePluginClassSchemaAssetTableOrImporter
+    - ExistingPatternDoesNotAuthorizeRealmPrivateStateInheritance
+    - MutationRequiredLaterDoesNotAuthorizeMutationNow
+    - CandidateReferenceDoesNotEqualPublishedID
+    - DefinitionDoesNotEqualRuntimeOrOpeningInstance
+    - PlanningDoesNotEqualExecution
+
+disposition_policy:
+  supported_values:
+    - ReuseExistingOwner
+    - ExtendExistingOwner
+    - NewOwnerCandidate
+    - SharedOwnerReceiptRequired
+    - ExternalLockRequired
+    - HeldPendingEvidence
+    - NotApplicable
+  current_default: HeldPendingEvidence
+  execution_authorized_values: []
+  owner_silence_equals_approval: false
+
+common_dependencies:
+  DirectLiveProjectInspection:
+    - VerifyProjectRootAndDescriptor
+    - ReadControllingProjectREADMEAndImplementationNavigation
+    - RecordCurrentBranchCommitAndTargetFingerprints
+    - InspectCandidateOwnerFilesDirectly
+  IdentityAndBoundaryClosure:
+    - HMD_DATE_001ScenarioBoundaryDecision
+    - AnNasirThreeArtifactDisposition
+    - RegistryEntityKindAliasCollisionQuarantineAndExternalLockDecisions
+    - OpeningFactEvidenceAndOwnerReceiptsWhereApplicable
+  ExecutionPrerequisites:
+    - AcceptedApplicablePriorBatchReceipts
+    - ExactNativeSchemaValidatorImporterAndTargetPaths
+    - ExactWriteSet
+    - ZeroMutationDryRun
+    - RollbackPackage
+    - ExplicitScopeBoundExecutionAuthorization
+
+crosswalk_records:
+  XW_HMD_001_PackageNavigationCurrentness:
+    hammadid_authority_refs:
+      - Hammadid_Current_Authority_Index_Coverage_Matrix_Folder_Map_and_Sequence_Closeout_V1.md
+      - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    authority_family: PackageNavigationCurrentnessAndPrecedence
+    planned_responsibility: AuthorityCurrentnessBatchOrderingEvidenceAcceptanceAndPromotion
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: PackageIntegrationGovernanceOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, ProjectApprovedEvidenceLocation]
+    collisions: [ValidationV1AndV1_1Lineage, OpeningStateV1AndV1_1Lineage]
+    private_state_risk: LowNoRuntimeStateButCurrentnessErrorsCouldPromoteWrongAuthority
+    mutation_required_later: false
+    evidence_refs:
+      - Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+      - Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml
+    batch02_relevance: Blocking
+    validation_state: PartialIndexedCrosswalk
+
+  XW_HMD_002_HistoricalIdentityBoundary:
+    hammadid_authority_refs:
+      - Hammadid_Realm_Identity_Historical_Reconciliation_and_Opening_Political_Order_V1.md
+      - Hammadid_Opening_Date_Leadership_Succession_and_Recent_Assassination_Authority_V1.md
+      - Hammadid_Historical_Evidence_Chronology_Memory_Momentum_and_Conditional_Emergence_Authority_V1.md
+    authority_family: HistoricalIdentityPoliticalOrderAndBoundary
+    planned_responsibility: HistoricalPropositionChronologyScenarioBoundaryAndVariantEvidence
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: CampaignHistoryEvidenceAndBoundaryOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, HMD_DATE_001ScenarioBoundaryDecision]
+    collisions: [January1062VersusPostJuly1062, BulugginAndAlNasirLifecycle]
+    private_state_risk: PostJulyFactsCouldBackfillJanuary
+    mutation_required_later: true
+    evidence_refs:
+      - Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+    batch02_relevance: BlockingForScenarioAndPersonReferences
+    validation_state: AuthorityOwnedNativeTargetMissing
+
+  XW_HMD_003_RegistryAliasesExternalLocksMigration:
+    hammadid_authority_refs:
+      - Hammadid_Cross_Authority_Reference_Alias_Terminology_and_Registry_Candidate_Map_V1.md
+      - Hammadid_ID_Migration_Registry_Candidate_Authority_V1.md
+      - Hammadid_Alias_Ownership_and_Collision_Ledger_V1.yaml
+      - Hammadid_Candidate_to_Canonical_Identity_Mapping_Ledger_V1.yaml
+      - Hammadid_Entity_Kind_and_Owner_Validation_Ledger_V1.yaml
+      - Hammadid_External_Owner_Lock_and_Quarantine_Ledger_V1.yaml
+    authority_family: RegistryAliasesExternalLocksAndMigration
+    planned_responsibility: EntityKindsCanonicalIDsAliasesCollisionsQuarantinesExternalLocksAndMigration
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    indexed_candidate_path: 'Plugins\MWSharedImporter'
+    existing_owner: MissingPendingDirectInspection
+    target_kind: RegistryTypedReferenceAndMigrationOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, IdentityAndBoundaryClosure]
+    collisions: [RealmFactionDynastyKinds, AnNasirRefs, QalatAliases, BejaiaTemporalLabels]
+    private_state_risk: CandidateOrExternalReferenceCouldPublishOrMaterializeIncorrectly
+    mutation_required_later: true
+    evidence_refs:
+      - Hammadid_Batch_10_Identity_Dependency_Owner_External_Lock_and_Quarantine_Validation_Report_V1.yaml
+    batch02_relevance: Fatal
+    validation_state: CandidateOnlyNoRegistryApproval
+
+  XW_HMD_004_CharactersDynastyHouseholdNetwork:
+    hammadid_authority_refs:
+      - Hammadid_Character_Dynasty_Household_Court_and_Directed_Network_Authority_V1.md
+      - An_Nasir_ibn_Alnas_V1_1_Developed_Character_Profile_Authority.md
+      - Buluggin_ibn_Muhammad_V1_1_Historical_Legacy_Character_Profile_Authority.md
+      - Namirt_bint_Alnas_V1_1_Historical_Memory_and_Dynastic_Profile_Authority.md
+      - Muqatil_ibn_Muhammad_V1_Historical_Memory_and_Dynastic_Bridge_Profile_Authority.md
+    authority_family: CharactersDynastyHouseholdCourtAndDirectedNetwork
+    planned_responsibility: PersonDynastyHouseholdCourtLifecycleKinshipOfficeAndDirectedRelationshipDefinitions
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: CharacterDynastyHouseholdAndNetworkOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, AnNasirThreeArtifactDisposition, RegistryPersonKindAndMapping]
+    collisions: [AnNasirThreeArtifactGroup, PersonOfficeCommandAndHouseholdSeparation]
+    private_state_risk: ProfileCouldCreateOpeningPersonOfficeCommandHouseholdOrRelationship
+    mutation_required_later: true
+    evidence_refs:
+      - Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+    batch02_relevance: BlockingForPersonReferences
+    validation_state: AuthorityOwnedIdentityQuarantineActive
+
+  XW_HMD_005_GovernanceRegionalAuthority:
+    hammadid_authority_refs:
+      - Hammadid_Governance_Political_Constitution_Offices_Delegation_Regional_Authority_Compliance_and_Restoration_Authority_V1_1_FULL.md
+    authority_family: GovernanceConstitutionOfficesDelegationAndRegionalAuthority
+    planned_responsibility: GovernmentFunctionsOfficesMandatesDelegationJurisdictionRegionalComplianceAndRestoration
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: GovernmentAndRegionalAuthorityOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, RegistryOfficeInstitutionAndGovernmentKinds]
+    collisions: [GovernmentCourtHouseholdChanceryOfficeAndInstitution]
+    private_state_risk: DefinitionCouldCreateOfficeholderCapacityComplianceOrControl
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: BlockingForGovernmentOfficeAndInstitutionKinds
+    validation_state: NativeTargetMissing
+
+  XW_HMD_006_LawJusticeRemedy:
+    hammadid_authority_refs:
+      - Hammadid_Law_Justice_Petition_Procedure_Crime_Punishment_Restitution_and_Appeal_Authority_V1.md
+    authority_family: LawJusticePetitionPunishmentRestitutionAndAppeal
+    planned_responsibility: PetitionCaseProcedureCrimeJudgmentPunishmentRestitutionAppealAndEnforcementRequests
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: LawJusticeAndRemedyOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, GovernmentOfficeAndJurisdictionKinds]
+    collisions: [DefinitionCaseJudgmentAndEnforcementState]
+    private_state_risk: ProcedureDefinitionCouldCreateCaseSentenceOrEnforcement
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: NonfatalForCoreIdentityBlockingForLawAndRemedyKinds
+    validation_state: NativeTargetMissing
+
+  XW_HMD_007_CustodyRansomRelease:
+    hammadid_authority_refs:
+      - Hammadid_Prisoners_Captives_Hostages_Ransom_Exchange_and_Release_Authority_V1.md
+    authority_family: PrisonersCaptivesHostagesRansomExchangeAndRelease
+    planned_responsibility: CustodyCaptureRansomExchangeReleaseEscapeDeathAndReintegrationRequests
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: CustodyRansomAndReleaseOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, PersonRelationshipDiplomacyLawAndEconomyOwners]
+    collisions: [CaptivityOwnershipPersonLifecycleAndAgreementPerformance]
+    private_state_risk: CaptureCouldTransferPersonOwnershipOrCreateRansomAgreement
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: NonfatalForCoreIdentity
+    validation_state: NativeTargetMissing
+
+  XW_HMD_008_ReligionJuristicInstitution:
+    hammadid_authority_refs:
+      - Hammadid_Religious_Juristic_Great_Mosque_Legitimacy_and_Institutional_Authority_V1.md
+    authority_family: ReligionJuristicAuthorityGreatMosqueAndLegitimacy
+    planned_responsibility: JuristicDefinitionsInstitutionsOfficesJurisdictionsInterpretationAndLegitimacyRequests
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: ReligionJuristicAndInstitutionOwner
+    disposition: SharedOwnerReceiptRequired
+    dependencies: [DirectLiveProjectInspection, SharedReligionJuristicOwnerReceipt, RegistryInstitutionOfficeAndBuildingKinds]
+    collisions: [GreatMosqueInstitutionBuildingOfficeCongregationAndOpeningInstance]
+    private_state_risk: InstitutionDefinitionCouldCreateBuildingPersonnelFundingOfficeOrOperation
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Batch_10_Identity_Dependency_Owner_External_Lock_and_Quarantine_Validation_Report_V1.yaml]
+    batch02_relevance: BlockingForInstitutionAndOfficeKinds
+    validation_state: ExternalLockAndTaxonomyPending
+
+  XW_HMD_009_GeographyCapitalRoutes:
+    hammadid_authority_refs:
+      - Hammadid_Strategic_Geography_Regions_Settlements_Fortresses_Routes_and_Saharan_Interfaces_Authority_V1_1_FULL.md
+      - Hammadid_Qalat_Bani_Hammad_Capital_Court_Fortress_Mosque_and_Urban_Authority_V1.md
+    authority_family: GeographySettlementsFortressesRoutesAndSaharanInterfaces
+    planned_responsibility: PlaceRegionSettlementFortressCapitalRouteAccessAndControlDefinitionsAndStateRequests
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: GeographyPlaceRouteAndCapitalOwner
+    disposition: SharedOwnerReceiptRequired
+    dependencies: [DirectLiveProjectInspection, GeographyRegistryReceipt, QalatTypedMapping]
+    collisions: [QalatTypedFunctions, QalaShortAlias, BejaiaTemporalOpeningState]
+    private_state_risk: PlaceDefinitionCouldCreateControlCapitalBuildingInstitutionGarrisonAccessOrSupply
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Batch_10_Identity_Dependency_Owner_External_Lock_and_Quarantine_Validation_Report_V1.yaml]
+    batch02_relevance: BlockingForPlaceAndRouteReferences
+    validation_state: ExternalLockAndTypedDecompositionPending
+
+  XW_HMD_010_PopulationHouseholdLaborMigration:
+    hammadid_authority_refs:
+      - Hammadid_Population_Demography_Households_Labor_Migration_and_Settlement_Capacity_Authority_V1.md
+    authority_family: PopulationDemographyHouseholdsLaborMigrationAndCapacity
+    planned_responsibility: PopulationPresenceHouseholdsLaborMigrationCapacityRecoveryAndRecruitmentEligibilityEvidence
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: PopulationHouseholdLaborAndMigrationOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, PopulationStateAndSaveOwner]
+    collisions: [PopulationVersusSpendableManpower, HouseholdVersusDynastyAndCourt]
+    private_state_risk: DefinitionCouldCreateCountsHouseholdsLaborPoolQuantityOrManpower
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: NonfatalForInitialIdentityFatalForPopulationReferencesAndPools
+    validation_state: NativeTargetMissing
+
+  XW_HMD_011_ConstituenciesCommunitiesLanguages:
+    hammadid_authority_refs:
+      - Hammadid_Regional_Constituencies_Communities_Languages_Representation_and_Integration_Authority_V1.md
+    authority_family: RegionalConstituenciesCommunitiesLanguagesAndRepresentation
+    planned_responsibility: ConstituencyCommunityLanguageUseRepresentationIntegrationAndServiceEligibilityDefinitions
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: ConstituencyCommunityLanguageAndRepresentationOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, RegistryCommunityAndLanguageUseKinds]
+    collisions: [IdentityLoyaltyPoliticsProfessionRepresentationAndRecruitment]
+    private_state_risk: CommunityIdentityCouldCreateBehaviorSpeakerCountsOfficesOrUniversalUnits
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: BlockingForCommunityAndLanguageUseKinds
+    validation_state: NativeTargetMissing
+
+  XW_HMD_012_EconomyPropertyProductionLogistics:
+    hammadid_authority_refs:
+      - Hammadid_Economy_Treasury_Taxation_Credit_Property_Production_Trade_and_Market_Authority_V1.md
+      - Hammadid_Property_Construction_Urban_Development_and_Infrastructure_Authority_V1.md
+      - Hammadid_Agriculture_Pastoralism_Food_Production_Resources_Animals_and_Equipment_Authority_V1.md
+    authority_family: EconomyTreasuryTaxCreditPropertyTradeStocksAndProvisioning
+    planned_responsibility: TreasuryTaxCreditPropertyCapacityOutputMarketTradeStockProvisioningConstructionAndEquipmentDefinitions
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: EconomyPropertyProductionAndLogisticsOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, PropertyResourceProductionAndTransferKinds]
+    collisions: [TreasuryCreditCapacityOutputStockTradeAndDeliveredSupply]
+    private_state_risk: CapacityRouteCreditOrBuildingCouldCreateCashOutputStockSupplyOwnershipOrInventory
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: BlockingForResourcePropertyAndEquipmentKinds
+    validation_state: NativeTargetMissing
+
+  XW_HMD_013_HealthFoodWaterMortalityRecovery:
+    hammadid_authority_refs:
+      - Hammadid_Health_Disease_Medicine_Food_Security_Mortality_and_Disaster_Recovery_Authority_V1.md
+    authority_family: HealthDiseaseMedicineFoodSecurityMortalityAndRecovery
+    planned_responsibility: HealthDiseaseInjuryFoodWaterCareMortalityBurialReliefAndRecovery
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: HealthFoodWaterMortalityAndRecoveryOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, CharacterPopulationMilitaryAndSaveOwners]
+    collisions: [NoDefaultHealthNoDefaultCrisis, CasualtyVersusDeathAndRecovery]
+    private_state_risk: DefinitionCouldCreateDiseaseCasualtyMortalityCareOrRecoveryCapacity
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: NonfatalForCoreIdentity
+    validation_state: NativeTargetMissing
+
+  XW_HMD_014_PublicOrderComplianceRestoration:
+    hammadid_authority_refs:
+      - Hammadid_Public_Order_Compliance_Resistance_Cohesion_and_Restoration_Authority_V1.md
+    authority_family: PublicOrderComplianceResistanceAndRestoration
+    planned_responsibility: ComplianceResistanceCohesionUrbanStabilityIncidentsResponseAndRestoration
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: PublicOrderComplianceAndRestorationOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, GovernmentLawReligionCommunityEconomyHealthMilitaryAndControlOwners]
+    collisions: [IdentityVersusLoyaltyRevoltComplianceAndControl]
+    private_state_risk: IdentityCouldCreateLoyaltyRevoltUniversalComplianceOrEnforcementCapacity
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: NonfatalForCoreIdentity
+    validation_state: NativeTargetMissing
+
+  XW_HMD_015_DiplomacyExternalRelations:
+    hammadid_authority_refs:
+      - Hammadid_Diplomacy_Almoravid_Zirid_BanuHilal_and_External_Relations_V1.md
+    authority_family: DiplomacyExternalRelationsAndCounterpartyLocks
+    planned_responsibility: DirectedRelationsRecognitionAgreementTributeProtectionServiceAccessConflictAndCounterpartyReceipts
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: DiplomacyAgreementAndExternalLockOwner
+    disposition: ExternalLockRequired
+    dependencies: [DirectLiveProjectInspection, ZiridAlmoravidBanuHilalScenarioAndTheaterOwnerReceipts]
+    collisions: [AgreementVersusPerformance, LocalStateVersusCounterpartyPrivateState]
+    private_state_risk: HammadidLogicCouldCreateCounterpartyAcceptanceKnowledgeForcesIntentionsOrAgreements
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Batch_10_Identity_Dependency_Owner_External_Lock_and_Quarantine_Validation_Report_V1.yaml]
+    batch02_relevance: BlockingForExternalLocksAndDirectedReferences
+    validation_state: ExternalOwnerReceiptsPending
+
+  XW_HMD_016_InformationIntelligenceKnowledge:
+    hammadid_authority_refs:
+      - Hammadid_Information_Intelligence_Messengers_Rumor_and_Counterintelligence_Authority_V1.md
+    authority_family: InformationIntelligenceMessengersRumorAndCounterintelligence
+    planned_responsibility: MessageDeliveryAuthenticationKnowledgeBeliefRumorAssessmentWarningSecrecyAndCounterintelligence
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: InformationIntelligenceAndKnowledgeOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, CharacterNetworkDiplomacyCampaignAndSaveOwners]
+    collisions: [MessageSentVersusReceived, KnowledgeVersusTruth, LocalVersusForeignPrivateKnowledge]
+    private_state_risk: MessageOrHistoricalFactCouldCreateKnowledgeTruthOrForeignPrivateState
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: NonfatalForCoreIdentityBlockingForKnowledgeReferences
+    validation_state: NativeTargetMissing
+
+  XW_HMD_017_MilitaryCommandMobilizationLogistics:
+    hammadid_authority_refs:
+      - Hammadid_Military_Strategic_Inputs_Command_Mobilization_Logistics_and_Regional_Defense_Authority_V1.md
+    authority_family: MilitaryStrategyCommandMobilizationLogisticsAndDefense
+    planned_responsibility: CommandEligibilityAppointmentAcceptanceMobilizationReadinessSupplyMovementDefenseAndDemobilization
+    verified_native_path: 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    native_symbol_or_asset: MWStrategicCommandAdmissionFixtureProviders
+    existing_owner: CandidateMedievalWarCampaignStrategicIntegrationOwnerDirectInspectionPending
+    target_kind: ExistingPatternCandidate
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, RegistryCommandForceAndOwnerKinds, MilitaryCampaignOwnerApproval]
+    collisions: [RulerVersusCommander, CommandVersusForceOwnership, RequestVersusExecution]
+    private_state_risk: FixturePatternCouldBeMistakenForRuntimeOwnerOrCreateMissingForceSupplyAndObedience
+    mutation_required_later: true
+    evidence_refs:
+      - Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+      - Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml
+    batch02_relevance: BlockingForCommandAndForceReferenceKinds
+    validation_state: VerifiedIndexedCandidateDirectInspectionPending
+
+  XW_HMD_018_UnitRosterFiniteRecruitment:
+    hammadid_authority_refs:
+      - Hammadid_Army_Composition_Recruitment_Roster_Development_and_Unit_Identity_Authority_V1.md
+      - Hammadid_Unit_Name_Equipment_Visual_Evidence_and_Roster_Reconciliation_Authority_V1.md
+    authority_family: ArmyCompositionRecruitmentRosterUnitIdentityAndVisualEvidence
+    planned_responsibility: UnitDefinitionFiniteRecruitmentSourcePoolEquipmentHorseOfficerTrainingSupplyNameAndAssetRequirement
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    methodology_refs:
+      - Norway_Unit_Asset_Inventory_V1.json
+      - Almoravid_Spear_Levy_Unit_Profile_V1.md
+    target_kind: UnitRosterAndFiniteRecruitmentOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, RegistryUnitPoolEquipmentHorseOfficerKinds, PopulationGeographyEconomyAndMilitaryOwners]
+    collisions: [UnitDefinitionVersusInstance, UnlockVersusPool, PopulationVersusManpower, SharedRegionalVersusFactionOwnership]
+    private_state_risk: ComparatorCouldCreateUnsupportedHammadidUnitPoolQuantityEquipmentHorseOfficerOrAssetClaim
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: BlockingForUnitPoolAndMaterialReferenceKinds
+    validation_state: MethodologyOnlyNoNativeTarget
+
+  XW_HMD_019_SiegeFortificationEngineering:
+    hammadid_authority_refs:
+      - Hammadid_Siege_Warfare_Fortification_Operations_Military_Engineering_and_Field_Works_Authority_V1.md
+    authority_family: SiegeFortificationEngineeringAndFieldWorks
+    planned_responsibility: FortificationOperationsSiegeEngineeringLaborToolsMaterialsReliefDamageRepairAndReconstructionRequests
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: SiegeFortificationAndEngineeringOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, BattleGeographyPropertyPopulationHealthEconomyAndMilitaryOwners]
+    collisions: [FortressVersusGarrison, SiegeIntentVersusCapability, CapitulationVersusOccupationAndAnnexation]
+    private_state_risk: DefinitionCouldCreateEngineersToolsMaterialsSiegeTrainGarrisonDamageOrControl
+    mutation_required_later: true
+    evidence_refs: [Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md]
+    batch02_relevance: NonfatalForCoreIdentityBlockingForSiegeAndFortificationKinds
+    validation_state: NativeTargetMissing
+
+  XW_HMD_020_HistoricalEventsRealmAI:
+    hammadid_authority_refs:
+      - Hammadid_Historical_Evidence_Chronology_Memory_Momentum_and_Conditional_Emergence_Authority_V1.md
+      - Hammadid_Faction_Decisions_Dilemmas_Events_Crises_and_Conditional_Emergence_Authority_V1.md
+      - Hammadid_Realm_Personality_Faction_AI_Strategic_Priorities_and_Player_Experience_Authority_V1.md
+    authority_family: HistoricalMemoryMomentumEmergenceEventsCrisesRealmAIAndCampaignExperience
+    planned_responsibility: MemoryMomentumEmergenceEventEligibilityAlternativesNonoccurrenceAIEvaluationProposalTraceAndAbstention
+    verified_native_path: 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    native_symbol_or_asset: MWStrategicCommandAdmissionFixtureProviders
+    existing_owner: CandidateMedievalWarCampaignStrategicIntegrationOwnerDirectInspectionPending
+    target_kind: ExistingProposalAdmissionPatternCandidateNotHistoricalOrAIOwnerProof
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, HistoricalEventAIReferenceKinds, CampaignOwnerAdapters, SaveReplayOwner]
+    collisions: [HistoryVersusDestiny, MemoryVersusTruth, MomentumVersusDecision, AIProposalVersusExecution]
+    private_state_risk: IndexedFixtureCouldBeOverextendedIntoHistoricalOrAIExecutionOwnership
+    mutation_required_later: true
+    evidence_refs:
+      - Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+      - Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml
+    batch02_relevance: BlockingForHistoricalEventAndAIReferenceKinds
+    validation_state: VerifiedIndexedPatternNativeOwnerMissing
+
+  XW_HMD_021_OpeningStateAssemblyBinding:
+    hammadid_authority_refs:
+      - Hammadid_Opening_State_Assembly_and_Binding_Plan_V1.md
+      - Hammadid_Opening_State_1062_V1.md
+      - Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+      - Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    authority_family: OpeningStateAssemblyBindingAndVariantInitialization
+    planned_responsibility: OpeningRecordSchemaVariantEvidenceOwnerBindingInitializationApplyOnceAdvancedSaveAndRollback
+    verified_native_path: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+    native_symbol_or_asset: SMWOpeningStatePreviewTab
+    indexed_pattern_paths:
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.cpp'
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.h'
+    existing_owner: CandidateMWSharedImporterPresentationOwnerDirectInspectionPending
+    target_kind: ExistingPreviewPatternCandidateNotInitializationOrStateOwnerProof
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, HMD_DATE_001ScenarioBoundaryDecision, RegistryMappings, OpeningFactOwnerReceipts]
+    collisions: [JanuaryVersusPostJuly, OpeningV1VersusV1_1, PreviewVersusAuthoritativeState]
+    private_state_risk: NorwayPreviewPatternCouldTransferPrivateStateOrBeMisreadAsOpeningStateOwner
+    mutation_required_later: true
+    evidence_refs:
+      - Hammadid_Opening_State_Assembly_and_Binding_Plan_V1.md
+      - Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+    batch02_relevance: BlockingForOpeningReferenceAndVariantScope
+    validation_state: VerifiedIndexedPresentationCandidateInitializationOwnerMissing
+
+  XW_HMD_022_PresentationLocalizationAccessibilityArt:
+    hammadid_authority_refs:
+      - Hammadid_Faction_Presentation_Visual_Identity_UI_Narrative_and_Audio_Direction_Authority_V1.md
+      - Hammadid_Unit_Name_Equipment_Visual_Evidence_and_Roster_Reconciliation_Authority_V1.md
+      - Hammadid_Qalat_Bani_Hammad_Capital_Court_Fortress_Mosque_and_Urban_Authority_V1.md
+    authority_family: FactionPresentationLocalizationAccessibilityArtAudioAndEvidence
+    planned_responsibility: FactionSelectionPanelsReadOnlyViewModelsStateExplanationLocalizationAccessibilityAssetRequirementsRightsAndScreenshots
+    verified_native_path: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+    native_symbol_or_asset: SMWOpeningStatePreviewTab
+    indexed_pattern_paths:
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.cpp'
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.h'
+    existing_owner: CandidateMWSharedImporterPresentationOwnerDirectInspectionPending
+    target_kind: ExistingSharedPresentationPatternCandidate
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, PresentationLocalizationAccessibilityArtAudioRightsOwners]
+    collisions: [CandidateVersusCanonicalDisplay, UnknownVersusZero, QalatTypedPresentation, BejaiaOpeningBackfill]
+    private_state_risk: PresentationCouldRevealForeignPrivateStateOrMutateOwnerStateOrCopyNorwayData
+    mutation_required_later: true
+    evidence_refs:
+      - Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+      - Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml
+    batch02_relevance: NonfatalForCoreRegistry
+    validation_state: VerifiedIndexedPresentationCandidateDirectInspectionPending
+
+  XW_HMD_023_ImporterValidationPersistenceEvidence:
+    hammadid_authority_refs:
+      - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+      - Hammadid_Unreal_Engine_5_8_Batch_10_Candidate_Bundle_Importer_and_Unreal_Authorization_Gate_V1.md
+    authority_family: ImporterValidationPersistenceEvidenceAndAuthorization
+    planned_responsibility: CandidateSchemaParserValidatorDryRunWriteSetImporterCompileSaveMigrationReplayRollbackPerformanceEvidenceAndAuthorization
+    verified_native_path: 'Plugins\MWSharedImporter'
+    native_symbol_or_asset: MWSharedImporter
+    existing_owner: CandidateMWSharedImporterOwnerDirectInspectionPending
+    target_kind: ExistingPluginCandidateNotCompleteImporterValidatorPersistenceOwnerProof
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, ExecutionPrerequisites]
+    collisions: [PlanningVersusExecution, DryRunVersusImport, PluginVersusRegistryOpeningCampaignAndPersistenceOwnership]
+    private_state_risk: PluginCouldBeTreatedAsAuthorizationOrCouldMaterializeHeldCandidateOrExternalState
+    mutation_required_later: true
+    evidence_refs:
+      - Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+      - Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml
+    batch02_relevance: BlockingForExecutionNotInitialPlanning
+    validation_state: VerifiedIndexedPluginCandidateDirectInspectionPending
+
+  XW_HMD_024_UnrealImplementationPromotion:
+    hammadid_authority_refs:
+      - Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+      - Hammadid_Unreal_Engine_5_8_Batch_01_Read_Only_Project_Discovery_Gate_V1.md
+      - Hammadid_Unreal_Engine_5_8_Batch_10_Candidate_Bundle_Importer_and_Unreal_Authorization_Gate_V1.md
+    authority_family: UnrealImplementationExecutionAndPromotion
+    planned_responsibility: NativeTargetApprovalExactWriteSetExecutionCompileRuntimeEvidenceRollbackAndPromotion
+    verified_native_path: MissingPendingDirectInspection
+    native_symbol_or_asset: null
+    existing_owner: MissingPendingDirectInspection
+    target_kind: UnrealImplementationOwner
+    disposition: HeldPendingEvidence
+    dependencies: [DirectLiveProjectInspection, ExecutionPrerequisites]
+    collisions: [PlanningApprovalVersusExecutionAuthorization, BatchGateVersusOwnerReceipt]
+    private_state_risk: PlanningCouldBeMisreadAsPermissionToMutateProject
+    mutation_required_later: false
+    evidence_refs:
+      - Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+      - Hammadid_Unreal_Engine_5_8_Batch_01_Read_Only_Project_Discovery_Gate_V1.md
+    batch02_relevance: BlockingForAnyExecution
+    validation_state: OwnerAndProjectTargetsMissingNoAuthorization
+
+indexed_target_summary:
+  verified_indexed_target_candidates:
+    - 'Source\MedievalWarCampaign'
+    - 'Source\MedievalWarCampaign\Private\StrategicIntegration'
+    - 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    - 'Plugins\MWSharedImporter'
+    - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+  developed_realm_pattern_only:
+    - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.cpp'
+    - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.h'
+    - Norway_Unit_Asset_Inventory_V1.json
+    - Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md
+    - Almoravid_Spear_Levy_Unit_Profile_V1.md
+  direct_live_inspection_completed: false
+
+batch02_minimum_surface:
+  permitted_after_full_Batch01_acceptance_only:
+    - DiscoverAndMapProjectNativeReferenceKinds
+    - ReviewCandidateRealmFactionDynastyPersonPlaceInstitutionOfficeCommunityLanguageUnitPoolHistoricalEvidenceScenarioAndTheaterReferences
+    - ReviewAliasesCollisionsQuarantinesExternalLocksAndMigrationMetadata
+  prohibited_even_after_planning_crosswalk:
+    - PublishCanonicalIDs
+    - ReserveFallbackIDs
+    - ExecuteAliasesOrMigrations
+    - CreateOpeningStateOrRuntimeInstances
+    - GenerateGameplayPayload
+    - RunImporter
+    - MutateUnreal
+  current_state: BlockedPendingDirectLiveInspectionAndBatch01Acceptance
+
+acceptance_matrix:
+  contract_fields_present_for_every_record: Pass
+  twenty_four_authority_families_crosswalked: Pass
+  indexed_targets_separated_from_live_verified_targets: Pass
+  missing_targets_explicitly_recorded: Pass
+  private_state_risks_and_collisions_recorded: Pass
+  no_new_native_owner_or_path_invented: Pass
+  exact_live_paths_symbols_owners_versions_and_hashes: NotMet
+  controlling_project_READMEs_opened: NotMet
+  complete_required_discovery_domains_covered: NotMet
+  Batch01_acceptance: Blocked
+  Batch02_promotion: Blocked
+  final_result: StrongPartialCrosswalkDirectLiveInspectionRequired
+
+nonmutation_receipt:
+  project_files_created_modified_moved_or_deleted: 0
+  native_targets_created_or_modified: 0
+  native_owners_created_or_modified: 0
+  registry_rows_created_or_modified: 0
+  canonical_ids_published_or_reserved: 0
+  aliases_or_migrations_executed: 0
+  opening_state_records_created_or_modified: 0
+  payloads_or_importers_executed: 0
+  modules_plugins_classes_assets_configs_tables_or_schemas_modified: 0
+  compile_or_runtime_execution: false
+  advanced_saves_modified: 0
+
+next_safe_action:
+  next_file: Hammadid_Batch_01_Collision_Duplication_and_Missing_Owner_Ledger_V1.yaml
+  next_file_scope: ConsolidateCrosswalkCollisionsDuplicationRisksPrivateStateLeaksAndMissingOwnersWithoutResolvingThroughInference
+  direct_live_repository_inspection_still_required: true
+  Batch02_promotion_authorized: false
+  Unreal_mutation_authorized: false
+
+stable_footer:
+  ConstitutionalAuthority: Project Bible 2.4
+  OperationalAuthority: Design Expansion Checklist 3.7
+  ImplementationTarget: Unreal Engine 5.8
+  Theater: North Africa
+  CandidateRealm: Hammadids
+  ScenarioOpening: 1062-01-01
+  OpeningCampaignSeason: Winter
+  PreferredPlayableBoundaryCandidate: post_1062-07-11
+  PlayableBoundaryStatus: HeldPendingScenarioOwnerDisposition
+  HistoricalProgression: 21MonthsPerStrategicTurn
+  BiologicalProgression: 7MonthsPerStrategicTurn
+  CampaignSeasonProgression: OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn
+  BatchID: Batch01
+  CrosswalkStatus: StrongPartialAuthorityToIndexedTargetCrosswalkDirectLiveInspectionPendingNoMutation
+  CrosswalkRecords: 24
+  VerifiedLiveNativeTargets: 0
+  ProposedNewNativeOwners: 0
+  ProjectMutationPerformed: false
+  DirectLiveTargetInspectionComplete: false
+  Batch01AcceptanceAuthorized: false
+  Batch02PromotionAuthorized: false
+  RegistryPublicationAuthorized: false
+  OpeningStateCreationAuthorized: false
+  PayloadOrImporterExecutionAuthorized: false
+  UnrealProjectMutationAuthorized: false
+  NextAction: DraftCollisionDuplicationAndMissingOwnerLedgerWithoutInferenceBasedResolution

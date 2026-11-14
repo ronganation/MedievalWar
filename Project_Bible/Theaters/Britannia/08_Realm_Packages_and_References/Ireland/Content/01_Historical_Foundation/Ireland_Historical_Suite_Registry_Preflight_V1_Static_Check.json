@@ -1,0 +1,20 @@
+{
+  "target": "Ireland_Historical_Suite_Registry_Preflight_V1.md",
+  "status": "PASS",
+  "checks": {
+    "project_controls": true,
+    "three_tracks": true,
+    "memory_14": true,
+    "aliases_2": true,
+    "momentum_7": true,
+    "review_momentum_4": true,
+    "emergence_14": true,
+    "owner_requests_10": true,
+    "external_lock": true,
+    "no_mutation": true,
+    "honest_validation": true,
+    "result": true,
+    "literal_formatting": true,
+    "all_pass": true
+  }
+}

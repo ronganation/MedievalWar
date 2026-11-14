@@ -1,0 +1,18 @@
+{
+  "filename": "Flanders_Character_Network_V1_Current_Authority_Modernization_FULL.md",
+  "version": "1.1.0",
+  "sha256": "60c51afacee3fc6cdd747e044a4d2d2c4cc4d7f15cdf5de0f8350976f46f44cb",
+  "bytes": 94737,
+  "lines": 2396,
+  "balanced_fences": true,
+  "stable_footer_once": true,
+  "principal_and_next_generation_nodes": 8,
+  "directed_edge_candidates": 60,
+  "prior_edges_preserved": 34,
+  "child_edges_added": 26,
+  "edge_ids_unique": true,
+  "underage_access_contract_present": true,
+  "active_edges_created_zero": true,
+  "nonmutation": true,
+  "overall": "Pass"
+}

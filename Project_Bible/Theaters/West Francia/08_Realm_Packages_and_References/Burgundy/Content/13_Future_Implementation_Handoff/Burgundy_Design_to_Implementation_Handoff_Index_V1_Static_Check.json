@@ -1,0 +1,20 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "handoff_authorities_6": true,
+    "batch_status_15": true,
+    "blockers_6": true,
+    "three_tracks": true,
+    "next_batch00": true,
+    "no_implementation": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "c8123294b5652ed162ef61a45f1cdb2508eb07a5b324c8abfcce207f7d9fc0b9",
+  "Bytes": 13955,
+  "Lines": 390,
+  "Scope": "Static design-to-implementation handoff index checks only"
+}

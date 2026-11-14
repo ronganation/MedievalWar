@@ -1,0 +1,84 @@
+{
+  "DocumentControl": {
+    "DocumentId": "VisualCulmination.AssetManifest.Realm.Aquitaine.V1",
+    "FileName": "Aquitaine_Visual_Culmination_Asset_Manifest_V1.json",
+    "Version": "1.1.1",
+    "Status": "StaticCheckedReviewOnlyVisualClosure",
+    "ProductionApproval": false
+  },
+  "VisualIdentity": {
+    "Name": "The Composite Principality",
+    "CampaignPromise": "Power is broad. Authority is negotiated."
+  },
+  "Artifacts": [
+    {
+      "FileName": "Aquitaine_Faction_Visual_Culmination_and_Presentation_Authority_V1.md",
+      "ByteCount": 9933,
+      "SHA256": "07843b3cdefe7113fe5b1d8e164a7c3926ea18a64d2c04413536ab1eb72e4a2a",
+      "StorageStatus": "OneDriveObserved",
+      "Status": "ReviewOnlyCurrent"
+    },
+    {
+      "FileName": "Aquitaine_Faction_Designer_Input_Packet_V1.md",
+      "ByteCount": 5609,
+      "SHA256": "64586f915063fa4243ed78d1791b40414930c5f2c83e64cdb37ad07d0353494e",
+      "StorageStatus": "OneDriveObserved",
+      "Status": "ReviewOnlyCurrent"
+    },
+    {
+      "FileName": "Aquitaine_Visual_Culmination_and_Presentation_Deck_V1.pptx",
+      "ByteCount": 4880530,
+      "SHA256": "c22f4291aa0aa0ac6c9f0ed97f8936454c1bad842e777604d7f04faea6a28e8d",
+      "StorageStatus": "PriorGeneratedArtifactReceipt",
+      "Status": "ReviewOnlyCurrent"
+    },
+    {
+      "FileName": "Aquitaine_Visual_Culmination_Deck_Montage_V1.png",
+      "ByteCount": 485831,
+      "SHA256": "d3da8e24c16793bbf01d641ab84c58529b046efb6329b75bac806f8d9625d5c2",
+      "StorageStatus": "OneDriveObserved",
+      "Status": "ReviewOnlyCurrent"
+    },
+    {
+      "FileName": "Aquitaine_Internal_Faction_Authority_One_Sheet_V1.png",
+      "ByteCount": 2610227,
+      "SHA256": "8d551fdd6dbcfd61f5a61ee06bab672de4e5785ce4b3810de2b163fb5a71e156",
+      "StorageStatus": "CurrentArtifact",
+      "Status": "ReviewOnlyCurrent"
+    },
+    {
+      "FileName": "Aquitaine_Player_Facing_Faction_Sheet_V1.png",
+      "ByteCount": 1098298,
+      "SHA256": "69d96c75ee64820bb24707f31ada93aca48690be22811e9d4fea4ce89436a700",
+      "StorageStatus": "CurrentArtifact",
+      "Status": "ReviewOnlyCurrent"
+    },
+    {
+      "FileName": "Aquitaine_Player_Facing_Faction_Sheet_V1.pptx",
+      "ByteCount": 1151762,
+      "SHA256": "b71a1eea71cce6252555a7ec9d90eea931d8bee8433cf6f7438a5d3fc81384b4",
+      "StorageStatus": "CurrentArtifact",
+      "Status": "ReviewOnlyCurrent"
+    },
+    {
+      "FileName": "Aquitaine_Internal_Faction_Authority_One_Sheet_Static_Inspection_and_Asset_Metadata_V1.md",
+      "ByteCount": 2711,
+      "SHA256": "de08c509d782ac4871cc502f922ebfadcde50267abcc4b64041970aa145ec8a8",
+      "StorageStatus": "CurrentArtifact",
+      "Status": "ReviewOnlyCurrent"
+    },
+    {
+      "FileName": "Aquitaine_Player_Facing_Faction_Sheet_Static_Inspection_and_Asset_Metadata_V1.md",
+      "ByteCount": 1507,
+      "SHA256": "a9d8e81934f1e683d91e04897ab79cf20c1aac4d124619addf67420fdb7ff1a8",
+      "StorageStatus": "CurrentArtifact",
+      "Status": "ReviewOnlyCurrent"
+    }
+  ],
+  "Authorizations": {
+    "RegistryPromotion": false,
+    "OpeningStateActivation": false,
+    "UnrealImport": false,
+    "RuntimeActivation": false
+  }
+}

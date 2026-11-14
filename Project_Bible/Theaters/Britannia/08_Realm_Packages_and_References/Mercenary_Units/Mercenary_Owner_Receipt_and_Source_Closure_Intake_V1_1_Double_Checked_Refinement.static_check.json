@@ -1,0 +1,18 @@
+{
+  "artifact": "Mercenary_Owner_Receipt_and_Source_Closure_Intake_V1_1_Double_Checked_Refinement.md",
+  "sha256": "189f3d0b1f68eed698e54372f78acd7b717d93fd4a8f1af965bd3d2d168361fc",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "copy_first_receipt": true,
+    "framework_vs_acceptance_separated": true,
+    "documentary_vs_live_separated": true,
+    "anti_churn_present": true,
+    "no_scotland_reclassification": true,
+    "scotland_unblocked": true,
+    "no_activation": true,
+    "yaml_valid": true,
+    "no_escaped_hygiene": true,
+    "single_footer": true
+  }
+}

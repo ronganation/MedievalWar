@@ -1,0 +1,33 @@
+{
+  "ManifestId": "manifest.machine-readable-opening-state-contract.leon-castile.v2",
+  "Version": "2.0.0",
+  "OutputFile": "Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_Brother_Mechanics_Integrated.md",
+  "OutputBytes": 25614,
+  "OutputLines": 519,
+  "OutputSha256": "2faa9c2234c372028e37ae4a79b88fa56fddf761ca46bc9713de5deb26e702a6",
+  "ImmediateSubstantiveSource": "Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V1.md",
+  "ControllingOpeningAuthority": "Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority.md",
+  "Checks": {
+    "section_count": true,
+    "opening_authority": true,
+    "three_routes": true,
+    "temporal": true,
+    "explicit_empties": true,
+    "overlay_fields": true,
+    "zero_mutation": true,
+    "honest_boundary": true,
+    "no_escaped_underscore": true
+  },
+  "AllChecksPass": true,
+  "ValidationBoundary": {
+    "StaticChecked": true,
+    "SchemaGenerated": false,
+    "PayloadGenerated": false,
+    "OverlaysGenerated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "ReplayValidated": false
+  }
+}

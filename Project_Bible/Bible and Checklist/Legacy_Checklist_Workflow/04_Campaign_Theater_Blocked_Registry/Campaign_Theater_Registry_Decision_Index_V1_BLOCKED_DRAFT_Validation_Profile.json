@@ -1,0 +1,96 @@
+{
+  "profile_id": "validation.campaign_theater.registry_decision_index.blocked_draft.v1_1",
+  "version": "1.1.0",
+  "rules": [
+    {
+      "code": "CTRIDX-001",
+      "severity": "Fatal",
+      "scope": "index",
+      "path": "$.theater_records",
+      "operator": "length_equals",
+      "expected": 4,
+      "description": "Exactly four Theater records are required."
+    },
+    {
+      "code": "CTRIDX-002",
+      "severity": "Fatal",
+      "scope": "theater_records",
+      "path": "$.theater_records[*].architectural_owner_receipt_ref",
+      "operator": "all_null",
+      "expected": true,
+      "description": "All architectural owner receipts remain absent until controlling responses exist."
+    },
+    {
+      "code": "CTRIDX-003",
+      "severity": "Fatal",
+      "scope": "authorization",
+      "path": "$.authorization.*",
+      "operator": "all_equal",
+      "expected": false,
+      "description": "All mutation and activation flags must remain false."
+    },
+    {
+      "code": "CTRIDX-004",
+      "severity": "Fatal",
+      "scope": "typed_association_candidates",
+      "path": "$.typed_association_candidates[*].opening_association",
+      "operator": "all_equal",
+      "expected": false,
+      "description": "Every typed association candidate must remain opening-inactive and unactivated."
+    },
+    {
+      "code": "CTRIDX-005",
+      "severity": "Fatal",
+      "scope": "validation_contract",
+      "path": "$.validation_contract",
+      "operator": "closed_safety_contract",
+      "expected": true,
+      "description": "Alias chains, duplicate Realm packages, folder-derived authority, and advanced-save overwrite remain prohibited."
+    },
+    {
+      "code": "CTRIDX-006",
+      "severity": "Fatal",
+      "scope": "blocked_records",
+      "path": "$.blocked_records",
+      "operator": "length_equals",
+      "expected": 8,
+      "description": "Exactly eight blocked or review records must remain explicit."
+    },
+    {
+      "code": "CTRIDX-007",
+      "severity": "Fatal",
+      "scope": "theater_records",
+      "path": "$.theater_records",
+      "operator": "implementation_owner_split",
+      "expected": true,
+      "description": "Britania and Norse implementation-owner identifiers remain distinct from unresolved architectural authorization."
+    },
+    {
+      "code": "CTRIDX-008",
+      "severity": "Fatal",
+      "scope": "typed_association_candidates",
+      "path": "$.typed_association_candidates",
+      "operator": "association_class_matches_owner_theater",
+      "expected": true,
+      "description": "Same-Theater and cross-Theater classifications must match package-owner and association Theater references."
+    },
+    {
+      "code": "CTRIDX-009",
+      "severity": "Fatal",
+      "scope": "theater_records",
+      "path": "$.theater_records[*].theater_ref",
+      "operator": "unique",
+      "expected": true,
+      "description": "Theater references must be unique."
+    },
+    {
+      "code": "CTRIDX-010",
+      "severity": "Fatal",
+      "scope": "typed_association_candidates",
+      "path": "$.typed_association_candidates[*].association_id",
+      "operator": "unique",
+      "expected": true,
+      "description": "Association IDs must be unique."
+    }
+  ]
+}

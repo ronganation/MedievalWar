@@ -1,0 +1,33 @@
+{
+  "document_id": "static-check.wales.personality.v3.current-authority-refinement",
+  "version": "3.0.0",
+  "source": "Wales_Personality.md",
+  "successor": "Wales_Personality_V3_Current_Authority_Refinement.md",
+  "source_bytes": 34547,
+  "source_physical_lines": 1345,
+  "source_sha256": "4249875cd7f2fa7fab8d9f2add0a0044a5506408986dbf84de9533f25bc22892",
+  "successor_bytes": 64042,
+  "successor_physical_lines": 2291,
+  "successor_sha256": "b0cb55d21e2a03cbe4334dff6fcb978af977980a927d23e3f3f230ea75690ce2",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_preserved": true,
+    "all_substantive_source_sections_preserved": true,
+    "current_authority_chain_present": true,
+    "opening_boundary_current": true,
+    "qualitative_value_portfolio": true,
+    "character_portfolio_9": true,
+    "dynasty_portfolio_3": true,
+    "historical_inactive_boundaries": true,
+    "temporal_tracks": true,
+    "removal_ledger": true,
+    "honest_validation_status": true,
+    "no_source_overwrite": true
+  },
+  "missing_source_headings": [],
+  "missing_substantive_source_sections": [],
+  "missing_required_literals": [],
+  "passed": true,
+  "failed_checks": []
+}

@@ -1,0 +1,135 @@
+﻿{
+    "document_id":  "mw.shared-save.isolated-cpp-draft-static-audit.v2",
+    "generated_utc":  "2026-08-24T18:30:42.8732380Z",
+    "implementation_target":  "Unreal Engine 5.8",
+    "patch_root":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1",
+    "draft_root":  "C:\\temp2\\Shared_Save_Isolated_Patch_V1\\Proposal\\Draft_V1",
+    "status":  "StaticReviewPassedWithUnresolvedIdentifiers",
+    "checks":  {
+                   "proposal_markers_present":  true,
+                   "historical_ReplaceCampaignState_not_reintroduced":  true,
+                   "prepare_candidate_present":  true,
+                   "owner_only_install_present":  true,
+                   "transaction_snapshot_present":  true,
+                   "exact_rollback_calls_present":  true,
+                   "schema_2_path_present":  true,
+                   "schema_3_acceptance_present":  true,
+                   "registered_definition_preservation_present":  true,
+                   "committed_trace_reset_present":  true,
+                   "active_source_mutation_performed":  false,
+                   "isolated_baseline_source_mutation_performed":  false,
+                   "compile_validated":  false,
+                   "runtime_validated":  false
+               },
+    "blocking_checks":  [
+
+                        ],
+    "draft_files":  [
+                        {
+                            "file":  "MWCampaignTurnSubsystem_Proposed_Additions.h.txt",
+                            "bytes":  2667,
+                            "sha256":  "0E7160126B2650D19E3811837F525504E96E6B86AEADD6CF1C5283F2574DDCA0",
+                            "proposal_marker_present":  true,
+                            "blueprint_callable_added":  false
+                        },
+                        {
+                            "file":  "MWCampaignTurnSubsystem_Proposed_Additions.cpp.txt",
+                            "bytes":  4160,
+                            "sha256":  "0C70CD7FE81D8168ABFD3799B40A69DDEBF948B0D9821D5A9199600E10A376FB",
+                            "proposal_marker_present":  true,
+                            "blueprint_callable_added":  false
+                        },
+                        {
+                            "file":  "MWCampaignSaveSubsystem_Proposed_Load.cpp.txt",
+                            "bytes":  1488,
+                            "sha256":  "C10B265A872B569D1E6B4B0E8B5B434F9A8BECEE499B4A7E7666530804B475A9",
+                            "proposal_marker_present":  true,
+                            "blueprint_callable_added":  false
+                        }
+                    ],
+    "identifier_records":  [
+                               {
+                                   "identifier":  "EMWCampaignTurnPhase",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "FMWBiologicalLifecycleResolution",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "FMWCampaignLoadTransactionSnapshot",
+                                   "found_in_baseline":  false,
+                                   "proposed_new_identifier":  true
+                               },
+                               {
+                                   "identifier":  "FMWCampaignState",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "FMWCharacterBiologicalLifecycleContract",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "FMWDatedFactDefinition",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "FMWDualClockContract",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "FMWDualClockState",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "FMWHistoricalEmergenceRuleDefinition",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "FMWHistoricalMomentumEvidenceDefinition",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "FMWRegionalClimateProfile",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "FMWRegionClimateAssignment",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "UMWCampaignSaveGame",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "UMWCampaignSaveSubsystem",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "UMWCampaignTurnSubsystem",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               },
+                               {
+                                   "identifier":  "UMWCampaignValidationSubsystem",
+                                   "found_in_baseline":  true,
+                                   "proposed_new_identifier":  false
+                               }
+                           ],
+    "unresolved_or_proposed_identifier_count":  1,
+    "owner_decision_complete":  false,
+    "promotion_authorized":  false
+}

@@ -1,0 +1,36 @@
+{
+  "document_id": "static-check.wales.network-decision-pass.v2",
+  "version": "2.0.0",
+  "source": {
+    "filename": "Wales_Network_Opening_Fixture_Minimal_Decision_Pass.md",
+    "bytes": 24389,
+    "physical_lines": 947,
+    "sha256": "1e0b94a51cfeb7dac87cef70a9b6f251bc16c1ec1d61143a1a23ace7e8ee1bd4"
+  },
+  "successor": {
+    "filename": "Wales_Network_Opening_Fixture_Minimal_Decision_Pass_V2_Current_Authority_Refinement.md",
+    "bytes": 39440,
+    "physical_lines": 1383,
+    "sha256": "3b06bb108e0202d44e47c584fac06ca4b39a5fc2648d03f25fbb8d2dafd32b7f"
+  },
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger": true,
+    "all_source_headings_preserved": true,
+    "eight_candidates": true,
+    "eight_edges": true,
+    "eight_decisions": true,
+    "zero_omissions": true,
+    "zero_dimensions": true,
+    "two_guards": true,
+    "maredudd_active": true,
+    "current_authorities": true,
+    "three_tracks": true,
+    "ue58": true,
+    "removed_content": true,
+    "honest_validation": true,
+    "authorizations_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

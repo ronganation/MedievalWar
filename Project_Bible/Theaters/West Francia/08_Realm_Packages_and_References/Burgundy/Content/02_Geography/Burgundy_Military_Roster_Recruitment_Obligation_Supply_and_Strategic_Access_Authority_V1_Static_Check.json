@@ -1,0 +1,37 @@
+{
+  "Result": "PASS",
+  "ObservedCounts": {
+    "portfolios": 41,
+    "families": 10,
+    "pools": 12,
+    "muster": 12,
+    "supply": 12,
+    "readiness": 11,
+    "casualties": 12
+  },
+  "Checks": {
+    "portfolios_41": true,
+    "families_10": true,
+    "pools_12": true,
+    "muster_12": true,
+    "supply_12": true,
+    "readiness_11": true,
+    "casualties_12": true,
+    "balanced_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "three_tracks": true,
+    "finite_pools": true,
+    "no_direct_manpower": true,
+    "women_boundary": true,
+    "no_exact_state": true,
+    "no_mutations": true,
+    "honest": true,
+    "footer_once": true,
+    "final_marker": true
+  },
+  "AuthoritySHA256": "0aadb57988acfbfbd0afb94f9008079b4a10f8116dd04886ec45bc644a471a87",
+  "AuthorityBytes": 85045,
+  "AuthorityLines": 1365,
+  "Scope": "Static military roster, finite recruitment, obligation, command, supply, access, battle, recovery, save-safety, and hygiene checks"
+}

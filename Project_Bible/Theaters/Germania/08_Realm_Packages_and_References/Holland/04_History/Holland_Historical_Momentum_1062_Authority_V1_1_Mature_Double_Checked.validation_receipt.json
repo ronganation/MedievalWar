@@ -1,0 +1,32 @@
+{
+  "document": "Holland_Historical_Momentum_1062_Authority_V1_1_Mature_Double_Checked.md",
+  "validation_scope": "Static historical-momentum authority, literal completeness, and internal consistency only",
+  "result": "Pass",
+  "checks": {
+    "filename": "Holland_Historical_Momentum_1062_Authority_V1_1_Mature_Double_Checked.md",
+    "version": "1.1.0",
+    "bytes": 36718,
+    "lines": 973,
+    "sha256": "7caad7b2913e9577a256a52f2a2561471d142763a44cc51343ec9b9a9082b52b",
+    "fences_balanced": true,
+    "escaped_underscores": 0,
+    "numbered_sections": 50,
+    "momentum_families": 12,
+    "activated_records": 0,
+    "numeric_values": 0,
+    "scheduled_outcomes": 0,
+    "substantive_removals": 0,
+    "opening_state_mutations": 0,
+    "runtime_mutations": 0,
+    "required_anchors": true,
+    "result": "Pass"
+  },
+  "compile_validation": "NotPerformed",
+  "runtime_validation": "NotPerformed",
+  "save_load_validation": "NotPerformed",
+  "migration_validation": "NotPerformed",
+  "replay_validation": "NotPerformed",
+  "performance_validation": "NotPerformed",
+  "unreal_validation": "NotPerformed",
+  "owner_review_required": true
+}

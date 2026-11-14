@@ -1,0 +1,1491 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema.realm_opening_state_package.v1_2",
+  "title": "Barcelona Opening State Package Schema V1.2",
+  "description": "Strict new-campaign-only schema for Barcelona Opening State 1062 V1.2, Registry V1.5, Historical V2 controls, and separate Historical, Biological, and Campaign Season tracks.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaId",
+    "schemaVersion",
+    "packageId",
+    "packageVersion",
+    "openingStateId",
+    "openingStateVersion",
+    "scenarioId",
+    "realmId",
+    "factionId",
+    "effectiveDate",
+    "registryId",
+    "registryVersion",
+    "stableOrderPolicy",
+    "authorityVersions",
+    "authorityHashes",
+    "temporalBindings",
+    "applicationGuard",
+    "records",
+    "explicitEmptyCollections",
+    "externalLockRefs",
+    "reviewOnlyRefs",
+    "quarantineRefs",
+    "prohibitedRefs",
+    "declaredManifestCounts",
+    "compatibilityReceiptRefs",
+    "sourceManifestHash"
+  ],
+  "properties": {
+    "schemaId": {
+      "const": "schema.realm_opening_state_package.v1_2"
+    },
+    "schemaVersion": {
+      "const": "1.2.0"
+    },
+    "packageId": {
+      "const": "package.barcelona.opening_state.1062.v1_2"
+    },
+    "packageVersion": {
+      "const": "1.2.0"
+    },
+    "openingStateId": {
+      "const": "opening.barcelona.1062"
+    },
+    "openingStateVersion": {
+      "const": "1.2.0"
+    },
+    "scenarioId": {
+      "const": "scenario.barcelona.1062"
+    },
+    "realmId": {
+      "const": "realm.county_barcelona"
+    },
+    "factionId": {
+      "const": "faction.county_barcelona"
+    },
+    "effectiveDate": {
+      "const": "1062-01-01"
+    },
+    "registryId": {
+      "const": "registry.barcelona.v1"
+    },
+    "registryVersion": {
+      "const": "1.5.0"
+    },
+    "stableOrderPolicy": {
+      "const": "opening_state.phase_type_id.v1"
+    },
+    "authorityVersions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ProjectBible",
+        "DesignExpansionChecklist",
+        "BarcelonaRegistry",
+        "RegistryExactAudit",
+        "OpeningState",
+        "PackageContract",
+        "CalendarProfile",
+        "HistoricalClockProfile",
+        "BiologicalClockProfile",
+        "TemporalRatioProfile",
+        "HistoricalReconciliation",
+        "HistoricalEvidenceChronology",
+        "HistoricalUncertainty",
+        "HistoricalMemory",
+        "HistoricalMomentum",
+        "HistoricalEmergence",
+        "HistoricalSuiteAudit"
+      ],
+      "properties": {
+        "ProjectBible": {
+          "const": "2.4"
+        },
+        "DesignExpansionChecklist": {
+          "const": "3.7"
+        },
+        "BarcelonaRegistry": {
+          "const": "1.5.0"
+        },
+        "RegistryExactAudit": {
+          "const": "1.1.0"
+        },
+        "OpeningState": {
+          "const": "1.2.0"
+        },
+        "PackageContract": {
+          "const": "1.2.0"
+        },
+        "CalendarProfile": {
+          "const": "1.0.0"
+        },
+        "HistoricalClockProfile": {
+          "const": "1.0.0"
+        },
+        "BiologicalClockProfile": {
+          "const": "1.0.0"
+        },
+        "TemporalRatioProfile": {
+          "const": "1.0.0"
+        },
+        "HistoricalReconciliation": {
+          "const": "2.0.0"
+        },
+        "HistoricalEvidenceChronology": {
+          "const": "1.0.0"
+        },
+        "HistoricalUncertainty": {
+          "const": "1.1.0"
+        },
+        "HistoricalMemory": {
+          "const": "2.0.0"
+        },
+        "HistoricalMomentum": {
+          "const": "2.0.0"
+        },
+        "HistoricalEmergence": {
+          "const": "2.0.0"
+        },
+        "HistoricalSuiteAudit": {
+          "const": "1.2.0"
+        }
+      }
+    },
+    "authorityHashes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "minProperties": 3,
+      "required": [
+        "BarcelonaRegistry",
+        "RegistryExactAudit",
+        "OpeningState"
+      ],
+      "properties": {
+        "BarcelonaRegistry": {
+          "const": "b26c8b043696e4ca88d6b199a770decf664c9c5eaae416154eee5c767fc006c2"
+        },
+        "RegistryExactAudit": {
+          "const": "1616762643febe9f5bef7fc7d495a70d5576270e6a21eea3cdf77ac866c27803"
+        },
+        "OpeningState": {
+          "const": "a2070b1f0047f31c59ded2ed306c5541dbd1fbcf329a1107cc44c5ea639940ae"
+        }
+      }
+    },
+    "temporalBindings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "openingDate",
+        "currentSimulationDate",
+        "calendarProfileRef",
+        "calendarProfileVersion",
+        "historicalClockProfileRef",
+        "historicalClockProfileVersion",
+        "historicalClockStepMonths",
+        "historicalClockStepIndex",
+        "historicalElapsedMonths",
+        "nextHistoricalBoundary",
+        "biologicalClockProfileRef",
+        "biologicalClockProfileVersion",
+        "biologicalClockStepMonths",
+        "biologicalClockStepIndex",
+        "biologicalElapsedMonths",
+        "nextBiologicalBoundary",
+        "temporalRatioProfileRef",
+        "temporalRatioProfileVersion",
+        "biologicalStepsPerHistoricalStep",
+        "seasonResolutionPolicy",
+        "realmCadenceOverride",
+        "campaignSeasonProfileRef",
+        "campaignSeasonProfileVersion",
+        "campaignSeasonOpeningValue",
+        "campaignSeasonOrder",
+        "campaignSeasonStepsPerStrategicTurn",
+        "campaignSeasonStepIndex"
+      ],
+      "properties": {
+        "openingDate": {
+          "const": "1062-01-01"
+        },
+        "currentSimulationDate": {
+          "const": "1062-01-01"
+        },
+        "calendarProfileRef": {
+          "const": "calendar_profile.campaign.continuous.v1"
+        },
+        "calendarProfileVersion": {
+          "const": "1.0.0"
+        },
+        "historicalClockProfileRef": {
+          "const": "clock_profile.historical.21_months.v1"
+        },
+        "historicalClockProfileVersion": {
+          "const": "1.0.0"
+        },
+        "historicalClockStepMonths": {
+          "const": 21
+        },
+        "historicalClockStepIndex": {
+          "const": 0
+        },
+        "historicalElapsedMonths": {
+          "const": 0
+        },
+        "nextHistoricalBoundary": {
+          "const": "calendar_authority_plus_21_months"
+        },
+        "biologicalClockProfileRef": {
+          "const": "clock_profile.biological.7_months.v1"
+        },
+        "biologicalClockProfileVersion": {
+          "const": "1.0.0"
+        },
+        "biologicalClockStepMonths": {
+          "const": 7
+        },
+        "biologicalClockStepIndex": {
+          "const": 0
+        },
+        "biologicalElapsedMonths": {
+          "const": 0
+        },
+        "nextBiologicalBoundary": {
+          "const": "calendar_authority_plus_7_months"
+        },
+        "temporalRatioProfileRef": {
+          "const": "temporal_ratio.historical_1.biological_3.v1"
+        },
+        "temporalRatioProfileVersion": {
+          "const": "1.0.0"
+        },
+        "biologicalStepsPerHistoricalStep": {
+          "const": 3
+        },
+        "seasonResolutionPolicy": {
+          "const": "DateAndGeography"
+        },
+        "realmCadenceOverride": {
+          "const": false
+        },
+        "campaignSeasonProfileRef": {
+          "const": "campaign_season_profile.ordered_four_season.v1"
+        },
+        "campaignSeasonProfileVersion": {
+          "const": "1.0.0"
+        },
+        "campaignSeasonOpeningValue": {
+          "const": "Winter"
+        },
+        "campaignSeasonOrder": {
+          "const": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+          ]
+        },
+        "campaignSeasonStepsPerStrategicTurn": {
+          "const": 1
+        },
+        "campaignSeasonStepIndex": {
+          "const": 0
+        }
+      }
+    },
+    "applicationGuard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "requiredCampaignState",
+        "applyAtMostOnce",
+        "reapplyOnLoad",
+        "reapplyAfterMigration",
+        "reapplyToAdvancedSave",
+        "rejectIfOpeningStateAlreadyApplied",
+        "rejectIfHistoricalClockStepGreaterThanZero",
+        "rejectIfBiologicalClockStepGreaterThanZero",
+        "rejectIfCampaignSeasonStepGreaterThanZero",
+        "rejectIfAnyTemporalTrackHasAdvanced",
+        "rejectIfCurrentSimulationDateAfterOpeningDate",
+        "rejectIfMutableOwnerStateExists",
+        "atomicCommitRequired",
+        "receiptRequired",
+        "fatalFailureMutationCount"
+      ],
+      "properties": {
+        "requiredCampaignState": {
+          "const": "NewCampaignUninitialized"
+        },
+        "applyAtMostOnce": {
+          "const": true
+        },
+        "reapplyOnLoad": {
+          "const": false
+        },
+        "reapplyAfterMigration": {
+          "const": false
+        },
+        "reapplyToAdvancedSave": {
+          "const": false
+        },
+        "rejectIfOpeningStateAlreadyApplied": {
+          "const": true
+        },
+        "rejectIfHistoricalClockStepGreaterThanZero": {
+          "const": true
+        },
+        "rejectIfBiologicalClockStepGreaterThanZero": {
+          "const": true
+        },
+        "rejectIfCampaignSeasonStepGreaterThanZero": {
+          "const": true
+        },
+        "rejectIfAnyTemporalTrackHasAdvanced": {
+          "const": true
+        },
+        "rejectIfCurrentSimulationDateAfterOpeningDate": {
+          "const": true
+        },
+        "rejectIfMutableOwnerStateExists": {
+          "const": true
+        },
+        "atomicCommitRequired": {
+          "const": true
+        },
+        "receiptRequired": {
+          "const": true
+        },
+        "fatalFailureMutationCount": {
+          "const": 0
+        }
+      }
+    },
+    "records": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "factions",
+        "realms",
+        "titles",
+        "courts",
+        "dynasties",
+        "households",
+        "governanceDefinitions",
+        "regions",
+        "reviewRegions",
+        "settlements",
+        "sites",
+        "institutions",
+        "buildings",
+        "legalDefinitions",
+        "memoryDefinitions",
+        "momentumDefinitions",
+        "localEmergenceDefinitions",
+        "sharedEmergenceDefinitions",
+        "dynastyMemberships",
+        "spousePropositions",
+        "householdParticipation",
+        "characters",
+        "historicalPeople",
+        "networkEdges",
+        "offices",
+        "realmAIProfiles"
+      ],
+      "properties": {
+        "factions": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "factionId",
+              "activationState",
+              "realmRef",
+              "independenceAtOpening"
+            ],
+            "properties": {
+              "factionId": {
+                "const": "faction.county_barcelona"
+              },
+              "activationState": {
+                "const": "Active"
+              },
+              "realmRef": {
+                "const": "realm.county_barcelona"
+              },
+              "independenceAtOpening": {
+                "const": true
+              }
+            }
+          }
+        },
+        "realms": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "realmId",
+              "activationState",
+              "factionRef",
+              "primaryTitleRef",
+              "primaryCourtRef",
+              "dynastyRef",
+              "householdRef",
+              "governanceRef",
+              "rulerPersonRef"
+            ],
+            "properties": {
+              "realmId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "factionRef": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "primaryTitleRef": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "primaryCourtRef": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "dynastyRef": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "householdRef": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "governanceRef": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "rulerPersonRef": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "activationState": {
+                "const": "Active"
+              }
+            }
+          }
+        },
+        "titles": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "titleId",
+              "holderPersonId",
+              "effectiveFrom",
+              "holderState",
+              "successionStateRef"
+            ],
+            "properties": {
+              "titleId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "holderPersonId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "effectiveFrom": {
+                "const": "valid_on_or_before_1062_01_01"
+              },
+              "holderState": {
+                "const": "ActiveOpeningHolder"
+              },
+              "successionStateRef": {
+                "const": "omitted_reviewonly"
+              }
+            }
+          }
+        },
+        "courts": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "dynasties": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "households": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "governanceDefinitions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "regions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "reviewRegions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "settlements": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "sites": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "institutions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "buildings": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "legalDefinitions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "memoryDefinitions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "momentumDefinitions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "localEmergenceDefinitions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "sharedEmergenceDefinitions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+          }
+        },
+        "dynastyMemberships": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "personId",
+              "dynastyId",
+              "status"
+            ],
+            "properties": {
+              "personId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "dynastyId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "status": {
+                "const": "ActiveOpeningProposition"
+              }
+            }
+          }
+        },
+        "spousePropositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "sourcePersonId",
+              "targetPersonId",
+              "relationshipType",
+              "effectiveAtOpening",
+              "createsAlliance",
+              "createsCoRulership",
+              "createsTitleSharing",
+              "createsPropertySharing",
+              "createsNetworkSymmetry"
+            ],
+            "properties": {
+              "sourcePersonId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "targetPersonId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "relationshipType": {
+                "const": "spouse"
+              },
+              "effectiveAtOpening": {
+                "const": true
+              },
+              "createsAlliance": {
+                "const": false
+              },
+              "createsCoRulership": {
+                "const": false
+              },
+              "createsTitleSharing": {
+                "const": false
+              },
+              "createsPropertySharing": {
+                "const": false
+              },
+              "createsNetworkSymmetry": {
+                "const": false
+              }
+            }
+          }
+        },
+        "householdParticipation": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "personId",
+              "householdId",
+              "participation"
+            ],
+            "properties": {
+              "personId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "householdId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "participation": {
+                "const": "ActiveCandidate"
+              }
+            }
+          }
+        },
+        "characters": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "personId",
+              "lifecycleState",
+              "ageState",
+              "simulationTier",
+              "activationState",
+              "exactPhysicalLocation"
+            ],
+            "properties": {
+              "personId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "lifecycleState": {
+                "const": "Alive"
+              },
+              "ageState": {
+                "const": "Adult"
+              },
+              "simulationTier": {
+                "enum": [
+                  "TierA",
+                  "TierB"
+                ]
+              },
+              "activationState": {
+                "const": "Active"
+              },
+              "exactPhysicalLocation": {
+                "const": "Absent"
+              }
+            }
+          }
+        },
+        "historicalPeople": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "personId",
+              "lifecycleState",
+              "runtimeAgency"
+            ],
+            "properties": {
+              "personId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "lifecycleState": {
+                "const": "DeceasedBeforeOpening"
+              },
+              "runtimeAgency": {
+                "const": false
+              }
+            }
+          }
+        },
+        "networkEdges": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "edgeId",
+              "sourcePersonId",
+              "targetPersonId",
+              "knownIdentityAccess",
+              "spouseContextKnown",
+              "communicationAccess",
+              "personalDimensions"
+            ],
+            "properties": {
+              "edgeId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "sourcePersonId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "targetPersonId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "knownIdentityAccess": {
+                "const": "Confirmed"
+              },
+              "spouseContextKnown": {
+                "const": "Confirmed"
+              },
+              "communicationAccess": {
+                "const": "DirectContextCandidate"
+              },
+              "personalDimensions": {
+                "type": "object",
+                "maxProperties": 0
+              }
+            }
+          }
+        },
+        "offices": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "officeId",
+              "holderPersonId",
+              "institutionRef",
+              "jurisdictionRef",
+              "holderState"
+            ],
+            "properties": {
+              "officeId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "holderPersonId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "institutionRef": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "jurisdictionRef": {
+                "const": "omitted_reviewonly"
+              },
+              "holderState": {
+                "const": "ActiveOpeningHolder"
+              }
+            }
+          }
+        },
+        "realmAIProfiles": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "profileId",
+              "realmId",
+              "activationState",
+              "mutableDecisionState",
+              "pendingProposalRefs",
+              "acceptedCommandRefs",
+              "rejectedProposalRefs"
+            ],
+            "properties": {
+              "profileId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "realmId": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*(?:\\.[a-z0-9_]+)+$"
+              },
+              "activationState": {
+                "const": "ActiveDefinitionBinding"
+              },
+              "mutableDecisionState": {
+                "const": "Empty"
+              },
+              "pendingProposalRefs": {
+                "type": "array",
+                "maxItems": 0
+              },
+              "acceptedCommandRefs": {
+                "type": "array",
+                "maxItems": 0
+              },
+              "rejectedProposalRefs": {
+                "type": "array",
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "explicitEmptyCollections": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ActiveChildCharacterRecords",
+        "ActiveDelegationRecords",
+        "ActiveCastleCommandRecords",
+        "ActiveViscountHolderRecords",
+        "ActiveAdministrativeMandates",
+        "ActivePracticalCapacityRecords",
+        "ActivePropertyControlRecords",
+        "ActiveAgreementDefinitions",
+        "ActiveAgreementInstances",
+        "ActivePariaAgreements",
+        "OpeningPariaIncomeRecords",
+        "OpeningArrearsRecords",
+        "OpeningProtectionRecords",
+        "OpeningSafeConductRecords",
+        "ActiveRouteRecords",
+        "ActiveRouteAccessRecords",
+        "ActiveExternalAccessRecords",
+        "ActiveSafeConductRecords",
+        "ActivePortCapacityRecords",
+        "ActivePropertyRecords",
+        "ActiveTreasuryRecords",
+        "ActiveRevenueRecords",
+        "ActiveTaxRecords",
+        "ActiveTollRecords",
+        "ActiveMarketRightRecords",
+        "ActiveDebtRecords",
+        "ActiveDonationRecords",
+        "ActiveChurchPropertyRecords",
+        "ActiveArmyRecords",
+        "ActiveFleetRecords",
+        "ActiveForceRecords",
+        "ActiveCommanderAssignments",
+        "ActiveGarrisonRecords",
+        "ActiveLevyRecords",
+        "ActiveRetinueRecords",
+        "ActiveSupplyRecords",
+        "ActiveMilitaryAccessRecords",
+        "ActiveReadinessRecords",
+        "ActiveHistoricalMemoryInstances",
+        "ActiveHistoricalMomentumInstances",
+        "ActiveLocalEmergenceInstances",
+        "ActiveSharedEmergenceInstances",
+        "PendingEmergenceProposals",
+        "GrantedLocalConsents",
+        "GrantedExternalConsents",
+        "CommittedEmergenceResources",
+        "PreloadedEmergenceOutcomes",
+        "ActiveQuarantineRecords",
+        "ActiveDeprecatedRecords",
+        "ActiveProhibitedAliasRecords",
+        "ActiveHistoricalPropositionRecords",
+        "ActiveHistoricalEvidenceRecords",
+        "ActiveHistoricalChronologyRecords",
+        "ActiveHistoricalContradictionRecords",
+        "ActiveHistoricalUncertaintyRecords",
+        "SelectedOpeningUncertaintyAlternatives",
+        "AppliedOpeningUncertaintyReceipts"
+      ],
+      "properties": {
+        "ActiveChildCharacterRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveDelegationRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveCastleCommandRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveViscountHolderRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveAdministrativeMandates": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActivePracticalCapacityRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActivePropertyControlRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveAgreementDefinitions": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveAgreementInstances": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActivePariaAgreements": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "OpeningPariaIncomeRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "OpeningArrearsRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "OpeningProtectionRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "OpeningSafeConductRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveRouteRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveRouteAccessRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveExternalAccessRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveSafeConductRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActivePortCapacityRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActivePropertyRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveTreasuryRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveRevenueRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveTaxRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveTollRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveMarketRightRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveDebtRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveDonationRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveChurchPropertyRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveArmyRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveFleetRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveForceRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveCommanderAssignments": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveGarrisonRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveLevyRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveRetinueRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveSupplyRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveMilitaryAccessRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveReadinessRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveHistoricalMemoryInstances": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveHistoricalMomentumInstances": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveLocalEmergenceInstances": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveSharedEmergenceInstances": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "PendingEmergenceProposals": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "GrantedLocalConsents": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "GrantedExternalConsents": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "CommittedEmergenceResources": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "PreloadedEmergenceOutcomes": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveQuarantineRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveDeprecatedRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveProhibitedAliasRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveHistoricalPropositionRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveHistoricalEvidenceRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveHistoricalChronologyRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveHistoricalContradictionRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "ActiveHistoricalUncertaintyRecords": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "SelectedOpeningUncertaintyAlternatives": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "AppliedOpeningUncertaintyReceipts": {
+          "type": "array",
+          "maxItems": 0
+        }
+      }
+    },
+    "externalLockRefs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^external\\."
+      }
+    },
+    "reviewOnlyRefs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^review\\."
+      }
+    },
+    "quarantineRefs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^quarantine\\."
+      }
+    },
+    "prohibitedRefs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "contains": {
+        "const": "Barcelona_Historical_Uncertainty_Register_V1_Developed_Realm_Parity_Authority.md"
+      },
+      "minContains": 0,
+      "maxContains": 0
+    },
+    "declaredManifestCounts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ActiveFactions",
+        "ActiveRealms",
+        "ActivePrimaryTitles",
+        "ActiveCourts",
+        "ActiveDynastyDefinitions",
+        "ActiveHouseholdDefinitions",
+        "ActiveLivingCharacters",
+        "HistoricalOnlyCharacterDefinitions",
+        "ActiveChildCharacters",
+        "ActiveNetworkEdges",
+        "ActiveGovernanceDefinitions",
+        "ActiveRegionDefinitions",
+        "ReviewOnlyRegionDefinitions",
+        "ActiveSettlementDefinitions",
+        "ActiveCathedralSites",
+        "ActiveCathedralInstitutions",
+        "ActiveCathedralBuildings",
+        "ActiveBishopOffices",
+        "ActiveDelegations",
+        "ActiveAgreements",
+        "ActiveRoutes",
+        "ActivePropertyRecords",
+        "ActiveMilitaryForces",
+        "ActiveAIProfiles",
+        "HistoricalMemoryDefinitions",
+        "HistoricalMemoryInstances",
+        "HistoricalMomentumDefinitions",
+        "HistoricalMomentumInstances",
+        "LocalEmergenceDefinitions",
+        "SharedEmergenceDefinitionRefs",
+        "ActiveEmergenceInstances",
+        "ExternalConsents",
+        "PreloadedOutcomes",
+        "ActiveHistoricalPropositionRecords",
+        "ActiveHistoricalEvidenceRecords",
+        "ActiveHistoricalChronologyRecords",
+        "ActiveHistoricalContradictionRecords",
+        "ActiveHistoricalUncertaintyRecords",
+        "SelectedOpeningUncertaintyAlternatives",
+        "AppliedOpeningUncertaintyReceipts",
+        "HistoricalClockStepMonths",
+        "BiologicalClockStepMonths",
+        "BiologicalStepsPerHistoricalStep",
+        "CampaignSeasonStepsPerStrategicTurn",
+        "HistoricalClockStepIndex",
+        "BiologicalClockStepIndex",
+        "CampaignSeasonStepIndex",
+        "RealmCadenceOverrides"
+      ],
+      "properties": {
+        "ActiveFactions": {
+          "const": 1
+        },
+        "ActiveRealms": {
+          "const": 1
+        },
+        "ActivePrimaryTitles": {
+          "const": 1
+        },
+        "ActiveCourts": {
+          "const": 1
+        },
+        "ActiveDynastyDefinitions": {
+          "const": 1
+        },
+        "ActiveHouseholdDefinitions": {
+          "const": 1
+        },
+        "ActiveLivingCharacters": {
+          "const": 3
+        },
+        "HistoricalOnlyCharacterDefinitions": {
+          "const": 2
+        },
+        "ActiveChildCharacters": {
+          "const": 0
+        },
+        "ActiveNetworkEdges": {
+          "const": 2
+        },
+        "ActiveGovernanceDefinitions": {
+          "const": 1
+        },
+        "ActiveRegionDefinitions": {
+          "const": 3
+        },
+        "ReviewOnlyRegionDefinitions": {
+          "const": 1
+        },
+        "ActiveSettlementDefinitions": {
+          "const": 4
+        },
+        "ActiveCathedralSites": {
+          "const": 1
+        },
+        "ActiveCathedralInstitutions": {
+          "const": 1
+        },
+        "ActiveCathedralBuildings": {
+          "const": 1
+        },
+        "ActiveBishopOffices": {
+          "const": 1
+        },
+        "ActiveDelegations": {
+          "const": 0
+        },
+        "ActiveAgreements": {
+          "const": 0
+        },
+        "ActiveRoutes": {
+          "const": 0
+        },
+        "ActivePropertyRecords": {
+          "const": 0
+        },
+        "ActiveMilitaryForces": {
+          "const": 0
+        },
+        "ActiveAIProfiles": {
+          "const": 1
+        },
+        "HistoricalMemoryDefinitions": {
+          "const": 5
+        },
+        "HistoricalMemoryInstances": {
+          "const": 0
+        },
+        "HistoricalMomentumDefinitions": {
+          "const": 6
+        },
+        "HistoricalMomentumInstances": {
+          "const": 0
+        },
+        "LocalEmergenceDefinitions": {
+          "const": 5
+        },
+        "SharedEmergenceDefinitionRefs": {
+          "const": 1
+        },
+        "ActiveEmergenceInstances": {
+          "const": 0
+        },
+        "ExternalConsents": {
+          "const": 0
+        },
+        "PreloadedOutcomes": {
+          "const": 0
+        },
+        "ActiveHistoricalPropositionRecords": {
+          "const": 0
+        },
+        "ActiveHistoricalEvidenceRecords": {
+          "const": 0
+        },
+        "ActiveHistoricalChronologyRecords": {
+          "const": 0
+        },
+        "ActiveHistoricalContradictionRecords": {
+          "const": 0
+        },
+        "ActiveHistoricalUncertaintyRecords": {
+          "const": 0
+        },
+        "SelectedOpeningUncertaintyAlternatives": {
+          "const": 0
+        },
+        "AppliedOpeningUncertaintyReceipts": {
+          "const": 0
+        },
+        "HistoricalClockStepMonths": {
+          "const": 21
+        },
+        "BiologicalClockStepMonths": {
+          "const": 7
+        },
+        "BiologicalStepsPerHistoricalStep": {
+          "const": 3
+        },
+        "CampaignSeasonStepsPerStrategicTurn": {
+          "const": 1
+        },
+        "HistoricalClockStepIndex": {
+          "const": 0
+        },
+        "BiologicalClockStepIndex": {
+          "const": 0
+        },
+        "CampaignSeasonStepIndex": {
+          "const": 0
+        },
+        "RealmCadenceOverrides": {
+          "const": 0
+        }
+      }
+    },
+    "compatibilityReceiptRefs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "sourceManifestHash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "allOf": [
+    {
+      "not": {
+        "properties": {
+          "prohibitedRefs": {
+            "contains": {
+              "const": "Barcelona_Historical_Uncertainty_Register_V1_Developed_Realm_Parity_Authority.md"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "static_check_id": "StaticCheck.DynastyAuthority.Realm.Barcelona.V2.Current",
+  "document": "Barcelona_Dynasty_Authority_V2_Eight_Profile_Integrated_Current_Authority.md",
+  "version": "2.0.0",
+  "result": "Pass",
+  "immediate_predecessor": "Barcelona_Dynasty_Authority_V2_Eight_Profile_Integrated_Draft.md",
+  "predecessor_bytes": 66356,
+  "predecessor_physical_lines": 1820,
+  "predecessor_sha256": "cbc05ba3445443975c2bb10e1f7eecbfc6f92f4549f2deab99495767eacd9041",
+  "successor_bytes": 69040,
+  "successor_physical_lines": 1865,
+  "successor_sha256": "e7192d61244d18b38b831fe38d319eebf5358fce1f6f8db5298d66b6b18b1a4f",
+  "checks": {
+    "v1_source_marker_once": true,
+    "part_ii_present": true,
+    "current_gate_present": true,
+    "owner_resolution_present": true,
+    "handoff_present": true,
+    "five_children": true,
+    "three_tracks": true,
+    "stable_footer_once": true,
+    "final_marker_once": true,
+    "no_registry_mutation": true,
+    "no_opening_mutation": true,
+    "no_unreal_mutation": true
+  },
+  "mutation_receipt": {
+    "source_files_overwritten": 0,
+    "source_files_deleted": 0,
+    "registry_entries_created_or_modified": 0,
+    "opening_state_records_created_or_modified": 0,
+    "character_activations": 0,
+    "parentage_activations": 0,
+    "dynasty_membership_activations": 0,
+    "relationship_activations": 0,
+    "title_property_or_succession_mutations": 0,
+    "runtime_instances_created": 0,
+    "unreal_files_modified": 0,
+    "real_payload_imports": 0
+  },
+  "validation_scope": "Static owner acceptance, current-authority promotion, preservation, downstream routing, and nonmutation checks only. No compile, runtime, save/load, migration, replay, battle, balance, performance, or Unreal validation."
+}

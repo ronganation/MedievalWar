@@ -1,0 +1,163 @@
+{
+  "ArtifactId": "Seville_Taifa_Opening_State_1062_V1_Importer_Validation_Report",
+  "InternalVersion": "1.0.0",
+  "StaticCheckVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_VALIDATE_ONLY_PREFLIGHT_REPORT_CURRENT_FIXTURE_EXECUTION_NOT_RUN",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceReport": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Importer_Validation_Report.md",
+    "InternalVersion": "1.0.0",
+    "RecordedBytes": 12258,
+    "RecordedSHA256": "93ddfd712f4c9ffa9e5d0642c115b7ccb528b62c72bbe9cd899223995b41dfbf",
+    "HashDisposition": "RECORDED_FROM_GENERATION_RECEIPT_REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "AuthorityAlignment": {
+    "OpeningStateAuthorityInternalVersion": "1.3.0",
+    "MachineReadableContractInternalVersion": "1.2.0",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "OpeningDate": "1062-01-01",
+    "OpeningCampaignSeason": "Winter",
+    "HistoricalProgressionMonthsPerStrategicTurn": 21,
+    "BiologicalProgressionMonthsPerStrategicTurn": 7,
+    "CampaignSeasonAdvancePerStrategicTurn": 1
+  },
+  "OpeningStateCardinality": {
+    "OwnerRoutingRequests": 18,
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11,
+    "RetainedExplicitEmptyCollections": 51,
+    "AdditiveExplicitEmptyCollections": 19,
+    "TotalExplicitEmptyCollections": 70,
+    "UnsupportedActiveInstancesCreated": 0
+  },
+  "StaticPreflightVerification": {
+    "ReportStructurePresent": true,
+    "AuthorityControlPresent": true,
+    "InputBundleDeclared": true,
+    "ProtectedOpeningFactsDeclared": true,
+    "StaticPreflightEvidenceDeclared": true,
+    "OpeningFixtureSuiteDeclared": true,
+    "DefinitionFixtureSuiteDeclared": true,
+    "ValidateOnlyProcedureDeclared": true,
+    "PerFixtureRecordContractDeclared": true,
+    "AcceptanceCriteriaDeclared": true,
+    "FailureAndRollbackContractDeclared": true,
+    "ImporterBoundaryDeclared": true,
+    "UE58BoundaryDeclared": true,
+    "PromotionDecisionDeclared": true,
+    "StableFooterPresent": true,
+    "EscapedUnderscoresFound": 0,
+    "MarkdownFenceBalance": "PASS"
+  },
+  "ValidationEvidence": {
+    "OpeningPayloadJSONParsed": true,
+    "OpeningPayloadSchemaErrors": 0,
+    "DefinitionManifestJSONParsed": true,
+    "DefinitionManifestSchemaErrors": 0,
+    "OpeningRequestIdParity": "PASS",
+    "OpeningStableOrderKeyParity": "PASS",
+    "EvidenceClass": "STATIC_AND_SCHEMA_PREFLIGHT_ONLY"
+  },
+  "FixtureGate": {
+    "OpeningFixtureDefinitions": 39,
+    "OpeningFixturesExecuted": 0,
+    "OpeningFixturesPassed": 0,
+    "OpeningFixturesFailed": 0,
+    "OpeningStatus": "NOT_RUN_0_OF_39",
+    "DefinitionFixtureDefinitions": 29,
+    "DefinitionFixturesExecuted": 0,
+    "DefinitionFixturesPassed": 0,
+    "DefinitionFixturesFailed": 0,
+    "DefinitionStatus": "NOT_RUN_0_OF_29",
+    "CurrentFullFixturePassClaimed": false,
+    "Predecessor22Of22AppliedToCurrentHashes": false,
+    "Predecessor29Of29AppliedToCurrentHashes": false
+  },
+  "MutationBoundary": {
+    "RegistryRowsChanged": 0,
+    "RuntimeInstancesCreated": 0,
+    "RealCampaignPayloadApplied": false,
+    "OwnerCommandsCommitted": false,
+    "OpeningReceiptWritten": false,
+    "AdvancedSavesModified": 0,
+    "UnrealFilesModified": 0
+  },
+  "ValidationNotClaimed": {
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "AccessibilityValidated": false,
+    "LocalizationValidated": false,
+    "VisualSourceValidated": false,
+    "BattleValidated": false,
+    "BalanceValidated": false
+  },
+  "PromotionGate": {
+    "StaticPreflightAccepted": true,
+    "CurrentFixtureGatePassed": false,
+    "CurrentDisposition": "BLOCKED_PENDING_CURRENT_VALIDATE_ONLY_EXECUTION",
+    "RegistryMutationAuthorized": false,
+    "RealPayloadApplicationAuthorized": false,
+    "AdvancedSaveMutationAuthorized": false,
+    "BroadUnrealPromotionAuthorized": false
+  },
+  "RequiredExecutionGate": {
+    "InputArtifactsPresentRequired": 19,
+    "DuplicateFilenameAmbiguityRequired": 0,
+    "JSONSyntaxErrorsRequired": 0,
+    "OpeningSchemaErrorsRequired": 0,
+    "DefinitionSchemaErrorsRequired": 0,
+    "OpeningFixturesExecutedRequired": 39,
+    "OpeningFixturesPassedRequired": 39,
+    "OpeningFixturesFailedRequired": 0,
+    "DefinitionFixturesExecutedRequired": 29,
+    "DefinitionFixturesPassedRequired": 29,
+    "DefinitionFixturesFailedRequired": 0,
+    "FatalFixtureMutationCountRequired": 0,
+    "UnexpectedAuthoritativeMutationsRequired": 0,
+    "RequestIdMismatchesRequired": 0,
+    "StableOrderMismatchesRequired": 0,
+    "DeterminismMismatchesRequired": 0
+  },
+  "RollbackVerification": {
+    "CommitAuthoritativeState": false,
+    "DiscardStagedOwnerResponsesOnFailure": true,
+    "RestorePristineSnapshotOnFailure": true,
+    "PreserveFailureEvidence": true,
+    "AutomaticRetryAuthorized": false,
+    "OwnerReviewRequiredBeforeRetry": true
+  },
+  "OwnerGate": {
+    "ValidationOwnerRequired": true,
+    "RegistryOwnerRequired": true,
+    "CampaignDataArchitectureOwnerRequired": true,
+    "OwnerApprovalRecorded": false
+  },
+  "StaticCheckResults": {
+    "AuthorityAlignment": "PASS",
+    "CardinalityAlignment": "PASS",
+    "CurrentAndPredecessorEvidenceSeparated": "PASS",
+    "ValidationClaimsBounded": "PASS",
+    "MutationBoundaryPreserved": "PASS",
+    "RollbackContractPresent": "PASS",
+    "PromotionBoundaryPreserved": "PASS",
+    "FatalIssues": 0,
+    "Warnings": 1,
+    "WarningCodes": [
+      "SEV_IMPORT_VALIDATION_CURRENT_FIXTURE_EXECUTION_NOT_RUN"
+    ],
+    "Overall": "PASS_STATIC_ONLY_FIXTURE_GATE_OPEN"
+  },
+  "NextAction": "Reverify the source-report hash after OneDrive placement, freeze the nineteen-input bundle, execute all 39 Opening fixtures and all 29 Definition fixtures read-only, record zero-mutation and deterministic evidence, and update the stable validation report from actual execution only."
+}

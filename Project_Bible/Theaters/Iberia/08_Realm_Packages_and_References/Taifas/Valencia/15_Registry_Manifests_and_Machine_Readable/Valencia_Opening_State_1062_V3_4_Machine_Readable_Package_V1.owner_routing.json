@@ -1,0 +1,188 @@
+{
+  "routing_id": "owner_routing.opening_state.valencia.1062.v3_4.package_v1.copy_first_rebuild",
+  "version": "1.1.0",
+  "package_id": "opening_state.valencia.1062.v3_4.package_v1",
+  "routes": [
+    {
+      "route_id": "OWN_001",
+      "object_or_field_pattern": "people.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "CharacterRegistryOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_002",
+      "object_or_field_pattern": "dynasty_and_households.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "DynastyAndHouseholdOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_003",
+      "object_or_field_pattern": "offices_and_appointments.offices.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "GovernmentAndTitleOwners",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_004",
+      "object_or_field_pattern": "offices_and_appointments.appointments.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "GovernmentOwnerPlusCharacterOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_005",
+      "object_or_field_pattern": "communities_and_institutions.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "CommunitiesAndInstitutionOwners",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_006",
+      "object_or_field_pattern": "sites_regions_routes_and_infrastructure.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "TerritoryLogisticsAndMapOwners",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_007",
+      "object_or_field_pattern": "forces_recruitment_command_and_supply.force_families.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "MilitaryDefinitionOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_008",
+      "object_or_field_pattern": "forces_recruitment_command_and_supply.force_instances.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "MilitaryRuntimeOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_009",
+      "object_or_field_pattern": "forces_recruitment_command_and_supply.recruitment_pools.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "RecruitmentPopulationEquipmentAndRegionOwners",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_010",
+      "object_or_field_pattern": "economy_resources_and_stocks.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "ValenciaEconomyOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_011",
+      "object_or_field_pattern": "diplomacy_knowledge_and_external_locks.relations.*.external_lock",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "ExternalRealmOwners",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_012",
+      "object_or_field_pattern": "diplomacy_knowledge_and_external_locks.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "ValenciaDiplomacyOwnerForLocalSideOnly",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_013",
+      "object_or_field_pattern": "realm_personality_ai_and_explanation.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "ValenciaRealmPersonalityAIOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_014",
+      "object_or_field_pattern": "presentation_localization_and_accessibility.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "ValenciaPresentationOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_015",
+      "object_or_field_pattern": "historical_systems.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "HistoricalSystemsOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_016",
+      "object_or_field_pattern": "opening_problems.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "OpeningStateOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_017",
+      "object_or_field_pattern": "identity_bindings.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "CanonicalRegistryOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    },
+    {
+      "route_id": "OWN_018",
+      "object_or_field_pattern": "transaction_policy.*",
+      "requesting_owner": "ValenciaOpeningStateOwner",
+      "authoritative_owner": "OpeningStateRuntimeOwner",
+      "request_type": "ResolveOrValidate",
+      "required_receipt_type": "OwnerDispositionReceipt",
+      "failure_behavior": "RejectOrQuarantineByRequiredness",
+      "fallback_behavior": "PreserveDefinitionUnknownExternalLockOrQuarantineWithoutInvention"
+    }
+  ],
+  "mutation_authorized": false
+}

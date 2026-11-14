@@ -1,0 +1,28 @@
+{
+  "document_id": "manifest.england.personality.v1_1.current_authority_refinement",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Personality_V1.1_Current_Authority_Refinement.md",
+      "sha256": "b16e94af21d0aad0db106d296b12a3a01fa2190464350bb70ad37593ed7b3b43",
+      "bytes": 52232
+    },
+    {
+      "filename": "England_Personality_V1.1_Current_Authority_Refinement_Static_Check.json",
+      "sha256": "d65d768e3e7a80f9d65bb73779f06303dc031b7ce48f4d65a7c43c08e8a3706c",
+      "bytes": 664
+    }
+  ],
+  "authorizations": {
+    "source_overwrite": false,
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "realm_AI_objective_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

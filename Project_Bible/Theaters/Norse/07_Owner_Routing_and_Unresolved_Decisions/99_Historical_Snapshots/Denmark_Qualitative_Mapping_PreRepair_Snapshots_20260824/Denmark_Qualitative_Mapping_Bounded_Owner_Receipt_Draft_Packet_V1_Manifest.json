@@ -1,0 +1,60 @@
+{
+  "manifest_id": "manifest.denmark.qualitative_mapping.owner_receipt_draft_packet.v1",
+  "version": "1.0.0",
+  "status": "PASS_SUBMITTED_UNVALIDATED_DRAFT_PACKET_STATIC_CHECK",
+  "artifact_count": 6,
+  "hashed_artifact_count": 5,
+  "manifest_self_hash_policy": "ExcludedToAvoidRecursiveHash",
+  "entries": [
+    {
+      "stable_order": 10,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_10_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 2803,
+      "lines": 71,
+      "sha256": "6EF5439140E3048C8F028052C77525A09CB88271F559CCF27D59B27D765D5DDC"
+    },
+    {
+      "stable_order": 20,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_30_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 2664,
+      "lines": 62,
+      "sha256": "ABD402D93918F09DFA1261DADBCE2D2109912FFB56E91D460AC30AE05904B7A7"
+    },
+    {
+      "stable_order": 30,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_40_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 2672,
+      "lines": 65,
+      "sha256": "4CE5A718D5C107BE740FEAF8B0C6404FB62B06AB3965334B0AA22237F179770F"
+    },
+    {
+      "stable_order": 40,
+      "filename": "Denmark_Qualitative_Mapping_Owner_Receipt_Draft_Request_60_V1_SUBMITTED_UNVALIDATED.json",
+      "bytes": 2668,
+      "lines": 62,
+      "sha256": "E267770243FD2E38B56F0EDFE95CB6166E1BA55C797AFE4C876213D91C87528E"
+    },
+    {
+      "stable_order": 50,
+      "filename": "Denmark_Qualitative_Mapping_Bounded_Owner_Receipt_Draft_Packet_V1.md",
+      "bytes": 2443,
+      "lines": 79,
+      "sha256": "F7D7984AA39647A2C69BD19E515CD74755AAD4A85D52F70EE8F6EDC7353EA06B"
+    }
+  ],
+  "checks": {
+    "draft_count_exactly_4": true,
+    "request_ids_exactly_10_30_40_60": true,
+    "all_status_submitted_unvalidated": true,
+    "all_owner_unsigned": true,
+    "all_ledger_updates_closed": true,
+    "all_implementation_closed": true,
+    "all_runtime_mutation_closed": true,
+    "request_20_not_drafted": true,
+    "request_50_not_drafted": true,
+    "request_70_not_drafted": true,
+    "no_numeric_mapping_values_invented": true,
+    "no_atomic_rollback_contract_invented": true,
+    "markdown_fences_balanced": true
+  }
+}

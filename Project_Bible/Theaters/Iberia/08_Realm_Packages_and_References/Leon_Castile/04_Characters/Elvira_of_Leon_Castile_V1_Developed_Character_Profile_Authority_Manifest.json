@@ -1,0 +1,31 @@
+{
+  "document_id": "Manifest.CharacterProfile.LeonCastile.Elvira.V1",
+  "authority_file": "Elvira_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-07",
+  "placement": "Leon_Castile/Character_Profiles",
+  "bytes": 46241,
+  "physical_lines": 990,
+  "sha256": "F7607B9C1F609E6109DAB4ED4EBF2F1E9DFF1D0ABDFDE0AC9F422ABE7FE6D454",
+  "fence_count": 54,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "status": "StaticCheckedDevelopedCharacterProfileReviewOnly",
+  "benchmark_files": [
+    "Sancha_of_Leon_V1_Developed_Character_Profile_Authority.md",
+    "Urraca_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md",
+    "Anne_of_Kiev_V1_Developed_Character_Profile_Authority.md",
+    "Hawise_of_Brittany_V1_Developed_Character_Profile_Authority.md",
+    "Constance_of_Burgundy_V1_Developed_Character_Profile_Authority.md"
+  ],
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "next_action": "SevenProfileLeonCastileCharacterParityAndConsistencyAudit"
+}

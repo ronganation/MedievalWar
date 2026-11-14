@@ -1,0 +1,82 @@
+{
+  "ArtifactId": "Seville_Taifa_Visual_Identity_and_Faction_Presentation_V1",
+  "InternalVersion": "1.1.0",
+  "Status": "STATIC_CHECKED_CURRENT_VISUAL_IDENTITY_AND_FACTION_PRESENTATION_AUTHORITY",
+  "RealmId": "realm.seville",
+  "SourceSHA256": "cd8b8017f7f39649e132be9fb5e6f6f6b1822ce25f6cca32aee9e71009e128d8",
+  "SourceBytes": 52404,
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "RegistryModernization": "2.0.0",
+    "RealmAI": "1.1.0",
+    "Dynasty": "1.1.0",
+    "Geography": "1.1.0",
+    "Economy": "1.1.0",
+    "Military": "1.1.0",
+    "Diplomacy": "1.1.0"
+  },
+  "Counts": {
+    "VisualIdentityProfiles": 1,
+    "FactionSelectionProfiles": 1,
+    "PresentationGrammarProfiles": 1,
+    "SettlementRoleIconDefinitions": 7,
+    "StrategicOverlayDefinitions": 9,
+    "OpeningAlertDefinitions": 8,
+    "FinalizedHeraldryAssets": 0,
+    "FinalizedBannerAssets": 0,
+    "FinalizedPortraitAssets": 0,
+    "FinalizedUniformAssets": 0,
+    "FinalizedArchitectureSets": 0,
+    "ExactApprovedColorValues": 0,
+    "FinalizedCalligraphyAssets": 0,
+    "PresentationMutations": 0
+  },
+  "Protections": {
+    "VisualEvidenceManifestRequired": true,
+    "GeneratedArtIsHistoricalEvidence": false,
+    "ColorOnlyCommunicationAllowed": false,
+    "DisplayNameMayBeSaveKey": false,
+    "AlMutamidFormalHeirPresentationAllowed": false,
+    "VisualStateMayMutateGameplay": false
+  },
+  "TemporalContract": {
+    "HistoricalProgressionMonths": 21,
+    "BiologicalProgressionMonths": 7,
+    "CampaignSeasonOpening": "Winter",
+    "CampaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "SeasonStepsPerStrategicTurn": 1
+  },
+  "CopyFirstLedger": {
+    "OriginalNumberedSectionsReviewed": 50,
+    "OriginalNumberedSectionsRetained": 50,
+    "RemovedSubstantiveSections": 0,
+    "RemovedVisualProfiles": 0,
+    "RemovedSettlementRoleIcons": 0,
+    "RemovedStrategicOverlays": 0,
+    "RemovedOpeningAlerts": 0,
+    "RemovedValidationTests": 0
+  },
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "CopyFirstCompletenessChecked": true,
+    "DevelopedRealmAuthorityInterfacesChecked": true,
+    "VisualSourceValidated": false,
+    "AccessibilityValidated": false,
+    "LocalizationValidated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "NextAction": "Create Seville_Taifa_Faction_Package_Integration_and_Readiness_V1.md for folder-level gap analysis."
+}

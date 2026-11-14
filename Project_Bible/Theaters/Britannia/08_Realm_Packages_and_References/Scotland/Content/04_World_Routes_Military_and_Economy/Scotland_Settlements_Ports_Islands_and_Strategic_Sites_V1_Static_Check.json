@@ -1,0 +1,27 @@
+{
+  "file": "Scotland_Settlements_Ports_Islands_and_Strategic_Sites_V1.md",
+  "bytes": 66144,
+  "lines": 1705,
+  "sha256": "325b7e13dcc989629037f6b71d2769a3a182f0188a2c831f7a1443f3adc56c7a",
+  "sections": 52,
+  "checks": {
+    "large_enough": true,
+    "sections_at_least_50": true,
+    "st_andrews_present": true,
+    "scone_review_only": true,
+    "dunfermline_present": true,
+    "moray_uncertainty": true,
+    "gille_quarantine": true,
+    "island_locks": true,
+    "port_schema": true,
+    "intentional_empty": true,
+    "temporal_tracks": true,
+    "validations_false": true,
+    "authorizations_false": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true
+  },
+  "passed": true,
+  "failed": []
+}

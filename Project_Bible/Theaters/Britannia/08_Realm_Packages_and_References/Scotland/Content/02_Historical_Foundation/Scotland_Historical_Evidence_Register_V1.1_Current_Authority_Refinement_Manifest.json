@@ -1,0 +1,107 @@
+{
+  "document_id": "manifest.scotland.historical-evidence-register.v1.1.current-authority-refinement",
+  "version": "1.1.0",
+  "immediate_source": {
+    "filename": "Scotland_Historical_Evidence_Register_V1.md",
+    "bytes": 39094,
+    "physical_lines": 867,
+    "sha256": "3e17f7c70d9c0d629ce5605538156019ee83175e945659ba9fe02f4c28f4b2d1",
+    "complete_source_verified": true,
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Scotland_Historical_Evidence_Register_V1.1_Current_Authority_Refinement.md",
+    "bytes": 63513,
+    "physical_lines": 1407,
+    "sha256": "4304e74448c207303c247be455e7afacfc536a9bd3b4c0719e4d9ca14790ffb6"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_fidelity_result": "pass",
+    "source_headings_preserved": 55,
+    "source_evidence_ids_preserved": [
+      "EV-SCOT-001",
+      "EV-SCOT-002",
+      "EV-SCOT-003",
+      "EV-SCOT-004",
+      "EV-SCOT-005",
+      "EV-SCOT-006",
+      "EV-SCOT-007",
+      "EV-SCOT-008",
+      "EV-SCOT-009",
+      "EV-SCOT-010",
+      "EV-SCOT-011",
+      "EV-SCOT-012",
+      "EV-SCOT-013",
+      "EV-SCOT-014",
+      "EV-SCOT-015",
+      "EV-SCOT-016",
+      "EV-SCOT-017",
+      "EV-SCOT-018",
+      "EV-SCOT-019",
+      "EV-SCOT-020"
+    ],
+    "source_exclusion_ids_preserved": [
+      "EX-SCOT-001",
+      "EX-SCOT-002",
+      "EX-SCOT-003",
+      "EX-SCOT-004",
+      "EX-SCOT-005",
+      "EX-SCOT-006",
+      "EX-SCOT-007",
+      "EX-SCOT-008"
+    ],
+    "source_contradiction_ids_preserved": [
+      "CON-SCOT-001",
+      "CON-SCOT-002",
+      "CON-SCOT-003",
+      "CON-SCOT-004",
+      "CON-SCOT-005"
+    ],
+    "source_dependency_ids_preserved": [
+      "DEP-SCOT-001",
+      "DEP-SCOT-002",
+      "DEP-SCOT-003",
+      "DEP-SCOT-004",
+      "DEP-SCOT-005",
+      "DEP-SCOT-006",
+      "DEP-SCOT-007"
+    ],
+    "removed_content": []
+  },
+  "additions": {
+    "new_external_source_records": 1,
+    "new_evidence_records": [
+      "EV-SCOT-021",
+      "EV-SCOT-022",
+      "EV-SCOT-023"
+    ],
+    "new_contradiction_record": "CON-SCOT-006",
+    "new_dependencies": [
+      "DEP-SCOT-008",
+      "DEP-SCOT-009"
+    ],
+    "superseded_in_part": [
+      "EV-SCOT-010",
+      "CON-SCOT-005"
+    ],
+    "additional_validation_cases": 12,
+    "supported_opening_person_interfaces_without_replacement": 7,
+    "replacement_person_created": false
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "source_deletion": false,
+    "source_archival": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false,
+    "replacement_character": false,
+    "character_deletion": false
+  },
+  "static_check": {
+    "filename": "Scotland_Historical_Evidence_Register_V1.1_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

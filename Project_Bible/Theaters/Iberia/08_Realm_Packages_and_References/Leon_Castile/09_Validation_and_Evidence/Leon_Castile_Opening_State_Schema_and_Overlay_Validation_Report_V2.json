@@ -1,0 +1,179 @@
+{
+  "ReportId": "report.leon_castile.opening_state.schema_overlay.v2",
+  "ReportVersion": "1.0.0",
+  "GeneratedOn": "2026-09-08",
+  "Status": "PASS_STATIC_DERIVED_VALIDATION_WITH_PROMOTION_BLOCK",
+  "Scope": {
+    "CanonicalPayload": "Leon_Castile_Opening_State_1062_V2.json",
+    "Schema": "Leon_Castile_Opening_State_Package_Schema_V2.json",
+    "Overlays": [
+      "Leon_Castile_Opening_State_1062_Sancho_Overlay_V2.json",
+      "Leon_Castile_Opening_State_1062_Alfonso_Overlay_V2.json",
+      "Leon_Castile_Opening_State_1062_Garcia_Overlay_V2.json"
+    ]
+  },
+  "ArtifactHashes": {
+    "CanonicalPayloadSha256": "9fa0885f4a84eadfadfdc297a0870e680c4f14a01b653b67d9b67a6a7abfd80f",
+    "SchemaRecordedSha256": "d76fc2ecfe743ef47516ce0096f921f155cfa83de3518f22892f6c4e0ea1b39b",
+    "SanchoOverlaySha256": "4e6c7f57e8f246b65a3213fde203500724e7a12c3313733b4bd24034a00425cb",
+    "AlfonsoOverlaySha256": "62a95feb4033a994301b092bce5ee639e09ecf117aa546a8f8da50a0d0d10e5b",
+    "GarciaOverlaySha256": "52a6475aa6c558d3fc32012207d9a6d52fad71d1d62a209753ea7cac13e3af83"
+  },
+  "PayloadChecks": {
+    "JsonParsePass": true,
+    "PayloadHashMatchesRecorded": true,
+    "PackageIdentityExact": true,
+    "FerdinandSovereign": true,
+    "SevenUniqueCharacters": true,
+    "ThreeDistinctBrotherRoutes": true,
+    "AllRoutesNonCreating": true,
+    "NineProposalOnlyOpportunities": true,
+    "ThreeNonAutomaticConversionGates": true,
+    "SiblingResultStateEmpty": true,
+    "FamilyCounterweightsSafe": true,
+    "ThreeTrackTemporalExact": true,
+    "FiftyFiveExplicitEmpties": true,
+    "DeclaredEmptyCountsMatch": true,
+    "SourceManifestHashValid": true,
+    "PromotionBlockStillPresent": true
+  },
+  "OverlayChecks": {
+    "sancho": {
+      "OverlayId": "overlay.leon_castile.sancho.v2",
+      "ExpectedSha256": "4e6c7f57e8f246b65a3213fde203500724e7a12c3313733b4bd24034a00425cb",
+      "ReconstructedPrettySha256": "4e6c7f57e8f246b65a3213fde203500724e7a12c3313733b4bd24034a00425cb",
+      "HashMatch": true,
+      "StaticValidationErrors": [],
+      "StaticValidationPass": true,
+      "SelectionOnly": true,
+      "MutationFlagsAllFalse": true
+    },
+    "alfonso": {
+      "OverlayId": "overlay.leon_castile.alfonso.v2",
+      "ExpectedSha256": "62a95feb4033a994301b092bce5ee639e09ecf117aa546a8f8da50a0d0d10e5b",
+      "ReconstructedPrettySha256": "62a95feb4033a994301b092bce5ee639e09ecf117aa546a8f8da50a0d0d10e5b",
+      "HashMatch": true,
+      "StaticValidationErrors": [],
+      "StaticValidationPass": true,
+      "SelectionOnly": true,
+      "MutationFlagsAllFalse": true
+    },
+    "garcia": {
+      "OverlayId": "overlay.leon_castile.garcia.v2",
+      "ExpectedSha256": "52a6475aa6c558d3fc32012207d9a6d52fad71d1d62a209753ea7cac13e3af83",
+      "ReconstructedPrettySha256": "52a6475aa6c558d3fc32012207d9a6d52fad71d1d62a209753ea7cac13e3af83",
+      "HashMatch": true,
+      "StaticValidationErrors": [],
+      "StaticValidationPass": true,
+      "SelectionOnly": true,
+      "MutationFlagsAllFalse": true
+    }
+  },
+  "CrossArtifactChecks": {
+    "AllThreeOverlaysBindSamePayload": true,
+    "ExactlyThreeDistinctPerspectives": true,
+    "ExactlyThreeDistinctPeople": true,
+    "ExactlyThreeDistinctRoutes": true,
+    "AllPresentationBindingsBrotherSpecific": true,
+    "AllSelectionOnly": true,
+    "AllMutationFlagsFalse": true,
+    "NoOverlayDuplicatesSharedState": true,
+    "AllRecordedOverlayHashesReproduce": true
+  },
+  "NegativeFixtureResults": [
+    {
+      "FixtureId": "fixture.v2.overlay.person_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0,
+      "ObservedErrors": [
+        "PERSON_MISMATCH"
+      ],
+      "Pass": true
+    },
+    {
+      "FixtureId": "fixture.v2.overlay.route_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0,
+      "ObservedErrors": [
+        "ROUTE_MISMATCH"
+      ],
+      "Pass": true
+    },
+    {
+      "FixtureId": "fixture.v2.overlay.weight_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0,
+      "ObservedErrors": [
+        "SelectedOpportunityWeightProfileRef_MISMATCH"
+      ],
+      "Pass": true
+    },
+    {
+      "FixtureId": "fixture.v2.overlay.may_create_authority",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0,
+      "ObservedErrors": [
+        "MUTATION_FLAG_TRUE"
+      ],
+      "Pass": true
+    },
+    {
+      "FixtureId": "fixture.v2.overlay.inline_content",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0,
+      "ObservedErrors": [
+        "KEY_SET_MISMATCH",
+        "INLINE_CONTENT_PRESENT"
+      ],
+      "Pass": true
+    },
+    {
+      "FixtureId": "fixture.v2.overlay.payload_hash_mismatch",
+      "ExpectedDisposition": "RejectedFatal",
+      "ExpectedMutationCount": 0,
+      "ObservedErrors": [
+        "CONTENT_HASH_MISMATCH"
+      ],
+      "Pass": true
+    }
+  ],
+  "Summary": {
+    "PayloadChecksPassed": 16,
+    "PayloadChecksTotal": 16,
+    "OverlayChecksPassed": 3,
+    "OverlayChecksTotal": 3,
+    "CrossArtifactChecksPassed": 8,
+    "CrossArtifactChecksTotal": 8,
+    "NegativeFixturesRejectedAsExpected": 6,
+    "NegativeFixturesTotal": 6,
+    "ExpectedMutationCountForAllRejectedFixtures": 0
+  },
+  "EvidenceBoundary": {
+    "JSONParsing": "PASS",
+    "PayloadSemanticValidation": "PASS",
+    "OverlayPairingValidation": "PASS",
+    "CrossArtifactHashAndBindingValidation": "PASS",
+    "NegativeFixtureStaticValidation": "PASS",
+    "Draft202012SchemaFileExecution": "NOT_RUN_SCHEMA_FILE_NOT_COLOCATED_IN_CURRENT_EXECUTION",
+    "ImporterExecution": "NOT_RUN",
+    "UE5Compile": "NOT_RUN",
+    "UE5Runtime": "NOT_RUN",
+    "TransactionRollbackExecution": "NOT_RUN",
+    "ReceiptPersistence": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "PromotionToActivePackage": "PROHIBITED_PENDING_FULL_SOURCE_MANIFEST_HASH_RECONCILIATION_AND_EXECUTABLE_SCHEMA_IMPORTER_VALIDATION"
+  },
+  "BlockingIssues": [
+    {
+      "Code": "LC_OPENING_SOURCE_MANIFEST_HASH_UNRESOLVED",
+      "Severity": "FatalForPromotion",
+      "Path": "SourceManifest[OwnerRoutingProposal].Sha256",
+      "Disposition": "ReviewOnly",
+      "MutationCount": 0,
+      "RequiredResolution": "Replace the zero placeholder with the verified owner-routing manifest SHA-256, regenerate payload and overlay hashes, then rerun Draft 2020-12 schema and importer validation with all artifacts colocated."
+    }
+  ],
+  "NextAction": "Generate the V2 static validation profile and expected-disposition manifest from this package, retaining the active-promotion block until the owner-routing hash and executable schema/importer evidence are resolved."
+}

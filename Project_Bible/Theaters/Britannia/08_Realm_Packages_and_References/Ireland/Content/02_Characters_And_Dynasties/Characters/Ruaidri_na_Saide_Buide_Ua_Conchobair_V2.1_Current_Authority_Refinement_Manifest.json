@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "method": "CopyFirstAdditiveCurrentAuthorityRefinement",
+  "source_file": "Ruaidri_na_Saide_Buide_Ua_Conchobair_Refined.md",
+  "source_reference": "turn17search63",
+  "source_bytes": 27116,
+  "source_sha256": "054864f87f5d21ee644cebcc9a9ece7d7f513b64f547916c5de95c4bdde3f109",
+  "source_heading_count": 73,
+  "authority_file": "Ruaidri_na_Saide_Buide_Ua_Conchobair_V2.1_Current_Authority_Refinement.md",
+  "authority_bytes": 53562,
+  "authority_sha256": "d25bd100af7b32ba13c35898f1fdc0d2b05b557abd8312349f74d05477dbda78",
+  "additive_bytes": 26446,
+  "successor_starts_with_source": true,
+  "source_files_modified": 0,
+  "static_check_file": "Ruaidri_na_Saide_Buide_Ua_Conchobair_V2.1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "f534e7906a271b55a9de7a6be0e332f4e49620eb2814712e43b15c5268d92227",
+  "validation_scope": "content static checks only; no compile runtime migration opening-state underage-runtime or payload validation"
+}

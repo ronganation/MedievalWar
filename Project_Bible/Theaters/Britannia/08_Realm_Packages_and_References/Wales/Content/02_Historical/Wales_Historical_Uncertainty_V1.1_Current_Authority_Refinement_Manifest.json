@@ -1,0 +1,46 @@
+{
+  "document_id": "manifest.wales.historical-uncertainty.v1.1.current-authority-refinement",
+  "version": "1.1.0",
+  "immediate_source": {
+    "filename": "Wales_Historical_Uncertainty.md",
+    "bytes": 32071,
+    "physical_lines": 973,
+    "sha256": "74fff59cd8ec53f96f516a7ea8f4f0bf5c21995827767ca81c3697dee5b3537f",
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Wales_Historical_Uncertainty_V1.1_Current_Authority_Refinement.md",
+    "bytes": 61597,
+    "physical_lines": 1767,
+    "sha256": "2f8dfbf3401daf6a80cc197b55e2e6183c3a72d9bda49b46dabbf40cdf514cac"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_headings_preserved": 44,
+    "source_local_uncertainty_records": 25,
+    "source_uncertainty_ids": 25,
+    "removed_content": []
+  },
+  "additions": {
+    "current_chronology": "Wales_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement.md",
+    "chronology_bound_dossiers": 6,
+    "opening_required_selections": 2,
+    "opening_selections_activated": 0,
+    "issue_records": 8,
+    "expanded_validation_cases": 25
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "source_deletion": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Uncertainty_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_Historical_Uncertainty_V1.1_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "artifact": "Flanders_Military_Capability_Command_Recruitment_and_Force_Authority_V1.md",
+  "stable_document_id": "MilitaryCapability.Realm.Flanders",
+  "authority_id": "authority.military-capability-command-recruitment-force.realm.flanders.v1",
+  "version": "1.4.0",
+  "revision_date": "2026-10-17",
+  "sha256": "719fd1891fc7f8699370469dab2799c70d2cddefcd8faa364c57f411427c49bd",
+  "bytes": 183268,
+  "lines": 2801,
+  "disposition": "CurrentProfileIdentityReconciliationAndCandidateSetExpansion",
+  "exact_content_family_candidates_preserved": 32,
+  "predecessor_candidate_family_count": 23,
+  "new_candidate_family_ids": [
+    "UnitFamily.Flanders.MarchVeteranBowmen",
+    "UnitFamily.Flanders.CastellanyMenAtArms",
+    "UnitFamily.Flanders.FlemishPikeCompanies",
+    "UnitFamily.Flanders.FlemishTownSpearmen",
+    "UnitFamily.Flanders.GoedendagCompanies",
+    "UnitFamily.Flanders.FlemishCrossbowSergeants",
+    "UnitFamily.Flanders.FlemishTownBowmen",
+    "UnitFamily.Flanders.MountedMenAtArms",
+    "UnitFamily.Flanders.TownHorsemen"
+  ],
+  "current_master_profiles": 23,
+  "authority_candidates_without_current_profiles": 9,
+  "canonical_unit_definitions_admitted": 0,
+  "exact_opening_values_created": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "runtime_mutations": 0,
+  "Unreal_mutations": 0
+}

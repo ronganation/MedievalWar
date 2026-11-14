@@ -1,0 +1,23 @@
+{
+  "document": "Holland_Character_and_Dynasty_Completeness_Review_V1_1_Double_Checked.md",
+  "sha256": "be8f54309839b0481065dce183f02cbfb201e36e1b80d0c0898bd4b0ce511468",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_31": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_manifest_hash_matches": true,
+    "predecessor_static_passed": true,
+    "four_person_household": true,
+    "floris_promoted": true,
+    "othilde_downgraded": true,
+    "godfrey_corrected": true,
+    "conrad_corrected": true,
+    "commander_gap": true,
+    "next_authority": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true
+  },
+  "pass": true
+}

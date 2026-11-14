@@ -1,0 +1,29 @@
+{
+  "ArtifactId": "Seville_Taifa_Faction_Definition_ID_Adjudication_and_Minimum_First_Turn_Contract_V1",
+  "InternalVersion": "1.0.0",
+  "Status": "STATIC_CHECKED_ADJUDICATION_CONTRACT",
+  "RealmId": "realm.seville",
+  "DefinitionIdsReviewed": 13,
+  "DefinitionIdsApproved": 13,
+  "DefinitionIdsRejected": 0,
+  "DefinitionIdsQuarantined": 0,
+  "RuntimeInstanceIdsCreated": 0,
+  "OpeningStateFactsAdded": 0,
+  "PrimaryFirstTurnActions": 5,
+  "MinimumOwnerObservationContracts": 7,
+  "MinimumExternalLocksAtCampaignCreation": 0,
+  "OpeningStateMutationRequired": false,
+  "ValidationClaims": {
+    "StaticChecked": true,
+    "RegistryInsertionExecuted": false,
+    "DefinitionManifestCreated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "BalanceValidated": false
+  },
+  "SHA256": "e6343f7e26f28d6d91406bf1ffba59f92cf23cb60957483933dd29fb6d935d04"
+}

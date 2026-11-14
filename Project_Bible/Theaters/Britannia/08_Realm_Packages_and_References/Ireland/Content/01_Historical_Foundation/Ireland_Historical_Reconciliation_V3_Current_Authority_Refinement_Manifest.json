@@ -1,0 +1,23 @@
+{
+  "filename": "Ireland_Historical_Reconciliation_V3_Current_Authority_Refinement.md",
+  "version": "3.0.0",
+  "bytes": 64695,
+  "physical_lines": 1385,
+  "sha256": "e5fc4e0d36383996bef8799d3e5d422244adc9be53323ea8b7a0afff4245273e",
+  "encoding": "utf-8",
+  "line_endings": "LF",
+  "immediate_source": "Ireland_Historical_Reconciliation_Refined.md",
+  "source_bytes": 32294,
+  "source_sha256": "4ee62f051f61f484d0977a644d2e0eef58cbd723a5a14f28bae0a7b0e4aaf029",
+  "literal_source_prefix_verified": true,
+  "original_predecessor": "Ireland_Historical_Reconciliation.md",
+  "original_opened_in_full": true,
+  "status": "Static-Checked current-authority refinement review only",
+  "source_files_modified": 0,
+  "registry_mutations": 0,
+  "opening_state_mutations": 0,
+  "migration_executions": 0,
+  "unreal_mutations": 0,
+  "runtime_mutations": 0,
+  "real_payload_imports": 0
+}

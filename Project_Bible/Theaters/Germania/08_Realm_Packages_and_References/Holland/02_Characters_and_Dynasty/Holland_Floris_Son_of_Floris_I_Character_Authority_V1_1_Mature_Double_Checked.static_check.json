@@ -1,0 +1,30 @@
+{
+  "document": "Holland_Floris_Son_of_Floris_I_Character_Authority_V1_1_Mature_Double_Checked.md",
+  "sha256": "ce82517d7da371e70c680d96940f8f0a6b88bb36a65cf849921bd7efff1edfff",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_39": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_hash_matches": true,
+    "predecessor_static_passed": true,
+    "predecessor_receipt_passed": true,
+    "identity_disambiguation": true,
+    "career_taxonomy": true,
+    "owner_separation": true,
+    "admission": true,
+    "residence": true,
+    "succession_matrix": true,
+    "anti_exploit": true,
+    "office_failure": true,
+    "recovery": true,
+    "ai": true,
+    "ui": true,
+    "validation": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "active_no_citation_tokens": true
+  },
+  "pass": true
+}

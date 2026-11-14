@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationRegistryNamespaceApprovalSubmission",
+    "name": "Trait Reputation Registry Namespace Approval Submission V1",
+    "version": "1.0",
+    "status": "SubmittedForRegistryAuthorityReview_AllDecisionsPending",
+    "authority_class": "Registry Namespace and Identifier Grammar Decision Intake",
+    "submitting_coordinator": "Trait and Reputation Consolidation",
+    "decision_owner": "Named Trait and Reputation Registry Authority",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Integration_Authorities/Strategic/Character/Trait_Reputation",
+    "file": "Trait_Reputation_Registry_Namespace_Approval_Submission_V1.json",
+    "placement_note": "This cross-system registry-governance intake belongs beside the canonical registry proposal, not under reusable Character frameworks."
+  },
+  "purpose": "Request explicit approval, replacement, rejection, or further-evidence decisions for the proposed Trait and Reputation namespaces and identifier grammar before any canonical ID is requested or assigned.",
+  "authority_bindings": [
+    {
+      "file": "Trait_Reputation_Canonical_Registry_Proposal_V1.json",
+      "sha256": "188110a56090b0638d8915ffe8780c30456d0fa98c626b8749411f0d1e5ae628",
+      "role": "RegistryArchitectureProposal"
+    },
+    {
+      "file": "Trait_Reputation_Canonical_ID_Submission_V1.json",
+      "sha256": "8ca92d16a91b0689e14d4a9074635e9d8f65d9da8884dbf9cc27703aaccdd1cf",
+      "expected_version": "1.1",
+      "role": "ExactCandidateIntake"
+    },
+    {
+      "file": "Trait_Reputation_Canonical_ID_Submission_V1.preflight.json",
+      "sha256": "5464ae15ec052f61c0d337c96523e60e066929bb285d48eb2901e5c04e956474",
+      "expected_version": "1.1",
+      "role": "ExactBindingPreflight"
+    },
+    {
+      "file": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+      "expected_version": "1.2",
+      "role": "CompletedStaticOwnershipAuthority"
+    },
+    {
+      "file": "Character_System_Field_Level_Disposition_Manifest.md",
+      "role": "IdentifierSafetyAndMigrationBoundary"
+    },
+    {
+      "file": "Trait_and_Reputation_Consolidation_Plan_V1.md",
+      "role": "RegistryAndMigrationPlanningAuthority"
+    }
+  ],
+  "decision_vocabulary": [
+    "ApproveAsRequested",
+    "ApproveWithReplacementNamespace",
+    "ApproveGrammarOnly",
+    "RejectNamespaceCollision",
+    "RejectWrongAuthorityBoundary",
+    "RequireMoreEvidence"
+  ],
+  "namespace_submissions": [
+    {
+      "namespace_submission_id": "trait-reputation.namespace.trait-character.v1",
+      "registry_key": "TraitCanonicalRegistry",
+      "requested_namespace": "Trait.Character",
+      "requested_record_kind": "TraitDefinition",
+      "candidate_count": 37,
+      "candidate_composition": {
+        "retainable_after_collision_review": 26,
+        "semantic_refactor_required": 11
+      },
+      "excluded_quirk_count": 5,
+      "decision": "Pending",
+      "approval_status": "NotApproved",
+      "decision_authority": null,
+      "decision_evidence": [],
+      "replacement_namespace": null,
+      "required_changes": [],
+      "registry_write_permitted": false
+    },
+    {
+      "namespace_submission_id": "trait-reputation.namespace.reputation-character-audience.v1",
+      "registry_key": "ReputationDimensionRegistry",
+      "requested_namespace": "Reputation.CharacterAudience",
+      "requested_record_kind": "AudienceSpecificReputationDimension",
+      "candidate_count": 9,
+      "candidate_composition": {
+        "typed_historical_memory_reputation_presentation_splits": 9
+      },
+      "excluded_quirk_count": 0,
+      "decision": "Pending",
+      "approval_status": "NotApproved",
+      "decision_authority": null,
+      "decision_evidence": [],
+      "replacement_namespace": null,
+      "required_changes": [],
+      "registry_write_permitted": false
+    }
+  ],
+  "identifier_grammar_submission": {
+    "grammar_submission_id": "trait-reputation.identifier-grammar.v1",
+    "proposed_format": "<Namespace>.<StableSemanticToken>",
+    "semantic_token_case": "UpperCamelCase",
+    "allowed_character_policy": "ASCII letters and digits within tokens; period separators between namespace segments",
+    "prohibited_identity_inputs": [
+      "localized display label",
+      "filename",
+      "array index",
+      "load order",
+      "object address",
+      "unreviewed legacy symbol"
+    ],
+    "same_label_different_meaning_rule": "Use separate semantic identities only after explicit cross-registry boundary review.",
+    "same_meaning_multiple_labels_rule": "Use one canonical definition and preserve source labels as provenance or presentation aliases only when approved.",
+    "one_definition_one_id": true,
+    "direct_mapping_only": true,
+    "alias_chains_prohibited": true,
+    "deprecated_ids_prohibited_in_new_content_and_saves": true,
+    "decision": "Pending",
+    "approval_status": "NotApproved",
+    "decision_authority": null,
+    "decision_evidence": [],
+    "required_changes": []
+  },
+  "non_authoritative_examples": [
+    {
+      "example": "Trait.Character.CourageDisposition",
+      "purpose": "Grammar illustration only",
+      "canonical_status": "NotRequested"
+    },
+    {
+      "example": "Reputation.CharacterAudience.ConquestReception",
+      "purpose": "Grammar illustration only",
+      "canonical_status": "NotRequested"
+    }
+  ],
+  "approval_contract": {
+    "named_authority_required": true,
+    "evidence_required": true,
+    "pending_is_not_approval": true,
+    "silence_is_not_approval": true,
+    "namespace_approval_does_not_approve_candidate_ids": true,
+    "grammar_approval_does_not_create_registry_records": true,
+    "replacement_namespace_requires_collision_and_owner_review": true,
+    "candidate_ids_remain_null_until_later_gate": true,
+    "runtime_state_creation_prohibited": true
+  },
+  "post_decision_sequence": [
+    "Record the named authority, decision, rationale, and evidence for each namespace and the grammar.",
+    "If replacement namespaces are approved, update the proposal and candidate intake through versioned corrections.",
+    "Create initial empty authoritative registry snapshots only after namespace and grammar approval.",
+    "Run collision, duplicate-meaning, wrong-owner, and deprecated-ID checks against those snapshots.",
+    "Request individual canonical IDs only for candidates that pass semantic and collision review.",
+    "Create direct versioned migration mappings only after individual ID approval.",
+    "Keep all content, runtime, registry, and save writes prohibited until their separate gates pass."
+  ],
+  "count_contract": {
+    "namespace_requests": 2,
+    "grammar_requests": 1,
+    "trait_registry_candidates": 37,
+    "reputation_registry_candidates": 9,
+    "presentation_or_evidence_gated_quirks_excluded": 5,
+    "exact_candidate_records": 51,
+    "canonical_ids_requested": 0,
+    "canonical_ids_approved": 0,
+    "reconciliation": "Pass"
+  },
+  "run": {
+    "mode": "RegistryNamespaceApprovalSubmissionGeneration",
+    "execution_status": "Completed",
+    "verdict": "PassWithAllAuthorityDecisionsPending",
+    "authoritative_mutation_permitted": false,
+    "registry_records_created": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "commit_attempted": false
+  },
+  "validation": {
+    "two_namespace_records_present": true,
+    "grammar_record_present": true,
+    "candidate_counts_reconcile": true,
+    "all_decisions_pending": true,
+    "all_canonical_ids_null": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "determinism_validated": false
+  },
+  "review_locks": [
+    {
+      "code": "TRNS-LOCK-001",
+      "item": "Named registry authority decision for Trait.Character",
+      "status": "Open"
+    },
+    {
+      "code": "TRNS-LOCK-002",
+      "item": "Named registry authority decision for Reputation.CharacterAudience",
+      "status": "Open"
+    },
+    {
+      "code": "TRNS-LOCK-003",
+      "item": "Named registry authority decision for identifier grammar",
+      "status": "Open"
+    },
+    {
+      "code": "TRNS-LOCK-004",
+      "item": "Initial authoritative registry snapshots and collision/deprecation scan",
+      "status": "Open"
+    },
+    {
+      "code": "TRNS-LOCK-005",
+      "item": "Individual candidate ID decisions and direct migration mappings",
+      "status": "Open"
+    }
+  ],
+  "smallest_useful_next_action": "Move the Trait_Reputation folder from Project_Bible/Frameworks/Characters into Project_Bible/Integration_Authorities/Strategic/Character, then place this submission beside Trait_Reputation_Canonical_Registry_Proposal_V1.json. Record explicit namespace and grammar decisions before creating registry snapshots."
+}

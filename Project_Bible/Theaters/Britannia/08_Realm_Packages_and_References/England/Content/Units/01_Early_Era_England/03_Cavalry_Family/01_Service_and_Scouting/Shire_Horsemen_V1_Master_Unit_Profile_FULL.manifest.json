@@ -1,0 +1,29 @@
+{
+  "document": "Shire_Horsemen_V1_Master_Unit_Profile_FULL.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-11",
+  "size_bytes": 51123,
+  "line_count": 1374,
+  "numbered_sections": 90,
+  "terrain_rows": 25,
+  "sha256": "58ba3862754b5018c8c60248f039804e188a6cc0f7a23e9f96225fc76015fc48",
+  "document_id": "mw.unit.england.shire_horsemen.v1",
+  "candidate_document_id": "UnitDefinition.Realm.England.ShireHorsemen",
+  "comparison_files": [
+    "Mounted_Thegns_V1_Master_Unit_Profile.md"
+  ],
+  "reconstruction_type": "FunctionAndRoleReconstruction",
+  "lost_immediate_source_found": false,
+  "lost_source_recreated_verbatim": false,
+  "opening_access": "CandidateNotInitialized",
+  "predecessor_preserved": true,
+  "source_files_modified": [],
+  "source_files_deleted": [],
+  "content_removed_without_replacement": [],
+  "exact_values_promoted": [],
+  "stable_IDs_allocated": [],
+  "Registry_changes": [],
+  "Opening_State_changes": [],
+  "runtime_changes": [],
+  "Unreal_changes": []
+}

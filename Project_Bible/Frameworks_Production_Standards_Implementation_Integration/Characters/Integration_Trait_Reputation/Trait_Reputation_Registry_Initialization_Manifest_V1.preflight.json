@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationRegistryInitializationPreflight",
+    "name": "Trait Reputation Registry Initialization Preflight V1",
+    "version": "1.0",
+    "status": "PassedEmptySnapshotInitialization",
+    "authority_class": "Registry Initialization Dry Preflight"
+  },
+  "inputs": {
+    "decision": {
+      "file": "Trait_Reputation_Registry_Namespace_and_Grammar_Decision_V1.json",
+      "sha256": "22b684a74c8c662db3ce6e8ff22e985c6bac4f334ac87b31228f952cf657f5c7",
+      "loaded": true
+    },
+    "trait_snapshot": {
+      "file": "Trait_Canonical_Registry_V1.json",
+      "sha256": "d45482c7ae3ad5e01fee289e4b8ad250f4997f5d47bd960f6cf0c9e163824b29",
+      "loaded": true
+    },
+    "reputation_snapshot": {
+      "file": "Reputation_Dimension_Registry_V1.json",
+      "sha256": "95c5370ea63da1179df1696bbbb48a17340ab059a0c7923819b47b93978d3e67",
+      "loaded": true
+    },
+    "manifest": {
+      "file": "Trait_Reputation_Registry_Initialization_Manifest_V1.json",
+      "sha256": "7f9812ae97814299c9e6a8766c1926c882ea0c8c34c08dc14b29b862279f1222",
+      "loaded": true
+    }
+  },
+  "run": {
+    "mode": "RegistryInitializationDryPreflight",
+    "execution_status": "Completed",
+    "verdict": "Pass",
+    "canonical_ids_assigned": 0,
+    "registry_records_created": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "validation": {
+    "namespaces_match_decision": true,
+    "grammar_matches_decision": true,
+    "snapshots_empty": true,
+    "record_counts_reconcile": true,
+    "aliases_empty": true,
+    "deprecated_ids_empty": true,
+    "quarantine_empty": true,
+    "candidate_ids_approved": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "migration_validated": false
+  },
+  "smallest_useful_next_action": "Generate individual candidate ID proposals against these empty snapshots, then run semantic duplicate, namespace collision, deprecated-ID, wrong-owner, and direct-migration-map preflight. Keep all proposed IDs unapproved."
+}

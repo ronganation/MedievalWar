@@ -1,0 +1,21 @@
+{
+  "document": "Holland_Bertha_of_Holland_Character_Authority_V1_1_Mature_Double_Checked.md",
+  "version": "1.1.0",
+  "bytes": 56246,
+  "lines": 1643,
+  "sha256": "a91ccfb0f8100ab61d8088e0bc6d21afd47495abf5b8cb7772892dcb9a1f3d02",
+  "utf8_valid": true,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "escaped_list_marker_count": 0,
+  "stable_footer_count": 1,
+  "source_preserved": true,
+  "implementation_validation": {
+    "compile": false,
+    "runtime": false,
+    "save_load": false,
+    "migration": false,
+    "unreal": false
+  },
+  "result": "PASS_AT_STATIC_AUTHORING_SCOPE"
+}

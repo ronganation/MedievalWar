@@ -1,0 +1,36 @@
+{
+  "document": "Feudal_Knights_V1_Master_Unit_Profile.md",
+  "version": "1.0.0",
+  "status": "ReviewOnlyIntegratedFullDepthMasterUnitProfileCandidate",
+  "size_bytes": 40905,
+  "line_count": 979,
+  "word_count": 4692,
+  "numbered_sections": 70,
+  "terrain_rows": 24,
+  "sha256": "7a442b465482290d7cb9ec22c3b4540dc7902eeaa7831f7363dc1b2dde0e905f",
+  "immediate_substantive_source": "Feudal_Knights.md",
+  "authority_sources": [
+    "Unit_Definition_and_Card_Authoring_Standard_V1_2.md",
+    "Formation_and_Battlefield_Capability_Definition_Standard_V1.md",
+    "England_Military_Roster_and_Development_Authority_V1_1_4.md",
+    "England_Roster_Candidate_Admission_and_Disposition_Matrix_V1_1.md",
+    "England_Military_Roster_Family_and_Recruitment_Source_Architecture_V1_1.md",
+    "England_Early_to_High_Unit_Progression_Visual_Map_V1.md"
+  ],
+  "comparators": [
+    "Mounted_Thegns_V1_Master_Unit_Profile.md",
+    "Earls_Horsemen_V2_Master_Unit_Profile.md",
+    "Mounted_Sergeants_V2_Master_Unit_Profile.md",
+    "English_Foot_Knights_V1_Master_Unit_Profile.md"
+  ],
+  "scale_values_promoted": false,
+  "exact_values_promoted": false,
+  "stable_IDs_allocated": [],
+  "removed_without_replacement": [],
+  "source_files_modified": [],
+  "source_files_deleted": [],
+  "Registry_changes": [],
+  "Opening_State_changes": [],
+  "runtime_changes": [],
+  "Unreal_changes": []
+}

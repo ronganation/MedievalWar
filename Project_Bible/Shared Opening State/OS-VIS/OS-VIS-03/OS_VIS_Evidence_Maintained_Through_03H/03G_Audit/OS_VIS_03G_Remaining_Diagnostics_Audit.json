@@ -1,0 +1,78 @@
+﻿{
+    "AuditId":  "OS-VIS-03G-REMAINING-DIAGNOSTICS-CAPABILITY-AUDIT",
+    "GeneratedUtc":  "2026-08-27T19:57:59.2884382Z",
+    "UnrealRoot":  "C:\\UnrealProjects\\MedievalWar",
+    "ProjectBibleRoot":  "C:\\Medieval War\\Medieval War (England)\\Project_Bible",
+    "ProjectBiblePresent":  true,
+    "SourceFilesModified":  0,
+    "FilesScanned":  2433,
+    "SourceHits":  21553,
+    "GapCount":  5,
+    "Matrix":  [
+                   {
+                       "GapId":  "unknown_records",
+                       "Classification":  "SOURCE_MATCHES_REQUIRE_SEMANTIC_REVIEW",
+                       "UnrealSourceHitCount":  338,
+                       "ProjectBibleHitCount":  16625,
+                       "MutationRequiredForAudit":  false,
+                       "RecommendedDisposition":  "Do not infer a count; identify explicit per-record disposition contract before exposure",
+                       "PresentationExposureAuthorized":  false
+                   },
+                   {
+                       "GapId":  "intentional_empty_records",
+                       "Classification":  "SOURCE_MATCHES_REQUIRE_SEMANTIC_REVIEW",
+                       "UnrealSourceHitCount":  8,
+                       "ProjectBibleHitCount":  1207,
+                       "MutationRequiredForAudit":  false,
+                       "RecommendedDisposition":  "Do not derive from zero payload counts; require explicit marker in verified source contract",
+                       "PresentationExposureAuthorized":  false
+                   },
+                   {
+                       "GapId":  "external_locks",
+                       "Classification":  "SOURCE_MATCHES_REQUIRE_SEMANTIC_REVIEW",
+                       "UnrealSourceHitCount":  52,
+                       "ProjectBibleHitCount":  3251,
+                       "MutationRequiredForAudit":  false,
+                       "RecommendedDisposition":  "Authority review only until a current candidate-bound read-only API is verified",
+                       "PresentationExposureAuthorized":  false
+                   },
+                   {
+                       "GapId":  "asset_map_bindings",
+                       "Classification":  "SOURCE_MATCHES_REQUIRE_SEMANTIC_REVIEW",
+                       "UnrealSourceHitCount":  5,
+                       "ProjectBibleHitCount":  62,
+                       "MutationRequiredForAudit":  false,
+                       "RecommendedDisposition":  "Requires active Unreal asset/map scan or verified binding report; do not infer from authority prose",
+                       "PresentationExposureAuthorized":  false
+                   },
+                   {
+                       "GapId":  "active_unit_inventory",
+                       "Classification":  "SOURCE_MATCHES_REQUIRE_SEMANTIC_REVIEW",
+                       "UnrealSourceHitCount":  4,
+                       "ProjectBibleHitCount":  1,
+                       "MutationRequiredForAudit":  false,
+                       "RecommendedDisposition":  "Inventory status must control; AuthorityMappedPendingActiveUnrealAssetScan is not active asset validation",
+                       "PresentationExposureAuthorized":  false
+                   }
+               ],
+    "HardBoundary":  {
+                         "GameInstanceCreated":  false,
+                         "CanApplyCalled":  false,
+                         "ApplyCalled":  false,
+                         "OwnerResolved":  false,
+                         "OwnerInvoked":  false,
+                         "TransactionExecuted":  false,
+                         "SaveWritten":  false,
+                         "RegistryMutated":  false,
+                         "RealmPayloadApplied":  false,
+                         "TheaterActivated":  false
+                     },
+    "InitialDisposition":  {
+                               "UnknownExposureAuthorized":  false,
+                               "IntentionalEmptyExposureAuthorized":  false,
+                               "ExternalLockExposureAuthorized":  false,
+                               "AssetMapBindingExposureAuthorized":  false,
+                               "ActiveUnitInventoryExposureAuthorized":  false,
+                               "Reason":  "Line-level hits require exact semantic and ownership review before any provider or presentation change."
+                           }
+}

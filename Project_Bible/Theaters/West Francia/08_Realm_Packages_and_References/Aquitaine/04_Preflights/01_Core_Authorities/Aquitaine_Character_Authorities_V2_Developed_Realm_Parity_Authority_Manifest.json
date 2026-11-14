@@ -1,0 +1,37 @@
+{
+  "AuthorityFile": "Aquitaine_Character_Authorities_V2_Developed_Realm_Parity_Authority.md",
+  "Version": "2.0.0",
+  "ImmediateSource": "Aquitaine_Character_Authorities_V1_1.md",
+  "SourceSHA256": "308eaf37b8bb8f2e5d85899526d6ab8be4c161800af8464248ecf31f493477d8",
+  "SourceBytes": 42976,
+  "SourceLines": 1506,
+  "SuccessorSHA256": "bc15368aa37873cdf90ede2a01707820c52a14e82e4cdaf76cb4b832074d6879",
+  "SuccessorBytes": 67279,
+  "SuccessorLines": 2263,
+  "SourceTreatment": "CompleteLiteralSourcePreservedAndAdditivelyExpanded",
+  "MissingSourceHeadings": [],
+  "RemovedSubstantiveContent": [],
+  "ValidationChecks": {
+    "source_literal_body_present": true,
+    "successor_larger_than_source": true,
+    "all_source_headings_present": true,
+    "project_bible_2_4_present": true,
+    "checklist_3_7_present": true,
+    "ue5_8_present": true,
+    "three_track_time_present": true,
+    "barbastro_optional": true,
+    "stable_footer_once": true,
+    "final_marker_correct": true,
+    "markdown_fences_balanced": true,
+    "no_em_dash": true
+  },
+  "MutationStatus": {
+    "SourceOverwrite": false,
+    "RegistryMutation": false,
+    "OpeningStateMutation": false,
+    "RuntimeActivation": false,
+    "MigrationExecution": false,
+    "UnrealMutation": false,
+    "RealPayloadImport": false
+  }
+}

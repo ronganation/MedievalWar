@@ -1,0 +1,45 @@
+{
+  "dormant_profiles": [
+    "person.alan_iv_brittany"
+  ],
+  "historical_only": [
+    "person.alan_iii_brittany"
+  ],
+  "records": [
+    {
+      "activation_state": "Inactive",
+      "opening_activation_authorized": false,
+      "person_id": "person.conan_ii_brittany",
+      "record_kind": "CharacterScenarioCandidate",
+      "scenario_id": "Scenario.Brittany.1062January"
+    },
+    {
+      "activation_state": "Inactive",
+      "opening_activation_authorized": false,
+      "person_id": "person.odo_penthievre",
+      "record_kind": "CharacterScenarioCandidate",
+      "scenario_id": "Scenario.Brittany.1062January"
+    },
+    {
+      "activation_state": "Inactive",
+      "opening_activation_authorized": false,
+      "person_id": "person.hawise_brittany",
+      "record_kind": "CharacterScenarioCandidate",
+      "scenario_id": "Scenario.Brittany.1062January"
+    },
+    {
+      "activation_state": "Inactive",
+      "opening_activation_authorized": false,
+      "person_id": "person.hoel_cornouaille",
+      "record_kind": "CharacterScenarioCandidate",
+      "scenario_id": "Scenario.Brittany.1062January"
+    },
+    {
+      "activation_state": "Inactive",
+      "opening_activation_authorized": false,
+      "person_id": "person.rivallon_i_dol",
+      "record_kind": "CharacterScenarioCandidate",
+      "scenario_id": "Scenario.Brittany.1062January"
+    }
+  ]
+}

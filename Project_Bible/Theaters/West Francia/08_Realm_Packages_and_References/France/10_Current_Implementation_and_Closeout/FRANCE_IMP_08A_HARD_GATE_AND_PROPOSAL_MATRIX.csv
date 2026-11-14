@@ -1,0 +1,17 @@
+Order,GateFamily,RequiredInput,AllowedProposalDisposition,ProhibitedInferenceOrMutation
+1,HistoricalChronologyAndEvidence,Owner-supplied dated evidence and uncertainty,Proceed Hold Inquiry or NoAction,Later history as scheduled outcome
+2,CharacterLifecycleAndKnowledge,Age agency knowledge and visibility receipts,SubstituteActor Delay Inquiry or Hold,Underage ruler receives adult agency
+3,DynastyAndSuccession,Owner-supplied continuity and eligibility evidence,ProtectContinuity Mediate Prepare or Hold,Succession title or marriage mutation
+4,GovernanceAndAuthority,Valid office mandate jurisdiction and representation,ProceedNarrowerScope SubstituteActor or Hold,Access or proximity becomes authority
+5,LawCustomJurisdictionAndEnforcement,Standing venue procedure remedy and enforcement evidence,Mediate Prepare Inquiry or Hold,Judgment becomes automatic enforcement
+6,EcclesiasticalCompetence,Institution office jurisdiction and ceremony eligibility,SeekWitness Mediate Delay or Hold,Consecration becomes secular ownership
+7,TitlesClaimsAndRecognition,Title claim recognition and installation evidence,RecognizeConditionally Mediate Inquiry or Hold,Claim becomes war permission
+8,GeographySettlementsAndControl,Owner-approved place control and retention evidence,PrepareTravel NarrowScope or Hold,Named place becomes controlled settlement
+9,RoutesCommunicationAndTransport,Route access delivery authentication and capacity evidence,Delay Reroute SendInquiry or Hold,Route becomes passage or delivery
+10,CommunitiesPopulationAndInstitutions,Community cooperation and institutional evidence,Negotiate Prepare or Hold,Population becomes direct manpower
+11,EconomyPropertyRevenueAndTreasury,Owner-reserved finance property and capacity evidence,ReserveResources NarrowScope or Hold,Treasury becomes automatic provisions
+12,MilitaryForcesCommandAndReadiness,Force source command readiness and retention evidence,Prepare Defend Withdraw or Hold,Crown creates national army
+13,RecruitmentPoolsAndReplenishment,Finite pool eligibility and availability evidence,Reserve RecruitConditionally or Hold,Population or building creates units
+14,SupplyLogisticsEnduranceAndRecovery,Stocks transport consumption and recovery evidence,Delay ReduceScope Withdraw or Hold,Supply or route quantity invented
+15,DiplomacyAndExternalOwnership,Directional knowledge principal representation consent and owner-published state,Propose Counterpropose Mediate Abstain or Hold,Reverse state alliance war peace or agreement invented
+16,CampaignOpportunityReservation,Validated future map political military and owner inputs,ReserveForLaterReview or Hold,Reservation activates battle or reward

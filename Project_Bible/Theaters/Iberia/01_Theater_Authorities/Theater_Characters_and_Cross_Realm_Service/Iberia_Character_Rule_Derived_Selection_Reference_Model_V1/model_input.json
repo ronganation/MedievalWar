@@ -1,0 +1,30 @@
+{
+  "people": [
+    {"id":"IBP-005","layer":"L2_LightweightPerson","domains":{"administration":5,"logistics":1,"frontier_reporting":0,"mediation":1},"evidence":3,"access":5,"obligation_penalty":1,"risk_penalty":1,"availability":true,"knowledge_routes":["Court","Institution"]},
+    {"id":"IBP-009","layer":"L2_LightweightPerson","domains":{"administration":2,"logistics":0,"frontier_reporting":0,"mediation":5},"evidence":3,"access":3,"obligation_penalty":2,"risk_penalty":1,"availability":true,"knowledge_routes":["Institution"]},
+    {"id":"IBP-013","layer":"L2_LightweightPerson","domains":{"administration":1,"logistics":5,"frontier_reporting":1,"mediation":1},"evidence":3,"access":3,"obligation_penalty":1,"risk_penalty":1,"availability":true,"knowledge_routes":["Court","Urban"]},
+    {"id":"IBP-018","layer":"L2_LightweightPerson","domains":{"administration":0,"logistics":2,"frontier_reporting":5,"mediation":1},"evidence":3,"access":4,"obligation_penalty":1,"risk_penalty":1,"availability":true,"knowledge_routes":["Frontier","Court"]},
+    {"id":"IBP-021","layer":"L2_LightweightPerson","domains":{"administration":1,"logistics":1,"frontier_reporting":3,"mediation":4},"evidence":2,"access":4,"obligation_penalty":2,"risk_penalty":2,"availability":true,"knowledge_routes":["Frontier","Court"]},
+    {"id":"IBP-022","layer":"L2_LightweightPerson","domains":{"administration":1,"logistics":0,"frontier_reporting":2,"mediation":5},"evidence":2,"access":2,"obligation_penalty":1,"risk_penalty":1,"availability":true,"knowledge_routes":["Frontier"]}
+  ],
+  "scenarios": [
+    {
+      "id":"A_CourtLogistics","seed":"iberia-reference-v1",
+      "pre_events":[{"type":"Evidence","person_id":"IBP-005","delta":2},{"type":"Evidence","person_id":"IBP-013","delta":2}],
+      "needs":[
+        {"id":"PetitionBacklog","required_knowledge":"Court","domain_weights":{"administration":6,"logistics":1},"evidence_cap":6,"evidence_weight":2,"access_weight":2,"minimum_score":35,"no_candidate_resolution":"Distribute petition work among existing clerks"},
+        {"id":"CourtLogisticsMandate","required_knowledge":"Court","domain_weights":{"administration":1,"logistics":6},"evidence_cap":6,"evidence_weight":2,"access_weight":2,"minimum_score":35,"no_candidate_resolution":"Use collective urban and household service solution"},
+        {"id":"SeniorLegalOffice","required_knowledge":"Court","domain_weights":{"administration":4,"mediation":5},"evidence_cap":6,"evidence_weight":2,"access_weight":2,"minimum_score":58,"no_candidate_resolution":"Keep office vacant and distribute duties temporarily"}
+      ]
+    },
+    {
+      "id":"B_FrontierCrisis","seed":"iberia-reference-v1",
+      "pre_events":[{"type":"Evidence","person_id":"IBP-018","delta":3},{"type":"Evidence","person_id":"IBP-022","delta":1}],
+      "needs":[
+        {"id":"FrontierReporting","required_knowledge":"Frontier","domain_weights":{"frontier_reporting":6,"logistics":2},"evidence_cap":6,"evidence_weight":2,"access_weight":2,"minimum_score":38,"no_candidate_resolution":"Maintain distributed reporting network"},
+        {"id":"SettlementMediation","required_knowledge":"Frontier","domain_weights":{"mediation":6,"frontier_reporting":2},"evidence_cap":6,"evidence_weight":2,"access_weight":2,"minimum_score":38,"no_candidate_resolution":"Use institutional and collective mediation"},
+        {"id":"CrisisHighCommand","required_knowledge":"Frontier","domain_weights":{"frontier_reporting":2,"logistics":2},"evidence_cap":6,"evidence_weight":1,"access_weight":1,"minimum_score":50,"no_candidate_resolution":"No individual command appointment; retain collective coordination"}
+      ]
+    }
+  ]
+}

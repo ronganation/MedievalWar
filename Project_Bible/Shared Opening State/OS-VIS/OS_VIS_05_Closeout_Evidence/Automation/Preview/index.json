@@ -1,0 +1,164 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "BABBAKANOOSH",
+			"instance": "B15CE7704BCED2489087A491EAEAEE92",
+			"instanceName": "BABBAKANOOSH-1188",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (25H2) [10.0.26200.9168] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 3060",
+			"cPUModel": "AMD Ryzen 5 5600X 6-Core Processor             ",
+			"rAMInGB": 16,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.08.28-20.38.04",
+	"succeeded": 9,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.072612106800079346,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "SyntheticProjectionNoMutation",
+			"fullTestPath": "MedievalWar.OpeningState.Preview.Candidate.SyntheticProjectionNoMutation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"B15CE7704BCED2489087A491EAEAEE92"
+			],
+			"duration": 0.0074703991413116455,
+			"dateTime": "2026.08.28-20.38.03",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FailClosedDefaults",
+			"fullTestPath": "MedievalWar.OpeningState.Preview.Contract.FailClosedDefaults",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"B15CE7704BCED2489087A491EAEAEE92"
+			],
+			"duration": 0.0080386027693748474,
+			"dateTime": "2026.08.28-20.38.03",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "FailClosedWithoutProvider",
+			"fullTestPath": "MedievalWar.OpeningState.Preview.Norway.Presentation.FailClosedWithoutProvider",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"B15CE7704BCED2489087A491EAEAEE92"
+			],
+			"duration": 0.0082301013171672821,
+			"dateTime": "2026.08.28-20.38.03",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReadOnlySummary",
+			"fullTestPath": "MedievalWar.OpeningState.Preview.Norway.Presentation.ReadOnlySummary",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"B15CE7704BCED2489087A491EAEAEE92"
+			],
+			"duration": 0.0081877000629901886,
+			"dateTime": "2026.08.28-20.38.03",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RemainingDiagnosticDispositions",
+			"fullTestPath": "MedievalWar.OpeningState.Preview.Norway.Presentation.RemainingDiagnosticDispositions",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"B15CE7704BCED2489087A491EAEAEE92"
+			],
+			"duration": 0.0083320997655391693,
+			"dateTime": "2026.08.28-20.38.03",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ReadOnlyCandidate",
+			"fullTestPath": "MedievalWar.OpeningState.Preview.Norway.Provider.ReadOnlyCandidate",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"B15CE7704BCED2489087A491EAEAEE92"
+			],
+			"duration": 0.0077659003436565399,
+			"dateTime": "2026.08.28-20.38.04",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CandidateOnlyContract",
+			"fullTestPath": "MedievalWar.OpeningState.Preview.Norway.VerticalSlice.CandidateOnlyContract",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"B15CE7704BCED2489087A491EAEAEE92"
+			],
+			"duration": 0.0082565024495124817,
+			"dateTime": "2026.08.28-20.38.04",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SpawnerRegistered",
+			"fullTestPath": "MedievalWar.OpeningState.Preview.Shell.SpawnerRegistered",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"B15CE7704BCED2489087A491EAEAEE92"
+			],
+			"duration": 0.0081041976809501648,
+			"dateTime": "2026.08.28-20.38.04",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EnvironmentDeterminism",
+			"fullTestPath": "MedievalWar.OpeningState.Preview.Snapshot.EnvironmentDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"B15CE7704BCED2489087A491EAEAEE92"
+			],
+			"duration": 0.0082265995442867279,
+			"dateTime": "2026.08.28-20.38.04",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

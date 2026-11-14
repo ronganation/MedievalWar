@@ -1,0 +1,59 @@
+{
+  "ManifestId": "manifest.aquitaine.recruitment-pools-units-replenishment.v1",
+  "ManifestVersion": "1.0.0",
+  "GeneratedDate": "2026-09-05",
+  "AuthorityFile": "Aquitaine_Recruitment_Pools_Units_and_Replenishment_Authority_V1.md",
+  "AuthorityId": "authority.recruitment-pools-units-replenishment.realm.aquitaine.v1",
+  "StableDocumentId": "RecruitmentPoolsUnitsReplenishment.Realm.Aquitaine",
+  "RealmId": "realm.aquitaine",
+  "OwningTheater": "West Francia",
+  "Status": "StaticCheckedReviewOnlyDevelopedRealmParityCandidate",
+  "FileMetrics": {
+    "LineCount": 1587,
+    "ByteCount": 56170,
+    "SHA256": "62226e39c9b6de76fa3dce9379d0d3d346ea17d6d0ce385cc55b4ac35f6c4f03",
+    "MarkdownHeadingCount": 66,
+    "MarkdownFenceCount": 96
+  },
+  "AuthorityMethod": "NewSpecialistAuthorityBuiltFromCurrentAquitaineChain",
+  "ImmediateSubstantivePredecessor": null,
+  "KeyContracts": {
+    "FiniteLocalRecruitmentPools": true,
+    "PopulationInformsRecruitmentWithoutDirectManpowerSubtraction": true,
+    "UnitDefinitionSeparateFromLocalAvailability": true,
+    "RecruitmentSeparateFromReplenishment": true,
+    "ReplenishmentSeparateFromFreeHealing": true,
+    "OpeningRecruitmentRecordsActivated": false,
+    "BarbastroOpeningCommitmentActivated": false,
+    "ThreeTrackTemporalModel": {
+      "HistoricalMonthsPerStrategicTurn": 21,
+      "BiologicalMonthsPerStrategicTurn": 7,
+      "CampaignSeasonStepsPerStrategicTurn": 1,
+      "CampaignSeasonOrder": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ]
+    }
+  },
+  "ValidationSummary": {
+    "TotalChecks": 26,
+    "Passes": 26,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "SourceFilesOverwritten": 0,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "RecruitmentPoolActivations": 0,
+    "UnitActivations": 0,
+    "ReplenishmentActivations": 0,
+    "MigrationExecutions": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  },
+  "NextControlledAuthority": "Aquitaine_Supply_Logistics_Transport_and_Recovery_Authority_V1.md"
+}

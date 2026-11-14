@@ -1,0 +1,320 @@
+{
+  "manifest_control": {
+    "document_id": "manifest.shared.information-intelligence-authority-family.source-static-check.v1",
+    "stable_document_id": "Manifest.InformationIntelligenceAuthorityFamily.SourceStaticCheck",
+    "filename": "Information_and_Intelligence_Authority_Family_Source_Manifest_and_Static_Check_V1.json",
+    "version": "1.0.0",
+    "revision_date": "2026-09-19",
+    "placement": "Project_Bible/Frameworks_And_Integration_Authorites/Information_and_Intelligence",
+    "constitutional_authority": "Project Bible 2.4",
+    "operational_authority": "Design Expansion Checklist 3.7",
+    "implementation_target": "Unreal Engine 5.8",
+    "scenario_opening": {
+      "historical_date": "1062-01-01",
+      "campaign_season": "Winter"
+    },
+    "temporal_constitution": {
+      "historical_progression": "21 months per strategic turn",
+      "biological_progression": "7 months per strategic turn",
+      "campaign_season_progression": "1 ordered Winter, Spring, Summer, Autumn step per strategic turn"
+    },
+    "status": "StaticCheckedSourceManifestOwnerReviewRequired",
+    "implementation_promotion_authorized": false
+  },
+  "evidence_policy": {
+    "repository_search_date": "2026-09-19",
+    "rules": [
+      "ExactLocatedRepositoryResultMaySupportLocatedStatus",
+      "CreationReceiptMaySupportBytesLinesAndSHA256OnlyWhenExplicitlyRecorded",
+      "SearchAbsenceIsNotEvidenceOfFileNonexistence",
+      "UnknownFingerprintFieldsRemainNull",
+      "NoMissingFileRecordOrFingerprintIsFabricated",
+      "DuplicateSearchResultsDoNotAuthorizeDeletion",
+      "CurrentAuthorityIndexControlsDispositionWhereRepositorySearchIsIncomplete"
+    ],
+    "fingerprint_evidence_classes": [
+      "CurrentCreationReceipt",
+      "PriorCreationReceipt",
+      "RepositoryMetadataWithoutFingerprint",
+      "ReferencedByCurrentAuthority",
+      "NotLocatedInCurrentSearch"
+    ]
+  },
+  "current_authority_records": [
+    {
+      "filename": "Information_Knowledge_Communication_Intelligence_Warning_Secrecy_and_Deception_Authority_Family_Bounded_Assessment_and_Development_Disposition_V1.md",
+      "stable_document_id": "Assessment.InformationKnowledgeCommunicationIntelligenceWarningSecrecyDeception.AuthorityFamily",
+      "authority_role": "DevelopmentDispositionAndOwnerGapAssessment",
+      "current_control": true,
+      "disposition": "RETAIN_CURRENT_ASSESSMENT",
+      "repository_status": "Located",
+      "evidence_class": "PriorCreationReceipt",
+      "bytes": 38816,
+      "physical_lines": 1155,
+      "sha256": "d7a1d9b8881dfe79ee8ec1f4991e483df9c0643f1f11a803551cdaba0143da71",
+      "reference_id": "turn224search134"
+    },
+    {
+      "filename": "Information_Knowledge_Communication_Secrecy_and_Deception_Shared_Constitution_V1.md",
+      "stable_document_id": "Framework.InformationKnowledgeCommunication",
+      "authority_role": "SharedInformationKnowledgeCommunicationSecrecyDeceptionConstitution",
+      "current_control": true,
+      "disposition": "CURRENT_SHARED_CONSTITUTION_CANDIDATE",
+      "repository_status": "Located",
+      "evidence_class": "PriorCreationReceipt",
+      "bytes": 41286,
+      "physical_lines": 1355,
+      "sha256": "9f32d35a961408c29961c130aa9e45579b357958351d38285c420bf6baab92fd",
+      "reference_id": "turn224search132"
+    },
+    {
+      "filename": "Agent_System_V2_Current_Authority_Additive_Modernization.md",
+      "stable_document_id": "Framework.AgentSystem",
+      "authority_role": "SharedMissionActorRoleEligibilityAccessExposureRiskAndAttemptAuthority",
+      "current_control": true,
+      "disposition": "CURRENT_SHARED_AGENT_AUTHORITY_CANDIDATE",
+      "repository_status": "LocatedInPriorSearchAndCurrentIndex",
+      "evidence_class": "PriorCreationReceipt",
+      "bytes": 60184,
+      "physical_lines": 2084,
+      "sha256": "24f6328d7b782948197bcedb694c333e0ef8cd3ac5c12a1bfd73d5b031ad679b",
+      "reference_id": null,
+      "copy_first_source": {
+        "filename": "Agent_System.md",
+        "exact_prefix_preserved": true,
+        "source_bytes": 16380,
+        "source_physical_lines": 701,
+        "source_sha256": "bd87139a641d0697f4e194194d76ca92ea703ac9ac8c277cb2f17db0d3c06fa5"
+      }
+    },
+    {
+      "filename": "Developed_Realm_Information_Intelligence_and_Communication_Compatibility_Review_V1.md",
+      "stable_document_id": "Review.InformationIntelligenceCommunication.DevelopedRealmCompatibility",
+      "authority_role": "DevelopedRealmConsumerCompatibilityAndBoundedDeltaReview",
+      "current_control": true,
+      "disposition": "RETAIN_CURRENT_WITH_BARCELONA_COVERAGE_CORRECTION_IN_INDEX",
+      "repository_status": "NotLocatedInCurrentExactSearch",
+      "evidence_class": "PriorCreationReceipt",
+      "bytes": 30447,
+      "physical_lines": 988,
+      "sha256": "ff72adfe648d2f164dbfa62ca56535be9af1439e76ec93346322a4e558c7a18c",
+      "reference_id": null
+    },
+    {
+      "filename": "Information_and_Intelligence_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "stable_document_id": "Index.InformationIntelligenceAuthorityFamily.CurrentAuthority",
+      "authority_role": "CurrentAuthorityNavigationLegacyDispositionAndRealmConsumerIndex",
+      "current_control": true,
+      "disposition": "RETAIN_CURRENT_INDEX",
+      "repository_status": "Located",
+      "evidence_class": "CurrentCreationReceipt",
+      "bytes": 24162,
+      "physical_lines": 794,
+      "sha256": "66708db0e07ca10f29ac56b3ba4ceb39041234ec16a9f7a87ef0ce8e84a77593",
+      "reference_id": "turn224search128"
+    }
+  ],
+  "specialist_authority_records": [
+    {
+      "filename": "Military_Campaign_Reconnaissance_Intelligence_Deception_and_Counterintelligence_Framework_V1.md",
+      "authority_role": "MilitaryInformationSpecialist",
+      "current_control": true,
+      "disposition": "RETAIN_CURRENT_SPECIALIST",
+      "repository_status": "LocatedInPriorSearch",
+      "evidence_class": "ReferencedByCurrentAuthority",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "reference_id": null
+    },
+    {
+      "filename": "Military_Campaign_Command_Control_Communication_Orders_and_Operational_Coordination_Framework_V1.md",
+      "authority_role": "MilitaryCommandCommunicationSpecialist",
+      "current_control": true,
+      "disposition": "RETAIN_CURRENT_SPECIALIST",
+      "repository_status": "NotLocatedInCurrentExactSearch",
+      "evidence_class": "ReferencedByCurrentAuthority",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "reference_id": null
+    },
+    {
+      "filename": "Character_Network_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "authority_role": "DirectedRelationshipContactAccessAndCommunicationOpportunityOwner",
+      "current_control": true,
+      "disposition": "RETAIN_CURRENT_RELATIONSHIP_CONTACT_AND_ACCESS_OWNER",
+      "repository_status": "NotLocatedInCurrentExactSearch",
+      "evidence_class": "ReferencedByCurrentAuthority",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "reference_id": null
+    }
+  ],
+  "legacy_source_records": [
+    {
+      "filename": "Agent_System.md",
+      "authority_role": "ImmediateSubstantiveSourceForAgentSystemV2",
+      "current_control": false,
+      "disposition": "RETAIN_IMMUTABLE_PROVENANCE",
+      "repository_status": "NotLocatedInCurrentExactSearch",
+      "evidence_class": "PriorCreationReceipt",
+      "bytes": 16380,
+      "physical_lines": 701,
+      "sha256": "bd87139a641d0697f4e194194d76ca92ea703ac9ac8c277cb2f17db0d3c06fa5",
+      "reference_id": null
+    },
+    {
+      "filename": "Agent_System.pdf",
+      "authority_role": "LegacyFormattedReference",
+      "current_control": false,
+      "disposition": "RETAIN_FORMATTED_LEGACY_REFERENCE_NOT_CURRENT_CONTROL",
+      "repository_status": "NotLocatedInCurrentExactSearch",
+      "evidence_class": "ReferencedByCurrentAuthority",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "reference_id": null
+    },
+    {
+      "filename": "AlternateAgentSystemCopies",
+      "authority_role": "PotentialDuplicateOrEarlierProvenanceCopies",
+      "current_control": false,
+      "disposition": "RETAIN_OR_DEDUPLICATE_ONLY_AFTER_EXACT_FINGERPRINT_REVIEW",
+      "repository_status": "MultipleCopiesPreviouslyObserved",
+      "evidence_class": "ReferencedByCurrentAuthority",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "deletion_authorized": false,
+      "reference_id": null
+    }
+  ],
+  "developed_realm_consumers": {
+    "Britania": {
+      "England": "CurrentPackageIndexMappingRequired",
+      "Ireland": "CurrentPackageIndexAndDiplomacyMappingRequired",
+      "Scotland": "ExactCurrentOwnerRequiresPackageIndexReview",
+      "Wales": "IntegratedAuthorityIndexAndSpecialistAuditMappingRequired"
+    },
+    "WestFrancia": {
+      "France": "CurrentPackageIndexResolutionRequired",
+      "Normandy": "RetainCombinedRealmKnowledgeAndDedicatedReconnaissanceSpecialist",
+      "Flanders": "RetainCombinedKnowledgeCommunicationDiplomacyAndExternalInterfacesAuthority",
+      "Aquitaine": "RetainCombinedKnowledgeCommunicationDiplomacyAndExternalRelationsAuthority",
+      "Brittany": "ExactCurrentOwnerRequiresPackageIndexReview",
+      "Burgundy": "RetainCombinedKnowledgeCommunicationDiplomacyAndExternalRelationsAuthority"
+    },
+    "Norse": {
+      "Norway": "RetainDiplomacyAuthorityAndMapInformationSemanticsThroughSharedConstitution",
+      "Denmark": "ExactCurrentOwnerRequiresPackageIndexReview",
+      "Sweden": "ExactCurrentOwnerRequiresPackageIndexReview"
+    },
+    "IberianChristianRealms": {
+      "Aragon": "CurrentPackageIndexMappingRequired",
+      "LeonCastile": "ExactCurrentOwnerRequiresPackageIndexReview",
+      "Barcelona": {
+        "disposition": "DevelopedRealmPackageIndexMappingRequired",
+        "compatibility_status": "CompatibleByArchitecturePendingExactInformationOwnerMapping",
+        "coverage_correction": "AddedAfterOmissionFromInitialCompatibilityReview",
+        "confirmed_package_evidence": [
+          "Barcelona_Source_Authority_Ownership_and_Package_Discovery_V1.md",
+          "Barcelona_Current_Authority_Index_and_Specialist_Ownership_Map_V1.md",
+          "Barcelona_README.md",
+          "Barcelona_Future_Implementation_Batch_and_Dependency_Plan_V1.md"
+        ]
+      }
+    },
+    "Taifas": {
+      "Valencia": "MatureSpecialistPackageMappingThroughCurrentIndexAndIntegrationAudit",
+      "Zaragoza": "RetainDedicatedInformationKnowledgeCommunicationIntelligenceWarningSecrecyAndDeceptionAuthority",
+      "Badajoz": "RetainKnowledgeProvenanceEvidenceAndKnowledgeCommunicationDiplomacyExternalInterfacePackageWithExistingBlockers",
+      "Seville": "CurrentPackageIndexResolutionRequired"
+    },
+    "NorthAfrica": {
+      "AlmoravidMovementState": "RetainDedicatedComprehensiveInformationAuthority"
+    }
+  },
+  "barcelona_correction_evidence": [
+    {
+      "filename": "Barcelona_Source_Authority_Ownership_and_Package_Discovery_V1.md",
+      "repository_status": "LocatedInPriorSearch",
+      "evidence_class": "RepositoryMetadataWithoutFingerprint",
+      "disposition": "RETAIN_AS_REALM_PACKAGE_DISCOVERY_AND_OWNER_ROUTING_EVIDENCE",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "reference_id": null
+    },
+    {
+      "filename": "Barcelona_Current_Authority_Index_and_Specialist_Ownership_Map_V1.md",
+      "repository_status": "ReferencedByLocatedBarcelonaPlanButNotLocatedInCurrentExactSearch",
+      "evidence_class": "ReferencedByCurrentAuthority",
+      "disposition": "OPEN_BEFORE_ANY_BARCELONA_INFORMATION_CHANGE",
+      "bytes": null,
+      "physical_lines": null,
+      "sha256": null,
+      "reference_id": null
+    }
+  ],
+  "legacy_concept_disposition": {
+    "UniversalSpyReveal": "SupersededByObservationReportAssessmentBeliefPipeline",
+    "AutomaticAssassinationOrSabotageOutcome": "SupersededByMissionAttemptAndExternalOwnerReceipts",
+    "DiplomatDirectlyCreatesTreatyOrRelations": "SupersededByDiplomacyOwner",
+    "MerchantDirectlyCreatesRevenueOrProperty": "SupersededByEconomyPropertyTreasuryAndDiplomacyOwners",
+    "ExplorerRevealsMapAutomatically": "SupersededByGeographyObservationAndKnowledgeOwners",
+    "UniversalReligiousConversionAgent": "Rejected",
+    "CatholicOrthodoxIslamicPaganEquivalentAgentLadders": "Rejected",
+    "GenericInquisitorEquivalentForEveryTradition": "Rejected",
+    "GovernorAndGeneralAsUniversalAgents": "SupersededByGovernmentMilitaryOfficeAndCharacterOwners",
+    "UniversalXPLevelAsCompleteAgentDevelopment": "SupersededByCharacterDevelopmentReadinessAndQualifiedExperience",
+    "OnePercentageMissionResolution": "SupersededByTypedExplainableInputsRiskAndOwnerRouting"
+  },
+  "static_checks": {
+    "json_parse": "PASS",
+    "unique_record_keys": "PASS",
+    "all_current_records_have_disposition": "PASS",
+    "all_current_records_have_owner_role": "PASS",
+    "sha256_format": "PASS",
+    "unknown_fingerprints_are_null": "PASS",
+    "barcelona_coverage_correction_present": "PASS",
+    "legacy_agent_system_noncontrolling": "PASS",
+    "duplicate_deletion_authorized": false,
+    "mass_realm_rewrite_authorized": false,
+    "registry_mutation_authorized": false,
+    "opening_state_mutation_authorized": false,
+    "runtime_mutation_authorized": false,
+    "unreal_project_mutation_authorized": false,
+    "implementation_promotion_authorized": false,
+    "overall_result": "PASS_WITH_REPOSITORY_EVIDENCE_LIMITATIONS"
+  },
+  "next_gate": {
+    "file": "Information_and_Intelligence_Authority_Family_Independent_Static_Closure_Review_V1.md",
+    "dependencies": [
+      "CurrentAuthorityIndex",
+      "ThisSourceManifestAndStaticCheck",
+      "SharedInformationConstitution",
+      "AgentSystemV2",
+      "MilitarySpecialistBoundaryReview",
+      "DevelopedRealmCoverageIncludingBarcelona"
+    ],
+    "authorized": true,
+    "implementation_authorized": false
+  },
+  "nonmutation_receipt": {
+    "shared_authorities_modified": 0,
+    "realm_authorities_modified": 0,
+    "legacy_files_modified_or_deleted": 0,
+    "registry_entries_created_or_modified": 0,
+    "opening_state_records_created_or_modified": 0,
+    "agents_created_or_modified": 0,
+    "missions_created_or_executed": 0,
+    "save_schemas_created_or_modified": 0,
+    "migration_executed": false,
+    "gameplay_payloads_created_or_imported": 0,
+    "unreal_files_modified": 0,
+    "compile_executed": false,
+    "runtime_executed": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "document_id": "static-check.wales.network-candidate-manifest.v2.addendum",
+  "artifact": "Wales_Network_Opening_Fixture_Candidate_Manifest_V2_Current_Authority_Addendum.md",
+  "content_checks": {
+    "eight_candidates": true,
+    "eight_basis_only": true,
+    "zero_dimensions": true,
+    "two_guards": true,
+    "current_provenance": true,
+    "ue58": true,
+    "three_tracks": true
+  },
+  "source_fidelity_checks": {
+    "literal_source_prefix": false,
+    "complete_source_locally_verified": false
+  },
+  "content_static_check_passed": true,
+  "copy_first_static_check_passed": false,
+  "promotion_authorized": false
+}

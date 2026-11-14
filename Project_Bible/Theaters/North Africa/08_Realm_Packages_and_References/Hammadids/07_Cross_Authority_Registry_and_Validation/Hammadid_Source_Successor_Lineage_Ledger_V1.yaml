@@ -1,0 +1,176 @@
+ledger_version: 1.0.0
+ledger_status: PartialBatchBSourceSuccessorLineageEvidence
+realm: Hammadids
+owning_theater: North Africa
+scenario_id: mw.scenario.grand_campaign.1062
+scope:
+  folder_focus: 07_Cross_Authority_Registry_and_Validation
+  lineage_groups_reviewed: 5
+  complete_source_successor_byte_pairs_available: 0
+  hash_complete_pairs: 0
+  section_complete_pairs: 0
+  owner_approved_supersessions: 0
+rules:
+  - FilenameVersionDoesNotProveSupersession
+  - HigherVersionDoesNotAutomaticallyControl
+  - SameStableDocumentIdRequiresValidLineageOrCollisionDisposition
+  - CopySuffixDoesNotAuthorizeDeletion
+  - CopyFirstAdditiveComparisonIsRequired
+  - SubstantiveRemovalRequiresRemovalLedgerAndOwnerApproval
+  - SourceAndSuccessorRemainPreservedUntilClosure
+  - NoAutomaticRenameMoveMergeDeleteOrPromotion
+lineage_records:
+  - lineage_ref: HMD_LINEAGE_VALIDATION_001
+    source_file: 07_Cross_Authority_Registry_and_Validation/Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1.md
+    successor_file: 07_Cross_Authority_Registry_and_Validation/Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    shared_stable_document_id: HMD_VALIDATION_MIGRATION_FREEZE_ROLLBACK
+    source_version: 1.0.0
+    successor_version: 1.1.0
+    source_hash: NotRun
+    successor_hash: NotRun
+    source_section_inventory: NotRun
+    successor_section_inventory: PartialEnterpriseOpen
+    declared_relationship: PreviousVersionAndCopyFirstAdditiveIntegratedUpdate
+    substantive_preservation_state: PendingSectionBySectionComparison
+    removal_ledger_state: NotRun
+    inbound_reference_state: NotRun
+    owner_approval_state: Pending
+    supersession_state: CandidateSuccessorNotApproved
+    current_disposition: PreserveBoth
+  - lineage_ref: HMD_LINEAGE_OPENING_001
+    source_file: 01_Historical_Identity_Opening_and_Chronology/Hammadid_Opening_State_1062_V1.md
+    successor_file: 01_Historical_Identity_Opening_and_Chronology/Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+    shared_stable_document_id: HMD_OPENING_STATE_1062
+    source_version: 1.0.0
+    successor_version: 1.1.0
+    source_hash: NotRun
+    successor_hash: NotRun
+    source_section_inventory: NotRun
+    successor_section_inventory: KnownFromCurrentConversationButRawArtifactNotRetainedForPairComparison
+    declared_relationship: AdditiveDevelopedRealmParityStrengthening
+    substantive_preservation_state: PendingDirectPairComparison
+    removal_ledger_state: NotRun
+    inbound_reference_state: MultipleCurrentAuthoritiesReferenceBothSourceAndSuccessor
+    owner_approval_state: Pending
+    supersession_state: AdditiveSuccessorCandidate
+    current_disposition: PreserveBoth
+  - lineage_ref: HMD_LINEAGE_ANNASIR_001
+    source_files:
+      - 02_Characters_Dynasty_Households_and_Networks/An_Nasir_ibn_Alnas_V1_Developed_Character_Profile_Authority.md
+      - 02_Characters_Dynasty_Households_and_Networks/An_Nasir_ibn_Alnas_V1_Developed_Character_Profile_AuthorityCopy.md
+    successor_file: 02_Characters_Dynasty_Households_and_Networks/An_Nasir_ibn_Alnas_V1_1_Developed_Character_Profile_Authority.md
+    shared_stable_document_id: CharacterProfile.Hammadid.AnNasirIbnAlnas
+    observed_versions:
+      source_named_v1: 1.1.0
+      copy_named_v1: 1.1.0
+      successor_named_v1_1: 1.1.0
+    source_hashes: NotRun
+    successor_hash: NotRun
+    source_section_inventory: NotRun
+    successor_section_inventory: NotRun
+    declared_relationship: UnresolvedCopyAndSuccessorCandidateGroup
+    substantive_preservation_state: NotRun
+    removal_ledger_state: NotRun
+    inbound_reference_state: CandidateMapAnchorsV1_1Filename
+    owner_approval_state: Pending
+    supersession_state: Quarantined
+    current_disposition: PreserveAllAndBlockCanonicalOrOpeningBinding
+  - lineage_ref: HMD_LINEAGE_READINESS_001
+    source_file: 01_Historical_Identity_Opening_and_Chronology/Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+    successor_file: 07_Cross_Authority_Registry_and_Validation/Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    source_stable_document_id: HMD_OPENING_STATE_1062
+    successor_stable_document_id: RealmFoundationReadinessIntegrationBlockerAudit.Realm.Hammadid
+    source_version: 1.1.0
+    successor_version: 1.0.0
+    source_hash: NotRun
+    successor_hash: d276b19181563c4800d8b1ba3b5a12b2aaa938eb28d3272adb183ef3a36ceb17
+    relationship_class: ConsumingSpecialistAuditNotReplacement
+    substantive_preservation_state: NotApplicableAsSupersession
+    removal_ledger_state: NotApplicable
+    inbound_reference_state: SuccessorExplicitlyNamesImmediateSubstantiveSource
+    owner_approval_state: Pending
+    supersession_state: NoSupersession
+    current_disposition: PreserveBothAsDifferentAuthorityClasses
+  - lineage_ref: HMD_LINEAGE_BOUNDARY_001
+    source_file: 07_Cross_Authority_Registry_and_Validation/Hammadid_Realm_Foundation_Readiness_Integration_and_Blocker_Audit_V1.md
+    successor_file: 07_Cross_Authority_Registry_and_Validation/Hammadid_Opening_Boundary_Identity_and_Current_Authority_Closure_Preflight_V1.md
+    source_stable_document_id: RealmFoundationReadinessIntegrationBlockerAudit.Realm.Hammadid
+    successor_stable_document_id: OpeningBoundaryIdentityCurrentAuthorityClosurePreflight.Realm.Hammadid
+    source_version: 1.0.0
+    successor_version: 1.0.0
+    source_hash: d276b19181563c4800d8b1ba3b5a12b2aaa938eb28d3272adb183ef3a36ceb17
+    successor_hash: f72f87b29fb77d9b65e39a7b7bab42161de92f1b4ddc03066a2bb563b8cf8546
+    relationship_class: ConsumingSpecialistPreflightNotReplacement
+    substantive_preservation_state: NotApplicableAsSupersession
+    removal_ledger_state: NotApplicable
+    inbound_reference_state: SuccessorExplicitlyNamesImmediateSubstantiveSource
+    owner_approval_state: Pending
+    supersession_state: NoSupersession
+    current_disposition: PreserveBothAsDifferentAuthorityClasses
+comparison_requirements:
+  required_for_true_successor_pairs:
+    - SourceAndSuccessorSHA256
+    - SourceAndSuccessorExactLineCounts
+    - HeaderIdentityAndVersionComparison
+    - CompleteHeadingAndSectionInventories
+    - NamedPeoplePlacesInstitutionsDatesAndOwnerLiteralComparison
+    - PreservedExpandedMovedIntegratedAndRemovedSectionLedger
+    - RemovalJustifications
+    - ChangedOwnershipStatusAndScenarioBoundaryReview
+    - InboundReferenceSearch
+    - OwnerApproval
+  required_for_copy_candidate_groups:
+    - ByteIdentityComparison
+    - StableDocumentIdAndDocumentIdComparison
+    - FilenameHeaderComparison
+    - SectionAndLiteralComparison
+    - OnlyKnownGoodCopyProtection
+    - RollbackSource
+    - OwnerDisposition
+classification_summary:
+  valid_declared_successor_candidates: 2
+  unresolved_copy_and_successor_groups: 1
+  consuming_specialist_authority_relationships: 2
+  confirmed_supersessions: 0
+  rejected_supersessions: 0
+  pending_owner_decisions: 5
+issue_ledger:
+  HMD_LINEAGE_ISSUE_001:
+    finding: ValidationV1AndV1_1LackCompleteHashAndSectionComparison
+    severity: BLOCKING_FOR_SUPERSESSION_APPROVAL
+    owner: PackageControlValidation
+    remedy: CompleteCopyFirstAdditiveComparisonAndRemovalLedger
+  HMD_LINEAGE_ISSUE_002:
+    finding: OpeningStateV1AndV1_1LackDirectPairEvidence
+    severity: BLOCKING_FOR_SUPERSESSION_APPROVAL
+    owner: OpeningStateValidation
+    remedy: CompareCompleteSourceAndSuccessorBeforeCurrentAuthorityDecision
+  HMD_LINEAGE_ISSUE_003:
+    finding: AnNasirFilenameVersionsAndInternalVersionsConflict
+    severity: CRITICAL_FOR_CHARACTER_CURRENTNESS
+    owner: CharacterProfilePackageIndexRegistry
+    remedy: HashCompareAndDispositionAllThreeArtifacts
+  HMD_LINEAGE_ISSUE_004:
+    finding: SpecialistAuditAndPreflightMustNotBeMisclassifiedAsSuccessors
+    severity: CONTROL_WARNING
+    owner: PackageControl
+    remedy: PreserveDistinctStableIdsAndAuthorityClasses
+validation_summary:
+  records_reviewed: 5
+  complete_hash_pairs: 0
+  approved_supersessions: 0
+  source_files_modified: 0
+  source_files_deleted: 0
+  source_files_moved: 0
+  source_files_renamed: 0
+  registry_mutations: 0
+  opening_state_mutations: 0
+  result: PASS_AS_PARTIAL_BATCH_B_LINEAGE_LEDGER_WITH_OWNER_DECISIONS_PENDING
+stable_footer:
+  stable_document_id: HMD_SOURCE_SUCCESSOR_LINEAGE_LEDGER
+  version: 1.0.0
+  status: PartialBatchBSourceSuccessorLineageEvidenceOwnerReviewRequired
+  registry_mutation_authorized: false
+  opening_state_mutation_authorized: false
+  runtime_mutation_authorized: false
+  unreal_project_mutation_authorized: false

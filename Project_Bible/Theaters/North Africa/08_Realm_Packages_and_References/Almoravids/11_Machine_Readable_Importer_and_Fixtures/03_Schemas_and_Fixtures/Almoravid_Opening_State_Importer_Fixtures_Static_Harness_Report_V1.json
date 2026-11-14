@@ -1,0 +1,877 @@
+{
+  "reportIdentity": {
+    "reportId": "report.almoravid.opening_state.importer_fixtures.static.v1",
+    "reportVersion": "1.0.0",
+    "status": "PASS_STATIC_CHECKED"
+  },
+  "fixturePackageFile": "Almoravid_Opening_State_Importer_Fixtures_V1.json",
+  "fixturePackageSha256": "0d721dd2e29ba0781d01e13c647c55e21f881085e80459ada749a2fe7b3c7572",
+  "fixturePackageCanonicalHash": "c795166ea28deea3fd090445d0357584efd2c061f8f625cc864a07843f775c20",
+  "bindings": {
+    "schema": {
+      "file": "Almoravid_Opening_State_Package_Schema_V1.json",
+      "sha256": "7631579ea6f0977b757f18696edf6309f7db9b5eaf13141f9f998b007f832293",
+      "schemaId": "schema.almoravid.opening_state.package.v1",
+      "jsonSchemaDraft": "2020-12"
+    },
+    "validationProfile": {
+      "file": "Almoravid_Opening_State_Static_Validation_Profile_V1.json",
+      "sha256": "57b89af092d0852cfe19268cee52e01ff265a88e5d7621b35e4367320fbd6b6f",
+      "profileCanonicalHash": "5de34179a3e5c1b1f814884789fd9aff97da750d15622e3303b5dd1065c212af"
+    },
+    "canonicalPayload": {
+      "file": "Almoravid_Opening_State_1062_V1.json",
+      "fileSha256": "211b1a6936f3f801454690d4d0a2b3c234d5c45f7bf929aeee56ff310056e3a3",
+      "canonicalPayloadHash": "3ae8701ecc5f8e4f5053ae42c52432828dedb85ff1f87ebf5815c282f07cee97"
+    },
+    "abuBakrOverlay": {
+      "file": "Almoravid_Opening_State_1062_Abu_Bakr_Perspective_V1.json",
+      "fileSha256": "9acdecd47bab2c7d3b78c44137edc9c4c6ebc231382d426c51a21c2bd06ba8fb",
+      "overlayHash": "1df2f98c26cc486da6af19abfdd8d9c4b92df320025494cdf87057d9022f0795"
+    },
+    "yusufOverlay": {
+      "file": "Almoravid_Opening_State_1062_Yusuf_Perspective_V1.json",
+      "fileSha256": "74658fa9da9b27fa93131e9eb1f85789d2f4a3a080a6a08fe8f5a3a39f652b99",
+      "overlayHash": "4bbd1371a078f1eace0c6c05aeb6c6b2cf59a1b46bbcb6117b9ec5d5b573338c"
+    },
+    "registry": {
+      "registryId": "registry.almoravid.v1",
+      "registryVersion": "1.1.0",
+      "file": "Almoravid_ID_Registry_V1.md",
+      "sha256": "e798c51865aa289eae5a72681b18a8e5e455c1ea669216904d2b33af9061989f"
+    }
+  },
+  "summary": {
+    "fixtureCount": 38,
+    "passed": 38,
+    "failed": 0,
+    "accepted": 2,
+    "alreadyApplied": 1,
+    "rejectedFatal": 35,
+    "committed": 2,
+    "nonCommitted": 36,
+    "authoritativeMutationsOnNonCommit": 0,
+    "deterministicRepeatEqual": true
+  },
+  "results": [
+    {
+      "fixtureId": "fixture.almoravid.opening.valid_abu_bakr.v1",
+      "disposition": "Accepted",
+      "issueCodes": [],
+      "validationLayer": "None",
+      "commit": true,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 1,
+      "traceHash": "515479e04c31a59961b509f2fd0b4af22b10fe4c33242df3b4f27749fd328f23",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.valid_yusuf.v1",
+      "disposition": "Accepted",
+      "issueCodes": [],
+      "validationLayer": "None",
+      "commit": true,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 1,
+      "traceHash": "9cf48b00bee5a6616ce71fba523918292ab4e4286cc8bab29c37b8401daf07ab",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.already_applied.v1",
+      "disposition": "AlreadyApplied",
+      "issueCodes": [
+        "ALM_OSV_ALREADY_APPLIED"
+      ],
+      "validationLayer": "ApplicationGuard",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "8c8be55c2bc7da733cff8e37f98a023255c53b391118233974c7268a4a566c43",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.missing_perspective.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_PERSPECTIVE_REQUIRED"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "32ae45d827c040921f3627ea8a4c08d3bea577e1fe2a49540e52d5ec027feabe",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.multiple_perspectives.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_MULTIPLE_PERSPECTIVES"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "b5a1763c448b9e61489e95450e82efb060c5e22734c1dd7a9e2bdd549b6db0a7",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.perspective_person_mismatch.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_PERSPECTIVE_PERSON_MISMATCH"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "687288bfe9c51121650e110cfea9c993a84e0e84d84a04e6495ec19ac2562510",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.payload_hash_mismatch.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_PAYLOAD_CANONICAL_HASH_MISMATCH"
+      ],
+      "validationLayer": "BindingAndRegistry",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "1405ce08e1da31c70f4acf4e6fd66717e0cd0d8d90ce21cdb8135e30cb572dd6",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.schema_hash_mismatch.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_SCHEMA_HASH_MISMATCH"
+      ],
+      "validationLayer": "BindingAndRegistry",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "78da7660f9e14f18366a18bba13b873c30124846d7ba61506822873edc59046d",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.registry_hash_mismatch.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_REGISTRY_HASH_MISMATCH"
+      ],
+      "validationLayer": "BindingAndRegistry",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "f17570852c6d254e0c72e796e1e8497173f8939c08ad1d943c0c4344266a3dc8",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.zaynab_runtime_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_ZAYNAB_RUNTIME_INJECTED"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "42e3d4a865af495bb4a21dd1cb5bb0a06866a792b581f44f25575dc0f5e910ac",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.historical_person_runtime_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_HISTORICAL_PERSON_RUNTIME_INJECTED"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "2e531e343f8a107e6d509aa818122da0edad98d57af7df48e617c9ff78f38697",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.leader_location_invented.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_LEADER_LOCATION_INVENTED"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "a1a59c1acdded5304c080fe039921c627a0ce17d25ac4e9b74861a8301444467",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.army_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "42dd253e191f6847916dd5f85658ebde3ede49fa720f95ae46a585481c893a3e",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.network_edge_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "b9d599694904cce54b38a8315db6e3e8a847dd8f26f6df71f1e0c055dd300f13",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.commitment_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "b406ee36defad2baede718e1983b19cbec9b8c9c9941faf32329eafedc18694a",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.property_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "3070996e807eb722f162c5f93f1831c72e1f37b44231a7235fbb50718a4c4c61",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.treasury_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "a2e9b9844f1dd8b527e91592655deebafdbac91e6f53b90ad8f1009f1dff2457",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.market_mint_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "e505359a08ede8d3fe356211159c1db8a5d29df75a477d30d3126b5ad6c3315c",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.caravan_supply_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "10756f80d6b65410ce24c82ac682bb6263fcb355c612b93b7593189c8321205f",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.marrakesh_instance_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_MARRAKESH_INSTANCE_INJECTED"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "fef1771a76904d807f7be933afbd6910d9b7b500e4080e1a340f1faff3afc6db",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.marrakesh_phase_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_MARRAKESH_PHASE_INJECTED"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "64190e511f4e61a19ae20154fb53629fca1ef30ce385f2fbc348549823615449",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.religious_office_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "d80ed84e365a4de9adaaf08156b454dd8404ed176844781aa69138ce2f4e782a",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.historical_instance_injected.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "e138a14219b6fcfccc2c5f33f36f469ba561bacbd7e7b2b361577b63ad3e6e75",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.explicit_collection_missing.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NAME_MISSING"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "dd183c985b491f35ee2bb96bddd5e884ef3516f2e3ad158a631e90554327101d",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.explicit_collection_duplicate.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_DUPLICATE"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "770d248882ba966c3fa7d12803d96b8f625438c7ca5699832444965eb1a628e6",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.explicit_collection_nonempty.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_EMPTY_COLLECTION_NONEMPTY"
+      ],
+      "validationLayer": "ExplicitEmptyCatalogue",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "396fc356d87e6d6cfcfeba5683f14084a449a36756e84cbf01e89f0185de8d74",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.declared_count_mismatch.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_DECLARED_COUNT_MISMATCH"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "3bba0300ed6fe770cb4b74d2b65a3fb9067380ff6a6b50e13d8c27536b482e1f",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.temporal_corruption.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_HISTORICAL_DATE_INVALID"
+      ],
+      "validationLayer": "Temporal",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "a8ec3a6ab30e8dfc069625cf55e3cb7ae97b885ea4fe71f8b1347b710e1e354c",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.fixed_ratio.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_FIXED_CROSS_CLOCK_RATIO"
+      ],
+      "validationLayer": "Temporal",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "39817f008f3022aed96fbb529fd653dc10d97c9ac2c37a692827ebfa0fef88ca",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.review_only_activation.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_UNSUPPORTED_OPENING_INSTANCE"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "669581e4dcb1019f9715d53213212683bb58eeb62248509207ef0581a43aeca9",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.quarantine_activation.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_UNSUPPORTED_OPENING_INSTANCE"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "b8961fdb145da0562d279cad8c0d9e879cde3b2a64071cdf5ddfaa0d142c89f4",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.external_lock_mutation.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_UNSUPPORTED_OPENING_INSTANCE"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "3ea1f4c1d26e19caabc44fefd7ae61ca8bce6f67670df39d06a50ee9da571159",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.later_history_activation.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_DECLARED_COUNT_MISMATCH"
+      ],
+      "validationLayer": "CrossRecordSemantics",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "a43eed7909966e7b2850047829dfc53c3cce8a453113e39a473573e5037df588",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.advanced_save.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_ADVANCED_SAVE_APPLICATION"
+      ],
+      "validationLayer": "ApplicationGuard",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "a0fe94e4358a2acb243332fde68a7fac4cf736234295830399c83597868f2815",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.owner_rejection.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_OWNER_REJECTED"
+      ],
+      "validationLayer": "OwnerRouting",
+      "commit": false,
+      "rollbackRequired": true,
+      "authoritativeMutationCount": 0,
+      "traceHash": "2eb7bf66a1abf89eca0664da181adbb87b22316fdcb222ba147df12bd850b98e",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.partial_commit.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_PARTIAL_COMMIT"
+      ],
+      "validationLayer": "Transaction",
+      "commit": false,
+      "rollbackRequired": true,
+      "authoritativeMutationCount": 0,
+      "traceHash": "7ea679b271bf9a24b1a69a982b16debd51314ea37ec57bb4b5c86c117391789b",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.receipt_failure.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_RECEIPT_WRITE_FAILED"
+      ],
+      "validationLayer": "Transaction",
+      "commit": false,
+      "rollbackRequired": true,
+      "authoritativeMutationCount": 0,
+      "traceHash": "11c0993de6f4ac88eb760258bb977117089a3e8feba6b77bb200303356dc322e",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    },
+    {
+      "fixtureId": "fixture.almoravid.opening.determinism_mismatch.v1",
+      "disposition": "RejectedFatal",
+      "issueCodes": [
+        "ALM_OSV_DETERMINISM_MISMATCH"
+      ],
+      "validationLayer": "Determinism",
+      "commit": false,
+      "rollbackRequired": false,
+      "authoritativeMutationCount": 0,
+      "traceHash": "417d848b42db3722e87e5f846ae3441c56e4eff3503c4ff4afeb8854fb5a14ad",
+      "checks": {
+        "disposition": true,
+        "issues": true,
+        "layer": true,
+        "commit": true,
+        "rollback": true,
+        "mutationCount": true
+      },
+      "passed": true
+    }
+  ],
+  "evidenceBoundary": {
+    "staticHarnessExecuted": true,
+    "jsonSchemaLibraryExecuted": true,
+    "realImporterExecuted": false,
+    "authoritativeRegistryMutations": 0,
+    "authoritativeOpeningStateMutations": 0,
+    "authoritativeRuntimeMutations": 0,
+    "compileValidated": false,
+    "runtimeValidated": false,
+    "saveLoadValidated": false,
+    "replayValidated": false
+  },
+  "secondaryConsistencyCheck": {
+    "packageParses": true,
+    "reportParses": true,
+    "fixtureCount38": true,
+    "positiveCount3": true,
+    "fatalCount35": true,
+    "allPassed": true,
+    "zeroMutationOnNonCommit": true,
+    "deterministicRepeat": true,
+    "profileHashBound": true,
+    "noExecutionOverclaim": true
+  },
+  "secondaryConsistencyAllPass": true
+}

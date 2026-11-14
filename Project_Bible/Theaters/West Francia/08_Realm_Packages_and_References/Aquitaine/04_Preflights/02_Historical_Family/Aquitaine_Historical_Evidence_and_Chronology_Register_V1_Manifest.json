@@ -1,0 +1,21 @@
+{
+  "ManifestId": "Manifest.Aquitaine.HistoricalEvidenceChronology.V1",
+  "AuthorityFile": "Aquitaine_Historical_Evidence_and_Chronology_Register_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "2edddf728d7f45e97cb57c887f88f14e61760b18b68ba83b426193118b92939e",
+  "ByteCount": 36102,
+  "LineCount": 1030,
+  "CandidateEvidencePortfolioCount": 18,
+  "PopulatedPrimarySourceRecordsClaimed": 0,
+  "Status": "StaticCheckedEvidenceAndChronologyAuthorityPendingSourcePopulationOwnerBindingAndPromotion",
+  "MutationStatus": {
+    "SourceFilesOverwritten": 0,
+    "HistoricalFactsActivated": 0,
+    "RegistryMutations": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

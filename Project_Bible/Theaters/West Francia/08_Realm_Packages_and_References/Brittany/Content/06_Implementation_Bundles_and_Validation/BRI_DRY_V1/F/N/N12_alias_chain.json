@@ -1,0 +1,19 @@
+{
+  "detected": true,
+  "expected": "REJECT",
+  "fixture_id": "N12_alias_chain",
+  "mutated_candidate": {
+    "aliases": [
+      {
+        "from": "a",
+        "to": "b"
+      },
+      {
+        "from": "b",
+        "to": "c"
+      }
+    ]
+  },
+  "result": "PASS",
+  "rule": "NoAliasChains"
+}

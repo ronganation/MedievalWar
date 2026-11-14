@@ -1,0 +1,22 @@
+{
+  "document": "House_Dinefwr_Dynasty_V2_Current_Authority_Refinement.md",
+  "checks": {
+    "literal_source_prefix": true,
+    "successor_larger": true,
+    "all_source_headings_preserved": true,
+    "current_metadata": true,
+    "three_tracks": true,
+    "membership_three": true,
+    "deheubarth_boundary": true,
+    "brotherhood_edges": true,
+    "zero_dimensions": true,
+    "st_davids_separation": true,
+    "honest_validation": true,
+    "authorizations_false": true
+  },
+  "passed": true,
+  "failed_checks": [],
+  "sha256": "5b7cbf8f706d8507b21084caeb10e1ef661da5d28ed28b8facd061b3cfb2c3e4",
+  "bytes": 60341,
+  "physical_lines": 1975
+}

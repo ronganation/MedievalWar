@@ -1,0 +1,81 @@
+{
+  "document_id": "Registry.Realm.Brittany.V2.CollisionPreflightReport.V1",
+  "stable_document_id": "Registry.Realm.Brittany.CollisionPreflightReport",
+  "authority_id": "authority.registry.realm.brittany.v2.collision-preflight-report.v1",
+  "filename": "Brittany_Registry_V2_Collision_Preflight_Report_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-06",
+  "realm": "Brittany",
+  "theater": "West Francia",
+  "scenario": "Scenario.Brittany.1062January",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "implementation_target": "Unreal Engine 5.8",
+  "source_registry_authority": "Brittany_Registry_V2_Candidate_Reconciliation_and_Collision_Preflight_V1.md",
+  "scope": "Nonmutating candidate reconciliation and collision preflight report",
+  "verdict": "PASS_INTERNAL_CANDIDATE_SET_WITH_PROJECT_WIDE_AND_PHYSICAL_SCAN_PENDING",
+  "scan_evidence": {
+    "brittany_visible_sorted_package_reviewed": true,
+    "embedded_candidate_set_reviewed": true,
+    "enterprise_exact_file_results_found": false,
+    "project_wide_registry_scan_executed": false,
+    "local_recursive_repository_scan_executed": false,
+    "unreal_content_registry_scan_executed": false
+  },
+  "candidate_summary": {
+    "core_system_ids": 7,
+    "principal_people_including_future_person": 7,
+    "dynasties": 3,
+    "titles": 6,
+    "offices_explicitly_carried": 2,
+    "institutions_explicitly_carried": 2,
+    "settlements": 14,
+    "regions": 8,
+    "routes": 4,
+    "legacy_historical_ids": "retained_by_source_authority",
+    "quarantine_records": 7
+  },
+  "checks": {
+    "exact_duplicate_ids_in_declared_candidate_set": [],
+    "same_id_multiple_kinds_in_declared_candidate_set": [],
+    "alias_chain_candidates_detected": [],
+    "opening_future_person_leaks_detected": [],
+    "historical_person_living_instance_leaks_detected": [],
+    "definition_instance_collapses_detected": [],
+    "external_owner_collisions_detected": [],
+    "review_or_quarantine_runtime_leaks_detected": []
+  },
+  "required_external_checks_pending": [
+    "Project-wide canonical ID comparison",
+    "Project-wide direct alias comparison",
+    "Cross-Realm definition-emission owner comparison",
+    "Unreal Asset Registry or equivalent project-native identity scan",
+    "Recursive physical filename and manifest hash scan",
+    "Save and migration payload collision scan"
+  ],
+  "nonmutation": {
+    "registry_rows_created": 0,
+    "aliases_applied": 0,
+    "quarantines_released": 0,
+    "opening_state_mutations": 0,
+    "migration_executions": 0,
+    "runtime_mutations": 0,
+    "real_payload_imports": 0,
+    "unreal_project_mutations": 0
+  },
+  "validation": {
+    "static_checked": true,
+    "json_parse_valid": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false,
+    "save_load_validated": false,
+    "migration_validated": false,
+    "replay_validated": false
+  },
+  "authority_artifact": {
+    "bytes": 14951,
+    "lines": 559,
+    "sha256": "C8799D8C5F9CD2B2B2836CAD9E5E9048D3BCB075AEE22CDA048356348C7C79B4"
+  }
+}

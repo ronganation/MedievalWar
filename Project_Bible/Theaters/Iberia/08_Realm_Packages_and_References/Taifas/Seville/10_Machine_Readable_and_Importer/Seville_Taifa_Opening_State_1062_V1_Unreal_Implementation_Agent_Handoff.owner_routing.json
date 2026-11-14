@@ -1,0 +1,123 @@
+{
+  "RoutingManifestId": "routing.seville_taifa.opening_state_1062.unreal_implementation_handoff.v1",
+  "InternalVersion": "1.0.0",
+  "Status": "OWNER_ROUTING_DEFINED_NO_APPROVALS_RECORDED",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.md",
+    "InternalVersion": "1.0.0",
+    "Bytes": 16122,
+    "SHA256": "efd4460c2b5a2e75ed09bc1cc1c241d8039dfb76296955af27cc9fcee28480bb",
+    "HashDisposition": "RECORDED_FROM_GENERATION_RECEIPT_REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "Routes": [
+    {
+      "RouteId": "SEV-UE-001",
+      "Subject": "Campaign data package envelope, typed import, and transaction staging",
+      "Owner": "Campaign Data Architecture",
+      "RequiredBy": [
+        "B0",
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "CurrentDisposition": "NOT_REVIEWED"
+    },
+    {
+      "RouteId": "SEV-UE-002",
+      "Subject": "Canonical IDs, authority versions, external identity resolution, and Registry mutation",
+      "Owner": "Registry",
+      "RequiredBy": [
+        "B0",
+        "B1",
+        "B2",
+        "B6"
+      ],
+      "CurrentDisposition": "NOT_REVIEWED"
+    },
+    {
+      "RouteId": "SEV-UE-003",
+      "Subject": "Historical, Biological, and Campaign Season ownership and serialization",
+      "Owner": "Temporal",
+      "RequiredBy": [
+        "B0",
+        "B1",
+        "B2",
+        "B5"
+      ],
+      "CurrentDisposition": "NOT_REVIEWED"
+    },
+    {
+      "RouteId": "SEV-UE-004",
+      "Subject": "Opening State bindings, apply-once guard, and receipt",
+      "Owner": "Opening State",
+      "RequiredBy": [
+        "B0",
+        "B1",
+        "B4",
+        "B6"
+      ],
+      "CurrentDisposition": "NOT_REVIEWED"
+    },
+    {
+      "RouteId": "SEV-UE-005",
+      "Subject": "Save/load, direct migration, advanced-save firewall, and replay",
+      "Owner": "Save and Migration",
+      "RequiredBy": [
+        "B0",
+        "B1",
+        "B4",
+        "B5",
+        "B6"
+      ],
+      "CurrentDisposition": "NOT_REVIEWED"
+    },
+    {
+      "RouteId": "SEV-UE-006",
+      "Subject": "Fixture harness, diagnostics, mutation counters, and deterministic traces",
+      "Owner": "Validation",
+      "RequiredBy": [
+        "B0",
+        "B3",
+        "B4",
+        "B5"
+      ],
+      "CurrentDisposition": "NOT_REVIEWED"
+    },
+    {
+      "RouteId": "SEV-UE-007",
+      "Subject": "Build and compile evidence",
+      "Owner": "Build",
+      "RequiredBy": [
+        "B5",
+        "B6"
+      ],
+      "CurrentDisposition": "NOT_REVIEWED"
+    },
+    {
+      "RouteId": "SEV-UE-008",
+      "Subject": "Runtime transaction and isolated test state",
+      "Owner": "Runtime Data Architecture",
+      "RequiredBy": [
+        "B4",
+        "B5",
+        "B6"
+      ],
+      "CurrentDisposition": "NOT_REVIEWED"
+    }
+  ],
+  "RoutingRules": {
+    "UnownedGapBlocksDependentBatch": true,
+    "MissingSharedCapabilityMayCreateSevilleLocalFramework": false,
+    "OwnerApprovalMayBeInferred": false,
+    "PassingFixturesAutomaticallyPromotes": false
+  },
+  "CurrentApprovalsRecorded": 0
+}

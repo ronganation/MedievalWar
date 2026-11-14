@@ -1,0 +1,133 @@
+{
+  "DocumentId": "static-check.source-ownership-package-discovery.realm.burgundy.v1",
+  "AuthorityFile": "Burgundy_Source_Authority_Ownership_and_Package_Discovery_V1.md",
+  "AuthoritySHA256": "67576e1fe9777159d1a9ba8be29d6c220c7fe66cb03e2fc6ab461ffb528f5693",
+  "Checks": [
+    {
+      "Name": "FilenameCorrect",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ReservationPreserved",
+      "Result": "Pass"
+    },
+    {
+      "Name": "WorkflowRouted",
+      "Result": "Pass"
+    },
+    {
+      "Name": "TheaterRouted",
+      "Result": "Pass"
+    },
+    {
+      "Name": "SeparateRealm",
+      "Result": "Pass"
+    },
+    {
+      "Name": "GenericRebelsProhibited",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FranceBoundary",
+      "Result": "Pass"
+    },
+    {
+      "Name": "UserFolderAccepted",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoForcedFolderStructure",
+      "Result": "Pass"
+    },
+    {
+      "Name": "RobertReview",
+      "Result": "Pass"
+    },
+    {
+      "Name": "HenryNotDuke",
+      "Result": "Pass"
+    },
+    {
+      "Name": "SpouseNoFabrication",
+      "Result": "Pass"
+    },
+    {
+      "Name": "LaterHistoryFirewall",
+      "Result": "Pass"
+    },
+    {
+      "Name": "SharedRosterFoundation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "DirectFranceCloneProhibited",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ThreeTrackTime",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NextFileDeclared",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRegistryMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoOpeningActivation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoFranceMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoUnrealMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRuntimeMutation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoPayloadImport",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FencesBalanced",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEscapedUnderscores",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEmDash",
+      "Result": "Pass"
+    },
+    {
+      "Name": "OneStableFooter",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FinalMarkerCorrect",
+      "Result": "Pass"
+    }
+  ],
+  "Summary": {
+    "TotalChecks": 28,
+    "Passes": 28,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "RegistryMutations": 0,
+    "OpeningStateActivations": 0,
+    "FranceFilesModified": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

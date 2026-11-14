@@ -1,0 +1,21 @@
+{
+  "document": "Ireland_ID_Registry_and_Canonical_Reference_Audit_V1.md",
+  "passed": true,
+  "checks": {
+    "three_track": true,
+    "registry_v23": true,
+    "65_candidates": true,
+    "dublin": true,
+    "gofraid": true,
+    "typed_transforms": true,
+    "alias_hop": true,
+    "reference_closure_honest": true,
+    "no_registry_mutation": true,
+    "no_runtime_claim": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "removal_zero": true,
+    "stable_footer": true
+  },
+  "validation_scope": "read-only static canonical-reference audit; no complete physical reference closure, machine-readable Registry validation, Registry mutation, migration execution, importer, Unreal, runtime, save/load, replay, or payload validation"
+}

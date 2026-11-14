@@ -1,0 +1,469 @@
+{
+  "FixturePackageId": "fixtures.seville_taifa.opening_state.1062.v1",
+  "FixturePackageVersion": "1.2.0",
+  "SchemaFile": "Seville_Taifa_Opening_State_1062_V1.schema.json",
+  "CanonicalPayloadFile": "Seville_Taifa_Opening_State_1062_V1.json",
+  "ValidationProfileFile": "Seville_Taifa_Opening_State_1062_V1.validation.json",
+  "OwnerRoutingFile": "Seville_Taifa_Opening_State_1062_V1.owner_routing.json",
+  "ExecutionMode": "RECONCILED_DEFINITIONS_UNEXECUTED_AFTER_OPENING_AUTHORITY_1_3_0",
+  "MaintenanceAuthority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "RuntimePromotionAuthorized": false
+  },
+  "EvidenceBoundary": {
+    "PriorExecutionPackageVersion": "1.0.0",
+    "PriorExecutedFixtures": 22,
+    "PriorPassedFixtures": 22,
+    "PriorFailedFixtures": 0,
+    "PriorAllFatalMutationCountsZero": true,
+    "PriorResultsApplyOnlyToPriorArtifactHashes": true,
+    "CurrentPackageExecuted": false,
+    "ImporterExecuted": false,
+    "CompileExecuted": false,
+    "RuntimeExecuted": false,
+    "SaveLoadExecuted": false,
+    "MigrationExecuted": false,
+    "ReplayExecuted": false
+  },
+  "PriorFixtureResults": [
+    {
+      "FixtureId": "ValidSevilleOpening",
+      "FixtureClass": "Positive",
+      "ExpectedValid": true,
+      "PriorObservedValid": true,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": null,
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "UnknownFiscalReachPreserved",
+      "FixtureClass": "Positive",
+      "ExpectedValid": true,
+      "PriorObservedValid": true,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": null,
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "IntentionalEmptyCollectionsAccepted",
+      "FixtureClass": "Positive",
+      "ExpectedValid": true,
+      "PriorObservedValid": true,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": null,
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "WrongSovereign",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_ID_UNRESOLVED",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "MissingCapitalBinding",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "FormalHeirInjected",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_UNEXPECTED_PROPERTY",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "IsmailActivated",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_REVIEWONLY_ACTIVATED",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "AuthorityBindingMissing",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "AuthorityControlFallbackInjected",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_NULL_SEMANTICS_INVALID",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "FormerPolityActivated",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_LATER_HISTORY_ACTIVATED",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "LaterHoldingInjected",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_LATER_HISTORY_ACTIVATED",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "ArmyInjected",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "TreasuryInjected",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "PortOperationInjected",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_NULL_SEMANTICS_INVALID",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "AgreementInjected",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "NetworkEdgeInjected",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_DECLARED_COUNT_MISMATCH",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "MissingExplicitEmptyCollection",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_EMPTY_COLLECTION_MISSING",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "HistoricalClockCorrupted",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_TEMPORAL_STATE_INVALID",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "BiologicalClockCorrupted",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_TEMPORAL_STATE_INVALID",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "InvalidCampaignSeason",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_INVALID_SEASON",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "AdvancedSave",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_ADVANCED_SAVE_REAPPLICATION",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    },
+    {
+      "FixtureId": "UnexpectedProperty",
+      "FixtureClass": "Fatal",
+      "ExpectedValid": false,
+      "PriorObservedValid": false,
+      "PriorPass": true,
+      "PriorAuthoritativeMutationCount": 0,
+      "ExpectedCode": "SEV_MR_UNEXPECTED_PROPERTY",
+      "EvidenceStatus": "CARRIED_FORWARD_FROM_V1_0_0_EXECUTION",
+      "ReexecutionRequiredAgainstV1_1_0Artifacts": true
+    }
+  ],
+  "AddedFixtureDefinitions": [
+    {
+      "FixtureId": "RepeatedApplicationAlreadyApplied",
+      "FixtureClass": "Transactional",
+      "Expected": "Information:AlreadyApplied; Mutations=0",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "UnresolvedExternalEndpointDoesNotBlockLocalShell",
+      "FixtureClass": "Positive",
+      "Expected": "PassWithWarning",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "MissingCharacter",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_REQUIRED_MEMBER_MISSING",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "DuplicateCharacterSubstitution",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_REQUIRED_MEMBER_MISSING",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "DuplicateAuthorityBindingSubstitution",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_REQUIRED_MEMBER_MISSING",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "DuplicateFormerPolitySubstitution",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_REQUIRED_MEMBER_MISSING",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "SaltesDualIdentity",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_EXTERNAL_DUPLICATE",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "MintOperationInjected",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_UNEXPECTED_PROPERTY",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "ExternalPrivateStateInjected",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_EXTERNAL_DUPLICATE",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "AlmoravidInteractionInjected",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_LATER_HISTORY_ACTIVATED",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "DuplicateExplicitEmptySubstitution",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_REQUIRED_MEMBER_MISSING",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "ExternalSubjectSubstitution",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_EXTERNAL_SUBJECT_SET_MISMATCH",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "OwnerRouteMissing",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_OWNER_ROUTE_COUNT_MISMATCH",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "PartialCommit",
+      "FixtureClass": "Transactional",
+      "Expected": "SEV_MR_PARTIAL_COMMIT; Mutations=0",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "MissingReceipt",
+      "FixtureClass": "Transactional",
+      "Expected": "SEV_MR_RECEIPT_MISSING; Mutations=0",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "ReceiptFieldMismatch",
+      "FixtureClass": "Fatal",
+      "Expected": "SEV_MR_RECEIPT_FIELD_MISMATCH",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    },
+    {
+      "FixtureId": "DeterminismMismatch",
+      "FixtureClass": "Determinism",
+      "Expected": "SEV_MR_DETERMINISM_MISMATCH",
+      "ExecutionStatus": "NOT_RUN",
+      "AuthoritativeMutationCount": null,
+      "Pass": null
+    }
+  ],
+  "ExecutionRequirements": {
+    "UseReadOnlyCopies": true,
+    "RealCampaignPayloadAllowed": false,
+    "RegistryMutationAllowed": false,
+    "AdvancedSaveMutationAllowed": false,
+    "StageBeforeCommit": true,
+    "FatalResultMutationCount": 0,
+    "CaptureSchemaErrors": true,
+    "CaptureSemanticErrors": true,
+    "CaptureDiagnosticCode": true,
+    "CaptureDeterministicTraceHash": true,
+    "CaptureRollbackEvidence": true
+  },
+  "AcceptanceCriteria": {
+    "PriorFixtureDefinitionsPreserved": 22,
+    "AddedFixtureDefinitions": 17,
+    "TotalFixtureDefinitions": 39,
+    "AllPositiveFixturesMeetExpectedDisposition": true,
+    "AllFatalFixturesRejected": true,
+    "AllFatalMutationCountsZero": true,
+    "RepeatedApplicationReturnsAlreadyApplied": true,
+    "ConflictingReceiptFailsClosed": true,
+    "EqualInputsProduceEqualHashes": true,
+    "DirectedKinshipBindingsRequired": 2,
+    "DefinitionFamilyBindingsRequired": 11,
+    "ExplicitEmptyCollectionsRequired": 70
+  },
+  "RollbackPlan": {
+    "FixtureWorkspace": "IsolatedCopy",
+    "OnFatal": "DiscardStagedResponsesAndRecordZeroMutations",
+    "OnUnexpectedMutation": "InvalidateRunAndRestorePristineSnapshot",
+    "OnHashMismatch": "FailClosedAndRetainEvidence",
+    "PromotionGate": "OwnerReviewAfterAllFixturesPass"
+  },
+  "Summary": {
+    "PriorExecuted": 22,
+    "PriorPassed": 22,
+    "PriorFailed": 0,
+    "CurrentAddedNotRun": 17,
+    "CurrentTotalDefinitions": 39,
+    "CurrentPackagePassStatus": "NOT_CLAIMED_RERUN_REQUIRED"
+  },
+  "CopyFirstLedger": {
+    "ImmediateSourceVersion": "1.0.0",
+    "OriginalFixtureResultsCarriedForward": 22,
+    "OriginalFixtureResultsRemoved": 0,
+    "OriginalHistoricalResultsRewrittenAsCurrent": false,
+    "AddedFixtureDefinitions": 17,
+    "Reason": "Cover exact membership, duplicate substitution, external subject set, owner-route count, apply-once receipt, rollback, and determinism gaps introduced by strengthened schema and validation profile."
+  },
+  "OpeningAuthorityReconciliation": {
+    "OpeningAuthorityInternalVersion": "1.3.0",
+    "ContractInternalVersion": "1.2.0",
+    "DirectedKinshipBindingsRequired": 2,
+    "DefinitionFamilyBindingsRequired": 11,
+    "ExplicitEmptyCollectionsRequired": 70
+  }
+}

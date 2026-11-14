@@ -1,0 +1,8 @@
+Order,Filter,Expectation,Phase
+1,MedievalWar.Wales.CampaignInitialization.,DISCOVER,PreMutation
+2,MedievalWar.Scotland.CampaignInitialization.,DISCOVER,PreMutation
+3,MedievalWar.France.CampaignInitialization.,24,PostBuild
+4,MedievalWar.Wales.CampaignInitialization.,PRESERVE_DISCOVERED,PostBuild
+5,MedievalWar.Scotland.CampaignInitialization.,PRESERVE_DISCOVERED,PostBuild
+6,MedievalWar.Campaign.Theater.Definition.,DISCOVER,PostBuild
+7,MedievalWar.Campaign.Theater.Britannia.,DISCOVER,PostBuild

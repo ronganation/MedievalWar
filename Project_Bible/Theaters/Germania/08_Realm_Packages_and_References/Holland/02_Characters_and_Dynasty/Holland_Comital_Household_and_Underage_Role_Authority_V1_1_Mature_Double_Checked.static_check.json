@@ -1,0 +1,33 @@
+{
+  "document": "Holland_Comital_Household_and_Underage_Role_Authority_V1_1_Mature_Double_Checked.md",
+  "sha256": "84f69c097ed70acee4683b0c941ec6b5b65c9e4e515480e7521c8f4f1b51971d",
+  "checks": {
+    "hash_matches": true,
+    "active_sections_0_38": true,
+    "appendix_present": true,
+    "complete_predecessor_appended": true,
+    "predecessor_hash_matches": true,
+    "predecessor_static_passed": true,
+    "predecessor_receipt_passed": true,
+    "taxonomy": true,
+    "role_packets": true,
+    "unknown_semantics": true,
+    "workload": true,
+    "access": true,
+    "seal": true,
+    "readiness": true,
+    "movement": true,
+    "refuge": true,
+    "split": true,
+    "gertrude": true,
+    "robert": true,
+    "fixture": true,
+    "import": true,
+    "validation": true,
+    "nonactivation": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "active_no_citation_tokens": true
+  },
+  "pass": true
+}

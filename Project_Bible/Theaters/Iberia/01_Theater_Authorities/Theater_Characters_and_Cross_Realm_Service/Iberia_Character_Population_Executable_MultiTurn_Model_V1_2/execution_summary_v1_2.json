@@ -1,0 +1,30 @@
+{
+  "BASE": {
+    "living": 23,
+    "dead": 2,
+    "exited": 2,
+    "active": 3,
+    "materialized": 3,
+    "age_restricted": 3,
+    "replay_hash": "74cf599b8b53169e50e9428eea489d2cbdc7b794a43ceadd707287b37bd8e89c"
+  },
+  "A": {
+    "living": 23,
+    "dead": 2,
+    "exited": 2,
+    "active": 4,
+    "materialized": 3,
+    "age_restricted": 3,
+    "replay_hash": "bbc2d6936662efaf0b6feb59b7fbee684e811a4af76a9b3bb11ef92faa9b5706"
+  },
+  "B": {
+    "living": 23,
+    "dead": 2,
+    "exited": 2,
+    "active": 4,
+    "materialized": 3,
+    "age_restricted": 3,
+    "replay_hash": "c37c6dc7da0ffa4be1cb2040c9d0918afc71ab2b32bff03d415e214dc6ceb349"
+  },
+  "rollback": true
+}

@@ -1,0 +1,29 @@
+{
+  "document_id": "manifest.england.province_package.v1_0",
+  "version": "1.0.0",
+  "manifest_self_hash": null,
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "filename": "England_Province_Package.md",
+      "sha256": "6857b202b2812f3f49fec7097ecb94d89643e7c513393f080a760d0f10205a83",
+      "bytes": 31417
+    },
+    {
+      "filename": "England_Province_Package_Static_Check.json",
+      "sha256": "241b18103b4cfe2df5f7cb95975481d1a0e2e73d18c2115b088726fd9f52a22e",
+      "bytes": 589
+    }
+  ],
+  "authorizations": {
+    "opening_state_creation_or_modification": false,
+    "opening_state_activation": false,
+    "province_activation": false,
+    "boundary_activation": false,
+    "node_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "active_unreal_modification": false,
+    "runtime_mutation": false
+  }
+}

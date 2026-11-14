@@ -1,0 +1,140 @@
+{
+  "document_id": "Manifest.IDRegistry.Realm.SevilleTaifa.V2",
+  "document": "Seville_Taifa_ID_Registry_V2_Current_Authority_Modernization.md",
+  "version": "2.0.0",
+  "revision_date": "2026-09-09",
+  "placement": "Seville/02_Registry_and_ID_Authorities",
+  "status": "StaticCheckedCurrentRegistryModernizationV1IdentitySetRetainedLocked",
+  "immediate_substantive_source": "Seville_Taifa_ID_Registry_V1.md",
+  "retained_release_authority": "Seville_Taifa_ID_Registry_V1_Lock_and_Release_V1.md",
+  "evidence_inventory": [
+    {
+      "filename": "Seville_Taifa_Definition_and_External_Lock_Planning_V1.md",
+      "bytes": 29697,
+      "sha256": "B41D52CA383BD51E8AC6DB57E19B0434B1FC8B184640967DF6BFF12B7FAAFC90"
+    },
+    {
+      "filename": "Seville_Taifa_Registry_Candidate_and_Owner_Adjudication_Preflight_V1.md",
+      "bytes": 28153,
+      "sha256": "A23D696C527FA18DCA873E2D5F4205A565CC9B26EA8A8D7211EAC1730DFEE28D"
+    },
+    {
+      "filename": "Seville_Taifa_ID_Registry_V1.static_check.json",
+      "bytes": 2098,
+      "sha256": "9F471CFEB6F83C1E561D8C589BBA9CB41EB1875112AD5BABAC55D0125F270347"
+    },
+    {
+      "filename": "Seville_Taifa_ID_Registry_V1_Owner_Decision_Request_Packet_V1.md",
+      "bytes": 26380,
+      "sha256": "A41E6F88F6387E371622AA11B74986278D03833BE316E3F452E0CB69850410EE"
+    },
+    {
+      "filename": "Seville_Taifa_ID_Registry_V1_Owner_Decision_Ledger_V1.md",
+      "bytes": 14026,
+      "sha256": "0DAB385260B22EEB7DE19572CAA7EBE99A73A937FECA8D96FA70B2A9AB5E91B4"
+    },
+    {
+      "filename": "Seville_Taifa_Definition_Registry_V1.json",
+      "bytes": 3721,
+      "sha256": "2F7D5A00BE437C6A6C3C22D9BF15A8C8D8400033D60E5CDE9D85C55F62DF8179"
+    },
+    {
+      "filename": "Seville_Taifa_Definition_Registry_V1.schema.json",
+      "bytes": 5883,
+      "sha256": "8839D7D0253489A4400DDA6EBDD9D4D4593A35384B37F32445F9C9CDE3309C7A"
+    },
+    {
+      "filename": "Seville_Taifa_Definition_Registry_V1.static_check.json",
+      "bytes": 509,
+      "sha256": "B6B8040D8AB815BBF2D2DBD037B2566EEECC2FD85E8133F236762EA03FDB1066"
+    },
+    {
+      "filename": "Seville_Taifa_Definition_Registry_V1.validation.json",
+      "bytes": 3871,
+      "sha256": "5D002BAC1B0104ABBFE428C7060A1CAF688508763BAD29183F67D33A40BE18D2"
+    },
+    {
+      "filename": "Seville_Taifa_Faction_Definition_Registry_Commit_Adapter_V1.config.json",
+      "bytes": 2140,
+      "sha256": "676743321D52A142C707BF31A59D15ABD814B1CCDE28C087F068F438D6F9074B"
+    },
+    {
+      "filename": "Seville_Taifa_Faction_Definition_Registry_Commit_Receipt_1062_V1.schema.json",
+      "bytes": 3355,
+      "sha256": "69502B2FC8B83D61A7733F06D1369E8360BFD2A15116E1F66A53A4B2553A1F1B"
+    },
+    {
+      "filename": "Seville_Taifa_Faction_Definition_Registry_Insertion_Packet_1062_V1.dry_run_report.json",
+      "bytes": 11192,
+      "sha256": "C61EA135D78DE91F1238655195F69915BDA53E3DEECA2BA1A914A1A888FE3C1E"
+    },
+    {
+      "filename": "Seville_Taifa_Faction_Definition_Registry_Insertion_Packet_1062_V1.fixtures.json",
+      "bytes": 7316,
+      "sha256": "61D3AC4439789941A15EF7E012E534CD5B1641DDDD906B27C5B3E8A330881ECF"
+    },
+    {
+      "filename": "Seville_Taifa_Faction_Definition_Registry_Insertion_Packet_1062_V1.json",
+      "bytes": 19818,
+      "sha256": "262FA8C21B0E95E222ECEBA4AEC38B777FF815AC80EF93BEC9C5F3CE1964C6E7"
+    },
+    {
+      "filename": "Seville_Taifa_Faction_Definition_Registry_Insertion_Packet_1062_V1.rollback.json",
+      "bytes": 9904,
+      "sha256": "B6ECD1162F37591A405610FED8D1320BAD08F78F59C662E86BB76567030AEBCB"
+    },
+    {
+      "filename": "Seville_Taifa_Faction_Definition_Registry_Insertion_Packet_1062_V1.static_check.json",
+      "bytes": 806,
+      "sha256": "FB91F403D7D9B00BA10D396B9BBA2065F687A842378F9172E09130C7ADD57393"
+    },
+    {
+      "filename": "Seville_Taifa_Faction_Definition_Registry_Insertion_Packet_1062_V1.validation.json",
+      "bytes": 10519,
+      "sha256": "57AA2EAAC5083CBCDF4D5C3F4B37B32B9F63D7B1848BD9BC4937A5973485DFA1"
+    },
+    {
+      "filename": "Seville_Taifa_Faction_Definition_Registry_Commit_Adapter_V1.py",
+      "bytes": 15429,
+      "sha256": "C8EF794ADA32B1388D34A10DDB9C9B64FA9D3E8094B672310A8AE8B801D5FBD5"
+    }
+  ],
+  "checks": {
+    "source_bytes": 32159,
+    "source_lines": 744,
+    "source_sha256": "FD4172DBC199EEA62DDE69E0747598B13FF8687C8B9E208A9024F1B39BF440B6",
+    "contradiction_V2_sha256": "1EB759D34DAF88B0E95D16A6AE37D63551B6FB77628B9C3C5C1D6C812F71F9B8",
+    "successor_bytes": 46597,
+    "successor_lines": 1014,
+    "successor_sha256": "3BF513C95473D448F940F5E23D6E86907A799229711E3787F5F545845708EBDA",
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "locked_identity_rows_preserved": 16,
+    "inherited_quarantines_preserved": 18,
+    "evidence_files_hashed": 18,
+    "substantive_removals": 0,
+    "adapter_executed": false,
+    "registry_mutation": 0,
+    "all_critical_checks_pass": true
+  },
+  "mutation_receipt": {
+    "SourceOverwrite": 0,
+    "Deleted": 0,
+    "Moved": 0,
+    "Renamed": 0,
+    "IdentityRowsChanged": 0,
+    "ExternalLocks": 0,
+    "Aliases": 0,
+    "Migrations": 0,
+    "OpeningState": 0,
+    "AdapterExecutions": 0,
+    "RegistryCommits": 0,
+    "RollbackExecutions": 0,
+    "Runtime": 0,
+    "AdvancedSave": 0,
+    "Unreal": 0
+  },
+  "next_gate": "Seville_Taifa_Definition_and_External_Lock_Planning_V2.md"
+}

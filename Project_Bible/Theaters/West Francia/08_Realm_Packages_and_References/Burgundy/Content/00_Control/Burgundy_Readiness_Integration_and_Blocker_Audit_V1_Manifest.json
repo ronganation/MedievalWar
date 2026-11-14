@@ -1,0 +1,14 @@
+{
+  "FileName": "Burgundy_Readiness_Integration_and_Blocker_Audit_V1.md",
+  "Version": "1.0.0",
+  "SHA256": "bedcb19e08898a4bed2a312c175f22508c0e5126dc87ff629edeee3f937aeec8",
+  "Bytes": 25981,
+  "Lines": 701,
+  "Placement": "Burgundy/00_Control",
+  "ReadinessDomainsReviewed": 18,
+  "BlockersFrozen": 12,
+  "ValidationChecks": 12,
+  "FinalReadiness": "DesignIntegratedPreflightPlannableNotImplementationValidated",
+  "Mutations": 0,
+  "ValidationResult": "PassStaticAuditChecksOnly"
+}

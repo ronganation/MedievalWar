@@ -1,0 +1,21 @@
+{
+  "document": "Mailed_Seax_Warriors_V2_Master_Unit_Profile.md",
+  "sha256": "307efe3f53095c42c340f4dc300a778c5bf2c361e580b26470ee5a8aaadc1f3e",
+  "checks": {
+    "hash_matches_manifest": true,
+    "minimum_depth": true,
+    "sections_sequential": true,
+    "minimum_sections": true,
+    "terrain_25": true,
+    "native_institution": true,
+    "relief_outcomes": true,
+    "equipment_ownership": true,
+    "parent_persists": true,
+    "survival_gate": true,
+    "no_loss": true,
+    "three_track": true,
+    "nonmutation": true,
+    "final_footer": true
+  },
+  "pass": true
+}

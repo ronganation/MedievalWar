@@ -1,0 +1,28 @@
+{
+  "document_id": "Manifest.RealmPersonalityAI.Realm.LeonCastile.V2",
+  "authority_file": "Leon_Castile_Realm_Personality_AI_V2_Seven_Profile_Integrated_Authority.md",
+  "version": "2.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/Core_Authorities",
+  "bytes": 61999,
+  "physical_lines": 1717,
+  "words": 4310,
+  "sha256": "F232D95352C1E0B86AC1D54130E136C2BAF0D9891D2FD14B23BE7155C25D997F",
+  "fence_count": 124,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "source_sections_check_present": true,
+  "source_retrieved_lines": 1528,
+  "status": "StaticCheckedCopyFirstSevenProfileIntegratedSuccessorReviewOnly",
+  "next_file": "Leon_Castile_Ecclesiastical_Content_V2_Seven_Profile_Integration_Authority.md",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "all_checks_pass": true
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationCandidateIdProposalPreflight",
+    "name": "Trait Reputation Candidate ID Proposal Preflight V1",
+    "version": "1.0",
+    "status": "PassedProposalChecks_IndividualDecisionsPending",
+    "authority_class": "Canonical ID Proposal Dry Preflight"
+  },
+  "inputs": {
+    "trait_snapshot": {
+      "file": "Trait_Canonical_Registry_V1.json",
+      "record_count": 0
+    },
+    "reputation_snapshot": {
+      "file": "Reputation_Dimension_Registry_V1.json",
+      "record_count": 0
+    },
+    "proposal": {
+      "file": "Trait_Reputation_Individual_Candidate_ID_Proposal_V1.json"
+    },
+    "migration_map_proposal": {
+      "file": "Trait_Reputation_Direct_Migration_Map_Proposal_V1.json"
+    }
+  },
+  "checks": {
+    "source_ids_unique": true,
+    "proposed_ids_unique": true,
+    "trait_namespace_valid": true,
+    "reputation_namespace_valid": true,
+    "empty_snapshot_collisions": 0,
+    "deprecated_id_matches": 0,
+    "alias_chains": 0,
+    "wrong_owner_fatal_findings": 0,
+    "same_label_cross_registry_pairs": 2,
+    "individual_approvals": 0
+  },
+  "run": {
+    "mode": "CandidateIdProposalDryPreflight",
+    "execution_status": "Completed",
+    "verdict": "PassWith46IndividualDecisionLocks",
+    "canonical_ids_proposed": 46,
+    "canonical_ids_approved": 0,
+    "registry_records_created": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0
+  },
+  "diagnostics": [
+    {
+      "code": "TRID-0001",
+      "severity": "Info",
+      "message": "All 46 proposed IDs match approved namespace grammar."
+    },
+    {
+      "code": "TRID-0002",
+      "severity": "Info",
+      "message": "No collisions exist against the two empty registry snapshots."
+    },
+    {
+      "code": "TRID-0003",
+      "severity": "ReviewRequired",
+      "message": "Same-label cross-registry pairs require retained semantic boundaries, not merges."
+    },
+    {
+      "code": "TRID-0004",
+      "severity": "ReviewRequired",
+      "message": "All 46 individual candidate decisions remain pending."
+    }
+  ],
+  "validation": {
+    "proposal_checks_passed": true,
+    "migration_map_shape_passed": true,
+    "registry_writes_permitted": false,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false
+  },
+  "smallest_useful_next_action": "Review the 46 proposed IDs individually. Record approve, replacement, merge, rejection, or more-evidence decisions. Do not write approved records into either registry until the decision pass and direct migration-map preflight both pass."
+}

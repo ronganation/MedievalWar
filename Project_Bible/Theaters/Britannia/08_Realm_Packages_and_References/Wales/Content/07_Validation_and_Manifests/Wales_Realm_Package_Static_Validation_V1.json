@@ -1,0 +1,313 @@
+{
+  "document_id": "validation.realm.wales.package.static.v1",
+  "stable_document_id": "Validation.Realm.Wales.Package.Static",
+  "filename": "Wales_Realm_Package_Static_Validation_V1.json",
+  "version": "1.0.0",
+  "realm_id": "Realm.Wales",
+  "owning_theater": "Britania",
+  "scenario_id": "Scenario.Wales.Opening_1062_01_01",
+  "scenario_opening": "1062-01-01",
+  "opening_campaign_season": "Winter",
+  "constitutional_authority": "Project Bible 2.4",
+  "operational_authority": "Design Expansion Checklist 3.7",
+  "integrated_index": "Wales_Realm_Package_Integrated_Authority_Index_V2.md",
+  "implementation_target": "Unreal Engine 5.8",
+  "status": "Static-Checked ReviewOnly Partial-Presence Validation",
+  "validation_boundary": {
+    "scope": "Current indexed Wales authority surface and retrievable Microsoft 365 evidence",
+    "full_repository_file_system_scan_performed": false,
+    "full_sharepoint_folder_enumeration_performed": false,
+    "active_unreal_project_scan_performed": false,
+    "reason": "The current execution surface does not expose a complete mounted Wales repository tree. File-presence and cross-reference results are therefore separated into verified, referenced, and not-fully-verified classes.",
+    "result_must_not_be_used_as": [
+      "freeze baseline",
+      "complete package manifest",
+      "Registry promotion",
+      "Opening State activation",
+      "implementation validation"
+    ]
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "canonical_promotion": false,
+    "Registry_mutation": false,
+    "Opening_State_mutation": false,
+    "Opening_State_activation": false,
+    "migration_execution": false,
+    "active_Unreal_modification": false,
+    "runtime_mutation": false,
+    "real_payload_import": false,
+    "physical_promotion": false
+  },
+  "three_track_temporal_contract": {
+    "historical_progression_months": 21,
+    "biological_progression_months": 7,
+    "campaign_season_steps_per_strategic_turn": 1,
+    "campaign_season_order": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "result": "PASS_FOR_DECLARED_CURRENT_SCOPE"
+  },
+  "validation_groups": {
+    "FilePresence": {
+      "result": "PARTIAL",
+      "severity": "BLOCKING_FOR_FREEZE",
+      "verified_retrievable_examples": [
+        "Wales_Authority_Reference_and_Status_Reconciliation_V1.md",
+        "Wales_Historical_Reconciliation_V3.1_Current_Authority_Refinement.md",
+        "Wales_ID_Migration_Registry_V2_Current_Authority_Refinement.md",
+        "Wales_Opening_State_V2_Current_Authority_Refinement.md",
+        "Wales_Historical_Uncertainty_V1.1_Current_Authority_Refinement.md",
+        "Wales_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement.md",
+        "Wales_Network_Opening_Fixture_Importer_Manifest_V2_Current_Authority_Refinement.md",
+        "Wales_Title_Office_Claim_and_Succession_Authority_V1.md",
+        "Wales_README.md"
+      ],
+      "locally_generated_current_sequence": [
+        "Wales_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md",
+        "Wales_Specialist_Source_and_Opening_Binding_Inventory_V1.md",
+        "Wales_ID_Registry_and_Canonical_Reference_Audit_V1.md",
+        "Wales_Opening_State_V2.1_Specialist_Binding_Evidence_Table_V1.md",
+        "Wales_Opening_State_V2.1_Specialist_Binding_Owner_Decision_Packet_V1.md",
+        "Wales_Realm_Package_Integrated_Authority_Index_V2.md"
+      ],
+      "not_fully_verified": [
+        "all indexed paths",
+        "all retained legacy sources",
+        "all character and dynasty files",
+        "all specialist files in final SharePoint placement",
+        "all manifests and static-check artifacts"
+      ]
+    },
+    "FilenameAndStableIDConsistency": {
+      "result": "PASS_WITH_RECORDED_EXCEPTIONS",
+      "exceptions": [
+        "St Davids office canonical form unresolved",
+        "St Davids institution canonical form unresolved",
+        "Bleiddud occupancy canonical row and kind unresolved"
+      ]
+    },
+    "SourceAndSuccessorIntegrity": {
+      "result": "PASS_FOR_DECLARED_CHAIN",
+      "verified_relationships": [
+        {
+          "source": "Wales_Opening_State.md",
+          "successor": "Wales_Opening_State_V2_Current_Authority_Refinement.md"
+        },
+        {
+          "source": "Wales_ID_Migration_Map.md",
+          "successor": "Wales_ID_Migration_Registry_V2_Current_Authority_Refinement.md"
+        },
+        {
+          "source": "Wales_Historical_Reconciliation.md",
+          "successor": "Wales_Historical_Reconciliation_V3.1_Current_Authority_Refinement.md"
+        },
+        {
+          "source": "Wales_Historical_Timeline_and_Chronology.md",
+          "successor": "Wales_Historical_Timeline_and_Chronology_V1.1_Current_Authority_Refinement.md"
+        },
+        {
+          "source": "Wales_Historical_Uncertainty.md",
+          "successor": "Wales_Historical_Uncertainty_V1.1_Current_Authority_Refinement.md"
+        }
+      ]
+    },
+    "CrossReferenceIntegrity": {
+      "result": "PARTIAL",
+      "severity": "BLOCKING_FOR_FREEZE",
+      "notes": [
+        "Named authority chain is internally coherent at the index level.",
+        "Exact path existence and every cross-reference target were not fully enumerated."
+      ]
+    },
+    "EntityKindIntegrity": {
+      "result": "PASS_WITH_QUARANTINES",
+      "protected_separations": [
+        "Person != Realm",
+        "Person != Office",
+        "Office != Institution",
+        "Institution != Place",
+        "Dynasty != Region",
+        "Region != Title",
+        "Property != Control",
+        "Fact != Runtime Knowledge"
+      ],
+      "quarantines": [
+        "Abbot of St Davids as a person",
+        "Person.IorwerthApBleddyn",
+        "Maredudd_ab_Owain",
+        "short St Davids office and institution variants pending owner resolution"
+      ]
+    },
+    "CanonicalReferenceIntegrity": {
+      "result": "PASS_FOR_ESTABLISHED_CORE_BLOCKED_FOR_NEW_SPECIALIST_ROWS",
+      "established_core": [
+        "Realm.Wales",
+        "Region.Wales.Gwynedd",
+        "Region.Wales.Powys",
+        "Region.Wales.Deheubarth",
+        "Region.Wales.Arwystli",
+        "StrategicRegion.Wales.EasternFrontier",
+        "Place.Wales.StDavids"
+      ],
+      "new_specialist_rows_ready": false
+    },
+    "January1062OpeningBoundary": {
+      "result": "PASS",
+      "assertions": {
+        "living_realm_level_polity": true,
+        "realm_anchor": "Person.GruffuddApLlywelyn",
+        "opening_fragmentation": false,
+        "predetermined_collapse": false,
+        "mature_Marcher_government": false,
+        "later_history_preloaded": false
+      }
+    },
+    "LaterHistoryExclusion": {
+      "result": "PASS",
+      "excluded": [
+        "post-1063 fragmentation as opening state",
+        "fixed death timer",
+        "later rulers as opening rulers",
+        "mature Marcher system",
+        "adult restoration role for Person.GruffuddApCynan"
+      ]
+    },
+    "UnderageAgencyProtection": {
+      "result": "PASS",
+      "subject": "Person.GruffuddApCynan",
+      "adult_agency": false,
+      "opening_title": null,
+      "active_claim": null,
+      "independent_command": false
+    },
+    "StDavidsEntitySeparation": {
+      "result": "PASS_WITH_CANONICAL_FORM_BLOCKERS",
+      "person": "Person.Bleiddud",
+      "place": "Place.Wales.StDavids",
+      "office": "PENDING_REGISTRY_OWNER",
+      "institution": "PENDING_REGISTRY_OWNER",
+      "occupancy": "PENDING_REGISTRY_AND_OPENING_STATE_OWNER"
+    },
+    "ExternalOwnerProtection": {
+      "result": "PASS",
+      "Mercian_support": "PENDING_ENGLAND_OWNER",
+      "Wales_unilateral_external_state_mutation": false
+    },
+    "IntentionalEmptyPreservation": {
+      "result": "PASS",
+      "collections_preserved_empty": [
+        "exact titles and claims",
+        "exact military payload",
+        "exact population quantities",
+        "exact economy and treasury state",
+        "exact Supply network",
+        "exact settlements and routes",
+        "exact diplomatic agreements",
+        "exact culture and language distributions",
+        "exact messages, knowledge, intelligence, and secrets"
+      ]
+    },
+    "AdvancedSaveProtection": {
+      "result": "PASS",
+      "opening_defaults_apply_to_new_campaign_only": true,
+      "opening_defaults_overwrite_advanced_save": false
+    },
+    "ValidationClaimHonesty": {
+      "result": "PASS",
+      "Compile_Validated": false,
+      "Runtime_Validated": false,
+      "Importer_Validated": false,
+      "Save_Load_Validated": false,
+      "Migration_Validated": false,
+      "Replay_Validated": false,
+      "Performance_Validated": false
+    },
+    "StableFooterCompliance": {
+      "result": "PASS_FOR_LOCALLY_GENERATED_SEQUENCE",
+      "repository_wide_result": "NOT_FULLY_VERIFIED"
+    },
+    "MarkdownAndYAMLHygiene": {
+      "result": "PASS_FOR_LOCALLY_GENERATED_SEQUENCE",
+      "checks": [
+        "no escaped underscores",
+        "no escaped hyphens",
+        "balanced fences where applicable",
+        "structured records fenced as YAML",
+        "inequalities fenced as text",
+        "no em dashes"
+      ]
+    },
+    "UnauthorizedActivationScan": {
+      "result": "PASS_FOR_DECLARED_CURRENT_SCOPE",
+      "Registry_mutation": false,
+      "Opening_State_activation": false,
+      "runtime_mutation": false,
+      "real_payload_import": false
+    }
+  },
+  "owner_decision_state": {
+    "pending_decision_areas": 7,
+    "authenticated_receipts": 0,
+    "V2_1_specialist_binding_addendum": "BLOCKED",
+    "decisions": [
+      "St Davids office canonical form",
+      "St Davids institution canonical form",
+      "Bleiddud occupancy",
+      "Mercian support",
+      "Rhys ap Tewdwr participation",
+      "Trahaearn ap Caradog participation and dynasty relationship",
+      "Historical Memory, Momentum, and Emergence opening instances"
+    ]
+  },
+  "blocking_issues": [
+    {
+      "id": "WALES-STATIC-BLK-001",
+      "subject": "Complete file presence",
+      "status": "OPEN",
+      "effect": "Freeze and complete manifest blocked"
+    },
+    {
+      "id": "WALES-STATIC-BLK-002",
+      "subject": "Complete cross-reference path validation",
+      "status": "OPEN",
+      "effect": "Freeze blocked"
+    },
+    {
+      "id": "WALES-STATIC-BLK-003",
+      "subject": "St Davids canonical forms and occupancy",
+      "status": "OPEN",
+      "effect": "V2.1 binding blocked"
+    },
+    {
+      "id": "WALES-STATIC-BLK-004",
+      "subject": "Seven owner decisions",
+      "status": "OPEN",
+      "effect": "V2.1 addendum blocked"
+    },
+    {
+      "id": "WALES-STATIC-BLK-005",
+      "subject": "New specialist Registry rows",
+      "status": "OPEN",
+      "effect": "Exact specialist instances remain empty"
+    },
+    {
+      "id": "WALES-STATIC-BLK-006",
+      "subject": "Implementation evidence",
+      "status": "OPEN",
+      "effect": "Importer, compile, runtime, save, migration, replay, and performance claims remain false"
+    }
+  ],
+  "summary": {
+    "overall_result": "PASS_WITH_BLOCKERS_FOR_DECLARED_CURRENT_SCOPE",
+    "safe_for_documentation_consolidation": true,
+    "safe_for_freeze": false,
+    "safe_for_Registry_promotion": false,
+    "safe_for_Opening_State_activation": false,
+    "safe_for_runtime_implementation": false,
+    "next_file": "Wales_Realm_Package_Manifest_V2.json"
+  }
+}

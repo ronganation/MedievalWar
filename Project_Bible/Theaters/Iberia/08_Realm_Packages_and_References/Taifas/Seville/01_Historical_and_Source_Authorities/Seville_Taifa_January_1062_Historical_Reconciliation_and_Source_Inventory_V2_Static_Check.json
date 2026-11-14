@@ -1,0 +1,24 @@
+{
+  "document_id": "StaticCheck.HistoricalReconciliation.Realm.SevilleTaifa.1062.V2",
+  "subject": "Seville_Taifa_January_1062_Historical_Reconciliation_and_Source_Inventory_V2.md",
+  "subject_sha256": "F90217D6E834EF97305220D5813AB29BF4C885B0D2B0CBB435CAF14E3BF4B896",
+  "status": "PASS",
+  "checks": {
+    "source_bytes": 51111,
+    "source_lines": 1348,
+    "successor_bytes": 62396,
+    "successor_lines": 1550,
+    "successor_sha256": "F90217D6E834EF97305220D5813AB29BF4C885B0D2B0CBB435CAF14E3BF4B896",
+    "balanced_fences": true,
+    "footer_count": 1,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "all_source_section_headings_preserved": true,
+    "three_track": false,
+    "substantive_removals": 0,
+    "legacy_validation_promoted": false,
+    "zero_mutation": true,
+    "all_critical_checks_pass": true
+  },
+  "result": "Copy-first successor preserved the complete V1 substantive authority, added current authority routing and developed-realm interfaces, and made no runtime or owner-state mutation."
+}

@@ -1,0 +1,22 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "filename_exact": true,
+    "attached_18": true,
+    "visible_counts": true,
+    "capetian_section": true,
+    "four_specialist_domains": true,
+    "three_tracks": true,
+    "next_file": true,
+    "no_implementation": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "SHA256": "896d8ea7662629627bd1f5cb94796c57190d63e1bc1bc7e0ff4638d7f6ec811e",
+  "Bytes": 31463,
+  "Lines": 715,
+  "Scope": "Static source discovery, ownership, and planning checks only"
+}

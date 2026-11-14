@@ -1,0 +1,19 @@
+{
+  "document": "Saxon_Axemen_V1_1_Master_Unit_Profile_FULL.md",
+  "sha256": "6d187465eed0671b437cd42c2e14534f1b15add756c0ebc09e75d3f125eccb16",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "benchmark_scale": true,
+    "unique_final_sections": true,
+    "terrain_all_25": true,
+    "recruitment_full": true,
+    "service_cycle": true,
+    "human_factors": true,
+    "weather": true,
+    "strategic_geography": true,
+    "feature_register": true,
+    "benchmark_check": true,
+    "nonmutation": true
+  }
+}

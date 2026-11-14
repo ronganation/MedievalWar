@@ -1,0 +1,30 @@
+{
+  "document_id": "Manifest.CharacterProfile.LeonCastile.Urraca.V1",
+  "authority_file": "Urraca_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-07",
+  "placement": "Leon_Castile/Character_Profiles",
+  "bytes": 48347,
+  "physical_lines": 1004,
+  "sha256": "82447DDF1E6BE2774B901EE53557FDEE14658DF51433A423C612B15B1BC1DCCA",
+  "fence_count": 54,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "end_marker_count": 1,
+  "status": "StaticCheckedDevelopedCharacterProfileReviewOnly",
+  "benchmark_files": [
+    "Sancha_of_Leon_V1_Developed_Character_Profile_Authority.md",
+    "Anne_of_Kiev_V1_Developed_Character_Profile_Authority.md",
+    "Hawise_of_Brittany_V1_Developed_Character_Profile_Authority.md",
+    "Constance_of_Burgundy_V1_Developed_Character_Profile_Authority.md"
+  ],
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "next_file": "Elvira_of_Leon_Castile_V1_Developed_Character_Profile_Authority.md"
+}

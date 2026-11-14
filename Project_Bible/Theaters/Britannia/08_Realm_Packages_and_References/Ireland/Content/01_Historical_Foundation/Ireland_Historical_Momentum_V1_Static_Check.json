@@ -1,0 +1,16 @@
+{
+  "target": "Ireland_Historical_Momentum_V1.md",
+  "status": "PASS",
+  "checks": {
+    "controlling_7": true,
+    "candidate_18": true,
+    "collisions_12": true,
+    "positive_20": true,
+    "negative_24": true,
+    "benchmark_visible": true,
+    "no_activation": true,
+    "honest": true,
+    "next_emergence": true,
+    "all_pass": true
+  }
+}

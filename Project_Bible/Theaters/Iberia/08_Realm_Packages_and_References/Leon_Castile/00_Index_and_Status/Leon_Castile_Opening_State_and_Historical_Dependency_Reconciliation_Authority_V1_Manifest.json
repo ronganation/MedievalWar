@@ -1,0 +1,43 @@
+{
+  "document_id": "Manifest.Authority.LeonCastile.OpeningStateHistoricalDependencyReconciliation.V1",
+  "authority_file": "Leon_Castile_Opening_State_and_Historical_Dependency_Reconciliation_Authority_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-08",
+  "placement": "Leon_Castile/00_Index_and_Status",
+  "bytes": 21290,
+  "physical_lines": 464,
+  "sha256": "F9068E98C1192F4C206B4ED1BACBAE4063288DF40CDD8C945EDCAF660A63F4C3",
+  "fence_count": 34,
+  "balanced_fences": true,
+  "escaped_underscore_count": 0,
+  "escaped_hyphen_count": 0,
+  "em_dash_count": 0,
+  "stable_footer_count": 1,
+  "opening_state_v2_1_present": true,
+  "historical_reconciliation_v1_2_1_present": true,
+  "historical_memory_present": true,
+  "historical_momentum_present": true,
+  "stale_dependencies_classified": true,
+  "current_successors_routed": true,
+  "temporal_independence_preserved": true,
+  "status": "StaticCheckedOpeningStateHistoricalDependencyReconciliationReviewOnly",
+  "mutation_receipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "HistoricalActivation": 0,
+    "MachineReadable": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "validation_boundary": {
+    "Compile": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "Importer": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "Promotion": "PROHIBITED"
+  },
+  "next_file": "Leon_Castile_Opening_State_1062_V2_2_Dependency_Reconciled_Authority.md",
+  "all_static_checks_pass": true
+}

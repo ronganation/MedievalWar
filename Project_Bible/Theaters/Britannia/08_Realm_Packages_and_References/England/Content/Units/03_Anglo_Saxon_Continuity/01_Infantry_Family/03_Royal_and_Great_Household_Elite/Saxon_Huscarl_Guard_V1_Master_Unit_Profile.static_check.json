@@ -1,0 +1,17 @@
+{
+  "document": "Saxon_Huscarl_Guard_V1_Master_Unit_Profile.md",
+  "sha256": "2c60dab3e0c64a6d4089e6725d501f3db475f48bb275c9c9bed4d69385d943a9",
+  "checks": {
+    "substantive_length": true,
+    "sections_0_75": true,
+    "terrain_25": true,
+    "source_synthesis_honest": true,
+    "parent_persists": true,
+    "no_auto_conversion": true,
+    "scale_deferred": true,
+    "royal_future": true,
+    "no_loss": true,
+    "footer_final": true
+  },
+  "pass": true
+}

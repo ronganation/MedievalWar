@@ -1,0 +1,17 @@
+{
+  "manifest_version": "1.1",
+  "document_type": "RealmGovernmentPoliticalOrderAuthorityFullRefinement",
+  "file": "Ireland_Government_Political_Topology_Titles_Offices_and_Regional_Administration_Authority_V1_1_FULL.md",
+  "bytes": 50975,
+  "lines": 1278,
+  "sha256": "d4db19c8fbba7c9b8f41e2386493b288e04eaa0d23b4f4be174436158f43beb1",
+  "direct_substantive_source": "Ireland_Government_Political_Topology_Titles_Offices_and_Regional_Administration_Authority_V1.md",
+  "source_treatment": "PreserveAndEnrich",
+  "substantive_sections": 31,
+  "validation_cases": 36,
+  "source_authorities_modified": 0,
+  "records_activated": 0,
+  "static_check_file": "Ireland_Government_Political_Topology_Titles_Offices_and_Regional_Administration_Authority_V1_1_FULL_Static_Check.json",
+  "static_check_sha256": "9b9a09febb3b0093a1b668390c20e085b8e737d7a9923c45626a41fa333d0695",
+  "validation_scope": "content static and source-successor completeness checks only; no owner promotion, Registry, Opening State, importer, compile, runtime, save-load, migration, replay, performance, or payload validation"
+}

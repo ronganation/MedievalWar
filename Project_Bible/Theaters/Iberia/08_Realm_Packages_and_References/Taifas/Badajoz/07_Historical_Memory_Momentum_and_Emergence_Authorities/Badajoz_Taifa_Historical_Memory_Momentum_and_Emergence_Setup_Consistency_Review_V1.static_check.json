@@ -1,0 +1,23 @@
+{
+  "status": "PASS_WITH_DEPENDENCIES",
+  "artifact": "Badajoz_Taifa_Historical_Memory_Momentum_and_Emergence_Setup_Consistency_Review_V1.md",
+  "authority_family": "07_Historical_Memory_Momentum_and_Emergence_Authorities",
+  "primary_subject": "Badajoz_Taifa_Historical_Memory_Momentum_and_Emergence_Setup_V1.md",
+  "primary_subject_sha256": "0ec66717c4445898ba5ec1b0d0821c0b266a27d0e6de0d01390300c82e55ec4a",
+  "lines": 923,
+  "words": 3193,
+  "bytes": 28771,
+  "sha256": "7b49ec9befe95e8d67ff59336a152179a25ba123d1b65085365d7f25cf66de02",
+  "confirmed_internal_contradictions": 0,
+  "positive_fixtures": 20,
+  "negative_fixtures": 32,
+  "critical_blockers": 12,
+  "regional_research_subjects": 6,
+  "unsupported_opening_historical_facts": 0,
+  "specialized_historical_memory_evidence_model_required_now": true,
+  "folder07_shared_framework_registry_preflight_ready": false,
+  "opening_state_created": false,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "next_artifact": "Badajoz_Taifa_Pre_1062_Historical_Memory_and_Starting_Momentum_Evidence_Model_V1.md"
+}

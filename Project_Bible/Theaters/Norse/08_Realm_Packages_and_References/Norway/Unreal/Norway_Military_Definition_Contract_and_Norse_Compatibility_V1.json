@@ -1,0 +1,212 @@
+{
+  "document_id": "mw.contract.norway.military-definition.norse-compatibility.v1",
+  "version": "1.0.0",
+  "status": "StaticCheckedImplementationContractCandidate",
+  "authority_source": "Norway_Army_Fleet_and_Maritime_Military_V1.md",
+  "realm_id": "Realm.Norway",
+  "realm_context_id": "RealmContext.Norway.1062",
+  "scenario_id": "Scenario.Norway.1062Opening",
+  "theater_candidate": "theater.norse",
+  "ownership": {
+    "contract_owns": [
+      "NorwayMilitaryIdentity",
+      "DefinitionRequirements",
+      "ForceFamilyCompatibility",
+      "ImporterValidationRequirements"
+    ],
+    "contract_does_not_own": [
+      "CanonicalIDs",
+      "OpeningState",
+      "Units",
+      "Armies",
+      "Fleets",
+      "Ships",
+      "Commands",
+      "Routes",
+      "Supply",
+      "Battles",
+      "Outcomes"
+    ]
+  },
+  "unit_definition_required_fields": [
+    "unit_definition_id",
+    "registry_status",
+    "force_family",
+    "recruitment_or_service_basis",
+    "eligible_source_owner",
+    "personnel_role",
+    "equipment_profile",
+    "training_or_experience_profile",
+    "command_requirements",
+    "transport_requirements",
+    "supply_requirements",
+    "seasonal_limits",
+    "replacement_requirements",
+    "battle_roles",
+    "prohibited_assumptions",
+    "definition_version"
+  ],
+  "active_formation_required_fields": [
+    "formation_id",
+    "unit_or_contingent_references",
+    "commander",
+    "authority_source",
+    "objective",
+    "current_location",
+    "readiness",
+    "personnel_state",
+    "equipment_state",
+    "supply_state",
+    "transport_state",
+    "communication_state",
+    "cohesion_state",
+    "start_and_end_conditions",
+    "reporting",
+    "transfer_and_replacement",
+    "state_version"
+  ],
+  "shared_norse_compatibility": [
+    {
+      "norway_force_family": "RoyalHouseholdAndEliteFollowing",
+      "shared_norse_family": "HouseholdRetainers",
+      "mapping_status": "AuthoritySupportedFamilyMapping",
+      "creates_unit": false
+    },
+    {
+      "norway_force_family": "NobleHouseholdFollowing",
+      "shared_norse_family": "SelectWarriors",
+      "mapping_status": "AuthoritySupportedFamilyMapping",
+      "creates_unit": false
+    },
+    {
+      "norway_force_family": "RegionalMusterOrServiceContribution",
+      "shared_norse_family": "SpearLevyOrGeneralLevy",
+      "mapping_status": "RequiresRosterAndRoleEvidence",
+      "creates_unit": false
+    },
+    {
+      "norway_force_family": "LocalDefenseAndSiteProtection",
+      "shared_norse_family": "GeneralLevyOrGarrison",
+      "mapping_status": "RequiresGarrisonOwnerAndRoleEvidence",
+      "creates_unit": false
+    },
+    {
+      "norway_force_family": "ShipCrewAndMaritimeFightingContingent",
+      "shared_norse_family": "ShipCrewsAndMaritimeWarbands",
+      "mapping_status": "AuthoritySupportedFamilyMapping",
+      "creates_unit": false
+    },
+    {
+      "norway_force_family": "ExpeditionaryFieldForce",
+      "shared_norse_family": "FormationCompositionNotUnitFamily",
+      "mapping_status": "DoNotFlatten",
+      "creates_unit": false
+    },
+    {
+      "norway_force_family": "FleetCommandAndShipGroup",
+      "shared_norse_family": "FleetGroupNotUnitFamily",
+      "mapping_status": "DoNotFlatten",
+      "creates_unit": false
+    },
+    {
+      "norway_force_family": "TransportAndSupplyGroup",
+      "shared_norse_family": "SupportFormationNotCombatUnitFamily",
+      "mapping_status": "DoNotFlatten",
+      "creates_unit": false
+    },
+    {
+      "norway_force_family": "ScoutMessengerAndRouteSupport",
+      "shared_norse_family": "ScoutsAndMessengers",
+      "mapping_status": "AuthoritySupportedFamilyMapping",
+      "creates_unit": false
+    },
+    {
+      "norway_force_family": "GarrisonOrGuardWhereSeparatelySupported",
+      "shared_norse_family": "GarrisonOrHouseholdRetainers",
+      "mapping_status": "RequiresSeparateSupport",
+      "creates_unit": false
+    },
+    {
+      "norway_force_family": "NegotiatedExternalContingent",
+      "shared_norse_family": "ExternalOwnerControlled",
+      "mapping_status": "NeverNorwayOwnedByDefault",
+      "creates_unit": false
+    }
+  ],
+  "roster_direction_candidates": [
+    {
+      "candidate": "SpearAndShieldInfantry",
+      "status": "RequiresSourceHistoricalArtRegistryAndAssetReview"
+    },
+    {
+      "candidate": "EliteRetainersAndHouseholdWarriors",
+      "status": "RequiresSourceHistoricalArtRegistryAndAssetReview"
+    },
+    {
+      "candidate": "MissileSupport",
+      "status": "WhereEvidenced"
+    },
+    {
+      "candidate": "ShipCrewsFightingAboardOrAshore",
+      "status": "RequiresShipCrewAndUnitOwnerSeparation"
+    },
+    {
+      "candidate": "ScoutsMessengersGuidesAndSupportPersonnel",
+      "status": "RequiresRoleAndPresentationSeparation"
+    },
+    {
+      "candidate": "MountedTravelOrCommandSupport",
+      "status": "DoNotCreateUnsupportedCavalryArm"
+    }
+  ],
+  "fleet_role_families": [
+    "RoyalCommandShipRole",
+    "WarTransportRole",
+    "GeneralLongshipRole",
+    "LightScoutAndMessengerRole",
+    "CoastalTransportRole",
+    "SupplyAndCargoRole",
+    "LocalDefenseBoatRole",
+    "NegotiatedExternalShipRole"
+  ],
+  "opening_boundary": {
+    "force_records_created": 0,
+    "ship_records_created": 0,
+    "fleet_records_created": 0,
+    "unit_records_created": 0,
+    "garrison_records_created": 0,
+    "command_assignments_created": 0,
+    "contribution_records_created": 0,
+    "route_or_supply_records_created": 0,
+    "battle_of_nisa_scheduled": false,
+    "english_expedition_committed": false
+  },
+  "importer_gate": {
+    "isolated_military_definition_transport_evidenced_by_authority": true,
+    "isolated_owner_routing_evidenced_by_authority": true,
+    "isolated_commit_and_rollback_evidenced_by_authority": true,
+    "production_military_owner_confirmed": false,
+    "production_import_performed": false,
+    "first_real_unit_fixture": "PendingActiveUnrealAssetInventory"
+  },
+  "validation_rules": [
+    "RejectRealmAsArmy",
+    "RejectFleetAsShipList",
+    "RejectPortAsFleetBase",
+    "SplitCommanderAndCommand",
+    "RejectObligationAsDeliveredForce",
+    "RejectSagaShipNumberAsOpeningInventory",
+    "RejectFixedNisaForceList",
+    "RejectOrkneyForcesAsNorwayOwned",
+    "RejectUnknownAsZero",
+    "RejectOpeningDefinitionsOverAdvancedSave",
+    "RequireDirectMigrationNoAliasChains"
+  ],
+  "mutations": {
+    "registry": false,
+    "opening_state": false,
+    "runtime": false,
+    "active_unreal_source": false,
+    "physical_promotion": false
+  }
+}

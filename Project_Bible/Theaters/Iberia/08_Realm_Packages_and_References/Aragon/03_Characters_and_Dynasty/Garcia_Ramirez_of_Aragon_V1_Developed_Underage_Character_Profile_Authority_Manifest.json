@@ -1,0 +1,22 @@
+{
+  "FileName": "Garcia_Ramirez_of_Aragon_V1_Developed_Underage_Character_Profile_Authority.md",
+  "Version": "1.0.0",
+  "SHA256": "18029a6a28375a6e4f215e9db1e8f1c1528c6992bfc4928e5d9b510b5de9a1f1",
+  "Checks": {
+    "bytes": 15496,
+    "lines": 292,
+    "underage": true,
+    "repeated": {},
+    "escaped_underscore": 0,
+    "em_dash": 0,
+    "balanced": true
+  },
+  "AllChecksPass": true,
+  "MutationReceipt": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "Runtime": 0,
+    "Unreal": 0
+  },
+  "NextFile": "Sancha_Ramirez_of_Aragon_V1_Developed_Underage_Character_Profile_Authority.md"
+}

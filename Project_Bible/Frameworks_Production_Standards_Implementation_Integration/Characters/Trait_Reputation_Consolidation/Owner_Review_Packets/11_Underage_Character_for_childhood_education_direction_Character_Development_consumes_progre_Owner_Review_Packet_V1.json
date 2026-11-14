@@ -1,0 +1,304 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationOwnerReviewPacket",
+    "name": "Trait Reputation Owner Review Packet 11",
+    "version": "1.2",
+    "status": "StaticDecisionMerged",
+    "authority_class": "Destination Owner Review Packet",
+    "requested_destination_authority": "Underage Character for childhood education direction; Character Development consumes progress and milestones"
+  },
+  "routing": {
+    "route_id": "trait-reputation.owner-route.011.v1",
+    "source_submission_file": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+    "source_submission_sha256": "68d4f5ac33a69e25ca07ed2e0b11130e33994f9a195df7617b02083678887b60",
+    "source_submission_id": "trait-reputation.owner-acceptance.011.v1",
+    "owner_group_id": "trait-reputation.owner-group.011",
+    "delivery_state": "StaticDecisionMerged",
+    "external_delivery_executed": false,
+    "repository_target_hint": "Owner_Review_Packets/11_Underage_Character_for_childhood_education_direction_Character_Development_consumes_progre_Owner_Review_Packet_V1.json",
+    "decision_return_target": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+    "mutation_permitted": false
+  },
+  "review_contract": {
+    "allowed_group_and_entry_decisions": [
+      "AcceptAsRouted",
+      "AcceptWithChanges",
+      "RejectOwnership",
+      "RelocateToNamedAuthority",
+      "SplitAcrossNamedAuthorities",
+      "RequireMoreEvidence"
+    ],
+    "pending_is_not_acceptance": true,
+    "silence_is_not_acceptance": true,
+    "acceptance_requires_named_authority_and_evidence": true,
+    "accept_with_changes_requires_bounded_change_list": true,
+    "reject_ownership_requires_rationale": true,
+    "relocation_requires_named_target_authority": true,
+    "split_requires_entry_level_target_assignments": true,
+    "require_more_evidence_must_name_required_evidence": true,
+    "partial_entry_decisions_permitted": true,
+    "group_is_resolved_only_when_every_entry_is_resolved": true,
+    "unresolved_entries_remain_non_authoritative": true,
+    "unresolved_entries_remain_quarantined_where_required": true,
+    "decision_does_not_assign_canonical_ids": true,
+    "decision_does_not_authorize_runtime_or_save_mutation": true
+  },
+  "submission": {
+    "submission_id": "trait-reputation.owner-acceptance.011.v1",
+    "owner_group_id": "trait-reputation.owner-group.011",
+    "requested_destination_authority": "Underage Character for childhood education direction; Character Development consumes progress and milestones",
+    "submission_status": "StaticDecisionResolved",
+    "group_decision": "SplitAcrossNamedAuthorities",
+    "decision_authority": "Trait Reputation Static Owner Decision Pass V1",
+    "decision_date": "2026-08-13",
+    "decision_evidence": [
+      "Underage_Character_Framework.md",
+      "Underage_Character_Implementation_Contract.md",
+      "Character_Development_Framework_v2.md",
+      "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+      "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+    ],
+    "decision_rationale": "JointStaticBoundary",
+    "replacement_or_relocation_authorities": [
+      "Underage Character",
+      "Character Development"
+    ],
+    "entry_count": 5,
+    "entry_ids": [
+      "legacy.character_trait_library.entry.063",
+      "legacy.character_trait_library.entry.062",
+      "legacy.character_trait_library.entry.059",
+      "legacy.character_trait_library.entry.060",
+      "legacy.character_trait_library.entry.061"
+    ],
+    "action_counts": {
+      "Reassign": 3,
+      "Refactor": 2
+    },
+    "semantic_class_counts": {
+      "UnderageRoleDevelopmentOrProtectionState": 5
+    },
+    "record_layer_counts": {
+      "UnderageDefinitionScenarioRoleOrRuntimeState": 5
+    },
+    "migration_risk_counts": {
+      "High": 5
+    },
+    "canonical_registry_dependencies": [
+      "UnderageRegistryOrOwnerLocalTypedId"
+    ],
+    "quarantine_states": [
+      "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved"
+    ],
+    "partial_decisions_permitted": true,
+    "group_acceptance_requires_all_entries_resolved": true,
+    "entry_decisions": [
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.063",
+        "entry": "Cultural Education",
+        "category": "Underage",
+        "audit_action": "Refactor",
+        "semantic_class": "UnderageRoleDevelopmentOrProtectionState",
+        "destination_record_layer": "UnderageDefinitionScenarioRoleOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "UnderageRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_SplitContractsRequiredBeforeMigration",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "JointTypedBoundary_UnderageDirection_DevelopmentProgress",
+        "required_changes": [
+          "No duplicate authoritative state.",
+          "Children are not small adults.",
+          "One GuardianId must not replace typed underage roles."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Underage Character",
+            "owns": "childhood education direction, educator/guardian/custodian/protector roles, opportunities, constraints, and child-safe transitions"
+          },
+          {
+            "authority": "Character Development",
+            "owns": "practice, progress, milestones, learned capability, readiness, growth, and decline"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Underage_Character_Framework.md",
+          "Underage_Character_Implementation_Contract.md",
+          "Character_Development_Framework_v2.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.062",
+        "entry": "Guild Education",
+        "category": "Underage",
+        "audit_action": "Reassign",
+        "semantic_class": "UnderageRoleDevelopmentOrProtectionState",
+        "destination_record_layer": "UnderageDefinitionScenarioRoleOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "UnderageRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_SplitContractsRequiredBeforeMigration",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "JointTypedBoundary_UnderageDirection_DevelopmentProgress",
+        "required_changes": [
+          "No duplicate authoritative state.",
+          "Children are not small adults.",
+          "One GuardianId must not replace typed underage roles."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Underage Character",
+            "owns": "childhood education direction, educator/guardian/custodian/protector roles, opportunities, constraints, and child-safe transitions"
+          },
+          {
+            "authority": "Character Development",
+            "owns": "practice, progress, milestones, learned capability, readiness, growth, and decline"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Underage_Character_Framework.md",
+          "Underage_Character_Implementation_Contract.md",
+          "Character_Development_Framework_v2.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.059",
+        "entry": "Military Education",
+        "category": "Underage",
+        "audit_action": "Reassign",
+        "semantic_class": "UnderageRoleDevelopmentOrProtectionState",
+        "destination_record_layer": "UnderageDefinitionScenarioRoleOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "UnderageRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_SplitContractsRequiredBeforeMigration",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "JointTypedBoundary_UnderageDirection_DevelopmentProgress",
+        "required_changes": [
+          "No duplicate authoritative state.",
+          "Children are not small adults.",
+          "One GuardianId must not replace typed underage roles."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Underage Character",
+            "owns": "childhood education direction, educator/guardian/custodian/protector roles, opportunities, constraints, and child-safe transitions"
+          },
+          {
+            "authority": "Character Development",
+            "owns": "practice, progress, milestones, learned capability, readiness, growth, and decline"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Underage_Character_Framework.md",
+          "Underage_Character_Implementation_Contract.md",
+          "Character_Development_Framework_v2.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.060",
+        "entry": "Noble Education",
+        "category": "Underage",
+        "audit_action": "Refactor",
+        "semantic_class": "UnderageRoleDevelopmentOrProtectionState",
+        "destination_record_layer": "UnderageDefinitionScenarioRoleOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "UnderageRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_SplitContractsRequiredBeforeMigration",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "JointTypedBoundary_UnderageDirection_DevelopmentProgress",
+        "required_changes": [
+          "No duplicate authoritative state.",
+          "Children are not small adults.",
+          "One GuardianId must not replace typed underage roles."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Underage Character",
+            "owns": "childhood education direction, educator/guardian/custodian/protector roles, opportunities, constraints, and child-safe transitions"
+          },
+          {
+            "authority": "Character Development",
+            "owns": "practice, progress, milestones, learned capability, readiness, growth, and decline"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Underage_Character_Framework.md",
+          "Underage_Character_Implementation_Contract.md",
+          "Character_Development_Framework_v2.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      },
+      {
+        "source_entry_id": "legacy.character_trait_library.entry.061",
+        "entry": "Religious Education",
+        "category": "Underage",
+        "audit_action": "Reassign",
+        "semantic_class": "UnderageRoleDevelopmentOrProtectionState",
+        "destination_record_layer": "UnderageDefinitionScenarioRoleOrRuntimeState",
+        "migration_risk": "High",
+        "canonical_registry_dependency": "UnderageRegistryOrOwnerLocalTypedId",
+        "quarantine_state": "ConditionallyResolved_SplitContractsRequiredBeforeMigration",
+        "decision": "SplitAcrossNamedAuthorities",
+        "accepted_destination_authority": null,
+        "accepted_record_layer": "JointTypedBoundary_UnderageDirection_DevelopmentProgress",
+        "required_changes": [
+          "No duplicate authoritative state.",
+          "Children are not small adults.",
+          "One GuardianId must not replace typed underage roles."
+        ],
+        "relocation_target": null,
+        "split_targets": [
+          {
+            "authority": "Underage Character",
+            "owns": "childhood education direction, educator/guardian/custodian/protector roles, opportunities, constraints, and child-safe transitions"
+          },
+          {
+            "authority": "Character Development",
+            "owns": "practice, progress, milestones, learned capability, readiness, growth, and decline"
+          }
+        ],
+        "evidence_required": [],
+        "decision_evidence": [
+          "Underage_Character_Framework.md",
+          "Underage_Character_Implementation_Contract.md",
+          "Character_Development_Framework_v2.md",
+          "Character_Trait_Library_Ownership_Consolidation_Audit.md",
+          "Trait_Reputation_Static_Owner_Decision_Pass_V1.json"
+        ],
+        "mutation_permitted": false
+      }
+    ],
+    "registry_write_permitted": false,
+    "content_write_permitted": false,
+    "runtime_write_permitted": false,
+    "save_write_permitted": false
+  },
+  "review_instructions": [
+    "Preserve the merged static decision and cited evidence.",
+    "Do not assign canonical IDs or authorize registry, content, runtime, or save writes.",
+    "For blocked groups, supply the named current authority before changing Pending.",
+    "For conditional or split decisions, complete required contracts before migration admission."
+  ]
+}

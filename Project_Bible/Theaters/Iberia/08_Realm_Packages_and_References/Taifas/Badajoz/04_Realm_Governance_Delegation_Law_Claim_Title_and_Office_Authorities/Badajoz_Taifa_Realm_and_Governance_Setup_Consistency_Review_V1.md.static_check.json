@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "status": "PASS_STATIC_CHECK",
+  "artifact": "Badajoz_Taifa_Realm_and_Governance_Setup_Consistency_Review_V1.md",
+  "version": "1.1.0",
+  "target": "Unreal Engine 5.8",
+  "lines": 350,
+  "words": 928,
+  "bytes": 10868,
+  "sha256": "cbe720d3e7e6a40cb2627f3853a7908f3298e412d94f88fe46537187ae5ef009",
+  "realm_ref": "realm.badajoz",
+  "character_foundation_receipt": "PENDING",
+  "realm_sovereign_role_receipt": "PENDING",
+  "project_wide_registry_commit": "NOT_RUN",
+  "opening_state_created": false,
+  "opening_state_authoring_authorized": false,
+  "opening_state_application_authorized": false,
+  "compile_validated": false,
+  "runtime_validated": false,
+  "importer_validated": false,
+  "save_load_replay_validated": false,
+  "unreal_engine_5_8_validated": false
+}

@@ -1,0 +1,700 @@
+{
+  "documentControl": {
+    "documentId": "manifest.shared.settlement-development-built-environment.authority-family.v1_2",
+    "stableDocumentId": "Manifest.SettlementDevelopmentBuiltEnvironment.AuthorityFamily",
+    "filename": "Settlement_Development_and_Built_Environment_Authority_Family_Source_Manifest_and_Static_Check_V1_2.json",
+    "version": "1.2.0",
+    "revisionDate": "2026-11-04",
+    "project": "Medieval War",
+    "campaignSpine": "Modern Medieval II Total War",
+    "placement": "Frameworks_Production_Standards_Implementation_Integration/Settlement_Development_and_Built_Environment",
+    "documentType": [
+      "AuthorityFamilySourceManifest",
+      "StaticCheckReceipt",
+      "CurrentAuthorityFingerprintRecord",
+      "GeneralAuthorityOverviewTemplateREADMEIntegrationReceipt",
+      "LegacyAndCurrentnessDisposition",
+      "RealmTheaterCoverageReceipt",
+      "NonmutationReceipt"
+    ],
+    "constitutionalAuthority": "Project Bible 2.4",
+    "operationalAuthority": "Design Expansion Checklist 3.7",
+    "architectureAuthority": "Framework Architecture Map V2",
+    "implementationTarget": "Unreal Engine 5.8",
+    "status": "PASS_WITH_GENERAL_AUTHORITY_OVERVIEW_TEMPLATE_README_INTEGRATED_OWNER_REVIEW_REQUIRED",
+    "implementationPromotionAuthorized": false
+  },
+  "scenarioAndTemporalContract": {
+    "historicalDate": "1062-01-01",
+    "openingCampaignSeason": "Winter",
+    "historicalProgressionMonthsPerStrategicTurn": 21,
+    "biologicalProgressionMonthsPerStrategicTurn": 7,
+    "campaignSeasonStepsPerStrategicTurn": 1,
+    "campaignSeasonOrder": [
+      "Winter",
+      "Spring",
+      "Summer",
+      "Autumn"
+    ],
+    "tracksIndependent": true
+  },
+  "manifestMethod": {
+    "copyFirstSuccessorOf": "Settlement_Development_and_Built_Environment_Authority_Family_Source_Manifest_and_Static_Check_V1_1.json",
+    "sourceReadInFull": true,
+    "sourceOverwritten": false,
+    "currentAuthorityFilesRepresented": 12,
+    "retainedPresentationReferencesRepresented": 1,
+    "actualWorkingSetByteAndSha256CalculatedWhereFileAvailable": true,
+    "unknownFingerprintsRemainNull": true,
+    "searchMissDoesNotProveAbsence": true,
+    "legacySourceContentsFabricated": false
+  },
+  "authorityPrecedence": [
+    "ProjectBibleAndApprovedConstitutionalAuthorities",
+    "TownCastleSettlementClassFrameworkV1_1",
+    "SettlementClassFunctionalFamilyPlannerHierarchyReconciliationV1_2",
+    "GeneralCrossRealmSettlementDevelopmentAuthorityV1_1",
+    "CurrentAuthorityIndexAndLegacyDispositionV1_2",
+    "CorrectedSettlementDevelopmentBuildingStructureFrameworkV1_1",
+    "CorrectedFunctionalBuildingFamilyCatalogueV1_1",
+    "CorrectedDevelopedRealmCompatibilityReviewV1_1",
+    "CorrectedVisualExpressionAndPlannerInterfaceReviewV1_1",
+    "RealmAdaptationTemplateV1_1",
+    "RealmSettlementAndBuildingAuthorities",
+    "OpeningStateRuntimeVisualAndImplementationOwners"
+  ],
+  "settlementClassConstitution": {
+    "primarySettlementClasses": [
+      "TownAndCivic",
+      "CastleAndFortifiedCenter"
+    ],
+    "TownAndCivicProgression": [
+      "T0",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5"
+    ],
+    "CastleAndFortifiedCenterProgression": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "townCastleConversionBilateral": true,
+    "townCastleConversionInstantOrFree": false,
+    "roleLabelsCannotReplacePrimaryClasses": [
+      "Port",
+      "Market",
+      "Royal",
+      "Religious",
+      "Regional",
+      "Administrative",
+      "Resource",
+      "Temporary"
+    ],
+    "expressionsFamiliesBranchesAndExactBuildingsSubordinateToPrimaryClasses": true
+  },
+  "currentAuthorityRecords": [
+    {
+      "order": 1,
+      "filename": "Settlement_Class_Town_Castle_Progression_Conversion_Attached_Sites_and_Outlying_Strategic_Assets_Framework_V1_1.md",
+      "stableDocumentId": "Framework.SettlementClass.TownCastleProgressionConversionAttachedSitesOutlyingAssets",
+      "role": "PrimarySettlementClassesStagesTownCastleConversionLinkedFormsAndNonsettlementRelationships",
+      "version": "1.1.0",
+      "status": "CurrentPrimarySettlementClassAuthority",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 2,
+      "filename": "Settlement_Class_Functional_Building_Family_and_Planner_Hierarchy_Reconciliation_V1_2.md",
+      "stableDocumentId": "Reconciliation.SettlementClassFunctionalFamilyPlannerHierarchy",
+      "role": "CurrentCrossDocumentClassStageExpressionFamilyPlannerAndStateHierarchy",
+      "version": "1.2.0",
+      "status": "CurrentCrossDocumentHierarchyAuthority",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 3,
+      "filename": "General_Settlement_Development_Town_Castle_Progression_Strategic_Sites_and_Campaign_Map_Expression_Authority_V1_1.md",
+      "stableDocumentId": "Authority.GeneralSettlementDevelopmentTownCastleStrategicSites",
+      "role": "GeneralCrossRealmExpressionsStrategicSitesLifecycleWarfareAIAndMigration",
+      "version": "1.1.0",
+      "status": "CurrentGeneralCrossRealmSettlementAuthority",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 4,
+      "filename": "Settlement_Development_Building_Chains_Built_Environment_and_Player_Construction_Authority_Family_Bounded_Assessment_and_Development_Disposition_V1_1.md",
+      "stableDocumentId": "Assessment.SettlementDevelopmentBuildingChainsBuiltEnvironmentPlayerConstruction.AuthorityFamily",
+      "role": "HistoricalGapAssessmentCorrectedForTwoPrimaryTracks",
+      "version": "1.1.0",
+      "status": "CurrentAssessmentDecisionProvenance",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 5,
+      "filename": "Settlement_Development_Building_Families_Chains_Branches_Capacity_and_Player_Construction_Framework_V1_1.md",
+      "stableDocumentId": "Framework.SettlementDevelopment.BuildingStructure",
+      "role": "BuildingFamiliesChainsBranchesCapacityProjectsAndPlayerConstructionWithinTwoPrimaryTracks",
+      "version": "1.1.0",
+      "status": "CurrentSharedFrameworkOwnerReviewRequired",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 6,
+      "filename": "Settlement_Functional_Building_Family_Branch_Compatibility_and_Owner_Interface_Catalogue_V1_1.md",
+      "stableDocumentId": "Catalogue.SettlementDevelopment.FunctionalBuildingFamilies",
+      "role": "FunctionalFamiliesBranchCompatibilityPhysicalDispositionAndOwnerInterfaces",
+      "version": "1.1.0",
+      "status": "CurrentFunctionalCatalogueOwnerReviewRequired",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 7,
+      "filename": "Developed_Realm_Settlement_Development_Building_Structure_and_Built_Environment_Compatibility_Review_V1_1.md",
+      "stableDocumentId": "Review.DevelopedRealms.SettlementDevelopmentBuildingStructureBuiltEnvironment",
+      "role": "DevelopedRealmCompatibilityAndNoSymmetryWithinSharedPrimarySpine",
+      "version": "1.1.0",
+      "status": "CurrentDevelopedRealmCompatibilityReview",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 8,
+      "filename": "Settlement_Development_Culture_Religion_Realm_Architecture_and_Visual_Expression_Interface_Review_V1_1.md",
+      "stableDocumentId": "Review.SettlementDevelopment.CultureReligionRealmArchitectureVisualExpression",
+      "role": "SeparateTownAndCastlePlannerTreesVisualSurfacesAndArchitectureInterface",
+      "version": "1.1.0",
+      "status": "CurrentStaticVisualInterfaceReview",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 9,
+      "filename": "General_Settlement_Development_Town_Castle_Progression_Strategic_Sites_and_Campaign_Map_Expression_Authority_Static_Review_V1_1.md",
+      "stableDocumentId": "Review.GeneralSettlementDevelopmentAuthority.Static",
+      "role": "IndependentGeneralAuthorityValidationAndGraphicGate",
+      "version": "1.1.0",
+      "status": "CurrentIndependentGeneralAuthorityReview",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 10,
+      "filename": "General_Settlement_Development_Realm_Adaptation_Template_V1_1.md",
+      "stableDocumentId": "Template.GeneralSettlementDevelopment.RealmAdaptation",
+      "role": "RealmScopeTriageMappingAndConditionalDeliverableSelection",
+      "version": "1.1.0",
+      "status": "CurrentRealmAdaptationTemplate",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 11,
+      "filename": "Settlement_Development_and_Built_Environment_README_V1_1.md",
+      "stableDocumentId": "README.SettlementDevelopmentBuiltEnvironment",
+      "role": "FolderNavigationTaskSpecificReadingAndCurrentGate",
+      "version": "1.1.0",
+      "status": "CurrentFolderNavigationAuthority",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    },
+    {
+      "order": 12,
+      "filename": "Settlement_Development_and_Built_Environment_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1_2.md",
+      "stableDocumentId": "Index.SettlementDevelopmentBuiltEnvironment.AuthorityFamily",
+      "role": "CurrentNavigationLegacyDispositionAndAntiChurnControl",
+      "version": "1.2.0",
+      "status": "CurrentAuthorityIndex",
+      "bytesAtManifestCreation": null,
+      "sha256AtManifestCreation": null,
+      "repositoryByteRehashPerformed": false,
+      "currentControl": true
+    }
+  ],
+  "currentAuthoritySummary": {
+    "recordCount": 12,
+    "readingOrderContiguous": true,
+    "duplicateFilenames": 0,
+    "duplicateStableDocumentIds": 0,
+    "primarySettlementClassFrameworkIncluded": true,
+    "hierarchyReconciliationV1_2Included": true,
+    "generalCrossRealmAuthorityIncluded": true,
+    "generalAuthorityIndependentReviewIncluded": true,
+    "realmAdaptationTemplateIncluded": true,
+    "folderREADMEIncluded": true,
+    "allImplementationPromotionFalse": true,
+    "allCurrentControl": true
+  },
+  "legacyAuthorityRecords": [
+    {
+      "filename": "Settlement_Development_Building_Chains_Built_Environment_and_Player_Construction_Authority_Family_Bounded_Assessment_and_Development_Disposition_V1.md",
+      "stableDocumentId": "Assessment.SettlementDevelopmentBuildingChainsBuiltEnvironmentPlayerConstruction.AuthorityFamily",
+      "version": "1.0.0",
+      "disposition": "HISTORICAL_PROVENANCE_SUPERSEDED_FOR_CURRENT_INTERPRETATION_BY_V1_1_OR_LATER_HIERARCHY",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "Settlement_Development_Building_Families_Chains_Branches_Capacity_and_Player_Construction_Framework_V1.md",
+      "stableDocumentId": "Framework.SettlementDevelopment.BuildingStructure",
+      "version": "1.0.0",
+      "disposition": "HISTORICAL_PROVENANCE_SUPERSEDED_FOR_CURRENT_INTERPRETATION_BY_V1_1_OR_LATER_HIERARCHY",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "Settlement_Functional_Building_Family_Branch_Compatibility_and_Owner_Interface_Catalogue_V1.md",
+      "stableDocumentId": "Catalogue.SettlementDevelopment.FunctionalBuildingFamilies",
+      "version": "1.0.0",
+      "disposition": "HISTORICAL_PROVENANCE_SUPERSEDED_FOR_CURRENT_INTERPRETATION_BY_V1_1_OR_LATER_HIERARCHY",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "Developed_Realm_Settlement_Development_Building_Structure_and_Built_Environment_Compatibility_Review_V1.md",
+      "stableDocumentId": "Review.DevelopedRealms.SettlementDevelopmentBuildingStructureBuiltEnvironment",
+      "version": "1.0.0",
+      "disposition": "HISTORICAL_PROVENANCE_SUPERSEDED_FOR_CURRENT_INTERPRETATION_BY_V1_1_OR_LATER_HIERARCHY",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "Settlement_Development_Culture_Religion_Realm_Architecture_and_Visual_Expression_Interface_Review_V1.md",
+      "stableDocumentId": "Review.SettlementDevelopment.CultureReligionRealmArchitectureVisualExpression",
+      "version": "1.0.0",
+      "disposition": "HISTORICAL_PROVENANCE_SUPERSEDED_FOR_CURRENT_INTERPRETATION_BY_V1_1_OR_LATER_HIERARCHY",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "Settlement_Development_and_Built_Environment_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1.md",
+      "stableDocumentId": "Index.SettlementDevelopmentBuiltEnvironment.AuthorityFamily",
+      "version": "1.0.0",
+      "disposition": "HISTORICAL_PROVENANCE_SUPERSEDED_FOR_CURRENT_INTERPRETATION_BY_V1_1_OR_LATER_HIERARCHY",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "Settlement_Class_Town_Castle_Progression_Conversion_Attached_Sites_and_Outlying_Strategic_Assets_Framework_V1.md",
+      "stableDocumentId": "Framework.SettlementClass.TownCastleProgressionConversionAttachedSitesOutlyingAssets",
+      "version": "1.0.0",
+      "disposition": "HISTORICAL_PROVENANCE_SUPERSEDED_FOR_CURRENT_INTERPRETATION_BY_V1_1",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "Settlement_Class_Functional_Building_Family_and_Planner_Hierarchy_Reconciliation_V1_1.md",
+      "stableDocumentId": "Reconciliation.SettlementClassFunctionalFamilyPlannerHierarchy",
+      "version": "1.1.0",
+      "disposition": "HISTORICAL_PROVENANCE_SUPERSEDED_FOR_CURRENT_INTERPRETATION_BY_V1_2",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "Settlement_Development_and_Built_Environment_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1_1.md",
+      "stableDocumentId": "Index.SettlementDevelopmentBuiltEnvironment.AuthorityFamily",
+      "version": "1.1.0",
+      "disposition": "HISTORICAL_INDEX_SUPERSEDED_BY_V1_2",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "General_Settlement_Development_Town_Castle_Progression_Strategic_Sites_and_Campaign_Map_Expression_Authority_V1.md",
+      "stableDocumentId": "Authority.GeneralSettlementDevelopmentTownCastleStrategicSites",
+      "version": "1.0.0",
+      "disposition": "HISTORICAL_PROVENANCE_SUPERSEDED_FOR_CURRENT_INTERPRETATION_BY_V1_1",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "General_Settlement_Development_Realm_Adaptation_Template_V1.md",
+      "stableDocumentId": "Template.GeneralSettlementDevelopment.RealmAdaptation",
+      "version": "1.0.0",
+      "disposition": "HISTORICAL_PROVENANCE_SUPERSEDED_FOR_CURRENT_INTERPRETATION_BY_V1_1",
+      "deletionAuthorized": false,
+      "currentControl": false
+    },
+    {
+      "filename": "Settlement_Development_and_Built_Environment_README_V1.md",
+      "stableDocumentId": "README.SettlementDevelopmentBuiltEnvironment",
+      "version": "1.0.0",
+      "disposition": "HISTORICAL_README_SUPERSEDED_BY_V1_1",
+      "deletionAuthorized": false,
+      "currentControl": false
+    }
+  ],
+  "supportingOwnerAuthorities": [
+    {
+      "filename": "Economic_and_Material_Flow_Foundation_Framework_V1.md",
+      "ownerRole": "EconomicEntitiesConservationTransactionsReceiptsPersistenceMigrationReplayRollback",
+      "fingerprint": null,
+      "disposition": "RETAIN_CURRENT_OWNER"
+    },
+    {
+      "filename": "Resource_and_Production_Framework_V1.md",
+      "ownerRole": "ResourcePotentialProductionActivityInputsOutputsDamageAndProductiveRecovery",
+      "fingerprint": null,
+      "disposition": "RETAIN_CURRENT_OWNER"
+    },
+    {
+      "filename": "Property_Tenure_and_Economic_Rights_Framework_V1.md",
+      "ownerRole": "OwnershipPossessionCustodyConstructionOperationUseAndRevenueRights",
+      "fingerprint": null,
+      "disposition": "RETAIN_CURRENT_OWNER"
+    },
+    {
+      "filename": "Markets_Treasury_and_Fiscal_Flow_Framework_V1.md",
+      "ownerRole": "MarketsTransactionsAccountsRevenuePaymentsDebtCreditAndReconciliation",
+      "fingerprint": null,
+      "disposition": "RETAIN_CURRENT_OWNER"
+    },
+    {
+      "filename": "Investment_Construction_Maintenance_and_Economic_Recovery_Framework_V1.md",
+      "ownerRole": "ProjectFundingReservationStagesInspectionAcceptanceCommissioningMaintenanceRepairAndRecovery",
+      "fingerprint": null,
+      "disposition": "RETAIN_CURRENT_OWNER"
+    },
+    {
+      "filename": "Strategic_Geography_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "ownerRole": "SettlementSiteNodeRoutePortCrossingMapVisibilityAccessAndBattleContext",
+      "fingerprint": null,
+      "disposition": "RETAIN_CURRENT_OWNER"
+    },
+    {
+      "filename": "Population_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "ownerRole": "PopulationWorkforceSpecialistsMigrationUrbanizationAndDemographicRecovery",
+      "fingerprint": null,
+      "disposition": "RETAIN_CURRENT_OWNER"
+    },
+    {
+      "filename": "Supply_Framework_V2_Current_Authority_Additive_Modernization.md",
+      "ownerRole": "MilitaryLogisticalStockAllocationTransportConsumptionAndRecovery",
+      "fingerprint": null,
+      "disposition": "RETAIN_CURRENT_OWNER"
+    },
+    {
+      "filename": "Public_Order_Compliance_Resistance_Rebellion_and_Recovery_Integration_Authority_V1.md",
+      "ownerRole": "PublicResponseComplianceResistanceEscalationSettlementAndRecoveryInterpretation",
+      "fingerprint": null,
+      "disposition": "RETAIN_CURRENT_OWNER"
+    }
+  ],
+  "functionalFamilyCoverage": {
+    "declaredCount": 15,
+    "families": [
+      "AgricultureFoodAndRuralProduction",
+      "HousingWaterSanitationAndUrbanCapacity",
+      "MarketsStorageCraftsAndCommercialExchange",
+      "RoadsBridgesPortsAndTransport",
+      "WallsCastlesWatchAndDefense",
+      "MusterTrainingRecruitmentAndMilitarySupport",
+      "ReligiousCharitableEducationalAndJuristicInstitutions",
+      "GovernmentAdministrationLawAndRecordkeeping",
+      "WorkshopsResourceProcessingAndSpecializedProduction",
+      "MaritimeFishingShipbuildingAndCoastalInfrastructure",
+      "HealthReliefHospitalityAndRecovery",
+      "CulturePrestigeAssemblyAndPublicIdentity",
+      "InformationCommunicationAndSecurity",
+      "EstateManorialHouseholdInfrastructure",
+      "FrontierColonizationAndResettlement"
+    ],
+    "fixedUniversalTree": false,
+    "fixedTinySlotPrimaryModel": false,
+    "realmExtensionsPermitted": true,
+    "symmetryOnlyExtensionsPermitted": false,
+    "primaryClassAndStageFilterRequired": true,
+    "expressionHybridAndRelationshipFilterRequired": true,
+    "physicalDispositionRequiredBeforeExactBuildingOrVisualWork": true
+  },
+  "theaterAndRealmCoverage": {
+    "theaterGroupCount": 6,
+    "developedRealmCount": 21,
+    "theaters": {
+      "Britania": [
+        "England",
+        "Ireland",
+        "Scotland",
+        "Wales"
+      ],
+      "WestFrancia": [
+        "France",
+        "Normandy",
+        "Flanders",
+        "Aquitaine",
+        "Brittany",
+        "Burgundy"
+      ],
+      "Norse": [
+        "Norway",
+        "Denmark",
+        "Sweden"
+      ],
+      "IberianChristianRealms": [
+        "Aragon",
+        "LeonCastile",
+        "Barcelona"
+      ],
+      "Taifas": [
+        "Valencia",
+        "Zaragoza",
+        "Badajoz",
+        "Seville"
+      ],
+      "NorthAfrica": [
+        "AlmoravidMovementState"
+      ]
+    },
+    "barcelonaIncluded": true,
+    "allDeclaredRealmsReviewed": true,
+    "allDeclaredTheatersReviewed": true,
+    "materialRealmGapProvenBySearchAbsence": false,
+    "massRealmRewriteRequired": false,
+    "oneBuildingFilePerRealmRequired": false
+  },
+  "realmDisposition": {
+    "automaticMassRealmRewriteRequired": false,
+    "applyTemplateWhenRealmSettlementPortfolioIsSubstantivelyOpened": true,
+    "allowedCompletionOutcomes": [
+      "NoChangeWithReceipt",
+      "MinimumConformanceRecord",
+      "TargetedRealmAddendum",
+      "FullRealmSettlementPortfolio"
+    ],
+    "symmetryOnlyFilesAuthorized": false,
+    "existingDevelopedRealmCompatibilityReviewRetained": true
+  },
+  "plannerAndVisualDisposition": {
+    "primaryPlannerTrees": [
+      "TownAndCivicT0ThroughT5",
+      "CastleAndFortifiedCenterC0ThroughC5"
+    ],
+    "townCastleConversionAndLinkedFormsViewRequired": true,
+    "functionalFamilyColumnsPosition": "WithinEachPrimaryTrack",
+    "genericFlexibleStageAxisAsPrimaryHierarchyAuthorized": false,
+    "compactConstructionIconSeparateFromExpandedInformationIllustration": true,
+    "plannerUISeparateFromBaseArt": true,
+    "mapOr3DManifestationSeparate": true,
+    "defaultBuildingCardStyle": "IllustratedModernMedievalII",
+    "photorealisticSettlementPanoramaDefault": false,
+    "uploadedReferenceCount": 4,
+    "exactCopyAuthorized": false,
+    "finalUIClaimAuthorized": false,
+    "generalOverviewFile": "General_Settlement_Development_Overview_V1.png",
+    "generalOverviewRetained": true,
+    "generalOverviewExactBindingAuthority": false,
+    "generalOverviewFinalUIAuthority": false
+  },
+  "legacyAndTargetedSourceDisposition": {
+    "expectedOrTargetedSources": [
+      "Settlement_Classification_System.md",
+      "Settlement_Classification_System.pdf",
+      "Building_System.md",
+      "Building_System.pdf",
+      "Construction_System.md",
+      "Construction_System.pdf",
+      "ProvinceOrSettlementBuildingAuthorities",
+      "RealmBuildingInfrastructureAndSettlementAuthorities",
+      "BattleMapSettlementAndArchitectureAuthorities"
+    ],
+    "exactLegacySettlementClassificationSourceVerified": false,
+    "exactLegacyBuildingSystemSourceVerified": false,
+    "exactLegacyConstructionSystemSourceVerified": false,
+    "exactVisualAuthorityVerified": false,
+    "disposition": "REFERENCED_OR_TARGETED_NOT_VERIFIED_PENDING_PHYSICAL_SOURCE_DISCOVERY",
+    "absenceClaimAuthorized": false,
+    "copyFirstSuccessorClaimAuthorized": false,
+    "supersessionAuthorized": false,
+    "deletionAuthorized": false
+  },
+  "staticChecks": {
+    "jsonParse": "PASS",
+    "requiredTopLevelKeysPresent": "PASS",
+    "authorityRecordCount": "PASS",
+    "readingOrderContiguous": "PASS",
+    "uniqueFilenames": "PASS",
+    "uniqueStableDocumentIds": "PASS",
+    "sha256FormatForKnownFingerprints": "PASS",
+    "primarySettlementClassesCount": "PASS",
+    "TownAndCivicProgressionT0ThroughT5": "PASS",
+    "CastleAndFortifiedCenterProgressionC0ThroughC5": "PASS",
+    "townCastleFrameworkIncluded": "PASS",
+    "hierarchyReconciliationIncluded": "PASS",
+    "functionalFamilyCount": "PASS",
+    "theaterGroupCount": "PASS",
+    "developedRealmCount": "PASS",
+    "barcelonaIncluded": "PASS",
+    "legacyLimitationsPreserved": "PASS",
+    "unknownFingerprintsRemainNull": "PASS",
+    "implementationPromotionFalse": "PASS",
+    "authorityRecordCount12": "PASS",
+    "hierarchyReconciliationV1_2Included": "PASS",
+    "generalCrossRealmAuthorityIncluded": "PASS",
+    "generalAuthorityIndependentReviewIncluded": "PASS",
+    "realmAdaptationTemplateIncluded": "PASS",
+    "folderREADMEIncluded": "PASS",
+    "generalOverviewReferenceIncluded": "PASS",
+    "generalExpressionCategoriesNonmandatory": "PASS",
+    "currentAuthorityIndexV1_2Included": "PASS"
+  },
+  "noncreationAndNonactivation": {
+    "peopleCreated": 0,
+    "populationCreated": 0,
+    "laborCreated": 0,
+    "propertyRightsCreated": 0,
+    "materialsCreated": 0,
+    "goodsCreated": 0,
+    "moneyCreated": 0,
+    "outputsCreated": 0,
+    "recruitmentPoolsCreated": 0,
+    "unitsCreated": 0,
+    "horsesCreated": 0,
+    "equipmentCreated": 0,
+    "shipsCreated": 0,
+    "officersCreated": 0,
+    "institutionsCreated": 0,
+    "buildingDefinitionsActivated": 0,
+    "buildingInstancesCreated": 0,
+    "constructionProjectsCreated": 0,
+    "openingStateRecordsCreated": 0,
+    "exactPrimarySettlementClassBindingsCreated": 0,
+    "exactBuildingDefinitionsCreated": 0,
+    "compactConstructionIconsCreated": 0,
+    "expandedInformationIllustrationsCreated": 0,
+    "exactTStageAssignmentsCreated": 0,
+    "exactCStageAssignmentsCreated": 0,
+    "exactCampaignMapSitesCreated": 0,
+    "plannerUIAssetsCreated": 0,
+    "campaignOrBattleMapAssetsCreated": 0
+  },
+  "implementationEvidenceBoundary": {
+    "staticDesignComplete": true,
+    "ownerReviewRequired": true,
+    "readOnlyProjectNativeDiscoveryPerformed": false,
+    "projectNativeExtensionPointsVerified": false,
+    "registryValidated": false,
+    "openingStateValidated": false,
+    "compileValidated": false,
+    "runtimeValidated": false,
+    "saveLoadValidated": false,
+    "migrationValidated": false,
+    "replayValidated": false,
+    "rollbackExecuted": false,
+    "performanceValidated": false,
+    "accessibilityValidated": false,
+    "unrealProjectModified": false,
+    "implementationPromotionAuthorized": false,
+    "staticDesignCompleteForCorrectedHierarchy": true,
+    "originalSeptemberClosureCurrentForHierarchy": false,
+    "staticDesignCompleteForCurrentGeneralAuthorityFamily": true,
+    "exactBuildingDefinitionSchemaImplemented": false,
+    "campaignMapStrategicSiteSchemaImplemented": false
+  },
+  "nonmutationReceipt": {
+    "sharedAuthoritiesModifiedByManifest": 0,
+    "realmAuthoritiesModified": 0,
+    "legacyFilesModifiedOrDeleted": 0,
+    "buildingDefinitionsCreatedOrActivated": 0,
+    "buildingInstancesCreatedOrModified": 0,
+    "constructionProjectsCreatedOrModified": 0,
+    "visualAssetsCreated": 0,
+    "uiFilesModified": 0,
+    "battleMapAssetsModified": 0,
+    "registryEntriesCreatedOrModified": 0,
+    "openingStateRecordsCreatedOrModified": 0,
+    "saveSchemasCreatedOrModified": 0,
+    "migrationExecuted": false,
+    "gameplayPayloadsCreatedOrImported": 0,
+    "unrealFilesModified": 0,
+    "compileExecuted": false,
+    "runtimeExecuted": false,
+    "currentAuthoritySuccessorFilesCreatedByManifest": 0,
+    "legacyFilesDeleted": 0
+  },
+  "antiChurnGate": {
+    "additionalBroadSettlementFrameworkAuthorized": false,
+    "additionalBroadFunctionalCatalogueAuthorized": false,
+    "universalFixedSlotSystemAuthorized": false,
+    "oneUniversalBuildingTreeAuthorized": false,
+    "oneBuildingFilePerRealmForSymmetryAuthorized": false,
+    "immediateOpeningStatePortfolioAuthorized": false,
+    "directCopyOfUploadedPlannerReferencesAuthorized": false,
+    "immediateRuntimeOrUnrealPromotionAuthorized": false,
+    "removalOrDemotionOfPrimarySettlementTracksAuthorized": false,
+    "replacementOfPrimaryClassesWithPeerRoleLabelsAuthorized": false,
+    "civicProgressionWithoutCastleProgressionAuthorized": false,
+    "massRealmSettlementRewriteAuthorized": false,
+    "mandatoryG01ThroughG15SlotFillingAuthorized": false,
+    "campaignMapIconForEveryExpressionAuthorized": false,
+    "anotherBroadGeneralSettlementAuthorityAuthorized": false
+  },
+  "closureSequence": {
+    "currentArtifact": "Settlement_Development_and_Built_Environment_Authority_Family_Source_Manifest_and_Static_Check_V1_2.json",
+    "currentIndex": "Settlement_Development_and_Built_Environment_Authority_Family_Current_Authority_Index_and_Legacy_Disposition_V1_2.md",
+    "currentREADME": "Settlement_Development_and_Built_Environment_README_V1_1.md",
+    "nextRequiredSharedFile": null,
+    "nextAction": "UseRealmAdaptationTemplateWhenARealmSettlementPortfolioIsSubstantivelyOpened",
+    "automaticImplementationActivation": false
+  },
+  "retainedPresentationReferences": [
+    {
+      "filename": "General_Settlement_Development_Overview_V1.png",
+      "role": "SharedStaticPresentationReference",
+      "bytesAtManifestCreation": 3019985,
+      "sha256AtManifestCreation": "221add96c13a43cb52bfa977d63526e4f977b1c0e9c82d45af5b8b7e58a16875",
+      "exactBindingAuthority": false,
+      "finalUIAuthority": false,
+      "implementationEvidence": false,
+      "knownMinorIssue": "SmallGeneratedTypographyArtifactNearCastleTrackHeader",
+      "retained": true
+    }
+  ],
+  "generalAuthorityDisposition": {
+    "generalExpressionCategories": "G01ThroughG15SharedPlanningCategoriesNotMandatorySlots",
+    "everyRealmUsesEveryCategory": false,
+    "realmMayRenameCombineSubdivideOmitOrAdd": true,
+    "physicalRelationships": [
+      "InsideSettlement",
+      "OnSettlementEdge",
+      "OutsideButAttached",
+      "IndependentStrategicNode",
+      "DistributedNetwork",
+      "TemporaryOrSeasonalSite",
+      "NonvisualPlanningRelationship"
+    ],
+    "campaignMapSiteVisibilityAlwaysRequired": false,
+    "aggregationOrPanelOnlyRepresentationAllowed": true
+  }
+}

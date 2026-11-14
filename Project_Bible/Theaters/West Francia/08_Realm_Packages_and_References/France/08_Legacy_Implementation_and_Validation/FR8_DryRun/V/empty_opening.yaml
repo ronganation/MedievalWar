@@ -1,0 +1,23 @@
+DocumentControl:
+  SchemaId: mw.candidate.document.v1
+  SchemaVersion: 1.0.0
+  PackageId: package.france.current-candidate.v1
+  RealmIdCandidate: realm.france
+  ScenarioId: mw.scenario.grand_campaign.1062
+  CandidateOnly: true
+  RegistryPromotion: false
+  OpeningStateActivation: false
+  UnrealImport: false
+  RuntimeEligible: false
+Records:
+- OpeningStateId: opening.france.1062.v3.1
+  ActiveSettlementIds: []
+  OperationalRouteSegments: []
+  ForceRecords: []
+  RecruitmentPoolRecords: []
+  SupplyStockRecords: []
+  ActiveOpeningMemoryInstances: []
+  ActiveOpeningPressureInstances: []
+  ActiveOpeningPathways: []
+ReviewQueue: []
+Quarantine: []

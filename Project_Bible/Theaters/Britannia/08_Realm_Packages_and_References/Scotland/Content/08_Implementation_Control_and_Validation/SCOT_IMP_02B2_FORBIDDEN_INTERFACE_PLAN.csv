@@ -1,0 +1,14 @@
+RelativePathOrSymbol,Disposition,Reason
+Plugins/MWSharedImporter/Source/MWSharedOpeningStateRuntimeBridge,Forbidden,No runtime connection in first tranche
+Source/MedievalWarCampaign/Private/MWCampaignTurnSubsystem.cpp,Forbidden,No campaign initialization or turn execution
+Source/MedievalWarCampaign/Public/MWCampaignTurnSubsystem.h,Forbidden,No campaign initialization or turn execution
+Source/MedievalWarCampaign/Private/MWCampaignSaveSubsystem.cpp,Forbidden,No save write
+Source/MedievalWarCampaign/Public/MWCampaignSaveGame.h,Forbidden,No persistence schema
+CreateGameInstance,Forbidden,No runtime creation
+RegistryMutation,Forbidden,No Registry mutation
+OpeningStateActivation,Forbidden,No Opening State activation
+ApplyOpeningState,Forbidden,No application
+WriteSave,Forbidden,No save write
+Migration,Forbidden,No migration execution
+Commit,Forbidden,No runtime transaction
+Receipt creation,Forbidden,No transaction receipt

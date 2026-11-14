@@ -1,0 +1,42 @@
+{
+  "artifact_type": "AuthorityManifest",
+  "version": "1.2.0",
+  "source": {
+    "filename": "Brittany_Character_Network_V1_1_Current_Authority_Modernization_FULL_Copy.md",
+    "bytes": 70101,
+    "physical_lines": 2440,
+    "sha256": "34C04A505B6790602AE7FB5D654C537C79B5188C85DBCB4CC23500918BCC0CB0"
+  },
+  "authority": {
+    "filename": "Brittany_Character_Network_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+    "bytes": 78952,
+    "physical_lines": 2607,
+    "sha256": "BAB59743528C3BBF1B69ECA2BC7746BB0B3FB57E6CA4DD92E22CFB9343689483"
+  },
+  "change": {
+    "additive_bytes": 8851,
+    "additive_lines": 167
+  },
+  "checks": {
+    "source_used_directly": true,
+    "integrated_single_authority": true,
+    "source_embedded_as_separate_annex": false,
+    "substantive_content_removed": [],
+    "balanced_fenced_blocks": true,
+    "directed_record_ids_preserved": true,
+    "current_authorities_present": true,
+    "Alan_IV_future_firewall_present": true,
+    "Alan_IV_opening_nodes_created": 0,
+    "Alan_IV_opening_edges_created": 0,
+    "stable_footer_count": 1,
+    "escaped_underscore_artifacts": 0,
+    "em_dash_artifacts": 0,
+    "Registry_rows_created": 0,
+    "Opening_State_mutations": 0,
+    "runtime_mutations": 0,
+    "Unreal_project_mutations": 0,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false
+  }
+}

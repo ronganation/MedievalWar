@@ -1,0 +1,21 @@
+{
+  "document": "England_Kings_Men_Royal_Retinue_and_Miles_Cavalry_Reconciliation_V1.md",
+  "sha256": "3196b9f186a61d67702157801a5b52c87499066fcfcddfeb6ca655198fca9398",
+  "checks": {
+    "substantive_length": true,
+    "sections_consecutive": true,
+    "sections_at_least_45": true,
+    "Miles_dispositions": true,
+    "family_matrix": true,
+    "external_values": true,
+    "legacy_values": true,
+    "no_premature_card": true,
+    "source_recovery": true,
+    "owner_questions": true,
+    "batches": true,
+    "no_escaped_underscores": true,
+    "fences_balanced": true,
+    "footer_final": true,
+    "pass": true
+  }
+}

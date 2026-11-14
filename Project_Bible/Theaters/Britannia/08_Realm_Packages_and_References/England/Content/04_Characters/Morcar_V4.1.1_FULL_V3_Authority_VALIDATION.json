@@ -1,0 +1,31 @@
+{
+  "exact_physical_filename": "Morcar_V4.1.1_FULL_V3_Authority.md",
+  "internal_version": "4.1.1",
+  "source_file": "Morcar_V4.1_Current_Authority_Reconciliation.md",
+  "source_internal_version": "4.1 additive reconciliation",
+  "source_byte_count": 40845,
+  "source_rendered_line_count": 1394,
+  "source_sha256": "eeca8d1506a879b8c5b39fa8fa5b67773f030270bf8e53d2519365b752b3488f",
+  "final_byte_count": 55687,
+  "final_line_count": 1545,
+  "final_sha256": "2afd2a0dcf0e5cf363ea2d945edfc8bb5413e536d3632d0331739c0d1328f3c6",
+  "checks": {
+    "utf8_valid": true,
+    "literal_escaped_underscore_count": 0,
+    "literal_escaped_list_marker_count": 0,
+    "balanced_fences": true,
+    "exact_footer_count": 1,
+    "successor_larger_than_source": true,
+    "all_substantive_source_surfaces_accounted_for": true,
+    "three_track_temporal_model": true,
+    "Unreal_Engine_5_8_present": true,
+    "formula_signs_explicit": true,
+    "yaml_parse_error_count": 0,
+    "Registry_mutation_not_performed": true,
+    "Opening_State_mutation_not_performed": true,
+    "runtime_state_not_created": true,
+    "physical_promotion_not_performed": true
+  },
+  "validation_result": "Passed",
+  "preservation_method": "Full rendered authority rebuilt and expanded under a distinct filename; literal source-byte identity is not claimed."
+}

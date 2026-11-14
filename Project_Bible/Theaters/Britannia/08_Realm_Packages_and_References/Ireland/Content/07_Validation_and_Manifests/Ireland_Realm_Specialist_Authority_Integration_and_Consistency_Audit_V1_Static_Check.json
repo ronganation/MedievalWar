@@ -1,0 +1,25 @@
+{
+  "document": "Ireland_Realm_Specialist_Authority_Integration_and_Consistency_Audit_V1.md",
+  "passed": true,
+  "checks": {
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "audit_scope": true,
+    "opening_boundary": true,
+    "ownership_matrix": true,
+    "dublin": true,
+    "clonmacnoise": true,
+    "gofraid": true,
+    "deferred_domains": true,
+    "advanced_save": true,
+    "honest_validation": true,
+    "no_registry_mutation": true,
+    "removal_ledger_zero": true,
+    "no_em_dash": true,
+    "balanced_fences": true,
+    "stable_footer": true
+  },
+  "validation_scope": "read-only static authority-contract integration audit; no complete physical repository scan, Registry or owner receipt completion, Opening State activation, migration execution, importer, Unreal, runtime, save/load, replay, performance, battle, cartographic, localization, accessibility, or real-payload validation"
+}

@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "content_version": "1.0.0",
+      "dependency_ids": [],
+      "display_name": "Brittany",
+      "disposition": "Candidate",
+      "opening_compatibility": "ReviewOnly",
+      "owner_authority": "Brittany_Opening_State_1062_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "owning_theater": "West Francia",
+      "provenance_refs": [],
+      "quarantine_ids": [],
+      "realm_scope": "realm.brittany",
+      "reason_trace": [],
+      "record_kind": "RealmDefinition",
+      "review_ids": [],
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "schema_version": "1.0.0",
+      "source_authorities": [
+        "Brittany_Opening_State_1062_V1_2_Current_Authority_Integration_Refinement_FULL.md"
+      ],
+      "stable_id": "realm.brittany",
+      "temporal_model": {
+        "biological_months": 7,
+        "campaign_season_steps": 1,
+        "historical_months": 21,
+        "season_order": [
+          "Winter",
+          "Spring",
+          "Summer",
+          "Autumn"
+        ]
+      },
+      "validation_state": "UnvalidatedCandidate"
+    }
+  ]
+}

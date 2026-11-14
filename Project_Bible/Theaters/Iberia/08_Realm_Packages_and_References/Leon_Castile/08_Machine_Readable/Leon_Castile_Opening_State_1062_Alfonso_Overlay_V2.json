@@ -1,0 +1,23 @@
+{
+  "$schema": "Leon_Castile_Opening_State_Package_Schema_V2.json",
+  "PackageKind": "CampaignCreationOverlay",
+  "OverlayId": "overlay.leon_castile.alfonso.v2",
+  "OverlayVersion": "2.0.0",
+  "ContentPackageId": "package.leon_castile.opening_state.1062.v2",
+  "ContentPackageVersion": "2.0.0",
+  "ContentPayloadFile": "Leon_Castile_Opening_State_1062_V2.json",
+  "ContentPayloadSha256": "9fa0885f4a84eadfadfdc297a0870e680c4f14a01b653b67d9b67a6a7abfd80f",
+  "SelectedPerspectiveRef": "perspective.leon_castile.alfonso",
+  "SelectedPersonRef": "person.alfonso.ferdinand_sancha_son",
+  "SelectedBrotherRouteRef": "brother_route.leon_castile.alfonso",
+  "SelectedOpportunityWeightProfileRef": "opportunity_weight.leon_castile.alfonso",
+  "SelectedExplainabilityProfileRef": "explainability.leon_castile.alfonso",
+  "SelectedTutorialProfileRef": "tutorial.leon_castile.alfonso",
+  "SelectedInformationViewRef": "information_view.leon_castile.alfonso",
+  "SelectionOnly": true,
+  "MayMutateContent": false,
+  "MayChangeSovereign": false,
+  "MayChangeTitles": false,
+  "MayCreateRecords": false,
+  "MayCreateAuthority": false
+}

@@ -1,0 +1,25 @@
+DocumentControl:
+  SchemaId: mw.candidate.document.v1
+  SchemaVersion: 1.0.0
+  PackageId: package.france.current-candidate.v1
+  RealmIdCandidate: realm.france
+  ScenarioId: mw.scenario.grand_campaign.1062
+  CandidateOnly: true
+  RegistryPromotion: false
+  OpeningStateActivation: false
+  UnrealImport: false
+  RuntimeEligible: false
+Records:
+- TrackId: Historical
+  ProgressionPerStrategicTurnMonths: 21
+- TrackId: Biological
+  ProgressionPerStrategicTurnMonths: 7
+- TrackId: CampaignSeason
+  ProgressionPerStrategicTurnSteps: 1
+  Order:
+  - Winter
+  - Spring
+  - Summer
+  - Autumn
+ReviewQueue: []
+Quarantine: []

@@ -1,0 +1,11 @@
+Run from the organized Wales Content folder:
+
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Generate_Wales_Realm_Package_Manifest_V2.1_Post_Organization.ps1"
+
+The generator creates:
+
+07_Validation_and_Manifests\Wales_Realm_Package_Manifest_V2.1_Post_Organization.json
+07_Validation_and_Manifests\Wales_Realm_Package_Manifest_V2.1_Post_Organization_Static_Check.json
+00_Package_Control\Wales_Realm_Package_Post_Organization_File_Inventory_V2.1.csv
+
+The scan is recursive, records final relative paths, exact bytes, physical line counts for text files, SHA256 for every file, duplicate filename groups, unclassified files, top-level files, directory inventory, and the retained freeze blockers.

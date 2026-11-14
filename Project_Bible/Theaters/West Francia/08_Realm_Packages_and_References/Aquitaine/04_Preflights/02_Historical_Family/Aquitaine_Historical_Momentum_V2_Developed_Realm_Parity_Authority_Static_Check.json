@@ -1,0 +1,38 @@
+{
+  "FileName": "Aquitaine_Historical_Momentum_V2_Developed_Realm_Parity_Authority_Static_Check.json",
+  "TargetFile": "Aquitaine_Historical_Momentum_V2_Developed_Realm_Parity_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "source_literal_body_present": true,
+    "successor_larger_than_source": true,
+    "eight_primary_ids_present": true,
+    "current_chain_present": true,
+    "three_track_time_present": true,
+    "cross_faction_benchmark_explicit": true,
+    "war_permission_gate_rejected": true,
+    "Bernard_rebellion_not_scripted": true,
+    "Barbastro_optional": true,
+    "opening_instances_zero": true,
+    "positive_fixtures_present": true,
+    "negative_fixtures_present": true,
+    "stable_footer_once": true,
+    "final_marker_correct": true,
+    "markdown_fences_balanced": true,
+    "substantive_content_removed_empty": true
+  },
+  "TargetSHA256": "9b9e2b0dffd98962b4d00368173ab3c562a6c94fd4455c8e9a8f2eda1845ec4c",
+  "TargetBytes": 75220,
+  "TargetLines": 1907,
+  "CompileValidated": false,
+  "RuntimeValidated": false,
+  "ImporterValidated": false,
+  "MutationStatus": {
+    "Registry": 0,
+    "OpeningState": 0,
+    "MomentumActivation": 0,
+    "MigrationExecution": 0,
+    "Unreal": 0,
+    "Runtime": 0,
+    "RealPayloadImport": 0
+  }
+}

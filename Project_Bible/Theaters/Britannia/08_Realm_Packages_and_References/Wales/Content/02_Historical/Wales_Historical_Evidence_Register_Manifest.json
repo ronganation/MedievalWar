@@ -1,0 +1,32 @@
+{
+  "document_id": "manifest.wales.historical-evidence-register.v1",
+  "version": "1.0.0",
+  "file": {
+    "filename": "Wales_Historical_Evidence_Register.md",
+    "bytes": 25685,
+    "physical_lines": 893,
+    "sha256": "d5a474f95d2e41aa5dab43f29b41672218fade15185e07d5b90d8c1b398b1448"
+  },
+  "content": {
+    "evidence_records": 30,
+    "contradiction_records": 7,
+    "source_records": 9,
+    "validation_cases": 20,
+    "opening_records_created": 0
+  },
+  "sources": {
+    "internal_project_authorities": 5,
+    "current_package_authority_groups": 2,
+    "external_reference_articles": 2
+  },
+  "authorizations": {
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Wales_Historical_Evidence_Register_Static_Check.json",
+    "passed": true
+  }
+}

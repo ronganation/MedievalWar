@@ -1,0 +1,21 @@
+{
+  "artifact": "Scotland_Highland_Warband_V1_3_Double_Checked_High_Era_Integrated_Master_Unit_Profile.md",
+  "sha256": "db1a2557988c100aa5d6ca5c218386b01e71f21805d825f4d6dd7576eef79cc6",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "yaml_valid": true,
+    "copy_first": true,
+    "scotland_owner": true,
+    "high_era": true,
+    "battle_core_preserved": true,
+    "stale_era_fixture_removed": true,
+    "stale_priority_removed": true,
+    "campaign_identity_fixture": true,
+    "monoculture_fixture": true,
+    "brainstorm_boundary_fixture": true,
+    "honest_source_limit": true,
+    "no_activation": true,
+    "single_footer": true
+  }
+}

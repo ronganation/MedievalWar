@@ -1,0 +1,16 @@
+{
+  "artifact": "Burgundy_Governance_and_Delegated_Authority_V1.md",
+  "bytes": 45411,
+  "lines": 857,
+  "sha256": "11b9bac0c2a84f9152189d48caca76a57ffe7a67de44c789a403bacb2ab31d21",
+  "checks": {
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "balanced_fences": true,
+    "three_tracks": true,
+    "ue58": true,
+    "footer_once": true,
+    "end_marker": true
+  },
+  "result": "Pass"
+}

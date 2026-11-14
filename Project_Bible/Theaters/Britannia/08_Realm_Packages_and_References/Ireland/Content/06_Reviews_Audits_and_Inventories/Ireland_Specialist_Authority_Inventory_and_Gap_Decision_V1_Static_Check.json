@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "file": "Ireland_Specialist_Authority_Inventory_and_Gap_Decision_V1.md",
+  "checks": {
+    "all_15_domains_present": true,
+    "coverage_classes_present": true,
+    "authority_controls": true,
+    "three_track": true,
+    "honest_absence_boundary": true,
+    "no_source_mutation": true,
+    "no_specialist_authority_created": true,
+    "honest_validation": true,
+    "government_first": true,
+    "no_escaped_underscores": true,
+    "all_pass": true
+  }
+}

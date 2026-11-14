@@ -1,0 +1,30 @@
+{
+  "TaskId": "SCOT-IMP-03C2-PLAN",
+  "Status": "ReadyForBoundedOwnerReview",
+  "Date": "2026-09-22",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "EntranceGate": "SCOT-IMP-03C1-CLOSEOUT",
+  "ProposedFilesAdded": 14,
+  "ProposedFilesModified": 0,
+  "ProposedNewTests": 16,
+  "RequiredRegressionCounts": [
+    12,
+    13,
+    5,
+    10
+  ],
+  "PlanSHA256": "445EC6FA22EC91D29870C2C5A166FEF210AF563C58FB7111E761D9D4CD67FD9B",
+  "PlanBytes": 10255,
+  "PlanLines": 378,
+  "RuntimeConnection": false,
+  "OwnerInvocation": false,
+  "CommitAuthority": false,
+  "RollbackExecution": false,
+  "ReceiptAuthority": false,
+  "SaveWrite": false,
+  "SaveLoad": false,
+  "MigrationExecution": false,
+  "RealApplication": false,
+  "ProductionAuthority": false,
+  "NextGate": "SCOT-IMP-03C2-EXEC"
+}

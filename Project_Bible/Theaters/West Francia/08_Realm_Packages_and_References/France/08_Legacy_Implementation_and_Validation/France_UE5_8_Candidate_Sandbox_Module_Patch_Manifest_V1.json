@@ -1,0 +1,22 @@
+{
+  "DocumentId": "France.UE5.8.CandidateSandboxModulePatchManifest.V1",
+  "Archive": "France_UE5_8_Candidate_Sandbox_Module_Patch_V1.zip",
+  "ArchiveBytes": 6986,
+  "ArchiveSHA256": "96a564d80733a277a9c2530adbc0c0242d5f469c1e07e0b3a7988b0fb127998c",
+  "ArchiveEntries": 13,
+  "LongestInternalPathCharacters": 76,
+  "ZIPCRCError": null,
+  "SourcePatchAppliedToUnreal": false,
+  "CompileValidated": false,
+  "EditorValidated": false,
+  "RuntimeValidated": false,
+  "MutationStatus": {
+    "UnrealProjectFilesModified": 0,
+    "RegistryMutations": 0,
+    "AliasExecutions": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

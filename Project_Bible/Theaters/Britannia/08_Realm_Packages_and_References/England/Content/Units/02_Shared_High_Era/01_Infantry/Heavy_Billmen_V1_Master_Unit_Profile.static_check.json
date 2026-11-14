@@ -1,0 +1,22 @@
+{
+  "document": "Heavy_Billmen_V1_Master_Unit_Profile.md",
+  "sha256": "1b13637d1ef9c023e935c7ff4991996579917804e158b2b594e2499eef04fa78",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "terrain_25": true,
+    "copy_first": true,
+    "separate_basis": true,
+    "billmen_compare": true,
+    "men_at_arms_boundary": true,
+    "royal_boundary": true,
+    "reserve": true,
+    "pressure": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "manifest_id": "manifest.valencia.machine_readable_contract.v1_1.source_chain_reconciliation",
+  "authority_file": "Valencia_Taifa_Machine_Readable_Opening_State_Package_Contract_V1_1_Current_Source_Chain_Reconciliation.md",
+  "authority_version": "1.1.0",
+  "sha256": "43861d3ba19beb0736487d057d741ba4110e189c973afbb93290070f3ccb7c2c",
+  "byte_count": 32335,
+  "line_count": 820,
+  "immediate_substantive_source": "Valencia_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md",
+  "source_opened_in_full": true,
+  "source_lines_reviewed": 1004,
+  "source_transport_hash_available": false,
+  "current_opening_state": "Valencia_Opening_State_1062_V3_4_A2_A3_A4_A5_Compatibility_Current_Authority.md",
+  "current_opening_state_creation_sha256": "2256f222d3a23849ddc3835ba9893fba93e418223745ef152549c49cfab71204",
+  "current_family_prefix": "Valencia_Opening_State_1062_V3_4_Machine_Readable_Package_V1",
+  "current_definition_manifest_prefix": "Valencia_Taifa_Faction_Definition_Manifest_1062_V3_4_Package_V1",
+  "historical_v3_3_family_overwritten": false,
+  "registry_mutations": 0,
+  "runtime_mutations": 0,
+  "unreal_project_mutations": 0
+}

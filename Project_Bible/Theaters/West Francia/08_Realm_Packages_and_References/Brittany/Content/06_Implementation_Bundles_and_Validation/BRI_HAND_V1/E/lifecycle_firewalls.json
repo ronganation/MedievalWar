@@ -1,0 +1,15 @@
+{
+  "person.alan_iii_brittany": {
+    "disposition": "HistoricalOnlyNoLivingOpeningInstance",
+    "opening_living_instance": false
+  },
+  "person.alan_iv_brittany": {
+    "disposition": "FuturePersonCandidateNotYetBorn",
+    "first_turn_autofire": false,
+    "historical_date_autofire": false,
+    "opening_character_instance": false,
+    "opening_claim_title_or_successor": false,
+    "opening_network_node": false,
+    "post_birth_transaction": "AtomicAllOrRollback"
+  }
+}

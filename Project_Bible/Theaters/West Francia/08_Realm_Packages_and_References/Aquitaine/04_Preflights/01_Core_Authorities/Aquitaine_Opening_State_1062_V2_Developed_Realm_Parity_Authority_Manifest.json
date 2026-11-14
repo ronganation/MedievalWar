@@ -1,0 +1,43 @@
+{
+  "manifest_id": "Aquitaine.OpeningState.1062.V2.DevelopedRealmParity.Manifest",
+  "manifest_version": "1.0.0",
+  "authority_file": "Aquitaine_Opening_State_1062_V2_Developed_Realm_Parity_Authority.md",
+  "sha256": "e9ecd21c9c4344ca139186a82017c5f2915eea86f92a1f4182e483868e89d84e",
+  "byte_count": 89826,
+  "line_count": 2693,
+  "source_file": "Aquitaine_Opening_State_1062_V1_1.md",
+  "source_sha256": "44b2311876ac7b213d1aebf0d55386e9967dd1174de099cc1992d210bc26faf8",
+  "source_byte_count": 47998,
+  "source_line_count": 1692,
+  "source_treatment": "CompleteSubstantiveSourceCopyFirstNormalizedThenIntegratedV2Expansion",
+  "normalizations": [
+    "removed transport escaped underscores",
+    "removed transport escaped list markers",
+    "removed transport escaped brackets",
+    "repaired visible Angouleme mojibake",
+    "removed old terminal marker"
+  ],
+  "removed_substantive_content": [],
+  "benchmark_authorities": [
+    "France_Opening_State_1062_V3_1_Current_Authority_Refinement_FULL.md",
+    "Normandy_Opening_State_1062_V3_Current_Authority_Modernization_FULL.md",
+    "England_Opening_State_V2.2_Current_Authority_Refinement.md",
+    "Ireland_Opening_State_V2.1_Current_Authority_Refinement.md",
+    "Wales_Opening_State_V2_Current_Authority_Refinement.md",
+    "Scotland_Opening_State_V2_Current_Authority_Rebuild.md",
+    "Sweden_Opening_State_Assembly_and_Binding_Plan_V1_1_Current_Authority_Refinement_FULL.md"
+  ],
+  "status": "StaticCheckedDevelopedRealmParityAuthorityPendingOwnerBindingAndPromotion",
+  "static_check_file": "Aquitaine_Opening_State_1062_V2_Developed_Realm_Parity_Authority_Static_Check.json",
+  "static_check_status": "PASS",
+  "mutations": {
+    "source_object_mutated": false,
+    "opening_state_activation": false,
+    "registry_mutation": false,
+    "migration_execution": false,
+    "Unreal_mutation": false,
+    "runtime_mutation": false,
+    "real_payload_import": false
+  },
+  "generated_at": "2026-09-04"
+}

@@ -1,0 +1,33 @@
+{
+  "BASE": {
+    "living": 24,
+    "dead": 2,
+    "exited": 2,
+    "active": 2,
+    "materialized": 4,
+    "career_ready": 24,
+    "developing": 4,
+    "replay_hash": "0dac38157760af1d814e6ddf30ac7391ca7de76979bcb2d3067271addcc065fc"
+  },
+  "A": {
+    "living": 24,
+    "dead": 2,
+    "exited": 2,
+    "active": 2,
+    "materialized": 4,
+    "career_ready": 24,
+    "developing": 4,
+    "replay_hash": "15885cfe53abf6603604246d35e75eb406c43336744cfac6b9e0771854632c80"
+  },
+  "B": {
+    "living": 24,
+    "dead": 2,
+    "exited": 2,
+    "active": 2,
+    "materialized": 4,
+    "career_ready": 24,
+    "developing": 4,
+    "replay_hash": "97fe6e4917e16125c7d53bfc3e644078eaa845936104939ffa222c3517f5ab3e"
+  },
+  "rollback": true
+}

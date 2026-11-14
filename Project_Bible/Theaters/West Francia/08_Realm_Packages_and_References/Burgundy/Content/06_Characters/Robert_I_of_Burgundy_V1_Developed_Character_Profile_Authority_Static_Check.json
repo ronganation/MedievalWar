@@ -1,0 +1,138 @@
+{
+  "StaticCheckId": "static-check.character-profile.burgundy.robert-i.v1",
+  "Artifact": "Robert_I_of_Burgundy_V1_Developed_Character_Profile_Authority.md",
+  "ArtifactSHA256": "03767dc5e6d28bf1d537fad6034a682dc579ce58b5756dac51c5640d7f6a5bdf",
+  "TotalChecks": 23,
+  "Passes": 23,
+  "Failures": 0,
+  "Result": "Pass",
+  "Checks": [
+    {
+      "CheckId": "SC-001",
+      "Passed": true,
+      "Detail": "Correct title"
+    },
+    {
+      "CheckId": "SC-002",
+      "Passed": true,
+      "Detail": "One consolidated opening boundary"
+    },
+    {
+      "CheckId": "SC-003",
+      "Passed": true,
+      "Detail": "Contains 21 months"
+    },
+    {
+      "CheckId": "SC-004",
+      "Passed": true,
+      "Detail": "Contains 7 months"
+    },
+    {
+      "CheckId": "SC-005",
+      "Passed": true,
+      "Detail": "Contains Winter"
+    },
+    {
+      "CheckId": "SC-006",
+      "Passed": true,
+      "Detail": "Contains Spring"
+    },
+    {
+      "CheckId": "SC-007",
+      "Passed": true,
+      "Detail": "Contains Summer"
+    },
+    {
+      "CheckId": "SC-008",
+      "Passed": true,
+      "Detail": "Contains Autumn"
+    },
+    {
+      "CheckId": "SC-009",
+      "Passed": true,
+      "Detail": "Contains Burgundy_Character_Authorities_V1_Developed_Realm_Parity_Authority.md"
+    },
+    {
+      "CheckId": "SC-010",
+      "Passed": true,
+      "Detail": "Contains Historical Uncertainty"
+    },
+    {
+      "CheckId": "SC-011",
+      "Passed": true,
+      "Detail": "Contains Demonstrated Pre-Opening Formation"
+    },
+    {
+      "CheckId": "SC-012",
+      "Passed": true,
+      "Detail": "Contains Function-Specific Readiness"
+    },
+    {
+      "CheckId": "SC-013",
+      "Passed": true,
+      "Detail": "Contains Person-Specific AI Intent"
+    },
+    {
+      "CheckId": "SC-014",
+      "Passed": true,
+      "Detail": "Contains Player-Facing Strategic Meaning"
+    },
+    {
+      "CheckId": "SC-015",
+      "Passed": true,
+      "Detail": "Contains Duchy and County of Burgundy"
+    },
+    {
+      "CheckId": "SC-016",
+      "Passed": true,
+      "Detail": "Contains finite recruitment"
+    },
+    {
+      "CheckId": "SC-017",
+      "Passed": true,
+      "Detail": "Contains Stable Footer"
+    },
+    {
+      "CheckId": "SC-017",
+      "Passed": true,
+      "Detail": "Balanced code fences"
+    },
+    {
+      "CheckId": "SC-018",
+      "Passed": true,
+      "Detail": "No escaped underscore artifacts"
+    },
+    {
+      "CheckId": "SC-019",
+      "Passed": true,
+      "Detail": "No em dash or en dash"
+    },
+    {
+      "CheckId": "SC-020",
+      "Passed": true,
+      "Detail": "Stable footer once"
+    },
+    {
+      "CheckId": "SC-021",
+      "Passed": true,
+      "Detail": "Final end marker correct"
+    },
+    {
+      "CheckId": "SC-022",
+      "Passed": true,
+      "Detail": "Substantial realm-anchor profile without size as quality proof"
+    }
+  ],
+  "ValidationBoundary": {
+    "StaticDocumentValidationOnly": true,
+    "RegistryValidated": false,
+    "OpeningStateBound": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false,
+    "BattleValidated": false
+  }
+}

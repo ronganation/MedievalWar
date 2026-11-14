@@ -1,0 +1,31 @@
+{
+  "document_id": "static-check.scotland.ai.v2",
+  "version": "2.0.0",
+  "output_file": "Scotland_AI_V2_Current_Authority_Rebuild.md",
+  "output_bytes": 43206,
+  "output_physical_lines": 1112,
+  "output_sha256": "8850f62846e2d39f43394bd0d08d917188fe39cb285bfa752f9db5a009922bf9",
+  "checks": {
+    "created": true,
+    "substantive_source_preservation_layer": true,
+    "source_defects_superseded": true,
+    "seven_person_interface": true,
+    "gille_quarantine": true,
+    "underage_gate": true,
+    "fothad_separation": true,
+    "strategy_modes": true,
+    "hard_gates": true,
+    "alternatives": true,
+    "opening_intentional_empty": true,
+    "temporal": true,
+    "save_contract": true,
+    "honest_status": true,
+    "authorizations_false": true,
+    "stable_footer_once": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "balanced_fences": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

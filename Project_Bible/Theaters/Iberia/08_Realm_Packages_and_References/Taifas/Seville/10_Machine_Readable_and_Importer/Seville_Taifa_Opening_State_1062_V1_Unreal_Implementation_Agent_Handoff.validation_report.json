@@ -1,0 +1,70 @@
+{
+  "ReportId": "report.seville_taifa.opening_state_1062.unreal_implementation_handoff.v1",
+  "InternalVersion": "1.0.0",
+  "Status": "REPORT_SHELL_CREATED_EXECUTION_NOT_RUN",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.md",
+    "InternalVersion": "1.0.0",
+    "Bytes": 16122,
+    "SHA256": "efd4460c2b5a2e75ed09bc1cc1c241d8039dfb76296955af27cc9fcee28480bb",
+    "HashDisposition": "REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "CompanionReceipts": [
+    {
+      "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.validation.json",
+      "Bytes": 5164,
+      "SHA256": "87679461aa40d661a18d81934efd52ca36bf28abef4a360d94d2ff0b2ba31feb"
+    },
+    {
+      "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.fixtures.json",
+      "Bytes": 4245,
+      "SHA256": "7e2f65f544d1d3d55a4f6fd38a5a5353d2cb34c97c1e540cd87b5183b3d5f1d3"
+    }
+  ],
+  "CurrentResults": {
+    "Batch0ArchitectureInspection": "NOT_RUN",
+    "Batch1ArchitectureMapping": "NOT_RUN",
+    "Batch2TypeMapping": "NOT_RUN",
+    "Batch3ValidateOnlyImporter": "NOT_RUN",
+    "Batch4ApplyOnceTransaction": "NOT_RUN",
+    "Batch5CompilePersistenceMigrationReplay": "NOT_RUN",
+    "Batch6PromotionReview": "NOT_RUN",
+    "HandoffFixtures": "NOT_RUN_0_OF_14",
+    "FatalIssues": 0,
+    "Warnings": [
+      "Unreal project architecture has not been inspected"
+    ],
+    "SourceFilesModified": 0,
+    "GeneratedFilesCreatedInUnrealProject": 0,
+    "CompileRuns": 0,
+    "RuntimeRuns": 0
+  },
+  "RequiredBatch0ResultFields": {
+    "UnrealProjectPathVerified": null,
+    "ProjectRevisionOrCommit": null,
+    "ControllingREADMERefs": [],
+    "ModulesAndPluginsInspected": [],
+    "ExistingInterfacesVerified": [],
+    "MissingCapabilities": [],
+    "UnownedGaps": [],
+    "DispositionLedger": [],
+    "EvidenceRefs": [],
+    "NoMutationReceiptRef": null,
+    "SmallestSafeImplementationBatch": null
+  },
+  "PromotionBoundary": {
+    "Batch0Authorized": true,
+    "Batch1Authorized": false,
+    "UnrealMutationAuthorized": false,
+    "ProductionPromotionAuthorized": false
+  },
+  "FinalDisposition": "READY_FOR_BATCH0_READ_ONLY_INSPECTION"
+}

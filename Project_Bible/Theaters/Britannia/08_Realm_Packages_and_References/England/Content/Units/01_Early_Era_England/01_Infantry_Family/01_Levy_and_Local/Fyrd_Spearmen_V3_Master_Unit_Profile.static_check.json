@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "document_sha256": "6f9ff314aa15f9724fad705629a259d0c7e2aa388800e81b4fe7b5480648cc32",
+  "raw_line_count": 1131,
+  "terrain_rows": 25,
+  "checks": {
+    "hash_matches_manifest": true,
+    "version_3_0_1": true,
+    "terrain_rows_25": true,
+    "escaped_underscores_absent": true,
+    "escaped_list_hyphens_absent": true,
+    "throwing_spear_candidate": true,
+    "shieldwall_no_by_default": true,
+    "cavalry_and_dismounting_split": true,
+    "mercenary_guild_order_split": true,
+    "combined_old_feature_keys_absent": true,
+    "current_profile_first": true,
+    "service_cycle": true,
+    "events_and_objectives": true,
+    "feature_register": true,
+    "three_track_model": true,
+    "no_runtime_promotion": true,
+    "no_mutations": true
+  }
+}

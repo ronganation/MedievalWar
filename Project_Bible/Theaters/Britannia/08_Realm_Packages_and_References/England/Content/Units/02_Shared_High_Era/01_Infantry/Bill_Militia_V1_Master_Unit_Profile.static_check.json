@@ -1,0 +1,22 @@
+{
+  "document": "Bill_Militia_V1_Master_Unit_Profile.md",
+  "sha256": "e93c0fc89f42b6603d740c47e881351655e276c191e603492b2aadc51f195119",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "terrain_25": true,
+    "source_honest": true,
+    "no_fabricated_legacy": true,
+    "distinct_billmen": true,
+    "full_recruitment": true,
+    "full_battle": true,
+    "full_ai": true,
+    "fallback": true,
+    "no_escaped_underscore": true,
+    "no_em_dash": true,
+    "yaml_fenced": true,
+    "nonmutation": true,
+    "stable_footer": true
+  }
+}

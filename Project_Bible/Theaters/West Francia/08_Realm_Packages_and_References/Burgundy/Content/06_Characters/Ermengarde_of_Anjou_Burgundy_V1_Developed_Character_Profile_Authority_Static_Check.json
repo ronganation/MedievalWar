@@ -1,0 +1,30 @@
+{
+  "Artifact": {
+    "Filename": "Ermengarde_of_Anjou_Burgundy_V1_Developed_Character_Profile_Authority.md",
+    "Bytes": 44409,
+    "Lines": 968,
+    "SHA256": "cd2d47413c2d464a829d630193d3d5a58999280f4fad6a344e54593ec9d604b7"
+  },
+  "Checks": {
+    "character_verdict": true,
+    "independent_personhood": true,
+    "three_tracks": true,
+    "evidence": true,
+    "household": true,
+    "property": true,
+    "maternal": true,
+    "widowhood": true,
+    "development": true,
+    "ai": true,
+    "save": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true,
+    "balanced_fences": true,
+    "footer_once": true,
+    "end_marker": true
+  },
+  "Passes": 16,
+  "Failures": 0,
+  "Result": "Pass",
+  "ValidationScope": "Static document checks only"
+}

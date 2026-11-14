@@ -1,0 +1,40 @@
+{
+  "properties": {
+    "active_civil_wars": {
+      "maxItems": 0
+    },
+    "active_rebellions": {
+      "maxItems": 0
+    },
+    "active_sieges": {
+      "maxItems": 0
+    },
+    "active_wars": {
+      "maxItems": 0
+    },
+    "applied": {
+      "const": false
+    },
+    "campaign_season": {
+      "const": "Winter"
+    },
+    "historical_date": {
+      "const": "1062-01-01"
+    },
+    "scenario_id": {
+      "const": "Scenario.Brittany.1062January"
+    }
+  },
+  "required": [
+    "scenario_id",
+    "historical_date",
+    "campaign_season",
+    "active_wars",
+    "active_civil_wars",
+    "active_rebellions",
+    "active_sieges",
+    "applied"
+  ],
+  "title": "Brittany Opening Candidate",
+  "type": "object"
+}

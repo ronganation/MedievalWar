@@ -1,0 +1,18 @@
+{
+  "document": "Royal_Axemen_V1_Master_Unit_Profile.md",
+  "sha256": "3f1c8c35c1c3dfc2b517bd6c348e499ab577eb85de9f75f7ea670e664c41fe29",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "size_strong": true,
+    "terrain_25": true,
+    "parent_reviewed": true,
+    "parent_persists": true,
+    "S03": true,
+    "royal_axemen_depth": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

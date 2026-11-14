@@ -1,0 +1,128 @@
+{
+  "check_type": "StableChecklistReconciliationStaticValidation",
+  "check_date": "2026-10-22",
+  "checklist_file": "Design_Expansion_Checklist_V3.7.md",
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "id": 1,
+      "requirement": "Confirm the filename remains Design_Expansion_Checklist_V3.7.md.",
+      "status": "PASS",
+      "evidence": "Stable filename retained; the in-place file is Design_Expansion_Checklist_V3.7.md."
+    },
+    {
+      "id": 2,
+      "requirement": "Confirm the document ID remains mw.design-expansion-checklist.3.7.",
+      "status": "PASS",
+      "evidence": "Document control retains document_id: mw.design-expansion-checklist.3.7."
+    },
+    {
+      "id": 3,
+      "requirement": "Confirm version remains 3.7.",
+      "status": "PASS",
+      "evidence": "Document control retains version: 3.7; reconciliation date did not create a new authority version."
+    },
+    {
+      "id": 4,
+      "requirement": "Confirm Project Bible 2.4 remains named as constitutional authority.",
+      "status": "PASS",
+      "evidence": "Document control retains constitutional_authority: Project Bible 2.4."
+    },
+    {
+      "id": 5,
+      "requirement": "Confirm Project_Bible_2.4.md is unchanged by SHA-256.",
+      "status": "PASS",
+      "evidence": "Current Bible and verified pre-edit Bible backup both hash to 6A69C9E13FFD60B72D93F0DA130505CBFB580D48F2549A81D30D824EBC5A8D04."
+    },
+    {
+      "id": 6,
+      "requirement": "Confirm the three-track temporal contract: Historical 21 months per turn; Biological 7 months per turn; Campaign Season one ordered Winter, Spring, Summer, Autumn step per turn.",
+      "status": "PASS",
+      "evidence": "Document control and Section 3.1 retain the three independent tracks and exact seasonal order; Sections 3.1-3.4 match the pre-edit backup."
+    },
+    {
+      "id": 7,
+      "requirement": "Confirm no escaped underscores were introduced.",
+      "status": "PASS",
+      "evidence": "Static scan found 0 escaped underscore sequences in the Checklist."
+    },
+    {
+      "id": 8,
+      "requirement": "Confirm Markdown fences are balanced.",
+      "status": "PASS",
+      "evidence": "The Checklist contains 32 triple-backtick fence markers, an even count."
+    },
+    {
+      "id": 9,
+      "requirement": "Confirm every structured record is valid YAML or clearly presented prose.",
+      "status": "PASS",
+      "evidence": "All 15 YAML-fenced records in the Checklist parsed with PyYAML without errors. The three reconciliation CSVs parsed with their required headers and 113, 72, and 17 data rows."
+    },
+    {
+      "id": 10,
+      "requirement": "Confirm no unsupported Active or RuntimeValidated claims were added.",
+      "status": "PASS",
+      "evidence": "New claims are tied to dated source evidence and bounded scopes. The August 26 active-project baseline remains labeled historical; OS-VIS completion is read-only/candidate-only; source handoffs and static work are not promoted to blanket runtime status."
+    },
+    {
+      "id": 11,
+      "requirement": "Confirm separate test parents are not combined and no synthetic totals are presented.",
+      "status": "PASS",
+      "evidence": "Section 1.2 and Section 8 retain separate named parent rows. Norway 153/0 and 163/0, Denmark 14/0 and 91/0, Sweden 82/0, and the Drengot build, focused tests, preservation filters, and preservation tests are separately recorded. No cross-parent sum is claimed."
+    },
+    {
+      "id": 12,
+      "requirement": "Confirm no real Realm payload application is claimed.",
+      "status": "PASS",
+      "evidence": "Section 1.4 records real_realm_payload_application_performed: false; all candidate-only boundaries remain explicit."
+    },
+    {
+      "id": 13,
+      "requirement": "Confirm no Registry mutation is claimed.",
+      "status": "PASS",
+      "evidence": "The reconciliation Change Log records registry_mutations: 0; production Registry mutation remains false/deferred."
+    },
+    {
+      "id": 14,
+      "requirement": "Confirm no Opening State mutation is claimed.",
+      "status": "PASS",
+      "evidence": "The reconciliation Change Log records opening_state_mutations: 0; no Opening State was applied."
+    },
+    {
+      "id": 15,
+      "requirement": "Confirm no importer execution is claimed without evidence.",
+      "status": "PASS",
+      "evidence": "The reconciliation records importer_executions: 0. The Norway Loader.Contract test is labeled a loader contract test, not production importer execution."
+    },
+    {
+      "id": 16,
+      "requirement": "Confirm no save, migration, replay, or Unreal mutation is claimed without evidence.",
+      "status": "PASS",
+      "evidence": "Reconciliation mutation/execution counts for save, migration, and Unreal are zero. Real-save migration, production replay, and production application remain explicitly unvalidated or unauthorized."
+    },
+    {
+      "id": 17,
+      "requirement": "Compare the source backup and successor section by section.",
+      "status": "PASS",
+      "evidence": "The exact pre-edit backup was compared to the successor. Top-level Sections 0-12 remain; Section 0 and Sections 3.1-3.4 are preserved; Section 3.5 and other edited sections are dispositioned in Section 9.8."
+    },
+    {
+      "id": 18,
+      "requirement": "Produce a justified removal and supersession ledger.",
+      "status": "PASS",
+      "evidence": "Section 9.4 preserves the historical 2026-08-26 removal/consolidation ledger; Section 9.8 records current section-by-section changes and their dispositions."
+    },
+    {
+      "id": 19,
+      "requirement": "Confirm no substantive source section disappeared without disposition.",
+      "status": "PASS",
+      "evidence": "Section 9.8 maps Sections 0-12 and gives subsection-level dispositions for the collapsed OS-VIS sequence, Theater tasks, Realm categories, historical manifests, and folder-routing proposal. All current physical Realm folders have an operational row, with missing updates marked NotSpecified."
+    },
+    {
+      "id": 20,
+      "requirement": "Confirm exact root organization is accurately represented.",
+      "status": "PASS",
+      "evidence": "Section 9.6 lists the exact current roots: Project_Bible_2.4.md, Design_Expansion_Checklist_V3.7.md, Theaters_and_Realms/, Frameworks/, Shared_and_Cross_Scope/, Legacy_Checklist_Workflow/, Checklist_Repair_Backups/, and Post_08_26 Design_Checklist_Updates Cleanups/."
+    }
+  ]
+}

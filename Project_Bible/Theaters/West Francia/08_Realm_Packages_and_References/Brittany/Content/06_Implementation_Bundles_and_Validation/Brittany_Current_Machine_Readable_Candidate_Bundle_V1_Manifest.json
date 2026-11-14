@@ -1,0 +1,34 @@
+{
+  "document_id": "CandidateBundleSpecification.Realm.Brittany.V1.Manifest",
+  "authority_file": "Brittany_Current_Machine_Readable_Candidate_Bundle_V1.md",
+  "version": "1.0.0",
+  "revision_date": "2026-09-07",
+  "bytes": 29327,
+  "physical_lines": 1038,
+  "sha256": "4BB041201C87582E701DB572ED918ABD98EFD6F47656F6B3AB0D3199F8512E7C",
+  "authority_type": [
+    "MachineReadableCandidateBundleSpecification",
+    "ReviewOnlySerializationAuthority"
+  ],
+  "payload_families_defined": 54,
+  "state_tokens_defined": 11,
+  "principal_person_dispositions_defined": 7,
+  "required_quarantines_preserved": 7,
+  "positive_acceptance_fixtures": 14,
+  "negative_acceptance_fixtures": 15,
+  "actual_payload_files_created": 0,
+  "zip_bundle_created": false,
+  "registry_rows_created": 0,
+  "opening_state_mutations": 0,
+  "runtime_mutations": 0,
+  "unreal_project_mutations": 0,
+  "validation": {
+    "utf8_decode_valid": true,
+    "balanced_fenced_blocks": true,
+    "single_stable_footer": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "importer_validated": false
+  },
+  "next_artifact": "Brittany_Realm_Implementation_Data_Contract_and_Importer_Preparation_V1.md"
+}

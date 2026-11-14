@@ -1,0 +1,22 @@
+{
+  "task_id": "SCOT-IMP-02B2",
+  "status": "ContractPlanCompleteReadyForOwnerGate",
+  "implementation_target": "Unreal Engine 5.8",
+  "plan_sha256": "59D0AF111D10D8A6C0C294369BA6268EE6B3F35BB8C715FEAB03017BCB936762",
+  "plan_bytes": 14305,
+  "plan_lines": 400,
+  "proposed_files_added": 6,
+  "proposed_files_modified": 0,
+  "forbidden_interface_records": 13,
+  "proposed_new_tests": 13,
+  "required_scotland_preview_regressions": 5,
+  "required_wales_preview_regressions": 10,
+  "runtime_connection": false,
+  "registry_mutation": false,
+  "opening_state_activation": false,
+  "save_write": false,
+  "migration_execution": false,
+  "real_payload": false,
+  "production_authority": false,
+  "next_gate": "Owner decision for SCOT-IMP-02C read-only definition and readiness implementation"
+}

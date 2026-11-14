@@ -1,0 +1,27 @@
+{
+  "document_id": "static-check.wales.historical-memory.v1",
+  "version": "1.0.0",
+  "output_file": "Wales_Historical_Memory.md",
+  "bytes": 58695,
+  "physical_lines": 1348,
+  "sha256": "55088541674a4f60edc6d31f0f612f7fd86446c708e84d717233da19b5239002",
+  "checks": {
+    "memory_families_8": true,
+    "candidate_records_24": true,
+    "audience_scopes_12": true,
+    "transmission_channels_10": true,
+    "interpretations_12": true,
+    "evidence_refs": true,
+    "chronology_refs": true,
+    "underage_gate": true,
+    "st_davids_separation": true,
+    "temporal_model": true,
+    "opening_empty": true,
+    "removal_ledger": true,
+    "honest_status": true,
+    "ue58": true,
+    "next_phase": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

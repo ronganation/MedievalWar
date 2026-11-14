@@ -1,0 +1,16 @@
+{
+  "target": "Ireland_AI_Owner_Schema_Evidence_Pass_V1.md",
+  "status": "PASS",
+  "checks": {
+    "q24": true,
+    "p14": true,
+    "summary_counts": true,
+    "requests_14": true,
+    "zero_evidence": true,
+    "blocked": true,
+    "three_tracks": true,
+    "no_mutation": true,
+    "format": true,
+    "all_pass": true
+  }
+}

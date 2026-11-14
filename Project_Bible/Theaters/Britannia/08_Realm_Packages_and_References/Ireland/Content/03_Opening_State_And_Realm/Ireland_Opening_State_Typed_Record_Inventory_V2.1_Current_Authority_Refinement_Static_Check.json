@@ -1,0 +1,23 @@
+{
+  "document": "Ireland_Opening_State_Typed_Record_Inventory_V2.1_Current_Authority_Refinement.md",
+  "passed": true,
+  "checks": {
+    "source_preserved_in_full": true,
+    "successor_larger_than_source": true,
+    "record_classes_18_claim_preserved": true,
+    "records_51_claim_preserved": true,
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track_time": true,
+    "opening_v21_routed": true,
+    "specialist_routing": true,
+    "advanced_save_firewall": true,
+    "registry_mutation_false": true,
+    "runtime_validation_false": true,
+    "importer_validation_false": true,
+    "removal_ledger_zero": true,
+    "stable_footer": true
+  },
+  "validation_scope": "content and static checks only; no compile, runtime, importer, save/load, migration execution, replay, performance, battle, Registry mutation, Opening State activation, Unreal modification, or payload validation"
+}

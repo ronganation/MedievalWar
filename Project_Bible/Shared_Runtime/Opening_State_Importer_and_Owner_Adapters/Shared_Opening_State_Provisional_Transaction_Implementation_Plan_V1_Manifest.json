@@ -1,0 +1,25 @@
+{
+  "document_id": "mw.shared-opening-state.provisional-transaction-implementation-plan-manifest.v1",
+  "filename": "Shared_Opening_State_Provisional_Transaction_Implementation_Plan_V1.md",
+  "sha256": "03E41E9411CCE303B59C2BCF6EEE8769A9466335001A3E1E707B7DED1E062F5F",
+  "bytes": 18444,
+  "lines": 607,
+  "checks": {
+    "ue58": true,
+    "prepare": true,
+    "persist": true,
+    "commit": true,
+    "abort": true,
+    "no_reset": true,
+    "no_active": true,
+    "not_complete": true,
+    "fences_balanced": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "footer": true
+  },
+  "active_source_mutation_performed": false,
+  "clone_source_mutation_performed": false,
+  "opening_state_application_performed": false,
+  "item_4_complete": false
+}

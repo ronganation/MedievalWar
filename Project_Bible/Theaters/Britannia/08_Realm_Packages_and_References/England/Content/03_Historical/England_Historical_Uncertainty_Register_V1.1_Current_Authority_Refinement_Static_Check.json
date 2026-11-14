@@ -1,0 +1,27 @@
+{
+  "document_id": "static-check.england.historical_uncertainty_register.v1_1.current_authority_refinement",
+  "version": "2.0.0",
+  "source_file": "England_Historical_Uncertainty_Register.md",
+  "source_sha256": "2da87a393b4b0679e2804b59a0d990a0c8254b532e0a8220b0226bc4288c3ca9",
+  "source_bytes": 32000,
+  "output_file": "England_Historical_Uncertainty_Register_V1.1_Current_Authority_Refinement.md",
+  "output_bytes": 49276,
+  "checks": {
+    "new_file_created": true,
+    "larger_than_source": true,
+    "full_source_portfolios_present": true,
+    "seventeen_source_uncertainties": true,
+    "seven_new_uncertainty_families": true,
+    "all_four_Aelfgar_states": true,
+    "specialist_integrations": true,
+    "handoffs": true,
+    "supply_not_reowned": true,
+    "governance_inside_law_policy": true,
+    "no_escaped_underscores": true,
+    "no_escaped_hyphens": true,
+    "no_activation": true,
+    "validation_false": true
+  },
+  "passed": true,
+  "failed_checks": []
+}

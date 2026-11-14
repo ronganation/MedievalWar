@@ -1,0 +1,61 @@
+{
+  "document": "Formation_and_Battlefield_Capability_Definition_Standard_V1.md",
+  "version": "1.1.0",
+  "original_created_utc": "2026-09-04T01:42:26.268257+00:00",
+  "revision_date": "2026-10-19",
+  "document_status": "StaticCheckedSharedFormationStandardCandidate",
+  "sha256": "c1a467a05f17915807b7bc9584e0640533145a410c37d2deaffdb2c80390344e",
+  "size_bytes": 40559,
+  "line_count": 1130,
+  "validation": {
+    "validation_type": "StaticDocumentAndYamlStructureValidation",
+    "yaml_blocks": 41,
+    "yaml_blocks_parsed": 41,
+    "yaml_parse_failures": 0,
+    "fence_delimiters": 86,
+    "fences_balanced": true,
+    "escaped_underscores_remaining": 0,
+    "historical_validation_completed": false,
+    "battle_validation_completed": false,
+    "runtime_validation_completed": false
+  },
+  "parent_sources": [
+    {
+      "file": "Military_Content_Roster_Recruitment_and_Development_Authority_V1_2_Current_Framework_Reconciliation.md",
+      "relationship": "ParentSharedMilitaryContentAuthority"
+    },
+    {
+      "file": "Master_Unit_Profile_Foundation_V1.md",
+      "relationship": "CopyFirstCoverageAndCompletenessFoundation"
+    },
+    {
+      "file": "Military_Unit_Master_Profile_Authoring_Implementation_Maturity_and_Game_Card_Handoff_Standard_V1.md",
+      "relationship": "MaturityFieldTimingAndCanonicalHandoffCompanion"
+    },
+    {
+      "file": "Military_Qualitative_Semantic_Vocabulary_Faction_Expression_and_Unit_Specialization_Standard_V1.md",
+      "relationship": "SemanticVocabularyFactionExpressionAndUnitSpecializationCompanion"
+    },
+    {
+      "file": "Fyrd_Spearmen_V3_Master_Unit_Profile.md",
+      "relationship": "HistoricalPilotBenchmarkOnly"
+    }
+  ],
+  "scope_receipts": {
+    "formation_keys_are_noncanonical_semantic_references": true,
+    "england_sequence_is_historical_pilot_provenance": true,
+    "exact_numerical_values_promoted": false,
+    "faction_specific_formation_expression_created": false,
+    "unit_specific_formation_specialization_created": false
+  },
+  "source_files_modified": [],
+  "source_files_deleted": [],
+  "stable_ids_allocated": [],
+  "canonical_unit_definitions_created": [],
+  "registry_changes": [],
+  "opening_state_changes": [],
+  "runtime_changes": [],
+  "importer_changes": [],
+  "save_or_migration_changes": [],
+  "unreal_changes": []
+}

@@ -1,0 +1,31 @@
+{
+  "FileName": "Sweden_Institution_and_Church_Setup_V1_2_Current_Authority_Refinement_FULL.md",
+  "Version": "1.2.0",
+  "Status": "Static-Checked Current Authority Refinement with Controlled Dependencies",
+  "SHA256": "AB4319758071496B2ED18F66F3B4DC29AD3050AC986C33D29E8A851E75B0AA99",
+  "Bytes": 47543,
+  "Lines": 1068,
+  "SourceFile": "Sweden_Institution_and_Church_Setup_V1.md",
+  "SourceSHA256": "F57B499508B85608D4E04E2D762EE8EAA242E507B67A2E7000F44BA3DBB75BE3",
+  "SourceManifest": "Sweden_Institution_and_Church_Setup_V1_Manifest.json",
+  "SourceManifestSHA256": "95D05679E67546857A7FCA982414253B06E48BA66E5880237A9AE67BC0BF8103",
+  "AdditiveMinorFixesSource": "Sweden_Institution_and_Church_Setup_V1_1_Current_Authority_Refinement_Minor_Fixes.md",
+  "AdditiveMinorFixesSHA256": "163E9440CF03FF14932464B4DF36221880B3F8E9A1AA4292BAD4D07EE4D0C4C6",
+  "Checks": {
+    "copy_first": true,
+    "continuous_sections_1_67": true,
+    "source_family_reconciled": true,
+    "skara_sigtuna_uppsala_safe": true,
+    "named_clergy_untouched": true,
+    "finite_recruitment": true,
+    "three_track": true,
+    "ue58": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "balanced_fences": true,
+    "honest_validation": true
+  },
+  "OpeningStateModified": false,
+  "RegistryModified": false,
+  "PhysicalPromotionCompleted": false
+}

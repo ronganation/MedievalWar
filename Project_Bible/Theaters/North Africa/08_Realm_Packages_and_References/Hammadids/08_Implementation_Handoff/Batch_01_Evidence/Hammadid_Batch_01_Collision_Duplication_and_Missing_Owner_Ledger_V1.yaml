@@ -1,0 +1,654 @@
+ledger_control:
+  document_id: ledger.realm.hammadid.batch-01.collision-duplication-missing-owner.v1
+  stable_document_id: Batch01CollisionDuplicationMissingOwnerLedger.Hammadids
+  file_name: Hammadid_Batch_01_Collision_Duplication_and_Missing_Owner_Ledger_V1.yaml
+  version: 1.0.0
+  revision_date: 2026-09-22
+  realm: Hammadids
+  owning_theater: North Africa
+  scenario_id: mw.scenario.grand_campaign.1062
+  scenario_opening: 1062-01-01
+  opening_campaign_season: Winter
+  constitutional_authority: Project Bible 2.4
+  operational_authority: Design Expansion Checklist 3.7
+  implementation_target: Unreal Engine 5.8
+  controlling_handoff: Hammadid_Unreal_Engine_5_8_Implementation_Planning_Handoff_V1.md
+  controlling_gate: Hammadid_Unreal_Engine_5_8_Batch_01_Read_Only_Project_Discovery_Gate_V1.md
+  preceding_outputs:
+    - Hammadid_Batch_01_Project_Native_Architecture_Map_V1.yaml
+    - Hammadid_Batch_01_Existing_Owner_and_Extension_Point_Map_V1.yaml
+    - Hammadid_Batch_01_Authority_to_Native_Target_Crosswalk_V1.yaml
+  supporting_ledgers:
+    - Hammadid_Alias_Ownership_and_Collision_Ledger_V1.yaml
+    - Hammadid_Source_Successor_Lineage_Ledger_V1.yaml
+    - Hammadid_External_Owner_Lock_and_Quarantine_Ledger_V1.yaml
+    - Hammadid_Candidate_Disposition_and_Current_Authority_Stop_Gate_Ledger_V1.yaml
+  discovery_mode: OneDriveIndexedProjectEvidenceReadOnly
+  status: StrongPartialCollisionDuplicationMissingOwnerLedgerNoInferenceResolutionNoMutation
+
+strong_verdict:
+  collision_records: 24
+  duplication_and_lineage_records: 10
+  missing_owner_records: 15
+  private_state_leak_records: 10
+  total_control_records: 59
+  resolved_by_direct_live_inspection: 0
+  resolved_by_owner_receipt: 0
+  deletion_merge_rename_or_supersession_actions_authorized: 0
+  new_native_owners_authorized: 0
+  quarantines_released: 0
+  stop_gates_opened: 0
+  Batch01_acceptance: Blocked
+  Batch02_promotion: Blocked
+  result: CompleteAtIndexedPreflightScopeAllSubstantiveRisksRemainHeld
+
+constitutional_rules:
+  - SameLabelDoesNotProveSameEntity
+  - SameHashDoesNotAuthorizeDeletion
+  - SameStableDocumentIDDoesNotAuthorizeDeletion
+  - HigherVersionDoesNotAuthorizeSupersession
+  - SimilarFunctionDoesNotProveSameNativeOwner
+  - SearchNonreturnDoesNotProveMissingFileOwnerOrCapability
+  - MissingOwnerDoesNotAuthorizeNewOwnerCreation
+  - ExistingPluginDoesNotProveOwnershipOfEveryContainedDomain
+  - PresentationDoesNotOwnAuthoritativeState
+  - DefinitionDoesNotCreateInstance
+  - CandidateReferenceDoesNotPublishCanonicalIdentity
+  - ExternalPrivateStateCannotBeReconstructedLocally
+  - QuarantineIsNotRejection
+  - OwnerSilenceIsNotConsent
+  - PlanningDoesNotAuthorizeExecution
+
+severity_model:
+  FatalForPromotion: BlocksBatch02OrLaterPromotionUntilClosed
+  BlockingForDomain: BlocksOnlyTheNamedDomainOrReferenceFamily
+  HighRisk: CouldCreateIdentityStateOwnershipOrSaveCorruption
+  Warning: RequiresCorrectionOrEvidenceButDoesNotAloneAuthorizeOrBlockUnrelatedDomains
+
+resolution_states:
+  - Unresolved
+  - Quarantined
+  - HeldPendingEvidence
+  - ExternalLockPending
+  - PreserveBothPendingLineage
+  - RejectedDoNotCreate
+  - NotApplicable
+  - ResolvedWithEvidenceAndOwnerReceipt
+
+collision_records:
+  COLL_B01_001_RealmFactionDynastyGovernment:
+    subject_refs: [cand.realm.hammadid, faction.hammadid, cand.dynasty.hammadid]
+    collision_class: EntityKindFlattening
+    finding: RealmFactionDynastyHouseholdAndGovernmentCouldBeCollapsedIntoOneRuntimeIdentity
+    severity: FatalForPromotion
+    affected_owners: [RealmDesignOwner, FactionTaxonomyOwner, CharacterDynastyOwner, RegistryOwner, OpeningStateOwner]
+    current_state: HeldPendingEvidence
+    required_closure:
+      - ProjectNativeEntityKindReceipt
+      - RealmFactionRelationshipReceipt
+      - CanonicalOwnerReceipt
+      - OpeningStateSeparateApproval
+    rollback: PreserveCandidateReferencesAndTypedSeparation
+
+  COLL_B01_002_AnNasirArtifacts:
+    subject_refs:
+      - An_Nasir_ibn_Alnas_V1_Developed_Character_Profile_Authority.md
+      - An_Nasir_ibn_Alnas_V1_Developed_Character_Profile_AuthorityCopy.md
+      - An_Nasir_ibn_Alnas_V1_1_Developed_Character_Profile_Authority.md
+    collision_class: DuplicateStableIdentityFilenameAndVersionConflict
+    finding: ThreeArtifactsCouldClaimCurrentProfileAuthorityForOnePerson
+    severity: FatalForPromotion
+    affected_owners: [CharacterProfileOwner, PackageIndexOwner, RegistryOwner, OpeningStateOwner]
+    current_state: Quarantined
+    required_closure:
+      - SHA256ForAllThreeArtifacts
+      - HeaderStableIdentityComparison
+      - SectionAndLiteralCompletenessComparison
+      - InboundReferenceInventory
+      - CurrentProfileOwnerDisposition
+    rollback: PreserveAllAndBlockCanonicalOpeningAndCommandBinding
+
+  COLL_B01_003_AnNasirReferences:
+    subject_refs: [character.hammadid.an_nasir_ibn_alnas, cand.person.hammadid.al_nasir_ibn_alnas]
+    collision_class: LegacyAndCandidateReferenceSplit
+    finding: OnePersonCouldSerializeAsTwoPeople
+    severity: FatalForPromotion
+    affected_owners: [CharacterRegistryOwner, RegistryOwner]
+    current_state: Quarantined
+    required_closure: [SamePersonReceipt, DirectAliasDecision, CanonicalMappingReceipt]
+    rollback: PreserveBothReferencesAsNoncanonicalAndNonbinding
+
+  COLL_B01_004_ScenarioVariant:
+    subject_refs: [cand.scenario.grand_campaign.1062, hmd.opening.variant.post_1062_07_11]
+    collision_class: GlobalScenarioAndRealmVariantCollision
+    finding: PostJulyRealmOverlayCouldRewriteTheGlobalJanuary1062ScenarioAnchor
+    severity: FatalForPromotion
+    affected_owners: [ScenarioOwner, OpeningStateOwner, HistoricalBoundaryOwner]
+    current_state: ExternalLockPending
+    required_closure: [HMD_DATE_001, ScenarioCanonicalReferenceReceipt, VariantSeparationReceipt]
+    rollback: PreserveJanuaryBaselineAndPostJulyOverlaySeparatelyHeld
+
+  COLL_B01_005_TheaterAssociation:
+    subject_refs: [cand.theater.north_africa]
+    collision_class: AssociationTerritoryOwnershipAndPrivateStateCollision
+    finding: TheaterAssociationCouldBeMisreadAsTerritorialControlAllegianceOrPrivateStateOwnership
+    severity: FatalForPromotion
+    affected_owners: [CampaignTheaterOwner, GeographyOwner, RegistryOwner]
+    current_state: ExternalLockPending
+    required_closure: [TheaterCanonicalReferenceReceipt, TheaterAssociationReceipt]
+    rollback: PreserveCandidateReferenceWithoutAppliedAssociation
+
+  COLL_B01_006_QalatTypedFunctions:
+    subject_refs: [cand.place.hammadid.qalat_bani_hammad]
+    collision_class: PlaceSettlementFortressCapitalBuildingInstitutionGarrisonCollision
+    finding: OnePlaceLabelCouldCreateMultipleUntypedOrDuplicatedRuntimeObjects
+    severity: FatalForPromotion
+    affected_owners: [GeographyOwner, PropertyOwner, ReligionOwner, GovernanceOwner, RegistryOwner, OpeningStateOwner]
+    current_state: Quarantined
+    required_closure:
+      - PlaceIdentityReceipt
+      - TypedFunctionMatrix
+      - MultiOwnerReceipts
+      - OpeningControlCapitalInventoryAndAccessReceipt
+    rollback: PreserveOnePlaceCandidateAndNoDerivedOpeningInstances
+
+  COLL_B01_007_QalaShortAlias:
+    subject_refs: [Qala, Qal'a]
+    collision_class: AmbiguousGlobalShortAlias
+    finding: ShortLabelsCouldResolveToOtherPlacesOutsideBoundedHammadidContext
+    severity: BlockingForDomain
+    affected_owners: [GeographyRegistryOwner]
+    current_state: Quarantined
+    required_closure: [ContextBoundSearchAliasRule, GeographyOwnerApproval]
+    rollback: SearchOnlyWithinBoundedContextNoDirectAlias
+
+  COLL_B01_008_BejaiaTemporalOpening:
+    subject_refs: [cand.place.hammadid.bejaia]
+    collision_class: LaterHistoricalDevelopmentAndOpeningStateCollision
+    finding: LaterBejaiaDevelopmentCouldBackfillOpeningCapitalPortFleetOrCompletedDevelopment
+    severity: FatalForPromotion
+    affected_owners: [HistoricalResearchOwner, GeographyOwner, OpeningStateOwner]
+    current_state: Quarantined
+    required_closure: [HistoricalTemporalScopeReceipt, ExplicitOpeningExclusionOrConditionalEmergenceReceipt]
+    rollback: PreserveAsLaterOrConditionalCandidateExcludedFromOpening
+
+  COLL_B01_009_GreatMosqueKinds:
+    subject_refs: [cand.institution.hammadid.qalat_great_mosque]
+    collision_class: InstitutionBuildingOfficeCongregationAndActiveStateCollision
+    finding: GreatMosqueLabelCouldCreateBuildingPersonnelOfficeFundingOrActiveOperation
+    severity: FatalForPromotion
+    affected_owners: [ReligionOwner, PropertyOwner, RegistryOwner, OpeningStateOwner]
+    current_state: Quarantined
+    required_closure: [InstitutionKindReceipt, BuildingPropertyReceipt, OfficeAndJurisdictionReceipt, OpeningInstanceReceipt]
+    rollback: PreserveDefinitionCandidateWithoutActiveInstance
+
+  COLL_B01_010_RulerCourtKinds:
+    subject_refs: [cand.institution.hammadid.ruler_court]
+    collision_class: InstitutionRelationshipContextGovernmentHouseholdMembershipCollision
+    finding: CourtCouldCollapseGovernmentHouseholdBuildingMembershipAndOfficeSet
+    severity: BlockingForDomain
+    affected_owners: [CharacterOwner, GovernanceOwner, RegistryOwner, OpeningStateOwner]
+    current_state: Quarantined
+    required_closure: [CourtEntityKindDecision, MembershipAndAccessReceipt, OpeningInstanceReceipt]
+    rollback: PreserveCandidateWithoutMembershipOrOpeningInstance
+
+  COLL_B01_011_ChanceryKinds:
+    subject_refs: [cand.institution.hammadid.chancery]
+    collision_class: FunctionInstitutionOfficeBuildingArchiveAndCapacityCollision
+    finding: ChanceryCouldCreateBuildingArchiveOfficerOfficeOrAdministrativeCapacity
+    severity: BlockingForDomain
+    affected_owners: [GovernanceOwner, EducationRecordsOwner, RegistryOwner, OpeningStateOwner]
+    current_state: Quarantined
+    required_closure: [EntityKindDecision, GovernanceAndRecordsOwnerReceipts, OpeningInstanceAndOfficeReceipt]
+    rollback: PreserveCandidateWithoutRuntimeState
+
+  COLL_B01_012_PersonOfficeCommand:
+    subject_refs: [cand.person.hammadid.al_nasir_ibn_alnas, ruler_office, supreme_command]
+    collision_class: PersonOfficeAppointmentCommandAndForceOwnershipCollision
+    finding: RulerIdentityCouldAutomaticallyCreateOfficeCommandOrForceOwnership
+    severity: FatalForPromotion
+    affected_owners: [CharacterOwner, GovernanceOwner, MilitaryOwner, OpeningStateOwner]
+    current_state: HeldPendingEvidence
+    required_closure: [PersonReceipt, OfficeDefinitionReceipt, AppointmentReceipt, CommandMandateAndAcceptanceReceipt]
+    rollback: RemoveBindingsKeepPersonCandidateSeparate
+
+  COLL_B01_013_PopulationManpowerPool:
+    subject_refs: [PopulationState, RecruitmentEligibility, RecruitmentPoolQuantity]
+    collision_class: PopulationAndSpendableManpowerCollision
+    finding: PopulationCouldBeConvertedDirectlyIntoArmyManpowerOrPoolQuantity
+    severity: HighRisk
+    affected_owners: [PopulationOwner, RecruitmentOwner, MilitaryOwner]
+    current_state: HeldPendingEvidence
+    required_closure: [ProjectNativePopulationAndFinitePoolContracts, OwnerApproval]
+    rollback: RestorePopulationAsConstraintAndKeepPoolStateSeparate
+
+  COLL_B01_014_UnitDefinitionInstanceUnlockPool:
+    subject_refs: [UnitDefinition, UnitInstance, UnitUnlock, RecruitmentPool]
+    collision_class: MilitaryRecordTypeFlattening
+    finding: DefinitionOrUnlockCouldCreateAvailableUnitInstanceOrPoolQuantity
+    severity: HighRisk
+    affected_owners: [UnitOwner, RecruitmentOwner, OpeningStateOwner]
+    current_state: HeldPendingEvidence
+    required_closure: [TypedUnitAndPoolKinds, EligibilityAndQuantityOwners, OpeningAdmissionReceipt]
+    rollback: PreserveDefinitionOnlyAndRemoveInstanceOrPoolBinding
+
+  COLL_B01_015_TreasuryCreditCapacityOutputStockSupply:
+    subject_refs: [Treasury, Credit, ProductionCapacity, Output, Stock, TradeFlow, DeliveredSupply]
+    collision_class: EconomyStateFlattening
+    finding: CapacityCreditRouteOrRegionalWealthCouldCreateCashOutputStockOrDeliveredSupply
+    severity: HighRisk
+    affected_owners: [EconomyOwner, PropertyOwner, ProductionOwner, LogisticsOwner]
+    current_state: HeldPendingEvidence
+    required_closure: [TypedEconomyStateContracts, TransferAndReservationOwners]
+    rollback: RestoreSeparateOwnerStatesAndRemoveDerivedValues
+
+  COLL_B01_016_RouteAccessTransportDelivery:
+    subject_refs: [Route, Access, TransportCapacity, Movement, Delivery]
+    collision_class: GeographyLogisticsAndPerformanceCollision
+    finding: RouteOrAccessCouldBeTreatedAsTransportOrCompletedDelivery
+    severity: HighRisk
+    affected_owners: [GeographyOwner, DiplomacyOwner, LogisticsOwner]
+    current_state: HeldPendingEvidence
+    required_closure: [TypedRouteAccessTransportAndDeliveryContracts]
+    rollback: RestoreSeparateStateAndRemoveAssumedMovement
+
+  COLL_B01_017_AgreementPerformance:
+    subject_refs: [Agreement, Obligation, Performance, Payment, Access]
+    collision_class: DiplomacyEconomyAndPerformanceCollision
+    finding: AgreementCouldBeTreatedAsPerformedTributePaymentAccessOrMilitaryService
+    severity: HighRisk
+    affected_owners: [DiplomacyOwner, EconomyOwner, MilitaryOwner, ExternalOwners]
+    current_state: ExternalLockPending
+    required_closure: [CounterpartyReceipt, AgreementStateContract, PerformanceReceipt]
+    rollback: RetainDirectedProposalOrAgreementWithoutPerformedEffects
+
+  COLL_B01_018_MessageKnowledgeTruth:
+    subject_refs: [MessageSent, MessageReceived, Knowledge, Belief, Rumor, Truth]
+    collision_class: InformationStateFlattening
+    finding: SentMessageOrHistoricalFactCouldCreateRecipientKnowledgeOrObjectiveTruth
+    severity: HighRisk
+    affected_owners: [InformationOwner, CharacterOwner, HistoricalOwner, ExternalOwners]
+    current_state: HeldPendingEvidence
+    required_closure: [MessageDeliveryAndKnowledgeContracts, ViewerAccessAndPrivateStateRules]
+    rollback: RemoveKnowledgeBindingKeepSourceFactOrSentMessageSeparate
+
+  COLL_B01_019_HistoricalMemoryMomentumEmergence:
+    subject_refs: [HistoricalMemory, Momentum, EmergenceEligibility, EventInstance]
+    collision_class: HistoricalSystemCausalityCollision
+    finding: MemoryMomentumOrDateCouldCreateTruthDecisionEventOrGuaranteedOutcome
+    severity: HighRisk
+    affected_owners: [HistoricalOwner, EventOwner, RealmAIOwner]
+    current_state: HeldPendingEvidence
+    required_closure: [ProjectNativeHistoricalSystemContracts, OwnerRoutedEventAdmission]
+    rollback: RemoveInstanceKeepConditionalDefinitionsAndNonoccurrence
+
+  COLL_B01_020_RealmAIProposalExecution:
+    subject_refs: [RealmAIEvaluation, ProposalTrace, StrategicCommandRequest, OwnerAction]
+    collision_class: ProposalAndExecutionCollision
+    finding: RealmAIProposalCouldDirectlyMutateSpecialistOwnerState
+    severity: HighRisk
+    affected_owners: [RealmAIOwner, StrategicIntegrationOwner, SpecialistOwners]
+    current_state: HeldPendingEvidence
+    indexed_candidate_path: 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    required_closure: [DirectOwnerFileInspection, AdmissionContract, RejectionIdempotencyAndMutationCountTests]
+    rollback: RejectProposalAndRestoreOwnerState
+
+  COLL_B01_021_PreviewAuthoritativeState:
+    subject_refs: [SMWOpeningStatePreviewTab, OpeningStatePreviewPresentation, AuthoritativeOpeningState]
+    collision_class: PresentationAndStateOwnershipCollision
+    finding: PreviewSurfaceCouldBeMistakenForOpeningStateSchemaInitializationOrMutationOwner
+    severity: HighRisk
+    affected_owners: [PresentationOwner, OpeningStateOwner, MWSharedImporterOwner]
+    current_state: HeldPendingEvidence
+    indexed_candidate_path: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+    required_closure: [DirectFileInspection, ViewModelAndStateOwnerContract]
+    rollback: RestoreReadOnlyPreviewAndRemoveMutationBinding
+
+  COLL_B01_022_SharedImporterOverreach:
+    subject_refs: [MWSharedImporter, Registry, OpeningState, CampaignRuntime, SaveMigration]
+    collision_class: PluginPresenceAndUniversalOwnershipCollision
+    finding: SharedImporterPluginCouldBeTreatedAsOwnerOfAllRegistryOpeningCampaignAndPersistenceFunctions
+    severity: FatalForPromotion
+    affected_owners: [MWSharedImporterOwner, RegistryOwner, OpeningStateOwner, CampaignOwner, SaveOwner]
+    current_state: HeldPendingEvidence
+    indexed_candidate_path: 'Plugins\MWSharedImporter'
+    required_closure: [CompletePluginInventory, SchemaValidatorImporterPersistenceAndOwnerMap]
+    rollback: PreservePluginAsCandidatePathWithoutUniversalOwnerClaim
+
+  COLL_B01_023_HistoricalLabelCanonicalIdentity:
+    subject_refs: [Hammadids, HammadidRealm, HammadidEmirate, HammadidSultanate, KingdomOfBejaia]
+    collision_class: ContextualHistoricalLabelAndPersistentProjectIdentityCollision
+    finding: ContextualOrLaterLabelCouldReplacePersistentRealmIdentityOrCreateSeparateEntity
+    severity: BlockingForDomain
+    affected_owners: [HistoricalOwner, RealmDesignOwner, RegistryOwner, LocalizationOwner]
+    current_state: HeldPendingEvidence
+    required_closure: [TemporalAndContextualAliasReceipt, CanonicalIdentityReceipt]
+    rollback: RetainHammadidsAsPreferredCandidateLabelAndOthersAsContextualOnly
+
+  COLL_B01_024_PlanningExecutionAuthorization:
+    subject_refs: [ImplementationPlanningHandoff, BatchGates, ExecutionAuthorizationReceipt]
+    collision_class: PlanningAndExecutionAuthorityCollision
+    finding: PlanningGateOrExistingPatternCouldBeMisreadAsPermissionToCreateWriteCompileImportOrRun
+    severity: FatalForPromotion
+    affected_owners: [PackageIntegrationOwner, UnrealImplementationOwner]
+    current_state: HeldPendingEvidence
+    required_closure: [AcceptedPriorBatchReceipts, ExactWriteSet, DryRun, RollbackPackage, IssuedScopeBoundAuthorization]
+    rollback: StopAndRestorePreActionProjectState
+
+duplication_and_lineage_records:
+  DUP_B01_001_AnNasirThreeArtifacts:
+    subject_files:
+      - An_Nasir_ibn_Alnas_V1_Developed_Character_Profile_Authority.md
+      - An_Nasir_ibn_Alnas_V1_Developed_Character_Profile_AuthorityCopy.md
+      - An_Nasir_ibn_Alnas_V1_1_Developed_Character_Profile_Authority.md
+    classification: UnresolvedPotentialCopyAndSuccessorGroup
+    current_disposition: PreserveAllQuarantineBindings
+    deletion_authorized: false
+  DUP_B01_002_ValidationV1V1_1:
+    subject_files:
+      - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1.md
+      - Hammadid_Validation_Migration_Freeze_Evidence_Manifest_and_Rollback_Authority_V1_1.md
+    classification: DeclaredSourceSuccessorPair
+    current_disposition: PreserveBothPendingCopyFirstComparisonRemovalLedgerAndOwnerApproval
+    deletion_authorized: false
+  DUP_B01_003_OpeningStateV1V1_1:
+    subject_files:
+      - Hammadid_Opening_State_1062_V1.md
+      - Hammadid_Opening_State_1062_V1_1_Developed_Realm_Parity_Strengthening.md
+    classification: AdditiveSuccessorLineageCandidate
+    current_disposition: PreserveBothPendingCopyFirstComparisonBoundaryDecisionAndOwnerApproval
+    deletion_authorized: false
+  DUP_B01_004_JusticeEnforcementCandidate:
+    subject_file: Hammadid_Justice_Enforcement_Detention_Sentencing_Restitution_and_Penal_Administration_Authority_V1.md
+    classification: RejectedDoNotCreate
+    overlap_with: [LawJusticeAuthority, PrisonersCaptivesAuthority, PublicOrderAuthority]
+    current_disposition: PreserveExistingOwnersDoNotCreateCandidate
+    creation_authorized: false
+  DUP_B01_005_HammadidStandaloneImporter:
+    subject: HammadidSpecificImporterPluginOrModule
+    classification: PotentialSymmetryOnlyDuplication
+    existing_candidate: 'Plugins\MWSharedImporter'
+    current_disposition: DoNotProposeBeforeDirectInspectionAndVerifiedCapabilityGap
+    creation_authorized: false
+  DUP_B01_006_HammadidPresentationFramework:
+    subject: HammadidSpecificOpeningPreviewFramework
+    classification: PotentialSharedPresentationDuplication
+    existing_candidate: 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+    current_disposition: PreferSharedOwnerInspectionNoNewFramework
+    creation_authorized: false
+  DUP_B01_007_CommandAdmissionFramework:
+    subject: HammadidSpecificStrategicCommandAdmissionLayer
+    classification: PotentialCampaignRuntimeDuplication
+    existing_candidate: 'Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp'
+    current_disposition: InspectExistingOwnerNoNewLayer
+    creation_authorized: false
+  DUP_B01_008_UnitAssetInventory:
+    subject: HammadidUnitAssetInventory
+    classification: NewRealmSpecificEvidenceArtifactCandidateNotRuntimeOwner
+    methodology_reference: Norway_Unit_Asset_Inventory_V1.json
+    current_disposition: MayUseMethodOnlyAfterDirectAssetEvidenceNoCopiedRows
+    creation_authorized: false
+  DUP_B01_009_MachineReadableOpeningContract:
+    subject: HammadidMachineReadableOpeningStateContract
+    classification: FutureContractCandidateNotPayload
+    methodology_reference: Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md
+    current_disposition: BlockedPendingRegistryOpeningAndNativeSchemaOwners
+    creation_authorized: false
+  DUP_B01_010_CompletedControlFiles:
+    subject: CompletedNavigationAliasEvidenceAndGateArtifacts
+    classification: HistoricalOrCurrentArtifactsProtectedFromRecreation
+    current_disposition: UpdateOnlyThroughExplicitSuccessorOrCorrectionProcess
+    creation_authorized: false
+
+missing_owner_records:
+  MISS_B01_001_PackageIntegrationOwner:
+    missing_owner: PackageIntegrationAndEvidencePromotionOwner
+    affected_scope: AuthorityCurrentnessBatchOrderingEvidenceStorageAcceptanceAndPromotion
+    severity: FatalForPromotion
+    candidate_paths: []
+    evidence_required: [ControllingProjectREADME, ApprovedEvidenceLocation, ExistingBatchAcceptanceConvention]
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_002_RegistryOwner:
+    missing_owner: RegistryTypedReferenceAliasCollisionExternalLockAndMigrationOwner
+    affected_scope: AllCanonicalMappingsAndBatch02
+    severity: FatalForPromotion
+    candidate_paths: ['Plugins\MWSharedImporter']
+    limitation: PluginPresenceDoesNotProveRegistryOwnership
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_003_RealmFactionOwner:
+    missing_owner: RealmFactionDefinitionAndPlayableActorTaxonomyOwner
+    affected_scope: RealmFactionRelationshipAndRuntimeActorKind
+    severity: FatalForPromotion
+    candidate_paths: []
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_004_OpeningStateOwner:
+    missing_owner: OpeningStateSchemaInitializationVariantApplyOnceAdvancedSaveAndRollbackOwner
+    affected_scope: OpeningStateAndVariantBinding
+    severity: FatalForPromotion
+    candidate_paths: ['Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp']
+    limitation: PreviewSurfaceDoesNotProveStateOwnership
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_005_CharacterNetworkOwner:
+    missing_owner: CharacterDynastyHouseholdOfficeRelationshipAndKnowledgeOwner
+    affected_scope: PersonDynastyHouseholdCourtOfficeCommandAndDirectedRelationships
+    severity: FatalForPromotion
+    candidate_paths: []
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_006_GovernmentLawReligionOwnerSet:
+    missing_owner: GovernmentLawCustodyReligionJuristicInstitutionAndOfficeOwners
+    affected_scope: GovernmentProcedureCustodyInstitutionsJurisdictionsOfficeKindsAndState
+    severity: BlockingForDomain
+    candidate_paths: []
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_007_GeographyPropertyOwner:
+    missing_owner: GeographyPlaceSettlementFortressCapitalRoutePropertyBuildingAndControlOwner
+    affected_scope: QalatBejaiaRoutesAccessPropertyControlDamageRepairAndReconstruction
+    severity: FatalForPromotion
+    candidate_paths: []
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_008_PopulationCommunityOwner:
+    missing_owner: PopulationHouseholdLaborMigrationCommunityLanguageAndRepresentationOwner
+    affected_scope: PopulationCommunityLanguageUseLaborCapacityAndRecruitmentConstraints
+    severity: BlockingForDomain
+    candidate_paths: []
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_009_EconomyHealthPublicOrderOwnerSet:
+    missing_owner: EconomyPropertyProductionLogisticsHealthAndPublicOrderOwners
+    affected_scope: TreasuryCreditCapacityOutputStocksSupplyHealthRecoveryComplianceAndRestoration
+    severity: BlockingForDomain
+    candidate_paths: []
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_010_DiplomacyInformationOwnerSet:
+    missing_owner: DiplomacyAgreementExternalLockInformationKnowledgeRumorAndSecrecyOwners
+    affected_scope: DirectedRelationsAgreementsMessagesKnowledgeAndForeignPrivateState
+    severity: FatalForPromotion
+    candidate_paths: []
+    current_disposition: HeldPendingDirectInspectionAndExternalReceipts
+  MISS_B01_011_UnitRecruitmentMilitaryOwnerSet:
+    missing_owner: UnitDefinitionFiniteRecruitmentEquipmentHorseOfficerTrainingSupplyCommandAndForceOwners
+    affected_scope: UnitPoolMaterialCommandReadinessSupplyAndMobilization
+    severity: BlockingForDomain
+    candidate_paths: ['Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp']
+    limitation: CommandFixtureDoesNotProveMilitaryDomainOwnership
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_012_BattleSiegePersistenceOwner:
+    missing_owner: BattleSiegeCampaignReturnPersistenceReplayAndIdempotencyOwner
+    affected_scope: BattleRequestSnapshotResultReturnSiegeDamageCasualtyAndSaveState
+    severity: BlockingForDomain
+    candidate_paths: []
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_013_HistoricalEventRealmAIOwner:
+    missing_owner: HistoricalMemoryMomentumEmergenceEventAndRealmAIOwner
+    affected_scope: HistoricalSystemsEventsProposalTraceAbstentionAndNonoccurrence
+    severity: BlockingForDomain
+    candidate_paths: ['Source\MedievalWarCampaign\Private\StrategicIntegration\MWStrategicCommandAdmissionFixtureProviders.cpp']
+    limitation: AdmissionFixtureDoesNotProveHistoricalOrAIOwnership
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_014_PresentationLocalizationOwnerSet:
+    missing_owner: PresentationLocalizationAccessibilityArtAudioRightsAndScreenshotOwners
+    affected_scope: ReadOnlyViewModelsTermsInteractionAssetsRightsAndVisualEvidence
+    severity: BlockingForDomain
+    candidate_paths:
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\SMWOpeningStatePreviewTab.cpp'
+      - 'Plugins\MWSharedImporter\Source\MWSharedImporter\Private\MWNorwayOpeningStatePreviewPresentation.cpp'
+    limitation: IndexedExamplesDoNotProveCompleteOwnerSet
+    current_disposition: HeldPendingDirectInspection
+  MISS_B01_015_ImporterValidationUnrealOwnerSet:
+    missing_owner: SchemaValidatorDryRunImporterBuildSaveMigrationReplayRollbackPerformanceEvidenceAndUnrealPromotionOwners
+    affected_scope: AllExecutionAndProductionIntake
+    severity: FatalForPromotion
+    candidate_paths: ['Plugins\MWSharedImporter']
+    limitation: PluginPresenceDoesNotAuthorizeExecution
+    current_disposition: HeldPendingDirectInspection
+
+private_state_leak_records:
+  LEAK_B01_001_NorwayOpeningState:
+    source_pattern: NorwayOpeningStatePreviewPresentation
+    prohibited_transfer: [People, Units, Pools, Relationships, OpeningValues, ActiveInventoryDispositionData]
+    control: MethodologyAndSharedSurfaceOnly
+  LEAK_B01_002_NorwayUnitAssets:
+    source_pattern: Norway_Unit_Asset_Inventory_V1.json
+    prohibited_transfer: [UnitDefinitions, Assets, Availability, PoolState]
+    control: InventoryMethodOnly
+  LEAK_B01_003_SevilleOpeningState:
+    source_pattern: Seville_Taifa_Machine_Readable_Opening_State_Package_Contract_V1.md
+    prohibited_transfer: [RegistryRows, OpeningRecords, Values, ExternalLocks, Payload]
+    control: ContractMethodOnly
+  LEAK_B01_004_AlmoravidUnitProfile:
+    source_pattern: Almoravid_Spear_Levy_Unit_Profile_V1.md
+    prohibited_transfer: [UnitIdentity, RecruitmentSource, Equipment, RosterAdmission]
+    control: ProfileMethodOnly
+  LEAK_B01_005_ZiridState:
+    source_pattern: ZiridPackageOrExternalRelations
+    prohibited_transfer: [People, Kinship, Recognition, Agreements, Forces, Knowledge, Intentions]
+    control: ExternalLockAndReciprocalReceiptRequired
+  LEAK_B01_006_AlmoravidExternalState:
+    source_pattern: AlmoravidPackageOrExternalRelations
+    prohibited_transfer: [Diplomacy, MilitaryResponse, Access, Agreements, Knowledge]
+    control: ExternalLockAndReciprocalReceiptRequired
+  LEAK_B01_007_BanuHilalState:
+    source_pattern: BanuHilalActorOwners
+    prohibited_transfer: [NamedBranches, CoalitionState, Movement, Service, Tribute, Pressure, Knowledge]
+    control: ActorSpecificExternalReceiptsRequired
+  LEAK_B01_008_ScenarioState:
+    source_pattern: GlobalScenarioOwner
+    prohibited_transfer: [GlobalAnchorRewrite, RealmVariantImplicitActivation]
+    control: ScenarioExternalReceiptAndHMD_DATE_001Required
+  LEAK_B01_009_TheaterState:
+    source_pattern: NorthAfricaTheaterOwner
+    prohibited_transfer: [TerritoryOwnership, Allegiance, PrivateState]
+    control: TheaterAssociationReceiptRequired
+  LEAK_B01_010_SharedSystemState:
+    source_pattern: SharedRegistryReligionGeographyFactionTaxonomy
+    prohibited_transfer: [CanonicalIDs, Kinds, OfficeState, RouteState, PrivateRealmData]
+    control: SharedOwnerReceiptsAndTypedMappingsRequired
+
+stop_gate_reconciliation:
+  HMD_STOP_001_CompleteRecursiveManifest: Blocked
+  HMD_STOP_002_CompletePackageHashLedger: Blocked
+  HMD_STOP_003_CompleteRawBatchBClosure: Blocked
+  HMD_STOP_004_ValidationAuthoritySupersession: Blocked
+  HMD_STOP_005_OpeningStateAuthoritySupersession: Blocked
+  HMD_STOP_006_AnNasirCanonicalIdentity: Blocked
+  HMD_STOP_007_ScenarioBoundary: Blocked
+  HMD_STOP_008_ScenarioAndTheaterExternalLocks: Blocked
+  HMD_STOP_009_CanonicalEntityKindsAndMappings: Blocked
+  HMD_STOP_010_ReciprocalExternalState: Blocked
+  HMD_STOP_011_OpeningFactBindings: Blocked
+  HMD_STOP_012_PayloadImporterRuntimeUnreal: Blocked
+  summary: {blocked: 12, open: 0}
+
+closure_queue:
+  physical_and_raw_evidence:
+    - CompleteRecursivePackageManifest
+    - CompletePackageSHA256Ledger
+    - CompleteRawHeaderSectionFormattingEncodingAndLiteralScans
+    - DirectCurrentProjectRootDescriptorREADMEAndArchitectureInventory
+  lineage_and_identity:
+    - ValidationV1ToV1_1CopyFirstComparison
+    - OpeningStateV1ToV1_1CopyFirstComparison
+    - AnNasirThreeArtifactDisposition
+    - RealmFactionDynastyAndInstitutionKindReceipts
+  external_and_boundary:
+    - HMD_DATE_001
+    - ScenarioAndTheaterReceipts
+    - ZiridAlmoravidBanuHilalReceipts
+    - SharedRegistryReligionGeographyAndFactionReceipts
+  native_owners:
+    - ResolveAllFifteenMissingOwnerRecords
+    - InspectAllIndexedCandidateFilesDirectly
+    - RecordExactPathsSymbolsVersionsBytesAndRelevantSHA256
+  execution:
+    - AcceptedPriorBatchReceipts
+    - CandidateSchemaAndValidator
+    - ExactWriteSetAndDryRun
+    - RollbackPackage
+    - ExplicitExecutionAuthorization
+
+acceptance_matrix:
+  twenty_four_collision_records_present: Pass
+  ten_duplication_and_lineage_records_present: Pass
+  fifteen_missing_owner_records_present: Pass
+  ten_private_state_leak_records_present: Pass
+  every_record_has_hold_or_control_disposition: Pass
+  no_collision_resolved_by_inference: Pass
+  no_duplicate_deleted_merged_renamed_or_superseded: Pass
+  no_new_owner_created_or_authorized: Pass
+  all_twelve_stop_gates_remain_blocked: Pass
+  direct_live_project_inspection: NotMet
+  owner_receipts_and_quarantine_releases: NotMet
+  Batch01_acceptance: Blocked
+  Batch02_promotion: Blocked
+  final_result: StrongPartialLedgerNoInferenceResolutionNoPromotion
+
+nonmutation_receipt:
+  source_or_project_files_created_modified_moved_renamed_or_deleted: 0
+  duplicates_deleted_or_merged: 0
+  successor_candidates_promoted: 0
+  rejected_candidates_created: 0
+  native_owners_created_or_modified: 0
+  canonical_ids_allocated: 0
+  aliases_or_migrations_executed: 0
+  quarantines_released: 0
+  reciprocal_external_records_activated: 0
+  registry_rows_created_or_modified: 0
+  opening_state_records_created_or_modified: 0
+  payloads_or_importers_executed: 0
+  runtime_or_unreal_mutations: 0
+  compile_or_runtime_execution: false
+
+next_safe_action:
+  next_file: Hammadid_Batch_01_Read_Only_Evidence_Manifest_V1.yaml
+  next_file_scope: InventoryBatch01InputsSearchesReadsOutputsHashesLimitationsAndZeroMutationEvidenceWithoutClaimingLiveRepositoryCompletion
+  direct_live_repository_inspection_still_required: true
+  Batch02_promotion_authorized: false
+  Unreal_mutation_authorized: false
+
+stable_footer:
+  ConstitutionalAuthority: Project Bible 2.4
+  OperationalAuthority: Design Expansion Checklist 3.7
+  ImplementationTarget: Unreal Engine 5.8
+  Theater: North Africa
+  CandidateRealm: Hammadids
+  ScenarioOpening: 1062-01-01
+  OpeningCampaignSeason: Winter
+  PreferredPlayableBoundaryCandidate: post_1062-07-11
+  PlayableBoundaryStatus: HeldPendingScenarioOwnerDisposition
+  HistoricalProgression: 21MonthsPerStrategicTurn
+  BiologicalProgression: 7MonthsPerStrategicTurn
+  CampaignSeasonProgression: OneOrderedWinterSpringSummerAutumnStepPerStrategicTurn
+  BatchID: Batch01
+  LedgerStatus: StrongPartialCollisionDuplicationMissingOwnerLedgerNoInferenceResolutionNoMutation
+  CollisionRecords: 24
+  DuplicationAndLineageRecords: 10
+  MissingOwnerRecords: 15
+  PrivateStateLeakRecords: 10
+  StopGatesOpen: 0
+  ProjectMutationPerformed: false
+  Batch01AcceptanceAuthorized: false
+  Batch02PromotionAuthorized: false
+  RegistryPublicationAuthorized: false
+  OpeningStateCreationAuthorized: false
+  PayloadOrImporterExecutionAuthorized: false
+  UnrealProjectMutationAuthorized: false
+  NextAction: DraftReadOnlyEvidenceManifestWithoutClaimingLiveRepositoryCompletion

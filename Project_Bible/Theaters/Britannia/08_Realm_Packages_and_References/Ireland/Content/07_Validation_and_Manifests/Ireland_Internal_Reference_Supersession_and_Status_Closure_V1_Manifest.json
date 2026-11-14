@@ -1,0 +1,21 @@
+{
+  "manifest_version": "1.0",
+  "method": "IrelandInternalReferenceSupersessionAndStatusClosure",
+  "authority_file": "Ireland_Internal_Reference_Supersession_and_Status_Closure_V1.md",
+  "authority_bytes": 18220,
+  "authority_lines": 424,
+  "authority_sections": 18,
+  "supersession_chains": 9,
+  "authority_sha256": "f9619ba38cc99598f696d6fa95d937899dcdc24b648b210a7b3d9f810b898fc1",
+  "source_files_modified": 0,
+  "files_moved": 0,
+  "files_deleted": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "migration_executions": 0,
+  "Unreal_mutations": 0,
+  "static_check_file": "Ireland_Internal_Reference_Supersession_and_Status_Closure_V1_Static_Check.json",
+  "static_check_sha256": "29bbf7d654a412414a85809b60378a01d43eb0a1846e916f85d0f067cf381f60",
+  "all_checks_passed": true,
+  "validation_scope": "static internal reference, supersession, and status closure for declared authority chains; no physical link rewrite, direct local scan, companion target scan, active Unreal scan, Registry mutation, migration, or runtime validation"
+}

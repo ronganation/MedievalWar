@@ -1,0 +1,24 @@
+{
+  "document": "Ireland_Registry_Owner_Decision_and_Deferred_Scope_Disposition_V1.md",
+  "passed": true,
+  "checks": {
+    "decision_vocab": true,
+    "dublin": true,
+    "gofraid": true,
+    "historical_10": true,
+    "ai_3": true,
+    "dalgcais": true,
+    "underage": true,
+    "15_domains": true,
+    "zero_gaps": true,
+    "final_eligible": true,
+    "three_track": true,
+    "no_fabrication": true,
+    "no_mutations": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "removed_zero": true,
+    "stable_footer": true
+  },
+  "validation_scope": "static Registry, owner-decision, and deferred-scope disposition only; no authenticated decision creation, Registry mutation, Opening State activation, implementation, migration, compile, runtime, save/load, replay, battle, or physical promotion"
+}

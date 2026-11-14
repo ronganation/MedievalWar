@@ -1,0 +1,19 @@
+{
+  "target": "Ireland_AI_V2.1_Current_Authority_Refinement.md",
+  "status": "PASS",
+  "checks": {
+    "prefix": true,
+    "controls": true,
+    "tracks": true,
+    "personality": true,
+    "q24": true,
+    "p14": true,
+    "momentum": true,
+    "locks": true,
+    "blocked": true,
+    "honest": true,
+    "zero": true,
+    "format": true,
+    "all_pass": true
+  }
+}

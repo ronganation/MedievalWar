@@ -1,0 +1,21 @@
+﻿{
+    "document_id":  "mw.shared-opening-state.provisional-transaction-surface-audit-manifest.v1",
+    "generated_utc":  "2026-08-25T03:12:20.4247633Z",
+    "classification":  "ProvisionalTransactionSurfaceMissingImplementationRequired",
+    "active_source_mutation_performed":  false,
+    "clone_source_mutation_performed":  false,
+    "opening_state_application_performed":  false,
+    "item_4_complete":  false,
+    "records":  [
+                    {
+                        "file":  "Shared_Opening_State_Provisional_Transaction_Surface_Audit_V1.json",
+                        "bytes":  624156,
+                        "sha256":  "34D2EBEA0A1B3D02BB8B7CB011309661FD34DA7DCE426554C62750EB439ECCF4"
+                    },
+                    {
+                        "file":  "Shared_Opening_State_Provisional_Transaction_Owner_Contract_Candidate_V1.md",
+                        "bytes":  1851,
+                        "sha256":  "AB4B45FB26274D430D5A53EF6865FCFBD58E4D87CC9E25196E7C731796189ACD"
+                    }
+                ]
+}

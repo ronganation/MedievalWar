@@ -1,0 +1,53 @@
+{
+  "document_id": "manifest.wales.network.opening-fixture.importer.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Wales_Network_Opening_Fixture_Importer_Manifest.md",
+    "bytes": 27597,
+    "physical_lines": 1266,
+    "sha256": "e7e5decfdda7bb0afc58c6b2231c1d88779e6d3158f5b2ffa23cd792b9fb40f9",
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Wales_Network_Opening_Fixture_Importer_Manifest_V2_Current_Authority_Refinement.md",
+    "bytes": 47862,
+    "physical_lines": 1846,
+    "sha256": "b3a57f0d256a697234864217c8688b507a0f14bc9eba71fb5459bc04b89e1331"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_headings_preserved": 67,
+    "edge_ids_preserved": [
+      "WALES-NET-EDGE-001",
+      "WALES-NET-EDGE-002",
+      "WALES-NET-EDGE-003",
+      "WALES-NET-EDGE-004",
+      "WALES-NET-EDGE-005",
+      "WALES-NET-EDGE-006",
+      "WALES-NET-EDGE-007",
+      "WALES-NET-EDGE-008"
+    ],
+    "removed_content": []
+  },
+  "current_contract": {
+    "nodes": 9,
+    "directed_BasisOnly_edges": 8,
+    "mutable_dimensions": 0,
+    "participation_guards": 2,
+    "current_guard_omissions": 0
+  },
+  "validation": {
+    "Static_Checked": true,
+    "Compile_Validated": false,
+    "Runtime_Validated": false,
+    "Importer_Validated": false,
+    "Save_Load_Validated": false,
+    "Migration_Validated": false,
+    "Replay_Validated": false,
+    "Performance_Validated": false
+  },
+  "static_check": {
+    "filename": "Wales_Network_Opening_Fixture_Importer_Manifest_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "FileName": "Run_Britania_PostInstall_Regressions.ps1",
+  "Purpose": "Run Denmark Network and complete Campaign post-Britania regressions with JSON gates",
+  "SHA256": "F7740A6089C694560FBF585526308474D72820A6F86E9327F9D78ECBF3465679",
+  "Bytes": 5498,
+  "Checks": {
+    "ue58": true,
+    "wait_passthru": true,
+    "denmark_14": true,
+    "campaign_min_374": true,
+    "zero_fail_skip": true,
+    "json_required": true,
+    "denmark_first": true,
+    "evidence_manifest": true,
+    "no_mutation": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "document": "Retinue_Longbowmen_V1_Master_Unit_Profile.md",
+  "sha256": "fd451e4f3500a044951635059cc18dd4459142e484f5b4144ab5d8dceeb28e13",
+  "pass": true,
+  "checks": {
+    "hash_matches": true,
+    "depth": true,
+    "terrain_25": true,
+    "legacy_complete": true,
+    "unit_locked": true,
+    "parent_benchmark": true,
+    "household": true,
+    "stakes": true,
+    "ammo": true,
+    "three_track": true,
+    "nonmutation": true,
+    "no_em_dash": true,
+    "no_escaped_underscore": true
+  }
+}

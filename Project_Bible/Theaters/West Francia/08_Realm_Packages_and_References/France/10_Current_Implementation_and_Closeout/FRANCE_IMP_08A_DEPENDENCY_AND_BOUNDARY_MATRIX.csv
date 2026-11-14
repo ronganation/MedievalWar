@@ -1,0 +1,14 @@
+Surface,Dependency,RequiredState,MutationAuthorized,FailureDisposition
+Predecessor,FRANCE-IMP-07B,MilitaryRecruitmentSupplyAutomationAccepted,false,STOP
+RealmAI,France Realm Personality AI V2,Readable locked and ReviewOnly,false,STOP
+Diplomacy,France Knowledge Communication Diplomacy V1,Readable locked and static-closed,false,STOP
+CampaignOpportunity,France Opening Campaign Opportunity Reservation V1,ReservationOnly,false,STOP
+Information,Character Network and diplomacy owners,Directional provenance supplied,false,HOLD
+Characters,Character lifecycle owner,Age agency and knowledge supplied,false,HOLD
+Governance,Governance owner,Principal office mandate and jurisdiction supplied,false,HOLD
+MaterialCapacity,06B and 07B review observations,Reference-only no quantities invented,false,HOLD
+ExternalRealms,Owner-published interfaces only,Reverse owner private state absent,false,HOLD
+Registry,Project Registry owner,No mutation,false,STOP
+OpeningState,Opening State owner,No binding or activation,false,STOP
+Runtime,AI diplomacy event war and command owners,No execution,false,STOP
+Production,Production owners,No promotion,false,STOP

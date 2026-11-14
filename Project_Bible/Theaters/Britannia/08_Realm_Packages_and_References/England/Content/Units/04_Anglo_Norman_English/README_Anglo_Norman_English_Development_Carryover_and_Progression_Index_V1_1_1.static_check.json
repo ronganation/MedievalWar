@@ -1,0 +1,19 @@
+{
+  "document": "README_Anglo_Norman_English_Development_Carryover_and_Progression_Index_V1_1_1.md",
+  "sha256": "1b3e7433e525317a842a8ea561198b3c7eece5b30c4dbab45197cf5c33f33a9a",
+  "pass": true,
+  "checks": {
+    "single_title": true,
+    "identity": true,
+    "move_state": true,
+    "count_state": true,
+    "shared_not_counted": true,
+    "weapon_locks": true,
+    "no_false_recursive_claim": true,
+    "no_old_owner_progress": true,
+    "no_expected_count": true,
+    "no_escaped_underscores": true,
+    "balanced_fences": true,
+    "stable_footer": true
+  }
+}

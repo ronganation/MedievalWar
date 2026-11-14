@@ -1,0 +1,39 @@
+{
+  "static_check_id": "StaticCheck.CharacterProfile.Barcelona.RamonBerenguerII.V1",
+  "document": "Ramon_Berenguer_II_of_Barcelona_V1_Developed_Character_Profile_Authority.md",
+  "version": "1.0.0",
+  "result": "Pass",
+  "physical_lines": 525,
+  "words": 4127,
+  "bytes": 36936,
+  "sha256": "768c36af8c1882c6d58bdfa4a8baf72d300e04e25e62658134894e2544bb45ed",
+  "checks": {
+    "sections_1_through_50_present": true,
+    "three_temporal_tracks_present": true,
+    "reviewonly_preserved": true,
+    "twin_independence_present": true,
+    "joint_rule_not_preloaded": true,
+    "future_general_boundary_present": true,
+    "failure_recovery_present": true,
+    "ai_intent_present": true,
+    "nonmutation_receipt_present": true,
+    "balanced_fences": true,
+    "fence_count": 20,
+    "escaped_underscore_count": 0,
+    "em_dash_count": 0,
+    "stable_footer_count": 1,
+    "final_marker_count": 1
+  },
+  "mutation_receipt": {
+    "registry_rows_created": 0,
+    "opening_state_mutations": 0,
+    "parentage_or_twin_mutations": 0,
+    "household_or_education_mutations": 0,
+    "succession_or_title_mutations": 0,
+    "relationship_mutations": 0,
+    "runtime_mutations": 0,
+    "unreal_project_mutations": 0,
+    "real_payload_imports": 0
+  },
+  "validation_scope": "Static design-authority and file-hygiene checks only. No Registry, Opening State, identity, lifecycle, parentage, twin status, household, custody, guardianship, education, succession, title, relationship, command, runtime, Unreal, save, migration, replay, performance, battle, or real-payload validation."
+}

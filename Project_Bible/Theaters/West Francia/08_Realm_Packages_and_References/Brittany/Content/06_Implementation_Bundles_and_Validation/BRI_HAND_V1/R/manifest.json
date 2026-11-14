@@ -1,0 +1,128 @@
+{
+  "archive_root": "BRI_HAND_V1",
+  "file_count_excluding_manifest": 23,
+  "files": [
+    {
+      "bytes": 22349,
+      "path": "A/architecture_map.md",
+      "sha256": "9CD643B92A86A0C077F8EF0F68A3DCF5800CD445B84514F4866ED0B32A9EAEA8"
+    },
+    {
+      "bytes": 1121,
+      "path": "A/architecture_map_Manifest.json",
+      "sha256": "D09C5CA0431289CE66563D2D8CD50206744A7C773CF583512C6C7CB68170D285"
+    },
+    {
+      "bytes": 2638,
+      "path": "C/candidate_to_native.json",
+      "sha256": "9BC57255242CF5D13A7377B5690CB796519496D1F6490DE6FE0C44F60A117FAC"
+    },
+    {
+      "bytes": 282,
+      "path": "C/staging_paths.json",
+      "sha256": "2A8FC1B7B8B7F689611E83705E798C8E22A3298D89B3BAC5DA52A0097EDF69EC"
+    },
+    {
+      "bytes": 320,
+      "path": "C/tag_reservations.json",
+      "sha256": "CF9FF1DF927F9E4B38CAB65A0224E4F4242F0FBDA0CB7EFDCE1050FB76C2F5CE"
+    },
+    {
+      "bytes": 243,
+      "path": "E/blockers.json",
+      "sha256": "3A1D005E5EB037F389BF7E0D689F625B6FA96F758E14226B3551A8B333E96F26"
+    },
+    {
+      "bytes": 475,
+      "path": "E/lifecycle_firewalls.json",
+      "sha256": "B94C09C35D66CFB8CAEA936D67247B99C5FF110F3898879CA1F6CD91FC9319D6"
+    },
+    {
+      "bytes": 368,
+      "path": "E/static_evidence.json",
+      "sha256": "F83F14A0B254DC1E78BA796766A2D9B85702A99C67C31793A5A6C17EF1FA4192"
+    },
+    {
+      "bytes": 1019,
+      "path": "H/README.md",
+      "sha256": "EE1EDF541A4BFC9C172590224F5A3F7321225181212F80F539167CA8F051DB9D"
+    },
+    {
+      "bytes": 264,
+      "path": "H/next_gate.json",
+      "sha256": "6E8622DA14689AF75E92630692658AB418A7A91B2A7C146FACD103C322FB3435"
+    },
+    {
+      "bytes": 774,
+      "path": "M/gates.json",
+      "sha256": "A3DCC5D1277E2E163170412D7FF8E3A30F3350AB38FB122569F9C73FA2FBC0C7"
+    },
+    {
+      "bytes": 639,
+      "path": "M/policy.json",
+      "sha256": "AAD07B1151DD8D5F5431A2285D1AB609A4E4D20D49F4A4F2697B627F4DE4CFC0"
+    },
+    {
+      "bytes": 967,
+      "path": "M/sources.json",
+      "sha256": "DF58CFF49C74F647A979C32C3B9A496507BB7F4FE77505360744A3D06EBCD59D"
+    },
+    {
+      "bytes": 2202,
+      "path": "S/__pycache__/discover_project_readonly.cpython-312.pyc",
+      "sha256": "8D4B84533FC057E5FDB952A03953B10E395BB26517E8A1A411743672E6BF38C2"
+    },
+    {
+      "bytes": 1293,
+      "path": "S/__pycache__/validate_handoff.cpython-312.pyc",
+      "sha256": "EE5AAF1A16D591E338622F95BACA39495088EA9AF7B0530719E0650EDDBC1F20"
+    },
+    {
+      "bytes": 1192,
+      "path": "S/discover_project_readonly.ps1",
+      "sha256": "F5614C27F1D3EC68C119A9EB548D8CEA7DC289B6051BB40859C0E8497FA989C5"
+    },
+    {
+      "bytes": 995,
+      "path": "S/discover_project_readonly.py",
+      "sha256": "94D01CC3964012BE76767B81EAF0CD5B2A2358EE0B8F376556D748E782BC6F1A"
+    },
+    {
+      "bytes": 588,
+      "path": "S/validate_handoff.py",
+      "sha256": "7BC85CDA30F6921CFBEC3B3A5E03122F2CD8C9AC541806F06705ABC47A5FE262"
+    },
+    {
+      "bytes": 520,
+      "path": "T/discovery_receipt.template.json",
+      "sha256": "93DD3665B41A2E73563F50E1FFACC26172B72852944B429D75ABE78AE5A885E8"
+    },
+    {
+      "bytes": 295,
+      "path": "T/dry_run_receipt.template.json",
+      "sha256": "47C706BA15E426FD3D0081684072559F0621FC062C368F5E77D3C8CC976B483F"
+    },
+    {
+      "bytes": 244,
+      "path": "T/owner_decision_packet.template.json",
+      "sha256": "83DD2F90BAB0BB1032206307D1665A5B1B9AF4719C735A65172B1813590E70DF"
+    },
+    {
+      "bytes": 190,
+      "path": "T/prewrite_plan.template.json",
+      "sha256": "DE4D6BF32B5D95F5816E3B3F5E71916F1F3138747DCF819B1A8E1EBABEE63A3A"
+    },
+    {
+      "bytes": 152,
+      "path": "T/rollback_receipt.template.json",
+      "sha256": "B26829C322DEB05063A0EE3CBA96733FC363BE40E0CBAF1C5598DBD769E95181"
+    }
+  ],
+  "handoff_id": "handoff.brittany.ue5_8.bulk.v1",
+  "mode": "ReadOnlyDiscoveryAndCandidatePreparation",
+  "project_mutations": 0,
+  "project_native_discovery_complete": false,
+  "result": "READY_FOR_LOCAL_READ_ONLY_DISCOVERY_WITH_EXTERNAL_INPUTS_REQUIRED",
+  "source_inputs_complete": false,
+  "version": "1.0.0"
+}

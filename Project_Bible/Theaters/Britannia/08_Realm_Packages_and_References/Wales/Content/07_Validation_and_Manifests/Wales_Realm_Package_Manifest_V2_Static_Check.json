@@ -1,0 +1,20 @@
+{
+  "document_id": "static-check.manifest.realm.wales.package.v2",
+  "artifact": "Wales_Realm_Package_Manifest_V2.json",
+  "bytes": 10564,
+  "physical_lines": 297,
+  "sha256": "31050e7f58abc17fef4effa45c7adde356229e7c7428c57ab98596471406bab4",
+  "json_parsed": true,
+  "complete_repository_manifest": false,
+  "freeze_ready": false,
+  "exact_entry_count": 16,
+  "referenced_unhashed_entry_count": 15,
+  "mutations": {
+    "source_files": 0,
+    "Registry": 0,
+    "Opening_State": 0,
+    "Unreal": 0,
+    "runtime": 0,
+    "real_payload": 0
+  }
+}

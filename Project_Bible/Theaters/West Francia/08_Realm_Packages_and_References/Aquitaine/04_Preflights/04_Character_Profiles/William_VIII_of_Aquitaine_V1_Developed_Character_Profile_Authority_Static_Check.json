@@ -1,0 +1,25 @@
+{
+  "StaticCheckId": "StaticCheck.WilliamVIII.Aquitaine.V1",
+  "Document": "William_VIII_of_Aquitaine_V1_Developed_Character_Profile_Authority.md",
+  "Result": "Pass",
+  "Checks": {
+    "required_sections_present": true,
+    "three_tracks_present": true,
+    "current_aquitaine_chain_present": true,
+    "normandy_benchmark_present": true,
+    "britannia_benchmark_present": true,
+    "norse_benchmark_present": true,
+    "barbastro_optional": true,
+    "william_ix_excluded": true,
+    "no_numeric_attribute_sheet": true,
+    "balanced_fences": true,
+    "no_em_dash": true,
+    "no_escaped_underscores": true,
+    "stable_footer_once": true,
+    "final_marker": true
+  },
+  "Lines": 1266,
+  "Bytes": 51783,
+  "SHA256": "5a718602650c029afec36ce0472800616fb022015117c39b09ed2db72ee50b5a",
+  "ValidationScope": "Static design-authority checks only. No Registry, Opening State, relationship, title, office, Unreal, runtime, save, migration, replay, performance, battle, or real-payload validation."
+}

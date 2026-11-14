@@ -1,0 +1,320 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "artifact": {
+    "type": "TraitReputationRemainingAuthorityIntake",
+    "name": "Trait Reputation Remaining Authority Intake V1",
+    "version": "1.1",
+    "status": "AllThreeAuthorityIntakesClosed",
+    "authority_class": "Blocked Ownership Evidence Intake",
+    "target": "Unreal Engine 5"
+  },
+  "repository_placement": {
+    "canonical_directory": "Project_Bible/Frameworks/Characters/Trait_Reputation_Consolidation/Owner_Review_Packets",
+    "file": "Trait_Reputation_Remaining_Authority_Intake_V1.json"
+  },
+  "purpose": "Define the exact authority evidence required to resolve the final three blocked owner groups and 16 entries without reopening the eight statically resolved groups or authorizing mutation.",
+  "authority_bindings": [
+    {
+      "file": "Trait_Reputation_Owner_Acceptance_Submission_V1.json",
+      "sha256": "ba2f2c39c6099b7e084cd682c3eb8e0dd5ac98771e761e8828514f93593f9fc8",
+      "role": "MergedMasterAcceptanceSubmission"
+    },
+    {
+      "file": "Trait_Reputation_Owner_Routing_Manifest_V1.json",
+      "sha256": "1c073aa9ba4316022d37b465515e4584472704e24643b667f8ec44c2295cb123",
+      "role": "MergedRoutingManifest"
+    },
+    {
+      "file": "Trait_Reputation_Static_Owner_Decision_Pass_V1.json",
+      "sha256": "18df1ccd5357452ed8f5d9cc9a464d35e5107adaf252b5642a847a2725645c0a",
+      "role": "StaticDecisionPass"
+    }
+  ],
+  "count_contract": {
+    "resolved_groups_untouched": 8,
+    "resolved_entries_untouched": 86,
+    "open_authority_intakes": 0,
+    "blocked_entries": 0,
+    "total_groups": 11,
+    "total_entries": 86,
+    "reconciliation": "Pass"
+  },
+  "intakes": [
+    {
+      "owner_group_id": "trait-reputation.owner-group.005",
+      "requested_destination_authority": "Existing office, governance, or revenue-administration owner",
+      "entry_count": 1,
+      "submission_status": "PendingExplicitOwnerDecision",
+      "required_authority_family": "Office, Governance, or Revenue Administration",
+      "acceptable_authority_evidence": [
+        "Current office framework or implementation contract that owns appointment, tenure, jurisdiction, and office-derived state",
+        "Current governance or revenue-administration authority that explicitly owns tax-collection roles and derived presentation",
+        "Canonical Office registry rules confirming that an office is not a trait"
+      ],
+      "minimum_questions": [
+        "Is Tax Collector an office, appointment, delegated mandate, staff role, or derived presentation label?",
+        "Which owner writes appointment, jurisdiction, tenure, resources, and performance?",
+        "Does any bounded trait intent survive after office state is removed?"
+      ],
+      "prohibited_resolution": [
+        "Do not retain Tax Collector as a trait",
+        "Do not infer authority from a label",
+        "Do not create a universal Administration modifier"
+      ],
+      "affected_entries": [
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.024",
+          "entry": "Tax Collector",
+          "category": "Office-Derived State",
+          "audit_action": "Reassign",
+          "semantic_class": "OfficeGovernanceDerivedState",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        }
+      ],
+      "decision_state": "BlockedPendingAuthorityEvidence",
+      "mutation_permitted": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.006",
+      "requested_destination_authority": "Historical Memory",
+      "entry_count": 6,
+      "submission_status": "PendingExplicitOwnerDecision",
+      "required_authority_family": "Historical Memory",
+      "acceptable_authority_evidence": [
+        "Current Historical Memory framework or implementation contract separating fact, evidence, witness, narrative, reception, memory, and legacy",
+        "Historical Memory canonical/local ID and provenance rules",
+        "Historical Memory save and migration boundary"
+      ],
+      "minimum_questions": [
+        "Which records represent participation, witnessing, survival, victory, and later narrative?",
+        "Which owner retains fact and evidence?",
+        "When does a memory become known to an audience?"
+      ],
+      "prohibited_resolution": [
+        "Do not store historical events as permanent traits",
+        "Do not merge narrative with fact",
+        "Do not script later outcomes into Opening State"
+      ],
+      "affected_entries": [
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.073",
+          "entry": "Crusader Veteran",
+          "category": "Memory",
+          "audit_action": "Reassign",
+          "semantic_class": "HistoricalMemoryRecordOrEvidence",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.074",
+          "entry": "Defender of the Realm",
+          "category": "Memory",
+          "audit_action": "Reassign",
+          "semantic_class": "HistoricalMemoryRecordOrEvidence",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.075",
+          "entry": "Survivor of the Great Famine",
+          "category": "Memory",
+          "audit_action": "Reassign",
+          "semantic_class": "HistoricalMemoryRecordOrEvidence",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.072",
+          "entry": "Veteran of Hastings",
+          "category": "Memory",
+          "audit_action": "Reassign",
+          "semantic_class": "HistoricalMemoryRecordOrEvidence",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.077",
+          "entry": "Victor of Jerusalem",
+          "category": "Memory",
+          "audit_action": "Reassign",
+          "semantic_class": "HistoricalMemoryRecordOrEvidence",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.076",
+          "entry": "Witness to the Black Death",
+          "category": "Memory",
+          "audit_action": "Reassign",
+          "semantic_class": "HistoricalMemoryRecordOrEvidence",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        }
+      ],
+      "decision_state": "BlockedPendingAuthorityEvidence",
+      "mutation_permitted": false
+    },
+    {
+      "owner_group_id": "trait-reputation.owner-group.007",
+      "requested_destination_authority": "Historical Memory for narrative, audience reception, later reputation, and legacy",
+      "entry_count": 9,
+      "submission_status": "PendingExplicitOwnerDecision",
+      "required_authority_family": "Historical Memory plus Reputation boundary",
+      "acceptable_authority_evidence": [
+        "Current Historical Memory authority",
+        "Approved Reputation authority or boundary contract defining audience-specific reception",
+        "Evidence-to-reputation adoption, visibility, contradiction, decline, and removal rules",
+        "Canonical Reputation Dimension registry rules"
+      ],
+      "minimum_questions": [
+        "Are The Lion, The Conqueror, and similar labels epithets, narratives, reputation candidates, or presentation outputs?",
+        "Which audience knows and adopts each label?",
+        "What evidence supports, contradicts, suspends, or removes the reputation?",
+        "How is universal knowledge prohibited?"
+      ],
+      "prohibited_resolution": [
+        "Do not treat epithets as canonical person IDs",
+        "Do not create one universal reputation score",
+        "Do not convert unknown reception to zero",
+        "Do not equate reputation with historical truth"
+      ],
+      "affected_entries": [
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.082",
+          "entry": "The Builder",
+          "category": "Reputation",
+          "audit_action": "Reassign",
+          "semantic_class": "AudienceSpecificReputationCandidate",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.084",
+          "entry": "The Butcher",
+          "category": "Reputation",
+          "audit_action": "Reassign",
+          "semantic_class": "AudienceSpecificReputationCandidate",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.079",
+          "entry": "The Conqueror",
+          "category": "Reputation",
+          "audit_action": "Reassign",
+          "semantic_class": "AudienceSpecificReputationCandidate",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.085",
+          "entry": "The Cruel",
+          "category": "Reputation",
+          "audit_action": "Reassign",
+          "semantic_class": "AudienceSpecificReputationCandidate",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.078",
+          "entry": "The Lion",
+          "category": "Reputation",
+          "audit_action": "Reassign",
+          "semantic_class": "AudienceSpecificReputationCandidate",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.080",
+          "entry": "The Peacemaker",
+          "category": "Reputation",
+          "audit_action": "Reassign",
+          "semantic_class": "AudienceSpecificReputationCandidate",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.081",
+          "entry": "The Saintly",
+          "category": "Reputation",
+          "audit_action": "Reassign",
+          "semantic_class": "AudienceSpecificReputationCandidate",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.086",
+          "entry": "The Usurper",
+          "category": "Reputation",
+          "audit_action": "Reassign",
+          "semantic_class": "AudienceSpecificReputationCandidate",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        },
+        {
+          "source_entry_id": "legacy.character_trait_library.entry.083",
+          "entry": "The Wise",
+          "category": "Reputation",
+          "audit_action": "Reassign",
+          "semantic_class": "AudienceSpecificReputationCandidate",
+          "current_decision": "Pending",
+          "current_quarantine_state": "RequiredIfDestinationOwnerOrSemanticMeaningIsUnresolved",
+          "evidence_required": []
+        }
+      ],
+      "decision_state": "BlockedPendingAuthorityEvidence",
+      "mutation_permitted": false
+    }
+  ],
+  "resolution_process": [
+    "Supply the current authority document or implementation contract named by the intake.",
+    "Verify that the authority is current under project precedence.",
+    "Answer the minimum ownership questions with explicit typed boundaries.",
+    "Apply one allowed decision per affected entry.",
+    "Keep ambiguous entries quarantined.",
+    "Regenerate only packets 005, 006, and 007 plus the master acceptance submission and routing manifest.",
+    "Run zero-mutation consistency checks before canonical registry work."
+  ],
+  "run": {
+    "mode": "BlockedAuthorityIntakeGeneration",
+    "execution_status": "Completed",
+    "verdict": "PassAllAuthorityIntakesClosed",
+    "resolved_decisions_changed": 16,
+    "ownership_changes_executed": 0,
+    "canonical_ids_assigned": 0,
+    "registry_mutations": 0,
+    "content_mutations": 0,
+    "runtime_mutations": 0,
+    "save_mutations": 0,
+    "commit_attempted": false
+  },
+  "validation": {
+    "exact_blocked_groups_present": true,
+    "exact_16_entries_present": true,
+    "resolved_70_entries_untouched": true,
+    "evidence_requirements_present": true,
+    "prohibited_resolutions_present": true,
+    "compile_validated": false,
+    "runtime_validated": false,
+    "save_validated": false,
+    "migration_validated": false,
+    "all_intakes_closed": true
+  },
+  "smallest_useful_next_action": "Create Trait_Reputation_Canonical_ID_Submission_V1.json for retained Trait and Reputation definitions only, while preserving owner-specific IDs for Historical Memory, Governance, Development, Underage, Archetype, and Network records. Run a zero-mutation registry preflight before approval."
+}

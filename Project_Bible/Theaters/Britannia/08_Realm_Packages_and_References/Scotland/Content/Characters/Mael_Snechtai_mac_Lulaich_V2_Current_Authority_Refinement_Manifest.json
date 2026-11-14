@@ -1,0 +1,47 @@
+{
+  "document_id": "manifest.scotland.character.mael-snechtai.v2",
+  "version": "2.0.0",
+  "immediate_source": {
+    "filename": "Mael_Snechtai_mac_Lulaich.md",
+    "bytes": 5363,
+    "physical_lines": 367,
+    "sha256": "ab14541d79d875d324320995785a8884b2a0ce8b007957c1d2bc98e11faad01f",
+    "complete_source_verified": true,
+    "copy_method": "literal full-file prefix"
+  },
+  "successor": {
+    "filename": "Mael_Snechtai_mac_Lulaich_V2_Current_Authority_Refinement.md",
+    "bytes": 23548,
+    "physical_lines": 914,
+    "sha256": "f6517e9382dd97369945a9f8c3074b1197e91ff56ef768d9853a9bafaf492d62"
+  },
+  "preservation": {
+    "literal_source_prefix": true,
+    "source_fidelity_result": "pass",
+    "source_headings_preserved": 20,
+    "removed_content": []
+  },
+  "additions": {
+    "current_metadata": true,
+    "three_track_temporal_model": true,
+    "Opening_State_V2_handoff": true,
+    "Registry_V2_handoff": true,
+    "claim_and_candidacy_boundary": true,
+    "Moray_plurality": true,
+    "Gille_adjudication_reconciliation": true,
+    "specialist_owner_boundaries": true,
+    "validation_cases": 12
+  },
+  "authorizations": {
+    "source_overwrite": false,
+    "physical_promotion": false,
+    "Opening_State_activation": false,
+    "Registry_mutation": false,
+    "migration_execution": false,
+    "runtime_mutation": false
+  },
+  "static_check": {
+    "filename": "Mael_Snechtai_mac_Lulaich_V2_Current_Authority_Refinement_Static_Check.json",
+    "passed": true
+  }
+}

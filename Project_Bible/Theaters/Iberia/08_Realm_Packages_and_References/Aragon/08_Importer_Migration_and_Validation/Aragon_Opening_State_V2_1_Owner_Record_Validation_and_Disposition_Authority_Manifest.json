@@ -1,0 +1,35 @@
+{
+  "document_id": "Manifest.OwnerValidation.OpeningState.Aragon.1062.V2.1",
+  "authority_file": "Aragon_Opening_State_V2_1_Owner_Record_Validation_and_Disposition_Authority.md",
+  "sha256": "ED3B5F26186124445A9AACD1ABE128002DD9277E439BC700F9056DA28725D9AA",
+  "opening_state_input": "Aragon_Opening_State_1062_V2_1_Strong_Integrated_Developed_Realm_Parity_Authority.md",
+  "opening_state_input_sha256": "C4BAEA3E85A88973E80A41D8E2AAB5919C143E90EF41841EB1C3BF68D7DDCC1F",
+  "result": "PASS_WITH_COMPLETE_OWNER_ROUTING__OWNER_RECEIPTS_AND_EXTERNAL_COMPATIBILITY_OPEN",
+  "checks": {
+    "characters": 5,
+    "memory": 5,
+    "momentum": 11,
+    "emergence": 11,
+    "two_sancho": true,
+    "barbastro_dormant": true,
+    "candidate_json_blocked": true,
+    "zero_mutation": true,
+    "balanced_fences": true,
+    "footer": 1,
+    "escaped_underscore": 0,
+    "em_dash": 0,
+    "all_critical_checks_pass": true
+  },
+  "mutation_receipt": {
+    "SourceOverwrite": 0,
+    "OpeningAuthority": 0,
+    "CandidatePromotion": 0,
+    "Registry": 0,
+    "ExternalReceiptFabrication": 0,
+    "CandidateJson": 0,
+    "Runtime": 0,
+    "AdvancedSave": 0,
+    "Unreal": 0
+  },
+  "next_file": "Aragon_Opening_State_V2_1_Owner_Receipt_Register.md"
+}

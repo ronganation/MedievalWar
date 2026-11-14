@@ -1,0 +1,19 @@
+{
+  "document": "France_Realm_Source_Authority_Portfolio_and_Implementation_Discovery_V1.md",
+  "passed": true,
+  "checks": {
+    "project_bible_2_4": true,
+    "checklist_3_7": true,
+    "ue_5_8": true,
+    "three_track": true,
+    "package_presence_layered": true,
+    "character_authority_identified": true,
+    "recursive_inventory_not_claimed": true,
+    "zero_mutations": true,
+    "balanced_yaml_fences": true,
+    "no_escaped_underscores": true,
+    "no_em_dash": true,
+    "stable_footer": true
+  },
+  "validation_scope": "content-based static partial France discovery; no recursive package access, Registry mutation, Opening State activation, importer, migration, compile, runtime, save-load, replay, performance, battle, or physical promotion validation"
+}

@@ -1,0 +1,38 @@
+{
+  "ManifestId": "manifest.schema.leon_castile.opening_state.v2",
+  "ManifestVersion": "1.0.0",
+  "SchemaFile": "Leon_Castile_Opening_State_Package_Schema_V2.json",
+  "SchemaVersion": "2.0.0",
+  "SchemaSha256": "d76fc2ecfe743ef47516ce0096f921f155cfa83de3518f22892f6c4e0ea1b39b",
+  "SchemaBytes": 65676,
+  "SchemaLines": 2016,
+  "ImmediateSubstantiveSource": "Leon_Castile_Opening_State_Package_Schema_V1.json",
+  "ImmediateSourceSha256": "5a20c6a0cb7c7832bf0f8cefa7bf2dcb472e835c283cf979c3e8a5c7c412249a",
+  "ControllingContract": "Leon_Castile_Machine_Readable_Opening_State_Package_Contract_V2_Brother_Mechanics_Integrated.md",
+  "ControllingOpeningAuthority": "Leon_Castile_Opening_State_1062_V2_1_Brother_Mechanics_Integrated_Authority.md",
+  "Checks": {
+    "Draft202012MetaSchemaPass": true,
+    "ValidSanchoOverlayPass": true,
+    "MismatchedPersonRejected": true,
+    "OverlayAuthorityCreationRejected": true,
+    "ContentAndOverlayVariants": true,
+    "ExplicitEmptyCollectionCount": 55,
+    "BrotherRouteCount": 3,
+    "ThreeTemporalTracksPresent": true,
+    "StrictAdditionalProperties": true,
+    "V1SchemaPreserved": true
+  },
+  "AllChecksPass": true,
+  "EvidenceBoundary": {
+    "JSONSchemaMetaValidation": "PASS",
+    "PositiveOverlayValidation": "PASS",
+    "NegativeOverlayPairingValidation": "PASS",
+    "CanonicalPayloadV2Validation": "NOT_RUN",
+    "AllThreeGeneratedOverlaysValidation": "NOT_RUN",
+    "ImporterValidation": "NOT_RUN",
+    "CompileValidation": "NOT_RUN",
+    "RuntimeValidation": "NOT_RUN",
+    "SaveLoadValidation": "NOT_RUN",
+    "ReplayValidation": "NOT_RUN"
+  }
+}

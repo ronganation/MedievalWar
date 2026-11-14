@@ -1,0 +1,54 @@
+﻿SHARED SAVE PROPOSED API CHANGES V1
+NON-MUTATING DESIGN DIFF
+
+1. MWCampaignTurnSubsystem.h
+
+Add private or save-owner-only candidate preparation:
+
+    bool PrepareCampaignStateCandidate(
+        const FMWCampaignState& InputState,
+        FMWCampaignState& OutPreparedState) const;
+
+Add save-owner-only installation. Do not expose as BlueprintCallable:
+
+    bool InstallValidatedCampaignState(
+        FMWCampaignState PreparedState,
+        bool bPreserveRegisteredDefinitions,
+        bool bResetCommittedTraces);
+
+Add an internal transaction snapshot type or equivalent private storage covering:
+
+    CampaignState
+    CurrentPhase
+    bInitialized
+    registered definition arrays
+    LastCommitted trace arrays
+    prior state hash
+
+2. MWCampaignTurnSubsystem.cpp
+
+Extract lines currently owned by InitializeCampaign candidate preparation into PrepareCampaignStateCandidate.
+Keep InitializeCampaign rejection when bInitialized is true.
+Keep opening initialization clearing registered definitions.
+For loaded-state installation, preserve registered definitions and reset committed traces.
+Do not restore historical ReplaceCampaignState as BlueprintCallable.
+
+3. MWCampaignSaveSubsystem.cpp
+
+Replace direct calls to ReplaceCampaignState with a bounded Turn-owner load transaction.
+Remove hard-coded loader acceptance of schemas 4 through 6 unless migration owners are added.
+Require candidate preparation to decide schema acceptance.
+Capture the complete Turn transaction snapshot before installation.
+Rollback the complete snapshot on installation or hash failure.
+
+4. MWCampaignSaveGame.h
+
+Keep SaveFormatVersion at 1 for the isolated proposal.
+Do not change CampaignSchemaVersion default until the Turn owner resolves schema authority.
+Do not add fields without owner approval.
+
+5. MWCampaignSaveRestorationTests.cpp
+
+Add focused isolated tests listed by Shared_Save_Isolated_Adaptation_Specification_V1.md.
+
+No production source mutation is authorized by this proposal.

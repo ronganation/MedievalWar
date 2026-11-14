@@ -1,0 +1,82 @@
+{
+  "records": [
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "disposition": "CandidateOpeningLivingPerson",
+      "owner_authority": "Brittany_Character_Authorities_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "realm_scope": "realm.brittany",
+      "record_kind": "PersonDefinition",
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "stable_id": "person.conan_ii_brittany",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "disposition": "CandidateOpeningLivingPerson",
+      "owner_authority": "Brittany_Character_Authorities_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "realm_scope": "realm.brittany",
+      "record_kind": "PersonDefinition",
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "stable_id": "person.odo_penthievre",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "disposition": "CandidateOpeningLivingPerson",
+      "owner_authority": "Brittany_Character_Authorities_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "realm_scope": "realm.brittany",
+      "record_kind": "PersonDefinition",
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "stable_id": "person.hawise_brittany",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "disposition": "CandidateOpeningLivingPerson",
+      "owner_authority": "Brittany_Character_Authorities_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "realm_scope": "realm.brittany",
+      "record_kind": "PersonDefinition",
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "stable_id": "person.hoel_cornouaille",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "disposition": "CandidateOpeningLivingPersonQualified",
+      "owner_authority": "Brittany_Character_Authorities_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "realm_scope": "realm.brittany",
+      "record_kind": "PersonDefinition",
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "stable_id": "person.rivallon_i_dol",
+      "validation_state": "UnvalidatedCandidate"
+    },
+    {
+      "activation_state": "Inactive",
+      "candidate_or_published_status": "Candidate",
+      "disposition": "HistoricalOnlyNoLivingOpeningInstance",
+      "owner_authority": "Brittany_Character_Authorities_V1_2_Current_Authority_Integration_Refinement_FULL.md",
+      "realm_scope": "realm.brittany",
+      "record_kind": "PersonDefinition",
+      "scenario_scope": [
+        "Scenario.Brittany.1062January"
+      ],
+      "stable_id": "person.alan_iii_brittany",
+      "validation_state": "UnvalidatedCandidate"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "StaticCheckId": "static-check.aquitaine.current-machine-readable-candidate-bundle.v1.1",
+  "AuthorityFile": "Aquitaine_Current_Machine_Readable_Candidate_Bundle_V1.md",
+  "AuthoritySHA256": "dcb44470ac93d1bb7f99e67f1b1c77bb15b41b7f1d65f2ed48320681d4a8f17b",
+  "Checks": [
+    {
+      "Name": "CopyFirstOldPortfolioPreserved",
+      "Result": "Pass"
+    },
+    {
+      "Name": "EvidenceChronologyFileAdded",
+      "Result": "Pass"
+    },
+    {
+      "Name": "UncertaintyFileAdded",
+      "Result": "Pass"
+    },
+    {
+      "Name": "PlannedTotal30",
+      "Result": "Pass"
+    },
+    {
+      "Name": "YAMLTotal28",
+      "Result": "Pass"
+    },
+    {
+      "Name": "EvidenceAuthorityLinked",
+      "Result": "Pass"
+    },
+    {
+      "Name": "UncertaintyAuthorityLinked",
+      "Result": "Pass"
+    },
+    {
+      "Name": "HistoricalAuditLinked",
+      "Result": "Pass"
+    },
+    {
+      "Name": "CandidateUncertainties30",
+      "Result": "Pass"
+    },
+    {
+      "Name": "SelectionsZero",
+      "Result": "Pass"
+    },
+    {
+      "Name": "ThreeTrackPreserved",
+      "Result": "Pass"
+    },
+    {
+      "Name": "BarbastroInactive",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoRegistryPromotion",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoOpeningActivation",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoUnrealImport",
+      "Result": "Pass"
+    },
+    {
+      "Name": "MarkdownFencesBalanced",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEscapedUnderscores",
+      "Result": "Pass"
+    },
+    {
+      "Name": "NoEmDash",
+      "Result": "Pass"
+    },
+    {
+      "Name": "UpdateLedgerPresent",
+      "Result": "Pass"
+    },
+    {
+      "Name": "StableFooterOne",
+      "Result": "Pass"
+    },
+    {
+      "Name": "FinalMarkerCorrect",
+      "Result": "Pass"
+    }
+  ],
+  "Summary": {
+    "Total": 21,
+    "Passes": 21,
+    "Failures": 0,
+    "Result": "Pass"
+  },
+  "MutationStatus": {
+    "SourceFilesModified": 0,
+    "RegistryMutations": 0,
+    "CanonicalPromotions": 0,
+    "AliasExecutions": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

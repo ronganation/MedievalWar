@@ -1,0 +1,30 @@
+{
+  "document": "England_Mounted_Men_at_Arms_Knights_and_Royal_Household_Cavalry_Reconciliation_V1.md",
+  "version": "1.0.0",
+  "status": "ReviewOnlyIntegratedFullDepthMountedCandidateReconciliation",
+  "sha256": "e371cf68f2e7813d670951f8bb77a0f65315a6fdc21d78b7fa59a2bbb2c8c6ee",
+  "size_bytes": 41890,
+  "line_count": 880,
+  "numbered_sections": 66,
+  "decisions": {
+    "English_Knights": "RetainDistinctNextProfile",
+    "Mounted_Men_at_Arms": "RetainDistinctSecondProfile",
+    "Royal_Household_Knights": "RetainDeferredThirdProfile"
+  },
+  "benchmarks": [
+    "England_Mounted_Unit_Era_and_Horse_Pool_Progression_Map_V2.md",
+    "Mounted_Thegns_V1_Master_Unit_Profile.md",
+    "Earls_Horsemen_V2_Master_Unit_Profile.md",
+    "Mounted_Sergeants_V2_Master_Unit_Profile.md",
+    "Hobilars_V1_Master_Unit_Profile.md",
+    "Men_at_Arms_V2_Master_Unit_Profile.md"
+  ],
+  "source_files_modified": [],
+  "source_files_deleted": [],
+  "exact_values_promoted": [],
+  "stable_IDs_allocated": [],
+  "Registry_changes": [],
+  "Opening_State_changes": [],
+  "runtime_changes": [],
+  "Unreal_changes": []
+}

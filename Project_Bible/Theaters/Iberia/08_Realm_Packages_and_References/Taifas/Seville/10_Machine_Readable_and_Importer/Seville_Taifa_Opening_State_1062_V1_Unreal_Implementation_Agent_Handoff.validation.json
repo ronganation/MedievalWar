@@ -1,0 +1,153 @@
+{
+  "ValidationProfileId": "validation.seville_taifa.opening_state_1062.unreal_implementation_handoff.v1",
+  "InternalVersion": "1.0.0",
+  "Status": "VALIDATION_PROFILE_DEFINED_EXECUTION_NOT_RUN",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.md",
+    "InternalVersion": "1.0.0",
+    "Bytes": 16122,
+    "SHA256": "efd4460c2b5a2e75ed09bc1cc1c241d8039dfb76296955af27cc9fcee28480bb",
+    "HashDisposition": "REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "ProtectedBaseline": {
+    "OpeningStateAuthorityInternalVersion": "1.3.0",
+    "MachineReadableContractInternalVersion": "1.2.0",
+    "PayloadCompatibilityVersion": "1.0.0",
+    "OwnerRoutingRequests": 18,
+    "DirectedKinshipBindings": 2,
+    "DefinitionFamilyBindings": 11,
+    "TotalExplicitEmptyCollections": 70,
+    "OpeningFixtureDefinitions": 39,
+    "DefinitionFixtureDefinitions": 29,
+    "UnsupportedActiveInstancesCreated": 0
+  },
+  "PreflightRules": [
+    {
+      "Code": "SEV_UE_PATH_REQUIRED",
+      "Severity": "Fatal",
+      "Rule": "Expected Unreal project path must resolve to C:/UnrealProjects/MedievalWar before architecture inspection is accepted."
+    },
+    {
+      "Code": "SEV_UE_README_REQUIRED",
+      "Severity": "Fatal",
+      "Rule": "Controlling project README and architecture authorities must be identified before implementation planning."
+    },
+    {
+      "Code": "SEV_UE_ONEDRIVE_CONFLICT",
+      "Severity": "Fatal",
+      "Rule": "OneDrive and project-local authority conflicts must be resolved before implementation."
+    },
+    {
+      "Code": "SEV_UE_BASELINE_MISMATCH",
+      "Severity": "Fatal",
+      "Rule": "The protected Seville baseline must match the handoff authority exactly."
+    },
+    {
+      "Code": "SEV_UE_LOCAL_FRAMEWORK",
+      "Severity": "Fatal",
+      "Rule": "A Seville-local replacement for a missing shared framework is prohibited without explicit shared-owner authority."
+    },
+    {
+      "Code": "SEV_UE_TEMPORAL_COLLAPSE",
+      "Severity": "Fatal",
+      "Rule": "Historical, Biological, and Campaign Season tracks must remain independently owned and serialized."
+    },
+    {
+      "Code": "SEV_UE_DEFAULT_SYNTHESIS",
+      "Severity": "Fatal",
+      "Rule": "Unknown or IntentionalEmpty state must not become a guessed runtime default."
+    },
+    {
+      "Code": "SEV_UE_UNAUTHORIZED_MUTATION",
+      "Severity": "Fatal",
+      "Rule": "Batch 0 and Batch 1 permit no source, Registry, runtime, real-payload, advanced-save, or Unreal mutation."
+    }
+  ],
+  "BatchValidation": {
+    "B0": {
+      "RequiredEvidence": [
+        "Verified project path",
+        "Controlling README references",
+        "Module and plugin inventory",
+        "Existing interface references",
+        "No-mutation receipt"
+      ],
+      "PassRequiresAll": true
+    },
+    "B1": {
+      "RequiredEvidence": [
+        "12 interface-family dispositions",
+        "Dependency graph",
+        "Owner graph",
+        "Zero unowned gaps",
+        "Zero local replacement frameworks"
+      ],
+      "PassRequiresAll": true
+    },
+    "B2": {
+      "RequiredAssertions": [
+        "Canonical identity mapping complete",
+        "Three temporal tracks independent",
+        "Owner request count equals 18",
+        "Explicit-empty count equals 70",
+        "Definition-family runtime instances equal 0",
+        "Unsupported defaults equal 0"
+      ]
+    },
+    "B3": {
+      "OpeningFixturesRequired": 39,
+      "DefinitionFixturesRequired": 29,
+      "AuthoritativeMutationsRequired": 0,
+      "DeterminismMismatchesRequired": 0
+    },
+    "B4": {
+      "InitialAtomicCommitRequired": 1,
+      "DeterministicReceiptRequired": 1,
+      "RepeatDispositionRequired": "AlreadyApplied",
+      "RepeatMutationsRequired": 0,
+      "FatalPathMutationsRequired": 0,
+      "ConflictingReceiptRejectedRequired": true,
+      "AdvancedSaveRejectedRequired": true
+    },
+    "B5": {
+      "CompileRequired": "PASS",
+      "SaveLoadRequired": "PASS",
+      "DirectMigrationRequired": "PASS",
+      "ReplayDeterminismRequired": "PASS",
+      "TemporalPersistenceRequired": "PASS",
+      "AdvancedDivergencePreservedRequired": true
+    },
+    "B6": {
+      "ExplicitOwnerPromotionDispositionRequired": true,
+      "AutomaticProductionActivation": false
+    }
+  },
+  "CurrentExecutionState": {
+    "Batch0Executed": false,
+    "Batch1Executed": false,
+    "CompileRuns": 0,
+    "RuntimeRuns": 0,
+    "FixturesExecuted": 0,
+    "OwnerApprovalsRecorded": 0,
+    "UnrealFilesModified": 0
+  },
+  "EvidenceBoundary": {
+    "ArchitectureInspectionValidated": false,
+    "ImporterValidated": false,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "ProductionPromotionAuthorized": false
+  },
+  "NextAction": "Run Batch 0 inspection read-only and populate evidence-backed results."
+}

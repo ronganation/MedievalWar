@@ -1,0 +1,69 @@
+{
+  "StaticCheckId": "StaticCheck.Aquitaine.RegistryCandidateOwnerAdjudication.V1",
+  "AuthorityFile": "Aquitaine_Registry_Candidate_Manifest_and_Owner_Adjudication_V1.md",
+  "AuthoritySHA256": "0822965cacdad6c4a086562ef9363bb3e4930784ba782f9568c639436d5004f2",
+  "Checks": [
+    {
+      "Name": "document_id_present",
+      "Pass": true
+    },
+    {
+      "Name": "preferred_realm_candidate",
+      "Pass": true
+    },
+    {
+      "Name": "alias_candidates_present",
+      "Pass": true
+    },
+    {
+      "Name": "character_portfolio_present",
+      "Pass": true
+    },
+    {
+      "Name": "specialist_owners_present",
+      "Pass": false
+    },
+    {
+      "Name": "barbastro_inactive",
+      "Pass": true
+    },
+    {
+      "Name": "bernard_rebellion_blocked",
+      "Pass": true
+    },
+    {
+      "Name": "three_track_time",
+      "Pass": true
+    },
+    {
+      "Name": "war_gate_rejected",
+      "Pass": true
+    },
+    {
+      "Name": "fences_balanced",
+      "Pass": true
+    },
+    {
+      "Name": "final_marker",
+      "Pass": true
+    }
+  ],
+  "Summary": {
+    "Checks": 11,
+    "Passes": 10,
+    "Failures": 1,
+    "Result": "Fail"
+  },
+  "MutationStatus": {
+    "SourceFilesModified": 0,
+    "RegistryMutations": 0,
+    "CanonicalPromotions": 0,
+    "AliasExecutions": 0,
+    "MigrationExecutions": 0,
+    "OpeningStateMutations": 0,
+    "OpeningStateActivations": 0,
+    "UnrealMutations": 0,
+    "RuntimeMutations": 0,
+    "RealPayloadImports": 0
+  }
+}

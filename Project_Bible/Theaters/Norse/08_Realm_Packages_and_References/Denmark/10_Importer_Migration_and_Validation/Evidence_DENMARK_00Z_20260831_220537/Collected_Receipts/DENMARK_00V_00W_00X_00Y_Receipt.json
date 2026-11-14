@@ -1,0 +1,19 @@
+﻿{
+    "TaskBundle":  "DENMARK-00V through DENMARK-00Y",
+    "Status":  "InstalledAdditiveReviewOnlyCommandEnvelope",
+    "FilesAdded":  3,
+    "ExistingFilesReplaced":  0,
+    "ExpectedCommands":  13,
+    "ExpectedExternalOwnerDeclarations":  4,
+    "ExpectedControlledNonCreations":  3,
+    "QualitativePayloadRetained":  true,
+    "NumericMappingAttempted":  false,
+    "OwnerSubmissionEligible":  false,
+    "OwnerCommitted":  false,
+    "RuntimeEnvelopeEligible":  false,
+    "ApplyCalled":  false,
+    "SaveWritten":  false,
+    "RegistryMutated":  false,
+    "RealmPayloadApplied":  false,
+    "TheaterActivated":  false
+}

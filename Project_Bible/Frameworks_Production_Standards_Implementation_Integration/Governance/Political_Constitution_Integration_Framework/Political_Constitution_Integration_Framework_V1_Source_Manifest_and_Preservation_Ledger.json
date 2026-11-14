@@ -1,0 +1,937 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "ArtifactType": "PoliticalConstitutionIntegrationFrameworkSourceManifestAndPreservationLedger",
+  "Name": "Political Constitution Integration Framework V1 Source Manifest and Preservation Ledger",
+  "Version": "1.0.0",
+  "RevisionDate": "2026-09-18",
+  "StableDocumentID": "Manifest.Framework.PoliticalConstitutionIntegration.V1",
+  "AuthorityID": "authority.manifest.shared-political-constitution-integration.v1",
+  "FileName": "Political_Constitution_Integration_Framework_V1_Source_Manifest_and_Preservation_Ledger.json",
+  "Placement": "Project_Bible/Frameworks/Governance",
+  "ConstitutionalAuthority": "Project Bible 2.4",
+  "OperationalAuthority": "Design Expansion Checklist 3.7",
+  "ImplementationTarget": "Unreal Engine 5.8",
+  "ScenarioOpening": "1062-01-01",
+  "OpeningCampaignSeason": "Winter",
+  "HistoricalProgression": "21 months per strategic turn",
+  "BiologicalProgression": "7 months per strategic turn",
+  "CampaignSeasonProgression": "1 ordered Winter, Spring, Summer, Autumn step per strategic turn",
+  "Status": "StaticCheckedSourceManifestAndPreservationLedger",
+  "ControllingAudit": "Political_Constitution_Shared_System_Current_Authority_Audit_Ownership_Gap_and_Outcome_Decision_V1.md",
+  "TargetFramework": {
+    "FileName": "Political_Constitution_Authority_Participation_Recognition_Legitimacy_and_Government_Transformation_Integration_Framework_V1.md",
+    "Bytes": 40738,
+    "Lines": 1046,
+    "SHA256": "53d643fac88750e9f564feee2b8c5b29b43c1873ff35a129f870c338116f2037"
+  },
+  "SourceTreatment": {
+    "Method": "VerifiedSourcePortfolioIntegration",
+    "SingleImmediateSubstantiveSourceExists": false,
+    "CopyFirstRuleDisposition": "No single source controls the complete integration scope; preserve each source owner and extract only shared constitutional semantics",
+    "RealmFactsTransferred": [],
+    "OpeningStateFactsTransferred": [],
+    "CanonicalIDsCreated": [],
+    "UnrealSymbolsCreated": [],
+    "SubstantiveSourcePortfoliosRemoved": [],
+    "SourceFilesModified": 0
+  },
+  "EvidenceBoundary": {
+    "SourceBytesAndSHA256Complete": false,
+    "Reason": "The OneDrive audit established source identity, declared scope, current authority role, and substantive excerpts, but did not provide current physical byte and SHA256 receipts for every source file.",
+    "FrameworkFingerprintVerified": true,
+    "StaticDocumentValidationOnly": true,
+    "CompileValidated": false,
+    "RuntimeValidated": false,
+    "SaveLoadValidated": false,
+    "MigrationValidated": false,
+    "ReplayValidated": false,
+    "PerformanceValidated": false
+  },
+  "OutcomeDecision": {
+    "Selected": "C",
+    "Meaning": "Authority is distributed across valid shared and Realm files; preserve those owners and create only the missing cross-owner constitutional integration authority",
+    "OutcomeASelected": false,
+    "OutcomeBSelected": false,
+    "OutcomeDSelected": false
+  },
+  "Sources": [
+    {
+      "SourceID": "SRC-001",
+      "FileName": "Realm_Governance_Source_Schema_and_Ownership_Disposition_Manifest.md",
+      "SourceClass": "SharedModernizationManifest",
+      "AuthorityRole": "Authoritative disposition of 194 legacy Governance concepts and specialist-owner routing",
+      "CurrentnessDisposition": "Current static-checked Governance modernization evidence",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Administrative topology remains with Realm Governance",
+        "Delegation, law, ecclesiastical authority, relationships, titles, claims, succession, economy, military, province, public order, memory, and reputation remain with specialist owners",
+        "Important people, regions, and decisions only"
+      ],
+      "RefinedConcepts": [
+        "Governance is consumed as administrative capability and performance rather than political sovereignty"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "Crown Authority as Governance state",
+        "Regional Authority as Governance state",
+        "Ruler-owned Domain Capacity",
+        "Automatic dynastic loyalty"
+      ],
+      "QuarantinedConcepts": [
+        "Ambiguous Regional Lord",
+        "Universal Influence",
+        "Undifferentiated Development",
+        "Regional Leaders"
+      ],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-002",
+      "FileName": "Realm_Governance_Implementation_Contract_Matrix.md",
+      "SourceClass": "SharedImplementationPlanningAuthority",
+      "AuthorityRole": "Six Governance contract families and single-writer boundaries",
+      "CurrentnessDisposition": "Current static-checked Governance implementation-planning evidence",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Governance Structure Definition",
+        "Governance Administration State",
+        "Governance Reach State",
+        "Governance Capacity State",
+        "Governance Performance State",
+        "Governance Performance Result"
+      ],
+      "RefinedConcepts": [
+        "Political integration references Governance outputs but does not write Governance state"
+      ],
+      "RejectedAsSharedCurrentTruth": [],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-003",
+      "FileName": "Realm_Governance_Contract_Field_Inventory.md",
+      "SourceClass": "SharedSemanticInventory",
+      "AuthorityRole": "180 semantic Governance fields",
+      "CurrentnessDisposition": "Current static-checked Governance evidence",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Engine-agnostic semantic inventory boundary"
+      ],
+      "RefinedConcepts": [],
+      "RejectedAsSharedCurrentTruth": [
+        "Using Governance fields as political authority or legitimacy truth"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-004",
+      "FileName": "Realm_Governance_Contract_Validation_Catalogue.md",
+      "SourceClass": "SharedValidationCatalogue",
+      "AuthorityRole": "180 Governance validation entries",
+      "CurrentnessDisposition": "Current static-checked Governance evidence",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Validation ownership and nonmutation discipline"
+      ],
+      "RefinedConcepts": [],
+      "RejectedAsSharedCurrentTruth": [
+        "Static validation represented as runtime validation"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-005",
+      "FileName": "Character_Network_Framework_v1.md",
+      "SourceClass": "SharedLegacyConstitutionalFramework",
+      "AuthorityRole": "Directed political, dynastic, institutional, military, and narrative relationships",
+      "CurrentnessDisposition": "Retained source requiring constitutional reconciliation against later owner decisions",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Medieval II strategic clarity with selective CK3 causality",
+        "Directional relationships",
+        "Person, office, institution, dynasty, region, and Realm separation",
+        "Bounded character focus",
+        "Event-driven evaluation",
+        "Political coalitions and power-center interfaces",
+        "Player-facing reason and consequence visibility"
+      ],
+      "RefinedConcepts": [
+        "Coalitions become temporary issue-specific interpretations",
+        "Delegation references specialist authority owner",
+        "Network outputs become owner-routed inputs",
+        "Political cases replace universal network-resource truth"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "Universal RealmAuthority resource",
+        "Universal NobleConsent resource",
+        "Universal influence dimensions as authoritative truth",
+        "Formula-shaped AI utilities as constitutional rules",
+        "Relationship fields substituting for claims, institutions, law, or consent"
+      ],
+      "QuarantinedConcepts": [
+        "Legacy network resource and stress labels pending owner-specific decomposition"
+      ],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-006",
+      "FileName": "Dynastic_Succession_Framework_v2.md",
+      "SourceClass": "SharedConstitutionalFramework",
+      "AuthorityRole": "Dynasty headship, title succession, claims, candidates, recognition, transitions, partition, usurpation, extinction, and restoration",
+      "CurrentnessDisposition": "Current substantive shared succession source",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Succession is a political transition",
+        "Succession object separation",
+        "Layered and directional recognition",
+        "Eligibility does not guarantee support or capacity",
+        "Regency is not succession",
+        "Partition is not automatically failure",
+        "Installation does not complete all functional transfer"
+      ],
+      "RefinedConcepts": [
+        "Candidate dimensions are consumed as owner-specific observations rather than one universal final score",
+        "Political transition routing includes participation, capacity, installation, and consolidation owners"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "One universal succession scoring service",
+        "Automatic civil war from low opinion",
+        "One universal law for all Realms"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-007",
+      "FileName": "Dynasty_Network_Framework_v2.md",
+      "SourceClass": "SharedConstitutionalFramework",
+      "AuthorityRole": "Dynasties, houses, branches, households, membership, continuity, extinction, and restoration",
+      "CurrentnessDisposition": "Current substantive shared dynasty source",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Dynasty, household, government, title, office, region, and Realm remain separate",
+        "Branch and household continuity interfaces"
+      ],
+      "RefinedConcepts": [],
+      "RejectedAsSharedCurrentTruth": [
+        "Dynasty membership creates government, loyalty, title possession, or regional control"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-008",
+      "FileName": "Law_and_Policy_Framework.md",
+      "SourceClass": "SharedConstitutionalFramework",
+      "AuthorityRole": "Law, custom, policy, jurisdiction, consent, promulgation, enforcement, compliance, resistance, and reform",
+      "CurrentnessDisposition": "Current substantive shared law source",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Law, policy, custom, decree, charter, privilege, judgment, treaty, and office instruction separation",
+        "Authority, jurisdiction, recognition, administration, enforcement, and compliance separation",
+        "Layered jurisdiction",
+        "Consultation and consent distinctions",
+        "Player workload restraint"
+      ],
+      "RefinedConcepts": [
+        "General participation lifecycle coordinates with Law owner without taking law ownership",
+        "Ratification and implementation become separately routed political stages"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "Universal legal ladder",
+        "Automatic Realm-wide compliance",
+        "Law as permanent modifier menu"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-009",
+      "FileName": "Ecclesiastical_Authority_Framework_V1.md",
+      "SourceClass": "SharedGovernanceFamilySpecialistFramework",
+      "AuthorityRole": "Ecclesiastical institutions, offices, occupancy, jurisdiction, appointment, patronage, sanctuary, mediation, and installation",
+      "CurrentnessDisposition": "Current static-checked specialist source under earlier Project Bible authority; semantics preserved with current constitutional controls",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Institution is not office",
+        "Office is not officeholder",
+        "Jurisdiction is not ownership",
+        "Nomination is not confirmation",
+        "Confirmation is not consecration",
+        "Patronage is not control",
+        "Unknown holder is not automatic vacancy",
+        "Opening State and Registry ownership boundaries"
+      ],
+      "RefinedConcepts": [
+        "Ecclesiastical recognition becomes one directional portfolio class",
+        "Political integration consumes ecclesiastical records without writing them"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "One Church faction",
+        "One Church loyalty score",
+        "Sacred standing as administrative capacity",
+        "Direct legitimacy, troops, money, knowledge, or ownership creation"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-010",
+      "FileName": "Province_Framework.md",
+      "SourceClass": "SharedRegionalFramework",
+      "AuthorityRole": "Regional administration, control, public order, integration, autonomy, devastation, and recovery",
+      "CurrentnessDisposition": "Current substantive shared regional source",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Legal ownership, military control, administration, and local acceptance separation",
+        "Regional difference does not equal rebellion",
+        "Resistance does not automatically create rebel armies"
+      ],
+      "RefinedConcepts": [
+        "Political escalation routes regional state without replacing Province or Public Order owners"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "One province control or loyalty score",
+        "Military presence creates political acceptance"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-011",
+      "FileName": "Realm_Personality_Framework_v2.md",
+      "SourceClass": "SharedRealmInterpretationFramework",
+      "AuthorityRole": "Realm identity, strategic interpretation, preferences, risk tolerance, and AI weighting",
+      "CurrentnessDisposition": "Current substantive shared personality source",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Realm Personality is not government",
+        "Authority-model preferences do not establish active political state",
+        "AI weighting only"
+      ],
+      "RefinedConcepts": [
+        "Political AI consumes Personality preferences while recording excluded facts and owner routes"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "Personality creates consent, recognition, government, or transformation"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-012",
+      "FileName": "Trait_and_Reputation_Authority_Planning.md",
+      "SourceClass": "SharedAuthorityPlanning",
+      "AuthorityRole": "Audience-specific perception and reputation ownership planning",
+      "CurrentnessDisposition": "Static-checked planning source",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Reputation is audience-specific current perception",
+        "Reputation does not equal historical truth or political legitimacy"
+      ],
+      "RefinedConcepts": [
+        "Legitimacy portfolio may reference reputation observations without merging them"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "Universal reputation or legitimacy blocks"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-013",
+      "FileName": "Campaign_Data_Architecture.md",
+      "SourceClass": "LegacySharedArchitecture",
+      "AuthorityRole": "Definition, Scenario, Runtime, Simulation, stable identity, save, migration, and validation architecture",
+      "CurrentnessDisposition": "Retained architecture source with legacy implementation assumptions",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Definition, Opening State, runtime state, and simulation separation",
+        "Stable identity principle",
+        "Title, office, institution, power center, claim, and succession separation",
+        "Save, migration, determinism, and validation concerns"
+      ],
+      "RefinedConcepts": [
+        "Architecture names are planning references, not current Unreal symbols",
+        "Initialization requires owner-approved active state and advanced-save firewall"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "Universal numeric legitimacy, recognition, relationship, claim-strength, and support fields",
+        "Premature C++ class and subsystem assumptions",
+        "Scenario initialization automatically activating unresolved state"
+      ],
+      "QuarantinedConcepts": [
+        "Legacy Gameplay Tag namespace and proposed Unreal structures pending project-native review"
+      ],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-014",
+      "FileName": "Diplomacy_Contact_Representation_Negotiation_Agreement_Obligation_Performance_Breach_and_Political_Settlement_Framework_V1.md",
+      "SourceClass": "CurrentSharedDiplomacyFramework",
+      "AuthorityRole": "Cross-actor contact, representation, negotiation, agreement, obligation, performance, breach, and settlement",
+      "CurrentnessDisposition": "Current Project Bible 2.4 and Checklist 3.7 interface authority",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Diplomatic principal and mandate separation",
+        "Ratification does not equal performance",
+        "Diplomacy does not own internal government, title, office, claim, succession, or jurisdiction truth",
+        "Owner-routed agreement and settlement"
+      ],
+      "RefinedConcepts": [
+        "Political Constitution supplies domestic authority, participation, ratification, implementation, and transformation queries"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "Diplomatic settlement creates domestic implementation or regional compliance"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-015",
+      "FileName": "Diplomacy_Vassalage_Tributary_Protectorate_Clientage_Submission_Marcher_Autonomy_and_Retained_Government_Framework_V1.md",
+      "SourceClass": "CurrentSharedDiplomacySpecialistFramework",
+      "AuthorityRole": "Negotiated subordination, retained government, autonomy, obligations, breach, separation, restoration, and integration interfaces",
+      "CurrentnessDisposition": "Current Project Bible 2.4 and Checklist 3.7 interface authority",
+      "RealmSpecificSource": false,
+      "ContentTransferRule": "Preserve declared owner and integrate only cross-owner semantics",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Subordination is negotiated and directional",
+        "Retained government preserves specified internal powers",
+        "Tribute is not taxation or vassalage",
+        "Submission is not annexation",
+        "Integration proposal is not integration"
+      ],
+      "RefinedConcepts": [
+        "Layered Government Arrangement references political participation, recognition, capacity, and Government Transformation owners"
+      ],
+      "RejectedAsSharedCurrentTruth": [
+        "Universal vassal status",
+        "Automatic obligation bundles",
+        "Automatic war entry, absorption, compliance, or integration"
+      ],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-016",
+      "FileName": "Wales_Realm_and_Political_Order_Authority_V1.md",
+      "SourceClass": "RealmExtractionSource",
+      "AuthorityRole": "Wales political order, rulership boundaries, participation, continuity, and transition gates",
+      "CurrentnessDisposition": "Current Realm-specific structural source",
+      "RealmSpecificSource": true,
+      "ContentTransferRule": "Structural semantics only; no Realm fact transfer",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Realm, ruler, political order, title, office, recognition, installation, capacity, control, acceptance, property, command, dynasty, and precedent separation",
+        "Consultative body contract",
+        "Regional difference does not equal rebellion"
+      ],
+      "RefinedConcepts": [
+        "Generalized shared participation and continuity contracts"
+      ],
+      "RejectedAsSharedCurrentTruth": [],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-017",
+      "FileName": "Ireland_Government_Political_Topology_Titles_Offices_and_Regional_Administration_Authority_V1_1_FULL.md",
+      "SourceClass": "RealmExtractionSource",
+      "AuthorityRole": "Ireland political topology, Government states, offices, councils, participation, continuity, retained government, clientage, and transitions",
+      "CurrentnessDisposition": "Current Realm owner-review candidate structural source",
+      "RealmSpecificSource": true,
+      "ContentTransferRule": "Structural semantics only; no Realm fact transfer",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Multiple governments within one Realm context",
+        "Government entity taxonomy",
+        "Council and participation records",
+        "Government Transition contract",
+        "Political form and operating-state separation",
+        "Records, seals, communication, property, treasury, routes, security, and institutional participation as separate dependencies"
+      ],
+      "RefinedConcepts": [
+        "Shared Government Definition, Government State, Participation, Political Case, and Transformation contracts"
+      ],
+      "RejectedAsSharedCurrentTruth": [],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-018",
+      "FileName": "Ireland_Claims_Succession_Installation_Recognition_and_Government_Conversion_Authority_V1_1_FULL.md",
+      "SourceClass": "RealmExtractionSource",
+      "AuthorityRole": "Claims, candidate review, recognition, installation, consolidation, Government Conversion, partition, displacement, and restoration",
+      "CurrentnessDisposition": "Current Realm owner-review candidate structural source",
+      "RealmSpecificSource": true,
+      "ContentTransferRule": "Structural semantics only; no Realm fact transfer",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Claim through consolidation lifecycle",
+        "Installation does not equal consolidation",
+        "Reversible conversion and restoration",
+        "Multiple simultaneous transition outcomes"
+      ],
+      "RefinedConcepts": [
+        "Shared cross-owner transition routing and Government Transformation lifecycle"
+      ],
+      "RejectedAsSharedCurrentTruth": [],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-019",
+      "FileName": "Sweden_Crown_Claims_Titles_Offices_and_Succession_Authority_V1_2_Current_Authority_Refinement_FULL.md",
+      "SourceClass": "RealmExtractionSource",
+      "AuthorityRole": "Crown, title, office, claim, succession, recognition, installation, and regional audience separation",
+      "CurrentnessDisposition": "Current Realm refinement structural source",
+      "RealmSpecificSource": true,
+      "ContentTransferRule": "Structural semantics only; no Realm fact transfer",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Realm, Crown, title, office, holder, claim, recognition, and control separation",
+        "Regional and assembly recognition may vary",
+        "No universal electorate"
+      ],
+      "RefinedConcepts": [
+        "Rulership institution and scoped Recognition Portfolio"
+      ],
+      "RejectedAsSharedCurrentTruth": [],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-020",
+      "FileName": "Almoravid_Realm_Governance_Confederational_Constitution_Delegation_Law_Title_Claim_and_Office_Authority_V1.md",
+      "SourceClass": "RealmExtractionSource",
+      "AuthorityRole": "Movement-state confederational constitution, delegation, law, titles, claims, and offices",
+      "CurrentnessDisposition": "Current Realm structural source",
+      "RealmSpecificSource": true,
+      "ContentTransferRule": "Structural semantics only; no Realm fact transfer",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Confederational and movement-centered political order",
+        "Participation and commitment are not territorial ownership",
+        "Juristic and movement-state interfaces"
+      ],
+      "RefinedConcepts": [
+        "Wider political-form capability without Western feudal universalization"
+      ],
+      "RejectedAsSharedCurrentTruth": [],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    },
+    {
+      "SourceID": "SRC-021",
+      "FileName": "Badajoz_Taifa_Delegated_Authority_and_Jurisdiction_Model_V1.md",
+      "SourceClass": "RealmExtractionSource",
+      "AuthorityRole": "Delegated authority, jurisdiction, power sets, oversight, reporting, conflict, and transactions",
+      "CurrentnessDisposition": "Current Realm static-checked structural source",
+      "RealmSpecificSource": true,
+      "ContentTransferRule": "Structural semantics only; no Realm fact transfer",
+      "CurrentBytes": null,
+      "CurrentSHA256": null,
+      "AdoptedConcepts": [
+        "Delegation and jurisdiction require explicit scope, oversight, reporting, conflict, and owner routing"
+      ],
+      "RefinedConcepts": [
+        "Office Mandate Interface and Temporary Authority Case"
+      ],
+      "RejectedAsSharedCurrentTruth": [],
+      "QuarantinedConcepts": [],
+      "SourceModified": false
+    }
+  ],
+  "ConceptDispositionLedger": [
+    {
+      "ConceptID": "CON-001",
+      "Concept": "Realm, ruler, government, Crown, title, office, occupant, dynasty, household, region, institution, and command separation",
+      "Action": "Adopt",
+      "SourceBasis": "Sources 005, 006, 008, 009, 013, 016-019",
+      "Disposition": "Core typed political constitution",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-002",
+      "Concept": "Realm Governance administrative topology, reach, capacity, and performance",
+      "Action": "Relocate",
+      "SourceBasis": "Sources 001-004",
+      "Disposition": "Preserve Realm Governance as sole owner",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-003",
+      "Concept": "Universal Crown Authority, Regional Authority, Domain Capacity, centralization, loyalty, legitimacy, and rebellion meters",
+      "Action": "Supersede",
+      "SourceBasis": "Sources 001, 005, 013",
+      "Disposition": "Replace with owner-specific portfolios and typed states",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-004",
+      "Concept": "Political authority source with scope, jurisdiction, limits, participants, capacity, review, revocation, and handback",
+      "Action": "AdoptAndEnrich",
+      "SourceBasis": "Sources 008, 016-021",
+      "Disposition": "Create shared PoliticalAuthoritySourceRecord",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-005",
+      "Concept": "Council, assembly, court, chapter, urban, communal, emergency, and confederational participation",
+      "Action": "AdoptAndEnrich",
+      "SourceBasis": "Sources 005, 008, 009, 016-020",
+      "Disposition": "Create body definition and actor-specific participation record",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-006",
+      "Concept": "Invitation, attendance, representation, advice, consent, ratification, implementation, and review separation",
+      "Action": "AdoptAndEnrich",
+      "SourceBasis": "Sources 008, 016-018",
+      "Disposition": "Create full non-linear participation lifecycle",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-007",
+      "Concept": "Claims, candidates, succession, recognition, installation, possession, government, acceptance, and consolidation",
+      "Action": "RelocateAndIntegrate",
+      "SourceBasis": "Sources 006, 017-019",
+      "Disposition": "Succession owners retain state; framework coordinates owner routing",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-008",
+      "Concept": "Directional and scoped recognition",
+      "Action": "AdoptAndEnrich",
+      "SourceBasis": "Sources 006, 009, 016-019",
+      "Disposition": "Create RecognitionObservation",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-009",
+      "Concept": "Actor-relative multidimensional legitimacy",
+      "Action": "AdoptAndEnrich",
+      "SourceBasis": "Sources 006, 008-012, 016-019",
+      "Disposition": "Create LegitimacyObservation without universal score",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-010",
+      "Concept": "Directed relationships, patronage, grievance, alignment, access, and information",
+      "Action": "Relocate",
+      "SourceBasis": "Sources 005, 011, 012",
+      "Disposition": "Character Network and Information owners retain state",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-011",
+      "Concept": "Temporary issue coalition",
+      "Action": "Refactor",
+      "SourceBasis": "Sources 005, 016-020",
+      "Disposition": "Interpret owner-visible positions without creating relationships or permanent parties",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-012",
+      "Concept": "Opposition, resistance, rebellion, civil war, recovery, and settlement",
+      "Action": "AdoptAndEnrich",
+      "SourceBasis": "Sources 005, 008, 010, 014-020",
+      "Disposition": "Create escalation and de-escalation routing without automatic progression",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-013",
+      "Concept": "Government Transformation",
+      "Action": "AdoptAndEnrich",
+      "SourceBasis": "Sources 014-018, 020",
+      "Disposition": "Create reversible owner-routed definition and state contracts",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-014",
+      "Concept": "Retained government, autonomy, clientage, tribute, submission, marcher, composite, civic, confederative, and layered rule",
+      "Action": "IntegrateByReference",
+      "SourceBasis": "Sources 015, 017, 018, 020",
+      "Disposition": "Diplomacy owns agreements; Political Constitution owns domestic compatibility and implementation query",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-015",
+      "Concept": "Regency, minority, incapacity, capture, emergency authority, custodianship, review, and handback",
+      "Action": "IntegrateByReference",
+      "SourceBasis": "Sources 001, 005, 006, 016-019, 021",
+      "Disposition": "Specialist owners retain validity; framework provides TemporaryAuthorityCase interface",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-016",
+      "Concept": "Records, seals, archives, regalia, communication, notice, witnesses, and access",
+      "Action": "IntegrateByReference",
+      "SourceBasis": "Sources 005, 008, 009, 014, 016-018",
+      "Disposition": "Evidence and communication owners retain state",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-017",
+      "Concept": "Political AI proposal and explanation",
+      "Action": "AdoptAndEnrich",
+      "SourceBasis": "Sources 005, 011, 014-020",
+      "Disposition": "AI proposes, excludes private and future inputs, and never executes owner mutations",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-018",
+      "Concept": "Definition, Opening State, runtime, transient evaluation, presentation, save, and migration separation",
+      "Action": "AdoptAndCorrect",
+      "SourceBasis": "Source 013 plus later Realm authorities",
+      "Disposition": "Preserve architecture while removing automatic unresolved activation",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-019",
+      "Concept": "Stable identities and Gameplay Tag proposals",
+      "Action": "QuarantineForImplementationReview",
+      "SourceBasis": "Source 013",
+      "Disposition": "No Registry IDs or Unreal symbols created by framework",
+      "RealmFactCreated": false
+    },
+    {
+      "ConceptID": "CON-020",
+      "Concept": "Wider map political-form capability",
+      "Action": "Adopt",
+      "SourceBasis": "Sources 015, 017-020",
+      "Disposition": "Support future forms without creating Italy, HRE, Byzantine, Rus, Caucasian, Balkan, or steppe Realm facts",
+      "RealmFactCreated": false
+    }
+  ],
+  "OwnershipPreservationMatrix": [
+    {
+      "OwnerID": "OWN-001",
+      "Owner": "RealmGovernance",
+      "PreservedScope": "Administrative structure, reach, capacity, performance",
+      "IntegrationRule": "ReadOnly input and effect owner",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-002",
+      "Owner": "LawAndPolicy",
+      "PreservedScope": "Law, custom, policy, jurisdiction, consent, compliance, resistance, reform",
+      "IntegrationRule": "Political cases request and consume legal owner records",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-003",
+      "Owner": "DynasticSuccessionAndClaimOwners",
+      "PreservedScope": "Claims, candidates, eligibility, succession, transition state",
+      "IntegrationRule": "Political integration coordinates recognition, installation, and consolidation only",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-004",
+      "Owner": "DynastyNetwork",
+      "PreservedScope": "Dynasty, house, branch, household, continuity",
+      "IntegrationRule": "No government or loyalty inferred",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-005",
+      "Owner": "CharacterNetworkAndInformationOwners",
+      "PreservedScope": "Relationships, patronage, grievance, alignment, access, knowledge",
+      "IntegrationRule": "Coalitions and legitimacy query, never overwrite",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-006",
+      "Owner": "TraitAndReputation",
+      "PreservedScope": "Audience-specific perception",
+      "IntegrationRule": "Legitimacy portfolio references but does not merge",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-007",
+      "Owner": "EcclesiasticalAuthority",
+      "PreservedScope": "Ecclesiastical institutions, offices, jurisdiction, recognition, patronage",
+      "IntegrationRule": "Separate owner receipts required",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-008",
+      "Owner": "ProvinceAndPublicOrder",
+      "PreservedScope": "Regional administration, acceptance, public order, resistance inputs",
+      "IntegrationRule": "Escalation cannot write regional state",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-009",
+      "Owner": "Diplomacy",
+      "PreservedScope": "Contact, representation, agreement, obligation, performance, breach, settlement",
+      "IntegrationRule": "Domestic ratification and implementation remain separate",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-010",
+      "Owner": "HistoricalOwners",
+      "PreservedScope": "Fact, evidence, memory, momentum, emergence",
+      "IntegrationRule": "Pressure and precedent cannot create active right",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-011",
+      "Owner": "OpeningState",
+      "PreservedScope": "Exact January 1062 facts",
+      "IntegrationRule": "Framework definitions create no opening instances",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-012",
+      "Owner": "Registry",
+      "PreservedScope": "Canonical IDs, aliases, collisions, ownership, migration",
+      "IntegrationRule": "No IDs published",
+      "OwnershipTransferred": false
+    },
+    {
+      "OwnerID": "OWN-013",
+      "Owner": "SpecialistResourceOwners",
+      "PreservedScope": "People, property, treasury, population, labor, routes, forces, supply",
+      "IntegrationRule": "Transformation and authority create no resources",
+      "OwnershipTransferred": false
+    }
+  ],
+  "RealmContentExclusionLedger": [
+    {
+      "RecordID": "REALM-001",
+      "RealmOrScope": "Wales",
+      "ExcludedContent": [
+        "Gruffudd opening state",
+        "Wales regional assignments",
+        "Wales titles, offices, claims, institutions, and council instances"
+      ],
+      "TransferredToSharedFramework": false
+    },
+    {
+      "RecordID": "REALM-002",
+      "RealmOrScope": "Ireland",
+      "ExcludedContent": [
+        "Ireland rulers, titleholders, claimants, governments, regions, offices, councils, communities, and opening requests"
+      ],
+      "TransferredToSharedFramework": false
+    },
+    {
+      "RecordID": "REALM-003",
+      "RealmOrScope": "Sweden",
+      "ExcludedContent": [
+        "Sweden Crown, candidates, assemblies, titles, offices, and recognition state"
+      ],
+      "TransferredToSharedFramework": false
+    },
+    {
+      "RecordID": "REALM-004",
+      "RealmOrScope": "Almoravids",
+      "ExcludedContent": [
+        "Almoravid people, confederational participants, jurists, titles, offices, commitments, routes, and opening state"
+      ],
+      "TransferredToSharedFramework": false
+    },
+    {
+      "RecordID": "REALM-005",
+      "RealmOrScope": "Badajoz",
+      "ExcludedContent": [
+        "Badajoz offices, delegates, jurisdictions, people, government, claims, and opening state"
+      ],
+      "TransferredToSharedFramework": false
+    },
+    {
+      "RecordID": "REALM-006",
+      "RealmOrScope": "FutureMap",
+      "ExcludedContent": [
+        "Italy",
+        "Holy Roman Empire",
+        "Byzantium",
+        "Balkans",
+        "Rus lands",
+        "Caucasian Realms",
+        "eastern European Realms",
+        "steppe-border actors"
+      ],
+      "TransferredToSharedFramework": false
+    }
+  ],
+  "Validation": {
+    "RequiredSourceCount": 21,
+    "SourceRecordsPresent": 21,
+    "ConceptDispositionCount": 20,
+    "OwnershipPreservationCount": 13,
+    "RealmExclusionCount": 6,
+    "EverySourceHasDispositionArrays": true,
+    "EveryConceptHasOneAction": true,
+    "EveryOwnerPreserved": true,
+    "RealmFactsTransferred": false,
+    "SubstantiveSourcePortfoliosRemoved": false,
+    "UniversalPoliticalScoreAccepted": false,
+    "OpeningStateFirewallPresent": true,
+    "RegistryPayloadImporterUnrealMutationAuthorized": false,
+    "StaticResult": "PASS_DOCUMENT_CONTENT_ONLY"
+  },
+  "AuthorizationBoundary": {
+    "RegistryMutationAuthorized": false,
+    "OpeningStateMutationAuthorized": false,
+    "PoliticalInstanceActivationAuthorized": false,
+    "RuntimeMutationAuthorized": false,
+    "SaveFormatMutationAuthorized": false,
+    "MigrationExecutionAuthorized": false,
+    "RealPayloadImportAuthorized": false,
+    "UnrealProjectMutationAuthorized": false
+  },
+  "NextAuthorizedArtifact": "Political_Constitution_Integration_Framework_V1_Static_Check.json"
+}

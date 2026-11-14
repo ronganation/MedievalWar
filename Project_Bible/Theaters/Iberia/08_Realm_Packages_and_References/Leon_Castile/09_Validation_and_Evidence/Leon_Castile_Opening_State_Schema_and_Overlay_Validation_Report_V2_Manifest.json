@@ -1,0 +1,42 @@
+{
+  "ManifestId": "manifest.report.leon_castile.opening_state.schema_overlay.v2",
+  "ManifestVersion": "1.0.0",
+  "ReportFile": "Leon_Castile_Opening_State_Schema_and_Overlay_Validation_Report_V2.json",
+  "ReportSha256": "33da9ec05250b934f34818a4fa335795a0307a10065fb8c96ce3d81994ed46a4",
+  "ReportBytes": 6722,
+  "ReportLines": 179,
+  "Status": "PASS_STATIC_DERIVED_VALIDATION_WITH_PROMOTION_BLOCK",
+  "PayloadSha256": "9fa0885f4a84eadfadfdc297a0870e680c4f14a01b653b67d9b67a6a7abfd80f",
+  "OverlayHashesReproduced": {
+    "sancho": "4e6c7f57e8f246b65a3213fde203500724e7a12c3313733b4bd24034a00425cb",
+    "alfonso": "62a95feb4033a994301b092bce5ee639e09ecf117aa546a8f8da50a0d0d10e5b",
+    "garcia": "52a6475aa6c558d3fc32012207d9a6d52fad71d1d62a209753ea7cac13e3af83"
+  },
+  "Checks": {
+    "ReportJsonParsePass": true,
+    "AllPayloadChecksPass": true,
+    "AllOverlayChecksPass": true,
+    "AllOverlayHashesReproduced": true,
+    "AllCrossArtifactChecksPass": true,
+    "AllNegativeFixturesRejected": true,
+    "PromotionBlockPresent": true
+  },
+  "AllChecksPass": true,
+  "EvidenceBoundary": {
+    "JSONParsing": "PASS",
+    "PayloadSemanticValidation": "PASS",
+    "OverlayPairingValidation": "PASS",
+    "CrossArtifactHashAndBindingValidation": "PASS",
+    "NegativeFixtureStaticValidation": "PASS",
+    "Draft202012SchemaFileExecution": "NOT_RUN_SCHEMA_FILE_NOT_COLOCATED_IN_CURRENT_EXECUTION",
+    "ImporterExecution": "NOT_RUN",
+    "UE5Compile": "NOT_RUN",
+    "UE5Runtime": "NOT_RUN",
+    "TransactionRollbackExecution": "NOT_RUN",
+    "ReceiptPersistence": "NOT_RUN",
+    "SaveLoad": "NOT_RUN",
+    "Replay": "NOT_RUN",
+    "Performance": "NOT_RUN",
+    "PromotionToActivePackage": "PROHIBITED_PENDING_FULL_SOURCE_MANIFEST_HASH_RECONCILIATION_AND_EXECUTABLE_SCHEMA_IMPORTER_VALIDATION"
+  }
+}

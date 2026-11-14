@@ -1,0 +1,117 @@
+{
+  "AcceptanceId": "acceptance.seville_taifa.opening_state_1062.unreal_implementation_handoff.v1",
+  "InternalVersion": "1.0.0",
+  "Status": "ACCEPTANCE_AND_ROLLBACK_CONTRACT_DEFINED",
+  "Authority": {
+    "ProjectBible": "2.4",
+    "DesignExpansionChecklist": "3.7",
+    "ImplementationTarget": "Unreal Engine 5.8",
+    "OwningTheater": "Iberia",
+    "RealmRef": "realm.seville",
+    "ScenarioDate": "1062-01-01"
+  },
+  "SourceHandoff": {
+    "Filename": "Seville_Taifa_Opening_State_1062_V1_Unreal_Implementation_Agent_Handoff.md",
+    "InternalVersion": "1.0.0",
+    "Bytes": 16122,
+    "SHA256": "efd4460c2b5a2e75ed09bc1cc1c241d8039dfb76296955af27cc9fcee28480bb",
+    "HashDisposition": "RECORDED_FROM_GENERATION_RECEIPT_REVERIFY_AFTER_ONEDRIVE_PLACEMENT"
+  },
+  "BatchGates": {
+    "B0": {
+      "Required": [
+        "Project path verified",
+        "Controlling READMEs identified",
+        "Modules and plugins inventoried",
+        "Existing interfaces cited by project path",
+        "No source mutation"
+      ],
+      "Promotion": "B1 planning only"
+    },
+    "B1": {
+      "Required": [
+        "12 interface families reviewed",
+        "Zero unowned gaps",
+        "Zero Seville-local replacement frameworks",
+        "Dependency and owner graph accepted"
+      ],
+      "Promotion": "B2 feature-branch planning only"
+    },
+    "B2": {
+      "Required": [
+        "Canonical identity mapping complete",
+        "Three temporal tracks independent",
+        "18 owner requests",
+        "70 explicit empties",
+        "Zero definition-family runtime instances",
+        "Zero unsupported defaults"
+      ],
+      "Promotion": "B3 validate-only only"
+    },
+    "B3": {
+      "Required": [
+        "39 of 39 Opening fixtures pass",
+        "29 of 29 Definition fixtures pass",
+        "Zero authoritative mutations",
+        "Zero determinism mismatches"
+      ],
+      "Promotion": "B4 isolated test only"
+    },
+    "B4": {
+      "Required": [
+        "One atomic initial commit",
+        "One deterministic receipt",
+        "Repeat returns AlreadyApplied with zero mutations",
+        "Fatal paths zero mutation",
+        "Conflicting receipt rejected",
+        "Advanced save rejected"
+      ],
+      "Promotion": "B5 evidence testing only"
+    },
+    "B5": {
+      "Required": [
+        "Compile pass",
+        "Save/load pass",
+        "Direct migration pass",
+        "Replay determinism pass",
+        "Temporal persistence pass",
+        "Advanced divergence preserved"
+      ],
+      "Promotion": "B6 owner review only"
+    },
+    "B6": {
+      "Required": [
+        "Owner evidence review",
+        "Warnings dispositioned",
+        "No prohibited mutation",
+        "Promotion explicitly recorded"
+      ],
+      "Promotion": "No automatic production activation"
+    }
+  },
+  "GlobalStopConditions": [
+    "Expected Unreal project absent or wrong",
+    "Controlling documentation unresolved",
+    "OneDrive and project-local authority conflict",
+    "Required interface missing without owner",
+    "Seville-local replacement framework required",
+    "Three temporal tracks would collapse",
+    "Unknown or IntentionalEmpty would become guessed default",
+    "Fixtures rollback or deterministic evidence unavailable",
+    "Unauthorized Registry real-payload advanced-save or broad Unreal mutation attempted"
+  ],
+  "Rollback": {
+    "Inspection": "No mutation; preserve evidence",
+    "FeatureBranch": "Revert or discard branch after preserving inventory and test evidence",
+    "StagedResponses": "Discard all staged responses on failure",
+    "IsolatedState": "Restore pristine baseline",
+    "PartialCommitAllowed": false,
+    "FailedBatchPromotionAllowed": false
+  },
+  "CurrentGate": {
+    "Batch0Authorized": true,
+    "Batch1Authorized": false,
+    "UnrealMutationAuthorized": false,
+    "ProductionPromotionAuthorized": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "mw.schema.france.candidate.record-envelope.v1",
+  "type": "object",
+  "required": [
+    "DocumentControl",
+    "Records",
+    "ReviewQueue",
+    "Quarantine"
+  ],
+  "properties": {
+    "DocumentControl": {
+      "$ref": "france_candidate_document_control_v1.schema.json"
+    },
+    "Records": {
+      "type": "array"
+    },
+    "ReviewQueue": {
+      "type": "array"
+    },
+    "Quarantine": {
+      "type": "array"
+    },
+    "Validation": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

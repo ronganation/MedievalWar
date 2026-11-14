@@ -1,0 +1,24 @@
+{
+  "Result": "Pass",
+  "Checks": {
+    "requests_12": true,
+    "candidates_44": true,
+    "aliases_6": true,
+    "splits_10": true,
+    "uncertainty_32": true,
+    "selection_nulls": true,
+    "all_pending": true,
+    "owner_responses_zero": true,
+    "bindings_zero": true,
+    "opening_zero": true,
+    "three_tracks": true,
+    "balanced_fences": true,
+    "no_escaped_underscore": true,
+    "no_escaped_hyphen": true,
+    "no_em_dash": true,
+    "stable_footer_once": true,
+    "final_marker": true,
+    "honest_validation": true,
+    "next_file": true
+  }
+}

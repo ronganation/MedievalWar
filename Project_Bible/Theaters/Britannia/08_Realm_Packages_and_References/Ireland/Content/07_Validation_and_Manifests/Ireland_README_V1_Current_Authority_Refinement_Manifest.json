@@ -1,0 +1,20 @@
+{
+  "manifest_version": "1.0",
+  "method": "IrelandPackageControlCurrentAuthorityIndex",
+  "authority_file": "Ireland_README_V1_Current_Authority_Refinement.md",
+  "authority_bytes": 15006,
+  "authority_lines": 393,
+  "authority_sections": 20,
+  "authority_sha256": "b41b1ab55646b9a559eaa211dead1688b2c9ff9cb37a5feb6e8eb92674c68409",
+  "source_files_modified": 0,
+  "folders_created": 0,
+  "files_moved": 0,
+  "Registry_mutations": 0,
+  "Opening_State_mutations": 0,
+  "migration_executions": 0,
+  "Unreal_mutations": 0,
+  "static_check_file": "Ireland_README_V1_Current_Authority_Refinement_Static_Check.json",
+  "static_check_sha256": "e805cda4367e2f695ef3039c0bf7a18c255eca51d805a8a4b4712f271e9d56ae",
+  "all_checks_passed": true,
+  "validation_scope": "static package-control and navigation authority only; physical inventory, reference closure, owner decisions, deferred-scope disposition, and implementation evidence remain pending"
+}
